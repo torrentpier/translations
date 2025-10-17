@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = '알 수 없음';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = '다음';
 $lang['PREVIOUS_PAGE'] = '이전';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = '템플릿 캐시 삭제';
 $lang['DATASTORE_CLEARED'] = '데이터 저장소를 삭제 되었습니다';
 $lang['BOARD_DISABLE'] = '안,이 포럼을 사용할 수 없습니다. 려고 나중에 다시 올';
 $lang['BOARD_DISABLE_CRON'] = '포럼은 아래를 위해 유지 관리합니다. 려고 나중에 다시 올';
-$lang['ADMIN_DISABLE'] = '포럼을 사용하여 관리자,사용하도록 설정할 수 있습니다 언제든지';
-$lang['ADMIN_DISABLE_CRON'] = '포럼에 의해 잠 트리거 cron 작업,잠금을 제거할 수 있습니 언제든지';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = '포럼은 비활성화';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = '포럼은 아래 유지보수';
 $lang['ADMIN_UNLOCK'] = '사용 forum';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = '새로운 게시물[잠]';
 $lang['FORUM_LOCKED_MAIN'] = '포럼은 잠금';
 
 // Login
-$lang['ENTER_PASSWORD'] = '시 사용자 이름과 암호를 입력합니다.';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = '로그인';
 $lang['LOGOUT'] = '로그 아웃';
 $lang['CONFIRM_LOGOUT'] = 'Are you sure you want to log out?';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = '삭제론 조사';
 $lang['MAX_SMILIES_PER_POST'] = '이모티콘 제한 %s 이모티콘을 초과했습니다.';
 
 $lang['ATTACH_SIGNATURE'] = '첨부 서명(서명을 변경할 수 있습 프로필)';
-$lang['NOTIFY'] = '나에게 통보할 때에 응답';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = '귀하의 메시지가 입력되었습니다.';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = '생일';
 $lang['HAPPY_BIRTHDAY'] = 'Happy Birthday!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = '생일 형식이 잘못 입력되었습니다.';
 $lang['AGE'] = '나이';
-$lang['BIRTHDAY_TO_HIGH'] = '이 사이트,허용하지 않는 사용자보다 오래된 %d 세';
-$lang['BIRTHDAY_TO_LOW'] = '이 사이트,허용하지 않는 사용자 yonger 보다 %d 세';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = '사용자가 생일 오늘: ';
 $lang['BIRTHDAY_WEEK'] = '사용자가 생일에 다음 %d 일:%s';
-$lang['NOBIRTHDAY_WEEK'] = '사용자가 없는 생일에서 곧 일 %d'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = '사용자가 없는 생일에서 곧 일 %d'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = '없이 사용자가 생일 오늘';
 $lang['BIRTHDAY_ENABLE'] = '도록일';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max-age';
 $lang['BIRTHDAY_MIN_AGE'] = '최소 나이';
-$lang['BIRTHDAY_CHECK_DAY'] = '일에 대한 확인 온 곧 생일';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = '세';
 
 $lang['NO_THEMES'] = 'No 테마에 데이터베이스';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = '미안하지만 이용자 이름으로 되어 �
 $lang['USERNAME_TOO_LONG'] = '당신의 이름은 너무 오래입니다.';
 $lang['USERNAME_TOO_SMALL'] = '당신의 이름을 너무 작습니다.';
 $lang['EMAIL_TAKEN'] = '죄송,하지만 전자 메일 주소는 이미 등록된 사용자니다.';
-$lang['EMAIL_BANNED'] = '죄송하지만,<b>%s</b> 주 금지되었습니다.';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = '죄송하지만,이메일 주소가 잘못되었습니다.';
 $lang['EMAIL_TOO_LONG'] = '귀하의 전자 메일이 너무 오래입니다.';
 $lang['SIGNATURE_TOO_LONG'] = '귀하의 서명은 너무 오래입니다.';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Dec';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => '아무 선택',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = '설명'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = '다운로드'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = '파일 크기';
 $lang['VIEWED'] = '조회';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '장\'%s\'비활성화되었으로 보는 관리,따라서 이것은 첨부 파일을 표시하지 않습니다.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = '에 추가할 수 없습 passkey<br /><br />
 $lang['BT_PASSKEY'] = '암호';
 $lang['BT_GEN_PASSKEY'] = '새로 만들고';
 $lang['BT_PASSKEY_VIEW'] = '보';
-$lang['BT_GEN_PASSKEY_NEW'] = "주의! 후 변경하는 새로운 암호,당신을 다시 다운로드해야 하는 모든 활동 급류! \n 확신을 만들고 싶은 새로 암호를니까?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = '일 수 있 포럼 발견';
 
 $lang['SEEDS'] = '씨';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = '지 않는 파일을 식별자!';
 $lang['CHANGE_TOR_TYPE'] = '입력 토런트를 성공적으로 변경된';
 $lang['DEL_TORRENT'] = '당신은 당신을 삭제하려면 토렌트니까?';
 $lang['DEL_MOVE_TORRENT'] = '당신은 당신을 삭제 이동합니다.';
-$lang['UNEXECUTED_RELEASE'] = '당신이 볼는 출시하기 전에 새로 만드는 수정의 형상이 없는!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = '의 상태를 변경 분포-%s';
-$lang['TOR_MOD_MSG'] = "안녕하세요,%s 니다.\n\n 상태[url=%s]your[/url] 배급 변경 [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = '에서 변경 디자인-%s';
-$lang['TOR_AUTH_MSG'] = "안녕하세요,%s 니다.\n\n 내 배급 변경-[url=%s]%s[/url]\n\n 다시 확인한다.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = '정';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The 정보를 전송하는 운영자입니다. 을 기대합니다.</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = '선택';
 $lang['SEED_BONUS'] = '보너스씨';
 $lang['EXCHANGE'] = 'Exchange';
 $lang['EXCHANGE_BONUS'] = 'Exchange 의 씨앗이너';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s 을 distribution</b> <br /> 을 교환하는 보너스 포인트에 %1$s 교통하는 것에 추가 합의 배포합니다.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = '가격';
 $lang['EXCHANGE_NOT'] = 'Exchange 사용할 수 없';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = '디자이너';
 $lang['LAST_IP'] = '마지막으로 IP:';
 $lang['REG_IP'] = '등록 IP:';
 $lang['OTHER_IP'] = '다른 IP:';
-$lang['ALREADY_REG_IP'] = '와 IP 주소가 이미 등록된 사용자 %s 니다. 하지 않은 경우 이전에 등록된 우리의 추적,메일을 <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = '숨겨진';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = 'Comment';
 
 // search
 $lang['SEARCH_S'] = '검색...';
-$lang['FORUM_S'] = '포럼';
-$lang['TRACKER_S'] = '에 추적';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = '여 info_hash';
 
 // copyright
 $lang['NOTICE'] = '다!주의!';
-$lang['COPY'] = '사이트을 제공하지 않습의 전자 버전 제품,종사하에서만 수집의 목록은 참조를 보내고 출판 포럼에서 독자니다. 는 경우 법적 소유자의 제출된 모든 재료과하지 않는 것이 그것을 참조하던 우리 카탈로그,우리는 즉시 제거하는 그녀의합니다. 파일 교환을 위한 추적에 주어진 사용자에 의해,사이트의하고 관리하지 않는 책임을 부담을 위한 그들의 유지 관리합니다. 요청을 채우지 않는 파일에 저작권에 의해 보호됩고,또한 파일의 불법 유지보수!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = '붕괴 디렉토리';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = '확장';
 $lang['SWITCH'] = '스위치';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = '지 않는 파일을 식별자!';
-$lang['TOR_NOT_FOUND'] = '파일이 없는 서버에!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = '콘텐츠의 이 torrent 파일을 수 있는지에 표시되는 사이트(이하지 않게 가능한 파일 목록을 작성)';
 $lang['TORFILE_INVALID'] = 'Torrent 파일이 손상되었습니다';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"사이트"이 포함될 수 있습만 http://sitename';
-$lang['ICQ_ERROR'] = '현장의"ICQ"만 포함될 수 있 icq 번호';
-$lang['INVALID_DATE'] = '오류 날짜 ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = '프로필 보기';
 $lang['GOOD_UPDATE'] = '성공적으로 변경된';
 $lang['UCP_DOWNLOADS'] = '다운로드';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = '당신은 당신을 삭제하려는 이용자가
 $lang['USER_DELETED'] = '사용자가 성공적으로 삭제';
 $lang['DELETE_USER_ALL_POSTS'] = '모두 삭제 사용자의 게시물';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = '당신은 당신이 원하는 모든 메시지를 삭제하고 모든 항목에 의해 시작되 이 사용자가?';
-$lang['DELETE_USER_POSTS'] = '모두 삭제 메시지를 제외하고,자본';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Are you sure you want to delete 내 모든 게시물을까?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = '당신은 당신을 삭제하려는 모든 메시지를 제외하고,자본?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = '게시물이 성공적으로 제거';
 
 $lang['USER'] = '사용자';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = '권한이 없습을 보려면 숨겨진 그룹';
 
 $lang['USER_ACTIVATE'] = '활성화';
 $lang['USER_DEACTIVATE'] = '비활성화';
-$lang['DEACTIVATE_CONFIRM'] = '당신은 당신을 사용하려면 이 사용자가?';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = '사용자가 성공적으로 활성화';
 $lang['USER_DEACTIVATE_ME'] = '할 수 있는지를 비활성화 내 계정!';
 $lang['ACTIVATE_CONFIRM'] = '당신은 당신이 사용하지 않으려는 이용자가?';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = '지정해야 합니다 e-mail';
 $lang['CHOOSE_PASS'] = '필드에 비밀번호 비어 있을 수 없습니다!';
 $lang['CHOOSE_PASS_ERR'] = '입력한 비밀번호가 일치하지 않습니다.';
 $lang['CHOOSE_PASS_ERR_MIN'] = '비밀번호해야합니다 적어도 %d 자';
-$lang['CHOOSE_PASS_ERR_MAX'] = '비밀번호 더 이상 없어야합니다 $d 자';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = '비밀번호를 변경하려면 당신이 올바�
 $lang['EMAILER_DISABLED'] = '이 기능은 일시적으로 작동하지 않는';
 $lang['TERMS_ON'] = '나는 이 약관에 동의하고 조건';
 $lang['TERMS_OFF'] = '동의하지 않는 이 약관';
-$lang['JAVASCRIPT_ON_REGISTER'] = '등록하려면,머리에 필요한 자바 스크립트 사용';
-$lang['REGISTERED_IN_TIME'] = "순간에 등록 closed<br /><br />You 등록할 수 있습니 01:00~17:00MSK(지금 " . date('H:i') . " MSK)<br /><br />We 사이 불편";
-$lang['AUTOCOMPLETE'] = '암호 생성';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = '하는 새로운 비밀번호:';
 $lang['REGENERATE'] = '재생';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = '주문 목록:[=]text[/list](Ctrl+O)';
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = '견적 선택';
-$lang['JAVASCRIPT_ON'] = '머리에 필요한 메시지를 보내 자바스크립트 사용';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = '뉴';
 $lang['NEWEST'] = '최신';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'Ban 컨트롤';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'Ban 하나 이상의 특정 사용자';
 $lang['BAN_USERNAME_EXPLAIN'] = '금지할 수 있습에서 여러 사용자 중 하나를 사용하여 이동의 적절한 조합 마우스 및 키보드와 컴퓨터 브라우저';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = '할 수 있습 접근을 허용한 여러 사용자가에서 한 가지를 사용하여 적절한 조합의 마우스 및 키보드와 컴퓨터 브라우저';
 $lang['NO_BANNED_USERS'] = '아 금지된 사용자 이름';
 $lang['BAN_UPDATE_SUCESSFUL'] = '의 의 banlist 는가 성공적으로 업데이트되었습니다';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = '이 양식을 사용하여 추가할 수 있고,편집
 $lang['ADD_NEW_RANK'] = '추가로 새로운 순위';
 $lang['RANK_TITLE'] = '순위 제목';
 $lang['STYLE_COLOR'] = '스타일 순위';
-$lang['STYLE_COLOR_FAQ'] = '지정 등에 대한 그림의 제목은 원하는 색입니다. 예를 들어 <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = '순위를 이미지';
 $lang['RANK_IMAGE_EXPLAIN'] = '이를 사용하여 정의 작은 이미지와 관련 순위';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = '관리자만';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s 볼 수 있습니다 이 포럼';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s 읽을 수 있는 이 포럼에 게시물';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s 게시할 수 있는 이 포럼에서';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s 대답할 수 있다는 게시물이 포럼';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s 편집할 수 있는 이 포럼에 게시물';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s 삭제할 수 있습니다 이 포럼에 게시물';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s 게시할 수 있는 끈끈한 주제 이 포럼에서';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. 길이의 뉴스';
 $lang['NEWS_COUNT'] = '얼마나 많은 뉴스를 표시';
-$lang['NEWS_FORUM_ID'] = '무엇에서 포럼을 표시 <br /> <h6>Of 여러 포럼에 올리고,쉼표로 구분됩니다. 예 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = '아바타';
 $lang['TRACKER_STATS'] = '에 대한 통계 추적기';
 $lang['WHOIS_INFO'] = 'IP 주소에 대한 정보';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = '수 boolean 전체 텍스트 검색';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '사용*,+,-,..에서 검색';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "기타";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "사용자 표시 UL/DL 에서 통계 최고의 포럼의 주요 페이지";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = '자동으로 등록 토렌트에 추적자에 대한 새로운 주제';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = '변화제 상태를"다운로드"등록하는 동안 토렌트에 추적';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = '이 변경 항목을 입력하"다운로드"에 관계없이 포럼 설정';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = '사';
 $lang['RUN_MAIN_CRON'] = '시작 cron';
 $lang['ADD_JOB'] = '추가 cron 작업';
 $lang['DELETE_JOB'] = 'Are you sure you want to delete cron 작업을까?';
-$lang['CRON_WORKS'] = 'Cron 작동하거나 부서지> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = '수리 Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = '편집 작업';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Disable 보드';
 $lang['BOARD_DISABLE_EXPL'] = '해제하면 이 작업이 실행';
 $lang['RUN_COUNTER'] = '실행 카운터';
 
-$lang['JOB_REMOVED'] = '문제는 성공적으로 제거';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = '스크립트 <b>' . @$_POST['cron_script'] . '</b> 이미 존재합니다!';
 $lang['TITLE_DUPLICATE'] = '작업름 <b>' . @$_POST['cron_title'] . '</b> 이미 존재합니다!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn 추가 problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack 작업 Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = '다시 검색 색인';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = '얼마나 많은 시간(초)숙박 시설휴로
 
 $lang['TIME_LIMIT'] = '시간이 제한';
 $lang['TIME_LIMIT_EXPLAIN'] = '얼마나 많은 시간(초)후 처리할 수 있는 마지막으로 이동하기 전에 다음 주기';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your php(안전모드)시간 제한 %s 초 구성되어,그래서 이 value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your 웹서버는 시간 제한 %s 초 구성되어,그래서 이 value</i>';
 
 $lang['DISABLE_BOARD'] = 'Disable 보드';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = '입력하신 몇 가지 잘못된 값입니다. 을 확�
 $lang['PROCESSING'] = 'Processing...';
 $lang['FINISHED'] = '완료';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = '항목 분리되었습니다. 새로운 주제-[b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = '항목 분리되었습에서 [b]%s[/b][br][br]%s';
 
