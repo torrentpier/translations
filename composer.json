@@ -1,0 +1,39 @@
+{
+  "name": "torrentpier/translations",
+  "description": "Composer package with TorrentPier localization files in different languages",
+  "type": "library",
+  "keywords": [
+    "torrentpier",
+    "translations",
+    "i18n",
+    "l10n",
+    "crowdin"
+  ],
+  "homepage": "https://github.com/torrentpier",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Exile",
+      "email": "admin@torrentpier.com",
+      "homepage": "https://github.com/Exileum",
+      "role": "Developer"
+    },
+    {
+      "name": "belomaxorka",
+      "email": "roman25052006.kelesh@gmail.com",
+      "homepage": "https://github.com/belomaxorka",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@torrentpier.com",
+    "issues": "https://github.com/torrentpier/torrentpier/issues",
+    "forum": "https://torrentpier.com"
+  },
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "classmap": ["languages/"]
+  }
+}

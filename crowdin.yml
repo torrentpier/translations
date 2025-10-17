@@ -1,0 +1,12 @@
+files:
+  # Main translation files
+  - source: /languages/source/*.*
+    translation: /languages/%two_letters_code%/%original_file_name%
+
+  # Email templates
+  - source: /languages/source/email/*.*
+    translation: /languages/%two_letters_code%/email/%original_file_name%
+
+  # HTML templates
+  - source: /languages/source/html/*.*
+    translation: /languages/%two_letters_code%/html/%original_file_name%
