@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'למצוא נושאים המשתמש'; // Find al
 $lang['NO_USER_ID_SPECIFIED'] = 'מצטער, אבל משתמש זה אינו קיים.';
 $lang['WRONG_PROFILE'] = 'לא ניתן לשנות פרופיל זה היא לא שלך.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'רק סוג אחד של האווטאר יכול להיות מוגדר';
 $lang['FILE_NO_DATA'] = 'את הקובץ בכתובת האתר שנתת לא מכיל נתונים';
 $lang['NO_CONNECTION_URL'] = 'חיבור לא יכול להיות עשה את כתובת האתר שנתת';
 $lang['INCOMPLETE_URL'] = 'הכתובת שהזנת אינה שלמה';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'הקובץ המצורף הוא גדול מד�
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'הקובץ המצורף הוא גדול מדי.<br />Maximum טען גודל: %d MB.<br />Please שימו לב כי גודל זה מוגדר ב-php.ini, זה אומר זה נקבע על ידי PHP ו את הקובץ Mod לא יכול לעקוף ערך זה.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'הסיומת %s אסור'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'אתה לא רשאי לפרסם קבצים עם סיומת %s בתוך הפורום הזה'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'הקובץ המצורף הוא גדול מדי.<br />Max גודל: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'מצטער, אבל את גודל קובץ מקסימלי עבור כל הקבצים המצורפים, היא הגיעה. אנא צור קשר עם המנהל הראשי של המערכת אם יש לך שאלות.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'קובץ מצורף יכול להיות הוסיף, מאז מקס. מספר %d מצורפים בפוסט הזה הושג'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'את הקובץ/תמונה חייב להיות פחות מ %d פיקסלים רוחב ו %d פיקסלים גבוהה';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[קוד]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'לחזור עריכה';
 $lang['PROFILE_RETURN'] = 'עבור אל הפרופיל';
 
 $lang['WARNING'] = 'אזהרה';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex חיפוש';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'פורום בסגנון';
