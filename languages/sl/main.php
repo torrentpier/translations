@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Poiščite uporabnika teme'; // Find all topics b
 $lang['NO_USER_ID_SPECIFIED'] = 'Žal mi je, ampak, da uporabnik ne obstaja.';
 $lang['WRONG_PROFILE'] = 'Ne morete spremeniti profil, ki ni vaše.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Samo eno vrsto avatar lahko določeni';
 $lang['FILE_NO_DATA'] = 'Datoteke na URL, ki ga je dal, ne vsebuje podatkov';
 $lang['NO_CONNECTION_URL'] = 'Povezave ni bilo mogoče vzpostaviti na URL, ki ga je dal';
 $lang['INCOMPLETE_URL'] = 'URL, ki ste ga vnesli, je nepopolna';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Prilogo je prevelika.<br />Could ni dobil naj
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Prilogo je prevelika.<br />Maximum Upload Velikost: %d MB.<br />Please upoštevajte, da to Velikost je določena v php.ini, to pomeni, da je nastavitev za PHP in Priloge Mod ne more prevladati nad to vrednostjo.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Razširitev %s ni dovoljeno'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nimate dovoljenja za objavljanje Datotek s Končnico %s v tem Forumu'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Prilogo je prevelika.<br />Max Velikost: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Žal mi je, ampak največja velikost datoteke za vse Priponke je dosegel. Obrnite Odbora Skrbnik, če imate vprašanja.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Prilogo je ni mogoče dodati, ker je max. število %d Priloge v ta post je bil dosežen'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Prilogo/Slike mora biti manj kot %d pikslov in %d pikslov';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kodo]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Vrnitev za urejanje';
 $lang['PROFILE_RETURN'] = 'Pojdite na profil';
 
 $lang['WARNING'] = 'Opozorilo';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex iskanje';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum slog';
