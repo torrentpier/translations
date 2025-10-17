@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'La administración de';
+$lang['ADMIN'] = 'Administración';
 $lang['FORUM'] = 'Foro';
 $lang['CATEGORY'] = 'Categoría';
 $lang['HIDE_CAT'] = 'Ocultar categorías';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = 'Desconocido';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = 'Siguiente';
 $lang['PREVIOUS_PAGE'] = 'Anterior';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Plantilla de caché ha sido borrado';
 $lang['DATASTORE_CLEARED'] = 'Almacén de datos ha sido desactivada';
 $lang['BOARD_DISABLE'] = 'Lo siento, este foro está deshabilitado. Intente volver más tarde';
 $lang['BOARD_DISABLE_CRON'] = 'Foro desactivado por tareas de mantenimiento. Intente volver más tarde';
-$lang['ADMIN_DISABLE'] = 'el foro está deshabilitado por el administrador, se puede activar en cualquier momento';
-$lang['ADMIN_DISABLE_CRON'] = 'foro bloqueado por el gatillo cron job, puede quitar un bloqueo en cualquier momento';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'El foro está deshabilitado';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foro desactivado por tareas de mantenimiento';
 $lang['ADMIN_UNLOCK'] = 'Habilitar el foro';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Puestos nuevos [ Bloqueado ]';
 $lang['FORUM_LOCKED_MAIN'] = 'El foro está cerrado';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Por favor, introduzca nombre de usuario y contraseña para iniciar sesión en.';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'Registro en';
 $lang['LOGOUT'] = 'La sesión';
 $lang['CONFIRM_LOGOUT'] = '¿Estás seguro de que deseas salir?';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = 'Eliminar encuesta';
 $lang['MAX_SMILIES_PER_POST'] = 'Emoticonos límite de %s emoticonos superado.';
 
 $lang['ATTACH_SIGNATURE'] = 'Adjuntar firma (firmas puede ser cambiada en el perfil)';
-$lang['NOTIFY'] = 'Notificarme cuando en las respuestas';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'Su mensaje ha sido introducido correctamente.';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = 'Cumpleaños';
 $lang['HAPPY_BIRTHDAY'] = 'Feliz Cumpleaños!!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'El cumpleaños formato fue introducido incorrectamente.';
 $lang['AGE'] = 'Edad';
-$lang['BIRTHDAY_TO_HIGH'] = 'Lo sentimos, este sitio no acepta el usuario mayores de %d años de edad';
-$lang['BIRTHDAY_TO_LOW'] = 'Lo sentimos, este sitio no acepta el usuario yonger de %d años de edad';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Los usuarios con un cumpleaños de hoy: ';
 $lang['BIRTHDAY_WEEK'] = 'Los usuarios con un cumpleaños en los próximos %d días: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'Los usuarios No están teniendo un cumpleaños en los próximos %d días'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'Los usuarios No están teniendo un cumpleaños en los próximos %d días'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Los usuarios No tienen un cumpleaños el día de hoy';
 $lang['BIRTHDAY_ENABLE'] = 'Habilitar cumpleaños';
 $lang['BIRTHDAY_MAX_AGE'] = 'La edad máxima';
 $lang['BIRTHDAY_MIN_AGE'] = 'Edad mín';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Días para comprobar por venir en breve cumpleaños';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = 'Años';
 
 $lang['NO_THEMES'] = 'No Temas En la base de datos';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Lo siento, pero este usuario ha sido desestimado
 $lang['USERNAME_TOO_LONG'] = 'Su nombre es demasiado largo.';
 $lang['USERNAME_TOO_SMALL'] = 'Su nombre es demasiado pequeño.';
 $lang['EMAIL_TAKEN'] = 'Lo siento, pero que la dirección de correo electrónico ya está registrado por un usuario.';
-$lang['EMAIL_BANNED'] = 'Lo sentimos, pero <b>%s</b> dirección ha sido prohibido.';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = 'Lo siento, pero esta dirección de correo electrónico no es válida.';
 $lang['EMAIL_TOO_LONG'] = 'Su correo electrónico es demasiado largo.';
 $lang['SIGNATURE_TOO_LONG'] = 'Tu firma es demasiado larga.';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Dec';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'No seleccione',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = 'Descripción'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Descargar'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = 'Ver';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'La Extensión \'%s\' fue desactivado por un consejo de administración, por lo tanto, este Accesorio no se muestra.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'No se pudo agregar passkey<br /><br />Torren
 $lang['BT_PASSKEY'] = 'Clave de acceso';
 $lang['BT_GEN_PASSKEY'] = 'crear una nueva';
 $lang['BT_PASSKEY_VIEW'] = 'mostrar';
-$lang['BT_GEN_PASSKEY_NEW'] = "Atención! Después de cambiar la nueva clave de acceso, usted tendrá que volver a descargar todos los activos torrents! \n ¿Está seguro de que desea crear una nueva clave?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Ninguna de búsqueda de los foros encontrado';
 
 $lang['SEEDS'] = 'La semilla';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Falta de identificador de archivo!';
 $lang['CHANGE_TOR_TYPE'] = 'Escriba el torrent cambiado correctamente';
 $lang['DEL_TORRENT'] = 'Está usted seguro de que quiere borrar el torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Está seguro de que desea eliminar y mover el tema?';
-$lang['UNEXECUTED_RELEASE'] = '¿Tiene usted un informe de la liberación antes de la creación de una nueva revisión de su informe!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Cambiar el estado de la distribución de %s';
-$lang['TOR_MOD_MSG'] = "Hola, %s.\n\n Estado de [url=%s]your[/url] de distribución se cambia a [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Cambios en el diseño - %s';
-$lang['TOR_AUTH_MSG'] = "Hola, %s.\n\n Haciendo mi distribución cambiado, [url=%s]%s[/url]\n\n por Favor, vuelva a comprobar.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = 'Fijo';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The información que se envía al moderador. Esperar.</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Seleccione';
 $lang['SEED_BONUS'] = 'La semilla de bonificación';
 $lang['EXCHANGE'] = 'Intercambio';
 $lang['EXCHANGE_BONUS'] = 'Intercambio de semillas bonos';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s a distribution</b> <br /> Para el intercambio de puntos de bonificación en %1$s de tráfico que se añade a la suma de su distribución.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Precio';
 $lang['EXCHANGE_NOT'] = 'El intercambio no disponible';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Diseñador';
 $lang['LAST_IP'] = 'Última IP:';
 $lang['REG_IP'] = 'Registro de la propiedad intelectual:';
 $lang['OTHER_IP'] = 'Otros IP:';
-$lang['ALREADY_REG_IP'] = 'Con su dirección IP ya es usuario registrado %s. Si no te has registrado en nuestro tracker, correo <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'Oculto';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = 'Comentario';
 
 // search
 $lang['SEARCH_S'] = 'la búsqueda...';
-$lang['FORUM_S'] = 'en el foro';
-$lang['TRACKER_S'] = 'en tracker';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'por info_hash';
 
 // copyright
 $lang['NOTICE'] = '!ATENCIÓN!';
-$lang['COPY'] = 'El sitio no da versiones electrónicas de los productos, y se dedican sólo en una recopilación y catalogación de las referencias enviadas y publicadas en un foro por parte de nuestros lectores. Si eres el propietario legal de cualquier material presentado y no desea que la referencia fue en nuestro catálogo, póngase en contacto con nosotros y procederemos a eliminar inmediatamente de ella. Los archivos de intercambio en tracker son dadas por los usuarios de un sitio, y la administración no asumirá la responsabilidad de su mantenimiento. La solicitud de no llenar en los archivos protegidos por derechos de autor, y también los archivos de el mantenimiento ilegal!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'El colapso de directorio';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = 'Ampliar';
 $lang['SWITCH'] = 'Interruptor de';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = 'Falta de identificador de archivo!';
-$lang['TOR_NOT_FOUND'] = 'Falta el archivo en el servidor!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'El contenido de este archivo torrent no puede ser visto en el sitio (que no era posible crear una lista de archivos)';
 $lang['TORFILE_INVALID'] = 'Torrent el archivo está dañado';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'El "sitio" sólo puede contener http://sitename';
-$lang['ICQ_ERROR'] = 'El campo de "ICQ" sólo puede contener número de icq';
-$lang['INVALID_DATE'] = 'Error de fecha ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = 'Ver perfil';
 $lang['GOOD_UPDATE'] = 'se cambió correctamente';
 $lang['UCP_DOWNLOADS'] = 'Descargas';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Está seguro de que desea borrar este usuario?';
 $lang['USER_DELETED'] = 'El usuario se ha eliminado correctamente';
 $lang['DELETE_USER_ALL_POSTS'] = 'Eliminar todos los mensajes del usuario';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Está seguro de que desea borrar todos los mensajes y todos los temas comenzados por este usuario?';
-$lang['DELETE_USER_POSTS'] = 'Eliminar todos los mensajes, excepto para el capital';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Está seguro de que desea borrar todos mis mensajes?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Está seguro de que desea borrar todos los mensajes, excepto para el capital?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = 'Los puestos fueron eliminado con éxito';
 
 $lang['USER'] = 'Usuario';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Usted no está autorizado a ver los ocultos grupos
 
 $lang['USER_ACTIVATE'] = 'Activar';
 $lang['USER_DEACTIVATE'] = 'Desactivar';
-$lang['DEACTIVATE_CONFIRM'] = 'Estás seguro de que desea activar este usuario?';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'El usuario ha sido activado correctamente';
 $lang['USER_DEACTIVATE_ME'] = 'No se puede desactivar mi cuenta!';
 $lang['ACTIVATE_CONFIRM'] = 'Está seguro de que desea deshabilitar este usuario?';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'Debe especificar la dirección de e-mail';
 $lang['CHOOSE_PASS'] = 'Campo para la contraseña no debe estar vacío!';
 $lang['CHOOSE_PASS_ERR'] = 'Las contraseñas introducidas no coinciden';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Su contraseña debe ser de al menos %d caracteres';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Su contraseña debe ser de no más de $d caracteres';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'Para cambiar la contraseña, debe especificar cor
 $lang['EMAILER_DISABLED'] = 'Lo sentimos, esta función no está temporalmente de trabajo';
 $lang['TERMS_ON'] = 'Estoy de acuerdo con estos términos y condiciones';
 $lang['TERMS_OFF'] = 'No estoy de acuerdo con estos términos';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Para inscribirse, los jefes necesario activar JavaScript';
-$lang['REGISTERED_IN_TIME'] = "En el momento de registro es closed<br /><br />You puede registrarse a partir de la 01:00 a 17:00 MSK (ahora " . date('H:i') . " MSK)<br /><br />We disculpas por este inconveniente";
-$lang['AUTOCOMPLETE'] = 'Contraseña generar';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'Tu nueva contraseña:';
 $lang['REGENERATE'] = 'Regenerar';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = 'Lista ordenada: [list=]text[/list] (Ctrl+O)';
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Cita seleccionada';
-$lang['JAVASCRIPT_ON'] = 'Los jefes necesario para enviar mensajes a habilitar JavaScript';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = 'Nuevo';
 $lang['NEWEST'] = 'Nuevo';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'Prohibición De Control De';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'La prohibición de uno o más usuarios específicos';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Se le puede prohibir a varios usuarios en un solo paso mediante la adecuada combinación de ratón y teclado de su ordenador y el navegador';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Usted puede desbloquear a varios usuarios en un solo paso mediante la adecuada combinación de ratón y teclado de su ordenador y el navegador';
 $lang['NO_BANNED_USERS'] = 'No prohibidos los nombres de usuario';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'La banlist se ha actualizado correctamente';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'A través de este formulario usted puede agregar, modi
 $lang['ADD_NEW_RANK'] = 'Añadir nuevo rango';
 $lang['RANK_TITLE'] = 'Rango De Título';
 $lang['STYLE_COLOR'] = 'Estilo de rango';
-$lang['STYLE_COLOR_FAQ'] = 'Especificar la clase de pintura en el título del color deseado. Por ejemplo <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'El Rango De La Imagen';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Utilice esta opción para definir una pequeña imagen asociada con rango';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Sólo los administradores';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s puede ver este foro';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s puede leer mensajes en este foro';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s pueden publicar en este foro';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s puede responder a los mensajes de este foro';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s puede editar mensajes en este foro';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s puede eliminar mensajes en este foro';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s puede publicar pegajosos temas en este foro';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = 'Sincronización';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. la longitud de la noticia';
 $lang['NEWS_COUNT'] = 'Cuántas noticias';
-$lang['NEWS_FORUM_ID'] = 'De qué foros para mostrar <br /> <h6>Of los varios foros plantea, separados por comas. Ejemplo 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Sin avatar';
 $lang['TRACKER_STATS'] = 'Las estadísticas sobre el tracker';
 $lang['WHOIS_INFO'] = 'Información sobre la dirección IP';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Permitir booleano búsquedas de texto completo';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'uso *, +, -,.. en las búsquedas';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Miscelánea";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Mostrar a los usuarios UL/DL estadísticas en la parte superior del foro de la página principal";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Registrar automáticamente torrent en tracker de nuevos temas';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Tema del cambio de estado a "Descargar", mientras que el registro de torrent en el tracker';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'va a cambiar de tipo de tema para "Descargar", independientemente de la configuración del foro';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Habilitar';
 $lang['RUN_MAIN_CRON'] = 'Inicio cron';
 $lang['ADD_JOB'] = 'Agregar cron job';
 $lang['DELETE_JOB'] = 'Estás seguro de que desea eliminar el trabajo cron?';
-$lang['CRON_WORKS'] = 'Cron es ahora funciona o está roto -> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = 'Reparación De Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Editar trabajo';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Deshabilitar la junta';
 $lang['BOARD_DISABLE_EXPL'] = 'deshabilitar la junta directiva cuando esta se ejecuta el trabajo de';
 $lang['RUN_COUNTER'] = 'Van en contra de';
 
-$lang['JOB_REMOVED'] = 'El problema ha sido eliminado correctamente';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> ya existe!';
 $lang['TITLE_DUPLICATE'] = 'Nombre De La Tarea <b>' . @$_POST['cron_title'] . '</b> ya existe!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn a la adición problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack a la Tarea Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Reconstruir El Índice De Búsqueda';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Cuánto tiempo (en segundos) para permanecer in
 
 $lang['TIME_LIMIT'] = 'Límite de tiempo';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Cuánto tiempo (en segundos) de post-procesamiento puede durar antes de pasar al siguiente ciclo';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your php (modo seguro) tiene un tiempo de espera de %s segundos configurado, por lo que permanece por debajo de este value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your servidor web tiene un tiempo de espera de %s segundos configurado, por lo que permanece por debajo de este value</i>';
 
 $lang['DISABLE_BOARD'] = 'Deshabilitar la junta';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = 'Se han introducido algunos de los valores equivocados. P
 $lang['PROCESSING'] = 'Procesamiento de...';
 $lang['FINISHED'] = 'Terminado';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'El tema se ha dividido. Nuevo tema - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'El tema se ha dividido de [b]%s[/b][br][br]%s';
 
