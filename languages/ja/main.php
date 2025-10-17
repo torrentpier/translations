@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = '見つユーザー課題'; // Find all topics by 
 $lang['NO_USER_ID_SPECIFIED'] = '申し訳ございません、あなたのユーザーは存在しない。';
 $lang['WRONG_PROFILE'] = '変更できませんのプロファイルになります。';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'みタイプのアバターに指定できる';
 $lang['FILE_NO_DATA'] = 'ファイルのURLやりくりは夫婦で別にされていま含まないデータ';
 $lang['NO_CONNECTION_URL'] = '接続できませんでしたURLへのやりくりは夫婦で別にされていま';
 $lang['INCOMPLETE_URL'] = 'URLを入力された不完全';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = '添付ファイルは大きすぎます。<br
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '添付ファイルは大きすぎます。<br />Maximumアップロードサイズ:%d応募を推奨いたします。<br />Pleaseなお、このサイズを定義してクリアしました。iniは、この設定はPHPの添付Modできませんこのメソッドをオーバーライドす。'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'の延長%sが許可されない'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'ことができませんのでポストのファイルの拡張子%sこのフォーラム'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = '添付ファイルは大きすぎます。<br />Maxサイズ：%s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = '申し訳ございません、あなたの最大filesizeのためのすべての添付ファイルできます。 お板の管理者な手続き"をご一読いただきます。';
 $lang['TOO_MANY_ATTACHMENTS'] = '別紙に追加できないので、最大です。 数%d添付ファイルをこの募集でしたが実現'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'の添付画像よりも大きな%dピクセル幅%dピクセルの高';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[コード]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = '戻り編集';
 $lang['PROFILE_RETURN'] = 'の概要';
 
 $lang['WARNING'] = '警告';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex検索';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'フォーラムスタイル';
