@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Finn brukeren emner'; // Find all topics by usern
 $lang['NO_USER_ID_SPECIFIED'] = 'Beklager, men at brukeren ikke eksisterer.';
 $lang['WRONG_PROFILE'] = 'Du kan ikke endre en profil som ikke er din egen.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Bare én type avatar kan være angitt';
 $lang['FILE_NO_DATA'] = 'Filen på den URL-en du ga inneholder ingen data';
 $lang['NO_CONNECTION_URL'] = 'En tilkobling kan ikke bli gjort til den URL-en du ga';
 $lang['INCOMPLETE_URL'] = 'Adressen du har oppgitt, er ufullstendig';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Vedlegget er for stor.<br />Could ikke få ma
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Vedlegget er for stor.<br />Maximum Opplasting Størrelse: %d MB.<br />Please oppmerksom på at denne Størrelsen er definert i php.ini, dette betyr at det er satt av PHP og Vedlegg Mod kan ikke overstyre denne verdien.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Utvidelsen %s er ikke tillatt'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Du har ikke lov til å legge ut Filer med Filtypen %s i dette Forumet'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Vedlegget er for stor.<br />Max Størrelse: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Beklager, men maksimal filstørrelse for alle Vedlegg er nådd. Kontakt Styret Administratoren hvis du har spørsmål.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Vedlegg kan legges til, siden maks. antall %d Vedlegg i dette innlegget ble oppnådd'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Vedlegg/Bilde må være mindre enn %d piksler bredt og %d punkter høy';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kode]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Gå tilbake til redigering';
 $lang['PROFILE_RETURN'] = 'Gå til profil';
 
 $lang['WARNING'] = 'Advarsel';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex søk';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum stil';
