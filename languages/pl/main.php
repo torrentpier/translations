@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Znajdź tematy użytkownika'; // Find all topics 
 $lang['NO_USER_ID_SPECIFIED'] = 'Przepraszam, ale takiego użytkownika nie istnieje.';
 $lang['WRONG_PROFILE'] = 'Nie można zmienić profil, który nie jest twoim własnym.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Może być określony tylko jeden typ avatar';
 $lang['FILE_NO_DATA'] = 'Plik URL, który dałeś nie zawiera danych';
 $lang['NO_CONNECTION_URL'] = 'Połączenie nie może być zrobione, aby adres URL, który dałeś';
 $lang['INCOMPLETE_URL'] = 'Adres URL, który podałeś niekompletne';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Załącznik jest zbyt duży.<br />Could nie d
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Załącznik jest zbyt duży.<br />Maximum Rozmiar pliku do pobrania: %d MB.<br />Please zauważyć, że wartość ta jest określona w PHP.ini, to oznacza, że jest ustawiony na PHP i załącznik mod nie możesz zmienić to ustawienie.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Rozszerzenie %s nie jest dozwolone'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nie wolno umieszczać pliki z rozszerzeniem %s w ramach tego forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Załącznik jest zbyt duży.Rozmiar <br />Max: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Przepraszam, ale maksymalny rozmiar dla wszystkich aplikacji osiągnięty. Proszę skontaktować się z Administratorem, jeśli masz pytania.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Załączników nie może być dodany, ponieważ maksimum. ilość %d załączników w wiadomości osiągnąć'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Załączniki/zdjęcia powinny być nie mniej %d pikseli szerokości i %d pikseli';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = 'Ta opcja jest tylko dla super adminów';
 
 $lang['LOGS'] = 'Historia tematu';
 $lang['FORUM_LOGS'] = 'Forum Historii';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = 'Automatyczne czyszczenie';
 $lang['DESIGNER'] = 'Projektant';
 
 $lang['LAST_IP'] = 'Ostatni IP:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kod]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Powrócić do edycji';
 $lang['PROFILE_RETURN'] = 'Przejdź do profilu';
 
 $lang['WARNING'] = 'Ostrzeżenie';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Wyszukaj sporządzanie';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Styl forum';
