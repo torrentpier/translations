@@ -1050,7 +1050,7 @@ $lang['COUNTRIES'] = [
     'DK' => 'Denmark',
     'DM' => 'Dominica',
     'DO' => 'Dominican Republic',
-    'DZ' => 'Algeria',
+    'DZ' => 'American Samoa',
     'EC' => 'Ecuador',
     'EE' => 'Estonia',
     'EG' => 'Egypt',
@@ -3106,7 +3106,7 @@ $lang['NEW_POLL_M_VOTES'] = 'Options';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Each row corresponds to one answer (max';
 
 $lang['OLD_BROWSER'] = 'You are using an outdated browser. The website will not display correctly.';
-$lang['GO_BACK'] = 'Go Back';
+$lang['GO_BACK'] = 'Go back';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
 $lang['UPLOAD_ERROR_COMMON'] = 'File upload error';
