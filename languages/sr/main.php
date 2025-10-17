@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'Управљање';
+$lang['ADMIN'] = 'Администрација';
 $lang['FORUM'] = 'Форум';
 $lang['CATEGORY'] = 'Категорија';
 $lang['HIDE_CAT'] = 'Сакриј категорије';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = 'Непознато';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = 'Даље';
 $lang['PREVIOUS_PAGE'] = 'Претходних';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Кеш образац је био ослобо�
 $lang['DATASTORE_CLEARED'] = 'Спремиште је био очишћен';
 $lang['BOARD_DISABLE'] = 'Нажалост, на овом форуму је онемогућена. Ја ћу покушати да се вратите касније';
 $lang['BOARD_DISABLE_CRON'] = 'Форум је затворен за одржавање. Ја ћу покушати да се вратите касније';
-$lang['ADMIN_DISABLE'] = 'форум је онемогућено од стране администратора, можете да га укључите у било ком тренутку';
-$lang['ADMIN_DISABLE_CRON'] = 'форум је блокиран пусти окидач хрон, можете да уклоните катанац у било које време';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'На форуму је онемогућен';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форум је затворен за одржавање';
 $lang['ADMIN_UNLOCK'] = 'Омогући форум';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Нове поруке [ закључани ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Форум је блокиран';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Молимо вас, унесите корисничко име и лозинку за пријављивање на систем.';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'Пријавите се у';
 $lang['LOGOUT'] = 'Изаћи';
 $lang['CONFIRM_LOGOUT'] = 'Да ли сте сигурни да желите да изађете?';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = 'Анкета уклонити';
 $lang['MAX_SMILIES_PER_POST'] = 'Лимит смајлија од смајлија %s прекорачена.';
 
 $lang['ATTACH_SIGNATURE'] = 'Додај потпис (потпис можете да промените у профилу)';
-$lang['NOTIFY'] = 'Обавести ме када се на одговоре';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'Ваша порука је успешно уведен.';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = 'Рођендан';
 $lang['HAPPY_BIRTHDAY'] = 'Срећан Рођендан!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Формат дана рођења је погрешно уписана.';
 $lang['AGE'] = 'Старост';
-$lang['BIRTHDAY_TO_HIGH'] = 'Нажалост, овај сајт не прихвата кориснике старије од %d година';
-$lang['BIRTHDAY_TO_LOW'] = 'Нажалост, овај сајт не прихвата кориснике млађе од %d година';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Корисника данас рођендан: ';
 $lang['BIRTHDAY_WEEK'] = 'Корисници са рођендан у наредних дана %d: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'Корисници немају рођендан у наредних неколико дана %d'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'Корисници немају рођендан у наредних неколико дана %d'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Нико од корисника данас рођендан';
 $lang['BIRTHDAY_ENABLE'] = 'Укључите рођендан';
 $lang['BIRTHDAY_MAX_AGE'] = 'Макс старост';
 $lang['BIRTHDAY_MIN_AGE'] = 'Минимална старост';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Дана за проверу убрзо долазе рођендане';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = 'Година';
 
 $lang['NO_THEMES'] = 'Нема теме у бази података';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Жао ми је, али то име је бил
 $lang['USERNAME_TOO_LONG'] = 'Ваше име је предугачко.';
 $lang['USERNAME_TOO_SMALL'] = 'Ваше име је сувише мали.';
 $lang['EMAIL_TAKEN'] = 'Жао ми је, али ова Е-маил адреса је већ регистрован за корисника.';
-$lang['EMAIL_BANNED'] = 'Жао ми је, али адреса <b>%s</b> је забрањен.';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = 'Жао ми је, али ова е-маил адреса је неважећи.';
 $lang['EMAIL_TOO_LONG'] = 'Ваша порука сувише дуго.';
 $lang['SIGNATURE_TOO_LONG'] = 'Ваш потпис је предугачак.';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Децембра';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'Нема избора',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = 'Опис'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Довнлоад'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Величина';
 $lang['VIEWED'] = 'Посматрати';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Ширењем %s\' је онемогућен административну комисију, тако да је овај прилог се не приказује.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Не могу да додам passkey<br /><
 $lang['BT_PASSKEY'] = 'Кључ скелет';
 $lang['BT_GEN_PASSKEY'] = 'креирајте нови';
 $lang['BT_PASSKEY_VIEW'] = 'показати';
-$lang['BT_GEN_PASSKEY_NEW'] = "Пажња! После смене нову лозинку, потребно је да ће поново да преузмете све активне бујица! \\N да ли сте сигурни да желите да креирате нову лозинку?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Нема форума тражи нашли';
 
 $lang['SEEDS'] = 'Семена';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Недостаје идентификатор да
 $lang['CHANGE_TOR_TYPE'] = 'Тип бујице успешно промењен';
 $lang['DEL_TORRENT'] = 'Да ли сте сигурни да желите да уклоните торент?';
 $lang['DEL_MOVE_TORRENT'] = 'Да ли сте сигурни да желите да уклоните и преместите тему?';
-$lang['UNEXECUTED_RELEASE'] = 'Имате бесформенные издање, пре него што креирате нови Фик неоформленном!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Промена статуса карте - %s';
-$lang['TOR_MOD_MSG'] = "Здраво, %s.\\стање н\\н са [URL=%s]дистрибуција your[/url] мења на [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Измене у дизајн - %s';
-$lang['TOR_AUTH_MSG'] = "Здраво, %s.\\н\\н чини моја договор промењен - са [URL=%s]%s[/url]\\Н\\Н молимо вас, проверите га.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = 'Фиксни';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The информације послата модератору. Очекивати.</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Изаберите';
 $lang['SEED_BONUS'] = 'Бонус семена';
 $lang['EXCHANGE'] = 'Дељење';
 $lang['EXCHANGE_BONUS'] = 'Размена семена бонуса';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s у distribution</b> <br /> за размену бонус поена на %1$s покрета, који ће бити додат у износу од дистрибуције.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Цена';
 $lang['EXCHANGE_NOT'] = 'Размена није доступан';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Дизајнер';
 $lang['LAST_IP'] = 'Последњи ИП:';
 $lang['REG_IP'] = 'Упис ИП-адресе:';
 $lang['OTHER_IP'] = 'Други ИП:';
-$lang['ALREADY_REG_IP'] = 'Са Ваше ИП адресе је већ регистрован корисник %s. Ако сте претходно не регистрировались на нашем трагач маил <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'Скривене';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = 'Коментар';
 
 // search
 $lang['SEARCH_S'] = 'тражи...';
-$lang['FORUM_S'] = 'на форуму';
-$lang['TRACKER_S'] = 'на трацкер';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'по info_hash';
 
 // copyright
 $lang['NOTICE'] = '!Пажња!';
-$lang['COPY'] = 'Сајт не даје електронске верзије производа, и бави се само прикупљању и каталогизацией везе, шаљу и објављују на форуму нашим читаоцима. Ако сте власник ауторских права сваког поднетог материјала и не желите да позивање на њега је у нашем директоријуму, контактирајте нас и ми одмах ћемо га уклонити. Датотеке за размену на хттп трацкер пружати корисницима сајта, администрација није одговорна за њихов садржај. Молимо вас да не сипајте датотеке заштићене ауторским правима, као и датотеке нелегалног садржаја!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Каталог распада';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = 'Распореди';
 $lang['SWITCH'] = 'Прекидач';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = 'Недостаје идентификатор датотеке!';
-$lang['TOR_NOT_FOUND'] = 'Фајл недостаје на серверу!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'Садржај ове торент датотеке, не можете да видите на сајту (не могу да се изгради листу фајлова)';
 $lang['TORFILE_INVALID'] = 'Торрент датотека је оштећена';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Сајт" може садржати само http://sitename';
-$lang['ICQ_ERROR'] = 'Поље "ицк" може садржати само ИЦК број';
-$lang['INVALID_DATE'] = 'Датум грешка ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = 'Прегледај профил';
 $lang['GOOD_UPDATE'] = 'је успешно промењен';
 $lang['UCP_DOWNLOADS'] = 'Преузимања';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Да ли сте сигурни да желит�
 $lang['USER_DELETED'] = 'Корисник је успешно обрисан';
 $lang['DELETE_USER_ALL_POSTS'] = 'Да обришете све поруке корисника';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Да ли сте сигурни да желите да обришете све поруке и све теме креиране од стране тог корисника?';
-$lang['DELETE_USER_POSTS'] = 'Да обришете све поруке, осим главног града';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Да ли сте сигурни да желите да уклоните све моје поруке?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Да ли сте сигурни да желите да обришете све поруке, осим главног града?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = 'Поруке су успешно уклоњени';
 
 $lang['USER'] = 'Корисник';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Није Вам дозвољено да видит
 
 $lang['USER_ACTIVATE'] = 'Активирај';
 $lang['USER_DEACTIVATE'] = 'Искључите';
-$lang['DEACTIVATE_CONFIRM'] = 'Да ли сте сигурни да желите да дозволи кориснику?';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'Корисник је успешно активиран';
 $lang['USER_DEACTIVATE_ME'] = 'Ви не можете да деактивирате ваш налог на мрежи!';
 $lang['ACTIVATE_CONFIRM'] = 'Да ли сте сигурни да желите да онемогућите ову корисника?';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'Морате да наведете адресу е-п�
 $lang['CHOOSE_PASS'] = 'Поље за лозинку не би требало да буде празно!';
 $lang['CHOOSE_PASS_ERR'] = 'Лозинке које сте унели се не поклапају';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Ваша лозинка би требало да буде не мање од %d ликова';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Ваша лозинка би требало да буде дужи од $d ликова';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'Да бисте променили лозинку
 $lang['EMAILER_DISABLED'] = 'Нажалост, ова функција привремено не ради';
 $lang['TERMS_ON'] = 'Слажем се са овим условима';
 $lang['TERMS_OFF'] = 'Не слажем се са овим условима';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Да бисте се регистровали, морате да омогућите Јавасцрипт';
-$lang['REGISTERED_IN_TIME'] = "У овом тренутку Упис closed<br /><br />You можете да се региструјете од 01:00 до 17:00 ГМТ (сада " . date('H:i') . " ГМТ)<br /><br />We извињавам за непријатност";
-$lang['AUTOCOMPLETE'] = 'Лозинку да направите';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'Ваша нова лозинка:';
 $lang['REGENERATE'] = 'Да се регенерише';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = 'Уредан списак: [листа=]text[/list] (ко�
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Цитат посвећен';
-$lang['JAVASCRIPT_ON'] = 'Неопходно је за слање порука морате да омогућите Јавасцрипт';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = 'Нови';
 $lang['NEWEST'] = 'Нове';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'Контрола Забране';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'Забрана једног или више специфичних корисника';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Можете да забрани већем броју корисника у исто време, користећи одговарајући образац за миша и тастатуру рачунара и прегледача';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Можете разбанить већем броју корисника у исто време, користећи одговарајући образац за миша и тастатуру рачунара и прегледача';
 $lang['NO_BANNED_USERS'] = 'Није забрањено пријаве';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'У банлист је успешно ажуриран';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Помоћу овог обрасца можете да
 $lang['ADD_NEW_RANK'] = 'Додајте нови ранг';
 $lang['RANK_TITLE'] = 'Име Ранга';
 $lang['STYLE_COLOR'] = 'Ранг стила';
-$lang['STYLE_COLOR_FAQ'] = 'Наведите класа за цртање на име жељену боју. На пример <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Слике Ранг';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Користите ово да се утврди мале слике у вези са ранг';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Само администратори'
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s можете да видите овај форум';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s могу да читају поруке у овом форуму';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s можете да ставите у овом форуму';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s можете одговарати на теме у овом форуму';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s можете да измените поруке у овом форуму';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s можете брисати поруке у овом форуму';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s можете да објавите прилепленные теме у овом форуму';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = 'Синхронизација';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Макс. дужина вести';
 $lang['NEWS_COUNT'] = 'Колико вести показују';
-$lang['NEWS_FORUM_ID'] = 'Од каквим форумима дисплеј <br /> <h6>Of на неколико форумима подиже, одвојене зарезима. Пример 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Нема аватар';
 $lang['TRACKER_STATS'] = 'Статистика на хттп трацкер';
 $lang['WHOIS_INFO'] = 'Информација о ИП адреси';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Дозволи логичко пуну текс�
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'користити *, +, -,.. у потрази за';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Разно";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Да покаже корисницима статистици ст/дл у врху почетне странице форума";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Аутоматска Регистрација бујице на хттп трацкер за нову тему';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Статус теме промени у "Довнлоадс" приликом регистрације бујице на хттп трацкер';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'ће се променити Тип теме на "Довнлоад", без обзира на подешавања форума';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Укључите';
 $lang['RUN_MAIN_CRON'] = 'Почетак хрон';
 $lang['ADD_JOB'] = 'Додајте хрон';
 $lang['DELETE_JOB'] = 'Да ли сте сигурни да желите да избришете задатак?';
-$lang['CRON_WORKS'] = 'Хрон сада ради или сломљен -> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = 'Поправке Хрон';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Промена посла';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Искључите Савета';
 $lang['BOARD_DISABLE_EXPL'] = 'искључите Савета, када је овај рад се обавља';
 $lang['RUN_COUNTER'] = 'У супротности';
 
-$lang['JOB_REMOVED'] = 'Проблем је успешно обрисан';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'Сценарио <b>' . @$_POST['cron_script'] . '</b> већ постоји!';
 $lang['TITLE_DUPLICATE'] = 'Име Задаци <b>' . @$_POST['cron_title'] . '</b> већ постоји!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn поред problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack задаци Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Редизајн Број Претраге';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Колико времена (с) ништа, п
 
 $lang['TIME_LIMIT'] = 'Рок';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Колико времена (у секундама) пост обрада може трајати и до преласка у следећем циклусу';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your ПХП (у безбедном режиму) има тајмаут %s секунди подешава тако да остане под овим value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your вебсервер има тајмаут %s секунди подешава тако да остане под овим value</i>';
 
 $lang['DISABLE_BOARD'] = 'Искључите Савета';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = 'Сте унели погрешне вредности. �
 $lang['PROCESSING'] = 'Обрада...';
 $lang['FINISHED'] = 'Завршио';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Тема је подељена. Нова тема - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Тема је подељена од [b]%s[/b][br][br]%s';
 
