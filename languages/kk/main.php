@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'пайдаланушы тақырыптарын �
 $lang['NO_USER_ID_SPECIFIED'] = 'Кешіріңіз, бірақ бұл пайдаланушы жоқ.';
 $lang['WRONG_PROFILE'] = 'Сіз өз емес, профайлды өзгерте алмайсыз.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Аватар Тек бір түрі көрсетілуі мүмкін';
 $lang['FILE_NO_DATA'] = 'Сіз берді мекенжай бойынша файл жоқ деректерді қамтиды';
 $lang['NO_CONNECTION_URL'] = 'Байланысы, Сіз берген URL мекенжайына жасалған мүмкін емес';
 $lang['INCOMPLETE_URL'] = 'Сіз енгізген URL толық емес';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Тіркеме тым максималды ө
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Тіркеме тым big.<br />Maximum мөлшері қотарып табылады: %d MB.<br />Please бұл PHP және толықтырудың Mod бұл мәнді қайта анықтай алмайды белгілеген деген сөз, осы өлшемі php.ini анықталады екенін ескеріңіз.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Кеңейтім %s рұқсат етілмейді'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Сіз бұл форум аясында Extension %s файлдарды жариялауға рұқсат етілмейді'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Тіркеме тым big.<br />Max өлшемі болып табылады: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Кешіріңіз, бірақ барлық тіркемелерді ең жоғары мөлшері жеткен. Егер Сіздің сұрақтарыңыз болса, Басқарма әкімшісіне хабарласыңыз.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Тіркеме макс бастап, қосу мүмкін емес. осы лауазымға %d тіркемелер саны қол жеткізілді'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Тіркеме / Сурет ені кем %d пиксел және жоғары %d пиксель болуы тиіс';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[код]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'редакциялау оралу';
 $lang['PROFILE_RETURN'] = 'бейіні өту';
 
 $lang['WARNING'] = 'ескерту';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'іздеу индекстеу';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Форум стилі';
