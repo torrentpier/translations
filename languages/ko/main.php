@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = '을 찾아 사용자 주제'; // Find all topics 
 $lang['NO_USER_ID_SPECIFIED'] = '죄송하지만,는 사용자가 존재하지 않습니다.';
 $lang['WRONG_PROFILE'] = '할 수 없습니다 프로파일을 수정하지 않은 자신의합니다.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = '한 유형의 아바타를 지정할 수 있다';
 $lang['FILE_NO_DATA'] = '파일이 URL 에서 당신에게 데이터를 포함하지 않습니다';
 $lang['NO_CONNECTION_URL'] = '연결을 만들 수 없습니다 URL 신';
 $lang['INCOMPLETE_URL'] = 'URL 을 입력하는 불완전';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = '첨부파일이 너무 큽니다.<br />Could 
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '첨부파일이 너무 큽니다.<br />Maximum 업로드 크기:%dMB 니다.<br />Please 이 크기에 정의된 php 니다.ini,이것에 의해 설정 PHP 와 첨부 파일이 있는지 이 값은 무시한다.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = '확장 %s 은 허용되지 않습'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '당신은 허용되지 않는 게시하는 파일 확장자 %s 이내에 이 포럼'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = '첨부파일이 너무 큽니다.<br />Max 크기:%s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = '죄송하지만,최대 파일 크기 위해 모든 첨부 파일에 도달합니다. 연락 주시기 바랍 게시판 관리자는 질문이 있을 경우입니다.';
 $lang['TOO_MANY_ATTACHMENTS'] = '첨부파일을 추가할 수 없기 때문에,max. 수 %d 첨부파일에서 이 게시물을 달성'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = '첨부/이미지보다 작아야 합니다 %d 픽셀 %d 높은 픽셀';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = '이 옵션만을 위한 최고 관리자';
 
 $lang['LOGS'] = '항목에서 역사';
 $lang['FORUM_LOGS'] = '역사 포럼';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = '자동 청소';
 $lang['DESIGNER'] = '디자이너';
 
 $lang['LAST_IP'] = '마지막으로 IP:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[코드]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = '익 편집';
 $lang['PROFILE_RETURN'] = '프로필로 이동하';
 
 $lang['WARNING'] = '경고';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = '재인덱스 검색';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = '포럼 스타일';
