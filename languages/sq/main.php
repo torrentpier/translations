@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Gjeni përdorues temat'; // Find all topics by us
 $lang['NO_USER_ID_SPECIFIED'] = 'Na vjen keq, por që përdoruesit nuk ekziston.';
 $lang['WRONG_PROFILE'] = 'Ju nuk mund të modifikoni një profil që nuk është e vetja.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Vetëm një lloj avatar, mund të përcaktohen';
 $lang['FILE_NO_DATA'] = 'File në URL ju dha nuk përmban të dhënat e';
 $lang['NO_CONNECTION_URL'] = 'Një lidhje mund të mos jenë bërë për URL që ju dha';
 $lang['INCOMPLETE_URL'] = 'URL që keni futur nuk është e plotë';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Shtojcë është shumë i madh.<br />Could nu
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Shtojcë është shumë i madh.<br />Maximum Ngarkoni Madhësi: %d MB.<br />Please vini re se kjo masë është përcaktuar në php.ini, kjo do të thotë se është vendosur nga PHP dhe Shtojcën V nuk mund të tejkalojnë këtë vlerë.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Zgjerimi %s nuk është e lejuar'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nuk ju lejohet të postoni Fotografi me Zgjatje %s në kuadër të këtij Forumi'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Shtojcë është shumë i madh.<br />Max Madhësi: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Na vjen keq, por maksimale si kartela për të gjitha Bashkëngjitjet është arritur. Ju lutem kontaktoni Administratorin nëse keni pyetje.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Shtojcë nuk mund të shtohen, pasi max. numri i %d të bashkëngjitni skedarë në këtë post u arrit'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Attachment/Imazhi duhet të jetë më pak se %d pixels gjerë dhe %d (pixels) e lartë';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kodi]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Të kthehen në përpunim';
 $lang['PROFILE_RETURN'] = 'Shko tek profili';
 
 $lang['WARNING'] = 'Paralajmërim';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex kërko';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forumi stil';
