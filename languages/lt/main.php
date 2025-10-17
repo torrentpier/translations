@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'Kontroliavimą';
+$lang['ADMIN'] = 'Administracija';
 $lang['FORUM'] = 'Forumas';
 $lang['CATEGORY'] = 'Kategorijos';
 $lang['HIDE_CAT'] = 'Paslėpti kategorijos';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = 'Nežinomas';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = 'Kitas';
 $lang['PREVIOUS_PAGE'] = 'Ankstesnis';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Šablonas buvo išvalyti talpyklą';
 $lang['DATASTORE_CLEARED'] = 'Duomenų laikmenos, buvo išvalytas';
 $lang['BOARD_DISABLE'] = 'Atsiprašau, šis forumas yra neįgalūs. Pabandykite sugrįžti vėliau';
 $lang['BOARD_DISABLE_CRON'] = 'Forumas neveikia dėl priežiūros darbų. Pabandykite sugrįžti vėliau';
-$lang['ADMIN_DISABLE'] = 'forumas yra išjungtas administratorius, jūs galite jį įjungti bet kuriuo metu';
-$lang['ADMIN_DISABLE_CRON'] = 'forumas užrakintas sukelti cron job, galite pašalinti užraktas bet kuriuo metu';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'Forumas yra išjungtas';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumas yra nustatytos techninės priežiūros';
 $lang['ADMIN_UNLOCK'] = 'Leidžia forume';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Naujų pranešimų [ Užrakinta ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Forumas yra užrakinta';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Prašome įvesti vartotojo vardą ir slaptažodį.';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'Prisijungti';
 $lang['LOGOUT'] = 'Prisijungti';
 $lang['CONFIRM_LOGOUT'] = 'Ar esate tikri, kad norite išsiregistruoti?';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = 'Ištrinti apklausa';
 $lang['MAX_SMILIES_PER_POST'] = 'Šypsenėlių limitas %s šypsenėlių viršyta.';
 
 $lang['ATTACH_SIGNATURE'] = 'Pridėti parašą (parašai gali būti pakeista profilio)';
-$lang['NOTIFY'] = 'Pranešti, kai dėl atsakymai';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'Jūsų pranešimas buvo įrašyta sėkmingai.';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = 'Gimtadienis';
 $lang['HAPPY_BIRTHDAY'] = 'Su Gimtadieniu!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Gimtadienio formatas buvo įvestas neteisingai.';
 $lang['AGE'] = 'Amžius';
-$lang['BIRTHDAY_TO_HIGH'] = 'Atsiprašome, šioje svetainėje, nepripažįsta vartotojo vyresni nei %d metų';
-$lang['BIRTHDAY_TO_LOW'] = 'Atsiprašome, šioje svetainėje, nepripažįsta vartotojo yonger nei %d metų';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Vartotojai, kurio gimtadienis šiandien: ';
 $lang['BIRTHDAY_WEEK'] = 'Vartotojai gimtadienis per ateinančius %d dienų: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'Ne vartotojai, kurių gimtadienis artėjančius %d dienų'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'Ne vartotojai, kurių gimtadienis artėjančius %d dienų'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Ne, naudotojai turi gimtadienis šiandien';
 $lang['BIRTHDAY_ENABLE'] = 'Įjungti gimtadienis';
 $lang['BIRTHDAY_MAX_AGE'] = 'Maksimalus amžius';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min amžius';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Dienas, siekiant patikrinti, ar ateis netrukus gimtadienius';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = 'Metų';
 
 $lang['NO_THEMES'] = 'Nėra Temų duomenų bazėje';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Atsiprašome, bet šis vardas jau buvo atmestas.
 $lang['USERNAME_TOO_LONG'] = 'Jūsų pavadinimas yra per ilgas.';
 $lang['USERNAME_TOO_SMALL'] = 'Jūsų vardas, pavardė, yra per mažas.';
 $lang['EMAIL_TAKEN'] = 'Atsiprašome, bet, kad el. pašto adresas jau registruotas vartotojas.';
-$lang['EMAIL_BANNED'] = 'Atsiprašome, bet <b>%s</b> adresas buvo uždrausta.';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = 'Atsiprašome, tačiau šis el. pašto adresas yra neteisingas.';
 $lang['EMAIL_TOO_LONG'] = 'Jūsų el. pašto adresas yra per ilgas.';
 $lang['SIGNATURE_TOO_LONG'] = 'Jūsų parašas yra per ilgas.';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Gruodis';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'Pasirinkite nr.',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = 'Aprašymas'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Atsisiųsti'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Failo dydis';
 $lang['VIEWED'] = 'Peržiūrėti';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Pratęsimo \'%s" buvo išimtas ūkio valdybos admin, todėl šis priedas yra nerodomas.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Negalėjo pridėti passkey<br /><br />Torren
 $lang['BT_PASSKEY'] = 'Prieigos raktas';
 $lang['BT_GEN_PASSKEY'] = 'kurti naują';
 $lang['BT_PASSKEY_VIEW'] = 'rodyti';
-$lang['BT_GEN_PASSKEY_NEW'] = "Dėmesio! Pakeitę naujas prieigos raktą, jums reikės iš naujo atsisiųsti visus aktyvių torrentų! \n ar Esate tikri, kad norite sukurti naują prieigos raktas?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Ne paieškai forumuose rasti';
 
 $lang['SEEDS'] = 'Sėklos';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Trūksta failo vardas!';
 $lang['CHANGE_TOR_TYPE'] = 'Tipas torrent pakeistas sėkmingai';
 $lang['DEL_TORRENT'] = 'Ar jūs tikrai norite ištrinti torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Ar jūs tikrai norite ištrinti ir perkelti tema?';
-$lang['UNEXECUTED_RELEASE'] = 'Ar turite beformė spaudai prieš kurdami naują išspręsti savo nesuformuluota!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Statuso keitimo platinimo - %s';
-$lang['TOR_MOD_MSG'] = "Sveiki, %s.\n\n Statusą, [url=%s]your[/url] paskirstymas yra pakeistas [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Konstrukcijos pakeitimai - %s';
-$lang['TOR_AUTH_MSG'] = "Sveiki, %s.\n\n Padaryti mano platinimo pasikeitė - [url=%s]%s[/url]\n\n Prašome pakartotinai patikrinti jį.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = 'Fiksuotas';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The informacija, siunčiama į moderatorius. Tikėtis.</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Pasirinkite';
 $lang['SEED_BONUS'] = 'Sėklos premija';
 $lang['EXCHANGE'] = 'Mainai';
 $lang['EXCHANGE_BONUS'] = 'Mainų sėklos premijas';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s į distribution</b> <br /> keistis bonus taškų %1$s eismo kuri bus pridėta į suma jūsų paskirstymas.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Kaina';
 $lang['EXCHANGE_NOT'] = 'Keistis nėra';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Dizaineris';
 $lang['LAST_IP'] = 'Paskutinis IP:';
 $lang['REG_IP'] = 'Registracijos IP:';
 $lang['OTHER_IP'] = 'Kitas IP:';
-$lang['ALREADY_REG_IP'] = 'Su jūsų IP adresu jau yra registruotas vartotojas %s. Jei turite ne anksčiau užregistruoti mūsų tracker, paštu <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'Paslėptas';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = 'Komentaras';
 
 // search
 $lang['SEARCH_S'] = 'paieškos...';
-$lang['FORUM_S'] = 'forume';
-$lang['TRACKER_S'] = 'dėl tracker';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'pagal info_hash';
 
 // copyright
 $lang['NOTICE'] = '!DĖMESIO!';
-$lang['COPY'] = 'Svetainė nesuteikia elektroninių produktų versijas, ir užsiima tik rinkimo ir sisteminimo nuorodos siunčiami ir paskelbti ne forumas, mūsų skaitytojai. Jei esate teisėtas savininkas, bet kokį pateiktą medžiagą ir nenori, kad tai buvo mūsų katalogų, susisiekite su mumis ir mes nedelsiant pašalinti jos. Failų keitimosi dėl tracker yra pateikta vartotojams svetainė, ir administracija neprisiima atsakomybės už jų priežiūrą. Prašymas nėra užpildykite failus, saugomą autorių teisių, ir taip pat failus neteisėtai priežiūra!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Sutraukti katalogą';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = 'Išplėskite';
 $lang['SWITCH'] = 'Jungiklis';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = 'Trūksta failo vardas!';
-$lang['TOR_NOT_FOUND'] = 'Failo nėra serveryje!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'Turinio šį torrent failas negali būti vertinama svetainėje (nebuvo galima statyti failų sąrašą)';
 $lang['TORFILE_INVALID'] = 'Torrent failas yra sugadintas';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Svetainė" gali būti tik http://sitename';
-$lang['ICQ_ERROR'] = 'Srityje "ICQ" gali būti tik icq numeris';
-$lang['INVALID_DATE'] = 'Klaida data ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = 'Profilio peržiūra';
 $lang['GOOD_UPDATE'] = 'buvo pakeistas sėkmingai';
 $lang['UCP_DOWNLOADS'] = 'Populiarumas';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Ar jūs tikrai norite ištrinti šį vartotoją?
 $lang['USER_DELETED'] = 'Vartotojas buvo sėkmingai ištrintas';
 $lang['DELETE_USER_ALL_POSTS'] = 'Ištrinti visas vartotojo pranešimų';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Ar jūs tikrai norite ištrinti visus skaitytus pranešimus ir visas temas pradėtas šis vartotojas?';
-$lang['DELETE_USER_POSTS'] = 'Ištrinti visus pranešimus, išskyrus kapitalo';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Ar jūs tikrai norite ištrinti visas mano žinutes?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Ar jūs tikrai norite ištrinti visus pranešimus, išskyrus kapitalo?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = 'Pareigybės buvo sėkmingai pašalintas';
 
 $lang['USER'] = 'Vartotojas';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Jūs neturite leidimo peržiūrėti paslėptus gru
 
 $lang['USER_ACTIVATE'] = 'Įjungti';
 $lang['USER_DEACTIVATE'] = 'Išjungti';
-$lang['DEACTIVATE_CONFIRM'] = 'Ar esate tikri, kad norite suteikti šiam vartotojui?';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'Vartotojo sėkmingai aktyvuotas';
 $lang['USER_DEACTIVATE_ME'] = 'Jūs negalite deaktyvuoti savo sąskaitą!';
 $lang['ACTIVATE_CONFIRM'] = 'Ar tikrai norite išjungti šį vartotoją?';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'Jūs turite nurodyti e-mail';
 $lang['CHOOSE_PASS'] = 'Lauko slaptažodis negali būti tuščias!';
 $lang['CHOOSE_PASS_ERR'] = 'Įvesti slaptažodžiai nesutampa';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Slaptažodis turi būti bent %d simbolių';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Slaptažodis turi būti ne ilgiau, nei $d simbolių';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'Norėdami pakeisti slaptažodį, turite teisingai
 $lang['EMAILER_DISABLED'] = 'Atsiprašome, bet ši funkcija yra laikinai neveikia';
 $lang['TERMS_ON'] = 'Sutinku su šiomis nuostatomis ir sąlygomis';
 $lang['TERMS_OFF'] = 'Aš nesutinkate su šiomis sąlygomis';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Norėdami užsiregistruoti, vadovams reikia įgalinti JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Šiuo metu registracija yra closed<br /><br />You gali registruotis nuo 01:00 iki 17:00 MSK (dabar " . date('H:i') . " MSK)<br /><br />We atsiprašyti už tai nepatogumų";
-$lang['AUTOCOMPLETE'] = 'Sukurti slaptažodį';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'Jūsų naujas slaptažodis:';
 $lang['REGENERATE'] = 'Atgaivinti';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = 'Užsisakyti sąrašas: [list=]text[/list] (Ctrl+O)';
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Citata pasirinkto';
-$lang['JAVASCRIPT_ON'] = 'Vadovai prireikti siųsti pranešimus įgalinti JavaScript';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = 'Naujas';
 $lang['NEWEST'] = 'Naujausias';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'Draudimo Kontrolė';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'Ban) vienas ar daugiau specifinių vartotojai';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Galite uždrausti keli vartotojai vienu metu, naudodami tinkamą derinį, pelę ir klaviatūrą jūsų kompiuteryje ir naršyklėje';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Galite unban keli vartotojai vienu metu, naudodami tinkamą derinį, pelę ir klaviatūrą jūsų kompiuteryje ir naršyklėje';
 $lang['NO_BANNED_USERS'] = 'Nėra uždrausta vardai';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Į banlist buvo atnaujinta sėkmingai';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Naudodami šią formą, jūs galite pridėti, redaguot
 $lang['ADD_NEW_RANK'] = 'Pridėti naują reitingą';
 $lang['RANK_TITLE'] = 'Rango Pavadinimas';
 $lang['STYLE_COLOR'] = 'Stilius reitingas';
-$lang['STYLE_COLOR_FAQ'] = 'Nurodykite kategoriją tapybą pavadinimas norimą spalvą. Pavyzdžiui <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Vaizdo Reitingas';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Naudoti, siekiant nustatyti mažą atvaizdą, susijusios su rangas';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Tik administratoriai';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s galite peržiūrėti šiame forume';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s gali skaityti pranešimų šiame forume';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s gali rašyti šiame forume';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s gali atsakyti į pranešimus šiame forume';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s gali redaguoti pranešimų šiame forume';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s gali trinti pranešimų šiame forume';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s gali rašyti sticky temas šiame forume';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Maks. ilgis naujienos';
 $lang['NEWS_COUNT'] = 'Kiek naujienų šou';
-$lang['NEWS_FORUM_ID'] = 'Iš to, ką forumuose rodyti <br /> <h6>Of kelis forumus kelia, atskirtus kableliais. Pavyzdžiui, 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'No avatar';
 $lang['TRACKER_STATS'] = 'Statistika tracker';
 $lang['WHOIS_INFO'] = 'Informacijos apie IP adresą';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Leisti boolean pilno teksto paiešką';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'naudojimas*, +, -,.., paiešką';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Įvairūs";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Rodyti vartotojai UL/DL statistika viršuje forumo pagrindinį puslapį";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automatiškai registre torrent dėl tracker naujų temų';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Pakeisti temos būseną į "Atsisiųsti", registruodamiesi torrent dėl tracker';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'bus pakeisti temą tipas "Download", nepriklausomai nuo forumo nustatymai';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Įjungti';
 $lang['RUN_MAIN_CRON'] = 'Paleisti cron';
 $lang['ADD_JOB'] = 'Pridėti cron job';
 $lang['DELETE_JOB'] = 'Ar jūs tikrai norite ištrinti cron job?';
-$lang['CRON_WORKS'] = 'Cron dabar veikia ar neveikia -> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = 'Remonto Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Edit darbo';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Išjungti valdyba';
 $lang['BOARD_DISABLE_EXPL'] = 'išjungti laive, kai šis darbas yra paleisti';
 $lang['RUN_COUNTER'] = 'Prieštarauja';
 
-$lang['JOB_REMOVED'] = 'Problema buvo pašalinta sėkmingai';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'Scenarijaus <b>' . @$_POST['cron_script'] . '</b> jau egzistuoja!';
 $lang['TITLE_DUPLICATE'] = 'Užduotis Pavadinimas <b>' . @$_POST['cron_title'] . '</b> jau egzistuoja!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to, problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack Užduotis Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Atkurti Paieškos Indeksą';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Kiek laiko (sek) likti neveiklus prieš pereina
 
 $lang['TIME_LIMIT'] = 'Terminas';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Kiek laiko (sek.) po apdorojimo galite paskutiniais prieš pereinant prie kito ciklo';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your php (safe mode) buvo nutrauktas dėl %s sek sukonfigūruotas, todėl, kad toliau likti šiame value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your serveryje yra pauzės iš %s sek sukonfigūruotas, todėl, kad toliau likti šiame value</i>';
 
 $lang['DISABLE_BOARD'] = 'Išjungti valdyba';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = 'Jūs įvedėte kai negerai vertybes. Prašome patikrinti
 $lang['PROCESSING'] = 'Apdorojimo...';
 $lang['FINISHED'] = 'Baigta';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Tema buvo padalinta. Nauja tema - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Tema buvo padalinti iš [b]%s[/b][br][br]%s';
 
