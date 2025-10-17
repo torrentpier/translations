@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Намери темата потребител'; 
 $lang['NO_USER_ID_SPECIFIED'] = 'Съжаляваме, но такъв потребител не съществува.';
 $lang['WRONG_PROFILE'] = 'Не може да се промени профил, който не е ваша.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Може да се посочи само един вид аватар';
 $lang['FILE_NO_DATA'] = 'Файл от URL адрес, който сте дали не съдържа данни';
 $lang['NO_CONNECTION_URL'] = 'Връзката не може да се направи, за URL адрес, който сте дали';
 $lang['INCOMPLETE_URL'] = 'URL, който сте въвели непълно';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Прикачен файл е твърде г�
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Прикачен файл е твърде голям.<br />Maximum Размерът на файла: %d MB.<br />Please да се отбележи, че тази стойност е определена в PHP.ини, това означава, че тя се определя на PHP и вграждането на министерството на отбраната не може да замени това е от значение.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Разширяване %s не се допуска'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Нямате право да публикувате файлове с разширение %s в рамките на този форум'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Прикачен файл е твърде голям.Размер <br />Max: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Съжаляваме, но максималният размер за всички приложения се постига. Моля, свържете се с вашия Администратор, ако имате въпроси.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Прикачените файлове не може да бъде добавен, тъй като максимум. брой %d прикачени файлове в този имейл постигнато'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Прикачен файл/на изображението трябва да бъде не по-малко %d пиксела и %d пиксела';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = 'Този вариант само за супе�
 
 $lang['LOGS'] = 'История на темите';
 $lang['FORUM_LOGS'] = 'Форум История';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = 'Автоочистка';
 $lang['DESIGNER'] = 'Дизайнер';
 
 $lang['LAST_IP'] = 'Последният IP:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Код]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Се върнете към редактиран�
 $lang['PROFILE_RETURN'] = 'Отидете на профил';
 
 $lang['WARNING'] = 'Предупреждение';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Търсене переиндексация';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Стил на форума';
