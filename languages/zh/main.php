@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = '未知';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = '继续';
 $lang['PREVIOUS_PAGE'] = '后退';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = '模板缓存已被清除';
 $lang['DATASTORE_CLEARED'] = '数据存储已被清除';
 $lang['BOARD_DISABLE'] = '对不起，本论坛被禁用。请试着以后再来。';
 $lang['BOARD_DISABLE_CRON'] = '论坛正在维护。请试着以后再来。';
-$lang['ADMIN_DISABLE'] = '论坛已被管理员禁用，您可以在任何时候启用它';
-$lang['ADMIN_DISABLE_CRON'] = '论坛由定时的 cron 作业锁定，您可以随时解锁';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = '论坛被禁用';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = '论坛正在维护';
 $lang['ADMIN_UNLOCK'] = '启用论坛';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = '新回复[上锁的]';
 $lang['FORUM_LOCKED_MAIN'] = '论坛已锁定';
 
 // Login
-$lang['ENTER_PASSWORD'] = '请输入用户名和密码才能登录。';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = '登录';
 $lang['LOGOUT'] = '登出';
 $lang['CONFIRM_LOGOUT'] = '您确定要登出？';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = '删除投票';
 $lang['MAX_SMILIES_PER_POST'] = '表情限制的%s表情，超过。';
 
 $lang['ATTACH_SIGNATURE'] = '附上签名(签名可以改变在个人资料)';
-$lang['NOTIFY'] = '时通知我在答复';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = '您的信息已经进入了成功。';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = '生日';
 $lang['HAPPY_BIRTHDAY'] = '生日快乐！';
 $lang['WRONG_BIRTHDAY_FORMAT'] = '生日格式的输入不正确的。';
 $lang['AGE'] = '年龄';
-$lang['BIRTHDAY_TO_HIGH'] = '对不起，这个网站，没有接受用户超过%d岁';
-$lang['BIRTHDAY_TO_LOW'] = '对不起，这个网站，没有接受用户yonger于%d岁';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = '用户与一个生日今天： ';
 $lang['BIRTHDAY_WEEK'] = '用户与一个生日内%d天：%s';
-$lang['NOBIRTHDAY_WEEK'] = '没有用户都有一个生日，在即将到来的%d天'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = '没有用户都有一个生日，在即将到来的%d天'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = '不用户，今天有一个生日';
 $lang['BIRTHDAY_ENABLE'] = '使生日';
 $lang['BIRTHDAY_MAX_AGE'] = '最大年龄';
 $lang['BIRTHDAY_MIN_AGE'] = '分年龄';
-$lang['BIRTHDAY_CHECK_DAY'] = '天检查来不久的生日';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = '年';
 
 $lang['NO_THEMES'] = '没有主题数据库';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = '对不起，但这个名已被禁止。';
 $lang['USERNAME_TOO_LONG'] = '你的名字太长。';
 $lang['USERNAME_TOO_SMALL'] = '你的名字是太小了。';
 $lang['EMAIL_TAKEN'] = '对不起，但是，电子邮件地址已经被注册用户。';
-$lang['EMAIL_BANNED'] = '对不起，但<b>%s</b>地址已被禁止。';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = '对不起，但这个电子邮件地址无效。';
 $lang['EMAIL_TOO_LONG'] = '你的电子邮件太长。';
 $lang['SIGNATURE_TOO_LONG'] = '您的签名是太长。';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Dec';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => '没有选择',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = '描述'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = '下载'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = '看';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '扩\'%s\'停用由一个董事会管理，因此这种附着的是不是显示出来。'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = '不可能添加passkey<br /><br />Torrent未
 $lang['BT_PASSKEY'] = '密码';
 $lang['BT_GEN_PASSKEY'] = '创建一个新的';
 $lang['BT_PASSKEY_VIEW'] = '显示';
-$lang['BT_GEN_PASSKEY_NEW'] = "注意！ 改变之后的新的密码，你会需要重新下载所有活动的种子！ \n你确定你想要创建一个新的密码?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = '没有搜查的论坛，发现';
 
 $lang['SEEDS'] = '种子';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = '缺少的文件标识的！';
 $lang['CHANGE_TOR_TYPE'] = '类型的种子成功地改变了';
 $lang['DEL_TORRENT'] = '你确定要删除的洪流？';
 $lang['DEL_MOVE_TORRENT'] = '你确定要删除和移动电话题？';
-$lang['UNEXECUTED_RELEASE'] = '你有一个无形的释放之前建立一个新的解决他的未成形的！';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = '改变现状的分配%s';
-$lang['TOR_MOD_MSG'] = "你好，%s的。\n\n状况[url=%s]your[/url]分布的改变[b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = '改变设计--%s';
-$lang['TOR_AUTH_MSG'] = "你好，%s的。\n\n使我的分布改变-[url=%s]%s[/url]\n\n请重新检查它。";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = '固定';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The信息发送给主持人。 期望。</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = '选择';
 $lang['SEED_BONUS'] = '种奖金';
 $lang['EXCHANGE'] = '交换';
 $lang['EXCHANGE_BONUS'] = '交换种子的奖金';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s到distribution</b> <br />交换的奖励点%1$s流量，这将加入到总和你的分布。';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = '价格';
 $lang['EXCHANGE_NOT'] = '交流的不可用的';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = '设计师';
 $lang['LAST_IP'] = '最后IP：';
 $lang['REG_IP'] = '登记IP：';
 $lang['OTHER_IP'] = '其他的IP：';
-$lang['ALREADY_REG_IP'] = '与你的IP地址已经被注册用户%s的。 如果你之前没有登记在我们的跟踪，邮件来<a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = '隐藏';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = '评论';
 
 // search
 $lang['SEARCH_S'] = '搜索...';
-$lang['FORUM_S'] = '在论坛';
-$lang['TRACKER_S'] = '上跟踪器';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = '通过info_hash';
 
 // copyright
 $lang['NOTICE'] = '!注意！';
-$lang['COPY'] = '该网站不给电子版本的产品，并从事仅在一个收集和编制目录参考文发送和公布一个论坛，通过我们的读者。 如果你是合法拥有的任何提交材料并不希望参考，它是在我们的产品目录，请联系我们，我们应当立即消除她。 文件交换上跟踪器给出通过用户的网站，与行政当局不承担他们的责任维护。 该请求不填写在该文件受版权保护，并且还文件的非法的维护。';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = '崩溃的目录';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = '扩大';
 $lang['SWITCH'] = '开关';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = '缺少的文件标识的！';
-$lang['TOR_NOT_FOUND'] = '文件缺失的服务器上!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = '内容的这种子文件的不可观察的网站上(这是不可能建立一个列表的文件)';
 $lang['TORFILE_INVALID'] = 'Torrent文件损坏';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"现场"可以只包含http://sitename';
-$lang['ICQ_ERROR'] = '该领域的"聊天"可能只包含数icq';
-$lang['INVALID_DATE'] = '错误的日期 ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = '观看档案';
 $lang['GOOD_UPDATE'] = '成功改变了';
 $lang['UCP_DOWNLOADS'] = '下载';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = '你确定要删除这一用户？';
 $lang['USER_DELETED'] = '用户已成功删除';
 $lang['DELETE_USER_ALL_POSTS'] = '删除所有用户员额';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = '你确定要删除所有信息和所有主题开始通过这样的用户？';
-$lang['DELETE_USER_POSTS'] = '删除所有信息，除了资本';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = '你确定要删除所有我的帖子吗?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = '你确定要删除所有信息，除了资本？';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = '员额成功地除去';
 
 $lang['USER'] = '用户';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = '你没有权限查看隐藏的群体';
 
 $lang['USER_ACTIVATE'] = '激活';
 $lang['USER_DEACTIVATE'] = '关闭';
-$lang['DEACTIVATE_CONFIRM'] = '你确定你想要启用这个用户？';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = '用户已成功地激活';
 $lang['USER_DEACTIVATE_ME'] = '你不能禁我的帐户！';
 $lang['ACTIVATE_CONFIRM'] = '你确定你想要禁止这个用户？';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = '你必须指定的电子邮件';
 $lang['CHOOSE_PASS'] = '领域的密码不是空的！';
 $lang['CHOOSE_PASS_ERR'] = '输入密码不匹配';
 $lang['CHOOSE_PASS_ERR_MIN'] = '你的密码必须至少%d字';
-$lang['CHOOSE_PASS_ERR_MAX'] = '密码不能超过 $d 个字符';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = '要改变密码，你必须正确地指定的电�
 $lang['EMAILER_DISABLED'] = '对不起，这个功能是暂时没有工作';
 $lang['TERMS_ON'] = '我同意这些条款和条件';
 $lang['TERMS_OFF'] = '我不同意这些条款';
-$lang['JAVASCRIPT_ON_REGISTER'] = '注册，负责必要的，以使JavaScript';
-$lang['REGISTERED_IN_TIME'] = "目前登记是closed<br /><br />You可以注册01:00时至17:00时MSK(现在 " . date('H:i') . " MSK)<br /><br />We道歉，这种不便";
-$lang['AUTOCOMPLETE'] = '密码生成';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = '你是新的密码：';
 $lang['REGENERATE'] = '再生';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = '下令名单：[清单=]text[/list](Ctrl+O)';
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = '报价的选择';
-$lang['JAVASCRIPT_ON'] = '头有必要发送信息，以使JavaScript';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = '新的';
 $lang['NEWEST'] = '最新的';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = '禁止控制';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = '禁止一个或多个特定用户';
 $lang['BAN_USERNAME_EXPLAIN'] = '你可以禁止多个用户在一个去使用的适当组合键鼠你的电脑和浏览器';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = '你可以取消禁止多个用户在一个去使用的适当组合键鼠你的电脑和浏览器';
 $lang['NO_BANNED_USERS'] = '不禁止的用户名';
 $lang['BAN_UPDATE_SUCESSFUL'] = '该banlist已经成功更新';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = '采用这种形式可以增加、编辑、查看和删
 $lang['ADD_NEW_RANK'] = '添加新的等级';
 $lang['RANK_TITLE'] = '排名的标题';
 $lang['STYLE_COLOR'] = '样式的排名';
-$lang['STYLE_COLOR_FAQ'] = '指定类绘画的标题所需的颜色。 例如<i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = '等级图像';
 $lang['RANK_IMAGE_EXPLAIN'] = '使用这个定义的一个小的图像相关的排名';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = '只有管理员';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s可以查看该论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s可以阅读的员额在这个论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s可以在这个论坛';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s可以回答这个论坛的职位';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s可以编辑员额在这个论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s可以删除的员额在这个论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s可以发布粘在这个论坛的主题';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = '同步';
 // Mods
 $lang['MAX_NEWS_TITLE'] = '最大。 长度的新闻';
 $lang['NEWS_COUNT'] = '许多新闻节目';
-$lang['NEWS_FORUM_ID'] = '从什么样的论坛，以显示<br /> <h6>Of的几个论坛上提出的，中间用逗号分隔。 例1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = '没有头';
 $lang['TRACKER_STATS'] = '统计数据的跟踪器';
 $lang['WHOIS_INFO'] = '信息有关的IP地址';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = '允许布尔全文搜索';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '*,+,-有时，在搜索';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "杂项";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "显示用户UL/DL统计数据的顶部论坛的主页";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = '自动注册的洪流上跟踪新的主题';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = '改变话题状态"下载"，同时注册的洪流上的跟踪器';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = '将改变话题类型的"下载"不论的论坛的设置';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = '启用';
 $lang['RUN_MAIN_CRON'] = '开始cron';
 $lang['ADD_JOB'] = '添加cron的工作';
 $lang['DELETE_JOB'] = '你确定要删除的计划任务的工作？';
-$lang['CRON_WORKS'] = 'Cron现在是工作或是破碎-> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = '修复计划';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = '编辑工作';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = '禁止板';
 $lang['BOARD_DISABLE_EXPL'] = '禁止板的时候这份工作是运行';
 $lang['RUN_COUNTER'] = '违反';
 
-$lang['JOB_REMOVED'] = '该问题已经成功地除去';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = '脚本<b>' . @$_POST['cron_script'] . '</b>已经存在了。';
 $lang['TITLE_DUPLICATE'] = '任务名称<b>' . @$_POST['cron_title'] . '</b>已经存在了。';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn的外problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack的任务Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = '重建搜索引';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = '多少时间(秒)留空闲之前移动到接下
 
 $lang['TIME_LIMIT'] = '时间限制';
 $lang['TIME_LIMIT_EXPLAIN'] = '多少时间(秒)员额的处理可以去之前移动到下一个周期';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your php(安全模式)有一个超时的%s秒配置，所以留下这value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your网络服务器已超时的%s秒配置，所以留下这value</i>';
 
 $lang['DISABLE_BOARD'] = '禁止板';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = '你已经进入了一些错误的价值观。 请输入�
 $lang['PROCESSING'] = '处理...';
 $lang['FINISHED'] = '完成';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = '主题已经分裂。 新的话题-[b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = '主题已被拆分从[b]%s[/b][br][br]%s';
 
