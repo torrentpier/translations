@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Trovare argomenti utente'; // Find all topics by 
 $lang['NO_USER_ID_SPECIFIED'] = 'Scusa, ma che l\'utente non esiste.';
 $lang['WRONG_PROFILE'] = 'Non è possibile modificare un profilo che non è il vostro.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Solo un tipo di avatar può essere specificato';
 $lang['FILE_NO_DATA'] = 'Il file all\'indirizzo che hai dato non contiene dati';
 $lang['NO_CONNECTION_URL'] = 'Una connessione non può essere fatta per l\'URL che hai dato';
 $lang['INCOMPLETE_URL'] = 'L\'URL che hai inserito è incompleta';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'L\'Allegato è troppo grande.<br />Could non 
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'L\'Allegato è troppo grande.<br />Maximum Dimensione di Caricamento: %d MB.<br />Please di notare che questa Dimensione è definita in php.ini, questo significa che è impostato da PHP e l\'Allegato Mod non può eseguire l\'override di questo valore.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'L\'Estensione %s non è consentito'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Non è consentito inviare File con l\'Estensione %s all\'interno di questo Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'L\'Allegato è troppo grande.<br />Max Dimensioni: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Mi dispiace, ma la dimensione massima di file per gli Allegati, viene raggiunto. Si prega di contattare l\'Amministratore del forum se avete domande.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Allegato non può essere aggiunto, dal momento che il max. numero di %d Allegati in questo post è stato raggiunto'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'L\'Allegato/Immagine deve essere inferiore a %d pixel di larghezza e %d pixel di altezza';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Codice]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Tornare a modificare';
 $lang['PROFILE_RETURN'] = 'Vai al profilo';
 
 $lang['WARNING'] = 'Avviso';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Il Reindex di ricerca';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Lo stile del Forum';
