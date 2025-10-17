@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Trouver les sujets'; // Find all topics by userna
 $lang['NO_USER_ID_SPECIFIED'] = 'Désolé, mais cet utilisateur n\'existe pas.';
 $lang['WRONG_PROFILE'] = 'Vous ne pouvez pas modifier un profil qui n\'est pas votre propre.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Un seul type d\'avatar peut être spécifié';
 $lang['FILE_NO_DATA'] = 'Le fichier à l\'adresse URL que vous avez donné ne contient pas de données';
 $lang['NO_CONNECTION_URL'] = 'Une connexion ne peut pas être faite à l\'adresse URL que vous avez donné';
 $lang['INCOMPLETE_URL'] = 'L\'URL que vous avez saisie est incomplète';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'La pièce Jointe est trop grand.<br />Could p
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'La pièce Jointe est trop grand.<br />Maximum la Taille du Téléchargement: %d MO.<br />Please noter que cette Taille est définie en php.ini, cela signifie qu\'il est défini par PHP et l\'Attachement Mod ne peut pas remplacer cette valeur.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'L\'Extension %s n\'est pas autorisé'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Vous n\'êtes pas autorisé à poster des Fichiers avec l\'Extension %s au sein de ce Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'La pièce Jointe est trop grand.<br />Max Taille: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Désolé, mais la taille maximum d\'un fichier pour toutes les pièces Jointes est atteint. Veuillez contacter l\'Administrateur si vous avez des questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'La pièce jointe ne peut pas être ajouté, depuis le max. nombre de %d de pièces Jointes dans ce post a été réalisé'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'La pièce Jointe/Image doit être inférieur à %d pixels de large et %d pixels de haut';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Revenir à l\'édition de';
 $lang['PROFILE_RETURN'] = 'Accédez au profil';
 
 $lang['WARNING'] = 'Avertissement';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Réindexer la recherche';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum de style';
