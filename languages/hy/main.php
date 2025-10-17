@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'Կառավարման';
+$lang['ADMIN'] = 'Վարչակազմը';
 $lang['FORUM'] = 'Համաժողովը';
 $lang['CATEGORY'] = 'Կատեգորիա';
 $lang['HIDE_CAT'] = 'Թաքցնել աստիճան';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = 'Հայտնի չէ';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = 'Ավելին';
 $lang['PREVIOUS_PAGE'] = 'Նախորդ';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Cache կաղապար էր մաքրել';
 $lang['DATASTORE_CLEARED'] = 'Շտեմարան էր մաքրվել է';
 $lang['BOARD_DISABLE'] = 'Ցավոք, այս ֆորումին անջատված է. Փորձենք վերադառնալ ավելի ուշ';
 $lang['BOARD_DISABLE_CRON'] = 'Համաժողովը փակվել է տեխնիկական սպասարկում: Փորձենք վերադառնալ ավելի ուշ';
-$lang['ADMIN_DISABLE'] = 'համաժողովը անջատված է ադմինիստրատոր, դուք կարող եք միացնել այն ցանկացած ժամանակ';
-$lang['ADMIN_DISABLE_CRON'] = 'համաժողովը արգելափակված է ձգան хрон, դուք կարող եք հանել արգելափակումը ցանկացած ժամանակ';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'Համաժողովին անջատված է';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Համաժողովը փակվել է տեխնիկական սպասարկում';
 $lang['ADMIN_UNLOCK'] = 'Միացնել համաժողովը';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Նոր հաղորդագրություններ [ ա�
 $lang['FORUM_LOCKED_MAIN'] = 'Համաժողովը արգելափակվել է';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Խնդրում ենք մուտքագրեք ձեր անունը եւ գաղտնաբառը, մուտք գործել համակարգ:';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'Մուտք գործել';
 $lang['LOGOUT'] = 'Դուրս գալ';
 $lang['CONFIRM_LOGOUT'] = 'Դուք համոզված եք, որ ցանկանում եք դուրս գալ?';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = 'Հարցումը ջնջել';
 $lang['MAX_SMILIES_PER_POST'] = 'Սահմանաչափը սմայլներ են սմայլներ %s գերազանցել.';
 
 $lang['ATTACH_SIGNATURE'] = 'Հավելված ստորագրությունը (ստորագրությունները կարելի է փոփոխել պրոֆիլի)';
-$lang['NOTIFY'] = 'Տեղեկացնել ինձ, երբ պատասխանները';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'Ձեր հաղորդագրությունը հաջողությամբ է մտցվել ։ ';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = 'Ծննդյան օրը';
 $lang['HAPPY_BIRTHDAY'] = 'Ծնունդդ Շնորհավոր!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Ձևաչափը ծննդյան սխալ.';
 $lang['AGE'] = 'Տարիքը';
-$lang['BIRTHDAY_TO_HIGH'] = 'Ցավոք, այս կայքը չի ընդունում օգտվողների ավելի %d տարի';
-$lang['BIRTHDAY_TO_LOW'] = 'Ցավոք, այս կայքը չի ընդունում չլրացած օգտագործողների %d տարի';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Օգտատերերի Օրը: ';
 $lang['BIRTHDAY_WEEK'] = 'Օգտվողները ծննդյան հաջորդ օրերի ընթացքում %d: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'Օգտվողները չունեցող ծննդյան առաջիկա %d օր'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'Օգտվողները չունեցող ծննդյան առաջիկա %d օր'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Ոչ ոք օգտվողների Օրը';
 $lang['BIRTHDAY_ENABLE'] = 'Միացնել ծննդյան օրը';
 $lang['BIRTHDAY_MAX_AGE'] = 'Մաքս տարիքը';
 $lang['BIRTHDAY_MIN_AGE'] = 'Նվազագույն տարիքը';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Օր ստուգելու համար: շուտով գալիս են ծննդյան օրերը';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = 'Տարի';
 
 $lang['NO_THEMES'] = 'Ոչ թեմաներ տվյալների բազայում';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Կներեք, բայց այս անունը ար�
 $lang['USERNAME_TOO_LONG'] = 'Ձեր անունը չափազանց երկար է ։ ';
 $lang['USERNAME_TOO_SMALL'] = 'Ձեր անունը չափազանց փոքր է:';
 $lang['EMAIL_TAKEN'] = 'Կներեք, բայց այս E-mail հասցե արդեն գրանցված օգտվողի մասին.';
-$lang['EMAIL_BANNED'] = 'Կներեք, բայց հասցե <b>%s</b> արգելված էր:';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = 'Կներեք, բայց այս էլ-փոստի հասցեն անվավեր է:';
 $lang['EMAIL_TOO_LONG'] = 'Ձեր հաղորդագրությունը չափազանց երկար է.';
 $lang['SIGNATURE_TOO_LONG'] = 'Ձեր ստորագրությունը շատ երկար է ։ ';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Դեկտեմբերի';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'Ոչ մի ընտրություն',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = 'Նկարագրություն'; // used in Administration
 $lang['DOWNLOAD'] = 'Ներբեռնել'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Չափ';
 $lang['VIEWED'] = 'Դիտարկել';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Ընդլայնմամբ \'%s\' անջատված էր վարչական հանձնաժողովին, ուստի այդ ներդրումը չի ցուցադրվում.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Չի կարող ավելացնել passkey<b
 $lang['BT_PASSKEY'] = 'Отмычка';
 $lang['BT_GEN_PASSKEY'] = 'ստեղծել նոր';
 $lang['BT_PASSKEY_VIEW'] = 'ցույց տալ';
-$lang['BT_GEN_PASSKEY_NEW'] = "Ուշադրություն! Իշխանափոխությունից հետո նոր գաղտնաբառը, դուք պետք է կրկին բացել բոլոր ակտիվ torrents! \\N համոզված եք, որ ցանկանում եք ստեղծել նոր գաղտնաբառը?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Ոչ համաժողովների որոնում են գտել';
 
 $lang['SEEDS'] = 'Սերմերի';
@@ -1440,18 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Բացակայում է նույնականացու
 $lang['CHANGE_TOR_TYPE'] = 'Տեսակը торрента հաջողությամբ փոփոխվել';
 $lang['DEL_TORRENT'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել հեղեղ?';
 $lang['DEL_MOVE_TORRENT'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել և տեղափոխել թեման?';
-$lang['UNEXECUTED_RELEASE'] = 'Դուք ունեք бесформенные հաղորդագրություն է տարածել, նախքան ստեղծել նոր Fix неоформленном!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Կարգավիճակի փոփոխությունը բաժանելու - %s';
-$lang['TOR_MOD_MSG'] = "Բարև ձեզ, %s.\\վիճակը n
- \\ [URL=%s]բաշխումը your[/url] փոխվում է [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Փոփոխություններ դիզայն - %s';
-$lang['TOR_AUTH_MSG'] = "Բարև ձեզ, %s.
-
- \\ ստիպում է իմ բաշխումը փոխվել է - [URL=%s]%s[/url]\\N\\N խնդրում ենք ստուգել այն.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = 'Ֆիքսված';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The տեղեկատվությունը ուղարկվել է модератору. Կարելի է ակնկալել.</span>';
 
@@ -1579,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Ընտրեք';
 $lang['SEED_BONUS'] = 'Բոնուս սերմերի';
 $lang['EXCHANGE'] = 'Փոխանակում';
 $lang['EXCHANGE_BONUS'] = 'Փոխանակում սերմերի բոնուսների';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s է distribution</b> <br /> փոխանակման համար բոնուսային միավոր է %1$s շարժման, որը կլինի ավելացվել է ձեր գումարի բաշխման.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Գինը';
 $lang['EXCHANGE_NOT'] = 'Փոխանակում հասանելի չէ';
@@ -1612,7 +1609,7 @@ $lang['DESIGNER'] = 'Դիզայներ';
 $lang['LAST_IP'] = 'Վերջին IP-ն:';
 $lang['REG_IP'] = 'Գրանցում IP-հասցեներ:';
 $lang['OTHER_IP'] = 'Այլ IP:';
-$lang['ALREADY_REG_IP'] = 'Ձեր IP հասցեն արդեն գրանցվել է օգտվողը %s. Եթե դուք նախկինում գրանցված է մեր խուզարկու, էլ <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'Թաքնված';
 
 // from admin
@@ -1718,13 +1715,13 @@ $lang['COMMENT'] = 'Մեկնաբանություն';
 
 // search
 $lang['SEARCH_S'] = 'որոնում...';
-$lang['FORUM_S'] = 'համաժողովին';
-$lang['TRACKER_S'] = '"խուզարկու';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'ըստ info_hash';
 
 // copyright
 $lang['NOTICE'] = '!Ուշադրություն!';
-$lang['COPY'] = 'Կայքը հնարավորություն է տալիս էլեկտրոնային տարբերակները ապրանքների, զբաղվում է միայն коллекционированием եւ каталогизацией հղումներ ուղարկել և հրապարակվող համաժողովի ընթացքում մեր ընթերցողների հետ: Եթե դուք հանդիսանում իրավատիրոջ կողմից որևէ ներկայացված նյութական եւ չեք ցանկանում, որ հղում է նա գտնվում էր մեր գրացուցակում, կապվել մեզ հետ, եւ մենք անհապաղ հանել այն: Ֆայլերի փոխանակման համար խուզարկու տրամադրվել կայքից օգտվողների կողմից, և վարչակազմը պատասխանատվություն չի կրում դրանց բովանդակության համար: Խնդրանքը չի խմեցնել ֆայլերը, որոնք պաշտպանված են հեղինակային իրավունքներով, ինչպես նաև ֆայլերը անօրինական բովանդակության!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Կատալոգ փլուզումից';
@@ -1732,14 +1729,14 @@ $lang['EXPAND'] = 'Ծավալել';
 $lang['SWITCH'] = 'Switch';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = 'Բացակայում է նույնականացուցիչ ֆայլը!';
-$lang['TOR_NOT_FOUND'] = 'Ֆայլը բացակայում է սերվերի!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'Բովանդակությունը այս torrent-ֆայլի չի կարելի է տեսնել կայքում (չի հաջողվել կառուցել ֆայլերի ցանկը)';
 $lang['TORFILE_INVALID'] = 'Torrent ֆայլը վնասված է';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Կայքը կարող է պարունակել միայն http://sitename';
-$lang['ICQ_ERROR'] = 'Դաշտ "аськи կարող է պարունակել միայն ICQ համարը';
-$lang['INVALID_DATE'] = 'Տարեթիվ, ամսաթիվ, սխալ է ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = 'Դիտել պրոֆիլը';
 $lang['GOOD_UPDATE'] = 'հաջողությամբ փոփոխվել';
 $lang['UCP_DOWNLOADS'] = '- Բեռնումների';
@@ -1762,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Դուք համոզված եք, որ ցանկա�
 $lang['USER_DELETED'] = 'Օգտագործողը հաջողությամբ հեռացվել';
 $lang['DELETE_USER_ALL_POSTS'] = 'Հեռացնել բոլոր գրառումները';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել բոլոր հաղորդագրությունները և բոլոր թեմաները ստեղծված այդ օգտագործողի?';
-$lang['DELETE_USER_POSTS'] = 'Ջնջել բոլոր հաղորդագրությունները, բացի մայրաքաղաքից';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել իմ բոլոր պաշտոնները?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել բոլոր հաղորդագրությունները, բացի մայրաքաղաքի?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = 'Հաղորդագրություններ հաջողությամբ հեռացվել';
 
 $lang['USER'] = 'Օգտագործողը';
@@ -1777,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Ձեզ չի թույլատրվում դիտել թ
 
 $lang['USER_ACTIVATE'] = 'Ակտիվացնել';
 $lang['USER_DEACTIVATE'] = 'Անջատել';
-$lang['DEACTIVATE_CONFIRM'] = 'Դուք համոզված եք, որ ցանկանում թույլ տալ օգտագործողին?';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'Օգտագործողը հաջողությամբ ակտիվանում է';
 $lang['USER_DEACTIVATE_ME'] = 'Դուք կարող եք ապաակտիվացնել ձեր հաշիվը!';
 $lang['ACTIVATE_CONFIRM'] = 'Դուք համոզված եք, որ ցանկանում եք անջատել այդ օգտագործողի?';
@@ -1789,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'Դուք պետք է փոստի հասցե';
 $lang['CHOOSE_PASS'] = 'Դաշտ գաղտնաբառը չպետք է լինի դատարկ!';
 $lang['CHOOSE_PASS_ERR'] = 'Ձեր մուտքագրած գաղտնաբառերը չեն համընկնում';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Ձեր գաղտնաբառը պետք է լինի ոչ պակաս, քան %d նիշ';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Ձեր գաղտնաբառը պետք է լինի ոչ ավելի, քան $d նիշ';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1800,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'Փոխել գաղտնաբառը, անհրաժեշ
 $lang['EMAILER_DISABLED'] = 'Ցավոք, այս գործառույթը ժամանակավորապես չի աշխատում';
 $lang['TERMS_ON'] = 'Ես համաձայն է այդ պայմաններին:';
 $lang['TERMS_OFF'] = 'Ես համաձայն չեմ այդ պայմաններին';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Գրանցվելու համար անհրաժեշտ է միացնել JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Այս պահին Գրանցում closed<br /><br />You կարող եք գրանցվել 01:00-ից 17:00-ԻՆ (այժմ " . date('H:i') . " GMT)<br /><br />We ներողություն եմ խնդրում, դա վնաս";
-$lang['AUTOCOMPLETE'] = 'Գաղտնաբառը ստեղծել';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'Ձեր նոր գաղտնաբառը:';
 $lang['REGENERATE'] = 'Վերականգնել';
 
@@ -1861,7 +1858,7 @@ $lang['LIST_ITEM'] = 'Պատվիրված ցուցակը: [ցուցակ=]text[/li
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Մեջբերում առանձնացված';
-$lang['JAVASCRIPT_ON'] = 'Անհրաժեշտ է հաղորդագրությունների ուղարկման համար անհրաժեշտ է միացնել JavaScript';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = 'Նոր';
 $lang['NEWEST'] = 'Նոր';
@@ -2110,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'Վերահսկողության Արգելքը';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'Արգելքը մեկ կամ մի քանի կոնկրետ օգտագործողների համար';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Դուք կարող եք արգելել է մի քանի օգտվողներին մեկ անգամ, օգտագործելով համապատասխան համադրություն մկնիկը եւ ստեղնաշարի ձեր համակարգչի բրաուզերի';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Դուք կարող եք разбанить մի քանի օգտվողներին մեկ անգամ, օգտագործելով համապատասխան համադրություն մկնիկը եւ ստեղնաշարի ձեր համակարգչի բրաուզերի';
 $lang['NO_BANNED_USERS'] = 'Արգելված լոգիններն';
 $lang['BAN_UPDATE_SUCESSFUL'] = '"Банлист հաջողությամբ թարմացվել';
@@ -2339,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Օգտագործելով այս ձեւով Դուք կ
 $lang['ADD_NEW_RANK'] = 'Ավելացնել նոր աստիճան';
 $lang['RANK_TITLE'] = 'Անվանումը Կոչում';
 $lang['STYLE_COLOR'] = 'Աստիճան ոճը';
-$lang['STYLE_COLOR_FAQ'] = 'Նշեք դասի նկարել է անվանումը, ցանկալի գույն. Օրինակ <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Նկարներ Աստիճան';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Օգտագործեք այս որոշելու փոքր նկարներ, որոնք կապված են կոչում';
 
@@ -2396,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Միայն ադմինիստրատոր�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s կարող եք դիտել այս համաժողովը';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s կարող է կարդալ գրառումները այս ֆորումում';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s կարող եք տեղադրել այս ֆորումում';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s կարող եք պատասխանել հաղորդագրություններին այս համաժողովին';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s կարող եք խմբագրել գրառումները այս ֆորումում';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s կարող եք ջնջել գրառումները այս ֆորումում';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s կարող եք հրապարակել прилепленные թեմաներ այս ֆորումում';
@@ -2416,7 +2413,7 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. երկարությունը նորություններ';
 $lang['NEWS_COUNT'] = 'Որքան նորությունների ցույց են տալիս';
-$lang['NEWS_FORUM_ID'] = 'Ինչ ֆորումներում էկրան <br /> <h6>Of մի քանի ֆորումներում բարձրացնում է, ստորակետերով առանձնացված. Օրինակ 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Ոչ avatar';
 $lang['TRACKER_STATS'] = 'Վիճակագրությունը խուզարկու';
 $lang['WHOIS_INFO'] = 'Տեղեկություններ IP-հասցեն';
@@ -2672,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Լուծել տրամաբանական полно
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'օգտագործել *, +, -,.. որոնման';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Ժողովածու";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Ցույց տալ օգտագործողներին վիճակագրության փողոց/dl վերեւում ֆորումի գլխավոր էջի";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Ավտոմատ Գրանցում торрента է խուզարկու նոր թեմաներ';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Կարգավիճակը թեման փոխվել է "Բեռնում" գրանցման торрента է խուզարկու';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'պետք է փոխել Տեսակի թեմաները "Բեռնել" անկախ պարամետրերը համաժողովի';
@@ -2712,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Միացնել';
 $lang['RUN_MAIN_CRON'] = 'Սկսել хрон';
 $lang['ADD_JOB'] = 'Ավելացնել хрон';
 $lang['DELETE_JOB'] = 'Դուք համոզված եք, որ ցանկանում եք հեռացնել աշխատանք?';
-$lang['CRON_WORKS'] = 'Хрон այժմ աշխատում է կամ կոտրվել ու -> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = 'Նորոգում Хрон';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Փոփոխությունը առաջադրանքները';
@@ -2744,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Անջատել Խորհրդի';
 $lang['BOARD_DISABLE_EXPL'] = 'անջատել Խորհրդի, երբ այդ աշխատանքը կատարվում է';
 $lang['RUN_COUNTER'] = 'Հակասում են';
 
-$lang['JOB_REMOVED'] = 'Խնդիրը հաջողությամբ հեռացվել';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'Սցենարը <b>' . @$_POST['cron_script'] . '</b> արդեն կա!';
 $lang['TITLE_DUPLICATE'] = 'Անունը Խնդիրները <b>' . @$_POST['cron_title'] . '</b> արդեն կա!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn ի լրումն problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack խնդիրները Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Վերակառուցել Ինդեքսը Որոնման';
@@ -2777,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Որքան ժամանակ (վրկ) ոչինչ �
 
 $lang['TIME_LIMIT'] = 'Սահմանաչափը ժամանակ';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Որքան ժամանակ (վրկ) постобработка կարող է տեւել մինչեւ հաջորդ ցիկլի';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (անվտանգ ռեժիմում) ունի таймаут %s վայրկյան կենտրոնանում է, ուստի մնալ այս value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your вебсервер ունի таймаут %s վայրկյան կենտրոնանում է, ուստի մնալ այս value</i>';
 
 $lang['DISABLE_BOARD'] = 'Անջատել Խորհրդի';
@@ -2840,7 +2837,7 @@ $lang['WRONG_INPUT'] = 'Դուք մտել սխալ արժեքները. Խնդր�
 $lang['PROCESSING'] = 'Մշակում...';
 $lang['FINISHED'] = 'Ավարտել է';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Թեմա բաժանված էր. Նոր թեմա - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Թեմա բաժանվել են [b]%s[/b][br][br]%s';
 
