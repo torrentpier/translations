@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Nájsť používateľ témy'; // Find all topics 
 $lang['NO_USER_ID_SPECIFIED'] = 'Ospravedlňujeme sa, ale, že užívateľ nebude existovať.';
 $lang['WRONG_PROFILE'] = 'Nemôžete zmeniť profil, ktorý nie je vlastné.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Iba jeden typ avatar môže byť uvedené';
 $lang['FILE_NO_DATA'] = 'Súbor na adresu URL, ktorú dal neobsahuje žiadne údaje';
 $lang['NO_CONNECTION_URL'] = 'Pripojenie nemôže byť vykonané na adresu URL, ktorú dal';
 $lang['INCOMPLETE_URL'] = 'Adresa URL, ktorú ste zadali, je neúplné';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Príloha je príliš veľká.<br />Could, nie
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Príloha je príliš veľká.<br />Maximum Odovzdať Veľkosť: %d MB.<br />Please na vedomie, že táto Veľkosť je definovaná v php.ini, to znamená, že je nastavený PHP a Prílohu Mod nemôže prepísať túto hodnotu.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Rozšírenie %s nie je povolené,'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Ste nesmú post Súbory s Príponou %s v tomto Fóre'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Príloha je príliš veľká.<br />Max Veľkosť: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Ospravedlňujeme sa, ale maximálna filesize pre všetkých Príloh je dosiahnutá. Prosím, obráťte sa na Palube Správcu, ak máte otázky.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Prílohu nie je možné pridať, pretože max. počet %d Príloh v tomto príspevku bolo dosiahnuté'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Prílohu/Obrázok musí byť menej ako %d pixelov a %d pixelov';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kód]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Návrat na úpravu';
 $lang['PROFILE_RETURN'] = 'Prejdite na požadovaný profil';
 
 $lang['WARNING'] = 'Upozornenie';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Preindexovanie vyhľadávania';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Fórum štýl';
