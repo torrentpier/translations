@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Benutzer Themen'; // Find all topics by username
 $lang['NO_USER_ID_SPECIFIED'] = 'Sorry, aber, dass Benutzer nicht existiert.';
 $lang['WRONG_PROFILE'] = 'Sie können ein Profil Bearbeiten, das ist nicht Ihre eigenen.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Nur eine Art von avatar angegeben werden können';
 $lang['FILE_NO_DATA'] = 'Die Datei an der URL, die Sie gab, enthält keine Daten';
 $lang['NO_CONNECTION_URL'] = 'Eine Verbindung konnte nicht hergestellt werden, um die URL, die Sie gab';
 $lang['INCOMPLETE_URL'] = 'Die URL, die Sie eingegeben haben, ist unvollständig';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Die Anlage ist zu groß.<br />Could nicht die
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Die Anlage ist zu groß.<br />Maximum Upload-Größe: %d MB.<br />Please beachten Sie, dass diese Größe ist definiert in php.ini, das heißt, es ist festgelegt durch PHP und dem Attachment Mod kann nicht diesen Wert überschreiben.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Die Erweiterung %s ist nicht erlaubt'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sie sind nicht erlaubt zu posten von Dateien mit der Erweiterung %s in diesem Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Die Anlage ist zu groß.<br />Max Größe: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Sorry, aber die maximale Dateigröße für alle Anlagen erreicht wird. Bitte Kontaktieren Sie die Board-Administrator, wenn Sie Fragen haben.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Attachment kann nicht Hinzugefügt werden, da die max. Anzahl der %d Anhänge in diesem Beitrag wurde erreicht'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Das Attachment/Bild muss kleiner sein als %d Pixel breit und %d Pixel hoch';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Zurück zu Bearbeiten';
 $lang['PROFILE_RETURN'] = 'Gehen Sie auf das Profil';
 
 $lang['WARNING'] = 'Warnung';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Suche neu indizieren';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum style';
