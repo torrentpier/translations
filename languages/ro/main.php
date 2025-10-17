@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Găsi subiecte de utilizator'; // Find all topics
 $lang['NO_USER_ID_SPECIFIED'] = 'Îmi pare rău, dar acest utilizator nu există.';
 $lang['WRONG_PROFILE'] = 'Nu puteți modifica un profil care nu este a ta.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Doar un singur tip de avatar poate fi specificat';
 $lang['FILE_NO_DATA'] = 'Fișierul de la URL-ul dat nu conține date';
 $lang['NO_CONNECTION_URL'] = 'Conexiunea nu a putut fi făcute la URL-ai dat';
 $lang['INCOMPLETE_URL'] = 'URL-ul introdus este incompletă';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Atașamentul este prea mare.<br />Could nu ob
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Atașamentul este prea mare.<br />Maximum Incarca Dimensiune: %d MB.<br />Please rețineți că această Dimensiune este definită în php.ini, acest lucru înseamnă că este stabilit de PHP și Atașamentul Mod nu se poate trece peste această valoare.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Extinderea %s nu este permis'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nu ai voie să postați Fișiere cu Extensia %s în acest Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Atașamentul este prea mare.<br />Max Dimensiune: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Îmi pare rău, dar dimensiunea maxima pentru toate echipamentele este de ajuns. Vă rugăm să contactați Administratorul forumului dacă aveți întrebări.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Atașament nu poate fi adăugat, de max. numărul de %d fișiere Atașate în acest post a fost realizat'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Atașarea/Imagine trebuie să fie mai mică decât %d de pixeli lățime și %d pixeli de înaltă';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Cod]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'A reveni la editarea';
 $lang['PROFILE_RETURN'] = 'Du-te la profil';
 
 $lang['WARNING'] = 'Avertizare';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex căutare';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Stil de Forum';
