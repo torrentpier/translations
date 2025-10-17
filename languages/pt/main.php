@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Utilizador localizar tópicos'; // Find all topic
 $lang['NO_USER_ID_SPECIFIED'] = 'Desculpe, mas que o usuário não existe.';
 $lang['WRONG_PROFILE'] = 'Você não pode modificar um perfil que não é o seu próprio.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Apenas um tipo de avatar pode ser especificado';
 $lang['FILE_NO_DATA'] = 'O arquivo no URL que você deu não contém dados';
 $lang['NO_CONNECTION_URL'] = 'Uma conexão não pôde ser feita para o URL que você deu';
 $lang['INCOMPLETE_URL'] = 'A URL que você inseriu está incompleta';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'O Anexo é muito grande.<br />Could não obte
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'O Anexo é muito grande.<br />Maximum Upload Tamanho: %d MB.<br />Please note que este Tamanho é definido em php.ini, isso significa que é definido pelo PHP e o Anexo Mod não pode substituir este valor.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'A Extensão %s não é permitido'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Você não tem permissão para postar Arquivos com a Extensão %s dentro deste Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'O Anexo é muito grande.<br />Max Tamanho: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Lamentamos, mas o máximo de tamanho para todos os Anexos, é atingido. Por favor, contate o Administrador se tiver dúvidas.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'O anexo não pode ser adicionado, desde que o max. número de %d Anexos neste post foi alcançado'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'O Anexo/Imagem deve ser menor do que %d pixels de largura e %d pixels de altura';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Código]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Voltar à edição';
 $lang['PROFILE_RETURN'] = 'Vá para o perfil';
 
 $lang['WARNING'] = 'Aviso';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindexar de pesquisa';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Estilo do fórum';
