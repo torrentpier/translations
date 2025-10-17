@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = '運営';
+$lang['ADMIN'] = '管理';
 $lang['FORUM'] = 'フォーラム';
 $lang['CATEGORY'] = 'カテゴリ';
 $lang['HIDE_CAT'] = '隠しカテゴリ';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = '不明';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = '次へ';
 $lang['PREVIOUS_PAGE'] = '前';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'テンプレートキャッシュはクリア�
 $lang['DATASTORE_CLEARED'] = 'Datastoreてクリア';
 $lang['BOARD_DISABLE'] = 'このフォーラムが無効になっています。 てみても、後';
 $lang['BOARD_DISABLE_CRON'] = 'フォースを実現します。 てみても、後';
-$lang['ADMIN_DISABLE'] = 'このフォーラムでは無効になって管理しておくとよいでしょう随時';
-$lang['ADMIN_DISABLE_CRON'] = 'ロックフォーラムのトリガーのcronジョブは、削除できるロックを随時';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'このフォーラムは無効に';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'フォーラムカンドステ';
 $lang['ADMIN_UNLOCK'] = 'するフォーラム';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = '新規投稿"ロック]';
 $lang['FORUM_LOCKED_MAIN'] = 'フォーラムがロックされ';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'ご入力くださいユーザー名とパスワードでログインしてください。';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'ログイン';
 $lang['LOGOUT'] = 'ログアウト';
 $lang['CONFIRM_LOGOUT'] = 'Are you sure you wantへのログアウトす。';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = '削除のpoll';
 $lang['MAX_SMILIES_PER_POST'] = '絵文字制限の%s絵文字を超えます。';
 
 $lang['ATTACH_SIGNATURE'] = '添付signature(署名を変更できるプロファイル）';
-$lang['NOTIFY'] = 'あだに回答';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'メッセージを入力します。';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = '誕生日';
 $lang['HAPPY_BIRTHDAY'] = 'お誕生日おめです！';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'の誕生日の形式で入力されたが間違っています。';
 $lang['AGE'] = '年齢';
-$lang['BIRTHDAY_TO_HIGH'] = 'このサイトは、ユーザーが以上%d歳';
-$lang['BIRTHDAY_TO_LOW'] = 'このサイトは受け付けませんのユーザー yongerよ%d歳';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'ユーザーの誕生日現在 ';
 $lang['BIRTHDAY_WEEK'] = 'ユーザーの誕生日に%d日:%s';
-$lang['NOBIRTHDAY_WEEK'] = 'ないユーザーの誕生日の%d日'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'ないユーザーの誕生日の%d日'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'ないユーザーの誕生日現在';
 $lang['BIRTHDAY_ENABLE'] = 'より誕生日';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max年齢';
 $lang['BIRTHDAY_MIN_AGE'] = '分の年齢';
-$lang['BIRTHDAY_CHECK_DAY'] = '日チェックをくすぐ誕生日';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = '年';
 
 $lang['NO_THEMES'] = 'なテーマでのデータベース';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = '申し訳ございません、あなたはこの
 $lang['USERNAME_TOO_LONG'] = 'お名が長すぎます。';
 $lang['USERNAME_TOO_SMALL'] = 'お名前が小さすぎます。';
 $lang['EMAIL_TAKEN'] = '申し訳ございません、あなたのe-mailアドレスが既に登録済みユーザーです。';
-$lang['EMAIL_BANNED'] = '申し訳ございません、あなたの<b>%s</b>アドレスが禁止されていたのです。';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = '申し訳ございません、あなたはこのe-mailアドレスが無効になります。';
 $lang['EMAIL_TOO_LONG'] = 'メールが長すぎます。';
 $lang['SIGNATURE_TOO_LONG'] = '自筆の署名が長すぎます。';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = '年月日';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'Noを選択',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = '説明'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'ダウンロード'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = '閲覧';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '拡張子によ%s"が無効化される板の管理者は、そのためこの添付が表示されません。'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'な追加passkey<br /><br />Torrent登録さ
 $lang['BT_PASSKEY'] = 'パスキー';
 $lang['BT_GEN_PASSKEY'] = '新規作成し';
 $lang['BT_PASSKEY_VIEW'] = 'ショー';
-$lang['BT_GEN_PASSKEY_NEW'] = "注意！ 変更後の新しいパスキーは、ダウンロードは全部やり直しの納入です！ おAre you sure you wantへの新しいパスキーのか？";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'ない検索フォーラムの発見';
 
 $lang['SEEDS'] = '種子';
@@ -1440,19 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = '足ファイルの識別子です！';
 $lang['CHANGE_TOR_TYPE'] = 'タイプは、激流の変更に成功';
 $lang['DEL_TORRENT'] = 'Are you sure you want to deleteの激流すか？';
 $lang['DEL_MOVE_TORRENT'] = 'Are you sure you wantへの削除に移動する！';
-$lang['UNEXECUTED_RELEASE'] = 'い型レスリリース前を修正彼unformedす！';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = '変化する状況の分布-%s';
-$lang['TOR_MOD_MSG'] = "こんにちは、%sます。n
-の状況[url=%s]your[/url]分布に変更[b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = '変化のデザイン-%s';
-$lang['TOR_AUTH_MSG'] = "こんにちは、%sます。n
-っ流通に変更[url=%s]%s[/url]
-
-を再チェックしてくださいます。";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = '固定';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The送信された情報をモデレーターです。 期待します。</span>';
 
@@ -1580,7 +1576,7 @@ $lang['BONUS_SELECT'] = '選択';
 $lang['SEED_BONUS'] = '種ボーナス';
 $lang['EXCHANGE'] = '交換';
 $lang['EXCHANGE_BONUS'] = '交換種の賞与引当金';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%sにdistribution</b> <br />交換ボーナスポイント%1$s交通追加されるの和を生成する際に使われます。';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = '価格';
 $lang['EXCHANGE_NOT'] = '交換不可';
@@ -1613,7 +1609,7 @@ $lang['DESIGNER'] = 'デザイナー';
 $lang['LAST_IP'] = '最後のIP:';
 $lang['REG_IP'] = '登録IP:';
 $lang['OTHER_IP'] = 'その他のIP:';
-$lang['ALREADY_REG_IP'] = 'とユーザーのIPアドレスが登録済みユーザー%sます。 ていない場合は以前に登録されてトラッカーは、メール<a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = '隠れた';
 
 // from admin
@@ -1719,13 +1715,13 @@ $lang['COMMENT'] = 'コメント';
 
 // search
 $lang['SEARCH_S'] = '検索---';
-$lang['FORUM_S'] = 'フォーラム';
-$lang['TRACKER_S'] = 'にトラッカー';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'によるinfo_hash';
 
 // copyright
 $lang['NOTICE'] = 'す！注意！';
-$lang['COPY'] = '当サイトにおいては、今後い電子バージョンの製品を組みの収集-整理を参考に送られ、公開される予定のためのフォーラムによる読者の皆さんです。 の場合の法的な所有者の届出のあった材質となることを願の参照がなくなってしばらくするとした当社のカタログ、お問い合わせとしては、直ちに削除します。 ファイルを交換するトラッカーはユーザーのサイトの管理は一切の責任を負うものと維持します。 の要求は、ファイルの著作権により保護されており、またファイルに不正な維持に！';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = '崩壊ディレクトリ';
@@ -1733,14 +1729,14 @@ $lang['EXPAND'] = '拡大';
 $lang['SWITCH'] = 'スイッチ';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = '足ファイルの識別子です！';
-$lang['TOR_NOT_FOUND'] = 'ファイルをサーバーです！';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'このtorrentファイルすることができませんのサイトできませんでしたが、自分のファイル)';
 $lang['TORFILE_INVALID'] = 'Torrentファイルが破損';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"サイト"を含みhttp://sitename';
-$lang['ICQ_ERROR'] = 'の分野ではicqだ"が含まれまみはicqだ数';
-$lang['INVALID_DATE'] = '誤日 ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = '閲覧概要';
 $lang['GOOD_UPDATE'] = 'した変更に成功';
 $lang['UCP_DOWNLOADS'] = 'ダウンロード';
@@ -1763,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'まず削除したいユーザーか？';
 $lang['USER_DELETED'] = 'ユーザーの削除に成功した';
 $lang['DELETE_USER_ALL_POSTS'] = 'べて削除するユーザーの投稿';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'まず削除したいすべてのメッセージとして始めたこのユーザか？';
-$lang['DELETE_USER_POSTS'] = 'べて削除するメッセージを除く資本';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Are you sure you wantすべて削除するとんか？';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'まず削除したいすべてのメッセージを除く。';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = '投稿が正常に削除された';
 
 $lang['USER'] = 'ユーザー';
@@ -1778,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'はできませんュ隠れた団体';
 
 $lang['USER_ACTIVATE'] = '活性化';
 $lang['USER_DEACTIVATE'] = '無効化';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you wantこのユーザか？';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'ユーザの活性化に成功';
 $lang['USER_DEACTIVATE_ME'] = 'できませんの無効化をマイアカウントです！';
 $lang['ACTIVATE_CONFIRM'] = 'Are you sure you wantを無効にすることでユーザか？';
@@ -1790,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'スを指定しなければなりませんe-mail';
 $lang['CHOOSE_PASS'] = '分野のパスワードは空です！';
 $lang['CHOOSE_PASS_ERR'] = '入力したパスワードが一致しない';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'パスワードが必要で、少なくとも%d文字';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'パスワードは $d 文字以内にする必要があります';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1801,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'パスワードを変更し、正しく認識し�
 $lang['EMAILER_DISABLED'] = 'この機能は一時的に働いていない';
 $lang['TERMS_ON'] = '同意してこれらの条件';
 $lang['TERMS_OFF'] = '同意しないこ';
-$lang['JAVASCRIPT_ON_REGISTER'] = '登録ヘッドに必要なJavaScriptを有効にする';
-$lang['REGISTERED_IN_TIME'] = "現在登録はclosed<br /><br />Youでも登録できるから01:00～17:00MSK(現 " . date('H:i') . " MSK)<br /><br />Weは復旧し、問題なくご利用になれ";
-$lang['AUTOCOMPLETE'] = 'パスワードを生成';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'おいて新しいパスワード：';
 $lang['REGENERATE'] = '再生';
 
@@ -1862,7 +1858,7 @@ $lang['LIST_ITEM'] = '順序付きリスト:"一覧=]text[/list](Ctrl+O)';
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = '見積もりの選択';
-$lang['JAVASCRIPT_ON'] = 'ヘッドに必要なメッセージを送るためJavaScriptを有効にする';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = '新しい';
 $lang['NEWEST'] = '最新';
@@ -2111,7 +2107,7 @@ $lang['BAN_CONTROL'] = '禁止制御';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = '禁止一又は二以上の特定のユーザー';
 $lang['BAN_USERNAME_EXPLAIN'] = 'でき禁止複数のユーザーの利用の適切な組合せマウスやキーボードのためのコンピュータのブラウザ';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'でき誤解を複数のユーザーの利用の適切な組合せマウスやキーボードのためのコンピュータのブラウザ';
 $lang['NO_BANNED_USERS'] = '禁ユーザ名';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'のbanlistを更新しました';
@@ -2340,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'こちらのフォームをご利用できる追加、
 $lang['ADD_NEW_RANK'] = '新規追加ランク';
 $lang['RANK_TITLE'] = 'タイトルランク';
 $lang['STYLE_COLOR'] = 'スタイルランク';
-$lang['STYLE_COLOR_FAQ'] = '指定クラス絵画のタイトルの、ご希望の色です。 例えば<i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'ランク画像';
 $lang['RANK_IMAGE_EXPLAIN'] = 'この定義の小さな画像のランク';
 
@@ -2397,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = '管理者だけが';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%sできるビューのこのフォーラム';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%sで世界のあらゆる部分からこのフォーラム';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%sでポストにこのフォーラム';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%sでに返信投稿フォーラム';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%sを編集できる職フォーラム';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%sで削除できる職フォーラム';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%sで粘着テーマフォーラム';
@@ -2417,7 +2413,7 @@ $lang['SYNC'] = '同期';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. 長さのニュース';
 $lang['NEWS_COUNT'] = 'どのように多くのニュースショー';
-$lang['NEWS_FORUM_ID'] = 'からかフォーラムを表示<br /> <h6>Ofの複数のフォーラムの底上げ、カンマで区切られています。 例1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'ないアバター';
 $lang['TRACKER_STATS'] = '統計のトラッカー';
 $lang['WHOIS_INFO'] = 'に関する情報IPアドレス';
@@ -2673,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'すboolean全文検索';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '利用*,+,-,..検索';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "その他";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "ユーザに示UL/DL統計上のフォーラムのメインページ";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = '自動的に登録激流にトラッカーのための新しい研究テーマ';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = '変更話題の状況"をダウンロード"を登録激流にトラッカー';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = '変更話題の種類"をダウンロードにかかわらず、"フォーラムの設定';
@@ -2713,7 +2709,7 @@ $lang['CRON_ENABLE'] = '能';
 $lang['RUN_MAIN_CRON'] = '開始cron';
 $lang['ADD_JOB'] = '追加cronジョブ';
 $lang['DELETE_JOB'] = 'Are you sure you want to delete cronジョブは？';
-$lang['CRON_WORKS'] = 'Cronで動作や故障につき）-> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = '修理Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = '編集の仕事';
@@ -2745,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'ボードの無効化';
 $lang['BOARD_DISABLE_EXPL'] = '無効化ボードがこのジョブは実行';
 $lang['RUN_COUNTER'] = '走カウンター';
 
-$lang['JOB_REMOVED'] = 'の問題を取り除に成功し';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'スクリプト<b>' . @$_POST['cron_script'] . '</b>がすでに存在するす！';
 $lang['TITLE_DUPLICATE'] = 'タスク名<b>' . @$_POST['cron_title'] . '</b>がすでに存在するす！';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturnのほか、problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBackのタスクScheduler%s';
 
 $lang['REBUILD_SEARCH'] = '再検索インデックス';
@@ -2778,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'どのくらいの時間（秒）寝る前に�
 
 $lang['TIME_LIMIT'] = '制限時間';
 $lang['TIME_LIMIT_EXPLAIN'] = 'どのくらいの時間(秒)ポスト処理の最後に移る前に次のサイクル';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Yourョンセーフモード）タイムアウトの%s秒に設定で、以下のこvalue</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Yourウェブサーバがタイムアウトの%s秒に設定で、以下のこvalue</i>';
 
 $lang['DISABLE_BOARD'] = 'ボードの無効化';
@@ -2841,7 +2837,7 @@ $lang['WRONG_INPUT'] = '現在の入力の一部間違った値です。 を確�
 $lang['PROCESSING'] = '処---';
 $lang['FINISHED'] = '完成';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = '話題にして分割します。 新しいトピック[b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = '課題分割されたから[b]%s[/b][br][br]%s';
 

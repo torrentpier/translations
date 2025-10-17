@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'Kureeriva';
+$lang['ADMIN'] = 'Haldus';
 $lang['FORUM'] = 'Foorum';
 $lang['CATEGORY'] = 'Kategooria';
 $lang['HIDE_CAT'] = 'Peida kategooria';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = 'Teadmata';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = 'Järgmine';
 $lang['PREVIOUS_PAGE'] = 'Eelmine';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Mall vahemälu on kustutatud';
 $lang['DATASTORE_CLEARED'] = 'Datastore on kustutatud';
 $lang['BOARD_DISABLE'] = 'Vabandame, selles foorumis on keelatud. Proovige hiljem tagasi tulla';
 $lang['BOARD_DISABLE_CRON'] = 'Foorum on maas hoolduseks. Proovige hiljem tagasi tulla';
-$lang['ADMIN_DISABLE'] = 'foorumis on keelatud administraator, saate võimaldavad tal igal ajal';
-$lang['ADMIN_DISABLE_CRON'] = 'foorumi lukku vallandada cron töö, saab eemaldada luku igal ajal';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'Foorumis on keelatud';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foorum on maas hoolduseks';
 $lang['ADMIN_UNLOCK'] = 'Võimaldab foorumil';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Uued postitused [ Lukus ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Foorum on lukus';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Palun sisesta kasutajanimi ja parool, et sisse logida.';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'Logi sisse';
 $lang['LOGOUT'] = 'Logi välja';
 $lang['CONFIRM_LOGOUT'] = 'Olete kindel, et soovite välja logida?';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = 'Kustutada küsitlus';
 $lang['MAX_SMILIES_PER_POST'] = 'Emotikonide limiidi %s emotikone ületatud.';
 
 $lang['ATTACH_SIGNATURE'] = 'Lisada signatuur (signatuure saab muuta profiili)';
-$lang['NOTIFY'] = 'Teavita mind, kui vastused';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'Teie sõnum on edukalt sisestatud.';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = 'Sünnipäev';
 $lang['HAPPY_BIRTHDAY'] = 'Palju Õnne Sünnipäevaks!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Sünnipäeva vorm oli valesti sisestatud.';
 $lang['AGE'] = 'Vanus';
-$lang['BIRTHDAY_TO_HIGH'] = 'Vabandust, see sait ei võta, kasutaja on vanem kui %d aastat vana';
-$lang['BIRTHDAY_TO_LOW'] = 'Vabandust, see sait ei võta, kasutaja yonger kui %d aastat vana';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Kasutajad, kellel on täna sünnipäev: ';
 $lang['BIRTHDAY_WEEK'] = 'Kasutajad, kellel on sünnipäev lähema %d päeva: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'Ükski kasutaja on sünnipäev tulemas %d päeva'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'Ükski kasutaja on sünnipäev tulemas %d päeva'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Ükski kasutaja on täna sünnipäev';
 $lang['BIRTHDAY_ENABLE'] = 'Võimaldab sünnipäeva';
 $lang['BIRTHDAY_MAX_AGE'] = 'Maksimaalne vanus';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min vanus';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Päeva, et kontrollida tulevad varsti sünnipäevad';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = 'Aasta';
 
 $lang['NO_THEMES'] = 'Nr Teemad andmebaasist';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Vabandust, aga see kasutajanimi on keelatud.';
 $lang['USERNAME_TOO_LONG'] = 'Sinu nimi on liiga pikk.';
 $lang['USERNAME_TOO_SMALL'] = 'Oma nime on liiga väike.';
 $lang['EMAIL_TAKEN'] = 'Vabandame, aga see e-posti aadress on juba registreeritud kasutaja.';
-$lang['EMAIL_BANNED'] = 'Vabandust, kuid <b>%s</b> aadress on keelatud.';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = 'Vabandame, aga see e-posti aadress on vigane.';
 $lang['EMAIL_TOO_LONG'] = 'Teie e-mail on liiga pikk.';
 $lang['SIGNATURE_TOO_LONG'] = 'Signatuur on liiga pikk.';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Kahanda';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'Ei vali',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = 'Kirjeldus'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Lae alla'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = 'Vaadatud';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Faililaiendiga \'%s" oli välja lülitatud poolt juhatuse admin, seega see adapter ei kuvata.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Ei saanud lisada passkey<br /><br />Torrent 
 $lang['BT_PASSKEY'] = 'Parooli';
 $lang['BT_GEN_PASSKEY'] = 'looge uus';
 $lang['BT_PASSKEY_VIEW'] = 'näitus';
-$lang['BT_GEN_PASSKEY_NEW'] = "Tähelepanu! Pärast muutmist uus parooli, peate uuesti alla laadida kogu aktiivse torrentid! \n-sa Oled kindel, et soovid luua uus parooli?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'No otsitav foorumid leida';
 
 $lang['SEEDS'] = 'Seeme';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Puuduva faili identifikaator!';
 $lang['CHANGE_TOR_TYPE'] = 'Tüüp torrent edukalt muutunud';
 $lang['DEL_TORRENT'] = 'Olete kindel, et soovite kustutada torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Olete kindel, et soovite kustutada ja liigutada teema?';
-$lang['UNEXECUTED_RELEASE'] = 'Kas teil on vormitu vabastada enne luua uusi määrata oma konarliku!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Oleku muutmine jaotus - %s';
-$lang['TOR_MOD_MSG'] = "Tere, %s.\n\n Staatus [url=%s]your[/url] jaotus on muutunud [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Muutused disain - %s';
-$lang['TOR_AUTH_MSG'] = "Tere, %s.\n\n Muutes oma jaotamine muutunud - [url=%s]%s[/url]\n\n Palun uuesti vaadata seda.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = 'Fikseeritud';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The saadetud teave moderaator. Oodata.</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Valige';
 $lang['SEED_BONUS'] = 'Seemne boonus';
 $lang['EXCHANGE'] = 'Vahetus';
 $lang['EXCHANGE_BONUS'] = 'Vahetada seemne boonused';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s, et distribution</b> <br /> vahetada punkte %1$s liiklust, mis on lisatud summa oma distributsiooni.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Hind';
 $lang['EXCHANGE_NOT'] = 'Vahetus ei ole saadaval';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Disainer';
 $lang['LAST_IP'] = 'Viimati IP:';
 $lang['REG_IP'] = 'Registreerimise IP:';
 $lang['OTHER_IP'] = 'Muud IP:';
-$lang['ALREADY_REG_IP'] = 'Sinu IP-aadress on juba registreeritud kasutaja %s. Kui te ei ole eelnevalt registreeritud, meie tracker, posti <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'Peidetud';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = 'Kommentaar';
 
 // search
 $lang['SEARCH_S'] = 'otsing...';
-$lang['FORUM_S'] = 'foorum';
-$lang['TRACKER_S'] = 'kohta tracker';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'mida info_hash';
 
 // copyright
 $lang['NOTICE'] = '!TÄHELEPANU!';
-$lang['COPY'] = 'Sait ei anna elektroonilised versioonid toodete ja tegeleb ainult koguda ja kataloogimine viidete saadetud ja avaldatud aadressil foorum, mis meie lugejad. Kui oled seaduslik omanik mis tahes esitatud materjali ja ei soovi, et viide, et see oli meie kataloogist, võtke meiega ühendust ja me kohe kustutada oma. Faile vahetada mõtteid tracker on antud saidi kasutajatele ja administratsioon ei kanna vastutust nende hooldus. Taotlus ei täida failid on kaitstud autoriõigusega, ja ka faile ebaseadusliku hooldus!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Kollaps kataloog';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = 'Laiendage';
 $lang['SWITCH'] = 'Lüliti';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = 'Puuduva faili identifikaator!';
-$lang['TOR_NOT_FOUND'] = 'Fail on puudu serveris!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'Sisu see torrent faili ei saa vaadelda saidil (ei ole võimalik luua failide loendit)';
 $lang['TORFILE_INVALID'] = 'Torrent-fail on korrumpeerunud';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Sait" võib sisaldada ainult http://sitename';
-$lang['ICQ_ERROR'] = 'Valdkonnas "ICQ" võib sisaldada ainult icq number';
-$lang['INVALID_DATE'] = 'Viga kuupäeva ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = 'Profiili vaatamine';
 $lang['GOOD_UPDATE'] = 'oli edukalt muutunud';
 $lang['UCP_DOWNLOADS'] = 'Lingid';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Olete kindel, et soovite kustutada selle kasutaj
 $lang['USER_DELETED'] = 'Kasutaja on edukalt kustutatud';
 $lang['DELETE_USER_ALL_POSTS'] = 'Kustuta kõik kasutaja postitusi';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Olete kindel, et soovite kustutada kõik sõnumid ja kõik teemad, alustas see kasutaja?';
-$lang['DELETE_USER_POSTS'] = 'Kustutada kõik sõnumid, välja arvatud kapitali';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Olete kindel, et soovite kustutada kõik minu postitused?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Olete kindel, et soovite kustutada kõik sõnumid, välja arvatud kapitali?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = 'Postitused olid edukalt eemaldatud';
 
 $lang['USER'] = 'Kasutaja';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Sul ei ole lubatud kuvada varjatud rühmad';
 
 $lang['USER_ACTIVATE'] = 'Aktiveerige';
 $lang['USER_DEACTIVATE'] = 'Väljalülitamine';
-$lang['DEACTIVATE_CONFIRM'] = 'Olete kindel, et soovite võimaldab see kasutaja?';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'Kasutaja on edukalt aktiveeritud';
 $lang['USER_DEACTIVATE_ME'] = 'Sa ei saa deaktiveerida minu konto!';
 $lang['ACTIVATE_CONFIRM'] = 'Olete kindel, et tahad selle kasutaja?';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'Tuleb teil määrata e-posti';
 $lang['CHOOSE_PASS'] = 'Väli parool ei tohi olla tühi!!!';
 $lang['CHOOSE_PASS_ERR'] = 'Sisestatud paroolid ei kattu';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Teie salasõna peab olema vähemalt %d tähemärki';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Teie parooli ei tohi olla pikem kui $d tähemärki';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'Parooli muuta, pead õigesti määrata parool';
 $lang['EMAILER_DISABLED'] = 'Vabandust, see funktsioon ajutiselt ei tööta';
 $lang['TERMS_ON'] = 'Ma nõustun nende tingimustega';
 $lang['TERMS_OFF'] = 'Ma ei nõustu nende tingimustega';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Registreerida, pead vajalik JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Hetkel on registreerimine closed<br /><br />You saab registreerida alates 01:00 kuni 17:00 MSK (nüüd " . date('H:i') . " MSK)<br /><br />We vabandan see ebamugavust";
-$lang['AUTOCOMPLETE'] = 'Parooli luua';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'Sinu uus parool:';
 $lang['REGENERATE'] = 'Taastada';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = 'Tellida loetelu: [list=]text[/list] (Ctrl+O)';
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Tsitaat valitud';
-$lang['JAVASCRIPT_ON'] = 'Juhid vaja sõnumeid saata enable JavaScript';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = 'Uus';
 $lang['NEWEST'] = 'Uusim';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'Ban Kontrolli';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'Ban ühe või mitme konkreetse kasutajad';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Saate ban mitu kasutajat korraga, kasutades sobivat kombinatsiooni hiirt ja klaviatuuri, et teie arvuti ja brauser';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Saad unban mitu kasutajat korraga, kasutades sobivat kombinatsiooni hiirt ja klaviatuuri, et teie arvuti ja brauser';
 $lang['NO_BANNED_USERS'] = 'Nr keelatud kasutajanimed';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Kui banlist on edukalt uuendatud';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Kasutades seda vormi, saate lisada, muuta, vaadata ja 
 $lang['ADD_NEW_RANK'] = 'Lisa uus auaste';
 $lang['RANK_TITLE'] = 'Auaste Pealkiri';
 $lang['STYLE_COLOR'] = 'Stiil auaste';
-$lang['STYLE_COLOR_FAQ'] = 'Täpsustada klassi maali kell pealkiri soovitud värv. Näiteks <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Auaste Pilt';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Kasuta seda selleks, et määratleda väikese pildi seotud auaste';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Ainult administraatorid';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s saab vaadata siin foorumis';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s saab lugeda postitusi selles foorumis';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s võib postitada siin foorumis';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s võib vastata postitusi siin foorumis';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s saate muuta postitusi selles foorumis';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s saa kustutada postitusi selles foorumis';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s võib postitada kleepuv teemasid selles foorumis';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Maks. pikkus uudised';
 $lang['NEWS_COUNT'] = 'Kui palju news show';
-$lang['NEWS_FORUM_ID'] = 'Mida foorumites, et kuvada <br /> <h6>Of mitmed foorumid tõstab, komadega eraldatult. Näiteks 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Nr avatari';
 $lang['TRACKER_STATS'] = 'Statistika tracker';
 $lang['WHOIS_INFO'] = 'Teave IP aadress';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Võimaldab boolean full-text otsingud';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'kasuta *, +, -,.. otsingud';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Mitmesugused";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Näita kasutajad UL/DL statistika ülaosas foorumi avalehele";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Registreeriks torrent kohta tracker uusi teemasid';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Muuda teemat staatuse "Lae alla" registreerimise ajal torrent tracker kohta';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'muutub teema tüüp, et "Lae alla" sõltumata foorumi seaded';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Võimaldada';
 $lang['RUN_MAIN_CRON'] = 'Alusta cron';
 $lang['ADD_JOB'] = 'Lisada cron töö';
 $lang['DELETE_JOB'] = 'Olete kindel, et soovite kustutada cron töö?';
-$lang['CRON_WORKS'] = 'Cron on nüüd töötab või on katki -> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = 'Remondi-Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Edit tööd';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Keelata juhatus';
 $lang['BOARD_DISABLE_EXPL'] = 'keelata pardal, kui see töö on käivitatud';
 $lang['RUN_COUNTER'] = 'Vastuolus';
 
-$lang['JOB_REMOVED'] = 'Probleem on eemaldatud';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'Skripti <b>' . @$_POST['cron_script'] . '</b> on juba olemas!';
 $lang['TITLE_DUPLICATE'] = 'Ülesande Nime <b>' . @$_POST['cron_title'] . '</b> on juba olemas!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn, et lisaks problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack Ülesanne Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Rebuild Search Indeks';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Kui palju aega (sek) jääda tühikäigul, enne
 
 $lang['TIME_LIMIT'] = 'Tähtaeg';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Kui palju aega (sek) allahindlus töötlemine võib kesta enne kolimist järgmise tsükli';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your php (safe mode) on aeg, %s sekundit konfigureeritud, nii et stay selle all value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver on määratud, %s sekundit konfigureeritud, nii et stay selle all value</i>';
 
 $lang['DISABLE_BOARD'] = 'Keelata juhatus';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = 'Olete sisestanud mõned valed väärtused. Palun kontrol
 $lang['PROCESSING'] = 'Töötlemine...';
 $lang['FINISHED'] = 'Lõpetanud';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Teema on jagatud. Uus teema - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Teema on jagatud alates [b]%s[/b][br][br]%s';
 

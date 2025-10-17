@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'إدارة';
+$lang['ADMIN'] = 'الإدارة';
 $lang['FORUM'] = 'المنتدى';
 $lang['CATEGORY'] = 'الفئة';
 $lang['HIDE_CAT'] = 'إخفاء الفئات';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = 'غير معروف';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = 'القادم';
 $lang['PREVIOUS_PAGE'] = 'السابقة';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'القالب تم مسح ذاكرة التخز�
 $lang['DATASTORE_CLEARED'] = 'مخزن البيانات تم مسح';
 $lang['BOARD_DISABLE'] = 'آسف هذا المنتدى معطل. محاولة العودة في وقت لاحق';
 $lang['BOARD_DISABLE_CRON'] = 'المنتدى للصيانة. محاولة العودة في وقت لاحق';
-$lang['ADMIN_DISABLE'] = 'المنتدى معطل من قبل مسؤول ، يمكنك تمكين ذلك في أي وقت';
-$lang['ADMIN_DISABLE_CRON'] = 'المنتدى مغلق من قبل تؤدي وظيفة كرون ، يمكنك إزالة القفل في أي وقت';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'المنتدى معطل';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'المنتدى للصيانة';
 $lang['ADMIN_UNLOCK'] = 'تمكين المنتدى';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'وظائف جديدة [ مغلق ]';
 $lang['FORUM_LOCKED_MAIN'] = 'المنتدى مقفل';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'يرجى إدخال اسم المستخدم وكلمة المرور لتسجيل الدخول.';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'تسجيل الدخول';
 $lang['LOGOUT'] = 'تسجيل الخروج';
 $lang['CONFIRM_LOGOUT'] = 'هل أنت متأكد من أنك تريد تسجيل الخروج ؟ ';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = 'حذف الاستطلاع';
 $lang['MAX_SMILIES_PER_POST'] = 'الرموز الحد من %s الرموز تجاوز.';
 
 $lang['ATTACH_SIGNATURE'] = 'إرفاق التوقيع (التوقيعات يمكن تغيير في الملف الشخصي)';
-$lang['NOTIFY'] = 'يخطر لي عندما على الردود';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'رسالتك قد دخلت بنجاح.';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = 'عيد ميلاد';
 $lang['HAPPY_BIRTHDAY'] = 'عيد ميلاد سعيد!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'عيد ميلاد تنسيق تم إدخالها بشكل غير صحيح.';
 $lang['AGE'] = 'العمر';
-$lang['BIRTHDAY_TO_HIGH'] = 'آسف هذا الموقع لا يقبل المستخدم أكبر من %d عاما';
-$lang['BIRTHDAY_TO_LOW'] = 'آسف هذا الموقع لا يقبل المستخدم yonger من %d عاما';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'المستخدمين مع عيد ميلاده اليوم: ';
 $lang['BIRTHDAY_WEEK'] = 'المستخدمين مع عيد ميلاد في غضون %d أيام: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'لا تواجه المستخدمين عيد ميلاد في القادم %d أيام'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'لا تواجه المستخدمين عيد ميلاد في القادم %d أيام'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'لا يكون لدى المستخدمين عيد ميلاده اليوم';
 $lang['BIRTHDAY_ENABLE'] = 'تمكين عيد ميلاد';
 $lang['BIRTHDAY_MAX_AGE'] = 'ماكس العمر';
 $lang['BIRTHDAY_MIN_AGE'] = 'مين عمر';
-$lang['BIRTHDAY_CHECK_DAY'] = 'أيام للتحقق من يأتي قريبا أعياد الميلاد';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = 'سنوات';
 
 $lang['NO_THEMES'] = 'لا مواضيع في قاعدة البيانات';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'آسف ولكن هذا المستخدم تم م�
 $lang['USERNAME_TOO_LONG'] = 'اسمك طويل جدا.';
 $lang['USERNAME_TOO_SMALL'] = 'اسمك هو صغير جدا.';
 $lang['EMAIL_TAKEN'] = 'آسف, ولكن هذا عنوان البريد الإلكتروني مسجل بالفعل إلى المستخدم.';
-$lang['EMAIL_BANNED'] = 'آسف, ولكن <b>%s</b> عنوان منعت.';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = 'آسف لكن هذا عنوان البريد الإلكتروني غير صالح.';
 $lang['EMAIL_TOO_LONG'] = 'البريد الإلكتروني الخاص بك هو طويل جدا.';
 $lang['SIGNATURE_TOO_LONG'] = 'التوقيع الخاص بك هو طويل جدا.';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Dec';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'لا تحديد',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = 'الوصف'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'تحميل'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'حجم الملف';
 $lang['VIEWED'] = 'ينظر';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'امتداد %s\' تم إبطال مفعولها من قبل مجلس الادارة ، وبالتالي هذا التعلق لا يتم عرض.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'لا يمكن إضافة passkey<br /><br />
 $lang['BT_PASSKEY'] = 'مفتاح المرور';
 $lang['BT_GEN_PASSKEY'] = 'إنشاء جديد';
 $lang['BT_PASSKEY_VIEW'] = 'تظهر';
-$lang['BT_GEN_PASSKEY_NEW'] = "الاهتمام! بعد تغيير المرور الجديد, سوف تحتاج إلى إعادة تحميل جميع النشطة السيول! \n هل أنت متأكد من أنك تريد إنشاء مفتاح المرور ؟ ";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'لا يمكن البحث في المنتديات وجدت';
 
 $lang['SEEDS'] = 'البذور';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'الملف المفقود معرف!';
 $lang['CHANGE_TOR_TYPE'] = 'نوع سيل بنجاح تغيرت';
 $lang['DEL_TORRENT'] = 'هل أنت متأكد من أنك تريد حذف سيل ؟ ';
 $lang['DEL_MOVE_TORRENT'] = 'هل أنت متأكد من أنك تريد حذف و نقل الموضوع ؟ ';
-$lang['UNEXECUTED_RELEASE'] = 'هل لديك بشع الإفراج قبل خلق جديد تصلح له غير متشكلة!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'تغيير مركز التوزيع - %s';
-$lang['TOR_MOD_MSG'] = "مرحبا %s.\n\n وضع [url=%s]your[/url] توزيع تغيير [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'التغييرات في التصميم - %s';
-$lang['TOR_AUTH_MSG'] = "مرحبا %s.\n\n مما توزيع تغيرت - [url=%s]%s[/url]\n\n يرجى إعادة التحقق من ذلك.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = 'ثابت';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The المعلومات التي يتم إرسالها إلى مشرف. نتوقع.</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'حدد';
 $lang['SEED_BONUS'] = 'البذور مكافأة';
 $lang['EXCHANGE'] = 'تبادل';
 $lang['EXCHANGE_BONUS'] = 'تبادل البذور المكافآت';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s إلى distribution</b> <br /> إلى صرف مكافأة نقطة على %1$s حركة المرور التي سوف تضاف إلى مجموع التوزيع الخاصة بك.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'السعر';
 $lang['EXCHANGE_NOT'] = 'تبادل غير متوفر';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'مصمم';
 $lang['LAST_IP'] = 'IP آخر:';
 $lang['REG_IP'] = 'تسجيل الملكية الفكرية:';
 $lang['OTHER_IP'] = 'الملكية الفكرية الأخرى:';
-$lang['ALREADY_REG_IP'] = 'مع عنوان IP الخاص بك هو بالفعل مسجلا %s. إذا لم تكن مسجلة سابقا على تعقب البريد <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'خفية';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = 'التعليق';
 
 // search
 $lang['SEARCH_S'] = 'البحث عن...';
-$lang['FORUM_S'] = 'على المنتدى';
-$lang['TRACKER_S'] = 'على تعقب';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'قبل info_hash';
 
 // copyright
 $lang['NOTICE'] = '!الاهتمام!';
-$lang['COPY'] = 'الموقع لا يعطي نسخ إلكترونية من المنتجات و تعمل فقط في جمع وتصنيف الإشارات المرسلة نشره في المنتدى من قبل القراء. إذا كنت المالك القانوني من أي مواد مقدمة ولا ترغب في أن الإشارة إلى أنه في موقعنا أو الاتصال بنا ونحن يجب إزالة فورا. ملفات تبادل على تعقب تعطى من قبل مستخدمي الموقع ، و الإدارة لا تتحمل المسؤولية عن الصيانة. طلب عدم ملء الملفات المحمية بموجب حقوق الطبع و أيضا ملفات غير قانونية الصيانة!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'انهيار الدليل';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = 'توسيع';
 $lang['SWITCH'] = 'التبديل';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = 'الملف المفقود معرف!';
-$lang['TOR_NOT_FOUND'] = 'الملف غير موجود على الملقم!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'محتوى هذا ملف التورنت لا يمكن أن ينظر إليها على الموقع (لم يكن من الممكن بناء قائمة من الملفات)';
 $lang['TORFILE_INVALID'] = 'ملف التورنت هو الفاسدة';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"الموقع" قد تحتوي فقط http://sitename';
-$lang['ICQ_ERROR'] = 'مجال "ICQ" قد تحتوي إلا على عدد icq';
-$lang['INVALID_DATE'] = 'خطأ التاريخ ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = 'عرض الملف الشخصي';
 $lang['GOOD_UPDATE'] = 'بنجاح تغيرت';
 $lang['UCP_DOWNLOADS'] = 'تنزيل';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'هل أنت متأكد من أنك تريد حذ
 $lang['USER_DELETED'] = 'المستخدم بنجاح حذف';
 $lang['DELETE_USER_ALL_POSTS'] = 'حذف جميع مشاركاتك';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'هل أنت متأكد من أنك تريد حذف جميع الرسائل و جميع المواضيع بدأ من قبل هذا المستخدم ؟ ';
-$lang['DELETE_USER_POSTS'] = 'حذف جميع الرسائل ، باستثناء العاصمة';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'هل أنت متأكد من أنك تريد حذف جميع مشاركاتي ؟ ';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'هل أنت متأكد من أنك تريد حذف جميع الرسائل ، باستثناء رأس المال ؟ ';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = 'وظائف إزالة بنجاح';
 
 $lang['USER'] = 'المستخدم';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'لا يحق لك عرض المجموعات الم�
 
 $lang['USER_ACTIVATE'] = 'تفعيل';
 $lang['USER_DEACTIVATE'] = 'إلغاء';
-$lang['DEACTIVATE_CONFIRM'] = 'هل أنت متأكد من أنك تريد تمكين هذا المستخدم ؟ ';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'المستخدم قد تم تفعيلها بنجاح';
 $lang['USER_DEACTIVATE_ME'] = 'لا يمكنك تعطيل حسابي!';
 $lang['ACTIVATE_CONFIRM'] = 'هل أنت متأكد من أنك تريد تعطيل هذا المستخدم ؟ ';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'يجب تحديد البريد الإلكتروني';
 $lang['CHOOSE_PASS'] = 'حقل كلمة السر يجب أن لا تكون فارغة!';
 $lang['CHOOSE_PASS_ERR'] = 'دخلت لا تتطابق كلمات المرور';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'يجب أن تكون كلمة المرور على الأقل %d الشخصيات';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'يجب أن تكون كلمة المرور لم يعد من الشخصيات $d';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'لتغيير كلمة المرور بشكل صح�
 $lang['EMAILER_DISABLED'] = 'عذرا, هذه الميزة لا يعمل مؤقتا';
 $lang['TERMS_ON'] = 'وأنا أتفق مع هذه الشروط والأحكام';
 $lang['TERMS_OFF'] = 'أنا لا أوافق على هذه الشروط';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'للتسجيل رؤساء اللازمة لتمكين جافا سكريبت';
-$lang['REGISTERED_IN_TIME'] = "في لحظة التسجيل closed<br /><br />You يمكن التسجيل من 01:00 إلى 17:00 MSK (الآن " . date('H:i') . " MSK)<br /><br />We نعتذر عن هذا الإزعاج";
-$lang['AUTOCOMPLETE'] = 'توليد كلمة السر';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'الخاص بك هي كلمة السر الجديدة:';
 $lang['REGENERATE'] = 'تجديد';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = 'أمر القائمة: [list=]text[/list] (Ctrl+O)';
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'اقتباس مختارة';
-$lang['JAVASCRIPT_ON'] = 'رؤساء اللازمة لإرسال رسائل إلى تمكين جافا سكريبت';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = 'جديد';
 $lang['NEWEST'] = 'أحدث';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'حظر التحكم';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'بان واحد معين أو أكثر من المستخدمين';
 $lang['BAN_USERNAME_EXPLAIN'] = 'يمكنك حظر العديد من المستخدمين في آن واحد باستخدام توليفة مناسبة من الماوس و لوحة المفاتيح لجهاز الكمبيوتر الخاص بك و المتصفح';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'يمكنك رفع الحظر العديد من المستخدمين في آن واحد باستخدام توليفة مناسبة من الماوس و لوحة المفاتيح لجهاز الكمبيوتر الخاص بك و المتصفح';
 $lang['NO_BANNED_USERS'] = 'لا حظر أسماء المستخدمين';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'على banlist تم تحديث بنجاح';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'باستخدام هذا النموذج يمكنك إض
 $lang['ADD_NEW_RANK'] = 'إضافة رتبة جديدة';
 $lang['RANK_TITLE'] = 'رتبة العنوان';
 $lang['STYLE_COLOR'] = 'على غرار رتبة';
-$lang['STYLE_COLOR_FAQ'] = 'تحديد فئة الرسم في العنوان من اللون المطلوب. على سبيل المثال <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'رتبة صورة';
 $lang['RANK_IMAGE_EXPLAIN'] = 'استخدام هذا لتحديد صورة صغيرة المرتبطة رتبة';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'المسؤولين فقط';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s يمكن عرض هذا المنتدى';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s يمكن قراءة المشاركات في هذا المنتدى';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s تتمكن من المشاركة في هذا المنتدى';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s يمكن الرد على مشاركات هذا المنتدى';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s تستطيع تعديل مشاركاتك في هذا المنتدى';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s يمكن حذف المشاركات في هذا المنتدى';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s يمكن نشر المواضيع المثبتة في هذا المنتدى';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = 'المزامنة';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'ماكس. طول الأخبار';
 $lang['NEWS_COUNT'] = 'كم عرض الأخبار';
-$lang['NEWS_FORUM_ID'] = 'من المنتديات لعرض <br /> <h6>Of عدة منتديات يثير مفصولة بفواصل. مثال 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'لا الصورة الرمزية';
 $lang['TRACKER_STATS'] = 'إحصاءات عن تعقب';
 $lang['WHOIS_INFO'] = 'معلومات عن عنوان IP';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'تسمح منطقية بحث النص الكام
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '* + , - , .. في البحث';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "المتنوعة";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "تظهر للمستخدمين UL/DL الإحصاءات في أعلى المنتدى في الصفحة الرئيسية";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'تلقائيا تسجيل سيل على تعقب المواضيع الجديدة';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'تغيير موضوع الحالة إلى "تحميل" أثناء تسجيل سيل على تعقب';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'سيتم تغيير الموضوع نوع "تحميل" بغض النظر عن إعدادات المنتدى';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'تمكين';
 $lang['RUN_MAIN_CRON'] = 'تبدأ كرون';
 $lang['ADD_JOB'] = 'إضافة وظيفة كرون';
 $lang['DELETE_JOB'] = 'هل أنت متأكد من أنك تريد حذف كرون الوظيفة ؟ ';
-$lang['CRON_WORKS'] = 'كرون هو يعمل الآن أو مكسورة -> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = 'إصلاح كرون';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'تحرير العمل';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'تعطيل المجلس';
 $lang['BOARD_DISABLE_EXPL'] = 'تعطيل المجلس عند هذا العمل تشغيل';
 $lang['RUN_COUNTER'] = 'تشغيل العداد';
 
-$lang['JOB_REMOVED'] = 'المشكلة قد تم إزالتها بنجاح';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'السيناريو <b>' . @$_POST['cron_script'] . '</b> موجود بالفعل!';
 $lang['TITLE_DUPLICATE'] = 'اسم المهمة <b>' . @$_POST['cron_title'] . '</b> موجود بالفعل!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn إضافة problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack مهمة Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'إعادة إنشاء فهرس البحث';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'كم من الزمن (ثانية) على الب
 
 $lang['TIME_LIMIT'] = 'المهلة';
 $lang['TIME_LIMIT_EXPLAIN'] = 'كم من الزمن (ثانية) بعد المعالجة يمكن أن الأخيرة قبل الانتقال إلى الدورة المقبلة';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your php (الوضع الآمن) لديها مهلة من %s ثانية تكوين البقاء تحت هذا value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your مزود الويب مهلة من %s ثانية تكوين البقاء تحت هذا value</i>';
 
 $lang['DISABLE_BOARD'] = 'تعطيل المجلس';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = 'كنت قد دخلت بعض قيم خاطئة. يرجى 
 $lang['PROCESSING'] = 'تجهيز...';
 $lang['FINISHED'] = 'انتهى';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'الموضوع تم تقسيمها. موضوع جديد - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'الموضوع تم تقسيمها من [b]%s[/b][br][br]%s';
 

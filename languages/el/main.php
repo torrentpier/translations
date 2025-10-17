@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'Διαχείριση';
+$lang['ADMIN'] = 'Διοίκηση';
 $lang['FORUM'] = 'Φόρουμ';
 $lang['CATEGORY'] = 'Κατηγορία';
 $lang['HIDE_CAT'] = 'Απόκρυψη κατηγοριών';
@@ -65,7 +65,7 @@ $lang['MOVE_TO_TOP'] = 'Move to top';
 $lang['UNKNOWN'] = 'Άγνωστο';
 $lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
 $lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after few seconds...';
+$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
 
 $lang['NEXT_PAGE'] = 'Την επόμενη';
 $lang['PREVIOUS_PAGE'] = 'Προηγούμενο';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Πρότυπο cache έχει εκκαθαρι�
 $lang['DATASTORE_CLEARED'] = 'Datastore έχει εκκαθαριστεί';
 $lang['BOARD_DISABLE'] = 'Συγγνώμη, αυτό το φόρουμ είναι απενεργοποιημένη. Προσπαθήστε να επανέλθω αργότερα';
 $lang['BOARD_DISABLE_CRON'] = 'Το φόρουμ είναι κάτω για συντήρηση. Προσπαθήστε να επανέλθω αργότερα';
-$lang['ADMIN_DISABLE'] = 'το φόρουμ έχει απενεργοποιηθεί από το διαχειριστή, μπορείτε να την ενεργοποιήσετε ανά πάσα στιγμή';
-$lang['ADMIN_DISABLE_CRON'] = 'φόρουμ κλειδωθεί από τη σκανδάλη cron δουλειά, μπορείτε να αφαιρέσετε την κλειδαριά ανά πάσα στιγμή';
+$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
 $lang['ADMIN_DISABLE_TITLE'] = 'Το φόρουμ είναι απενεργοποιημένη';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Το φόρουμ είναι κάτω για συντήρηση';
 $lang['ADMIN_UNLOCK'] = 'Ενεργοποίηση φόρουμ';
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Νέες δημοσιεύσεις [ Κλειδωμ�
 $lang['FORUM_LOCKED_MAIN'] = 'Το φόρουμ είναι κλειδωμένο';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Παρακαλώ εισάγετε το όνομα χρήστη και τον κωδικό πρόσβασης για να συνδεθείτε.';
+$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
 $lang['LOGIN'] = 'Συνδεθείτε';
 $lang['LOGOUT'] = 'Log out';
 $lang['CONFIRM_LOGOUT'] = 'Είστε σίγουρος ότι θέλετε να συνδεθείτε;';
@@ -378,7 +378,7 @@ $lang['DELETE_POLL'] = 'Διαγραφή δημοσκόπηση';
 $lang['MAX_SMILIES_PER_POST'] = 'Emoticons όριο %s emoticons υπέρβαση.';
 
 $lang['ATTACH_SIGNATURE'] = 'Συνδέστε υπογραφή (υπογραφές μπορεί να αλλάξει το προφίλ)';
-$lang['NOTIFY'] = 'Ειδοποιήστε με όταν στις απαντήσεις';
+$lang['NOTIFY'] = 'Notify me on replies';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
 
 $lang['STORED'] = 'Το μήνυμά σας έχει καταχωρηθεί με επιτυχία.';
@@ -566,16 +566,16 @@ $lang['BIRTHDAY'] = 'Γενέθλια';
 $lang['HAPPY_BIRTHDAY'] = 'Χρόνια Πολλά!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Τα γενέθλια του μορφή ήταν εσφαλκένα.';
 $lang['AGE'] = 'Ηλικία';
-$lang['BIRTHDAY_TO_HIGH'] = 'Συγγνώμη, αυτό το site, δεν δέχεται χρήστη μεγαλύτερος από %d ετών';
-$lang['BIRTHDAY_TO_LOW'] = 'Συγγνώμη, αυτό το site, δεν δέχεται χρήστη yonger από %d ετών';
+$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Οι χρήστες με γενέθλια σήμερα: ';
 $lang['BIRTHDAY_WEEK'] = 'Οι χρήστες με γενέθλια κατά την επόμενη %d ημέρες: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'Κανένας χρήστης δεν έχει γενέθλια στις επερχόμενες %d ημέρες'; // %d is substitude with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'Κανένας χρήστης δεν έχει γενέθλια στις επερχόμενες %d ημέρες'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Όχι οι χρήστες έχουν γενέθλια σήμερα';
 $lang['BIRTHDAY_ENABLE'] = 'Ενεργοποίηση γενέθλια';
 $lang['BIRTHDAY_MAX_AGE'] = 'Ανώτατη ηλικία';
 $lang['BIRTHDAY_MIN_AGE'] = 'Ελάχιστη ηλικία';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Ημέρες για να ελέγξετε για να έρθει σύντομα γενέθλια';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
 $lang['YEARS'] = 'Χρόνια';
 
 $lang['NO_THEMES'] = 'Όχι Θέματα Στη βάση δεδομένων';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Συγγνώμη, αλλά αυτό το όνο�
 $lang['USERNAME_TOO_LONG'] = 'Το όνομά σας είναι πολύ μεγάλη.';
 $lang['USERNAME_TOO_SMALL'] = 'Το όνομά σας δεν είναι πάρα πολύ μικρή.';
 $lang['EMAIL_TAKEN'] = 'Συγγνώμη, αλλά αυτό το e-mail είναι ήδη νηολογημένα σε ένα χρήστη.';
-$lang['EMAIL_BANNED'] = 'Συγγνώμη, αλλά <b>%s</b> διεύθυνση έχει απαγορευτεί.';
+$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
 $lang['EMAIL_INVALID'] = 'Συγγνώμη, αλλά αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη.';
 $lang['EMAIL_TOO_LONG'] = 'Το email σας είναι πάρα πολύ καιρό.';
 $lang['SIGNATURE_TOO_LONG'] = 'Η υπογραφή σας είναι πολύ μεγάλη.';
@@ -988,7 +988,7 @@ $lang['DATETIME']['DEC'] = 'Dec';
 $lang['COUNTRY'] = 'Country';
 $lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
 $lang['COUNTRIES'] = [
-    0 => 'Όχι, επιλέξτε',
+    0 => 'Not selected',
     'AD' => 'Andorra',
     'AE' => 'United Arab Emirates',
     'AF' => 'Afghanistan',
@@ -1269,7 +1269,7 @@ $lang['DESCRIPTION'] = 'Περιγραφή'; // used in Administration Panel too
 $lang['DOWNLOAD'] = 'Κατεβάστε το'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Μέγεθος αρχείου';
 $lang['VIEWED'] = 'Είδαν';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Η Επέκταση "%s" ήταν απενεργοποιηθεί από το διαχειριστή του συστήματος, ως εκ τούτου, αυτό το Συνημμένο δεν εμφανίζεται.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1389,7 +1389,7 @@ $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Δεν θα μπορούσε να προσθ
 $lang['BT_PASSKEY'] = 'Κωδικό';
 $lang['BT_GEN_PASSKEY'] = 'δημιουργήστε μια νέα';
 $lang['BT_PASSKEY_VIEW'] = 'εμφάνιση';
-$lang['BT_GEN_PASSKEY_NEW'] = "Προσοχή! Μετά την αλλαγή το νέο κωδικό πρόσβασης, θα χρειαστεί να κατεβάσετε ξανά όλα τα ενεργά torrents! \n είσαι σίγουρος ότι θέλετε να δημιουργήσετε ένα νέο κωδικό πρόσβασης;";
+$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Δυνατότητα αναζήτησης φόρουμ που βρέθηκαν';
 
 $lang['SEEDS'] = 'Σπόρων προς σπορά';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Αρχείο που λείπει αναγνωρι�
 $lang['CHANGE_TOR_TYPE'] = 'Πληκτρολογήστε το torrent με επιτυχία αλλάξει';
 $lang['DEL_TORRENT'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε το torrent;';
 $lang['DEL_MOVE_TORRENT'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε και να μετακινήσετε το θέμα;';
-$lang['UNEXECUTED_RELEASE'] = 'Έχετε μια άμορφη απελευθέρωση πριν από τη δημιουργία ένα νέο φτιάξει το αδιαμόρφωτο!';
+$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Η αλλαγή του καθεστώτος διανομής - %s';
-$lang['TOR_MOD_MSG'] = "Γεια σας, %s.\n\n Κατάσταση [url=%s]your[/url] διανομής έχει αλλάξει σε [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Αλλαγές στο σχεδιασμό - %s';
-$lang['TOR_AUTH_MSG'] = "Γεια σας, %s.\n\n μου Κάνει τη διανομή αλλάξει - [url=%s]%s[/url]\n\n Παρακαλούμε ελέγξτε ξανά.";
+$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
 $lang['TOR_AUTH_FIXED'] = 'Σταθερό';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The πληροφορίες που αποστέλλονται στο συντονιστή. Περιμένω.</span>';
 
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Επιλέξτε';
 $lang['SEED_BONUS'] = 'Σπόρος μπόνους';
 $lang['EXCHANGE'] = 'Ανταλλαγή';
 $lang['EXCHANGE_BONUS'] = 'Ανταλλαγή σπόρων μπόνους';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s να distribution</b> <br /> Για την ανταλλαγή bonus πόντους για %1$s κυκλοφορίας το οποίο θα προστεθεί στο ποσό της διανομής.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Τιμή';
 $lang['EXCHANGE_NOT'] = 'Ο exchange δεν είναι διαθέσιμη';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Σχεδιαστής';
 $lang['LAST_IP'] = 'Τελευταία IP:';
 $lang['REG_IP'] = 'Εγγραφή IP:';
 $lang['OTHER_IP'] = 'Άλλες IP:';
-$lang['ALREADY_REG_IP'] = 'Με το διεύθυνση IP σας είναι ήδη εγγεγραμμένος χρήστης %s. Αν δεν έχετε προηγουμένως εγγραφεί στον tracker μας, mail <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'Κρυφό';
 
 // from admin
@@ -1715,13 +1715,13 @@ $lang['COMMENT'] = 'Σχόλιο';
 
 // search
 $lang['SEARCH_S'] = 'αναζήτηση...';
-$lang['FORUM_S'] = 'στο forum';
-$lang['TRACKER_S'] = 'για tracker';
+$lang['FORUM_S'] = 'on the forum';
+$lang['TRACKER_S'] = 'on the tracker';
 $lang['HASH_S'] = 'από info_hash';
 
 // copyright
 $lang['NOTICE'] = '!ΠΡΟΣΟΧΉ!';
-$lang['COPY'] = 'Η ιστοσελίδα δεν παρέχει ηλεκτρονικές εκδόσεις των προϊόντων, και ασχολείται μόνο με τη συλλογή και ταξινόμηση των στοιχείων που αποστέλλονται και δημοσιεύονται στο φόρουμ από τους αναγνώστες μας. Αν είστε ο νόμιμος ιδιοκτήτης του οποιοδήποτε υλικό που έχει υποβληθεί και δεν επιθυμούν η αναφορά ήταν στον κατάλογό μας, επικοινωνήστε μαζί μας και εμείς θα αφαιρέσει αμέσως. Αρχεία για την ανταλλαγή απόψεων σχετικά με tracker δίνονται από τους χρήστες του site, και η διοίκηση δεν φέρει την ευθύνη για τη συντήρηση τους. Το αίτημα να συμπληρώσετε τα αρχεία που προστατεύονται από πνευματικά δικαιώματα, καθώς και τα αρχεία των παράνομων συντήρηση!';
+$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Κατάρρευση directory';
@@ -1729,14 +1729,14 @@ $lang['EXPAND'] = 'Αναπτύξτε το στοιχείο';
 $lang['SWITCH'] = 'Διακόπτης';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
 $lang['EMPTY_ATTACH_ID'] = 'Αρχείο που λείπει αναγνωριστικό!';
-$lang['TOR_NOT_FOUND'] = 'Το αρχείο που λείπει στον server!';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
 $lang['ERROR_BUILD'] = 'Το περιεχόμενο αυτού του torrent αρχείο δεν μπορεί να θεωρηθεί σχετικά με το site (δεν ήταν δυνατό να οικοδομήσουμε μια λίστα με τα αρχεία)';
 $lang['TORFILE_INVALID'] = 'Torrent αρχείο είναι κατεστραμμένο';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Το "site" μπορεί να περιέχει μόνο http://sitename';
-$lang['ICQ_ERROR'] = 'Το πεδίο της "ICQ" μπορεί να περιέχει μόνο icq αριθμός';
-$lang['INVALID_DATE'] = 'Σφάλμα ημερομηνία ';
+$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
+$lang['INVALID_DATE'] = 'Invalid date';
 $lang['PROFILE_USER'] = 'Προβολή προφίλ';
 $lang['GOOD_UPDATE'] = 'με επιτυχία αλλάξει';
 $lang['UCP_DOWNLOADS'] = 'Λήψεις';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Είστε σίγουρος ότι θέλετε 
 $lang['USER_DELETED'] = 'Χρήστης έχει διαγραφεί επιτυχώς';
 $lang['DELETE_USER_ALL_POSTS'] = 'Διαγραφή όλων των χρηστών θέσεις';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε όλα τα μηνύματα και όλα τα θέματα που ξεκίνησε από αυτόν τον χρήστη;';
-$lang['DELETE_USER_POSTS'] = 'Διαγράψετε όλα τα μηνύματα, εκτός από πρωτεύουσα';
+$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε όλες τις δημοσιεύσεις μου;';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε όλα τα μηνύματα, εκτός από το κεφάλαιο;';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
 $lang['USER_DELETED_POSTS'] = 'Θέσεις είχαν αφαιρεθεί επιτυχώς';
 
 $lang['USER'] = 'Χρήστη';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Δεν επιτρέπεται να προβάλε�
 
 $lang['USER_ACTIVATE'] = 'Ενεργοποίηση';
 $lang['USER_DEACTIVATE'] = 'Απενεργοποίηση';
-$lang['DEACTIVATE_CONFIRM'] = 'Είστε σίγουρος ότι θέλετε να ενεργοποιήσετε αυτήν χρήστη;';
+$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
 $lang['USER_ACTIVATE_ON'] = 'Χρήστης έχει ενεργοποιηθεί με επιτυχία';
 $lang['USER_DEACTIVATE_ME'] = 'Δεν μπορείτε να απενεργοποιήσετε το λογαριασμό μου!';
 $lang['ACTIVATE_CONFIRM'] = 'Είστε σίγουρος ότι θέλετε να απενεργοποιήσετε αυτή χρήστη;';
@@ -1786,7 +1786,7 @@ $lang['CHOOSE_E_MAIL'] = 'Πρέπει να καθορίσετε το e-mail';
 $lang['CHOOSE_PASS'] = 'Το πεδίο για τον κωδικό πρόσβασης δεν πρέπει να είναι άδειο!';
 $lang['CHOOSE_PASS_ERR'] = 'Καταχωρούνται οι κωδικοί πρόσβασης δεν ταιριάζουν';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Ο κωδικός σας πρέπει να είναι τουλάχιστον %d χαρακτήρες';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Ο κωδικός σας πρέπει να είναι όχι περισσότερο από $d χαρακτήρες';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
@@ -1797,9 +1797,9 @@ $lang['CHOOSE_PASS_FAILED'] = 'Για να αλλάξετε τον κωδικό 
 $lang['EMAILER_DISABLED'] = 'Συγγνώμη, αυτό το χαρακτηριστικό είναι προσωρινά δεν λειτουργεί';
 $lang['TERMS_ON'] = 'Συμφωνώ με αυτούς τους όρους και προϋποθέσεις';
 $lang['TERMS_OFF'] = 'Δεν συμφωνείτε με αυτούς τους όρους';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Για να εγγραφείτε, κεφάλια απαραίτητο να ενεργοποιήσετε την JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Αυτή τη στιγμή η εγγραφή είναι closed<br /><br />You μπορούν να εγγραφούν από 01:00 έως τις 17:00 MSK (τώρα " . date('H:i') . " MSK)<br /><br />We συγγνώμη για την ταλαιπωρία αυτή";
-$lang['AUTOCOMPLETE'] = 'Password δημιουργία';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
+$lang['AUTOCOMPLETE'] = 'Generate password';
 $lang['YOUR_NEW_PASSWORD'] = 'Το νέο σας κωδικό πρόσβασης:';
 $lang['REGENERATE'] = 'Ανάπλαση';
 
@@ -1858,7 +1858,7 @@ $lang['LIST_ITEM'] = 'Διατεταγμένη λίστα: [list=]text[/list] (C
 $lang['ACRONYM'] = 'Acronym';
 $lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Το απόσπασμα που επιλέγεται';
-$lang['JAVASCRIPT_ON'] = 'Κεφάλια απαραίτητο να στείλετε μηνύματα για να ενεργοποιήσετε τη JavaScript';
+$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
 
 $lang['NEW'] = 'Νέα';
 $lang['NEWEST'] = 'Νεώτερο';
@@ -2107,7 +2107,7 @@ $lang['BAN_CONTROL'] = 'Απαγόρευση Ελέγχου';
 $lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
 $lang['BAN_USERNAME'] = 'Απαγόρευση έναν ή περισσότερους συγκεκριμένους χρήστες';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Μπορείτε να απαγορεύσει σε πολλούς χρήστες με τη μία, χρησιμοποιώντας το κατάλληλο συνδυασμό ποντίκι και το πληκτρολόγιο για τον υπολογιστή σας και το πρόγραμμα περιήγησης';
-$lang['UNBAN_USERNAME'] = 'Unban one more specific users';
+$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Μπορείτε να unban πολλούς χρήστες με τη μία, χρησιμοποιώντας το κατάλληλο συνδυασμό ποντίκι και το πληκτρολόγιο για τον υπολογιστή σας και το πρόγραμμα περιήγησης';
 $lang['NO_BANNED_USERS'] = 'Δεν υπάρχουν απαγορευμένες usernames';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Η banlist έχει ενημερωθεί με επιτυχία';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Χρησιμοποιώντας αυτή τη φόρμ�
 $lang['ADD_NEW_RANK'] = 'Προσθέστε νέα τάξη';
 $lang['RANK_TITLE'] = 'Κατάταξη Τίτλο';
 $lang['STYLE_COLOR'] = 'Στυλ κατάταξη';
-$lang['STYLE_COLOR_FAQ'] = 'Καθορίστε την κατηγορία για τη ζωγραφική τον τίτλο του επιθυμητού χρώματος. Για παράδειγμα <i class="bold">colorAdmin<i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Κατάταξη Εικόνας';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Χρησιμοποιήστε το για να ορίσετε μια μικρή εικόνα που συνδέεται με το βαθμό';
 
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Μόνο οι διαχειριστές
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s μπορείτε να δείτε αυτό το φόρουμ';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s μπορεί να διαβάσει τις αναρτήσεις σε αυτό το φόρουμ';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s μπορεί post σε αυτό το forum';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s μπορείτε να απαντήσετε σε δημοσιεύσεις σε αυτό το φόρουμ';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s να επεξεργαστείτε τα μηνύματα σε αυτό το φόρουμ';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s μπορείτε να διαγράψετε τις δημοσιεύσεις σε αυτό το φόρουμ';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s μπορεί post sticky θέματα σε αυτό το φόρουμ';
@@ -2413,7 +2413,7 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. το μήκος των ειδήσεων';
 $lang['NEWS_COUNT'] = 'Πόσα νέα εμφάνιση';
-$lang['NEWS_FORUM_ID'] = 'Από αυτό το φόρουμ για να εμφανίσετε <br /> <h6>Of τα διάφορα φόρουμ εγείρει, που χωρίζονται με κόμματα. Παράδειγμα 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Δεν avatar';
 $lang['TRACKER_STATS'] = 'Τα στατιστικά στοιχεία του tracker';
 $lang['WHOIS_INFO'] = 'Πληροφορίες σχετικά με τη διεύθυνση IP';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Επιτρέπουν boolean full-text αναζ�
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'χρήση *, +, -,.. στις αναζητήσεις';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Διάφορος";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Δείξετε στους χρήστες UL/DL στατιστικά στοιχεία στο πάνω μέρος του φόρουμ κεντρική σελίδα";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Αυτόματα το μητρώο torrent στον tracker για νέα θέματα';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Θέμα της αλλαγής του καθεστώτος για να "Κατεβάσετε" κατά την εγγραφή torrent στον tracker';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'θα αλλάξει θέμα, τύπο να "Κατεβάσετε" ανεξάρτητα από το φόρουμ ρυθμίσεις';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Ενεργοποίηση';
 $lang['RUN_MAIN_CRON'] = 'Έναρξη cron';
 $lang['ADD_JOB'] = 'Προσθέστε cron δουλειά';
 $lang['DELETE_JOB'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε το cron δουλειά;';
-$lang['CRON_WORKS'] = 'Cron είναι τώρα λειτουργεί ή είναι σπασμένο -> ';
+$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
 $lang['REPAIR_CRON'] = 'Επισκευή Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Edit δουλειά';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Απενεργοποίηση πίνακας';
 $lang['BOARD_DISABLE_EXPL'] = 'απενεργοποιήσετε το διοικητικό συμβούλιο, όταν αυτή η δουλειά είναι να εκτελέσετε';
 $lang['RUN_COUNTER'] = 'Αντίθετη';
 
-$lang['JOB_REMOVED'] = 'Το πρόβλημα έχει αφαιρεθεί με επιτυχία';
+$lang['JOB_REMOVED'] = 'The job has been removed successfully';
 $lang['SCRIPT_DUPLICATE'] = 'Σενάριο <b>' . @$_POST['cron_script'] . '</b> υπάρχει ήδη!';
 $lang['TITLE_DUPLICATE'] = 'Όνομα Εργασίας <b>' . @$_POST['cron_title'] . '</b> υπάρχει ήδη!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn με την προσθήκη problem%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack για το Έργο Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Αναδόμηση Ευρετηρίου Αναζήτησης';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Πόσο χρόνο (σε δευτερόλεπ�
 
 $lang['TIME_LIMIT'] = 'Προθεσμία';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Πόσο χρόνο (σε δευτερόλεπτα) μετά την επεξεργασία μπορεί να διαρκέσει πριν από τη μετάβαση σε επόμενο κύκλο';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your php (safe mode) έχει ένα χρονικό όριο των %s δευτερόλεπτα ρυθμιστεί, έτσι ώστε να παραμείνει κάτω από αυτό το value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver έχει ένα χρονικό όριο των %s δευτερόλεπτα ρυθμιστεί, έτσι ώστε να παραμείνει κάτω από αυτό το value</i>';
 
 $lang['DISABLE_BOARD'] = 'Απενεργοποίηση πίνακας';
@@ -2837,7 +2837,7 @@ $lang['WRONG_INPUT'] = 'Έχετε εισέλθει σε λάθος αξίες. 
 $lang['PROCESSING'] = 'Επεξεργασία...';
 $lang['FINISHED'] = 'Τελείωσε';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason to move:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Το θέμα έχει χωριστεί. Νέο θέμα - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Το θέμα έχει χωριστεί από [b]%s[/b][br][br]%s';
 
