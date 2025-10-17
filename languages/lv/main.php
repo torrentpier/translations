@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Atrast lietotāja tēmas'; // Find all topics by 
 $lang['NO_USER_ID_SPECIFIED'] = 'Atvainojiet, bet, ka lietotājs neeksistē.';
 $lang['WRONG_PROFILE'] = 'Jūs nevarat modificētu profilu, kas nav jūsu.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Tikai viena tipa avatar var būt norādīts';
 $lang['FILE_NO_DATA'] = 'Faila URL, kas jums deva satur nav datu';
 $lang['NO_CONNECTION_URL'] = 'Savienojumu nevar tikt veikti uz URL, kas jums deva';
 $lang['INCOMPLETE_URL'] = 'URL, ko jūs ievadījāt, ir nepilnīga';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Pielikums ir pārāk liels.<br />Could nav ie
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Pielikums ir pārāk liels.<br />Maximum Augšupielādēt Izmērs: %d MB.<br />Please, ņemiet vērā, ka šis Lielums ir definēts php.ini, tas nozīmē, ka tā ir iestatīta ar PHP un Pielikumu Mod nevar ignorēt šo vērtību.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Pagarinājuma %s nav atļauta'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Jums nav atļauts ievietot Failus ar Paplašinājumu %s šajā Forumā'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Pielikums ir pārāk liels.<br />Max Izmērs: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Atvainojiet, bet maksimālais izmērs, lai visi Pielikumi ir sasniegts. Lūdzu, sazinieties Valdes Administratoru ja jums ir jautājumi.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Pielikumu nevar pievienot, jo maks. skaits %d Pielikumus šajā amatā tika sasniegts'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Pielikumu/Attēls nedrīkst būt mazāks par %d pikseļus plats un %d pikseļus augsts';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kods]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Atgriezties pie rediģēšanas';
 $lang['PROFILE_RETURN'] = 'Pārejiet uz profilu';
 
 $lang['WARNING'] = 'Brīdinājums';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex meklēšana';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Foruma stils';
