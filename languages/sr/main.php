@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Пронађи теме корисника'; // F
 $lang['NO_USER_ID_SPECIFIED'] = 'Жао ми је, али ово корисничко име не постоји.';
 $lang['WRONG_PROFILE'] = 'Не можете да измените профил, који није ваша.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Може бити наведен само један тип аватар';
 $lang['FILE_NO_DATA'] = 'Датотеке преко URL који сте дали не садржи податке';
 $lang['NO_CONNECTION_URL'] = 'Веза не може да се уради, да је URL који сте дали';
 $lang['INCOMPLETE_URL'] = 'УРЛ који сте унели непотпуне';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Прилог сувише велики.<br />
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Прилог сувише велики.<br />Maximum Величина преузимања: %d МБ.<br />Please напоменути да је ова вредност одређена у ПХП-у.организације, то значи да је она постављена на ПХП и прилог мод не можете да замените ову вредност.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Проширење %s није дозвољено'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Није Вам дозвољено да шаљете датотеке са екстензијом %s у оквиру овог форума'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Прилог сувише велики.Величина <br />Max: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Жао ми је, али максимална величина за све апликације постигнут. Молимо вас, контактирајте Администратора, ако имате питања.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Улагања не може додати, јер је максимум. број %d улагања у овој поруци постићи'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Прилог/слике треба да буде најмање %d пиксела у ширини и %d пиксела';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = 'Ова опција само за супер а
 
 $lang['LOGS'] = 'Историја теме';
 $lang['FORUM_LOGS'] = 'Форум Историје';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = 'Автоочистка';
 $lang['DESIGNER'] = 'Дизајнер';
 
 $lang['LAST_IP'] = 'Последњи ИП:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Код]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Да се вратите на уређивање
 $lang['PROFILE_RETURN'] = 'Идите на профил';
 
 $lang['WARNING'] = 'Упозорење';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Претрага переиндексация';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Стил форума';
