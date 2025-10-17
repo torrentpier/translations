@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Пайдо мавзӯъҳои истифодаб�
 $lang['NO_USER_ID_SPECIFIED'] = 'Бубахшед, аммо ин истифодабаранда вуҷуд надорад.';
 $lang['WRONG_PROFILE'] = 'Шумо метавонед профили аст, ки худи ту нест, тағйир нест.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Танҳо як намуди аватари метавон муайян';
 $lang['FILE_NO_DATA'] = 'Файл дар URL ба шумо дорои маълумоте надорад';
 $lang['NO_CONNECTION_URL'] = 'Пайвастшавӣ метавонад ба URL ба шумо баста шавад';
 $lang['INCOMPLETE_URL'] = 'Дар URL шумо ворид нопурра аст';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Дар Замимаи ҳам big.<br />Could 
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Дар Замимаи ҳам big.<br />Maximum боргузории Андоза: %d MB.<br />Please қайд кард, ки дар ин аст, ки дар Андоза php.ini муайян, ин маънои онро дорад, он аз тарафи PHP танзим ва Замимаи мудофиа ин арзиши тағири гузоришҳо нест.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Дар Тамдиди %s аст, иҷозат дода намешавад'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Шумо иҷозат дода нашудааст овехтани Files бо васеъкунии %s дар доираи ин форум'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Дар Замимаи низ big.<br />Max Андозаи аст: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Бубахшед, аммо ҳадди filesize барои ҳамаи Замимаҳо ба даст ояд. Лутфан, маъмур Раёсат дар тамос шавед, агар шумо ягон савол.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Замимаи карда намешавад, зеро макс. шумораи %d Замимаҳо дар ин мансаби ба даст омад'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Дар Замимаи / Фишка бояд на камтар аз %d пиксел васеъ ва %d пиксел баланд бошад';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[рамз]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Бозгашт ба таҳриркунӣ';
 $lang['PROFILE_RETURN'] = 'Бирав ба профили';
 
 $lang['WARNING'] = 'Огоҳӣ';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Ҷустуҷӯи Reindex';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Услуби Форум';

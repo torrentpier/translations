@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Ieškoti vartotojo temos'; // Find all topics by 
 $lang['NO_USER_ID_SPECIFIED'] = 'Atsiprašome, bet vartotojas neegzistuoja.';
 $lang['WRONG_PROFILE'] = 'Jums negali keisti aplinką, kad ne savo.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Tik vieno tipo avataras gali būti nurodyta,';
 $lang['FILE_NO_DATA'] = 'Failo URL, jums davė sudėtyje nėra duomenų';
 $lang['NO_CONNECTION_URL'] = 'Ryšys negali būti pateiktas URL jums davė';
 $lang['INCOMPLETE_URL'] = 'URL adresas, kurį jūs įvedėte yra neišsamūs';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Areštas yra per didelis.<br />Could ne gauti
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Areštas yra per didelis.<br />Maximum Įkelti Dydis: %d MB.<br />Please dėmesį, kad šis Dydis yra apibrėžta php.ini, tai reiškia, kad ji nustato PHP ir Priedą, Mod negali nepaisyti šio vertę.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Pratęsimo %s neleidžiama'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Jums neleidžiama skelbti Failus su Plėtiniu %s šiame Forume'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Areštas yra per didelis.<br />Max Dydis: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Atsiprašome, tačiau maksimalus failo dydis už visus Priedus, yra pasiektas. Prašome kreiptis į forumo Administratorius, jei turite klausimų.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Areštas negali būti pridėta, nes max. skaičius %d Priedų, į šį postą buvo pasiektas'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Priedą/Nuotraukos turi būti mažesnis nei %d pikselių pločio ir %d pikselių aukščio';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kodas]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Grįžti į redagavimą';
 $lang['PROFILE_RETURN'] = 'Eik į profilio';
 
 $lang['WARNING'] = 'Įspėjimas';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex paieška';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forumo stiliaus';

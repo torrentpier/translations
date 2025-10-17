@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Tapa mövzular istifadəçi'; // Find all topics 
 $lang['NO_USER_ID_SPECIFIED'] = 'Üzr istəyirəm, amma belə bir istifadəçi mövcud deyil.';
 $lang['WRONG_PROFILE'] = 'Dəyişmək olmaz profili olan deyil, sizin öz.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Bəlkə də müəyyən yalnız bir növü avatar';
 $lang['FILE_NO_DATA'] = 'Fayl üzrə URL verdiniz ehtiva etmir məlumat';
 $lang['NO_CONNECTION_URL'] = 'Əlaqə edilə bilməz ki, bir URL verdiniz';
 $lang['INCOMPLETE_URL'] = 'URL yazdığınız natamam';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Qoyuluşu çox böyükdür.<br />Could almaq 
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Qoyuluşu çox böyükdür.<br />Maximum Boy upload: %d MB.<br />Please qeyd etmək lazımdır ki, bu məbləği müəyyən PHP.ини, bu o deməkdir ki, o, müəyyən PHP və əlavə mod deyil bilərsiniz yalnış bu dəyər.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Genişləndirilməsi %s yol verilmir'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sizə icazə verilmir yerləşdirmək faylları genişləndirilməsi ilə %s çərçivəsində bu forumun'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Qoyuluşu çox böyükdür.Boy <br />Max: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Bağışlayın, ancaq maksimum ölçüsü üçün bütün applications əldə. Admin əlaqə saxlayın, əgər hər hansı bir sualınız varsa,.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Faylları əlavə oluna bilməz, çünki maksimum. sayı %d qoyuluşu bu mesajı əldə'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Əlavə/images olmalıdır azı %d piksel, eni və %d piksel';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = 'Bu variant üçün yalnız super admins';
 
 $lang['LOGS'] = 'Tarixi mövzular';
 $lang['FORUM_LOGS'] = 'Forum Tarixi';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = 'Автоочистка';
 $lang['DESIGNER'] = 'Dizayner';
 
 $lang['LAST_IP'] = 'Son İP:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kodu]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Geri redaktə etmək üçün';
 $lang['PROFILE_RETURN'] = 'Get profil';
 
 $lang['WARNING'] = 'Xəbərdarlıq';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Axtarış переиндексация';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Stil forum';

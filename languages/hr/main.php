@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Pronaći teme za korisnika'; // Find all topics b
 $lang['NO_USER_ID_SPECIFIED'] = 'Žao nam je, ali za takvo ime ne postoji.';
 $lang['WRONG_PROFILE'] = 'Ne može se promijeniti profil, koji nije vaš vlastiti.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Može biti naveden samo jedan tip za avatar';
 $lang['FILE_NO_DATA'] = 'Datoteku na URL koji ste dali ne sadrži podatke';
 $lang['NO_CONNECTION_URL'] = 'Veza ne može biti učinjeno, da se URL-ovi koje ste dali';
 $lang['INCOMPLETE_URL'] = 'URL koji ste unijeli nepotpuni';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Privitak previše veliki.<br />Could ne dobij
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Privitak previše veliki.<br />Maximum Veličina preuzimanja: %d MB.<br />Please napomenuti da je ova vrijednost je definirana u PHP-u.acterised, to znači da je ona postavljena na PHP i privitak mod ne možete zaobići ovu vrijednost.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Proširenje %s nije dozvoljeno'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nije vam dozvoljeno postavljati datoteke s nastavkom %s u okviru ovog foruma'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Privitak previše veliki.Veličina <br />Max: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Žao mi je, ali je maksimalna veličina za sve aplikacije postignut. Molimo vas da kontaktirate Administratora, ako imate pitanja.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Ulaganja se ne može dodati, jer je maksimum. broj %d ulaganja u ovoj e-poruci postići'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Privitak/slike moraju biti manje od %d piksela u širinu i %d piksela';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = 'Ova opcija je samo za super admina';
 
 $lang['LOGS'] = 'Priča teme';
 $lang['FORUM_LOGS'] = 'Forum Povijesti';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = 'Автоочистка';
 $lang['DESIGNER'] = 'Dizajner';
 
 $lang['LAST_IP'] = 'Posljednji IP:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kod]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Natrag na uređivanju';
 $lang['PROFILE_RETURN'] = 'Idi u profil';
 
 $lang['WARNING'] = 'Upozorenje';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Traži переиндексация';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Stil foruma';

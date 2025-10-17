@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Βρείτε χρήστη θέματα'; // Find 
 $lang['NO_USER_ID_SPECIFIED'] = 'Συγνώμη, αλλά αυτός ο χρήστης δεν υπάρχει.';
 $lang['WRONG_PROFILE'] = 'Δεν μπορείτε να τροποποιήσετε ένα προφίλ που δεν είναι δική σου.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Μόνο ένα είδος avatar μπορεί να καθοριστεί';
 $lang['FILE_NO_DATA'] = 'Το αρχείο με το URL που δώσατε δεν περιέχει δεδομένα';
 $lang['NO_CONNECTION_URL'] = 'Μια σύνδεση δεν θα μπορούσε να γίνει για να το URL που έδωσες';
 $lang['INCOMPLETE_URL'] = 'Το URL που δώσατε είναι ελλιπείς';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Το Συνημμένο είναι πολύ �
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Το Συνημμένο είναι πολύ μεγάλο.<br />Maximum Ανεβάστε Μέγεθος: %d MB.<br />Please να σημειώσετε ότι αυτό το Μέγεθος ορίζεται σε php.ini, αυτό σημαίνει ότι είναι σύνολο από PHP και το Συνημμένο Mod δεν μπορείτε να προσπεράσετε αυτή την τιμή.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Η Επέκταση %s δεν επιτρέπεται'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Δεν επιτρέπεται να δημοσιεύσετε τα Αρχεία με την Επέκταση %s μέσα σε αυτό το Φόρουμ'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Το Συνημμένο είναι πολύ μεγάλο.<br />Max Μέγεθος: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Συγγνώμη, αλλά το μέγιστο μέγεθος αρχείου για όλα τα Συνημμένα. Παρακαλείστε να επικοινωνήσετε με το Διαχειριστή του συστήματος, εάν έχετε ερωτήσεις.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Κατάσχεση δεν μπορεί να προστεθεί, από το max. αριθμός %d Συνημμένα σε αυτό το post επιτεύχθηκε'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Το Συνημμένο/Εικόνας πρέπει να είναι μικρότερη από %d εικονοστοιχεία πλάτος και %d εικονοκυττάρων υψηλά';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Κώδικα]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Επιστρέψετε στην επεξεργα
 $lang['PROFILE_RETURN'] = 'Πηγαίνετε στο προφίλ';
 
 $lang['WARNING'] = 'Προειδοποίηση';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Αναπροσαρμόσετε αναζήτησης';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Φόρουμ στυλ';

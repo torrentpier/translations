@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Գտնել թեմաներ օգտագործողի'
 $lang['NO_USER_ID_SPECIFIED'] = 'Կներեք, բայց նման օգտվողի գոյություն չունի ։ ';
 $lang['WRONG_PROFILE'] = 'Կարելի է փոխել անձնագիրը, որը հանդիսանում է ձեր սեփական.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Կարող է նշված լինել միայն մեկ տեսակ անձնանշան';
 $lang['FILE_NO_DATA'] = 'Ֆայլի URL է, որը դուք տվել պարունակում է տվյալների';
 $lang['NO_CONNECTION_URL'] = 'Կապը չի կարող անել, որպեսզի URL է, որը դուք տվել';
 $lang['INCOMPLETE_URL'] = 'URL է, որը դուք մտել թերի';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Ներդրումը շատ մեծ է ։ <br />
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Ներդրումը շատ մեծ է ։ <br />Maximum Չափը բեռնում: %d ՄԲ.<br />Please է նշել, որ այս մեծությունը որոշվել է PHP.ини, դա նշանակում է, որ այն սահմանվում է PHP-ի և հավելված պն կարող եք վերանայել այդ արժեքը.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Ընդլայնումը %s չի թույլատրվում'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Ձեզ չի թույլատրվում տեղադրել ֆայլերը ընդլայնման %s շրջանակներում: այս համաժողովի'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Ներդրումը շատ մեծ է ։ Չափը <br />Max: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Կներեք, բայց առավելագույն չափը բոլոր դիմումները կհասնեն. Խնդրում եմ, դիմեք Admin, եթե դուք ունեք հարցեր.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Ներդրումներ չի կարող ավելացված է զամբյուղի մեջ, քանի որ առավելագույնը. միավորների քան-%d ներդրումների մասին հաղորդագրության մեջ հասնել'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Հավելված/պատկերները պետք է ոչ պակաս %d փիքսել լայնությամբ եւ %d փիքսել';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = 'Այս տարբերակը միայն գերծա
 
 $lang['LOGS'] = 'Պատմությունը թեմաներ';
 $lang['FORUM_LOGS'] = 'Համաժողովը Պատմության';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = 'Автоочистка';
 $lang['DESIGNER'] = 'Դիզայներ';
 
 $lang['LAST_IP'] = 'Վերջին IP-ն:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Կոդ]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Վերադառնալ խմբագրման';
 $lang['PROFILE_RETURN'] = 'Անցնել անձնագիրը';
 
 $lang['WARNING'] = 'Նախազգուշացում';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Որոնում переиндексация';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Համաժողովի ոճը';

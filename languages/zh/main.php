@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = '找到用户的主题'; // Find all topics by use
 $lang['NO_USER_ID_SPECIFIED'] = '对不起，但是，用户不存在。';
 $lang['WRONG_PROFILE'] = '你不能修改的概要文件是不是你自己的。';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = '只有一种类型的化身可以被指定';
 $lang['FILE_NO_DATA'] = '该文件在网址给了含有数据';
 $lang['NO_CONNECTION_URL'] = '一个连接不可能做到的网址给了';
 $lang['INCOMPLETE_URL'] = '该网址输入不完整';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = '附件太大。<br />Could无法获得最大�
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '附件太大。<br />Maximum上传尺寸：%dMB。<br />Please注意，这种大小的限定在php.ini，这意味着它的设PHP和附件Mod不能替代这种价值。'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = '扩展%s是不允许的'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '你是不是允许后文件的扩展%s在这一论坛'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = '附件太大。<br />Max尺寸：%s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = '对不起，但是最大filesize用于所有附件为止。 请联络委员会管理员如果你有问题。';
 $lang['TOO_MANY_ATTACHMENTS'] = '附件无法加入，因为最大。 数%d附件中的这一后期实现了'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = '附件/图像必须小于%d素广泛和%d高像素';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = '这一选项只有超级管理员';
 
 $lang['LOGS'] = '主题历史';
 $lang['FORUM_LOGS'] = '历史论坛';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = '自动清洁';
 $lang['DESIGNER'] = '设计师';
 
 $lang['LAST_IP'] = '最后IP：';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[代码]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = '回到编辑';
 $lang['PROFILE_RETURN'] = '去档案';
 
 $lang['WARNING'] = '警告';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = '重新编制索引搜索';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = '论坛的风格';

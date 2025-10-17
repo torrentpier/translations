@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Die aanhangsel is te groot.<br />Kan nie die 
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Die aanhegsel is te groot.<br />Maksimum oplaaiprobleem: %d MB.<br />Let daarop dat hierdie grootte in php.ini gedefinieer is. Dit beteken dat dit deur PHP gestel word en die Aanhegsmodus nie hierdie waarde kan ignoreer nie.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Die uitbreiding %s is nie toegelaat nie'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'U mag nie lêers met die uitbreiding %s in hierdie forum plaas nie'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Die aanhangsel is te groot.<br />Maksgrootte: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Jammer, maar die maksimum lêer grootte vir alle aanhangsels is bereik. Kontak asseblief die Bestuurder indien u vrae het.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Aanhegsel kan nie bygevoeg word nie, aangesien die maksimum. Nommer van %d Bylaes in hierdie pos is behaal'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Die aanhangsel / prentjie moet minder wees as %d pixels breed en %d pixels hoog';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[kode]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Keer terug na redigering';
 $lang['PROFILE_RETURN'] = 'Gaan na die profiel';
 
 $lang['WARNING'] = 'waarskuwing';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex soek';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum styl';

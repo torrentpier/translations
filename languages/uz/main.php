@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Foydalanuvchi mavzularni topish'; // Find all top
 $lang['NO_USER_ID_SPECIFIED'] = 'Kechirasiz, lekin bu foydalanuvchilar mavjud emas.';
 $lang['WRONG_PROFILE'] = 'Siz o\'z emas profil o\'zgartirish mumkin emas.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'avatar faqat bitta turi belgilangan bo\'lishi mumkin';
 $lang['FILE_NO_DATA'] = 'Agar berdi URL da fayl ma\'lumotlarni o\'z ichiga olgan';
 $lang['NO_CONNECTION_URL'] = 'A aloqa Agar berdi URL qilib bo\'lmadi';
 $lang['INCOMPLETE_URL'] = 'Siz kiritgan manzil to\'liq emas';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Ilova Tartibni php.ini belgilangan maksimal u
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Ilova ham big.<br />Maximum upload hajmi: %d MB.<br />Please bu PHP tomonidan belgilangan bo\'lyapdi va ilova Tartibni ushbu qiymati bekor mumkin emas, degan ma\'noni anglatadi, bu hajmi php.ini belgilangan unutmang.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Extension %s ruxsat berilmagan'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Siz bu forumi doirasida uzaytirish %s fayllarni yozish uchun ruxsat yo\'q'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Ilova ham big.<br />Max hajmi: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Kechirasiz, lekin barcha uskunalar uchun maksimal hajmi erishilgan. Agar savollaringiz bo\'lsa, administratorga murojaat qiling.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Ilova max beri, qo\'shimcha mumkin emas. bu xabarga %d Qo\'shilgan soni erishildi'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Ilova / Image keng kam %d piksel va yuqori %d piksel bo\'lishi kerak';
@@ -1603,7 +1603,7 @@ $lang['ONLY_FOR_SUPER_ADMIN'] = 'faqat super rahbarlari uchun bu variant';
 
 $lang['LOGS'] = 'Mavzu tarixi';
 $lang['FORUM_LOGS'] = 'Tarix Forum';
-$lang['AUTOCLEAN'] = 'Autoclean';
+$lang['AUTOCLEAN'] = 'Amerika moli Opsiyonel';
 $lang['DESIGNER'] = 'dizayner';
 
 $lang['LAST_IP'] = 'Oxirgi IP:';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[kodi]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'tahrir qaytish';
 $lang['PROFILE_RETURN'] = 'profili o\'tish';
 
 $lang['WARNING'] = 'ogohlantirish';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'reindex qidiruv';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum uslubi';

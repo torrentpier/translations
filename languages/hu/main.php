@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Meg a felhasználói témák'; // Find all topics
 $lang['NO_USER_ID_SPECIFIED'] = 'Sajnálom, de ez a felhasználó nem létezik.';
 $lang['WRONG_PROFILE'] = 'Nem lehet módosítani a profil, ami nem a tiéd.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Csak egy típusú avatar megadható';
 $lang['FILE_NO_DATA'] = 'A fájl URL-t, amit adott nem tartalmaz adatokat';
 $lang['NO_CONNECTION_URL'] = 'Egy kapcsolat, nem lehet-e, hogy az URL-t adott';
 $lang['INCOMPLETE_URL'] = 'A megadott URL hiányos';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'A Melléklet túl nagy volt.<br />Could nem a
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'A Melléklet túl nagy volt.<br />Maximum Feltöltés Méret: %d MB.<br />Please, vegye figyelembe, hogy ez a Méret határozza meg a php.ini, ez azt jelenti, hogy ez által megállapított PHP, majd a Melléklet Mod nem lehet felülbírálni ezt az értéket.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'A Kiterjesztés %s nem engedélyezett'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nem engedélyezett, hogy a post kiterjesztésű Fájlok %s belül ez a Fórum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'A Melléklet túl nagy volt.<br />Max Méret: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Sajnáljuk, de a maximális fájlméretet minden Mellékletek elérte. Kérlek, lépj kapcsolatba az adminisztrátorral, ha kérdése van.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Mellékletet nem adható hozzá, mivel a max. száma %d Csatolmányokat ebben a post volt elérni'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'A Mellékletet/Kép lehet kevesebb, mint %d pixel széles %d pixel magas';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kód]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Vissza szerkesztése';
 $lang['PROFILE_RETURN'] = 'Menj a profil';
 
 $lang['WARNING'] = 'Figyelmeztetés';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Újraindexelési keresés';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Fórum-stílus';

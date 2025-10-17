@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Encontrar temas de usuario'; // Find all topics b
 $lang['NO_USER_ID_SPECIFIED'] = 'Lo siento, pero que el usuario no existe.';
 $lang['WRONG_PROFILE'] = 'Usted no puede modificar un perfil que no es suyo.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Sólo un tipo de avatar puede ser especificado';
 $lang['FILE_NO_DATA'] = 'El archivo en la URL dio no contiene datos';
 $lang['NO_CONNECTION_URL'] = 'Una conexión que no podía hacerse a la dirección URL que le dio';
 $lang['INCOMPLETE_URL'] = 'La URL que has introducido es incompleta';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'El archivo Adjunto es demasiado grande.<br />
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'El archivo Adjunto es demasiado grande.<br />Maximum el Tamaño de Carga: %d MB.<br />Please tenga en cuenta que este Tamaño se define en php.ini, esto significa que se establece por PHP y el Apego Mod no puede anular este valor.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'La Extensión de %s no está permitido'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'No está permitido publicar los Archivos con la Extensión %s dentro de este Foro'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'El archivo Adjunto es demasiado grande.<br />Max Tamaño: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Lo siento, pero el tamaño máximo de archivo para todos los archivos Adjuntos que se alcanza. Póngase en contacto con el Administrador del foro si tiene preguntas.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'El apego puede ser añadido, ya que la máxima. número de %d archivos Adjuntos en este post se logró'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Los datos Adjuntos/Imagen debe ser menor que %d píxeles de ancho y %d píxeles de alto';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Código]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Volver a la edición';
 $lang['PROFILE_RETURN'] = 'El perfil';
 
 $lang['WARNING'] = 'Advertencia';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Indexación de búsqueda';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Foro de estilo';

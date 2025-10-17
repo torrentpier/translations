@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Kullanıcı konuları bul'; // Find all topics by
 $lang['NO_USER_ID_SPECIFIED'] = 'Üzgünüm, ama bu kullanıcı yok.';
 $lang['WRONG_PROFILE'] = 'Sana ait olmayan bir profil değiştiremezsiniz.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Avatar sadece bir tür belirtilebilir';
 $lang['FILE_NO_DATA'] = 'Verdiğin URL de dosya hiçbir veri içermiyor';
 $lang['NO_CONNECTION_URL'] = 'Bir URL bağlantı kurulamadı verdin';
 $lang['INCOMPLETE_URL'] = 'Girilen URL sayfası eksik';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Ek çok büyük.<br />Could en büyük Boyutu
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Ek çok büyük.<br />Maximum Yükleme Boyutu: %d MB.Bu Boyutu php tanımlanan <br />Please unutmayın.ini, bu PHP tarafından belirlenen ve Ek Mod bu değeri geçersiz kılabilirsiniz.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = '%s Uzantısı izin verilmez'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '%s Uzantılı bu Forumu Dosyaları göndermek için izin verilmez'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Ek çok büyük.<br />Max Boyutu: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Üzgünüm, ama tüm Ekleri için maksimum filesize ulaştı. Eğer bir sorunuz varsa, lütfen site yöneticisiyle iletişime geçin.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Eki eklendi, max beri olamaz. bu yazı %d Ekleri sayısı sağlandı'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Ek/Görüntü %d az piksel genişliğinde ve %d piksel yüksek olmalı';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kod]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Düzenleme dönmek';
 $lang['PROFILE_RETURN'] = 'Profiline git';
 
 $lang['WARNING'] = 'Uyarı';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Anda arama';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum tarzı';

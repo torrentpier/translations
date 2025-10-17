@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Etsi käyttäjä aiheita'; // Find all topics by 
 $lang['NO_USER_ID_SPECIFIED'] = 'Anteeksi, mutta että käyttäjää ei ole olemassa.';
 $lang['WRONG_PROFILE'] = 'Et voi muokata profiilia, joka ei ole oma.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Vain yksi tyyppi avatar voi olla määritetty';
 $lang['FILE_NO_DATA'] = 'Tiedoston URL-osoite, jonka annoit ei sisällä tietoja';
 $lang['NO_CONNECTION_URL'] = 'Yhteys ei kuitenkaan ole voitu URL annoit';
 $lang['INCOMPLETE_URL'] = 'Antamasi verkko-osoite on epätäydellinen';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Liite on liian iso.<br />Could saa maksimikok
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Liite on liian iso.<br />Maximum Lähetyksen Koko: %d MB.<br />Please huomaa, että tämä Koko on määritelty php.ini, tämä tarkoittaa, että se on asetettu PHP ja Kiinnitys Mod voi ohittaa tämän arvon.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Laajennus %s ei ole sallittua'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sinulla ei ole oikeutta lähettää Tiedostoja Laajennus %s Foorumissa'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Liite on liian iso.<br />Max Koko: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Anteeksi, mutta suurin tiedostokoko kaikki Liitteet on saavutettu. Ota yhteyttä ylläpitäjään, jos sinulla on kysyttävää.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Liitettä ei voi lisätä, koska max. määrä %d Liitetiedostoja tämä viesti oli saavutettu'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Liitetiedosto/Kuvan tulee olla vähemmän kuin %d pikseliä leveä ja %d pikseliä korkea';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Koodi]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Palaa editointi';
 $lang['PROFILE_RETURN'] = 'Mene profiili';
 
 $lang['WARNING'] = 'Varoitus';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex haku';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Foorumin tyyli';

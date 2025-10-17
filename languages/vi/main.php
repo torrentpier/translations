@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Tìm người sử dụng chủ đề'; // Find a
 $lang['NO_USER_ID_SPECIFIED'] = 'Xin lỗi, nhưng đó không tồn tại.';
 $lang['WRONG_PROFILE'] = 'Bạn không thể thay đổi một hồ sơ đó không phải của riêng bạn.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Chỉ có một loại avatar có thể được quy định';
 $lang['FILE_NO_DATA'] = 'Các tập tin tại đường dẫn bạn đánh chứa không có dữ liệu';
 $lang['NO_CONNECTION_URL'] = 'Một kết nối không thể đến địa chỉ em đưa';
 $lang['INCOMPLETE_URL'] = 'Các địa chỉ bạn bước vào được không đầy đủ';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Đính Kèm là quá lớn.<br />Could không
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Đính Kèm là quá lớn.<br />Maximum kích Thước Tải lên: %d.<br />Please lưu ý rằng kích Thước này được xác định vị trí.ini, điều này có nghĩa là nó là thiết lập và đính Kèm Mod không thể ghi đè lên giá trị này.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Mở Rộng %s không được cho phép'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Bạn không được phép bài Tập với việc mở Rộng %s trong diễn Đàn này'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Đính Kèm là quá lớn.<br />Max kích Thước: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Xin lỗi, nhưng tối đa kích cỡ cho tất cả đính Kèm đạt được. Xin liên hệ với các Hội đồng quản Trị nếu bạn có những câu hỏi.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Đính kèm không thể thêm vào, vì max. số %d đính Kèm trong bài này đã đạt được'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Đính Kèm hình Ảnh, phải được ít hơn %d ảnh rộng và %d ảnh cao';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Mã]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Trở về để chỉnh sửa';
 $lang['PROFILE_RETURN'] = 'Đi đến các hồ sơ';
 
 $lang['WARNING'] = 'Cảnh báo';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Lập chỉ mục lại tìm kiếm';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Phong cách diễn đàn';

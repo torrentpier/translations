@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Trobar usuari temes'; // Find all topics by usern
 $lang['NO_USER_ID_SPECIFIED'] = 'Ho sento, però que l\'usuari no existeix.';
 $lang['WRONG_PROFILE'] = 'No podeu modificar un perfil que no és el teu.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Només un tipus de avatar es pot especificar';
 $lang['FILE_NO_DATA'] = 'El fitxer, a l\'adreça que li va donar no conté dades';
 $lang['NO_CONNECTION_URL'] = 'Una connexió no es podia fer a l\'adreça que li va donar';
 $lang['INCOMPLETE_URL'] = 'La URL que heu introduït són incomplets';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'El fitxer és massa gran.<br />Could no obten
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'El fitxer és massa gran.<br />Maximum la Mida de Càrrega: %d MB.<br />Please tingueu en compte que aquesta Mida es defineix en php.ini, això vol dir que és establert per PHP i l\'Adjunt Mod no pot sobreescriure aquest valor.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'L\'Extensió %s no està permès'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'No està permès publicar els Arxius amb l\'Extensió %s en aquest Fòrum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'El fitxer és massa gran.<br />Max Mida: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Ho sento, però el màxim tamany de tots els fitxers Adjunts s\'assoleix. Si us plau, contactar amb el Consell Administrador si teniu preguntes.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Fitxer adjunt no es pot afegir, ja que el max. nombre de %d fitxers Adjunts en aquest post va aconseguir'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'L\'Adjunt/Imatge ha de ser menor que %d píxels d\'amplada i %d píxels d\'alta';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Codi]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Tornar a l\'edició';
 $lang['PROFILE_RETURN'] = 'Anar al perfil';
 
 $lang['WARNING'] = 'Avís';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Dades de la cerca';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Fòrum d\'estil';

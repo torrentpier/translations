@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Menemukan pengguna topik'; // Find all topics by 
 $lang['NO_USER_ID_SPECIFIED'] = 'Maaf, tapi itu tidak ada.';
 $lang['WRONG_PROFILE'] = 'Anda tidak dapat mengubah profil yang tidak anda sendiri.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Hanya satu jenis avatar yang dapat ditentukan';
 $lang['FILE_NO_DATA'] = 'File di URL yang anda berikan tidak mengandung data';
 $lang['NO_CONNECTION_URL'] = 'Koneksi tidak bisa dilakukan untuk URL yang anda berikan';
 $lang['INCOMPLETE_URL'] = 'URL yang anda masukkan tidak lengkap';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Lampiran terlalu besar.<br />Could tidak mend
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Lampiran terlalu besar.<br />Maximum Tanggal Ukuran: %d MB.<br />Please perhatikan bahwa Ukuran ini didefinisikan dalam php.ini, ini berarti itu ditetapkan oleh PHP dan Lampiran Mod tidak bisa mengesampingkan nilai ini.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Perpanjangan %s tidak diperbolehkan'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Anda tidak diperbolehkan untuk mengirim File dengan Ekstensi %s dalam Forum ini'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'Lampiran terlalu besar.<br />Max Ukuran: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Maaf, tapi maksimal ukuran file untuk semua Lampiran tercapai. Silahkan hubungi Administrator Dewan jika anda memiliki pertanyaan.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Lampiran tidak dapat ditambahkan, sejak max. jumlah %d Lampiran dalam posting ini dicapai'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Lampiran/Gambar harus kurang dari %d piksel lebar dan %d piksel tinggi';
@@ -1670,7 +1670,7 @@ $lang['READ_PROFILE_TXTB'] = '[Profile]';
 $lang['SEND_EMAIL_TXTB'] = '[E-mail]';
 $lang['VISIT_WEBSITE_TXTB'] = '[www]';
 $lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
+$lang['CODE_TOPIC_TXTB'] = '[Kode]';
 $lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
 $lang['VIEW_IP_TXTB'] = '[ip]';
 $lang['DELETE_POST_TXTB'] = '[x]';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Kembali ke editing';
 $lang['PROFILE_RETURN'] = 'Pergi ke profil';
 
 $lang['WARNING'] = 'Peringatan';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Reindex pencarian';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum gaya';
