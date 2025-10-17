@@ -540,7 +540,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Gebruiker zoeken op onderwerpen'; // Find all top
 $lang['NO_USER_ID_SPECIFIED'] = 'Sorry, maar dat de gebruiker niet bestaat.';
 $lang['WRONG_PROFILE'] = 'Kunt u niet wijzigen van een profiel dat is niet uw eigen.';
 
-$lang['ONLY_ONE_AVATAR'] = 'Only one type of avatar can be specified';
+$lang['ONLY_ONE_AVATAR'] = 'Slechts een type avatar kan worden opgegeven';
 $lang['FILE_NO_DATA'] = 'Het bestand op de URL die u gaf, bevat geen gegevens';
 $lang['NO_CONNECTION_URL'] = 'Een verbinding kan niet worden gemaakt naar de URL die u gaf';
 $lang['INCOMPLETE_URL'] = 'De URL die je hebt ingevoerd, is onvolledig';
@@ -1313,7 +1313,7 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'De Bijlage is te groot.<br />Could niet voor 
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'De Bijlage is te groot.<br />Maximum Upload Size: %d MB.<br />Please er rekening mee dat deze Maat is gedefinieerd in php.ini, dit betekent dat het instellen van PHP en de Bijlage Mod kan niet overschrijft deze waarde.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'De Uitbreiding %s is niet toegestaan'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'U bent niet toegestaan om te posten Bestanden met de Extensie %s in dit Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Max Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACHMENT_TOO_BIG'] = 'De Bijlage is te groot.<br />Max Grootte: %s'; // replace %d with maximum file size, %s with size var
 $lang['ATTACH_QUOTA_REACHED'] = 'Sorry, maar de maximale bestandsgrootte voor alle Bijlagen is bereikt. Neem contact op met de Beheerder als je vragen hebt.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Bijlage kan niet worden toegevoegd, aangezien de max. aantal %d Bijlagen in deze post werd bereikt'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'De Bijlage/Afbeelding moet kleiner zijn dan %d pixels breed en %d pixels hoog';
@@ -1914,7 +1914,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Terug naar bewerken';
 $lang['PROFILE_RETURN'] = 'Ga naar het profiel';
 
 $lang['WARNING'] = 'Waarschuwing';
-$lang['INDEXER'] = 'Reindex search';
+$lang['INDEXER'] = 'Index zoeken';
 $lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
 
 $lang['FORUM_STYLE'] = 'Forum stijl';
