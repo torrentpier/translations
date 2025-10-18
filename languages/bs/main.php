@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Pogled najnovijeg post';
 $lang['PAGE_OF'] = 'Stranica <b>%d</b> od <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Ušla si u invalid Twitter prijavu';
 
 $lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Jesi li sigurna da želiš da izbrišete ovu ank
 $lang['FLOOD_ERROR'] = 'Ne možeš da napraviš još jedan post tako brzo nakon vašeg posljednjeg; molim te, pokušaj ponovo na kratko';
 $lang['EMPTY_SUBJECT'] = 'Moraš navesti temu';
 $lang['EMPTY_MESSAGE'] = 'Ti mora ući poruku';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum je zaključan';
+$lang['TOPIC_LOCKED'] = 'Tema zaključana';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema zaključana';
 $lang['NO_POST_ID'] = 'Moraš odabrati post da uredi';
 $lang['NO_TOPIC_ID'] = 'Mora da ti izaberi temu da je odgovor';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Tamno Zelene.';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Anketa';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Potrazi za korisnike s post računati v
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Potrazi za korisnike s post računati manje od %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Potrazi za korisnike s post računati između %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Potrazi za korisnike s post računati vrijednost %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Potrazi za korisnike sa Twitter odgovara %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Potrazi za korisnike sa Web stranice koje odgovara %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Potrazi za korisnike sa Lokaciju odgovara %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Potrazi za korisnike sa njihove Interese polje odgovara %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Dan';
 $lang['POST_EDIT_CANNOT'] = 'Žao mi je, ali ne možeš uredi funkcije';
 $lang['FORUMS_IN_CAT'] = 'forumima u tu kategoriju';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Komentar moderacije';
 $lang['MC_LEGEND'] = 'Tip komentar';
 $lang['MC_FAQ'] = 'Ušao tekst će biti prikazana pod ovu poruku';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s u tvoju poruku";
