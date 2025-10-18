@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Shtojcë është shumë i madh.<br />Max
 $lang['DISALLOWED_EXTENSION'] = 'Zgjerimi %s nuk është e lejuar'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nuk ju lejohet të postoni Fotografi me Zgjatje %s në kuadër të këtij Forumi'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Shtojca është shumë i madh.<br />Madhësia maksimale: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Na vjen keq, por madhësia maksimale e skedarëve për të gjitha Shtojcat është arritur. Ju lutem kontaktoni Administratorin e Bordit nëse keni pyetje.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Shtojcë nuk mund të shtohen, pasi max. numri i %d të bashkëngjitni skedarë në këtë post u arrit'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Attachment/Imazhi duhet të jetë më pak se %d pixels gjerë dhe %d (pixels) e lartë';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Ngarkoni Gabim: nuk Mund të ngarkoni Shtojcën për %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Ju keni për të hyrë vlerave në \'të Shtuar një Bashkëlidhje\' Kuti';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Në gjendje për të Rinovuar Bashkëlidhje, nuk mund të gjeni të vjetër Hyrjes Bashkangjitje';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Na vjen keq, por madhësia maksimale e skedarëve për të gjitha Shtojcat në Dosjen tuaj të Mesazheve Privat është arritur. Ju lutem fshini disa nga Shtojcat tuaja të marra/dërguara.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Na vjen keq, por madhësia maksimale e skedarëve për të gjitha Shtojcat në Dosjen e Mesazheve Privat të \'%s\' është arritur. Ju lutem njoftoni atë, ose prisni derisa ai/ajo të ketë fshirë disa nga Shtojcat e tij/saj.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Ju nuk e keni zgjedhur një shtojcë për të shkarkuar ose të parë.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Directory \'%s\' nuk ekziston ose nuk Mund 
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Ju lutem kontrolloni nëse \'%s" është një directory.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Dosja \'%s\' nuk është e shkruashme. Ju do të duhet të krijoni rrugën e ngarkimit dhe ta vendosni atë në 777 (ose ndërroni pronarin në pronarin e serverëve tuaj httpd) për të ngarkuar skedarë.<br />Nëse keni vetëm qasje FTP të zakonshme ndryshoni \'Atributin\' e dosjes në rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Upload Të Kuotave';
-$lang['PM_QUOTA'] = 'PD Kuotave';
-
 // Common Variables
 $lang['BYTES'] = 'Byte';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Test Cilësimet';
 $lang['NOT_ASSIGNED'] = 'Nuk Është Caktuar';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nuk ka Fotografi në dispozicion Koment';
 $lang['ATTACHBOX_LIMIT'] = 'Kutia juaj e shtojcave është<br /><b>%d%%</b> e plotë';
-$lang['NO_QUOTA_LIMIT'] = 'Nuk Ka Kuota Limit';
 $lang['UNLIMITED'] = 'Unlimited';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Thjeshtë Mode';
 $lang['ADVANCED_MODE'] = 'Mode Avancuar';
 $lang['MODERATOR_STATUS'] = 'Moderator statusin';
 
-$lang['ALLOWED_ACCESS'] = 'Lejohet Qasje';
-$lang['DISALLOWED_ACCESS'] = 'Palejueshme Qasje';
-$lang['IS_MODERATOR'] = 'Është Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Paralajmërimi për konfliktin e autorizimit';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Ky përdorues është ende ka qasje në të drejtat e këtij forumi nëpërmjet grupit të anëtarësisë. Ju mund të dëshironi për të ndryshuar grupin e lejeve ose të hiqni këtë përdoruesit e grupit për të plotësisht të parandaluar ata që kanë qasje në të drejta. Grupet dhënien e të drejtave (dhe forume të përfshirë) janë të renditura më poshtë.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Ky përdorues ka akoma moderator i të drejtave të këtij forumi nëpërmjet grupit të anëtarësisë. Ju mund të dëshironi për të ndryshuar grupin e lejeve ose të hiqni këtë përdoruesit e grupit për të plotësisht të parandaluar që ata kanë moderator i të drejtave. Grupet dhënien e të drejtave (dhe forume të përfshirë) janë të renditura më poshtë.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Në vijim të përdoruesit (ose përdoruesit) ende kanë qasje të drejtat e këtij forumi nëpërmjet tyre të përdoruesit lejen cilësimet. Ju mund të dëshironi për të ndryshuar lejet e përdoruesit për të plotësisht të parandaluar ata që kanë qasje në të drejta. Përdoruesit i jepet e drejta (dhe forume të përfshirë) janë të renditura më poshtë.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Në vijim të përdoruesit (ose përdoruesit) kanë ende moderator i të drejtave të këtij forumi nëpërmjet tyre të përdoruesit lejet cilësimet. Ju mund të dëshironi për të ndryshuar lejet e përdoruesit për të plotësisht të parandaluar që ata kanë moderator i të drejtave. Përdoruesit i jepet e drejta (dhe forume të përfshirë) janë të renditura më poshtë.';
-
 $lang['PUBLIC'] = 'Publik';
 $lang['PRIVATE'] = 'Private';
 $lang['REGISTERED'] = 'Regjistruar';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Votoni';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Opinionit të krijuar';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Pas Fotografi';
 $lang['AUTH_DOWNLOAD'] = 'Shkarko Fotografi';
-
-$lang['SIMPLE_PERMISSION'] = 'Thjeshtë Lejet';
 
 $lang['USER_LEVEL'] = 'Përdoruesit E Nivelit Të';
 $lang['AUTH_USER'] = 'Përdorues';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Emrin e faqes';
 $lang['SITE_DESC'] = 'Site përshkrimi';
 $lang['FORUMS_DISABLE'] = 'Çaktivizoni bordit';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Kjo do të bëjë të bordit të disponueshme për përdoruesit. Administratorët janë në gjendje për të hyrë në Panelin e Administrimit, ndërsa bordit është me aftësi të kufizuara.';
-$lang['ACCT_ACTIVATION'] = 'Aktivizo llogarinë e aktivizimit';
 $lang['ACC_NONE'] = 'Asnjë'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Përdorues';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Të Lejojë Nënshkrimeve';
 $lang['MAX_SIG_LENGTH'] = 'Maksimale nënshkrimi gjatësi';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numri maksimal i karaktereve në nënshkrimet e përdoruesit';
 $lang['ALLOW_NAME_CHANGE'] = 'Të lejojë Emrin ndryshimet';
-
-$lang['EMAIL_SETTINGS'] = 'Parametrat Email';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Të Mundësojë Konfirmim Vizuale';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Kërkon përdoruesve të futni një kod të përcaktuara nga një i imazhit gjatë regjistrimit.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Të lejojë automatike hyrje';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Kliko %sHere%s të kthehen tek Smiley Admini
 
 // User Management
 $lang['USER_ADMIN'] = 'Administrata Përdorues';
-$lang['USER_ADMIN_EXPLAIN'] = 'Këtu ju mund të ndryshoni përdoruesve informacion dhe disa opsione. Për të modifikuar përdoruesit\' lejet, ju lutem, përdorni përdoruesit e grupit dhe lejet e sistemit.';
-
 $lang['LOOK_UP_USER'] = 'Shikoni përdoruesit';
-
-$lang['ADMIN_USER_FAIL'] = 'Nuk mund të përditësoni profilin e përdoruesit.';
-$lang['ADMIN_USER_UPDATED'] = 'Profilin e përdoruesit ka qenë i përditësuar me sukses.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Kliko %sHere%s të kthehen për Përdoruesit e Administratës';
-
-$lang['USER_ALLOWPM'] = 'Mund të dërgoni Mesazhe Private';
-$lang['USER_ALLOWAVATAR'] = 'Mund të shfaqin avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Këtu ju mund të shihni dhe të fshini aktuale e përdoruesit avatar.';
-
-$lang['USER_SPECIAL'] = 'Speciale-admin vetëm fusha';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Këto fusha nuk janë në gjendje për të modifikuar nga përdoruesit. Këtu ju mund të vendosni statusin e tyre dhe opsionet e tjera që nuk janë dhënë për përdoruesit.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupi I Administratës';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Përqindja përveç për një shkëmbim të bon
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Paneli I Kontrollit';
-$lang['SHADOW_ATTACHMENTS'] = 'Hije Të Bashkëngjitni Skedarë';
-$lang['FORBIDDEN_EXTENSIONS'] = 'E Ndaluar Shtesa';
 $lang['EXTENSION_CONTROL'] = 'Zgjerimi I Kontrollit';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Zgjerimi Grupet E Kontrollit';
 $lang['SPECIAL_CATEGORIES'] = 'Kategori Të Veçanta';
-$lang['SYNC_ATTACHMENTS'] = 'Të Sinkronizuar Të Bashkëngjitni Skedarë';
-$lang['QUOTA_LIMITS'] = 'Kufijve Të Kuotave';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Cilësimet Bashkangjitje';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Shtojcë Temë Icon';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Ky Imazh është shfaqur para me tema të bashkëngjitni skedarë. Lini këtë fushë të zbrazët në qoftë se ju nuk doni një ikonë do të shfaqet.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Attachment Të Shfaqin Qëllim';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Këtu ju mund të zgjidhni nëse për të shfaqur të bashkëngjitni skedarë në Posts/PMs në Zbritës Filetime Qëllim (më e re Shtojcë të Parë), ose në Ngjitje Filetime Qëllim (më të Vjetra të Bashkangjitje Parë).';
-$lang['SHOW_APCP'] = 'Përdorim të ri të panelit të kontrollit të aplikacioneve';
-$lang['SHOW_APCP_EXPLAIN'] = 'Zgjidhni nëse doni të përdorni një të veçantë të panelit të kontrollit të aplikacioneve (po), ose vjetër metodë me dy kuti për aplikimet dhe redaktimi aplikacionet (asnjë) në mesazhin kuti. Është e vështirë për të shpjeguar se si duket, kështu që të përpiqet për veten e tij.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Madhësia e skedarit';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimale si kartela për të bashkëngjitni skedarë. Një vlerë prej 0 do të thotë \'pakufizuar\'. Ky Cilësim është i kufizuar nga tuaj të Konfigurimit të Serverit. Për shembull, nëse tuaj php Konfigurimit lejon vetëm një maksimum prej 2 MB ngarkimet, kjo nuk mund të jetë overwritten nga Mod.';
-$lang['ATTACH_QUOTA'] = 'Shtojcë Të Kuotave';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimale Hapësirë në Disk të GJITHA Bashkëngjitjet, mund të mbajë në Webspace tuaj. Një vlerë prej 0 do të thotë \'pakufizuar\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maksimale si kartela në Mesazhe Private Folder';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimale Disk Hapësirë të bashkëngjitni skedarë mund të përdorni deri në çdo Përdorues Privat Mesazh kuti. Një vlerë prej 0 do të thotë \'pakufizuar\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Default Kuota Limit';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Këtu ju jeni në gjendje të zgjidhni Default Kuota Limit të caktuar automatikisht të regjistruar Përdoruesve dhe Shfrytëzuesve të pa përcaktuar Kuota Limit. Opsionin \'Nuk ka Kuota Limit\' është për të mos përdorur ndonjë Shtojcë Kuotat, në vend se duke përdorur default Settings ju duhet të përcaktuara në këtë Menaxhimit të Panelit.';
 
 $lang['MAX_ATTACHMENTS'] = 'Numri maksimal i të bashkëngjitni skedarë';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Numri maksimal i të bashkëngjitni skedarë lejohet në një post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Çaktivizoni Bashkangjitje Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Ky opsion është kryesisht për testim të ri templates ose temat, kjo pamundëson të gjitha Bashkangjitje Funksionet përveç Admin Panel.';
 $lang['PM_ATTACHMENTS'] = 'Lejon të bashkëngjitni skedarë në Mesazhe Private';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Të lejuar/Ndaloni bashkëngjitur fotografi në Mesazhe Private.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Tregojnë aplikacione në shqyrtimin e komunikimit tema kur shkruani një përgjigje?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Nëse ju vendosni një "po", të gjitha aplikacionet do të shfaqet në shqyrtim të komunikimit në tema.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Këtu ju mund të fshini shtojcën i të dhënave nga postimeve kur dosjet janë zhdukur nga skedarësh, dhe të fshini fotografi që nuk janë më të bashkëngjitur në çdo komente. Ju mund të shkarkoni ose shikoni një fotografi në qoftë se ju klikoni mbi atë; nëse asnjë lidhje është e pranishme, fotografi nuk ekziston.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Për të fshirë të gjitha të bashkëngjitni skedarë fotografi që ekzistojnë në tuaj skedarësh dhe nuk janë caktuar për një ekzistuese post.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Për të fshirë të gjitha postimi shtojcën i të dhënave për fotografi që nuk ekzistojnë në tuaj skedarësh.';
-$lang['EMPTY_FILE_ENTRY'] = 'Bosh File Hyrje';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Paraprakja është rishikuar për shtojcën: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Sinkronizimi i bashkëngjitjes përfundoi.';
 $lang['SYNC_TOPICS'] = 'Sync Tema';
 $lang['SYNC_POSTS'] = 'Sync Postimet';
-$lang['SYNC_THUMBNAILS'] = 'Sync Thumbnails';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Zgjerimet Menaxhuar';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Këtu ju mund të menaxhosh File Extensions. Nëse ju doni për të lejuar/ndaloni një Zgjatje të jetë i ngarkuar, ju lutem përdorin Shtrirjen e Grupeve të Menaxhimit.';
 $lang['EXPLANATION'] = 'Shpjegim';
 $lang['EXTENSION_GROUP'] = 'Këshillimi Në Grup';
-$lang['INVALID_EXTENSION'] = 'Të Pavlefshme Zgjatje';
 $lang['EXTENSION_EXIST'] = 'Zgjerimi %s tashmë ekzistojnë'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Zgjerimi %s është e ndaluar, ju nuk jeni në gjendje për të shtuar se për të lejuar Zgjerime'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Menaxhuar Grupet E Këshillimit';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Zgjerimi i Grupit të %s tashmë ekzistojnë';
 $lang['MANAGE_CATEGORIES'] = 'Menaxhuar Kategori Të Veçanta';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Këtu mund të konfiguroni Kategoritë e Veçanta. Mund të vendosni Parametra dhe Kushtet e Veçanta për Kategoritë e Veçanta të caktuar për një Grup Zgjatjeje.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Cilësimet për Kategori të Veçantë: Imazhe';
-$lang['SETTINGS_CAT_FLASH'] = 'Cilësimet për Kategori të Veçantë: Flash Fotografi';
 $lang['DISPLAY_INLINED'] = 'Shfaq Imazhet Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Zgjidhni nëse për të shfaqur imazhe drejtpërdrejt brenda post (po) ose për të shfaqur imazhe si një lidhje ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum Imazhin Përmasat';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Të Krijuar Tablo';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Madhësia minimale e skedarit miniaturë';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Nëse një imazh është më i vogël se kjo madhësi e përcaktuar e skedarit, nuk do të krijohet një miniaturë, sepse është mjaft e vogël.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Menaxhuar Ndaluar Zgjerime';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Këtu ju mund të shtoni ose fshini ndaluar extensions. Extensions php, php3 dhe php4 janë ndaluar nga default për arsye të sigurisë, ju nuk mund të fshini ato.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'E ndaluar Zgjerimin %s tashmë ekzistojnë'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Zgjerimi %s është përcaktuar në lejohet juaj Extensions, ju lutem fshini atë e tyre para se të shtoni atë këtu.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Lejet e Grupit të Zgjatimeve → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Këtu ju jeni në gjendje për të kufizuar të përzgjedhur Vazhdimin e Grupit të Forumeve të zgjedhjes tuaj (të përcaktuara në Lejohet Forume Kuti). Default është për të lejuar Zgjerimin e Grupeve të të gjitha Forumet Përdoruesi është në gjendje të Bashkëngjitni Fotografi në (mënyrë normale Shtojcën Mod e bëri atë që në zanafillë). Vetëm të shtoni ato Forume ju doni Zgjerimin e Grupit (Extensions brenda këtij Grupi) do të lejohen atje, default, të GJITHA FORUMEVE do të zhduken kur ju të shtoni Forumet e Listës. Ju jeni në gjendje për të ri-shtoni të GJITHA FORUMET në çdo Kohë të dhënë. Nëse ju shtoni një Forum për Bordin tuaj dhe Lejen është e vendosur për të GJITHA FORUMET asgjë nuk do të ndryshojë. Por në qoftë se ju keni ndryshuar dhe për të kufizuar qasjen në disa Forume, ju duhet të kontrolloni përsëri këtu për të shtoni tuaj të sapokrijuar në Forum. Ajo është e lehtë për të bërë këtë automatikisht, por kjo do të detyruar ju për të redaktuar një bandë e Dosjeve, prandaj unë kam zgjedhur mënyra se si është tani. Ju lutemi të mbani në mend, se të gjitha Forumet do të jenë të listuara këtu.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Të Shtoni Forume';
 $lang['ADD_SELECTED'] = 'Të Shtoni Zgjedhur';
 $lang['PERM_ALL_FORUMS'] = 'TË GJITHA FORUMET';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Menaxhuar Bashkangjitje Kufijve Të Kuotave';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Këtu ju jeni në gjendje për të shtuar/delete/ndryshim të Kufijve të Kuotës. Ju jeni në gjendje të caktojë këto Kuota Kufijtë për Përdoruesit dhe Grupet më vonë. Për të caktuar një Kuota Limit për një Përdorues, ju duhet të shkoni për Përdoruesit->Menaxhimit, zgjidhni Përdoruesit dhe ju do të shihni Opsione në fund. Për të caktuar një Kuota Limit për një Grup, shkoni në Grupe->Menaxhimit, zgjidhni Grupin për të redaktuar atë, dhe ju do të shihni Cilësimet e Konfigurimit. Nëse ju doni të shikoni, të cilat Përdoruesit dhe Grupet janë caktuar për një Kuota të caktuara Kufi, klikoni mbi "View" në të majtë të Kuotave Përshkrim.';
-$lang['ASSIGNED_USERS'] = 'Caktuar Përdoruesit';
-$lang['ASSIGNED_GROUPS'] = 'Caktuar Grupet';
-$lang['QUOTA_LIMIT_EXIST'] = 'Kuota Limit %s ekzistojnë tashmë.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'File Attachment Paneli I Kontrollit';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Këtu ju mund të shikoni dhe të menaxhuar të gjitha të bashkëngjitni skedarë bazuar në Përdoruesit, të bashkëngjitni skedarë, Qëndrimet etj...';
-$lang['FILECOMMENT'] = 'File Koment';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Përdorimi * si wildcard për përputhjet e pjesshme';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Numri i Postimeve me të bashkëngjitni skedarë
 $lang['NUMBER_TOPICS_ATTACH'] = 'Numri i Temave me të bashkëngjitni skedarë';
 $lang['NUMBER_USERS_ATTACH'] = 'Pavarur Përdoruesit Postuar Bashkëngjitni Skedarë';
 $lang['NUMBER_PMS_ATTACH'] = 'Numri i përgjithshëm i të bashkëngjitni skedarë në Mesazhe Private';
-$lang['ATTACHMENTS_PER_DAY'] = 'Attachments në ditë';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Attachment të Statistikave për %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigurimi I Azhurnuar Me Sukses';
 $lang['SET_DEFAULTS'] = 'Rikthimi standarte';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forumi config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forumi opsione:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'hold down <i>Ctrl</i> ndërsa zgjedhjen e shumta forume';
 

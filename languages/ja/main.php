@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '添付ファイルは大きすぎます�
 $lang['DISALLOWED_EXTENSION'] = 'の延長%sが許可されない'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'ことができませんのでポストのファイルの拡張子%sこのフォーラム'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = '添付ファイルは大きすぎます。<br />最大サイズ：%s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = '申し訳ございませんが、すべての添付ファイルの最大ファイルサイズに達しました。質問がある場合は、ボード管理者にお問い合わせください。';
 $lang['TOO_MANY_ATTACHMENTS'] = '別紙に追加できないので、最大です。 数%d添付ファイルをこの募集でしたが実現'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'の添付画像よりも大きな%dピクセル幅%dピクセルの高';
 $lang['GENERAL_UPLOAD_ERROR'] = 'アップロードエラーなアップロードする添付%sます。'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'して入力値に\'添付ファイルを追加"ボックス';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'な更新着いない古い別紙参入';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = '申し訳ございませんが、プライベートメッセージフォルダ内のすべての添付ファイルの最大ファイルサイズに達しました。受信/送信した添付ファイルのいくつかを削除してください。';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = '申し訳ございませんが、\'%s\'のプライベートメッセージフォルダ内のすべての添付ファイルの最大ファイルサイズに達しました。彼に知らせてください、または彼/彼女がいくつかの添付ファイルを削除するのを待ちます。';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'まだ選択したアタッチメントをダウンロードしたり。';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'ディレクトリ\'%s\'が存在しない�
 $lang['DIRECTORY_IS_NOT_A_DIR'] = '確認してください\'%s"をクリックします。'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'ディレクトリ\'%s\'は書き込み可能ではありません。アップロードパスを作成し、777にchmodするか（または所有者をhttpdサーバーの所有者に変更する）してファイルをアップロードする必要があります。<br />プレーンFTPアクセスしかない場合は、ディレクトリの「属性」をrwxrwxrwxに変更してください。'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'アップロード数';
-$lang['PM_QUOTA'] = 'PM定員';
-
 // Common Variables
 $lang['BYTES'] = 'バイト';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = '試験設定';
 $lang['NOT_ASSIGNED'] = 'に割り当てられません';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'ファイルのコメント可能';
 $lang['ATTACHBOX_LIMIT'] = 'あなたの添付ボックスは<br /><b>%d%%</b>満杯です';
-$lang['NO_QUOTA_LIMIT'] = 'ない数値';
 $lang['UNLIMITED'] = '無制限';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'シンプルモード';
 $lang['ADVANCED_MODE'] = '先端モード';
 $lang['MODERATOR_STATUS'] = 'モデレーターの状況';
 
-$lang['ALLOWED_ACCESS'] = 'アクセスが許可され';
-$lang['DISALLOWED_ACCESS'] = 'アクセス許可';
-$lang['IS_MODERATOR'] = 'がモデレーター';
-
-$lang['CONFLICT_WARNING'] = '承認の競合警告';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'このユーザーがアクセス権をこのフォーラムを通グループの会員です。 ている変更のグループの権限又は除去するこのユーザーのグループを完全に防止のためにアクセス権です。 グループの権利のフォーラムについては以下のとおりであります。';
-$lang['CONFLICT_MOD_USERAUTH'] = 'このユーザーがモデレーターの権利フォーラムを通グループの会員です。 ている変更のグループの権限又は除去するこのユーザーのグループを完全に防止しているモデレーターの権利ます。 グループの権利のフォーラムについては以下のとおりであります。';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = '以下のユーザーやユーザーがアクセス権をこのフォーラムを通じてユーザーの権限を設定します。 がありますの変更、ユーザーのアクセス権を完全に防止のためにアクセス権です。 ユーザーの許権のフォーラムについては以下のとおりであります。';
-$lang['CONFLICT_MOD_GROUPAUTH'] = '以下のユーザーやユーザー)がモデレーターの権利フォーラムを通じてユーザーの権限を設定します。 がありますの変更、ユーザーのアクセス権を完全に防止しているモデレーターの権利ます。 ユーザーの許権のフォーラムについては以下のとおりであります。';
-
 $lang['PUBLIC'] = '公開';
 $lang['PRIVATE'] = '民間';
 $lang['REGISTERED'] = '登録';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = '投票';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = '投票の作成';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'ポストファイル';
 $lang['AUTH_DOWNLOAD'] = 'ファイルのダウンロード';
-
-$lang['SIMPLE_PERMISSION'] = '簡単なアクセス権';
 
 $lang['USER_LEVEL'] = 'ユーザーレベル';
 $lang['AUTH_USER'] = 'ユーザー';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'サイト名';
 $lang['SITE_DESC'] = 'サイト説明';
 $lang['FORUMS_DISABLE'] = 'ボードの無効化';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'このボードがご利用できます。 管理者アクセスでき、管理パネルのボードが無効になっています。';
-$lang['ACCT_ACTIVATION'] = 'する口座の活性化';
 $lang['ACC_NONE'] = 'なし'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'ユーザー';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'る署名';
 $lang['MAX_SIG_LENGTH'] = '最大の署名の長さ';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '最大文字数はユーザーの署名';
 $lang['ALLOW_NAME_CHANGE'] = '許可ユーザー名の変更';
-
-$lang['EMAIL_SETTINGS'] = 'メールの設定';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'を目視確認';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = '必要ユーザーの入力コード定義された画像を登録します。';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'させることにより自然にログイン';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'をクリックし%sHere%s戻Smiley管理';
 
 // User Management
 $lang['USER_ADMIN'] = 'ユーザー管理';
-$lang['USER_ADMIN_EXPLAIN'] = 'ここで変更できますユーザー情報や性、正確性、有用性、特定目的ます。 変更は、ユーザのアクセス権をご利用くださいユーザーやグループ権限システムです。';
-
 $lang['LOOK_UP_USER'] = '見上げてユーザー';
-
-$lang['ADMIN_USER_FAIL'] = 'の更新ができないユーザのプロフィールす。';
-$lang['ADMIN_USER_UPDATED'] = 'ユーザのプロフィールを更新しました。';
-$lang['CLICK_RETURN_USERADMIN'] = 'をクリックし%sHere%sに戻りユーザー管理';
-
-$lang['USER_ALLOWPM'] = 'を送信できるのでプライベートメッセージ';
-$lang['USER_ALLOWAVATAR'] = '表示できるアバター';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'ここでは、削除、利用者の現在のアバターです。';
-
-$lang['USER_SPECIAL'] = '特別管理-分野';
-$lang['USER_SPECIAL_EXPLAIN'] = 'これらの分野することができなかった変更は、ユーザーです。 ここで設定できる地位およびその他のオプションを与えられていないユーザーです。';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'グループ管理';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = '割合は、交換の賞与にGB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = '制御パネル';
-$lang['SHADOW_ATTACHMENTS'] = '影の添付';
-$lang['FORBIDDEN_EXTENSIONS'] = '禁断の拡張';
 $lang['EXTENSION_CONTROL'] = '延長制御';
 $lang['EXTENSION_GROUP_MANAGE'] = '拡張子群の制御';
 $lang['SPECIAL_CATEGORIES'] = '特別なカテゴリ';
-$lang['SYNC_ATTACHMENTS'] = '添付の同期';
-$lang['QUOTA_LIMITS'] = 'クォータ制限';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = '添付の設定';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = '添付話題アイコン';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'このイメージが表示される前にテーマとして再現することができます。 このフィールドを空白のない場合はアイコンが表示されます。';
 $lang['ATTACH_DISPLAY_ORDER'] = '添付の表示順';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'ここで表示するかどうかを選択メールの添付ファイルで投稿/PMsに降Filetime順(最新の添付）または上昇Filetime(古いものを添付するものではありません。';
-$lang['SHOW_APCP'] = '用の新しいコントロールパネルの採用';
-$lang['SHOW_APCP_EXPLAIN'] = 'するかどうかを選択します。利用には別途制御パネルの応用(有)、または古い方法との二つの箱にアプリケーションや編集アプリケーションなしのメッセージボックスです。 では説明しにくい見せ方を実感してくださいます。';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'ファイルサイズ';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = '最大filesize用して再現することができます。 値0は"無限"です。 この設定は制限されるサーバの設定をします。 例えば、php設定を切ることができ、最大2メガバイト遊びのこの書き換えることができませんので、Modです。';
-$lang['ATTACH_QUOTA'] = '取付枠';
-$lang['ATTACH_QUOTA_EXPLAIN'] = '最大ディスクスペースすべての添付ファイルでごウェブ空間です。 値0は"無限"です。';
 $lang['MAX_FILESIZE_PM'] = '最大Filesizeにプライベートメッセージフォルダ';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = '最大ディスクスペースに添付することができ、それぞれのユーザーのプライベートメッセージボックスです。 値0は"無限"です。';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'デフォルトの数値';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'ここで選択でき、デフォルトの数値に自動的に割り当てられ新規登録されたユーザーやユーザーなしに確定数値です。 オプションの"クォータ制限"を利用しない添付割当の代わりにデフォルト設定で定義内のこの管理パネルです。';
 
 $lang['MAX_ATTACHMENTS'] = '最大数アタッチメント';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'の最大数を添付き日本人の配偶者やその家族ます。';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = '無効に添付Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'このオプションは、主に試験用の新しいテンプレートやテーマでは無効にすべての添付機能の管理者パネルです。';
 $lang['PM_ATTACHMENTS'] = 'きの添付ファイルをプライベートメッセージ';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = '許可/可ファイルを添プライベートメッセージです。';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'ショーの見直しの通話時を書き込むときの答えはどうでしょうか？';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'を入れれば"yes"により、あらゆる用途に対応で表示されますの見直通です。';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'ここで削除する添付データからの投稿時にファイルに欠からファイルシステム、削除が行えなくなったのは嬉します。 ダウンロードできたり眺望の場合はファイルをクリックしていない場合のリンクが存在し、ファイルが存在していません。';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'べて削除する添付ファイルに存在する貴ファイルシステムではありませんので既存のポストです。';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'べて削除すると投稿の添付データファイルは存在しなおファイルシステムです。';
-$lang['EMPTY_FILE_ENTRY'] = '空のファイルのエントリ';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = '添付ファイルのプレビューがリセットされました：%s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = '添付ファイルの同期が完了しました。';
 $lang['SYNC_TOPICS'] = '同期Topics';
 $lang['SYNC_POSTS'] = '同期の投稿';
-$lang['SYNC_THUMBNAILS'] = '同期のサムネイル';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = '管理の拡張子';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'ここで管理できますファイルの拡張子です。 したい場合は許可/可を延長するアップロードをご利用ください延長群管理します。';
 $lang['EXPLANATION'] = '説明';
 $lang['EXTENSION_GROUP'] = '拡張グループ';
-$lang['INVALID_EXTENSION'] = '無効な拡張';
 $lang['EXTENSION_EXIST'] = 'の延長%sに存在する'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'の延長%sは禁止されることはできませんへの追加のためには拡張可'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = '管理グの拡張';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = '拡張子のグループ%sに存在する'; //
 $lang['MANAGE_CATEGORIES'] = '管理特別なカテゴリ';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'ここでは特別なカテゴリを設定できます。拡張グループに割り当てられた特別なカテゴリのための特別なパラメータと条件を設定できます。';
 $lang['SETTINGS_CAT_IMAGES'] = '設定のための特別なカテゴリ：画像';
-$lang['SETTINGS_CAT_FLASH'] = '設定のための特別なカテゴリ：Flashファイル';
 $lang['DISPLAY_INLINED'] = '画像をインラインで表示';
 $lang['DISPLAY_INLINED_EXPLAIN'] = '表示するかどうかを選択画像の直接の後(あり)または画像表示とリンクすか？';
 $lang['MAX_IMAGE_SIZE'] = '最大画像寸法';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'サムネイルの作成';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = '最小サムネイルファイルサイズ';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'この定義されたファイルサイズより小さい画像の場合、サムネイルは作成されません。なぜなら、十分に小さいからです。';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = '管理禁断の拡張';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'ここで追加または削除を禁止します。 の拡張php,php3とphp4禁止されているデフォルトのセキュリティ上の理由だけを削除することはできません。';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = '禁断の延長%sに存在する'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'の延長%sを定義しておきの拡張子を削除してくださいここを追加するときは、その前にしてください。'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = '拡張グループの権限 → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'こちらきを制限する選択した拡張子グループのフォーラムのご希望に定義されているせフォーラムボックス)です。 デフォルトの可能性の拡張グループの全てのフォーラムは、ユーザが添付ファイル(通常の方法は、別添のModかったです。 んのプロフィールをチェックフォーラムはそのままにして拡張(Extensionにはこのグループ）ができることであり、デフォルトのすべてのフォーラムが消えるときに追加のフォーラムの一覧です。 き再度の追加、すべてのフォーラム任意することができるものとします。 を追加した場合、フォーラムのお役に許可を設定し、すべてのフォーラムも変化します。 ものを変えなければならな制限されたアクセスするフォーラムをご確認ください。エクスペディアに追加するには新規作成されたフォーラムです。 ですのは容易なこと自動的に、このまま編集ファイルが限定されていないのです。 詳しくは、全てのフォーラムは、ここに表示されます。';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = '追加のフォーラム';
 $lang['ADD_SELECTED'] = '追加選択';
 $lang['PERM_ALL_FORUMS'] = '全てのフォーラム';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = '管理に取付枠の制限';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'ここまでの追加-削除-変更や制限します。 すでに割り当てらクォータ制限をユーザーとグループです。 割り当てるクォータ制限をユーザーは、こちらのユーザーにつき）->管理、ユーザーを選択します。するオプションを行います。 割り当て数値のグループは、グループ>マネジメントを選択し、グループを編集しますので、設定を設定します。 を確認したい場合には、ユーザーやグループに属し、特定の数値をクリックし、"表示"の左側の枠説明します。';
-$lang['ASSIGNED_USERS'] = 'ユーザーに割り当て';
-$lang['ASSIGNED_GROUPS'] = '属団体';
-$lang['QUOTA_LIMIT_EXIST'] = 'の数値の%s存在しています。'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = '添付ファイルの制御パネル';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'こちらを閲覧-管理することができすべての添付ファイルに基づくユーザーの場合、添付ファイル、眺望などを---';
-$lang['FILECOMMENT'] = 'ファイルのコメント';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = '使用してワイルドカードの部分一致';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = '投稿数添付ファイル付き';
 $lang['NUMBER_TOPICS_ATTACH'] = 'ついて、様々な研究テーマの添付';
 $lang['NUMBER_USERS_ATTACH'] = '独立したユーザー投稿の添付';
 $lang['NUMBER_PMS_ATTACH'] = '数添付ファイルをプライベートメッセージ';
-$lang['ATTACHMENTS_PER_DAY'] = '添付日';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = '添付統計量%s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = '構成に成功し';
 $lang['SET_DEFAULTS'] = 'デフォルトの復元';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Configフォーラム';
-
 $lang['BT_SELECT_FORUMS'] = 'フォーラムのオプション:';
 $lang['BT_SELECT_FORUMS_EXPL'] = '押<i>Ctrl</i>を複数選択するフォーラム';
 

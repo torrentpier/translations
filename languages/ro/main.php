@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Atașamentul este prea mare.<br />Maximu
 $lang['DISALLOWED_EXTENSION'] = 'Extinderea %s nu este permis'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nu ai voie să postați Fișiere cu Extensia %s în acest Forum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Atașamentul este prea mare.<br />Dimensiune maximă: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Îmi pare rău, dar dimensiunea maximă pentru toate atașamentele a fost atinsă. Vă rugăm să contactați Administratorul forumului dacă aveți întrebări.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Atașament nu poate fi adăugat, de max. numărul de %d fișiere Atașate în acest post a fost realizat'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Atașarea/Imagine trebuie să fie mai mică decât %d de pixeli lățime și %d pixeli de înaltă';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Incarca Eroare: nu am Putut incarca Atașamentul față de %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Trebuie să introduceți valorile pentru a Adăuga un Atașament,\' Cutie de';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'În imposibilitatea de a Actualiza Atașament, nu a putut găsi vechi Atașament Intrare';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Îmi pare rău, dar dimensiunea maximă pentru toate atașamentele din dosarul dvs. de mesaje private a fost atinsă. Vă rugăm să ștergeți unele din atașamentele primite/trimise.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Îmi pare rău, dar dimensiunea maximă pentru toate atașamentele din dosarul de mesaje private al \'%s\' a fost atinsă. Vă rugăm să-l anunțați, sau să așteptați până când el/ea a șters unele dintre atașamente.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nu ați selectat un atașament pentru a descărca sau vizualiza.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Directorul \'%s\' nu exista sau nu a Putut 
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Vă rugăm să verificați dacă \'%s\' este un director.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Directorul \'%s\' nu este inscriptibil. Va trebui să creați calea de încărcare și să schimbați permisiunile la 777 (sau să schimbați proprietarul la proprietarul dvs. de httpd-server) pentru a încărca fișiere.<br />Dacă aveți doar acces FTP simplu schimbați "Atributul" directorului la rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Incarca Cota';
-$lang['PM_QUOTA'] = 'PM Cota';
-
 // Common Variables
 $lang['BYTES'] = 'Bytes';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Setări De Testare';
 $lang['NOT_ASSIGNED'] = 'Nu Atribuite';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nici un Comentariu Fișier disponibil';
 $lang['ATTACHBOX_LIMIT'] = 'Încărcătura dvs. este<br /><b>%d%%</b> plină';
-$lang['NO_QUOTA_LIMIT'] = 'Nici O Limită';
 $lang['UNLIMITED'] = 'Nelimitat';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Modul Simplu';
 $lang['ADVANCED_MODE'] = 'Modul Avansat';
 $lang['MODERATOR_STATUS'] = 'Statutul de Moderator';
 
-$lang['ALLOWED_ACCESS'] = 'Permis De Acces';
-$lang['DISALLOWED_ACCESS'] = 'Nepermis De Acces';
-$lang['IS_MODERATOR'] = 'Este Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Avertizare de conflict de autorizare';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Acest utilizator are încă drepturile de acces la acest forum prin apartenența la grup. Poate doriți pentru a modifica permisiuni de grup sau elimina acest utilizator grupului pentru a preveni complet având drepturi de acces. Grupurile de acordare a drepturilor (și forumuri implicate) sunt notate mai jos.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Acest utilizator are încă moderator drepturile pentru acest forum prin apartenența la grup. Poate doriți pentru a modifica permisiuni de grup sau elimina acest utilizator grupului pentru a preveni complet având moderator drepturi. Grupurile de acordare a drepturilor (și forumuri implicate) sunt notate mai jos.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Următoarele utilizatorul (sau utilizatorii) încă mai au drepturi de acces la acest forum prin intermediul lor permisiunea utilizatorului setări. Poate doriți pentru a modifica permisiunile de utilizator pentru a preveni complet având drepturi de acces. Utilizatorii acordat drepturi (și forumuri implicate) sunt notate mai jos.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Următoarele utilizatorul (sau utilizatorii) încă mai am moderator drepturile pentru acest forum prin intermediul lor permisiuni de utilizator setări. Poate doriți pentru a modifica permisiunile de utilizator pentru a preveni complet având moderator drepturi. Utilizatorii acordat drepturi (și forumuri implicate) sunt notate mai jos.';
-
 $lang['PUBLIC'] = 'Publice';
 $lang['PRIVATE'] = 'Privat';
 $lang['REGISTERED'] = 'Înregistrați';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Vot';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Sondajul a crea';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Fișiere';
 $lang['AUTH_DOWNLOAD'] = 'Descărca Fișiere';
-
-$lang['SIMPLE_PERMISSION'] = 'Simplu Permissions';
 
 $lang['USER_LEVEL'] = 'La Nivel De Utilizator';
 $lang['AUTH_USER'] = 'Utilizator';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Numele Site-ului';
 $lang['SITE_DESC'] = 'Descrierea Site-ului';
 $lang['FORUMS_DISABLE'] = 'Dezactivați bord';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Acest lucru va face consiliul disponibil pentru utilizatori. Administratorii sunt capabili de a accesa Panoul de Administrare, în timp ce placa este dezactivat.';
-$lang['ACCT_ACTIVATION'] = 'Permite activarea contului';
 $lang['ACC_NONE'] = 'Nici unul'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Utilizator';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Permite Semnături';
 $lang['MAX_SIG_LENGTH'] = 'Maxim semnătura lungime';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numărul maxim de caractere într-utilizator de semnături';
 $lang['ALLOW_NAME_CHANGE'] = 'Permite modificările de nume de Utilizator';
-
-$lang['EMAIL_SETTINGS'] = 'Setări E-Mail';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Permite Confirmarea Vizuală';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Cere utilizatorilor să introduceți un cod definit de o imagine atunci când înregistrarea.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Permite automat datele de conectare';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Faceți clic pe %sHere%s pentru a reveni la 
 
 // User Management
 $lang['USER_ADMIN'] = 'Administrarea Utilizatorilor';
-$lang['USER_ADMIN_EXPLAIN'] = 'Aici puteți schimba informații utilizatorilor și anumite opțiuni. Pentru a modifica utilizatorilor permisiuni, vă rugăm să utilizați permisiuni utilizator și grup sistemului.';
-
 $lang['LOOK_UP_USER'] = 'Uite utilizator';
-
-$lang['ADMIN_USER_FAIL'] = 'Nu a putut actualiza profilul utilizatorului.';
-$lang['ADMIN_USER_UPDATED'] = 'Profilul utilizatorului a fost actualizat cu succes.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Faceți clic pe %sHere%s pentru a reveni la Administrarea de Utilizator';
-
-$lang['USER_ALLOWPM'] = 'Pot trimite Mesaje Private';
-$lang['USER_ALLOWAVATAR'] = 'Poate afișa avatarul';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Aici puteți vedea și șterge utilizatorul curent avatar.';
-
-$lang['USER_SPECIAL'] = 'Speciale admin-doar câmpurile';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Aceste domenii nu sunt capabile de a fi modificate de către utilizatori. Aici puteți seta starea acestora și alte opțiuni care nu sunt date pentru utilizatori.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'De Administrare A Grupului';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Proporția plus pentru un schimb de bonusuri pe
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Panoul De Control';
-$lang['SHADOW_ATTACHMENTS'] = 'Umbra Atașamente';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Interzis Extensii';
 $lang['EXTENSION_CONTROL'] = 'Extensia De Control';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Extensia Grupuri De Control';
 $lang['SPECIAL_CATEGORIES'] = 'Categorii Speciale';
-$lang['SYNC_ATTACHMENTS'] = 'Sincroniza Atașamentele';
-$lang['QUOTA_LIMITS'] = 'Limitele Cotelor De';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Setările De Fixare';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Atașament Subiect Icon';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Această Imagine este afișată înainte de subiecte cu Atasamente. Lăsați acest câmp gol, dacă nu doriți o pictogramă pentru a fi afișate.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Atașament Ordinea De Afișare';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aici puteți alege dacă pentru a afișa fișiere Atașate în Mesaje/PMs în ordine Descrescătoare Filetime Ordine (mai Nou Atașament în Primul rând) sau Ascendentă Filetime Ordine (mai Vechi de Atașament în Primul rând).';
-$lang['SHOW_APCP'] = 'Utilizați noul panou de control aplicații';
-$lang['SHOW_APCP_EXPLAIN'] = 'Alegeți dacă doriți să utilizați un panou de control separat aplicații (da), sau metoda veche cu două cutii pentru aplicații și aplicații de editare (nici unul) în caseta de mesaj. Este dificil de a explica modul în care arată, așa că încercați pentru tine.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Dimensiunea fișierului';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maxim filesize pentru Atașamente. O valoare de 0 înseamnă "nelimitat". Această Setare este limitată de Configurația Serverului. De exemplu, dacă Configurația php permite doar un maxim de 2 MB, upload, acest lucru nu poate fi suprascris de Mod.';
-$lang['ATTACH_QUOTA'] = 'Atașament Cota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximă de Spațiu pe Disc TOATE Atașamentele pot ține pe spațiul web. O valoare de 0 înseamnă "nelimitat".';
 $lang['MAX_FILESIZE_PM'] = 'Maxim Filesize în Mesaje Private Folder';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximă de Spațiu pe Disc Atașamente puteți folosi în fiecare User Mesaj Privat cutie. O valoare de 0 înseamnă "nelimitat".';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Implicit Limita De Cote';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Aici aveți posibilitatea de a selecta Implicit Limita de Cote alocate în mod automat Utilizatorii noi înregistrați și Utilizatorii fără o definite Limita de Cote. Opțiunea \'Nici o Limita de Cote\' e pentru care nu folosesc nici un Atașament Contingente, în schimb, folosind Setările implicite trebuie definit în cadrul acestui Panoul de Administrare.';
 
 $lang['MAX_ATTACHMENTS'] = 'Numărul maxim de fișiere Atașate';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Numărul maxim de fișiere atașate permis intr-un singur post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Dezactivați Atașament Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Această opțiune este, în principal pentru testarea de noi template-uri sau teme, se dezactivează toate Atașament Funcțiile cu excepția Panoul de Administrare.';
 $lang['PM_ATTACHMENTS'] = 'Permite Atașamente în Mesaje Private';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Permite/nu permite atașarea de fișiere la Mesajele Private.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Show-aplicații în analiza de comunicații subiecte atunci când scrieți un răspuns?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Dacă ai pus un "da", toate cererile vor fi afișate în revizuire de comunicații subiecte.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Aici puteți șterge atașamentul date din înregistrări, atunci când lipsesc fișierele de sistem și șterge fișiere care nu mai sunt atașat la orice postări. Puteți descărca sau vizualiza un fișier dacă faceți clic pe ea; dacă link-ul nu este prezent, fișierul nu există.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Ștergeți toate fișierele atașate fișiere care există în sistem și nu sunt atribuite la un mesaj existent.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Șterge toate postarea atașament de date pentru fișierele care nu exista pe sistem.';
-$lang['EMPTY_FILE_ENTRY'] = 'Gol Fișierul De Intrare';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Previzualizarea a fost resetată pentru atașamentul: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Sincronizarea atașamentului s-a terminat.';
 $lang['SYNC_TOPICS'] = 'Traducerea Subiecte';
 $lang['SYNC_POSTS'] = 'Traducerea Posturi';
-$lang['SYNC_THUMBNAILS'] = 'Traducerea Miniaturi';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Gestionați Extensii';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Aici puteți să gestionați Extensii de Fișiere. Dacă doriți, pentru a permite/interzice o Extensie a fi încărcate fotografii, vă rugăm să folosiți Extensia Grupuri de Management.';
 $lang['EXPLANATION'] = 'Explicație';
 $lang['EXTENSION_GROUP'] = 'Extensia Grup';
-$lang['INVALID_EXTENSION'] = 'Invalid Extensie';
 $lang['EXTENSION_EXIST'] = 'Extinderea %s există deja'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Extinderea %s este interzis, nu sunt în măsură să adăugați-l la permis Extensii'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Gestiona Extensia Grupuri';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Extinderea Grupului %s există deja'; // repla
 $lang['MANAGE_CATEGORIES'] = 'Gestiona Categorii Speciale';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aici puteți configura Categoriile Speciale. Puteți stabili Parametrii Speciali și Condiții pentru Categoriile Speciale atribuite unui Grup de Extensie.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Setări pentru Categorii Speciale: Imagini';
-$lang['SETTINGS_CAT_FLASH'] = 'Setări pentru Categorii Speciale: Fișiere Flash';
 $lang['DISPLAY_INLINED'] = 'Afișați imagini inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Alegeți dacă pentru a afișa imagini direct în post (da) sau pentru a afișa imaginile ca un link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximă A Imaginii Dimensiuni';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Crea Miniaturi';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Dimensiunea minimă a fișierului miniatură';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Dacă o imagine este mai mică decât această dimensiune de fișier definită, nu va fi creată nicio miniatură, deoarece este suficient de mică.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Gestiona Interzis Extensii';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Aici puteți adăuga sau șterge interzis extensii. Extensiile php, php3 și php4 sunt interzise în mod implicit din motive de securitate, nu puteți ștergeți-le.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Interzis Extensia %s există deja'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Extinderea %s este definit în voie Extensii, vă rugăm să ștergeți lor înainte de a adăuga aici.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Permisiunile grupului de extensii → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aici vă sunt capabili de a restricționa selectate Extensia de Grup la Forumuri de alegerea ta (definite în Voie Forumuri Cutie). Implicit este de a permite Extensia Grupuri la toate Forumurile Utilizatorul este capabil de a Atașa Fișiere în (mod normal Atașamentul Mod făcut-o încă de la început). Trebuie doar să adăugați aceste Forumuri vrei Extinderea Grup (Extensii în cadrul acestui Grup) pentru a fi permisă, implicit TOATE FORUMURILE vor dispărea atunci când adăugați Forumuri pentru a Lista. Sunteți în măsură să re-adăuga TOATE FORUMURILE la un Moment dat. Dacă adăugați un Forum la Bord și Permisiunea este setat la TOATE FORUMURILE nimic nu se va schimba. Dar dacă s-au schimbat și au restricționat accesul la anumite Forumuri, trebuie să verificați din nou aici pentru a adăuga un nou create Forum. Este ușor să faci acest lucru în mod automat, dar acest lucru va forța să editați o grămadă de Fișiere, de aceea am ales așa cum este acum. Vă rugăm să păstrați în minte, că toate Forumurile vor fi listate aici.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Adaugă Forumuri';
 $lang['ADD_SELECTED'] = 'Adaugă Selectate';
 $lang['PERM_ALL_FORUMS'] = 'TOATE FORUMURILE';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Gestiona Atașament Limitele Cotelor De';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Aici aveți posibilitatea de a adăuga/șterge/modifica Limitele Contingentelor tarifare. Aveți posibilitatea de a atribui aceste Cote Limitează la Utilizatori și Grupuri mai târziu. Pentru a atribui o Cotă Limită pentru un Utilizator, trebuie să te duci la Utilizatori->Gestionare, selectați Utilizatorul și veți vedea Opțiuni în partea de jos. Pentru a atribui o Cotă Limita la un Grup, du-te la Grupuri->Gestionare, selectați Grupul să editați-l, și veți vedea Setările de Configurare. Dacă vrei să vezi, Utilizatorii și Grupurile care sunt atribuite la o anumită Limită, faceți clic pe "View" la stânga a Contingentului Descriere.';
-$lang['ASSIGNED_USERS'] = 'Atribuite Utilizatorilor';
-$lang['ASSIGNED_GROUPS'] = 'Atribuit Grupuri';
-$lang['QUOTA_LIMIT_EXIST'] = 'Limita Cotei %s există deja.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Fișier Atașament Panoul De Control';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Aici puteți vizualiza și gestiona toate atașamentele se bazează pe Utilizatorii, Atașamente, Opinii, etc...';
-$lang['FILECOMMENT'] = 'Comentariu Fișier';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Utilizare * ca wildcard pentru potriviri parțiale';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Numărul de Mesaje cu Atașamente';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Numărul de Subiecte cu Atasamente';
 $lang['NUMBER_USERS_ATTACH'] = 'Utilizatori Independenți Postat Atașamente';
 $lang['NUMBER_PMS_ATTACH'] = 'Numărul Total de fișiere Atașate în Mesaje Private';
-$lang['ATTACHMENTS_PER_DAY'] = 'Atașamente pe zi';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Atașament Statistici pentru %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Configurare Actualizat Cu Succes';
 $lang['SET_DEFAULTS'] = 'Restore defaults';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum opțiuni:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'țineți apăsat <i>Ctrl</i> în timp ce selectarea mai multor forumuri';
 

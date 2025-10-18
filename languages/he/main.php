@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'הקובץ המצורף הוא גדול 
 $lang['DISALLOWED_EXTENSION'] = 'הסיומת %s אסור'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'אתה לא רשאי לפרסם קבצים עם סיומת %s בתוך הפורום הזה'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'הקובץ המצורף הוא גדול מדי.<br />Max גודל: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'מצטער, אבל את גודל קובץ מקסימלי עבור כל הקבצים המצורפים, היא הגיעה. אנא צור קשר עם המנהל הראשי של המערכת אם יש לך שאלות.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'קובץ מצורף יכול להיות הוסיף, מאז מקס. מספר %d מצורפים בפוסט הזה הושג'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'את הקובץ/תמונה חייב להיות פחות מ %d פיקסלים רוחב ו %d פיקסלים גבוהה';
 $lang['GENERAL_UPLOAD_ERROR'] = 'טען שגיאה: לא יכול להעלות קובץ מצורף %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'יש להזין ערכים בשדה "הוסף קובץ מצורף "קופסא"';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'לא ניתן לעדכן את הקובץ המצורף, לא יכול למצוא בן מצורף כניסה';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'מצטער, אבל את גודל קובץ מקסימלי עבור כל הקבצים המצורפים שלך הודעה פרטית תיקייה הושגה. בבקשה למחוק חלק שהתקבלו/נשלחו קבצים מצורפים.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'מצטער, אבל את גודל קובץ מקסימלי עבור כל קבצים מצורפים פרטי ההודעה בתיקיה \'%s" כבר הגיע. בבקשה ליידע אותו, או לחכות עד שהוא/היא יש למחוק חלק שלו/שלה מצורפים.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'אתה לא שנבחרו לקובץ המצורף כדי להוריד או להציג.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'הספריה \'%s\' לא קיים או לא
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'אנא בדוק אם "%s\' הוא מדריך.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'ספריית \'%s\' אינו ניתן לכתיבה. יש ליצור להעלות את הנתיב ואת chmod זה 777 (או לשנות את הבעלים לך httpd-שרתים הבעלים) כדי להעלות קבצים.<br />If יש לך רק במישור ה-FTP, גישה לשנות את \'תכונה\' של הספריה כדי rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'להעלות את מכסת';
-$lang['PM_QUOTA'] = 'בערב המכסה';
-
 // Common Variables
 $lang['BYTES'] = 'בתים';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'בדיקת הגדרות';
 $lang['NOT_ASSIGNED'] = 'לא מוקצה';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'אין קובץ אחד זמין';
 $lang['ATTACHBOX_LIMIT'] = 'את Attachbox is<br /><b>%d%%</b> מלא';
-$lang['NO_QUOTA_LIMIT'] = 'לא למכסה המותרת';
 $lang['UNLIMITED'] = 'ללא הגבלה';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'מצב פשוט';
 $lang['ADVANCED_MODE'] = 'מצב מתקדם';
 $lang['MODERATOR_STATUS'] = 'מנחה סטטוס';
 
-$lang['ALLOWED_ACCESS'] = 'גישה';
-$lang['DISALLOWED_ACCESS'] = 'מאפשר גישה';
-$lang['IS_MODERATOR'] = 'הוא מנחה';
-
-$lang['CONFLICT_WARNING'] = 'אישור סכסוך אזהרה';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'המשתמש הזה עדיין יש זכויות גישה הפורום הזה באמצעות חברות בקבוצה. ייתכן שתרצה לשנות את הרשאות הקבוצה או להסיר את המשתמש מהקבוצה כדי למנוע לחלוטין שיש להם זכויות גישה. הקבוצות הענקת זכויות (וגם בפורומים מעורב) ציין להלן.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'המשתמש הזה עדיין יש מנחה זכויות הפורום הזה באמצעות חברות בקבוצה. ייתכן שתרצה לשנות את הרשאות הקבוצה או להסיר את המשתמש מהקבוצה כדי למנוע לחלוטין אותם לאחר מנחה זכויות. הקבוצות הענקת זכויות (וגם בפורומים מעורב) ציין להלן.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'המשתמש הבא (או משתמשים) עדיין יש לך זכויות גישה לפורום זה דרך המשתמש שלהם הגדרות הרשאה. ייתכן שתרצה לשנות את הרשאות המשתמש כדי למנוע לחלוטין שיש להם זכויות גישה. המשתמשים העניק זכויות (וגם בפורומים מעורב) ציין להלן.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'המשתמש הבא (או משתמשים) עדיין מנחה את זכויות הפורום הזה באמצעות הרשאות משתמש הגדרות. ייתכן שתרצה לשנות את הרשאות המשתמש כדי למנוע לחלוטין אותם לאחר מנחה זכויות. המשתמשים העניק זכויות (וגם בפורומים מעורב) ציין להלן.';
-
 $lang['PUBLIC'] = 'הציבור';
 $lang['PRIVATE'] = 'פרטי';
 $lang['REGISTERED'] = 'רשום';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'הצבעה';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'סקר ליצור';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'הצבת קבצים';
 $lang['AUTH_DOWNLOAD'] = 'הורד קבצים';
-
-$lang['SIMPLE_PERMISSION'] = 'פשוט הרשאות';
 
 $lang['USER_LEVEL'] = 'ברמת המשתמש';
 $lang['AUTH_USER'] = 'המשתמש';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'שם האתר';
 $lang['SITE_DESC'] = 'תיאור האתר';
 $lang['FORUMS_DISABLE'] = 'להשבית את הלוח';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'זה יהפוך את הלוח זמין למשתמשים. מנהלי מערכת יכולים לגשת ניהול לוח ואילו הלוח אינו זמין.';
-$lang['ACCT_ACTIVATION'] = 'לאפשר הפעלת החשבון';
 $lang['ACC_NONE'] = 'אף אחד'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'המשתמש';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'לאפשר חתימות';
 $lang['MAX_SIG_LENGTH'] = 'מקסימום אורך חתימה';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'המספר המרבי של תווים המשתמש חתימות';
 $lang['ALLOW_NAME_CHANGE'] = 'לאפשר שינויי שם משתמש';
-
-$lang['EMAIL_SETTINGS'] = 'הגדרות דוא " ל';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'לאפשר אישור חזותי';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'דורש ממשתמשים להזין קוד מוגדר על ידי תמונה בעת ההרשמה.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'לאפשר אוטומטית כניסות';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'לחץ על %sHere%s לחזור סמיילי
 
 // User Management
 $lang['USER_ADMIN'] = 'משתמש הממשל';
-$lang['USER_ADMIN_EXPLAIN'] = 'כאן אתה יכול לשנות את המשתמשים ומידע אפשרויות מסוימות. כדי לשנות את המשתמשים הרשאות, אנא השתמש את המשתמש לקבוצת הרשאות מערכת.';
-
 $lang['LOOK_UP_USER'] = 'תסתכל למעלה המשתמש';
-
-$lang['ADMIN_USER_FAIL'] = 'לא יכול לעדכן את פרופיל המשתמש.';
-$lang['ADMIN_USER_UPDATED'] = 'הפרופיל של המשתמש עודכן בהצלחה.';
-$lang['CLICK_RETURN_USERADMIN'] = 'לחץ על %sHere%s לחזור למשתמש ניהול';
-
-$lang['USER_ALLOWPM'] = 'יכול לשלוח הודעות פרטיות';
-$lang['USER_ALLOWAVATAR'] = 'יכול להציג את האווטר';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'כאן אתה יכול לראות ולמחוק את המשתמש הנוכחי של האווטאר.';
-
-$lang['USER_SPECIAL'] = 'מיוחד admin-רק שדות';
-$lang['USER_SPECIAL_EXPLAIN'] = 'שדות אלה לא תוכל להיות שונה על ידי משתמשים. כאן אתה יכול להגדיר את מעמדם ואת אפשרויות אחרות, כי הם לא ניתנו למשתמשים.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'קבוצת ניהול';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'שיעור התוספת עבור exchange של 
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'לוח הבקרה';
-$lang['SHADOW_ATTACHMENTS'] = 'צל קבצים מצורפים';
-$lang['FORBIDDEN_EXTENSIONS'] = 'אסור הרחבות';
 $lang['EXTENSION_CONTROL'] = 'סיומת שליטה';
 $lang['EXTENSION_GROUP_MANAGE'] = 'הרחבת קבוצות שליטה.';
 $lang['SPECIAL_CATEGORIES'] = 'קטגוריות מיוחדות';
-$lang['SYNC_ATTACHMENTS'] = 'לסנכרן קבצים מצורפים';
-$lang['QUOTA_LIMITS'] = 'מכסת גבולות';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'מצורף הגדרות';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'מצורף נושא סמל';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'תמונה זו מוצגת לפני נושאים עם קבצים מצורפים. תשאיר שדה זה ריק אם אתה לא רוצה סמל כדי להיות מוצג.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'כדי להציג קובץ מצורף';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'כאן אתה יכול לבחור אם להציג את מצורפים הודעות/PMs יורד Filetime סדר (החדש מצורף הראשון) או בסדר עולה Filetime סדר (הבכור מצורף הראשון).';
-$lang['SHOW_APCP'] = 'משתמש חדש הבקרה יישומים';
-$lang['SHOW_APCP_EXPLAIN'] = 'בחר אם אתה רוצה להשתמש נפרד הבקרה יישומים (כן), או בשיטה הישנה עם שתי תיבות עבור יישומים ועריכה יישומי (ללא) בתיבת ההודעה. קשה להסביר איך זה נראה, אז נסה בעצמך.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'גודל קובץ';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'מקסימום גודל קובץ עבור קבצים מצורפים. ערך של 0 פירושו \'ללא הגבלה\'. הגדרה זו מוגבלת על-ידי קביעת התצורה של השרת. לדוגמה, אם php תצורה מאפשר רק מקסימום של 2 MB העלאות, זה לא יכול להיות מוחלפים על ידי Mod.';
-$lang['ATTACH_QUOTA'] = 'קובץ מצורף מכסה';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'מרבית שטח דיסק כל קבצים מצורפים יכול להחזיק מעמד Webspace שלך. ערך של 0 פירושו \'ללא הגבלה\'.';
 $lang['MAX_FILESIZE_PM'] = 'גודל קובץ מקסימלי בתוך תיקיית הודעות פרטיות';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'מרבית שטח דיסק קבצים מצורפים יכול להשתמש בכל למשתמש הפרטי של תיבת ההודעה. ערך של 0 פירושו \'ללא הגבלה\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'ברירת המחדל למכסה המותרת';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'כאן אתה יכול לבחור את ברירת המחדל למכסה המותרת באופן אוטומטי להקצות לאחרונה משתמשים רשומים משתמשים ללא גישה מוגדרת למכסה המותרת. האפשרות " לא למכסה המותרת. זה לא שימוש בכל קובץ מצורף מכסות, במקום באמצעות הגדרות ברירת המחדל הגדרת בתוך פאנל ניהול.';
 
 $lang['MAX_ATTACHMENTS'] = 'מספר מירבי של קבצים מצורפים';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'המספר המרבי של קבצים מצורפים מורשים בפוסט אחד.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'השבת Mod קובץ מצורף';
 $lang['DISABLE_MOD_EXPLAIN'] = 'אפשרות זו היא בעיקר לבדיקות חדש תבניות או ערכות נושא, זה מבטל את כל קובץ מצורף פונקציות מלבד פאנל הניהול.';
 $lang['PM_ATTACHMENTS'] = 'לאפשר מצורפים הודעות פרטיות';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'לאפשר/לא לאפשר צירוף קבצים בהודעות פרטיות.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'הצג יישומים בסקירה של התקשורת בנושאים בעת כתיבת תשובה?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'אם אתה שם את "כן", כל היישומים יוצגו בסקירה של תקשורת נושאים.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'כאן אתה יכול למחוק קובץ מצורף נתונים הודעות כאשר הקבצים חסרים את הקבצים, מחק קבצים לא מחובר כל פרסומי. אתה יכול להוריד או להציג קובץ, אם אתה לוחץ על זה; אם הקישור לא קיים, הקובץ לא קיים.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'למחוק את כל קבצים מצורפים הקבצים הקיימים על שלך מערכת קבצים, אינם מוקצה קיים פוסט.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'למחוק כל פרסום מצורף נתונים על קבצים שלא קיימים על מערכת קבצים.';
-$lang['EMPTY_FILE_ENTRY'] = 'רשומת קובץ ריק';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'המקדימון שוחזר עבור המצורף: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'סנכרון קבצים מצורפים הסתיים.';
 $lang['SYNC_TOPICS'] = 'סנכרון נושאים';
 $lang['SYNC_POSTS'] = 'סנכרון הודעות';
-$lang['SYNC_THUMBNAILS'] = 'סנכרון תמונות ממוזערות';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'נהל הרחבות';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'כאן אתה יכול לנהל את סיומות הקבצים. אם אתה רוצה לאפשר/לא לאפשר לו הארכה כדי להעלות, בבקשה להשתמש בתוסף קבוצות ניהול.';
 $lang['EXPLANATION'] = 'הסבר';
 $lang['EXTENSION_GROUP'] = 'הרחבת הקבוצה.';
-$lang['INVALID_EXTENSION'] = 'חוקי הרחבה';
 $lang['EXTENSION_EXIST'] = 'הסיומת %s כבר קיים'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'הסיומת %s הוא אסור, אתה לא יכול להוסיף את זה מותר הרחבות'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'ניהול שלוחה קבוצות';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'הסיומת קבוצה %s כבר קיים'; /
 $lang['MANAGE_CATEGORIES'] = 'ניהול קטגוריות מיוחדות';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'כאן אתה יכול להגדיר את הקטגוריות המיוחדות. אתה יכול לקבוע פרמטרים מיוחדים ותנאים עבור הקטגוריות המיוחדות המוקצות לקבוצת הרחבה.';
 $lang['SETTINGS_CAT_IMAGES'] = 'הגדרות מיוחדות קטגוריה: תמונות';
-$lang['SETTINGS_CAT_FLASH'] = 'הגדרות עבור קטגוריה מיוחדת: קבצי פלאש';
 $lang['DISPLAY_INLINED'] = 'תצוגת תמונות Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'בחר האם להציג את התמונות ישירות בתוך ההודעה (כן) או להציג תמונות כקישור ?';
 $lang['MAX_IMAGE_SIZE'] = 'תמונה מקסימאלי מידות';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'צור תמונות ממוזערות';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'מינימום גודל קובץ התמונה הממוזערת';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'אם תמונה קטן יותר מאשר זה מוגדר גודל קובץ, לא ממוזערת יהיה נברא, כי הוא קטן מספיק.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'לנהל אסור הרחבות';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'כאן אתה יכול להוסיף או למחוק את האסור הרחבות. הרחבות php, php3 ו-php4 אסורים כברירת מחדל מטעמי אבטחה, אתה לא יכול למחוק אותם.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'האסור סיומת %s כבר קיים'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'הסיומת %s מוגדר רשאי הרחבות, בבקשה למחוק את זה שלהם לפני שאתה מוסיף את זה כאן.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'הארכת הרשאות הקבוצה -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'כאן אתה יכול להגביל את שנבחרו סיומת קבוצת פורומים של הבחירה שלך (ברירת מותר פורומים תיבה). ברירת המחדל היא לאפשר הארכת קבוצות כל הפורומים המשתמש יכול לצרף קבצים לתוך (בדרך הרגילה את הקובץ Mod עשה את זה מההתחלה). פשוט להוסיף אותם פורומים אתה רוצה את הסיומת קבוצה (הרחבות בתוך הקבוצה הזאת) יהיה מותר שם, ברירת המחדל של כל הפורומים ייעלמו כאשר אתה מוסיף פורומים לרשימה. אתה יכול להוסיף מחדש את כל הפורומים בכל זמן נתון. אם אתה מוסיף בפורום לוח שלך, את רשות מוגדר כל הפורומים שום דבר לא ישתנה. אבל אם יש לך השתנה, הגבילו את הגישה מסוימים בפורומים, אתה צריך לבדוק כאן כדי להוסיף את החדשה שנוצרה בפורום. זה קל לעשות את זה באופן אוטומטי, אבל זה יהיה לך כוח כדי לערוך קבוצה של קבצים, ולכן גם אני בחרתי בדרך זה עכשיו. אנא זכור, כי כל בפורומים שלך יופיעו כאן.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'להוסיף פורומים';
 $lang['ADD_SELECTED'] = 'להוסיף נבחרים';
 $lang['PERM_ALL_FORUMS'] = 'כל הפורומים';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'ניהול קובץ מצורף מכסה גבולות';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'כאן אתה יכול להוסיף/למחוק/לשנות את מכסת גבולות. אתה יכול להקצות אלה מכסת מגבלות על משתמשים וקבוצות מאוחר יותר. כדי להקצות למכסה המותרת למשתמש, אתה צריך ללכת משתמשים->ניהול, בחר את המשתמש, תוכל לראות את אפשרויות בתחתית. כדי להקצות מכסה גבול קבוצה, הולכים לקבוצות->ניהול, בחר את הקבוצה כדי לערוך את זה, ואתה תראה את הגדרות התצורה. אם אתה רוצה לראות, אילו משתמשים וקבוצות להקצות מכסה מסוימת להגביל, לחץ על תצוגה בחלק השמאלי של מכסה תיאור.';
-$lang['ASSIGNED_USERS'] = 'המשתמשים שהוקצו';
-$lang['ASSIGNED_GROUPS'] = 'להקצות קבוצות';
-$lang['QUOTA_LIMIT_EXIST'] = 'המכסה המותרת %s קיים כבר.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'קובץ מצורף לוח הבקרה';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'כאן אתה יכול להציג ולנהל את כל הקבצים המצורפים מבוסס על משתמשים, קבצים מצורפים, נוף וכו\'...';
-$lang['FILECOMMENT'] = 'קובץ אחד';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'להשתמש בתו * כתו כללי חלקית מתאים';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'מספר הודעות עם קבצים מצורפ
 $lang['NUMBER_TOPICS_ATTACH'] = 'מספר נושאים עם קבצים מצורפים';
 $lang['NUMBER_USERS_ATTACH'] = 'עצמאי משתמשים פורסם קבצים מצורפים';
 $lang['NUMBER_PMS_ATTACH'] = 'המספר הכולל של קבצים מצורפים פרטי הודעות';
-$lang['ATTACHMENTS_PER_DAY'] = 'קבצים מצורפים ביום';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'מצורף קובץ נתונים סטטיסטיים עבור %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'תצורה עודכן בהצלחה';
 $lang['SET_DEFAULTS'] = 'שחזור ברירות מחדל';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'פורום config';
-
 $lang['BT_SELECT_FORUMS'] = 'פורום אפשרויות:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'החזק <i>Ctrl</i> בעת בחירת פורומים מרובים';
 

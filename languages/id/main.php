@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Lampiran terlalu besar.<br />Maximum Tan
 $lang['DISALLOWED_EXTENSION'] = 'Perpanjangan %s tidak diperbolehkan'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Anda tidak diperbolehkan untuk mengirim File dengan Ekstensi %s dalam Forum ini'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Lampiran terlalu besar.<br />Max Ukuran: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Maaf, tapi maksimal ukuran file untuk semua Lampiran tercapai. Silahkan hubungi Administrator Dewan jika anda memiliki pertanyaan.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Lampiran tidak dapat ditambahkan, sejak max. jumlah %d Lampiran dalam posting ini dicapai'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Lampiran/Gambar harus kurang dari %d piksel lebar dan %d piksel tinggi';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Tanggal Error: tidak Bisa upload Lampiran %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Anda harus memasukkan nilai-nilai dalam \'Menambahkan Lampiran\' Box';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Tidak dapat Memperbarui Lampiran, tidak bisa menemukan old Lampiran Entri';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Maaf, tapi maksimal ukuran file untuk semua Lampiran dalam Pesan Pribadi Folder telah tercapai. Silakan hapus beberapa dari anda menerima/mengirim Lampiran.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Maaf, tapi maksimal ukuran file untuk semua Lampiran dalam Pesan Pribadi Folder \'%s\' telah tercapai. Tolong biarkan dia tahu, atau menunggu sampai dia/dia telah menghapus beberapa dari/nya Lampiran.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Anda belum memilih lampiran untuk men-download atau lihat.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Direktori \'%s\' tidak ada atau tidak dapat
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Silakan periksa jika \'%s\' adalah sebuah direktori.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Direktori \'%s\' tidak dapat ditulisi. Anda akan memiliki untuk membuat tanggal path dan chmod ke 777 (atau mengubah pemilik untuk anda httpd-penyedia server) untuk meng-upload file.<br />Jika anda memiliki hanya polos FTP-akses mengubah \'Atribut\' dari direktori untuk rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Tanggal Kuota';
-$lang['PM_QUOTA'] = 'PM Kuota';
-
 // Common Variables
 $lang['BYTES'] = 'Byte';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Menguji Pengaturan';
 $lang['NOT_ASSIGNED'] = 'Tidak Ditugaskan';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Tidak ada File yang tersedia Komentar';
 $lang['ATTACHBOX_LIMIT'] = 'Anda Attachbox is<br /><b>%d%%</b> penuh';
-$lang['NO_QUOTA_LIMIT'] = 'Tidak Ada Batas Kuota';
 $lang['UNLIMITED'] = 'Terbatas';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Mode Sederhana';
 $lang['ADVANCED_MODE'] = 'Mode Lanjutan';
 $lang['MODERATOR_STATUS'] = 'Moderator status';
 
-$lang['ALLOWED_ACCESS'] = 'Diperbolehkan Akses';
-$lang['DISALLOWED_ACCESS'] = 'Batasan Akses';
-$lang['IS_MODERATOR'] = 'Adalah Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Otorisasi Konflik Peringatan';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Pengguna ini masih memiliki hak akses ke forum ini melalui keanggotaan kelompok. Anda mungkin ingin mengubah group permissions atau menghapus user grup untuk sepenuhnya mencegah mereka yang memiliki hak akses. Kelompok pemberian hak (dan forum terlibat) tercantum di bawah ini.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Pengguna ini masih memiliki hak moderator untuk forum ini melalui keanggotaan kelompok. Anda mungkin ingin mengubah group permissions atau menghapus user grup untuk sepenuhnya mencegah mereka memiliki hak moderator. Kelompok pemberian hak (dan forum terlibat) tercantum di bawah ini.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Para pengguna berikut (atau pengguna) masih memiliki hak akses ke forum ini melalui pengaturan izin pengguna. Anda mungkin ingin mengubah hak akses pengguna untuk sepenuhnya mencegah mereka yang memiliki hak akses. Pengguna diberikan hak-hak (dan forum terlibat) tercantum di bawah ini.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Para pengguna berikut (atau pengguna) masih memiliki hak moderator untuk forum ini melalui pengaturan hak akses pengguna. Anda mungkin ingin mengubah hak akses pengguna untuk sepenuhnya mencegah mereka memiliki hak moderator. Pengguna diberikan hak-hak (dan forum terlibat) tercantum di bawah ini.';
-
 $lang['PUBLIC'] = 'Publik';
 $lang['PRIVATE'] = 'Pribadi';
 $lang['REGISTERED'] = 'Terdaftar';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Suara';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Jajak pendapat membuat';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Posting File';
 $lang['AUTH_DOWNLOAD'] = 'Download File';
-
-$lang['SIMPLE_PERMISSION'] = 'Sederhana Permissions';
 
 $lang['USER_LEVEL'] = 'Tingkat Pengguna';
 $lang['AUTH_USER'] = 'Pengguna';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Nama situs';
 $lang['SITE_DESC'] = 'Deskripsi situs';
 $lang['FORUMS_DISABLE'] = 'Menonaktifkan papan';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Ini akan membuat dewan tidak tersedia untuk pengguna. Administrator dapat mengakses Panel Administrasi sementara dewan dinonaktifkan.';
-$lang['ACCT_ACTIVATION'] = 'Mengaktifkan aktivasi akun';
 $lang['ACC_NONE'] = 'Tidak ada'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Pengguna';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Memungkinkan Tanda Tangan';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum tanda tangan panjang';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Jumlah maksimum karakter pada tanda tangan pengguna';
 $lang['ALLOW_NAME_CHANGE'] = 'Memungkinkan perubahan nama Pengguna';
-
-$lang['EMAIL_SETTINGS'] = 'Pengaturan Email';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Mengaktifkan Konfirmasi Visual';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Mengharuskan pengguna memasukkan kode didefinisikan oleh sebuah gambar ketika mendaftar.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Memungkinkan otomatis login';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klik %sHere%s untuk kembali ke Smiley Admini
 
 // User Management
 $lang['USER_ADMIN'] = 'Administrasi Pengguna';
-$lang['USER_ADMIN_EXPLAIN'] = 'Di sini anda dapat mengubah informasi pengguna dan pilihan tertentu. Untuk memodifikasi pengguna\' permissions, silahkan gunakan user dan group permissions sistem.';
-
 $lang['LOOK_UP_USER'] = 'Mencari pengguna';
-
-$lang['ADMIN_USER_FAIL'] = 'Tidak bisa memperbarui profil pengguna.';
-$lang['ADMIN_USER_UPDATED'] = 'Profil pengguna telah berhasil diperbarui.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klik %sHere%s untuk kembali ke Pengguna Administrasi';
-
-$lang['USER_ALLOWPM'] = 'Dapat mengirim Pesan Pribadi';
-$lang['USER_ALLOWAVATAR'] = 'Dapat menampilkan avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Di sini anda dapat melihat dan menghapus pengguna avatar saat ini.';
-
-$lang['USER_SPECIAL'] = 'Khusus admin-hanya bidang';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Bidang ini tidak dapat diubah oleh pengguna. Di sini anda dapat mengatur status dan pilihan lain yang tidak diberikan kepada pengguna.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Administrasi Kelompok';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Proporsi selain itu untuk pertukaran bonus di G
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Control Panel';
-$lang['SHADOW_ATTACHMENTS'] = 'Bayangan Lampiran';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Dilarang Ekstensi';
 $lang['EXTENSION_CONTROL'] = 'Ekstensi Kontrol';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Ekstensi Kelompok Kontrol';
 $lang['SPECIAL_CATEGORIES'] = 'Khusus Kategori';
-$lang['SYNC_ATTACHMENTS'] = 'Sinkronisasi Lampiran';
-$lang['QUOTA_LIMITS'] = 'Batas Kuota';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Lampiran Pengaturan';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Lampiran Topik Ikon';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Gambar ini ditampilkan sebelum topik dengan Lampiran. Biarkan bidang ini kosong jika anda tidak ingin ikon yang akan ditampilkan.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Lampiran Urutan Tampilan';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Di sini anda dapat memilih apakah akan menampilkan Lampiran dalam Posting/PMs di Turun Filetime Order (Terbaru Lampiran Pertama) atau Naik Filetime Order (Tertua Lampiran Pertama).';
-$lang['SHOW_APCP'] = 'Gunakan panel kontrol baru aplikasi';
-$lang['SHOW_APCP_EXPLAIN'] = 'Pilih apakah anda ingin menggunakan panel kontrol terpisah aplikasi (ya), atau metode lama dengan dua kotak untuk aplikasi dan aplikasi editing (tidak ada) dalam kotak pesan. Sulit untuk menjelaskan bagaimana hal itu terlihat, jadi cobalah untuk diri sendiri.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Ukuran File';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimum ukuran file Lampiran. Nilai 0 berarti \'tak terbatas\'. Pengaturan ini dibatasi dengan Konfigurasi Server anda. Misalnya, jika Konfigurasi php anda hanya memungkinkan maksimal 2 MB yang di upload, ini tidak akan ditimpa oleh Mod.';
-$lang['ATTACH_QUOTA'] = 'Lampiran Kuota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimum Ruang Disk SEMUA Lampiran bisa tahan pada ruang Web anda. Nilai 0 berarti \'tak terbatas\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maksimum Ukuran file dalam Folder Pesan Pribadi';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimum Ruang Disk Lampiran dapat digunakan di masing-masing Pengguna kotak Pesan Pribadi. Nilai 0 berarti \'tak terbatas\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Default Quota Limit';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Di sini anda dapat memilih Default Quota Limit secara otomatis ditugaskan untuk baru terdaftar Pengguna dan Pengguna tanpa ditentukan Batas Kuota. Pilihan untuk \'Tidak ada Batas Kuota\' untuk tidak menggunakan Lampiran Kuota, bukan menggunakan Pengaturan default yang telah anda tetapkan dalam Panel Manajemen.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maksimum Jumlah Lampiran';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimum jumlah lampiran yang diperbolehkan dalam satu posting.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Menonaktifkan Lampiran Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Pilihan ini terutama untuk pengujian baru template atau tema, menonaktifkan semua Lampiran Fungsi kecuali Admin Panel.';
 $lang['PM_ATTACHMENTS'] = 'Memungkinkan Lampiran dalam Pesan Pribadi';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Allow/Disallow melampirkan file ke Pesan Pribadi.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Tampilkan aplikasi di tinjau dari komunikasi topik ketika menulis sebuah jawaban?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Jika anda menempatkan sebuah "ya", semua aplikasi akan ditampilkan dalam review dari topik komunikasi.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Di sini anda dapat menghapus lampiran data dari posting ketika file yang hilang dari filesystem anda, dan menghapus file yang tidak lagi melekat pada setiap postingan. Anda dapat men-download atau lihat file jika anda klik di atasnya, jika ada link yang hadir, file tidak ada.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Menghapus semua lampiran file-file yang ada pada filesystem anda dan tidak ditugaskan untuk posting yang ada.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Menghapus semua postingan lampiran data untuk file-file yang tidak ada pada filesystem.';
-$lang['EMPTY_FILE_ENTRY'] = 'File Kosong Entri';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Prabaca telah direset untuk lampiran: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Sinkronisasi Lampiran Selesai.';
 $lang['SYNC_TOPICS'] = 'Sync Topik';
 $lang['SYNC_POSTS'] = 'Sync Posting';
-$lang['SYNC_THUMBNAILS'] = 'Sync Thumbnail';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Mengelola Ekstensi';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Di sini anda dapat mengelola Ekstensi File. Jika anda ingin mengizinkan/tidak mengizinkan Perpanjangan akan di-upload, silahkan gunakan Ekstensi Kelompok Manajemen.';
 $lang['EXPLANATION'] = 'Penjelasan';
 $lang['EXTENSION_GROUP'] = 'Ekstensi Kelompok';
-$lang['INVALID_EXTENSION'] = 'Tidak Valid Ekstensi';
 $lang['EXTENSION_EXIST'] = 'Perpanjangan %s sudah ada'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Perpanjangan %s dilarang, anda tidak dapat menambahkannya ke ekstensi-Ekstensi yang diperbolehkan'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Mengelola Ekstensi Kelompok';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Ekstensi Kelompok %s sudah ada'; // replace %s
 $lang['MANAGE_CATEGORIES'] = 'Mengelola Kategori Khusus';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Di sini Anda dapat mengonfigurasi Kategori Khusus. Anda dapat mengatur Parameter Khusus dan Ketentuan untuk Kategori Khusus yang ditugaskan kepada Grup Ekstensi.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Pengaturan untuk Kategori Khusus: Gambar';
-$lang['SETTINGS_CAT_FLASH'] = 'Pengaturan untuk Kategori Khusus: File Flash';
 $lang['DISPLAY_INLINED'] = 'Tampilan Gambar Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Pilih apakah akan menampilkan gambar secara langsung dalam posting (ya) atau untuk menampilkan gambar sebagai link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Gambar Maksimum Dimensi';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Membuat Thumbnail';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail Filesize';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jika sebuah Gambar lebih kecil dari ini didefinisikan Filesize, tidak ada Thumbnail akan dibuat, karena itu cukup kecil.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Mengelola Dilarang Ekstensi';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Di sini anda dapat menambahkan atau menghapus dilarang ekstensi. Ekstensi php, php3 dan php4 dilarang secara default untuk alasan keamanan, anda tidak dapat menghapus mereka.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Terlarang Ekstensi %s sudah ada'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Perpanjangan %s didefinisikan dalam ekstensi-Ekstensi yang diperbolehkan, silakan menghapus mereka sebelum anda menambahkannya di sini.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Ekstensi Group Permissions -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Di sini anda dapat membatasi dipilih Ekstensi Kelompok untuk Forum pilihan anda (didefinisikan dalam Diizinkan Forum Kotak). Default adalah untuk memungkinkan Ekstensi Kelompok untuk semua Forum Pengguna dapat Melampirkan File ke dalam (dengan cara normal Lampiran Mod melakukannya sejak awal). Hanya menambahkan orang-orang Forum yang anda inginkan Ekstensi Kelompok (Ekstensi dalam Kelompok ini) yang akan diizinkan di sana, default SEMUA FORUM akan hilang ketika anda menambahkan Forum ke Daftar. Anda dapat menambahkan SEMUA FORUM pada Waktu tertentu. Jika anda menambahkan Forum ke forum anda dan Izin diatur ke SEMUA FORUM tidak akan ada perubahan. Tetapi jika anda telah berubah dan membatasi akses ke beberapa Forum, anda harus memeriksa kembali ke sini untuk menambah teman baru dibuat Forum. Sangat mudah untuk melakukan ini secara otomatis, tetapi hal ini akan memaksa anda untuk mengedit sekelompok File, oleh karena itu aku telah memilih jalan yang sekarang. Harap diingat, bahwa semua Forum anda akan tercantum di sini.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Menambahkan Forum';
 $lang['ADD_SELECTED'] = 'Tambahkan Dipilih';
 $lang['PERM_ALL_FORUMS'] = 'SEMUA FORUM';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Mengelola Lampiran Batas Kuota';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Di sini anda dapat menambahkan/menghapus/mengubah Batas Kuota. Anda dapat menetapkan Kuota Batas untuk Pengguna dan Grup nanti. Untuk menetapkan Batas Kuota untuk Pengguna, anda harus pergi ke Pengguna->Manajemen, pilih Pengguna dan anda akan melihat Pilihan di bagian bawah. Untuk menetapkan Batas Kuota untuk Grup, buka Grup->Manajemen, pilih Grup untuk mengeditnya, dan anda akan melihat Pengaturan Konfigurasi. Jika anda ingin melihat, Pengguna dan kelompok-Kelompok yang ditugaskan untuk menemukan Batas Kuota, klik \'View\' di sebelah kiri Kuota Keterangan.';
-$lang['ASSIGNED_USERS'] = 'Pengguna Yang Ditetapkan';
-$lang['ASSIGNED_GROUPS'] = 'Kelompok Ditugaskan';
-$lang['QUOTA_LIMIT_EXIST'] = 'Batas Kuota %s sudah ada.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Lampiran File Control Panel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Di sini anda dapat melihat dan mengelola semua lampiran berdasarkan Pengguna, Lampiran, Pemandangan dll...';
-$lang['FILECOMMENT'] = 'File Comment';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Gunakan * sebagai wildcard untuk pertandingan parsial';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Jumlah Posting dengan Lampiran';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Jumlah Topik dengan Lampiran';
 $lang['NUMBER_USERS_ATTACH'] = 'Pengguna Independen Diposting Lampiran';
 $lang['NUMBER_PMS_ATTACH'] = 'Total Jumlah Lampiran dalam Pesan Pribadi';
-$lang['ATTACHMENTS_PER_DAY'] = 'Lampiran per hari';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Lampiran Statistik untuk %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigurasi Berhasil Diperbarui';
 $lang['SET_DEFAULTS'] = 'Restore default';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum pilihan:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'tahan <i>Ctrl</i> sambil memilih beberapa forum';
 

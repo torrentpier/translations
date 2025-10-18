@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Ek çok büyük.<br />Maximum Yükleme B
 $lang['DISALLOWED_EXTENSION'] = '%s Uzantısı izin verilmez'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '%s Uzantılı bu Forumu Dosyaları göndermek için izin verilmez'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Ek çok büyük.<br />Maksimum Boyut: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Üzgünüm, ama tüm Ekler için maksimum dosya boyutuna ulaşıldı. Lütfen sorularınız varsa site yöneticisiyle iletişime geçin.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Eki eklendi, max beri olamaz. bu yazı %d Ekleri sayısı sağlandı'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Ek/Görüntü %d az piksel genişliğinde ve %d piksel yüksek olmalı';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Yükleme Hatası: %s için Eklenti yüklenemedi.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Değerleri girmek için Ekle \'Eki\' Kutusu var';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Ek güncellenemiyor, eski Eki Girişi bulunamadı';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Üzgünüm, ama Özel Mesaj klasörünüzdeki tüm Ekler için maksimum dosya boyutuna ulaşıldı. Lütfen aldığınız/gönderdiğiniz bazı Ekleri silin.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Üzgünüm, ama \'%s\' kullanıcısının Özel Mesaj Klasörü\'ndeki tüm Ekler için maksimum dosya boyutuna ulaşıldı. Lütfen onu bilgilendirin veya o/ona bazı Ekleri sildikten sonra bekleyin.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Ben indirmek veya görüntülemek için bir eklenti seçilmedi.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Dizin \'%s\' yok ya da bulunamadı.'; // re
 $lang['DIRECTORY_IS_NOT_A_DIR'] = '%s \'kontrol edin\' bir dizindir.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Dizin \'%s\' yazılabilir değil. Dosyaları yüklemek için yükleme yolunu oluşturmalı ve 777 olarak chmod yapmalı (veya sahipliği httpd sunucunuzun sahibi ile değiştirmelisiniz).<br />Eğer sosyal FTP erişiminiz varsa dizinin \'Özniteliği\'nin rwxrwxrwx olarak değiştirilmesi gerekir.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Upload Kotası';
-$lang['PM_QUOTA'] = 'PM Kotası';
-
 // Common Variables
 $lang['BYTES'] = 'Bayt';
 $lang['KB'] = 'BB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Test Ayarları';
 $lang['NOT_ASSIGNED'] = 'Atanmamış';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Hiçbir Dosya Yorum mevcut';
 $lang['ATTACHBOX_LIMIT'] = 'Ekle kutunuz %d%% dolu';
-$lang['NO_QUOTA_LIMIT'] = 'Herhangi Bir Kota Sınırı';
 $lang['UNLIMITED'] = 'Sınırsız';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Basit Mod';
 $lang['ADVANCED_MODE'] = 'Gelişmiş Mod';
 $lang['MODERATOR_STATUS'] = 'Moderatör durum';
 
-$lang['ALLOWED_ACCESS'] = 'İzin Verilen Erişim';
-$lang['DISALLOWED_ACCESS'] = 'İzin Verilmeyen Erişimi';
-$lang['IS_MODERATOR'] = 'Üye';
-
-$lang['CONFLICT_WARNING'] = 'Yetki Çakışması Uyarısı';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Bu kullanıcı grup üyeliği yoluyla bu forum için erişim hakları vardır. Grup izinleri değiştirmek için bu tam erişim haklarına sahip olmalarını engellemek için Grup kullanıcı istiyorsanız veya kaldırabilirsiniz. (Ve forumlar dahil) hakları verme grupları aşağıda belirtilmiştir.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Bu kullanıcı grup üyeliği yoluyla bu foruma moderatör hakları vardır. Grup izinleri değiştirmek için bu tam moderatör haklara sahip olmalarını engellemek için Grup kullanıcı istiyorsanız veya kaldırabilirsiniz. (Ve forumlar dahil) hakları verme grupları aşağıda belirtilmiştir.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = '(Veya kullanıcılar) aşağıdaki kullanıcı hala kullanıcı izin ayarları ile bu foruma erişim hakları var. Tam erişim haklarına sahip olmalarını engellemek için kullanıcı izinlerini değiştirmek isteyebilirsiniz. (Ve forumlar dahil) kullanıcılara verilen haklar aşağıda belirtilmiştir.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = '(Veya kullanıcılar) aşağıdaki kullanıcı hala kullanıcı izin ayarları ile bu foruma moderatör haklarına sahip. Tam moderatör haklara sahip olmalarını engellemek için kullanıcı izinlerini değiştirmek isteyebilirsiniz. (Ve forumlar dahil) kullanıcılara verilen haklar aşağıda belirtilmiştir.';
-
 $lang['PUBLIC'] = 'Kamu';
 $lang['PRIVATE'] = 'Özel';
 $lang['REGISTERED'] = 'Kayıtlı';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Oy';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Anket oluştur';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Dosyaları';
 $lang['AUTH_DOWNLOAD'] = 'İndir Dosyaları';
-
-$lang['SIMPLE_PERMISSION'] = 'Basit İzinler';
 
 $lang['USER_LEVEL'] = 'Kullanıcı Düzeyinde';
 $lang['AUTH_USER'] = 'Kullanıcı';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Site adı';
 $lang['SITE_DESC'] = 'Site açıklaması';
 $lang['FORUMS_DISABLE'] = 'Devre kartı';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Bu kullanıcılar için kurulu kullanılamaz hale getirir. Yöneticiler Kurulu tarafından devre dışı bırakılır Yönetim Paneline erişebilir.';
-$lang['ACCT_ACTIVATION'] = 'Hesap etkinleştirme etkinleştir';
 $lang['ACC_NONE'] = 'Yok'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Kullanıcı';
 $lang['ACC_ADMIN'] = 'Yönetici';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'İzin İmzaları';
 $lang['MAX_SIG_LENGTH'] = 'En fazla imza uzunluğu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Kullanıcı karakter sayısı imza';
 $lang['ALLOW_NAME_CHANGE'] = 'İzin ver Kullanıcı adı değişiklikleri';
-
-$lang['EMAIL_SETTINGS'] = 'E-Posta Ayarları';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Görsel Onay Etkinleştir';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Kullanıcılar kayıt olurken bir görüntü tarafından tanımlanan bir kod girmeniz gerekir.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Otomatik oturum açma izin vermek';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Gülen İdaresi dönmek için %sHere%s tıkl
 
 // User Management
 $lang['USER_ADMIN'] = 'Kullanıcı Yönetimi';
-$lang['USER_ADMIN_EXPLAIN'] = 'Burada kullanıcılarınızın bilgi ve belirli seçenekleri değiştirebilirsiniz. Kullanıcıların izinlerini değiştirmek için, lütfen kullanıcı ve grup izinleri sistemi kullanın.';
-
 $lang['LOOK_UP_USER'] = 'Kullanıcı aramak';
-
-$lang['ADMIN_USER_FAIL'] = 'Kullanıcı profili güncellenemedi.';
-$lang['ADMIN_USER_UPDATED'] = 'Kullanıcının profil başarıyla güncellendi.';
-$lang['CLICK_RETURN_USERADMIN'] = '%sHere%s Kullanıcı Yönetimi geri dönmek için tıklayın';
-
-$lang['USER_ALLOWPM'] = 'Özel Mesaj gönder';
-$lang['USER_ALLOWAVATAR'] = 'Avatar görüntüleyebilirsiniz';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Burada görmek ve kullanıcının geçerli avatar silebilirsiniz.';
-
-$lang['USER_SPECIAL'] = 'Özel admin-sadece alanları';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Bu alanlar kullanıcılar tarafından değiştirilmesi mümkün değildir. Burada kullanıcılar için verilmediğine durumlarını ve diğer seçenekleri ayarlayabilirsiniz.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grup Yönetimi';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'GB ikramiye değişimi için oran ayrıca';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Kontrol Paneli';
-$lang['SHADOW_ATTACHMENTS'] = 'Gölge Ekler';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Yasak Uzantıları';
 $lang['EXTENSION_CONTROL'] = 'Uzantı Kontrolü';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Uzantısı Gruplar Kontrol';
 $lang['SPECIAL_CATEGORIES'] = 'Özel Kategoriler';
-$lang['SYNC_ATTACHMENTS'] = 'Senkronize Ekleri';
-$lang['QUOTA_LIMITS'] = 'Kota Limitleri';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Ek Ayarları';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Ek Konu Simgesi';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Bu Görüntü Ekleri ile konular daha önce görüntülenir. Eğer bir simge görüntülenmesini istemiyorsanız bu alanı boş bırakın.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Eki Görüntüle Sipariş';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Burada/İlk (Yeni Ek) Fıletıme Azalan ya da İlk (en Eski Eki) Fıletıme Artan PMs Mesaj Ekleri görüntülemek için seçebilirsiniz.';
-$lang['SHOW_APCP'] = 'Yeni kontrol paneli uygulamaları';
-$lang['SHOW_APCP_EXPLAIN'] = '(Evet) ayrı bir denetim masası uygulamaları kullanmak isteyip istemediğinizi seçin, ya da eski uygulamalar için iki kutuları ve mesaj kutusunda (hiçbiri) düzenleme uygulamaları yöntemi. Nasıl göründüğünü açıklamak için, kendin için çalış zordur.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Dosya boyutu';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Ekler için en büyük boyutu. 0 \'anlamına sınırsız bir değer. Bu Ayar, Sunucu Yapılandırması ile sınırlandırılmıştır. Örneğin, php yapılandırmanızı sadece 2 MB yüklemeler maksimum izin veriyorsa, bu Mod üzerine yazılamıyor.';
-$lang['ATTACH_QUOTA'] = 'Ek Kontenjan';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimum Disk Alanı TÜM Ekleri senin Site tutabilir. 0 \'anlamına sınırsız bir değer.';
 $lang['MAX_FILESIZE_PM'] = 'Özel mesajlarda maksimum dosya Boyutu Klasör';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimum Disk Alanı Ekler her Kullanıcının Özel Mesaj kutusu olarak kullanabilirsiniz. 0 \'anlamına sınırsız bir değer.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Kota Sınırı Varsayılan';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Burada otomatik olarak yeni Kayıtlı Kullanıcılar ve Kullanıcılar için tanımlı bir Kota Sınırı olmadan tayin edilen Varsayılan Kota seçebilirsiniz. \'Hiçbir Kota Sınırı\' Seçeneği herhangi bir Ek Kota kullanmıyor, bunun yerine bu Yönetim Paneli içinde tanımladığınız varsayılan Ayarları kullanmak için.';
 
 $lang['MAX_ATTACHMENTS'] = 'Eklerin Sayısı';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Eklerin sayısı bir yazı verdi.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Devre Dışı Ek Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Bu seçenek, özellikle yeni şablonlar veya temalar test etmek için, Admin Paneli hariç tüm Ek Fonksiyonları devre dışı bırakır.';
 $lang['PM_ATTACHMENTS'] = 'Özel mesajlarda izin ver Ekleri';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = '/Vermeme Özel mesajlara dosya ekleme izin verir.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Bir cevap yazarken Göster iletişim konuları Gözden uygulamalar?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Eğer bir "Evet" koyarsanız, tüm uygulamalar iletişim konuları Gözden görüntülenir.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Burada dosya, dosya sistemi, artık herhangi bir yükümlülük bağlı olan ve dosyaları eksik olduğunda ilanları, ek veri silebilirsiniz. Eğer üzerine tıklayın; eğer herhangi bir bağlantı varsa, dosya yoksa indirmek ya da dosyayı görüntüleyebilirsiniz.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Sil dosya var ve tüm ekleri dosyaları varolan bir göreve atanır.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Sil tüm dosya sistemi üzerinde var olan dosyalar için ek veri gönderme.';
-$lang['EMPTY_FILE_ENTRY'] = 'Boş Dosya Girişi';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Önizleme, ek için sıfırlanmıştır: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Ek Senkronizasyonu Tamamlandı.';
 $lang['SYNC_TOPICS'] = 'Sync Konular';
 $lang['SYNC_POSTS'] = 'Sync Mesajlar';
-$lang['SYNC_THUMBNAILS'] = 'Sync Küçük Resim';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Yönetmek Uzantıları';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Burada Dosya uzantılarınızı yönetebilirsiniz. Eğer/yüklenecek bir Uzantısı izin vermeme izin vermek istiyorsanız, lütfen Uzatma Grupları Yönetimi kullanın.';
 $lang['EXPLANATION'] = 'Açıklama';
 $lang['EXTENSION_GROUP'] = 'Uzatma Grubu';
-$lang['INVALID_EXTENSION'] = 'Geçersiz Uzantı';
 $lang['EXTENSION_EXIST'] = '%s Uzantısı zaten var'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = '%s Uzantısı yasaktır, izin verilen Uzantıları eklemek mümkün değildir'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Yönetmek Uzantısı Gruplar';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = '%s Uzantısı Grup zaten var'; // replace %s w
 $lang['MANAGE_CATEGORIES'] = 'Özel Kategorileri Yönet';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Burada Özel Kategorileri yapılandırabilirsiniz. Uzantı Grubuna atanmış Özel Kategoriler için Özel Parametreler ve Koşullar ayarlayabilirsiniz.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Özel Kategori için ayarlar: Görüntüler';
-$lang['SETTINGS_CAT_FLASH'] = 'Özel Kategori ayarları: Flash Dosyaları';
 $lang['DISPLAY_INLINED'] = 'Görüntüleri Satır İçi Göster';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Doğrudan (Evet) sonrası görüntüleri göstermek veya bir bağlantı olarak resimleri görüntülemek için seçebilirsiniz .';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum Resim Boyutları';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Küçük Resim Oluşturma';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Küçük Resim Dosya Boyutu';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Bir resim bu tanımlı dosya boyutundan daha küçükse, hiçbir küçük resim oluşturulmaz, çünkü yeterince küçüktür.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Yasak Uzantıları Yönet';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Burada Ekle veya yasak uzantıları silebilirsiniz. Uzantıları php, php3 serbest varsayılan olarak güvenlik nedeniyle yasaktır, onları silemezsiniz.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = '%s yasak Uzantısı zaten var'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = '%s Uzantısı izin verilen Uzantıları olarak tanımlanır, burada eklemeden önce onların silin lütfen.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Uzantı Grup İzinleri → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Burada (İzin verilen Forumlar Kutusunda tanımlanan seçim Forum için seçilen Uzantısı Grup sınırlamak edebiliyoruz. Varsayılan izin vermektir Uzantısı tüm Forumları Kullanıcı Ek Mod başından beri yaptı (normal) içine Dosyaları Eklemek mümkün olduğu Gruplar. Sadece bu Forumlar eklemek istediğiniz eklenti Grup bu Grup içinde Uzantıları orada izin, TÜM FORUMLARI Listesine eklemek forumu ne zaman kaybolur varsayılan (). Yeniden herhangi bir Zamanda TÜM FORUM eklemek mümkün. Eğer Yönetim Kurulu için bir Forum eklemek ve İzni hiçbir şey değişmeyecek Forumunda ayarlanır. Ama eğer değişti ve bazı Forumlara sınırlı erişim varsa, buraya yeni oluşturulan Forum eklemek için kontrol etmelisiniz. Otomatik olarak bunu yapmak kolaydır, ama bu Dosyaları bir grup düzenlemek için zorlar, bu nedenle bu yolu seçtim. Forum burada listelenir unutmayın, lütfen.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Forum Ekleyin';
 $lang['ADD_SELECTED'] = 'Seçileni Ekle';
 $lang['PERM_ALL_FORUMS'] = 'TÜM FORUMLAR';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Ek Kontenjan Sınırları Yönetmek';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Burada/sil/değiştir Kota Sınırları ekleyebilirsiniz. Kullanıcılar, daha sonra Gruplarına bu Kota Limitleri girebilirsiniz. Bir Kullanıcı için bir Kota Sınırı atamak için Kullanıcılar->Yönetim, Kullanıcıyı seçin ve alt Seçenekleri göreceksiniz gitmelisin. Bir Grup için bir Kota Sınırı atamak için, Gruplar için->Yönetim, düzenlemek için Grubu seçin ve Yapılandırma Ayarlarını göreceksiniz. Eğer görmek isterseniz, hangi Kullanıcıların ve Grupların belirli bir Kota Sınırı atanan, Görünüm \'Kota Açıklama sol tıklayın.';
-$lang['ASSIGNED_USERS'] = 'Atanan Kullanıcılar';
-$lang['ASSIGNED_GROUPS'] = 'Atanan Gruplar';
-$lang['QUOTA_LIMIT_EXIST'] = '%s Kota Sınırı zaten var.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Ek Denetim Masası Dosyası';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Burada Kullanıcılar, Ekleri, Görüş vb dayalı tüm ekleri görüntüleyebilir ve yönetebilirsiniz.';
-$lang['FILECOMMENT'] = 'Dosya Yorumu';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Kısmi için joker olarak * kullanın maçlar';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Ekleri ile Mesaj Sayısı';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Ekleri ile ilgili Konuların sayısı';
 $lang['NUMBER_USERS_ATTACH'] = 'Bağımsız Kullanıcıların Ekleri Gönderildi';
 $lang['NUMBER_PMS_ATTACH'] = 'Özel Mesaj Eklerini Sayısı';
-$lang['ATTACHMENTS_PER_DAY'] = 'Günde ekleri';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = '%s için ek İstatistikler'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigürasyon Başarıyla Güncellendi';
 $lang['SET_DEFAULTS'] = 'Varsayılanları geri yükle';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum seçenekleri:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'birden fazla forum seçerken <i>Ctrl</i> basılı tutun';
 

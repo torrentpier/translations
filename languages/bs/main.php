@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Prilog je prevelik.<br />Maximum Ubaciti
 $lang['DISALLOWED_EXTENSION'] = 'Produžni %s nije dozvoljen'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nije ti dozvoljeno da post Datoteke sa nastavkom %s u ovo Forum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Prilog je prevelik.<br />Max Veličine: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Žao mi je, ali maksimalnu filesize za svi Prilozi je postignut. Molimo vas da kontaktirate Odbor Administrator ako imate pitanja.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Prilog ne može biti dodao, od max. broj %d Prilozi u ovo mjesto je ostvarila'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Prilog/Slika mora biti manje od %d piksela širok i %d piksela srednjoj';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Postavi Greška: ne Mogu ubaciti Privrženost %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Moraš ući vrijednosti u \'Dodati i Prilog\' Kutija';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Ne mogu da obavestim Prilog, ne mogu pronaci stari Prilog Ulaska';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Žao mi je, ali maksimalnu filesize za sve Dodatke u tvom Privatnom Poruku Direktorij je postignut. Molim te obriše neke tvoje dobila/poslao Prilozi.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Žao mi je, ali maksimalnu filesize za sve Dodatke u Privatnom Poruku Direktorij \'%s\' je postignut. Molim te, pusti ga, ili sačekajte dok se on/ona je obrisana neke njegove/njom Prilozi.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nisi odabran zakrpu za preuzimanje ili pogled.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Direktorijum \'%s\' ne postoji ili ne Može
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Molim te provjeriti da li \'%s\' je direktorijum.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Direktorij \'%s\' nije writeable. Morat ćeš stvoriti ubaciti put i chmod da 777 (ili promijeniti vlasnik da ti httpd-servere vlasnik) da posalje podatke.<br />If si samo obična FTP-pristup promijeniti \'Osobine\' direktorij da rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Postavi Kvota';
-$lang['PM_QUOTA'] = 'PM Kvota';
-
 // Common Variables
 $lang['BYTES'] = 'Bajtova';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Test Postavke';
 $lang['NOT_ASSIGNED'] = 'Ne Dodijeljen';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nema Dosije Komentar na raspolaganju';
 $lang['ATTACHBOX_LIMIT'] = 'Tvoj Attachbox is<br /><b>%d%%</b> punu';
-$lang['NO_QUOTA_LIMIT'] = 'Ne Kvota Limit';
 $lang['UNLIMITED'] = 'Neograničeno';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Jednostavno Mode';
 $lang['ADVANCED_MODE'] = 'Napredna Mode';
 $lang['MODERATOR_STATUS'] = 'Moderator status';
 
-$lang['ALLOWED_ACCESS'] = 'Pristup';
-$lang['DISALLOWED_ACCESS'] = 'Dozvoljeno Pristup';
-$lang['IS_MODERATOR'] = 'Je Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Odobrenja Sukob Upozorenje';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Ovo korisnik još uvijek ima pristup prava na ovo forum preko grupe članstvo. Možda želiš da izmenim grupa dozvole ili ukloniti ovo, korisnik grupa u potpunosti spriječiti ih imati pristup prava. Grupe davanju prava (i forumima umešan) zapazio ispod.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Ovo korisnik još uvijek je moderator prava na ovo forum preko grupe članstvo. Možda želiš da izmenim grupa dozvole ili ukloniti ovo, korisnik grupa u potpunosti spriječiti ih imati moderator prava. Grupe davanju prava (i forumima umešan) zapazio ispod.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Sljedeće korisnik (ili korisnici) još uvek imaju pristup prava na ovo forum preko njihove dozvole korisnika postavke. Možda želiš da alter korisnik dozvole da u potpunosti spriječiti ih imati pristup prava. Korisnici gotovo prava (i forumima umešan) zapazio ispod.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Sljedeće korisnik (ili korisnici) još moderator prava na ovo forum preko svoje korisničko dozvole postavke. Možda želiš da alter korisnik dozvole da u potpunosti spriječiti ih imati moderator prava. Korisnici gotovo prava (i forumima umešan) zapazio ispod.';
-
 $lang['PUBLIC'] = 'Javni';
 $lang['PRIVATE'] = 'Privatni';
 $lang['REGISTERED'] = 'Registriran';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Glasanje';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Anketu stvoriti';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Datoteke';
 $lang['AUTH_DOWNLOAD'] = 'Preuzimanje Datoteke';
-
-$lang['SIMPLE_PERMISSION'] = 'Jednostavno Dozvole';
 
 $lang['USER_LEVEL'] = 'Korisnik Nivou';
 $lang['AUTH_USER'] = 'Korisnik';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Stranici ime';
 $lang['SITE_DESC'] = 'Stranici opis';
 $lang['FORUMS_DISABLE'] = 'Onesposobite odbor';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Ovo će odbor nedostupan korisnicima. Administratori u stanju su da pristup Uprave Ploče dok odbor je onemogućeno.';
-$lang['ACCT_ACTIVATION'] = 'Omogućiti račun aktiviranje';
 $lang['ACC_NONE'] = 'Niko'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Korisnik';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Dozvoliti Potpisa';
 $lang['MAX_SIG_LENGTH'] = 'Maksimalna potpis dužinu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalni broj likovi u korisnik potpisa';
 $lang['ALLOW_NAME_CHANGE'] = 'Dozvoliti korisničko ime promjene';
-
-$lang['EMAIL_SETTINGS'] = 'E-Mail Postavke';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Omogućiti Vizuelnu Potvrdu';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Zahtijeva korisnici unesite sifru definisana od strane sliku kada se registracije.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Dozvoliti automatsko prijave';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klik %sHere%s da se vrati u Smiley Uprave';
 
 // User Management
 $lang['USER_ADMIN'] = 'Korisnik Uprave';
-$lang['USER_ADMIN_EXPLAIN'] = 'Ovdje se možeš promijeniti svoju korisnika informacije i neke opcije. Da promijeni korisnika dozvole, molim te, koristi korisnik i grupa dozvole sistem.';
-
 $lang['LOOK_UP_USER'] = 'Pogledaj korisnik';
-
-$lang['ADMIN_USER_FAIL'] = 'Ne može ažurirati korisnika profil.';
-$lang['ADMIN_USER_UPDATED'] = 'Korisnik je profil je ažurirani uspješno.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klik %sHere%s da se vrati u Korisnik Uprave';
-
-$lang['USER_ALLOWPM'] = 'Mogu poslati Poruke Privatni';
-$lang['USER_ALLOWAVATAR'] = 'Može prikazati avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Ovdje možeš vidjeti i obriši korisnik je trenutna avatar.';
-
-$lang['USER_SPECIAL'] = 'Specijalni admin-samo polja';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Ova polja su u mogućnosti da budu modifikovani za korisnike. Ovdje možete postaviti svoj status i druge opcije koje nisu dali da korisnicima.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupa Uprave';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Proporcija pored za razmenu bonuse na GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Kontrolna Tabla';
-$lang['SHADOW_ATTACHMENTS'] = 'Sjena Prilozi';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Zabranjeno Ekstenzije';
 $lang['EXTENSION_CONTROL'] = 'Produženje Kontrolu';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Produženje Grupe Kontrolu';
 $lang['SPECIAL_CATEGORIES'] = 'Specijalni Kategorije';
-$lang['SYNC_ATTACHMENTS'] = 'Sinhronizuju Prilozi';
-$lang['QUOTA_LIMITS'] = 'Kvota Granica';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Prilog Postavke';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Prilog Tema Ikona';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Ova Slika je prikazati pre nego što teme sa Prilozi. Ostavi ovo polje prazna ako ti ne želiš ikona biti prikazan.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Prilog Prikaži Naređenje';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Ovde možeš da izabereš da li prikazati Prilozi u Funkcije/PMs u Silazi Filetime Red (Novi Prilog Prvi) ili Izlazili Filetime Red (Najstariji Prilog Prvi).';
-$lang['SHOW_APCP'] = 'Koristite nove ploče prijave';
-$lang['SHOW_APCP_EXPLAIN'] = 'Da izabere da li želiš da koristim poseban kontrolnu ploču prijave (da), ili stare metode sa dve kutije za prijave i uređivanja prijave (ništa) u poruci kutiju. Teško je objasniti kako izgleda, pa, pokušaj za sebe.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Veličina datoteke';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimalna filesize za Vezivanje. U vrijednosti od 0 znači \'neograničeno\'. Ovo je brzina zabranjenom za vaš Server Konfiguraciji. Na primjer, ako php Podešavanja dozvoljava maksimum 2 MB podatke, ovo ne može biti prepisana ministarstvo Obrane.';
-$lang['ATTACH_QUOTA'] = 'Prilog Kvota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimalna Disku SVI Prilozi može da zadrži svoju Webspace. U vrijednosti od 0 znači \'neograničeno\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maksimalna Filesize Nasamo Poruke Direktorij';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimalna Disku Prilozi mogu koristiti u svakom Korisnik je Privatna Poruku kutiju. U vrijednosti od 0 znači \'neograničeno\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Uobičajeni Postotak Limit';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Ovdje si uspio izabrati Uobičajeni Postotak Limit automatski dodijeljen novo registrovana Korisnika i Korisnici bez definisana Kvota Granica. Opciju \'Ne Kvota Granica je za ne koristi svaka Prilog Kvote, umesto toga koristi uobičajeni Postavke imaš definisana unutar ove Uprava Vijeće.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maksimalni Broj Prilozi';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimalni broj prilozi dozvoljeno na jedno mjesto.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Onesposobite Prilog Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Ovo opcija je uglavnom za ispitivanje nove turskoj, ili teme, to isključuje sve Prilog Funkcije osim Admin Vijeće.';
 $lang['PM_ATTACHMENTS'] = 'Dozvoliti da se Vežu na Privatnu Poruke';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Dozvoliti/Disallow uz datoteke Privatnim Poruke.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Pokaži prijave na pregled komunikacije teme kada pisanje odgovor?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Ako staviš "da", sve prijave će biti prikazana na pregled komunikacije teme.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Ovde možeš da obrišeš prilog podatke od objave kada dosjei nedostaju u tvojim datotečnog sistema, i datoteke koje su više vezana za bilo objave. Možete preuzeti ili pogled dosije da klikneš na; ako ne veza je poklon, dokument ne postoji.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Izbriši sve veze datoteke koje postoje na tvom datotečnog sistema, a ne dodijeljen postojećem post.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Izbriši sve postavio prilog podatke za dokumente koje ne postoje na tvom datotečnog sistema.';
-$lang['EMPTY_FILE_ENTRY'] = 'Prazan Dosije Ulaska';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Pregled je resetiran za prilog: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Sinhronizacija priloga je završena.';
 $lang['SYNC_TOPICS'] = 'Prevod Teme';
 $lang['SYNC_POSTS'] = 'Prevod Funkcije';
-$lang['SYNC_THUMBNAILS'] = 'Prevod I Vanjski';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Snaći Ekstenzije';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Ovdje se možeš snaći tvoj Dosije Ekstenzije. Ako želiš da dozvoliti/disallow je Produženje da bi poslao, da vas molim da iskoristite Produženje Grupe Upravljanja.';
 $lang['EXPLANATION'] = 'Objašnjenje';
 $lang['EXTENSION_GROUP'] = 'Produženje Grupi';
-$lang['INVALID_EXTENSION'] = 'Nevažeći Produženje';
 $lang['EXTENSION_EXIST'] = 'Produžni %s već postoje'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Produžni %s je zabranjeno, ne mogu da dodam dozvoljeno Ekstenzije'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Snaći Produženje Grupama';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Produžni Grupa %s već postoje'; // replace %
 $lang['MANAGE_CATEGORIES'] = 'Snaći Poseban Kategorije';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ovdje možete konfigurirati posebne kategorije. Možete postaviti posebne parametre i uslove za posebne kategorije dodijeljene proširenju grupe.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Postavke za Posebne Kategorija: Slike';
-$lang['SETTINGS_CAT_FLASH'] = 'Postavke za Posebne Kategorija: Flash Datoteke';
 $lang['DISPLAY_INLINED'] = 'Prikaži Slike Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Biram da li prikazati slike direktno u post (da) ili za prikaz slika kao veza ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimalna Sliku Dimenzije';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Nema Stvoriti';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Nema Filesize';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ako Slika je manji od ovo definisana Filesize, ne Nema će biti stvorena, jer to je dovoljno mala.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Snaći Zabranjeno Ekstenzije';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Ovde možete da dodati ili izbriši zabranjeno ekstenzije. U Nastavcima php, php3 i php4 zabranjeno uobičajeno zbog sigurnosnih razloga, ne možeš obrisati ih.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Zabranjeno Produženje %s već postoje'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Produžni %s je definiran u tvom dozvoljeno Ekstenzije, molim te obrisati svoje pre nego što si dodati ovdje.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Produženje Grupa Dozvole -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Ovdje ste u mogućnosti da ograničiti odabrane Produženje Grupa da Forumima tvoj izbor (definisana u Dozvoljeno Forumima Kutiju). Uobičajena je da omogući Nastavak Grupe sve Forumima Korisnik može da Pričvrsti Fajlove u (na normalan način Prilog Mo to uradio od početka). Samo dodati te Forumima želiš Nastavak Grupa (Ekstenzije u ovoj Grupi) biti dozvoljeno tamo, uobičajeni SVE FORUMIMA će nestati kada dodaš Forumima na Listu. Ti si u stanju da ponovo dodati SVE FORUMIMA u bilo koje Vreme. Ako dodaš Forum da tvoj Odbor i Dozvolu je namjestio da SVI FORUMIMA ništa se neće promijeniti. Ali ako je promenio si i zabranjen pristup određene Forumima, moraš da se vrati ovdje i dodajte tvoj novostvoreni Forum. To je lako, to je automatski, ali ovo će te natjerati da uredi gomilu Dosijea, stoga sam izabrao tako. Molim vas imajte u vidu da je tvoj Forumima će biti u imeniku.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Dodaj Forumima';
 $lang['ADD_SELECTED'] = 'Dodaj Odabrane';
 $lang['PERM_ALL_FORUMS'] = 'SVE FORUMIMA';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Snaći Prilog Kvota Granica';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Ovdje ste u mogućnosti da dodam/izbrisati/promijeniti Kvota Granice. Ti si u stanju da pošalje ove Kvota Granice Korisnicima i Grupa kasnije. Da dodelim Kvota Granica Korisnik, moraš ići u Korisnike->Upravljanja, odaberite Korisnik i vidjet ćeš Opcije na dnu. Da dodelim Kvota Granica Grupa, idi da Grupe->Upravljanja, izaberi Grupu za montažu, i vidjet ćeš Podešavanja Postavke. Ako želiš da vidiš, koja Korisnika i Grupa dodijeljen specifičan Kvota Limit, klik na Pogled na levo Kvote Opis.';
-$lang['ASSIGNED_USERS'] = 'Dodijeljen Korisnici';
-$lang['ASSIGNED_GROUPS'] = 'Dodijeljen Grupama';
-$lang['QUOTA_LIMIT_EXIST'] = 'Kvotu Limit %s postoji već.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Dokument Vezan Kontrolnu Ploču';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Ovdje možeš pogled i upravljanje svi prilozi na osnovu Korisnika, Veze, Stavove, itd...';
-$lang['FILECOMMENT'] = 'Dosije Komentar';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Koristi * kao ludo za djelomičan odgovara';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Broj Mjesta sa Prilozi';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Broj Teme sa Prilozi';
 $lang['NUMBER_USERS_ATTACH'] = 'Nezavisni Korisnici Postavio Prilozi';
 $lang['NUMBER_PMS_ATTACH'] = 'Ukupan Broj Vežu na Privatnu Poruke';
-$lang['ATTACHMENTS_PER_DAY'] = 'Prilozi dnevno';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Prilog Statistike za %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Podešavanja Ažurirani Uspješno';
 $lang['SET_DEFAULTS'] = 'Obnovi uobičajno';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum podešavanja';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum opcije:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'drži dolje <i>Ctrl</i> dok odabir više forumima';
 

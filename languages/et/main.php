@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Manus on liiga suur.<br />Maximum Laadid
 $lang['DISALLOWED_EXTENSION'] = 'Laiendamine %s ei ole lubatud'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sa ei tohi postitada Faile Laiendiga %s selles Foorumis'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Manus on liiga suur.<br />Max Suurus: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Vabandust, kuid maksimaalne filesize kõik Manused on saavutatud. Palun võta ühendust foorumi Administraatori kui teil on küsimusi.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Manust ei saa lisada, kuna max. arv %d Manuseid selles postituses oli saavutada'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Manus/ - Pilt peab olema väiksem kui %d pikslit lai ja %d pikslit kõrge';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Üleslaadimise Viga: ei Suutnud laadida kinnitus %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Peate sisestama väärtused "Lisa Manus" Karp';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Ei suuda Update Manus, ei suutnud leida vana Arestimise Kanne';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Vabandust, kuid maksimaalne filesize kõigile Manuseid teie Privaatse Sõnumi Kausta on saavutatud. Palun kustuta mõned oma saadud/saadetud Manused.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Vabandust, kuid maksimaalne filesize kõigile Manuseid kiri Kausta "%s" on saavutatud. Palun andke talle teada, või oodake, kuni ta on välja jäetud mõned tema Manuseid.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Sa ei ole valitud manuse alla laadida või vaadata.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Kataloog \'%s" ei ole olemas või ei leitud
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Palun kontrollige \'%s" on kataloog.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Kataloog \'%s\' ei ole kirjutatav. Sul on luua failitee ja chmod see, et 777 (või muuta omanik, et sa httpd-serverite omanik) faile üles laadida.<br />If teil on ainult tavaline FTP-ligipääsu muuta "Atribuut" katalooge rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Upload Kvoot';
-$lang['PM_QUOTA'] = 'PM Kvoot';
-
 // Common Variables
 $lang['BYTES'] = 'Baiti';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Testi Seaded';
 $lang['NOT_ASSIGNED'] = 'Ei Ole Määratud';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nr Faili Kommentaar saadaval';
 $lang['ATTACHBOX_LIMIT'] = 'Teie Attachbox is<br /><b>%d%%</b> täis';
-$lang['NO_QUOTA_LIMIT'] = 'Nr Kvoodi Piires';
 $lang['UNLIMITED'] = 'Piiramatu';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Lihtne Režiim';
 $lang['ADVANCED_MODE'] = 'Täiustatud Režiimis';
 $lang['MODERATOR_STATUS'] = 'Moderaator staatus';
 
-$lang['ALLOWED_ACCESS'] = 'Pääse';
-$lang['DISALLOWED_ACCESS'] = 'Keelduti Juurdepääsu';
-$lang['IS_MODERATOR'] = 'On Moderaator';
-
-$lang['CONFLICT_WARNING'] = 'Loa Konflikti Hoiatus';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'See kasutaja ikka on juurdepääsu õigusi, et siin foorumis via rühma liikmeks. Võib-olla soovite muuta rühma õigused või eemaldada selle kasutaja grupp täielikult vältida neid, millel on juurdepääsuõigused. Gruppide õiguste andmise (ja foorumites seotud) on märgitud allpool.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'See kasutaja ikka on moderaatori õigusi, et siin foorumis via rühma liikmeks. Võib-olla soovite muuta rühma õigused või eemaldada selle kasutaja grupp täielikult vältida neid, millel on moderaatori õigused. Gruppide õiguste andmise (ja foorumites seotud) on märgitud allpool.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Järgmine kasutaja (või kasutajatele) on ikka veel juurdepääsu õigusi selle foorumi kaudu oma kasutaja loata seaded. Võib-olla soovite muuta kasutaja õigused täielikult vältida neid, millel on juurdepääsuõigused. Kasutajad antud õigusi (ja foorumites seotud) on märgitud allpool.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Järgmine kasutaja (või kasutajatele) on ikka veel moderaatori õigusi selle foorumi kaudu oma kasutaja õigusi seaded. Võib-olla soovite muuta kasutaja õigused täielikult vältida neid, millel on moderaatori õigused. Kasutajad antud õigusi (ja foorumites seotud) on märgitud allpool.';
-
 $lang['PUBLIC'] = 'Avalik';
 $lang['PRIVATE'] = 'Privaatseid';
 $lang['REGISTERED'] = 'Registreeritud';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Hääletus';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Küsitlus luua';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Postitus Failid';
 $lang['AUTH_DOWNLOAD'] = 'Failide Allalaadimine';
-
-$lang['SIMPLE_PERMISSION'] = 'Lihtne Õigused';
 
 $lang['USER_LEVEL'] = 'Kasutaja Tasemel';
 $lang['AUTH_USER'] = 'Kasutaja';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Saidi nimi';
 $lang['SITE_DESC'] = 'Koha kirjeldus';
 $lang['FORUMS_DISABLE'] = 'Keelata juhatus';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'See muudab juhatuse saadaval kasutajad. Administraatorid on võimalik tutvuda Administratsiooni Paneeli kuigi pardal on keelatud.';
-$lang['ACCT_ACTIVATION'] = 'Enable account activation';
 $lang['ACC_NONE'] = 'Puudub'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Kasutaja';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Lubavad Allkirjad';
 $lang['MAX_SIG_LENGTH'] = 'Maksimaalne allkiri pikkus';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimaalne tähemärkide arv kasutaja allkirjad';
 $lang['ALLOW_NAME_CHANGE'] = 'Võimaldab Kasutajanimi muudatused';
-
-$lang['EMAIL_SETTINGS'] = 'E-Posti Seaded';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Võimalda Visuaalne Kinnitus';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Nõuab kasutajad sisestage kood määratletud pildi registreerimisel.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Luba automaatne sisse logima';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klõpsake %sHere%s naasta Smiley Haldus';
 
 // User Management
 $lang['USER_ADMIN'] = 'Kasutajate Haldus';
-$lang['USER_ADMIN_EXPLAIN'] = 'Siin sa saad muuta oma kasutajate info ja teatud valikud. Muuta kasutajate õigusi, palun kasutage kasutajate ja rühmade õiguste süsteemi.';
-
 $lang['LOOK_UP_USER'] = 'Vaadata kuni kasutaja';
-
-$lang['ADMIN_USER_FAIL'] = 'Ei saanud uuendada kasutaja profiil.';
-$lang['ADMIN_USER_UPDATED'] = 'Kasutaja profiil on edukalt uuendatud.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klõpsake %sHere%s naasta Kasutajate Haldus';
-
-$lang['USER_ALLOWPM'] = 'Saab saata privaatsõnumeid';
-$lang['USER_ALLOWAVATAR'] = 'Saate kuvada avatari';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Siin saad sa vaadata ja kustutada kasutaja praeguse avatari.';
-
-$lang['USER_SPECIAL'] = 'Erilist admin-ainult väljad';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Need väljad ei ole võimalik muuta kasutajad. Siin saab määrata nende staatus ja muid võimalusi, et ei anta kasutajad.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupi Haldus';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Osa peale vahetada boonused GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Juhtpaneel';
-$lang['SHADOW_ATTACHMENTS'] = 'Shadow Manuseid';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Keelatud Laiendid';
 $lang['EXTENSION_CONTROL'] = 'Laiendamine Kontrolli';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Laiendi Gruppide Kontrolli';
 $lang['SPECIAL_CATEGORIES'] = 'Eri Kategooriad';
-$lang['SYNC_ATTACHMENTS'] = 'Sünkroonimine Manuseid';
-$lang['QUOTA_LIMITS'] = 'Kvoodi Piirid';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Manus Seaded';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Manus Teema Ikooni';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'See Pilt kuvatakse enne teemadel koos Manustega. Jäta see väli tühjaks, kui sa ei taha ikoon kuvatakse.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Manus, Et Ekraan';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Siin saate valida, kas kuvada Manuseid Ametikohad/PMs Kahanevas Filetime Järjekorras (Uuemad Manus Esimene) või Kasvavas Filetime, Et (Vanim Manus Esimene).';
-$lang['SHOW_APCP'] = 'Kasutage uus juhtpaneel rakendused';
-$lang['SHOW_APCP_EXPLAIN'] = 'Valige, kas soovite kasutada eraldi juhtpaneel rakendused (jah), või vana meetod, mille kaks kasti taotluste ja muutmise taotlused (puudub) postkasti. Seda on raske seletada, kuidas see välja, nii et proovige ise.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Fondi suurus';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimaalne filesize jaoks Manuseid. Väärtus 0 tähendab, et "piiramata". See Seade on piiratud oma Serveri Konfiguratsiooni. Näiteks, kui oma php Konfiguratsiooni ainult lubab ja kuni 2 MB üleslaadimist, seda ei saa üle kirjutada, mida Mod.';
-$lang['ATTACH_QUOTA'] = 'Manus Kvoot';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimaalne kettaruum KÕIK Manused võivad sisaldada oma Veebiruumi. Väärtus 0 tähendab, et "piiramata".';
 $lang['MAX_FILESIZE_PM'] = 'Maksimaalne Filesize Era-Sõnumid Kausta';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimaalne kettaruum Manuseid saab kasutada kuni iga Kasutaja isikliku postkasti. Väärtus 0 tähendab, et "piiramata".';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Vaikimisi Kvoodi Piires';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Siin on võimalik valida Vaikimisi Kvoodi piires automaatselt määratud, et äsja registreeritud Kasutajad ja ilma kindlaksmääratud Kvoodi piires. Valik "No Kvoodi piires" ei kasuta ühtki lisatud Manust Kvoodid, selle asemel, kasutades vaikimisi Seaded teil on määratletud käesoleva Management Panel (juhtpaneel).';
 
 $lang['MAX_ATTACHMENTS'] = 'Maksimaalne Arv Manuseid';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimaalne arv manuseid lubatud üks postitus.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Keelata Attachment Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'See võimalus on mõeldud peamiselt katsetamine, uute malle või teemade, see keelab kõik Manus Funktsioonid, välja arvatud Admin Paneel.';
 $lang['PM_ATTACHMENTS'] = 'Võimaldab Manuseid privaatsed Sõnumid';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Lubada/Keelata seotud failid privaatsõnumeid.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Näita taotluste läbivaatamine side teemadel, kui kirjalik vastus?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Kui paned "jah", on kõik rakendused kuvatakse läbi kommunikatsiooni teemadel.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Siin saate kustuta manus andmeid postituste siis, kui failid on puudu oma failisüsteemi ja kustutada faile, mis ei ole enam ühendada mis tahes postitusi. Võite alla laadida või vaadata faili, kui klõpsate seda, kui puudub seos on olemas, faili ei ole olemas.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Kustuta kõik manused failid, mis on oma failisüsteemi ja ei ole määratud olemasoleva postitus.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Kustuta kõik manuse postitamise andmed, failid, mida pole olemas, oma failisüsteemi.';
-$lang['EMPTY_FILE_ENTRY'] = 'Tühi Fail Kanne';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Eelvaade on lähtestatud manusest: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Manuse sünkroonimine on lõpetatud.';
 $lang['SYNC_TOPICS'] = 'Sync Teemasid';
 $lang['SYNC_POSTS'] = 'Sync Postitusi';
-$lang['SYNC_THUMBNAILS'] = 'Sync Pisipildid';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Halda Laiendusi';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Siin saate hallata oma faililaiendid. Kui soovite lubada/keelata a Laiendamine üles laadida, palun kasutage Laiendi Gruppide Juhtimine.';
 $lang['EXPLANATION'] = 'Selgitus';
 $lang['EXTENSION_GROUP'] = 'Rühma Laiendamine';
-$lang['INVALID_EXTENSION'] = 'Kehtetu Pikendamine';
 $lang['EXTENSION_EXIST'] = 'Laiendamine %s juba olemas'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Laiendamine %s on keelatud, siis ei ole võimalik lisada, et see lubatud Laiendid'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Halda Laiendamine Rühmad';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Laiendamine Rühma %s juba olemas'; // replace
 $lang['MANAGE_CATEGORIES'] = 'Hallata Eri Kategooriad';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Siin saate konfigureerida Spetsiaalsed Kategooriad. Saate seadistada spetsiaalsed parameetrid ja tingimused Spetsiaalsetele Kategooriatele, mis on määratud laiendusrühmale.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Seaded Erilist Kategooria: Pildid';
-$lang['SETTINGS_CAT_FLASH'] = 'Seaded Erilist Kategooria: Flash-Faile';
 $lang['DISPLAY_INLINED'] = 'Piltide Kuvamine Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Valige, kas kuvatakse pilte otse piires postiga (jah) või kuvada pilte lingina ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimaalsed Pildi Mõõtmed';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Loo Pisipilt';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimaalne Pisipilt Filesize';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Kui Pilt on väiksem, kui see on määratletud Filesize, nr Pisipilt luuakse, sest see on piisavalt väike.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Halda Keelatud Laiendid';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Siin saad sa lisada või kustutada keelatud laiendid. Laiendid php, php3 ja php4 on keelatud vaikimisi turvalisuse huvides ei ole võimalik kustutada.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Keelatud Laiendamine %s juba olemas'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Laiendamine %s on määratletud oma lubatud Laiendid, palun kustutada oma enne, siis lisage see siia.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Laiendamine Rühma Õigused -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Siin on võimalik piirata valitud Laiendamine Rühma Foorumid oma valik (mis on määratletud Lubatud Foorumid Kasti). Vaikimisi on võimaldada Laiendamine Rühmad, et kõik Foorumid Kasutaja on võimalik Lisada Failid (normaalsel viisil Attachment Mod tegi seda algusest). Lihtsalt lisage need Foorumid soovite Laiendamine Group (Laiendite selles Rühmas) olema lubatud on vaikimisi KÕIKIDEL FOORUMITEL kaob kui lisate Foorumid Nimekirja. Sul on võimalik uuesti lisama, et KÕIK FOORUMID igal ajahetkel. Kui lisate Foorumis oma Juhatuse ja Luba on seatud, et KÕIK FOORUMID ei muutu midagi. Aga kui sul on muutunud ja piirata juurdepääsu teatud Foorumites, sa pead, et vaadata tagasi siin, et lisada oma äsja loodud Foorum. See on lihtne teha seda automaatselt, kuid see sunnib sind muuta hunnik Faile, seega mina olen valinud tee seda nüüd. Palun pidage meeles, et kõik teie Foorumid on loetletud siin.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Lisada Foorumid';
 $lang['ADD_SELECTED'] = 'Lisada Valitud';
 $lang['PERM_ALL_FORUMS'] = 'KÕIK FOORUMID';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Halda Manus Kvoodi Piirid';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Siin on sul võimalik lisada/kustutada/muuta Kvootide Piirmäärasid. Teil on võimalik määrata nende Kvootide Piirmäärasid, et Kasutajad ja Rühmad hiljem. Määrata Kvoodi piires Kasutaja, sa pead minema Kasutajad->Juhtimine, vali Kasutaja ja sa näed Valikud alt. Määrata Kvoodi piires Rühmale, mine Grupid->Haldamine, valige Rühm, muuta seda, ja te näete, Konfiguratsiooni Seaded. Kui soovite näha, millised Kasutajad ja Grupid on määratud konkreetse Kvoodi piires, kliki "View" vasakul Kvoodi Kirjeldus.';
-$lang['ASSIGNED_USERS'] = 'Määratud Kasutajatele';
-$lang['ASSIGNED_GROUPS'] = 'Määratud Rühmad';
-$lang['QUOTA_LIMIT_EXIST'] = 'Kvoodi piires %s olemas juba.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Manusfaili Juhtpaneel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Siin saate vaadata ja hallata kõiki manuseid, mis põhineb Kasutajad, Lisad, Seisukohti jne...';
-$lang['FILECOMMENT'] = 'Faili Kommentaar';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Kasuta * metamärgina osalisi vasteid';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Ametikohtade arv Manuseid';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Number Teemasid Manuseid';
 $lang['NUMBER_USERS_ATTACH'] = 'Sõltumatu Kasutajad Postitatud Manuseid';
 $lang['NUMBER_PMS_ATTACH'] = 'Kokku Arv Manuseid privaatsed Sõnumid';
-$lang['ATTACHMENTS_PER_DAY'] = 'Manuseid päevas';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Manus Statistika %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfiguratsiooni Edukalt Uuendatud';
 $lang['SET_DEFAULTS'] = 'Restore defaults (taasta vaikesätted';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Foorumi config';
-
 $lang['BT_SELECT_FORUMS'] = 'Foorumi valikud:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'hoia <i>Ctrl</i>, samas valides mitu foorumid';
 

@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '附件太大。<br />最大上傳大小�
 $lang['DISALLOWED_EXTENSION'] = '擴展名%s是不允許的。'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '你不允許在此論壇中發布擴展名為%s的文件。'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = '附件太大。<br />最大尺寸：%s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = '抱歉，但所有附件的最大文件大小已達到。如果有問題，請聯繫董事會管理員。';
 $lang['TOO_MANY_ATTACHMENTS'] = '無法添加附件，因為此帖中的附件數量%d已達到最大值。'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = '附件/圖像必須小於%d像素寬和%d像素高。';
 $lang['GENERAL_UPLOAD_ERROR'] = '上傳錯誤：無法將附件上傳至%s。'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = '您必須在‘添加附件’框中輸入值。';
 $lang['ERROR_MISSING_OLD_ENTRY'] = '無法更新附件，找不到舊附件條目。';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = '抱歉，但所有附件在您的私人信息文件夾中的最大文件大小已達到。請刪除一些接收/發送的附件。';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = '抱歉，但所有附件中\'%s\'的私人信息文件夾的最大文件大小已達到。請告訴他，或者等他/她刪除一些他/她的附件。';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = '您尚未選擇要下載或查看的附件。';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = '目錄\'%s\'不存在或找不到。'; // r
 $lang['DIRECTORY_IS_NOT_A_DIR'] = '請檢查\'%s\'是否為目錄。'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = '目錄\'%s\'不可寫。您必須創建上傳路徑並將其權限設置為777（或將所有者更改為您httpd伺服器的所有者）才能上傳文件。<br />如果您僅能使用普通FTP訪問，請將目錄的“屬性”更改為rwxrwxrwx。'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = '上传的配额';
-$lang['PM_QUOTA'] = '到配額';
-
 // Common Variables
 $lang['BYTES'] = '字节';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = '測試設置';
 $lang['NOT_ASSIGNED'] = '没有分配';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = '沒有文件評論可用';
 $lang['ATTACHBOX_LIMIT'] = '您的附件箱已<br /><b>%d%%</b>滿';
-$lang['NO_QUOTA_LIMIT'] = '没有配额限制';
 $lang['UNLIMITED'] = '无限的';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = '簡單的模式';
 $lang['ADVANCED_MODE'] = '先進的模式';
 $lang['MODERATOR_STATUS'] = '主持人狀態';
 
-$lang['ALLOWED_ACCESS'] = '允許接入';
-$lang['DISALLOWED_ACCESS'] = '不允許訪問';
-$lang['IS_MODERATOR'] = '是主持人';
-
-$lang['CONFLICT_WARNING'] = '授權衝突的警告';
-$lang['CONFLICT_ACCESS_USERAUTH'] = '這個用戶仍有權訪問該論壇通過組成員。 你可能想要改變該小組的權限或者刪除這個用戶組，以充分防止他們享有的權利。 這些授予權利的用戶(以及參與的論壇)會在下面標出。';
-$lang['CONFLICT_MOD_USERAUTH'] = '這個用戶仍然具有主持人的權利這個論壇通過組成員。 你可以改變小組權限或刪除該用戶組以完全阻止其主持權限。 這些授權的小組(以及參與的論壇)將在下面標出。';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = '以下用戶(或用戶)仍然有權訪問該論壇通過他們的用戶權限設置。 你可能想改變用戶的權限以完全防止他們享有的權利。 授予權利的用戶(和參與的論壇)列出如下。';
-$lang['CONFLICT_MOD_GROUPAUTH'] = '以下用戶(或用戶)仍然具有主持人的權利這一論壇通過他們的用戶權限設置。 你可能想改變用戶的權限以防止他們擁有主持權限。 所有授權的用戶(以及參與的論壇)會在下面標出。';
-
 $lang['PUBLIC'] = '公共';
 $lang['PRIVATE'] = '私人';
 $lang['REGISTERED'] = '註冊';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = '投票';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = '創建調查。';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = '文件附後。';
 $lang['AUTH_DOWNLOAD'] = '下載文件';
-
-$lang['SIMPLE_PERMISSION'] = '簡單的權限';
 
 $lang['USER_LEVEL'] = '用戶級別';
 $lang['AUTH_USER'] = '用戶';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = '網站名稱。';
 $lang['SITE_DESC'] = '網站描述。';
 $lang['FORUMS_DISABLE'] = '禁用論壇。';
 $lang['BOARD_DISABLE_EXPLAIN'] = '這將使論壇對用戶不可用。管理員可以在論壇被禁用的情況下訪問管理面板。';
-$lang['ACCT_ACTIVATION'] = '啟用帳戶激活。';
 $lang['ACC_NONE'] = '没有'; // These three entries are the type of activation
 $lang['ACC_USER'] = '用户';
 $lang['ACC_ADMIN'] = '管理员';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = '允許簽名。';
 $lang['MAX_SIG_LENGTH'] = '最大簽名長度。';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '用戶簽名的最大字符數。';
 $lang['ALLOW_NAME_CHANGE'] = '允許用戶名更改。';
-
-$lang['EMAIL_SETTINGS'] = '電子郵件設置。';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = '啟用視覺確認。';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = '要求用戶在註冊時輸入圖像定義的代碼。';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = '允許自動登錄。';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = '點擊%s此處%s返回笑臉管理。';
 
 // User Management
 $lang['USER_ADMIN'] = '用户管理';
-$lang['USER_ADMIN_EXPLAIN'] = '在這裡您可以更改用戶的資訊和某些選項。要修改用戶的權限，請使用用戶和群組權限系統。';
-
 $lang['LOOK_UP_USER'] = '查找用戶。';
-
-$lang['ADMIN_USER_FAIL'] = '未能更新用户的个人资料。';
-$lang['ADMIN_USER_UPDATED'] = '用戶的個人資料已成功更新。';
-$lang['CLICK_RETURN_USERADMIN'] = '點擊%s此處%s返回用戶管理。';
-
-$lang['USER_ALLOWPM'] = '可以发送私人消息';
-$lang['USER_ALLOWAVATAR'] = '可以顯示頭像。';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = '在這裡您可以查看並刪除用戶當前的頭像。';
-
-$lang['USER_SPECIAL'] = '特別的管理員專屬欄位。';
-$lang['USER_SPECIAL_EXPLAIN'] = '這些欄位無法被用戶修改。在這裡您可以設置他們的狀態和其他不給用戶的選項。';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = '组管理';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = '為 GB 交換獎金的比例';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = '控制面板';
-$lang['SHADOW_ATTACHMENTS'] = '附加的陰影';
-$lang['FORBIDDEN_EXTENSIONS'] = '禁止扩展';
 $lang['EXTENSION_CONTROL'] = '扩展控制';
 $lang['EXTENSION_GROUP_MANAGE'] = '扩展团体控制的';
 $lang['SPECIAL_CATEGORIES'] = '特殊类别';
-$lang['SYNC_ATTACHMENTS'] = '同步的附件';
-$lang['QUOTA_LIMITS'] = '配额限制';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = '附件设置';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = '附件主題圖標。';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = '這個圖像在附件的主題之前顯示。如果你不想顯示圖標，請留空這個字段。';
 $lang['ATTACH_DISPLAY_ORDER'] = '附件顯示順序';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = '在這裡您可以選擇是否以降序或升序顯示帖子/私信中的附件。';
-$lang['SHOW_APCP'] = '使用新的控制面板應用程序';
-$lang['SHOW_APCP_EXPLAIN'] = '選擇您是否希望在消息框中使用單獨的控制面板應用程序（是）或舊方法（無）來進行兩個應用程序和編輯應用程序。如果您想知道這是怎麼樣的話，不妨自己試試。';
 
 $lang['MAX_FILESIZE_ATTACH'] = '文件大小';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = '附件的最大文件大小。值為0表示“無限制”。此設置受您的服務器配置限制。例如，如果您的 PHP 配置僅允許最大 2MB 的上傳，則無法通過模塊覆蓋此設置。';
-$lang['ATTACH_QUOTA'] = '附件配額';
-$lang['ATTACH_QUOTA_EXPLAIN'] = '所有附件可以在您的網站上佔用的最大磁碟空間。值為 0 表示“無限制”。';
 $lang['MAX_FILESIZE_PM'] = '私人消息文件夾的最大文件大小';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = '每個用戶的私人郵件盒中附件可以使用的最大磁碟空間。值為 0 表示“無限制”。';
-$lang['DEFAULT_QUOTA_LIMIT'] = '默认的配额限制';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = '在此您可以選擇自動分配給新註冊用戶和沒有定義配額限制的用戶的默認配額限制。\'無配額限制\'選項是指不使用任何附件配額，而是使用您在此管理面板中定義的默認設置。';
 
 $lang['MAX_ATTACHMENTS'] = '最大数量的附件';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = '允許在一則帖子中附加的最大附件數量。';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = '禁用附件Mod。';
 $lang['DISABLE_MOD_EXPLAIN'] = '此選項主要用於測試新的模板或主題，它禁用除管理面板之外的所有附件功能。';
 $lang['PM_ATTACHMENTS'] = '允許私人消息中的附件.';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = '允許/不允許將文件附加到私人消息。';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = '在撰寫回答時，是否顯示應用程序的通信主題的審查？';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = '如果您設置為“是”，所有應用程序將顯示在通信主題的審查中。';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = '在這裡，當文件在您的文件系統中丟失時，您可以從張貼中刪除附件數據，並刪除不再附加到任何張貼的文件。如果您單擊文件，可以下載或查看該文件；如果沒有鏈接，則文件不存在。';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = '刪除所有存在於您的文件系統中且未分配給現有帖子的附件文件。';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = '刪除所有不存在於您的文件系統中的文件的帖子附件數據。';
-$lang['EMPTY_FILE_ENTRY'] = '空的文件项目';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = '預覽已重新設置，附件：%s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = '附件同步完成。';
 $lang['SYNC_TOPICS'] = '同步主題。';
 $lang['SYNC_POSTS'] = '同步帖子。';
-$lang['SYNC_THUMBNAILS'] = '同步縮略圖。';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = '管理扩展';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = '在此您可以管理文件擴展名。如果您希望允許/不允許上傳擴展名，請使用擴展組管理。';
 $lang['EXPLANATION'] = '解释';
 $lang['EXTENSION_GROUP'] = '扩展组';
-$lang['INVALID_EXTENSION'] = '無效的延伸。';
 $lang['EXTENSION_EXIST'] = '扩展%s已经存在'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = '扩展%s是被禁止的，你不能将它添加到允许的扩展'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = '管理擴展群體。';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = '扩展组%s已经存在'; // replace %s with t
 $lang['MANAGE_CATEGORIES'] = '管理特殊類別';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = '在這裡您可以配置特殊類別。您可以為指派給擴展組的特殊類別設置特殊參數和條件。';
 $lang['SETTINGS_CAT_IMAGES'] = '特殊類別的設定：圖像';
-$lang['SETTINGS_CAT_FLASH'] = '特殊類別的設定：Flash檔案';
 $lang['DISPLAY_INLINED'] = '顯示內嵌圖像';
 $lang['DISPLAY_INLINED_EXPLAIN'] = '選擇是否直接在帖子中顯示圖片（是）或將圖片顯示為鏈接？';
 $lang['MAX_IMAGE_SIZE'] = '最大圖像尺寸';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = '創建縮略圖';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = '最小縮略圖檔案大小';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = '如果圖像小於此定義的檔案大小，則不會創建縮略圖，因為它已經足夠小。';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = '管理被禁止的擴展名';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = '在這裡您可以添加或刪除禁止的擴展名。由於安全原因，擴展名 php、php3 和 php4 在默認情況下被禁止，您無法刪除它們。';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = '禁止的擴展名 %s 已經存在'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = '擴展名 %s 在您的允許擴展名中已經定義，請在添加到這裡之前先刪除。'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = '擴展組權限 -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = '在這裡，您能夠限制所選擴展組訪問您選擇的論壇（在允許的論壇框中定義）。默認情況下，允許擴展組訪問所有用戶可以附加文件的論壇（這是附件模組自開始以來的常規方式）。只需添加您希望擴展組（該組內的擴展名）被允許的論壇，當您將論壇添加到列表時，默認的所有論壇將消失。您可以在任何時候重新添加所有論壇。如果您向您的論壇添加一個論壇，並將權限設置為所有論壇，則不會有任何變更。但如果您修改並限制了對某些論壇的訪問，則必須在此重新添加您新創建的論壇。自動完成此操作是很容易的，但這會迫使您編輯許多文件，因此我選擇了目前的方式。請記住，您的所有論壇將在此列出。';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = '添加論壇';
 $lang['ADD_SELECTED'] = '添加選定項';
 $lang['PERM_ALL_FORUMS'] = '所有论坛';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = '管理附件配額限制';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = '在這裡您可以添加/刪除/更改配額限制。您可以稍後將這些配額限制分配給用戶和組。要將配額限制分配給用戶，您必須轉到用戶 -> 管理，選擇用戶，然後您將在底部看到選項。要將配額限制分配給一個組，請轉到組 -> 管理，選擇要編輯的組，然後您將看到配置設置。 如果您想查看，哪些用戶和組被分配到特定的配額限制，請點擊配額描述左側的「查看」。';
-$lang['ASSIGNED_USERS'] = '分配用户';
-$lang['ASSIGNED_GROUPS'] = '分配组';
-$lang['QUOTA_LIMIT_EXIST'] = '配额限制%s已经存在。'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = '文件附件控制面板';
 $lang['CONTROL_PANEL_EXPLAIN'] = '在這裡，您可以根據用戶、附件、查看等查看和管理所有附件。';
-$lang['FILECOMMENT'] = '文件評論';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = '使用 * 作為部分匹配的通配符';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = '帶附件的帖子數量';
 $lang['NUMBER_TOPICS_ATTACH'] = '帶附件的主題數量';
 $lang['NUMBER_USERS_ATTACH'] = '發布附件的獨立用戶';
 $lang['NUMBER_PMS_ATTACH'] = '私人消息中的附件總數';
-$lang['ATTACHMENTS_PER_DAY'] = '每天的附件數量';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = '附件統計數據%s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = '配置更新成功';
 $lang['SET_DEFAULTS'] = '恢復預設值';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = '論壇配置';
-
 $lang['BT_SELECT_FORUMS'] = '论坛选择：';
 $lang['BT_SELECT_FORUMS_EXPL'] = '按住<i>Ctrl</i>選擇多個論壇';
 

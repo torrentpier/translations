@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Die aanhegsel is te groot.<br />Maksimum
 $lang['DISALLOWED_EXTENSION'] = 'Die uitbreiding %s is nie toegelaat nie'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'U mag nie lêers met die uitbreiding %s in hierdie forum plaas nie'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Die aanhangsel is te groot.<br />Maksgrootte: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Jammer, maar die maksimum lêer grootte vir alle aanhangsels is bereik. Kontak asseblief die Bestuurder indien u vrae het.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Aanhegsel kan nie bygevoeg word nie, aangesien die maksimum. Nommer van %d Bylaes in hierdie pos is behaal'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Die aanhangsel / prentjie moet minder wees as %d pixels breed en %d pixels hoog';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Oplaaifout: Kon nie Aanhegsel laai op %s nie.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Jy moet waardes invoer in die \'Voeg \'n aanhangsel\' -vak by';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Kon nie byvoeging bywerk nie, kon ou Aanhegselinskrywing nie vind nie';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Jammer, maar die maksimum lêer grootte vir alle aanhangsels in u privaat boodskapmap is bereik. Skrap asseblief sommige van u ontvang / gestuur aanhangsels.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Jammer, maar die maksimum lêer grootte vir alle aanhangsels in die Privaatboodskapslys van \'%s\' is bereik. Laat hom asseblief weet, of wag totdat hy / sy sommige van sy / haar aanhangsels verwyder het.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jy het nie \'n aanhangsel gekies om af te laai of te sien nie.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Die gids \'%s\' bestaan ​​nie of kon ni
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Kontroleer asseblief of \'%s\' \'n gids is.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Gids \'%s\' is nie skryfbaar nie. U moet die oplaaipad skep en chmod dit na 777 (of verander die eienaar aan u httpd-bediener eienaar) om lêers op te laai.<br />As u slegs FTP-toegang het, verander die \'Attribuut\' van die gids na rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Laai kwota op';
-$lang['PM_QUOTA'] = 'PM Kwota';
-
 // Common Variables
 $lang['BYTES'] = 'grepe';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Toetsinstellings';
 $lang['NOT_ASSIGNED'] = 'Nie toegeken nie';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Geen lêer kommentaar beskikbaar nie';
 $lang['ATTACHBOX_LIMIT'] = 'Jou Aanhegselbus is<br /><b>%d%%</b> vol';
-$lang['NO_QUOTA_LIMIT'] = 'Geen Kwota Limiet';
 $lang['UNLIMITED'] = 'Unlimited';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Eenvoudige af';
 $lang['ADVANCED_MODE'] = 'Gevorderde af';
 $lang['MODERATOR_STATUS'] = 'Moderator status';
 
-$lang['ALLOWED_ACCESS'] = 'Toegestaan ​​Toegang';
-$lang['DISALLOWED_ACCESS'] = 'Toegewyde Toegang';
-$lang['IS_MODERATOR'] = 'Is Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Magtiging Konflik Waarskuwing';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Hierdie gebruiker het steeds toegangsregte tot hierdie forum via groepmaatskap. U kan die groeptoegewings verander of hierdie gebruiker die groep verwyder om te verhoed dat hulle toegangsregte het. Die groepe wat regte verleen (en die betrokke forums) word hieronder genoem.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Hierdie gebruiker het nog steeds moderatorregte op hierdie forum via groeplidmaatskap. U kan die groeptoegewings verander of hierdie gebruiker die groep verwyder om dit ten volle te voorkom dat hulle moderatorregte het. Die groepe wat regte verleen (en die betrokke forums) word hieronder genoem.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Die volgende gebruiker (of gebruikers) het steeds toegangsregte op hierdie forum via hul gebruikers toestemming instellings. U sal dalk die gebruikersregte wil verander ten einde te voorkom dat hulle toegangsregte het. Die gebruikersregte (en die betrokke forums) word hieronder genoem.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Die volgende gebruiker (of gebruikers) het nog moderatorregte op hierdie forum via hul gebruikersregistrasiestellings. U sal dalk die gebruikersregte wil verander ten einde te verhoed dat hulle moderatorregte het. Die gebruikersregte (en die betrokke forums) word hieronder genoem.';
-
 $lang['PUBLIC'] = 'openbare';
 $lang['PRIVATE'] = 'Privaat';
 $lang['REGISTERED'] = 'geregistreer';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'stem';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Poll skep';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Plaas lêers';
 $lang['AUTH_DOWNLOAD'] = 'Laai lêers af';
-
-$lang['SIMPLE_PERMISSION'] = 'Eenvoudige Toestemmings';
 
 $lang['USER_LEVEL'] = 'Gebruikersvlak';
 $lang['AUTH_USER'] = 'gebruiker';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Site naam';
 $lang['SITE_DESC'] = 'Beskrywing van die werf';
 $lang['FORUMS_DISABLE'] = 'Deaktiveerbord';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Dit sal die raad vir gebruikers nie beskikbaar stel nie. Administrateurs kan toegang tot die Administrasiepaneel hê terwyl die direksie gedeaktiveer is.';
-$lang['ACCT_ACTIVATION'] = 'Aktiveer rekeningaktivering';
 $lang['ACC_NONE'] = 'Geen'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'gebruiker';
 $lang['ACC_ADMIN'] = 'admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Laat handtekeninge toe';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum handtekening lengte';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimum aantal karakters in gebruikers handtekeninge';
 $lang['ALLOW_NAME_CHANGE'] = 'Laat gebruikersnaam veranderinge toe';
-
-$lang['EMAIL_SETTINGS'] = 'E-pos instellings';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Aktiveer Visuele Bevestiging';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Vereis dat gebruikers \'n kode spesifiseer wat deur \'n prent gedefinieer word wanneer hulle registreer.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Laat outomatiese aanmeldings toe';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klik %sHere%s om terug te keer na Smiley Adm
 
 // User Management
 $lang['USER_ADMIN'] = 'Gebruikersadministrasie';
-$lang['USER_ADMIN_EXPLAIN'] = 'Hier kan jy jou gebruikers se inligting en sekere opsies verander. Gebruik die gebruikers- en groeptoestemmingsisteem om die gebruikers se toestemmings te verander.';
-
 $lang['LOOK_UP_USER'] = 'Soek gebruiker op';
-
-$lang['ADMIN_USER_FAIL'] = 'Kon nie die gebruiker se profiel opdateer nie.';
-$lang['ADMIN_USER_UPDATED'] = 'Die gebruiker se profiel is suksesvol opgedateer.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klik %sHere%s om terug te keer na Gebruikersadministrasie';
-
-$lang['USER_ALLOWPM'] = 'Kan privaat boodskappe stuur';
-$lang['USER_ALLOWAVATAR'] = 'Kan avatar vertoon';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Hier kan jy die gebruiker se huidige avatar sien en verwyder.';
-
-$lang['USER_SPECIAL'] = 'Spesiale administrasie-enigste velde';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Hierdie velde kan nie deur die gebruikers verander word nie. Hier kan u hul status en ander opsies stel wat nie aan gebruikers gegee word nie.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Groepadministrasie';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Deel toevoeging vir \'n uitruil van bonusse op 
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Beheer paneel';
-$lang['SHADOW_ATTACHMENTS'] = 'Shadow Attachments';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Verbode Uitbreidings';
 $lang['EXTENSION_CONTROL'] = 'Uitbreidingsbeheer';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Uitbreiding Groepe Beheer';
 $lang['SPECIAL_CATEGORIES'] = 'Spesiale Kategorieë';
-$lang['SYNC_ATTACHMENTS'] = 'Sinkroniseer bylaes';
-$lang['QUOTA_LIMITS'] = 'Kwota Limiete';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Aanhegsel-instellings';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Aanhegsel Onderwerp-ikoon';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Hierdie prent word voor onderwerpe met aanhangsels vertoon. Laat hierdie veld leeg as jy nie wil hê dat \'n ikoon vertoon word nie.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Aanhegsel Display Order';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Hier kan jy kies of die Aanhegsels in Posts / PM\'s in Aflopende Filetydbestelling (Nuutste Aanhegsel Eerste) of Stygende Filietydbestelling (Ouste Aanhegsel Eerste) moet vertoon.';
-$lang['SHOW_APCP'] = 'Gebruik die nuwe bedieningspaneel aansoeke';
-$lang['SHOW_APCP_EXPLAIN'] = 'Kies of u \'n aparte bedieningspaneel aansoeke (ja) wil gebruik, of die ou metode met twee bokse vir toepassings en redigering van aansoeke (geen) in die boodskapkassie. Dit is moeilik om te verduidelik hoe dit lyk, so probeer vir jouself.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Lêergrootte';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimum lêer grootte vir aanhangsels. \'N waarde van 0 beteken\' onbeperk \'. Hierdie instelling word beperk deur u bediener konfigurasie. Byvoorbeeld, as u PHP-konfigurasie slegs maksimum 2 MB-oplaaie toelaat, kan dit nie deur die Mod oorskry word nie.';
-$lang['ATTACH_QUOTA'] = 'Aanhegsel Kwota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimum skyfspasie ALLE Aanhegsels kan u Webruimte hou. \'N waarde van 0 beteken\' onbeperk \'.';
 $lang['MAX_FILESIZE_PM'] = 'Maksimum lêergrootte in Privaatboodskappe-lêer';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimum skyfspasie Aanhegsels kan gebruik in elke gebruiker se Privaatboodskap-boks. \'N waarde van 0 beteken\' onbeperk \'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Standaard Kwota Limiet';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Hier kan u die standaard kwota limiet kies wat outomaties toegeken is aan nuut geregistreerde gebruikers en gebruikers sonder \'n gedefinieerde kwota limiet. Die opsie \'Geen kwota limiet\' is dat u geen byvoegingskwotas gebruik nie, maar gebruik die verstekinstellings wat u in hierdie Bestuurspaneel gedefinieer het.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maksimum Aantal Aanhegsels';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Die maksimum aantal aanhangsels toegelaat in een pos.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Deaktiveer aanhangselmodus';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Hierdie opsie is hoofsaaklik vir die toets van nuwe templates of temas. Dit skakel alle Aanhegselfunksies uit behalwe die Admin Paneel.';
 $lang['PM_ATTACHMENTS'] = 'Laat aanhangsels toe in privaat boodskappe';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Toestaan ​​/ toestaan ​​dat lêers geheg word aan privaat boodskappe.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Wys aansoeke in die resensie van kommunikasie-onderwerpe wanneer \'n antwoord geskryf word?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'As u \'ja\' stel, sal alle aansoeke vertoon word in die hersiening van kommunikasie onderwerpe.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Hier kan u aanhegingsdata uit plasings uitvee wanneer die lêers van u lêerstelsel ontbreek, en lêers verwyder wat nie meer aan enige plasings gekoppel is nie. U kan \'n lêer aflaai of sien as u daarop klik; As daar geen skakel is nie, bestaan ​​die lêer nie.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Verwyder alle aanhangsels lêers wat op jou lêerstelsel bestaan ​​en word nie aan \'n bestaande pos toegewys nie.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Verwyder alle posing-aanhangseldata vir lêers wat nie op jou lêerstelsel bestaan ​​nie.';
-$lang['EMPTY_FILE_ENTRY'] = 'Leë lêerinskrywing';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Die voorspraak is vir die aanhangsel gereset: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Aanhegselsinchronisasie voltooi.';
 $lang['SYNC_TOPICS'] = 'Sinkroniseer-onderwerpe';
 $lang['SYNC_POSTS'] = 'Sync Posts';
-$lang['SYNC_THUMBNAILS'] = 'Sinkroniseer Thumbnails';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Bestuur uitbreidings';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Hier kan u u lêeruitbreidings bestuur. As u \'n uitbreiding wil toestaan ​​of toelaat om opgelaai te word, gebruik asseblief die Bestuur van Uitbreidingsgroepe.';
 $lang['EXPLANATION'] = 'Verduideliking';
 $lang['EXTENSION_GROUP'] = 'Uitbreidingsgroep';
-$lang['INVALID_EXTENSION'] = 'Ongeldige uitbreiding';
 $lang['EXTENSION_EXIST'] = 'Die uitbreiding %s bestaan ​​reeds'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Die uitbreiding %s is verbode, jy kan dit nie by die toegelate uitbreidings voeg nie'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Bestuur uitbreidingsgroepe';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Die uitbreidingsgroep %s bestaan ​​reeds';
 $lang['MANAGE_CATEGORIES'] = 'Bestuur spesiale kategorieë';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Hier kan u die spesiale kategorieë instel. U kan spesiale parameters en voorwaardes opstel vir die spesiale kategorieë wat aan \'n uitbreidingsgroep toegeken word.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Stellings vir spesiale kategorie: prente';
-$lang['SETTINGS_CAT_FLASH'] = 'Stellings vir spesiale kategorie: Flash-lêers';
 $lang['DISPLAY_INLINED'] = 'Vertoon prente geïllustreer';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Kies of beelde direk in die pos vertoon moet word (ja) of om beelde as \'n skakel te vertoon?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum beeldafmetings';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Skep duimnaelskets';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Duimnaelskets lêergrootte';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'As \'n beeld kleiner is as hierdie gedefinieerde lêergrootte, sal geen Duimnaelskets geskep word nie, want dit is klein genoeg.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Bestuur Verboden Extensions';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Hier kan u die verbode uitbreidings byvoeg of verwyder. Die uitbreidings php, php3 en php4 is verbode vir sekuriteitsredes. Jy kan dit nie verwyder nie.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Die verbode uitbreiding %s bestaan ​​reeds'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Die uitbreiding %s is gedefinieer in u toegelate uitbreidings, verwyder dit asseblief voordat u dit hier byvoeg.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Uitbreidingsgroepmagtigings -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Hier kan u die geselekteerde Uitbreidingsgroep beperk tot u keuse-forums (gedefinieer in die toegelate forums). Die standaard is om uitbreidingsgroepe toe te laat aan alle forums waarmee die gebruiker lêers kan aanheg (die normale manier waarop die aanhangselmod dit vanaf die begin gedoen het). Voeg net die forums by wat jy wil hê dat die uitbreidingsgroep (die uitbreidings binne hierdie groep) daar toegelaat word, die standaard ALLE FORUMS sal verdwyn wanneer jy Forums by die lys voeg. U kan ALLE FORUMS op enige gegewe tyd weer byvoeg. As u \'n Forum by u Raad voeg en die Toestemming op ALLE FORUMS gestel word, sal niks verander nie. Maar as jy die toegang tot sekere forums verander en beperk het, moet jy weer hierheen kyk om jou nuutgeskepte Forum by te voeg. Dit is maklik om dit outomaties te doen, maar dit sal jou dwing om \'n klomp lêers te wysig. Daarom het ek gekies hoe dit nou is. Hou asseblief in gedagte dat al u forums hier gelys sal word.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Voeg forums by';
 $lang['ADD_SELECTED'] = 'Voeg geselekteer by';
 $lang['PERM_ALL_FORUMS'] = 'ALLE FORUMS';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Bestuur aanhegselkwotasgrense';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Hier kan u kwotasperke byvoeg / verwyder / verander. U kan hierdie Kwota Limiete later aan gebruikers en groepe toewys. Om \'n Kwota Limiet aan \'n gebruiker toe te ken, moet u na Gebruikers-> Bestuur, kies die gebruiker en u sal die opsies onderaan sien. Om \'n Kwota-limiet vir \'n groep toe te wys, gaan na Groeps-> Bestuur, kies die groep om dit te wysig en jy sal die konfigurasie-instellings sien. As jy wil sien watter gebruikers en groepe aan \'n spesifieke kwota limiet toegewys is, klik op \'View\' aan die linkerkant van die Kwota-beskrywing.';
-$lang['ASSIGNED_USERS'] = 'Toegewysde gebruikers';
-$lang['ASSIGNED_GROUPS'] = 'Toegewysde groepe';
-$lang['QUOTA_LIMIT_EXIST'] = 'Die Kwota Limiet %s bestaan ​​reeds.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'File Attachment Control Panel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Hier kan jy alle aanhangsels sien wat gebaseer is op gebruikers, aanhangsels, uitsigte, ens.';
-$lang['FILECOMMENT'] = 'Lêer Kommentaar';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Gebruik * as \'n wildkaart vir gedeeltelike wedstryde';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Aantal poste met aanhangsels';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Aantal onderwerpe met aanhangsels';
 $lang['NUMBER_USERS_ATTACH'] = 'Onafhanklike Gebruikers Geplaas Aanhegsels';
 $lang['NUMBER_PMS_ATTACH'] = 'Totale aantal bylaes in privaat boodskappe';
-$lang['ATTACHMENTS_PER_DAY'] = 'Aanhegsels per dag';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Bylae Statistiek vir %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigurasie suksesvol opgedateer';
 $lang['SET_DEFAULTS'] = 'Herstel standaard';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum opsies:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'Hou <i>Ctrl</i> vas terwyl jy verskeie forums kies';
 

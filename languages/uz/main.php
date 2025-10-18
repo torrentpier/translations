@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Ilova ham big.<br />Maximum upload hajmi
 $lang['DISALLOWED_EXTENSION'] = 'Extension %s ruxsat berilmagan'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Siz bu forumi doirasida uzaytirish %s fayllarni yozish uchun ruxsat yo\'q'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Ilova ham big.<br />Max hajmi: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Kechirasiz, lekin barcha uskunalar uchun maksimal hajmi erishilgan. Agar savollaringiz bo\'lsa, administratorga murojaat qiling.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Ilova max beri, qo\'shimcha mumkin emas. bu xabarga %d Qo\'shilgan soni erishildi'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Ilova / Image keng kam %d piksel va yuqori %d piksel bo\'lishi kerak';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Yuklashda xato: %s ILOVA yuklab bo\'lmadi.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Siz "ilova qo\'shish" Box qadriyatlar kiriting kerak';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'eski ilova usulidan topa olmadi, plagin yangilab bo\'lmadi';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Kechirasiz, lekin siz Xususiy Xabar papka barcha qo\'shimchalari uchun maksimal hajmi erishilgan qilindi. Sizning yuborilgan / olingan Qo\'shilgan ba\'zi o\'chirish, iltimos.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Kechirasiz, lekin "%s" Xususiy Xabar papka barcha qo\'shimchalari uchun maksimal hajmi erishilgan qilindi. unga xabar bering, yoki u / u Uning / Qo\'shilgan ba\'zi o\'chirib qadar kutib turing.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Siz yuklab yoki ko\'rish uchun qo\'shimcha tanlagan yo\'q.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Directory »%s» mavjud emas yoki topilmadi
 $lang['DIRECTORY_IS_NOT_A_DIR'] = '"%s" bir katalog bo\'lsa tekshiring.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalog \'%s\' yoziladigan emas. Siz yuklash yo\'lini yaratish kerak va 777 ga chmod qilish kerak (yoki egasini o\'zgartirishingiz kerak).<br />Agar faqat oddiy FTP kirishingiz bo\'lsa, katalog atributlarini rwxrwxrwx ga o\'zgartiring.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Yuklab olish kutmoqda';
-$lang['PM_QUOTA'] = 'AM kvotasi';
-
 // Common Variables
 $lang['BYTES'] = 'bytes';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Test Sozlamalar';
 $lang['NOT_ASSIGNED'] = 'ATANMAMIŞ';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'mavjud emas Fayl Comment';
 $lang['ATTACHBOX_LIMIT'] = 'Sizning Attachbox to\'liq<br /><b>%d%%</b>';
-$lang['NO_QUOTA_LIMIT'] = 'Yo\'q, kvota chegarasini';
 $lang['UNLIMITED'] = 'Cheksiz';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Simple rejimi';
 $lang['ADVANCED_MODE'] = 'Kengaytirilgan tartibi';
 $lang['MODERATOR_STATUS'] = 'moderator holati';
 
-$lang['ALLOWED_ACCESS'] = 'ruxsat Access';
-$lang['DISALLOWED_ACCESS'] = 'ruxsat etilmagan kirish huquqi';
-$lang['IS_MODERATOR'] = 'moderator emasmi';
-
-$lang['CONFLICT_WARNING'] = 'Avtorizatsiya ixtilof ogohlantirish';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Ushbu foydalanuvchi hali guruh a\'zoligiga orqali, bu forumda kirish huquqlariga ega. Siz guruh turishni o\'zgartirish yoki to\'liq foydalanish huquqiga ega, ularni oldini olish uchun, ushbu foydalanuvchi guruhini olib tashlash mumkin. Guruhlar berish huquqlari (va jalb forumlar) keltirilgan.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Ushbu foydalanuvchi hali guruh a\'zoligiga orqali, bu forumda uchun moderator huquqlarga ega. Siz guruh turishni o\'zgartirish yoki to\'liq moderator huquqlarga ega, ularni oldini olish uchun, ushbu foydalanuvchi guruhini olib tashlash mumkin. Guruhlar berish huquqlari (va jalb forumlar) keltirilgan.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Quyidagi foydalanuvchilar (yoki foydalanuvchi) hali o\'z foydalanuvchi ruxsat sozlash orqali, bu forumda kirish huquqlariga ega. Siz to\'liq foydalanish huquqiga ega, ularni oldini olish uchun foydalanuvchi ruxsatini o\'zgartirish mumkin. foydalanuvchilar berilgan huquqlari (va jalb forumlar) keltirilgan.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Quyidagi foydalanuvchilar (yoki foydalanuvchi) hali o\'z foydalanuvchi ruxsatini sozlash orqali, bu forumda uchun moderator huquqlarga ega. Siz to\'liq moderator huquqlarga ega, ularni oldini olish uchun foydalanuvchi ruxsatini o\'zgartirish mumkin. foydalanuvchilar berilgan huquqlari (va jalb forumlar) keltirilgan.';
-
 $lang['PUBLIC'] = 'ijtimoiy';
 $lang['PRIVATE'] = 'shaxsiy';
 $lang['REGISTERED'] = 'ro\'yxatga olingan';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'ovoz berish';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'So\'rov yaratish';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Fayllar';
 $lang['AUTH_DOWNLOAD'] = 'Fayllar Download';
-
-$lang['SIMPLE_PERMISSION'] = 'Oddiy ruxsati';
 
 $lang['USER_LEVEL'] = 'Foydalanuvchi darajasi';
 $lang['AUTH_USER'] = 'foydalanuvchi';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'sayt nomi';
 $lang['SITE_DESC'] = 'sayt tavsifi';
 $lang['FORUMS_DISABLE'] = 'O\'chirish kengashi';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Bu foydalanuvchilar uchun taxta mavjud bo\'ladi. Administratorlar kengashi o\'chiradi esa boshqaruv paneliga kirish imkoniyatiga ega.';
-$lang['ACCT_ACTIVATION'] = 'hisob faollashtirish yoqish';
 $lang['ACC_NONE'] = 'hech qaysi'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'foydalanuvchi';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'İmzalar\'ı ruxsat berish';
 $lang['MAX_SIG_LENGTH'] = 'Maksimal imzo uzunligi';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Foydalanuvchi imzolar bilan belgilarning maksimal soni';
 $lang['ALLOW_NAME_CHANGE'] = 'Login o\'zgarishlar ruxsat berish';
-
-$lang['EMAIL_SETTINGS'] = 'Email Sozlamalar';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Visual ma\'qul faollashtirish';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'foydalanuvchilar ro\'yxatga qachon bir tasvir tomonidan belgilangan kodini kiriting talab qiladi.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'avtomatik kirish ruxsat berish';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Smiley ma\'muriyati qaytish uchun %sHere%s b
 
 // User Management
 $lang['USER_ADMIN'] = 'Foydalanuvchi ma\'muriyati';
-$lang['USER_ADMIN_EXPLAIN'] = 'Bu yerda siz foydalanuvchilar axborot va ayrim variantlarini o\'zgartirishingiz mumkin. foydalanuvchilarning turishni o\'zgartirish uchun, foydalanuvchi va guruhlar turishni tizimini foydalaning.';
-
 $lang['LOOK_UP_USER'] = 'foydalanuvchi yuqoriga qara';
-
-$lang['ADMIN_USER_FAIL'] = 'Foydalanuvchining yangilash bo\'lmadi.';
-$lang['ADMIN_USER_UPDATED'] = 'Foydalanuvchining muvaffaqiyatli yangilandi.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Foydalanuvchi ma\'muriyati qaytish uchun %sHere%s bosing';
-
-$lang['USER_ALLOWPM'] = 'Shaxsiy xabar jo\'nata olasizmi';
-$lang['USER_ALLOWAVATAR'] = 'Foydalanuvchining profili Foydalanuvchining barcha ko\'rsatishi mumkin';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Bu erda siz ko\'rib va ​​foydalanuvchi joriy Foydalanuvchining o\'chirishingiz mumkin.';
-
-$lang['USER_SPECIAL'] = 'Maxsus admin-faqat sohalar';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Bunday joylar foydalanuvchilar tomonidan o\'zgartirish imkoniyatiga ega emas. Bu yerda siz ularning maqomi va foydalanuvchilarga berilmasa, boshqa variantlarni tanlashingiz mumkin.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Group ma\'muriyati';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'GB ustida bonuslar almashish uchun moslik Kirit
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Boshqaruv uskunasi';
-$lang['SHADOW_ATTACHMENTS'] = 'Shadow Qo\'shilgan';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Man Extensions';
 $lang['EXTENSION_CONTROL'] = 'kengaytma Control';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Kengaytma Guruhlar Control';
 $lang['SPECIAL_CATEGORIES'] = 'Maxsus Kategoriyalar';
-$lang['SYNC_ATTACHMENTS'] = 'Qo\'shilgan sinxronlashtirish';
-$lang['QUOTA_LIMITS'] = 'kutmoqda chegarasi';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'ilova Sozlamalar';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Ilova Mavzu Icon';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Bu Image Eklerle mavzular oldin ko\'rsatiladi. Agar belgi ko\'rsatiladi istamayman bo\'lsangiz bu joyni bo\'sh qoldiring.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Ilova ko\'rsatish tartibi';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Bu yerda siz Xabarlar Qo\'shilgan ko\'rsatish yoki tanlash mumkin / kamayish bo\'yicha Filetime ordeni (Eng yangi ilova birinchi) yoki o\'sish bo\'yicha Filetime ordeni (Ko\'paygan ilova birinchi) bilan PMS.';
-$lang['SHOW_APCP'] = 'yangi nazorat panel ilovalarni foydalaning';
-$lang['SHOW_APCP_EXPLAIN'] = '(Ha) alohida nazorat panel ilovalarni foydalanish xohlaysizmi tanlang, yoki xabar qutisiga ilovalar va tahrirlash ilovalar (hech) uchun ikki qutilari bilan eski usul. Bu qanday ko\'rinadi tushuntirib, shuning uchun o\'zingiz uchun harakat qilish qiyin.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Fayl hajmi';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Smaylik uchun Maximum hajmi. Qiymati 0 \'cheksiz ", degan ma\'noni anglatadi. Ushbu sozlama sizning Server konfiguratsion tomonidan cheklangan. PHP Konfiguratsiya faqat 2 MB yuklamalar eng ko\'pi beradi Misol uchun, agar, bu Tartibni tomonidan yoziladi mumkin emas.';
-$lang['ATTACH_QUOTA'] = 'ilova kvotasi';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimal disk maydoni har smaylik sizning Webspace ushlab mumkin. Qiymati 0 \'cheksiz ", degan ma\'noni anglatadi.';
 $lang['MAX_FILESIZE_PM'] = 'Xususiy Xabarlar Papka Maximum hajmi';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimal Disk Space smaylik har Foydalanuvchi bilan aloqa Foydalanuvchining Xabar qutisiga tashkil foydalanishingiz mumkin. Qiymati 0 \'cheksiz ", degan ma\'noni anglatadi.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Standart kutmoqda limiti';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Bu yerda siz bir belgilangan kvota chegarasini holda avtomatik ravishda yangi, ro\'yxatdan o\'tgan foydalanuvchilar va foydalanuvchilar tayinlangan Standart kutmoqda ishlamasligi tanlash imkoniyatiga ega. Option "Yo\'q kvotasi Limit" o\'rniga siz bu boshqaruv panelida doirasida belgilangan Standart Sozlamalar foydalanib, har qanday ilova Kutmoqda yordamida emas, balki uchundir.';
 
 $lang['MAX_ATTACHMENTS'] = 'Qo\'shilgan maksimal soni';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'qo\'shimchalari maksimal soni bir post berdi.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'O\'chirish ilova Tartibni';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Bu variant, asosan, yangi shablonini yoki mavzularni sinov uchun, bu Admin panel tashqari barcha ilova vazifalari o\'chirib hisoblanadi.';
 $lang['PM_ATTACHMENTS'] = 'Xususiy xabar qo\'shimchalarini ruxsat berish';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Xususiy Xabarlar fayllarni birikib yo\'l /.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'javob yozish kommunikatsiya mavzular ko\'rib ko\'rsatish ilovalar?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Agar "ha" qo\'yish bo\'lsa, barcha ilovalar kommunikatsiya mavzularidan ko\'rib ko\'rsatiladi.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Bu yerda siz fayllar fayl tizimi dan kam bo\'lsa joylagan dan ilova ma\'lumotlarni o\'chirish va endi har qanday forumga biriktirilgan fayllarni o\'chirishingiz mumkin. Siz yuklab yoki ustiga bosing, agar faylni ko\'rish mumkin; hech bog\'laning mavjud bo\'lsa, fayl mavjud emas.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Sizning fayl tizimi mavjud va mavjud lavozimiga tayinlangan emas, barcha qo\'shimchalar fayllarni o\'chirish.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Sizning fayl tizimi mavjud bo\'lmagan fayllarni uchun barcha mavzu ochishga ilova ma\'lumotlarni o\'chirish.';
-$lang['EMPTY_FILE_ENTRY'] = 'Bo\'sh Fayl kirishi';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Ko\'rinish %s riqjalari uchun qayta o\'rnatildi'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Biriktirma sinxronizatsiyasi tugallandi.';
 $lang['SYNC_TOPICS'] = 'Sinx Mavzular';
 $lang['SYNC_POSTS'] = 'Sinx Xabarlar';
-$lang['SYNC_THUMBNAILS'] = 'Sinx Thumbnails';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Kengaytmalarni boshqarish';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Bu yerda siz fayl kengaytmalari boshqarishingiz mumkin. Agar imkon bo\'lsangiz / a Extension yuklangan bo\'lishi bermaslik, Extension Guruhlar boshqarish foydalaning.';
 $lang['EXPLANATION'] = 'tushuntirish';
 $lang['EXTENSION_GROUP'] = 'kengaytma Group';
-$lang['INVALID_EXTENSION'] = 'noto\'g\'ri Extension';
 $lang['EXTENSION_EXIST'] = '%s allaqachon mavjud Extension'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Extension %s siz ruxsat Extensions uni kiritish mumkin emas, harom'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Kengaytma Guruhlar boshqarish';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Extension Group %s allaqachon mavjud'; // repl
 $lang['MANAGE_CATEGORIES'] = 'Maxsus Kategoriyalar boshqarish';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Bu yerda siz Maxsus Kategoriyalarni sozlashingiz mumkin. Siz Extension Group uchun tayinlangan Maxsus Kategoriyalar uchun Maxsus Parametrlar va Shartlarni o\'rnatasiz.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Maxsus Turkum uchun Sozlamalar: Tasvirlar';
-$lang['SETTINGS_CAT_FLASH'] = 'Maxsus Turkum uchun Sozlamalar: Flash Fayllar';
 $lang['DISPLAY_INLINED'] = 'Rasm Inlined ko\'rsatiladi';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'to\'g\'ridan post (ha) doirasida tasvirlarni namoyish qilish uchun yoki ko\'prik sifatida tasvir ko\'rsatish tanlang?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimal Rasm hajmi';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Thumbnail yaratish';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimal thumbnail fayl hajmi';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Agar rasm belgilangan fayl hajmidan kichik bo\'lsa, hech thumbnail yaratilmaydi, chunki bu etarlicha kichik.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Man kengaytmasini boshqarish';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Bu yerda siz harom kengaytmalar qo\'shish yoki o\'chirish mumkin. Extensions php, php3 va PHP4 xavfsizlik sabablaridan uchun sukut taqiqlangan, siz ularni o\'chirish mumkin emas.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = '%s allaqachon mavjud taqiqlanadi Extension'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Extension %s sizning ruxsat Extensions belgilangan, o\'chirish ularning bu erdan qo\'shishingiz oldin.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Kengaytma guruh ruxsatlari → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Bu yerda siz (ruxsat Forumlar Box belgilangan), tanlagan Forumlar uchun tanlangan Extension guruhi cheklash ega. Default Foydalanuvchi kirib fayllarni qodir barcha Forumlar (normal tarzda boshidan buyon Tartibni qildim-ilova) uchun Extension Guruhlar ruxsat berishdir. Faqat siz, u yerda siz ro\'yxatiga Forumlar qo\'shsangiz barcha forumlarda yo\'qoladi default ruxsat berilishi uchun Extension guruhi (bu guruh ichida Extensions) xohlagan kishilar Forumlar qo\'shing. Siz har qanday vaqtda barcha forumlarda qayta qo\'shishingiz mumkin. Agar barcha forumlarda uchun Kengashiga a Forum qo\'shing va ruxsat o\'rnatilgan bo\'lsa hech narsa o\'zgaradi. Agar o\'zgardi va ma\'lum Forumlar kirish cheklangan bo\'lsa, Ammo, siz yangi yaratgan Forum qo\'shish uchun shu yerni qaytarib tekshirish kerak. Bu avtomatik ravishda Buning uchun oson, lekin bu shuning i u hozir yo\'l tanlagan, fayllar, bir guruh tahrir sizni majbur qiladi. Sizning Forumlar barcha bu erda sanab o\'tadi, deb, yodda tuting.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Forumlar qo\'shish';
 $lang['ADD_SELECTED'] = 'qo\'shish Tanlangan';
 $lang['PERM_ALL_FORUMS'] = 'barcha forumlar';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Ilova kutmoqda chegarasi boshqarish';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Bu yerda siz / kiritish o\'chirish / o\'zgartirish kvotasi chegaralariga ega. Siz keyinchalik foydalanuvchilar va Guruhlar bu kutmoqda chegarasi yuklansin ega. bir foydalanuvchi uchun kutmoqda ishlamasligi tayinlash uchun,> boshqarish Users- foydalanuvchi tanlash uchun borish kerak va siz pastki qismidagi-r ko\'rasiz. bir guruhi uchun bir kvotasi limiti tayinlash uchun, Groups-> boshqarish borish, uni tahrir qilish uchun guruh-ni tanlang va siz konfiguratsiya sozlamalarini ko\'rasiz. Agar, foydalanuvchilar va Guruhlar muayyan kvota chegarasini tayinlangan qaysi, qarang kvotasi Sharh chap »View" tugmasini bosing bo\'lsangiz.';
-$lang['ASSIGNED_USERS'] = 'Tayinlangan Foydalanuvchilar';
-$lang['ASSIGNED_GROUPS'] = 'Tayinlangan Guruhlar';
-$lang['QUOTA_LIMIT_EXIST'] = 'allaqachon mavjud %s kvota chegarasini.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'File Attachment Control Panel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Bu yerda siz foydalanuvchilar, Qo\'shilgan Ko\'rishlar etc asoslangan Barcha qo\'shimchalari ko\'rish va boshqarishingiz mumkin ...';
-$lang['FILECOMMENT'] = 'Fayl Comment';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'qisman o\'yinlarda uchun * belgisini joker sifatida foydalaning';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Eklerle Xabarlar soni';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Qo\'shilgan mavzular soni';
 $lang['NUMBER_USERS_ATTACH'] = 'Mustaqil Foydalanuvchilar Qo\'shilgan Posted';
 $lang['NUMBER_PMS_ATTACH'] = 'Xususiy xabar qo\'shimchalarini umumiy soni';
-$lang['ATTACHMENTS_PER_DAY'] = 'Kuniga Qo\'shilgan';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = '%s uchun plagin Statistika'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfiguratsiya muvaffaqiyatli Yangilangan';
 $lang['SET_DEFAULTS'] = 'Standart sozlamalarni tiklash';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum imkoniyatlari:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'bir necha forumlar tanlashda esa <i>Ctrl</i> ushlab turing';
 

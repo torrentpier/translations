@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'La pièce Jointe est trop grand.<br />Ma
 $lang['DISALLOWED_EXTENSION'] = 'L\'Extension %s n\'est pas autorisé'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Vous n\'êtes pas autorisé à poster des Fichiers avec l\'Extension %s au sein de ce Forum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'La pièce jointe est trop grande.<br />Taille maximum : %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Désolé, mais la taille maximale de fichier pour toutes les pièces jointes est atteinte. Veuillez contacter l\'administrateur du conseil si vous avez des questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'La pièce jointe ne peut pas être ajouté, depuis le max. nombre de %d de pièces Jointes dans ce post a été réalisé'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'La pièce Jointe/Image doit être inférieur à %d pixels de large et %d pixels de haut';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Télécharger Erreur: impossible de télécharger la pièce Jointe pour %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Vous devez entrer des valeurs dans le "Ajouter une pièce Jointe à une "boite"';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Impossible de mettre à Jour l\'Attachement, ne pouvait pas trouver de vieux Attachement Entrée';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Désolé, mais la taille maximale de fichier pour toutes les pièces jointes dans votre dossier de messages privés a été atteinte. Veuillez supprimer certaines de vos pièces jointes envoyées/reçues.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Désolé, mais la taille maximale de fichier pour toutes les pièces jointes dans le dossier de messages privés de \'%s\' a été atteinte. Veuillez lui faire savoir, ou attendez qu\'il/elle ait supprimé certaines de ses pièces jointes.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Vous n\'avez pas sélectionné une pièce jointe à télécharger ou à visionner.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Le Répertoire \'%s" n\'existe pas ou n\'a 
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Veuillez vérifier si \'%s\' est un répertoire.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Le répertoire \'%s\' n\'est pas accessible en écriture. Vous devez créer le chemin de téléchargement et le chmod à 777 (ou changer le propriétaire pour le propriétaire de votre serveur httpd) pour télécharger des fichiers.<br />Si vous n\'avez qu\'un accès FTP simple, changez l\'« Attribut » du répertoire à rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Télécharger Des Quotas';
-$lang['PM_QUOTA'] = 'PM Quota';
-
 // Common Variables
 $lang['BYTES'] = 'Octets';
 $lang['KB'] = 'KO';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Paramètres De Test';
 $lang['NOT_ASSIGNED'] = 'Pas Attribué';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Aucun Fichier de Commentaires disponibles';
 $lang['ATTACHBOX_LIMIT'] = 'Votre boîte de pièces jointes est<br /><b>%d%%</b> pleine';
-$lang['NO_QUOTA_LIMIT'] = 'Pas De Limite De Quota';
 $lang['UNLIMITED'] = 'Illimitée';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Mode Simple';
 $lang['ADVANCED_MODE'] = 'Mode Avancé';
 $lang['MODERATOR_STATUS'] = 'Statut de modérateur';
 
-$lang['ALLOWED_ACCESS'] = 'Accès Autorisé';
-$lang['DISALLOWED_ACCESS'] = 'Interdits D\'Accès';
-$lang['IS_MODERATOR'] = 'Est Modérateur';
-
-$lang['CONFLICT_WARNING'] = 'Avertissement de conflit d\'autorisation';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Cet utilisateur a des droits d\'accès à ce forum via l\'appartenance à un groupe. Vous pouvez modifier les autorisations de groupe ou de supprimer cet utilisateur au groupe d\'pleinement les empêcher d\'avoir des droits d\'accès. Les groupes de l\'octroi de droits (et les forums concernés) sont indiquées ci-dessous.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Cet utilisateur a toujours modérateur droits de ce forum via l\'appartenance à un groupe. Vous pouvez modifier les autorisations de groupe ou de supprimer cet utilisateur au groupe d\'pleinement les empêcher d\'avoir modérateur droits. Les groupes de l\'octroi de droits (et les forums concernés) sont indiquées ci-dessous.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'L\'utilisateur suivant (ou les utilisateurs) ont encore des droits d\'accès à ce forum par l\'intermédiaire de leur autorisation de l\'utilisateur paramètres. Vous pouvez modifier les autorisations de l\'utilisateur pleinement les empêcher d\'avoir des droits d\'accès. Les utilisateurs de l\'octroi de droits (et les forums concernés) sont indiquées ci-dessous.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'L\'utilisateur suivant (ou les utilisateurs), il reste encore modérateur droits de ce forum par l\'intermédiaire de leurs autorisations de l\'utilisateur paramètres. Vous pouvez modifier les autorisations de l\'utilisateur pleinement les empêcher d\'avoir modérateur droits. Les utilisateurs de l\'octroi de droits (et les forums concernés) sont indiquées ci-dessous.';
-
 $lang['PUBLIC'] = 'Public';
 $lang['PRIVATE'] = 'Privé';
 $lang['REGISTERED'] = 'Enregistré';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Vote';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Créer un sondage';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Publier Des Fichiers';
 $lang['AUTH_DOWNLOAD'] = 'Télécharger Des Fichiers';
-
-$lang['SIMPLE_PERMISSION'] = 'Simple Autorisations';
 
 $lang['USER_LEVEL'] = 'Le Niveau De L\'Utilisateur';
 $lang['AUTH_USER'] = 'L\'utilisateur';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Nom du Site';
 $lang['SITE_DESC'] = 'Description du Site';
 $lang['FORUMS_DISABLE'] = 'Désactiver le conseil d\'administration';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Cela rendra le conseil indisponibles pour les utilisateurs. Les administrateurs sont en mesure d\'accéder au Panneau d\'Administration, alors que le conseil est désactivé.';
-$lang['ACCT_ACTIVATION'] = 'Permettre d\'activation de compte';
 $lang['ACC_NONE'] = 'Aucun'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'L\'utilisateur';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Autoriser Les Signatures';
 $lang['MAX_SIG_LENGTH'] = 'Maximum de la signature de la longueur';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Nombre Maximum de caractères que l\'utilisateur signatures';
 $lang['ALLOW_NAME_CHANGE'] = 'Permettre les changements de nom d\'utilisateur';
-
-$lang['EMAIL_SETTINGS'] = 'Paramètres De Messagerie';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Activer La Confirmation Visuelle';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Demande aux utilisateurs d\'entrer un code défini par une image lors de l\'enregistrement.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Autoriser les connexions automatiques';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Cliquez sur %sHere%s pour revenir à Smiley 
 
 // User Management
 $lang['USER_ADMIN'] = 'Administration Des Utilisateurs';
-$lang['USER_ADMIN_EXPLAIN'] = 'Ici, vous pouvez changer vos utilisateurs des informations et certaines options. Pour modifier les autorisations d\'utilisateurs, veuillez utiliser le groupe d\'utilisateurs et autorisations du système.';
-
 $lang['LOOK_UP_USER'] = 'Regardez en haut de l\'utilisateur';
-
-$lang['ADMIN_USER_FAIL'] = 'Impossible de mettre à jour le profil de l\'utilisateur.';
-$lang['ADMIN_USER_UPDATED'] = 'Le profil de l\'utilisateur a été mis à jour avec succès.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Cliquez sur %sHere%s pour revenir à l\'Administration de l\'Utilisateur';
-
-$lang['USER_ALLOWPM'] = 'Pouvez envoyer des Messages Privés';
-$lang['USER_ALLOWAVATAR'] = 'Peut afficher l\'avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Ici vous pouvez voir et supprimer l\'utilisateur avatar actuel.';
-
-$lang['USER_SPECIAL'] = 'Spécial admin-seuls les champs';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Ces champs ne sont pas en mesure d\'être modifié par les utilisateurs. Ici, vous pouvez définir leur statut et d\'autres options qui ne sont pas donné à tous les utilisateurs.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'D\'Administration Du Groupe';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Proportion plus pour un échange de bonus sur G
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Panneau De Contrôle';
-$lang['SHADOW_ATTACHMENTS'] = 'L\'Ombre Des Pièces Jointes';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Interdit Extensions';
 $lang['EXTENSION_CONTROL'] = 'Le Contrôle De L\'Extension';
 $lang['EXTENSION_GROUP_MANAGE'] = 'L\'Extension Des Groupes De Contrôle';
 $lang['SPECIAL_CATEGORIES'] = 'Catégories Spéciales';
-$lang['SYNC_ATTACHMENTS'] = 'Synchroniser Les Pièces Jointes';
-$lang['QUOTA_LIMITS'] = 'Les Limites De Quota';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Les Paramètres De Pièce Jointe';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'L\'Attachement Sujet Icône';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Cette Image est affichée avant de rubriques avec des pièces Jointes. Laissez ce champ vide si vous ne voulez pas une icône à afficher.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'L\'Attachement Ordre D\'Affichage';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Ici, vous pouvez choisir d\'afficher les pièces Jointes dans les Messages/PMs en Descendant Filetime Ordre (de la plus récente pièce Jointe en Premier) ou Ascendante Filetime Ordre (la plus ancienne pièce Jointe en Premier).';
-$lang['SHOW_APCP'] = 'Utiliser les nouvelles applications du panneau de contrôle';
-$lang['SHOW_APCP_EXPLAIN'] = 'Choisissez si vous souhaitez utiliser un panneau de contrôle séparé des applications (oui), ou l\'ancienne méthode avec deux boîtes pour les applications et les applications de montage (aucun) dans la boîte de message. Il est difficile d\'expliquer à quoi il ressemble, donc essayez-le pour vous-même.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Taille du fichier';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Taille Maximum des pièces Jointes. Une valeur de 0 signifie \'illimité\'. Ce Paramètre est limité par la Configuration de votre Serveur. Par exemple, si votre Configuration de php ne permet qu\'un maximum de 2 MO de téléchargement, ce ne peut pas être remplacé par le Mod.';
-$lang['ATTACH_QUOTA'] = 'Fixation De Quotas';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Espace Disque Maximum TOUTES les pièces Jointes peuvent contenir sur votre Espace web. Une valeur de 0 signifie \'illimité\'.';
 $lang['MAX_FILESIZE_PM'] = 'Taille Maximum d\'un fichier dans le Dossier des Messages Privés';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Espace Disque maximal de pièces Jointes peuvent utiliser jusqu\'à chaque Privée de l\'Utilisateur de la boîte de Message. Une valeur de 0 signifie \'illimité\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Par Défaut La Limite Du Quota';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Ici, vous êtes en mesure de sélectionner la valeur par Défaut de la Limite du Quota attribué automatiquement aux nouveaux Utilisateurs enregistrés et les Utilisateurs sans défini la Limite du Quota. L\'Option "Pas de Limite de Quota\' est pour ne pas utiliser du tout de Fixation des Quotas, au lieu d\'utiliser les Paramètres par défaut que vous avez défini à l\'intérieur de ce Panneau de Gestion.';
 
 $lang['MAX_ATTACHMENTS'] = 'Nombre Maximum de pièces Jointes';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Le nombre maximum de pièces jointes autorisées dans un post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Désactiver L\'Attachement Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Cette option est principalement pour les essais de nouveaux modèles ou des thèmes, il désactive toutes les pièce Jointe les Fonctions à l\'exception du Panneau d\'administration.';
 $lang['PM_ATTACHMENTS'] = 'Autoriser les pièces Jointes dans les Messages Privés';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Autoriser/Interdire l\'ajout de fichiers à des Messages Privés.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Montrer des applications dans l\'examen des communications des sujets lors de la rédaction d\'une réponse?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Si vous mettez un "oui", toutes les demandes seront affichées dans l\'examen des communications des sujets.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Ici, vous pouvez supprimer les données de pièce jointe de l\'affichage lorsque les fichiers sont manquants à partir de votre système de fichiers, et de supprimer les fichiers qui ne sont plus rattachés à toutes les offres. Vous pouvez le télécharger ou le visualiser un fichier si vous cliquez sur elle; si aucun lien n\'est présent, le fichier n\'existe pas.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Supprimer toutes les pièces jointes des fichiers qui existent sur votre système de fichiers et ne sont pas affectés à un poste existant.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Supprimer toutes les publications de l\'attachement de données pour les fichiers qui n\'existent pas sur votre système de fichiers.';
-$lang['EMPTY_FILE_ENTRY'] = 'Vider Le Fichier D\'Entrée';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'L\'aperçu a été réinitialisé pour la pièce jointe : %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Synchronisation des pièces jointes terminée.';
 $lang['SYNC_TOPICS'] = 'Synchronisation Des Sujets';
 $lang['SYNC_POSTS'] = 'Synchronisation Des Messages';
-$lang['SYNC_THUMBNAILS'] = 'Synchronisation Des Vignettes';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Gérer Les Extensions';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Ici, vous pouvez gérer vos Extensions de Fichier. Si vous souhaitez autoriser/interdire une Extension à être téléchargé, veuillez utiliser l\'Extension des Groupes de Gestion.';
 $lang['EXPLANATION'] = 'Explication';
 $lang['EXTENSION_GROUP'] = 'Extension Du Groupe';
-$lang['INVALID_EXTENSION'] = 'Extension Non Valide';
 $lang['EXTENSION_EXIST'] = 'L\'Extension %s existent déjà'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'L\'Extension %s est interdit, vous n\'êtes pas en mesure de l\'ajouter les Extensions autorisées'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Gérer L\'Extension De Groupes';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'L\'Extension du Groupe %s existent déjà'; //
 $lang['MANAGE_CATEGORIES'] = 'Gérer Les Catégories Spéciales';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ici, vous pouvez configurer les Catégories Spéciales. Vous pouvez configurer des Paramètres Spéciaux et des Conditions pour les Catégories Spéciales attribuées à un Groupe d\'Extension.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Paramètres de Catégorie Spéciale: les Images';
-$lang['SETTINGS_CAT_FLASH'] = 'Paramètres de Catégorie Spéciale: les Fichiers Flash';
 $lang['DISPLAY_INLINED'] = 'Afficher les images en ligne';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Choisir d\'afficher les images directement dans le post (oui) ou pour afficher les images sous forme de lien ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximum Les Dimensions De L\'Image';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Créer Une Vignette';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Taille minimale de fichier de miniature';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Si une image est plus petite que cette taille de fichier définie, aucune miniature ne sera créée, car elle est suffisamment petite.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Gérer Interdit Extensions';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Ici, vous pouvez ajouter ou supprimer l\'interdit extensions. Les Extensions php, php3 et php4 sont interdits par défaut pour des raisons de sécurité, vous ne pouvez pas les supprimer.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'L\'interdit de l\'Extension %s existent déjà'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'L\'Extension %s est définie dans vos Extensions autorisées, veuillez le supprimer leurs avant de l\'ajouter ici.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Autorisations de groupe d\'extensions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Ici vous êtes en mesure de restreindre l\'Extension sélectionnée Groupe de Forums de votre choix (défini dans les Forums de Zone). La valeur par Défaut est de permettre l\'Extension des Groupes à tous les Forums que l\'Utilisateur est en mesure de Joindre des Fichiers (la voie normale de la pièce Jointe Mod il l\'a fait depuis le début). Ajoutez simplement à ces Forums, vous voulez l\'Extension du Groupe (les Extensions au sein de ce Groupe) pour être autorisés, par défaut TOUS les FORUMS disparaissent lorsque vous ajoutez des Forums à la Liste. Vous êtes en mesure d\'ajouter à nouveau TOUS les FORUMS à un Moment donné. Si vous ajouter un Forum à votre Conseil d\'administration et l\'Autorisation est définie sur TOUS les FORUMS, rien ne changera. Mais si vous avez changé et restreint l\'accès à certains Forums, vous devez vérifier ici pour ajouter votre Forum créé. Il est facile de le faire automatiquement, mais cela va vous forcer à modifier un tas de Fichiers, j\'ai donc choisi la manière qu\'il est maintenant. Veuillez garder à l\'esprit, que tous vos Forums seront répertoriés ici.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Ajouter Des Forums';
 $lang['ADD_SELECTED'] = 'Ajouter La Sélection';
 $lang['PERM_ALL_FORUMS'] = 'TOUS LES FORUMS';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Gérer La Fixation Des Limites De Quota';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Ici vous êtes en mesure d\'ajouter/supprimer/modifier les Limites de Quota. Vous êtes en mesure d\'attribuer ces Limites de Quotas pour les Utilisateurs et les Groupes plus tard. Pour assigner une Limite de Quota d\'un Utilisateur, vous devez aller pour les Utilisateurs->Gestion de l\'Utilisateur, sélectionnez-le et vous verrez les Options en bas. Pour assigner une Limite de Quota à un Groupe, allez à des Groupes->Gestion de l\', sélectionnez le Groupe à modifier, et vous verrez les Paramètres de Configuration. Si vous voulez le voir, les Utilisateurs et les Groupes sont assignées à une Limite de Quota, cliquez sur "Affichage" à la gauche du Quota de Description.';
-$lang['ASSIGNED_USERS'] = 'Les Utilisateurs Assignés';
-$lang['ASSIGNED_GROUPS'] = 'Affectés À Des Groupes';
-$lang['QUOTA_LIMIT_EXIST'] = 'La Limite de Quota %s existent déjà.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Fichier En Pièce Jointe Panneau De Contrôle';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Ici, vous pouvez afficher et gérer toutes les pièces jointes basées sur les Utilisateurs, les pièces Jointes, Vues, etc...';
-$lang['FILECOMMENT'] = 'Fichier De Commentaire';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Utilisez * comme joker pour les correspondances partielles';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Nombre de Messages avec pièces Jointes';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Nombre de Sujets avec des pièces Jointes';
 $lang['NUMBER_USERS_ATTACH'] = 'Utilisateurs Indépendants Posté Pièces Jointes';
 $lang['NUMBER_PMS_ATTACH'] = 'Nombre Total de pièces Jointes dans les Messages Privés';
-$lang['ATTACHMENTS_PER_DAY'] = 'Pièces jointes par jour';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'L\'attachement des Statistiques pour %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Configuration De La Mise À Jour Avec Succès';
 $lang['SET_DEFAULTS'] = 'Restaurer les paramètres par défaut';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum options:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'maintenez <i>Ctrl</i> tout en sélectionnant plusieurs forums';
 

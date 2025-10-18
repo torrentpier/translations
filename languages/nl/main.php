@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'De Bijlage is te groot.<br />Maximum Upl
 $lang['DISALLOWED_EXTENSION'] = 'De Uitbreiding %s is niet toegestaan'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'U bent niet toegestaan om te posten Bestanden met de Extensie %s in dit Forum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'De Bijlage is te groot.<br />Max Grootte: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, maar de maximale bestandsgrootte voor alle Bijlagen is bereikt. Neem contact op met de Beheerder als je vragen hebt.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Bijlage kan niet worden toegevoegd, aangezien de max. aantal %d Bijlagen in deze post werd bereikt'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'De Bijlage/Afbeelding moet kleiner zijn dan %d pixels breed en %d pixels hoog';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Upload Error: Kan niet uploaden als Bijlage aan %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Je moet de waarden in de "Bijlage Toevoegen" Doos';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Niet Bijwerken Bijlage, kon het niet vinden van de oude Bijlage Vermelding';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, maar de maximale bestandsgrootte voor alle Bijlagen in uw Privé-Bericht Map is bereikt. Verwijder enkele van de ontvangen/verzonden Bijlagen.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, maar de maximale bestandsgrootte voor alle Bijlagen in de Privé-Bericht in de Map \'%s\' is bereikt. Laat het hem weten, of wachten tot hij/zij heeft verwijderde een aantal van zijn/haar Bijlagen.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Je hebt niet gekozen voor een bijlage te downloaden of te bekijken.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'De Directory \'%s\' bestaat niet of Kan nie
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Gelieve te controleren als de \'%s\' is een directory.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is niet schrijfbaar. Je hebt te maken met de upload pad en chmod naar 777 (of het wijzigen van de eigenaar om je httpd-servers eigenaar) om bestanden te uploaden.<br />Als u alleen normaal FTP-toegang tot het wijzigen van de \'Kenmerk\' van de map rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Upload Quota';
-$lang['PM_QUOTA'] = 'PM Quota';
-
 // Common Variables
 $lang['BYTES'] = 'Bytes';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Instellingen Testen';
 $lang['NOT_ASSIGNED'] = 'Niet Toegewezen';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Geen Bestand geen Commentaar beschikbaar';
 $lang['ATTACHBOX_LIMIT'] = 'Uw Attachbox is<br /><b>%d%%</b> volledige';
-$lang['NO_QUOTA_LIMIT'] = 'Geen Limiet';
 $lang['UNLIMITED'] = 'Onbeperkt';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'In De Eenvoudige Modus';
 $lang['ADVANCED_MODE'] = 'De Geavanceerde Modus';
 $lang['MODERATOR_STATUS'] = 'Moderator-status';
 
-$lang['ALLOWED_ACCESS'] = 'Toegang';
-$lang['DISALLOWED_ACCESS'] = 'Verboden Toegang';
-$lang['IS_MODERATOR'] = 'Is Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Toestemming Conflict Waarschuwing';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Deze gebruiker heeft nog steeds de rechten op toegang tot dit forum via een groepslidmaatschap. U wilt voor het wijzigen van de rechten of deze gebruiker verwijderen de groep volledig om te voorkomen dat ze toegang hebben rechten. De groepen toekennen van rechten (en de forums zijn betrokken) zijn hieronder vermeld.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Deze gebruiker heeft nog steeds moderator rechten om dit forum via een groepslidmaatschap. U wilt voor het wijzigen van de rechten of deze gebruiker verwijderen de groep volledig om te voorkomen dat ze met moderator-rechten. De groepen toekennen van rechten (en de forums zijn betrokken) zijn hieronder vermeld.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'De volgende gebruiker (of gebruikers) nog steeds toegang hebt tot dit forum via hun gebruiker rechten-instellingen. U wilt voor het wijzigen van de machtigingen volledig om te voorkomen dat ze toegang hebben rechten. De gebruikers toegekende rechten (en de forums zijn betrokken) zijn hieronder vermeld.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'De volgende gebruiker (of gebruikers) nog steeds moderator rechten om dit forum via hun gebruiker de instellingen voor machtigingen. U wilt voor het wijzigen van de machtigingen volledig om te voorkomen dat ze met moderator-rechten. De gebruikers toegekende rechten (en de forums zijn betrokken) zijn hieronder vermeld.';
-
 $lang['PUBLIC'] = 'Openbaar';
 $lang['PRIVATE'] = 'Privé';
 $lang['REGISTERED'] = 'Geregistreerd';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Stemmen';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Poll maken';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Bestanden Posten';
 $lang['AUTH_DOWNLOAD'] = 'Download Bestanden';
-
-$lang['SIMPLE_PERMISSION'] = 'Eenvoudige Machtigingen';
 
 $lang['USER_LEVEL'] = 'Gebruiker Niveau';
 $lang['AUTH_USER'] = 'Gebruiker';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'De naam van de Site';
 $lang['SITE_DESC'] = 'Beschrijving van de website';
 $lang['FORUMS_DISABLE'] = 'Uitschakelen van bestuur';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Dit zorgt ervoor dat de raad niet beschikbaar voor gebruikers. Beheerders zijn in staat om toegang te krijgen tot de Administratie Paneel terwijl de raad van bestuur is uitgeschakeld.';
-$lang['ACCT_ACTIVATION'] = 'Account inschakelen activering';
 $lang['ACC_NONE'] = 'Geen'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Gebruiker';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Laat Handtekeningen';
 $lang['MAX_SIG_LENGTH'] = 'Maximale lengte handtekening';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximum aantal tekens in van de gebruiker handtekeningen';
 $lang['ALLOW_NAME_CHANGE'] = 'Toestaan Gebruikersnaam wijzigingen';
-
-$lang['EMAIL_SETTINGS'] = 'E-Mail Instellingen';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'U Visuele Bevestiging';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Vereist gebruikers invoeren van een code is gedefinieerd door een afbeelding bij het registreren.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Laat automatische aanmeldingen';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klik op %sHere%s om terug te keren naar Smil
 
 // User Management
 $lang['USER_ADMIN'] = 'Gebruikers Administratie';
-$lang['USER_ADMIN_EXPLAIN'] = 'Hier kunt u uw gebruikers\' informatie en bepaalde opties. Wijzigen van de gebruikersrechten, gebruikt u de gebruikers-en groeps machtigingen systeem.';
-
 $lang['LOOK_UP_USER'] = 'Gebruikers';
-
-$lang['ADMIN_USER_FAIL'] = 'Kan niet worden bijgewerkt het profiel van de gebruiker.';
-$lang['ADMIN_USER_UPDATED'] = 'Het profiel van de gebruiker met succes is bijgewerkt.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klik op %sHere%s aan Gebruiker te retourneren Administratie';
-
-$lang['USER_ALLOWPM'] = 'Kan het versturen van Privé Berichten';
-$lang['USER_ALLOWAVATAR'] = 'Kan weergeven avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Hier kunt u zien en verwijderen van de gebruiker huidige avatar.';
-
-$lang['USER_SPECIAL'] = 'Speciale admin-alleen velden';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Deze velden kunnen niet worden gewijzigd door de gebruikers. Hier kunt u de status en andere opties die niet gegeven worden aan gebruikers.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Groep Administratie';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Percentage toevoeging voor een uitwisseling van
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Control Panel';
-$lang['SHADOW_ATTACHMENTS'] = 'Schaduw Bijlagen';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Verboden Extensies';
 $lang['EXTENSION_CONTROL'] = 'Uitbreiding Controle';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Uitbreiding Groepen Te Controleren';
 $lang['SPECIAL_CATEGORIES'] = 'Speciale Categorieën';
-$lang['SYNC_ATTACHMENTS'] = 'Synchroniseren Bijlagen';
-$lang['QUOTA_LIMITS'] = 'Quotalimieten';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Bijlage Instellingen';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Bijlage Onderwerp Pictogram';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Dit Beeld wordt weergegeven voor onderwerpen met Bijlagen. Laat dit veld leeg als u niet wilt dat een pictogram worden weergegeven.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Bijlage Display Om';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Hier kunt u kiezen of u de Bijlagen in Berichten/PMs in Aflopende Filetime Volgorde (Nieuwste Bijlage) of Oplopende Filetime Om de (Oudste Bijlage).';
-$lang['SHOW_APCP'] = 'Gebruik het nieuwe controle paneel toepassingen';
-$lang['SHOW_APCP_EXPLAIN'] = 'Kies of u wilt gebruik maken van een aparte controle paneel toepassingen (ja), of de oude methode met twee vakken voor toepassingen en bewerken van applicaties (geen) in het vak bericht. Het is moeilijk om uit te leggen hoe het eruit ziet, dus probeer het uit voor jezelf.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Bestandsgrootte';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'De maximale bestandsgrootte voor Bijlagen. Een waarde van 0 betekent \'onbeperkt\'. Deze Instelling wordt beperkt door de Configuratie van uw Server. Bijvoorbeeld, als uw php Configuratie staat slechts een maximum van 2 MB upload, dit niet kan worden overschreven door de Mod.';
-$lang['ATTACH_QUOTA'] = 'Bijlage Quota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximale Schijfruimte ALLE Bijlagen kunt houden op uw Webruimte. Een waarde van 0 betekent \'onbeperkt\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maximale Bestandsgrootte in Eigen Berichten Map';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximale Schijfruimte Bijlagen kunnen gebruiken in elke Gebruiker een Privé Bericht. Een waarde van 0 betekent \'onbeperkt\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Standaard Limiet';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Hier kunt u de Standaard Limiet automatisch toegewezen aan nieuwe Gebruikers en Gebruikers zonder een gedefinieerde Limiet. De Optie \'Geen Limiet\' is voor het niet gebruiken van een eventuele Beslaglegging Quota, in plaats van met de standaard Instellingen die u hebt gedefinieerd binnen dit Beheer Paneel.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maximum Aantal Bijlagen';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Het maximum aantal bijlagen mogen in één post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Uitschakelen Attachment Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Deze optie is vooral bedoeld voor het testen van nieuwe sjablonen of thema \' s, het schakelt alle Gehechtheid Functies, met uitzondering van de Admin Panel.';
 $lang['PM_ATTACHMENTS'] = 'Bijlagen toestaan in Prive Berichten';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Toestaan/niet Toestaan van het bijvoegen van bestanden aan Privé-Berichten.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Toon toepassingen in de beoordeling van de mededelingen onderwerpen bij het schrijven van een antwoord?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Als je een "ja", alle toepassingen worden weergegeven in de review van de communicatie-onderwerpen.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Hier kunt u een bijlage verwijderen van gegevens uit postings wanneer de bestanden ontbreken in uw bestandssysteem en bestanden verwijderen die u niet langer gebonden aan de postings. U kunt het downloaden of bekijken van een bestand als u klikt op; als er geen link aanwezig is, wordt het bestand niet bestaat.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Verwijdert alle bijlagen van bestanden die zich op uw bestandssysteem en niet zijn toegewezen aan een bestaand bericht.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Verwijder alle posten van bijlage gegevens voor bestanden die niet bestaan op uw bestandssysteem.';
-$lang['EMPTY_FILE_ENTRY'] = 'Leeg Bestand Vermelding';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'De preview is opnieuw ingesteld voor de bijlage: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Synchronisatie van bijlagen voltooid.';
 $lang['SYNC_TOPICS'] = 'Sync Onderwerpen';
 $lang['SYNC_POSTS'] = 'Sync Berichten';
-$lang['SYNC_THUMBNAILS'] = 'Sync-Miniaturen';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Het Beheer Van Extensies';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Hier kunt u het beheer van uw Bestand Extensies. Als u wilt toestaan/niet toestaan van een Extensie te uploaden, gebruik dan de Extensie Groepen Management.';
 $lang['EXPLANATION'] = 'Uitleg';
 $lang['EXTENSION_GROUP'] = 'Extension Group';
-$lang['INVALID_EXTENSION'] = 'Ongeldige Extensie';
 $lang['EXTENSION_EXIST'] = 'De Uitbreiding %s al bestaan'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'De Uitbreiding %s is verboden, je bent niet in staat om deze toe te voegen aan de toegestane Extensies'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Beheren Uitbreiding Groepen';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'De Uitbreiding van de Groep %s al bestaan'; //
 $lang['MANAGE_CATEGORIES'] = 'Het Beheren Van Speciale Categorieën';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Hier kun je de Speciale Categorieën configureren. Je kunt Speciale Parameters en Voorwaarden instellen voor de Speciale Categorieën die zijn toegewezen aan een Uitbreidingsgroep.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Instellingen voor Speciale Categorie: Beelden';
-$lang['SETTINGS_CAT_FLASH'] = 'Instellingen voor Speciale Categorie: Flash-Bestanden';
 $lang['DISPLAY_INLINED'] = 'Afbeeldingen Weergeven Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Kiezen of afbeeldingen rechtstreeks in de post (ja) of om beelden weer te geven als een link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximale Afmetingen Van Het Beeld';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Het Maken Van Miniatuur';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Miniatuur Bestandsgrootte';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Als een Afbeelding is kleiner dan deze omschreven Bestandsgrootte, geen Miniatuur zal worden gemaakt, omdat het klein genoeg was.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Beheren Verboden Extensies';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Hier kunt u toevoegen of verwijderen van de verboden extensies. De Extensies php, php3 en php4 zijn verboden standaard voor veiligheidsreden, je kan deze niet verwijderen.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'De verboden Uitbreiding %s al bestaan'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'De Uitbreiding %s is gedefinieerd in uw toegestane Extensies, kunt u verwijderen hun voordat u het hier toevoegen.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Groep Machtigingen → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Hier kunt u het beperken van de geselecteerde Extensie Groep Forums van uw keuze (vastgelegd in de Toegestane Forums Vak). De Standaard is om Uitbreiding van Groepen op alle Forums de Gebruiker is in staat om Bestanden in (de normale manier de Bijlage Mod deed het sinds het begin). Voeg deze Forums wilt u de Extensie van de Groep (de Extensies binnen deze Groep) te mogen er, de standaard in ALLE FORUMS zal verdwijnen wanneer u de Forums toevoegen aan de Lijst. Je bent in staat om opnieuw toe te voegen in ALLE FORUMS op een gegeven Moment. Als u het toevoegen van een Forum aan uw Raad van bestuur en de Machtiging is ingesteld op ALLE FORUMS niets zal veranderen. Maar als u deze hebt gewijzigd en beperkt de toegang tot bepaalde Forums, moet u hier terug om uw nieuw aangemaakte Forum. Het is gemakkelijk om dit automatisch te doen, maar dit zal je dwingen om het bewerken van een groot aantal Bestanden, daarom heb ik gekozen voor de manier waarop het nu is. Gelieve te houden in mening, dat alle Forums zullen hier worden vermeld.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Toevoegen Forums';
 $lang['ADD_SELECTED'] = 'Voeg Geselecteerde';
 $lang['PERM_ALL_FORUMS'] = 'ALLE FORA';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Bijlage Beheren Quotalimieten';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Hier kunt u toevoegen/verwijderen/wijzigen Quota. Je bent in staat om het toewijzen van deze Quota voor Gebruikers en Groepen later. Voor het toewijzen van een Limiet aan een Gebruiker, moet je naar Gebruikers->Management, selecteert u de Gebruiker en je zal zien dat de Opties aan de onderkant. Voor het toewijzen van een Limiet aan een Groep ga naar Groepen->Beheer-selecteer de Groep die u wilt bewerken, en ziet u de Configuratie-Instellingen. Als u wilt zien welke Gebruikers en Groepen die zijn toegewezen aan een bepaalde Limiet, klik op \'Weergave\' aan de linkerkant van het Quotum Beschrijving.';
-$lang['ASSIGNED_USERS'] = 'Toegewezen Gebruikers';
-$lang['ASSIGNED_GROUPS'] = 'Toegewezen Groepen';
-$lang['QUOTA_LIMIT_EXIST'] = 'De Limiet %s bestaan al.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Bestand In Bijlage Bedieningspaneel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Hier kunt u het bekijken en beheren van alle bijlagen op basis van Gebruikers, Bijlagen, Uitzicht enz...';
-$lang['FILECOMMENT'] = 'Bestand Reactie';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Gebruik * als jokerteken voor gedeeltelijke overeenkomsten';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Aantal Berichten met Bijlagen';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Aantal Onderwerpen met Bijlagen';
 $lang['NUMBER_USERS_ATTACH'] = 'Onafhankelijke Gebruikers Geplaatst Bijlagen';
 $lang['NUMBER_PMS_ATTACH'] = 'Totaal Aantal Bijlagen in Prive Berichten';
-$lang['ATTACHMENTS_PER_DAY'] = 'Bijlagen per dag';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Bijlage Statistieken voor %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Configuratie Met Succes Bijgewerkt';
 $lang['SET_DEFAULTS'] = 'Standaardinstellingen herstellen';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum opties:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'houd <i>Ctrl</i> tijdens het selecteren van meerdere forums';
 

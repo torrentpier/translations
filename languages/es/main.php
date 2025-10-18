@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'El archivo Adjunto es demasiado grande.<
 $lang['DISALLOWED_EXTENSION'] = 'La Extensión de %s no está permitido'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'No está permitido publicar los Archivos con la Extensión %s dentro de este Foro'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'El archivo Adjunto es demasiado grande.<br />Max Tamaño: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Lo siento, pero el tamaño máximo de archivo para todos los archivos Adjuntos que se alcanza. Póngase en contacto con el Administrador del foro si tiene preguntas.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'El apego puede ser añadido, ya que la máxima. número de %d archivos Adjuntos en este post se logró'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Los datos Adjuntos/Imagen debe ser menor que %d píxeles de ancho y %d píxeles de alto';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Subir Error: no se Pudo cargar el Apego a %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Usted tiene que introducir los valores en el "Agregar un Adjunto" de Caja';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'No se puede Actualizar el archivo Adjunto, no pudo encontrar el viejo Accesorio de Entrada';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Lo siento, pero el tamaño máximo de archivo para todos los archivos Adjuntos en tu Mensaje Privado Carpeta ha sido alcanzado. Por favor, elimine algunos de los enviados/recibidos los archivos Adjuntos.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Lo siento, pero el tamaño máximo de archivo para todos los archivos Adjuntos en el Mensaje Privado Carpeta de \'%s\' ha sido alcanzado. Por favor, hágale saber, o esperar hasta que él/ella ha eliminado algunos de sus archivos Adjuntos.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Usted no ha seleccionado un archivo adjunto para descargar o ver.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'El Directorio de \'%s\' no existe o no se P
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Por favor, compruebe si \'%s\' es un directorio.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'El directorio \'%s\' no es escribible. Tendrás que crear el camino de subida y chmod a 777 (o cambiar el titular del httpd-servidores propietario) para subir archivos.<br />Si usted tiene sólo por la simple FTP-acceso de cambiar el \'Atributo\' del directorio rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Subir La Cuota';
-$lang['PM_QUOTA'] = 'PM Cuota';
-
 // Common Variables
 $lang['BYTES'] = 'Bytes';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Prueba De La Configuración De';
 $lang['NOT_ASSIGNED'] = 'No Asignado';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'No hay ningún Archivo de Comentarios disponible';
 $lang['ATTACHBOX_LIMIT'] = 'Su Attachbox is<br /><b>%d%%</b> completo';
-$lang['NO_QUOTA_LIMIT'] = 'No Hay Límite De Cuota';
 $lang['UNLIMITED'] = 'Ilimitado';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Modo Simple';
 $lang['ADVANCED_MODE'] = 'El Modo Avanzado';
 $lang['MODERATOR_STATUS'] = 'Estado de moderador';
 
-$lang['ALLOWED_ACCESS'] = 'Permite El Acceso';
-$lang['DISALLOWED_ACCESS'] = 'El Acceso No Permitido';
-$lang['IS_MODERATOR'] = 'Es Moderador';
-
-$lang['CONFLICT_WARNING'] = 'Autorización De Conflicto De Advertencia';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Este usuario tiene derechos de acceso a este foro a través de la pertenencia a un grupo. Es posible que desee modificar los permisos de grupo o eliminar este usuario al grupo para evitar totalmente que ellos tengan acceso a los derechos. Los grupos de la concesión de derechos (y los foros) se indican a continuación.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Este usuario aún tiene moderador derechos a este foro a través de la pertenencia a un grupo. Es posible que desee modificar los permisos de grupo o eliminar este usuario al grupo para evitar totalmente que ellos tengan moderador de derechos. Los grupos de la concesión de derechos (y los foros) se indican a continuación.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'El siguiente usuario (o usuarios) todavía tiene los derechos de acceso a este foro a través de su configuración de permisos de usuario. Es posible que desee modificar los permisos de usuario completamente de evitar tener derechos de acceso. Los usuarios conceden derechos (y los foros) se indican a continuación.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'El siguiente usuario (o usuarios) tienen un moderador derechos a este foro a través de su configuración de permisos de usuario. Es posible que desee modificar los permisos de usuario para evitar totalmente que ellos tengan moderador de derechos. Los usuarios conceden derechos (y los foros) se indican a continuación.';
-
 $lang['PUBLIC'] = 'Público';
 $lang['PRIVATE'] = 'Privado';
 $lang['REGISTERED'] = 'Registrado';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Voto';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Encuesta de crear';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Publicar Archivos';
 $lang['AUTH_DOWNLOAD'] = 'Descargar Archivos';
-
-$lang['SIMPLE_PERMISSION'] = 'Simple Permisos';
 
 $lang['USER_LEVEL'] = 'Nivel De Usuario';
 $lang['AUTH_USER'] = 'Usuario';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Nombre del sitio';
 $lang['SITE_DESC'] = 'La descripción del sitio';
 $lang['FORUMS_DISABLE'] = 'Deshabilitar la junta';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Esto hará que la junta no está disponible para los usuarios. Los administradores son capaces de acceder al Panel de Administración, mientras que la junta directiva está deshabilitada.';
-$lang['ACCT_ACTIVATION'] = 'Habilitar la activación de la cuenta';
 $lang['ACC_NONE'] = 'Ninguno'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Usuario';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Permitir A Las Firmas';
 $lang['MAX_SIG_LENGTH'] = 'La máxima longitud de firma';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Número máximo de caracteres en firmas de usuario';
 $lang['ALLOW_NAME_CHANGE'] = 'Permitir que los cambios de nombre de Usuario';
-
-$lang['EMAIL_SETTINGS'] = 'Configuración De Correo Electrónico';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Habilitar La Confirmación Visual';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Requiere que los usuarios introducir un código definido por una imagen al momento de registrarte.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Permitir el inicio de sesión automática';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Haga clic en %sHere%s para volver a Smiley A
 
 // User Management
 $lang['USER_ADMIN'] = 'Administración De Usuarios';
-$lang['USER_ADMIN_EXPLAIN'] = 'Aquí usted puede cambiar su información de los usuarios y algunas opciones. Para modificar los permisos de los usuarios, por favor, utilice los permisos de usuario y grupo del sistema.';
-
 $lang['LOOK_UP_USER'] = 'Buscar usuario';
-
-$lang['ADMIN_USER_FAIL'] = 'No se pudo actualizar el perfil del usuario.';
-$lang['ADMIN_USER_UPDATED'] = 'El perfil del usuario se ha actualizado correctamente.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Haga clic en %sHere%s para regresar a la Administración de usuarios';
-
-$lang['USER_ALLOWPM'] = 'Puede enviar Mensajes Privados';
-$lang['USER_ALLOWAVATAR'] = 'Puede mostrar avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Aquí usted puede ver y eliminar el usuario actual del avatar.';
-
-$lang['USER_SPECIAL'] = 'Especial de administración de los campos de solo';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Estos campos no son capaces de ser modificados por los usuarios. Aquí usted puede establecer su estado y otras opciones que no son entregados a los usuarios.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupo De Administración';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Proporción, además de un intercambio de bonos
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Panel De Control';
-$lang['SHADOW_ATTACHMENTS'] = 'Sombra Archivos Adjuntos';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Prohibido Extensiones';
 $lang['EXTENSION_CONTROL'] = 'La Extensión De Control De';
 $lang['EXTENSION_GROUP_MANAGE'] = 'La Extensión De Los Grupos De Control';
 $lang['SPECIAL_CATEGORIES'] = 'Categorías Especiales';
-$lang['SYNC_ATTACHMENTS'] = 'Sincronizar Archivos Adjuntos';
-$lang['QUOTA_LIMITS'] = 'Los Límites De Cuota';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Adjunto La Configuración De';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Tema Icono De Archivo Adjunto';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Esta Imagen se muestra antes de que los temas con los archivos Adjuntos. Deje este campo en blanco si no desea que un icono para que se muestre.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Adjunto El Orden De Visualización';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aquí usted puede elegir si desea mostrar los datos Adjuntos en los mensajes/PMs en orden Descendente de Filetime Orden (de más reciente Adjunto Primero) o Ascendente Filetime Orden (el más antiguo Adjunto Primero).';
-$lang['SHOW_APCP'] = 'Utilice el nuevo panel de control de aplicaciones';
-$lang['SHOW_APCP_EXPLAIN'] = 'Elija si desea usar un panel de control de aplicaciones (sí), o el viejo método con dos cajas para aplicaciones y las aplicaciones de edición (ninguno) en el cuadro de mensaje. Es difícil explicar cómo se ve, por lo que probar por ti mismo.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Tamaño del archivo';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Tamaño máximo de archivo para los archivos Adjuntos. Un valor de 0 significa que \'ilimitado\'. Este valor está limitado por la Configuración de su Servidor. Por ejemplo, si su Configuración de php sólo permite un máximo de 2 MB de carga, esto no puede ser sobrescrito por el Mod.';
-$lang['ATTACH_QUOTA'] = 'Cuota De Adjuntos';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'El máximo de Espacio en Disco TODOS los archivos Adjuntos pueden contener en su Espacio web. Un valor de 0 significa que \'ilimitado\'.';
 $lang['MAX_FILESIZE_PM'] = 'Tamaño máximo del archivo en la Carpeta de Mensajes Privados';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Espacio de Disco máximo de archivos Adjuntos puede utilizar en cada uno de los Privados del Usuario cuadro de Mensaje. Un valor de 0 significa que \'ilimitado\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Por Defecto El Límite De Cuota';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Aquí usted es capaz de seleccionar el valor Predeterminado Límite de Cuota asignado automáticamente a los nuevos Usuarios registrados y Usuarios sin una Cuota definida por el Límite. La Opción de \'No hay Límite de Cuota" es para no usar cualquier Accesorio Cuotas, en lugar de utilizar la Configuración predeterminada se han definido dentro de este Panel de Administración.';
 
 $lang['MAX_ATTACHMENTS'] = 'Número máximo de archivos Adjuntos';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'El número máximo de archivos adjuntos permitidos en un solo post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Deshabilitar El Apego Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Esta opción es principalmente para probar nuevas plantillas o temas, deshabilita todo Apego Funciones excepto el Panel de Administración.';
 $lang['PM_ATTACHMENTS'] = 'Permitir que los archivos Adjuntos en Mensajes Privados';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Permitir/no permitir adjuntar archivos a los Mensajes Privados.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Mostrar las aplicaciones en la revisión de los temas de comunicación al escribir una respuesta?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Si pones un "sí", todas las aplicaciones se muestran en la revisión de los temas de comunicación.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Aquí usted puede eliminar archivo de datos de publicaciones cuando faltan los archivos de tu sistema de archivos y eliminar archivos que ya no están conectados a ninguna de sus publicaciones. Usted puede descargar o ver un archivo si hace clic en él; si no hay enlace está presente, el archivo no existe.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Eliminar todos los datos adjuntos de archivos que existen en el sistema de ficheros y no están asignados a una publicación existente.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Eliminar la publicación de todos los datos adjuntos de archivos que no existen en su sistema de ficheros.';
-$lang['EMPTY_FILE_ENTRY'] = 'Vaciar El Archivo De Entrada';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'La vista previa ha sido restablecida para el archivo adjunto: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Sincronización de archivos adjuntos finalizada.';
 $lang['SYNC_TOPICS'] = 'La Sincronización De Los Temas';
 $lang['SYNC_POSTS'] = 'La Sincronización De Los Puestos De';
-$lang['SYNC_THUMBNAILS'] = 'La Sincronización De Las Miniaturas';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Administrar Extensiones';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Aquí usted puede administrar sus Extensiones de Archivo. Si desea permitir o prohibir una Extensión para ser cargado, por favor use la Extensión de los Grupos de Gestión.';
 $lang['EXPLANATION'] = 'Explicación';
 $lang['EXTENSION_GROUP'] = 'Grupo De Extensión';
-$lang['INVALID_EXTENSION'] = 'Extensión No Válida';
 $lang['EXTENSION_EXIST'] = 'La Extensión de %s ya existen'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'La Extensión de %s está prohibido, no eres capaz de añadir a la permitida Extensiones'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Gestionar La Extensión De Los Grupos De';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'El Grupo de Extensión %s ya existen'; // repl
 $lang['MANAGE_CATEGORIES'] = 'Administrar Categorías Especiales';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aquí puedes configurar las Categorías Especiales. Puedes establecer parámetros y condiciones especiales para las Categorías Especiales asignadas a un Grupo de Extensión.';
 $lang['SETTINGS_CAT_IMAGES'] = 'La configuración Especial de la Categoría: Imágenes';
-$lang['SETTINGS_CAT_FLASH'] = 'Configuración de Categoría Especial: los Archivos Flash';
 $lang['DISPLAY_INLINED'] = 'Visualización De Imágenes En Línea';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Elija si desea mostrar las imágenes directamente en el post (sí) o para mostrar las imágenes como un enlace ?';
 $lang['MAX_IMAGE_SIZE'] = 'Máximo Las Dimensiones De La Imagen';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Crear Miniaturas';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Mínimo De Miniaturas De Tamaño De Archivo';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Si una Imagen es más pequeña que esta se define de Tamaño, ninguna Miniatura va a ser creado, porque es lo suficientemente pequeño.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Administrar Prohibido Extensiones';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Aquí usted puede agregar o eliminar el uso de extensiones. Las Extensiones de php, php3 y php4, están prohibidas por defecto por razones de seguridad, usted no puede eliminarlas.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Lo prohibido Extensión %s ya existen'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'La Extensión de %s se define en su permitió Extensiones, por favor, elimine sus antes de añadirlo aquí.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'La Extensión De Los Permisos De Grupo -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aquí usted es capaz de restringir la Extensión seleccionada del Grupo a los Foros de su elección (que se define en el Permitido Foros Cuadro). El valor Predeterminado es para permitir la Extensión de los Grupos a todos los Foros que el Usuario es capaz de Adjuntar Archivos en (la forma normal en que el Apego Mod lo hizo desde el principio). Sólo añadir los Foros desea que el Grupo de Extensión (las Extensiones dentro de este Grupo) para ser permitido, el valor predeterminado de TODOS los FOROS desaparecerá cuando añadir Foros de la Lista. Usted es capaz de re-agregar TODOS los FOROS en cualquier Momento dado. Si usted agregar un Foro a su Junta directiva y el Permiso se establece en TODOS los FOROS, nada va a cambiar. Pero si ha cambiado y restringido el acceso a ciertos Foros, usted tiene que comprobar de nuevo aquí para añadir su recién creado Foro. Es fácil hacer esto automáticamente, pero esto te obligará a editar un montón de Archivos, por lo tanto he decidido la forma en que está ahora. Por favor, tenga en cuenta, que todos los Foros se enumeran aquí.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Añadir Foros';
 $lang['ADD_SELECTED'] = 'Agregar Seleccionados';
 $lang['PERM_ALL_FORUMS'] = 'TODOS LOS FOROS';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Administrar El Apego A Los Límites De Cuota';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Aquí usted es capaz de añadir/eliminar/modificar los Límites de las Cuotas. Usted es capaz de asignar estos Límites de Cuota a los Usuarios y Grupos, más tarde. Para asignar un Límite de Cuota de un Usuario, usted tiene que ir a Usuarios->Administración, seleccione el Usuario y podrás ver las Opciones en la parte inferior. Para asignar un Límite de Cuota a un Grupo, ir a Grupos->Administración, seleccione el Grupo para editar, y usted verá los Ajustes de Configuración. Si usted desea ver los Usuarios y Grupos se asignan a un determinado Límite de Cuota, haga clic en \'Ver\' a la izquierda de la Cuota de Descripción.';
-$lang['ASSIGNED_USERS'] = 'Los Usuarios Asignados';
-$lang['ASSIGNED_GROUPS'] = 'Grupos Asignados';
-$lang['QUOTA_LIMIT_EXIST'] = 'El Límite de la Cuota %s ya existen.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Archivo Adjunto Panel De Control';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Aquí usted puede ver y administrar todos los archivos adjuntos basada en los Usuarios, archivos Adjuntos, Vistas, etc...';
-$lang['FILECOMMENT'] = 'Archivo De Comentarios';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Uso * como un comodín para coincidencias parciales';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Número de mensajes con archivos Adjuntos';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Número de Temas con archivos Adjuntos';
 $lang['NUMBER_USERS_ATTACH'] = 'Independiente De Los Usuarios Publicaron Los Datos Adjuntos';
 $lang['NUMBER_PMS_ATTACH'] = 'Número Total de archivos Adjuntos en Mensajes Privados';
-$lang['ATTACHMENTS_PER_DAY'] = 'Archivos adjuntos por día';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Archivo adjunto de Estadísticas para %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Configuración Actualizado Correctamente';
 $lang['SET_DEFAULTS'] = 'Restaurar valores predeterminados';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Foro de configuración';
-
 $lang['BT_SELECT_FORUMS'] = 'Foro opciones:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'mantenga presionada <i>Ctrl</i> mientras que la selección de múltiples foros';
 
