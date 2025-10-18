@@ -82,8 +82,8 @@ $lang['VIEW_LATEST_POST'] = '查看最新发表的文章';
 $lang['VIEW_NEWEST_POST'] = '查看最新帖子';
 $lang['PAGE_OF'] = '第<b>%d</b>页，共<b>%s</b>页';
 
-$lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER'] = '推特)';
+$lang['TWITTER_ERROR'] = '您输入了一个无效的 推特 账号';
 
 $lang['FORUM_INDEX'] = '%s 论坛索引'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = '您确定要删除这项调查吗？';
 $lang['FLOOD_ERROR'] = '您不能快速地连续发帖；请稍等一会再试。';
 $lang['EMPTY_SUBJECT'] = '您必须指定一个主题';
 $lang['EMPTY_MESSAGE'] = '您必须输入一条消息';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = '論壇已鎖定';
+$lang['TOPIC_LOCKED'] = '鎖定的主題';
 $lang['TOPIC_LOCKED_SHORT'] = '锁定的主题';
 $lang['NO_POST_ID'] = '您必须选择一个帖子来编辑';
 $lang['NO_TOPIC_ID'] = '您必须选择一个主题来回复';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = '深綠色';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = '投票';
+$lang['MODERATE'] = '版主';
 $lang['SEND_PM_SHORT'] = '私信';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = '寻找用户员额数大于%d';
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '寻找用户员额数少于%d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = '找到数额在%d和%d之间的用户';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '找到数额等于%d的用户';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = '尋找用戶與%s匹配的Twitter';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = '寻找用户与网站相匹配%s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = '寻找用户位置的匹配%s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = '寻找用户与他们利益的领域匹配%s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = '天';
 $lang['POST_EDIT_CANNOT'] = '抱歉，您無法編輯帖子。';
 $lang['FORUMS_IN_CAT'] = '該類別中的論壇。';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = '審核意見';
 $lang['MC_LEGEND'] = '輸入評論。';
 $lang['MC_FAQ'] = '輸入的文字將顯示在此消息下。';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s在您的消息中";
