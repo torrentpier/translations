@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'O Anexo é muito grande.<br />Maximum Up
 $lang['DISALLOWED_EXTENSION'] = 'A Extensão %s não é permitido'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Você não tem permissão para postar Arquivos com a Extensão %s dentro deste Forum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'O Anexo é muito grande.<br />Tamanho Máx: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Lamentamos, mas o tamanho máximo para todos os Anexos foi atingido. Por favor, contate o Administrador se tiver dúvidas.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'O anexo não pode ser adicionado, desde que o max. número de %d Anexos neste post foi alcançado'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'O Anexo/Imagem deve ser menor do que %d pixels de largura e %d pixels de altura';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Upload de Erro: não foi possível carregar Anexo para %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Você tem que inserir os valores em "Adicionar um Anexo"';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Não é possível Atualizar Anexo, não poderia encontrar antigo Anexo de Entrada';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Lamentamos, mas o tamanho máximo para todos os Anexos na sua Pasta de Mensagens Privadas foi atingido. Por favor, exclua alguns dos seus Anexos recebidos/enviados.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Lamentamos, mas o tamanho máximo para todos os Anexos na Pasta de Mensagens Privadas de \'%s\' foi atingido. Por favor, avise-o, ou aguarde até que ele/ela exclua alguns dos seus Anexos.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Você ainda não selecionou um anexo para fazer o download ou visualizar.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'O Diretório \'%s\' não existe ou não Pô
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Por favor, verifique se o \'%s\' é um diretório.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Diretório \'%s\' não é gravável. Você terá que criar o caminho de upload e chmod para 777 (ou alterar o proprietário para ser o dono do seu servidor http) para fazer upload de arquivos.<br />Se você tem apenas acesso FTP simples, mude o \'Atributo\' do diretório para rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Upload De Cota';
-$lang['PM_QUOTA'] = 'PM de Cota';
-
 // Common Variables
 $lang['BYTES'] = 'Bytes';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Configurações De Teste';
 $lang['NOT_ASSIGNED'] = 'Não Atribuído';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nenhum Comentário de Arquivo disponíveis';
 $lang['ATTACHBOX_LIMIT'] = 'Sua caixa de Anexos está<br /><b>%d%%</b> cheia';
-$lang['NO_QUOTA_LIMIT'] = 'Sem Limite De Cota';
 $lang['UNLIMITED'] = 'Ilimitado';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'O Modo Simples';
 $lang['ADVANCED_MODE'] = 'Modo Avançado';
 $lang['MODERATOR_STATUS'] = 'O status de moderador';
 
-$lang['ALLOWED_ACCESS'] = 'Permissão De Acesso';
-$lang['DISALLOWED_ACCESS'] = 'Acesso Não Permitido';
-$lang['IS_MODERATOR'] = 'É Moderador';
-
-$lang['CONFLICT_WARNING'] = 'Aviso de Conflito de Autorização';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Este usuário ainda tem direitos de acesso a este fórum através de membros do grupo. Você pode querer alterar as permissões de grupo ou remover o usuário do grupo totalmente impedi-los de ter acesso a direitos. Os grupos de concessão de direitos e os fóruns envolvidos) são apresentadas a seguir.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Este usuário ainda tem direitos de moderador deste fórum, através de membros de grupo. Você pode querer alterar as permissões de grupo ou remover o usuário do grupo totalmente impedi-los de ter direitos de moderador. Os grupos de concessão de direitos e os fóruns envolvidos) são apresentadas a seguir.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'O seguinte usuário (ou usuários) ainda tem direitos de acesso a este fórum através de suas configurações de permissão do usuário. Você pode querer alterar as permissões de usuário totalmente impedi-los de ter acesso a direitos. Os usuários com direitos concedidos (e fóruns envolvidos) são apresentadas a seguir.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'O seguinte usuário (ou usuários) ainda têm direitos de moderador deste fórum, através de suas permissões de usuário configurações. Você pode querer alterar as permissões de usuário totalmente impedi-los de ter direitos de moderador. Os usuários com direitos concedidos (e fóruns envolvidos) são apresentadas a seguir.';
-
 $lang['PUBLIC'] = 'Público';
 $lang['PRIVATE'] = 'Privada';
 $lang['REGISTERED'] = 'Registrado';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Votar';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Enquete criar';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Arquivos';
 $lang['AUTH_DOWNLOAD'] = 'Baixar Arquivos';
-
-$lang['SIMPLE_PERMISSION'] = 'Simples Permissões';
 
 $lang['USER_LEVEL'] = 'Nível Do Usuário';
 $lang['AUTH_USER'] = 'Utilizador';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Nome do Site';
 $lang['SITE_DESC'] = 'Descrição do Site';
 $lang['FORUMS_DISABLE'] = 'Desactivar a placa de';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Isso vai fazer com que o conselho não está disponível para usuários. Administradores são capazes de acessar o Painel de Administração enquanto a placa está desativado.';
-$lang['ACCT_ACTIVATION'] = 'Habilitar a ativação da conta';
 $lang['ACC_NONE'] = 'Nenhum'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Utilizador';
 $lang['ACC_ADMIN'] = 'Administrador';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Permitir Que As Assinaturas';
 $lang['MAX_SIG_LENGTH'] = 'Máximo comprimento de uma assinatura';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Número máximo de caracteres em assinaturas de usuário';
 $lang['ALLOW_NAME_CHANGE'] = 'Permitir a mudança de nome de usuário';
-
-$lang['EMAIL_SETTINGS'] = 'Configurações De E-Mail';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Activar A Confirmação Visual';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Requer que os usuários insiram um código definido por uma imagem de inscrição.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Permitir o acesso automático';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Clique %sHere%s para retornar ao Sorriso de 
 
 // User Management
 $lang['USER_ADMIN'] = 'Administração De Usuários';
-$lang['USER_ADMIN_EXPLAIN'] = 'Aqui você pode alterar suas informações de usuários e determinadas opções. Para modificar as permissões de usuários, por favor, use as permissões de grupo e usuário do sistema.';
-
 $lang['LOOK_UP_USER'] = 'Procure usuário';
-
-$lang['ADMIN_USER_FAIL'] = 'Não pôde atualizar o perfil do usuário.';
-$lang['ADMIN_USER_UPDATED'] = 'O perfil do usuário foi atualizada com êxito.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Clique %sHere%s para retornar à Administração do Usuário';
-
-$lang['USER_ALLOWPM'] = 'Pode enviar Mensagens Privadas';
-$lang['USER_ALLOWAVATAR'] = 'Pode apresentar avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Aqui você pode ver e apagar o usuário atual avatar.';
-
-$lang['USER_SPECIAL'] = 'Especial de administração-somente os campos';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Estes campos não são capazes de ser modificada pelos usuários. Aqui você pode definir seu status e outras opções que não são fornecidas aos usuários.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupo De Administração';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Proporção, além de uma troca de bônus no GB
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Painel De Controlo';
-$lang['SHADOW_ATTACHMENTS'] = 'Sombra Anexos';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Proibida Extensões';
 $lang['EXTENSION_CONTROL'] = 'Extensão De Controle';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Extensão De Grupos De Controle De';
 $lang['SPECIAL_CATEGORIES'] = 'Categorias Especiais';
-$lang['SYNC_ATTACHMENTS'] = 'Sincronizar Anexos';
-$lang['QUOTA_LIMITS'] = 'Os Limites De Cota';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Configurações De Anexo';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Anexo Tópico Ícone';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Esta Imagem é exibida antes de tópicos com Anexos. Deixe este campo em branco se você não quiser um ícone para ser exibido.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Anexo Ordem De Apresentação';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aqui você pode escolher se deseja exibir os Anexos em mensagens/PMs, em ordem Decrescente de Filetime Ordem (versão mais Recente do Anexo Primeira) ou Ascendente Filetime Ordem (mais antigo Anexo de Primeira).';
-$lang['SHOW_APCP'] = 'Utilizar as novas aplicações do painel de controlo';
-$lang['SHOW_APCP_EXPLAIN'] = 'Escolha se você deseja usar um painel de controle separado aplicações (sim), ou o método antigo com duas caixas de aplicativos e aplicativos de edição de (nenhum) na caixa de mensagem. É difícil explicar como isso se parece, assim, tentar por si mesmo.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Tamanho do arquivo';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Máximo tamanho do arquivo para Anexos. Um valor de 0 significa "sem limites". Esta Definição é restrita pelo seu Servidor de Configuração. Por exemplo, se sua Configuração de php só permite um máximo de 2 MB de upload, este não pode ser substituído por o Mod.';
-$lang['ATTACH_QUOTA'] = 'Anexo Cota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Espaço em Disco máximo TODOS os Anexos podem conter no seu próprio espaço na Internet. Um valor de 0 significa "sem limites".';
 $lang['MAX_FILESIZE_PM'] = 'Máximo Tamanho do arquivo na Pasta de Mensagens Privadas';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Espaço em Disco máximo de Anexos pode usar em cada Particular do Usuário caixa de Mensagem. Um valor de 0 significa "sem limites".';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Padrão Limite De Cota';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Aqui você poderá selecionar o Padrão de Limite de Cota automaticamente atribuído ao recém-registrados e os Usuários sem um definido pelo Limite de Cota. A Opção "Sem Limite de Cota" é para não usar qualquer Anexo de Cotas, em vez de usar as Configurações padrão que você definiu dentro deste Painel de Gestão.';
 
 $lang['MAX_ATTACHMENTS'] = 'Número máximo de Anexos';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'O número máximo de anexos permitidos em um post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Desativar Anexo Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Esta opção é principalmente para o teste de novos modelos ou temas, ele desativa todas as Funções Anexo, exceto o Painel de Administração.';
 $lang['PM_ATTACHMENTS'] = 'Permitir que Anexos em Mensagens Privadas';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Permitir/não permitir anexar ficheiros a Mensagens Privadas.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Mostrar as aplicações na análise de comunicações de tópicos, ao escrever uma resposta?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Se você colocar um "sim", todos os aplicativos serão exibidos na revisão de comunicações tópicos.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Aqui você pode excluir dados de anexo de postagens quando os ficheiros estão em falta a partir do seu sistema de arquivos e excluir arquivos que não são mais ligado a qualquer lançamentos. Você pode fazer o download ou visualizar um arquivo se você clicar sobre ele; se o link não estiver presente, o arquivo não existe.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Excluir todos os anexos de arquivos que existem em seu sistema de arquivos e não são atribuídos a uma publicação existente.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Excluir todos os postagem de dados de anexo para arquivos que não existem no seu sistema de ficheiros.';
-$lang['EMPTY_FILE_ENTRY'] = 'Arquivo Vazio Entrada';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'A visualização foi redefinida para o anexo: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Sincronização de anexo concluída.';
 $lang['SYNC_TOPICS'] = 'Sincronização Tópicos';
 $lang['SYNC_POSTS'] = 'Sincronização Posts';
-$lang['SYNC_THUMBNAILS'] = 'Sincronização Miniaturas';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Gerenciar Extensões';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Aqui, você pode gerenciar suas Extensões de Arquivo. Se você deseja permitir/não permitir uma Extensão para ser enviado, por favor use a Extensão de Gestão de Grupos.';
 $lang['EXPLANATION'] = 'Explicação';
 $lang['EXTENSION_GROUP'] = 'Grupo De Extensão';
-$lang['INVALID_EXTENSION'] = 'Extensão Inválida';
 $lang['EXTENSION_EXIST'] = 'A Extensão %s já existe'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'A Extensão %s é proibido, você não é capaz de adicioná-lo para as Extensões permitidas'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Gerenciar Grupos De Extensão';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'O Grupo de Extensão %s já existe'; // replac
 $lang['MANAGE_CATEGORIES'] = 'Gerenciar Categorias Especiais';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aqui você pode configurar as Categorias Especiais. Você pode definir Parâmetros e Condições Especiais para as Categorias Especiais atribuídas a um Grupo de Extensão.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Definições para Categoria Especial: Imagens';
-$lang['SETTINGS_CAT_FLASH'] = 'Configurações Especiais Categoria: Arquivos Flash';
 $lang['DISPLAY_INLINED'] = 'Exibir Imagens Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Escolha se deseja exibir imagens diretamente dentro do post (sim) ou para apresentar imagens como um link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Máximo Da Imagem Dimensões';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Criar Miniatura';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Tamanho Mínimo do Arquivo da Miniatura';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Se uma imagem for menor do que este tamanho de arquivo definido, nenhuma miniatura será criada, pois é pequena o suficiente.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Gerenciar Extensões Proibido';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Aqui você pode adicionar ou excluir proibido extensões. As Extensões do php, php3 e php4 são proibidos por padrão por razões de segurança, você não pode excluí-los.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Proibida Extensão %s já existe'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'A Extensão %s é definido no seu Extensões permitidas, por favor, apague-o seu antes de adicioná-lo aqui.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Permissões do Grupo de Extensão → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aqui você é capaz de restringir a Extensão selecionada do Grupo para Fóruns de sua escolha (definido no Permitidos Fóruns de Caixa). O Padrão é permitir Extensão de Grupos para todos os Fóruns, o Usuário é capaz de Anexar Arquivos (modo normal o Anexo Mod fez isso desde o início). Basta adicionar os Fóruns que você deseja que o Grupo de Extensão (as Extensões dentro deste Grupo) a ser permitido, o padrão de TODOS os FÓRUNS vão desaparecer quando você adicionar Fóruns para a Lista. Você é capaz de adicionar novamente TODOS os FÓRUNS, a qualquer Momento. Se você adicionar um Fórum ao seu Conselho e a Permissão é definida para TODOS os FÓRUNS nada vai mudar. Mas se você tiver alterado e restringiu o acesso a alguns Fóruns, você tem que volte aqui para adicionar o seu recém-criado Fórum. É fácil fazer isso automaticamente, mas isto irá forçar você a editar um monte de Arquivos, por isso escolhi o caminho é agora. Por favor, tenha em mente, que todos os seus Fóruns serão listados aqui.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Adicionar Fóruns';
 $lang['ADD_SELECTED'] = 'Adicionar Selecionados';
 $lang['PERM_ALL_FORUMS'] = 'TODOS OS FÓRUNS';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Gerenciar Anexo Limites De Cota';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Aqui você é capaz de adicionar/excluir/alterar os Limites de Cota. Você é capaz de atribuir estes Limites de Cota para Usuários e Grupos posteriormente. Para atribuir um Limite de Cota para o Usuário, você tem que ir para os Usuários->Gerenciamento, selecione o Usuário e você vai ver as Opções na parte inferior. Para atribuir um Limite de Cota para um Grupo, vá para Grupos->Gerenciamento, selecione o Grupo para editá-lo, e você vai ver as Definições de Configuração. Se você quiser ver, que os Usuários e Grupos que são atribuídos a um determinado Limite de Cota, clique em "Exibir" no canto esquerdo da Cota de Descrição.';
-$lang['ASSIGNED_USERS'] = 'Os Utilizadores Atribuidos';
-$lang['ASSIGNED_GROUPS'] = 'Grupos Atribuídos';
-$lang['QUOTA_LIMIT_EXIST'] = 'O Limite de Cota de %s já existe.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Anexo De Arquivo Do Painel De Controle';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Aqui você pode visualizar e gerenciar todos os anexos com base em Usuários, Anexos, pontos de Vista etc...';
-$lang['FILECOMMENT'] = 'Comentário Do Ficheiro';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Utilize * como um caractere curinga para correspondências parciais';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Número de mensagens com Anexos';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Número de Tópicos com Anexos';
 $lang['NUMBER_USERS_ATTACH'] = 'Independente Usuários Publicado Anexos';
 $lang['NUMBER_PMS_ATTACH'] = 'Número Total de Anexos em Mensagens Privadas';
-$lang['ATTACHMENTS_PER_DAY'] = 'Anexos por dia';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Anexo Estatísticas para %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Configuração Actualizados Com Sucesso';
 $lang['SET_DEFAULTS'] = 'Restaurar predefinições';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Fórum de configuração';
-
 $lang['BT_SELECT_FORUMS'] = 'Fórum de opções:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'mantenha pressionada <i>Ctrl</i> enquanto a seleção de vários fóruns';
 
