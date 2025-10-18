@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Sie können nicht als Anonym ein Mitglied der Gr
 $lang['CONFIRM_UNSUB'] = 'Sind Sie sicher, dass Sie wollen, um sich abzumelden von dieser Gruppe?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Ihr Abonnement für diese Gruppe noch nicht genehmigt worden ist; bist du sicher, dass du kündigen möchtest?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'Sie wurden aus dieser Gruppe abgemeldet.';
 
 $lang['APPROVE_SELECTED'] = 'Genehmigen Sie Ausgewählt';
 $lang['DENY_SELECTED'] = 'Verweigern Sie Ausgewählt';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Sie sind kein moderator dieses Forums.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Nicht Zugelassen';
 
 $lang['YOU_BEEN_BANNED'] = 'Du bist aus diesem Forum verboten. Bitte kontaktieren Sie den Board-Administrator für weitere Informationen.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sorry, aber Sie sind nicht berechtigt zum anz
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Beschreibung'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Dateigröße';
 $lang['VIEWED'] = 'Angesehen';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Die Erweiterung \'%s\' wurde von einem Board-Administrator deaktiviert, daher wird dieser Anhang nicht angezeigt.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Die Anlage ist zu groß.<br />Could nicht die
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Die Anlage ist zu groß.<br />Maximum Upload-Größe: %d MB.<br />Please beachten Sie, dass diese Größe ist definiert in php.ini, das heißt, es ist festgelegt durch PHP und dem Attachment Mod kann nicht diesen Wert überschreiben.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Die Erweiterung %s ist nicht erlaubt'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sie sind nicht erlaubt zu posten von Dateien mit der Erweiterung %s in diesem Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Die Anlage ist zu groß.<br />Max Größe: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Entschuldigung, aber die maximale Dateigröße für alle Anlagen wurde erreicht. Bitte kontaktieren Sie den Administrationsrat, wenn Sie Fragen haben.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Attachment kann nicht Hinzugefügt werden, da die max. Anzahl der %d Anhänge in diesem Beitrag wurde erreicht'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Das Attachment/Bild muss kleiner sein als %d Pixel breit und %d Pixel hoch';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Upload Error: could not upload Attachment to %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Geben Sie Werte in die "eine Anlage Hinzuf
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nicht in der Lage zu Aktualisieren, - Anhang, nicht finden konnten, alte Anlage Eintrag';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Entschuldigung, aber die maximale Dateigröße für alle Anlagen in Ihrem Posteingang wurde erreicht. Bitte löschen Sie einige Ihrer empfangenen/gesendeten Anlagen.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Entschuldigung, aber die maximale Dateigröße für alle Anlagen im Posteingang von \'%s\' wurde erreicht. Bitte lassen Sie es ihn wissen oder warten Sie, bis er einige seiner/Ihrer Anlagen gelöscht hat.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Sie nicht ausgewählt haben eine Anlage für das herunterladen oder anzeigen.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Die Attachment-Funktion ist deaktiviert.
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Das Verzeichnis \'%s\' existiert nicht oder Konnte nicht gefunden werden.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Bitte prüfen Sie, ob \'%s\' ist ein Verzeichnis.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Verzeichnis \'%s\' ist nicht beschreibbar. Sie müssen den Upload-Pfad erstellen und chmod auf 777 setzen (oder den Besitzer auf Ihren httpd-Serverbesitzer ändern), um Dateien hochzuladen.<br />Wenn Sie nur einfachen FTP-Zugriff haben, ändern Sie das \'Attribut\' des Verzeichnisses in rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Upload-Kontingent';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Anhänge Suchen';
 $lang['TEST_SETTINGS'] = 'Einstellungen Testen';
 $lang['NOT_ASSIGNED'] = 'Nicht Zugeordnet';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Kein Kommentar-Datei zur Verfügung';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Ihre Attachbox ist<br /><b>%d%%</b> voll';
 $lang['NO_QUOTA_LIMIT'] = 'Kein Quota-Limit';
 $lang['UNLIMITED'] = 'Unbegrenzte';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Anderen torrent mit der gleichen info_hash ber
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only Torrents wurden momentan vom Administrator deaktiviert; erlaubt: v2 und Hybride';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only Torrents wurden momentan vom Administrator deaktiviert; erlaubt: v1 und Hybride';
 $lang['BT_FLIST'] = 'Dateiliste';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'Die Tracker-Einstellungen erlauben keine Verarbeitung von Listen mit mehr als %d Dateien. Aktuelle Anzahl ist: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR-Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'Der BitTorrent Merkle Root ist ein Hash einer Datei, die in Torrents mit BitTorrent v2 Unterstützung eingebettet ist; Tracker-Benutzer können ihn abrufen, berechnen, ebenso Download-deduplicated Torrents mit Desktop-Tools wie <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Erstellungsdatum';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Ansichten';
 $lang['GOLD'] = 'Gold';
 $lang['SILVER'] = 'Silber';
 $lang['SET_GOLD_TORRENT'] = 'Gold machen';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Gold zurücksetzen';
 $lang['SET_SILVER_TORRENT'] = 'Machen Silber';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Silber zurücksetzen';
 $lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD-TRAFFIC NICHT BERÜCKSICHTIGT!';
 $lang['SILVER_STATUS'] = 'SILBER TORRENT! DOWNLOAD-TRAFFIC TEILWEISE BERÜCKSICHTIGT!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent-Typ geändert zu: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent-Typ geändert zu: %s';
 $lang['TORRENT_STATUS'] = 'Suche nach Status des Release';
 $lang['SEARCH_IN_FORUMS'] = 'Suche in Foren';
 $lang['SELECT_CAT'] = 'Wählen Sie die Kategorie';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Gehe zu Abschnitt';
 $lang['TORRENTS_FROM'] = 'Beiträge aus';
 $lang['SHOW_ONLY'] = 'Zeigen nur';
 $lang['SHOW_COLUMN'] = 'Spalte anzeigen';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Wenn Ihr Verhältnis fällt unter %s, werden Si
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nicht gesehen: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Sie müssen sich zuerst anmelden';
 $lang['ONLY_FOR_MOD'] = 'Diese option wird nur für Moderatoren';
 $lang['ONLY_FOR_ADMIN'] = 'Diese option nur für admins';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Diese option wird nur für super-admins';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Ein Benutzer %s ist bereits mit Ihrer IP-Adresse regi
 $lang['HIDDEN'] = 'Versteckt';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Sie sind nicht berechtigt, dieses Forum zu verwalten';
 
 $lang['COOKIES_REQUIRED'] = 'Cookies müssen aktiviert sein!';
 $lang['SESSION_EXPIRED'] = 'Die Sitzung ist abgelaufen';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Sorry, die Registrierung ist deaktiviert, in d
 $lang['ONLY_NEW_POSTS'] = 'nur neue Beiträge';
 $lang['ONLY_NEW_TOPICS'] = 'nur neue Themen';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Bitte helfen Sie beim Seed dieser Torrents!';
 $lang['STATISTICS'] = 'Statistik';
 $lang['STATISTIC'] = 'Statistik';
 $lang['VALUE'] = 'Wert';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Ich nicht mit diesen Bedingungen einverstanden';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Um sich zu registrieren, müssen Sie JavaScript aktivieren';
 $lang['REGISTERED_IN_TIME'] = "Die Registrierung ist derzeit geschlossen<br /><br />Die Registrierung ist verfügbar während: %s<br />Aktuelle Serverzeit: %s<br /><br />Wir entschuldigen uns für die Unannehmlichkeiten";
 $lang['AUTOCOMPLETE'] = 'Passwort generieren';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'Ihr neues Passwort:';
 $lang['REGENERATE'] = 'Regenerieren';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Ausführungszeit:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'auf';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Speicher: ';
 $lang['QUERIES'] = 'Abfragen';
 $lang['LIMIT'] = 'Limit:';
 $lang['SHOW_LOG'] = 'Protokoll anzeigen';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrent-Client';
 $lang['DL_FORMULA'] = 'Formel: Uploaded/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'gestoppt';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'Aktualisierungszeit: ';
 $lang['DL_INFO'] = 'zeigt Daten <i><b>only für die aktuelle session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Verstecke meinen BitTorrent-Clientnamen in der Peer-Liste';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Verstecke meinen Ländernamen in der Peer-Liste';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Benutzer pro Tag';
 $lang['BOARD_STARTED'] = 'Board gestartet';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar-Verzeichnis-Größe';
 $lang['DATABASE_SIZE'] = 'Datenbankgröße';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'Gzip-Komprimierung';
 $lang['NOT_AVAILABLE'] = 'Nicht verfügbar';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Look-up-Forum';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Hier können Sie verändern die Berechtigungen und den moderator-status für jede user-Gruppe. Vergessen Sie nicht, beim Wechsel eine Gruppe von Berechtigungen, die Berechtigungen einzelner Benutzer kann immer noch erlauben, den Benutzer-Eintrag in Foren, etc. Sie werden gewarnt, wenn dies der Fall ist.';
 $lang['USER_AUTH_EXPLAIN'] = 'Hier können Sie verändern die Berechtigungen und den moderator-status für jeden einzelnen Benutzer. Vergessen Sie nicht, beim ändern von Benutzerberechtigungen, die Gruppenberechtigungen kann immer noch erlauben, den Benutzer-Eintrag in Foren, etc. Sie werden gewarnt, wenn dies der Fall ist.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Hier können Sie die Berechtigungsstufen jedes Forums ändern. Sie haben sowohl eine einfache als auch eine erweiterte Methode, um dies zu tun, wobei die erweiterte Methode mehr Kontrolle über die jeweiligen Forum-Operationen bietet. Denken Sie daran, dass das Ändern der Berechtigungsstufe der Foren beeinflusst, welche Benutzer die verschiedenen Operationen innerhalb dieser ausführen können.';
 
 $lang['SIMPLE_MODE'] = 'Einfacher Modus';
 $lang['ADVANCED_MODE'] = 'Advanced-Modus';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Erlaubt Zugriff';
 $lang['DISALLOWED_ACCESS'] = 'Der Zugriff Entzogen';
 $lang['IS_MODERATOR'] = 'Ist Moderator';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Berechtigung Konflikt Warnung';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Dieser Benutzer noch Zugriff auf dieses forum über die Gruppenmitgliedschaft. Möchten Sie vielleicht ändern Sie die Berechtigungen oder entfernen Sie diese Benutzer der Gruppe vollständig zu vermeiden, Sie mit den Zugriffsrechten. Die Gruppen, die Gewährung von rechten (und den Foren beteiligt) sind unten angegeben.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Dieser Benutzer hat noch Moderatorenrechte hier im forum über die Gruppenmitgliedschaft. Möchten Sie vielleicht ändern Sie die Berechtigungen oder entfernen Sie diese Benutzer der Gruppe vollständig zu vermeiden, dass die moderator-Rechte. Die Gruppen, die Gewährung von rechten (und den Foren beteiligt) sind unten angegeben.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Klicken Sie auf %sHere%s zurück zu Verbieten,
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Konfiguration Allgemein';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Das Formular unten ermöglicht es Ihnen, alle allgemeinen Boardoptionen anzupassen. Für Benutzer- und Forum-Konfigurationen verwenden Sie die entsprechenden Links auf der linken Seite.';
 
 $lang['CONFIG_MODS'] = 'Konfigurations-änderungen';
 $lang['MODS_EXPLAIN'] = 'Dieses Formular ermöglicht Ihnen die Anpassung der Modifikationen';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Aktivieren Forum Beschneiden';
 $lang['ALLOW_BBCODE'] = 'BBCode Erlauben';
 $lang['ALLOW_SMILIES'] = 'Erlauben Smilies';
 $lang['SMILIES_PATH'] = 'Smilies Speicher Weg';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Pfad unter Ihrem TorrentPier-Hauptverzeichnis, z.B. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Erlauben Signaturen';
 $lang['MAX_SIG_LENGTH'] = 'Maximale Signatur Länge';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximale Anzahl Zeichen in Benutzer-Signaturen';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Wie lange ein autologin-key ist gültig für 
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum-Administration';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'Von diesem Panel aus können Sie Kategorien und Foren hinzufügen, löschen, bearbeiten, neu anordnen und synchronisieren.';
 $lang['EDIT_FORUM'] = 'Forum Bearbeiten';
 $lang['CREATE_FORUM'] = 'Erstellen neues forum';
 $lang['CREATE_SUB_FORUM'] = 'Unterforum erstellen';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Update-Auftrag';
 $lang['CONFIG_UPDATED'] = 'Forum-Konfiguration Wurde Erfolgreich Aktualisiert';
 $lang['MOVE_UP'] = 'Nach oben verschieben';
 $lang['MOVE_DOWN'] = 'Nach unten verschieben';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Synchronisieren';
 $lang['NO_MODE'] = 'No-Modus gesetzt wurde';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Das Formular unten ermöglicht es Ihnen, alle allgemeinen Boardoptionen anzupassen. Für Benutzer- und Forum-Konfigurationen verwenden Sie die entsprechenden Links auf der linken Seite';
 
 $lang['MOVE_CONTENTS'] = 'Verschieben Sie alle Inhalte';
 $lang['FORUM_DELETE'] = 'Forum Löschen';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. Länge der news';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Wie viele Nachrichten sollen angezeigt werden';
 $lang['NEWS_FORUM_ID'] = 'Aus welchen Foren anzeigen <br /> <h6>Für mehrere Foren IDs angeben, durch Kommas getrennt. Beispiel: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Kein avatar';
 $lang['TRACKER_STATS'] = 'Statistiken über die tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Quota-Limits';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Anhang Einstellungen';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Hier können Sie konfigurieren Sie die Wichtigsten Einstellungen für den Attachment Mod. Wenn Sie drücken Sie die Test-Einstellungen Schaltfläche, die Befestigung Mod macht einige Tests, um sicher zu sein, dass die Mod richtig funktioniert. Wenn Sie Probleme mit dem hochladen der Dateien, bitte führen Sie diesen Test, erhalten Sie eine ausführliche Fehlermeldung.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Einstellungen der Dateigröße für Anlagen';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Anhang-Nummer Einstellungen';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Anlage-Optionen';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Hier können Sie wählen, ob die Anzeig
 $lang['SHOW_APCP'] = 'Verwenden Sie das neue control-panel-Anwendungen';
 $lang['SHOW_APCP_EXPLAIN'] = 'Wählen Sie, ob Sie möchten, verwenden Sie eine separate control panel-Anwendungen (ja), oder die alte Methode mit zwei Boxen für Anwendungen und-editing-Anwendungen (keine) in der message-box. Es ist schwer zu erklären, wie es aussieht, so versuchen Sie selbst.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Dateigröße';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maximale Dateigröße für Anhänge. Ein Wert von 0 bedeutet \'unbegrenzt\'. Diese Einstellung ist nur über deine Server-Konfiguration. Zum Beispiel, wenn Sie Ihre php-Konfiguration erlaubt nur maximal 2 MB hochgeladen, das kann nicht überschrieben werden durch die Mod.';
 $lang['ATTACH_QUOTA'] = 'Anlage Quote';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximale Speicherplatz, der ALLE Anlagen zu halten, kann auf Ihren Webspace. Ein Wert von 0 bedeutet \'unbegrenzt\'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Löschen Sie alle posting-Anhang-Date
 $lang['EMPTY_FILE_ENTRY'] = 'Leere Datei Eintrag';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Die Vorschau wurde für die Anlage zurückgesetzt: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Anhangssynchronisierung abgeschlossen.';
 $lang['SYNC_TOPICS'] = 'Sync-Themen';
 $lang['SYNC_POSTS'] = 'Sync-Beiträge';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Verwalten Spezielle Kategorien';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Hier können Sie die Spezialkategorien konfigurieren. Sie können spezielle Parameter und Bedingungen für die Spezialkategorien, die einer Erweiterungsgruppe zugewiesen sind, einrichten.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Einstellungen für Besondere Kategorie: Bilder';
 $lang['SETTINGS_CAT_FLASH'] = 'Einstellungen für Besondere Kategorie: Flash-Dateien';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Bilder inline anzeigen';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Wählen Sie, ob zur Anzeige von Bildern direkt in den post (ja) oder um die Bilder als link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximale Bild-Abmessungen';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Hier können Sie festlegen, die maximal zulässige Bildgröße angebracht (Breite x Höhe in Pixel).<br />If es ist auf 0x0 gesetzt ist, ist diese Funktion deaktiviert. Mit einigen Bildern diese Funktion wird nicht funktionieren, aufgrund von Einschränkungen in PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Wenn diese definiert die Dimension des Bilde
 $lang['ASSIGNED_GROUP'] = 'Zugewiesene Gruppe';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Erstellen Sie Miniaturbilder';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimale Dateigröße für Thumbnails';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Wenn ein Bild kleiner ist als diese definierte Dateigröße, wird kein Thumbnail erstellt, da es klein genug ist.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Verwalten Verboten Erweiterungen';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Die verbotene Erweiterung %s bereits vorha
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Die Erweiterung %s definiert Ihre erlaubten Extensions, löschen Sie bitte es Ihr, bevor du Sie hier hinzufügen.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Berechtigungen für Erweiterungsgruppen → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Hier können Sie beschränken Sie die ausgewählte Gruppe von Erweiterungen, Foren Ihrer Wahl (definiert in den Erlaubten Foren-Box). Der Standard ist eine Erweiterung von Gruppen auf alle Foren der Benutzer ist in der Lage, das Anhängen von Dateien in (der normale Weg, die Anlage Mod hat es seit Anfang an). Fügen Sie einfach die Foren, die Sie wollen, dass die Gruppe von Erweiterungen (Extensions innerhalb dieser Gruppe) erlaubt es, standardmäßig ALLE FOREN verschwinden, wenn Sie Foren hinzufügen, um der Liste. Sie sind in der Lage, re-fügen Sie ALLE FOREN zu einem bestimmten Zeitpunkt. Wenn Sie ein Forum auf Ihrem Board und die Genehmigung ist in ALLEN FOREN wird sich nichts ändern. Aber wenn Sie Sie geändert haben, und beschränkt den Zugriff auf bestimmte Foren haben, haben Sie zu prüfen, wieder hier, um Ihre neu erstellte Forum. Es ist leicht, dies automatisch tun, aber dies zwingt Sie zum Bearbeiten einer Reihe von Dateien, deshalb habe ich die gewählt, wie es jetzt ist. Bitte beachten Sie, dass alle Ihre Foren, werden hier aufgelistet.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'HINWEIS:<br />Within die unten aufgeführten Foren Ihre Benutzer sind normalerweise erlaubt das Anhängen von Dateien, aber da keine Erweiterung der Gruppe darf angebracht werden, da Ihre Benutzer nicht in der Lage sind zu befestigen alles. Wenn Sie versuchen, erhalten Sie Fehlermeldungen. Vielleicht möchten Sie um die Erlaubnis "Post-Dateien", um ADMIN in diesen Foren.<br /><br />';
 $lang['ADD_FORUMS'] = 'Foren Hinzufügen';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Keine Anhänge erfüllt Ihren Suchkriterien';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Anzahl der Anlagen';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Gesamt-Dateigröße';
 $lang['NUMBER_POSTS_ATTACH'] = 'Anzahl der Posts mit Attachments';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Anzahl der Themen mit Anhängen';
 $lang['NUMBER_USERS_ATTACH'] = 'Unabhängige Nutzer Geschrieben Anhänge';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'halten Sie <i>Ctrl</i> während der Auswahl me
 $lang['REG_TORRENTS'] = 'Registrieren torrents';
 $lang['DISALLOWED'] = 'Verboten';
 $lang['ALLOW_REG_TRACKER'] = 'Erlaubt Foren für die Registrierung .torrents auf dem tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Erlauben Sie das Posten von Inhalten 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Zeigen Sie Schaltflächen für das manuelle ändern von DL-status';
 $lang['SELF_MODERATED'] = 'Benutzer können <b>move</b> Ihre Themen in ein anderes forum';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Hauptschlüssel';
 $lang['BT_ADD_AUTH_KEY'] = 'Aktivieren Sie das hinzufügen Zugangsschlüssel zu den torrent-Dateien vor dem Download';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent browser (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-Browser (tracker.php) nur für angemeldete Benutzer zugänglich';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Erlauben boolean full-text-Suche';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = '* , + , - in der Suche nutzen';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Sonstiges";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Benutzer UL/DL-Statistiken oben auf der Hauptseite des Forums anzeigen";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Bildwiederholfrequenz';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Wie viel Zeit (Sekunden) bleiben im Leerlauf, bevor Sie zu der nächsten Verarbeitung cycle<br />Usually Sie nicht haben, um dies zu ändern';
 
 $lang['TIME_LIMIT'] = 'Frist';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Wie viel Zeit (Sekunden) die Nachbearbeitung dauern kann, bevor zum nächsten Zyklus übergegangen wird';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Ihr PHP (Abgesicherter Modus) hat ein Timeout von %s Sekunden konfiguriert, bleiben Sie unter diesem Wert</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver hat ein Zeitlimit von %s Sekunden konfiguriert, so bleiben Sie unterhalb dieser value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Sie erfolgreich beendet die Verarbeitun
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Rebuild Search Fortschritt';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Verarbeitete Post-IDs : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Timer abgelaufen %s Sek. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Gelöscht Tabellen suchen. ';
 $lang['DELETED_POSTS'] = '%s post(s) gelöscht wurden, die von Ihren Benutzern, die während der Verarbeitung. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Alle';
 
 $lang['TPL_EMPTY_FIELD'] = 'Sie müssen füllen Sie das Feld <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Sie müssen wählen Sie <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Keine Zahl';
 $lang['TPL_NOT_URL'] = '<b>%s</b> – Muss eine https://-URL sein';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Muss https:// IMG_URL sein';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'setzen Sie in den Betreff';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Die Suche für Benutzer mit einer Beitra
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Die Suche für Benutzer mit einer Beitragszahl zwischen %d und %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Suche für die Nutzer mit einem post-count-Wert %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Die Suche für Benutzer mit einem Twitter-matching %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Suche nach Benutzern mit einer Website, die mit %s übereinstimmt';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Die Suche für Benutzer, die mit einem Location-matching %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Suche für die Nutzer mit Ihren Interessen Feld-matching %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Suche für die Nutzer mit Ihrer Tätigkeit Feld-matching %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Gleich';
 $lang['GREATER_THAN'] = 'Größer als';
 $lang['LESS_THAN'] = 'Weniger als';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Sie können anhand des Post-Count-Werts nach Benutzern suchen. Sie können entweder nach einem bestimmten Wert, größer oder kleiner als ein Wert oder zwischen zwei Werten suchen. Um die Bereichssuche durchzuführen, wählen Sie „Gleich“ und geben Sie die Anfangs- und Endwerte des Bereichs durch einen Bindestrich (-) getrennt ein, z. B. 10-15';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Benutzerfeld';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Suche für Benutzer basierend auf verschiedenen Profil-Felder. Wildcards werden unterstützt mit einem asterix (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Sie suchen können für Benutzer basierend auf Ihren letzten login-Datum mit dieser option suchen';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Dies zeigt Benutzer die Auswahl einer bestimmten Sprache in Ihrem Profil';

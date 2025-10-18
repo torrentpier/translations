@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Jy kan nie Anoniem \'n lid van die groep maak ni
 $lang['CONFIRM_UNSUB'] = 'Is jy seker jy wil uitskakel van hierdie groep?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Jou intekening op hierdie groep is nog nie goedgekeur nie; Is jy seker jy wil uitteken?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'U is ingeteken van hierdie groep.';
 
 $lang['APPROVE_SELECTED'] = 'Goedkeuring gekies';
 $lang['DENY_SELECTED'] = 'Ontken geselekteerde';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Jy is nie \'n moderator van hierdie forum nie.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Nie gemagtig nie';
 
 $lang['YOU_BEEN_BANNED'] = 'U is verban uit hierdie forum. Kontak asseblief die bestuurder vir meer inligting.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Jammer, maar jy is nie gemagtig om hierdie aa
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'beskrywing'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Aflaai'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Lêergrootte';
 $lang['VIEWED'] = 'beskou';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Die uitbreiding \'%s\' is deur \'n raad admin gedeaktiveer, daarom is hierdie Aanhegting nie vertoon nie.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Die aanhangsel is te groot.<br />Kan nie die 
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Die aanhegsel is te groot.<br />Maksimum oplaaiprobleem: %d MB.<br />Let daarop dat hierdie grootte in php.ini gedefinieer is. Dit beteken dat dit deur PHP gestel word en die Aanhegsmodus nie hierdie waarde kan ignoreer nie.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Die uitbreiding %s is nie toegelaat nie'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'U mag nie lêers met die uitbreiding %s in hierdie forum plaas nie'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Die aanhangsel is te groot.<br />Maksgrootte: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Jammer, maar die maksimum lêer grootte vir alle aanhangsels is bereik. Kontak asseblief die Bestuurder indien u vrae het.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Aanhegsel kan nie bygevoeg word nie, aangesien die maksimum. Nommer van %d Bylaes in hierdie pos is behaal'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Die aanhangsel / prentjie moet minder wees as %d pixels breed en %d pixels hoog';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Oplaaifout: Kon nie Aanhegsel laai op %s nie.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Jy moet waardes invoer in die \'Voeg \'n a
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Kon nie byvoeging bywerk nie, kon ou Aanhegselinskrywing nie vind nie';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Jammer, maar die maksimum lêer grootte vir alle aanhangsels in u privaat boodskapmap is bereik. Skrap asseblief sommige van u ontvang / gestuur aanhangsels.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Jammer, maar die maksimum lêer grootte vir alle aanhangsels in die Privaatboodskapslys van \'%s\' is bereik. Laat hom asseblief weet, of wag totdat hy / sy sommige van sy / haar aanhangsels verwyder het.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jy het nie \'n aanhangsel gekies om af te laai of te sien nie.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Die aanhangsel kenmerk is gedeaktiveer.'
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Die gids \'%s\' bestaan ​​nie of kon nie gevind word nie.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Kontroleer asseblief of \'%s\' \'n gids is.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Gids \'%s\' is nie skryfbaar nie. U moet die oplaaipad skep en chmod dit na 777 (of verander die eienaar aan u httpd-bediener eienaar) om lêers op te laai.<br />As u slegs FTP-toegang het, verander die \'Attribuut\' van die gids na rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Laai kwota op';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Soek bylaes';
 $lang['TEST_SETTINGS'] = 'Toetsinstellings';
 $lang['NOT_ASSIGNED'] = 'Nie toegeken nie';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Geen lêer kommentaar beskikbaar nie';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Jou Aanhegselbus is<br /><b>%d%%</b> vol';
 $lang['NO_QUOTA_LIMIT'] = 'Geen Kwota Limiet';
 $lang['UNLIMITED'] = 'Unlimited';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Nog \'n stroom met dieselfde info_hash al <a h
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-slegs torrents is tans deur die admin gedek aktiveer, toegelaat: v2 en hibrides';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-slegs torrents is tans deur die admin gedek aktiveer, toegelaat: v1 en hibrides';
 $lang['BT_FLIST'] = 'Lêerlys';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker instellings laat nie verwerkingslyste toe met meer as %d lêers nie. Huidige aantal is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is \'n hash van \'n lêer ingebed in torrents met BitTorrent v2 ondersteuning, tracker gebruikers kan dit onttrek, bereken, en ook gededupliceerde torrents aflaai met desktop gereedskap soos <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Skepdatum';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'views';
 $lang['GOLD'] = 'Goud';
 $lang['SILVER'] = 'silwer';
 $lang['SET_GOLD_TORRENT'] = 'Maak goud';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Maak goud op';
 $lang['SET_SILVER_TORRENT'] = 'Maak silwer';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Maak silwer';
 $lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD VERKEER NIE OORWEEG NIE!';
 $lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC PARTIALLY CONSIDERED!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent tipe verander na: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent tipe verander na: %s';
 $lang['TORRENT_STATUS'] = 'Soek volgens status van vrystelling';
 $lang['SEARCH_IN_FORUMS'] = 'Soek in forums';
 $lang['SELECT_CAT'] = 'Kies kategorie';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Gaan afdeling';
 $lang['TORRENTS_FROM'] = 'Boodskappe van';
 $lang['SHOW_ONLY'] = 'Wys net';
 $lang['SHOW_COLUMN'] = 'Wys kolom';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'As jou verhouding laer is as %s, sal jy nie Tor
 
 $lang['SEEDER_LAST_SEEN'] = 'Saaier nie gesien nie: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Jy moet eers inteken';
 $lang['ONLY_FOR_MOD'] = 'Hierdie opsie slegs vir moderators';
 $lang['ONLY_FOR_ADMIN'] = 'Hierdie opsie slegs vir administrateurs';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Hierdie opsie slegs vir super administrateurs';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = '‘n gebruiker %s is reeds geregistreer met jou IP ad
 $lang['HIDDEN'] = 'verborge';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Jy is nie gemagtig om hierdie raad te administreer nie';
 
 $lang['COOKIES_REQUIRED'] = 'Koekies moet aangeskakel wees!';
 $lang['SESSION_EXPIRED'] = 'Sessie verstryk';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Jammer, registrasie is tans afgeskakel';
 $lang['ONLY_NEW_POSTS'] = 'Slegs nuwe plasings';
 $lang['ONLY_NEW_TOPICS'] = 'Net nuwe onderwerpe';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Help asseblief om hierdie torrents te saai!';
 $lang['STATISTICS'] = 'Statistiek';
 $lang['STATISTIC'] = 'statistiek';
 $lang['VALUE'] = 'waarde';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Ek stem nie saam met hierdie terme nie';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Om te registreer, moet jy JavaScript aktiveer';
 $lang['REGISTERED_IN_TIME'] = "Registrasie is tans gesluit<br /><br />Registrasie is beskikbaar gedurende: %s<br />Huidige bediener tyd: %s<br /><br />Ons vra om verskoning vir die ongerief";
 $lang['AUTOCOMPLETE'] = 'Genereer wagwoord';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'U is \'n nuwe wagwoord:';
 $lang['REGENERATE'] = 'regenereer';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Uitvoeringstyd:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'op';
 $lang['OFF'] = 'af';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Geheue: ';
 $lang['QUERIES'] = 'navrae';
 $lang['LIMIT'] = 'perk:';
 $lang['SHOW_LOG'] = 'Wys log';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrent kliënt';
 $lang['DL_FORMULA'] = 'Formule: Opgelaai / TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'gestop';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'dateer tyd op: ';
 $lang['DL_INFO'] = 'Wys data <i><b>alleen vir die huidige sessie</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Versteek my BitTorrent kliënt naam in peer lys';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Versteek my land naam in peer lys';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Gebruikers per dag';
 $lang['BOARD_STARTED'] = 'Raad begin';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar directory grootte';
 $lang['DATABASE_SIZE'] = 'Databasis grootte';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'Gzip kompressie';
 $lang['NOT_AVAILABLE'] = 'Nie beskikbaar nie';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Soek forum op';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Hier kan u die toestemmings en moderatorstatus wat aan elke gebruikersgroep toegewys is, verander. Moenie vergeet wanneer groeptoestemmings verander word nie, aangesien individuele gebruikersregte die gebruiker toelaat om toegang tot forums te kry. U sal gewaarsku word as dit die geval is.';
 $lang['USER_AUTH_EXPLAIN'] = 'Hier kan u die toestemmings en moderatorstatus wat aan elke individuele gebruiker toegewys is, verander. Moenie vergeet wanneer gebruikerstoestemmings verander word nie, aangesien groeptoestemmings die gebruiker toelaat om toegang tot forums, ens. Te kry. U sal gewaarsku word as dit die geval is.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Hier kan jy die magtigingsvlakke van elke forum verander. U sal beide \'n eenvoudige en gevorderde metode hê om dit te doen, waar gevorderde meer beheer bied oor elke forumoperasie. Onthou dat die verandering van die toestemmingsvlak van forums sal beïnvloed watter gebruikers die verskillende bedrywighede binne hulle kan uitvoer.';
 
 $lang['SIMPLE_MODE'] = 'Eenvoudige af';
 $lang['ADVANCED_MODE'] = 'Gevorderde af';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Toegestaan ​​Toegang';
 $lang['DISALLOWED_ACCESS'] = 'Toegewyde Toegang';
 $lang['IS_MODERATOR'] = 'Is Moderator';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Magtiging Konflik Waarskuwing';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Hierdie gebruiker het steeds toegangsregte tot hierdie forum via groepmaatskap. U kan die groeptoegewings verander of hierdie gebruiker die groep verwyder om te verhoed dat hulle toegangsregte het. Die groepe wat regte verleen (en die betrokke forums) word hieronder genoem.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Hierdie gebruiker het nog steeds moderatorregte op hierdie forum via groeplidmaatskap. U kan die groeptoegewings verander of hierdie gebruiker die groep verwyder om dit ten volle te voorkom dat hulle moderatorregte het. Die groepe wat regte verleen (en die betrokke forums) word hieronder genoem.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Klik %sHere%s om terug te keer na Banbeheer';
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Algemene konfigurasie';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Die onderstaande vorm sal u toelaat om al die algemene direksie opsies aan te pas. Vir gebruikers- en forumkonfigurasies gebruik die verwante skakels aan die linkerkant.';
 
 $lang['CONFIG_MODS'] = 'Konfigurasie wysigings';
 $lang['MODS_EXPLAIN'] = 'Met hierdie vorm kan u die veranderinge aanpas';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Aktiveer Forum Snoei';
 $lang['ALLOW_BBCODE'] = 'Laat BBCode toe';
 $lang['ALLOW_SMILIES'] = 'Laat Smilies toe';
 $lang['SMILIES_PATH'] = 'Smilies berging pad';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Pad onder jou TorrentPier root dir, bv. Style / beelde / glimlag';
 $lang['ALLOW_SIG'] = 'Laat handtekeninge toe';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum handtekening lengte';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimum aantal karakters in gebruikers handtekeninge';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Hoe lank is \'n outologin sleutel geldig in d
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Administrasie';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'Vanuit hierdie paneel kan u kategorieë en forums byvoeg, verwyder, wysig, herbestel en weer sinchroniseer';
 $lang['EDIT_FORUM'] = 'Redigeer forum';
 $lang['CREATE_FORUM'] = 'Skep nuwe forum';
 $lang['CREATE_SUB_FORUM'] = 'Skep subforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Opdateer bestelling';
 $lang['CONFIG_UPDATED'] = 'Forumkonfigurasie is suksesvol opgedateer';
 $lang['MOVE_UP'] = 'Skuif op';
 $lang['MOVE_DOWN'] = 'Af beweeg';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Weer sinchroniseer';
 $lang['NO_MODE'] = 'Geen modus is gestel nie';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Die onderstaande vorm sal u toelaat om al die algemene direksie opsies aan te pas. Vir gebruikers- en forumkonfigurasies gebruik die verwante skakels aan die linkerkant';
 
 $lang['MOVE_CONTENTS'] = 'Skuif al die inhoud';
 $lang['FORUM_DELETE'] = 'Verwyder Forum';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. Lengte van die nuus';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Hoeveel nuus items om te wys';
 $lang['NEWS_FORUM_ID'] = 'Van watter forums om te vertoon <br /> <h6>Vir verskeie forums, spesifiseer ID\'s geskei deur kommas. Voorbeeld: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Geen avatar nie';
 $lang['TRACKER_STATS'] = 'Statistiek op die spoorsnyer';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Kwota Limiete';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Aanhegsel-instellings';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Hier kan u die hoofinstellings vir die aanhangselmodus instel. As jy op die toetsinstellingsknoppie druk, doen die Attachment Mod \'n paar stelseltoetse om seker te maak dat die Mod behoorlik werk. As jy probleme ondervind met die oplaai van lêers, voer asseblief hierdie toets uit om \'n gedetailleerde foutboodskap te kry.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Aanhegsel lêer grootte instellings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Aanhegselnommer-instellings';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Aanhegsel opsies';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Hier kan jy kies of die Aanhegsels in P
 $lang['SHOW_APCP'] = 'Gebruik die nuwe bedieningspaneel aansoeke';
 $lang['SHOW_APCP_EXPLAIN'] = 'Kies of u \'n aparte bedieningspaneel aansoeke (ja) wil gebruik, of die ou metode met twee bokse vir toepassings en redigering van aansoeke (geen) in die boodskapkassie. Dit is moeilik om te verduidelik hoe dit lyk, so probeer vir jouself.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Lêergrootte';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimum lêer grootte vir aanhangsels. \'N waarde van 0 beteken\' onbeperk \'. Hierdie instelling word beperk deur u bediener konfigurasie. Byvoorbeeld, as u PHP-konfigurasie slegs maksimum 2 MB-oplaaie toelaat, kan dit nie deur die Mod oorskry word nie.';
 $lang['ATTACH_QUOTA'] = 'Aanhegsel Kwota';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimum skyfspasie ALLE Aanhegsels kan u Webruimte hou. \'N waarde van 0 beteken\' onbeperk \'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Verwyder alle posing-aanhangseldata v
 $lang['EMPTY_FILE_ENTRY'] = 'Leë lêerinskrywing';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Die voorspraak is vir die aanhangsel gereset: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Aanhegselsinchronisasie voltooi.';
 $lang['SYNC_TOPICS'] = 'Sinkroniseer-onderwerpe';
 $lang['SYNC_POSTS'] = 'Sync Posts';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Bestuur spesiale kategorieë';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Hier kan u die spesiale kategorieë instel. U kan spesiale parameters en voorwaardes opstel vir die spesiale kategorieë wat aan \'n uitbreidingsgroep toegeken word.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Stellings vir spesiale kategorie: prente';
 $lang['SETTINGS_CAT_FLASH'] = 'Stellings vir spesiale kategorie: Flash-lêers';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Vertoon prente geïllustreer';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Kies of beelde direk in die pos vertoon moet word (ja) of om beelde as \'n skakel te vertoon?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum beeldafmetings';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Hier kan u die maksimum toelaatbare beelddimensie wat aangeheg moet word, definieer. (Breedte x Hoogte in pixels) .<br />Indien dit op 0x0 gestel is, is hierdie kenmerk gedeaktiveer. Met sommige prente sal hierdie funksie nie werk as gevolg van beperkings in PHP nie.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'As hierdie gedefinieerde dimensie van \'n pr
 $lang['ASSIGNED_GROUP'] = 'Toegewysde Groep';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Skep duimnaelskets';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Duimnaelskets lêergrootte';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'As \'n beeld kleiner is as hierdie gedefinieerde lêergrootte, sal geen Duimnaelskets geskep word nie, want dit is klein genoeg.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Bestuur Verboden Extensions';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Die verbode uitbreiding %s bestaan ​​r
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Die uitbreiding %s is gedefinieer in u toegelate uitbreidings, verwyder dit asseblief voordat u dit hier byvoeg.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Uitbreidingsgroepmagtigings -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Hier kan u die geselekteerde Uitbreidingsgroep beperk tot u keuse-forums (gedefinieer in die toegelate forums). Die standaard is om uitbreidingsgroepe toe te laat aan alle forums waarmee die gebruiker lêers kan aanheg (die normale manier waarop die aanhangselmod dit vanaf die begin gedoen het). Voeg net die forums by wat jy wil hê dat die uitbreidingsgroep (die uitbreidings binne hierdie groep) daar toegelaat word, die standaard ALLE FORUMS sal verdwyn wanneer jy Forums by die lys voeg. U kan ALLE FORUMS op enige gegewe tyd weer byvoeg. As u \'n Forum by u Raad voeg en die Toestemming op ALLE FORUMS gestel word, sal niks verander nie. Maar as jy die toegang tot sekere forums verander en beperk het, moet jy weer hierheen kyk om jou nuutgeskepte Forum by te voeg. Dit is maklik om dit outomaties te doen, maar dit sal jou dwing om \'n klomp lêers te wysig. Daarom het ek gekies hoe dit nou is. Hou asseblief in gedagte dat al u forums hier gelys sal word.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'LET WEL: <br />Met die onderstaande gelyste forums word u gebruikers gewoonlik toegelaat om lêers te heg, maar aangesien geen uitbreidingsgroep daaraan geheg kan word nie, kan u gebruikers niks aanheg nie. As hulle probeer, sal hulle fout boodskappe ontvang. Miskien wil jy die Toestemming \'Poslêers\' stel by ADMIN by hierdie forums. <br /><br />';
 $lang['ADD_FORUMS'] = 'Voeg forums by';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Geen bylae het jou soekkriteria voldoen nie';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Aantal bylaes';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Totale lêer grootte';
 $lang['NUMBER_POSTS_ATTACH'] = 'Aantal poste met aanhangsels';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Aantal onderwerpe met aanhangsels';
 $lang['NUMBER_USERS_ATTACH'] = 'Onafhanklike Gebruikers Geplaas Aanhegsels';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'Hou <i>Ctrl</i> vas terwyl jy verskeie forums 
 $lang['REG_TORRENTS'] = 'Teken torrents';
 $lang['DISALLOWED'] = 'verbode';
 $lang['ALLOW_REG_TRACKER'] = 'Toegelate forums vir die registrasie van .torrents on tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Toegelaat om inhoud 18+ te plaas';
 $lang['SHOW_DL_BUTTONS'] = 'Wys knoppies om die DL-status handmatig te verander';
 $lang['SELF_MODERATED'] = 'Gebruikers kan <b>move</b> hul onderwerpe na \'n ander forum';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'sleutel';
 $lang['BT_ADD_AUTH_KEY'] = 'Aktiveer paspoort by die torrent-lêers voordat u dit aflaai';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent-blaaier (spoorsnyer)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-blaaier (tracker.php) is slegs toeganklik vir aangemeld gebruikers';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Laat Boolean-voltekssoektogte toe';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Gebruik *, +, -, .. in soektogte';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "diverse";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Wys gebruikers UL/DL statistieke in die boonste deel van die forum se hoofblad";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Refresh rate';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Hoeveel tyd (sekondes) bly inactief voordat jy na die volgende verwerkingsiklus beweeg<br />Een jy hoef dit nie te verander nie.';
 
 $lang['TIME_LIMIT'] = 'Tydsbeperking';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Hoeveel tyd (sekondes) na verwerking kan duur voordat u na die volgende siklus beweeg';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Jou PHP (veilige staan) het \'n uitklok tyd van %s sekondes geconfigureer, so bly onder hierdie waarde</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Jou webbediener het \'n time-out van %s sekondes gekonfigureer, bly dus onder hierdie waarde</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Jy het die verwerking suksesvol afgehan
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Herstel soek vordering';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Verwerkte pos ids: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Timer het verval op %s sekondes.';
 $lang['CLEARED_SEARCH_TABLES'] = 'Gesoekte tabelle skoongemaak.';
 $lang['DELETED_POSTS'] = '%s boodskap (s) is tydens u verwerking deur u gebruikers verwyder.';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Almal';
 
 $lang['TPL_EMPTY_FIELD'] = 'Jy moet die veld <b>%s</b> invul';
 $lang['TPL_EMPTY_SEL'] = 'Jy moet kies <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Nie \'n nommer nie';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Moet https:// URL wees';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Moet https:// IMG_URL wees';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'Sit in die vak';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Soek vir gebruikers met \'n postelling m
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Soek vir gebruikers met \'n postelling tussen %d en %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Op soek na gebruikers met \'n post telling waarde van %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Soek vir gebruikers met \'n X (Twitter) wat ooreenstem met %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Soek vir gebruikers met \'n webwerf wat ooreenstem met %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Op soek na gebruikers met \'n Ligging wat ooreenstem met %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Op soek na gebruikers met hul belangstellingsveld wat ooreenstem met %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Op soek na gebruikers met hul Beroep-veld wat ooreenstem met %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Gelykes';
 $lang['GREATER_THAN'] = 'Groter as';
 $lang['LESS_THAN'] = 'Minder as';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Jy kan soek vir gebruikers op grond van die plasingtellingwaarde. Jy kan óf soek volgens \'n spesifieke waarde, groter as of kleiner as \'n waarde of tussen twee waardes. Om die reekssoektog te doen, kies "Gelyk aan" en plaas dan die begin- en eindwaardes van die reeks geskei deur \'n streep (-), bv. 10-15';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Gebruikersvlakke';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Soek vir gebruikers gebaseer op verskillende profiel velde. Wildcards word ondersteun deur \'n asterix (*) te gebruik.';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'U kan op soek na gebruikers op grond van hul laaste inskrywing datum soek deur hierdie soektog te gebruik';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Dit sal gebruikers vertoon wat \'n spesifieke taal in hul profiel gekies het';

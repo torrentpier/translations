@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Grup üyesi Anonim yapamazsınız.';
 $lang['CONFIRM_UNSUB'] = 'Bu gruptan çıkmak istediğinizden emin misiniz?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Bu gruba aboneliğinizi henüz onaylanmamıştır; iptal etmek istediğinizden emin misiniz?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'Bu gruptan abone olundu.';
 
 $lang['APPROVE_SELECTED'] = 'Onaylama Seçilen';
 $lang['DENY_SELECTED'] = 'İnkar Seçilen';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Bu forumun bir moderatör değilsin.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Yetkili Değil';
 
 $lang['YOU_BEEN_BANNED'] = 'Bu forumda yasaklandı mı? Lütfen daha fazla bilgi için site yöneticisiyle iletişime geçin.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Üzgünüm ama bu eklentiyi görüntülemek v
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Açıklama'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'İndir'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Dosya boyutu';
 $lang['VIEWED'] = 'Görüntülenen';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = '\'%s\' uzantısı bir yönetici tarafından devre dışı bırakıldı, bu nedenle bu ek görüntülenmez.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Ek çok büyük.<br />Could en büyük Boyutu
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Ek çok büyük.<br />Maximum Yükleme Boyutu: %d MB.Bu Boyutu php tanımlanan <br />Please unutmayın.ini, bu PHP tarafından belirlenen ve Ek Mod bu değeri geçersiz kılabilirsiniz.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = '%s Uzantısı izin verilmez'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '%s Uzantılı bu Forumu Dosyaları göndermek için izin verilmez'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Ek çok büyük.<br />Maksimum Boyut: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Üzgünüm, ama tüm Ekler için maksimum dosya boyutuna ulaşıldı. Lütfen sorularınız varsa site yöneticisiyle iletişime geçin.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Eki eklendi, max beri olamaz. bu yazı %d Ekleri sayısı sağlandı'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Ek/Görüntü %d az piksel genişliğinde ve %d piksel yüksek olmalı';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Yükleme Hatası: %s için Eklenti yüklenemedi.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Değerleri girmek için Ekle \'Eki\' Kutus
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Ek güncellenemiyor, eski Eki Girişi bulunamadı';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Üzgünüm, ama Özel Mesaj klasörünüzdeki tüm Ekler için maksimum dosya boyutuna ulaşıldı. Lütfen aldığınız/gönderdiğiniz bazı Ekleri silin.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Üzgünüm, ama \'%s\' kullanıcısının Özel Mesaj Klasörü\'ndeki tüm Ekler için maksimum dosya boyutuna ulaşıldı. Lütfen onu bilgilendirin veya o/ona bazı Ekleri sildikten sonra bekleyin.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Ben indirmek veya görüntülemek için bir eklenti seçilmedi.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Ek Özelliği devre dışı bırakılır
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Dizin \'%s\' yok ya da bulunamadı.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = '%s \'kontrol edin\' bir dizindir.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Dizin \'%s\' yazılabilir değil. Dosyaları yüklemek için yükleme yolunu oluşturmalı ve 777 olarak chmod yapmalı (veya sahipliği httpd sunucunuzun sahibi ile değiştirmelisiniz).<br />Eğer sosyal FTP erişiminiz varsa dizinin \'Özniteliği\'nin rwxrwxrwx olarak değiştirilmesi gerekir.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Upload Kotası';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Arama Ekleri';
 $lang['TEST_SETTINGS'] = 'Test Ayarları';
 $lang['NOT_ASSIGNED'] = 'Atanmamış';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Hiçbir Dosya Yorum mevcut';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Ekle kutunuz %d%% dolu';
 $lang['NO_QUOTA_LIMIT'] = 'Herhangi Bir Kota Sınırı';
 $lang['UNLIMITED'] = 'Sınırsız';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Aynı info_hash ile başka bir torrent zaten <
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrentler şu anda yönetici tarafından devre dışı bırakıldı, izin verilen: v2 ve hibritler';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrentler şu anda yönetici tarafından devre dışı bırakıldı, izin verilen: v1 ve hibritler';
 $lang['BT_FLIST'] = 'Dosyalar listesi';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'İzleyici ayarları, %d dosyadan fazlasını işleme almayı izin vermiyor. Mevcut sayı: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root, BitTorrent v2 desteğiyle eklenmiş torrentlerdeki bir dosyanın hash\'idir, izleyiciler bunu çıkartabilir, hesaplayabilir ve <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a> gibi masaüstü araçları kullanarak tekrarlanmış torrentleri indirebilir';
 $lang['BT_FLIST_CREATION_DATE'] = 'Oluşturma tarihi';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Manzarası';
 $lang['GOLD'] = 'Altın';
 $lang['SILVER'] = 'Gümüş';
 $lang['SET_GOLD_TORRENT'] = 'Altın olun';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Altın Yapma';
 $lang['SET_SILVER_TORRENT'] = 'Gümüş olun';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Gümüş Yapma';
 $lang['GOLD_STATUS'] = 'ALTIN TORRENT! İNDİR TRAFİK DİKKATE ALMAZ.';
 $lang['SILVER_STATUS'] = 'GÜMÜŞ TORRENT! İNDİR TRAFİK KISMEN KABUL!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent türü şuna değiştirildi: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent türü şuna değiştirildi: %s';
 $lang['TORRENT_STATUS'] = 'Sürüm durumuna göre ara';
 $lang['SEARCH_IN_FORUMS'] = 'Forumlarda arama';
 $lang['SELECT_CAT'] = 'Kategori seçin';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Bölüme git';
 $lang['TORRENTS_FROM'] = 'Mesaj';
 $lang['SHOW_ONLY'] = 'Sadece göstermek';
 $lang['SHOW_COLUMN'] = 'Sütun göster';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Eğer oranı %s altına düşerse, Torrentleri 
 
 $lang['SEEDER_LAST_SEEN'] = 'Ekme görülme değil: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Önce giriş yapmalısınız';
 $lang['ONLY_FOR_MOD'] = 'Sadece yöneticiler için bu seçeneği';
 $lang['ONLY_FOR_ADMIN'] = 'Sadece yöneticiler için bu seçeneği';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Sadece Süper yöneticiler için bu seçeneği';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'IP adresinizle zaten kaydedilmiş bir kullanıcı %s\
 $lang['HIDDEN'] = 'Gizli';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Bu forumu yönetmek için yetkili değilsiniz';
 
 $lang['COOKIES_REQUIRED'] = 'Çerezler etkin olmalıdır.';
 $lang['SESSION_EXPIRED'] = 'Oturum süresi doldu';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Üzgünüm, kayıt şu anda devre dışı';
 $lang['ONLY_NEW_POSTS'] = 'sadece yeni mesaj';
 $lang['ONLY_NEW_TOPICS'] = 'sadece yeni konular';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Lütfen bu torrentleri tohumlamaya yardımcı olun!';
 $lang['STATISTICS'] = 'İstatistikler';
 $lang['STATISTIC'] = 'İstatistik';
 $lang['VALUE'] = 'Değer';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Bu koşulları kabul etmiyorum';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Kayıt olmak için JavaScript\'in etkinleştirilmesi gerekir';
 $lang['REGISTERED_IN_TIME'] = "Kayıt şu anda kapalı<br /><br />Kayıt şu saat aralığında mevcuttur: %s<br />Mevcut sunucu saati: %s<br /><br />Verdiğimiz rahatsızlıktan dolayı özür dileriz";
 $lang['AUTOCOMPLETE'] = 'Şifre oluştur';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'Yeni şifreniz:';
 $lang['REGENERATE'] = 'Yeniden';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Çalıştırma süresi:';
 $lang['SEC'] = 'sn';
 $lang['ON'] = 'üzerinde';
 $lang['OFF'] = 'kapalı';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Bellek: ';
 $lang['QUERIES'] = 'sorguları';
 $lang['LIMIT'] = 'Sınırı:';
 $lang['SHOW_LOG'] = 'Günlüğü göster';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrent istemcisi';
 $lang['DL_FORMULA'] = 'Formül: Yükledi/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'durdu';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'güncelleme zamanı: ';
 $lang['DL_INFO'] = 'veri <i><b>only geçerli session</b></i> için gösterir';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'BitTorrent istemci adımı gizle';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Ülke adımı gizle';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Günde kullanıcıları';
 $lang['BOARD_STARTED'] = 'Kurulu başladı';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar dizin boyutu';
 $lang['DATABASE_SIZE'] = 'Veritabanı boyutu';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'GZIP sıkıştırma';
 $lang['NOT_AVAILABLE'] = 'Mevcut değil';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Forum bak';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Burada her kullanıcı grup izinleri ve moderatör durumu değiştirebilir. Bireysel kullanıcı izinleri hala kullanıcı forumlara giriş, vb sağlayan grup izinleri değiştirirken unutmayın. Bu durumda, uyarı.';
 $lang['USER_AUTH_EXPLAIN'] = 'Burada her kullanıcı için atanan izinler ve moderatör durumu değiştirebilir. Grup izinleri hala kullanıcı forumlara giriş, vb izin verebilir kullanıcı izinleri değiştirirken unutmayın. Bu durumda, uyarı.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Burada her forumun yetkilendirme seviyelerini değiştirebilirsiniz. Bunu yapmanın basit ve gelişmiş bir yöntemi olacak, burada gelişmiş, her forum işlemine daha fazla kontrol sunar. Unutmayın ki forumların izin düzeylerini değiştirmek, hangi kullanıcıların içlerinde çeşitli işlemler gerçekleştirebileceğini etkileyecektir.';
 
 $lang['SIMPLE_MODE'] = 'Basit Mod';
 $lang['ADVANCED_MODE'] = 'Gelişmiş Mod';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'İzin Verilen Erişim';
 $lang['DISALLOWED_ACCESS'] = 'İzin Verilmeyen Erişimi';
 $lang['IS_MODERATOR'] = 'Üye';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Yetki Çakışması Uyarısı';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Bu kullanıcı grup üyeliği yoluyla bu forum için erişim hakları vardır. Grup izinleri değiştirmek için bu tam erişim haklarına sahip olmalarını engellemek için Grup kullanıcı istiyorsanız veya kaldırabilirsiniz. (Ve forumlar dahil) hakları verme grupları aşağıda belirtilmiştir.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Bu kullanıcı grup üyeliği yoluyla bu foruma moderatör hakları vardır. Grup izinleri değiştirmek için bu tam moderatör haklara sahip olmalarını engellemek için Grup kullanıcı istiyorsanız veya kaldırabilirsiniz. (Ve forumlar dahil) hakları verme grupları aşağıda belirtilmiştir.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Denetim Yasağı dönmek için %sHere%s tıkla
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Genel Yapılandırma';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Aşağıdaki form, tüm genel forum ayarlarını özelleştirmenizi sağlar. Kullanıcı ve Forum yapılandırmaları için sol taraftaki ilgili bağlantıları kullanın.';
 
 $lang['CONFIG_MODS'] = 'Yapılandırma değişiklikleri';
 $lang['MODS_EXPLAIN'] = 'Bu form değişiklikleri ayarlamak için izin verir';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Forum Budama Etkinleştir';
 $lang['ALLOW_BBCODE'] = 'Biçim Kodları Ver';
 $lang['ALLOW_SMILIES'] = 'Smiley İzin';
 $lang['SMILIES_PATH'] = 'Smiley Depolama Yolu';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'TorrentPier kök dizininde yol, örneğin stiller/resimler/gülümsemeler';
 $lang['ALLOW_SIG'] = 'İzin İmzaları';
 $lang['MAX_SIG_LENGTH'] = 'En fazla imza uzunluğu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Kullanıcı karakter sayısı imza';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Uzun kullanıcı kurulu ziyaret etmezse otoma
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Yönetimi';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'Bu panelden kategorileri ve forumları ekleyebilir, silebilir, düzenleyebilir, yeniden sıralayabilir ve yeniden senkronize edebilirsiniz.';
 $lang['EDIT_FORUM'] = 'Forum Düzenle';
 $lang['CREATE_FORUM'] = 'Yeni bir forum oluşturmak';
 $lang['CREATE_SUB_FORUM'] = 'Alt forum oluştur';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Güncelleme Sırası';
 $lang['CONFIG_UPDATED'] = 'Forum Ayarları Başarıyla Güncellendi';
 $lang['MOVE_UP'] = 'Yukarı Taşı';
 $lang['MOVE_DOWN'] = 'Aşağı taşı';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Yeniden senkronize et';
 $lang['NO_MODE'] = 'Hayır modu ayarlandı';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Aşağıdaki form, tüm genel forum ayarlarını özelleştirmenizi sağlar. Kullanıcı ve Forum yapılandırmaları için sol taraftaki ilgili bağlantıları kullanın.';
 
 $lang['MOVE_CONTENTS'] = 'Tüm içeriğini taşımak';
 $lang['FORUM_DELETE'] = 'Sil Forum';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Eşitleme';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. haber uzunluğu';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Kaç haber öğesi gösterilsin';
 $lang['NEWS_FORUM_ID'] = 'Hangi forumlardan görüntülenecek <br /> <h6>Birden fazla forum için, kimlikleri virgülle ayırarak belirtin. Örnek: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Hayır avatar';
 $lang['TRACKER_STATS'] = 'İzleyici istatistikleri';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Kota Limitleri';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Ek Ayarları';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Burada Ek Mod için Ana Ayarları yapılandırabilirsiniz. Eğer Testi Ayarları Düğmesine basarsanız, Ek Mod Mod düzgün çalışacağından emin olmak için birkaç Sistem Testleri yapar. Eğer yükleme Dosyaları ile ilgili sorunlar varsa, lütfen bu Testi, ayrıntılı bir hata iletisi alıyorum.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Ek Dosya Boyutu Ayarları';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Eklenti Sayısı Ayarları';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Ek Seçenekler';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Burada/İlk (Yeni Ek) Fıletıme Azalan
 $lang['SHOW_APCP'] = 'Yeni kontrol paneli uygulamaları';
 $lang['SHOW_APCP_EXPLAIN'] = '(Evet) ayrı bir denetim masası uygulamaları kullanmak isteyip istemediğinizi seçin, ya da eski uygulamalar için iki kutuları ve mesaj kutusunda (hiçbiri) düzenleme uygulamaları yöntemi. Nasıl göründüğünü açıklamak için, kendin için çalış zordur.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Dosya boyutu';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Ekler için en büyük boyutu. 0 \'anlamına sınırsız bir değer. Bu Ayar, Sunucu Yapılandırması ile sınırlandırılmıştır. Örneğin, php yapılandırmanızı sadece 2 MB yüklemeler maksimum izin veriyorsa, bu Mod üzerine yazılamıyor.';
 $lang['ATTACH_QUOTA'] = 'Ek Kontenjan';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimum Disk Alanı TÜM Ekleri senin Site tutabilir. 0 \'anlamına sınırsız bir değer.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Sil tüm dosya sistemi üzerinde var 
 $lang['EMPTY_FILE_ENTRY'] = 'Boş Dosya Girişi';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Önizleme, ek için sıfırlanmıştır: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Ek Senkronizasyonu Tamamlandı.';
 $lang['SYNC_TOPICS'] = 'Sync Konular';
 $lang['SYNC_POSTS'] = 'Sync Mesajlar';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Özel Kategorileri Yönet';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Burada Özel Kategorileri yapılandırabilirsiniz. Uzantı Grubuna atanmış Özel Kategoriler için Özel Parametreler ve Koşullar ayarlayabilirsiniz.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Özel Kategori için ayarlar: Görüntüler';
 $lang['SETTINGS_CAT_FLASH'] = 'Özel Kategori ayarları: Flash Dosyaları';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Görüntüleri Satır İçi Göster';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Doğrudan (Evet) sonrası görüntüleri göstermek veya bir bağlantı olarak resimleri görüntülemek için seçebilirsiniz .';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum Resim Boyutları';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Burada (Genişlik x Yükseklik) bağlı olması için izin verilen maksimum Resim Boyutu tanımlayabilirsiniz.<br />İf 0x0, bu özellik devre dışı bırakılır. Bazı Resimler ile bu Özelliği nedeniyle sınırlamalara PHP çalışmaz.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Eğer bir Görüntü tanımlanan bu Boyuta u
 $lang['ASSIGNED_GROUP'] = 'Atanan Grup';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Küçük Resim Oluşturma';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Küçük Resim Dosya Boyutu';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Bir resim bu tanımlı dosya boyutundan daha küçükse, hiçbir küçük resim oluşturulmaz, çünkü yeterince küçüktür.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Yasak Uzantıları Yönet';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = '%s yasak Uzantısı zaten var'; // replace
 $lang['EXTENSION_EXIST_FORBIDDEN'] = '%s Uzantısı izin verilen Uzantıları olarak tanımlanır, burada eklemeden önce onların silin lütfen.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Uzantı Grup İzinleri → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Burada (İzin verilen Forumlar Kutusunda tanımlanan seçim Forum için seçilen Uzantısı Grup sınırlamak edebiliyoruz. Varsayılan izin vermektir Uzantısı tüm Forumları Kullanıcı Ek Mod başından beri yaptı (normal) içine Dosyaları Eklemek mümkün olduğu Gruplar. Sadece bu Forumlar eklemek istediğiniz eklenti Grup bu Grup içinde Uzantıları orada izin, TÜM FORUMLARI Listesine eklemek forumu ne zaman kaybolur varsayılan (). Yeniden herhangi bir Zamanda TÜM FORUM eklemek mümkün. Eğer Yönetim Kurulu için bir Forum eklemek ve İzni hiçbir şey değişmeyecek Forumunda ayarlanır. Ama eğer değişti ve bazı Forumlara sınırlı erişim varsa, buraya yeni oluşturulan Forum eklemek için kontrol etmelisiniz. Otomatik olarak bunu yapmak kolaydır, ama bu Dosyaları bir grup düzenlemek için zorlar, bu nedenle bu yolu seçtim. Forum burada listelenir unutmayın, lütfen.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'NOT:Aşağıda listelenen Forumları <br />Within Kullanıcıların normalde dosya eklemek için izin verilir, ama hiçbir Uzantısı Grup orada bağlı olarak, Kullanıcılar bir şey eklemek mümkün değildir. Onlar çalışırsanız, Hata İletileri alırsınız. Belki bu Forumlarda YÖNETİCİ İzni \'Post Dosya\' ayarlamak istiyorum.<br /><br />';
 $lang['ADD_FORUMS'] = 'Forum Ekleyin';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ek arama kriterlerinize araya geldi';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Eklerin sayısı';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Toplam Dosya Boyutu';
 $lang['NUMBER_POSTS_ATTACH'] = 'Ekleri ile Mesaj Sayısı';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Ekleri ile ilgili Konuların sayısı';
 $lang['NUMBER_USERS_ATTACH'] = 'Bağımsız Kullanıcıların Ekleri Gönderildi';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'birden fazla forum seçerken <i>Ctrl</i> bası
 $lang['REG_TORRENTS'] = 'Kayıt sel';
 $lang['DISALLOWED'] = 'Yasak';
 $lang['ALLOW_REG_TRACKER'] = 'Kayıt için forum izin verdi .izci sel';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'İçerik gönderime izin ver 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Göster el değiştirme DL için durum düğmeleri-';
 $lang['SELF_MODERATED'] = '<b>move</b> konularına kullanıcılar başka bir forum olabilir';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Geçiş anahtarı';
 $lang['BT_ADD_AUTH_KEY'] = 'Torrent dosyaları için parola ekleme-indirmeden önce etkinleştir';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = '(Tracker)Torrent tarayıcı';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent tarayıcı (tracker.php) yalnızca girişli kullanıcılar için erişilebilir';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Boolean tam metin arama izin ver';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'aramalarda *, +, - kullanın';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Muhtelif";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Forumun ana sayfasının en üstünde kullanıcı UL/DL istatistiklerini göster";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Yenileme hızı';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Çok (sn) zaman bir sonraki işlem için cycle<br />Usually geçmeden önce boşta kalmak nasıl bunu değiştirmek zorunda değilsin';
 
 $lang['TIME_LIMIT'] = 'Zaman sınırı';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Bir sonraki döngüye geçmeden önce işlem sonlandırma süresi (saniye)';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP\'niz (güvenli mod) %s saniye olarak yapılandırılmış bir zaman aşımına sahiptir, bu değerin altında kalın</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your Web sunucusu yapılandırılmış %s saniye bir zaman aşımı yok, bu yüzden bu value</i> altında kalmak';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Başarıyla (%s işlenmiş mesajlar) po
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Arama İlerleme Yeniden';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'İşlenmiş post kimlikleri: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Zamanlayıcı %s saniye süresi doldu. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Temizlenir arama tabloları. ';
 $lang['DELETED_POSTS'] = '(S) %s post kullanıcılar tarafından işlem sırasında silindi. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Tüm';
 
 $lang['TPL_EMPTY_FIELD'] = '<b>%s</b> alanını doldurmalısınız';
 $lang['TPL_EMPTY_SEL'] = '<b>%s</b> seçmeniz gerekir';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Bir sayı değil';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - https:// URL olmalıdır';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - https:// IMG_URL olmalıdır';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'konu içine koy';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '%d daha kullanıcılar için mesaj sayı
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Kullanıcılar için %d ve %d arasında mesaj sayısı ile arama';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Kullanıcılar için %d post sayısı değeri ile arama';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kullanıcılar için bir X (Twitter) ile arama %s eşleşen';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = '%s ile eşleşen bir web sitesi olan kullanıcıları arıyor.';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kullanıcılar için bir Konum ile arama %s eşleşen';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kullanıcıların Çıkarları ile arama eşleşen %s alan';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Kullanıcılar için İşgal alanı ile arama %s eşleşen';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Eşdeğerdir';
 $lang['GREATER_THAN'] = 'Daha büyük';
 $lang['LESS_THAN'] = 'Daha az';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Gönderi sayısı değerine göre kullanıcıları arayabilirsiniz. Belirli bir değere göre (bir değerden büyük veya küçük) veya iki değer arasında arama yapabilirsiniz. Aralık araması yapmak için, "Eşittir"i seçin, ardından aralığın başlangıç ve bitiş değerlerini tire (-) ile ayırın, örneğin 10-15';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Kullanıcı alanı';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Çeşitli profil alanlara göre kullanıcıları arama. Joker karakterler (*) asteriks kullanarak desteklenir.';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Son giriş tarihlerine göre kullanıcılar için bu arama seçeneğini kullanarak arama yapabilirsiniz';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Bu belirli bir dil seçmiş kimin Profilinde kullanıcıları görüntüler';
