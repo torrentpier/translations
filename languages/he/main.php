@@ -82,8 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'הצג את הפוסט האחרון';
 $lang['VIEW_NEWEST_POST'] = 'הצג את הפוסט החדש';
 $lang['PAGE_OF'] = 'דף <b>%d</b> של <b>%s</b>';
 
-$lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER'] = 'טוויטר)';
+$lang['TWITTER_ERROR'] = 'אתה נכנסת נכה טוויטר כניסה';
 
 $lang['FORUM_INDEX'] = '%s פורום מדד'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'אתה בטוח שאתה רוצה למחוק א�
 $lang['FLOOD_ERROR'] = 'אתה לא יכול לעשות עוד פוסט כל כך מהר אחרי האחרון שלך; אנא נסה שוב בעוד זמן קצר';
 $lang['EMPTY_SUBJECT'] = 'אתה חייב לציין את נושא';
 $lang['EMPTY_MESSAGE'] = 'עליך להזין הודעה';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'פורום נעול';
+$lang['TOPIC_LOCKED'] = 'נושא נעול';
 $lang['TOPIC_LOCKED_SHORT'] = 'נושא נעול';
 $lang['NO_POST_ID'] = 'עליך לבחור הודעה עריכה';
 $lang['NO_TOPIC_ID'] = 'עליך לבחור נושא להשיב';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'ירוק כהה.';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'סקר';
+$lang['MODERATE'] = 'מנחה';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'חיפוש עבור משתמשים עם
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'חיפוש עבור משתמשים עם פוסט נחשב פחות מאשר %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'חיפוש עבור משתמשים עם פוסט נחשב בין %d ו %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'חיפוש עבור משתמשים עם פוסט לספור את הערך של %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'חיפוש עבור משתמשים עם טוויטר התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'חיפוש עבור משתמשים עם האתר התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'חיפוש עבור משתמשים עם מיקום התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'חיפוש עבור משתמשים עם תחומי העניין שלהם בתחום התאמת %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'יום';
 $lang['POST_EDIT_CANNOT'] = 'מצטער, אבל אתה לא יכול לערוך הודעות';
 $lang['FORUMS_IN_CAT'] = 'פורומים בקטגוריה זו';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'הערת מנחה';
 $lang['MC_LEGEND'] = 'סוג תגובה';
 $lang['MC_FAQ'] = 'הזנת טקסט יוצג תחת הודעה זו';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s בהודעה שלך";
