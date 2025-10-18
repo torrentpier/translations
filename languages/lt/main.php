@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Areštas yra per didelis.<br />Maximum �
 $lang['DISALLOWED_EXTENSION'] = 'Pratęsimo %s neleidžiama'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Jums neleidžiama skelbti Failus su Plėtiniu %s šiame Forume'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Areštas yra per didelis.<br />Max Dydis: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Atsiprašome, tačiau maksimalus failo dydis už visus Priedus, yra pasiektas. Prašome kreiptis į forumo Administratorius, jei turite klausimų.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Areštas negali būti pridėta, nes max. skaičius %d Priedų, į šį postą buvo pasiektas'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Priedą/Nuotraukos turi būti mažesnis nei %d pikselių pločio ir %d pikselių aukščio';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Įkelti Klaida: nepavyko įkelti Priedą prie %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Jūs turite įvesti vertės "Pridėti failą" Langelį';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nesugeba Atnaujinti Arešto, nepavyko rasti senų Priedą Įrašo';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Atsiprašome, tačiau maksimalus failo dydis už visus Priedus, jūsų privačią Žinutę Katalogą buvo pasiektas. Prašome ištrinti kai iš savo gautų/išsiųstų Priedus.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Atsiprašome, tačiau maksimalus failo dydis už visus Priedus asmeninį Pranešimą Aplanke "%s" buvo pasiektas. Prašome leiskite jam žinoti, ar laukti, kol jis/ji ištrinta kai kurie jo/jos Priedus.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jūs neturite pasirinktą priedą prie parsisiųsti arba peržiūrėti.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Katalogas \'%s\' neegzistuoja arba negali b
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Prašome patikrinti, jei "%s" katalogą.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalogas "%s" nėra perrašomas. Jūs turite sukurti įkelti kelias ir chmod jį į 777 (arba pakeisti savininkas jums httpd-serverių savininkas) įkelti failus.<br />If jūs turite tik paprastą FTP prieigos pakeisti "Atributas" katalogas rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Įkelti Kvota';
-$lang['PM_QUOTA'] = 'PM Kvota';
-
 // Common Variables
 $lang['BYTES'] = 'Baitų';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Bandymo Parametrai';
 $lang['NOT_ASSIGNED'] = 'Nėra Priskirti';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'No File Comment galima';
 $lang['ATTACHBOX_LIMIT'] = 'Jūsų Attachbox is<br /><b>%d%%</b> visiškai';
-$lang['NO_QUOTA_LIMIT'] = 'Ne Kvotos.';
 $lang['UNLIMITED'] = 'Neribotas';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Paprastas Režimas';
 $lang['ADVANCED_MODE'] = 'Išplėstinis Režimas';
 $lang['MODERATOR_STATUS'] = 'Moderatorius statusas';
 
-$lang['ALLOWED_ACCESS'] = 'Leidžiama Susipažinti';
-$lang['DISALLOWED_ACCESS'] = 'Nemokama Prieiga';
-$lang['IS_MODERATOR'] = 'Yra Moderatorius';
-
-$lang['CONFLICT_WARNING'] = 'Leidimo Konflikto Įspėjimas';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Šis vartotojas dar yra prieigos teisės į šį forumą per narystę grupėje. Jei norite, galite pakeisti grupės teisės ir pašalinti šią vartotojų grupę, visiškai išvengti jų prieigos teises. Grupių teisių suteikimo (ir forumuose dalyvauja), yra nurodyti žemiau.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Šis vartotojas dar turi moderatoriaus teises į šį forumą per narystę grupėje. Jei norite, galite pakeisti grupės teisės ir pašalinti šią vartotojų grupę, visiškai jų išvengti, turintys moderatoriaus teisių. Grupių teisių suteikimo (ir forumuose dalyvauja), yra nurodyti žemiau.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Šis vartotojas (ar naudotojams) vis dar turite prieigos teises į šį forumą per savo vartotojo leidimo nustatymus. Jei norite, galite pakeisti vartotojo teises, kad visiškai išvengti jų prieigos teises. Vartotojams suteikiamas teises (ir forumuose dalyvauja), yra nurodyti žemiau.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Šis vartotojas (ar naudotojams) vis dar turi moderatoriaus teises į šį forumą per savo vartotojo teises parametrai. Jei norite, galite pakeisti vartotojo teises, kad visiškai jų išvengti, turintys moderatoriaus teisių. Vartotojams suteikiamas teises (ir forumuose dalyvauja), yra nurodyti žemiau.';
-
 $lang['PUBLIC'] = 'Visuomenės';
 $lang['PRIVATE'] = 'Privatus';
 $lang['REGISTERED'] = 'Registruotas';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Balsavimas';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Kurti apklausos';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Po Failai';
 $lang['AUTH_DOWNLOAD'] = 'Parsisiųsti Failų';
-
-$lang['SIMPLE_PERMISSION'] = 'Paprasta Teises';
 
 $lang['USER_LEVEL'] = 'Vartotojo Lygis';
 $lang['AUTH_USER'] = 'Vartotojas';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Svetainės pavadinimas';
 $lang['SITE_DESC'] = 'Svetainės aprašymas';
 $lang['FORUMS_DISABLE'] = 'Išjungti valdyba';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Tai padės valdybos neprieinamas vartotojams. Administratoriai gali naudotis Administracijos Panelė nors valdyba yra neįgalūs.';
-$lang['ACCT_ACTIVATION'] = 'Įjungti sąskaitos aktyvavimo';
 $lang['ACC_NONE'] = 'Nėra'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Vartotojas';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Leisti Parašus';
 $lang['MAX_SIG_LENGTH'] = 'Maksimalus parašo ilgis';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalus simbolių skaičius naudotojo parašų';
 $lang['ALLOW_NAME_CHANGE'] = 'Leisti Username pokyčiai';
-
-$lang['EMAIL_SETTINGS'] = 'El. Pašto Parametrai';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Įjungti Vaizdo Patvirtinimo';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Vartotojai įvesti kodą apibrėžta vaizdą, kai registruojant.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Automatinis prisijungimus';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Spustelėkite %sHere%s grįžti į Veiduką 
 
 // User Management
 $lang['USER_ADMIN'] = 'Vartotojo Administracija';
-$lang['USER_ADMIN_EXPLAIN'] = 'Čia jūs galite pasikeisti savo vartotojų informaciją ir tam tikros funkcijos. Keisti naudotojų teises, prašome naudoti vartotojo ir grupės teisės sistema.';
-
 $lang['LOOK_UP_USER'] = 'Ieškoti vartotojo';
-
-$lang['ADMIN_USER_FAIL'] = 'Nepavyko atnaujinti vartotojo profilyje.';
-$lang['ADMIN_USER_UPDATED'] = 'Vartotojo profilis buvo atnaujinta sėkmingai.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Spustelėkite %sHere%s grįžti į Vartotojų Administravimas';
-
-$lang['USER_ALLOWPM'] = 'Gali siųsti Privačių Žinučių';
-$lang['USER_ALLOWAVATAR'] = 'Galite rodyti avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Čia galite pamatyti ir ištrinti vartotojo dabartinį avatarą.';
-
-$lang['USER_SPECIAL'] = 'Specialių admin-tik laukai';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Šie laukai negali būti keičiamos vartotojai. Čia galite nustatyti savo statuso ir kitų variantų, kad nėra pateikti vartotojams.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Administravimo Grupė';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Dalis to keitimosi premijos GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Valdymo Skydelis';
-$lang['SHADOW_ATTACHMENTS'] = 'Šešėlis Priedai';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Draudžiama Plėtiniai';
 $lang['EXTENSION_CONTROL'] = 'Pratęsimo Kontrolės';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Pratęsimo Grupių Valdymas';
 $lang['SPECIAL_CATEGORIES'] = 'Specialių Kategorijų';
-$lang['SYNC_ATTACHMENTS'] = 'Sinchronizuoti Priedai';
-$lang['QUOTA_LIMITS'] = 'Kvotos Ribų';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Priedų Parametrai';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Tvirtinimo Tema Piktogramos';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Šis paveikslėlis yra rodomas prieš temomis, kartu su Priedais. Palikti šį lauką tuščią jeigu nenorite piktograma būtų rodoma.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Tvirtinimo Rodymo Tvarką';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Čia galite pasirinkti, ar rodyti Priedus Pranešimų/PMs Mažėjančia Filetime Tvarka (Naujausias Priedą Pirmą kartą) arba Didėjančia Filetime Tvarka (Seniausias Priedą Pirmą kartą).';
-$lang['SHOW_APCP'] = 'Naudoti naujas valdymo skydelis programos';
-$lang['SHOW_APCP_EXPLAIN'] = 'Pasirinkite, ar norite naudoti atskirą valdymo skydelį programas (taip), ar senas metodas su dviem dėžės programas ir redagavimo programos (nėra) į pranešimo lauką. Sunku paaiškinti, kaip ji atrodo, todėl pabandykite patys.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Failo dydis';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimalus failo dydis Priedų. Reikšmė 0 reiškia "unlimited\'. Šis Nustatymas riboja savo Serverio Konfigūraciją. Pavyzdžiui, jei savo php Konfigūracijoje tik leidžia ne daugiau kaip 2 MB įkelti, tai negali būti pakeistas Mod.';
-$lang['ATTACH_QUOTA'] = 'Tvirtinimo Kvota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimalus Disko Vietos, VISI Priedai gali turėti savo Serverį. Reikšmė 0 reiškia "unlimited\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maksimalus failo dydis Privačių Žinučių Aplanke';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimalus Disko Vietos Priedus galite naudoti iki kiekvieno Vartotojo asmeninis Pranešimas langelį. Reikšmė 0 reiškia "unlimited\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Numatytasis Kvotos.';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Čia jūs galėsite pasirinkti Numatytąjį Kvotos automatiškai priskiriamas naujai užsiregistravę vartotojai ir Naudotojai, be apibrėžta Kvotos. Variantas "Ne Kvotos" yra ne naudojant bet kokį Priedą Kvotas, o ne naudojant numatytuosius Parametrus nustatėte per šį Valdymo Skydelį.';
 
 $lang['MAX_ATTACHMENTS'] = 'Didžiausias Priedų';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Didžiausias priedų skaičius leidžiama į vieną postą.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Išjungti Priedą Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Ši parinktis yra daugiausia išbandyti naujus šablonus arba temų, tai išjungia visas Priedą Funkcijos, išskyrus Admin Panel.';
 $lang['PM_ATTACHMENTS'] = 'Leisti Priedus asmeninius Pranešimus';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Leisti/Neleisti pridėti failus į asmeninius Pranešimus.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Parodyti peržiūros pranešimų temose rašant atsakymą?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Jei jūs įtraukėte "taip", visos paraiškos bus rodomi peržiūros ryšių temomis.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Čia galite ištrinti priedą duomenis darbai, kai failai yra dingęs iš jūsų rinkmenų išdėstymo sistemą, ir trinti failus, kad nebėra prie bet kurios žinutės. Galite parsisiųsti arba peržiūrėti failų, jei paspausite ant jos; jei jokio ryšio nėra, failas neegzistuoja.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Ištrinti visus priedus failų, kurie yra jūsų rinkmenų išdėstymo sistemą ir yra priskiriamos prie esamos paštu.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Ištrinti visas komandiravimo arešto, duomenų failus, kad nereikia būti jūsų rinkmenų išdėstymo sistemą.';
-$lang['EMPTY_FILE_ENTRY'] = 'Tuščias Įrašo';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Peržiūra buvo atstatyta už priedą: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Priedo sinchronizavimas baigtas.';
 $lang['SYNC_TOPICS'] = 'Sync Temos';
 $lang['SYNC_POSTS'] = 'Sync Pranešimų';
-$lang['SYNC_THUMBNAILS'] = 'Sync Miniatiūros';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Valdyti Plėtinius';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Čia jūs galite valdyti savo Failų Plėtinius. Jei norite leisti/neleisti a Pratęsimo turi būti įkeltas, naudokite Pratęsimo Grupių Valdymas.';
 $lang['EXPLANATION'] = 'Paaiškinimas';
 $lang['EXTENSION_GROUP'] = 'Pratęsimo Grupė';
-$lang['INVALID_EXTENSION'] = 'Neteisingas Plėtinys';
 $lang['EXTENSION_EXIST'] = 'Pratęsimo %s jau egzistuoja'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Pratęsimo %s yra uždrausta, jūs negalite pridėti jį leidžiama Plėtiniai'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Tvarkyti Pratęsimo Grupės';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Pratęsimo Grupės %s jau egzistuoja'; // repl
 $lang['MANAGE_CATEGORIES'] = 'Tvarkyti Ypatingų Kategorijų';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Čia galite konfigūruoti Specialias Kategorijas. Galite nustatyti Specialius Parametrus ir Sąlygas Specialioms Kategorijoms, priskirtoms Pratęsimo Grupių.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Parametrai Specialios Kategorijos: Nuotraukos';
-$lang['SETTINGS_CAT_FLASH'] = 'Parametrai Specialios Kategorijos: Flash Failų';
 $lang['DISPLAY_INLINED'] = 'Vaizdų Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Pasirinkti, ar rodyti nuotraukas tiesiai per šias pareigas (taip) arba rodyti vaizdai, kaip nuoroda ?';
 $lang['MAX_IMAGE_SIZE'] = 'Didžiausias Vaizdo Matmenys';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Sukurti Miniatiūrą';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Mažiausią Miniatiūrą Failo Dydis';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jei Vaizdas yra mažesnis kaip tai apibrėžta failo dydis, ne Vaizdelis bus sukurta, nes jis pakankamai mažas.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Tvarkyti Draudžiama Plėtiniai';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Čia jūs galite įtraukti arba ištrinti draudžiama plėtiniai. Plėtiniai php, php3 ir php4 yra draudžiama pagal nutylėjimą saugumo sumetimais jūs negalite ištrinti ir juos.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Draudžiama Pratęsimo %s jau egzistuoja'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Pratęsimo %s yra apibrėžta jūsų leista Plėtinius, prašome jį ištrinti savo prieš įtraukdami jį čia.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Pratęsimo Grupės Teisės -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Čia jūs galėsite apriboti pasirinktą Pratęsimo Grupės, Forumai savo pasirinkimą (apibrėžta Leidžiama Forumuose Box). Pagal Nutylėjimą yra leisti Pratęsti Grupes, visų Forumų, Vartotojas gali Pridėti Failus į (įprastai Priedą Mod tai padarė, nes pradžioje). Tiesiog pridėkite šiuos Forumus norite Pratęsti Grupės (Plėtinių šioje Grupėje) bus leidžiama ten, numatytasis VISUS FORUMUS išnyks, jei norite pridėti Forumų Sąrašas. Jūs galėsite iš naujo įtraukti VISUS FORUMUS bet kuriuo Metu. Jei jums pridėti Forumą į savo laivą ir Leidimą, nustatyta, kad VISUOSE FORUMUOSE niekas nepasikeis. Bet jei jūs pakeitėte ir apribojo prieigą prie tam tikrų Forumų, jūs turite patikrinti atgal čia pridėti savo naujai sukurtas Forumas. Tai lengva padaryti automatiškai, bet tai privers jus redaguoti Failų krūva, todėl aš pasirinkau taip, kaip yra dabar. Atminkite, kad visi jūsų Forumai bus rodomas čia.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Pridėti Forumuose';
 $lang['ADD_SELECTED'] = 'Pridėti Pasirinktus';
 $lang['PERM_ALL_FORUMS'] = 'VISUOSE FORUMUOSE';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Tvarkyti Priedą Kvotų Ribų';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Čia jūs galėsite pridėti/ištrinti/pakeisti Kvotų Ribų. Galėsite priskirti šių Kvotos Ribų, kad Vartotojai ir Grupės vėliau. Norėdami susieti Kvotos Vartotojui, jūs turite eiti į Vartotojus->Valdymo, pasirinkite Vartotoją, ir jums bus matyti Parinktis apačioje. Norėdami susieti Kvotos į Grupę, eikite į Grupes->Valdymo, pasirinkite Grupę ir redaguokite jį, ir jums bus pamatyti Sąrankos Parametrai. Jei norite matyti, kurie Vartotojai ir Grupės yra priskirtos konkrečios Kvotos, spauskite ant "View" kairėje Kvotos Aprašymas.';
-$lang['ASSIGNED_USERS'] = 'Priskirti Vartotojai';
-$lang['ASSIGNED_GROUPS'] = 'Priskirtos Grupės';
-$lang['QUOTA_LIMIT_EXIST'] = 'Kvotos %s jau yra.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Failo Priedą Valdymo Skydelis';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Čia galite peržiūrėti ir tvarkyti visus priedus, remiantis Naudotojų, Priedai, Nuomonėmis ir pan...';
-$lang['FILECOMMENT'] = 'Failo Komentarą';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Naudojimas * kaip pakaitos dalinio rungtynes';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Etatų skaičius su Priedais';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Temų skaičius su Priedais';
 $lang['NUMBER_USERS_ATTACH'] = 'Nepriklausomų Vartotojų Posted Priedai';
 $lang['NUMBER_PMS_ATTACH'] = 'Iš viso Priedus asmeninius Pranešimus';
-$lang['ATTACHMENTS_PER_DAY'] = 'Priedai per dieną';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Tvirtinimo Statistika %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Sąrankos Atnaujinta Sėkmingai';
 $lang['SET_DEFAULTS'] = 'Atkurti numatytuosius';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forumas config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forumas funkcijos:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'laikykite nuspaudę <i>Ctrl</i> renkantis kelis forumus';
 
