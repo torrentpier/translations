@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Apskatīt jaunākās pastu';
 $lang['PAGE_OF'] = 'Lapa <b>%d</b> no <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Jūs stājās spēkā neesošu, X (Twitter) pieteikšanās';
 
 $lang['FORUM_INDEX'] = '%s Forumā Indekss'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Vai jūs esat pārliecināts, ka vēlaties dzēs
 $lang['FLOOD_ERROR'] = 'Jūs nevarat veikt citā amatā tik drīz pēc tam, kad jūsu pēdējie, lūdzu, mēģiniet vēlreiz īsā laikā';
 $lang['EMPTY_SUBJECT'] = 'Jums jānorāda tēmu';
 $lang['EMPTY_MESSAGE'] = 'Jums jāievada ziņojums';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forums ir slēgts';
+$lang['TOPIC_LOCKED'] = 'Tēmu bloķēts';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tēmu bloķēts';
 $lang['NO_POST_ID'] = 'Jums ir nepieciešams, lai izvēlētos pastu, lai rediģētu';
 $lang['NO_TOPIC_ID'] = 'Jums ir nepieciešams, lai izvēlētos tēmu, lai atbildētu uz';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Tumši Zaļa';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Aptauja';
+$lang['MODERATE'] = 'Moderators';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Meklēt lietotājus ar rakstu skaits ir
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Meklēt lietotājus ar post count mazāk nekā %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Meklēt lietotājus ar post count starp %d un %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Meklēt lietotājus ar post count vērtību %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Meklē lietotājiem Čivināt, saskaņojot %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Meklēt lietotājus ar Mājas lapa matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Meklēt lietotājus ar Atrašanās vietu iekārtošanas %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Meklēt lietotājus ar viņu Interešu jomā, saskaņošana %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Diena';
 $lang['POST_EDIT_CANNOT'] = 'Atvainojiet, bet jūs nevar rediģēt amatiem';
 $lang['FORUMS_IN_CAT'] = 'forumos šajā kategorijā';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderācijas komentārs';
 $lang['MC_LEGEND'] = 'Ierakstiet savu komentāru';
 $lang['MC_FAQ'] = 'Ievadījis teksts tiks parādīts saskaņā ar šo ziņu';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s savu ziņu";
