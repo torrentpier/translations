@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = '查看最新发表的文章';
 $lang['VIEW_NEWEST_POST'] = '查看最新帖子';
 $lang['PAGE_OF'] = '第<b>%d</b>页，共<b>%s</b>页';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = '您输入了一个无效的 Skype 账号';
-
-$lang['TWITTER'] = '推特';
-$lang['TWITTER_ERROR'] = '您输入了一个无效的 Twitter 账号';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s 论坛索引'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = '您确定要删除这项调查吗？';
 $lang['FLOOD_ERROR'] = '您不能快速地连续发帖；请稍等一会再试。';
 $lang['EMPTY_SUBJECT'] = '您必须指定一个主题';
 $lang['EMPTY_MESSAGE'] = '您必须输入一条消息';
-$lang['FORUM_LOCKED'] = '这个论坛被锁定︰ 您不能发布，回复，或编辑主题';
-$lang['TOPIC_LOCKED'] = '本主题已被锁定︰ 您不能编辑帖子或作出回复';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = '锁定的主题';
 $lang['NO_POST_ID'] = '您必须选择一个帖子来编辑';
 $lang['NO_TOPIC_ID'] = '您必须选择一个主题来回复';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = '鋼藍色';
 $lang['COLOR_GRAY'] = '灰色';
 $lang['COLOR_DARK_GREEN'] = '深綠色';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[代码]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '發送私信';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = '私信';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['回复', '答复'];
 $lang['DECLENSION']['TIMES'] = ['时间', '时间'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent文件損壞';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '此“網站”只能包含http://sitename';
-$lang['ICQ_ERROR'] = '"ICQ"欄位只能包含 ICQ 號碼';
 $lang['INVALID_DATE'] = '無效的日期';
 $lang['PROFILE_USER'] = '查看個人資料';
 $lang['GOOD_UPDATE'] = '成功更改';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = '寻找用户员额数大于%d';
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '寻找用户员额数少于%d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = '找到数额在%d和%d之间的用户';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '找到数额等于%d的用户';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = '寻找用户网址匹配%s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = '搜索用户对Skype匹配%s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = '寻找用户Twitter匹配%s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = '寻找用户与网站相匹配%s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = '寻找用户位置的匹配%s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = '寻找用户与他们利益的领域匹配%s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = '天';
 $lang['POST_EDIT_CANNOT'] = '抱歉，您無法編輯帖子。';
 $lang['FORUMS_IN_CAT'] = '該類別中的論壇。';
 
-$lang['MC_TITLE'] = '评论审核';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = '輸入評論。';
 $lang['MC_FAQ'] = '輸入的文字將顯示在此消息下。';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s在您的消息中";
