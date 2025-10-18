@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Visualizzazione post più recente';
 $lang['PAGE_OF'] = 'Pagina <b>%d</b> di <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Hai inserito un accesso non valido a Twitter';
 
 $lang['FORUM_INDEX'] = '%s Indice Del Forum'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Sei sicuro di voler eliminare questo sondaggio?'
 $lang['FLOOD_ERROR'] = 'Non è possibile fare un altro post così presto dopo il vostro ultimo; si prega di riprovare in breve tempo';
 $lang['EMPTY_SUBJECT'] = 'È necessario specificare un oggetto';
 $lang['EMPTY_MESSAGE'] = 'È necessario inserire un messaggio';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Il forum è bloccato';
+$lang['TOPIC_LOCKED'] = 'L\'argomento è bloccato';
 $lang['TOPIC_LOCKED_SHORT'] = 'Argomento bloccato';
 $lang['NO_POST_ID'] = 'È necessario selezionare un post per modificare';
 $lang['NO_TOPIC_ID'] = 'È necessario selezionare un argomento per la risposta';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Verde Scuro';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Sondaggio';
+$lang['MODERATE'] = 'Moderare';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Ricerca di utenti con un numero maggior
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Ricerca di utenti con un post contare meno di %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Ricerca di utenti con un post contare tra %d e %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Ricerca di utenti con un post il valore di conteggio di %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Ricerca di utenti con un Twitter di corrispondenza %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Ricerca di utenti con un Sito web corrispondente %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Ricerca di utenti con una Posizione corrispondente %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Ricerca di utenti con i loro Interessi di campo corrispondente %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Giorno';
 $lang['POST_EDIT_CANNOT'] = 'Ci dispiace, ma non è possibile modificare i messaggi';
 $lang['FORUMS_IN_CAT'] = 'forum in che categoria';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Commento di moderazione';
 $lang['MC_LEGEND'] = 'Digitare un commento';
 $lang['MC_FAQ'] = 'Il testo inserito verrà visualizzato sotto questo messaggio';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s nel tuo messaggio";
