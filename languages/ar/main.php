@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'عرض آخر مشاركة';
 $lang['VIEW_NEWEST_POST'] = 'عرض أحدث ما بعد';
 $lang['PAGE_OF'] = 'الصفحة <b>%d</b> من <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'سكايب';
-$lang['SKYPE_ERROR'] = 'قمت بإدخاله غير صالح سكايب تسجيل الدخول';
-
-$lang['TWITTER'] = 'تويتر';
-$lang['TWITTER_ERROR'] = 'قمت بإدخاله غير صالح تويتر تسجيل الدخول';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s مؤشر المنتدى'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'هل أنت متأكد من أنك تريد حذ
 $lang['FLOOD_ERROR'] = 'لا يمكنك جعل وظيفة أخرى في وقت قريب جدا بعد آخر ، يرجى المحاولة مرة أخرى في فترة قصيرة';
 $lang['EMPTY_SUBJECT'] = 'يجب تحديد موضوع';
 $lang['EMPTY_MESSAGE'] = 'يجب إدخال رسالة';
-$lang['FORUM_LOCKED'] = 'هذا المنتدى مغلق: لا يمكنك الرد أو الرد عليها أو تحرير المواضيع';
-$lang['TOPIC_LOCKED'] = 'هذا الموضوع مغلق: لا يمكنك الرد أو تعديل المواضيع';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'الموضوع مغلق';
 $lang['NO_POST_ID'] = 'يجب تحديد وظيفة تحرير';
 $lang['NO_TOPIC_ID'] = 'يجب تحديد موضوع الرد على';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'الفولاذ الأزرق';
 $lang['COLOR_GRAY'] = 'الرمادي';
 $lang['COLOR_DARK_GREEN'] = 'الأخضر الداكن';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[رمز]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'مساء';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['رد', 'الردود'];
 $lang['DECLENSION']['TIMES'] = ['الوقت', 'مرات'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'ملف التورنت هو الفاسدة';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"الموقع" قد تحتوي فقط http://sitename';
-$lang['ICQ_ERROR'] = 'قد يحتوي حقل "ICQ" فقط على رقم ICQ';
 $lang['INVALID_DATE'] = 'تاريخ غير صالح';
 $lang['PROFILE_USER'] = 'عرض الملف الشخصي';
 $lang['GOOD_UPDATE'] = 'بنجاح تغيرت';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'البحث عن للمستخدمين م
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'البحث عن للمستخدمين مع عدد الوظائف أقل من %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'البحث عن المستخدمين مع وظيفة العد بين %d و %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'البحث عن المستخدمين مع وظيفة العد قيمة %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'البحث عن المستخدمين مع ICQ عنوان مطابقة %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'البحث عن المستخدمين مع سكايب مطابقة %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'البحث عن المستخدمين مع تويتر مطابقة %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'البحث عن المستخدمين مع الموقع مطابقة %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'البحث عن المستخدمين مع الموقع مطابقة %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'البحث عن المستخدمين مع مصالحهم مجال مطابقة %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'اليوم';
 $lang['POST_EDIT_CANNOT'] = 'آسف, ولكن لا يمكنك تعديل مشاركاتك';
 $lang['FORUMS_IN_CAT'] = 'المنتديات في هذه الفئة';
 
-$lang['MC_TITLE'] = 'تعليق الاعتدال';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'اكتب تعليق';
 $lang['MC_FAQ'] = 'دخلت سيتم عرض النص في إطار هذه الرسالة';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s في رسالتك";
