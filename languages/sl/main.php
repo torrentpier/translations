@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Ne morete klicati Anonimni član skupine.';
 $lang['CONFIRM_UNSUB'] = 'Ali ste prepričani, da želite odjaviti iz te skupine?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Vašo naročnino za ta skupina še ni bila odobrena; ali ste prepričani, da želite odjaviti?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'Ste bili zn-naročena iz te skupine.';
 
 $lang['APPROVE_SELECTED'] = 'Odobri Izbrani';
 $lang['DENY_SELECTED'] = 'Zavrni Izbrane';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Niste moderator tega foruma.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Ni Dovoljena';
 
 $lang['YOU_BEEN_BANNED'] = 'Ste bili izključeni iz tega foruma. Obrnite odbora skrbnik za več informacij.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Žal pa nimate dovoljenja za ogled ali prenos
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Opis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Velikost datoteke';
 $lang['VIEWED'] = 'Ogledov';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Razširitev \'%s\' je bila onemogočena s strani skrbnika, zato ta dodatek ni prikazan.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Prilogo je prevelika.<br />Could ni dobil naj
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Prilogo je prevelika.<br />Maximum Upload Velikost: %d MB.<br />Please upoštevajte, da to Velikost je določena v php.ini, to pomeni, da je nastavitev za PHP in Priloge Mod ne more prevladati nad to vrednostjo.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Razširitev %s ni dovoljeno'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nimate dovoljenja za objavljanje Datotek s Končnico %s v tem Forumu'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Prilogo je prevelika.<br />Max Velikost: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Žal mi je, ampak največja velikost datoteke za vse Priponke je dosegel. Obrnite Odbora Skrbnik, če imate vprašanja.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Prilogo je ni mogoče dodati, ker je max. število %d Priloge v ta post je bil dosežen'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Prilogo/Slike mora biti manj kot %d pikslov in %d pikslov';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Prenos Napaka: ne morem naložiti Prilogo %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Boste morali vnesti vrednosti v "Dodaj Pri
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Ne more Posodobi Prilogo, ne bi našli staro Prilogo Vstop';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Žal mi je, ampak največja velikost datoteke za vse Priponke v vaše Zasebno Sporočilo Mapo, je bil dosežen. Prosimo, zbrišite nekaj prejete/poslane Priloge.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Žal mi je, ampak največja velikost datoteke za vse Priponke v Zasebno Sporočilo Mapo "%s", je bil dosežen. Prosim, pustite mu vedeti, ali počakajte, da on/ona ima izbrisani nekatere njegove/njene Priloge.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Še niste izbrano prilogo, če želite naložiti ali pregledati.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Prilogo Funkcija je onemogočena.';
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Imenik \'%s" ne obstaja ali ni bilo mogoče najti.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Prosimo, preverite, če \'%s" je directory.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory "%s\' ni writeable. Boste morali ustvariti nalaganje poti in chmod to, da 777 (ali spremeni lastniku, da ste httpd-strežniki lastnika) za nalaganje datotek.<br />If ste le navaden FTP-dostop spremenite Atribut " direktorij rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Prenos Kvote';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Iskanje Priloge';
 $lang['TEST_SETTINGS'] = 'Preskus Nastavitve';
 $lang['NOT_ASSIGNED'] = 'Ni Določena';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'No File Komentar na voljo';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Vaš Attachbox is<br /><b>%d%%</b> polno';
 $lang['NO_QUOTA_LIMIT'] = 'Ne Kvoto';
 $lang['UNLIMITED'] = 'Neomejeno';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Drugi torrent z enakim info_hash že <a href="
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Torrenti, ki podpirajo samo v1, so bili trenutno onemogočeni, dovoljeni: v2 in hibridi';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Torrenti, ki podpirajo samo v2, so bili trenutno onemogočeni, dovoljeni: v1 in hibridi';
 $lang['BT_FLIST'] = 'Seznam datotek';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'Nastavitve sledilnika ne dovoljujejo obdelave seznamov z več kot %d datotekami. Trenutno število je: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root je hashski fil s podatki, vstavljenimi v torrente s podporo BitTorrent v2, uporabniki sledilnika jih lahko izvlečejo, jih izračunajo, prav tako prenesejo deduplirane torrente z računalniškimi orodji, kot je <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Datum ustvarjanja';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Ogledov';
 $lang['GOLD'] = 'Zlato';
 $lang['SILVER'] = 'Srebrna';
 $lang['SET_GOLD_TORRENT'] = 'Da zlato';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'UnMake zlato';
 $lang['SET_SILVER_TORRENT'] = 'Da silver';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'UnMake srebrna';
 $lang['GOLD_STATUS'] = 'ZLATO TORRENT! PRENOS PROMETA NE MENI!';
 $lang['SILVER_STATUS'] = 'SREBRO TORRENT! PRENOS PROMETA DELNO ŠTEJE!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Vrsta torrenta je spremenjena v: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Vrsta torrenta je spremenjena v: %s';
 $lang['TORRENT_STATUS'] = 'Iskanje po statusu izdaje';
 $lang['SEARCH_IN_FORUMS'] = 'Iskanje po Forumih';
 $lang['SELECT_CAT'] = 'Izberite kategorijo';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Pojdi na oddelek';
 $lang['TORRENTS_FROM'] = 'Delovnih mest iz';
 $lang['SHOW_ONLY'] = 'Pokaži samo';
 $lang['SHOW_COLUMN'] = 'Prikaži stolpec';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Če vaše razmerje pade pod %s, ne bo vam lahko
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder ni videl: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Morate prvi prijavi';
 $lang['ONLY_FOR_MOD'] = 'Ta možnost je na voljo samo za moderatorji';
 $lang['ONLY_FOR_ADMIN'] = 'Ta možnost je na voljo samo za skrbnike';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Ta možnost je na voljo samo za super administratorji';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Uporabnik %s je že registriran z vašim IP naslovom.
 $lang['HIDDEN'] = 'Skrito';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Niste pooblaščeni za vodenje tega odbora';
 
 $lang['COOKIES_REQUIRED'] = 'Piškotki morajo biti omogočeni!';
 $lang['SESSION_EXPIRED'] = 'Sejo veljavnosti';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Žal mi je, registracija je onemogočen v tem 
 $lang['ONLY_NEW_POSTS'] = 'samo novih delovnih mest,';
 $lang['ONLY_NEW_TOPICS'] = 'samo nove teme';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Prosim, pomagajte sejanje ti hudourniki!';
 $lang['STATISTICS'] = 'Statistike';
 $lang['STATISTIC'] = 'Statistika';
 $lang['VALUE'] = 'Vrednost';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Jaz se ne strinjate s temi pogoji,';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Za registracijo morate omogočiti JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Registracija je trenutno zaprta<br /><br />Registracija je mogoča med: %s<br />Trenutni čas na strežniku: %s<br /><br />Opravičujemo se za nevšečnosti";
 $lang['AUTOCOMPLETE'] = 'Ustvari geslo';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'So vaše novo geslo:';
 $lang['REGENERATE'] = 'Regeneracijo';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Izvajanje čas:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'na';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Spomin: ';
 $lang['QUERIES'] = 'poizvedbe';
 $lang['LIMIT'] = 'Omejitev:';
 $lang['SHOW_LOG'] = 'Prikaži dnevnik';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrent odjemalec';
 $lang['DL_FORMULA'] = 'Formula: Naložili/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'ustavi';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'posodobitev post time: ';
 $lang['DL_INFO'] = 'prikazani podatki <i><b>only za trenutno session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Skrijte ime svojega BitTorrent odjemalca v seznamu peers';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Skrijte ime svoje države v seznamu peers';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Uporabniki na dan';
 $lang['BOARD_STARTED'] = 'Odbor je začel';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar imenik velikost';
 $lang['DATABASE_SIZE'] = 'Velikost zbirke podatkov';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'Gzip stiskanje';
 $lang['NOT_AVAILABLE'] = 'Ni na voljo';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Poglej gor Forumu';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Tukaj lahko spremenite dovoljenja in moderator stanje, dodeljeno za vsako skupino uporabnikov. Ne pozabite, če spreminjate dovoljenja skupine, ki za posameznega uporabnika dovoljenja lahko še vedno omogočajo uporabniku, vstop na forumih, itd. Vas bo opozoril, če to drži.';
 $lang['USER_AUTH_EXPLAIN'] = 'Tukaj lahko spremenite dovoljenja in moderator status dodeljen za vsakega posameznega uporabnika. Ne pozabite, če zamenja uporabnik dovoljenja, ki jih skupina dovoljenja lahko še vedno omogočajo uporabniku, vstop na forumih, itd. Vas bo opozoril, če to drži.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Tukaj lahko spremenite dovoljenja ravni vsakega foruma. Boste imeli tako preprosta in napredna metoda za to, če napredno ponuja večji nadzor nad vsako forum delovanje. Ne pozabite, da spremenite dovoljenja raven forumih vpliva na to, kateri uporabniki lahko opravlja različne dejavnosti v njih.';
 
 $lang['SIMPLE_MODE'] = 'Preprost Način';
 $lang['ADVANCED_MODE'] = 'Napredni Način';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Dovoli Dostop';
 $lang['DISALLOWED_ACCESS'] = 'Prepovedati Dostop';
 $lang['IS_MODERATOR'] = 'Je Moderator';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Dovoljenje Konflikt Opozorilo';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Ta uporabnik ima še vedno dostop do pravic na tem forumu preko članstvo v skupini. Morda boste želeli spremeniti dovoljenja skupine ali odstraniti ta uporabniški skupini, v celoti preprečiti, ki imajo pravice za dostop. Skupine za dodeljevanje pravic (in forumih vključeni), so navedene v nadaljevanju.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Ta uporabnik še ni moderator pravic na tem forumu preko članstvo v skupini. Morda boste želeli spremeniti dovoljenja skupine ali odstraniti ta uporabniški skupini, v celoti preprečiti, ob njih moderator pravic. Skupine za dodeljevanje pravic (in forumih vključeni), so navedene v nadaljevanju.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Kliknite %sHere%s, da se vrnete na Prepoved Na
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Splošna Konfiguracija';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Spodnji obrazec vam omogoča, da prilagodite vse splošne odbor možnosti. Za Uporabnika in Forum nastavitve uporabljajo sorodne povezave na levi strani.';
 
 $lang['CONFIG_MODS'] = 'Konfiguracijske spremembe';
 $lang['MODS_EXPLAIN'] = 'Ta obrazec vam omogoča, da prilagodite spremembe';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Omogočite Forum Obrezovanje';
 $lang['ALLOW_BBCODE'] = 'Dovolite Bbkoda';
 $lang['ALLOW_SMILIES'] = 'Dovolite, Smeškov';
 $lang['SMILIES_PATH'] = 'Smeškov Shranjevanje Poti';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Pot pod TorrentPier root dir, npr. slogi/images/smiles';
 $lang['ALLOW_SIG'] = 'Dovolite Podpisov';
 $lang['MAX_SIG_LENGTH'] = 'Največ podpis dolžina';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Največje število znakov v uporabniškem podpisov';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Kako dolgo lahko autologin ključ je veljaven
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Uprava';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'Iz te skupine lahko dodajate, brišete, urejate, re-order in znova sinhronizirate kategorije in forumih';
 $lang['EDIT_FORUM'] = 'Urejanje foruma';
 $lang['CREATE_FORUM'] = 'Ustvarite nov forum';
 $lang['CREATE_SUB_FORUM'] = 'Ustvari podforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Posodobitev Red';
 $lang['CONFIG_UPDATED'] = 'Forum Konfiguracija Je Bil Uspešno Posodobljen';
 $lang['MOVE_UP'] = 'Premakni navzgor';
 $lang['MOVE_DOWN'] = 'Premakni navzdol';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Re-sinkronizirati';
 $lang['NO_MODE'] = 'No način je bila določena';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Spodnji obrazec vam omogoča, da prilagodite vse splošne odbor možnosti. Za Uporabnika in Forum nastavitve uporabljajo sorodne povezave na levi strani';
 
 $lang['MOVE_CONTENTS'] = 'Premakniti vse vsebine';
 $lang['FORUM_DELETE'] = 'Brisanje Forumu';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sinhronizacija';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. dolžina novice';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Koliko novic prikaži';
 $lang['NEWS_FORUM_ID'] = 'Iz katerih forumov naj se prikaže <br /> <h6>Za več forumov navedite ID-je, ločene z vejicami. Primer: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Brez avatarja';
 $lang['TRACKER_STATS'] = 'Statistični podatki o tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Kvote Omejitev';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Prilogo Nastavitve';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Tukaj lahko določite Glavne Nastavitve za Pritrditev Mod. Če pritisnete tipko Test Gumb "Nastavitve", Prilogo, Mod pa nekaj Sistem Testi se prepričajte, da je Mod bo delovala pravilno. Če imate težave z nalaganjem Datoteke, vas prosimo, teči ta Test, da bi dobili podrobne napaka-sporočilo.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Nastavitve Velikosti Priponke';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Prilogo Število Nastavitve';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Prilogo Možnosti';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Tukaj lahko izberete, ali želite prika
 $lang['SHOW_APCP'] = 'Uporabite novo nadzorno ploščo aplikacije';
 $lang['SHOW_APCP_EXPLAIN'] = 'Izberite, ali želite uporabljati ločeno nadzorno ploščo aplikacije (da), ali stara metoda z dvema polj za aplikacije in urejanje aplikacij (brez) v okence za sporočilo. To je težko razložiti, kako to izgleda, zato poskusite sami.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Velikost datoteke';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Največja velikost datoteke za Priloge. Vrednost 0 pomeni "neomejeno\'. Ta Nastavitev je omejena z vašega Strežnika za Konfiguracijo. Na primer, če Konfiguracijo php omogoča le največ 2 MB prenosi, to ne more biti prepisana z Mod.';
 $lang['ATTACH_QUOTA'] = 'Prilogo Kvote';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Največji Prostor na Disku VSE Priloge so lahko imajo na vašega spletnega prostora. Vrednost 0 pomeni "neomejeno\'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Zbriši vse objavljate priloge podatk
 $lang['EMPTY_FILE_ENTRY'] = 'Prazno Datoteko Vstop';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Predogled je bil ponastavljen za priponko: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Sinhronizacija priloge je končana.';
 $lang['SYNC_TOPICS'] = 'Sinhronizacija Teme';
 $lang['SYNC_POSTS'] = 'Sinhronizacija Objav';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Upravljanje Posebne Kategorije';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Tukaj lahko konfigurirate Posebne Kategorije. Nastavite lahko Posebne Parameter in Pogoje za Posebne Kategorije, ki so dodeljene Skupini Razširitev.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Nastavitve za Posebno zvrst: Slike';
 $lang['SETTINGS_CAT_FLASH'] = 'Nastavitve za Posebne Kategorije: Flash Datoteke';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Prikaz Slik Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Izberite, ali želite prikaz slik neposredno v mesto (da) ali če želite prikazati slike kot povezavo ?';
 $lang['MAX_IMAGE_SIZE'] = 'Največja Velikost Slik';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Tu lahko določite največjo dovoljeno Sliko Dimenzije za pritrditev (Širina x Višina v slikovnih pikah).<br />If je nastavljen tako, da 0x0, je ta funkcija onemogočena. Nekatere Slike ta Funkcija ne bo delovala zaradi omejitve PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Če je to določeno Dimenzijo Slike, ki je d
 $lang['ASSIGNED_GROUP'] = 'Namenske Skupine';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Ustvariti Sličice';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimalno Velikost Priponk';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Če Slike je manjša, kot je to določeno velikost datoteke, št Sličico bo ustvaril, ker je dovolj majhna.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Upravljanje Prepovedano Razširitve';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Prepovedano Razširitev %s, ki že obstaja
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Razširitev %s je opredeljena v vaš dovoljeno Razširitve, prosim izbrisati svoje, preden ga dodate tukaj.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Podaljšanje Dovoljenja Skupine -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Tukaj boste lahko omejite na izbrane Razširitve Skupine, Forume, po vaši izbiri (ki so opredeljene v Dovoljeni Forumih Polje). Privzeto je, da dovoli Razširitev Skupin, na vseh Forumih, Uporabnik, ki je lahko Pripnete Datoteke v (normalni način Prilogo Mod si je od začetka). Samo dodajanje teh Forumih želite Razširitev Skupine (Razširitve v tej Skupini), da se dovoli tam, privzeto VSEH FORUMIH, bo izginila, ko dodate Forumov Seznam. Vi ste lahko ponovno dodate VSEH FORUMIH v danem Trenutku. Če dodate Forum za vaš Odbor in Dovoljenja nastavljena na VSEH FORUMIH se ne bo nič spremenilo. Če pa ste spremenili in omejen dostop do nekaterih Forumov, morate preveriti, ali nazaj tukaj, če želite dodati novo ustvarjeno Forum. To je enostavno, da to stori samodejno, ampak to vam bo prisilila, da uredi kup Datotek, zato sem izbrala tako, kot se zdaj. Prosimo, imejte v mislih, da so vse vaše Forumih bodo navedeni tukaj.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'OPOMBA:<br />Within spodaj navedene Forumih Uporabniki so običajno dovoljeno, da priložite datoteke, ampak, ker ga ni mogoče podaljšati v Skupini se smejo biti pritrjene tam, Uporabniki se ne morejo priključiti ničesar. Če poskusite, bodo prejeli sporočilo o Napaki. Morda želite, da nastavite Dovoljenje "Post Datoteke" s ADMIN na teh Forumih.<br /><br />';
 $lang['ADD_FORUMS'] = 'Dodaj Forumih';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ne Priloge srečal svoja merila za iskanje.';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Število Prilog';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Skupna Velikost Datoteke';
 $lang['NUMBER_POSTS_ATTACH'] = 'Število delovnih Mest s Prilogami';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Število Teme s Prilogami';
 $lang['NUMBER_USERS_ATTACH'] = 'Neodvisni Uporabniki Objavljeno Priloge';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'držite <i>Ctrl</i> medtem ko izberete več fo
 $lang['REG_TORRENTS'] = 'Register hudournikov';
 $lang['DISALLOWED'] = 'Prepovedano';
 $lang['ALLOW_REG_TRACKER'] = 'Dovoljeno forumih za registracijo .hudourniki na tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Dovoljeno objavljanje vsebin, 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Pokaži gumbe za ročno spreminjanje DL-stanje';
 $lang['SELF_MODERATED'] = 'Uporabniki lahko <b>move</b> svoje teme, da drug forum';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Geslo';
 $lang['BT_ADD_AUTH_KEY'] = 'Omogočite dodajanje geslo za torrent datotek pred prenosom';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent brskalnik (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent brskalnik (tracker.php) na voljo le prijavljeni uporabniki';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Dovolite boolean polno besedilo iskanja';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'uporaba *, +, -,.. v iskanje';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Razno";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Prikaži statistiko UL/DL uporabnikov na vrhu glavne strani foruma";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Frekvenca osveževanja';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Koliko časa (s), da ostanejo nedejavnosti, preden premaknete na naslednjo obdelavo cycle<br />Usually ne boste imeli, da se to spremeni';
 
 $lang['TIME_LIMIT'] = 'Rok';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Koliko časa (s) naknadne obdelave lahko traja preden premaknete na naslednji cikel';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Vaš PHP (varni način) ima nastavljen časovni izklop na %s sekund, zato ostanite pod to vrednostjo</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your spletni strežnik je premoru %s sekund je nastavljen, tako da ostanejo pod to value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Ste se uspešno končal obdelavo na pos
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Obnovo Iskanje Napredek';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Obdelovali post id : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Časovnik veljavnosti na %s sekund. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Izbrisani, iskalne tabele. ';
 $lang['DELETED_POSTS'] = '%s pošti(e) so bile izbrisane po vaši uporabniki med obdelavo podatkov. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Vse';
 
 $lang['TPL_EMPTY_FIELD'] = 'Morate izpolniti polja <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Izbrati morate <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Ne num';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - URL mora biti https://';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Mora biti https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'dal v temo';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Iskanje za uporabnike z objavo šteje ma
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Iskanje za uporabnike z objavo šteje med %d in %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Iskanje za uporabnike z objavo šteje vrednost %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Iščejo uporabniki z Twitter ujemanje %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Iskanje uporabnikom spletne Strani ujemanje %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Iskanje uporabnikov z Lokacijo ujemanje %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Iskanje uporabnikov z njihovimi Interesi področju ujemanje %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Iskali uporabniki, ki imajo Poklic področju ujemanje %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Enako';
 $lang['GREATER_THAN'] = 'Večja kot';
 $lang['LESS_THAN'] = 'Manj kot';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Uporabnike lahko iščete glede na vrednost števila objav. Iščete lahko po določeni vrednosti, večji ali manjši od vrednosti ali med dvema vrednostima. Če želite izvesti iskanje po obsegu, izberite "Enako", nato pa začetno in končno vrednost obsega ločite s pomišljajem (-), npr. 10-15';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Uporabniški nivoji';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Iskanje uporabnikov, ki temeljijo na različnih profil polja. Nadomestni znaki, ki so podprti z zvezdico (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Med uporabniki lahko iščete na podlagi njihove zadnje prijave datum uporabljate to možnost iskanja';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'To bo prikazal uporabnikov, ki jim izbrali določenega jezika v njihovem Profilu';
