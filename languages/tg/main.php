@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Дидани охирин мансаби';
 $lang['VIEW_NEWEST_POST'] = 'Дидани навтарини баъди';
 $lang['PAGE_OF'] = 'Page <b>%d</b> аз <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Шумо даромада як воридшавӣ Skype беэътибор';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Шумо даромада як воридшавӣ Twitter беэътибор';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Индекси Форум'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Оё мутмаинед, ки мехоҳед, б
 $lang['FLOOD_ERROR'] = 'Шумо метавонед баъд аз дигаре баъд аз охир шумо водор накардам, то ба зудӣ; лутфан дар ҳоле кӯтоҳ бори дигар кӯшиш кунед';
 $lang['EMPTY_SUBJECT'] = 'Шумо бояд мавзӯи муайян';
 $lang['EMPTY_MESSAGE'] = 'Шумо бояд як паём ворид кунед';
-$lang['FORUM_LOCKED'] = 'Ин баҳс баста аст: шумо наметавонед овехтани, ҷавоб, ё таҳрир мавзӯъҳои';
-$lang['TOPIC_LOCKED'] = 'Ин мавзӯъ баста аст: шумо метавонед Заметки таҳрир карда наметавонед ё АКС';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Мавзӯъ баста';
 $lang['NO_POST_ID'] = 'Шумо бояд баъди ба вироиш кунед';
 $lang['NO_TOPIC_ID'] = 'Шумо бояд мавзӯи ба љавоб додан ба-ро интихоб кунед';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Steel Blue';
 $lang['COLOR_GRAY'] = 'хокистаранг';
 $lang['COLOR_DARK_GREEN'] = 'Dark Грин';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[рамз]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['ҷавоб', 'АКС'];
 $lang['DECLENSION']['TIMES'] = ['замон', 'маротиба'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'парванда ҷӯйе ба фасод аст,';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Дар "сайт" метавонанд дорои танҳо HTTP: // SITENAME';
-$lang['ICQ_ERROR'] = 'В поле «ICQ» танҳо рақами ICQ гузошта мешуд';
 $lang['INVALID_DATE'] = 'Таърихи нодуруст';
 $lang['PROFILE_USER'] = 'тамошои профили';
 $lang['GOOD_UPDATE'] = 'бо муваффақият тағйир дода шуд';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Ҷустуҷӯи барои истиф�
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Ҷустуҷӯи барои истифодабарандагон бо мансаби ҳисоб камтар аз %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Ҷустуҷӯи барои истифодабарандагон бо мансаби ҳисоб байни %d ва %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Ҷустуҷӯи барои истифодабарандагон бо арзиши ҳисоб мансаби %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Ҷустуҷӯи барои истифодабарандагон бо нишонии ICQ таин %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Ҷустуҷӯи барои истифодабарандагон бо Skype мувофиқ %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Ҷустуҷӯи барои истифодабарандагон бо Twitter таин %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Ҷустуҷӯи барои истифодабарандагон бо Вебсайтро таин %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Ҷустуҷӯи барои истифодабарандагон бо Макон таин %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Ҷустуҷӯи барои истифодабарандагон бо соҳаи манфиатҳои худро таин %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'рӯз';
 $lang['POST_EDIT_CANNOT'] = 'Бубахшед, аммо шумо метавонед Заметки таҳрир карда наметавонед';
 $lang['FORUMS_IN_CAT'] = 'форумҳо, ки дар категорияи';
 
-$lang['MC_TITLE'] = 'Назари худро бинависед бамеъёр';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Нависед Эзоҳ';
 $lang['MC_FAQ'] = 'матн дохил карда мешавад дар доираи ин паём нишон дода';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s дар Паёми шумо";
