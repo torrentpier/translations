@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Die Anlage ist zu groß.<br />Maximum Up
 $lang['DISALLOWED_EXTENSION'] = 'Die Erweiterung %s ist nicht erlaubt'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sie sind nicht erlaubt zu posten von Dateien mit der Erweiterung %s in diesem Forum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Die Anlage ist zu groß.<br />Max Größe: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Entschuldigung, aber die maximale Dateigröße für alle Anlagen wurde erreicht. Bitte kontaktieren Sie den Administrationsrat, wenn Sie Fragen haben.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Attachment kann nicht Hinzugefügt werden, da die max. Anzahl der %d Anhänge in diesem Beitrag wurde erreicht'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Das Attachment/Bild muss kleiner sein als %d Pixel breit und %d Pixel hoch';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Upload Error: could not upload Attachment to %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Geben Sie Werte in die "eine Anlage Hinzufügen" - Feld';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nicht in der Lage zu Aktualisieren, - Anhang, nicht finden konnten, alte Anlage Eintrag';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Entschuldigung, aber die maximale Dateigröße für alle Anlagen in Ihrem Posteingang wurde erreicht. Bitte löschen Sie einige Ihrer empfangenen/gesendeten Anlagen.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Entschuldigung, aber die maximale Dateigröße für alle Anlagen im Posteingang von \'%s\' wurde erreicht. Bitte lassen Sie es ihn wissen oder warten Sie, bis er einige seiner/Ihrer Anlagen gelöscht hat.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Sie nicht ausgewählt haben eine Anlage für das herunterladen oder anzeigen.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Das Verzeichnis \'%s\' existiert nicht oder
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Bitte prüfen Sie, ob \'%s\' ist ein Verzeichnis.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Verzeichnis \'%s\' ist nicht beschreibbar. Sie müssen den Upload-Pfad erstellen und chmod auf 777 setzen (oder den Besitzer auf Ihren httpd-Serverbesitzer ändern), um Dateien hochzuladen.<br />Wenn Sie nur einfachen FTP-Zugriff haben, ändern Sie das \'Attribut\' des Verzeichnisses in rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Upload-Kontingent';
-$lang['PM_QUOTA'] = 'PM Quoten -';
-
 // Common Variables
 $lang['BYTES'] = 'Bytes';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Einstellungen Testen';
 $lang['NOT_ASSIGNED'] = 'Nicht Zugeordnet';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Kein Kommentar-Datei zur Verfügung';
 $lang['ATTACHBOX_LIMIT'] = 'Ihre Attachbox ist<br /><b>%d%%</b> voll';
-$lang['NO_QUOTA_LIMIT'] = 'Kein Quota-Limit';
 $lang['UNLIMITED'] = 'Unbegrenzte';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Einfacher Modus';
 $lang['ADVANCED_MODE'] = 'Advanced-Modus';
 $lang['MODERATOR_STATUS'] = 'Moderator-status';
 
-$lang['ALLOWED_ACCESS'] = 'Erlaubt Zugriff';
-$lang['DISALLOWED_ACCESS'] = 'Der Zugriff Entzogen';
-$lang['IS_MODERATOR'] = 'Ist Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Berechtigung Konflikt Warnung';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Dieser Benutzer noch Zugriff auf dieses forum über die Gruppenmitgliedschaft. Möchten Sie vielleicht ändern Sie die Berechtigungen oder entfernen Sie diese Benutzer der Gruppe vollständig zu vermeiden, Sie mit den Zugriffsrechten. Die Gruppen, die Gewährung von rechten (und den Foren beteiligt) sind unten angegeben.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Dieser Benutzer hat noch Moderatorenrechte hier im forum über die Gruppenmitgliedschaft. Möchten Sie vielleicht ändern Sie die Berechtigungen oder entfernen Sie diese Benutzer der Gruppe vollständig zu vermeiden, dass die moderator-Rechte. Die Gruppen, die Gewährung von rechten (und den Foren beteiligt) sind unten angegeben.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Die folgenden Benutzer (oder Benutzer) noch ein Recht auf Zugang zu diesem forum über Ihre Benutzer-Berechtigungseinstellungen. Möchten Sie vielleicht ändern Sie die Berechtigungen des Benutzers vollständig zu vermeiden, Sie mit den Zugriffsrechten. Die Nutzer eingeräumten Rechte (und in den Foren beteiligt) sind unten angegeben.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Die folgenden Benutzer (oder Benutzer) noch Moderatorenrechte in diesem forum über Ihre Benutzerrechte-Einstellungen. Möchten Sie vielleicht ändern Sie die Berechtigungen des Benutzers vollständig zu vermeiden, dass die moderator-Rechte. Die Nutzer eingeräumten Rechte (und in den Foren beteiligt) sind unten angegeben.';
-
 $lang['PUBLIC'] = 'Öffentliche';
 $lang['PRIVATE'] = 'Private';
 $lang['REGISTERED'] = 'Registriert';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Stimmen';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Umfrage erstellen';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Posten Von Dateien';
 $lang['AUTH_DOWNLOAD'] = 'Download-Dateien';
-
-$lang['SIMPLE_PERMISSION'] = 'Einfache Berechtigungen';
 
 $lang['USER_LEVEL'] = 'Benutzerebene';
 $lang['AUTH_USER'] = 'Benutzer';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Site name';
 $lang['SITE_DESC'] = 'Website-Beschreibung';
 $lang['FORUMS_DISABLE'] = 'Deaktivieren board';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Damit wird der Vorstand für die Benutzer nicht verfügbar. Administratoren können den Zugriff auf den Administrations-Bereich, während das board deaktiviert ist.';
-$lang['ACCT_ACTIVATION'] = 'Konto aktivieren-Aktivierung';
 $lang['ACC_NONE'] = 'Keiner'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Benutzer';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Erlauben Signaturen';
 $lang['MAX_SIG_LENGTH'] = 'Maximale Signatur Länge';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximale Anzahl Zeichen in Benutzer-Signaturen';
 $lang['ALLOW_NAME_CHANGE'] = 'Erlauben Benutzername ändert';
-
-$lang['EMAIL_SETTINGS'] = 'E-Mail-Einstellungen';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Aktivieren Der Visuellen Bestätigung';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Erfordert, dass Benutzer geben Sie einen code definiert, der durch ein Bild bei der Anmeldung.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Erlauben Sie automatische logins';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klicken Sie auf %sHere%s zurück zu Smiley-V
 
 // User Management
 $lang['USER_ADMIN'] = 'Benutzerverwaltung';
-$lang['USER_ADMIN_EXPLAIN'] = 'Hier können Sie Ihre Nutzer\' Informationen und bestimmte Optionen. Ändern Sie die Berechtigungen der Benutzer, nutzen Sie bitte das Benutzer-und Gruppen-Berechtigungen-system.';
-
 $lang['LOOK_UP_USER'] = 'Benutzer';
-
-$lang['ADMIN_USER_FAIL'] = 'Konnte nicht aktualisiert das Profil des Benutzers.';
-$lang['ADMIN_USER_UPDATED'] = 'Das Benutzer-Profil erfolgreich aktualisiert wurde.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klicken Sie auf %sHere%s zurück zur User-Verwaltung';
-
-$lang['USER_ALLOWPM'] = 'Kann Private Nachrichten verschicken';
-$lang['USER_ALLOWAVATAR'] = 'Avatar angezeigt werden können';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Hier können Sie sehen und löschen Sie den aktuellen avatar.';
-
-$lang['USER_SPECIAL'] = 'Spezielle admin-only-Felder';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Diese Felder können nicht verändert werden durch den Benutzer. Hier können Sie Ihren status und andere Optionen, die nicht an Nutzer gegeben.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Gruppe Verwaltung';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Anteil hinaus, für einen Austausch von Boni au
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Systemsteuerung';
-$lang['SHADOW_ATTACHMENTS'] = 'Shadow-Anlagen';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Verboten Erweiterungen';
 $lang['EXTENSION_CONTROL'] = 'Erweiterung Steuerung';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Erweiterung Von Gruppen Steuern';
 $lang['SPECIAL_CATEGORIES'] = 'Spezielle Kategorien';
-$lang['SYNC_ATTACHMENTS'] = 'Synchronisieren Von Anhängen';
-$lang['QUOTA_LIMITS'] = 'Quota-Limits';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Anhang Einstellungen';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Anhang Thema Symbol';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Dieses Bild wird angezeigt, bevor die Themen mit Anhängen. Lassen Sie dieses Feld leer, wenn Sie nicht möchten, ein Symbol angezeigt werden.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Anhang Reihenfolge Der Anzeige';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Hier können Sie wählen, ob die Anzeige der Anhänge in Posts/PMs in Absteigender Filetime Reihenfolge (Neueste Attachment Zuerst) oder Aufsteigend Filetime Reihenfolge (Älteste Anlage).';
-$lang['SHOW_APCP'] = 'Verwenden Sie das neue control-panel-Anwendungen';
-$lang['SHOW_APCP_EXPLAIN'] = 'Wählen Sie, ob Sie möchten, verwenden Sie eine separate control panel-Anwendungen (ja), oder die alte Methode mit zwei Boxen für Anwendungen und-editing-Anwendungen (keine) in der message-box. Es ist schwer zu erklären, wie es aussieht, so versuchen Sie selbst.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Dateigröße';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maximale Dateigröße für Anhänge. Ein Wert von 0 bedeutet \'unbegrenzt\'. Diese Einstellung ist nur über deine Server-Konfiguration. Zum Beispiel, wenn Sie Ihre php-Konfiguration erlaubt nur maximal 2 MB hochgeladen, das kann nicht überschrieben werden durch die Mod.';
-$lang['ATTACH_QUOTA'] = 'Anlage Quote';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximale Speicherplatz, der ALLE Anlagen zu halten, kann auf Ihren Webspace. Ein Wert von 0 bedeutet \'unbegrenzt\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maximale Dateigröße in Privaten Nachrichten Ordner';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximale Speicherplatz, Anhänge bis in jedes Benutzers der Private-Message-box. Ein Wert von 0 bedeutet \'unbegrenzt\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Standard-Quota-Limit';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Hier sind Sie in der Lage, wählen Sie die Standard-Quota-Limit automatisch zugewiesen werden, neu registrierte user und user ohne definierten Quota-Limit. Die Option \'No Limit\' ist für Sie nicht mit einer Pfändung Quoten, stattdessen mit den Standard-Einstellungen, die Sie definiert haben, in das Management-Panel.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maximale Anzahl von Anhängen';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Die maximale Anzahl von Anhängen erlaubt in einem post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Deaktivieren Attachment Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Diese option ist vor allem für die Erprobung neuer templates oder themes, deaktiviert es alle Arbeitsbewegungen außer dem Admin-Panel.';
 $lang['PM_ATTACHMENTS'] = 'Erlauben Sie Anhänge in Privaten Nachrichten';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Erlauben/Verbieten Anhängen von Dateien an Private Nachrichten.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Zeigen Anwendungen in der überprüfung der Mitteilungen Themen beim schreiben einer Antwort?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Wenn Sie ein "ja", werden alle Anwendungen angezeigt, die in der überprüfung von Kommunikations-Themen.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Hier können Sie den Anhang löschen von Daten aus Buchungen, wenn die Dateien fehlen, das Ihr Dateisystem und Dateien löschen, die nicht mehr an postings. Können Sie herunterladen oder eine Datei anzuzeigen, wenn Sie darauf klicken; wenn kein link vorhanden ist, wird die Datei nicht vorhanden ist.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Löschen aller Anhänge, Dateien auf Ihrem Dateisystem und werden nicht zugewiesen, um einen vorhandenen Beitrag.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Löschen Sie alle posting-Anhang-Daten für Dateien, die nicht existieren, auf Ihrem Dateisystem.';
-$lang['EMPTY_FILE_ENTRY'] = 'Leere Datei Eintrag';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Die Vorschau wurde für die Anlage zurückgesetzt: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Anhangssynchronisierung abgeschlossen.';
 $lang['SYNC_TOPICS'] = 'Sync-Themen';
 $lang['SYNC_POSTS'] = 'Sync-Beiträge';
-$lang['SYNC_THUMBNAILS'] = 'Sync-Miniaturen';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Erweiterungen Verwalten';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Hier können Sie die Datei-Erweiterungen verwalten. Wenn Sie möchten, zu erlauben/verbieten eine Erweiterung hochgeladen werden, verwenden Sie bitte die Extension-Verwaltung der Gruppen.';
 $lang['EXPLANATION'] = 'Erklärung';
 $lang['EXTENSION_GROUP'] = 'Erweiterung Der Gruppe';
-$lang['INVALID_EXTENSION'] = 'Ungültige Erweiterung';
 $lang['EXTENSION_EXIST'] = 'Die Erweiterung %s bereits vorhanden'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Die Erweiterung %s verboten ist, sind Sie nicht in der Lage, hinzufügen zu den erlaubten Erweiterungen'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Verwalten Von Gruppen-Erweiterung';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Die Erweiterung der Gruppe %s bereits vorhande
 $lang['MANAGE_CATEGORIES'] = 'Verwalten Spezielle Kategorien';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Hier können Sie die Spezialkategorien konfigurieren. Sie können spezielle Parameter und Bedingungen für die Spezialkategorien, die einer Erweiterungsgruppe zugewiesen sind, einrichten.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Einstellungen für Besondere Kategorie: Bilder';
-$lang['SETTINGS_CAT_FLASH'] = 'Einstellungen für Besondere Kategorie: Flash-Dateien';
 $lang['DISPLAY_INLINED'] = 'Bilder inline anzeigen';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Wählen Sie, ob zur Anzeige von Bildern direkt in den post (ja) oder um die Bilder als link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximale Bild-Abmessungen';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Erstellen Sie Miniaturbilder';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimale Dateigröße für Thumbnails';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Wenn ein Bild kleiner ist als diese definierte Dateigröße, wird kein Thumbnail erstellt, da es klein genug ist.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Verwalten Verboten Erweiterungen';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Hier können Sie hinzufügen oder löschen Sie die Verbotenen Dateiendungen. Die Erweiterungen php, php3 und php4 sind verboten, aus Sicherheitsgründen standardmäßig, können Sie nicht löschen.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Die verbotene Erweiterung %s bereits vorhanden'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Die Erweiterung %s definiert Ihre erlaubten Extensions, löschen Sie bitte es Ihr, bevor du Sie hier hinzufügen.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Berechtigungen für Erweiterungsgruppen → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Hier können Sie beschränken Sie die ausgewählte Gruppe von Erweiterungen, Foren Ihrer Wahl (definiert in den Erlaubten Foren-Box). Der Standard ist eine Erweiterung von Gruppen auf alle Foren der Benutzer ist in der Lage, das Anhängen von Dateien in (der normale Weg, die Anlage Mod hat es seit Anfang an). Fügen Sie einfach die Foren, die Sie wollen, dass die Gruppe von Erweiterungen (Extensions innerhalb dieser Gruppe) erlaubt es, standardmäßig ALLE FOREN verschwinden, wenn Sie Foren hinzufügen, um der Liste. Sie sind in der Lage, re-fügen Sie ALLE FOREN zu einem bestimmten Zeitpunkt. Wenn Sie ein Forum auf Ihrem Board und die Genehmigung ist in ALLEN FOREN wird sich nichts ändern. Aber wenn Sie Sie geändert haben, und beschränkt den Zugriff auf bestimmte Foren haben, haben Sie zu prüfen, wieder hier, um Ihre neu erstellte Forum. Es ist leicht, dies automatisch tun, aber dies zwingt Sie zum Bearbeiten einer Reihe von Dateien, deshalb habe ich die gewählt, wie es jetzt ist. Bitte beachten Sie, dass alle Ihre Foren, werden hier aufgelistet.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Foren Hinzufügen';
 $lang['ADD_SELECTED'] = 'Fügen Sie Ausgewählt';
 $lang['PERM_ALL_FORUMS'] = 'ALLE FOREN';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Verwalten Von Anlagen, Die Limits';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Hier können Sie hinzufügen/ändern/löschen Kontingent Begrenzt. Sie sind in der Lage, ordnen Sie diese Quota-Limits für Benutzer und Gruppen später. Ordnen Sie ein Kontingent für einen Benutzer, Sie haben zu gehen, um Benutzer->Verwaltung, und wählen Sie die Benutzer und sehen Sie die Optionen auf der Unterseite. Ordnen Sie ein Quota-Limit zu einer Gruppe, gehen Sie zu " Gruppen->Verwaltung, wählen Sie die Gruppe aus, um es zu Bearbeiten, und Sie werden sehen, die Einstellungen für die Konfiguration. Wenn Sie sehen möchten, welche Benutzer und Gruppen zugewiesen werden, auf ein bestimmtes Kontingent Begrenzen, klicken Sie auf "Ansicht" auf der linken Seite der Quoten-Beschreibung.';
-$lang['ASSIGNED_USERS'] = 'Die Zuordnung Der Benutzer';
-$lang['ASSIGNED_GROUPS'] = 'Zugewiesene Gruppen';
-$lang['QUOTA_LIMIT_EXIST'] = 'Die Kontingentgrenze %s sind bereits vorhanden.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'File Attachment Control Panel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Hier können Sie anzeigen und verwalten Sie alle Anlagen basierend auf Benutzer, Anlagen, Ansichten etc...';
-$lang['FILECOMMENT'] = 'Datei Kommentar';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Verwenden Sie * als Platzhalter für teilweise übereinstimmungen';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Anzahl der Posts mit Attachments';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Anzahl der Themen mit Anhängen';
 $lang['NUMBER_USERS_ATTACH'] = 'Unabhängige Nutzer Geschrieben Anhänge';
 $lang['NUMBER_PMS_ATTACH'] = 'Insgesamt Anzahl der Anhänge in Privaten Nachrichten';
-$lang['ATTACHMENTS_PER_DAY'] = 'Anlagen pro Tag';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Anlage Statistiken für %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfiguration Erfolgreich Aktualisiert';
 $lang['SET_DEFAULTS'] = 'Wiederherstellen';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum-Optionen:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'halten Sie <i>Ctrl</i> während der Auswahl mehrerer Foren';
 
