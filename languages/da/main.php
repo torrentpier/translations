@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = 'Stillinger';
 $lang['POSTED'] = 'Udgivet';
 $lang['USERNAME'] = 'Brugernavn';
 $lang['PASSWORD'] = 'Password';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = 'Vis adgangskode';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Forfatter';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = 'Aktiveret';
 $lang['DISABLED'] = 'Handicappede';
 $lang['ERROR'] = 'Fejl';
 $lang['SELECT_ACTION'] = 'Vælg handling';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = 'Ryd';
+$lang['MOVE_TO_TOP'] = 'Flyt til toppen';
 $lang['UNKNOWN'] = 'Ukendt';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = 'Kopier til udklipsholder';
+$lang['NO_ITEMS'] = 'Der ser ikke ud til at være nogen data her...';
+$lang['PLEASE_TRY_AGAIN'] = 'Prøv venligst igen efter et par sekunder...';
 
 $lang['NEXT_PAGE'] = 'Næste';
 $lang['PREVIOUS_PAGE'] = 'Tidligere';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Skabelon cache er blevet ryddet';
 $lang['DATASTORE_CLEARED'] = 'Datalager har været ryddet';
 $lang['BOARD_DISABLE'] = 'Beklager, men dette forum er deaktiveret. Prøv at komme tilbage senere';
 $lang['BOARD_DISABLE_CRON'] = 'Forum er nede for vedligeholdelse. Prøv at komme tilbage senere';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = 'Forummet er deaktiveret af administratoren. Du kan aktivere det når som helst';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum låst af cron-job-trigger. Du kan fjerne låsen når som helst';
 $lang['ADMIN_DISABLE_TITLE'] = 'Den er deaktiveret forum';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum er nede for vedligeholdelse';
 $lang['ADMIN_UNLOCK'] = 'Aktiver forum';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Et medlem af gruppen';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Denne handling kan ikke udføres i demotilstand!';
 
 $lang['CURRENT_TIME'] = 'Nuværende tidspunkt er: <span class="tz_time">%s</span>';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Nye indlæg [ Låst ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum er låst';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = 'Indtast dit brugernavn og adgangskode for at logge ind.';
 $lang['LOGIN'] = 'Log ind';
 $lang['LOGOUT'] = 'Log ud';
 $lang['CONFIRM_LOGOUT'] = 'Er du sikker på at du vil logge ud?';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = 'Du <b>can</b> stemme på afstemninger i dette forum';
 $lang['RULES_VOTE_CANNOT'] = 'Du <b>cannot</b> stemme på afstemninger i dette forum';
 $lang['RULES_MODERATE'] = 'Du <b>can</b> moderat dette forum';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = 'Der er endnu ingen indlæg i dette forum<br />Klik på <b>Ny Topic</b> ikonet, og dit indlæg vil være det første.';
+$lang['NO_RELEASES_POST_ONE'] = 'Der er endnu ingen udgivelser i dette forum<br />Klik på <b>Ny Udgivelse</b> ikonet, og din udgivelse vil være den første.';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'Vis emne';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = 'skjult tekst';
 $lang['SPOILER_CLOSE'] = 'igen';
 $lang['PLAY_ON_CURPAGE'] = 'Start med at spille på den aktuelle side';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = 'Sidst redigeret af <b>%s</b> den %s; redigeret %d gang i alt'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = 'Sidst redigeret af <b>%s</b> den %s; redigeret %d gange i alt'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Låse emne';
 $lang['UNLOCK_TOPIC'] = 'Låse emne';
@@ -378,8 +378,8 @@ $lang['DELETE_POLL'] = 'Slet meningsmåling';
 $lang['MAX_SMILIES_PER_POST'] = 'Humørikoner grænse for %s humørikoner overskredet.';
 
 $lang['ATTACH_SIGNATURE'] = 'Vedhæft signatur (underskrifter kan ændres i profil)';
-$lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['NOTIFY'] = 'Giv mig besked om svar';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Tillad robotter at indeksere dette emne';
 
 $lang['STORED'] = 'Din besked er blevet indtastet korrekt.';
 $lang['EDITED'] = 'Meddelelsen er blevet ændret';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Send en privat besked';
 $lang['SEND_A_REPLY'] = 'Besvare en privat besked';
 $lang['EDIT_MESSAGE'] = 'Rediger privat besked';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = 'Ny privat besked er modtaget!';
 
 $lang['FIND_USERNAME'] = 'At finde et brugernavn';
 $lang['SELECT_USERNAME'] = 'Vælg et Brugernavn';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = 'Fødselsdag';
 $lang['HAPPY_BIRTHDAY'] = 'Tillykke Med Fødselsdagen!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Fødselsdag format var indtastet forkert.';
 $lang['AGE'] = 'Alder';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = 'Beklager, denne hjemmeside accepterer ikke brugere over %d år gammel';
+$lang['BIRTHDAY_TO_LOW'] = 'Beklager, denne hjemmeside accepterer ikke brugere under %d år gammel';
 $lang['BIRTHDAY_TODAY'] = 'Brugere, der har fødselsdag i dag: ';
 $lang['BIRTHDAY_WEEK'] = 'Brugere, der har fødselsdag inden for de næste %d dage: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Ingen brugere er der en fødselsdag i den kommende %d dage'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = 'Ingen brugere har fødselsdag i dag';
 $lang['BIRTHDAY_ENABLE'] = 'Aktiver fødselsdag';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max alder';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min alder';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Dage til at kontrollere for kommende fødselsdage';
 $lang['YEARS'] = 'År';
 
 $lang['NO_THEMES'] = 'Ingen Emner I databasen';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = 'Nulstille login-tasten';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'herunder alle de steder, du har besøgt forummet aktiveret auto-login';
 
 $lang['AVATAR'] = 'Avatar';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = 'Viser et lille grafisk billede nedenfor dine oplysninger i indlæg. Kun ét billede kan vises ad gangen, dets bredde må ikke være større end %d pixels, højden må ikke være større end %d pixels, og filstørrelsen må ikke overstige %s.';
 $lang['AVATAR_DELETE'] = 'Slet avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar kontrol indstilling deaktiveret for overtrædelse <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Upload avatar';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = 'Tilbage til profil';
 $lang['SELECT_CATEGORY'] = 'Vælg kategori';
 
 $lang['DELETE_IMAGE'] = 'Slet billede';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = 'Indstil MonsterID avatar';
 $lang['CURRENT_IMAGE'] = 'Nuværende billede';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Besked om ny privat besked';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = 'Din profil er blevet opdateret. Du har dog 
 
 $lang['PASSWORD_MISMATCH'] = 'Adgangskoderne du indtastede passer ikke.';
 $lang['CURRENT_PASSWORD_MISMATCH'] = 'Den nuværende adgangskode, du leverede ikke svarer til dem, der er lagret i databasen.';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = 'Din adgangskode må ikke være længere end %d tegn og ikke kortere end %d tegn.';
 $lang['TOO_MANY_REGISTERS'] = 'Du har lavet alt for mange forsøg på registrering. Prøv venligst igen senere.';
 $lang['USERNAME_TAKEN'] = 'Undskyld, men dette brugernavn er allerede blevet taget.';
 $lang['USERNAME_INVALID'] = 'Undskyld, men det indeholder et ugyldigt tegn';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Undskyld, men dette brugernavn er blevet deaktiv
 $lang['USERNAME_TOO_LONG'] = 'Dit navn er for langt.';
 $lang['USERNAME_TOO_SMALL'] = 'Dit navn er for lille.';
 $lang['EMAIL_TAKEN'] = 'Undskyld, men at e-mail adressen er allerede registreret til en bruger.';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = 'Beklager, men <b>%s</b> adressen er blevet udelukket.';
 $lang['EMAIL_INVALID'] = 'Beklager, men denne e-mail adresse er ugyldig.';
 $lang['EMAIL_TOO_LONG'] = 'Din e-mail er for lang.';
 $lang['SIGNATURE_TOO_LONG'] = 'Din signatur er for lang.';
@@ -691,17 +691,17 @@ $lang['DESC'] = 'Faldende';
 $lang['ORDER'] = 'For';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = 'Stem på dette emne';
+$lang['THANKS_GRATITUDE'] = 'Vi sætter pris på din taknemmelighed';
+$lang['LAST_LIKES'] = 'Sidste stemmer';
+$lang['LIKE_OWN_POST'] = 'Du kan ikke stemme på dit eget emne';
+$lang['NO_LIKES'] = 'Ingen har givet en stemme endnu';
+$lang['LIKE_ALREADY'] = 'Du har allerede stemt på dette emne';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = 'Inviter kode';
+$lang['INCORRECT_INVITE'] = 'Inviter ikke fundet';
+$lang['INVITE_EXPIRED'] = 'Inviter er udløbet';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = 'Bruger-Grupper';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = 'En anmodning om at deltage i din gruppe har lavet.';
 $lang['GROUP_APPROVED'] = 'Din anmodning er blevet godkendt.';
 $lang['GROUP_ADDED'] = 'Du er blevet tilføjet til denne brugergruppe.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Du er allerede medlem af denne gruppe';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s er allerede medlem af denne gruppe';
+$lang['USER_IS_MOD_GROUP'] = '%s er moderator af denne gruppe';
 $lang['GROUP_TYPE_UPDATED'] = 'Opdateret group type.';
 $lang['EFFECTIVE_DATE'] = 'Effektiv Dato';
 
@@ -985,32 +985,32 @@ $lang['DATETIME']['NOV'] = 'Nov';
 $lang['DATETIME']['DEC'] = 'Dec';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = 'Land';
+$lang['SET_OWN_COUNTRY'] = 'Indstil eget land (Manuelt)';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
+    0 => 'Ikke valgt',
     'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
+    'AE' => 'De Forenede Arabiske Emirater',
     'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
+    'AG' => 'Antigua og Barbuda',
     'AI' => 'Anguilla',
-    'AL' => 'Albania',
-    'AM' => 'Armenia',
+    'AL' => 'Albanien',
+    'AM' => 'Armenien',
     'AO' => 'Angola',
-    'AQ' => 'Antarctica',
+    'AQ' => 'Antarktis',
     'AR' => 'Argentina',
-    'AS' => 'American Samoa',
-    'AT' => 'Austria',
-    'AU' => 'Australia',
+    'AS' => 'Amerikansk Samoa',
+    'AT' => 'Østrig',
+    'AU' => 'Australien',
     'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
-    'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
+    'AX' => 'Ålandsøerne',
+    'AZ' => 'Aserbajdsjan',
+    'BA' => 'Bosnien-Herzegovina',
     'BB' => 'Barbados',
     'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
+    'BE' => 'Belgien',
     'BF' => 'Burkina Faso',
-    'BG' => 'Bulgaria',
+    'BG' => 'Bulgarien',
     'BH' => 'Bahrain',
     'BI' => 'Burundi',
     'BJ' => 'Benin',
@@ -1018,149 +1018,149 @@ $lang['COUNTRIES'] = [
     'BM' => 'Bermuda',
     'BN' => 'Brunei Darussalam',
     'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
-    'BR' => 'Brazil',
+    'BQ' => 'Caribisk Nederland',
+    'BR' => 'Brasilien',
     'BS' => 'Bahamas',
     'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
+    'BV' => 'Bouvetøen',
     'BW' => 'Botswana',
-    'BY' => 'Belarus',
+    'BY' => 'Hviderusland',
     'BZ' => 'Belize',
     'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
+    'CC' => 'Cocos (Keeling) Øer',
+    'CD' => 'Kongo, Den Demokratiske Republik af',
+    'CF' => 'Den Centralafrikanske Republik',
+    'CG' => 'Republikken Kongo',
+    'CH' => 'Schweiz',
+    'CI' => 'Republik Côte d\'Ivoire',
+    'CK' => 'Cookøerne',
     'CL' => 'Chile',
     'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
+    'CN' => 'Kina (Folkerepublikken Kina)',
     'CO' => 'Colombia',
     'CR' => 'Costa Rica',
     'CU' => 'Cuba',
-    'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
-    'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
+    'CV' => 'Cabo Verde',
+    'CW' => 'Samarbejdslandet Curaçao',
+    'CX' => 'Juløen',
+    'CY' => 'Cypern',
+    'CZ' => 'Tjekkiet',
+    'DE' => 'Tyskland',
     'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
+    'DK' => 'Danmark',
     'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
-    'DZ' => 'Algeria',
+    'DO' => 'Den Dominikanske Republik',
+    'DZ' => 'Algeriet',
     'EC' => 'Ecuador',
-    'EE' => 'Estonia',
-    'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
+    'EE' => 'Estland',
+    'EG' => 'Egypten',
+    'EH' => 'Vestsahara',
     'ER' => 'Eritrea',
-    'ES' => 'Spain',
-    'ET' => 'Ethiopia',
-    'EU' => 'Europe',
+    'ES' => 'Spanien',
+    'ET' => 'Etiopien',
+    'EU' => 'Europa',
     'FI' => 'Finland',
     'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
+    'FK' => 'Falklandsøerne (Malvinas)',
+    'FM' => 'Mikronesien, De Fødererede Stater af',
+    'FO' => 'Færøerne',
+    'FR' => 'Frankrig',
     'GA' => 'Gabon',
     'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
-    'GB-SCT' => 'Scotland',
+    'GB-NIR' => 'Nordirland',
+    'GB-SCT' => 'Skotland',
     'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
+    'GB' => 'Det Forenede Kongerige',
     'GD' => 'Grenada',
-    'GE' => 'Georgia',
-    'GF' => 'French Guiana',
+    'GE' => 'Georgien',
+    'GF' => 'Fransk Guyana',
     'GG' => 'Guernsey',
     'GH' => 'Ghana',
     'GI' => 'Gibraltar',
-    'GL' => 'Greenland',
+    'GL' => 'Grønland',
     'GM' => 'Gambia',
     'GN' => 'Guinea',
     'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
+    'GQ' => 'Ækvatorialguinea',
+    'GR' => 'Grækenland',
+    'GS' => 'South Georgia og South Sandwichøerne',
     'GT' => 'Guatemala',
     'GU' => 'Guam',
     'GW' => 'Guinea-Bissau',
     'GY' => 'Guyana',
-    'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
+    'HK' => 'Hongkong',
+    'HM' => 'Heardøen og McDonaldøerne',
     'HN' => 'Honduras',
-    'HR' => 'Croatia',
+    'HR' => 'Kroatien',
     'HT' => 'Haiti',
-    'HU' => 'Hungary',
-    'ID' => 'Indonesia',
-    'IE' => 'Ireland',
+    'HU' => 'Ungarn',
+    'ID' => 'Indonesien',
+    'IE' => 'Irland',
     'IL' => 'Israel',
     'IM' => 'Isle of Man',
-    'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
-    'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
-    'IS' => 'Iceland',
-    'IT' => 'Italy',
+    'IN' => 'Indien',
+    'IO' => 'Det Britiske Indiske Ocean Territorium',
+    'IQ' => 'Irak',
+    'IR' => 'Iran, Den Islamiske Republik',
+    'IS' => 'Island',
+    'IT' => 'Italien',
     'JE' => 'Jersey',
     'JM' => 'Jamaica',
     'JO' => 'Jordan',
     'JP' => 'Japan',
     'KE' => 'Kenya',
-    'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
+    'KG' => 'Kirgisistan',
+    'KH' => 'Kambodja',
     'KI' => 'Kiribati',
-    'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
+    'KM' => 'Comorerne',
+    'KN' => 'Saint Kitts og Nevis',
+    'KP' => 'Korea, Den Demokratiske Folkerepublik',
+    'KR' => 'Korea, Republikken',
     'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
-    'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
+    'KY' => 'Caymanøerne',
+    'KZ' => 'Kasakhstan',
+    'LA' => 'Laos (Lao Folkedemokratiske Republik)',
+    'LB' => 'Libanon',
     'LC' => 'Saint Lucia',
     'LI' => 'Liechtenstein',
     'LK' => 'Sri Lanka',
     'LR' => 'Liberia',
     'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
+    'LT' => 'Litauen',
     'LU' => 'Luxembourg',
-    'LV' => 'Latvia',
-    'LY' => 'Libya',
-    'MA' => 'Morocco',
+    'LV' => 'Letland',
+    'LY' => 'Libyen',
+    'MA' => 'Marokko',
     'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
+    'MD' => 'Moldova, Republikken',
     'ME' => 'Montenegro',
     'MF' => 'Saint Martin',
-    'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
+    'MG' => 'Madagaskar',
+    'MH' => 'Marshalløerne',
+    'MK' => 'Nordmakedonien',
     'ML' => 'Mali',
     'MM' => 'Myanmar',
-    'MN' => 'Mongolia',
+    'MN' => 'Mongoliet',
     'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
+    'MP' => 'Nordmarianerne',
     'MQ' => 'Martinique',
-    'MR' => 'Mauritania',
+    'MR' => 'Mauritanien',
     'MS' => 'Montserrat',
     'MT' => 'Malta',
     'MU' => 'Mauritius',
-    'MV' => 'Maldives',
+    'MV' => 'Maldiverne',
     'MW' => 'Malawi',
-    'MX' => 'Mexico',
+    'MX' => 'Mexiko',
     'MY' => 'Malaysia',
     'MZ' => 'Mozambique',
     'NA' => 'Namibia',
-    'NC' => 'New Caledonia',
+    'NC' => 'Ny Kaledonien',
     'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
+    'NF' => 'Norfolkøen',
     'NG' => 'Nigeria',
     'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
+    'NL' => 'Holland',
+    'NO' => 'Norge',
     'NP' => 'Nepal',
     'NR' => 'Nauru',
     'NU' => 'Niue',
@@ -1168,87 +1168,87 @@ $lang['COUNTRIES'] = [
     'OM' => 'Oman',
     'PA' => 'Panama',
     'PE' => 'Peru',
-    'PF' => 'French Polynesia',
-    'PG' => 'Papua New Guinea',
-    'PH' => 'Philippines',
+    'PF' => 'Fransk Polynesien',
+    'PG' => 'Papua Ny Guinea',
+    'PH' => 'Filippinerne',
     'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
+    'PL' => 'Polen',
+    'PM' => 'Saint Pierre og Miquelon',
     'PN' => 'Pitcairn',
     'PR' => 'Puerto Rico',
-    'PS' => 'Palestine',
+    'PS' => 'Palæstina',
     'PT' => 'Portugal',
     'PW' => 'Palau',
     'PY' => 'Paraguay',
     'QA' => 'Qatar',
     'RE' => 'Réunion',
-    'RO' => 'Romania',
-    'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
+    'RO' => 'Rumænien',
+    'RS' => 'Serbien',
+    'RU' => 'Rusland',
     'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
-    'SC' => 'Seychelles',
+    'SA' => 'Saudi Arabien',
+    'SB' => 'Salomonøerne',
+    'SC' => 'Seychellerne',
     'SD' => 'Sudan',
-    'SE' => 'Sweden',
+    'SE' => 'Sverige',
     'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
-    'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SK' => 'Slovakia',
+    'SH' => 'Saint Helena, Ascension og Tristan da Cunha',
+    'SI' => 'Slovenien',
+    'SJ' => 'Svalbard og Jan Mayen',
+    'SK' => 'Slovakiet',
     'SL' => 'Sierra Leone',
     'SM' => 'San Marino',
     'SN' => 'Senegal',
     'SO' => 'Somalia',
-    'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
+    'SR' => 'Surinam',
+    'SS' => 'Sydsudan',
+    'SU' => 'Sovjetunionen',
+    'ST' => 'Sao Tome og Principe',
     'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
-    'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
-    'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
+    'SX' => 'Sint Maarten (hollandsk del)',
+    'SY' => 'Syrisk Arabisk Republik',
+    'SZ' => 'Eswatini',
+    'TC' => 'Turks- og Caicosøerne',
+    'TD' => 'Tchad',
+    'TF' => 'Franske sydterritorier',
     'TG' => 'Togo',
     'TH' => 'Thailand',
-    'TJ' => 'Tajikistan',
+    'TJ' => 'Tadsjikistan',
     'TK' => 'Tokelau',
     'TL' => 'Timor-Leste',
-    'TM' => 'Turkmenistan',
-    'TN' => 'Tunisia',
+    'TM' => 'Turkmensitan',
+    'TN' => 'Tunisien',
     'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
+    'TR' => 'Tyrkiet',
+    'TT' => 'Trinidad og Tobago',
     'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
+    'TW' => 'Taiwan (Republikken Kina)',
+    'TZ' => 'Tanzania, Den Forenede Republik',
     'UA' => 'Ukraine',
     'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
+    'UM' => 'USA\'s mindre fjerntliggende øer',
+    'US' => 'USA',
     'UY' => 'Uruguay',
-    'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
+    'UZ' => 'Usbekistan',
+    'VA' => 'Hellige Stol (Vatikanstaten)',
+    'VC' => 'Saint Vincent og Grenadinerne',
+    'VE' => 'Venezuela, Bolivarisk Republik',
+    'VG' => 'Jomfruøerne, britiske',
+    'VI' => 'Jomfruøerne, USA',
     'VN' => 'Vietnam',
     'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
+    'WF' => 'Wallis og Futunaøerne',
     'WS' => 'Samoa',
     'XK' => 'Kosovo',
     'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
+    'YU' => 'Jugoslavien',
     'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
+    'ZA' => 'Sydafrika',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
+    'WBW' => 'Vidunderlige Rusland i Fremtiden',
+    'PACE' => 'Fred flag',
     'LGBT' => 'Pride flag'
 ];
 
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = 'Beskrivelse'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fil størrelse';
 $lang['VIEWED'] = 'Set';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Omdannelsen \'%s\' blev deaktiveret af en administrator, derfor vises denne vedhæftning ikke.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
+$lang['RESOLUTION'] = 'Opløsning: <b>%s</b>';
+$lang['CHANNELS'] = 'Kanaler: <b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = 'Layout for kanaler: <b>%s</b>';
 $lang['BITRATE'] = 'Bitrate: <b>%s</b>';
 $lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
-$lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
-$lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['AUDIO_TRACK'] = 'Lydspor information (%d):';
+$lang['AUDIO_CODEC'] = 'Lydkodek: <b title="%s">%s</b>';
+$lang['VIDEO_CODEC'] = 'Videokodek: <b title="%s">%s</b>';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Vis flere oplysninger om filen';
+$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u fil';
+$lang['PLAYBACK_M3U'] = 'Afspil .m3u fil';
+$lang['COPY_STREAM_LINK'] = 'Kopier stream link til udklipsholder';
+$lang['M3U_NOT_SUPPORTED'] = 'Denne fil kan ikke afspilles i browseren...';
+$lang['M3U_FFPROBE_NO_DATA'] = 'Det ser ud til at ffprobe ikke kan returnere data om denne codec...';
+$lang['M3U_NOTICE'] = 'Nogle browsere understøtter ikke afspilning af visse videoformater. I så fald kan du downloade .m3u filen og afspille den med en tredjeparts afspiller';
 
 $lang['ATTACHMENT'] = 'Vedhæftede filer';
 $lang['ATTACHMENT_THUMBNAIL'] = 'Vedhæftet Fil Miniature';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = 'Tilføjet';
 $lang['BT_REG_ON_TRACKER'] = 'Registrere på tracker';
 $lang['BT_REG_FAIL'] = 'Kan ikke registrere en torrent på tracker';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'En anden torrent med samme info_hash allerede <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents er blevet deaktiveret af administratoren i øjeblikket, tilladt: v2 og hybrider';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents er blevet deaktiveret af administratoren i øjeblikket, tilladt: v1 og hybrider';
+$lang['BT_FLIST'] = 'Fil liste';
+$lang['BT_FLIST_LIMIT'] = 'Tracker indstillinger tillader ikke behandling af lister med mere end %d filer. Aktuelt antal er: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root er en hash af en fil indlejret i torrents med BitTorrent v2 support, tracker brugere kan udtrække, beregne dem, også downloade deduplicerede torrents ved hjælp af desktop værktøjer som <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
+$lang['BT_FLIST_CREATION_DATE'] = 'Oprettelsesdato';
+$lang['BT_IS_PRIVATE'] = 'Privat torrent';
+$lang['BT_FLIST_FILE_PATH'] = 'Sti (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = 'Fil hashes | .torrent meta-info';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Annoncører liste';
+$lang['BT_FLIST_ANNOUNCERS'] = 'Annoncører';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Denne liste indeholder annoncører af torrentfilen';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Fjern fra tracker';
 $lang['BT_UNREGISTERED'] = 'Torrent uregistrerede';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent allerede afregistreret';
 $lang['BT_REGISTERED'] = 'Torrent er registreret på tracker<br /><br />Now du er nødt til at <a href="%s"><b>download din torrent</b></a> og køre det ved hjælp af din BitTorrent-klient vælge mappen med de oprindelige filer, du deler som download-sti';
 $lang['INVALID_ANN_URL'] = 'Ugyldig Announce URL [%s]<br /><br />must være <b>%s</b>';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Kunne ikke tilføje passkey<br /><br />Torrent ikke er registreret på tracker';
 $lang['BT_PASSKEY'] = 'Adgangsnøglen';
 $lang['BT_GEN_PASSKEY'] = 'oprette en ny';
 $lang['BT_PASSKEY_VIEW'] = 'vis';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Opmærksomhed! Efter at have ændret din adgangsnøgle, skal du gen-downloade alle aktive torrents! \n Er du sikker på, at du vil oprette en ny adgangsnøgle?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Ingen søgbare fora fundet';
 
 $lang['SEEDS'] = 'Frø';
@@ -1404,34 +1404,34 @@ $lang['SEEDING'] = 'Frø';
 $lang['LEECHING'] = 'Agterliget';
 $lang['IS_REGISTERED'] = 'Registreret';
 $lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET_FOR_GUESTS'] = 'Vis magnet-link for gæster';
+$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 understøttet)';
 
 //torrent status mod
 $lang['TOR_STATUS'] = 'Status';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Vælg status';
 $lang['TOR_STATUS_NOT_SELECT'] = 'Du har ikke valgt status.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Alle statusser';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = 'Denne topics status er: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'ikke tjekket',
     TOR_CLOSED => 'lukket',
     TOR_APPROVED => 'kontrolleret',
     TOR_NEED_EDIT => 'ikke formaliseret, indtil',
     TOR_NO_DESC => 'ikke formaliseret',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => 'duplikat',
+    TOR_CLOSED_CPHOLD => 'lukket (ophavsret)',
     TOR_CONSUMED => 'absorberes',
     TOR_DOUBTFUL => 'tvivlsomt',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => 'bliver tjekket',
     TOR_TMP => 'midlertidig',
     TOR_PREMOD => 'præ-moderation',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => 'genopfyldning',
 ];
 $lang['TOR_STATUS_FAILED'] = 'En sådan tilstand eksisterer ikke!';
 $lang['TORRENT_FAILED'] = 'Distribution blev ikke fundet!';
 $lang['TOR_STATUS_DUB'] = 'Fordeling har samme status';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Ændring af status kan ikke være!';
 $lang['TOR_STATUS_OF'] = 'Distribution har status af:';
 $lang['TOR_STATUS_CHANGED'] = 'Status ændret: ';
 $lang['TOR_BACK'] = ' tilbage';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Manglende fil identifikator!';
 $lang['CHANGE_TOR_TYPE'] = 'Type torrent ændret';
 $lang['DEL_TORRENT'] = 'Er du sikker på du vil slette torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Er du sikker på du ønsker at slette og flytte emnet?';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = 'Du har en ufærdig udgivelse. Før du opretter en ny, skal du venligst afslutte den!';
+$lang['TOR_STATUS_LOG_ACTION'] = 'Ny status: %s.<br/>Tidligere status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Ændre status for distribution - %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Hej, %s.\n\nStatus for [url=%s]din[/url] distribution er ændret til [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Ændringer i design - %s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "Hej, %s.\n\nDin distribution er blevet ændret - [url=%s]%s[/url]\n\nTjek venligst igen.";
 $lang['TOR_AUTH_FIXED'] = 'Fast';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The oplysninger, der sendes til moderator. Forventer.</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = 'Frø sidst set';
 $lang['BT_SORT_FORUM'] = 'Forum';
 $lang['SIZE'] = 'Størrelse';
 $lang['PIECE_LENGTH'] = 'Stykke længde';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = 'Fuldførte downloads';
 $lang['ADDED'] = 'Tilføjet';
 $lang['DELETE_TORRENT'] = 'Slet torrent';
 $lang['DELETE_MOVE_TORRENT'] = 'Slette og flytte emne';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = 'Gøre sølv';
 $lang['UNSET_SILVER_TORRENT'] = 'UnMake sølv';
 $lang['GOLD_STATUS'] = 'GULD TORRENT! DOWNLOAD-TRAFIK MENER IKKE!';
 $lang['SILVER_STATUS'] = 'SØLV TORRENT! DOWNLOAD-TRAFIK DELVIST OVERVEJET!';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type ændret til: %s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = 'Søg efter status for udgivelse';
 $lang['SEARCH_IN_FORUMS'] = 'Søg i Fora';
 $lang['SELECT_CAT'] = 'Vælg kategori';
 $lang['GO_TO_SECTION'] = 'Goto afsnit';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Torrent, der allerede er registreret';
 $lang['NOT_TORRENT'] = 'Denne fil er ikke torrent';
 $lang['ONLY_1_TOR_PER_POST'] = 'Du kan kun registrere én torrent i et indlæg';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Du kan kun registrere én torrent i et emne';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktive torrents';
 
 $lang['TD_TRAF'] = 'I dag';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Vælg';
 $lang['SEED_BONUS'] = 'Frø bonus';
 $lang['EXCHANGE'] = 'Udveksling';
 $lang['EXCHANGE_BONUS'] = 'Udveksling af frø bonusser';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s til distribution</b> <br /> For at bytte bonuspoint for %1$s trafik, der vil blive tilføjet til din distributions total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Pris';
 $lang['EXCHANGE_NOT'] = 'Udveksling ikke tilgængelig';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You ikke har bonusser til rådi
 $lang['BONUS_RETURN'] = 'Tilbage til frø bonus udveksling';
 
 $lang['TRACKER'] = 'Tracker';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = 'Tilfældig udgivelse';
 $lang['OPEN_TOPICS'] = 'Åbne emner';
 $lang['OPEN_IN_SAME_WINDOW'] = 'åbne i samme vindue';
 $lang['SHOW_TIME_TOPICS'] = 'vis tidspunktet for oprettelsen emner';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Designer';
 $lang['LAST_IP'] = 'Sidste IP:';
 $lang['REG_IP'] = 'Registrering af IP -:';
 $lang['OTHER_IP'] = 'Andre IP:';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'En bruger %s er allerede registreret med din IP-adresse. Hvis du ikke tidligere har registreret dig på vores tracker, send en e-mail til <a href="mailto:%s">administrator</a>';
 $lang['HIDDEN'] = 'Skjult';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = 'Aldrig';
 //mpd
 $lang['DELETE_POSTS'] = 'Slet valgte indlæg';
 $lang['DELETE_POSTS_SUCCESFULLY'] = 'Det valgte indlæg er blevet fjernet';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = 'Ingen indlæg blev fjernet.';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Meddelelser';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = 'Opdatere post gang';
 $lang['TOPIC_SPLIT_NEW'] = 'Nyt emne';
 $lang['TOPIC_SPLIT_OLD'] = 'Gamle emne';
 $lang['BOT_LEAVE_MSG_MOVED'] = 'Tilføj bot-besked om at flytte';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = 'Årsag til flytning';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Tilføj bot-besked om delt til <b>old topic</b>';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Tilføj bot-besked om delt til <b>new topic</b>';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['svar', 'svar'];
 $lang['DECLENSION']['TIMES'] = ['tid', 'tider'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['fil', 'filer'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['andet', 'sekunder'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = 'Kommentar';
 
 // search
 $lang['SEARCH_S'] = 'søg...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = 'på forum';
+$lang['TRACKER_S'] = 'på tracker';
 $lang['HASH_S'] = 'ved info_hash';
 
 // copyright
 $lang['NOTICE'] = '!OPMÆRKSOMHED!';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = 'Webstedet leverer ikke elektroniske versioner af produkter og beskæftiger sig kun med at indsamle og katalogisere de referencer, der er sendt og offentliggjort på forummet af vores læsere. Hvis du er den lovlige ejer af noget fremlagt materiale og ikke ønsker, at referencen til det skal være i vores katalog, bedes du kontakte os, og vi fjerner det straks. Filer til udveksling på tracker tilbydes af brugere af webstedet, og administrationen påtager sig ikke ansvar for deres indhold. Venligst upload ikke filer, der er beskyttet af ophavsret, eller filer med ulovligt indhold!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Sammenbrud bibliotek';
 $lang['EXPAND'] = 'Udvid';
 $lang['SWITCH'] = 'Skift';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Forøg/nedsæt vinduet';
 $lang['EMPTY_ATTACH_ID'] = 'Manglende fil identifikator!';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = 'Filen mangler på serveren!';
 $lang['ERROR_BUILD'] = 'Indholdet af denne torrent-fil kan ikke ses på hjemmesiden (det var ikke muligt at opbygge en liste af filer)';
 $lang['TORFILE_INVALID'] = 'Torrent fil er korrupt';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site" kan kun indeholde http://sitename';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = '"ICQ"-feltet må kun indeholde et ICQ-nummer';
+$lang['INVALID_DATE'] = 'Ugyldig dato';
 $lang['PROFILE_USER'] = 'Visning af profil';
 $lang['GOOD_UPDATE'] = 'var blevet ændret,';
 $lang['UCP_DOWNLOADS'] = 'Downloads';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Er du sikker på du ønsker at slette denne brug
 $lang['USER_DELETED'] = 'Brugeren blev slettet';
 $lang['DELETE_USER_ALL_POSTS'] = 'Slet alle bruger indlæg';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Er du sikker på du vil slette alle beskeder, og alle emner startet af dette bruger?';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = 'Slet alle beskeder, undtagen for første indlæg';
 $lang['DELETE_USER_POSTS_ME'] = 'Er du sikker på du ønsker at slette alle mine indlæg?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Er du sikker på, at du vil slette alle beskeder, undtagen for første indlæg?';
 $lang['USER_DELETED_POSTS'] = 'Indlæg var fjernet';
 
 $lang['USER'] = 'Bruger';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Du er ikke autoriseret til at se skjulte grupper';
 
 $lang['USER_ACTIVATE'] = 'Aktivere';
 $lang['USER_DEACTIVATE'] = 'Deaktiver';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = 'Er du sikker på, at du vil deaktivere denne bruger?';
 $lang['USER_ACTIVATE_ON'] = 'Brugeren er blevet aktiveret';
 $lang['USER_DEACTIVATE_ME'] = 'Du kan ikke deaktivere min konto!';
 $lang['ACTIVATE_CONFIRM'] = 'Er du sikker på du ønsker at deaktivere denne bruger?';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = 'Du skal angive e-mail';
 $lang['CHOOSE_PASS'] = 'Feltet til adgangskoden må ikke være tom!';
 $lang['CHOOSE_PASS_ERR'] = 'Indtastede passwords matcher ikke';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Din adgangskode skal være på mindst %d tegn';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Din adgangskode må ikke være længere end %d tegn';
+$lang['CHOOSE_PASS_ERR_NUM'] = 'Adgangskoden skal indeholde mindst ét ciffer';
+$lang['CHOOSE_PASS_ERR_LETTER'] = 'Adgangskoden skal indeholde mindst ét bogstav i det latinske alfabet';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'Adgangskoden skal indeholde mindst ét stort bogstav i det latinske alfabet';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Adgangskoden skal indeholde mindst ét specialtegn';
 $lang['CHOOSE_PASS_OK'] = 'Adgangskoder matcher';
 $lang['CHOOSE_PASS_REG_OK'] = 'Adgangskoder matcher, du kan gå videre med tilmelding';
 $lang['CHOOSE_PASS_FAILED'] = 'For at ændre den adgangskode, skal du angive den aktuelle adgangskode';
 $lang['EMAILER_DISABLED'] = 'Beklager, denne funktion er midlertidigt ikke virker';
 $lang['TERMS_ON'] = 'Jeg er enig med disse vilkår og betingelser';
 $lang['TERMS_OFF'] = 'Jeg er ikke enig i disse vilkår';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'For at registrere, skal du aktivere JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registreringen er i øjeblikket lukket<br /><br />Registrering er tilgængelig i perioden: %s<br />Nuværende server tid: %s<br /><br />Vi undskylder for ulejligheden";
+$lang['AUTOCOMPLETE'] = 'Generer adgangskode';
 $lang['YOUR_NEW_PASSWORD'] = 'Din ny adgangskode:';
 $lang['REGENERATE'] = 'Regenerere';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = 'off';
 $lang['MEMORY'] = 'Mem: ';
 $lang['QUERIES'] = 'forespørgsler';
 $lang['LIMIT'] = 'Grænse:';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = 'Vis log';
+$lang['EXPLAINED_LOG'] = 'Forklaret log';
+$lang['CUT_LOG'] = 'Klip lange forespørgsler';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = 'Hent gratis og ved maksimal hastighed!';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = 'Fed tekst: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'Kursiv tekst: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = 'Understreget tekst: [u]text[/u] (Ctrl+U)';
 $lang['STRIKEOUT'] = 'Overstrege tekst: [s]text[/s] (Ctrl+S)';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
+$lang['BOX_TAG'] = 'Ramme omkring tekst: [box]text[/box] eller [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = 'Indsæt indryk: [indent]text[/indent]';
+$lang['PRE_TAG'] = 'Forformat tekst: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Superscript tekst: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Subscript tekst: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Citat af tekst: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Indsæt billede: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'Url';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = 'Kode display: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Listen';
 $lang['LIST_TITLE'] = 'Liste: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = 'Liste: [list=]text[/list] (Ctrl+O)';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = 'Akronym';
+$lang['ACRONYM_TITLE'] = 'Akronym: [acronym=Fuldt tekst]Kort tekst[/acronym]';
 $lang['QUOTE_SEL'] = 'Udvalgt citat';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = 'JavaScript skal være aktiveret for at sende beskeder';
 
 $lang['NEW'] = 'Ny';
 $lang['NEWEST'] = 'Nyeste';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL hastighed';
 $lang['DL_DL_SPEED'] = 'DL hastighed';
 $lang['DL_PORT'] = 'Port';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'BitTorrent klient';
 $lang['DL_FORMULA'] = 'Formel: Uploades/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'stoppet';
 $lang['DL_UPD'] = 'upd: ';
 $lang['DL_INFO'] = 'viser data <i><b>only for den aktuelle session</b></i>';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Skjul mit BitTorrent klient navn i peer liste';
+$lang['HIDE_PEER_COUNTRY_NAME'] = 'Skjul mit lands navn i peer liste';
+$lang['HIDE_PEER_USERNAME'] = 'Skjul mit brugernavn i peer liste';
 
 // Post PIN
 $lang['POST_PIN'] = 'Pin-kode første indlæg';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = 'For at slette en ordre fra listen, skal du klikke på 
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Så emner';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Ingen overvågnings emner';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Tilbage til startsiden';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = 'Gå til profil';
 
 $lang['WARNING'] = 'Advarsel';
 $lang['INDEXER'] = 'Reindex søg';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = 'Søgeindeks opdateret med succes';
 
 $lang['FORUM_STYLE'] = 'Forum stil';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = 'Udgivelse Skabeloner';
 $lang['ACTIONS_LOG'] = 'Rapport om aktion';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = 'Database migrations status';
+$lang['MIGRATIONS_DATABASE_NAME'] = 'Database navn';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Samlet antal tabeller';
+$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database størrelse';
+$lang['MIGRATIONS_DATABASE_INFO'] = 'Database information';
+$lang['MIGRATIONS_SYSTEM'] = 'Migreringssystem';
+$lang['MIGRATIONS_NEEDS_SETUP'] = 'Behøver opsætning';
 $lang['MIGRATIONS_ACTIVE'] = 'Aktiv';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Ikke initieret';
+$lang['MIGRATIONS_UP_TO_DATE'] = 'Alle opdateret';
+$lang['MIGRATIONS_PENDING_COUNT'] = 'afventende';
+$lang['MIGRATIONS_APPLIED'] = 'Anvendte migrationer';
+$lang['MIGRATIONS_PENDING'] = 'Afventende migrationer';
 $lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NAME'] = 'Migrerings navn';
+$lang['MIGRATIONS_FILE'] = 'Migrerings fil';
+$lang['MIGRATIONS_APPLIED_AT'] = 'Anvendt på';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'Fuldført på';
+$lang['MIGRATIONS_CURRENT_VERSION'] = 'Nuværende version';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Ingen migrationer anvendt';
+$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instruktioner';
+$lang['MIGRATIONS_SETUP_STATUS'] = 'Opsætningsstatus';
+$lang['MIGRATIONS_SETUP_GUIDE'] = 'Se opsætningsguide nedenfor';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Handling krævet';
 
 // Index
 $lang['MAIN_INDEX'] = 'Forum Indeks';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'Gzip-komprimering';
 $lang['NOT_AVAILABLE'] = 'Ikke tilgængelig';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
+$lang['ADMIN_SYSTEM_INFORMATION'] = 'Systeminformation';
 $lang['ADMIN_SYSTEM_OS'] = 'OS:';
 $lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
 $lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Hukommelsesgrænse:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Diskplads info:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (brugte: %s | gratis: %s)';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Maks udførelsestid:';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Datastore';
 $lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_TEMPLATES_CACHE'] = 'Skabeloner cache';
 
 // Update
 $lang['USER_LEVELS'] = 'Bruger niveauer';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Bruger indlæg tæller er blevet synkr
 $lang['SHOW_ONLINE_USERLIST'] = 'Vis en liste over online brugere';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Administrer robots.txt';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'Fil robots.txt er blevet opdateret med succes';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sKlik her for at vende tilbage til robots.txt manager%s';
 
 // Auth pages
 $lang['USER_SELECT'] = 'Vælg en Bruger';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = 'Brugertilladelser er blevet opdateret';
 $lang['GROUP_AUTH_UPDATED'] = 'Gruppe tilladelser er blevet opdateret';
 
 $lang['AUTH_UPDATED'] = 'Tilladelser er blevet opdateret';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = 'Kunne ikke opdatere administratorstatus';
+$lang['AUTH_SELF_ERROR'] = 'Kunne ikke ændre dig selv fra admin til bruger';
+$lang['NO_FORUMS_AVAILABLE'] = 'Ingen fora tilgængelige. Opret fora først for at administrere tilladelser.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Klik på %sHere%s for at vende tilbage til brugertilladelser';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Klik på %sHere%s for at vende tilbage til Gruppe rettigheder';
 $lang['CLICK_RETURN_FORUMAUTH'] = 'Klik på %sHere%s for at vende tilbage til Forum Tilladelser';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Forbud, Kontrol';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = 'Her kan du kontrollere forbud af brugere.';
 $lang['BAN_USERNAME'] = 'Udeluk en eller flere bestemte brugere';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Du kan forbyde flere brugere på én gang ved hjælp af den rette kombination af mus og tastatur til din computer og browser';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = 'Udeluk en eller flere specifikke brugere';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Du kan unban flere brugere på én gang ved hjælp af den rette kombination af mus og tastatur til din computer og browser';
 $lang['NO_BANNED_USERS'] = 'Ingen forbudte brugernavne';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Den banlist er blevet opdateret';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Forum Administration';
 $lang['FORUM_ADMIN_EXPLAIN'] = 'Fra dette panel kan du tilføje, slette, redigere, ændre rækkefølgen og re-synkroniser kategorier og fora';
 $lang['EDIT_FORUM'] = 'Rediger forum';
 $lang['CREATE_FORUM'] = 'Opret nyt forum';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = 'Opret underforum';
 $lang['CREATE_CATEGORY'] = 'Opret ny kategori';
 $lang['REMOVE'] = 'Fjern';
 $lang['UPDATE_ORDER'] = 'Opdatering For';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = 'Flytte alt indhold';
 $lang['FORUM_DELETE'] = 'Slet Forum';
 $lang['FORUM_DELETE_EXPLAIN'] = 'Skemaet nedenfor giver dig mulighed for at slette et forum (eller kategorier) og beslutte, hvor du ønsker at sætte alle emner (eller fora) det indeholdt.';
 $lang['CATEGORY_DELETE'] = 'Slet Kategori';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = 'Kategori navn ikke angivet';
 
 $lang['STATUS_LOCKED'] = 'Låst';
 $lang['STATUS_UNLOCKED'] = 'Ulåst';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Ved hjælp af denne formular, kan du tilføje, rediger
 $lang['ADD_NEW_RANK'] = 'Tilføj ny rang';
 $lang['RANK_TITLE'] = 'Rang, Titel';
 $lang['STYLE_COLOR'] = 'Stil rang';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = 'Angiv en klasse til at style titlen med den ønskede farve. For eksempel: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Rang Billede';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Brug dette til at definere et lille billede, der er tilknyttet den rang';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klik på %sHere%s for at vende tilbage ti
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Version Information';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = 'Opdatering tilgængelig';
+$lang['CHANGELOG'] = 'Ændringslog';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Tilladt login-forsøg';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Kun administratorer';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s kan se dette forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s kan læse indlæg i dette forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s kan indlæg i dette forum';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s kan besvare indlæg i dette forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s kan redigere indlæg i dette forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s kan slet indlæg i dette forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s kan sende klæbende emner i dette forum';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. længden af nyheder';
 $lang['NEWS_COUNT'] = 'Hvor mange nyheder show';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'Fra hvilke fora skal vises<br /> <h6>For flere fora skal du angive ID\'er adskilt af kommaer. Eksempel: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Ingen avatar';
 $lang['TRACKER_STATS'] = 'Statistik på tracker';
 $lang['WHOIS_INFO'] = 'Oplysninger om IP-adresse';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Vis på moderatorer den index.php';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = 'Vis forum startdato på index.php';
 $lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If du ikke har udlodning til status af v, #, eller T i dette afsnit, herunder de afsnit, distribution vil automatisk modtage dette status</h6>';
 $lang['TOR_COMMENT'] = '<h4>Kommentar til status for en distribution</h4> <h6>Kommentaren giver dig mulighed for at påpege de fejl, der er lavet til udgiveren. Hvis statusserne er ufuldstændige, er en frigivelsessvarformular tilgængelig for udgivelsesadministratoren for at rette udgivelsen</h6>';
 $lang['SEED_BONUS_ADD'] = '<h4>Adding frø bonus </h4> <h6> Antallet af distributioner, som er udleveret af brugeren, og størrelsen af bonusser til dem (opladning gange i timen) </h6>';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Udvidelse Gruppe %s, findes allerede'; // repl
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Håndtere Specielle Kategorier';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Her kan du konfigurere de Særlige Kategorier. Du kan oprette Særlige Parametre og Vilkår for de Særlige Kategorier, der er tildelt til en Udvidelse Gruppe.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Indstillinger for Særlige Kategori: Billeder';
 $lang['SETTINGS_CAT_FLASH'] = 'Indstillinger for Særlige Kategori: Flash Filer';
 $lang['DISPLAY_INLINED'] = 'Vise Billeder Inlined';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = 'Announce url';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'du kan definere yderligere tilladte webadresser i "includes/torrent_announce_urls.php"';
 $lang['BT_DISABLE_DHT'] = 'Deaktiver DHT-netværk';
 $lang['BT_DISABLE_DHT_EXPL'] = 'Deaktiver Peer Udveksling og DHT (anbefales til private netværk, kun url-announce)';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = 'Denne tracker er privat: filoversigt (for gæster), DHT | PEX er deaktiveret';
+$lang['BT_PRIVATE_TORRENT'] = 'Skaberen af denne torrent har gjort den privat';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Kontrollere announce url';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'registrere på tracker kun tilladt webadresser';
 $lang['BT_REPLACE_ANN_URL'] = 'Udskift announce url';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Tillader, boolean fuld-tekst søgning';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'brug *, +, -,.. søgninger';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diverse";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Vis bruger UL/DL-statistikker øverst på forumets hovedside";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automatisk registrering torrent på tracker til nye emner';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Skift emne, status, at "Downloade", mens registrering torrent på tracker';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'vil ændre emne, type "Download" uanset forum-indstillinger';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = 'Skabelon handicappede';
 $lang['FOR_NEW_TEMPLATE'] = 'for nye mønstre!';
 $lang['CHANGED'] = 'Ændret';
 $lang['REMOVED'] = 'Fjernet';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = 'Bekræft, er du sikker på, at du vil udføre denne handling';
 
 $lang['CRON_LIST'] = 'Cron-liste';
 $lang['CRON_ID'] = 'ID';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Aktiver';
 $lang['RUN_MAIN_CRON'] = 'Start cron';
 $lang['ADD_JOB'] = 'Tilføj cron-job';
 $lang['DELETE_JOB'] = 'Er du sikker på du ønsker at slette cron job?';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron fungerer i øjeblikket eller er nedbrudt -> ';
 $lang['REPAIR_CRON'] = 'Reparation Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Rediger job';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Deaktiver bestyrelsen';
 $lang['BOARD_DISABLE_EXPL'] = 'deaktiver bestyrelsen, når denne opgave er at køre';
 $lang['RUN_COUNTER'] = 'Strid';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = 'Jobbet er blevet fjernet med succes';
 $lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> eksisterer allerede!';
 $lang['TITLE_DUPLICATE'] = 'Opgavens Navn <b>' . @$_POST['cron_title'] . '</b> eksisterer allerede!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sVend tilbage for at tilføje job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack til Opgave Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Genopbygge Søgeindeks';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Hvor meget tid (sek) til at bo i tomgang, før 
 
 $lang['TIME_LIMIT'] = 'Frist';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Hvor meget tid (sek) efter behandling kan vare, før du flytter til næste cyklus';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Dit PHP (sikker tilstand) har en timeout på %s sekunder, så hold dig under denne værdi</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver har en timeout af %s sek konfigureret, så bo under dette value</i>';
 
 $lang['DISABLE_BOARD'] = 'Deaktiver bestyrelsen';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = 'Du har indtastet nogle forkerte værdier. Check venligst
 $lang['PROCESSING'] = 'Behandling...';
 $lang['FINISHED'] = 'Færdig';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Emnet er blevet flyttet fra forum [b]%s[/b] til forum [b]%s[/b].[br][b]Årsag til flytning:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Emnet er blevet delt. Nyt emne - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Emnet er blevet skilt fra [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = 'Kald frø';
 $lang['CALLSEED_EXPLAIN'] = 'Tage varsel med en anmodning om at vende tilbage til distribution';
 $lang['CALLSEED_SUBJECT'] = 'Hjælp til Download %s';
 $lang['CALLSEED_TEXT'] = 'Hej![br]Your der er behov for hjælp i udgivelsen [url=%s]%s[/url][br]if du beslutter dig for at hjælpe, men allerede slettet torrent-fil, kan du downloade det [url=%s]this[/url][br][br]i håber for din hjælp!';
@@ -2855,22 +2855,22 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Emne:<br /> <b>closed</b>',
     'mod_topic_unlock' => 'Emne:<br /> <b>opened</b>',
     'mod_topic_split' => 'Emne:<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => 'Emne:<br /> <b>sæt downloadet</b>',
+    'mod_topic_unset_downloaded' => 'Emne:<br /> <b>fjern downloadet</b>',
+    'mod_topic_change_tor_status' => 'Emne:<br /> <b>ændret torrentstatus</b>',
+    'mod_topic_change_tor_type' => 'Emne:<br /> <b>ændret torrenttype</b>',
+    'mod_topic_tor_unregister' => 'Emne:<br /> <b>torrent afregistreret</b>',
+    'mod_topic_tor_register' => 'Emne:<br /> <b>torrent registreret</b>',
+    'mod_topic_tor_delete' => 'Emne:<br /> <b>torrent slettet</b>',
+    'mod_topic_renamed' => 'Emne:<br /> <b>omdøbt</b>',
+    'mod_topic_poll_started' => 'Emne:<br /> <b>afstemning startet</b>',
+    'mod_topic_poll_finished' => 'Emne:<br /> <b>afstemning afsluttet</b>',
+    'mod_topic_poll_deleted' => 'Emne:<br /> <b>afstemning slettet</b>',
+    'mod_topic_poll_added' => 'Emne:<br /> <b>afstemning tilføjet</b>',
+    'mod_topic_poll_edited' => 'Emne:<br /> <b>afstemning redigeret</b>',
     'mod_post_delete' => 'Indlæg:<br /> <b>deleted</b>',
-    'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
-    'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
+    'mod_post_pin' => 'Indlæg:<br /> <b>fastgjort</b>',
+    'mod_post_unpin' => 'Indlæg:<br /> <b>fjernet fra fastgørelse</b>',
     'adm_user_delete' => 'Bruger:<br /> <b>deleted</b>',
     'adm_user_ban' => 'Bruger:<br /> <b>ban</b>',
     'adm_user_unban' => 'Bruger:<br /> <b>unban</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = 'Udfyld venligst frigivelsesformularen';
 $lang['NEW_RELEASE'] = 'Ny udgivelse';
 $lang['NEXT'] = 'Fortsæt';
 $lang['OTHER'] = 'Andre';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = 'Andre';
+$lang['ALL'] = 'Alle';
 
 $lang['TPL_EMPTY_FIELD'] = 'Du skal udfylde felt <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Du skal vælge <b>%s</b>';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'At søge efter brugere med en Hjemmesid
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'At søge efter brugere med en Placering matchende %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'At søge efter brugere med deres Interesser felt matchende %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'At søge efter brugere med deres Erhverv felt matchende %s';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'At søge efter brugere, der har besøgt i de sidste %s';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'At søge efter brugere, der har besøgt efter den sidste %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'At søge efter brugere, der har sat %s som deres sprog';
 $lang['SEARCH_FOR_TIMEZONE'] = 'At søge efter brugere, der har sat UTC %s som deres tidszone';
 $lang['SEARCH_FOR_STYLE'] = 'At søge efter brugere, der har sat %s som deres stil';
@@ -3061,7 +3061,7 @@ $lang['FORUM_MAP'] = 'Fora\' kort';
 $lang['ATOM_FEED'] = 'Foder';
 $lang['ATOM_ERROR'] = 'Fejl ved generering af foder';
 $lang['ATOM_SUBSCRIBE'] = 'Abonnér på feed';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = 'Ingen tilstandsmulighed leveret for feedet';
 $lang['ATOM_NO_FORUM'] = 'Dette forum har ikke et feed (ingen løbende emner)';
 $lang['ATOM_NO_USER'] = 'Denne bruger har ikke et feed (ingen løbende emner)';
 $lang['ATOM_UPDATED'] = 'Updated';
@@ -3070,15 +3070,15 @@ $lang['ATOM_GLOBAL_FEED'] = 'Globalt feed til alle fora';
 $lang['HASH_INVALID'] = 'Hash %s er ugyldig';
 $lang['HASH_NOT_FOUND'] = 'Udgivelse med hash %s ikke fundet';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[align=center]Teksten på denne side redigeres på: [url]%s[/url]. Denne linje kan kun ses af administratorer.[/align]';
 $lang['TERMS_EXPLAIN'] = 'På denne side, kan du angive den tekst, der i de grundlæggende regler af den ressource, der vises til brugerne.';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Vilkår er blevet opdateret med succes';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sKlik her for at vende tilbage til vilkårredigeringsværktøjet%s';
 
 $lang['TR_STATS'] = [
     0 => 'inaktive brugere i 30 dage',
     1 => 'inaktive brugere for 90 dage',
-    2 => 'medium size distributions on the tracker',
+    2 => 'medium størrelse distributioner på tracker',
     3 => 'hvor mange samlede hænder på tracker',
     4 => 'hvor mange levende hænder (der er mindst 1 led)',
     5 => 'hvor mange hænder, hvor der såning mere end 5 frø',
@@ -3108,11 +3108,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = 'Hver række svarer til et svar (max';
 $lang['OLD_BROWSER'] = 'Du bruger en forældet browser. Hjemmesiden vil ikke blive vist korrekt.';
 $lang['GO_BACK'] = 'Gå tilbage';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filupload er deaktiveret';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fil upload fejl';
 $lang['UPLOAD_ERROR_SIZE'] = 'Den uploadede fil overstiger den maksimale størrelse af %s';
 $lang['UPLOAD_ERROR_FORMAT'] = 'Invalid fil type billede';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Billeddimensioner overstiger den maksimalt tilladte %sx%s pixels';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'Den uploadede fil er ikke et billede';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'Udvidelse %s for downloads er ikke tilladt';
 $lang['UPLOAD_ERRORS'] = [
@@ -3128,18 +3128,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Kontroller, at du ikke er en robot';
 $lang['CAPTCHA_WRONG'] = 'Du kunne ikke bekræfte at du ikke er en robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha er ikke fuldstændigt konfigureret</h2><p>Generer nøglerne ved hjælp af dashboardet fra din captcha-service, derefter skal du placere dem i filen library/config.php.</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-verificeringen sker i baggrunden';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = 'Svar til';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => 'Intet emne',
     'GROUP_ADDED' => 'Du er blevet tilføjet til brugergruppen',
     'GROUP_APPROVED' => 'Din anmodning om at deltage i brugergruppen er blevet imødekommet',
     'GROUP_REQUEST' => 'En anmodning om at blive medlem af din brugergruppe',
     'PRIVMSG_NOTIFY' => 'Ny privat besked',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => 'Notifikation om svar i tråden - %s',
     'USER_ACTIVATE' => 'Kontogenaktivering',
     'USER_ACTIVATE_PASSWD' => 'Bekræftelse af en ny adgangskode',
     'USER_WELCOME' => 'Velkommen til siden %s',
@@ -3147,17 +3147,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = 'Nulstil ratio';
+$lang['BT_NULL_RATIO_NONE'] = 'Du har ikke en ratio';
+$lang['BT_NULL_RATIO_ALERT'] = "Opmærksomhed!\n\nEr du sikker på, at du vil nulstille din ratio?";
+$lang['BT_NULL_RATIO_AGAIN'] = 'Du har allerede nulstillet din ratio!';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'Du har en god ratio. Nulstilling er kun mulig med en ratio mindre end %s';
+$lang['BT_NULL_RATIO_SUCCESS'] = 'Ratioen er blevet nulstillet med succes!';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
+$lang['RELEASER_STAT_SIZE'] = 'Total størrelse:';
 $lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SHOW'] = 'Vis stats';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = 'Skift til mørk tilstand';

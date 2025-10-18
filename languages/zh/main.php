@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = '帖子';
 $lang['POSTED'] = '已发布';
 $lang['USERNAME'] = '用户名';
 $lang['PASSWORD'] = '密码';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = '顯示密碼';
 $lang['EMAIL'] = '邮箱';
 $lang['PM'] = '私信';
 $lang['AUTHOR'] = '作者';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = '已激活';
 $lang['DISABLED'] = '未启用';
 $lang['ERROR'] = '错误';
 $lang['SELECT_ACTION'] = '选择操作';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = '清除';
+$lang['MOVE_TO_TOP'] = '移至頂部';
 $lang['UNKNOWN'] = '未知';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = '複製到剪貼簿';
+$lang['NO_ITEMS'] = '這裡似乎沒有數據…';
+$lang['PLEASE_TRY_AGAIN'] = '請稍後再試...';
 
 $lang['NEXT_PAGE'] = '继续';
 $lang['PREVIOUS_PAGE'] = '后退';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = '模板缓存已被清除';
 $lang['DATASTORE_CLEARED'] = '数据存储已被清除';
 $lang['BOARD_DISABLE'] = '对不起，本论坛被禁用。请试着以后再来。';
 $lang['BOARD_DISABLE_CRON'] = '论坛正在维护。请试着以后再来。';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = '該論壇已被管理員禁用，您可以隨時啟用它';
+$lang['ADMIN_DISABLE_CRON'] = '論壇被計劃任務鎖定，您可以隨時解除鎖定';
 $lang['ADMIN_DISABLE_TITLE'] = '论坛被禁用';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = '论坛正在维护';
 $lang['ADMIN_UNLOCK'] = '启用论坛';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = '管理员';
 $lang['ONLINE_MOD'] = '版主';
 $lang['ONLINE_GROUP_MEMBER'] = '组成员';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = '此操作不能在演示模式下執行！';
 
 $lang['CURRENT_TIME'] = '当前时间是︰ <span class="tz_time">%s</span>';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = '新回复[上锁的]';
 $lang['FORUM_LOCKED_MAIN'] = '论坛已锁定';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = '請輸入您的用戶名和密碼以登錄。';
 $lang['LOGIN'] = '登录';
 $lang['LOGOUT'] = '登出';
 $lang['CONFIRM_LOGOUT'] = '您确定要登出？';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = '你 <b>可以</b> 在本论坛参与投票';
 $lang['RULES_VOTE_CANNOT'] = '你 <b>不能</b> 在本论坛参与投票';
 $lang['RULES_MODERATE'] = '你 <b>可以</b> 管理这个论坛';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = '這個論壇中還沒有帖子<br />單擊 <b>新增主題</b> 圖示，您的帖子將是第一個。';
+$lang['NO_RELEASES_POST_ONE'] = '這個論壇中還沒有發佈<br />單擊 <b>新增發佈</b> 圖示，您的發佈將是第一個。';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = '查看主题';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = '隐藏文本';
 $lang['SPOILER_CLOSE'] = '转';
 $lang['PLAY_ON_CURPAGE'] = '开始播放当前页';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = '最後編輯由 <b>%s</b> 在 %s 上進行；共編輯了 %d 次。'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = '最後編輯由 <b>%s</b> 在 %s 上進行；共編輯了 %d 次。'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = '锁的主题';
 $lang['UNLOCK_TOPIC'] = '解开话题';
@@ -378,8 +378,8 @@ $lang['DELETE_POLL'] = '删除投票';
 $lang['MAX_SMILIES_PER_POST'] = '表情限制的%s表情，超过。';
 
 $lang['ATTACH_SIGNATURE'] = '附上签名(签名可以改变在个人资料)';
-$lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['NOTIFY'] = '在回复時通知我';
+$lang['ALLOW_ROBOTS_INDEXING'] = '允許機器人索引此主題';
 
 $lang['STORED'] = '您的信息已经进入了成功。';
 $lang['EDITED'] = '该消息已经被改变了';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = '发送一个新的私人消息';
 $lang['SEND_A_REPLY'] = '答复私人消息';
 $lang['EDIT_MESSAGE'] = '编辑私人消息';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = '已收到新私人消息！';
 
 $lang['FIND_USERNAME'] = '找到一个用户名';
 $lang['SELECT_USERNAME'] = '选择一个用户名';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = '生日';
 $lang['HAPPY_BIRTHDAY'] = '生日快乐！';
 $lang['WRONG_BIRTHDAY_FORMAT'] = '生日格式的输入不正确的。';
 $lang['AGE'] = '年龄';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = '抱歉，本網站不接受年齡超過 %d 歲的用戶';
+$lang['BIRTHDAY_TO_LOW'] = '抱歉，本網站不接受年齡低於 %d 歲的用戶';
 $lang['BIRTHDAY_TODAY'] = '用户与一个生日今天： ';
 $lang['BIRTHDAY_WEEK'] = '用户与一个生日内%d天：%s';
 $lang['NOBIRTHDAY_WEEK'] = '没有用户都有一个生日，在即将到来的%d天'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = '不用户，今天有一个生日';
 $lang['BIRTHDAY_ENABLE'] = '使生日';
 $lang['BIRTHDAY_MAX_AGE'] = '最大年龄';
 $lang['BIRTHDAY_MIN_AGE'] = '分年龄';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = '檢查即將到來的生日的天數';
 $lang['YEARS'] = '年';
 
 $lang['NO_THEMES'] = '没有主题数据库';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = '重设自动登录的关键';
 $lang['RESET_AUTOLOGIN_EXPL'] = '包括所有的地方，你已经访问了该论坛启用了自动登录';
 
 $lang['AVATAR'] = '头像';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = '在您的帖子下顯示一個小圖像。一次只能顯示一個圖像，寬度不得超過 %d 像素，高度不得超過 %d 像素，且文件大小不得超過 %s。';
 $lang['AVATAR_DELETE'] = '删除头像';
 $lang['AVATAR_DISABLE'] = '阿凡达控制的选项，用于违反<a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = '上传的头像';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = '回到档案';
 $lang['SELECT_CATEGORY'] = '选择类别';
 
 $lang['DELETE_IMAGE'] = '删除的图像';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = '設置 MonsterID 頭像';
 $lang['CURRENT_IMAGE'] = '目前的图像';
 
 $lang['NOTIFY_ON_PRIVMSG'] = '通知在新的私人消息';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = '你的档案已经更新。 但是，你已
 
 $lang['PASSWORD_MISMATCH'] = '密码输入并不匹配。';
 $lang['CURRENT_PASSWORD_MISMATCH'] = '目前的密码提供给不匹配，储存在该数据库。';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = '您的密碼必須不長於 %d 個字符且不短於 %d 個字符。';
 $lang['TOO_MANY_REGISTERS'] = '你已经做了太多注册的企图。 请稍后再试一次。';
 $lang['USERNAME_TAKEN'] = '对不起，但这个名已经采取。';
 $lang['USERNAME_INVALID'] = '对不起，但这名包含无效的角色';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = '对不起，但这个名已被禁止。';
 $lang['USERNAME_TOO_LONG'] = '你的名字太长。';
 $lang['USERNAME_TOO_SMALL'] = '你的名字是太小了。';
 $lang['EMAIL_TAKEN'] = '对不起，但是，电子邮件地址已经被注册用户。';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = '抱歉，但 <b>%s</b> 地址已被禁止。';
 $lang['EMAIL_INVALID'] = '对不起，但这个电子邮件地址无效。';
 $lang['EMAIL_TOO_LONG'] = '你的电子邮件太长。';
 $lang['SIGNATURE_TOO_LONG'] = '您的签名是太长。';
@@ -691,17 +691,17 @@ $lang['DESC'] = '降';
 $lang['ORDER'] = '了';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = '為此主題投票';
+$lang['THANKS_GRATITUDE'] = '我們感謝您的感謝';
+$lang['LAST_LIKES'] = '最後的投票';
+$lang['LIKE_OWN_POST'] = '您不能為自己的主題投票';
+$lang['NO_LIKES'] = '還沒有人投票';
+$lang['LIKE_ALREADY'] = '您已經為此主題投票';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = '邀請碼';
+$lang['INCORRECT_INVITE'] = '未找到邀請';
+$lang['INVITE_EXPIRED'] = '邀請已過期';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = '用户群体';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = '请求参加你的小组已经取得进展。';
 $lang['GROUP_APPROVED'] = '你的请求已获批准。';
 $lang['GROUP_ADDED'] = '你已被添加到这个用户组。';
 $lang['ALREADY_MEMBER_GROUP'] = '你已经是一个成员，这个小组';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s 已經是此小組的成員';
+$lang['USER_IS_MOD_GROUP'] = '%s 是此小組的版主';
 $lang['GROUP_TYPE_UPDATED'] = '成功地更新了小组的类型。';
 $lang['EFFECTIVE_DATE'] = '生效日期';
 
@@ -985,271 +985,271 @@ $lang['DATETIME']['NOV'] = 'Nov';
 $lang['DATETIME']['DEC'] = 'Dec';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = '國家';
+$lang['SET_OWN_COUNTRY'] = '手動設置自己的國家';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
-    'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
-    'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
-    'AI' => 'Anguilla',
-    'AL' => 'Albania',
-    'AM' => 'Armenia',
-    'AO' => 'Angola',
-    'AQ' => 'Antarctica',
-    'AR' => 'Argentina',
-    'AS' => 'American Samoa',
-    'AT' => 'Austria',
-    'AU' => 'Australia',
-    'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
-    'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
-    'BB' => 'Barbados',
-    'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
-    'BF' => 'Burkina Faso',
-    'BG' => 'Bulgaria',
-    'BH' => 'Bahrain',
-    'BI' => 'Burundi',
-    'BJ' => 'Benin',
-    'BL' => 'Saint Barthélemy',
-    'BM' => 'Bermuda',
-    'BN' => 'Brunei Darussalam',
-    'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
-    'BR' => 'Brazil',
-    'BS' => 'Bahamas',
-    'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
-    'BW' => 'Botswana',
-    'BY' => 'Belarus',
-    'BZ' => 'Belize',
-    'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
-    'CL' => 'Chile',
-    'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
-    'CO' => 'Colombia',
-    'CR' => 'Costa Rica',
-    'CU' => 'Cuba',
-    'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
-    'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
-    'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
-    'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
-    'DZ' => 'Algeria',
-    'EC' => 'Ecuador',
-    'EE' => 'Estonia',
-    'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
-    'ER' => 'Eritrea',
-    'ES' => 'Spain',
-    'ET' => 'Ethiopia',
-    'EU' => 'Europe',
-    'FI' => 'Finland',
-    'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
-    'GA' => 'Gabon',
-    'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
-    'GB-SCT' => 'Scotland',
-    'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
-    'GD' => 'Grenada',
-    'GE' => 'Georgia',
-    'GF' => 'French Guiana',
-    'GG' => 'Guernsey',
-    'GH' => 'Ghana',
-    'GI' => 'Gibraltar',
-    'GL' => 'Greenland',
-    'GM' => 'Gambia',
-    'GN' => 'Guinea',
-    'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
-    'GT' => 'Guatemala',
-    'GU' => 'Guam',
-    'GW' => 'Guinea-Bissau',
-    'GY' => 'Guyana',
-    'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
-    'HN' => 'Honduras',
-    'HR' => 'Croatia',
-    'HT' => 'Haiti',
-    'HU' => 'Hungary',
-    'ID' => 'Indonesia',
-    'IE' => 'Ireland',
-    'IL' => 'Israel',
-    'IM' => 'Isle of Man',
-    'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
-    'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
-    'IS' => 'Iceland',
-    'IT' => 'Italy',
-    'JE' => 'Jersey',
-    'JM' => 'Jamaica',
-    'JO' => 'Jordan',
-    'JP' => 'Japan',
-    'KE' => 'Kenya',
-    'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
-    'KI' => 'Kiribati',
-    'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
-    'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
-    'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
-    'LC' => 'Saint Lucia',
-    'LI' => 'Liechtenstein',
-    'LK' => 'Sri Lanka',
-    'LR' => 'Liberia',
-    'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
-    'LU' => 'Luxembourg',
-    'LV' => 'Latvia',
-    'LY' => 'Libya',
-    'MA' => 'Morocco',
-    'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
-    'ME' => 'Montenegro',
-    'MF' => 'Saint Martin',
-    'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
-    'ML' => 'Mali',
-    'MM' => 'Myanmar',
-    'MN' => 'Mongolia',
-    'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
-    'MQ' => 'Martinique',
-    'MR' => 'Mauritania',
-    'MS' => 'Montserrat',
-    'MT' => 'Malta',
-    'MU' => 'Mauritius',
-    'MV' => 'Maldives',
-    'MW' => 'Malawi',
-    'MX' => 'Mexico',
-    'MY' => 'Malaysia',
-    'MZ' => 'Mozambique',
-    'NA' => 'Namibia',
-    'NC' => 'New Caledonia',
-    'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
-    'NG' => 'Nigeria',
-    'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
-    'NP' => 'Nepal',
-    'NR' => 'Nauru',
-    'NU' => 'Niue',
-    'NZ' => 'New Zealand',
-    'OM' => 'Oman',
-    'PA' => 'Panama',
-    'PE' => 'Peru',
-    'PF' => 'French Polynesia',
-    'PG' => 'Papua New Guinea',
-    'PH' => 'Philippines',
-    'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
-    'PN' => 'Pitcairn',
-    'PR' => 'Puerto Rico',
-    'PS' => 'Palestine',
-    'PT' => 'Portugal',
-    'PW' => 'Palau',
-    'PY' => 'Paraguay',
-    'QA' => 'Qatar',
-    'RE' => 'Réunion',
-    'RO' => 'Romania',
-    'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
-    'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
-    'SC' => 'Seychelles',
-    'SD' => 'Sudan',
-    'SE' => 'Sweden',
-    'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
-    'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SK' => 'Slovakia',
-    'SL' => 'Sierra Leone',
-    'SM' => 'San Marino',
-    'SN' => 'Senegal',
-    'SO' => 'Somalia',
-    'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
-    'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
-    'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
-    'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
-    'TG' => 'Togo',
-    'TH' => 'Thailand',
-    'TJ' => 'Tajikistan',
-    'TK' => 'Tokelau',
-    'TL' => 'Timor-Leste',
-    'TM' => 'Turkmenistan',
-    'TN' => 'Tunisia',
-    'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
-    'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
-    'UA' => 'Ukraine',
-    'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
-    'UY' => 'Uruguay',
-    'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
-    'VN' => 'Vietnam',
-    'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
-    'WS' => 'Samoa',
-    'XK' => 'Kosovo',
-    'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
-    'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
-    'ZM' => 'Zambia',
-    'ZW' => 'Zimbabwe',
+    0 => '未選擇',
+    'AD' => '安道爾',
+    'AE' => '阿拉伯聯合酋長國',
+    'AF' => '阿富汗',
+    'AG' => '安提瓜和巴布達',
+    'AI' => '安圭拉',
+    'AL' => '阿爾巴尼亞',
+    'AM' => '亞美尼亞',
+    'AO' => '安哥拉',
+    'AQ' => '南極洲',
+    'AR' => '阿根廷',
+    'AS' => '美屬薩摩亞',
+    'AT' => '奧地利',
+    'AU' => '澳大利亞',
+    'AW' => '阿魯巴',
+    'AX' => '奧蘭群島',
+    'AZ' => '亞塞拜然',
+    'BA' => '波斯尼亞和黑塞哥維那',
+    'BB' => '巴巴多斯',
+    'BD' => '孟加拉國',
+    'BE' => '比利時',
+    'BF' => '布基納法索',
+    'BG' => '保加利亞',
+    'BH' => '巴林',
+    'BI' => '布倫迪',
+    'BJ' => '貝尼恩',
+    'BL' => '聖巴爾納比',
+    'BM' => '百慕達',
+    'BN' => '文萊達魯薩蘭',
+    'BO' => '玻利維亞，普魯里納國家',
+    'BQ' => '加勒比海荷蘭',
+    'BR' => '巴西',
+    'BS' => '巴哈馬',
+    'BT' => '不丹',
+    'BV' => '布維特島',
+    'BW' => '博茨瓦納',
+    'BY' => '白俄羅斯',
+    'BZ' => '貝里斯',
+    'CA' => '加拿大',
+    'CC' => '科科斯（基靈）群島',
+    'CD' => '剛果，民主共和國',
+    'CF' => '中非共和國',
+    'CG' => '剛果共和國',
+    'CH' => '瑞士',
+    'CI' => '象牙海岸共和國',
+    'CK' => '庫克群島',
+    'CL' => '智利',
+    'CM' => '喀麥隆',
+    'CN' => '中國（中華人民共和國）',
+    'CO' => '哥倫比亞',
+    'CR' => '哥斯達黎加',
+    'CU' => '古巴',
+    'CV' => '卡波綠德',
+    'CW' => '庫拉索國',
+    'CX' => '聖誕島',
+    'CY' => '塞浦路斯',
+    'CZ' => '捷克共和國',
+    'DE' => '德國',
+    'DJ' => '吉布提',
+    'DK' => '丹麥',
+    'DM' => '多米尼加',
+    'DO' => '多米尼加共和國',
+    'DZ' => '阿爾及利亞',
+    'EC' => '厄瓜多爾',
+    'EE' => '愛沙尼亞',
+    'EG' => '埃及',
+    'EH' => '西撒哈拉',
+    'ER' => '厄立特里亞',
+    'ES' => '西班牙',
+    'ET' => '埃塞俄比亞',
+    'EU' => '歐洲',
+    'FI' => '芬蘭',
+    'FJ' => '斐濟',
+    'FK' => '福克蘭群島（馬爾維納斯）',
+    'FM' => '密克羅尼西亞，聯邦國家',
+    'FO' => '法羅群島',
+    'FR' => '法國',
+    'GA' => '加蓬',
+    'GB-ENG' => '英格蘭',
+    'GB-NIR' => '北愛爾蘭',
+    'GB-SCT' => '蘇格蘭',
+    'GB-WLS' => '威爾士',
+    'GB' => '英國',
+    'GD' => '格林納達',
+    'GE' => '格魯吉亞',
+    'GF' => '法屬圭亞那',
+    'GG' => '根瑟',
+    'GH' => '加納',
+    'GI' => '直布羅陀',
+    'GL' => '格陵蘭',
+    'GM' => '甘比亞',
+    'GN' => '幾內亞',
+    'GP' => '瓜德羅普',
+    'GQ' => '赤道幾內亞',
+    'GR' => '希臘',
+    'GS' => '南喬治亞島和南桑威奇群島',
+    'GT' => '危地馬拉',
+    'GU' => '關島',
+    'GW' => '幾內亞比索',
+    'GY' => '圭亞那',
+    'HK' => '香港',
+    'HM' => '赫德島和麥當勞群島',
+    'HN' => '洪都拉斯',
+    'HR' => '克羅地亞',
+    'HT' => '海地',
+    'HU' => '匈牙利',
+    'ID' => '印尼',
+    'IE' => '愛爾蘭',
+    'IL' => '以色列',
+    'IM' => '馬恩島',
+    'IN' => '印度',
+    'IO' => '英屬印度洋領地',
+    'IQ' => '伊拉克',
+    'IR' => '伊朗，伊斯蘭共和國',
+    'IS' => '冰島',
+    'IT' => '義大利',
+    'JE' => '澤西島',
+    'JM' => '牙買加',
+    'JO' => '約旦',
+    'JP' => '日本',
+    'KE' => '肯尼亞',
+    'KG' => '吉爾吉斯斯坦',
+    'KH' => '柬埔寨',
+    'KI' => '基里巴斯',
+    'KM' => '科摩羅',
+    'KN' => '聖基茨和尼維斯',
+    'KP' => '朝鮮人民民主共和國',
+    'KR' => '韓國，韓國',
+    'KW' => '科威特',
+    'KY' => '開曼群島',
+    'KZ' => '哈薩克斯坦',
+    'LA' => '寮國（寮人民民主共和國）',
+    'LB' => '黎巴嫩',
+    'LC' => '聖盧西亞',
+    'LI' => '列支敦士登',
+    'LK' => '斯里蘭卡',
+    'LR' => '利比里亞',
+    'LS' => '萊索托',
+    'LT' => '立陶宛',
+    'LU' => '盧森堡',
+    'LV' => '拉脫維亞',
+    'LY' => '利比亞',
+    'MA' => '摩洛哥',
+    'MC' => '摩納哥',
+    'MD' => '摩爾多瓦，民主共和國',
+    'ME' => '黑山',
+    'MF' => '聖馬丁',
+    'MG' => '馬達加斯加',
+    'MH' => '馬紹爾群島',
+    'MK' => '北馬其頓',
+    'ML' => '馬利',
+    'MM' => '緬甸',
+    'MN' => '蒙古',
+    'MO' => '澳門',
+    'MP' => '北馬利亞納群島',
+    'MQ' => '馬丁尼克',
+    'MR' => '毛里塔尼亞',
+    'MS' => '蒙特塞拉特',
+    'MT' => '馬爾他',
+    'MU' => '毛里求斯',
+    'MV' => '馬爾代夫',
+    'MW' => '馬拉維',
+    'MX' => '墨西哥',
+    'MY' => '馬來西亞',
+    'MZ' => '莫三比克',
+    'NA' => '納米比亞',
+    'NC' => '新喀里多尼亞',
+    'NE' => '尼日',
+    'NF' => '諾福克島',
+    'NG' => '尼日利亞',
+    'NI' => '尼加拉瓜',
+    'NL' => '荷蘭',
+    'NO' => '挪威',
+    'NP' => '尼泊爾',
+    'NR' => '瑙魯',
+    'NU' => '紐維',
+    'NZ' => '新西蘭',
+    'OM' => '阿曼',
+    'PA' => '巴拿馬',
+    'PE' => '秘魯',
+    'PF' => '法屬波利尼西亞',
+    'PG' => '巴布亞新幾內亞',
+    'PH' => '菲律賓',
+    'PK' => '巴基斯坦',
+    'PL' => '波蘭',
+    'PM' => '聖皮埃爾和密克隆',
+    'PN' => '皮特肯',
+    'PR' => '波多黎各',
+    'PS' => '巴勒斯坦',
+    'PT' => '葡萄牙',
+    'PW' => '帛琉',
+    'PY' => '巴拉圭',
+    'QA' => '卡達',
+    'RE' => '留尼旺',
+    'RO' => '羅馬尼亞',
+    'RS' => '塞爾維亞',
+    'RU' => '俄羅斯聯邦',
+    'RW' => '盧旺達',
+    'SA' => '沙烏地阿拉伯',
+    'SB' => '所羅門群島',
+    'SC' => '塞席爾',
+    'SD' => '蘇丹',
+    'SE' => '瑞典',
+    'SG' => '新加坡',
+    'SH' => '聖赫勒拿、亞申森與特里斯坦達庫尼亞',
+    'SI' => '斯洛維尼亞',
+    'SJ' => '斯瓦巴與揚馬延群島',
+    'SK' => '斯洛伐克',
+    'SL' => '獅子山',
+    'SM' => '聖馬利諾',
+    'SN' => '塞內加爾',
+    'SO' => '索馬利亞',
+    'SR' => '蘇里南',
+    'SS' => '南蘇丹',
+    'SU' => '蘇聯',
+    'ST' => '聖多美和普林西比',
+    'SV' => '薩爾瓦多',
+    'SX' => '荷屬聖馬丁',
+    'SY' => '敘利亞阿拉伯共和國',
+    'SZ' => '史瓦帝尼',
+    'TC' => '土克凱群島',
+    'TD' => '乍得',
+    'TF' => '法屬南方領地',
+    'TG' => '多哥',
+    'TH' => '泰國',
+    'TJ' => '塔吉克斯坦',
+    'TK' => '托克勞',
+    'TL' => '東帝汶',
+    'TM' => '土庫曼斯坦',
+    'TN' => '突尼斯',
+    'TO' => '湯加',
+    'TR' => '土耳其',
+    'TT' => '千里達及托巴哥',
+    'TV' => '圖瓦盧',
+    'TW' => '臺灣（中華民國）',
+    'TZ' => '坦尚尼亞聯合共和國',
+    'UA' => '烏克蘭',
+    'UG' => '烏干達',
+    'UM' => '美屬小島',
+    'US' => '美國',
+    'UY' => '烏拉圭',
+    'UZ' => '烏茲別克斯坦',
+    'VA' => '梵蒂冈（梵蒂冈城國）',
+    'VC' => '聖文森及格瑞那丁',
+    'VE' => '委內瑞拉玻利瓦爾共和國',
+    'VG' => '英屬維爾京群島',
+    'VI' => '美屬維尔京群島',
+    'VN' => '越南',
+    'VU' => '瓦努阿圖',
+    'WF' => '瓦利斯和富圖納群島',
+    'WS' => '薩摩亞',
+    'XK' => '科索沃',
+    'YE' => '也門',
+    'YU' => '南斯拉夫',
+    'YT' => '馬約特',
+    'ZA' => '南非',
+    'ZM' => '贊比亞',
+    'ZW' => '津巴布韋',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
-    'LGBT' => 'Pride flag'
+    'WBW' => '美好俄羅斯的未來',
+    'PACE' => '和平旗',
+    'LGBT' => '驕傲旗'
 ];
 
 // Errors
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = '描述'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = '下载'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = '看';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '擴展 \'%s\' 已被板管理員禁用，因此此附件不顯示。'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
-$lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
-$lang['BITRATE'] = 'Bitrate: <b>%s</b>';
-$lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
-$lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
-$lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['STREAM'] = '串流';
+$lang['RESOLUTION'] = '解析度：<b>%s</b>';
+$lang['CHANNELS'] = '頻道：<b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = '頻道佈局：<b>%s</b>';
+$lang['BITRATE'] = '比特率：<b>%s</b>';
+$lang['SAMPLE_RATE'] = '取樣率：<b>%s</b>';
+$lang['AUDIO_TRACK'] = '音訊軌道資訊 (%d):';
+$lang['AUDIO_CODEC'] = '音訊編解碼器：<b title="%s">%s</b>';
+$lang['VIDEO_CODEC'] = '影片編解碼器：<b title="%s">%s</b>';
+$lang['SHOW_MORE_INFORMATION_FILE'] = '顯示更多有關檔案的資訊';
+$lang['DOWNLOAD_M3U_FILE'] = '下載 .m3u 檔案';
+$lang['PLAYBACK_M3U'] = '播放 .m3u 檔案';
+$lang['COPY_STREAM_LINK'] = '將串流連結複製到剪貼簿';
+$lang['M3U_NOT_SUPPORTED'] = '此檔案無法在瀏覽器中播放...';
+$lang['M3U_FFPROBE_NO_DATA'] = '似乎 ffprobe 無法返回有關此編解碼器的數據...';
+$lang['M3U_NOTICE'] = '某些瀏覽器不支持播放某些視頻格式。在這種情況下，您可以下載 .m3u 檔案，並使用第三方播放器播放它';
 
 $lang['ATTACHMENT'] = '附件';
 $lang['ATTACHMENT_THUMBNAIL'] = '附缩略';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = '加入';
 $lang['BT_REG_ON_TRACKER'] = '登记册上的跟踪器';
 $lang['BT_REG_FAIL'] = '不能登记的洪流上的跟踪器';
 $lang['BT_REG_FAIL_SAME_HASH'] = '另一个种子与同info_hash已经<a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
-$lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_V1_ONLY_DISALLOWED'] = '目前，管理員已禁用僅 v1 的種子，允許使用 v2 和混合版本';
+$lang['BT_V2_ONLY_DISALLOWED'] = '目前，管理員已禁用僅 v2 的種子，允許使用 v1 和混合版本';
+$lang['BT_FLIST'] = '檔案列表';
+$lang['BT_FLIST_LIMIT'] = '追蹤器設置不允許處理超過 %d 個檔案的列表。當前數量為：%d';
+$lang['BT_FLIST_BTMR_HASH'] = 'BTMR 哈希';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root 是嵌入在支持 BitTorrent v2 的種子中的文件哈希，追蹤器用戶可以提取、計算它們，還可以使用桌面工具下載去重的種子，如<a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
+$lang['BT_FLIST_CREATION_DATE'] = '創建日期';
+$lang['BT_IS_PRIVATE'] = '私有種子';
+$lang['BT_FLIST_FILE_PATH'] = '路徑 (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = '檔案哈希 | .torrent 元資料';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = '公告者列表';
+$lang['BT_FLIST_ANNOUNCERS'] = '公告者';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = '此列表包含種子檔案的公告者';
 $lang['BT_UNREG_FROM_TRACKER'] = '删除从跟踪器';
 $lang['BT_UNREGISTERED'] = '未注册的洪流';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = '種子已註銷';
 $lang['BT_REGISTERED'] = 'Torrent注册tracker<br /><br />Now你需要<a href="%s"><b>download你torrent</b></a>和运用你的BitTorrent客户选择的文件夹，与原始文件在分享作为下载通路';
 $lang['INVALID_ANN_URL'] = '无效的宣布URL[%s]<br /><br />must以<b>%s</b>';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = '不可能添加passkey<br /><br />Torrent未注册上的跟踪器';
 $lang['BT_PASSKEY'] = '密码';
 $lang['BT_GEN_PASSKEY'] = '创建一个新的';
 $lang['BT_PASSKEY_VIEW'] = '显示';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "注意！更改您的密鑰後，您將需要重新下載所有活動的種子！\n您確定要創建一個新的密鑰嗎？";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = '没有搜查的论坛，发现';
 
 $lang['SEEDS'] = '种子';
@@ -1403,35 +1403,35 @@ $lang['RELEASING'] = '自我';
 $lang['SEEDING'] = '种子';
 $lang['LEECHING'] = '水蛭';
 $lang['IS_REGISTERED'] = '注册';
-$lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET'] = '磁鏈';
+$lang['MAGNET_FOR_GUESTS'] = '為來賓顯示磁鏈';
+$lang['MAGNET_v2'] = '磁鏈（支持BitTorrent v2）';
 
 //torrent status mod
 $lang['TOR_STATUS'] = '状态';
 $lang['TOR_STATUS_SELECT_ACTION'] = '选择状况';
 $lang['TOR_STATUS_NOT_SELECT'] = '你没有选择地位。';
 $lang['TOR_STATUS_SELECT_ALL'] = '所有的状态';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = '主題的狀態為：';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => '不检查',
     TOR_CLOSED => '关闭',
     TOR_APPROVED => '检查',
     TOR_NEED_EDIT => '没有正式的直到',
     TOR_NO_DESC => '不是正式的',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => '重複',
+    TOR_CLOSED_CPHOLD => '關閉（版權）',
     TOR_CONSUMED => '吸收',
     TOR_DOUBTFUL => '值得怀疑的',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => '正在檢查中',
     TOR_TMP => '临时',
     TOR_PREMOD => '预先审核',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => '補充中',
 ];
 $lang['TOR_STATUS_FAILED'] = '这种状况不存在！';
 $lang['TORRENT_FAILED'] = '分布没有被发现的！';
 $lang['TOR_STATUS_DUB'] = '分配具有相同的状态';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = '無法更改狀態！';
 $lang['TOR_STATUS_OF'] = '分布的状态：';
 $lang['TOR_STATUS_CHANGED'] = '状况改变： ';
 $lang['TOR_BACK'] = ' 回';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = '缺少的文件标识的！';
 $lang['CHANGE_TOR_TYPE'] = '类型的种子成功地改变了';
 $lang['DEL_TORRENT'] = '你确定要删除的洪流？';
 $lang['DEL_MOVE_TORRENT'] = '你确定要删除和移动电话题？';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = '您有一個未完成的發佈。在創建新的之前，請完成它！';
+$lang['TOR_STATUS_LOG_ACTION'] = '新狀態：%s.<br/>先前狀態：%s。';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = '改变现状的分配%s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "你好，%s。\n\n[url=%s]您的[/url]發佈狀態已更改為 [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = '改变设计--%s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "你好，%s。\n\n您的發佈已更改 - [url=%s]%s[/url]\n\n請重新檢查。";
 $lang['TOR_AUTH_FIXED'] = '固定';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The信息发送给主持人。 期望。</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = '种子的最后一次见到';
 $lang['BT_SORT_FORUM'] = '论坛';
 $lang['SIZE'] = '尺寸';
 $lang['PIECE_LENGTH'] = '片长度';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = '已完成的下載';
 $lang['ADDED'] = '加入';
 $lang['DELETE_TORRENT'] = '删除洪流';
 $lang['DELETE_MOVE_TORRENT'] = '删除和移动话题';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = '让银';
 $lang['UNSET_SILVER_TORRENT'] = '废除银';
 $lang['GOLD_STATUS'] = '金TORRENT! 下载业务，不会考虑的！';
 $lang['SILVER_STATUS'] = '银TORRENT! 下载业务部分审议了！';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = '種子類型已更改為：%s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = '按發行狀態搜索';
 $lang['SEARCH_IN_FORUMS'] = '搜索在论坛';
 $lang['SELECT_CAT'] = '选择类别';
 $lang['GO_TO_SECTION'] = 'Goto部分';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Torrent已经注册';
 $lang['NOT_TORRENT'] = '这个文件不是洪流';
 $lang['ONLY_1_TOR_PER_POST'] = '你可以注册只有一个种子中的一个职位';
 $lang['ONLY_1_TOR_PER_TOPIC'] = '你可以注册只有一个种子中的一个主题';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = '種子檔案';
 $lang['CUR_ACTIVE_DLS'] = '活动的种子';
 
 $lang['TD_TRAF'] = '今天';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = '选择';
 $lang['SEED_BONUS'] = '种奖金';
 $lang['EXCHANGE'] = '交换';
 $lang['EXCHANGE_BONUS'] = '交换种子的奖金';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s 到發佈</b> <br /> 用於交換獎勵點數以獲取 %1$s 流量，該流量將添加到您的發佈總數中。';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = '价格';
 $lang['EXCHANGE_NOT'] = '交流的不可用的';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You没有奖金。 更多的种
 $lang['BONUS_RETURN'] = '回到种奖励交换';
 
 $lang['TRACKER'] = '跟踪器';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = '隨機發行';
 $lang['OPEN_TOPICS'] = '打开话题';
 $lang['OPEN_IN_SAME_WINDOW'] = '在同一窗口打开';
 $lang['SHOW_TIME_TOPICS'] = '时间显示的创作主题';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = '设计师';
 $lang['LAST_IP'] = '最后IP：';
 $lang['REG_IP'] = '登记IP：';
 $lang['OTHER_IP'] = '其他的IP：';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = '用戶 %s 已經在您的 IP 地址上註冊。如果您之前未在我們的追蹤器上註冊，請郵件給 <a href="mailto:%s">管理員</a>';
 $lang['HIDDEN'] = '隐藏';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = '从来没有';
 //mpd
 $lang['DELETE_POSTS'] = '删除选定的职位';
 $lang['DELETE_POSTS_SUCCESFULLY'] = '选定的员额已经成功地除去';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = '未移除任何帖子。';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = '公告';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = '更新后的时间';
 $lang['TOPIC_SPLIT_NEW'] = '新的话题';
 $lang['TOPIC_SPLIT_OLD'] = '老话题';
 $lang['BOT_LEAVE_MSG_MOVED'] = '增加机器人-消息，关于移动';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = '移動原因';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = '增加机器人-消息有关的分裂<b>old topic</b>';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = '增加机器人-消息有关的分裂<b>new topic</b>';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['回复', '答复'];
 $lang['DECLENSION']['TIMES'] = ['时间', '时间'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['檔案', '檔案'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['第二', '几秒钟'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = '评论';
 
 // search
 $lang['SEARCH_S'] = '搜索...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = '在論壇上';
+$lang['TRACKER_S'] = '在追蹤器上';
 $lang['HASH_S'] = '通过info_hash';
 
 // copyright
 $lang['NOTICE'] = '!注意！';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = '該網站不提供產品的電子版本，僅從事收集和編目我們的讀者在論壇上發送和發表的參考資料。如果您是任何提交材料的合法擁有者且不希望其參考出現在我們的目錄中，請與我們聯繫，我們將立即刪除它。追蹤器上的文件由本網站的用戶提供，管理部門不對其內容承擔責任。請勿上傳受版權保護的文件或含有非法內容的文件！';
 
 // FILELIST
 $lang['COLLAPSE'] = '崩溃的目录';
 $lang['EXPAND'] = '扩大';
 $lang['SWITCH'] = '开关';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = '增加/減少視窗';
 $lang['EMPTY_ATTACH_ID'] = '缺少的文件标识的！';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = '服務器上缺少文件！';
 $lang['ERROR_BUILD'] = '内容的这种子文件的不可观察的网站上(这是不可能建立一个列表的文件)';
 $lang['TORFILE_INVALID'] = 'Torrent文件损坏';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"现场"可以只包含http://sitename';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = '"ICQ"欄位只能包含 ICQ 號碼';
+$lang['INVALID_DATE'] = '無效的日期';
 $lang['PROFILE_USER'] = '观看档案';
 $lang['GOOD_UPDATE'] = '成功改变了';
 $lang['UCP_DOWNLOADS'] = '下载';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = '你确定要删除这一用户？';
 $lang['USER_DELETED'] = '用户已成功删除';
 $lang['DELETE_USER_ALL_POSTS'] = '删除所有用户员额';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = '你确定要删除所有信息和所有主题开始通过这样的用户？';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = '刪除所有消息，除了第一個帖子';
 $lang['DELETE_USER_POSTS_ME'] = '你确定要删除所有我的帖子吗?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = '您確定要刪除所有消息，除了第一個帖子嗎？';
 $lang['USER_DELETED_POSTS'] = '员额成功地除去';
 
 $lang['USER'] = '用户';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = '你没有权限查看隐藏的群体';
 
 $lang['USER_ACTIVATE'] = '激活';
 $lang['USER_DEACTIVATE'] = '关闭';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = '您確定要停用此用戶嗎？';
 $lang['USER_ACTIVATE_ON'] = '用户已成功地激活';
 $lang['USER_DEACTIVATE_ME'] = '你不能禁我的帐户！';
 $lang['ACTIVATE_CONFIRM'] = '你确定你想要禁止这个用户？';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = '你必须指定的电子邮件';
 $lang['CHOOSE_PASS'] = '领域的密码不是空的！';
 $lang['CHOOSE_PASS_ERR'] = '输入密码不匹配';
 $lang['CHOOSE_PASS_ERR_MIN'] = '你的密码必须至少%d字';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = '您的密碼必須不超過 %d 個字符';
+$lang['CHOOSE_PASS_ERR_NUM'] = '密碼必須包含至少一個數字';
+$lang['CHOOSE_PASS_ERR_LETTER'] = '密碼必須包含至少一個拉丁字母';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = '密碼必須包含至少一個大寫的拉丁字母';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = '密碼必須包含至少一個特殊字符';
 $lang['CHOOSE_PASS_OK'] = '密码比赛';
 $lang['CHOOSE_PASS_REG_OK'] = '密码相匹配，你可以继续进行注册';
 $lang['CHOOSE_PASS_FAILED'] = '要改变密码，你必须正确地指定的电流密码';
 $lang['EMAILER_DISABLED'] = '对不起，这个功能是暂时没有工作';
 $lang['TERMS_ON'] = '我同意这些条款和条件';
 $lang['TERMS_OFF'] = '我不同意这些条款';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = '註冊需要啟用 JavaScript';
+$lang['REGISTERED_IN_TIME'] = "註冊目前已關閉<br /><br />註冊在以下時間可用： %s<br />當前服務器時間： %s<br /><br />對此造成的不便感到抱歉";
+$lang['AUTOCOMPLETE'] = '生成密碼';
 $lang['YOUR_NEW_PASSWORD'] = '你是新的密码：';
 $lang['REGENERATE'] = '再生';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = '关闭';
 $lang['MEMORY'] = 'Mem: ';
 $lang['QUERIES'] = '查询';
 $lang['LIMIT'] = '限制：';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = '顯示日誌';
+$lang['EXPLAINED_LOG'] = '解釋日誌';
+$lang['CUT_LOG'] = '剪切長查詢';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = '免费下载，并在最大速度！';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = '粗体文字：[b]text[/b](Ctrl+B)';
 $lang['ITALIC'] = '斜体文字：[i]text[/i](Ctrl+I)';
 $lang['UNDERLINE'] = '下划线的案文：[u]text[/u](Ctrl+U)';
 $lang['STRIKEOUT'] = '删除线文本：[s]text[/s](Ctrl+S)';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
-$lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['BOX_TAG'] = '文本周圍的框： [box]text[/box] 或 [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = '插入縮進：[indent]text[/indent]';
+$lang['PRE_TAG'] = '預格式化文本：[pre]text[/pre]';
+$lang['NFO_TAG'] = 'NFO：[nfo]text[/nfo]';
+$lang['SUPERSCRIPT'] = '上標文本：[sup]text[/sup]';
+$lang['SUBSCRIPT'] = '下標文本：[sub]text[/sub]';
 $lang['QUOTE_TITLE'] = '引文：[quote]text[/quote](Ctrl+Q)';
 $lang['IMG_TITLE'] = '插入圖片： [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'Url';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = '代码显示：[code]code[/code](Ctrl+K)';
 $lang['LIST'] = '列表';
 $lang['LIST_TITLE'] = '列表：[list]text[/list](Ctrl+l)';
 $lang['LIST_ITEM'] = '下令名单：[清单=]text[/list](Ctrl+O)';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = '首字母縮略詞';
+$lang['ACRONYM_TITLE'] = '首字母縮略詞：[acronym=完整文本]短文本[/acronym]';
 $lang['QUOTE_SEL'] = '报价的选择';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = '必須啟用 JavaScript 以發送消息';
 
 $lang['NEW'] = '新的';
 $lang['NEWEST'] = '最新的';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL速度';
 $lang['DL_DL_SPEED'] = 'DL速度';
 $lang['DL_PORT'] = '口';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'BitTorrent 客戶端';
 $lang['DL_FORMULA'] = '公式：传/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = '停止';
 $lang['DL_UPD'] = 'upd： ';
 $lang['DL_INFO'] = '显示了数据<i><b>only当前session</b></i>';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = '在對等列表中隱藏我的 BitTorrent 客戶端名稱';
+$lang['HIDE_PEER_COUNTRY_NAME'] = '在對等列表中隱藏我的國家名稱';
+$lang['HIDE_PEER_USERNAME'] = '在對等列表中隱藏我的用戶名';
 
 // Post PIN
 $lang['POST_PIN'] = '销后第一次';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = '删除了从清单中点击图标名字左边的任何
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = '看着主题';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = '沒有關注任何主題';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = '回到主页';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = '去档案';
 
 $lang['WARNING'] = '警告';
 $lang['INDEXER'] = '重新编制索引搜索';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = '搜索索引已成功更新';
 
 $lang['FORUM_STYLE'] = '论坛的风格';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = '释放模板';
 $lang['ACTIONS_LOG'] = '行动的报告';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = '數據庫遷移狀態';
+$lang['MIGRATIONS_DATABASE_NAME'] = '數據庫名稱';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = '總表';
+$lang['MIGRATIONS_DATABASE_SIZE'] = '數據庫大小';
+$lang['MIGRATIONS_DATABASE_INFO'] = '數據庫資訊';
+$lang['MIGRATIONS_SYSTEM'] = '遷移系統';
+$lang['MIGRATIONS_NEEDS_SETUP'] = '需要設置';
 $lang['MIGRATIONS_ACTIVE'] = '活性';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
-$lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = '未初始化';
+$lang['MIGRATIONS_UP_TO_DATE'] = '所有已更新';
+$lang['MIGRATIONS_PENDING_COUNT'] = '待處理';
+$lang['MIGRATIONS_APPLIED'] = '已應用的遷移';
+$lang['MIGRATIONS_PENDING'] = '待處理的遷移';
+$lang['MIGRATIONS_VERSION'] = '版本';
+$lang['MIGRATIONS_NAME'] = '遷移名稱';
+$lang['MIGRATIONS_FILE'] = '遷移檔案';
+$lang['MIGRATIONS_APPLIED_AT'] = '已應用於';
+$lang['MIGRATIONS_COMPLETED_AT'] = '完成於';
+$lang['MIGRATIONS_CURRENT_VERSION'] = '當前版本';
+$lang['MIGRATIONS_NOT_APPLIED'] = '未應用的遷移';
+$lang['MIGRATIONS_INSTRUCTIONS'] = '指令';
+$lang['MIGRATIONS_SETUP_STATUS'] = '設置狀態';
+$lang['MIGRATIONS_SETUP_GUIDE'] = '請參閱以下設置指南';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = '需要操作';
 
 // Index
 $lang['MAIN_INDEX'] = '论坛指数';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'Gzip compression';
 $lang['NOT_AVAILABLE'] = '不提供';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
-$lang['ADMIN_SYSTEM_OS'] = 'OS:';
-$lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
-$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_INFORMATION'] = '系統資訊';
+$lang['ADMIN_SYSTEM_OS'] = '作業系統：';
+$lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP：';
+$lang['ADMIN_SYSTEM_DATABASE_VER'] = '數據庫：';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = '內存限制：';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = '磁碟空間資訊：';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s（已用：%s | 剩餘：%s）';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = '最大執行時間：';
 
 // Clear Cache
 $lang['DATASTORE'] = '数据存储';
-$lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_CACHE'] = '緩存';
+$lang['CLEAR_TEMPLATES_CACHE'] = '模板緩存';
 
 // Update
 $lang['USER_LEVELS'] = '用户一级';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = '用户员额数已经同步';
 $lang['SHOW_ONLINE_USERLIST'] = '表演列表中的在线用户';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = '管理 robots.txt';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'robots.txt 檔案已成功更新';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%s點擊此處返回到 robots.txt 管理器%s';
 
 // Auth pages
 $lang['USER_SELECT'] = '选择一个用户';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = '用户的权限已经更新，';
 $lang['GROUP_AUTH_UPDATED'] = '集团的权限已经更新，';
 
 $lang['AUTH_UPDATED'] = '权限已更新';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = '無法更新管理員狀態';
+$lang['AUTH_SELF_ERROR'] = '無法將自己從管理員更改為用戶';
+$lang['NO_FORUMS_AVAILABLE'] = '沒有可用的論壇。請先創建論壇以管理權限。';
 $lang['CLICK_RETURN_USERAUTH'] = '点击%sHere%s回到用户的权限';
 $lang['CLICK_RETURN_GROUPAUTH'] = '点击%sHere%s回到小组的权限';
 $lang['CLICK_RETURN_FORUMAUTH'] = '点击%sHere%s回到论坛的权限';
 
 // Banning
 $lang['BAN_CONTROL'] = '禁止控制';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = '在這裡您可以控制用戶的禁令。';
 $lang['BAN_USERNAME'] = '禁止一个或多个特定用户';
 $lang['BAN_USERNAME_EXPLAIN'] = '你可以禁止多个用户在一个去使用的适当组合键鼠你的电脑和浏览器';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = '解除對一個或多個特定用戶的禁止';
 $lang['UNBAN_USERNAME_EXPLAIN'] = '你可以取消禁止多个用户在一个去使用的适当组合键鼠你的电脑和浏览器';
 $lang['NO_BANNED_USERS'] = '不禁止的用户名';
 $lang['BAN_UPDATE_SUCESSFUL'] = '该banlist已经成功更新';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = '论坛的管理';
 $lang['FORUM_ADMIN_EXPLAIN'] = '从这个小组可以添加、删除、修改、重新秩序并重新同步的类别和论坛';
 $lang['EDIT_FORUM'] = '编辑论坛';
 $lang['CREATE_FORUM'] = '创建新的论坛，';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = '創建子論壇';
 $lang['CREATE_CATEGORY'] = '创建新类别';
 $lang['REMOVE'] = '删除';
 $lang['UPDATE_ORDER'] = '更新了';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = '将所有内容';
 $lang['FORUM_DELETE'] = '删除的论坛，';
 $lang['FORUM_DELETE_EXPLAIN'] = '下面的表格会让你删除的一个论坛(或类别)并且决定你要把所有主题(或论坛)。';
 $lang['CATEGORY_DELETE'] = '删除分类';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = '未指定分類名稱';
 
 $lang['STATUS_LOCKED'] = '锁定';
 $lang['STATUS_UNLOCKED'] = '解锁';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = '采用这种形式可以增加、编辑、查看和删
 $lang['ADD_NEW_RANK'] = '添加新的等级';
 $lang['RANK_TITLE'] = '排名的标题';
 $lang['STYLE_COLOR'] = '样式的排名';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = '指定一個類來為標題設置所需的顏色。例如： <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = '等级图像';
 $lang['RANK_IMAGE_EXPLAIN'] = '使用这个定义的一个小的图像相关的排名';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '点击%sHere%s回到禁止的用户名的
 
 // Version Check
 $lang['VERSION_INFORMATION'] = '版本的信息';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = '可用更新';
+$lang['CHANGELOG'] = '更新日誌';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = '允许登录尝试';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = '只有管理员';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s可以查看该论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s可以阅读的员额在这个论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s可以在这个论坛';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s 可以在此論壇回覆帖子';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s可以编辑员额在这个论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s可以删除的员额在这个论坛';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s可以发布粘在这个论坛的主题';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = '同步';
 // Mods
 $lang['MAX_NEWS_TITLE'] = '最大。 长度的新闻';
 $lang['NEWS_COUNT'] = '许多新闻节目';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = '從哪些論壇顯示 <br /> <h6>對於多個論壇，請用逗號隔開 ID。例： 1,2,3</h6>';
 $lang['NOAVATAR'] = '没有头';
 $lang['TRACKER_STATS'] = '统计数据的跟踪器';
 $lang['WHOIS_INFO'] = '信息有关的IP地址';
 $lang['SHOW_MOD_HOME_PAGE'] = '显示在主持人的index.php';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = '在index.php上顯示論壇開始日期';
 $lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span>预moderation</h4> <h6>If你没有分布状态的v,#,或在本部分，包括小节，分布将自动收到这status</h6>';
 $lang['TOR_COMMENT'] = '<h4>對分發狀態的評論</h4> <h6>評論允許您向發布者指出錯誤。如果狀態不完整，發布經理可以使用發布響應表來更正發布</h6>';
 $lang['SEED_BONUS_ADD'] = '<h4>Adding种奖金</h4> <h6>数的分配交给了由用户和大小的奖金(费时间一个小时)</h6>';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = '扩展组%s已经存在'; // replace %s with t
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = '管理特殊类别';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = '在這裡您可以配置特殊類別。您可以為指派給擴展組的特殊類別設置特殊參數和條件。';
 $lang['SETTINGS_CAT_IMAGES'] = '设置对于特殊类别：图像';
 $lang['SETTINGS_CAT_FLASH'] = '设置对于特殊类别：闪文件';
 $lang['DISPLAY_INLINED'] = '显示器的图像内联';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = '宣布url';
 $lang['BT_ANNOUNCE_URL_EXPL'] = '你可以定义的附加允许的网址在"includes/torrent_announce_urls.php"';
 $lang['BT_DISABLE_DHT'] = '禁止散网络';
 $lang['BT_DISABLE_DHT_EXPL'] = '禁止对等交流和双氢(建议对于私人网络，只有url宣布)';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = '這個追蹤器是私人的：文件列表（給來賓），DHT | PEX 被禁用';
+$lang['BT_PRIVATE_TORRENT'] = '這個種子的創建者將其設為私人';
 $lang['BT_CHECK_ANNOUNCE_URL'] = '验证宣布的url';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = '登记册上的跟踪器只允许的网址';
 $lang['BT_REPLACE_ANN_URL'] = '替代宣布的url';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = '允许布尔全文搜索';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '*,+,-有时，在搜索';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "杂项";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "在論壇主頁顯示用戶 UL/DL 統計數據";
 $lang['BT_NEWTOPIC_AUTO_REG'] = '自动注册的洪流上跟踪新的主题';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = '改变话题状态"下载"，同时注册的洪流上的跟踪器';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = '将改变话题类型的"下载"不论的论坛的设置';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = '模板的残疾';
 $lang['FOR_NEW_TEMPLATE'] = '对于新的模式！';
 $lang['CHANGED'] = '改变了';
 $lang['REMOVED'] = '除去';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = '確認您確定要執行此操作';
 
 $lang['CRON_LIST'] = 'Cron列表';
 $lang['CRON_ID'] = 'ID';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = '启用';
 $lang['RUN_MAIN_CRON'] = '开始cron';
 $lang['ADD_JOB'] = '添加cron的工作';
 $lang['DELETE_JOB'] = '你确定要删除的计划任务的工作？';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron 目前正在運行或已損壞 -> ';
 $lang['REPAIR_CRON'] = '修复计划';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = '编辑工作';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = '禁止板';
 $lang['BOARD_DISABLE_EXPL'] = '禁止板的时候这份工作是运行';
 $lang['RUN_COUNTER'] = '违反';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = '該任務已成功移除';
 $lang['SCRIPT_DUPLICATE'] = '脚本<b>' . @$_POST['cron_script'] . '</b>已经存在了。';
 $lang['TITLE_DUPLICATE'] = '任务名称<b>' . @$_POST['cron_title'] . '</b>已经存在了。';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%s返回添加任務%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack的任务Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = '重建搜索引';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = '多少时间(秒)留空闲之前移动到接下
 
 $lang['TIME_LIMIT'] = '时间限制';
 $lang['TIME_LIMIT_EXPLAIN'] = '多少时间(秒)员额的处理可以去之前移动到下一个周期';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>您的 PHP（安全模式）已配置超時為 %s 秒，因此請保持在此值以下</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your网络服务器已超时的%s秒配置，所以留下这value</i>';
 
 $lang['DISABLE_BOARD'] = '禁止板';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = '你已经进入了一些错误的价值观。 请输入�
 $lang['PROCESSING'] = '处理...';
 $lang['FINISHED'] = '完成';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = '主題已從論壇 [b]%s[/b] 移動到論壇 [b]%s[/b].[br][b]移動理由：[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = '主题已经分裂。 新的话题-[b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = '主题已被拆分从[b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = '呼叫種子';
 $lang['CALLSEED_EXPLAIN'] = '注意到要求回归的分布';
 $lang['CALLSEED_SUBJECT'] = '下载帮助%s';
 $lang['CALLSEED_TEXT'] = '你好！[br]Your帮助是必要的，释放[url=%s]%s[/url][br]if你决定帮助，但是已经被删除的种子文件，可以下载[url=%s]this[/url][br][br]i希望你的帮助！';
@@ -2855,22 +2855,22 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => '主题：<br /> <b>closed</b>',
     'mod_topic_unlock' => '主题：<br /> <b>opened</b>',
     'mod_topic_split' => '主题：<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => '主題：<br /> <b>設置已下載</b>',
+    'mod_topic_unset_downloaded' => '主題：<br /> <b>取消已下載</b>',
+    'mod_topic_change_tor_status' => '主題：<br /> <b>更改種子狀態</b>',
+    'mod_topic_change_tor_type' => '主題：<br /> <b>更改種子類型</b>',
+    'mod_topic_tor_unregister' => '主題：<br /> <b>種子未註冊</b>',
+    'mod_topic_tor_register' => '主題：<br /> <b>種子已註冊</b>',
+    'mod_topic_tor_delete' => '主題：<br /> <b>種子已刪除</b>',
+    'mod_topic_renamed' => '主題：<br /> <b>重命名</b>',
+    'mod_topic_poll_started' => '主題：<br /> <b>投票已開始</b>',
+    'mod_topic_poll_finished' => '主題：<br /> <b>投票已結束</b>',
+    'mod_topic_poll_deleted' => '主題：<br /> <b>投票已刪除</b>',
+    'mod_topic_poll_added' => '主題：<br /> <b>投票已添加</b>',
+    'mod_topic_poll_edited' => '主題：<br /> <b>投票已編輯</b>',
     'mod_post_delete' => '员额：<br /> <b>deleted</b>',
-    'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
-    'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
+    'mod_post_pin' => '帖子：<br /> <b>釘選</b>',
+    'mod_post_unpin' => '帖子：<br /> <b>取消釘選</b>',
     'adm_user_delete' => '用户：<br /> <b>deleted</b>',
     'adm_user_ban' => '用户：<br /> <b>ban</b>',
     'adm_user_unban' => '用户：<br /> <b>unban</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = '請填寫發布表格';
 $lang['NEW_RELEASE'] = '新的释放';
 $lang['NEXT'] = '继续';
 $lang['OTHER'] = '其他的';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = '其他';
+$lang['ALL'] = '全部';
 
 $lang['TPL_EMPTY_FIELD'] = '你必须填补的领域<b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = '你必须选择<b>%s</b>';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = '寻找用户与网站相匹配%s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = '寻找用户位置的匹配%s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = '寻找用户与他们利益的领域匹配%s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = '寻找用户与他们的职业领域的匹配%s';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = '搜索過去 %s 內訪問的用戶';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = '搜索在最後 %s 之後訪問的用戶';
 $lang['SEARCH_FOR_LANGUAGE'] = '搜索的用户已经设置%s作为他们的语言';
 $lang['SEARCH_FOR_TIMEZONE'] = '搜索的用户已经设置UTC%s作为他们的时区';
 $lang['SEARCH_FOR_STYLE'] = '搜索的用户已经设置%s作为自己的风格';
@@ -3061,7 +3061,7 @@ $lang['FORUM_MAP'] = '论坛\'地图';
 $lang['ATOM_FEED'] = '订阅';
 $lang['ATOM_ERROR'] = '错误发生料';
 $lang['ATOM_SUBSCRIBE'] = '订阅料';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = '未提供供稿的模式選項';
 $lang['ATOM_NO_FORUM'] = '这个论坛不具有饲料(没有正在进行的主题)';
 $lang['ATOM_NO_USER'] = '这个用户不具有饲料(没有正在进行的主题)';
 $lang['ATOM_UPDATED'] = '已更新';
@@ -3070,15 +3070,15 @@ $lang['ATOM_GLOBAL_FEED'] = '全球料的所有论坛';
 $lang['HASH_INVALID'] = '哈希%s是无效的';
 $lang['HASH_NOT_FOUND'] = '释放与哈希%s找不到';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[align=center]此頁的文本編輯於：[url]%s[/url]。這行只能被管理員看到。[/align]';
 $lang['TERMS_EXPLAIN'] = '在这一页面，可以指定的案文的基本规则的资源显示用户使用。';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = '條款已成功更新';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%s點擊這裡返回條款編輯器%s';
 
 $lang['TR_STATS'] = [
     0 => '不活动的用户在30天',
     1 => '不活动的用户的90天',
-    2 => 'medium size distributions on the tracker',
+    2 => '中等大小的分佈在追蹤器上',
     3 => '总共有多少手上的跟踪器',
     4 => '多少生活的手中(至少有1led)',
     5 => '多少手其中，播种的超过5种子',
@@ -3108,11 +3108,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = '每个行对应于一个答案(最大值';
 $lang['OLD_BROWSER'] = '您使用的是过时的浏览器。 该网站将不会显示正确的。';
 $lang['GO_BACK'] = '上一页';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = '文件上傳已禁用';
 $lang['UPLOAD_ERROR_COMMON'] = '文件上传错误';
 $lang['UPLOAD_ERROR_SIZE'] = '上载的文件超过最大尺寸的%s';
 $lang['UPLOAD_ERROR_FORMAT'] = '无效的文件种类型的图像';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = '圖像尺寸超過最大允許的 %sx%s 像素';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = '上载的文件不是一个图像';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = '扩展%s下载的是不允许的';
 $lang['UPLOAD_ERRORS'] = [
@@ -3128,18 +3128,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = '检查你是不是机器人';
 $lang['CAPTCHA_WRONG'] = '你不能确认你不是一个机器人';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>驗證碼尚未完全配置</h2><p>使用您驗證碼服務的儀表板生成密鑰，然後需要將它們放在文件庫/config.php 中。</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA 驗證在背景中進行';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = '回覆';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => '無主題',
     'GROUP_ADDED' => '您已被添加到用戶組',
     'GROUP_APPROVED' => '您加入用戶組的請求已被批准',
     'GROUP_REQUEST' => '加入您的用戶組的請求',
     'PRIVMSG_NOTIFY' => '新私信',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => '主題中的回應通知 - %s',
     'USER_ACTIVATE' => '帳戶重新激活',
     'USER_ACTIVATE_PASSWD' => '確認新密碼',
     'USER_WELCOME' => '歡迎來到網站 %s',
@@ -3147,17 +3147,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = '重置比率';
+$lang['BT_NULL_RATIO_NONE'] = '您還沒有比率';
+$lang['BT_NULL_RATIO_ALERT'] = "注意！\n\n您確定要重置您的比率嗎？";
+$lang['BT_NULL_RATIO_AGAIN'] = '您已經重置過您的比率！';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = '您的比率良好。重置只能在比率小於 %s 時進行';
+$lang['BT_NULL_RATIO_SUCCESS'] = '比率已成功重置！';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
-$lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SIZE'] = '總大小：';
+$lang['RELEASER_STAT'] = '發佈者統計：';
+$lang['RELEASER_STAT_SHOW'] = '顯示統計數據';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = '切換暗模式';

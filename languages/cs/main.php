@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = 'Příspěvky';
 $lang['POSTED'] = 'Publikováno';
 $lang['USERNAME'] = 'Uživatelské jméno';
 $lang['PASSWORD'] = 'Heslo';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = 'Zobrazit heslo';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = 'Povoleno';
 $lang['DISABLED'] = 'Zdravotně postižené';
 $lang['ERROR'] = 'Chyba';
 $lang['SELECT_ACTION'] = 'Vyberte akce';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = 'Vymazat';
+$lang['MOVE_TO_TOP'] = 'Přesunout nahoru';
 $lang['UNKNOWN'] = 'Neznámý';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = 'Zkopírovat do schránky';
+$lang['NO_ITEMS'] = 'Zde se zdá, že nejsou žádná data...';
+$lang['PLEASE_TRY_AGAIN'] = 'Zkuste to prosím znovu po několika sekundách...';
 
 $lang['NEXT_PAGE'] = 'Další';
 $lang['PREVIOUS_PAGE'] = 'Předchozí';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Template cache byla vymazána';
 $lang['DATASTORE_CLEARED'] = 'Datastore byl vymazán';
 $lang['BOARD_DISABLE'] = 'Omlouvám se, toto fórum je zakázáno. Zkuste se vrátit později';
 $lang['BOARD_DISABLE_CRON'] = 'Fórum je vypnutý. Zkuste se vrátit později';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = 'Fórum je zakázáno správcem. Můžete ho kdykoli povolit';
+$lang['ADMIN_DISABLE_CRON'] = 'Fórum zamčeno spouštěčem cron jobu. Zámek můžete kdykoli odstranit';
 $lang['ADMIN_DISABLE_TITLE'] = 'Na fóru je zakázáno';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fórum je pro údržbu';
 $lang['ADMIN_UNLOCK'] = 'Povolit fórum';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = 'Správce';
 $lang['ONLINE_MOD'] = 'Moderátor';
 $lang['ONLINE_GROUP_MEMBER'] = 'Člen skupiny';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Tuto akci nelze provést v demoverzi!';
 
 $lang['CURRENT_TIME'] = 'Aktuální čas je: <span class="tz_time">%s</span>';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Nové příspěvky [ Zamčené ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Fórum je zamknuté';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = 'Prosím, zadejte své uživatelské jméno a heslo pro přihlášení.';
 $lang['LOGIN'] = 'Přihlásit';
 $lang['LOGOUT'] = 'Odhlásit';
 $lang['CONFIRM_LOGOUT'] = 'Jsou si jisti, že chcete odhlásit?';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = 'Ty <b>can</b> hlasovat v tomto fóru';
 $lang['RULES_VOTE_CANNOT'] = 'Ty <b>cannot</b> hlasovat v tomto fóru';
 $lang['RULES_MODERATE'] = 'Ty <b>can</b> středně tomto fóru';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = 'V tomto fóru zatím nejsou žádné příspěvky<br />Klikněte na ikonu <b>Nové téma</b> a váš příspěvek bude první.';
+$lang['NO_RELEASES_POST_ONE'] = 'V tomto fóru zatím nejsou žádné vydání<br />Klikněte na ikonu <b>Nové vydání</b> a vaše vydání bude první.';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'Zobrazit téma';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = 'skrytý text';
 $lang['SPOILER_CLOSE'] = 'obrátit';
 $lang['PLAY_ON_CURPAGE'] = 'Začít hrát na aktuální stránce';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = 'Poslední úpravu provedl <b>%s</b> dne %s; upravoval %d krát celkem'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = 'Poslední úpravu provedl <b>%s</b> dne %s; upravoval %d krát celkem'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Zamknout téma';
 $lang['UNLOCK_TOPIC'] = 'Odemknout téma';
@@ -378,8 +378,8 @@ $lang['DELETE_POLL'] = 'Odstranit anketa';
 $lang['MAX_SMILIES_PER_POST'] = 'Emotikony limit %s emotikony překročena.';
 
 $lang['ATTACH_SIGNATURE'] = 'Připojit podpis (podpis můžete změnit v profilu)';
-$lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['NOTIFY'] = 'Upozorněte mě na odpovědi';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Povolit robotům indexaci tohoto tématu';
 
 $lang['STORED'] = 'Vaše zpráva byla vstoupil úspěšně.';
 $lang['EDITED'] = 'Zpráva byla změněna';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Odeslání nové soukromé zprávy';
 $lang['SEND_A_REPLY'] = 'Odpověď na soukromou zprávu';
 $lang['EDIT_MESSAGE'] = 'Edit soukromou zprávu';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = 'Byla přijata nová soukromá zpráva!';
 
 $lang['FIND_USERNAME'] = 'Najít uživatelské jméno';
 $lang['SELECT_USERNAME'] = 'Vyberte uživatelské Jméno';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = 'Narozeniny';
 $lang['HAPPY_BIRTHDAY'] = 'Všechno Nejlepší K Narozeninám!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Narozeniny formát byl zadán nesprávně.';
 $lang['AGE'] = 'Věk';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = 'Omlouvám se, tento web nepřijímá uživatele starší než %d let';
+$lang['BIRTHDAY_TO_LOW'] = 'Omlouvám se, tento web nepřijímá uživatele mladší než %d let';
 $lang['BIRTHDAY_TODAY'] = 'Uživatelé s dnes narozeniny: ';
 $lang['BIRTHDAY_WEEK'] = 'Uživatelé s narozeniny v příštích %d dní: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Žádní uživatelé mají narozeniny v nadcházející %d dny'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = 'Žádní uživatelé mají dnes narozeniny';
 $lang['BIRTHDAY_ENABLE'] = 'Povolit narozeniny';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max věk';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min věk';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Dny pro kontrolu blížících se narozenin';
 $lang['YEARS'] = 'Let';
 
 $lang['NO_THEMES'] = 'Žádná Témata V databázi';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = 'Reset autologin klíč';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'včetně všech míst, které jste navštívili fóru povoleno automatické přihlášení';
 
 $lang['AVATAR'] = 'Avatar';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = 'Zobrazuje malý grafický obrázek pod vašimi údaji v příspěvcích. Může být zobrazen pouze jeden obrázek najednou, jeho šířka nesmí překročit %d pixelů, výška nesmí být větší než %d pixelů a velikost souboru nepřesáhnout %s.';
 $lang['AVATAR_DELETE'] = 'Smazat avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar možnost řízení zakázán pro porušení <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Nahrát avatar';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = 'Zpět na profil';
 $lang['SELECT_CATEGORY'] = 'Vyberte kategorii';
 
 $lang['DELETE_IMAGE'] = 'Smazat obrázek';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = 'Nastavit avatar MonsterID';
 $lang['CURRENT_IMAGE'] = 'Aktuální snímek';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Upozornit na novou soukromou zprávu';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = 'Váš profil byl aktualizován. Nicméně, 
 
 $lang['PASSWORD_MISMATCH'] = 'Hesla, která jste zadali, se neshodují.';
 $lang['CURRENT_PASSWORD_MISMATCH'] = 'Aktuální heslo, které jste zadali neodpovídá uložené v databázi.';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = 'Vaše heslo nesmí být delší než %d znaků a kratší než %d znaků.';
 $lang['TOO_MANY_REGISTERS'] = 'Provedli jste příliš mnoho registrační pokusy. Zkuste to prosím znovu později.';
 $lang['USERNAME_TAKEN'] = 'Omlouvám se, ale toto uživatelské jméno již bylo přijato.';
 $lang['USERNAME_INVALID'] = 'Omlouvám se, ale toto uživatelské jméno obsahuje neplatný znak';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Omlouvám se, ale toto uživatelské jméno již
 $lang['USERNAME_TOO_LONG'] = 'Vaše jméno je příliš dlouhé.';
 $lang['USERNAME_TOO_SMALL'] = 'Vaše jméno je příliš malý.';
 $lang['EMAIL_TAKEN'] = 'Promiň, ale to, že e-mailová adresa je již registrovaná na uživatele.';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = 'Omlouvám se, ale <b>%s</b> adresa byla zablokována.';
 $lang['EMAIL_INVALID'] = 'Omlouváme se, ale tato e-mailová adresa je neplatná.';
 $lang['EMAIL_TOO_LONG'] = 'Váš e-mail je příliš dlouhý.';
 $lang['SIGNATURE_TOO_LONG'] = 'Váš podpis je příliš dlouhý.';
@@ -691,17 +691,17 @@ $lang['DESC'] = 'Klesající';
 $lang['ORDER'] = 'Cílem';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = 'Hlasovat pro toto téma';
+$lang['THANKS_GRATITUDE'] = 'Oceňujeme vaši vděčnost';
+$lang['LAST_LIKES'] = 'Poslední hlasy';
+$lang['LIKE_OWN_POST'] = 'Nemůžete hlasovat pro vlastní téma';
+$lang['NO_LIKES'] = 'Nikdo ještě nehlasoval';
+$lang['LIKE_ALREADY'] = 'Toto téma jste již ohodnotili';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = 'Pozvánkový kód';
+$lang['INCORRECT_INVITE'] = 'Pozvánka nebyla nalezena';
+$lang['INVITE_EXPIRED'] = 'Pozvánka vypršela';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = 'Skupiny Uživatelů';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = 'Žádost, aby se připojili k vaší skupině byla pro
 $lang['GROUP_APPROVED'] = 'Vaše žádost byla schválena.';
 $lang['GROUP_ADDED'] = 'Ty byly přidány do této uživatelské skupiny.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Jste již členem této skupiny';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s je již členem této skupiny';
+$lang['USER_IS_MOD_GROUP'] = '%s je moderátor této skupiny';
 $lang['GROUP_TYPE_UPDATED'] = 'Úspěšně aktualizován typ skupiny.';
 $lang['EFFECTIVE_DATE'] = 'Datum Účinnosti';
 
@@ -985,271 +985,271 @@ $lang['DATETIME']['NOV'] = 'Nov';
 $lang['DATETIME']['DEC'] = 'Prosinec';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = 'Země';
+$lang['SET_OWN_COUNTRY'] = 'Nastavit vlastní zemi (Manuálně)';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
+    0 => 'Není vybráno',
     'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
-    'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
+    'AE' => 'Spojené arabské emiráty',
+    'AF' => 'Afghánistán',
+    'AG' => 'Antigua a Barbuda',
     'AI' => 'Anguilla',
-    'AL' => 'Albania',
-    'AM' => 'Armenia',
+    'AL' => 'Albánie',
+    'AM' => 'Arménie',
     'AO' => 'Angola',
-    'AQ' => 'Antarctica',
+    'AQ' => 'Antarktida',
     'AR' => 'Argentina',
-    'AS' => 'American Samoa',
-    'AT' => 'Austria',
-    'AU' => 'Australia',
+    'AS' => 'Americká Samoa',
+    'AT' => 'Rakousko',
+    'AU' => 'Austrálie',
     'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
-    'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
+    'AX' => 'Alandské ostrovy',
+    'AZ' => 'Ázerbájdžán',
+    'BA' => 'Bosna a Hercegovina',
     'BB' => 'Barbados',
-    'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
+    'BD' => 'Bangladéš',
+    'BE' => 'Belgie',
     'BF' => 'Burkina Faso',
-    'BG' => 'Bulgaria',
-    'BH' => 'Bahrain',
+    'BG' => 'Bulharsko',
+    'BH' => 'Bahrajn',
     'BI' => 'Burundi',
     'BJ' => 'Benin',
-    'BL' => 'Saint Barthélemy',
-    'BM' => 'Bermuda',
-    'BN' => 'Brunei Darussalam',
-    'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
-    'BR' => 'Brazil',
-    'BS' => 'Bahamas',
-    'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
+    'BL' => 'Svatý Bartoloměj',
+    'BM' => 'Bermudy',
+    'BN' => 'Brunej',
+    'BO' => 'Bolívie, Plurinacionální stát',
+    'BQ' => 'Karibské Nizozemsko',
+    'BR' => 'Brazílie',
+    'BS' => 'Bahamy',
+    'BT' => 'Bhútán',
+    'BV' => 'Bouvetův ostrov',
     'BW' => 'Botswana',
-    'BY' => 'Belarus',
+    'BY' => 'Bělorusko',
     'BZ' => 'Belize',
-    'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
+    'CA' => 'Kanada',
+    'CC' => 'Kokosové (Keelingovy) ostrovy',
+    'CD' => 'Kongo, Demokratická republika',
+    'CF' => 'Středoafrická republika',
+    'CG' => 'Republika Kongo',
+    'CH' => 'Švýcarsko',
+    'CI' => 'Republika Pobřeží slonoviny',
+    'CK' => 'Cookovy ostrovy',
     'CL' => 'Chile',
-    'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
-    'CO' => 'Colombia',
-    'CR' => 'Costa Rica',
-    'CU' => 'Cuba',
-    'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
-    'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
-    'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
-    'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
-    'DZ' => 'Algeria',
-    'EC' => 'Ecuador',
-    'EE' => 'Estonia',
+    'CM' => 'Kamerun',
+    'CN' => 'Čína (Lidová republika Čína)',
+    'CO' => 'Kolumbie',
+    'CR' => 'Kostarika',
+    'CU' => 'Kuba',
+    'CV' => 'Kapverdské ostrovy',
+    'CW' => 'Země Curaçao',
+    'CX' => 'Vánoční ostrov',
+    'CY' => 'Kypr',
+    'CZ' => 'Česká republika',
+    'DE' => 'Německo',
+    'DJ' => 'Džibutsko',
+    'DK' => 'Dánsko',
+    'DM' => 'Dominika',
+    'DO' => 'Dominikánská republika',
+    'DZ' => 'Alžírsko',
+    'EC' => 'Ekvádor',
+    'EE' => 'Estonsko',
     'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
+    'EH' => 'Západní Sahara',
     'ER' => 'Eritrea',
-    'ES' => 'Spain',
-    'ET' => 'Ethiopia',
-    'EU' => 'Europe',
-    'FI' => 'Finland',
-    'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
+    'ES' => 'Španělsko',
+    'ET' => 'Etiopie',
+    'EU' => 'Evropa',
+    'FI' => 'Finsko',
+    'FJ' => 'Fidži',
+    'FK' => 'Falklandy (Malvinas)',
+    'FM' => 'Mikronésie, Federativní státy',
+    'FO' => 'Faerské ostrovy',
+    'FR' => 'Francie',
     'GA' => 'Gabon',
-    'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
-    'GB-SCT' => 'Scotland',
+    'GB-ENG' => 'Anglie',
+    'GB-NIR' => 'Severní Irsko',
+    'GB-SCT' => 'Skotsko',
     'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
+    'GB' => 'Spojené království',
     'GD' => 'Grenada',
-    'GE' => 'Georgia',
-    'GF' => 'French Guiana',
+    'GE' => 'Gruzie',
+    'GF' => 'Francouzská Guyana',
     'GG' => 'Guernsey',
     'GH' => 'Ghana',
     'GI' => 'Gibraltar',
-    'GL' => 'Greenland',
-    'GM' => 'Gambia',
+    'GL' => 'Grónsko',
+    'GM' => 'Gambie',
     'GN' => 'Guinea',
     'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
+    'GQ' => 'Rovníková Guinea',
+    'GR' => 'Řecko',
+    'GS' => 'Jižní Georgie a jižní Sandwichovy ostrovy',
     'GT' => 'Guatemala',
     'GU' => 'Guam',
     'GW' => 'Guinea-Bissau',
     'GY' => 'Guyana',
-    'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
+    'HK' => 'Hongkong',
+    'HM' => 'Ostrov Heard a McDonaldovy ostrovy',
     'HN' => 'Honduras',
-    'HR' => 'Croatia',
+    'HR' => 'Chorvatsko',
     'HT' => 'Haiti',
-    'HU' => 'Hungary',
-    'ID' => 'Indonesia',
-    'IE' => 'Ireland',
-    'IL' => 'Israel',
-    'IM' => 'Isle of Man',
-    'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
-    'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
-    'IS' => 'Iceland',
-    'IT' => 'Italy',
+    'HU' => 'Maďarsko',
+    'ID' => 'Indonésie',
+    'IE' => 'Irsko',
+    'IL' => 'Izrael',
+    'IM' => 'Ostrov Man',
+    'IN' => 'Indie',
+    'IO' => 'Britské indicko-oceánské území',
+    'IQ' => 'Irák',
+    'IR' => 'Írán, Islámská republika',
+    'IS' => 'Island',
+    'IT' => 'Itálie',
     'JE' => 'Jersey',
-    'JM' => 'Jamaica',
-    'JO' => 'Jordan',
-    'JP' => 'Japan',
-    'KE' => 'Kenya',
-    'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
+    'JM' => 'Jamajka',
+    'JO' => 'Jordánsko',
+    'JP' => 'Japonsko',
+    'KE' => 'Keňa',
+    'KG' => 'Kyrgyzstán',
+    'KH' => 'Kambodža',
     'KI' => 'Kiribati',
-    'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
-    'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
-    'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
-    'LC' => 'Saint Lucia',
-    'LI' => 'Liechtenstein',
-    'LK' => 'Sri Lanka',
-    'LR' => 'Liberia',
+    'KM' => 'Komory',
+    'KN' => 'Svatý Kryštov a Nevis',
+    'KP' => 'Korea, Demokratická lidová republika',
+    'KR' => 'Korea, Republika',
+    'KW' => 'Kuvajt',
+    'KY' => 'Kajmanské ostrovy',
+    'KZ' => 'Kazachstán',
+    'LA' => 'Laos (Lao Lidová demokratická republika)',
+    'LB' => 'Libanon',
+    'LC' => 'Svatá Lucie',
+    'LI' => 'Lichtenštejnsko',
+    'LK' => 'Srí Lanka',
+    'LR' => 'Libérie',
     'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
-    'LU' => 'Luxembourg',
-    'LV' => 'Latvia',
-    'LY' => 'Libya',
-    'MA' => 'Morocco',
-    'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
-    'ME' => 'Montenegro',
-    'MF' => 'Saint Martin',
-    'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
+    'LT' => 'Litva',
+    'LU' => 'Lucembursko',
+    'LV' => 'Lotyšsko',
+    'LY' => 'Libye',
+    'MA' => 'Maroko',
+    'MC' => 'Monako',
+    'MD' => 'Moldavsko, republika',
+    'ME' => 'Černá Hora',
+    'MF' => 'Svatý Martin',
+    'MG' => 'Madagaskar',
+    'MH' => 'Marshallovy ostrovy',
+    'MK' => 'Severní Makedonie',
     'ML' => 'Mali',
-    'MM' => 'Myanmar',
-    'MN' => 'Mongolia',
+    'MM' => 'Mjanmarsko',
+    'MN' => 'Mongolsko',
     'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
-    'MQ' => 'Martinique',
-    'MR' => 'Mauritania',
+    'MP' => 'Severní Mariany',
+    'MQ' => 'Martinika',
+    'MR' => 'Mauritánie',
     'MS' => 'Montserrat',
     'MT' => 'Malta',
-    'MU' => 'Mauritius',
-    'MV' => 'Maldives',
+    'MU' => 'Mauricius',
+    'MV' => 'Maledivy',
     'MW' => 'Malawi',
-    'MX' => 'Mexico',
-    'MY' => 'Malaysia',
-    'MZ' => 'Mozambique',
-    'NA' => 'Namibia',
-    'NC' => 'New Caledonia',
+    'MX' => 'Mexiko',
+    'MY' => 'Malajsie',
+    'MZ' => 'Mosambik',
+    'NA' => 'Namíbie',
+    'NC' => 'Nová Kaledonie',
     'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
-    'NG' => 'Nigeria',
-    'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
-    'NP' => 'Nepal',
+    'NF' => 'Norfolkovy ostrovy',
+    'NG' => 'Nigérie',
+    'NI' => 'Nikaragua',
+    'NL' => 'Nizozemsko',
+    'NO' => 'Norsko',
+    'NP' => 'Nepál',
     'NR' => 'Nauru',
     'NU' => 'Niue',
-    'NZ' => 'New Zealand',
-    'OM' => 'Oman',
+    'NZ' => 'Nový Zéland',
+    'OM' => 'Omán',
     'PA' => 'Panama',
     'PE' => 'Peru',
-    'PF' => 'French Polynesia',
-    'PG' => 'Papua New Guinea',
-    'PH' => 'Philippines',
-    'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
+    'PF' => 'Francouzská Polynésie',
+    'PG' => 'Papua Nová Guinea',
+    'PH' => 'Filipíny',
+    'PK' => 'Pákistán',
+    'PL' => 'Polsko',
+    'PM' => 'Saint Pierre a Miquelon',
     'PN' => 'Pitcairn',
-    'PR' => 'Puerto Rico',
-    'PS' => 'Palestine',
-    'PT' => 'Portugal',
+    'PR' => 'Porto Rico',
+    'PS' => 'Palestina',
+    'PT' => 'Portugalsko',
     'PW' => 'Palau',
     'PY' => 'Paraguay',
-    'QA' => 'Qatar',
+    'QA' => 'Katar',
     'RE' => 'Réunion',
-    'RO' => 'Romania',
-    'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
+    'RO' => 'Rumunsko',
+    'RS' => 'Srbsko',
+    'RU' => 'Ruská federace',
     'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
-    'SC' => 'Seychelles',
-    'SD' => 'Sudan',
-    'SE' => 'Sweden',
-    'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
-    'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SK' => 'Slovakia',
+    'SA' => 'Saúdská Arábie',
+    'SB' => 'Šalomounovy ostrovy',
+    'SC' => 'Seychely',
+    'SD' => 'Súdán',
+    'SE' => 'Švédsko',
+    'SG' => 'Singapur',
+    'SH' => 'Svatá Helena, Ascension a Tristan da Cunha',
+    'SI' => 'Slovinsko',
+    'SJ' => 'Svalbard a Jan Mayen',
+    'SK' => 'Slovensko',
     'SL' => 'Sierra Leone',
-    'SM' => 'San Marino',
+    'SM' => 'San Maríno',
     'SN' => 'Senegal',
-    'SO' => 'Somalia',
-    'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
+    'SO' => 'Somálsko',
+    'SR' => 'Surinam',
+    'SS' => 'Jižní Súdán',
+    'SU' => 'Sovětský svaz',
+    'ST' => 'Svatý Tomáš a Princův ostrov',
     'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
-    'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
-    'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
+    'SX' => 'Sint Maarten (holandská část)',
+    'SY' => 'Syrská arabská republika',
+    'SZ' => 'Svazijsko',
+    'TC' => 'Turks a Caicos',
+    'TD' => 'Čad',
+    'TF' => 'Francouzská jižní území',
     'TG' => 'Togo',
-    'TH' => 'Thailand',
-    'TJ' => 'Tajikistan',
+    'TH' => 'Thajsko',
+    'TJ' => 'Tádžikistán',
     'TK' => 'Tokelau',
-    'TL' => 'Timor-Leste',
-    'TM' => 'Turkmenistan',
-    'TN' => 'Tunisia',
+    'TL' => 'Východní Timor',
+    'TM' => 'Turkmenistán',
+    'TN' => 'Tunisko',
     'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
+    'TR' => 'Turecko',
+    'TT' => 'Trinidad a Tobago',
     'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
-    'UA' => 'Ukraine',
+    'TW' => 'Tchaj-wan (Čínská republika)',
+    'TZ' => 'Tanzanie, Spojená republika',
+    'UA' => 'Ukrajina',
     'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
+    'UM' => 'USA, malé odlehlé ostrovy',
+    'US' => 'Spojené státy',
     'UY' => 'Uruguay',
-    'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
+    'UZ' => 'Uzbekistán',
+    'VA' => 'Svatý stolec (Vatikánský městský stát)',
+    'VC' => 'Svatý Vavřinec a Grenadiny',
+    'VE' => 'Venezuela, Bolivarská republika',
+    'VG' => 'Britské Panenské ostrovy',
+    'VI' => 'Panenské ostrovy, USA',
     'VN' => 'Vietnam',
     'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
+    'WF' => 'Wallis a Futuna',
     'WS' => 'Samoa',
     'XK' => 'Kosovo',
-    'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
+    'YE' => 'Jemen',
+    'YU' => 'Jugoslávie',
     'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
-    'ZM' => 'Zambia',
+    'ZA' => 'Jižní Afrika',
+    'ZM' => 'Zambie',
     'ZW' => 'Zimbabwe',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
-    'LGBT' => 'Pride flag'
+    'WBW' => 'Úžasné Rusko budoucnosti',
+    'PACE' => 'Vlajka míru',
+    'LGBT' => 'Vlajka hrdosti'
 ];
 
 // Errors
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = 'Popis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Ke stažení'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Velikost souboru';
 $lang['VIEWED'] = 'Zobrazit';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Rozšíření \'%s\' bylo deaktivováno administrátorem, proto tato příloha není zobrazená.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
+$lang['RESOLUTION'] = 'Rozlišení: <b>%s</b>';
+$lang['CHANNELS'] = 'Kanály: <b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = 'Rozložení kanálů: <b>%s</b>';
 $lang['BITRATE'] = 'Bitrate: <b>%s</b>';
-$lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
+$lang['SAMPLE_RATE'] = 'Vzorkovací frekvence: <b>%s</b>';
+$lang['AUDIO_TRACK'] = 'Informace o zvukové stopě (%d):';
 $lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
 $lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Zobrazit více informací o souboru';
+$lang['DOWNLOAD_M3U_FILE'] = 'Stáhnout soubor .m3u';
+$lang['PLAYBACK_M3U'] = 'Přehrát soubor .m3u';
+$lang['COPY_STREAM_LINK'] = 'Kopírovat odkaz na stream do schránky';
+$lang['M3U_NOT_SUPPORTED'] = 'Tento soubor nelze přehrát v prohlížeči...';
+$lang['M3U_FFPROBE_NO_DATA'] = 'Zdá se, že ffprobe nebude schopen vrátit údaje o tomto codec...';
+$lang['M3U_NOTICE'] = 'Některé prohlížeče nepodporují přehrávání určitých video formátů. V takovém případě můžete stáhnout soubor .m3u a přehrát ho pomocí třetího strany.';
 
 $lang['ATTACHMENT'] = 'Přílohy';
 $lang['ATTACHMENT_THUMBNAIL'] = 'Příloha Miniatura';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = 'Přidáno';
 $lang['BT_REG_ON_TRACKER'] = 'Zaregistrujte se na tracker';
 $lang['BT_REG_FAIL'] = 'Nemohl zaregistrovat torrent na tracker';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Další torrent se stejným info_hash již <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
-$lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'Torrenty pouze v1 byly v tuto chvíli administrátorem zakázány, povolené: v2 a hybridy';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'Torrenty pouze v2 byly v tuto chvíli administrátorem zakázány, povolené: v1 a hybridy';
+$lang['BT_FLIST'] = 'Seznam souborů';
+$lang['BT_FLIST_LIMIT'] = 'Nastavení trackeru neumožňuje zpracovávat seznamy s více než %d soubory. Aktuální počet je: %d';
+$lang['BT_FLIST_BTMR_HASH'] = 'BTMR hash';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root je hash souboru vložený do torrentů s podporou BitTorrent v2, uživatelé trackeru je mohou extrahovat, spočítat je, také stahovat deduplikované torrenty pomocí desktopových nástrojů jako <a href="%s" target="_blank" referrerpolicy="origin">Čtečka Merkle Root Torrentu</a>';
+$lang['BT_FLIST_CREATION_DATE'] = 'Datum vytvoření';
+$lang['BT_IS_PRIVATE'] = 'Soukromý torrent';
+$lang['BT_FLIST_FILE_PATH'] = 'Cesta (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = 'Hash souboru | .torrent meta-informace';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Seznam oznámení';
+$lang['BT_FLIST_ANNOUNCERS'] = 'Oznámení';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Tento seznam obsahuje oznámení torrentového souboru';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Odstranit z tracker';
 $lang['BT_UNREGISTERED'] = 'Torrent neregistrované';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent již byl odregistrován';
 $lang['BT_REGISTERED'] = 'Torrent registrované na tracker<br /><br />Now musíte <a href="%s"><b>download vaše torrent</b></a> a spusťte jej pomocí BitTorrent klient výběru složky s původní soubory, které jste sdílení jako cesta ke stažení';
 $lang['INVALID_ANN_URL'] = 'Neplatná Oznámit URL [%s]<br /><br />must být <b>%s</b>';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Nelze přidat passkey<br /><br />Torrent není registrován na tracker';
 $lang['BT_PASSKEY'] = 'Klíč';
 $lang['BT_GEN_PASSKEY'] = 'vytvořit nový';
 $lang['BT_PASSKEY_VIEW'] = 'show';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Pozor! Po změně vaší klíčové fráze budete muset znovu stáhnout všechny aktivní torrenty! \n Opravdu chcete vytvořit nový klíč?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Ne vyhledávat fóra nalezen';
 
 $lang['SEEDS'] = 'Semeno';
@@ -1404,34 +1404,34 @@ $lang['SEEDING'] = 'Semeno';
 $lang['LEECHING'] = 'Pijavice';
 $lang['IS_REGISTERED'] = 'Registrován';
 $lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET_FOR_GUESTS'] = 'Zobrazit magnet-link pro hosty';
+$lang['MAGNET_v2'] = 'Magnet-link (podpora BitTorrent v2)';
 
 //torrent status mod
 $lang['TOR_STATUS'] = 'Stav';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Vyberte stav';
 $lang['TOR_STATUS_NOT_SELECT'] = 'Nemáte-li stav.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Všechny stavy';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = 'Stav tohoto tématu je: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'není kontrolována',
     TOR_CLOSED => 'zavřeno',
     TOR_APPROVED => 'zkontroloval',
     TOR_NEED_EDIT => 'není formálně až do',
     TOR_NO_DESC => 'ne formálně',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => 'duplikát',
+    TOR_CLOSED_CPHOLD => 'uzavřený (autorská práva)',
     TOR_CONSUMED => 'vstřebává',
     TOR_DOUBTFUL => 'pochybné',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => 'je kontrolováno',
     TOR_TMP => 'dočasné',
     TOR_PREMOD => 'pre-moderování',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => 'doplnění',
 ];
 $lang['TOR_STATUS_FAILED'] = 'Takový stav neexistuje!';
 $lang['TORRENT_FAILED'] = 'Distribuce nebyla nalezena!';
 $lang['TOR_STATUS_DUB'] = 'Distribuce má stejný status';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Změna statusu nemůže být provedena!';
 $lang['TOR_STATUS_OF'] = 'Distribuce má status:';
 $lang['TOR_STATUS_CHANGED'] = 'Stav změnil: ';
 $lang['TOR_BACK'] = ' zpět';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Chybějící identifikátor souboru!';
 $lang['CHANGE_TOR_TYPE'] = 'Zadejte torrent úspěšně změněno';
 $lang['DEL_TORRENT'] = 'Jsou si jisti, že chcete smazat torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Jsou si jisti, že chcete smazat a přesunout téma?';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = 'Máte nedokončené vydání. Před vytvořením nového prosím dokončete to!';
+$lang['TOR_STATUS_LOG_ACTION'] = 'Nový status: %s.<br/>Předchozí status: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Změna stavu distribuce - %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Ahoj, %s.\n\nStatus [url=%s]vaší[/url] distribuce byl změněn na [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Změny v designu - %s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "Ahoj, %s.\n\nVaše distribuce byla změněna - [url=%s]%s[/url]\n\nProsím znovu zkontrolujte.";
 $lang['TOR_AUTH_FIXED'] = 'Pevné';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The informace zaslány moderátor. Očekávají.</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = 'Seed naposledy viděn';
 $lang['BT_SORT_FORUM'] = 'Fórum';
 $lang['SIZE'] = 'Velikost';
 $lang['PIECE_LENGTH'] = 'Kus délka';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = 'Dokončené stahování';
 $lang['ADDED'] = 'Přidáno';
 $lang['DELETE_TORRENT'] = 'Odstranit torrent';
 $lang['DELETE_MOVE_TORRENT'] = 'Odstranit a přesunout téma';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = 'Stříbrný';
 $lang['UNSET_SILVER_TORRENT'] = 'Zrušit stříbrná';
 $lang['GOLD_STATUS'] = 'ZLATO TORRENT! KE STAŽENÍ DOPRAVNÍ NEPOVAŽUJE!';
 $lang['SILVER_STATUS'] = 'STŘÍBRNÉ TORRENT! KE STAŽENÍ DOPRAVNÍ ČÁSTEČNĚ ZA TO!';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = 'Typ torrentu změněn na: %s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = 'Hledat podle statusu vydání';
 $lang['SEARCH_IN_FORUMS'] = 'Hledat ve Fórech';
 $lang['SELECT_CAT'] = 'Vyberte kategorii';
 $lang['GO_TO_SECTION'] = 'Goto bod';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Torrent již registrován';
 $lang['NOT_TORRENT'] = 'Tento soubor není torrent';
 $lang['ONLY_1_TOR_PER_POST'] = 'Můžete se zaregistrovat pouze jeden torrent v jednom příspěvku';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Můžete se zaregistrovat pouze jeden torrent v jednom tématu';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = 'Torrentový profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktivní torrenty';
 
 $lang['TD_TRAF'] = 'Dnes';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Vyberte';
 $lang['SEED_BONUS'] = 'Seed bonus';
 $lang['EXCHANGE'] = 'Výměna';
 $lang['EXCHANGE_BONUS'] = 'Výměna semen bonusy';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s na distribuci</b> <br /> K výměně bonusových bodů za %1$s provoz, který bude přidán k vašemu celkové distribuci.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Cena';
 $lang['EXCHANGE_NOT'] = 'Exchange není k dispozici';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You nemají bonusy k dispozici.
 $lang['BONUS_RETURN'] = 'Návrat k seed bonus exchange';
 
 $lang['TRACKER'] = 'Tracker';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = 'Náhodné vydání';
 $lang['OPEN_TOPICS'] = 'Otevřená témata';
 $lang['OPEN_IN_SAME_WINDOW'] = 'otevřít ve stejném okně';
 $lang['SHOW_TIME_TOPICS'] = 'zobrazit čas vytvoření témata';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Návrhář';
 $lang['LAST_IP'] = 'Poslední IP:';
 $lang['REG_IP'] = 'Registrace IP:';
 $lang['OTHER_IP'] = 'Další IP:';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'Uživatel %s je již registrován s vaší IP adresou. Pokud jste se předtím nezaregistrovali na našem trackeru, napište <a href="mailto:%s">administrátorovi</a>';
 $lang['HIDDEN'] = 'Skryté';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = 'Nikdy';
 //mpd
 $lang['DELETE_POSTS'] = 'Smazat vybrané příspěvky';
 $lang['DELETE_POSTS_SUCCESFULLY'] = 'Vybrané příspěvky byly úspěšně odstraněny';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = 'Žádné příspěvky nebyly odstraněny.';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Oznámení';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = 'Aktualizace po dobu';
 $lang['TOPIC_SPLIT_NEW'] = 'Nové téma';
 $lang['TOPIC_SPLIT_OLD'] = 'Staré téma';
 $lang['BOT_LEAVE_MSG_MOVED'] = 'Přidat bot-zpráva o stěhování';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = 'Důvod k přesunutí';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Přidat bot-zpráva o rozdělení <b>old topic</b>';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Přidat bot-zpráva o rozdělení <b>new topic</b>';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['odpověď', 'odpovědi'];
 $lang['DECLENSION']['TIMES'] = ['čas', 'časy'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['soubor', 'soubory'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['druhý', 'sekund'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = 'Komentář';
 
 // search
 $lang['SEARCH_S'] = 'vyhledávání...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = 'na fóru';
+$lang['TRACKER_S'] = 'na trackeru';
 $lang['HASH_S'] = 'podle info_hash';
 
 // copyright
 $lang['NOTICE'] = '!POZOR!';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = 'Web neposkytuje elektronické verze produktů a zabývá se pouze shromažďováním a katalogizací odkazů zaslaných a zveřejněných na fóru našimi čtenáři. Pokud jste zákonným vlastníkem jakéhokoli předloženého materiálu a nechcete, aby se na něj odkazovalo v našem katalogu, kontaktujte nás a my ho okamžitě odstraníme. Soubory pro výměnu na trackeru poskytují uživatelé webu a správa nenese odpovědnost za jejich obsah. Prosím, nenahrávejte soubory chráněné autorskými právy nebo soubory s nezákonným obsahem!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Kolaps adresář';
 $lang['EXPAND'] = 'Rozšířit';
 $lang['SWITCH'] = 'Spínač';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Zvyšte/Snižte okno';
 $lang['EMPTY_ATTACH_ID'] = 'Chybějící identifikátor souboru!';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = 'Soubor chybí na serveru!';
 $lang['ERROR_BUILD'] = 'Obsah tento torrent soubor může být viděn na místě (nebylo možné vytvořit seznam souborů)';
 $lang['TORFILE_INVALID'] = 'Torrent soubor je poškozen';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Stránky" mohou obsahovat pouze http://sitename';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = 'Pole "ICQ" může obsahovat pouze číslo ICQ';
+$lang['INVALID_DATE'] = 'Neplatné datum';
 $lang['PROFILE_USER'] = 'Prohlížení profilu';
 $lang['GOOD_UPDATE'] = 'byl úspěšně změněn';
 $lang['UCP_DOWNLOADS'] = 'Ke stažení';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Jsou si jisti, že chcete smazat tohoto uživate
 $lang['USER_DELETED'] = 'Uživatel byl úspěšně smazán';
 $lang['DELETE_USER_ALL_POSTS'] = 'Odstranit všechny uživatelské příspěvky';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Jsou si jisti, že chcete odstranit všechny zprávy a všechna témata začala tímto uživatelem?';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = 'Odstranit všechny zprávy, kromě prvních příspěvků';
 $lang['DELETE_USER_POSTS_ME'] = 'Jsou si jisti, že chcete odstranit všechny mé příspěvky?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Jste si jisti, že chcete odstranit všechny zprávy, kromě prvních příspěvků?';
 $lang['USER_DELETED_POSTS'] = 'Příspěvky byly úspěšně odstraněny';
 
 $lang['USER'] = 'Uživatel';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Nemáte oprávnění k zobrazení skrytého skupin
 
 $lang['USER_ACTIVATE'] = 'Aktivovat';
 $lang['USER_DEACTIVATE'] = 'Deaktivovat';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = 'Opravdu chcete deaktivovat tohoto uživatele?';
 $lang['USER_ACTIVATE_ON'] = 'Uživatel byl úspěšně aktivován';
 $lang['USER_DEACTIVATE_ME'] = 'Nemůžete deaktivovat můj účet!';
 $lang['ACTIVATE_CONFIRM'] = 'Jsou si jisti, že chcete zakázat tento uživatel?';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = 'Musíte zadat e-mail';
 $lang['CHOOSE_PASS'] = 'Pole pro heslo nesmí být prázdné!';
 $lang['CHOOSE_PASS_ERR'] = 'Zadaná hesla se neshodují';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Vaše heslo musí být alespoň %d znaky';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Vaše heslo nesmí překročit délku %d znaků';
+$lang['CHOOSE_PASS_ERR_NUM'] = 'Heslo musí obsahovat alespoň jedno číslo';
+$lang['CHOOSE_PASS_ERR_LETTER'] = 'Heslo musí obsahovat alespoň jedno písmeno latinské abecedy';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'Heslo musí obsahovat alespoň jedno velké písmeno latinské abecedy';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Heslo musí obsahovat alespoň jeden speciální znak';
 $lang['CHOOSE_PASS_OK'] = 'Hesla se shodují';
 $lang['CHOOSE_PASS_REG_OK'] = 'Hesla se shodují, můžete pokračovat s registrací';
 $lang['CHOOSE_PASS_FAILED'] = 'Chcete-li změnit heslo, musíte správně zadat aktuální heslo';
 $lang['EMAILER_DISABLED'] = 'Omlouváme se, tato funkce je dočasně nefunguje';
 $lang['TERMS_ON'] = 'Souhlasím s těmito podmínkami';
 $lang['TERMS_OFF'] = 'Nesouhlasím s těmito podmínkami';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'Pro registraci musíte povolit JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Registrace je aktuálně uzavřena<br /><br />Registrace je dostupná během: %s<br />Aktuální čas serveru: %s<br /><br />Omlouváme se za nepříjemnosti";
+$lang['AUTOCOMPLETE'] = 'Generovat heslo';
 $lang['YOUR_NEW_PASSWORD'] = 'Jsou vaše nové heslo:';
 $lang['REGENERATE'] = 'Regenerovat';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = 'z';
 $lang['MEMORY'] = 'Mem: ';
 $lang['QUERIES'] = 'dotazy';
 $lang['LIMIT'] = 'Limit:';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = 'Zobrazit protokol';
+$lang['EXPLAINED_LOG'] = 'Vysvětlený protokol';
+$lang['CUT_LOG'] = 'Zkrátit dlouhé dotazy';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = 'Stáhnout zdarma a při maximální rychlosti!';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = 'Tučný text: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'Italic text: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = 'Podtržení textu: [u]text[/u] (Ctrl+U)';
 $lang['STRIKEOUT'] = 'Přeškrtnutí textu: [s]text[/s] (Ctrl+S)';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
+$lang['BOX_TAG'] = 'Rámeček kolem textu: [box]text[/box] nebo [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = 'Vložit odsazení: [indent]text[/indent]';
+$lang['PRE_TAG'] = 'Formátovaný text: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Nadpisový text: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Podpisový text: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Cituji text: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Vložit obrázek: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'Url';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = 'Kód displej: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Seznam';
 $lang['LIST_TITLE'] = 'Seznam: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = 'Uspořádaný seznam: [list=]text[/list] (Ctrl+O)';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = 'Zkratka';
+$lang['ACRONYM_TITLE'] = 'Zkratka: [acronym=Plný text]Krátký text[/acronym]';
 $lang['QUOTE_SEL'] = 'Cituji vybrané';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = 'JavaScript musí být povolen pro odesílání zpráv';
 
 $lang['NEW'] = 'Nové';
 $lang['NEWEST'] = 'Nejnovější';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL rychlost';
 $lang['DL_DL_SPEED'] = 'DL rychlost';
 $lang['DL_PORT'] = 'Port';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'Klient BitTorrent';
 $lang['DL_FORMULA'] = 'Vzorec: Nahrál/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'zastavil';
 $lang['DL_UPD'] = 'upd: ';
 $lang['DL_INFO'] = 'zobrazuje údaje <i><b>only pro aktuální session</b></i>';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Skrýt název mého klienta BitTorrent v seznamu peerů';
+$lang['HIDE_PEER_COUNTRY_NAME'] = 'Skrýt název mé země v seznamu peerů';
+$lang['HIDE_PEER_USERNAME'] = 'Skrýt uživatelské jméno v seznamu peerů';
 
 // Post PIN
 $lang['POST_PIN'] = 'Pin první příspěvek';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = 'Chcete-li odstranit, aby ze seznamu, klepněte na ikon
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Sledoval témata';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Nesledujete žádná témata';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Zpět na úvodní stránku';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = 'Přejděte na profil';
 
 $lang['WARNING'] = 'Varování';
 $lang['INDEXER'] = 'Reindex vyhledávání';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = 'Indexace byla úspěšně aktualizována';
 
 $lang['FORUM_STYLE'] = 'Fórum styl';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = 'Uvolnění Šablon';
 $lang['ACTIONS_LOG'] = 'Zpráva o akci';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = 'Stav migrace databáze';
+$lang['MIGRATIONS_DATABASE_NAME'] = 'Název databáze';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Celkem tabulek';
+$lang['MIGRATIONS_DATABASE_SIZE'] = 'Velikost databáze';
+$lang['MIGRATIONS_DATABASE_INFO'] = 'Informace o databázi';
+$lang['MIGRATIONS_SYSTEM'] = 'Systém migrace';
+$lang['MIGRATIONS_NEEDS_SETUP'] = 'Potřebuje nastavení';
 $lang['MIGRATIONS_ACTIVE'] = 'Aktivní';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
-$lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Není inicializováno';
+$lang['MIGRATIONS_UP_TO_DATE'] = 'Vše je aktuální';
+$lang['MIGRATIONS_PENDING_COUNT'] = 'čeká';
+$lang['MIGRATIONS_APPLIED'] = 'Provedené migrace';
+$lang['MIGRATIONS_PENDING'] = 'Čekající migrace';
+$lang['MIGRATIONS_VERSION'] = 'Verze';
+$lang['MIGRATIONS_NAME'] = 'Název migrace';
+$lang['MIGRATIONS_FILE'] = 'Soubor migrace';
+$lang['MIGRATIONS_APPLIED_AT'] = 'Provedeno v';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'Dokončeno v';
+$lang['MIGRATIONS_CURRENT_VERSION'] = 'Aktuální verze';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Žádné migrace nebyly aplikovány';
+$lang['MIGRATIONS_INSTRUCTIONS'] = 'Pokyny';
+$lang['MIGRATIONS_SETUP_STATUS'] = 'Stav nastavení';
+$lang['MIGRATIONS_SETUP_GUIDE'] = 'Viz průvodce nastavením níže';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Vyžaduje akci';
 
 // Index
 $lang['MAIN_INDEX'] = 'Forum Index';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'Gzip komprese';
 $lang['NOT_AVAILABLE'] = 'Není k dispozici';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
+$lang['ADMIN_SYSTEM_INFORMATION'] = 'Systémové informace';
 $lang['ADMIN_SYSTEM_OS'] = 'OS:';
 $lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
-$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Databáze:';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Omezení paměti:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Informace o prostoru na disku:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (využito: %s | volno: %s)';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Maximální doba vykonání:';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Datastore';
 $lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_TEMPLATES_CACHE'] = 'Cache šablon';
 
 // Update
 $lang['USER_LEVELS'] = 'Uživatelské úrovně';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Uživatel příspěvků hrabě byl syn
 $lang['SHOW_ONLINE_USERLIST'] = 'Zobrazit seznam online uživatelů';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Spravovat robots.txt';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'Soubor robots.txt byl úspěšně aktualizován';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sKlikněte zde pro návrat do správce robots.txt%s';
 
 // Auth pages
 $lang['USER_SELECT'] = 'Vyberte Uživatele';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = 'Uživatelská oprávnění byly aktualizovány';
 $lang['GROUP_AUTH_UPDATED'] = 'Oprávnění skupiny byly aktualizovány';
 
 $lang['AUTH_UPDATED'] = 'Oprávnění byly aktualizovány';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = 'Nelze aktualizovat status administrátora';
+$lang['AUTH_SELF_ERROR'] = 'Nelze se změnit z administrátora na uživatele';
+$lang['NO_FORUMS_AVAILABLE'] = 'Žádná fóra nejsou k dispozici. Nejprve vytvořte fóra pro správu oprávnění.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Klikněte %sHere%s pro návrat do Uživatelské Oprávnění';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Klikněte %sHere%s k návratu do Oprávnění Skupiny';
 $lang['CLICK_RETURN_FORUMAUTH'] = 'Klikněte %sHere%s k návratu k Oprávnění Fóra';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Zákaz Řízení';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = 'Zde můžete ovládat zákaz uživatelů.';
 $lang['BAN_USERNAME'] = 'Zakázat jednu nebo více konkrétních uživatelů';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Můžete zakázat více uživatelů najednou pomocí vhodné kombinace myši a klávesnice pro váš počítač a prohlížeč';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = 'Zrušit zákaz jednoho nebo více konkrétních uživatelů';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Můžete unban více uživatelů najednou pomocí vhodné kombinace myši a klávesnice pro váš počítač a prohlížeč';
 $lang['NO_BANNED_USERS'] = 'Žádné zakázané uživatelská jména';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Na banlist byl aktualizován úspěšně';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Fórum Správy';
 $lang['FORUM_ADMIN_EXPLAIN'] = 'Z tohoto panelu můžete přidávat, mazat, upravovat, re-order a re-synchronizovat kategorie a fóra';
 $lang['EDIT_FORUM'] = 'Upravit fórum';
 $lang['CREATE_FORUM'] = 'Vytvořit nové fórum';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = 'Vytvořit subforum';
 $lang['CREATE_CATEGORY'] = 'Vytvořit novou kategorii';
 $lang['REMOVE'] = 'Odstranit';
 $lang['UPDATE_ORDER'] = 'Aktualizace Pořadí';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = 'Přesunout veškerý obsah';
 $lang['FORUM_DELETE'] = 'Odstranit Forum';
 $lang['FORUM_DELETE_EXPLAIN'] = 'Níže uvedený formulář vám umožní odstranit fórum (nebo kategorii) a rozhodnout, kde chcete dát všechna témata (nebo fórum) obsahoval.';
 $lang['CATEGORY_DELETE'] = 'Odstranit Kategorii';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = 'Název kategorie nebyl zadán';
 
 $lang['STATUS_LOCKED'] = 'Zamkl';
 $lang['STATUS_UNLOCKED'] = 'Odemčený';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Pomocí tohoto formuláře můžete přidat, upravit, 
 $lang['ADD_NEW_RANK'] = 'Přidat nové hodnosti';
 $lang['RANK_TITLE'] = 'Hodnost Titul';
 $lang['STYLE_COLOR'] = 'Styl hodnost';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = 'Určete třídu, aby stylizovala název požadovanou barvou. Například: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Pozice Obrazu';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Použití této definice malého obrázek spojený s hodnosti';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikněte %sHere%s vrátit Zakázat uživ
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informace O Verzi';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = 'Aktualizace dostupná';
+$lang['CHANGELOG'] = 'Historie změn';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Povolených pokusů o přihlášení';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Pouze správci';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s můžete prohlížet toto fórum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s můžete přečíst příspěvky v tomto fóru';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s může příspěvek v tomto fóru';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s může odpovídat na příspěvky v tomto fóru';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s můžete upravovat své příspěvky v tomto fóru';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s mohou mazat příspěvky v tomto fóru';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s může psát sticky témata v tomto fóru';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = 'Synchronizace';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. délka zprávy';
 $lang['NEWS_COUNT'] = 'Kolik news show';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'Z jakých fór zobrazit <br /> <h6>Pro několik fór zadejte ID oddělená čárkami. Příklad: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Žádný avatar';
 $lang['TRACKER_STATS'] = 'Statistiky tracker';
 $lang['WHOIS_INFO'] = 'Informace o IP adrese';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Ukázat na moderátorů index.php';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = 'Zobrazit datum spuštění fóra na index.php';
 $lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If nemáte rozdělení na stav v, #, nebo T v této sekci včetně podsekcí, distribuce automaticky obdrží tento status</h6>';
 $lang['TOR_COMMENT'] = '<h4>Komentář ke stavu distribuce</h4> <h6>Komentář umožňuje upozornit vydavatele na chyby, kterých se dopustil. Pokud jsou stavy neúplné, má správce vydání k dispozici formulář pro odpověď na vydání, který opraví vydání</h6>';
 $lang['SEED_BONUS_ADD'] = '<h4>Adding seed bonus </h4> <h6> Počet distribucí jsou předány uživatelem a velikost bonusů pro ně (doba nabíjení, hodiny) </h6>';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Rozšíření Skupiny %s již existují'; // r
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Správa Zvláštní Kategorie';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Zde si můžete nastavit Zvláštní Kategorie. Můžete nastavit Speciální Parametry a Podmínky pro Speciální Kategorie přidělené k Rozšíření Skupiny.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Nastavení pro Speciální Kategorie: Obrázky';
 $lang['SETTINGS_CAT_FLASH'] = 'Nastavení pro Speciální Kategorie: Flash Soubory';
 $lang['DISPLAY_INLINED'] = 'Zobrazit Obrázky Vloženy';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = 'Oznámit url';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'můžete definovat další povolené adresy url v "includes/torrent_announce_urls.php"';
 $lang['BT_DISABLE_DHT'] = 'Zakázat DHT sítě';
 $lang['BT_DISABLE_DHT_EXPL'] = 'Zakázat Peer Exchange a DHT (doporučeno pro privátní sítě, pouze url oznámit)';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = 'Tento tracker je soukromý: seznam souborů (pro hosty), DHT | PEX jsou zakázány';
+$lang['BT_PRIVATE_TORRENT'] = 'Tvůrce tohoto torrentu jej učinil soukromým';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Ověřit oznámit url';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'zaregistrujte se na tracker povoleno pouze adresy url';
 $lang['BT_REPLACE_ANN_URL'] = 'Vyměňte oznámit url';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Umožňují boolean fulltextové vyhledávání'
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'použití *, +, -,.. v hledání';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Různé";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Zobrazit statistiky UL/DL uživatelů na hlavní stránce fóra";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automaticky zaregistrovat torrent na tracker pro nová témata';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Změnit téma stav na "Stáhnout" při registraci torrent na tracker';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'změní téma typu "ke Stažení", bez ohledu na nastavení fóra';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = 'Šablony zdravotně postižené';
 $lang['FOR_NEW_TEMPLATE'] = 'pro nové vzory!';
 $lang['CHANGED'] = 'Změnil';
 $lang['REMOVED'] = 'Odstraněny';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = 'Potvrďte, jste si jisti, že chcete provést tuto akci';
 
 $lang['CRON_LIST'] = 'Cron seznam';
 $lang['CRON_ID'] = 'ID';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Povolit';
 $lang['RUN_MAIN_CRON'] = 'Spustit cron';
 $lang['ADD_JOB'] = 'Přidat cron';
 $lang['DELETE_JOB'] = 'Jsou si jisti, že chcete smazat cron job?';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron nyní funguje nebo je broken -> ';
 $lang['REPAIR_CRON'] = 'Opravy Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Edit práci';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Zakázat rady';
 $lang['BOARD_DISABLE_EXPL'] = 'zakázat palubě při této práci je spustit';
 $lang['RUN_COUNTER'] = 'V rozporu';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = 'Úloha byla úspěšně odstraněna';
 $lang['SCRIPT_DUPLICATE'] = 'Scénář <b>' . @$_POST['cron_script'] . '</b> již existuje!';
 $lang['TITLE_DUPLICATE'] = 'Název Úlohy <b>' . @$_POST['cron_title'] . '</b> již existuje!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sNávrat k přidání úlohy%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack k Úkolu Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Znovu Sestavit Vyhledávací Index';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Kolik času (v sekundách) zůstat nečinný p�
 
 $lang['TIME_LIMIT'] = 'Lhůta';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Kolik času (v sekundách) po zpracování může trvat, než se stěhuje do další cyklus';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Váš PHP (safe mode) má nastavený časový limit %s sekund, takže zůstaňte pod tuto hodnotu</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver má časový limit %s sekund, nakonfigurován, tak, že zůstane pod tento value</i>';
 
 $lang['DISABLE_BOARD'] = 'Zakázat rady';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = 'Zadali jste špatné hodnoty. Prosím zkontrolujte zadá
 $lang['PROCESSING'] = 'Zpracování...';
 $lang['FINISHED'] = 'Skončil';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Téma bylo přesunuto z fóra [b]%s[/b] do fóra [b]%s[/b].[br][b]Důvod pro přesun:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Téma bylo rozděleno. Nové téma - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Téma bylo rozděleno z [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = 'Volání seedů';
 $lang['CALLSEED_EXPLAIN'] = 'Přijímat oznámení s žádostí, aby se vrátit do distribuce';
 $lang['CALLSEED_SUBJECT'] = 'Ke stažení help %s';
 $lang['CALLSEED_TEXT'] = 'Dobrý den![br]Your pomoc je nutná při uvolňování [url=%s]%s[/url][br]if se rozhodnete pomoci, ale už vymazal soubor torrent, si můžete stáhnout [url=%s]this[/url][br][br]i doufám, že za vaši pomoc!';
@@ -2855,22 +2855,22 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Téma:<br /> <b>closed</b>',
     'mod_topic_unlock' => 'Téma:<br /> <b>opened</b>',
     'mod_topic_split' => 'Téma:<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => 'Téma:<br /> <b>nastavit staženo</b>',
+    'mod_topic_unset_downloaded' => 'Téma:<br /> <b>zrušit staženo</b>',
+    'mod_topic_change_tor_status' => 'Téma:<br /> <b>změněn status torrentu</b>',
+    'mod_topic_change_tor_type' => 'Téma:<br /> <b>změněn typ torrentu</b>',
+    'mod_topic_tor_unregister' => 'Téma:<br /> <b>torrent zaregistrován</b>',
+    'mod_topic_tor_register' => 'Téma:<br /> <b>torrent registrován</b>',
+    'mod_topic_tor_delete' => 'Téma:<br /> <b>torrent smazán</b>',
+    'mod_topic_renamed' => 'Téma:<br /> <b>přejmenován</b>',
+    'mod_topic_poll_started' => 'Téma:<br /> <b>anketa začala</b>',
+    'mod_topic_poll_finished' => 'Téma:<br /> <b>anketa dokončena</b>',
+    'mod_topic_poll_deleted' => 'Téma:<br /> <b>anketa smazána</b>',
+    'mod_topic_poll_added' => 'Téma:<br /> <b>anketa přidána</b>',
+    'mod_topic_poll_edited' => 'Téma:<br /> <b>anketa upravena</b>',
     'mod_post_delete' => 'Post:<br /> <b>deleted</b>',
-    'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
-    'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
+    'mod_post_pin' => 'Příspěvek:<br /> <b>připnutý</b>',
+    'mod_post_unpin' => 'Příspěvek:<br /> <b>odepnuto</b>',
     'adm_user_delete' => 'Uživatel:<br /> <b>deleted</b>',
     'adm_user_ban' => 'Uživatel:<br /> <b>ban</b>',
     'adm_user_unban' => 'Uživatel:<br /> <b>unban</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = 'Vyplňte prosím formulář uvolnění';
 $lang['NEW_RELEASE'] = 'Nové vydání';
 $lang['NEXT'] = 'Pokračovat';
 $lang['OTHER'] = 'Další';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = 'Ostatní';
+$lang['ALL'] = 'Všechny';
 
 $lang['TPL_EMPTY_FIELD'] = 'Musíte vyplnit pole <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Musíte vybrat <b>%s</b>';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Hledání uživatelům webové Stránky
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Hledat pro uživatele s Polohou odpovídající %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Hledání uživatelů s jejich Zájmy pole odpovídající %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Hledání uživatelů s jejich Okupace pole odpovídající %s';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Hledání uživatelů, kteří navštívili v poslední %s';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Hledání uživatelů, kteří navštívili po poslední %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Hledat pro uživatele, kteří mají nastavena %s jako jejich jazyk';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Hledání uživatelů, kteří mají nastaveno UTC %s jako jejich časové pásmo';
 $lang['SEARCH_FOR_STYLE'] = 'Hledat pro uživatele, kteří mají nastavena %s jako jejich styl';
@@ -3061,7 +3061,7 @@ $lang['FORUM_MAP'] = 'Fóra mapu';
 $lang['ATOM_FEED'] = 'Krmivo';
 $lang['ATOM_ERROR'] = 'Chyba při generování krmiva';
 $lang['ATOM_SUBSCRIBE'] = 'Přihlásit se k odběru krmiva';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = 'Žádná možnost módu poskytnuta pro krmivo';
 $lang['ATOM_NO_FORUM'] = 'Toto fórum nemá krmit (ne probíhající témata)';
 $lang['ATOM_NO_USER'] = 'Tento uživatel nemá krmivo (žádné probíhající témata)';
 $lang['ATOM_UPDATED'] = 'Aktualizováno';
@@ -3070,15 +3070,15 @@ $lang['ATOM_GLOBAL_FEED'] = 'Globální zdroj pro všechny fóra';
 $lang['HASH_INVALID'] = 'Hash %s je neplatný';
 $lang['HASH_NOT_FOUND'] = 'Zpráva s hash %s nebyl nalezen';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[align=center]Text této stránky byl upraven na: [url]%s[/url]. Tato linka může vidět pouze správci.[/align]';
 $lang['TERMS_EXPLAIN'] = 'Na této stránce můžete zadat text ze základních pravidel, zdroje se zobrazí uživatelům.';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Podmínky byly úspěšně aktualizovány';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sKlikněte zde pro návrat k editoru podmínek%s';
 
 $lang['TR_STATS'] = [
     0 => 'neaktivní uživatelé za 30 dní',
     1 => 'neaktivní uživatele po dobu 90 dnů',
-    2 => 'medium size distributions on the tracker',
+    2 => 'střední velikost distribucí na trackeru',
     3 => 'kolik celkem rukou na tracker',
     4 => 'jak mnozí žijí rukou (tam je alespoň 1 led)',
     5 => 'jak mnoho rukou, kde to očkování o více než 5 semen',
@@ -3108,11 +3108,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = 'Každý řádek odpovídá jedné odpovědi (max.
 $lang['OLD_BROWSER'] = 'Používáte zastaralý prohlížeč. Na webové stránky se nebudou zobrazovat správně.';
 $lang['GO_BACK'] = 'Vrátit';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Nahrávání souborů zakázáno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Nahrání souboru chyby';
 $lang['UPLOAD_ERROR_SIZE'] = 'Nahraný soubor přesahuje maximální velikost %s';
 $lang['UPLOAD_ERROR_FORMAT'] = 'Neplatný typ souboru obrazu';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Rozměry obrázku přesahují maximální povolené %sx%s pixelů';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'Nahraný soubor není obrázek';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'Rozšíření %s pro stahování není povoleno';
 $lang['UPLOAD_ERRORS'] = [
@@ -3128,18 +3128,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Zkontrolujte, že nejste robot';
 $lang['CAPTCHA_WRONG'] = 'Můžete potvrdit, že nejste robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha není zcela nakonfigurováno</h2><p>Vygenerujte klíče pomocí řídicího panelu vaší captcha služby, poté je musíte umístit do souboru library/config.php.</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Ověření CAPTCHA probíhá na pozadí';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = 'Odpovědět na';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => 'Žádný předmět',
     'GROUP_ADDED' => 'Byli jste přidáni do uživatelské skupiny',
     'GROUP_APPROVED' => 'Vaše žádost o připojení k uživatelské skupině byla schválena',
     'GROUP_REQUEST' => 'Žádost o připojení k vaší uživatelské skupině',
     'PRIVMSG_NOTIFY' => 'Nová soukromá zpráva',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => 'Oznámení o odpovědi v tématu - %s',
     'USER_ACTIVATE' => 'Reaktivace účtu',
     'USER_ACTIVATE_PASSWD' => 'Potvrzení nového hesla',
     'USER_WELCOME' => 'Vítejte na stránkách %s',
@@ -3147,17 +3147,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = 'Resetovat poměr';
+$lang['BT_NULL_RATIO_NONE'] = 'Nemáte poměr';
+$lang['BT_NULL_RATIO_ALERT'] = "Pozor!\n\nOpravdu chcete resetovat svůj poměr?";
+$lang['BT_NULL_RATIO_AGAIN'] = 'Již jste resetovali svůj poměr!';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'Máte dobrý poměr. Reset je možný pouze s poměrem nižším než %s';
+$lang['BT_NULL_RATIO_SUCCESS'] = 'Poměr byl úspěšně resetován!';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
-$lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SIZE'] = 'Celková velikost:';
+$lang['RELEASER_STAT'] = 'Statistiky uvolňovatele:';
+$lang['RELEASER_STAT_SHOW'] = 'Zobrazit statistiky';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = 'Přepnout temný režim';

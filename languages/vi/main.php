@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = 'Bài';
 $lang['POSTED'] = 'Đăng';
 $lang['USERNAME'] = 'Tên';
 $lang['PASSWORD'] = 'Mật khẩu';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = 'Hiển thị mật khẩu';
 $lang['EMAIL'] = 'Email';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Giả';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = 'Kích hoạt';
 $lang['DISABLED'] = 'Vô hiệu hóa';
 $lang['ERROR'] = 'Lỗi';
 $lang['SELECT_ACTION'] = 'Chọn hành động';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = 'Xóa';
+$lang['MOVE_TO_TOP'] = 'Di chuyển lên đầu';
 $lang['UNKNOWN'] = 'Không rõ';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = 'Sao chép vào bộ nhớ tạm';
+$lang['NO_ITEMS'] = 'Không có dữ liệu nào ở đây...';
+$lang['PLEASE_TRY_AGAIN'] = 'Xin hãy thử lại sau vài giây...';
 
 $lang['NEXT_PAGE'] = 'Tiếp theo';
 $lang['PREVIOUS_PAGE'] = 'Trước đó';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Mẫu nhớ tạm đã được xóa';
 $lang['DATASTORE_CLEARED'] = 'Kho dữ liệu đã bị xóa';
 $lang['BOARD_DISABLE'] = 'Xin lỗi, diễn đàn này là vô hiệu hóa. Hãy cố gắng trở lại sau';
 $lang['BOARD_DISABLE_CRON'] = 'Diễn đàn đang tắt để bảo trì. Hãy cố gắng trở lại sau';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = 'Diễn đàn bị vô hiệu hóa bởi quản trị viên. Bạn có thể bật lại bất cứ lúc nào';
+$lang['ADMIN_DISABLE_CRON'] = 'Diễn đàn bị khóa bởi việc kích hoạt cron. Bạn có thể xóa khóa bất cứ lúc nào';
 $lang['ADMIN_DISABLE_TITLE'] = 'Các diễn đàn đang vô hiệu hóa';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Diễn đàn đang tắt để bảo trì';
 $lang['ADMIN_UNLOCK'] = 'Cho phép diễn đàn';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = 'Quản trị';
 $lang['ONLINE_MOD'] = 'Điều hành';
 $lang['ONLINE_GROUP_MEMBER'] = 'Thành viên của nhóm';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Hành động này không thể thực hiện trong chế độ demo!';
 
 $lang['CURRENT_TIME'] = 'Thời gian hiện tại là: <span class="tz_time">%s</span>';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Bài viết mới [ Khóa ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Diễn đàn đang bị khóa';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = 'Xin vui lòng nhập tên người dùng và mật khẩu để đăng nhập.';
 $lang['LOGIN'] = 'Đăng nhập';
 $lang['LOGOUT'] = 'Đăng';
 $lang['CONFIRM_LOGOUT'] = 'Bạn có chắc chắn muốn thoát ra?';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = 'Bạn <b>can</b> bỏ phiếu trong số phiếu bầ
 $lang['RULES_VOTE_CANNOT'] = 'Bạn <b>cannot</b> bỏ phiếu trong số phiếu bầu trong diễn đàn này';
 $lang['RULES_MODERATE'] = 'Bạn <b>can</b> vừa diễn đàn này';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = 'Chưa có bài viết nào trong diễn đàn này<br />Nhấn vào biểu tượng <b>Chủ đề Mới</b>, và bài viết của bạn sẽ là bài đầu tiên.';
+$lang['NO_RELEASES_POST_ONE'] = 'Chưa có bản phát hành nào trong diễn đàn này<br />Nhấn vào biểu tượng <b>Phát Hành Mới</b>, và bản phát hành của bạn sẽ là bản đầu tiên.';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'Xem chủ đề';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = 'văn bản ẩn';
 $lang['SPOILER_CLOSE'] = 'biến';
 $lang['PLAY_ON_CURPAGE'] = 'Bắt đầu chơi trên trang hiện tại';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = 'Cuối cùng chỉnh sửa bởi <b>%s</b> vào %s; chỉnh sửa %d thời gian trong tổng'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = 'Cuối cùng chỉnh sửa bởi <b>%s</b> vào %s; chỉnh sửa %d lần trong tổng'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Khóa chủ đề';
 $lang['UNLOCK_TOPIC'] = 'Mở khóa những chủ đề';
@@ -378,8 +378,8 @@ $lang['DELETE_POLL'] = 'Hủy bỏ phiếu bầu';
 $lang['MAX_SMILIES_PER_POST'] = 'Biểu tượng giới hạn của %s cảm vượt quá.';
 
 $lang['ATTACH_SIGNATURE'] = 'Gắn chữ ký (chữ ký có thể được thay đổi trong hồ sơ)';
-$lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['NOTIFY'] = 'Thông báo cho tôi khi có phản hồi';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Cho phép robot chỉ mục chủ đề này';
 
 $lang['STORED'] = 'Tin nhắn của bạn đã được nhập vào thành công.';
 $lang['EDITED'] = 'Các tin nhắn đã được thay đổi';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Gửi một tin nhắn mới';
 $lang['SEND_A_REPLY'] = 'Trả lời tin nhắn';
 $lang['EDIT_MESSAGE'] = 'Chỉnh sửa tin nhắn';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = 'Tin Nhắn riêng mới đã được nhận!';
 
 $lang['FIND_USERNAME'] = 'Tìm một tên';
 $lang['SELECT_USERNAME'] = 'Chọn một Tên';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = 'Sinh nhật';
 $lang['HAPPY_BIRTHDAY'] = 'Chúc Mừng Sinh Nhật!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Sinh nhật dạng được nhập không chính xác.';
 $lang['AGE'] = 'Tuổi';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = 'Xin lỗi, trang web này không chấp nhận người dùng lớn hơn %d tuổi';
+$lang['BIRTHDAY_TO_LOW'] = 'Xin lỗi, trang web này không chấp nhận người dùng nhỏ hơn %d tuổi';
 $lang['BIRTHDAY_TODAY'] = 'Người sử dụng với một sinh nhật hôm nay: ';
 $lang['BIRTHDAY_WEEK'] = 'Người sử dụng với một sinh nhật trong vòng tiếp theo %d ngày: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Không sử dụng được có một sinh nhật trong sắp tới ngày %d'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = 'Không có người sử dụng, có một sinh nh�
 $lang['BIRTHDAY_ENABLE'] = 'Cho phép sinh nhật';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max tuổi';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min tuổi';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Ngày kiểm tra những sinh nhật sắp diễn ra';
 $lang['YEARS'] = 'Năm';
 
 $lang['NO_THEMES'] = 'Không có chủ Đề Trong cơ sở dữ liệu';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = 'Thiết lập lại tượng chìa khóa';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'bao gồm cả những nơi mà bạn đã đến thăm các diễn đàn bật tự động';
 
 $lang['AVATAR'] = 'Avatar';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = 'Hiển thị hình ảnh đồ họa nhỏ dưới chi tiết của bạn trong bài viết. Chỉ có một hình ảnh có thể được hiển thị tại một thời điểm, chiều rộng không lớn hơn %d pixel, chiều cao không lớn hơn %d pixel, và kích thước tệp không lớn hơn %s.';
 $lang['AVATAR_DELETE'] = 'Rõ ràng avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar kiểm soát lựa chọn vô hiệu hóa cho vi phạm <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Tải lên avatar';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = 'Trở về để hồ sơ';
 $lang['SELECT_CATEGORY'] = 'Chọn loại';
 
 $lang['DELETE_IMAGE'] = 'Xóa hình ảnh';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = 'Đặt hình đại diện MonsterID';
 $lang['CURRENT_IMAGE'] = 'Hình ảnh hiện tại';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Thông báo tin nhắn mới';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = 'Hồ sơ của bạn đã được cập nh
 
 $lang['PASSWORD_MISMATCH'] = 'Các bạn nhập vào mật khẩu không phù hợp.';
 $lang['CURRENT_PASSWORD_MISMATCH'] = 'Mật khẩu hiện tại, bạn được không trận đấu đó được lưu trữ trong cơ sở dữ liệu.';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = 'Mật khẩu của bạn không được dài hơn %d ký tự và không được ngắn hơn %d ký tự.';
 $lang['TOO_MANY_REGISTERS'] = 'Bạn có làm quá nhiều đăng ký cố gắng. Xin vui lòng thử lại sau.';
 $lang['USERNAME_TAKEN'] = 'Xin lỗi, nhưng tên này đã được thực hiện.';
 $lang['USERNAME_INVALID'] = 'Xin lỗi, nhưng tên này có chứa một phế nhân vật';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Xin lỗi, nhưng tên này đã không được
 $lang['USERNAME_TOO_LONG'] = 'Tên của bạn là quá lâu.';
 $lang['USERNAME_TOO_SMALL'] = 'Tên của bạn là quá nhỏ.';
 $lang['EMAIL_TAKEN'] = 'Xin lỗi, nhưng có địa chỉ e-mail đã được đăng ký cho một người dùng.';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = 'Xin lỗi, nhưng địa chỉ <b>%s</b> đã bị cấm.';
 $lang['EMAIL_INVALID'] = 'Xin lỗi, nhưng điều này địa chỉ e-mail là không hợp lệ.';
 $lang['EMAIL_TOO_LONG'] = 'Email của bạn là quá lâu.';
 $lang['SIGNATURE_TOO_LONG'] = 'Chữ ký của bạn là quá lâu.';
@@ -691,17 +691,17 @@ $lang['DESC'] = 'Giảm dần';
 $lang['ORDER'] = 'Trật tự';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = 'Bỏ phiếu cho chủ đề này';
+$lang['THANKS_GRATITUDE'] = 'Chúng tôi đánh giá cao sự biết ơn của bạn';
+$lang['LAST_LIKES'] = 'Các phiếu bầu cuối cùng';
+$lang['LIKE_OWN_POST'] = 'Bạn không thể bỏ phiếu cho chủ đề của chính mình';
+$lang['NO_LIKES'] = 'Chưa có ai bỏ phiếu';
+$lang['LIKE_ALREADY'] = 'Bạn đã bỏ phiếu cho chủ đề này rồi';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = 'Mã mời';
+$lang['INCORRECT_INVITE'] = 'Không tìm thấy mã mời';
+$lang['INVITE_EXPIRED'] = 'Mã mời đã hết hạn';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = 'Nhóm Người Dùng';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = 'Một yêu cầu phải tham gia nhóm của bạn đ�
 $lang['GROUP_APPROVED'] = 'Yêu cầu được chấp thuận.';
 $lang['GROUP_ADDED'] = 'Bạn đã được thêm vào nhóm làm việc này.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Bạn đã là một thành viên của nhóm này';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s đã là một thành viên của nhóm này';
+$lang['USER_IS_MOD_GROUP'] = '%s là một người kiểm duyệt của nhóm này';
 $lang['GROUP_TYPE_UPDATED'] = 'Cập nhật thành công, loại.';
 $lang['EFFECTIVE_DATE'] = 'Hiệu Quả Ngày';
 
@@ -985,30 +985,30 @@ $lang['DATETIME']['NOV'] = 'Ngày';
 $lang['DATETIME']['DEC'] = 'Dec';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = 'Quốc gia';
+$lang['SET_OWN_COUNTRY'] = 'Đặt quốc gia của riêng bạn (Thủ công)';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
+    0 => 'Chưa chọn',
     'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
+    'AE' => 'Các Tiểu Vương Quốc Ả Rập Thống Nhất',
     'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
+    'AG' => 'Antigua và Barbuda',
     'AI' => 'Anguilla',
     'AL' => 'Albania',
     'AM' => 'Armenia',
     'AO' => 'Angola',
     'AQ' => 'Antarctica',
     'AR' => 'Argentina',
-    'AS' => 'American Samoa',
-    'AT' => 'Austria',
-    'AU' => 'Australia',
+    'AS' => 'Samoa Mỹ',
+    'AT' => 'Áo',
+    'AU' => 'Úc',
     'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
+    'AX' => 'Quần đảo Aland',
     'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
+    'BA' => 'Bosnia và Herzegovina',
     'BB' => 'Barbados',
     'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
+    'BE' => 'Bỉ',
     'BF' => 'Burkina Faso',
     'BG' => 'Bulgaria',
     'BH' => 'Bahrain',
@@ -1017,63 +1017,63 @@ $lang['COUNTRIES'] = [
     'BL' => 'Saint Barthélemy',
     'BM' => 'Bermuda',
     'BN' => 'Brunei Darussalam',
-    'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
+    'BO' => 'Bolivia, Nhà nước Plurinational',
+    'BQ' => 'Quần đảo Caribbean',
     'BR' => 'Brazil',
     'BS' => 'Bahamas',
     'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
+    'BV' => 'Đảo Bouvet',
     'BW' => 'Botswana',
     'BY' => 'Belarus',
     'BZ' => 'Belize',
     'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
+    'CC' => 'Quần đảo Cocos (Keeling)',
+    'CD' => 'Congo, Cộng hòa Dân chủ',
+    'CF' => 'Cộng hòa Trung Phi',
+    'CG' => 'Cộng hòa Congo',
+    'CH' => 'Thụy Sĩ',
+    'CI' => 'Cộng hòa bờ biển Ngà',
+    'CK' => 'Quần đảo Cook',
     'CL' => 'Chile',
     'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
+    'CN' => 'Trung Quốc (Cộng hòa Nhân dân Trung Hoa)',
     'CO' => 'Colombia',
     'CR' => 'Costa Rica',
     'CU' => 'Cuba',
     'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
+    'CW' => 'Quốc gia của Curaçao',
+    'CX' => 'Đảo Christmas',
     'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
+    'CZ' => 'Cộng hòa Séc',
+    'DE' => 'Đức',
     'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
+    'DK' => 'Đan Mạch',
     'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
+    'DO' => 'Cộng hòa Dominican',
     'DZ' => 'Algeria',
     'EC' => 'Ecuador',
     'EE' => 'Estonia',
-    'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
+    'EG' => 'Ai Cập',
+    'EH' => 'Sa mạc Sahara',
     'ER' => 'Eritrea',
-    'ES' => 'Spain',
+    'ES' => 'Tây Ban Nha',
     'ET' => 'Ethiopia',
-    'EU' => 'Europe',
-    'FI' => 'Finland',
+    'EU' => 'Châu Âu',
+    'FI' => 'Phần Lan',
     'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
+    'FK' => 'Quần đảo Falkland (Malvinas)',
+    'FM' => 'Micronesia, Các tiểu bang liên bang',
+    'FO' => 'Quần đảo Faroe',
+    'FR' => 'Pháp',
     'GA' => 'Gabon',
-    'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
+    'GB-ENG' => 'Anh',
+    'GB-NIR' => 'Bắc Ireland',
     'GB-SCT' => 'Scotland',
     'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
+    'GB' => 'Vương quốc Liên hiệp Anh',
     'GD' => 'Grenada',
     'GE' => 'Georgia',
-    'GF' => 'French Guiana',
+    'GF' => 'Guiana thuộc Pháp',
     'GG' => 'Guernsey',
     'GH' => 'Ghana',
     'GI' => 'Gibraltar',
@@ -1081,15 +1081,15 @@ $lang['COUNTRIES'] = [
     'GM' => 'Gambia',
     'GN' => 'Guinea',
     'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
+    'GQ' => 'Guinea Xích đạo',
+    'GR' => 'Hy Lạp',
+    'GS' => 'Nam Georgia và Quần đảo Sandwich phía Nam',
     'GT' => 'Guatemala',
     'GU' => 'Guam',
     'GW' => 'Guinea-Bissau',
     'GY' => 'Guyana',
-    'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
+    'HK' => 'Hồng Kông',
+    'HM' => 'Đảo Heard và Quần đảo McDonald',
     'HN' => 'Honduras',
     'HR' => 'Croatia',
     'HT' => 'Haiti',
@@ -1097,52 +1097,52 @@ $lang['COUNTRIES'] = [
     'ID' => 'Indonesia',
     'IE' => 'Ireland',
     'IL' => 'Israel',
-    'IM' => 'Isle of Man',
-    'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
+    'IM' => 'Đảo Man',
+    'IN' => 'Ấn Độ',
+    'IO' => 'Lãnh thổ Ấn Độ Dương thuộc Anh',
     'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
+    'IR' => 'Iran, Cộng hòa Hồi giáo',
     'IS' => 'Iceland',
-    'IT' => 'Italy',
+    'IT' => 'Ý',
     'JE' => 'Jersey',
     'JM' => 'Jamaica',
     'JO' => 'Jordan',
-    'JP' => 'Japan',
+    'JP' => 'Nhật Bản',
     'KE' => 'Kenya',
     'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
+    'KH' => 'Campuchia',
     'KI' => 'Kiribati',
     'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
+    'KN' => 'Saint Kitts và Nevis',
+    'KP' => 'Triều Tiên, Cộng hòa Dân chủ Nhân dân',
+    'KR' => 'Triều Tiên, Cộng hòa',
     'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
+    'KY' => 'Quần đảo Cayman',
     'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
+    'LA' => 'Lào (Cộng hòa Dân chủ Nhân dân Lào)',
+    'LB' => 'Liban',
     'LC' => 'Saint Lucia',
     'LI' => 'Liechtenstein',
     'LK' => 'Sri Lanka',
     'LR' => 'Liberia',
     'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
+    'LT' => 'Litva',
     'LU' => 'Luxembourg',
     'LV' => 'Latvia',
     'LY' => 'Libya',
     'MA' => 'Morocco',
     'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
+    'MD' => 'Moldova, Cộng hòa',
     'ME' => 'Montenegro',
     'MF' => 'Saint Martin',
     'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
+    'MH' => 'Quần đảo Marshall',
+    'MK' => 'Macedonia phía Bắc',
     'ML' => 'Mali',
     'MM' => 'Myanmar',
-    'MN' => 'Mongolia',
+    'MN' => 'Mông Cổ',
     'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
+    'MP' => 'Quần đảo Mariana phía Bắc',
     'MQ' => 'Martinique',
     'MR' => 'Mauritania',
     'MS' => 'Montserrat',
@@ -1156,11 +1156,11 @@ $lang['COUNTRIES'] = [
     'NA' => 'Namibia',
     'NC' => 'New Caledonia',
     'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
+    'NF' => 'Đảo Norfolk',
     'NG' => 'Nigeria',
     'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
+    'NL' => 'Hà Lan',
+    'NO' => 'Na Uy',
     'NP' => 'Nepal',
     'NR' => 'Nauru',
     'NU' => 'Niue',
@@ -1168,88 +1168,88 @@ $lang['COUNTRIES'] = [
     'OM' => 'Oman',
     'PA' => 'Panama',
     'PE' => 'Peru',
-    'PF' => 'French Polynesia',
+    'PF' => 'Polynésie Pháp',
     'PG' => 'Papua New Guinea',
     'PH' => 'Philippines',
     'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
+    'PL' => 'Ba Lan',
+    'PM' => 'Saint Pierre và Miquelon',
     'PN' => 'Pitcairn',
     'PR' => 'Puerto Rico',
     'PS' => 'Palestine',
-    'PT' => 'Portugal',
+    'PT' => 'Bồ Đào Nha',
     'PW' => 'Palau',
     'PY' => 'Paraguay',
     'QA' => 'Qatar',
     'RE' => 'Réunion',
     'RO' => 'Romania',
     'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
+    'RU' => 'Liên bang Nga',
     'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
+    'SA' => 'Ả Rập Saudi',
+    'SB' => 'Quần đảo Solomon',
     'SC' => 'Seychelles',
     'SD' => 'Sudan',
-    'SE' => 'Sweden',
+    'SE' => 'Thụy Điển',
     'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
+    'SH' => 'Saint Helena, Ascension và Tristan da Cunha',
     'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
+    'SJ' => 'Quần đảo Svalbard và Jan Mayen',
     'SK' => 'Slovakia',
     'SL' => 'Sierra Leone',
     'SM' => 'San Marino',
     'SN' => 'Senegal',
     'SO' => 'Somalia',
     'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
+    'SS' => 'Nam Sudan',
+    'SU' => 'Liên bang Xô Viết',
+    'ST' => 'Sao Tome và Principe',
     'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
+    'SX' => 'Sint Maarten (phần Hà Lan)',
+    'SY' => 'Cộng hòa Ả Rập Syria',
     'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
+    'TC' => 'Quần đảo Turks và Caicos',
     'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
+    'TF' => 'Các Lãnh thổ phương Nam của Pháp',
     'TG' => 'Togo',
-    'TH' => 'Thailand',
+    'TH' => 'Thái Lan',
     'TJ' => 'Tajikistan',
     'TK' => 'Tokelau',
     'TL' => 'Timor-Leste',
     'TM' => 'Turkmenistan',
     'TN' => 'Tunisia',
     'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
+    'TR' => 'Thổ Nhĩ Kỳ',
+    'TT' => 'Trinidad và Tobago',
     'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
-    'UA' => 'Ukraine',
+    'TW' => 'Đài Loan (Cộng hòa Trung Hoa)',
+    'TZ' => 'Tanzania, Cộng hòa thống nhất',
+    'UA' => 'Ukraina',
     'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
+    'UM' => 'Các Quần đảo Ngoại biên Hoa Kỳ',
+    'US' => 'Hoa Kỳ',
     'UY' => 'Uruguay',
     'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
-    'VN' => 'Vietnam',
+    'VA' => 'Thành Vatican (Nhà nước Thành Vatican)',
+    'VC' => 'Saint Vincent và Grenadines',
+    'VE' => 'Venezuela, Cộng hòa Bolivar',
+    'VG' => 'Quần đảo Virgin, Anh',
+    'VI' => 'Quần đảo Virgin, Hoa Kỳ',
+    'VN' => 'Việt Nam',
     'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
+    'WF' => 'Quần đảo Wallis và Futuna',
     'WS' => 'Samoa',
     'XK' => 'Kosovo',
     'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
+    'YU' => 'Nam Tư',
     'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
+    'ZA' => 'Nam Phi',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
-    'LGBT' => 'Pride flag'
+    'WBW' => 'Nước Nga tuyệt vời của tương lai',
+    'PACE' => 'Cờ hòa bình',
+    'LGBT' => 'Cờ tự hào'
 ];
 
 // Errors
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = 'Mô tả'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Tải về'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Kích cỡ';
 $lang['VIEWED'] = 'Xem';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Mở rộng \'%s\' đã bị vô hiệu hóa bởi quản trị viên, do đó phần đính kèm này không được hiển thị.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
-$lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
+$lang['STREAM'] = 'Luồng';
+$lang['RESOLUTION'] = 'Độ phân giải: <b>%s</b>';
+$lang['CHANNELS'] = 'Kênh: <b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = 'Bố cục kênh: <b>%s</b>';
 $lang['BITRATE'] = 'Bitrate: <b>%s</b>';
-$lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
-$lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
-$lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['SAMPLE_RATE'] = 'Tỉ lệ mẫu: <b>%s</b>';
+$lang['AUDIO_TRACK'] = 'Thông tin về Track âm thanh (%d):';
+$lang['AUDIO_CODEC'] = 'Codec âm thanh: <b title="%s">%s</b>';
+$lang['VIDEO_CODEC'] = 'Codec video: <b title="%s">%s</b>';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Hiển thị thêm thông tin về tệp';
+$lang['DOWNLOAD_M3U_FILE'] = 'Tải xuống tệp .m3u';
+$lang['PLAYBACK_M3U'] = 'Phát tệp .m3u';
+$lang['COPY_STREAM_LINK'] = 'Sao chép liên kết luồng vào bảng tạm';
+$lang['M3U_NOT_SUPPORTED'] = 'Tệp này không thể phát trong trình duyệt...';
+$lang['M3U_FFPROBE_NO_DATA'] = 'Có vẻ như ffprobe sẽ không thể trả về dữ liệu về codec này...';
+$lang['M3U_NOTICE'] = 'Một số trình duyệt không hỗ trợ phát lại các định dạng video nhất định. Trong trường hợp đó, bạn có thể tải xuống tệp .m3u và phát nó bằng cách sử dụng trình phát của bên thứ ba';
 
 $lang['ATTACHMENT'] = 'Đính kèm';
 $lang['ATTACHMENT_THUMBNAIL'] = 'Đính Kèm Hình Thu Nhỏ';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = 'Thêm';
 $lang['BT_REG_ON_TRACKER'] = 'Đăng ký trên theo dõi';
 $lang['BT_REG_FAIL'] = 'Không thể đăng ký torrent trên theo dõi';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Một torrent với cùng một info_hash đã <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'Các torrent v1-only đã bị vô hiệu hóa bởi quản trị viên tại thời điểm này, cho phép: v2 và hybrids';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'Các torrent v2-only đã bị vô hiệu hóa bởi quản trị viên tại thời điểm này, cho phép: v1 và hybrids';
+$lang['BT_FLIST'] = 'Danh sách tệp';
+$lang['BT_FLIST_LIMIT'] = 'Cài đặt Tracker không cho phép xử lý danh sách có hơn %d tệp. Số hiện tại là: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root là một băm của tệp nhúng trong các torrent với hỗ trợ BitTorrent v2, người dùng tracker có thể khai thác, tính toán chúng, cũng như tải xuống các torrent đã loại bỏ trùng lặp bằng cách sử dụng các công cụ máy tính để bàn như <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
+$lang['BT_FLIST_CREATION_DATE'] = 'Ngày tạo';
+$lang['BT_IS_PRIVATE'] = 'Torrent riêng tư';
+$lang['BT_FLIST_FILE_PATH'] = 'Đường dẫn (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = 'Băm tệp | thông tin meta .torrent';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Danh sách announcer';
+$lang['BT_FLIST_ANNOUNCERS'] = 'Các announcer';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Danh sách này chứa các announcer của tệp torrent';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Bỏ từ theo dõi';
 $lang['BT_UNREGISTERED'] = 'Torrent không đăng ký';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent đã hủy đăng ký';
 $lang['BT_REGISTERED'] = 'Torrent đăng ký trên tracker<br /><br />Now bạn cần phải <a href="%s"><b>download của torrent</b></a> và chạy, nó sử dụng BitTorrent khách hàng chọn các thư mục, với các tập tin ban đầu anh đang chia sẻ như tải đường';
 $lang['INVALID_ANN_URL'] = 'Không hợp lệ thông Báo URL [%s]<br /><br />must được <b>%s</b>';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Không thể thêm passkey<br /><br />Torrent không đăng ký trên theo dõi';
 $lang['BT_PASSKEY'] = 'Mật mã';
 $lang['BT_GEN_PASSKEY'] = 'tạo ra một new';
 $lang['BT_PASSKEY_VIEW'] = '!';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Chú ý! Sau khi thay đổi khóa mật khẩu, bạn sẽ cần phải tải lại tất cả các torrent đang hoạt động! \n Bạn có chắc chắn muốn tạo một khóa mật khẩu mới không?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Không có tìm kiếm các diễn đàn tìm thấy';
 
 $lang['SEEDS'] = 'Giống';
@@ -1403,35 +1403,35 @@ $lang['RELEASING'] = 'Tự';
 $lang['SEEDING'] = 'Giống';
 $lang['LEECHING'] = 'Con đỉa';
 $lang['IS_REGISTERED'] = 'Đăng ký';
-$lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET'] = 'Liên kết Magnet';
+$lang['MAGNET_FOR_GUESTS'] = 'Hiển thị liên kết magnet cho khách';
+$lang['MAGNET_v2'] = 'Liên kết Magnet (hỗ trợ BitTorrent v2)';
 
 //torrent status mod
 $lang['TOR_STATUS'] = 'Tình trạng';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Chọn tình trạng';
 $lang['TOR_STATUS_NOT_SELECT'] = 'Bạn đã không chọn tình trạng.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Tất cả trạng thái';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = 'Tình trạng của chủ đề này là: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'không phải là kiểm tra',
     TOR_CLOSED => 'đóng cửa',
     TOR_APPROVED => 'kiểm tra',
     TOR_NEED_EDIT => 'không chính thức cho đến khi',
     TOR_NO_DESC => 'không định trước',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => 'trùng lặp',
+    TOR_CLOSED_CPHOLD => 'đóng (bản quyền)',
     TOR_CONSUMED => 'hấp thụ',
     TOR_DOUBTFUL => 'nghi ngờ',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => 'đang kiểm tra',
     TOR_TMP => 'tạm',
     TOR_PREMOD => 'trước chừng mực',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => 'bổ sung',
 ];
 $lang['TOR_STATUS_FAILED'] = 'Tình trạng như vậy, không tồn tại!';
 $lang['TORRENT_FAILED'] = 'Giấy phép được không tìm thấy!';
 $lang['TOR_STATUS_DUB'] = 'Phân phối có cùng một tình trạng';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Không thể thay đổi tình trạng!';
 $lang['TOR_STATUS_OF'] = 'Phân phối có tình trạng:';
 $lang['TOR_STATUS_CHANGED'] = 'Tình trạng thay đổi: ';
 $lang['TOR_BACK'] = ' trở lại';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Tập tin bị mất nhận dạng!';
 $lang['CHANGE_TOR_TYPE'] = 'Loại torrent thay đổi thành công';
 $lang['DEL_TORRENT'] = 'Bạn có chắc chắn muốn xóa torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Bạn có chắc chắn muốn xóa và di chuyển chủ đề?';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = 'Bạn có một phát hành chưa hoàn thành. Trước khi tạo mới, vui lòng hoàn thành nó!';
+$lang['TOR_STATUS_LOG_ACTION'] = 'Trạng thái mới: %s.<br/>Trạng thái trước: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Thay đổi tình trạng của phân phối - %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Xin chào, %s.\n\nTrạng thái của [url=%s]phân phối[/url] của bạn đã được thay đổi thành [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Những thay đổi trong kế - %s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "Xin chào, %s.\n\nPhân phối của bạn đã được thay đổi - [url=%s]%s[/url]\n\nVui lòng kiểm tra lại.";
 $lang['TOR_AUTH_FIXED'] = 'Cố định';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The thông tin gửi đến những người điều hành. Mong đợi.</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = 'Giống nhìn thấy lần cuối';
 $lang['BT_SORT_FORUM'] = 'Forum';
 $lang['SIZE'] = 'Kích thước';
 $lang['PIECE_LENGTH'] = 'Mảnh chiều dài';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = 'Tải xuống hoàn tất';
 $lang['ADDED'] = 'Thêm';
 $lang['DELETE_TORRENT'] = 'Rõ ràng torrent';
 $lang['DELETE_MOVE_TORRENT'] = 'Rõ ràng và di chuyển chủ đề';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = 'Làm bạc';
 $lang['UNSET_SILVER_TORRENT'] = 'Thay đổi bạc';
 $lang['GOLD_STATUS'] = 'VÀNG TORRENT! TẢI VỀ GIAO THÔNG KHÔNG XEM XÉT!';
 $lang['SILVER_STATUS'] = 'BẠC TORRENT! TẢI VỀ GIAO THÔNG MỘT PHẦN COI!';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = 'Loại torrent đã được thay đổi thành: %s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = 'Tìm kiếm theo trạng thái phát hành';
 $lang['SEARCH_IN_FORUMS'] = 'Tìm kiếm trong các diễn Đàn';
 $lang['SELECT_CAT'] = 'Chọn loại';
 $lang['GO_TO_SECTION'] = 'Chuyển đến phần';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Torrent đã đăng ký';
 $lang['NOT_TORRENT'] = 'Tập tin này là không torrent';
 $lang['ONLY_1_TOR_PER_POST'] = 'Bạn chỉ có thể đăng ký một torrent trong một bài';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Bạn chỉ có thể đăng ký một torrent trong một chủ đề';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = 'Hồ sơ torrent';
 $lang['CUR_ACTIVE_DLS'] = 'Hoạt động torrent';
 
 $lang['TD_TRAF'] = 'Ngày hôm nay';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Chọn';
 $lang['SEED_BONUS'] = 'Giống tiền thưởng';
 $lang['EXCHANGE'] = 'Trao đổi';
 $lang['EXCHANGE_BONUS'] = 'Trao đổi giống tiền thưởng';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s để phân phối</b> <br /> Để đổi điểm thưởng lấy lưu lượng %1$s mà sẽ được thêm vào tổng sự phân phối của bạn.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Giá';
 $lang['EXCHANGE_NOT'] = 'Các khoán không có';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You không có tiền thưởng
 $lang['BONUS_RETURN'] = 'Trở về hạt giống thưởng đổi';
 
 $lang['TRACKER'] = 'Theo dõi';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = 'Phát hành ngẫu nhiên';
 $lang['OPEN_TOPICS'] = 'Mở chủ đề';
 $lang['OPEN_IN_SAME_WINDOW'] = 'mở trong cùng một cửa sổ';
 $lang['SHOW_TIME_TOPICS'] = 'show thời gian của sự sáng tạo chủ đề';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Thiết kế';
 $lang['LAST_IP'] = 'Cuối cùng IP:';
 $lang['REG_IP'] = 'Đăng ký IP:';
 $lang['OTHER_IP'] = 'IP khác:';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'Một người dùng %s đã được đăng ký với địa chỉ IP của bạn. Nếu bạn chưa đăng ký trên theo dõi của chúng tôi, hãy gửi email cho <a href="mailto:%s">Quản trị viên</a>';
 $lang['HIDDEN'] = 'Ẩn';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = 'Không bao giờ';
 //mpd
 $lang['DELETE_POSTS'] = 'Xóa lựa chọn bài';
 $lang['DELETE_POSTS_SUCCESFULLY'] = 'Các lựa chọn bài nào đã được loại bỏ thành công';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = 'Không có bài nào bị xóa.';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Thông báo';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = 'Viết bài thời gian';
 $lang['TOPIC_SPLIT_NEW'] = 'Chủ đề mới';
 $lang['TOPIC_SPLIT_OLD'] = 'Già chủ đề';
 $lang['BOT_LEAVE_MSG_MOVED'] = 'Thêm bot-tin nhắn về di chuyển';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = 'Lý do chuyển';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Thêm bot-tin nhắn về chia để <b>old topic</b>';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Thêm bot-tin nhắn về chia để <b>new topic</b>';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['trả lời', 'câu trả lời'];
 $lang['DECLENSION']['TIMES'] = ['thời gian', 'lần'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['tệp', 'các tệp'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['thứ hai', 'giây'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = 'Bình luận';
 
 // search
 $lang['SEARCH_S'] = 'tìm kiếm...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = 'trên diễn đàn';
+$lang['TRACKER_S'] = 'trên theo dõi';
 $lang['HASH_S'] = 'bởi info_hash';
 
 // copyright
 $lang['NOTICE'] = '!Chú Ý!';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = 'Trang web không cung cấp phiên bản điện tử của sản phẩm, và chỉ tham gia vào việc thu thập và lập danh mục các tài liệu tham khảo gửi và được công bố trên diễn đàn bởi độc giả của chúng tôi. Nếu bạn là chủ sở hữu hợp pháp của bất kỳ tài liệu nào đã gửi và không muốn có sự tham khảo của nó trong danh mục của chúng tôi, hãy liên hệ với chúng tôi và chúng tôi sẽ lập tức xóa nó. Các tệp để trao đổi trên theo dõi được cung cấp bởi người dùng của trang web, và ban quản trị không chịu trách nhiệm cho nội dung của chúng. Xin đừng tải lên các tệp được bảo vệ bởi bản quyền, hoặc các tệp có nội dung bất hợp pháp!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Sụp đổ mục';
 $lang['EXPAND'] = 'Mở rộng';
 $lang['SWITCH'] = 'Chuyển';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Tăng/giảm kích thước cửa sổ';
 $lang['EMPTY_ATTACH_ID'] = 'Tập tin bị mất nhận dạng!';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = 'Tệp không có trên máy chủ!';
 $lang['ERROR_BUILD'] = 'Các nội dung của torrent này file không thể được xem trên trang (nó đã không thể để xây dựng một danh sách của các tập tin)';
 $lang['TORFILE_INVALID'] = 'Tập tin Torrent được tham nhũng';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Trang web" chỉ có thể chứa http://sitename';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = 'Trường "ICQ" chỉ có thể chứa một số ICQ';
+$lang['INVALID_DATE'] = 'Ngày không hợp lệ';
 $lang['PROFILE_USER'] = 'Xem hồ sơ';
 $lang['GOOD_UPDATE'] = 'công đã được thay đổi';
 $lang['UCP_DOWNLOADS'] = 'Phổ biến';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Bạn có chắc chắn muốn xóa người nà
 $lang['USER_DELETED'] = 'Dùng công đã được xóa';
 $lang['DELETE_USER_ALL_POSTS'] = 'Xóa tất cả các bài viết sử dụng';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Bạn có chắc chắn muốn xóa tất cả các tin nhắn và tất cả các chủ đề bắt đầu bởi người này?';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = 'Xóa tất cả các tin nhắn, ngoại trừ bài viết đầu tiên';
 $lang['DELETE_USER_POSTS_ME'] = 'Bạn có chắc chắn muốn xóa tất cả các bài viết của tôi?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Bạn có chắc chắn muốn xóa tất cả các tin nhắn, ngoại trừ bài viết đầu tiên không?';
 $lang['USER_DELETED_POSTS'] = 'Bài nào đã được loại bỏ thành công';
 
 $lang['USER'] = 'Dùng';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Bạn không có quyền xem các nhóm';
 
 $lang['USER_ACTIVATE'] = 'Kích hoạt';
 $lang['USER_DEACTIVATE'] = 'Tắt';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = 'Bạn có chắc chắn muốn vô hiệu hóa người dùng này không?';
 $lang['USER_ACTIVATE_ON'] = 'Dùng đã được kích hoạt thành công';
 $lang['USER_DEACTIVATE_ME'] = 'Bạn không thể tắt tài khoản của tôi!';
 $lang['ACTIVATE_CONFIRM'] = 'Bạn có chắc chắn muốn vô hiệu hóa này?';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = 'Anh phải xác định e-mail';
 $lang['CHOOSE_PASS'] = 'Trường cho mật khẩu không phải là trống rỗng!';
 $lang['CHOOSE_PASS_ERR'] = 'Nhập vào mật khẩu không phù hợp với';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Mật khẩu phải có ít nhất %d nhân vật';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Mật khẩu của bạn không được dài hơn %d ký tự';
+$lang['CHOOSE_PASS_ERR_NUM'] = 'Mật khẩu phải chứa ít nhất một chữ số';
+$lang['CHOOSE_PASS_ERR_LETTER'] = 'Mật khẩu phải chứa ít nhất một chữ cái trong bảng chữ cái Latinh';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'Mật khẩu phải chứa ít nhất một chữ cái hoa trong bảng chữ cái Latinh';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Mật khẩu phải chứa ít nhất một ký tự đặc biệt';
 $lang['CHOOSE_PASS_OK'] = 'Mật khẩu trận đấu';
 $lang['CHOOSE_PASS_REG_OK'] = 'Mật khẩu phù hợp, anh có thể tiến hành việc đăng ký';
 $lang['CHOOSE_PASS_FAILED'] = 'Để thay đổi mật khẩu, bạn phải chính xác định hiện nay, mật khẩu';
 $lang['EMAILER_DISABLED'] = 'Xin lỗi, tính năng này là tạm thời không phải làm việc';
 $lang['TERMS_ON'] = 'Tôi đồng ý với các điều khoản';
 $lang['TERMS_OFF'] = 'Tôi không đồng ý với các điều khoản';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'Để đăng ký, bạn cần bật JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Đăng ký hiện đang đóng<br /><br />Đăng ký có sẵn trong: %s<br />Giờ máy chủ hiện tại: %s<br /><br />Chúng tôi xin lỗi về sự bất tiện";
+$lang['AUTOCOMPLETE'] = 'Tạo mật khẩu';
 $lang['YOUR_NEW_PASSWORD'] = 'Bạn là người mới, mật khẩu:';
 $lang['REGENERATE'] = 'Tái tạo';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = 'tắt';
 $lang['MEMORY'] = 'Nhớ: ';
 $lang['QUERIES'] = 'thắc mắc';
 $lang['LIMIT'] = 'Giới hạn:';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = 'Hiển thị nhật ký';
+$lang['EXPLAINED_LOG'] = 'Nhật ký giải thích';
+$lang['CUT_LOG'] = 'Cắt các truy vấn dài';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = 'Tải về miễn phí và với tốc độ tối đa!';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = 'Văn bản đậm: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'Nghiêng văn bản: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = 'Nhấn mạnh chữ: [u]text[/u] (Ctrl+U)';
 $lang['STRIKEOUT'] = 'Gạch văn bản: [s]text[/s] (Ctrl+S)';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
+$lang['BOX_TAG'] = 'Khung quanh văn bản: [box]text[/box] hoặc [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = 'Chèn lùi: [indent]text[/indent]';
+$lang['PRE_TAG'] = 'Văn bản định dạng trước: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Văn bản siêu cấp: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Văn bản hạ cấp: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Báo văn bản: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Chèn hình ảnh: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'Url';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = 'Mã hiển thị: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Danh sách';
 $lang['LIST_TITLE'] = 'Danh sách: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = 'Lệnh danh sách: [sách=]text[/list] (Ctrl+O)';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = 'Chữ viết tắt';
+$lang['ACRONYM_TITLE'] = 'Chữ viết tắt: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Báo lựa chọn';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = 'JavaScript phải được bật để gửi tin nhắn';
 
 $lang['NEW'] = 'Mới';
 $lang['NEWEST'] = 'Mới nhất';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL tốc độ';
 $lang['DL_DL_SPEED'] = 'DL tốc độ';
 $lang['DL_PORT'] = 'Port';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'Máy khách BitTorrent';
 $lang['DL_FORMULA'] = 'Công Thức:/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'dừng lại';
 $lang['DL_UPD'] = 'g: ';
 $lang['DL_INFO'] = 'cho dữ liệu <i><b>only cho hiện tại session</b></i>';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Ẩn tên máy khách BitTorrent của tôi trong danh sách peer';
+$lang['HIDE_PEER_COUNTRY_NAME'] = 'Ẩn tên đất nước của tôi trong danh sách peer';
+$lang['HIDE_PEER_USERNAME'] = 'Ẩn tên người dùng của tôi trong danh sách peer';
 
 // Post PIN
 $lang['POST_PIN'] = 'Pin bài đầu tiên';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = 'Để hủy bỏ mệnh lệnh từ danh sách, bấm 
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Nhìn chủ đề';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Không theo dõi bất kỳ chủ đề nào';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Trở lại trang';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = 'Đi đến các hồ sơ';
 
 $lang['WARNING'] = 'Cảnh báo';
 $lang['INDEXER'] = 'Lập chỉ mục lại tìm kiếm';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = 'Chỉ mục đã được cập nhật thành công';
 
 $lang['FORUM_STYLE'] = 'Phong cách diễn đàn';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = 'Bản Mẫu';
 $lang['ACTIONS_LOG'] = 'Báo cáo trên hành động';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = 'Tình trạng di chuyển cơ sở dữ liệu';
+$lang['MIGRATIONS_DATABASE_NAME'] = 'Tên cơ sở dữ liệu';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Tổng số bảng';
+$lang['MIGRATIONS_DATABASE_SIZE'] = 'Kích thước cơ sở dữ liệu';
+$lang['MIGRATIONS_DATABASE_INFO'] = 'Thông tin cơ sở dữ liệu';
+$lang['MIGRATIONS_SYSTEM'] = 'Hệ thống di chuyển';
+$lang['MIGRATIONS_NEEDS_SETUP'] = 'Cần thiết lập';
 $lang['MIGRATIONS_ACTIVE'] = 'Hoạt động';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
-$lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Chưa khởi tạo';
+$lang['MIGRATIONS_UP_TO_DATE'] = 'Tất cả đã được cập nhật';
+$lang['MIGRATIONS_PENDING_COUNT'] = 'tạm dừng';
+$lang['MIGRATIONS_APPLIED'] = 'Di chuyển đã áp dụng';
+$lang['MIGRATIONS_PENDING'] = 'Di chuyển chờ xử lý';
+$lang['MIGRATIONS_VERSION'] = 'Phiên bản';
+$lang['MIGRATIONS_NAME'] = 'Tên di chuyển';
+$lang['MIGRATIONS_FILE'] = 'Tệp di chuyển';
+$lang['MIGRATIONS_APPLIED_AT'] = 'Đã áp dụng vào';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'Hoàn thành vào';
+$lang['MIGRATIONS_CURRENT_VERSION'] = 'Phiên bản hiện tại';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Không có di chuyển nào được áp dụng';
+$lang['MIGRATIONS_INSTRUCTIONS'] = 'Hướng dẫn';
+$lang['MIGRATIONS_SETUP_STATUS'] = 'Tình trạng thiết lập';
+$lang['MIGRATIONS_SETUP_GUIDE'] = 'Xem hướng dẫn thiết lập dưới đây';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Cần hành động';
 
 // Index
 $lang['MAIN_INDEX'] = 'Diễn Đàn Chỉ Số';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'Bao gồm nén';
 $lang['NOT_AVAILABLE'] = 'Không có';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
-$lang['ADMIN_SYSTEM_OS'] = 'OS:';
+$lang['ADMIN_SYSTEM_INFORMATION'] = 'Thông tin hệ thống';
+$lang['ADMIN_SYSTEM_OS'] = 'HĐH:';
 $lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
-$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Cơ sở dữ liệu:';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Giới hạn bộ nhớ:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Thông tin dung lượng ổ đĩa:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (đã sử dụng: %s | còn lại: %s)';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Thời gian thực thi tối đa:';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Kho dữ liệu';
 $lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_TEMPLATES_CACHE'] = 'Cache mẫu';
 
 // Update
 $lang['USER_LEVELS'] = 'Dùng cấp';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Dùng bài đếm đã được đồn
 $lang['SHOW_ONLINE_USERLIST'] = 'Hiển thị các danh sách của người dùng trực tuyến';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Quản lý robots.txt';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'Tệp robots.txt đã được cập nhật thành công';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sNhấp vào đây để quay lại quản lý robots.txt%s';
 
 // Auth pages
 $lang['USER_SELECT'] = 'Chọn một người Sử dụng';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = 'Dùng quyền đã được cập nhật';
 $lang['GROUP_AUTH_UPDATED'] = 'Nhóm quyền đã được cập nhật';
 
 $lang['AUTH_UPDATED'] = 'Quyền đã được cập nhật';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = 'Không thể cập nhật trạng thái quản trị viên';
+$lang['AUTH_SELF_ERROR'] = 'Không thể thay đổi bạn từ quản trị viên thành người dùng';
+$lang['NO_FORUMS_AVAILABLE'] = 'Không có diễn đàn nào khả dụng. Tạo diễn đàn trước để quản lý quyền hạn.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Nhấn vào %sHere%s để trở về Quyền Sử dụng';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Nhấn vào %sHere%s để trở về Nhóm Quyền';
 $lang['CLICK_RETURN_FORUMAUTH'] = 'Nhấn vào %sHere%s để trở về Đàn Quyền';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Ban Điều Khiển';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = 'Ở đây bạn có thể kiểm soát việc cấm người dùng.';
 $lang['BAN_USERNAME'] = 'Ban một hoặc nhiều người sử dụng cụ thể';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Bạn có thể ban nhiều người dùng trong một đi sử dụng sự kết hợp của chuột và bàn phím máy tính và duyệt';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = 'Bỏ cấm một hoặc nhiều người dùng cụ thể';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Bạn có thể bỏ cấm nhiều người dùng trong một đi sử dụng sự kết hợp của chuột và bàn phím máy tính và duyệt';
 $lang['NO_BANNED_USERS'] = 'Không cấm người';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Các danh sách hạn chế đã được cập nhật thành công';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Diễn Đàn Quản Trị';
 $lang['FORUM_ADMIN_EXPLAIN'] = 'Từ bảng điều khiển này ông có thể thêm vào, rõ ràng, chỉnh sửa lại trật tự và tái-đồng loại và forums';
 $lang['EDIT_FORUM'] = 'Chỉnh sửa diễn đàn';
 $lang['CREATE_FORUM'] = 'Tạo diễn đàn new';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = 'Tạo subforum';
 $lang['CREATE_CATEGORY'] = 'Tạo thể loại mới';
 $lang['REMOVE'] = 'Bỏ';
 $lang['UPDATE_ORDER'] = 'Để Cập Nhật,';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = 'Di chuyển tất cả nội dung';
 $lang['FORUM_DELETE'] = 'Xóa Các Diễn Đàn';
 $lang['FORUM_DELETE_EXPLAIN'] = 'Mẫu dưới đây sẽ cho phép anh để xóa một diễn đàn (loại) và quyết định nơi bạn muốn đặt tất cả các chủ đề (hay các diễn đàn) nó chứa.';
 $lang['CATEGORY_DELETE'] = 'Rõ Ràng Mục';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = 'Tên danh mục chưa được chỉ định';
 
 $lang['STATUS_LOCKED'] = 'Bị khóa';
 $lang['STATUS_UNLOCKED'] = 'Mở khóa';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Bằng cách sử dụng dạng này, anh có thể th
 $lang['ADD_NEW_RANK'] = 'Thêm bậc mới';
 $lang['RANK_TITLE'] = 'Cấp Bậc, Danh Hiệu';
 $lang['STYLE_COLOR'] = 'Phong cách bậc';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = 'Chỉ định một lớp để định kiểu tiêu đề với màu sắc mong muốn. Ví dụ: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Xếp Hình Ảnh';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Sử dụng cái này để xác định một hình ảnh nhỏ liên kết với các bậc';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Nhấn vào %sHere%s để trở về Kh�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Phiên Bản Thông Tin';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = 'Cập nhật có sẵn';
+$lang['CHANGELOG'] = 'Nhật ký thay đổi';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Được đăng nhập cố gắng';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Chỉ quản trị';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s có thể xem diễn đàn này';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s có thể đọc bài diễn đàn này';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s có thể đăng trong diễn đàn này';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s có thể trả lời các bài viết trong diễn đàn này';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s có thể sửa bài diễn đàn này';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s có thể loại bỏ bài diễn đàn này';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s có thể bài chủ đề dính trong diễn đàn này';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. chiều dài của các tin tức';
 $lang['NEWS_COUNT'] = 'Bao nhiêu tin tức!';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'Từ các diễn đàn nào để hiển thị <br /> <h6>Đối với nhiều diễn đàn, nhập ID được phân tách bằng dấu phẩy. Ví dụ: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Không avatar';
 $lang['TRACKER_STATS'] = 'Số liệu thống kê trên theo dõi';
 $lang['WHOIS_INFO'] = 'Thông tin về địa chỉ IP';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Hiển thị trên các điều hành viên index.php';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = 'Hiển thị ngày bắt đầu diễn đàn trên index.php';
 $lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If bạn không có phân phối cho tình trạng của v, #, hoặc T trong phần này, bao gồm cả các phần phụ, sự phân bố sẽ tự động nhận được điều này status</h6>';
 $lang['TOR_COMMENT'] = '<h4>Nhận xét về trạng thái của bản phân phối</h4> <h6>Nhận xét cho phép bạn chỉ ra các lỗi đối với người phát hành. Nếu các trạng thái không đầy đủ, người quản lý phát hành sẽ có biểu mẫu phản hồi phát hành để sửa bản phát hành</h6>';
 $lang['SEED_BONUS_ADD'] = '<h4>Adding giống thưởng </h4> <h6> Số lượng của phân phối được đưa ra bởi người sử dụng và kích thước của tiền thưởng cho họ (sạc lần trong một giờ) </h6>';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Mở Rộng, %s đã tồn tại'; // replace 
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Quản Lý Loại Đặc Biệt';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ở đây bạn có thể cấu hình các Danh mục Đặc biệt. Bạn có thể thiết lập Tham số và Điều kiện Đặc biệt cho các Danh mục Đặc biệt được chỉ định cho Nhóm Mở rộng.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Cài đặt cho Loại Đặc biệt: Hình ảnh';
 $lang['SETTINGS_CAT_FLASH'] = 'Cài đặt cho Loại Đặc biệt: Flash các Tập tin';
 $lang['DISPLAY_INLINED'] = 'Màn Hình Ảnh Inlined';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = 'Thông báo url';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'bạn có thể xác định bổ sung cho phép url trong "includes/torrent_announce_urls.php"';
 $lang['BT_DISABLE_DHT'] = 'Vô hiệu hóa THIỂU';
 $lang['BT_DISABLE_DHT_EXPL'] = 'Vô hiệu hóa trao Đổi Ngang và THIỂU (đề nghị cho mạng lưới tư nhân, chỉ có url thông báo)';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = 'Trình theo dõi này là riêng tư: danh sách tệp (dành cho khách), DHT | PEX đã bị vô hiệu hóa';
+$lang['BT_PRIVATE_TORRENT'] = 'Người tạo ra torrent này đã làm cho nó trở nên riêng tư';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Kiểm tra thông báo url';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'đăng ký trên theo dõi chỉ được phép url';
 $lang['BT_REPLACE_ANN_URL'] = 'Thay thế thông báo url';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Cho phép logic, đầy đủ những tìm kiế
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'sử dụng *, hình.. trong những tìm kiếm';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Thể loại khác";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Hiển thị thống kê UL/DL của người dùng ở đầu trang chính của diễn đàn";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Tự động đăng ký torrent trên theo dõi cho các chủ đề mới';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Thay đổi đề tài tình trạng để "Tải" trong khi đăng ký torrent trên theo dõi';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'sẽ thay đổi chủ đề loại "Tải" bất kể diễn đàn cài đặt';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = 'Mẫu vô hiệu hóa';
 $lang['FOR_NEW_TEMPLATE'] = 'cho mô hình mới!';
 $lang['CHANGED'] = 'Thay đổi';
 $lang['REMOVED'] = 'Bỏ';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = 'Xác nhận bạn chắc chắn muốn thực hiện hành động này';
 
 $lang['CRON_LIST'] = 'Định kỳ danh sách';
 $lang['CRON_ID'] = 'ID';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Cho phép';
 $lang['RUN_MAIN_CRON'] = 'Bắt đầu tiến trình tự động';
 $lang['ADD_JOB'] = 'Thêm công việc định kỳ';
 $lang['DELETE_JOB'] = 'Bạn có chắc chắn muốn loại bỏ các định kỳ công việc?';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron hiện đang hoạt động hoặc đã hỏng -> ';
 $lang['REPAIR_CRON'] = 'Sửa Chữa Định Kỳ';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Chỉnh sửa công việc';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Vô hiệu hóa hội đồng quản trị';
 $lang['BOARD_DISABLE_EXPL'] = 'vô hiệu hóa trị, khi công việc này được chạy';
 $lang['RUN_COUNTER'] = 'Chạy ngược lại';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = 'Công việc đã được xóa thành công';
 $lang['SCRIPT_DUPLICATE'] = 'Kịch bản <b>' . @$_POST['cron_script'] . '</b> đã tồn tại!';
 $lang['TITLE_DUPLICATE'] = 'Nhiệm Vụ Tên <b>' . @$_POST['cron_title'] . '</b> đã tồn tại!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sQuay lại để thêm công việc%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack để Nhiệm vụ Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Xây Dựng Lại Lục Tìm Kiếm';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Bao nhiêu thời gian (giây) để ở chế 
 
 $lang['TIME_LIMIT'] = 'Giới hạn thời gian';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Bao nhiêu thời gian (giây) bài cuối cùng trước khi xử lý có thể di chuyển để tiếp theo chu kỳ';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP của bạn (chế độ an toàn) có thời gian chờ được cấu hình là %s giây, vì vậy hãy giữ dưới giá trị này</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your web có một thời gian chờ của %s giây cấu hình, như vậy ở dưới này value</i>';
 
 $lang['DISABLE_BOARD'] = 'Vô hiệu hóa hội đồng quản trị';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = 'Bạn đã ký một số sai giá trị. Xin vui lòng 
 $lang['PROCESSING'] = 'Chế biến...';
 $lang['FINISHED'] = 'Xong';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Chủ đề đã được chuyển từ diễn đàn [b]%s[/b] tới diễn đàn [b]%s[/b].[br][b]Lý do chuyển:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Chủ đề đã được chia. Chủ đề mới - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Chủ đề đã được chia từ [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = 'Gọi hạt giống';
 $lang['CALLSEED_EXPLAIN'] = 'Có thông báo với một yêu cầu để trở về phân phối';
 $lang['CALLSEED_SUBJECT'] = 'Tải giúp %s';
 $lang['CALLSEED_TEXT'] = 'Xin chào![br]Your đang cần sự giúp đỡ trong việc phát hành [bạn, %s]%s[/url][br]if bạn quyết định để giúp đỡ, nhưng đã bị xóa các tập tin torrent, bạn có thể tải về nó [bạn, %s]this[/url][br][br]i hy vọng cho bạn giúp đỡ!';
@@ -2855,22 +2855,22 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Chủ đề:<br /> <b>closed</b>',
     'mod_topic_unlock' => 'Chủ đề:<br /> <b>opened</b>',
     'mod_topic_split' => 'Chủ đề:<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => 'Chủ đề:<br /> <b>đã tải xuống</b>',
+    'mod_topic_unset_downloaded' => 'Chủ đề:<br /> <b>không tải xuống</b>',
+    'mod_topic_change_tor_status' => 'Chủ đề:<br /> <b>trạng thái torrent đã thay đổi</b>',
+    'mod_topic_change_tor_type' => 'Chủ đề:<br /> <b>loại torrent đã thay đổi</b>',
+    'mod_topic_tor_unregister' => 'Chủ đề:<br /> <b>torrent đã hủy đăng ký</b>',
+    'mod_topic_tor_register' => 'Chủ đề:<br /> <b>torrent đã đăng ký</b>',
+    'mod_topic_tor_delete' => 'Chủ đề:<br /> <b>torrent đã bị xóa</b>',
+    'mod_topic_renamed' => 'Chủ đề:<br /> <b>đã đổi tên</b>',
+    'mod_topic_poll_started' => 'Chủ đề:<br /> <b>thăm dò đã bắt đầu</b>',
+    'mod_topic_poll_finished' => 'Chủ đề:<br /> <b>thăm dò đã hoàn thành</b>',
+    'mod_topic_poll_deleted' => 'Chủ đề:<br /> <b>thăm dò đã bị xóa</b>',
+    'mod_topic_poll_added' => 'Chủ đề:<br /> <b>thăm dò đã thêm</b>',
+    'mod_topic_poll_edited' => 'Chủ đề:<br /> <b>thăm dò đã chỉnh sửa</b>',
     'mod_post_delete' => 'Bài:<br /> <b>deleted</b>',
-    'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
-    'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
+    'mod_post_pin' => 'Bài:<br /> <b>được ghim</b>',
+    'mod_post_unpin' => 'Bài:<br /> <b>không còn ghim</b>',
     'adm_user_delete' => 'Dùng:<br /> <b>deleted</b>',
     'adm_user_ban' => 'Dùng:<br /> <b>ban</b>',
     'adm_user_unban' => 'Dùng:<br /> <b>unban</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = 'Vui lòng điền vào mẫu phát hành';
 $lang['NEW_RELEASE'] = 'Mới phát hành';
 $lang['NEXT'] = 'Tiếp tục';
 $lang['OTHER'] = 'Khác';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = 'Những người khác';
+$lang['ALL'] = 'Tất cả';
 
 $lang['TPL_EMPTY_FIELD'] = 'Anh phải điền vào lĩnh vực này <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Bạn phải chọn <b>%s</b>';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Tìm kiếm người sử dụng với 
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Tìm kiếm người sử dụng với một vị Trí phù hợp với %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Tìm kiếm người sử dụng với Lợi ích của họ trường hợp %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Tìm kiếm người sử dụng với họ Nghề nghiệp trường hợp %s';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Tìm kiếm những ai đã truy cập trong các tác  %s';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Tìm kiếm những ai có đến thăm sau khi cuối cùng  %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Tìm kiếm những ai có thiết lập %s như ngôn ngữ của họ';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Tìm kiếm những ai có thiết lập GIỜ %s như là của họ múi giờ';
 $lang['SEARCH_FOR_STYLE'] = 'Tìm kiếm những ai có thiết lập %s như là phong cách của họ';
@@ -3061,7 +3061,7 @@ $lang['FORUM_MAP'] = 'Các diễn đàn\' bản đồ';
 $lang['ATOM_FEED'] = 'Thức ăn';
 $lang['ATOM_ERROR'] = 'Lỗi tạo ra thức ăn';
 $lang['ATOM_SUBSCRIBE'] = 'Theo dõi các nguồn';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = 'Không cung cấp tùy chọn chế độ cho nguồn cấp dữ liệu';
 $lang['ATOM_NO_FORUM'] = 'Diễn đàn này không có thức ăn (không liên tục chủ đề)';
 $lang['ATOM_NO_USER'] = 'Người này không có thức ăn (không liên tục chủ đề)';
 $lang['ATOM_UPDATED'] = 'Đã cập nhật';
@@ -3070,15 +3070,15 @@ $lang['ATOM_GLOBAL_FEED'] = 'Thức ăn toàn cầu cho tất cả các diễn �
 $lang['HASH_INVALID'] = 'Băm %s là không hợp lệ';
 $lang['HASH_NOT_FOUND'] = 'Phát hành với băm %s không tìm thấy';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[align=center]Các văn bản của trang này được chỉnh sửa tại: [url]%s[/url]. Dòng này có thể nhìn thấy chỉ quản trị viên.[/align]';
 $lang['TERMS_EXPLAIN'] = 'Trên trang này, anh có thể xác định danh văn bản của các quy tắc cơ bản của các nguồn tài nguyên được hiển thị sử dụng.';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Điều khoản đã được cập nhật thành công';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Đây để quay lại trình chỉnh sửa điều khoản%s';
 
 $lang['TR_STATS'] = [
     0 => 'người dùng không hoạt động trong 30 ngày',
     1 => 'người dùng không hoạt động trong 90 ngày',
-    2 => 'medium size distributions on the tracker',
+    2 => 'phân phối kích thước trung bình trên máy chủ theo dõi',
     3 => 'tổng cộng bao nhiêu tay trên theo dõi',
     4 => 'bao nhiêu sống tay (có ít nhất là 1 dẫn)',
     5 => 'bao nhiêu bàn tay, nơi mà gieo hạt hơn 5 giống',
@@ -3108,11 +3108,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = 'Mỗi hàng tương ứng với một câu trả 
 $lang['OLD_BROWSER'] = 'Bạn đang sử dụng một lỗi thời duyệt. Các trang web sẽ không hiển thị chính xác.';
 $lang['GO_BACK'] = 'Quay trở lại';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Lỗi tải tệp bị vô hiệu hóa';
 $lang['UPLOAD_ERROR_COMMON'] = 'Tập tin tải lên lỗi';
 $lang['UPLOAD_ERROR_SIZE'] = 'Các tập tin được tải lên vượt quá mức tối đa kích thước của %s';
 $lang['UPLOAD_ERROR_FORMAT'] = 'Tập tin không hợp lệ của loại hình ảnh';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Kích thước hình ảnh vượt quá giới hạn tối đa cho phép %sx%s px';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'Các tập tin được tải lên không phải là một hình ảnh';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'Mở rộng %s cho tải không được cho phép';
 $lang['UPLOAD_ERRORS'] = [
@@ -3128,18 +3128,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Kiểm tra đó bạn không phải là một robot';
 $lang['CAPTCHA_WRONG'] = 'Bạn không thể xác nhận rằng anh không phải là một robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha chưa được cấu hình đầy đủ</h2><p>Chạy các khóa bằng bảng điều khiển của dịch vụ captcha của bạn sau đó cần đặt chúng vào thư mục file/library/config.php.</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Việc xác minh CAPTCHA diễn ra ở chế độ nền';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = 'Trả lời';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => 'Không chủ đề',
     'GROUP_ADDED' => 'Bạn đã được thêm vào nhóm người dùng',
     'GROUP_APPROVED' => 'Yêu cầu tham gia nhóm người dùng của bạn đã được cấp',
     'GROUP_REQUEST' => 'Yêu cầu tham gia nhóm người dùng của bạn',
     'PRIVMSG_NOTIFY' => 'Tin nhắn riêng mới',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => 'Thông báo phản hồi trong chủ đề - %s',
     'USER_ACTIVATE' => 'kích hoạt lại tài khoản',
     'USER_ACTIVATE_PASSWD' => 'Xác nhận mật khẩu mới',
     'USER_WELCOME' => 'Chào mừng đến với trang web %s',
@@ -3147,17 +3147,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = 'Đặt lại tỷ lệ';
+$lang['BT_NULL_RATIO_NONE'] = 'Bạn không có tỷ lệ';
+$lang['BT_NULL_RATIO_ALERT'] = "Chú ý!\n\nBạn có chắc chắn muốn đặt lại tỷ lệ của mình không?";
+$lang['BT_NULL_RATIO_AGAIN'] = 'Bạn đã đặt lại tỷ lệ của mình rồi!';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'Bạn có tỷ lệ tốt. Đặt lại chỉ có thể với tỷ lệ thấp hơn %s';
+$lang['BT_NULL_RATIO_SUCCESS'] = 'Tỷ lệ đã được đặt lại thành công!';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
-$lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SIZE'] = 'Tổng kích thước:';
+$lang['RELEASER_STAT'] = 'Thông số phát hành:';
+$lang['RELEASER_STAT_SHOW'] = 'Hiển thị thống kê';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = 'Chuyển đổi chế độ tối';
