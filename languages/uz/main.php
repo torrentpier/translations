@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'eng yangi xabarni ko\'rish';
 $lang['PAGE_OF'] = '<b>%s</b> Page <b>%d</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Siz noto\'g\'ri login kiritdingiz Twitter';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Agar bu so\'rovnomada o\'chirishni istaysizmi?';
 $lang['FLOOD_ERROR'] = 'Siz oxirgi keyin tez orada yana bir post qilish mumkin emas; Qisqa vaqt ichida yana urinib ko\'ring';
 $lang['EMPTY_SUBJECT'] = 'Siz mavzuni ko\'rsating kerak';
 $lang['EMPTY_MESSAGE'] = 'Siz xabar kirishingiz zarur';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum qulflangan';
+$lang['TOPIC_LOCKED'] = 'Mavzu qulflangan';
 $lang['TOPIC_LOCKED_SHORT'] = 'Mavzu qulflangan';
 $lang['NO_POST_ID'] = 'Siz tahrir uchun post tanlashingiz kerak';
 $lang['NO_TOPIC_ID'] = 'Siz javob uchun bir mavzuni tanlash kerak';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'To\'q yashil';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'So\'rov';
+$lang['MODERATE'] = 'Moderatsiya';
 $lang['SEND_PM_SHORT'] = 'AM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'dan katta, %d hisoblash bir post bilan 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'kam %d hisoblash bir post bilan foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'bir post bilan foydalanuvchilar izlab %d va %d o\'rtasidagi hisob';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '%d bir post soni qiymati bilan foydalanuvchilar uchun qidiruv';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'bir Twitter %s taalukli foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'bir Sayt %s taalukli foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'a Manzil %s taalukli foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'ularning qiziqishlari, faoliyat %s taalukli foydalanuvchilar uchun qidiruv';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'kun';
 $lang['POST_EDIT_CANNOT'] = 'Kechirasiz, lekin siz xabarlarni to\'g\'irlashingiz mumkin emas';
 $lang['FORUMS_IN_CAT'] = 'deb turkumidagi forumlar';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderatsiya izohi';
 $lang['MC_LEGEND'] = 'Izoh kiritish';
 $lang['MC_FAQ'] = 'Kiritilgan matn, bu xabarni ostida paydo bo\'ladi';
 $lang['MC_COMMENT_PM_SUBJECT'] = "Sizning xabarda %s";
