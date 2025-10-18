@@ -910,15 +910,15 @@ $lang['LOOKUP_IP'] = '查找IP地址';
 $lang['ALL_TIMES'] = '所有時間都是<span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
 // These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'UTC-12';
-$lang['TZ']['-11'] = 'UTC-11';
-$lang['TZ']['-10'] = 'UTC-10';
-$lang['TZ']['-9'] = 'UTC-9';
-$lang['TZ']['-8'] = 'UTC-8';
-$lang['TZ']['-7'] = 'UTC-7';
-$lang['TZ']['-6'] = 'UTC-6';
-$lang['TZ']['-5'] = 'UTC-5';
-$lang['TZ']['-4'] = 'UTC-4';
+$lang['TZ']['-12'] = 'UTC - 12';
+$lang['TZ']['-11'] = 'UTC - 11';
+$lang['TZ']['-10'] = 'UTC - 10';
+$lang['TZ']['-9'] = 'UTC - 9';
+$lang['TZ']['-8'] = 'UTC - 8';
+$lang['TZ']['-7'] = 'UTC - 7';
+$lang['TZ']['-6'] = 'UTC - 6';
+$lang['TZ']['-5'] = 'UTC - 5';
+$lang['TZ']['-4'] = 'UTC - 4';
 $lang['TZ']['-3.5'] = 'UTC-3.5';
 $lang['TZ']['-3'] = 'UTC-3';
 $lang['TZ']['-2'] = 'UTC-2';
@@ -1532,7 +1532,7 @@ $lang['UNSET_DL_STATUS'] = '未下載';
 $lang['TOPICS_DOWN_SETS'] = '主题状态已更改为<b>下载</b>.';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>下载</b>状态已删除';
 
-$lang['TOPIC_DL'] = 'DL';
+$lang['TOPIC_DL'] = '下载';
 
 $lang['MY_DOWNLOADS'] = '我的下载';
 $lang['SEARCH_DL_WILL'] = '计划';
@@ -1870,7 +1870,7 @@ $lang['OLD'] = '旧';
 $lang['DL_USER'] = '用户名';
 $lang['DL_PERCENT'] = '完成百分比';
 $lang['DL_UL'] = 'UL';
-$lang['DL_DL'] = 'DL';
+$lang['DL_DL'] = '下载';
 $lang['DL_UL_SPEED'] = 'UL速度';
 $lang['DL_DL_SPEED'] = 'DL速度';
 $lang['DL_PORT'] = '埠口';
@@ -3014,7 +3014,7 @@ $lang['MC_TITLE'] = '评论审核';
 $lang['MC_LEGEND'] = '輸入評論。';
 $lang['MC_FAQ'] = '輸入的文字將顯示在此消息下。';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s在您的消息中";
-$lang['MC_COMMENT_PM_MSG'] = "你好，[b]%s[/b]\nModerator留在你的消息[url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "你好，[b]%s[/b]\n版主在你的留言中留下了 [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',
