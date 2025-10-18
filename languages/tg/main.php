@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = 'Posts';
 $lang['POSTED'] = 'Фишка';
 $lang['USERNAME'] = 'Логин';
 $lang['PASSWORD'] = 'Рамз';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = 'Калиди гузарро намоиш диҳед';
 $lang['EMAIL'] = 'Email';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'муаллиф';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = 'Даргирифта';
 $lang['DISABLED'] = 'маъюб';
 $lang['ERROR'] = 'хатогӣ';
 $lang['SELECT_ACTION'] = 'Интихоб кунед амал';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = 'Тозакунии';
+$lang['MOVE_TO_TOP'] = 'Ба боло кидан';
 $lang['UNKNOWN'] = 'номашҳур';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = 'Копи кардан ба буфер';
+$lang['NO_ITEMS'] = 'Ба назар мерасад, ки ин ҷо маълумот нест...';
+$lang['PLEASE_TRY_AGAIN'] = 'Лутфан баъд аз чанд сонияи дигар кӯшиш кунед...';
 
 $lang['NEXT_PAGE'] = 'Баъдӣ';
 $lang['PREVIOUS_PAGE'] = 'гузашта';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'кеш Шаблон кардааст, тоза 
 $lang['DATASTORE_CLEARED'] = 'Datastore кардааст, тоза карда шудааст,';
 $lang['BOARD_DISABLE'] = 'Мутаасифона, ин ҳамоиши хомӯш карда шудааст. Кӯшиш кунед, ки баргашта дертар';
 $lang['BOARD_DISABLE_CRON'] = 'Форуми барои нигоҳдории поён аст. Кӯшиш кунед, ки баргашта дертар';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = 'Форум аз тарафи администратор хомӯш аст. Шумо метавонед онро дар вақти дилхоҳ фаъол кунед';
+$lang['ADMIN_DISABLE_CRON'] = 'Форум бо трекери коррагӣ хомӯш шуд. Шумо метавонед хомӯшро дар вақти дилхоҳ нест кунед';
 $lang['ADMIN_DISABLE_TITLE'] = 'Форуми хомӯш карда шудааст';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форуми поён аст, ки барои нигоҳдории';
 $lang['ADMIN_UNLOCK'] = 'Даргиронидани форум';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = 'маъмурӣ';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'узви гурӯҳи';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Ин амал дар режими намоиш иҷро карда намешавад!';
 
 $lang['CURRENT_TIME'] = 'замони ҷорӣ аст: <span class="tz_time">%s</span>';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Заметки нав [дарбаста]';
 $lang['FORUM_LOCKED_MAIN'] = 'Форуми баста аст';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = 'Лутфан номи корбар ва гузарвожаро бо мақсади воридшавии парвии иловагӣ ворид кунед.';
 $lang['LOGIN'] = 'Даромадан';
 $lang['LOGOUT'] = 'Воридшавӣ берун';
 $lang['CONFIRM_LOGOUT'] = 'Оё мутмаинед, ки мехоҳед, ба система берун мекунанд?';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = 'Шумо <b>can</b> дар раъйдиҳӣ дар и
 $lang['RULES_VOTE_CANNOT'] = 'Шумо <b>cannot</b> дар раъйдиҳӣ дар ин форум овоз';
 $lang['RULES_MODERATE'] = 'Шумо <b>can</b> миёна дар ин форум';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = 'Дар ин форум то ҳол паёме нест<br />Лутфан, дар <b>Сарлавҳаи нав</b> симол клик кунед ва паёми шумо аввалин хоҳад буд.';
+$lang['NO_RELEASES_POST_ONE'] = 'Дар ин форум то ҳол мадорик нест<br />Лутфан, дар <b>Сарлавҳаи нав</b> симол клик кунед ва мадорики шумо аввалин хоҳад буд.';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'View мавзӯъ';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = 'матни торикй';
 $lang['SPOILER_CLOSE'] = 'навбати';
 $lang['PLAY_ON_CURPAGE'] = 'Оғози навозиш дар саҳифаи ҷорӣ';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = 'Бори охир тағйир ёфтаст <b>%s</b> дар %s; %d маротиба дар маҷмӯъ таҳрир шудааст'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = 'Бори охир тағйир ёфтаст <b>%s</b> дар %s; %d маротиба дар маҷмӯъ таҳрир шудааст'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Бастани мавзӯъ';
 $lang['UNLOCK_TOPIC'] = 'Қулфи мавзӯъ';
@@ -378,8 +378,8 @@ $lang['DELETE_POLL'] = 'Тозакунии пурсиш';
 $lang['MAX_SMILIES_PER_POST'] = 'маҳдудияти Emoticons аз %s emoticons зиёд аст.';
 
 $lang['ATTACH_SIGNATURE'] = 'Замима имзо (имзо мумкин аст дар намуди тағйир)';
-$lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['NOTIFY'] = 'Манро дар ҷавобҳо огоҳ кунед';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Роботҳоро барои индекс куношии ин мавзӯъ иҷозат диҳед';
 
 $lang['STORED'] = 'паёми шумо бо муваффақият дохил шуд.';
 $lang['EDITED'] = 'Дар паёми иваз карда шуд';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Ирсоли паём хусусӣ нав';
 $lang['SEND_A_REPLY'] = 'Ҷавоб додан ба паём хусусӣ';
 $lang['EDIT_MESSAGE'] = 'Таҳрир паёми хусусӣ';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = 'Паёми нави хусусӣ гирифта шудааст!';
 
 $lang['FIND_USERNAME'] = 'Пайдо кардани номи корбарӣ';
 $lang['SELECT_USERNAME'] = 'Интихоб Логин';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = 'рӯзи таваллуд';
 $lang['HAPPY_BIRTHDAY'] = 'Зодрӯз муборак!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Дар формати зодрӯз нодуруст дохил карда шуд.';
 $lang['AGE'] = 'синну сол';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = 'Маъзрат, ин сайт шаҳрвандони калонтар аз %d сола библиотори нест';
+$lang['BIRTHDAY_TO_LOW'] = 'Маъзрат, ин сайт фарзандони хурсанде бошад, ки хонда надидаед, қабул намекунад, ки  %d сола қарор нест.';
 $lang['BIRTHDAY_TODAY'] = 'Истифодабарандагон бо имрӯз зодрӯз:';
 $lang['BIRTHDAY_WEEK'] = 'Корвандон бо зодрӯзи дар %d рӯзи оянда: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Не корбарон доштани таваллуди ки дар оянда %d рӯз'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = 'Не истифодабарандагон дора�
 $lang['BIRTHDAY_ENABLE'] = 'Даргиронидани зодрӯз';
 $lang['BIRTHDAY_MAX_AGE'] = 'синну макс';
 $lang['BIRTHDAY_MIN_AGE'] = 'синну Min';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Рӯзҳои барои шеносои рӯзи таваллуд';
 $lang['YEARS'] = 'сол';
 
 $lang['NO_THEMES'] = 'Не Мавзӯъҳо дар базаи';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = 'Тугмаи ссилкаро аз нав';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'аз он ҷумла ҳамаи ҷойҳои шумо Форуми фаъол худкор-воридшавӣ дидан кардам';
 
 $lang['AVATAR'] = 'Аватар';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = 'Суратчаи хурдро дар поён маълумоти худ дар паёмҳо намоиш медиҳад. Танҳо як тасвир дар як вақт намоиш дода мешавад, паҳнои он наметавонад аз %d пиксел зиёд бошад, баландии он наметавонад аз %d пиксел зиёд бошад, ва ҳаҷми фаил наметавонад аз %s зиёд бошад.';
 $lang['AVATAR_DELETE'] = 'аватари Тозакунии';
 $lang['AVATAR_DISABLE'] = 'хосият назорати Аватар ғайрифаъол барои вайрон кардани rules</b></a> <a href="%s"><b>forum';
 $lang['UPLOAD_AVATAR_FILE'] = 'аватари Замима';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = 'Бозгашт ба профили';
 $lang['SELECT_CATEGORY'] = 'Интихоб кунед категорияи';
 
 $lang['DELETE_IMAGE'] = 'Тозакунии тасвир';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = 'Калиди аватар MonsterID-ро муқаррар кунед';
 $lang['CURRENT_IMAGE'] = 'Садо ҷорӣ';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Огоҳ оид ба паёми нави';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = 'профили худро навсозӣ ш
 
 $lang['PASSWORD_MISMATCH'] = 'Дар нишонаҳо ки шумо ворид кард мувофиқ нест.';
 $lang['CURRENT_PASSWORD_MISMATCH'] = 'Гузарвожа ҷорӣ ба шумо таъмин мекунад мувофиқ нест, ки ба нигоҳ дошта, дар пойгоҳи дода.';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = 'Гузарвожаи шумо наметавонад болотар аз %d аломат ва на камтар аз %d аломат бошад.';
 $lang['TOO_MANY_REGISTERS'] = 'Шумо низ кӯшиши сабти дод. Лутфан, баъд бори дигар кӯшиш кунед.';
 $lang['USERNAME_TAKEN'] = 'Бубахшед, аммо ин номи корбарӣ ва аллакай гирифта шудааст.';
 $lang['USERNAME_INVALID'] = 'Бубахшед, аммо ин корбарӣ дорои хусусияти беэътибор';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Бубахшед, аммо ин корбарӣ �
 $lang['USERNAME_TOO_LONG'] = 'Номи шумо хеле дароз аст.';
 $lang['USERNAME_TOO_SMALL'] = 'Номи шумо хеле хурд аст.';
 $lang['EMAIL_TAKEN'] = 'Бубахшед, аммо ин суроғаи почтаи электронӣ аллакай ба истифодабарандаи қайд гирифта шудааст.';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = 'Маъзрат, вале суроғаи <b>%s</b> манъ шудааст.';
 $lang['EMAIL_INVALID'] = 'Бубахшед, аммо ин нишонаи почтаи электронӣ нодуруст аст.';
 $lang['EMAIL_TOO_LONG'] = 'почтаи электронии шумо хеле дароз аст.';
 $lang['SIGNATURE_TOO_LONG'] = 'Имзои шумо хеле дароз аст.';
@@ -691,17 +691,17 @@ $lang['DESC'] = 'нузул';
 $lang['ORDER'] = 'тартибот';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = 'Ба ин мавзӯъ овоз диҳед';
+$lang['THANKS_GRATITUDE'] = 'Мо миннатдории шуморо қадр мекунем';
+$lang['LAST_LIKES'] = 'Овозҳои охир';
+$lang['LIKE_OWN_POST'] = 'Шумо наметавонед барои мавзӯи худ овоз диҳед';
+$lang['NO_LIKES'] = 'Ҳеҷ кас то ҳол овоз набардоштааст';
+$lang['LIKE_ALREADY'] = 'Шумо аллакай ба ин мавзӯъ овоз додаед';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = 'Код барои даъват';
+$lang['INCORRECT_INVITE'] = 'Даъват пайдо нагардида';
+$lang['INVITE_EXPIRED'] = 'Мӯҳлати даъват ба охир расид';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = 'Гурӯҳҳои корбар';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = 'A дархости ҳамроҳ гурӯҳи худ к
 $lang['GROUP_APPROVED'] = 'дархости шумо тасдиқ карда шуд.';
 $lang['GROUP_ADDED'] = 'Шумо ба ин usergroup илова карда шудаанд.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Шумо аллакай як узви ин гурӯҳ ҳастанд';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s аллакай узви ин гурӯҳ аст';
+$lang['USER_IS_MOD_GROUP'] = '%s модератори ин гурӯҳ аст';
 $lang['GROUP_TYPE_UPDATED'] = 'Њамгироии навъи гурӯҳи нав карда мешавад.';
 $lang['EFFECTIVE_DATE'] = 'Санаи самаранок';
 
@@ -985,271 +985,271 @@ $lang['DATETIME']['NOV'] = 'Nov';
 $lang['DATETIME']['DEC'] = 'Дек';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = 'Кишвар';
+$lang['SET_OWN_COUNTRY'] = 'Кишвари худро муайян кунед (дастон)';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
-    'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
-    'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
-    'AI' => 'Anguilla',
-    'AL' => 'Albania',
-    'AM' => 'Armenia',
-    'AO' => 'Angola',
-    'AQ' => 'Antarctica',
-    'AR' => 'Argentina',
-    'AS' => 'American Samoa',
-    'AT' => 'Austria',
-    'AU' => 'Australia',
-    'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
-    'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
-    'BB' => 'Barbados',
-    'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
-    'BF' => 'Burkina Faso',
-    'BG' => 'Bulgaria',
-    'BH' => 'Bahrain',
-    'BI' => 'Burundi',
-    'BJ' => 'Benin',
-    'BL' => 'Saint Barthélemy',
-    'BM' => 'Bermuda',
-    'BN' => 'Brunei Darussalam',
-    'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
-    'BR' => 'Brazil',
-    'BS' => 'Bahamas',
-    'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
-    'BW' => 'Botswana',
-    'BY' => 'Belarus',
-    'BZ' => 'Belize',
-    'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
-    'CL' => 'Chile',
-    'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
-    'CO' => 'Colombia',
-    'CR' => 'Costa Rica',
-    'CU' => 'Cuba',
-    'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
-    'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
-    'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
-    'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
-    'DZ' => 'Algeria',
-    'EC' => 'Ecuador',
-    'EE' => 'Estonia',
-    'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
-    'ER' => 'Eritrea',
-    'ES' => 'Spain',
-    'ET' => 'Ethiopia',
-    'EU' => 'Europe',
-    'FI' => 'Finland',
-    'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
-    'GA' => 'Gabon',
-    'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
-    'GB-SCT' => 'Scotland',
-    'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
-    'GD' => 'Grenada',
-    'GE' => 'Georgia',
-    'GF' => 'French Guiana',
-    'GG' => 'Guernsey',
-    'GH' => 'Ghana',
-    'GI' => 'Gibraltar',
-    'GL' => 'Greenland',
-    'GM' => 'Gambia',
-    'GN' => 'Guinea',
-    'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
-    'GT' => 'Guatemala',
-    'GU' => 'Guam',
-    'GW' => 'Guinea-Bissau',
-    'GY' => 'Guyana',
-    'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
-    'HN' => 'Honduras',
-    'HR' => 'Croatia',
-    'HT' => 'Haiti',
-    'HU' => 'Hungary',
-    'ID' => 'Indonesia',
-    'IE' => 'Ireland',
-    'IL' => 'Israel',
-    'IM' => 'Isle of Man',
-    'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
-    'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
-    'IS' => 'Iceland',
-    'IT' => 'Italy',
-    'JE' => 'Jersey',
-    'JM' => 'Jamaica',
-    'JO' => 'Jordan',
-    'JP' => 'Japan',
-    'KE' => 'Kenya',
-    'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
-    'KI' => 'Kiribati',
-    'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
-    'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
-    'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
-    'LC' => 'Saint Lucia',
-    'LI' => 'Liechtenstein',
-    'LK' => 'Sri Lanka',
-    'LR' => 'Liberia',
-    'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
-    'LU' => 'Luxembourg',
-    'LV' => 'Latvia',
-    'LY' => 'Libya',
-    'MA' => 'Morocco',
-    'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
-    'ME' => 'Montenegro',
-    'MF' => 'Saint Martin',
-    'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
-    'ML' => 'Mali',
-    'MM' => 'Myanmar',
-    'MN' => 'Mongolia',
-    'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
-    'MQ' => 'Martinique',
-    'MR' => 'Mauritania',
-    'MS' => 'Montserrat',
-    'MT' => 'Malta',
-    'MU' => 'Mauritius',
-    'MV' => 'Maldives',
-    'MW' => 'Malawi',
-    'MX' => 'Mexico',
-    'MY' => 'Malaysia',
-    'MZ' => 'Mozambique',
-    'NA' => 'Namibia',
-    'NC' => 'New Caledonia',
-    'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
-    'NG' => 'Nigeria',
-    'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
-    'NP' => 'Nepal',
-    'NR' => 'Nauru',
-    'NU' => 'Niue',
-    'NZ' => 'New Zealand',
-    'OM' => 'Oman',
-    'PA' => 'Panama',
-    'PE' => 'Peru',
-    'PF' => 'French Polynesia',
-    'PG' => 'Papua New Guinea',
-    'PH' => 'Philippines',
-    'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
-    'PN' => 'Pitcairn',
-    'PR' => 'Puerto Rico',
-    'PS' => 'Palestine',
-    'PT' => 'Portugal',
-    'PW' => 'Palau',
-    'PY' => 'Paraguay',
-    'QA' => 'Qatar',
-    'RE' => 'Réunion',
-    'RO' => 'Romania',
-    'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
-    'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
-    'SC' => 'Seychelles',
-    'SD' => 'Sudan',
-    'SE' => 'Sweden',
-    'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
-    'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SK' => 'Slovakia',
-    'SL' => 'Sierra Leone',
-    'SM' => 'San Marino',
-    'SN' => 'Senegal',
-    'SO' => 'Somalia',
-    'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
-    'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
-    'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
-    'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
-    'TG' => 'Togo',
-    'TH' => 'Thailand',
-    'TJ' => 'Tajikistan',
-    'TK' => 'Tokelau',
-    'TL' => 'Timor-Leste',
-    'TM' => 'Turkmenistan',
-    'TN' => 'Tunisia',
-    'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
-    'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
-    'UA' => 'Ukraine',
-    'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
-    'UY' => 'Uruguay',
-    'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
-    'VN' => 'Vietnam',
-    'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
-    'WS' => 'Samoa',
-    'XK' => 'Kosovo',
-    'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
-    'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
-    'ZM' => 'Zambia',
-    'ZW' => 'Zimbabwe',
+    0 => 'Интихоб нашудааст',
+    'AD' => 'Андура',
+    'AE' => 'Имороти Арабии Муттаҳида',
+    'AF' => 'Афғонистон',
+    'AG' => 'Антигуа ва Барбуда',
+    'AI' => 'Ангуилла',
+    'AL' => 'Албания',
+    'AM' => 'Арманистон',
+    'AO' => 'Анҷол',
+    'AQ' => 'Антарктида',
+    'AR' => 'Аргентина',
+    'AS' => 'Сомонаи амрикоӣ',
+    'AT' => 'Австрия',
+    'AU' => 'Австралия',
+    'AW' => 'Аруба',
+    'AX' => 'Ошонкҳо Аланд',
+    'AZ' => 'Озарбайҷон',
+    'BA' => 'Босния ва Ҳерсеговина',
+    'BB' => 'Барбадос',
+    'BD' => 'Бангладеш',
+    'BE' => 'Белгия',
+    'BF' => 'Буркина Фасо',
+    'BG' => 'Болғористон',
+    'BH' => 'Баҳрайн',
+    'BI' => 'Бурунди',
+    'BJ' => 'Бенин',
+    'BL' => 'Сент Бартелеми',
+    'BM' => 'Бермудон',
+    'BN' => 'Бруней',
+    'BO' => 'Боливия, давлати плюринашонал',
+    'BQ' => 'Курортҳои Кариб',
+    'BR' => 'Бразилия',
+    'BS' => 'Баҳама',
+    'BT' => 'Бутан',
+    'BV' => 'Безоингун',
+    'BW' => 'Ботсвана',
+    'BY' => 'Беларус',
+    'BZ' => 'Белиз',
+    'CA' => 'Канада',
+    'CC' => 'Кокон (Килинг) Островҳо',
+    'CD' => 'Конго, Ҷумҳурии Демократии Конго',
+    'CF' => 'Ҷумҳурии Африқои Марказӣ',
+    'CG' => 'Ҷумҳурии Конго',
+    'CH' => 'Швейтсария',
+    'CI' => 'Ҷумҳурии Сахели Кот д\'Ивуар',
+    'CK' => 'Чили',
+    'CL' => 'Камерун',
+    'CM' => 'Чин (Ҷумҳурии мардумии Чин)',
+    'CN' => 'Колумбия',
+    'CO' => 'Колумбия',
+    'CR' => 'Коста-Рика',
+    'CU' => 'Куба',
+    'CV' => 'Капи Верде',
+    'CW' => 'Кишвари Курасао',
+    'CX' => 'Острови Кристмас',
+    'CY' => 'Кипр',
+    'CZ' => 'Ҷумҳурии Чех',
+    'DE' => 'Германистон',
+    'DJ' => 'Ҷибути',
+    'DK' => 'Дания',
+    'DM' => 'Доминика',
+    'DO' => 'Ҷумҳурии Доминиканӣ',
+    'DZ' => 'Алҷерӣ',
+    'EC' => 'Эквадор',
+    'EE' => 'Эстония',
+    'EG' => 'Миср',
+    'EH' => 'Саҳрои Ғарбӣ',
+    'ER' => 'Эритрея',
+    'ES' => 'Испания',
+    'ET' => 'Этиопия',
+    'EU' => 'Аврупо',
+    'FI' => 'Финландия',
+    'FJ' => 'Фиджи',
+    'FK' => 'Острови Фолкленд (Малвинас)',
+    'FM' => 'Микронезия, давлатҳои федеративӣ',
+    'FO' => 'Острови Фарер',
+    'FR' => 'Фаронса',
+    'GA' => 'Габон',
+    'GB-ENG' => 'Энглис',
+    'GB-NIR' => 'Шимолии Ирландия',
+    'GB-SCT' => 'Скотланды',
+    'GB-WLS' => 'Уэйлс',
+    'GB' => 'Шоҳигарии муттаҳида',
+    'GD' => 'Гренада',
+    'GE' => 'Гурҷистон',
+    'GF' => 'Гвинаи Фаронсавӣ',
+    'GG' => 'Гернси',
+    'GH' => 'Гана',
+    'GI' => 'Гибралтар',
+    'GL' => 'Гренландия',
+    'GM' => 'Гамбия',
+    'GN' => 'Гвинея',
+    'GP' => 'Гваделупа',
+    'GQ' => 'Гвинея-Экваториалӣ',
+    'GR' => 'Грекия',
+    'GS' => 'Гурҷистон',
+    'GT' => 'Гренада',
+    'GU' => 'Гуам',
+    'GW' => 'Гвинея-Бисо',
+    'GY' => 'Гуйана',
+    'HK' => 'Гонконг',
+    'HM' => 'Ҳард ва Макдоналд Островҳо',
+    'HN' => 'Ҳондурас',
+    'HR' => 'Хорватия',
+    'HT' => 'Ҳaiti',
+    'HU' => 'Маҷористон',
+    'ID' => 'Индонезия',
+    'IE' => 'Ирландия',
+    'IL' => 'Исроил',
+    'IM' => 'Острови Ман',
+    'IN' => 'Ҳинд',
+    'IO' => 'Соҳаи моряи халқии Бритониё',
+    'IQ' => 'Ироқ',
+    'IR' => 'Ирон, Ҷумҳурии Исломӣ',
+    'IS' => 'Исланд',
+    'IT' => 'Италия',
+    'JE' => 'Джерси',
+    'JM' => 'Ҷамайка',
+    'JO' => 'Иордания',
+    'JP' => 'Япония',
+    'KE' => 'Кения',
+    'KG' => 'Қирғизистон',
+    'KH' => 'Камбоҷа',
+    'KI' => 'Кирибатӣ',
+    'KM' => 'Коморҳо',
+    'KN' => 'Сент Китс ва Невис',
+    'KP' => 'Корея, Ҷумҳурии олии кишвар',
+    'KR' => 'Корея, Ҷумҳурии Сеҳирӣ',
+    'KW' => 'Кувайт',
+    'KY' => 'Кайман Островҳо',
+    'KZ' => 'Казахстан',
+    'LA' => 'Лаос (Ҷумҳурии демократи Халқии Лаос)',
+    'LB' => 'Лубнон',
+    'LC' => 'Сент Люсия',
+    'LI' => 'Лихтенштейн',
+    'LK' => 'Шри Ланка',
+    'LR' => 'Либерия',
+    'LS' => 'Лесото',
+    'LT' => 'Литва',
+    'LU' => 'Люксембург',
+    'LV' => 'Латвия',
+    'LY' => 'Либия',
+    'MA' => 'Марокко',
+    'MC' => 'Монако',
+    'MD' => 'Молдова, Ҷумҳурии Молдова',
+    'ME' => 'Монтенегро',
+    'MF' => 'Сент Мартин',
+    'MG' => 'Мадагаскар',
+    'MH' => 'Баҳрии Ҷамол',
+    'MK' => 'Мақедония',
+    'ML' => 'Мали',
+    'MM' => 'Мянмар',
+    'MN' => 'Монголистон',
+    'MO' => 'Макао',
+    'MP' => 'Островҳои Шимолии Мариана',
+    'MQ' => 'Мартиника',
+    'MR' => 'Мавритания',
+    'MS' => 'Монсеррат',
+    'MT' => 'Малта',
+    'MU' => 'Маврикий',
+    'MV' => 'Малдивҳо',
+    'MW' => 'Малави',
+    'MX' => 'Мексика',
+    'MY' => 'Малайзия',
+    'MZ' => 'Мозамбик',
+    'NA' => 'Намибия',
+    'NC' => 'Каледонияи Нав',
+    'NE' => 'Нигер',
+    'NF' => 'Острови Норфолк',
+    'NG' => 'Нигерия',
+    'NI' => 'Никарагуа',
+    'NL' => 'Ҳолланд',
+    'NO' => 'Норвегия',
+    'NP' => 'Непал',
+    'NR' => 'Науру',
+    'NU' => 'Ниуэ',
+    'NZ' => 'Нова Зеландия',
+    'OM' => 'Оман',
+    'PA' => 'Панама',
+    'PE' => 'Перу',
+    'PF' => 'Полинезияи Фаронса',
+    'PG' => 'Папуа - Новая Гвинея',
+    'PH' => 'Филиппин',
+    'PK' => 'Покистон',
+    'PL' => 'Полша',
+    'PM' => 'Сент-Пьер ва Микелон',
+    'PN' => 'Питкэрн',
+    'PR' => 'Пуэрто Рико',
+    'PS' => 'Фаластин',
+    'PT' => 'Португалия',
+    'PW' => 'Палау',
+    'PY' => 'Парагвай',
+    'QA' => 'Қатар',
+    'RE' => 'Реюньон',
+    'RO' => 'Румын',
+    'RS' => 'Сербия',
+    'RU' => 'Иттиҳоди Русия',
+    'RW' => 'Руанда',
+    'SA' => 'Арабистони Саудӣ',
+    'SB' => 'Давлатҳои Салмон',
+    'SC' => 'Сейшели',
+    'SD' => 'Судан',
+    'SE' => 'Шветсия',
+    'SG' => 'Сингапур',
+    'SH' => 'Сент-Елена, Ассенсион ва Тристан да Кунха',
+    'SI' => 'Словения',
+    'SJ' => 'Валос ва Футуна',
+    'SK' => 'Словакия',
+    'SL' => 'Сьерра-Леоне',
+    'SM' => 'Сан-Марино',
+    'SN' => 'Сенегал',
+    'SO' => 'Сомали',
+    'SR' => 'Surinam',
+    'SS' => 'Ҷануби Судан',
+    'SU' => 'Иттиҳоди Шӯравӣ',
+    'ST' => 'САО Томе ваプリンシペ',
+    'SV' => 'Эл Салвадор',
+    'SX' => 'Синт Мартен (қисми голландӣ)',
+    'SY' => 'Ҷумҳурии араби Сурия',
+    'SZ' => 'Свазилэнд',
+    'TC' => 'Далелҳое, ки Ситом сохт',
+    'TD' => 'Чад',
+    'TF' => 'Ҳудудҳои Ҷануби Фаронса',
+    'TG' => 'Того',
+    'TH' => 'Тайланд',
+    'TJ' => 'Таджикистон',
+    'TK' => 'Токелау',
+    'TL' => 'Тимор-Лест',
+    'TM' => 'Туркманистон',
+    'TN' => 'Тунис',
+    'TO' => 'Тонга',
+    'TR' => 'Туркия',
+    'TT' => 'Тринидад ва Тобог',
+    'TV' => 'Тувалу',
+    'TW' => 'Тайван (Ҷумҳурии Хитой)',
+    'TZ' => 'Танзания, Ҷумҳурии Иттиҳод',
+    'UA' => 'Укришон',
+    'UG' => 'Угандо',
+    'UM' => 'Иловагии СММ',
+    'US' => 'Иттиҳоди Штатҳо',
+    'UY' => 'Уругвай',
+    'UZ' => 'Узбакистон',
+    'VA' => 'Ватикани Муқаддас (Шаҳри Ватикан)',
+    'VC' => 'Сент-Винсент ва Гренадин',
+    'VE' => 'Венесуэла, Ҷумҳурии Боливарӣ',
+    'VG' => 'ҶазираҳоиVirgin',
+    'VI' => 'Ҷазираҳои Virgin, иолӣ.',
+    'VN' => 'Ветнам',
+    'VU' => 'Вануту',
+    'WF' => 'Ҷазираҳои Валлис ва Футуна',
+    'WS' => 'Самоа',
+    'XK' => 'Косово',
+    'YE' => 'Йемен',
+    'YU' => 'Югославия',
+    'YT' => 'Майотт',
+    'ZA' => 'Ҷануби Африка',
+    'ZM' => 'Замбия',
+    'ZW' => 'Зимбабве',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
-    'LGBT' => 'Pride flag'
+    'WBW' => 'Русияи аҷоиби оянда',
+    'PACE' => 'Парчами осоиштагӣ',
+    'LGBT' => 'Парчами ифтихор'
 ];
 
 // Errors
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = 'Тавсифи'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = 'Пурбинандатаринҳо';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Тамдиди \'%s\' аз тарафи администратор хомӯш шуд, бинобар ин ин замима намоиш дода намешавад.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
-$lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
-$lang['BITRATE'] = 'Bitrate: <b>%s</b>';
-$lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
-$lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
-$lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['STREAM'] = 'Стрим';
+$lang['RESOLUTION'] = 'Риштаи:<b>%s</b>';
+$lang['CHANNELS'] = 'Канолҳо:<b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = 'Тарзи канолҳо:<b>%s</b>';
+$lang['BITRATE'] = 'Битрат:<b>%s</b>';
+$lang['SAMPLE_RATE'] = 'Норматсияи намуна:<b>%s</b>';
+$lang['AUDIO_TRACK'] = 'Маълумоти мачираи аудио (%d):';
+$lang['AUDIO_CODEC'] = 'Кодек аудио: <b title="%s">%s</b>';
+$lang['VIDEO_CODEC'] = 'Кодек видео: <b title="%s">%s</b>';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Маълумоти бештар дар бораи файлро нишон диҳед';
+$lang['DOWNLOAD_M3U_FILE'] = 'Файли .m3u-ро зеркашӣ кунед';
+$lang['PLAYBACK_M3U'] = 'Файли .m3u-ро навозиш кунед';
+$lang['COPY_STREAM_LINK'] = 'Ссилкуи ҷараёнро ба клипборд копи кунед';
+$lang['M3U_NOT_SUPPORTED'] = 'Ин файл дар браузер навозиш намешавад...';
+$lang['M3U_FFPROBE_NO_DATA'] = 'Ба назар мерасад, ffprobe наметавонад маълумот оид ба ин кодекро баргардонад...';
+$lang['M3U_NOTICE'] = 'Нек хати фарз аст, ки чанд браузер намехоҳад навозишро пайдо кунад. Дар чунин ҳолат, шумо метавонед файли .m3u-ро зеркашӣ кунед ва бо истифодаи плеерҳои сеюм навозиш кунед.';
 
 $lang['ATTACHMENT'] = 'замимаҳо';
 $lang['ATTACHMENT_THUMBNAIL'] = 'Замимаи бандангуштӣ';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = 'илова';
 $lang['BT_REG_ON_TRACKER'] = 'Ба Реестри оид ба Назоратчии';
 $lang['BT_REG_FAIL'] = 'Оё ҷӯйе оид ба Назоратчии қайд намегиранд';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'ҷӯйе дигар бо ҳамин info_hash аллакай <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
-$lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'Ин фақат барои торрентҳои v1 ғайриимкон шуд, иҷозатдодашуда: v2 ва гибридҳо';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'Ин фақат барои торрентҳои v2 ғайриимкон шуд, иҷозатдодашуда: v1 ва гибридҳо';
+$lang['BT_FLIST'] = 'Листи фоҳишаро';
+$lang['BT_FLIST_LIMIT'] = 'Танзимоти трекер имкон намедиҳад то соли бемории %d файлро коркард кунанд. Шумораи ҳозир: %d';
+$lang['BT_FLIST_BTMR_HASH'] = 'BTMR Хеш';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'Рамзи мерклеи биторрент - ин рамзи файли хадамоти бедор дар торрентҳои имрӯз дастнорас аст, мизоҷон метавонанд онро ҷудо кунанд, ҳисоб карда, ҳамзамон тортҳои зиёдро истифода кунанд.';
+$lang['BT_FLIST_CREATION_DATE'] = 'Санаи истеҳсол';
+$lang['BT_IS_PRIVATE'] = 'Торрент хусусӣ';
+$lang['BT_FLIST_FILE_PATH'] = 'Роҳи (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = 'Ҳашти файлхо | маълумоте, ки .torrent тиман сифати';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Феҳристи муваффақкунандагон';
+$lang['BT_FLIST_ANNOUNCERS'] = 'Муваффақкунандагон';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Ин феҳрист меваридкунандагон барои файлӣободҳоро бартараф мекунад';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Хориҷ аз Назоратчии';
 $lang['BT_UNREGISTERED'] = 'ҷӯйе никоњи';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = 'Торрент аллакай бекор карда шудааст';
 $lang['BT_REGISTERED'] = 'Ҷӯйе ба қайд tracker<br /><br />Now ба шумо лозим аст, ки <a href="%s"><b>download torrent</b></a> худ ва идора ба он бо истифода аз муштарӣ BitTorrent худ интихоби папкаи бо файлҳои аслӣ шумо нақл ҳамчун роҳи боргирӣ аз';
 $lang['INVALID_ANN_URL'] = 'URL хабар нодуруст [%s]<br /><br />must бошад <b>%s</b>';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Оё passkey<br /><br />Torrent илова на ин ки дар Назоратчии ба қайд гирифта намешавад';
 $lang['BT_PASSKEY'] = 'Passkey';
 $lang['BT_GEN_PASSKEY'] = 'эҷод нав';
 $lang['BT_PASSKEY_VIEW'] = 'нишон';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Эътибор! Баъд аз иваз намудани паскалк, шумо бояд боз ҳам мувофиқат накунед! Оё шумо боварӣ доред, ки мехоҳед паскалк нави эҷод кунед?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Не форумҳо ҷустуҷӯшаванда ёфт';
 
 $lang['SEEDS'] = 'тухмӣ';
@@ -1403,35 +1403,35 @@ $lang['RELEASING'] = 'Худшиносӣ';
 $lang['SEEDING'] = 'тухмӣ';
 $lang['LEECHING'] = 'пиявка';
 $lang['IS_REGISTERED'] = 'Сабтшуда';
-$lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET'] = 'Магнит-линк';
+$lang['MAGNET_FOR_GUESTS'] = 'Магнит-линк истеҳсомот барои меҳмонот';
+$lang['MAGNET_v2'] = 'Магнит-линки (БитTorrent v2 дастгирӣ)';
 
 //torrent status mod
 $lang['TOR_STATUS'] = 'Статуси';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'вазъи интихоб кунед';
 $lang['TOR_STATUS_NOT_SELECT'] = 'Шумо ба мақоми интихоб нашудааст.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Ҳамаи statuses';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = 'Вазъияти ин мавзӯъ:';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'қайд нашуда',
     TOR_CLOSED => 'баста',
     TOR_APPROVED => 'месанҷад',
     TOR_NEED_EDIT => 'то ба расмият дароварда нашудааст',
     TOR_NO_DESC => 'ба расмият дароварда нашудааст',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => 'такрор',
+    TOR_CLOSED_CPHOLD => 'бозӣ (муҳофизат)',
     TOR_CONSUMED => 'ғарқи',
     TOR_DOUBTFUL => 'шӯбҳанок',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => 'дар тайёр кардан',
     TOR_TMP => 'муваққатӣ',
     TOR_PREMOD => 'пеш аз бамеъёр',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => 'навсозӣ',
 ];
 $lang['TOR_STATUS_FAILED'] = 'Чунин ҳолати вуҷуд надорад!';
 $lang['TORRENT_FAILED'] = 'Тақсими пайдо нашуда буд!';
 $lang['TOR_STATUS_DUB'] = 'Тақсими дорои мақоми ҳамон';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Таърифи мақом имконпазир нест!';
 $lang['TOR_STATUS_OF'] = 'Тақсими дорои мақоми:';
 $lang['TOR_STATUS_CHANGED'] = 'Статуси иваз:';
 $lang['TOR_BACK'] = 'бозгашт';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'муайянкунандаи файли гумшу
 $lang['CHANGE_TOR_TYPE'] = 'Намуди ҷӯйе бо муваффақият тағйир дода';
 $lang['DEL_TORRENT'] = 'Оё мутмаинед, ки мехоҳед тоза ҷӯйе?';
 $lang['DEL_MOVE_TORRENT'] = 'Оё мутмаинед, ки мехоҳед тоза ва ҳаракат ба ин мавзӯъ?';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = 'Шумо дорои реҷаи ҷамъияти нашр инкор шавед. Лутфан бо сигна кутоҳатон кумак накунед!';
+$lang['TOR_STATUS_LOG_ACTION'] = 'Вазъи нави: %s.<br/>Вазнати пешина: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Таѓйир додани вазъи тақсимоти - %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Салом, %s.\n\nСтатуси [url=%s]шифрам [/url] ба [b]%s[/b] иваз шуд";
 
 $lang['TOR_AUTH_TITLE'] = 'Тағйирот дар тарҳрезии - %s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "Салом, %s.\n\nШумораи [url=%s]%s[/url] тағири нақл ба вуқӯъ омадааст.\n\nЛутфан истинкали ӯро тасдиқ кунед.";
 $lang['TOR_AUTH_FIXED'] = 'собит';
 $lang['TOR_AUTH_SENT_COMMENT'] = '&middot; маълумот <span class="seed bold">The фиристод, то ки ба модератор. Expect.</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = 'Насли охир дида';
 $lang['BT_SORT_FORUM'] = 'Форуми';
 $lang['SIZE'] = 'андоза';
 $lang['PIECE_LENGTH'] = 'дарозии порчаи';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = 'Зеркашии ба анҷом расида';
 $lang['ADDED'] = 'илова';
 $lang['DELETE_TORRENT'] = 'Тозакунии ҷӯйе';
 $lang['DELETE_MOVE_TORRENT'] = 'Нобуд ва ҳаракат мавзӯъ';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = 'Ворид нуқра';
 $lang['UNSET_SILVER_TORRENT'] = 'UnMake нуқра';
 $lang['GOLD_STATUS'] = 'Ҷӯйе GOLD! Ҳаракати БЕРУНОРИ Оё фикр намекунанд!';
 $lang['SILVER_STATUS'] = 'Ҷӯйе нуқра! Ҳаракати БЕРУНОРИ қисман НАЗАР!';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = 'Таъриф тағйирёбанда ба: %s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = 'Ҷустуҷӯ бо вазъияти нашр';
 $lang['SEARCH_IN_FORUMS'] = 'Ҷустуҷӯи Форумҳо';
 $lang['SELECT_CAT'] = 'Интихоб кунед категорияи';
 $lang['GO_TO_SECTION'] = 'фасли Goto';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Ҷӯйе аллакай ба қайд гирифта';
 $lang['NOT_TORRENT'] = 'Ин файл ҷӯйе нест,';
 $lang['ONLY_1_TOR_PER_POST'] = 'Шумо метавонед танҳо як ҷӯйе дар як мансаби ба қайд';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Шумо метавонед танҳо як ҷӯйе дар як мавзӯъ ба қайд';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = 'Профили торрент';
 $lang['CUR_ACTIVE_DLS'] = 'рӯдҳо фаъол';
 
 $lang['TD_TRAF'] = 'имрӯз';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = '-ро интихоб кунед';
 $lang['SEED_BONUS'] = 'бонуси Насли';
 $lang['EXCHANGE'] = 'Қурби асъор';
 $lang['EXCHANGE_BONUS'] = 'Мубодилаи мукофотпулӣ насли';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s барои тақсимот</b> <br /> то гирифтан нуқтаҳои бонус дар %1$s корҳое, ки ба шумораи шумораи шумораи шумораи шумораи шумораи шумораи шумораи шумораи шумо илова мешавад.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Нарх';
 $lang['EXCHANGE_NOT'] = 'Мубодилаи дастрас нест';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You Оё мукофотпулӣ
 $lang['BONUS_RETURN'] = 'Бозгашт ба мубодилаи бонуси насли';
 
 $lang['TRACKER'] = 'Назоратчии';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = 'Ҷадвали тасодуфӣ';
 $lang['OPEN_TOPICS'] = 'мавзӯъҳои Open';
 $lang['OPEN_IN_SAME_WINDOW'] = 'кушода дар ҳамин тиреза';
 $lang['SHOW_TIME_TOPICS'] = 'замони мавзӯъҳои офариниш нишон';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'лоиҳакаш';
 $lang['LAST_IP'] = 'Last IP:';
 $lang['REG_IP'] = 'IP бақайдгирӣ:';
 $lang['OTHER_IP'] = 'Дигар IP:';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'Баъзе корбар %s аллакай бо IP-суроғаи шумо сабт шудааст. Агар шумо пештар сабт накунед, ба <a href="mailto:%s">администратори</a> тамоми нусхаи минатдор шавед.';
 $lang['HIDDEN'] = 'пинҳонӣ';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = 'Ҳеҷ';
 //mpd
 $lang['DELETE_POSTS'] = 'Тоза кардани Заметки интихобшуда';
 $lang['DELETE_POSTS_SUCCESFULLY'] = 'Дар Заметки интихобшуда бомуваффақият бардошта шуд';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = 'Не постҳо хориҷ карда шудаанд.';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Эълонҳо';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = 'вақти Навсозии баъди';
 $lang['TOPIC_SPLIT_NEW'] = 'мавзӯъ Сиёсат';
 $lang['TOPIC_SPLIT_OLD'] = 'мавзӯъ кӯҳна';
 $lang['BOT_LEAVE_MSG_MOVED'] = 'Иловаи боти-хабар дар бораи ҳаракат';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = 'Далели ҳаракат';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Иловаи боти-хабар дар бораи ҹудо ба <b>old topic</b>';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Иловаи боти-хабар дар бораи ҹудо ба <b>new topic</b>';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['ҷавоб', 'АКС'];
 $lang['DECLENSION']['TIMES'] = ['замон', 'маротиба'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['файл', 'файлҳо'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['дуюм', 'сония'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = 'шарҳ';
 
 // search
 $lang['SEARCH_S'] = 'Ҷустуҷӯи ...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = 'дар форум';
+$lang['TRACKER_S'] = 'дар трекер';
 $lang['HASH_S'] = 'бо info_hash';
 
 // copyright
 $lang['NOTICE'] = '! ДИҚҚАТИ!';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = 'Сомона версияи электронии маҳсулот намедиҳад ва танҳо дар бораи ҷамъоварии маълумотҳо рӯйхат кардани маълумотҳои нашрдари моҷудшуда равона аст. Агар шумо соҳиби қонунии ягон мавод бошед ва намехоҳед, ки адреси он дар феҳристи мо бошад, бо мо тамос гиред ва мо фавран онро тоза мекунем. Файлҳо барои мубодила дар трекер аз тарафи истифодабарандагони сомона пешниҳод мешаванд ва администрация барои ҳуҷҷатҳои онҳо масъулият надорад. Лутфан файлҳои ҳифзшудаи муаллифин ё нодирро бор карда накунед!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'феҳристи фурӯпошии';
 $lang['EXPAND'] = 'васеъ';
 $lang['SWITCH'] = 'калид';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Дарвозаандозоиву кафолат диҳед';
 $lang['EMPTY_ATTACH_ID'] = 'муайянкунандаи файли гумшуда!';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = 'Файл аз сервер гум шудааст!';
 $lang['ERROR_BUILD'] = 'Аз мазмуни ин парванда ҷӯйе метавонад дар сомона карда намешавад дорем (аз он ғайриимкон буд, барои сохтани рӯйхати файлҳо)';
 $lang['TORFILE_INVALID'] = 'парванда ҷӯйе ба фасод аст,';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Дар "сайт" метавонанд дорои танҳо HTTP: // SITENAME';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = 'В поле «ICQ» танҳо рақами ICQ гузошта мешуд';
+$lang['INVALID_DATE'] = 'Таърихи нодуруст';
 $lang['PROFILE_USER'] = 'тамошои профили';
 $lang['GOOD_UPDATE'] = 'бо муваффақият тағйир дода шуд';
 $lang['UCP_DOWNLOADS'] = 'Боргириҳо';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Оё мутмаинед, ки мехоҳед б�
 $lang['USER_DELETED'] = 'Корбар бомуваффақият тоза карда шуд';
 $lang['DELETE_USER_ALL_POSTS'] = 'Нобуд сохтани ҳамаи Заметки истифодабаранда';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Оё мутмаинед, ки мехоҳед, ба тоза кардани ҳамаи паёмҳо ва ҳамаи мавзӯъҳои оғоз ин истифодабаранда?';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = 'Ҳамаи паёмҳоро нест кунед, ба истиснои паёмҳои аввалини';
 $lang['DELETE_USER_POSTS_ME'] = 'Оё мутмаинед, ки мехоҳед, ба тоза кардани ҳамаи Заметки ман?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Оё шумо боварӣ доред, ки мехоҳед ҳамаи паёмҳоро нест кунед, ба истиснои паёмҳои нахустин?';
 $lang['USER_DELETED_POSTS'] = 'Posts бомуваффақият бардошта шуд';
 
 $lang['USER'] = 'истифода';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Шумо ҳақ надоред, барои дид�
 
 $lang['USER_ACTIVATE'] = 'Фаъолсозии';
 $lang['USER_DEACTIVATE'] = 'Хомӯшсозии';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = 'Оё шумо боварӣ доред, ки мехоҳед ин корбарро хомӯш кунед?';
 $lang['USER_ACTIVATE_ON'] = 'Корбар бо муваффақият фаъол';
 $lang['USER_DEACTIVATE_ME'] = 'Шумо метавонед, ки ҳисоби ман амалӣ насоз!';
 $lang['ACTIVATE_CONFIRM'] = 'Оё мутмаинед, ки мехоҳед, ба хомӯш сохтани ин корбар?';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = 'Шумо бояд почтаи электронӣ му
 $lang['CHOOSE_PASS'] = 'Соњаи пароли бояд на холӣ!';
 $lang['CHOOSE_PASS_ERR'] = 'нишонаҳо дохил Оё мувофиқат намекунанд';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Гузарвожаи шумо бояд дар на камтар %d аломат бошад';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Гузарвожаи шумо бояд камтар аз %d аломат бошад';
+$lang['CHOOSE_PASS_ERR_NUM'] = 'Калидвожаи шумо бояд аввалин алфавити рақамро дар бар гирад';
+$lang['CHOOSE_PASS_ERR_LETTER'] = 'Калидвожаи шумо бояд дар шахри боз ҳам як ғизои хати алфавит порти на камтар аз хати калон бошад';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'Калидвожаи шумо бояд дар гизиш дар шахри як рейш побиҳои муаллифӣ   алангаи рақам бошад';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Калидвожаи шумо бояд дар муборизони зоишишон козиш бошад';
 $lang['CHOOSE_PASS_OK'] = 'бозии Паролҳо';
 $lang['CHOOSE_PASS_REG_OK'] = 'Нишонаҳо мувофиқ, шумо метавонед бо бақайдгирии идома';
 $lang['CHOOSE_PASS_FAILED'] = 'Барои тағйир додани рамз, шумо дуруст бояд гузарвожаи ҷорӣ муайян';
 $lang['EMAILER_DISABLED'] = 'Мутаасифона, ба ин хусусият аст, муваққатан кор намекунад';
 $lang['TERMS_ON'] = 'Ман бо ин шарту шароит розӣ';
 $lang['TERMS_OFF'] = 'Ман ба ин шартҳо розӣ нестанд';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'Барои сабти ном, JavaScript бояд фаъол бошад';
+$lang['REGISTERED_IN_TIME'] = "Сабти ном дар ҳоли ҳозир хомӯш аст<br /><br />Сабти ном замон: %s<br />Замони сервери ҳозир: %s<br /><br />Маъзрат, ки ин нофаҳмӣ";
+$lang['AUTOCOMPLETE'] = 'Гузарвожаро тавлид кунед';
 $lang['YOUR_NEW_PASSWORD'] = 'Ту ҳастанд пароли нав:';
 $lang['REGENERATE'] = 'вазъияти';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = 'хомӯш кардан';
 $lang['MEMORY'] = 'Интх:';
 $lang['QUERIES'] = 'дархостҳо';
 $lang['LIMIT'] = 'Ҳадди:';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = 'Логи нохуҳо';
+$lang['EXPLAINED_LOG'] = 'Логҳои фаҳмисол';
+$lang['CUT_LOG'] = 'Логҳои дарозको constraint ккдкуни';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = 'Download озод ва дар ҳадди суръати!';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = 'Матни Bold: [b]text[/b] (Ctrl + B)';
 $lang['ITALIC'] = 'Матни Italic: [i]text[/i] (Ctrl + I)';
 $lang['UNDERLINE'] = 'Таъкид матн: [u]text[/u] (Ctrl + U)';
 $lang['STRIKEOUT'] = 'Матни Strikeout: [s]text[/s] (Ctrl + S)';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
+$lang['BOX_TAG'] = 'Чароғаки муҳити: [box]text[/box] ё [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = 'Муҷарради сурати: [indent]text[/indent]';
+$lang['PRE_TAG'] = 'Губари бақайдории текстҳои проддозии: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Тексти надолг: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Тексти поин: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Матни Quote: [quote]text[/quote] (Ctrl + Q)';
 $lang['IMG_TITLE'] = 'Ворид кардани тасвир: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'Url';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = 'Намоиши Кодекс: [code]code[/code] (Ctrl + K)
 $lang['LIST'] = 'рӯйхат';
 $lang['LIST_TITLE'] = 'Рӯйхати: [list]text[/list] (Ctrl + л)';
 $lang['LIST_ITEM'] = 'Рӯйхати фармон: [рӯйхати =] text[/list] (Ctrl + O)';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = 'Акраним';
+$lang['ACRONYM_TITLE'] = 'Акраним: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Quote интихобшуда';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = 'JavaScript бояд барои ирсоли паёмҳо фаъол бошад';
 
 $lang['NEW'] = 'нав';
 $lang['NEWEST'] = 'навтарини';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'суръати ул';
 $lang['DL_DL_SPEED'] = 'суръати DL';
 $lang['DL_PORT'] = 'бандаргоҳ';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'Клиенти BitTorrent';
 $lang['DL_FORMULA'] = 'Формула: Изҳори / TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'қатъ';
 $lang['DL_UPD'] = 'Фосилаи:';
 $lang['DL_INFO'] = 'нишон <i><b>only маълумот барои session</b></i> ҷорӣ';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Намуди ном парвардаи мизоҷони BitTorrent-ро дар рӯйхати кӯмак медораму';
+$lang['HIDE_PEER_COUNTRY_NAME'] = 'Намуди ном кайфияти худаш дар рӯйхати рахнаи коридор';
+$lang['HIDE_PEER_USERNAME'] = 'Номзад кунанд.ореинг дар рӯйхати мизоҷон';
 
 // Post PIN
 $lang['POST_PIN'] = 'Pin аввали баъди';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = 'Барои нест кардани тартиби аз
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'мавзӯъҳои мепоиданд';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'На ягон мавзӯъҳоеро тамошо накунед';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Бозгашт ба саҳифаи';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = 'Бирав ба профили';
 
 $lang['WARNING'] = 'Огоҳӣ';
 $lang['INDEXER'] = 'Ҷустуҷӯи Reindex';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = 'Масъалаи индекс бо муваффақият навсозӣ шуд';
 
 $lang['FORUM_STYLE'] = 'Услуби Форум';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = 'Шаблон озод';
 $lang['ACTIONS_LOG'] = 'Њисобот оид ба амалиёти';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = 'Маҳдудиятҳои Маълумот';
+$lang['MIGRATIONS_DATABASE_NAME'] = 'Номгӯи Дата';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Мумкин хоӣ калон';
+$lang['MIGRATIONS_DATABASE_SIZE'] = 'Андозаи Дата';
+$lang['MIGRATIONS_DATABASE_INFO'] = 'Маълумоти Дата';
+$lang['MIGRATIONS_SYSTEM'] = 'Намудҳо';
+$lang['MIGRATIONS_NEEDS_SETUP'] = 'Танзимоти Илоҷи ва рафти бой ,';
 $lang['MIGRATIONS_ACTIVE'] = 'фаъол';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
-$lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = 'На тамизкунӣ';
+$lang['MIGRATIONS_UP_TO_DATE'] = 'Ҳамаи аз вақти мудохила боботсати намоннӣ';
+$lang['MIGRATIONS_PENDING_COUNT'] = 'интизор';
+$lang['MIGRATIONS_APPLIED'] = 'Илоҷи илоҷҳо';
+$lang['MIGRATIONS_PENDING'] = 'Илочерои интизоре';
+$lang['MIGRATIONS_VERSION'] = 'Наслить';
+$lang['MIGRATIONS_NAME'] = 'Номи Илоҷи';
+$lang['MIGRATIONS_FILE'] = 'Файли Илоҷи';
+$lang['MIGRATIONS_APPLIED_AT'] = 'Илоҷи дароҳон қарор дода шуд';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'дрошон дот парвива итоат карда шуд';
+$lang['MIGRATIONS_CURRENT_VERSION'] = 'На_ylim nulla перетонziałши';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Масъало дар иро зиёдтар инкар мор له умно шудани';
+$lang['MIGRATIONS_INSTRUCTIONS'] = 'Намудҳоб шмонза_ELEMENTS';
+$lang['MIGRATIONS_SETUP_STATUS'] = 'Порфизия';
+$lang['MIGRATIONS_SETUP_GUIDE'] = 'Насли  пинмонг гардондани';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Кори Менихтатылар';
 
 // Index
 $lang['MAIN_INDEX'] = 'Индекси Форум';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'фишурдасозии Gzip';
 $lang['NOT_AVAILABLE'] = 'Дастрас нест';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
-$lang['ADMIN_SYSTEM_OS'] = 'OS:';
+$lang['ADMIN_SYSTEM_INFORMATION'] = 'Маълумот ва пешбиниҳои системаи';
+$lang['ADMIN_SYSTEM_OS'] = 'Ошёна';
 $lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
-$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Системаи Дата:';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Маҳдудиятҳои лимити:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Маълумот пинрозгҳои';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (истифода: %s | озод: %s)';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Вақти ҳаёти сехоб:';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Datastore';
-$lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_CACHE'] = 'Камат муайян кардани';
+$lang['CLEAR_TEMPLATES_CACHE'] = 'Кеши шаблон';
 
 // Update
 $lang['USER_LEVELS'] = 'сатњи корбар';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'ҳисоб Заметки корбар
 $lang['SHOW_ONLINE_USERLIST'] = 'Нишон номгўи истифодабарандагони онлайн';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Тамопи robots.txt';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'Робот нарук ирасондаи рийг примомин  карда шуд';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Ид ба robots.txt мансаб%s';
 
 // Auth pages
 $lang['USER_SELECT'] = 'Интихоби корбар';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = 'иҷозатҳои корбар дошта таҷ�
 $lang['GROUP_AUTH_UPDATED'] = 'иҷозатҳои Group кардаанд таҷдид шуда,';
 
 $lang['AUTH_UPDATED'] = 'Рухсатдории кардаанд таҷдид шуда,';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = 'Мамизу дора наиканг маросим кардани  админому';
+$lang['AUTH_SELF_ERROR'] = 'Натарс, ки худро аз администратор ба корбар иваз накунед';
+$lang['NO_FORUMS_AVAILABLE'] = 'Форумҳо дастрас нестанд. Пеш аз идора намудани иҷозатҳо форум созед.';
 $lang['CLICK_RETURN_USERAUTH'] = '%sHere%s ангушт занед барои баргаштан ба Иҷозатҳои Корбар';
 $lang['CLICK_RETURN_GROUPAUTH'] = '%sHere%s ангушт занед барои баргаштан ба гурӯҳи Иҷозатҳои';
 $lang['CLICK_RETURN_FORUMAUTH'] = '%sHere%s ангушт занед барои баргаштан ба Иҷозатҳои Форум';
 
 // Banning
 $lang['BAN_CONTROL'] = 'назорати манъи';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = 'Дар ин ҷо шумо метавонед манъи корбаронро назорат кунед.';
 $lang['BAN_USERNAME'] = 'Манъи як ё зиёда корвандон аст махсус';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Шумо метавонед корбарони сершумор дар як Гузаштан бо истифода аз омезиши дахлдор муш ва забонак барои компютер ва браузери шумо манъ';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = 'Як ё зиёда корборонро манъ кунед';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Шумо метавонед корбарони сершумор дар як Гузаштан бо истифода аз омезиши дахлдор муш ва забонак барои компютер ва браузери шумо махкам';
 $lang['NO_BANNED_USERS'] = 'Не, гузарвожаҳо мамнӯъ';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Дар banlist бомуваффақият таҷдид шуда,';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Маъмурияти Форум';
 $lang['FORUM_ADMIN_EXPLAIN'] = 'Аз ин панел шумо метавонед илова кунед, нест кунед, таҳрир, аз нав тартиб ва дубора ҳамоҳангсозии категорияҳои ва форумҳо';
 $lang['EDIT_FORUM'] = 'Таҳрири форум';
 $lang['CREATE_FORUM'] = 'Эҷоди Форуми нав';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = 'Сабт кардани субфорум';
 $lang['CREATE_CATEGORY'] = 'Эҷоди категорияи нави';
 $lang['REMOVE'] = 'хориҷ';
 $lang['UPDATE_ORDER'] = 'навсозии Тартиби';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = 'Ҷойивазкунии ҳамаи мундариҷа
 $lang['FORUM_DELETE'] = 'Тозакунии Форум';
 $lang['FORUM_DELETE_EXPLAIN'] = 'Шакли поён ба шумо имкон медиҳад, ки тоза як форуми (ё категория) ва қарор дар он шумо мехоҳед, ки ба гузошта ҳамаи мавзӯъҳои (ё форумҳо) он дармегиронад.';
 $lang['CATEGORY_DELETE'] = 'Тозакунии гурӯҳ';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = 'Номгузории категория муайян нашуд';
 
 $lang['STATUS_LOCKED'] = 'дарбаста';
 $lang['STATUS_UNLOCKED'] = 'кушода';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Бо истифода аз ин шакли шумо м
 $lang['ADD_NEW_RANK'] = 'Иловаи рутбаи нав';
 $lang['RANK_TITLE'] = 'Rank Title';
 $lang['STYLE_COLOR'] = 'Style рутбаи';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = 'Синфти мувофиқро дар унвони рангин тафсир кунед кунед. Масалан: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'рутбаи Фишка';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Истифода аз ин ба муайян намудани симои хурд бо рутбаи';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%sHere%s ангушт занед баро
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Маълумот Version';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = 'Таъсим кардан дастрас аст';
+$lang['CHANGELOG'] = 'Таърихномаи тағйирот';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'кӯшишҳои воридшавӣ Ичозат';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Танҳо маъмурон';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s ин форум дидани';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s метавонад Заметки дар ин форум хонда';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s метавонед дар ин форум овехтани';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s метавонад дар ин форум ба паёмҳо ҷавоб диҳад';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s метавонад Заметки дар ин форум вироиш кунед';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s метавонад Заметки дар ин форум нест';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s метавонад мавзӯъҳои часпанда дар ин форум овехтани';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = 'Ҳмҳнг';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. Дарозии ахбор';
 $lang['NEWS_COUNT'] = 'Чӣ бисёр нишон ахбор';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'Кадом форумҳоро намоиш доданӣ бошед<br /> <h6>Барои чанд форум, ID-ҳоро бо рамзи ҷудо дар миён ҷойгир кунед. Масалан: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Не аватаре';
 $lang['TRACKER_STATS'] = 'Омор оид ба Назоратчии';
 $lang['WHOIS_INFO'] = 'Маълумот дар бораи адреси IP';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Нишон оид ба модератори ба index.php';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = 'Санаи оғозёбии ҷаласаро дар index.php намоиш диҳед';
 $lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Пеш moderation</h4> <h6>If шумо таќсимоти ба мақоми V, #, ё T дар ин бахш, аз ҷумла зербахшҳои надорад, тақсимоти таври худкор ба ин status</h6> қабул';
 $lang['TOR_COMMENT'] = '<h4>Шарҳ дар бораи ҳолати тақсимот</h4> <h6>Шарҳ ба шумо имкон медиҳад, ки хатогиҳоеро, ки ба нашркунанда дода шудаанд, нишон диҳед. Агар вазъҳо нопурра бошанд, варақаи ҷавоби релиз барои ислоҳи релиз дастрас аст</h6>';
 $lang['SEED_BONUS_ADD'] = 'насли <h4>Adding бонус </h4> <h6> Шумораи таќсимоти аз тарафи истифодабаранда ва андозаи мукофотпулӣ барои онҳо (дар экрани маротиба дар як соат), супорида </h6>';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Дар Тамдиди Гурӯҳи %s алла
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Идоракунии Categories махсус';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Дар ин ҷо шумо метавонед категорияҳои махсусро танзим кунед. Шумо метавонед параметрҳо ва шароити махсус барои категорияҳои махсуси супоришӣ дар гурӯҳи васеъ насб кунед.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Танзимот барои Гурӯҳ Special: Тасвирҳо';
 $lang['SETTINGS_CAT_FLASH'] = 'Танзимот барои Гурӯҳ Special: Files Flash';
 $lang['DISPLAY_INLINED'] = 'Display Тасвирҳо Inlined';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = 'эълон URL';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'Шумо метавонед URL-иҷозат иловагӣ дар «мегирад / torrent_announce_urls.php" муайян';
 $lang['BT_DISABLE_DHT'] = 'Хомӯш кардани шабакаи DHT';
 $lang['BT_DISABLE_DHT_EXPL'] = 'Хомӯш кардани њамсол асъор ва DHT (тавсия шабакаҳои хусусӣ, танҳо URL эълон)';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = 'Ин трекер хусусӣ аст: рӯйхати файлҳо (барои меҳмонон), DHT | PEX хомӯш аст';
+$lang['BT_PRIVATE_TORRENT'] = 'Эҷодкунандаи ин торрент онро хусусӣ кард';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Тасдиқ эълон URL';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'қайд оид ба Назоратчии URL-танҳо иҷозат дода';
 $lang['BT_REPLACE_ANN_URL'] = 'Ҷойгузорӣ эълон URL';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Иҷозат ҷустуҷӯҳои пурра м�
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'истифода * +, -, .. ки дар кофтуков';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "омехтаро";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Статистикаи DL/UL истифодабарандагонро дар болоии саҳифаи асосии форум гиранд";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Ба таври худкор ба қайд ҷӯйе оид ба Назоратчии мавзўъњои нав';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Тағйирёбии вазъи мавзӯи ба «Download» ҳангоми барасмиятдарории ҷӯйе дар Назоратчии';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'навъи мавзӯъ тағйир мекунад, ки «Download:« новобаста аз танзимот форум';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = 'Шаблон: маъюб';
 $lang['FOR_NEW_TEMPLATE'] = 'намунаҳои нав!';
 $lang['CHANGED'] = 'тағйир';
 $lang['REMOVED'] = 'дур';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = 'Тасдиқ кунед, оё шумо воқеан мехоҳед, ки ин амалро иҷро кунед';
 
 $lang['CRON_LIST'] = 'рӯйхати Cron';
 $lang['CRON_ID'] = 'ID';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Даргиронидани';
 $lang['RUN_MAIN_CRON'] = 'Оғози cron';
 $lang['ADD_JOB'] = 'Иловаи кори cron';
 $lang['DELETE_JOB'] = 'Оё мутмаинед, ки мехоҳед тоза кори cron?';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron ҳоло кор мекунад ё шикаста -> ';
 $lang['REPAIR_CRON'] = 'таъмири Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'кор Edit';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Шӯрои хомӯш';
 $lang['BOARD_DISABLE_EXPL'] = 'хомӯш Шӯрои чун ин кор иҷро';
 $lang['RUN_COUNTER'] = 'мубориза гурезад';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = 'Кори бо муваффақият бардошта шуд';
 $lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> аллакай мавҷуд аст!';
 $lang['TITLE_DUPLICATE'] = 'Вазифаи Name <b>' . @$_POST['cron_title'] . '</b> аллакай мавҷуд аст!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sБаргаштан ба корҳои илова кардани%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack ба вазифаи Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Барқарор Индекси Ҷустуҷӯи';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Чӣ қадар вақт (secs) ба бекор
 
 $lang['TIME_LIMIT'] = 'маҳдудияти Time';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Чӣ қадар вақт (secs) баъди коркард метавонад пеш аз гузаштан ба давраи оянда гузашта';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP-и шумо (режими бехатар) барои %s сония таймер шудааст, пас ин нарх нарасад</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your веб дорад оғозёбӣ аз %s secs пайкарбандӣ, то дар зер ин value</i> монд';
 
 $lang['DISABLE_BOARD'] = 'Шӯрои хомӯш';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = 'Шумо ба баъзе арзишҳои нодурус
 $lang['PROCESSING'] = 'Коркарди ...';
 $lang['FINISHED'] = 'анҷом';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Мавзӯъ дар форум [b]%s[/b] ба [b]%s[/b] кӯчонида шуд.[br][b]Сабаб барои интиқол:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Мавзӯъ кардааст, тақсим шудааст. мавзӯъ Сиёсат - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Мавзӯъ аз [b]%s[/b][br][br]%s тақсим шудааст';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = 'Бурдҳо';
 $lang['CALLSEED_EXPLAIN'] = 'Андешидани огоҳинома бо дархости барои баргаштан ба тақсимоти';
 $lang['CALLSEED_SUBJECT'] = 'Download кӯмак %s';
 $lang['CALLSEED_TEXT'] = 'Салом! Кӯмак [br]Your дар озод зарур аст [URL = %s] %s[/url][br]If шумо қарор ба кӯмак, балки аллакай ҳазф файли ҷӯйе, шумо метавонед онро зеркашӣ [URL = %s] this[/url][br][br]I умед барои кӯмак кунед!';
@@ -2855,22 +2855,22 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Мавзӯъ: <br /> <b>closed</b>',
     'mod_topic_unlock' => 'Мавзӯъ: <br /> <b>opened</b>',
     'mod_topic_split' => 'Мавзӯъ: <br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => 'Мавзӯъ:<br /> <b>файли боҳои зиндагӣ кунед</b>',
+    'mod_topic_unset_downloaded' => 'Мавзӯъ:<br /> <b>файли боҳои зиндагиро хомӯш кунед</b>',
+    'mod_topic_change_tor_status' => 'Мавзӯъ:<br /> <b>охирини торренти фаврӣ</b>',
+    'mod_topic_change_tor_type' => 'Мавзӯъ:<br /> <b>иловаи сохтор</b>',
+    'mod_topic_tor_unregister' => 'Мавзӯъ:<br /> <b>торрент бекор шуд</b>',
+    'mod_topic_tor_register' => 'Мавзӯъ:<br /> <b>торрент сабт шуд</b>',
+    'mod_topic_tor_delete' => 'Мавзӯъ:<br /> <b>торрент нест шуд</b>',
+    'mod_topic_renamed' => 'Мавзӯъ:<br /> <b>тағайир ёфта</b>',
+    'mod_topic_poll_started' => 'Мавзӯъ:<br /> <b>пинҷон оғоз мешавад</b>',
+    'mod_topic_poll_finished' => 'Мавзӯъ:<br /> <b>пинҷон анҷом ёфта</b>',
+    'mod_topic_poll_deleted' => 'Мавзӯъ:<br /> <b>пинҷон нест шуд</b>',
+    'mod_topic_poll_added' => 'Мавзӯъ:<br /> <b>пинҷон илова шуд</b>',
+    'mod_topic_poll_edited' => 'Мавзӯъ:<br /> <b>пинҷон таҳрир шуд</b>',
     'mod_post_delete' => 'Post: <br /> <b>deleted</b>',
-    'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
-    'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
+    'mod_post_pin' => 'Пост:<br /> <b>пинҳон</b>',
+    'mod_post_unpin' => 'Пост:<br /> <b>пинҳон нагардад</b>',
     'adm_user_delete' => 'Корбар: <br /> <b>deleted</b>',
     'adm_user_ban' => 'Корбар: <br /> <b>ban</b>',
     'adm_user_unban' => 'Корбар: <br /> <b>unban</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = 'Лутфан варақаи нашрро пур ку
 $lang['NEW_RELEASE'] = 'озод нав';
 $lang['NEXT'] = 'давом додан';
 $lang['OTHER'] = 'дигар';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = 'Дигарон';
+$lang['ALL'] = 'Ҳама';
 
 $lang['TPL_EMPTY_FIELD'] = 'Шумо бояд дар соҳаи пур <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Шумо бояд <b>%s</b>-ро интихоб кунед';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Ҷустуҷӯи барои истиф�
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Ҷустуҷӯи барои истифодабарандагон бо Макон таин %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Ҷустуҷӯи барои истифодабарандагон бо соҳаи манфиатҳои худро таин %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Ҷустуҷӯи барои истифодабарандагон бо соҳаи машғулият худ таин %s';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Ҷустуҷӯи истифодабарандагон, ки дар гузашта %s дидан кардаанд';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Ҷустуҷӯи истифодабарандагон, ки пас аз охирин %s дидан кардаанд';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Ҷустуҷӯи барои истифодабарандагон, ки %s забони онҳо ба по гузошт кардаанд';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Ҷустуҷӯи барои истифодабарандагон, ки UTC %s ҳамчун Омехтани доираи вакти онҳо ба по гузошт кардаанд';
 $lang['SEARCH_FOR_STYLE'] = 'Ҷустуҷӯи барои истифодабарандагон, ки %s чун сабки онҳо ба по гузошт кардаанд';
@@ -3061,7 +3061,7 @@ $lang['FORUM_MAP'] = 'Харитаи Форумҳо \'';
 $lang['ATOM_FEED'] = 'Feed';
 $lang['ATOM_ERROR'] = 'хўроки тавлиди Хатои';
 $lang['ATOM_SUBSCRIBE'] = 'Обуна ба хўроки';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = 'Ҳеҷ варианти режим барои хӯроки таъриф наёфтааст';
 $lang['ATOM_NO_FORUM'] = 'Ин баҳс надорад, хўроки (на мавзӯъҳои ҷорӣ) нест,';
 $lang['ATOM_NO_USER'] = 'Корбари мазкур ба як хўроки (на мавзӯъҳои ҷорӣ) нест,';
 $lang['ATOM_UPDATED'] = 'Updated';
@@ -3070,15 +3070,15 @@ $lang['ATOM_GLOBAL_FEED'] = 'Хўроки Global барои ҳамаи фору�
 $lang['HASH_INVALID'] = 'Шудаи %s нодуруст аст';
 $lang['HASH_NOT_FOUND'] = 'Озод бо шудаи %s ёфт нашуд';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[align=center]Тексти ин саҳифа дар: [url]%s[/url] таҳрир мешуд. Ин хати танҳо барои администраторҳо мебинад.[/align]';
 $lang['TERMS_EXPLAIN'] = 'Дар ин саҳифа шумо метавонед муайян кунед, ки матни қоидаҳои асосии захираҳои аст, ба истифодабарандагон нишон дода мешавад.';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Шартҳо бо муваффақият обновон кард';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sКлик кунед, ки барои баргаштан ба таҳриркунандаи шартҳо%s';
 
 $lang['TR_STATS'] = [
     0 => 'истифодабарандагони ғайрифаъол дар 30 рӯз',
     1 => 'истифодабарандагони ғайрифаъол барои 90 рӯз',
-    2 => 'medium size distributions on the tracker',
+    2 => 'тақсимкунандагони андозаи миёна дар трекер',
     3 => 'чанд умумии даст бар Назоратчии',
     4 => 'чанд зинда дасти (аст на камтар аз 1 бурданд)',
     5 => 'Чӣ бисёр дасти он ҷо, ки ба кишти тухмиҳои зиёда аз 5',
@@ -3108,11 +3108,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = 'Ҳар як сатр мувофиқ ба як ҷ�
 $lang['OLD_BROWSER'] = 'Шумо бо истифода аз браузери кӯҳна. Дар сомона дуруст хоҳад нишон намедиҳанд.';
 $lang['GO_BACK'] = 'Баргаштан';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Ҳаитоб кардани файл хомӯш карда шуд';
 $lang['UPLOAD_ERROR_COMMON'] = 'Хатои боргузорӣ File';
 $lang['UPLOAD_ERROR_SIZE'] = 'Файли боркардашуда зиёд андозаи ниҳоии %s';
 $lang['UPLOAD_ERROR_FORMAT'] = 'навъи файли нодурусти симои';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Андозаи тасвир аз ҳадди максималӣ %sx%s пикселҳо зиёда аст';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'Файли боркардашуда аст, тасвир нест,';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'Тамдиди %s барои зеркашиҳо аст, иҷозат дода намешавад';
 $lang['UPLOAD_ERRORS'] = [
@@ -3128,18 +3128,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Санҷед, ки шумо як робот не';
 $lang['CAPTCHA_WRONG'] = 'Шумо карда наметавонистанд тасдиқ мекунанд, ки шумо ҳастанд робот не';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha комилан конфигур нашудааст</h2><p>Масонҳои асрорро бо истифодаи панэллаи хизматрасонии captcha тавлид кунед, пас онҳо бояд дар файли library/config.php гузошта шаванд.</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Санҷиши CAPTCHA дар пасзамина сурат мегирад';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = 'Ҷавоб ба';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => 'Мавзӯъ нест',
     'GROUP_ADDED' => 'Шумо ба гурӯҳи корбарон илова кардаед',
     'GROUP_APPROVED' => 'Дархости шумо барои ҳамроҳ шудан ба гурӯҳи корбарон қабул шуд',
     'GROUP_REQUEST' => 'Дархост барои ҳамроҳ шудан ба гурӯҳи корбарии шумо',
     'PRIVMSG_NOTIFY' => 'Паёми нави хусусӣ',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => 'Огоҳии ҷавоб дар занг - %s',
     'USER_ACTIVATE' => 'Аз нав фаъол кардани ҳисоб',
     'USER_ACTIVATE_PASSWD' => 'Тасдиқи пароли нав',
     'USER_WELCOME' => 'Хуш омадед ба сайт %s',
@@ -3147,17 +3147,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = 'Ноации ҳисса';
+$lang['BT_NULL_RATIO_NONE'] = 'Шумо ҳисса надоред';
+$lang['BT_NULL_RATIO_ALERT'] = "Эътибор! Оё шумо боварӣ доред, ки мехоҳед ҳиссаро хомӯш кунед?";
+$lang['BT_NULL_RATIO_AGAIN'] = 'Шумо аллакай ҳиссаро хомӯш кардед!';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'Шумо ҳиссаи хуб доред. Ҳисса хомӯш кардани он танҳо бо ҳиссахои камтар аз %s мумкин аст.';
+$lang['BT_NULL_RATIO_SUCCESS'] = 'Ҳисса бо муваффақият хомӯш шуд!';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
-$lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SIZE'] = 'Ҳамаги андоза:';
+$lang['RELEASER_STAT'] = 'Статистикаи тароша:';
+$lang['RELEASER_STAT_SHOW'] = 'Статистикаро нишон диҳед';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = 'Режими торикро хомӯш кунед';
