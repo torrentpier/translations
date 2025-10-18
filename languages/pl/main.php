@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Zobaczyć nowy post';
 $lang['PAGE_OF'] = '<b>%d</b> stronie <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Wpisałeś niewłaściwy login Twittera';
 
 $lang['FORUM_INDEX'] = 'Indeks Forum %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Jesteś pewien, że chcesz usunąć ten sondaż?
 $lang['FLOOD_ERROR'] = 'Nie możesz zrobić jeszcze jeden post tak szybko po ostatniej; proszę spróbować ponownie po krótkim czasie';
 $lang['EMPTY_SUBJECT'] = 'Należy podać temat';
 $lang['EMPTY_MESSAGE'] = 'Musisz wpisać wiadomość';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum jest zablokowane';
+$lang['TOPIC_LOCKED'] = 'Temat jest zablokowany';
 $lang['TOPIC_LOCKED_SHORT'] = 'Temat jest zablokowany';
 $lang['NO_POST_ID'] = 'Należy wybrać stanowisko do edycji';
 $lang['NO_TOPIC_ID'] = 'Musisz wybrać temat do odpowiedzi';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Ciemny Zielony';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Ankieta';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Wyszukiwanie użytkowników liczba post
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Wyszukiwanie użytkowników z postów mniej niż %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Wyszukiwanie użytkowników licznik Wiadomości między %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Wyszukiwanie użytkowników z Post count wartość %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Wyszukiwanie użytkowników Twittera zgodności %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Wyszukiwanie użytkowników z pasującymi %s stronę';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Wyszukiwanie użytkowników z lokalizacją zgodności %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Wyszukiwanie użytkowników, z uwzględnieniem ich interesów w zakresie doboru %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Dzień';
 $lang['POST_EDIT_CANNOT'] = 'Przepraszam, ale nie można edytować wiadomości';
 $lang['FORUMS_IN_CAT'] = 'fora w tej kategorii';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Komentarz moderacji';
 $lang['MC_LEGEND'] = 'Wpisz komentarz';
 $lang['MC_FAQ'] = 'Wpisany tekst będzie wyświetlany pod tym komunikatem';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s w swoim komunikacie";
