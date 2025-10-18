@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Đính Kèm là quá lớn.<br />Maximum
 $lang['DISALLOWED_EXTENSION'] = 'Mở Rộng %s không được cho phép'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Bạn không được phép bài Tập với việc mở Rộng %s trong diễn Đàn này'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Đính Kèm là quá lớn.<br />Max kích Thước: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Xin lỗi, nhưng tối đa kích cỡ cho tất cả đính Kèm đạt được. Xin liên hệ với các Hội đồng quản Trị nếu bạn có những câu hỏi.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Đính kèm không thể thêm vào, vì max. số %d đính Kèm trong bài này đã đạt được'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Đính Kèm hình Ảnh, phải được ít hơn %d ảnh rộng và %d ảnh cao';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Lỗi tải lên: có Thể không phải là ngày đính Kèm để %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Bạn có để vào giá trị trong \'Thêm một đính Kèm\' Hộp';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Không thể để Cập nhật đính Kèm, không thể tìm thấy già đính Kèm Nhập';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Xin lỗi, nhưng tối đa kích cỡ cho tất cả đính Kèm trong tin Nhắn của bạn đã đạt được Mục. Hãy xóa số của bạn nhận/gửi Kèm.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Xin lỗi, nhưng tối đa kích cỡ cho tất cả gì các tin Nhắn Mục của \'%s\' đã đạt được. Xin vui lòng cho anh biết, hoặc chờ cho đến khi ông/cô ấy đã bị xóa số của mình đính Kèm.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Bạn đã không chọn một đính kèm để tải, hay xem.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Các Mục \'%s\' không tồn tại hay kh
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Xin vui lòng kiểm tra nếu \'%s\' là một mục.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Mục \'%s\' không viết được. Bạn sẽ phải tạo ra các đường dẫn tải lên và chmod nó để 777 (hoặc thay đổi chủ sở hữu để bạn httpd-máy chủ sở hữu) để tải dữ liệu lên.<br />Nếu bạn chỉ có đồng quản lý truy cập thay đổi \'Thuộc tính\' của các mục để rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Tải Lên Ngạch';
-$lang['PM_QUOTA'] = 'PM Ngạch';
-
 // Common Variables
 $lang['BYTES'] = 'Nội';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Kiểm Tra Thiết Lập';
 $lang['NOT_ASSIGNED'] = 'Không Được Giao';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Không có Tập tin có bình Luận';
 $lang['ATTACHBOX_LIMIT'] = 'Bạn Attachbox là<br /><b>%d%%</b> đầy đủ';
-$lang['NO_QUOTA_LIMIT'] = 'Không Có Giới Hạn Chế Chỉ Tiêu';
 $lang['UNLIMITED'] = 'Không giới hạn';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Chế Độ Đơn Giản';
 $lang['ADVANCED_MODE'] = 'Chế Độ Cao';
 $lang['MODERATOR_STATUS'] = 'Điều hành tình trạng';
 
-$lang['ALLOWED_ACCESS'] = 'Cho Phép Truy Cập Vào';
-$lang['DISALLOWED_ACCESS'] = 'Không Được Phép Truy Cập';
-$lang['IS_MODERATOR'] = 'Là Người Điều Hành';
-
-$lang['CONFLICT_WARNING'] = 'Ủy Quyền Xung Đột Cảnh Báo';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Người này vẫn còn có quyền truy cập vào diễn đàn này qua thành viên nhóm. Bạn có thể muốn thay đổi các nhóm quyền hoặc bỏ này dùng để ngăn chặn họ có quyền truy cập. Các nhóm trao quyền (và các diễn đàn tham gia) là ý dưới đây.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Người này vẫn còn có điều hành quyền cho diễn đàn này qua thành viên nhóm. Bạn có thể muốn thay đổi các nhóm quyền hoặc bỏ này dùng để ngăn chặn họ có quyền điều hành. Các nhóm trao quyền (và các diễn đàn tham gia) là ý dưới đây.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Sau dùng (hoặc người sử dụng) vẫn còn có quyền truy cập vào diễn đàn này qua họ được phép sử dụng thiết lập. Bạn có thể muốn thay đổi những điều khoản sử dụng để ngăn chặn họ có quyền truy cập. Các người sử dụng được cấp quyền (và các diễn đàn tham gia) là ý dưới đây.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Sau dùng (hoặc người sử dụng) vẫn còn có điều hành quyền cho diễn đàn này qua của họ, quyền sử dụng thiết lập. Bạn có thể muốn thay đổi những điều khoản sử dụng để ngăn chặn họ có quyền điều hành. Các người sử dụng được cấp quyền (và các diễn đàn tham gia) là ý dưới đây.';
-
 $lang['PUBLIC'] = 'Công';
 $lang['PRIVATE'] = 'Riêng tư';
 $lang['REGISTERED'] = 'Đăng ký';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Bỏ phiếu';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Thăm dò ý kiến tạo';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Bài Tập Tin';
 $lang['AUTH_DOWNLOAD'] = 'Tải Về Các Tập Tin';
-
-$lang['SIMPLE_PERMISSION'] = 'Đơn Giản Quyền';
 
 $lang['USER_LEVEL'] = 'Dùng Cấp';
 $lang['AUTH_USER'] = 'Dùng';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Tên trang web';
 $lang['SITE_DESC'] = 'Mô tả trang web';
 $lang['FORUMS_DISABLE'] = 'Vô hiệu hóa hội đồng quản trị';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Điều này sẽ làm cho các hội đồng không có người dùng. Quản trị có thể truy cập vào các Bảng điều khiển Quản lý trong hội đồng quản trị là vô hiệu hóa.';
-$lang['ACCT_ACTIVATION'] = 'Cho phép kích hoạt tài khoản';
 $lang['ACC_NONE'] = 'Không có'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Dùng';
 $lang['ACC_ADMIN'] = 'Quản trị';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Cho Chữ Ký';
 $lang['MAX_SIG_LENGTH'] = 'Tối đa chữ ký chiều dài';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Tối đa số các nhân vật trong dùng chữ ký';
 $lang['ALLOW_NAME_CHANGE'] = 'Cho phép Tên thay đổi';
-
-$lang['EMAIL_SETTINGS'] = 'Cài Đặt Email';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Cho Phép Xác Nhận Bằng Hình Ảnh';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Yêu cầu người nhập mã xác định bằng một hình ảnh khi đăng ký.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Cho phép tự động đăng nhập';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Nhấn vào %sHere%s để trở lại Cư�
 
 // User Management
 $lang['USER_ADMIN'] = 'Người Quản Lý';
-$lang['USER_ADMIN_EXPLAIN'] = 'Ở đây anh có thể thay đổi cách sử dụng thông tin và nhất định lựa chọn. Để thay đổi các người có quyền truy cập, xin vui lòng sử dụng các người dùng hệ thống.';
-
 $lang['LOOK_UP_USER'] = 'Nhìn lên người';
-
-$lang['ADMIN_USER_FAIL'] = 'Không thể truy cập hồ sơ.';
-$lang['ADMIN_USER_UPDATED'] = 'Hồ sơ của người đã được cập nhật thành công.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Nhấn vào %sHere%s để trở về Người Quản lý';
-
-$lang['USER_ALLOWPM'] = 'Có thể gởi tin Nhắn';
-$lang['USER_ALLOWAVATAR'] = 'Có thể hiển thị avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Ở đây, bạn có thể thấy, và xóa hiện tại của người dùng avatar.';
-
-$lang['USER_SPECIAL'] = 'Đặc biệt quản-chỉ lĩnh vực';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Các lĩnh vực này là không thể được thay đổi bởi các người sử dụng. Ở đây cô có thể thiết lập tình trạng của họ và lựa chọn khác mà không được để người sử dụng.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Nhóm Quản Trị';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Tỷ lệ ngoài cho một cuộc trao đổi t
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Bảng Điều Khiển';
-$lang['SHADOW_ATTACHMENTS'] = 'Shadow Đính Kèm';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Cấm Mở Rộng';
 $lang['EXTENSION_CONTROL'] = 'Mở Rộng Kiểm Soát';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Mở Rộng Các Nhóm Kiểm Soát';
 $lang['SPECIAL_CATEGORIES'] = 'Loại Đặc Biệt';
-$lang['SYNC_ATTACHMENTS'] = 'Đồng Bộ Hóa Đính Kèm';
-$lang['QUOTA_LIMITS'] = 'Ngạch Giới Hạn';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Đính Kèm Cài Đặt';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Đính Kèm Chủ Đề Biểu Tượng';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Hình Ảnh này được hiển thị trước khi chủ đề với đính Kèm. Để lĩnh vực này trống rỗng, nếu bạn không muốn một biểu tượng được hiển thị.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Đính Kèm Hình Hiển Thị Trật Tự';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Ở đây anh có thể chọn hiển thị gián đoạn trong Bài/PMs giảm Dần Filetime Để (Mới nhất đính Kèm đầu Tiên) hoặc tăng Dần Filetime Để (lâu đời Nhất đính Kèm đầu Tiên).';
-$lang['SHOW_APCP'] = 'Sử dụng mới ứng dụng bảng điều khiển';
-$lang['SHOW_APCP_EXPLAIN'] = 'Chọn nếu bạn muốn sử dụng một tách ứng dụng bảng điều khiển (có), hoặc các phương pháp cũ với hai hộp cho các ứng dụng và các ứng dụng chỉnh sửa (không có) trong hộp tin nhắn. Thật khó để giải thích nó trông như thế nào, vì vậy hãy thử cho chính mình.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Kích thước tệp';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Tối đa kích cỡ cho đính Kèm. Một giá trị của 0 có nghĩa là \'không\'. Này Thiết bị giới hạn bởi Cấu hình máy Chủ. Ví dụ, nếu trình Cấu hình chỉ cho phép một tối đa 2 MB ơn, điều này không thể được ghi đè Mod.';
-$lang['ATTACH_QUOTA'] = 'Đính Kèm Ngạch';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Tối đa Đĩa tất CẢ đính Kèm có thể giữ trên trang Web. Một giá trị của 0 có nghĩa là \'không\'.';
 $lang['MAX_FILESIZE_PM'] = 'Tối đa Kích cỡ trong Mục tin Nhắn';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Tối đa Đĩa đính Kèm có thể sử dụng trong mỗi người Dùng hộp tin Nhắn. Một giá trị của 0 có nghĩa là \'không\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Mặc Định Ngạch Giới Hạn';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Ở đây anh có thể chọn Định giới Hạn chế chỉ tiêu tự động vừa được giao cho Người đăng ký và Sử dụng mà không có một định nghĩa Ngạch giới Hạn. Các tùy Chọn \'Không Ngạch giới Hạn là không sử dụng bất kỳ đính Kèm Ngạch, thay vì muốn gỡ bạn đã được xác định trong này Quản lý Bảng.';
 
 $lang['MAX_ATTACHMENTS'] = 'Tối đa Số của Đính';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Tối đa số đính kèm được phép ở một bài.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Vô Hiệu Hóa Đính Kèm Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Này, chọn chủ yếu là để thử nghiệm mẫu mới hoặc chủ đề, nó vô hiệu hóa tất cả Kèm Chức năng ngoại trừ các Bảng Quản trị.';
 $lang['PM_ATTACHMENTS'] = 'Cho phép đính Kèm trong tin Nhắn';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Cho phép/Không cho phép gắn các tập tin Nhắn tin.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Hiển thị các ứng dụng trong đánh giá của thông tin liên lạc đề khi viết một câu trả lời?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Nếu bạn đặt một "có", tất cả các ứng dụng sẽ được hiển thị các đánh giá của thông tin liên lạc đề.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Ở đây anh có thể xóa dữ liệu đính kèm từ đăng khi các tập tin được mất tập tin và xóa các tập tin được không còn gắn liền với bất kỳ thông tin đăng. Bạn có thể tải hay xem tập tin nếu bạn nhấn vào nó, nếu không, link là hiện tại, các tập tin không tồn tại.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Xóa tất cả các tập tin có đính kèm tồn tại trên hệ thống và không được giao cho một bài hiện tại.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Xóa tất cả đăng tải dữ liệu đính kèm cho các tập tin đó không tồn tại của hệ thống.';
-$lang['EMPTY_FILE_ENTRY'] = 'Tập Tin Rỗng Nhập';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Bản xem trước đã được đặt lại cho đính kèm: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Đồng bộ hóa tệp đính kèm đã hoàn tất.';
 $lang['SYNC_TOPICS'] = 'Sync Chủ Đề';
 $lang['SYNC_POSTS'] = 'Đồng Bộ Bài';
-$lang['SYNC_THUMBNAILS'] = 'Sync Hình Thu Nhỏ';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Quản Lý Mở Rộng';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Ở đây anh có thể quản lý Tập tin mở Rộng. Nếu bạn muốn cho phép/không cho phép một mở Rộng để được tải lên, xin vui lòng sử dụng các mở Rộng Nhóm Quản lý.';
 $lang['EXPLANATION'] = 'Lời giải thích';
 $lang['EXTENSION_GROUP'] = 'Mở Rộng,';
-$lang['INVALID_EXTENSION'] = 'Không Hợp Lệ Mở Rộng';
 $lang['EXTENSION_EXIST'] = 'Mở Rộng %s đã tồn tại'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Mở Rộng %s là bị cấm, ông không thể để thêm nó cho phép mở Rộng'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Quản Lý Mở Rộng Nhóm';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Mở Rộng, %s đã tồn tại'; // replace 
 $lang['MANAGE_CATEGORIES'] = 'Quản Lý Loại Đặc Biệt';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ở đây bạn có thể cấu hình các Danh mục Đặc biệt. Bạn có thể thiết lập Tham số và Điều kiện Đặc biệt cho các Danh mục Đặc biệt được chỉ định cho Nhóm Mở rộng.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Cài đặt cho Loại Đặc biệt: Hình ảnh';
-$lang['SETTINGS_CAT_FLASH'] = 'Cài đặt cho Loại Đặc biệt: Flash các Tập tin';
 $lang['DISPLAY_INLINED'] = 'Màn Hình Ảnh Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Chọn hiển thị hình ảnh trực tiếp trong bài (phải) hay để màn hình, như một link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Hình Ảnh Tối Đa Chiều';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Tạo Hình Thu Nhỏ';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Tối Thiểu Thu Nhỏ Kích Cỡ';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Nếu một hình Ảnh nhỏ hơn này được xác định Kích cỡ, không thu Nhỏ sẽ được tạo ra, bởi vì nó là đủ nhỏ.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Quản Lý Cấm Mở Rộng';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Ở đây anh có thể thêm hoặc xóa các cấm mở rộng. Việc mở Rộng php, php3 và php4 đang bị cấm định bởi vì lý do an ninh, bạn không thể xóa chúng.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Cấm mở Rộng %s đã tồn tại'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Mở Rộng %s là định nghĩa của bạn được phép mở Rộng, xin vui lòng hủy bỏ nó họ trước khi bạn thêm nó ở đây.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Mở Rộng Quyền Nhóm -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Ở đây anh có thể hạn chế việc mở Rộng được chọn để diễn Đàn của sự lựa chọn của bạn (xác định trong Phép diễn Đàn Hộp). Mặc Định là để cho phép mở Rộng Nhóm để tất cả các diễn Đàn các Người có thể Gắn các Tập tin vào (một cách bình thường đính Kèm Mod đã làm nó từ đầu). Chỉ cần thêm những người Đàn bạn muốn mở Rộng Nhóm (mở Rộng trong Nhóm này) được phép có mặc định tất CẢ các diễn ĐÀN sẽ biến mất khi bạn thêm diễn Đàn vào danh Sách. Bạn có thể để lại thêm tất CẢ các diễn ĐÀN bất cứ lúc nào. Nếu bạn thêm một diễn Đàn của Hội đồng và sự cho Phép được thiết lập để tất CẢ các diễn ĐÀN sẽ không có gì thay đổi. Nhưng nếu bạn có thay đổi và bị hạn chế truy cập vào các diễn Đàn nhất định, anh phải kiểm tra lại đây thêm bạn mới được tạo ra Forum. Nó rất dễ dàng để làm điều này tự động, nhưng điều này sẽ buộc mày phải sửa một loạt các Tập tin, vì vậy tôi đã chọn cách nó là bây giờ. Xin hãy nhớ rằng, tất cả các diễn Đàn của bạn sẽ được liệt kê ở đây.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Thêm Forums';
 $lang['ADD_SELECTED'] = 'Thêm Được Lựa Chọn';
 $lang['PERM_ALL_FORUMS'] = 'TẤT CẢ CÁC DIỄN ĐÀN';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Quản Lý Đính Kèm Ngạch Giới Hạn';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Ở đây anh có thể thêm/xóa/thay đổi Ngạch giới Hạn. Bạn có thể gán những Ngạch giới Hạn để Người sau. Để gán một Hạn giới Hạn để một Người bạn đã đi để Sử dụng->Quản lý, chọn Người và bạn sẽ thấy những lựa Chọn ở phía dưới. Để gán một Hạn giới Hạn để một Nhóm đi tới Nhóm->Quản lý chọn, để chỉnh sửa nó, và bạn sẽ thấy những thiết Lập Cấu hình. Nếu bạn muốn để xem, có Người sử dụng và các Nhóm được giao cho một cụ thể Ngạch giới Hạn, bấm vào Xem\' ở bên trái của Ngạch mô Tả.';
-$lang['ASSIGNED_USERS'] = 'Giao Người';
-$lang['ASSIGNED_GROUPS'] = 'Chỉ Định Nhóm';
-$lang['QUOTA_LIMIT_EXIST'] = 'Giới Hạn định mức %s đã tồn tại.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Tập Tin Đính Kèm Bảng Điều Khiển';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Ở đây anh có thể quản lý tất cả đính kèm dựa trên Người sử dụng, Kèm Xem...';
-$lang['FILECOMMENT'] = 'Tập Tin Bình Luận';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Sử dụng * là một đại diện cho một phần trận đấu';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Số Bài với đính Kèm';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Số các chủ Đề với đính Kèm';
 $lang['NUMBER_USERS_ATTACH'] = 'Độc Lập Người Đã Đăng Đính Kèm';
 $lang['NUMBER_PMS_ATTACH'] = 'Tổng Số của toàn tin Nhắn';
-$lang['ATTACHMENTS_PER_DAY'] = 'Đính kèm mỗi ngày';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Đính kèm số liệu thống Kê cho %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Cấu Hình Cập Nhật Thành Công';
 $lang['SET_DEFAULTS'] = 'Khôi phục mặc định';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Diễn đàn cấu';
-
 $lang['BT_SELECT_FORUMS'] = 'Diễn đàn lựa chọn:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'giữ <i>Ctrl</i> trong khi lựa chọn nhiều forums';
 
