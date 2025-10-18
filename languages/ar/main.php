@@ -82,8 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'عرض آخر مشاركة';
 $lang['VIEW_NEWEST_POST'] = 'عرض أحدث ما بعد';
 $lang['PAGE_OF'] = 'الصفحة <b>%d</b> من <b>%s</b>';
 
-$lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER'] = 'تويتر)';
+$lang['TWITTER_ERROR'] = 'قمت بإدخاله غير صالح تويتر تسجيل الدخول';
 
 $lang['FORUM_INDEX'] = '%s مؤشر المنتدى'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'هل أنت متأكد من أنك تريد حذ
 $lang['FLOOD_ERROR'] = 'لا يمكنك جعل وظيفة أخرى في وقت قريب جدا بعد آخر ، يرجى المحاولة مرة أخرى في فترة قصيرة';
 $lang['EMPTY_SUBJECT'] = 'يجب تحديد موضوع';
 $lang['EMPTY_MESSAGE'] = 'يجب إدخال رسالة';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'المنتدى مقفل';
+$lang['TOPIC_LOCKED'] = 'الموضوع مغلق';
 $lang['TOPIC_LOCKED_SHORT'] = 'الموضوع مغلق';
 $lang['NO_POST_ID'] = 'يجب تحديد وظيفة تحرير';
 $lang['NO_TOPIC_ID'] = 'يجب تحديد موضوع الرد على';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'الأخضر الداكن';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'استفتاء';
+$lang['MODERATE'] = 'مشرف';
 $lang['SEND_PM_SHORT'] = 'مساء';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'البحث عن للمستخدمين م
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'البحث عن للمستخدمين مع عدد الوظائف أقل من %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'البحث عن المستخدمين مع وظيفة العد بين %d و %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'البحث عن المستخدمين مع وظيفة العد قيمة %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'البحث عن المستخدمين مع تويتر مطابقة %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'البحث عن المستخدمين مع الموقع مطابقة %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'البحث عن المستخدمين مع الموقع مطابقة %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'البحث عن المستخدمين مع مصالحهم مجال مطابقة %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'اليوم';
 $lang['POST_EDIT_CANNOT'] = 'آسف, ولكن لا يمكنك تعديل مشاركاتك';
 $lang['FORUMS_IN_CAT'] = 'المنتديات في هذه الفئة';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'تعليق الإشراف';
 $lang['MC_LEGEND'] = 'اكتب تعليق';
 $lang['MC_FAQ'] = 'دخلت سيتم عرض النص في إطار هذه الرسالة';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s في رسالتك";
