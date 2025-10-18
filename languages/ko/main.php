@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '첨부파일이 너무 큽니다.<br />M
 $lang['DISALLOWED_EXTENSION'] = '확장 %s 은 허용되지 않습'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '당신은 허용되지 않는 게시하는 파일 확장자 %s 이내에 이 포럼'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = '첨부파일이 너무 큽니다.<br />Max 크기:%s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = '죄송하지만,최대 파일 크기 위해 모든 첨부 파일에 도달합니다. 연락 주시기 바랍 게시판 관리자는 질문이 있을 경우입니다.';
 $lang['TOO_MANY_ATTACHMENTS'] = '첨부파일을 추가할 수 없기 때문에,max. 수 %d 첨부파일에서 이 게시물을 달성'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = '첨부/이미지보다 작아야 합니다 %d 픽셀 %d 높은 픽셀';
 $lang['GENERAL_UPLOAD_ERROR'] = '업로드에 오류가 첨부 파일을 업로드하 %s 니다.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = '당신이 입력한 값을 추가\'첨부\'상자';
 $lang['ERROR_MISSING_OLD_ENTRY'] = '를 업데이트할 수 없습 첨부 파일을 찾을 수 없습니다,오래 된 첨부파일 항목';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = '죄송하지만,최대 파일 크기 위해 모든 첨부 파일에서 개인 메시지 폴더에 도달했습니다. 시의 일부를 삭제하를 받았/첨부 파일을 전송합니다.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = '죄송하지만,최대 파일 크기 위해 모든 첨부 파일에서 개인 메시지의 폴더\'%s\'에 도달했습니다. 십시오 것을 알게 하거나 기다릴 때까지 그/그녀는 일부를 삭제하의 그/그녀의 첨부 파일이 있습니다.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = '당신이 선택하지 않은 첨부 파일을 다운로드하거나 봅니다.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = '디렉토리\'%s\'존재하지 않는 찾�
 $lang['DIRECTORY_IS_NOT_A_DIR'] = '지 확인하시기 바랍\'%s\'디렉토리에 있습니다.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = '디렉토리\'%s\'은 쓸 수 없습니다. 를 만들어야 합 업로드 경로 및 chmod 하 777(변경하거나 소유자는 당신에게 아파치 서버 소유자)파일을 업로드합니다.<br />If 당신은 일반 FTP 액세스를 변경\'특성\'의 디렉토리 rwxrwxrwx 니다.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = '업로드 할당';
-$lang['PM_QUOTA'] = '동량';
-
 // Common Variables
 $lang['BYTES'] = '바';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = '테스트 설정';
 $lang['NOT_ASSIGNED'] = '지 않는 할당';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'No 파일의 주석 가능';
 $lang['ATTACHBOX_LIMIT'] = '귀하의 Attachbox is<br /><b>%d%%</b> 전체';
-$lang['NO_QUOTA_LIMIT'] = '량 없음 제한';
 $lang['UNLIMITED'] = '무제한';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = '간단 모드';
 $lang['ADVANCED_MODE'] = '고급 모드';
 $lang['MODERATOR_STATUS'] = '중재자 상태';
 
-$lang['ALLOWED_ACCESS'] = '액세스할';
-$lang['DISALLOWED_ACCESS'] = '허용되지 않 액세스';
-$lang['IS_MODERATOR'] = '는 중재자';
-
-$lang['CONFLICT_WARNING'] = '승인 충돌 경고';
-$lang['CONFLICT_ACCESS_USERAUTH'] = '이 사용자는 여전히 액세스 권한을 이 포럼을 통해 그룹 멤버십니다. 할 수 있습을 변경하려는 그룹 권한을 제거 또는 이용자 그룹을 완전히 방지하는 데 접근 권한을 부여 받을수 있습니다. 그룹 권한을 부여하(및 포럼 관련된)아래에 설명한다.';
-$lang['CONFLICT_MOD_USERAUTH'] = '이 사용자는 여전히 중재자의 권리는 이 포럼을 통해 그룹 멤버십니다. 할 수 있습을 변경하려는 그룹 권한을 제거 또는 이용자 그룹을 완전히 방지하는 데 그들 중재자 권한다. 그룹 권한을 부여하(및 포럼 관련된)아래에 설명한다.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = '다음과 같은 사용자(또는 사용자)도에 대한 액세스 권한이 있는 이 포럼을 통해 그들의 사용자 권한 설정입니다. 할 수 있습을 변경하는 사용자 권한을 완전히 방지하는 데 접근 권한을 부여 받을수 있습니다. 의 권한이 부여된 사용자 권한(및 포럼 관련된)아래에 설명한다.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = '다음과 같은 사용자(또는 사용자)아직 중재자의 권리는 이 포럼을 통해 그들의 사용자 권한 설정입니다. 할 수 있습을 변경하는 사용자 권한을 완전히 방지하는 데 그들 중재자 권한다. 의 권한이 부여된 사용자 권한(및 포럼 관련된)아래에 설명한다.';
-
 $lang['PUBLIC'] = '공개';
 $lang['PRIVATE'] = 'Private';
 $lang['REGISTERED'] = '등록';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = '투표';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = '설문성';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = '게시 파일';
 $lang['AUTH_DOWNLOAD'] = '파일을 다운로드';
-
-$lang['SIMPLE_PERMISSION'] = '간단한 권한';
 
 $lang['USER_LEVEL'] = '사용자 레벨';
 $lang['AUTH_USER'] = '사용자';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = '사이트는 이름';
 $lang['SITE_DESC'] = '사이트 설명';
 $lang['FORUMS_DISABLE'] = 'Disable 보드';
 $lang['BOARD_DISABLE_EXPLAIN'] = '이것은 보드에 사용자가 사용할 수 없습니다. 관리자에 액세스할 수 있는 관리 패널 보드에 사용할 수 없습니다.';
-$lang['ACCT_ACTIVATION'] = '계정 활성화 사용';
 $lang['ACC_NONE'] = '없음'; // These three entries are the type of activation
 $lang['ACC_USER'] = '사용자';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = '서명은 허용';
 $lang['MAX_SIG_LENGTH'] = '최대 서명이 길이';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '최대 문자 수에서 사용자명';
 $lang['ALLOW_NAME_CHANGE'] = '허용할 사용자 이름 변경';
-
-$lang['EMAIL_SETTINGS'] = '이메일 설정';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = '사용 Visual 확인';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = '사용자가 필요합 입력 코드에 의해 정의된 이미지를 등록할 때입니다.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = '자동 로그인';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = '클릭 %sHere%s 로 돌아 웃는 관리';
 
 // User Management
 $lang['USER_ADMIN'] = '사용자 관리';
-$lang['USER_ADMIN_EXPLAIN'] = '여기서 당신은 변경할 수 있습니다 사용자의 정보와 특정한 옵션이 있습니다. 을 수정할 사용자의 사용 권한,사용하시기 바랍는 사용자와 그룹 권한 시스템입니다.';
-
 $lang['LOOK_UP_USER'] = '자';
-
-$lang['ADMIN_USER_FAIL'] = '업데이트할 수 없습니다 사용자의 프로필니다.';
-$lang['ADMIN_USER_UPDATED'] = '사용자의 프로필가 성공적으로 업데이트되었습니다.';
-$lang['CLICK_RETURN_USERADMIN'] = '클릭 %sHere%s 를 반환하는 사용자 관리';
-
-$lang['USER_ALLOWPM'] = '비공개 메시지를 보낼 수 있는';
-$lang['USER_ALLOWAVATAR'] = '표시할 수 있습니바';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = '여기에 당신이 볼 수있는 삭제 사용자의 현재입니다.';
-
-$lang['USER_SPECIAL'] = '특별 관리-만 분야';
-$lang['USER_SPECIAL_EXPLAIN'] = '이 필드를 할 수 없을 수정할 사용자에 의해합니다. 여기서 당신은 설정할 수 있습니다 그들의 상태 및 다른 옵션은 주어지지 않는 사용자가 사용합니다.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = '그룹 관리';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = '비율 또한 교환의 보너스에 GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Control Panel';
-$lang['SHADOW_ATTACHMENTS'] = '그림 첨부 파일';
-$lang['FORBIDDEN_EXTENSIONS'] = '금 확장';
 $lang['EXTENSION_CONTROL'] = 'Extension 컨트롤';
 $lang['EXTENSION_GROUP_MANAGE'] = '확장자 그룹을 제어';
 $lang['SPECIAL_CATEGORIES'] = '특별한 카테고리';
-$lang['SYNC_ATTACHMENTS'] = '첨부 파일은 동기화';
-$lang['QUOTA_LIMITS'] = '량 제한';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = '첨부 파일 설정';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = '첨부파일 항목의 아이콘';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = '이 이미지가 표시되기 전에 주제와 첨부 파일이 있습니다. 이 필드를 비워 두고 싶지 않은 경우 아이콘을 표시할 수 있습니다.';
 $lang['ATTACH_DISPLAY_ORDER'] = '첨부 파일을 표시 순서';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = '여기서 당신은 여부를 선택할 수 있습을 표시하는 게시물에 첨부 파일/PMs 내림차순으로 Filetime 기(새로운 첨부 파일을 처음)또는 오름차순 Filetime 기(가장 오래된 첨부 파일을 처음).';
-$lang['SHOW_APCP'] = '를 사용하여 새로운 제어판 응용 프로그램';
-$lang['SHOW_APCP_EXPLAIN'] = '할지 여부를 선택하여 사용하여 별도 제어판 응용 프로그램(yes),또는 기존의 방법으로 두 개의 박스를 위한 응용 프로그램 및 편집하는 응용 프로그램(none)에 메시지 상자니다. 그것을 설명하기 어려운,그래서 자신을 위해 노력합니다.';
 
 $lang['MAX_FILESIZE_ATTACH'] = '파일 크기';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = '최대 파일 크기 위해 첨부 파일이 있습니다. 0 값을 의미한다\'무제한\'니다. 이 설정은 제한 서버 구성이다. 예를 들어,당신의 php 구성만 허용하는 최대 2 메가바이트 업로드,수로 덮어 모드입니다.';
-$lang['ATTACH_QUOTA'] = '첨부 파일을 할당';
-$lang['ATTACH_QUOTA_EXPLAIN'] = '최대 디스크 공간을 모두 첨부 파일을 보유할 수 있에서 당신의 웹공간입니다. 0 값을 의미한다\'무제한\'니다.';
 $lang['MAX_FILESIZE_PM'] = '최대 파일 크기에서 개인 메시지 폴더';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = '최대 디스크 공간은 첨부 파일을 사용할 수 있습에서 각 사용자의 개인 메시지 상자니다. 0 값을 의미한다\'무제한\'니다.';
-$lang['DEFAULT_QUOTA_LIMIT'] = '기본값 할당량 제한';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = '여기에서 당신이 할 수있는 기본값을 선택한 할당량 제한을 자동으로 할당되는 새로 등록된 사용자와 사용자지 않고는 정의된 할당량을 제한합니다. 옵션\'아니한 할당량을 제한한 사용하지 않는 할당량을 첨부 파일 대신 사용하고 기본 설정에서 정의 이 관리 패널이 있습니다.';
 
 $lang['MAX_ATTACHMENTS'] = '의 최대 개수를 첨부 파일';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = '의 최대 수를 첨부 파일에서 허용되는 하나의 글입니다.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = '첨부 파일을 사용 모드';
 $lang['DISABLE_MOD_EXPLAIN'] = '이 옵션은 주로 테스트를 위한 새로운 템플릿 또는 테마,그 사용의 모든 기능 첨부파일을 제외하고는 관리 패널이 있습니다.';
 $lang['PM_ATTACHMENTS'] = '이 있는 첨부 파일에서 개인 메시지';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = '허용하거나 허용하지 않을 수 있 파일을 연결하는 개인 메시지입니다.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = '쇼 응용 프로그램에서의 통신 항목을 작성할 때에는 대답은?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = '면"예"모든 응용 프로그램이 표시됩에서의 통신을 주제입니다.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = '여기에 당신을 삭제할 수 있습 첨부 파일에서 데이터 전반적인 경우 파일이 없는 파일 시스템에서,그리고 파일 삭제는 더 이상 모든 게시물이다. 할 수 있습을 보거나 다운로드 파일 당신이 그것을 클릭하면 없는 경우 링크가 존재하는 파일이 존재하지 않습니다.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = '모두 삭제를 첨부 파일에 존재하는 파일시스템에 할당되지 않는 기존의 게시물이다.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = '모두 삭제 게시 첨부 파일 데이터 파일에 없는 당신의 파일 시스템입니다.';
-$lang['EMPTY_FILE_ENTRY'] = '빈 파일에 항목';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = '미리보기는 첨부파일: %s에 대해 초기화되었습니다.'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = '첨부 파일 동기화가 완료되었습니다.';
 $lang['SYNC_TOPICS'] = '동기화를 주제';
 $lang['SYNC_POSTS'] = '동기 게시물';
-$lang['SYNC_THUMBNAILS'] = '미리보기';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = '확장 프로그램 관리';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = '여기에 관리할 수 있습니다 당신의 파일 확장자니다. 할 수 있도록 허용하려면/을 허용하지 않는 확장자를 업로드,사용하시기 바랍 확장자 그룹 관리합니다.';
 $lang['EXPLANATION'] = '설명';
 $lang['EXTENSION_GROUP'] = '확장자 그룹';
-$lang['INVALID_EXTENSION'] = '잘못된 확장';
 $lang['EXTENSION_EXIST'] = '확장 %s 이미 존재하는'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = '확장 %s 는 것을 금지할 수 없을 추가 허용 확장자'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = '관리 그룹 확장';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = '의 확장자 그룹 이미 존재하 %s'; // 
 $lang['MANAGE_CATEGORIES'] = '를 관리하는 특별한 범주';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = '여기서 특별 카테고리를 구성할 수 있습니다. 확장 그룹에 할당된 특별 카테고리의 특별한 매개변수와 조건을 설정할 수 있습니다.';
 $lang['SETTINGS_CAT_IMAGES'] = '설정를 위해 특별한 범주:이미지';
-$lang['SETTINGS_CAT_FLASH'] = '설정를 위해 특별한 카테고리:플래시 파일';
 $lang['DISPLAY_INLINED'] = '인라인 이미지를 표시';
 $lang['DISPLAY_INLINED_EXPLAIN'] = '선택 표시할지 여부를 직접 이미지 내의 포스트(예)또는 이미지를 표시하는 링크로니까?';
 $lang['MAX_IMAGE_SIZE'] = '최대 이미지 크기';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = '을 만들의 썸네일';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = '최소 썸네일을 파일 크기';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = '는 경우 이미지보다 작은 이 정의 최대 파일크기,축소판이 될 만들었기 때문에,그것은 작은 충분합니다.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = '관리 금지 확장';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = '여기에 추가하거나 삭제할 수 있습니다 금지 확장합니다. 확장 php,php3 및 php4 는 것을 금지에 대한 기본적으로는 보안상의 이유로,당신은 당신을 삭제할 수 없습니다.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = '자 확장 %s 이미 존재하는'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = '확장 %s 에서 정의 허용 확장자를 삭제하십시오 그것은 그들의를 추가하기 전에 여기에서 그것입니다.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = '확장자 그룹 권한->\'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = '여기서 당신은 수를 제한하는 선택한 확장자 그룹 포럼의 선택(정의에서 허용되는 포럼 박). 기본적으로 허용 확장자 그룹을 모든 포럼 사용할 수 있 첨부파일(일반적인 방법은 첨부 파일을 모았다 그것은 처음부터)니다. 그냥 사람들을 추가 포럼 당신이 원하는 확장자 그룹(확장 내에서 이 그룹)을 수있는,기본적으로 모든 포럼 사라집니다 추가할 경우 포럼을하시기 바랍니다. 할 수 있 다시 추가 모든 포럼에서 주어진 시간이다. 를 추가하는 경우 포럼 보드 및 사용 권한 설정을 모든 포럼은 아무것도 변하지 않을 것입니다. 하지만 경우에 당신을 변경하고 제한 액세스를 특정 포럼,당신이 체크되어 있는지 확인하려면 여기를 추가하는 새로 만든 포럼도 있습니다. 그것은 쉽게 이동이지만,이것이 편집,파일의 무리러므로 내가 선택한 방법으로 이를 수행한다는 것입니다. 에 유의하십시오,당신의 모든 포럼 여기에 표시됩니다.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = '포럼을 추가';
 $lang['ADD_SELECTED'] = '추가 선택';
 $lang['PERM_ALL_FORUMS'] = '모든 포럼';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = '를 관리 할당량을 첨부 파일 제한';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = '여기에서 당신이 할 수있는 추가/삭제/변경한 할당량을 제한합니다. 당신은 할당할 수 있는 이러한 할당량을 제한하는 사용자와 그룹이다. 를 할당한 할당량을 제한하는 사용자,사용자->관리를 선택,사용자와 당신이 볼 수는 옵션은 아래에 있습니다. 를 할당한 할당량을 제한하는 그룹,그룹->관리 그룹을 선택하려집니다,당신은 당신이 볼 구성 설정합니다. 당신이보고 싶은 경우,사용자와 그룹에 할당된 특정한 할당량 제한을 클릭하면 왼쪽에 할당량의 설명합니다.';
-$lang['ASSIGNED_USERS'] = '사용자가 할당';
-$lang['ASSIGNED_GROUPS'] = '지정된 그룹';
-$lang['QUOTA_LIMIT_EXIST'] = '량 제한 %s 이미 존재합니다.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = '파일 첨부는 제어 패널';
 $lang['CONTROL_PANEL_EXPLAIN'] = '여기를 보고 관리할 수 있습니다 모든 첨부 파일을 사용자에 따라 파일 첨부,전망 등등...';
-$lang['FILECOMMENT'] = '파일설명';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = '사용*와일드카드로 부분적으로 일치하는';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = '게시물의 수를 함께 첨부 파일';
 $lang['NUMBER_TOPICS_ATTACH'] = '숫자의 주제로 첨부 파일';
 $lang['NUMBER_USERS_ATTACH'] = '독립적 인 사용자는 게시된 첨부파일';
 $lang['NUMBER_PMS_ATTACH'] = '총수의 첨부 파일에서 개인 메시지';
-$lang['ATTACHMENTS_PER_DAY'] = '첨부 파일이 하루';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = '첨부파일에 대한 통계 %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = '구성 성공적으로 업데이트';
 $lang['SET_DEFAULTS'] = '기본값 복원';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = '포럼 config';
-
 $lang['BT_SELECT_FORUMS'] = '포럼 옵션:';
 $lang['BT_SELECT_FORUMS_EXPL'] = '아 <i>Ctrl</i> 를 선택하는 동안 여러 포럼';
 
