@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Eklenti çox böyükdür.<br />Maksimum 
 $lang['DISALLOWED_EXTENSION'] = 'Genişləndirilməsi %s yol verilmir'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Bu Forumda %s genişləndirməsi ilə faylları yerləşdirmək üçün icazəniz yoxdur.'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Qoyuluş çox böyükdür.<br />Maksimum Ölçü: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Bağışlayın, amma bütün Eklentilər üçün maksimum fayl ölçüsünə çatmışıq. Suallarınız varsa, İdarəçiyə müraciət edin.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Eklenti əlavə oluna bilmir, çünki bu mesajdakı maksimum %d Eklentinin sayı çatmışdır.'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Ekalti/Şəkil %d piksel enində və %d piksel hündürlüyündə olmalıdır.';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Yükleme xətası: Eklenti %s-yə yükləyə bilmir.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = '\'Eklenti Əlavə Et\' qutusu daxilində dəyərləri daxil etməlisiniz.';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Eklenti yenilənə bilmir, çünki köhnə Eklenti qeydi tapılmadı.';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Bağışlayın, amma sizin Şəxsi Mesaj Klasörünüzdə bütün Eklentilər üçün maksimum fayl ölçüsünə çatdı. Zəhmət olmasa, bir neçə aldığınız/göndərdiyiniz Eklentiləri silin.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Bağışlayın, amma \'%s\' xüsusi mesaj qovluğunuza olan bütün əlavələrin maksimum fayl ölçüsünə çatdı. Zəhmət olmasa, buna bildirin, ya da gözləyin ki, o bəzi əlavələri silsin.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Siz yükləmək və ya baxmaq üçün bir eklenti seçməmisiniz.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Kataloq \'%s\' mövcud deyil, yaxud tapıla
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Lütfən yoxlayın və əmin olun ki, \'%s\' bir kataloqdur.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Kataloq \'%s\' yazıla bilmir. Yükleme yolu yaratmalı və chmod onu 777-ə dəyişdirməlisiniz (ya da sahibini httpd-server sahibinizə dəyişdirməlisiniz) faylları yükləmək üçün.<br />Əgər yalnız sadə FTP girişi varsa, kataloqun \'Atributunu\' rwxrwxrwx dəyişin.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Yüklemek Üçün Kvota';
-$lang['PM_QUOTA'] = 'PM kvotası';
-
 // Common Variables
 $lang['BYTES'] = 'Byte';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Test Parametrləri';
 $lang['NOT_ASSIGNED'] = 'Deyil Təyin Edilir';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Fayl üçün mövcud şərh yoxdur.';
 $lang['ATTACHBOX_LIMIT'] = 'Sizin Attachbox <b>%d%%</b> doludur.';
-$lang['NO_QUOTA_LIMIT'] = 'Heç Bir Kvota';
 $lang['UNLIMITED'] = 'Limitsiz';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Sadə Rejim';
 $lang['ADVANCED_MODE'] = 'İnkişaf etmiş Rejim';
 $lang['MODERATOR_STATUS'] = 'Moderatrın statusu';
 
-$lang['ALLOWED_ACCESS'] = 'İcazə Girişi';
-$lang['DISALLOWED_ACCESS'] = 'İcazə Verilməmiş Giriş';
-$lang['IS_MODERATOR'] = 'Bu Moderatordur';
-
-$lang['CONFLICT_WARNING'] = 'İcazə Münaqişəsi Xəbərdarlığı';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Bu istifadəçi, qrup üzvlüyü vasitəsilə bu forumda girişi hüquqlarına hələ də malikdir. Sizin qrup icazələrini dəyişdirmək və ya bu istifadəçini qrupdan çıxarmaq istəyə bilərsiniz, onların giriş hüquqlarını tamamilə qarşısını almaq üçün. İcazə verən qruplar (və müvafiq forumlar) aşağıda göstərilmişdir.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Bu istifadəçi, qrup üzvlüyü vasitəsilə bu forumda moderator hüquqlarına hələ də malikdir. Siz qrup icazələrini dəyişdirmək, ya da bu istifadəçini qrupdan çıxarmaq istəyə bilərsiniz, onların moderator hüquqlarını tamamilə qarşısını almaq üçün. İcazə verən qruplar (və müvafiq forumlar) aşağıda qeyd edilmişdir.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Aşağıda göstərilmiş növbəti istifadəçi (və ya istifadəçilər) bu forumda onların istifadəçi icazə parametrləri vasitəsilə girişi hüquqlarına hələ də malikdir. Siz istifadəçi icazələrini dəyişdirmək istəyə bilərsiniz, onların girişi hüquqlarını tamamilə qarşısını almaq üçün. İcazə verilən istifadəçilər (və əhatə olunan forumlar) aşağıda göstərilmişdir.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Aşağıda göstərilmiş növbəti istifadəçi (və ya istifadəçilər) bu forumda onların istifadəçi icazə parametrləri vasitəsilə moderator hüquqlarına hələ də malikdir. Sizin istifadəçi icazələrini dəyişdirmək istəyə bilərsiniz, onların moderator hüquqlarını tamamilə qarşısını almaq üçün. İcazə verilən istifadəçilər (və əhatə olunan forumlar) aşağıda göstərilmişdir.';
-
 $lang['PUBLIC'] = 'İctimai';
 $lang['PRIVATE'] = 'Özəl';
 $lang['REGISTERED'] = 'Qeydiyyatdan keçmiş';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Səsvermə';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Sorğu yarat';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Yazı Faylları';
 $lang['AUTH_DOWNLOAD'] = 'Faylları endirin';
-
-$lang['SIMPLE_PERMISSION'] = 'Sadə İcazələr';
 
 $lang['USER_LEVEL'] = 'İstifadəçi səviyyəsi';
 $lang['AUTH_USER'] = 'İstifadəçi';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Saytın adı';
 $lang['SITE_DESC'] = 'Saytın təsviri';
 $lang['FORUMS_DISABLE'] = 'Forumu deaktiv et';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Bu istifadəçilər üçün əlçatmaz edəcək. Administratorlar, forum deaktiv olduğu zaman İdarəetmə Panelinə daxil ola bilərlər.';
-$lang['ACCT_ACTIVATION'] = 'Hesab aktivləşdirməsini təmin edin.';
 $lang['ACC_NONE'] = 'Heç kim'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'İstifadəçi';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'İmzaya icazə verir.';
 $lang['MAX_SIG_LENGTH'] = 'İmzaların maksimum uzunluğu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'İstifadəçi imzalarında maksimum simvol sayı';
 $lang['ALLOW_NAME_CHANGE'] = 'İstifadəçi adının dəyişikliyinə icazə ver.';
-
-$lang['EMAIL_SETTINGS'] = 'E-Poçt parametrləri.';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Vizuallığı Təsdiqi aktivləşdirin.';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'İstifadəçilərin qeydiyyat zamanı şəkil tərəfindən müəyyən edilmiş bir kod daxil etmələri tələb olunur.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Avtomatik girişə icazə verin.';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Basın %sHere%s Smiley Administrasiyasına q
 
 // User Management
 $lang['USER_ADMIN'] = 'Administrasiya İstifadəçilər';
-$lang['USER_ADMIN_EXPLAIN'] = 'Burada istifadəçilərin məlumatlarını və bəzi variantlarını dəyişə bilərsiniz. İstifadəçilərin icazələrini dəyişdirmək üçün istifadəçi və qrup icazələri sistemindən istifadə edin.';
-
 $lang['LOOK_UP_USER'] = 'İstifadəçini axtar';
-
-$lang['ADMIN_USER_FAIL'] = 'İstifadəçi profilini yeniləmək mümkün olmadı.';
-$lang['ADMIN_USER_UPDATED'] = 'İstifadəçi profili uğurla yenilənir.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Basın %sHere%s İstifadəçi Administrasiyasına qayıtmaq üçün';
-
-$lang['USER_ALLOWPM'] = 'Şəxsi mesaj göndərə bilərsiniz';
-$lang['USER_ALLOWAVATAR'] = 'Avatarı göstərə bilər.';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Burada istifadəçinin cari avatarını görmək və silmək mümkündür.';
-
-$lang['USER_SPECIAL'] = 'Xüsusi admin yalnız sahələri';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Bu sahələri istifadəçilər tərəfindən dəyişdirilə bilmir. Burada onların statusunu və istifadəçilərə verilməyən digər variantları təyin edə bilərsiniz.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Administrasiya Qrupu';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Mütənasib əlavə mübadiləsi üçün bonusl
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Control Panel';
-$lang['SHADOW_ATTACHMENTS'] = 'Kölgə Mənbə.';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Qadağan olunmuş genişləndirmələr.';
 $lang['EXTENSION_CONTROL'] = 'Nəzarət Genişləndirilməsi.';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Ğenişləndirmə qrupunun nəzarəti.';
 $lang['SPECIAL_CATEGORIES'] = 'Xüsusi Bir Kateqoriya.';
-$lang['SYNC_ATTACHMENTS'] = 'Faylları Sinxronlaşdırmaq.';
-$lang['QUOTA_LIMITS'] = 'Kvota.';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Konfiqurasiya faylları.';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'İcon Mövzusu.';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Bu şəkil göstərilir qədər mövzu ilə faylları.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Proqramın keçirilmə qaydası.';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Burada siz əlavə vəzifələrdə/PMS qaydada azalan filetime və bundan sonra.';
-$lang['SHOW_APCP'] = 'İstifadə edin, yeni idarəetmə paneli proqramları.';
-$lang['SHOW_APCP_EXPLAIN'] = 'Seçin olub istifadə etmək istəyirsinizsə, ayrı-ayrı idarəetmə pultu.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Fayl ölçüsü';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimum fayl ölçüsü qoyuluşu üçün.';
-$lang['ATTACH_QUOTA'] = 'Kvota Qoyuluşu.';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimum Disk Alanı Bütün Əlavələr üçün Web Məkanınızda saxlanıla bilən. 0 dəyəri "limitsiz" deməkdir.';
 $lang['MAX_FILESIZE_PM'] = 'Şəxsi Mesajlar Qovluğunda Maksimum Fayl Ölçüsü';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimum Disk Alanı Hər Bir İstifadəçinin Şəxsi Mesaj Qutusu tərkibində istifadə edə biləcəyi Əlavələr. 0 dəyəri "limitsiz" deməkdir.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Default Kvota Həddi';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Burada siz yeni qeydiyyatdan keçən İstifadəçilərə və müəyyən edilmiş Kvota Həddi olmayan İstifadəçilərə avtomatik olaraq təyin olunan Default Kvota Hədini seçə bilərsiniz. \'Heç bir Kvota Həddi\' seçimi əlavə Kvota istifadə etməmək üçün, onun əvəzinə bu İdarəetmə Panelində müəyyən etdiyiniz default Parametrlərdən istifadə etmək üçündür.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maksimum Əlavələrin Sayı';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Bir postda icazə verilən maksimum əlavə sayı.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Əlavə Modunu deaktiv edin';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Bu variant əsasən yeni şablonları və ya mövzuları sınaqdan keçirmək üçündür, o bütün əlavə funksiyalarını Admin Paneli istisna olmaqla deaktiv edir.';
 $lang['PM_ATTACHMENTS'] = 'Şəxsi mesajlarda əlavələrə icazə verin';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Şəxsi mesajlara fayl əlavə etməyə imkan verin/inkar edin.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Cavab yazarkən, ünsiyyət mövzularının nəzərdən keçirilməsində tətbiqləri göstərmək?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = '"Bəli" qoyarsanız, bütün tətbiqlər ünsiyyət mövzularının nəzərdən keçirilməsində göstəriləcək.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Burada itkin fayllardan göndərişlərdən əlavə məlumatları silə bilərsiniz və artıq heç bir göndərişə əlavə edilməyən faylları silə bilərsiniz. Faylı yükləmək və ya görmək üçün onun üzərinə klik edə bilərsiniz; əgər heç bir link yoxsa, fayl mövcud deyil.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Fayl sistemi üzərində mövcud olan və heç bir mövcud göndərişə təyin olunmamış bütün əlavə fayl qruplarını silin.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Fayl sistemi üzərində mövcud olmayan faylların göndəriş əlavə məlumatlarını silin.';
-$lang['EMPTY_FILE_ENTRY'] = 'Boş fayl daxil etməsi';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Önizləmə əşyası %s üçün sıfırlandı.'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Qoşmanın Sinxronizasiyası Tamamlandı.';
 $lang['SYNC_TOPICS'] = 'Mövzuların Sinxronizasiyası';
 $lang['SYNC_POSTS'] = 'Mesajların Sinxronizasiyası';
-$lang['SYNC_THUMBNAILS'] = 'Kiçiklərin Sinxronizasiyası';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Genişləndirmələri idarə et';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Burada fayl genişləndirmələrinizi idarə edə bilərsiniz. Əgər bir genişlətməyə yükləməyə icazə vermək/verməmək istəyirsinizsə, zəhmət olmasa Genişləndirmə Qruplarının İdarəetməsindən istifadə edin.';
 $lang['EXPLANATION'] = 'İzahı';
 $lang['EXTENSION_GROUP'] = 'Genişləndirilməsi Qrupu';
-$lang['INVALID_EXTENSION'] = 'Yaramaz Genişlətmə';
 $lang['EXTENSION_EXIST'] = 'Genişləndirilməsi %s artıq mövcuddur'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Genişləndirmə %s qadağan edilmiş genişləndirmələrə əlavə edilə bilməz, onları bura əlavə etməzdən əvvəl silin.'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Qrup İdarə Genişləndirilməsi';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Qrupu genişləndirilməsi %s artıq mövcuddu
 $lang['MANAGE_CATEGORIES'] = 'İdarəetmə Xüsusi Kateqoriyaları';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Burada Siz Xüsusi Kateqoriyaları tənzimləyə bilərsiniz. Siz Uzadılmış Qruplara təyin edilmiş Xüsusi Kateqoriyalar üçün Xüsusi Parametrlər və Şərtlər müəyyən edə bilərsiniz.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Xüsusi kateqoriya üçün parametrlər: şəkillər';
-$lang['SETTINGS_CAT_FLASH'] = 'Xüsusi kateqoriya üçün parametrlər: Flash faylları';
 $lang['DISPLAY_INLINED'] = 'Şəkilləri inline formatında göstərin';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Şəkilləri birbaşa yazıda göstərmək (bəli) və ya link şəklində göstərmək üçün seçin?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum Şəkil Ölçüləri';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Eskiz yaradın';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Eskiz Fayl Ölçüsü';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Əgər şəkil bu müəyyən Həcmdən kiçikdirsə, heç bir Eskiz yaradılmayacaq, çünki o kiçikdir.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Qadağan Olunmuş Genişləndirmələri İdarə Etin';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Burada qadağan olunmuş genişləndirmələri əlavə edə və ya silə bilərsiniz. PHP, php3 və php4 genişləndirmələri təhlükəsizlik səbəbləri ilə qadağan olunmuşdur və onları silmək olmaz.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Qadağan Genişləndirmə %s artıq mövcuddur.'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Genişləndirmə %s sizin icazə verilmiş Genişlənmələrinizdə müəyyən edilmişdir, onu buraya əlavə etməzdən əvvəl oradan silməlisiniz.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Qrup İcazələri - > \'%s\'.'; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Burada siz seçilmiş Genişlənmə Qrupunu seçdiyiniz Forumlara məhdudlaşdıra bilərsiniz (İcaza verilən Forumlar Qutusunda müəyyən olunub). Default olaraq istifadə qulluqçulara Fayl əlavə etmək üçün İcazə verilir (forumlar əlavə feted basis theremin). Sadəcə olaraq, icazə verilən Forumları bu Forumların siyahısına qatın, default HƏR FORUMDA göründüyü zaman silinecəkdir. Hər hansı bir anda BÜTÜN FORUMLARI yenidən əlavə etmək mümkündür.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Forumları əlavə et';
 $lang['ADD_SELECTED'] = 'Seçilmişlərin əlavə edilməsi';
 $lang['PERM_ALL_FORUMS'] = 'BÜTÜN FORUMLAR';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Xüsusi Kateqoriyaların İdarəsi';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Burada siz kvota limitlərini əlavə edə/sil/əvəz edə bilərsiniz. Bu kvota limitlərini istifadəçilərə və qruplara daha sonra təyin edə bilərsiniz.';
-$lang['ASSIGNED_USERS'] = 'Təyin İstifadəçilər';
-$lang['ASSIGNED_GROUPS'] = 'Təyin Olunmuş Qruplar';
-$lang['QUOTA_LIMIT_EXIST'] = 'Limit %s kvota artıq mövcuddur.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Fayl Əlavə İdarəetməsi Paneli';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Burada siz bütün əlavələri istifadəçilərə, fayl, baxış və s. ilə idarə edə bilərsiniz....';
-$lang['FILECOMMENT'] = 'Fayl Şərhi';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Qismən üst-üstə düşmələr üçün * işarəsini istifadə edin.';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Fayllar əlavə edilmiş vəzifələr sayı';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Fayllar əlavə edilmiş mövzular sayıdır.';
 $lang['NUMBER_USERS_ATTACH'] = 'Müstəqil İstifadəçilər Fayl Qoymaları Qoymaları';
 $lang['NUMBER_PMS_ATTACH'] = 'Şəxsi İsmarlaclarda Cəmi Əlavələrin sayı';
-$lang['ATTACHMENTS_PER_DAY'] = 'Gündəlik əlavə edilən fayllar';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = '%s üçün əlavə statistikası'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfiqurasiya Uğurla Yenilənib';
 $lang['SET_DEFAULTS'] = 'Defolt ayarları bərpa et';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum konfiqurasiyası';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum variantları:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'Seçərkən <i>Ctrl</i> yuxarıda saxlayın bir neçə forum.';
 
