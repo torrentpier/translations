@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Перейти к первому непрочита
 $lang['PAGE_OF'] = 'Страница <b>%d</b> из <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Вы ввели некорректный логин Twitter';
 
 $lang['FORUM_INDEX'] = 'Список форумов %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Вы уверены, что хотите уда�
 $lang['FLOOD_ERROR'] = 'Вы не можете отправить следующее сообщение сразу после предыдущего. Пожалуйста, попробуйте чуть попозже';
 $lang['EMPTY_SUBJECT'] = 'Вы должны указать заголовок сообщения, когда начинаете новую тему';
 $lang['EMPTY_MESSAGE'] = 'Вы должны ввести текст сообщения';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Форум закрыт';
+$lang['TOPIC_LOCKED'] = 'Тема закрыта';
 $lang['TOPIC_LOCKED_SHORT'] = 'Тема закрыта';
 $lang['NO_POST_ID'] = 'Вы должны выбрать сообщение для редактирования';
 $lang['NO_TOPIC_ID'] = 'Вы должны выбрать тему для ответа';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Темно-Зеленый';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Опрос';
+$lang['MODERATE'] = 'Модерация';
 $lang['SEND_PM_SHORT'] = 'ЛС';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Поиск пользователей �
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Поиск пользователей с количеством сообщений менее %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Поиск пользователей с количеством сообщений от %d до %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Поиск пользователей с количеством сообщений %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Поиск пользователей с логином в Twitter %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Поиск пользователей, чей веб-сайт %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Поиск пользователей из %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Поиск пользователей с интересами %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'День';
 $lang['POST_EDIT_CANNOT'] = 'Извините, вы не можете редактировать сообщения';
 $lang['FORUMS_IN_CAT'] = 'форумов в этой категории';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Комментарий модерации';
 $lang['MC_LEGEND'] = 'Тип комментария';
 $lang['MC_FAQ'] = 'Введенный Вами текст будет отображаться под этим сообщением';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s в Вашем сообщении";
