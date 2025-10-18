@@ -385,7 +385,7 @@ $lang['VOTE_CAST'] = 'Votul tău a fost aruncat.';
 $lang['EMOTICONS'] = 'Emoticoane';
 $lang['MORE_EMOTICONS'] = 'Vezi mai multe Emoticoane';
 
-$lang['FONT_COLOR'] = 'Culoarea fontului';
+$lang['FONT_COLOR'] = 'Culoare Font';
 $lang['COLOR_DEFAULT'] = 'Default';
 $lang['COLOR_DARK_RED'] = 'Roșu Închis';
 $lang['COLOR_RED'] = 'Roșu';
@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Nu se poate face Anonim, un membru al grupului.'
 $lang['CONFIRM_UNSUB'] = 'Sunteți sigur că doriți să vă dezabona de la acest grup?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Abonamentul la acest grup nu a fost încă aprobat; ești sigur că vrei să te dezabonezi?';
 
-$lang['UNSUB_SUCCESS'] = 'Ai fost onu-ați abonat la acest grup.';
+$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
 
 $lang['APPROVE_SELECTED'] = 'De Acord Selectate';
 $lang['DENY_SELECTED'] = 'Nega Selectate';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Nu sunt un moderator al acestui forum.';
-$lang['NOT_AUTHORISED'] = 'Nu Sunt Autorizate';
+$lang['NOT_AUTHORISED'] = 'Not Authorized';
 
 $lang['YOU_BEEN_BANNED'] = 'Ați fost interzis din acest forum. Vă rugăm să contactați administratorul forumului pentru mai multe informații.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Ne pare rau dar nu sunteți autorizat pentru 
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Descriere'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'Filesize';
+$lang['FILESIZE'] = 'File size';
 $lang['VIEWED'] = 'Vizualizate';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Extensia \'%s\' a fost dezactivată de un administrator, prin urmare acest Atașament nu este afișat.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Atașamentul este prea mare.<br />Could nu ob
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Atașamentul este prea mare.<br />Maximum Incarca Dimensiune: %d MB.<br />Please rețineți că această Dimensiune este definită în php.ini, acest lucru înseamnă că este stabilit de PHP și Atașamentul Mod nu se poate trece peste această valoare.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Extinderea %s nu este permis'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nu ai voie să postați Fișiere cu Extensia %s în acest Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Atașamentul este prea mare.<br />Max Dimensiune: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Îmi pare rău, dar dimensiunea maxima pentru toate echipamentele este de ajuns. Vă rugăm să contactați Administratorul forumului dacă aveți întrebări.';
+$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Atașament nu poate fi adăugat, de max. numărul de %d fișiere Atașate în acest post a fost realizat'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Atașarea/Imagine trebuie să fie mai mică decât %d de pixeli lățime și %d pixeli de înaltă';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Incarca Eroare: nu am Putut incarca Atașamentul față de %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Trebuie să introduceți valorile pentru a
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'În imposibilitatea de a Actualiza Atașament, nu a putut găsi vechi Atașament Intrare';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Îmi pare rău, dar dimensiunea maxima pentru toate Atașamentele în Mesaj Privat Dosar a fost atins. Vă rugăm să ștergeți unele de primit/trimis de Atașamente.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Îmi pare rău, dar dimensiunea maxima pentru toate Atașamentele în Mesaj Privat Dosar de %s\' a fost atins. Te rog, lasă-l să știe, sau să așteptați până când el/ea a eliminat unele dintre lui/ei de Atașamente.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nu ați selectat un atașament pentru a descărca sau vizualiza.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Caracteristica de Fixare este dezactivat
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Directorul \'%s\' nu exista sau nu a Putut fi găsit.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Vă rugăm să verificați dacă \'%s\' este un director.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Director \'%s\' nu este inscriptibil. Veți avea de a crea incarca calea și chmod la 777 (sau schimba proprietarul la tine httpd-servere proprietar) pentru a încărca fișiere.<br />If trebuie doar simplu FTP-acces schimba "Atribut" de la director la rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Incarca Cota';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Căutare Atașamente';
 $lang['TEST_SETTINGS'] = 'Setări De Testare';
 $lang['NOT_ASSIGNED'] = 'Nu Atribuite';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nici un Comentariu Fișier disponibil';
-$lang['ATTACHBOX_LIMIT'] = 'Ta Attachbox is<br /><b>%d%%</b> plin';
+$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
 $lang['NO_QUOTA_LIMIT'] = 'Nici O Limită';
 $lang['UNLIMITED'] = 'Nelimitat';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Un alt torrent cu același info_hash deja <a h
 $lang['BT_V1_ONLY_DISALLOWED'] = 'torrenturile v1- doar au fost dezactivate de către administrator în acest moment, permise: v2 și hibride';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'torrenturile v2- doar au fost dezactivate de către administrator în acest moment, permise: v1 și hibride';
 $lang['BT_FLIST'] = 'Listă de fișiere';
-$lang['BT_FLIST_LIMIT'] = 'Setările trackerului nu permit procesarea listelor cu mai mult de %d fișiere. Numărul actual este: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'Hash BTMR';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'Rădăcina Merkle BitTorrent este un hash al unui fișier încorporat în torrenturile care acceptă BitTorrent v2, utilizatorii tracker-ului pot extrage, le pot calcula, de asemenea, pot descărca torrenturi deduplicate folosind instrumente de desktop cum ar fi <a href="%s" target="_blank" referrerpolicy="origin">Cititorul Rădăcinii Merkle Torrent</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Data creării';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Opinii';
 $lang['GOLD'] = 'Aur';
 $lang['SILVER'] = 'Argint';
 $lang['SET_GOLD_TORRENT'] = 'Face aur';
-$lang['UNSET_GOLD_TORRENT'] = 'Desface aur';
+$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
 $lang['SET_SILVER_TORRENT'] = 'Silver';
-$lang['UNSET_SILVER_TORRENT'] = 'Desface argint';
+$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
 $lang['GOLD_STATUS'] = 'AUR TORRENT! DESCĂRCAȚI TRAFIC NU IA ÎN CONSIDERARE!';
 $lang['SILVER_STATUS'] = 'ARGINT TORRENT! DESCĂRCAȚI TRAFIC PARȚIAL LUATE ÎN CONSIDERARE!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Tipul torrentului a fost schimbat în: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Tipul torrentului a fost schimbat în: %s';
 $lang['TORRENT_STATUS'] = 'Căutare după statutul release-ului';
 $lang['SEARCH_IN_FORUMS'] = 'Căutare în Forumuri';
 $lang['SELECT_CAT'] = 'Selectați categorie';
-$lang['GO_TO_SECTION'] = 'Du-te la secțiunea';
+$lang['GO_TO_SECTION'] = 'Go to section';
 $lang['TORRENTS_FROM'] = 'Mesaje de la';
 $lang['SHOW_ONLY'] = 'Show doar';
 $lang['SHOW_COLUMN'] = 'Arată coloana';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Dacă raportul scade sub %s, nu va fi capabil d
 
 $lang['SEEDER_LAST_SEEN'] = 'Semănătoare de nu se vede: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'Trebuie mai intai sa va logati';
+$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
 $lang['ONLY_FOR_MOD'] = 'Această opțiune doar pentru moderatori';
 $lang['ONLY_FOR_ADMIN'] = 'Această opțiune doar pentru admini';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Această opțiune doar pentru super-administratori';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Un utilizator %s este deja înregistrat cu adresa ta 
 $lang['HIDDEN'] = 'Ascunse';
 
 // from admin
-$lang['NOT_ADMIN'] = 'Nu sunt autorizate să administreze acest bord';
+$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
 
 $lang['COOKIES_REQUIRED'] = 'Cookie-urile trebuie să fie activate!';
 $lang['SESSION_EXPIRED'] = 'Sesiunea a expirat';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Ne pare rău, înregistrarea este dezactivat �
 $lang['ONLY_NEW_POSTS'] = 'numai noi posturi';
 $lang['ONLY_NEW_TOPICS'] = 'numai subiecte noi';
 
-$lang['TORHELP_TITLE'] = 'Vă rugăm să ajute aceste torente la seed!';
+$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
 $lang['STATISTICS'] = 'Statistici';
 $lang['STATISTIC'] = 'Statistica';
 $lang['VALUE'] = 'Valoarea';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Eu nu sunt de acord cu acești termeni';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Pentru a te înregistra, trebuie să activezi JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Înregistrarea este în prezent închisă<br /><br />Înregistrarea este disponibilă în timpul: %s<br />Ora curentă a serverului: %s<br /><br />Ne cerem scuze pentru inconvenient";
 $lang['AUTOCOMPLETE'] = 'Generați parolă';
-$lang['YOUR_NEW_PASSWORD'] = 'Ta sunt noua parola:';
+$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
 $lang['REGENERATE'] = 'Regenera';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Timp de executie:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'pe';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Mem: ';
+$lang['MEMORY'] = 'Memory: ';
 $lang['QUERIES'] = 'interogări';
 $lang['LIMIT'] = 'Limita:';
 $lang['SHOW_LOG'] = 'Afișează log-ul';
@@ -1572,7 +1572,7 @@ $lang['SUPERSCRIPT'] = 'Text la superscript: [sup]text[/sup]';
 $lang['SUBSCRIPT'] = 'Text la subscript: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Text citat: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Inserați imaginea: [img]https://image_url[/img] (Ctrl+R)';
-$lang['URL'] = 'Url';
+$lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Inserați adresa URL: [url]https://url[/url] sau [url=https://url]text URL[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'Cod display: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Lista';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'Client BitTorrent';
 $lang['DL_FORMULA'] = 'Formula: Încărcat/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'oprit';
-$lang['DL_UPD'] = 'upd: ';
+$lang['DL_UPD'] = 'update time: ';
 $lang['DL_INFO'] = 'prezinta date <i><b>only pentru curent session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Ascundeți numele clientului meu BitTorrent în lista peer-urilor';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Ascundeți numele țării mele în lista peer-urilor';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Utilizatori pe zi';
 $lang['BOARD_STARTED'] = 'Consiliul a început';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar director de dimensiune';
 $lang['DATABASE_SIZE'] = 'Dimensiunea bazei de date';
-$lang['GZIP_COMPRESSION'] = 'Gzip compression';
+$lang['GZIP_COMPRESSION'] = 'GZIP compression';
 $lang['NOT_AVAILABLE'] = 'Nu este disponibil';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Uită-te în sus pe Forum';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Aici puteți modifica permisiunile și moderator statutul atribuit fiecărui grup de utilizatori. Nu uita, atunci când schimbă grupul de permisiuni individuale permisiuni de utilizator poate permite încă de intrare de utilizator pentru forumuri, etc. Veți fi avertizat dacă acesta este cazul.';
 $lang['USER_AUTH_EXPLAIN'] = 'Aici puteți modifica permisiunile și moderator statutul atribuit fiecărui utilizator individual. Nu uita, atunci când schimbarea permisiunilor de utilizator care permisiuni de grup poate totuși permite utilizatorului de intrare la forumuri, etc. Veți fi avertizat dacă acesta este cazul.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Aici puteți modifica autorizația niveluri de fiecare forum. Veți avea atât o simplă și avansată metodă pentru a face acest lucru, în cazul în care avansată oferă un control mai mare din fiecare forum funcționare. Amintiți-vă că schimbarea nivelul de permisiune de forumuri va afecta pe care utilizatorii pot efectua diverse operațiuni în cadrul acestora.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
 
 $lang['SIMPLE_MODE'] = 'Modul Simplu';
 $lang['ADVANCED_MODE'] = 'Modul Avansat';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Permis De Acces';
 $lang['DISALLOWED_ACCESS'] = 'Nepermis De Acces';
 $lang['IS_MODERATOR'] = 'Este Moderator';
 
-$lang['CONFLICT_WARNING'] = 'Autorizația De Conflict De Avertizare';
+$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Acest utilizator are încă drepturile de acces la acest forum prin apartenența la grup. Poate doriți pentru a modifica permisiuni de grup sau elimina acest utilizator grupului pentru a preveni complet având drepturi de acces. Grupurile de acordare a drepturilor (și forumuri implicate) sunt notate mai jos.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Acest utilizator are încă moderator drepturile pentru acest forum prin apartenența la grup. Poate doriți pentru a modifica permisiuni de grup sau elimina acest utilizator grupului pentru a preveni complet având moderator drepturi. Grupurile de acordare a drepturilor (și forumuri implicate) sunt notate mai jos.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Faceți clic pe %sHere%s pentru a reveni la In
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Configurația Generală';
-$lang['CONFIG_EXPLAIN'] = 'Formularul de mai jos vă va permite să personalizați toate consiliul general opțiuni. Pentru Utilizator și Forum configurații folosi legate de link-uri de pe partea stângă.';
+$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
 
 $lang['CONFIG_MODS'] = 'Modificări de configurare';
 $lang['MODS_EXPLAIN'] = 'Acest formular vă permite să reglați modificări';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Activați Forum Tăiere';
 $lang['ALLOW_BBCODE'] = 'Permite BBCode';
 $lang['ALLOW_SMILIES'] = 'Permite Zâmbete';
 $lang['SMILIES_PATH'] = 'Zâmbete Calea De Stocare';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Calea sub TorrentPier root dir, de exemplu, stiluri/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Permite Semnături';
 $lang['MAX_SIG_LENGTH'] = 'Maxim semnătura lungime';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numărul maxim de caractere într-utilizator de semnături';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Cât timp o autologin cheie este valabilă de
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Administrare Forum';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'De la acest panou puteți adăuga, șterge, edita, re-comanda și re-sincroniza categorii și forumuri';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
 $lang['EDIT_FORUM'] = 'Edit forum';
 $lang['CREATE_FORUM'] = 'Crea noi pe forum';
 $lang['CREATE_SUB_FORUM'] = 'Creează subforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Actualizare Pentru';
 $lang['CONFIG_UPDATED'] = 'Forum De Configurare A Fost Actualizat Cu Succes';
 $lang['MOVE_UP'] = 'Mutare în sus';
 $lang['MOVE_DOWN'] = 'Mutare în jos';
-$lang['RESYNC'] = 'Resincronizare';
+$lang['RESYNC'] = 'Re-sync';
 $lang['NO_MODE'] = 'Nu era setat pe modul';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formularul de mai jos vă va permite să personalizați toate consiliul general opțiuni. Pentru Utilizator și Forum configurații folosi legate de link-uri de pe partea stângă';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
 
 $lang['MOVE_CONTENTS'] = 'Muta tot continutul';
 $lang['FORUM_DELETE'] = 'Șterge Forum';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sincronizare';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. lungimea de știri';
-$lang['NEWS_COUNT'] = 'Câte știri show';
+$lang['NEWS_COUNT'] = 'How many news items to show';
 $lang['NEWS_FORUM_ID'] = 'Din ce forumuri să afișez <br /> <h6>Pentru mai multe forumuri, specificați ID-uri separate prin virgule. Exemplu: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Nu avatar';
 $lang['TRACKER_STATS'] = 'Statisticile pe tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Limitele Cotelor De';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Setările De Fixare';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Aici puteți configura Setările Principale de Atașament Mod. Dacă apăsați pe Butonul Testare Setări, Atașamentul Mod face câteva Teste de Sistem pentru a fi siguri că ministerul Apărării va funcționa corespunzător. Dacă ai probleme cu încărcarea de Fișiere, vă rugăm să executați acest Test, pentru a obține o eroare detaliate-mesaj.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Atașament Filesize Setări';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Atașament Număr De Setări';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Opțiuni De Fixare';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aici puteți alege dacă pentru a afiș
 $lang['SHOW_APCP'] = 'Utilizați noul panou de control aplicații';
 $lang['SHOW_APCP_EXPLAIN'] = 'Alegeți dacă doriți să utilizați un panou de control separat aplicații (da), sau metoda veche cu două cutii pentru aplicații și aplicații de editare (nici unul) în caseta de mesaj. Este dificil de a explica modul în care arată, așa că încercați pentru tine.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'Filesize';
+$lang['MAX_FILESIZE_ATTACH'] = 'File size';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maxim filesize pentru Atașamente. O valoare de 0 înseamnă "nelimitat". Această Setare este limitată de Configurația Serverului. De exemplu, dacă Configurația php permite doar un maxim de 2 MB, upload, acest lucru nu poate fi suprascris de Mod.';
 $lang['ATTACH_QUOTA'] = 'Atașament Cota';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximă de Spațiu pe Disc TOATE Atașamentele pot ține pe spațiul web. O valoare de 0 înseamnă "nelimitat".';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Șterge toate postarea atașament de 
 $lang['EMPTY_FILE_ENTRY'] = 'Gol Fișierul De Intrare';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Miniatură resetat pentru Fixare: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Sincronizarea atașamentului s-a terminat.';
 $lang['SYNC_TOPICS'] = 'Traducerea Subiecte';
 $lang['SYNC_POSTS'] = 'Traducerea Posturi';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Gestiona Categorii Speciale';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aici puteți configura Categoriile Speciale. Puteți stabili Parametrii Speciali și Condiții pentru Categoriile Speciale atribuite unui Grup de Extensie.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Setări pentru Categorii Speciale: Imagini';
 $lang['SETTINGS_CAT_FLASH'] = 'Setări pentru Categorii Speciale: Fișiere Flash';
-$lang['DISPLAY_INLINED'] = 'Afișa Imagini Inline';
+$lang['DISPLAY_INLINED'] = 'Display Images Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Alegeți dacă pentru a afișa imagini direct în post (da) sau pentru a afișa imaginile ca un link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximă A Imaginii Dimensiuni';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Aici puteți defini numărul maxim permis de Imagine Dimensiune să fie atașat (Lățime x Înălțime în pixeli).<br />If este setat la 0x0, această caracteristică este dezactivată. Cu unele Imagini această Caracteristică nu va funcționa din cauza limitărilor în PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Dacă Dimensiunea definită de o Imagine est
 $lang['ASSIGNED_GROUP'] = 'Grupul Atribuit';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Crea Miniaturi';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minim Miniatură Filesize';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Dacă o Imagine este mai mică decât această definit Dimensiunea, nu Miniatură vor fi create, pentru că e destul de mic.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Gestiona Interzis Extensii';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Interzis Extensia %s există deja'; // rep
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Extinderea %s este definit în voie Extensii, vă rugăm să ștergeți lor înainte de a adăuga aici.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extensia Grup Permisiuni -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aici vă sunt capabili de a restricționa selectate Extensia de Grup la Forumuri de alegerea ta (definite în Voie Forumuri Cutie). Implicit este de a permite Extensia Grupuri la toate Forumurile Utilizatorul este capabil de a Atașa Fișiere în (mod normal Atașamentul Mod făcut-o încă de la început). Trebuie doar să adăugați aceste Forumuri vrei Extinderea Grup (Extensii în cadrul acestui Grup) pentru a fi permisă, implicit TOATE FORUMURILE vor dispărea atunci când adăugați Forumuri pentru a Lista. Sunteți în măsură să re-adăuga TOATE FORUMURILE la un Moment dat. Dacă adăugați un Forum la Bord și Permisiunea este setat la TOATE FORUMURILE nimic nu se va schimba. Dar dacă s-au schimbat și au restricționat accesul la anumite Forumuri, trebuie să verificați din nou aici pentru a adăuga un nou create Forum. Este ușor să faci acest lucru în mod automat, dar acest lucru va forța să editați o grămadă de Fișiere, de aceea am ales așa cum este acum. Vă rugăm să păstrați în minte, că toate Forumurile vor fi listate aici.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'NOTĂ:<br />Within enumerate mai jos Forumuri Utilizatorii sunt în mod normal permite să atașați fișiere, dar din moment ce nici o Prelungire Grup este permis să fie atașat acolo, Utilizatorii sunt în imposibilitatea de a atașa nimic. Dacă vor încerca, vor primi Mesaje de Eroare. Poate doriți să setați Permisiunea de Post, Fișiere de ADMIN la aceste Forumuri.<br /><br />';
 $lang['ADD_FORUMS'] = 'Adaugă Forumuri';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Nu Atașamente întâlnit criteriilor dumneav
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Numărul de Atașamente';
-$lang['TOTAL_FILESIZE'] = 'Total Filesize';
+$lang['TOTAL_FILESIZE'] = 'Total File Size';
 $lang['NUMBER_POSTS_ATTACH'] = 'Numărul de Mesaje cu Atașamente';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Numărul de Subiecte cu Atasamente';
 $lang['NUMBER_USERS_ATTACH'] = 'Utilizatori Independenți Postat Atașamente';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'țineți apăsat <i>Ctrl</i> în timp ce selec
 $lang['REG_TORRENTS'] = 'Registrul de torrente';
 $lang['DISALLOWED'] = 'Interzise';
 $lang['ALLOW_REG_TRACKER'] = 'Permis forumuri pentru a se înregistra .torrente pe tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Permisiunea de a posta continut 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Show-butoane pentru schimbarea manuală a DL-starea';
 $lang['SELF_MODERATED'] = 'Utilizatorii pot <b>move</b> lor de subiecte pe un alt forum';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Cheia de acces';
 $lang['BT_ADD_AUTH_KEY'] = 'Permite adăugarea de acces la torrent-fișierele înainte de a descărca';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent browser (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accesibil doar pentru utilizatorii autentificați';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Permite boolean căutări full-text';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'utilizare *, +, -,.. în căutări';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diverse";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Arată statistici UL/DL utilizatori în partea de sus a paginii principale a forumului";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Rata de Refresh';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Cât de mult timp (secunde) pentru a rămâne inactiv înainte de a trece la următoarea prelucrare cycle<br />Usually nu trebuie să se schimbe acest lucru';
 
 $lang['TIME_LIMIT'] = 'Limita de timp';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Cât de mult timp (secunde) post-procesare poate dura înainte de a trece la următorul ciclu';
+$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) are un timeout configurat de %s secs, așa că rămâi sub această valoare</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your serverul are un timeout de %s secunde configurat, așa că stai jos acest value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Ai terminat cu succes de prelucrare la 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Reconstrui Căutare De Progres';
 
-$lang['PROCESSED_POST_IDS'] = 'Prelucrate posta id-urile : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Cronometrul a expirat la %s secunde. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Căutare eliminat mese. ';
 $lang['DELETED_POSTS'] = '%s post(s) au fost șterse de către utilizatori în timpul prelucrării. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Toate';
 
 $lang['TPL_EMPTY_FIELD'] = 'Trebuie să completați câmpul <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Trebuie să selectați <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Nu num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Trebuie să fie https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Trebuie să fie https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'pune în subiect';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'În căutarea pentru utilizatorii cu un 
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'În căutarea pentru utilizatorii cu un post conta între %d și %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'În căutarea pentru utilizatorii cu un post conta valoarea %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'În căutarea pentru utilizatorii cu un Twitter potrivire %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'În căutarea pentru utilizatorii cu site-Ul de potrivire %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'În căutarea pentru utilizatorii cu o Locație potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'În căutarea pentru utilizatorii cu Interesele lor domeniu de potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'În căutarea pentru utilizatorii cu Ocupația lor domeniu de potrivire %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Este egal cu';
 $lang['GREATER_THAN'] = 'Mai mult';
 $lang['LESS_THAN'] = 'Mai puțin decât';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Puteți căuta utilizatori pe baza valorii numărului de postări. Puteți căuta fie după o anumită valoare, mai mare sau mai mică decât o valoare, fie între două valori. Pentru a căuta în interval, selectați „Egal”, apoi puneți valorile de început și de sfârșit ale intervalului, separate printr-o liniuță (-), de exemplu 10-15';
-$lang['USERFIELD'] = 'Camp utilizator';
+$lang['USERFIELD'] = 'User field';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Căutare pentru utilizatori bazat pe diverse domenii de profil. Metacaracterele sunt acceptate folosind un asterix (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Puteți căuta pentru utilizatori pe baza lor ultima conectare zi, folosind această opțiune de căutare';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Aceasta va afișa utilizatorii care au selectat-o anumită limbă în Profilul lor';

@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Jūs negalite padaryti Anonimiškai grupės nary
 $lang['CONFIRM_UNSUB'] = 'Ar esate tikri, kad norite atsisakyti šios grupės?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Jūsų prenumeratą šios grupės dar nebuvo patvirtintas; ar esate tikri, kad norite atsisakyti?';
 
-$lang['UNSUB_SUCCESS'] = 'Jums buvo jt-pasirašytas iš šios grupės.';
+$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
 
 $lang['APPROVE_SELECTED'] = 'Patvirtinti Pasirinktą';
 $lang['DENY_SELECTED'] = 'Paneigti Atrinkti';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Tu nesi moderatorius šiame forume.';
-$lang['NOT_AUTHORISED'] = 'Neleidžiama';
+$lang['NOT_AUTHORISED'] = 'Not Authorized';
 
 $lang['YOU_BEEN_BANNED'] = 'Jūs esate uždrausta šiame forume. Norėdami gauti daugiau informacijos, susisiekite su valdybos administratoriumi.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Atsiprašome, bet jūs neturite leidimo perž
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Aprašymas'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Atsisiųsti'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'Failo dydis';
+$lang['FILESIZE'] = 'File size';
 $lang['VIEWED'] = 'Peržiūrėti';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Plečiamasis \'%s\' buvo išjungtas administratoriaus, todėl šis priedas nėra rodomas.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Areštas yra per didelis.<br />Could ne gauti
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Areštas yra per didelis.<br />Maximum Įkelti Dydis: %d MB.<br />Please dėmesį, kad šis Dydis yra apibrėžta php.ini, tai reiškia, kad ji nustato PHP ir Priedą, Mod negali nepaisyti šio vertę.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Pratęsimo %s neleidžiama'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Jums neleidžiama skelbti Failus su Plėtiniu %s šiame Forume'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Areštas yra per didelis.<br />Max Dydis: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Atsiprašome, tačiau maksimalus failo dydis už visus Priedus, yra pasiektas. Prašome kreiptis į forumo Administratorius, jei turite klausimų.';
+$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Areštas negali būti pridėta, nes max. skaičius %d Priedų, į šį postą buvo pasiektas'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Priedą/Nuotraukos turi būti mažesnis nei %d pikselių pločio ir %d pikselių aukščio';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Įkelti Klaida: nepavyko įkelti Priedą prie %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Jūs turite įvesti vertės "Pridėti fail
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nesugeba Atnaujinti Arešto, nepavyko rasti senų Priedą Įrašo';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Atsiprašome, tačiau maksimalus failo dydis už visus Priedus, jūsų privačią Žinutę Katalogą buvo pasiektas. Prašome ištrinti kai iš savo gautų/išsiųstų Priedus.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Atsiprašome, tačiau maksimalus failo dydis už visus Priedus asmeninį Pranešimą Aplanke "%s" buvo pasiektas. Prašome leiskite jam žinoti, ar laukti, kol jis/ji ištrinta kai kurie jo/jos Priedus.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jūs neturite pasirinktą priedą prie parsisiųsti arba peržiūrėti.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Tvirtinimo Funkcija yra išjungta.';
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Katalogas \'%s\' neegzistuoja arba negali būti nustatyta.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Prašome patikrinti, jei "%s" katalogą.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalogas "%s" nėra perrašomas. Jūs turite sukurti įkelti kelias ir chmod jį į 777 (arba pakeisti savininkas jums httpd-serverių savininkas) įkelti failus.<br />If jūs turite tik paprastą FTP prieigos pakeisti "Atributas" katalogas rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Įkelti Kvota';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Paieška Priedai';
 $lang['TEST_SETTINGS'] = 'Bandymo Parametrai';
 $lang['NOT_ASSIGNED'] = 'Nėra Priskirti';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'No File Comment galima';
-$lang['ATTACHBOX_LIMIT'] = 'Jūsų Attachbox is<br /><b>%d%%</b> visiškai';
+$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
 $lang['NO_QUOTA_LIMIT'] = 'Ne Kvotos.';
 $lang['UNLIMITED'] = 'Neribotas';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Kita torrent su pačiu info_hash jau <a href="
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1 tik torrentai šiuo metu yra išjungti administratoriaus, leidžiama: v2 ir hibridai';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2 tik torrentai šiuo metu yra išjungti administratoriaus, leidžiama: v1 ir hibridai';
 $lang['BT_FLIST'] = 'Failų sąrašas';
-$lang['BT_FLIST_LIMIT'] = 'Tracker nustatymai neleidžia apdoroti sąrašų, kuriuose yra daugiau nei %d failų. Dabartinis skaičius yra: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR hashas';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root yra failo, įterpto į torrentus su BitTorrent v2 palaikymu, hashas, kurį turi išgauti, apskaičiuoti, taip pat atsisiųsti deduplikuotus torrentus naudojant stalinius įrankius, tokius kaip <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Sukūrimo data';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Nuomonės';
 $lang['GOLD'] = 'Auksas';
 $lang['SILVER'] = 'Sidabrinė';
 $lang['SET_GOLD_TORRENT'] = 'Kad auksas';
-$lang['UNSET_GOLD_TORRENT'] = 'UnMake aukso';
+$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
 $lang['SET_SILVER_TORRENT'] = 'Padaryti sidabrinė';
-$lang['UNSET_SILVER_TORRENT'] = 'UnMake sidabrinė';
+$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
 $lang['GOLD_STATUS'] = 'AUKSO TORRENT! ATSISIŲSTI EISMO NEMANO!';
 $lang['SILVER_STATUS'] = 'SIDABRO TORRENT! ATSISIŲSTI SKRYDŽIŲ IŠ DALIES LAIKYTI!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent tipo pakeitimas į: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent tipo pakeitimas į: %s';
 $lang['TORRENT_STATUS'] = 'Paieška pagal išleidimo statusą';
 $lang['SEARCH_IN_FORUMS'] = 'Paieška forume';
 $lang['SELECT_CAT'] = 'Pasirinkite kategorija';
-$lang['GO_TO_SECTION'] = 'Goto skirsnis';
+$lang['GO_TO_SECTION'] = 'Go to section';
 $lang['TORRENTS_FROM'] = 'Pareigybės nuo';
 $lang['SHOW_ONLY'] = 'Rodyti tik';
 $lang['SHOW_COLUMN'] = 'Rodyti stulpelio';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Jei jūsų santykis nukrenta žemiau %s, jums b
 
 $lang['SEEDER_LAST_SEEN'] = 'Sėjamoji nemačiau: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'Jūs turite prisijungti pirmas';
+$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
 $lang['ONLY_FOR_MOD'] = 'Šis variantas yra tik moderatoriai';
 $lang['ONLY_FOR_ADMIN'] = 'Šis variantas yra tik administratoriai';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Šis variantas yra tik super administratoriams';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Vartotojas %s jau registruotas su jūsų IP adresu. J
 $lang['HIDDEN'] = 'Paslėptas';
 
 // from admin
-$lang['NOT_ADMIN'] = 'Nesate įgalioti administruoti ši diskusijų lenta';
+$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
 
 $lang['COOKIES_REQUIRED'] = 'Sausainėliai (Cookies) turi būti įjungta!';
 $lang['SESSION_EXPIRED'] = 'Sesija baigėsi';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Atsiprašome, registracija išjungta šiuo met
 $lang['ONLY_NEW_POSTS'] = 'tik naujų pranešimų';
 $lang['ONLY_NEW_TOPICS'] = 'tik naujos temos';
 
-$lang['TORHELP_TITLE'] = 'Prašome padėti sėja šių torrentai!';
+$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
 $lang['STATISTICS'] = 'Statistika';
 $lang['STATISTIC'] = 'Statistika';
 $lang['VALUE'] = 'Vertė';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Aš nesutinkate su šiomis sąlygomis';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Norėdami užsiregistruoti, turite įjungti JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Registracija šiuo metu uždaryta<br /><br />Registracija yra prieinama per: %s<br />Dabartinė serverio laikas: %s<br /><br />Atsiprašome už nepatogumus";
 $lang['AUTOCOMPLETE'] = 'Sugeneruoti slaptažodį';
-$lang['YOUR_NEW_PASSWORD'] = 'Jūsų naujas slaptažodis:';
+$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
 $lang['REGENERATE'] = 'Atgaivinti';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Vykdymo laikas:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'apie';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Mem: ';
+$lang['MEMORY'] = 'Memory: ';
 $lang['QUERIES'] = 'užklausų';
 $lang['LIMIT'] = 'Ribos:';
 $lang['SHOW_LOG'] = 'Rodyti žurnalą';
@@ -1572,7 +1572,7 @@ $lang['SUPERSCRIPT'] = 'Superiškiki tekstas: [sup]tekstą[/sup]';
 $lang['SUBSCRIPT'] = 'Suberiškiki tekstas: [sub]tekstą[/sub]';
 $lang['QUOTE_TITLE'] = 'Citata tekstas: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Įterpti vaizdą: [img]https://image_url[/img] (Ctrl+R)';
-$lang['URL'] = 'Url';
+$lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Įterpti URL: [url]https://url[/url] arba [url=https://url]URL tekstas[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'Kodas: ekranas: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Sąrašas';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrent klientas';
 $lang['DL_FORMULA'] = 'Formulė: Upload/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'sustojo';
-$lang['DL_UPD'] = 'upd: ';
+$lang['DL_UPD'] = 'update time: ';
 $lang['DL_INFO'] = 'rodo duomenų <i><b>only einamųjų session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Paslėpti mano BitTorrent kliento pavadinimą bendraujant sąraše';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Paslėpti mano šalies pavadinimą bendraujant sąraše';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Vartotojai per dieną';
 $lang['BOARD_STARTED'] = 'Valdyba pradėjo';
 $lang['AVATAR_DIR_SIZE'] = 'Avataras katalogas dydis';
 $lang['DATABASE_SIZE'] = 'Duomenų bazės dydis';
-$lang['GZIP_COMPRESSION'] = 'Gzip suspaudimo';
+$lang['GZIP_COMPRESSION'] = 'GZIP compression';
 $lang['NOT_AVAILABLE'] = 'Nėra';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Ieškoti Forume';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Čia jūs galite pakeisti teises ir moderatorius statusas priskiriamas kiekvienai vartotojų grupei. Nepamirškite, kai keičiasi grupės teisės, kad individualaus vartotojo teises vis dar gali leisti naudotojui atvykti į forumus, ir pan. Jums bus įspėtas, jei tai yra atvejis.';
 $lang['USER_AUTH_EXPLAIN'] = 'Čia jūs galite pakeisti teises ir moderatorius statusas suteiktas kiekvienam atskiram vartotojui. Nepamirškite, kai keičiasi vartotojo teises, kad grupės teisės vis dar gali leisti naudotojui atvykti į forumus, ir pan. Jums bus įspėtas, jei tai yra atvejis.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Čia galite keisti leidimo lygius kiekviename forume. Jūs turėsite tiek paprasta ir išplėstinė būdas tai padaryti, kur patyrę siūlo labiau kontroliuoti kiekvieno forumo operacija. Nepamirškite, kad keičiant leidimą lygio forumuose turės įtakos, kurią vartotojai gali atlikti įvairias operacijas per juos.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
 
 $lang['SIMPLE_MODE'] = 'Paprastas Režimas';
 $lang['ADVANCED_MODE'] = 'Išplėstinis Režimas';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Leidžiama Susipažinti';
 $lang['DISALLOWED_ACCESS'] = 'Nemokama Prieiga';
 $lang['IS_MODERATOR'] = 'Yra Moderatorius';
 
-$lang['CONFLICT_WARNING'] = 'Leidimo Konflikto Įspėjimas';
+$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Šis vartotojas dar yra prieigos teisės į šį forumą per narystę grupėje. Jei norite, galite pakeisti grupės teisės ir pašalinti šią vartotojų grupę, visiškai išvengti jų prieigos teises. Grupių teisių suteikimo (ir forumuose dalyvauja), yra nurodyti žemiau.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Šis vartotojas dar turi moderatoriaus teises į šį forumą per narystę grupėje. Jei norite, galite pakeisti grupės teisės ir pašalinti šią vartotojų grupę, visiškai jų išvengti, turintys moderatoriaus teisių. Grupių teisių suteikimo (ir forumuose dalyvauja), yra nurodyti žemiau.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Spustelėkite %sHere%s grįžti į Draudimo Ko
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Bendra Konfigūracija';
-$lang['CONFIG_EXPLAIN'] = 'Žemiau pateikta forma leis jums pritaikyti visus generalinės valdybos funkcijos. Vartotojo ir Forumas sudėčių naudoti susijusios nuorodos kairėje pusėje.';
+$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
 
 $lang['CONFIG_MODS'] = 'Konfigūracijos pakeitimai';
 $lang['MODS_EXPLAIN'] = 'Šią formą galima koreguoti pakeitimus';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Leidžia Forume Genėjimas';
 $lang['ALLOW_BBCODE'] = 'Leisti Bbkodas';
 $lang['ALLOW_SMILIES'] = 'Leisti Šypsenėles';
 $lang['SMILIES_PATH'] = 'Šypsenėlės Saugojimo Kelias';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Kelias pagal jūsų TorrentPier root dir, pvz., stiliai/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Leisti Parašus';
 $lang['MAX_SIG_LENGTH'] = 'Maksimalus parašo ilgis';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalus simbolių skaičius naudotojo parašų';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Kaip ilgai autologin klavišą, galioja, dien
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forumo Administracija';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Nuo šio skydo, galite įtraukti, ištrinti, redaguoti, iš naujo, kad ir pakartotinai sinchronizuoti kategorijas ir forumus';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
 $lang['EDIT_FORUM'] = 'Redaguoti forume';
 $lang['CREATE_FORUM'] = 'Kurti naują forume';
 $lang['CREATE_SUB_FORUM'] = 'Sukurti subforumą';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Atnaujinimo Tvarka';
 $lang['CONFIG_UPDATED'] = 'Forumas Konfigūracija Buvo Atnaujinta Sėkmingai';
 $lang['MOVE_UP'] = 'Aukštyn';
 $lang['MOVE_DOWN'] = 'Žemyn';
-$lang['RESYNC'] = 'Naujo sinchronizuoti';
+$lang['RESYNC'] = 'Re-sync';
 $lang['NO_MODE'] = 'No režimas buvo nustatytas';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Žemiau pateikta forma leis jums pritaikyti visus generalinės valdybos funkcijos. Vartotojo ir Forumas sudėčių naudoti susijusios nuorodos kairėje pusėje';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
 
 $lang['MOVE_CONTENTS'] = 'Perkelti visas turinys';
 $lang['FORUM_DELETE'] = 'Ištrinti Forumas';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Maks. ilgis naujienos';
-$lang['NEWS_COUNT'] = 'Kiek naujienų šou';
+$lang['NEWS_COUNT'] = 'How many news items to show';
 $lang['NEWS_FORUM_ID'] = 'Iš kurių forumų rodyti<br /> <h6>Keliais forumuose nurodykite ID, atskirtus kableliais. Pavyzdys: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'No avatar';
 $lang['TRACKER_STATS'] = 'Statistika tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Kvotos Ribų';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Priedų Parametrai';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Čia galite konfigūruoti Pagrindiniai Parametrai Arešto Mod. Jei paspausite Bandymo Parametrų Mygtuką, Areštas Mod ar kelis Sistemos Bandymai turi būti tikri, kad Mod veiks tinkamai. Jei turite problemų su įkeliant Failus, prašome paleisti šį Testą, gauti išsamią klaidos pranešimą.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Tvirtinimo Failo Dydis Parametrai';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Tvirtinimo Numeris Parametrai';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Tvirtinimo Funkcijos';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Čia galite pasirinkti, ar rodyti Pried
 $lang['SHOW_APCP'] = 'Naudoti naujas valdymo skydelis programos';
 $lang['SHOW_APCP_EXPLAIN'] = 'Pasirinkite, ar norite naudoti atskirą valdymo skydelį programas (taip), ar senas metodas su dviem dėžės programas ir redagavimo programos (nėra) į pranešimo lauką. Sunku paaiškinti, kaip ji atrodo, todėl pabandykite patys.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'Failo dydis';
+$lang['MAX_FILESIZE_ATTACH'] = 'File size';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimalus failo dydis Priedų. Reikšmė 0 reiškia "unlimited\'. Šis Nustatymas riboja savo Serverio Konfigūraciją. Pavyzdžiui, jei savo php Konfigūracijoje tik leidžia ne daugiau kaip 2 MB įkelti, tai negali būti pakeistas Mod.';
 $lang['ATTACH_QUOTA'] = 'Tvirtinimo Kvota';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimalus Disko Vietos, VISI Priedai gali turėti savo Serverį. Reikšmė 0 reiškia "unlimited\'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Ištrinti visas komandiravimo arešto
 $lang['EMPTY_FILE_ENTRY'] = 'Tuščias Įrašo';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Vaizdelis resetted Arešto: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Priedo sinchronizavimas baigtas.';
 $lang['SYNC_TOPICS'] = 'Sync Temos';
 $lang['SYNC_POSTS'] = 'Sync Pranešimų';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Tvarkyti Ypatingų Kategorijų';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Čia galite konfigūruoti Specialias Kategorijas. Galite nustatyti Specialius Parametrus ir Sąlygas Specialioms Kategorijoms, priskirtoms Pratęsimo Grupių.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Parametrai Specialios Kategorijos: Nuotraukos';
 $lang['SETTINGS_CAT_FLASH'] = 'Parametrai Specialios Kategorijos: Flash Failų';
-$lang['DISPLAY_INLINED'] = 'Vaizdų Inlined';
+$lang['DISPLAY_INLINED'] = 'Display Images Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Pasirinkti, ar rodyti nuotraukas tiesiai per šias pareigas (taip) arba rodyti vaizdai, kaip nuoroda ?';
 $lang['MAX_IMAGE_SIZE'] = 'Didžiausias Vaizdo Matmenys';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Čia galite nustatyti didžiausią leistiną Vaizdo Aspektą, turi būti pridedamas (Plotis x Aukštis pikseliais).<br />If ji yra nustatyta, kad 0x0, ši funkcija yra išjungta. Kai kurių Vaizdų ši Funkcija neveiks dėl apribojimų PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Jei tai apibrėžta Aspektas Vaizdas yra pas
 $lang['ASSIGNED_GROUP'] = 'Asignuotosios Grupė';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Sukurti Miniatiūrą';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Mažiausią Miniatiūrą Failo Dydis';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jei Vaizdas yra mažesnis kaip tai apibrėžta failo dydis, ne Vaizdelis bus sukurta, nes jis pakankamai mažas.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Tvarkyti Draudžiama Plėtiniai';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Draudžiama Pratęsimo %s jau egzistuoja';
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Pratęsimo %s yra apibrėžta jūsų leista Plėtinius, prašome jį ištrinti savo prieš įtraukdami jį čia.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Pratęsimo Grupės Teisės -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Čia jūs galėsite apriboti pasirinktą Pratęsimo Grupės, Forumai savo pasirinkimą (apibrėžta Leidžiama Forumuose Box). Pagal Nutylėjimą yra leisti Pratęsti Grupes, visų Forumų, Vartotojas gali Pridėti Failus į (įprastai Priedą Mod tai padarė, nes pradžioje). Tiesiog pridėkite šiuos Forumus norite Pratęsti Grupės (Plėtinių šioje Grupėje) bus leidžiama ten, numatytasis VISUS FORUMUS išnyks, jei norite pridėti Forumų Sąrašas. Jūs galėsite iš naujo įtraukti VISUS FORUMUS bet kuriuo Metu. Jei jums pridėti Forumą į savo laivą ir Leidimą, nustatyta, kad VISUOSE FORUMUOSE niekas nepasikeis. Bet jei jūs pakeitėte ir apribojo prieigą prie tam tikrų Forumų, jūs turite patikrinti atgal čia pridėti savo naujai sukurtas Forumas. Tai lengva padaryti automatiškai, bet tai privers jus redaguoti Failų krūva, todėl aš pasirinkau taip, kaip yra dabar. Atminkite, kad visi jūsų Forumai bus rodomas čia.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'PASTABA:<br />Within žemiau išvardytų Forumuose savo Vartotojams paprastai leidžiama prisegti failus, bet kadangi ne Pratęsimo Grupės leidžiama būti pritvirtinta ten, jūsų Vartotojai negali pridėti nieko. Jei jie bandys, jie gaus Klaidų Pranešimus. O gal norite nustatyti Leidimo "Pašto Failus į" ADMIN į šiuos Forumus.<br /><br />';
 $lang['ADD_FORUMS'] = 'Pridėti Forumuose';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ne Priedai atitinka jūsų paieškos kriterij
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Priedų skaičius';
-$lang['TOTAL_FILESIZE'] = 'Iš Viso Failo Dydis';
+$lang['TOTAL_FILESIZE'] = 'Total File Size';
 $lang['NUMBER_POSTS_ATTACH'] = 'Etatų skaičius su Priedais';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Temų skaičius su Priedais';
 $lang['NUMBER_USERS_ATTACH'] = 'Nepriklausomų Vartotojų Posted Priedai';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'laikykite nuspaudę <i>Ctrl</i> renkantis keli
 $lang['REG_TORRENTS'] = 'Užsiregistruoti torrent';
 $lang['DISALLOWED'] = 'Draudžiama';
 $lang['ALLOW_REG_TRACKER'] = 'Leidžiama forumuose registruotis .torrent dėl tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Leidžiama skelbti turinį 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Rodyti mygtukus, skirtus rankiniu būdu keičiant DL-būklė';
 $lang['SELF_MODERATED'] = 'Vartotojai gali <b>move</b> savo temos į kitą forumą';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Prieigos raktas';
 $lang['BT_ADD_AUTH_KEY'] = 'Leidžia pridėti prieigos raktas į torrent-failų prieš atsisiųsdami';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = '"Torrent" failų naršyklė (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = '"Torrent" failų naršyklė (tracker.php) prieinami tik prisijungę vartotojai';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Leisti boolean pilno teksto paiešką';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'naudojimas*, +, -,.., paiešką';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Įvairūs";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Rodyti vartotojų UL/DL statistiką forumo pagrindiniame puslapyje";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Atnaujinimo dažnis';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Kiek laiko (sek) likti neveiklus prieš pereinant į kitą apdirbimo cycle<br />Usually jūs neturite pakeisti tai';
 
 $lang['TIME_LIMIT'] = 'Terminas';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Kiek laiko (sek.) po apdorojimo galite paskutiniais prieš pereinant prie kito ciklo';
+$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Jūsų PHP (saugus režimas) turi laiką %s sek. sukonfigūruota, todėl likite žemiau šios vertės</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your serveryje yra pauzės iš %s sek sukonfigūruotas, todėl, kad toliau likti šiame value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Jūs sėkmingai baigė tvarkyti post_id
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Atkurti Paieškos Pažangos';
 
-$lang['PROCESSED_POST_IDS'] = 'Apdoroti post id : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Laikmatis pasibaigęs ne %s sek. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Išvalytas paieškos lenteles. ';
 $lang['DELETED_POSTS'] = '%s post (- ai) buvo ištrintas savo vartotojams apdorojimo metu. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Visi';
 
 $lang['TPL_EMPTY_FIELD'] = 'Jūs turite užpildyti lauką <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Turite pasirinkti <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Ne num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
 $lang['TPL_NOT_URL'] = '<b>%s</b> – turi būti https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> – Turi būti https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'įdėti į temą';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Ieško vartotojai post count mažiau nei
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Ieško vartotojai post count tarp %d ir %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Ieško vartotojai post count vertė %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Ieško vartotojai su "Twitter" atitikimo %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Ieškote paslaugų gavėjams Svetainėje atitikimo %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Ieško vartotojai Vietą atitikimo %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Ieško vartotojus su jų Interesų laukas atitikimo %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Ieškoti naudotojai savo Profesinėje srityje atitikimo %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Lygus';
 $lang['GREATER_THAN'] = 'Didesnis nei';
 $lang['LESS_THAN'] = 'Mažiau nei';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Galite ieškoti vartotojų pagal įrašų skaičių. Galite ieškoti pagal konkrečią reikšmę, didesnę ar mažesnę už reikšmę arba tarp dviejų reikšmių. Norėdami atlikti diapazono paiešką, pasirinkite „Equals“, tada įveskite diapazono pradžios ir pabaigos reikšmes, atskirtas brūkšneliu (-), pvz., 10–15';
-$lang['USERFIELD'] = 'Userfield';
+$lang['USERFIELD'] = 'User field';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Ieškoti vartotojų, remiantis įvairių profilio srityse. Wildcards palaikomi naudojant asteriksas (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Jūs galite ieškoti vartotojams, remiantis jų paskutinio prisijungimo data naudojantis šia paieška parinktis';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Rodys vartotojams, kuriems pasirinkote konkrečią kalbą savo Profilio';

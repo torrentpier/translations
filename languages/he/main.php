@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'אתה לא יכול להפוך את אנוני�
 $lang['CONFIRM_UNSUB'] = 'אתה בטוח שאתה רוצה לבטל את המנוי לקבוצה הזו?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'המינוי שלך לקבוצה זו טרם אושרה; האם אתה בטוח שאתה רוצה לבטל את המנוי?';
 
-$lang['UNSUB_SUCCESS'] = 'היית האו " ם-מנוי מקבוצה זו.';
+$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
 
 $lang['APPROVE_SELECTED'] = 'לאשר נבחרים';
 $lang['DENY_SELECTED'] = 'להכחיש נבחרים';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'אתה לא המנהל של הפורום הזה.';
-$lang['NOT_AUTHORISED'] = 'לא אושרה.';
+$lang['NOT_AUTHORISED'] = 'Not Authorized';
 
 $lang['YOU_BEEN_BANNED'] = 'נאסר עליך בפורום זה. פנה למנהל המערכת לקבלת מידע נוסף.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'מצטער אבל אתה לא רשאי להצ
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'תיאור'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'הורד'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'גודל קובץ';
+$lang['FILESIZE'] = 'File size';
 $lang['VIEWED'] = 'צפו';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'ההרחבה \'%s\' בוטלה על ידי מנהל הפורום, לכן ההגשה הזאת לא מוצגת.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'הקובץ המצורף הוא גדול מד�
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'הקובץ המצורף הוא גדול מדי.<br />Maximum טען גודל: %d MB.<br />Please שימו לב כי גודל זה מוגדר ב-php.ini, זה אומר זה נקבע על ידי PHP ו את הקובץ Mod לא יכול לעקוף ערך זה.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'הסיומת %s אסור'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'אתה לא רשאי לפרסם קבצים עם סיומת %s בתוך הפורום הזה'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'הקובץ המצורף הוא גדול מדי.<br />Max גודל: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'מצטער, אבל את גודל קובץ מקסימלי עבור כל הקבצים המצורפים, היא הגיעה. אנא צור קשר עם המנהל הראשי של המערכת אם יש לך שאלות.';
+$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'קובץ מצורף יכול להיות הוסיף, מאז מקס. מספר %d מצורפים בפוסט הזה הושג'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'את הקובץ/תמונה חייב להיות פחות מ %d פיקסלים רוחב ו %d פיקסלים גבוהה';
 $lang['GENERAL_UPLOAD_ERROR'] = 'טען שגיאה: לא יכול להעלות קובץ מצורף %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'יש להזין ערכים בשדה "הו�
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'לא ניתן לעדכן את הקובץ המצורף, לא יכול למצוא בן מצורף כניסה';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'מצטער, אבל את גודל קובץ מקסימלי עבור כל הקבצים המצורפים שלך הודעה פרטית תיקייה הושגה. בבקשה למחוק חלק שהתקבלו/נשלחו קבצים מצורפים.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'מצטער, אבל את גודל קובץ מקסימלי עבור כל קבצים מצורפים פרטי ההודעה בתיקיה \'%s" כבר הגיע. בבקשה ליידע אותו, או לחכות עד שהוא/היא יש למחוק חלק שלו/שלה מצורפים.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'אתה לא שנבחרו לקובץ המצורף כדי להוריד או להציג.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'את הקובץ המצורף מושבת�
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'הספריה \'%s\' לא קיים או לא נמצא.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'אנא בדוק אם "%s\' הוא מדריך.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'ספריית \'%s\' אינו ניתן לכתיבה. יש ליצור להעלות את הנתיב ואת chmod זה 777 (או לשנות את הבעלים לך httpd-שרתים הבעלים) כדי להעלות קבצים.<br />If יש לך רק במישור ה-FTP, גישה לשנות את \'תכונה\' של הספריה כדי rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'להעלות את מכסת';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'חיפוש קבצים מצורפים';
 $lang['TEST_SETTINGS'] = 'בדיקת הגדרות';
 $lang['NOT_ASSIGNED'] = 'לא מוקצה';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'אין קובץ אחד זמין';
-$lang['ATTACHBOX_LIMIT'] = 'את Attachbox is<br /><b>%d%%</b> מלא';
+$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
 $lang['NO_QUOTA_LIMIT'] = 'לא למכסה המותרת';
 $lang['UNLIMITED'] = 'ללא הגבלה';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'עוד סיקור עם אותו info_hash כב
 $lang['BT_V1_ONLY_DISALLOWED'] = 'טורנטים רק עבור v1 הושבתו על ידי המנהל במדויק, המותר: v2 והיברידים';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'טורנטים רק עבור v2 הושבתו על ידי המנהל במדויק, המותר: v1 והיברידים';
 $lang['BT_FLIST'] = 'רשימת קבצים';
-$lang['BT_FLIST_LIMIT'] = 'הגדרות הטרקר לא מאפשרות לעבד רשימות עם יותר מ-%d קבצים. מספר הנוכחי הוא: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'שורש מרקל של BitTorrent הוא hash של קובץ המוטמע בטורנטים עם תמיכה ב-BitTorrent v2, משתמשי הטרקר יכולים לחלץ, לחשב את זה, וגם להוריד טורנטים דדופליקטיביים באמצעות כלים שולחניים כמו <a href="%s" target="_blank" referrerpolicy="origin">קורא שורש מרקל של טורנט</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'תאריך יצירה';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'צפיות';
 $lang['GOLD'] = 'זהב';
 $lang['SILVER'] = 'כסף';
 $lang['SET_GOLD_TORRENT'] = 'עושים זהב';
-$lang['UNSET_GOLD_TORRENT'] = 'לשלול זהב';
+$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
 $lang['SET_SILVER_TORRENT'] = 'לעשות כסף';
-$lang['UNSET_SILVER_TORRENT'] = 'לשלול כסף';
+$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
 $lang['GOLD_STATUS'] = 'זהב סיקור! הורד התנועה אינו רואה!';
 $lang['SILVER_STATUS'] = 'כסף סיקור! הורד התנועה חלקית נחשב!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'סוג הטורנט שונה ל: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'סוג הטורנט שונה ל: %s';
 $lang['TORRENT_STATUS'] = 'חפש לפי סטטוס השחרור';
 $lang['SEARCH_IN_FORUMS'] = 'חיפוש בפורומים';
 $lang['SELECT_CAT'] = 'בחר קטגוריה';
-$lang['GO_TO_SECTION'] = 'Goto סעיף';
+$lang['GO_TO_SECTION'] = 'Go to section';
 $lang['TORRENTS_FROM'] = 'הודעות מ';
 $lang['SHOW_ONLY'] = 'הצג רק';
 $lang['SHOW_COLUMN'] = 'הצג עמודה';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'אם את יחס יורד מתחת %s, אתה �
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder לא ראיתי: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'אתה צריך להתחבר קודם';
+$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
 $lang['ONLY_FOR_MOD'] = 'באפשרות זו רק עבור מנהלים';
 $lang['ONLY_FOR_ADMIN'] = 'באפשרות זו רק עבור מנהלים';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'באפשרות זו רק עבור סופר מנהלים';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'משתמש %s כבר נרשם עם ה-IP שלך. אם
 $lang['HIDDEN'] = 'מוסתר';
 
 // from admin
-$lang['NOT_ADMIN'] = 'אתה לא מוסמך לנהל את הלוח הזה.';
+$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
 
 $lang['COOKIES_REQUIRED'] = 'עוגיות חייב להיות מופעל!';
 $lang['SESSION_EXPIRED'] = 'הפעלה שפג תוקפם';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'מצטער, הרישום אינו זמין ב�
 $lang['ONLY_NEW_POSTS'] = 'רק פוסטים חדשים';
 $lang['ONLY_NEW_TOPICS'] = 'רק נושאים חדשים';
 
-$lang['TORHELP_TITLE'] = 'בבקשה לעזור זריעה אלה טורנטים!';
+$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
 $lang['STATISTICS'] = 'סטטיסטיקה';
 $lang['STATISTIC'] = 'סטטיסטיקה';
 $lang['VALUE'] = 'ערך';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'אני לא מסכים לתנאים אלה';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'כדי להרשם, חובה לאפשר JavaScript';
 $lang['REGISTERED_IN_TIME'] = "הרישום סגור כעת<br /><br />הרישום זמין במהלך: %s<br />שעת השרת הנוכחית: %s<br /><br />אנו מתנצלים על אי הנוחות";
 $lang['AUTOCOMPLETE'] = 'צור סיסמא';
-$lang['YOUR_NEW_PASSWORD'] = 'את הסיסמה החדשה:';
+$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
 $lang['REGENERATE'] = 'להתחדש';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'זמן ביצוע:';
 $lang['SEC'] = 'שניה';
 $lang['ON'] = 'על';
 $lang['OFF'] = 'חופש';
-$lang['MEMORY'] = 'זיכרון: ';
+$lang['MEMORY'] = 'Memory: ';
 $lang['QUERIES'] = 'שאילתות';
 $lang['LIMIT'] = 'גבול:';
 $lang['SHOW_LOG'] = 'הצג לוג';
@@ -1572,7 +1572,7 @@ $lang['SUPERSCRIPT'] = 'טקסט עליון: [sup]טקסט[/sup]';
 $lang['SUBSCRIPT'] = 'טקסט תת-עליון: [sub]טקסט[/sub]';
 $lang['QUOTE_TITLE'] = 'ציטוט טקסט: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'הוסף תמונה: [img]https://image_url[/img] (Ctrl+R)';
-$lang['URL'] = 'כתובת';
+$lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'הוסף כתובת אתר: [url]https://url[/url] או [url=https://url]כתובת URL[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'קוד תצוגה: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'רשימת';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'לקוח BitTorrent';
 $lang['DL_FORMULA'] = 'הנוסחה: Uploaded/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'הפסיקה';
-$lang['DL_UPD'] = 'upd: ';
+$lang['DL_UPD'] = 'update time: ';
 $lang['DL_INFO'] = 'מראה נתונים <i><b>only הנוכחי session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'הסתר את שם לקוח BitTorrent שלי ברשימת עמיתים';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'הסתר את שם המדינה שלי ברשימת עמיתים';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'משתמשים ביום';
 $lang['BOARD_STARTED'] = 'לוח התחיל';
 $lang['AVATAR_DIR_SIZE'] = 'אווטאר ספריית גודל';
 $lang['DATABASE_SIZE'] = 'גודל מסד הנתונים';
-$lang['GZIP_COMPRESSION'] = 'דחיסת Gzip';
+$lang['GZIP_COMPRESSION'] = 'GZIP compression';
 $lang['NOT_AVAILABLE'] = 'לא זמין';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'לחפש פורום';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'כאן אתה יכול לשנות את ההרשאות ואת המנחה סטטוס המוקצה לכל קבוצת משתמשים. לא לשכוח בעת שינוי הרשאות הקבוצה בודדים הרשאות המשתמש יכול עדיין לאפשר למשתמש כניסה פורומים, וכו\'. אתה תהיה הזהיר אם זה המקרה.';
 $lang['USER_AUTH_EXPLAIN'] = 'כאן אתה יכול לשנות את ההרשאות ואת המנחה סטטוס המוקצה לכל משתמש ומשתמש. לא לשכוח בעת שינוי הרשאות משתמש את הרשאות הקבוצה עדיין עשויים לאפשר למשתמש כניסה פורומים, וכו\'. אתה תהיה הזהיר אם זה המקרה.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'כאן אתה יכול לשנות את רמות הרשאה של כל הפורום. יהיה לך גם פשוט ומתקדם שיטה לעשות את זה, איפה מתקדם מציע שליטה גדולה יותר של כל פורום המבצע. זוכר את זה משנה את רמת הרשאה של פורומים ישפיעו על אילו משתמשים יכולים לבצע פעולות שונות בתוך אותן.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
 
 $lang['SIMPLE_MODE'] = 'מצב פשוט';
 $lang['ADVANCED_MODE'] = 'מצב מתקדם';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'גישה';
 $lang['DISALLOWED_ACCESS'] = 'מאפשר גישה';
 $lang['IS_MODERATOR'] = 'הוא מנחה';
 
-$lang['CONFLICT_WARNING'] = 'אישור סכסוך אזהרה';
+$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'המשתמש הזה עדיין יש זכויות גישה הפורום הזה באמצעות חברות בקבוצה. ייתכן שתרצה לשנות את הרשאות הקבוצה או להסיר את המשתמש מהקבוצה כדי למנוע לחלוטין שיש להם זכויות גישה. הקבוצות הענקת זכויות (וגם בפורומים מעורב) ציין להלן.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'המשתמש הזה עדיין יש מנחה זכויות הפורום הזה באמצעות חברות בקבוצה. ייתכן שתרצה לשנות את הרשאות הקבוצה או להסיר את המשתמש מהקבוצה כדי למנוע לחלוטין אותם לאחר מנחה זכויות. הקבוצות הענקת זכויות (וגם בפורומים מעורב) ציין להלן.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'לחץ על %sHere%s לחזור איסור ש�
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'כללי תצורה';
-$lang['CONFIG_EXPLAIN'] = 'את הטופס הבא תאפשר לך להתאים אישית כל כללי הלוח אפשרויות. עבור משתמש בפורום תצורות להשתמש קישורים בצד שמאל.';
+$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
 
 $lang['CONFIG_MODS'] = 'תצורה שינויים';
 $lang['MODS_EXPLAIN'] = 'טופס זה מאפשר לך להתאים את השינויים';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'לאפשר פורום גיזום';
 $lang['ALLOW_BBCODE'] = 'לאפשר BBCode';
 $lang['ALLOW_SMILIES'] = 'לאפשר סמיילים';
 $lang['SMILIES_PATH'] = 'סמיילים אחסון נתיב';
-$lang['SMILIES_PATH_EXPLAIN'] = 'נתיב מתחת TorrentPier שורש dir, למשל, סגנונות/תמונות/חיוכים';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'לאפשר חתימות';
 $lang['MAX_SIG_LENGTH'] = 'מקסימום אורך חתימה';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'המספר המרבי של תווים המשתמש חתימות';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'כמה זמן של כניסה אוטומטי�
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'פורום ניהול';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'מן הלוח הזה אתה יכול להוסיף, למחוק, לערוך מחדש ההוראה מחדש סינכרון קטגוריות ופורומים';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
 $lang['EDIT_FORUM'] = 'עריכה פורום';
 $lang['CREATE_FORUM'] = 'ליצור פורום חדשות';
 $lang['CREATE_SUB_FORUM'] = 'צור תת פורום';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'עדכון פקודה';
 $lang['CONFIG_UPDATED'] = 'פורום תצורה עודכן בהצלחה';
 $lang['MOVE_UP'] = 'להתקדם';
 $lang['MOVE_DOWN'] = 'הזז למטה';
-$lang['RESYNC'] = '- ';
+$lang['RESYNC'] = 'Re-sync';
 $lang['NO_MODE'] = 'אין מצב נקבע';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'את הטופס הבא תאפשר לך להתאים אישית כל כללי הלוח אפשרויות. עבור משתמש בפורום תצורות להשתמש קישורים בצד שמאל';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
 
 $lang['MOVE_CONTENTS'] = 'להעביר את כל התוכן';
 $lang['FORUM_DELETE'] = 'למחוק את הפורום';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'תרגום';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'מקס. אורכו של חדשות';
-$lang['NEWS_COUNT'] = 'כמה חדשות הצג';
+$lang['NEWS_COUNT'] = 'How many news items to show';
 $lang['NEWS_FORUM_ID'] = 'מאילו פורומים להציג <br /> <h6>עבור כמה פורומים, ציין מזהים מופרדים בפסיקים. דוגמה: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'אין דמות';
 $lang['TRACKER_STATS'] = 'נתונים סטטיסטיים על הגשש';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'מכסת גבולות';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'מצורף הגדרות';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'כאן אתה יכול להגדיר את ההגדרות הראשי על קובץ מצורף Mod. אם אתה לחץ על בדיקת הגדרות לחצן, הקובץ Mod עושה כמה בדיקות מערכת, כדי להיות בטוח כי Mod יעבוד כמו שצריך. אם יש לך בעיות עם העלאת קבצים, בבקשה להפעיל את המבחן הזה, כדי לקבל שגיאה מפורט. הודעה.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'מצורף גודל קובץ הגדרות';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'מצורף מספר הגדרות';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'מצורף אפשרויות';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'כאן אתה יכול לבחור אם 
 $lang['SHOW_APCP'] = 'משתמש חדש הבקרה יישומים';
 $lang['SHOW_APCP_EXPLAIN'] = 'בחר אם אתה רוצה להשתמש נפרד הבקרה יישומים (כן), או בשיטה הישנה עם שתי תיבות עבור יישומים ועריכה יישומי (ללא) בתיבת ההודעה. קשה להסביר איך זה נראה, אז נסה בעצמך.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'גודל קובץ';
+$lang['MAX_FILESIZE_ATTACH'] = 'File size';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'מקסימום גודל קובץ עבור קבצים מצורפים. ערך של 0 פירושו \'ללא הגבלה\'. הגדרה זו מוגבלת על-ידי קביעת התצורה של השרת. לדוגמה, אם php תצורה מאפשר רק מקסימום של 2 MB העלאות, זה לא יכול להיות מוחלפים על ידי Mod.';
 $lang['ATTACH_QUOTA'] = 'קובץ מצורף מכסה';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'מרבית שטח דיסק כל קבצים מצורפים יכול להחזיק מעמד Webspace שלך. ערך של 0 פירושו \'ללא הגבלה\'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'למחוק כל פרסום מצורף
 $lang['EMPTY_FILE_ENTRY'] = 'רשומת קובץ ריק';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'ממוזערת resetted עבור קובץ מצורף: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'סנכרון קבצים מצורפים הסתיים.';
 $lang['SYNC_TOPICS'] = 'סנכרון נושאים';
 $lang['SYNC_POSTS'] = 'סנכרון הודעות';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'ניהול קטגוריות מיוחדות';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'כאן אתה יכול להגדיר את הקטגוריות המיוחדות. אתה יכול לקבוע פרמטרים מיוחדים ותנאים עבור הקטגוריות המיוחדות המוקצות לקבוצת הרחבה.';
 $lang['SETTINGS_CAT_IMAGES'] = 'הגדרות מיוחדות קטגוריה: תמונות';
 $lang['SETTINGS_CAT_FLASH'] = 'הגדרות עבור קטגוריה מיוחדת: קבצי פלאש';
-$lang['DISPLAY_INLINED'] = 'תצוגת תמונות Inlined';
+$lang['DISPLAY_INLINED'] = 'Display Images Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'בחר האם להציג את התמונות ישירות בתוך ההודעה (כן) או להציג תמונות כקישור ?';
 $lang['MAX_IMAGE_SIZE'] = 'תמונה מקסימאלי מידות';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'כאן אתה יכול להגדיר את המקסימום המותר לתמונה ממד כדי להיות מחובר (רוחב x גובה בפיקסלים).<br />If זה נקבע ל-0x0, תכונה זו מושבתת. עם כמה תמונות תכונה זו לא תפעל בשל מגבלות ב-PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'אם זה מוגדר מימד של תמונ�
 $lang['ASSIGNED_GROUP'] = 'להקצות קבוצה';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'צור תמונות ממוזערות';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'מינימום גודל קובץ התמונה הממוזערת';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'אם תמונה קטן יותר מאשר זה מוגדר גודל קובץ, לא ממוזערת יהיה נברא, כי הוא קטן מספיק.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'לנהל אסור הרחבות';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'האסור סיומת %s כבר קיים';
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'הסיומת %s מוגדר רשאי הרחבות, בבקשה למחוק את זה שלהם לפני שאתה מוסיף את זה כאן.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'הארכת הרשאות הקבוצה -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'כאן אתה יכול להגביל את שנבחרו סיומת קבוצת פורומים של הבחירה שלך (ברירת מותר פורומים תיבה). ברירת המחדל היא לאפשר הארכת קבוצות כל הפורומים המשתמש יכול לצרף קבצים לתוך (בדרך הרגילה את הקובץ Mod עשה את זה מההתחלה). פשוט להוסיף אותם פורומים אתה רוצה את הסיומת קבוצה (הרחבות בתוך הקבוצה הזאת) יהיה מותר שם, ברירת המחדל של כל הפורומים ייעלמו כאשר אתה מוסיף פורומים לרשימה. אתה יכול להוסיף מחדש את כל הפורומים בכל זמן נתון. אם אתה מוסיף בפורום לוח שלך, את רשות מוגדר כל הפורומים שום דבר לא ישתנה. אבל אם יש לך השתנה, הגבילו את הגישה מסוימים בפורומים, אתה צריך לבדוק כאן כדי להוסיף את החדשה שנוצרה בפורום. זה קל לעשות את זה באופן אוטומטי, אבל זה יהיה לך כוח כדי לערוך קבוצה של קבצים, ולכן גם אני בחרתי בדרך זה עכשיו. אנא זכור, כי כל בפורומים שלך יופיעו כאן.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'הערה:<br />Within להלן המפורטים פורומים המשתמשים שלך הם בדרך כלל מותר לצרף קבצים, אבל מאז לא סיומת הקבוצה מותר להיות מחובר שם, המשתמשים שלך יכולים לצרף משהו. אם הם ינסו, הם יקבלו הודעות שגיאה. אולי אתה רוצה להגדיר את הרשאת \'פוסט קבצים\' כדי ADMIN ב פורומים אלה.<br /><br />';
 $lang['ADD_FORUMS'] = 'להוסיף פורומים';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'לא מצורפים פגשתי את קריט�
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'מספר של קבצים מצורפים';
-$lang['TOTAL_FILESIZE'] = 'סה " כ גודל קובץ';
+$lang['TOTAL_FILESIZE'] = 'Total File Size';
 $lang['NUMBER_POSTS_ATTACH'] = 'מספר הודעות עם קבצים מצורפים';
 $lang['NUMBER_TOPICS_ATTACH'] = 'מספר נושאים עם קבצים מצורפים';
 $lang['NUMBER_USERS_ATTACH'] = 'עצמאי משתמשים פורסם קבצים מצורפים';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'החזק <i>Ctrl</i> בעת בחירת פור�
 $lang['REG_TORRENTS'] = 'הרשמה טורנטים';
 $lang['DISALLOWED'] = 'אסור';
 $lang['ALLOW_REG_TRACKER'] = 'מותר בפורומים עבור רישום .טורנטים על tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'מותר לפרסם תוכן 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
 $lang['SHOW_DL_BUTTONS'] = 'להראות כפתורים באופן ידני שינוי DL-סטטוס';
 $lang['SELF_MODERATED'] = 'משתמשים יכולים <b>move</b> שלהם נושאים לפורום אחר';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'המפתח';
 $lang['BT_ADD_AUTH_KEY'] = 'לאפשר הוספת מפתח סיקור-קבצים לפני ההורדה';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'סיקור דפדפן (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'סיקור דפדפן (tracker.php) נגיש רק עבור משתמשים מחובר';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
 $lang['BT_SEARCH_BOOL_MODE'] = 'לאפשר בוליאני חיפוש של טקסט מלא';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'השתמש *, +, -,.. בחיפושים';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "שונות";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "הצג סטטיסטיקות משתמשי UL/DL בחלק העליון של העמוד הראשי של הפורום";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'קצב רענון';
 $lang['REFRESH_RATE_EXPLAIN'] = 'כמה זמן (שניות) כדי להישאר פעיל לפני המעבר ל הבא של העיבוד cycle<br />Usually אתה לא צריך לשנות את זה';
 
 $lang['TIME_LIMIT'] = 'הגבלת זמן';
-$lang['TIME_LIMIT_EXPLAIN'] = 'כמה זמן (שניות) עיבוד פוסט לפני שהם עוברים במחזור הבא';
+$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP שלך (מצב בטוח) מוגדר עם פסק זמן של %s שניות, לכן הישאר מתחת לערך זה</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your בשרת יש פסק זמן של %s שניות מוגדר, אז תישאר מתחת value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'בהצלחה, סיימתי את עיב�
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'לבנות מחדש את החיפוש התקדמות';
 
-$lang['PROCESSED_POST_IDS'] = 'עיבוד פוסט תעודות : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
 $lang['TIMER_EXPIRED'] = 'שעון העצר פג ב %s שניות. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'אישור חיפוש שולחנות. ';
 $lang['DELETED_POSTS'] = '%s פוסט(ים) שנמחקו על-ידי המשתמשים במהלך עיבוד. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'כל';
 
 $lang['TPL_EMPTY_FIELD'] = 'אתה חייב למלא את שדה <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'עליך לבחור <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - לא num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - חייב להיות https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - חייב להיות https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'להכניס את הנושא';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'חיפוש עבור משתמשים עם 
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'חיפוש עבור משתמשים עם פוסט נחשב בין %d ו %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'חיפוש עבור משתמשים עם פוסט לספור את הערך של %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'חיפוש עבור משתמשים עם טוויטר התאמת %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'חיפוש עבור משתמשים עם האתר התאמת %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'חיפוש עבור משתמשים עם מיקום התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'חיפוש עבור משתמשים עם תחומי העניין שלהם בתחום התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'חיפוש עבור משתמשים עם הכיבוש שלהם בתחום התאמת %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'שווה';
 $lang['GREATER_THAN'] = 'גדול יותר';
 $lang['LESS_THAN'] = 'פחות';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'אתה יכול לחפש משתמשים על סמך ערך ספירת הפוסטים. אתה יכול לחפש לפי ערך ספציפי, גדול או קטן מערך או בין שני ערכים. כדי לבצע את חיפוש הטווח, בחר "שווה" ואז שים את ערכי ההתחלה והסיום של הטווח מופרדים במקף (-), למשל 10-15';
-$lang['USERFIELD'] = 'Userfield';
+$lang['USERFIELD'] = 'User field';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'חיפוש עבור משתמשים בהתבסס על הפרופיל שונים שדות. תווים כלליים נתמכים באמצעות אסטריקס (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'אתה יכול לחפש משתמשים לפי תאריך הכניסה האחרונה באמצעות אפשרות חיפוש';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'זה יציג למשתמשים את מי בחרת שפה מסוימת בפרופיל שלהם';

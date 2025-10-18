@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Du kan ikke gøre Anonyme et medlem af gruppen.'
 $lang['CONFIRM_UNSUB'] = 'Er du sikker på du ønsker at afmelde dig denne gruppe?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Din tilmelding til denne gruppe er endnu ikke blevet godkendt, er du sikker på du ønsker at afmelde?';
 
-$lang['UNSUB_SUCCESS'] = 'Du har været fn-abonnement fra denne gruppe.';
+$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
 
 $lang['APPROVE_SELECTED'] = 'Godkende Udvalgte';
 $lang['DENY_SELECTED'] = 'Afvis Valgte';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Du er ikke moderator i dette forum.';
-$lang['NOT_AUTHORISED'] = 'Ikke Godkendt';
+$lang['NOT_AUTHORISED'] = 'Not Authorized';
 
 $lang['YOU_BEEN_BANNED'] = 'Du er blevet forbudt fra dette forum. Kontakt venligst bestyrelsesadministratoren for yderligere information.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Beklager, men du er ikke autoriseret til at s
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Beskrivelse'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'Fil størrelse';
+$lang['FILESIZE'] = 'File size';
 $lang['VIEWED'] = 'Set';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Omdannelsen \'%s\' blev deaktiveret af en administrator, derfor vises denne vedhæftning ikke.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Den Vedhæftede fil er for stor.<br />Could i
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Den Vedhæftede fil er for stor.<br />Maximum Upload Size: %d MB.<br />Please bemærk, at denne Størrelse er defineret i php.ini, dette betyder, at det er sæt af PHP og Mod Udlæg kan ikke tilsidesætte denne værdi.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Udvidelse %s er ikke tilladt'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Du har ikke tilladelse til at sende Filer med Filtypenavnet %s i dette Forum'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Den Vedhæftede fil er for stor.<br />Max Størrelse: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Undskyld, men den maksimale filstørrelse for alle Vedhæftede filer er nået. Kontakt venligst Bestyrelsen, Administrator, hvis du har spørgsmål.';
+$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Udlæg kan ikke tilføjes, da max. antallet af %d Vedhæftede filer i dette indlæg var opnået'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Den Vedhæftede fil/Billede skal være mindre end %d pixels bredt og %d pixels høj';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Upload Fejl: Kunne ikke uploade Vedhæftede fil for at %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Du er nødt til at indtaste værdier i \'T
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Ude af stand til at Opdatere Vedhæftet fil, ikke kunne finde gamle Arrest Indlæg';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Undskyld, men den maksimale filstørrelse for alle Vedhæftede filer i din Privat Besked Mappen er blevet nået. Du skal slette nogle af dine modtagne/sendte Vedhæftede filer.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Undskyld, men den maksimale filstørrelse for alle Vedhæftede filer i Private beskeder Mappen \'%s" er blevet nået. Lad ham vide, eller vent, indtil han/hun har slettet nogle af hans/hendes Vedhæftede filer.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Du har ikke valgt en vedhæftet fil til download eller visning.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Den Vedhæftede fil-Funktionen er deakti
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Mappen \'%s\' findes ikke, eller Kunne ikke findes.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Check venligst hvis \'%s" er en mappe.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' er ikke skrivbar. Du bliver nødt til at skabe upload sti og chmod til 777 (eller ændre ejeren at du httpd-servere ejer) til at uploade filer.<br />If du har kun almindelig FTP-adgang ændre \'Egenskab\' af biblioteket til at rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Upload Kontingent';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Søg Vedhæftede Filer';
 $lang['TEST_SETTINGS'] = 'Test Indstillinger';
 $lang['NOT_ASSIGNED'] = 'Ikke Tildelt';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Ingen Fil Kommentar til rådighed';
-$lang['ATTACHBOX_LIMIT'] = 'Din Attachbox is<br /><b>%d%%</b> fuld';
+$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
 $lang['NO_QUOTA_LIMIT'] = 'Ingen Kvote';
 $lang['UNLIMITED'] = 'Ubegrænset';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'En anden torrent med samme info_hash allerede 
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents er blevet deaktiveret af administratoren i øjeblikket, tilladt: v2 og hybrider';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents er blevet deaktiveret af administratoren i øjeblikket, tilladt: v1 og hybrider';
 $lang['BT_FLIST'] = 'Fil liste';
-$lang['BT_FLIST_LIMIT'] = 'Tracker indstillinger tillader ikke behandling af lister med mere end %d filer. Aktuelt antal er: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root er en hash af en fil indlejret i torrents med BitTorrent v2 support, tracker brugere kan udtrække, beregne dem, også downloade deduplicerede torrents ved hjælp af desktop værktøjer som <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Oprettelsesdato';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Udsigt';
 $lang['GOLD'] = 'Guld';
 $lang['SILVER'] = 'Sølv';
 $lang['SET_GOLD_TORRENT'] = 'Guld';
-$lang['UNSET_GOLD_TORRENT'] = 'UnMake guld';
+$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
 $lang['SET_SILVER_TORRENT'] = 'Gøre sølv';
-$lang['UNSET_SILVER_TORRENT'] = 'UnMake sølv';
+$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
 $lang['GOLD_STATUS'] = 'GULD TORRENT! DOWNLOAD-TRAFIK MENER IKKE!';
 $lang['SILVER_STATUS'] = 'SØLV TORRENT! DOWNLOAD-TRAFIK DELVIST OVERVEJET!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type ændret til: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type ændret til: %s';
 $lang['TORRENT_STATUS'] = 'Søg efter status for udgivelse';
 $lang['SEARCH_IN_FORUMS'] = 'Søg i Fora';
 $lang['SELECT_CAT'] = 'Vælg kategori';
-$lang['GO_TO_SECTION'] = 'Goto afsnit';
+$lang['GO_TO_SECTION'] = 'Go to section';
 $lang['TORRENTS_FROM'] = 'Indlæg fra';
 $lang['SHOW_ONLY'] = 'Vis kun';
 $lang['SHOW_COLUMN'] = 'Vis kolonne"';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Hvis din ratio kommer under %s, vil du ikke væ
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder ikke set: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'Du skal logge ind først';
+$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
 $lang['ONLY_FOR_MOD'] = 'Denne mulighed kun for moderatorer';
 $lang['ONLY_FOR_ADMIN'] = 'Denne mulighed kun for administratorer';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Denne mulighed kun for super admins';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'En bruger %s er allerede registreret med din IP-adres
 $lang['HIDDEN'] = 'Skjult';
 
 // from admin
-$lang['NOT_ADMIN'] = 'Du er ikke autoriseret til at administrere dette board';
+$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
 
 $lang['COOKIES_REQUIRED'] = 'Cookies skal være aktiveret!';
 $lang['SESSION_EXPIRED'] = 'Session udløbet';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Undskyld, registrering er deaktiveret på dett
 $lang['ONLY_NEW_POSTS'] = 'kun nye indlæg';
 $lang['ONLY_NEW_TOPICS'] = 'kun nye emner';
 
-$lang['TORHELP_TITLE'] = 'Kan du hjælpe såning disse torrents!';
+$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
 $lang['STATISTICS'] = 'Statistik';
 $lang['STATISTIC'] = 'Statistik';
 $lang['VALUE'] = 'Værdi';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Jeg er ikke enig i disse vilkår';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'For at registrere, skal du aktivere JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Registreringen er i øjeblikket lukket<br /><br />Registrering er tilgængelig i perioden: %s<br />Nuværende server tid: %s<br /><br />Vi undskylder for ulejligheden";
 $lang['AUTOCOMPLETE'] = 'Generer adgangskode';
-$lang['YOUR_NEW_PASSWORD'] = 'Din ny adgangskode:';
+$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
 $lang['REGENERATE'] = 'Regenerere';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Tid:';
 $lang['SEC'] = 'sek';
 $lang['ON'] = 'på';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Mem: ';
+$lang['MEMORY'] = 'Memory: ';
 $lang['QUERIES'] = 'forespørgsler';
 $lang['LIMIT'] = 'Grænse:';
 $lang['SHOW_LOG'] = 'Vis log';
@@ -1572,7 +1572,7 @@ $lang['SUPERSCRIPT'] = 'Superscript tekst: [sup]text[/sup]';
 $lang['SUBSCRIPT'] = 'Subscript tekst: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Citat af tekst: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Indsæt billede: [img]https://image_url[/img] (Ctrl+R)';
-$lang['URL'] = 'Url';
+$lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Indsæt URL: [url]https://url[/url] eller [url=https://url]URL-tekst[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'Kode display: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Listen';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrent klient';
 $lang['DL_FORMULA'] = 'Formel: Uploades/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'stoppet';
-$lang['DL_UPD'] = 'upd: ';
+$lang['DL_UPD'] = 'update time: ';
 $lang['DL_INFO'] = 'viser data <i><b>only for den aktuelle session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Skjul mit BitTorrent klient navn i peer liste';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Skjul mit lands navn i peer liste';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Brugere per dag';
 $lang['BOARD_STARTED'] = 'Bestyrelsen i gang';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar mappe størrelse';
 $lang['DATABASE_SIZE'] = 'Database størrelse';
-$lang['GZIP_COMPRESSION'] = 'Gzip-komprimering';
+$lang['GZIP_COMPRESSION'] = 'GZIP compression';
 $lang['NOT_AVAILABLE'] = 'Ikke tilgængelig';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Kig op Forum';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Her kan du ændre tilladelser og moderator status, der er tildelt hver brugergruppe. Glem ikke, når du ændrer gruppe tilladelser individuelle tilladelser, som brugeren kan stadig give brugeren adgang til forums osv. Du vil blive advaret, hvis dette er tilfældet.';
 $lang['USER_AUTH_EXPLAIN'] = 'Her kan du ændre tilladelser og moderator status, der er tildelt til hver enkelt bruger. Glem ikke, når du ændrer brugerrettigheder, at gruppen tilladelser stadig kan tillade brugeren adgang til forums osv. Du vil blive advaret, hvis dette er tilfældet.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Her kan du ændre tilladelsen niveauer af hvert forum. Du vil have både en simpel og en avanceret metode til at gøre dette, hvor avanceret tilbyder større kontrol af hvert forum drift. Husk at ændre tilladelse niveau af fora, vil påvirke, hvor brugerne kan udføre de forskellige operationer i dem.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
 
 $lang['SIMPLE_MODE'] = 'Enkel Tilstand';
 $lang['ADVANCED_MODE'] = 'Avanceret Tilstand';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Adgang';
 $lang['DISALLOWED_ACCESS'] = 'Ikke Tilladt Adgang';
 $lang['IS_MODERATOR'] = 'Er Moderator';
 
-$lang['CONFLICT_WARNING'] = 'Godkendelse Konflikt Advarsel';
+$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Denne bruger har stadig adgang til dette forum, via medlemskab af en gruppe. Du måske ønsker at alter den gruppe tilladelser eller fjerne denne bruger gruppen til fuldt ud at forhindre dem i at have adgang til rettigheder. De grupper tildeling af rettigheder (og fora, der er involveret), er angivet nedenfor.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Denne bruger har stadig moderator-rettigheder til dette forum, via medlemskab af en gruppe. Du måske ønsker at alter den gruppe tilladelser eller fjerne denne bruger gruppen til fuldt ud at forhindre dem der moderator-rettigheder. De grupper tildeling af rettigheder (og fora, der er involveret), er angivet nedenfor.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Klik på %sHere%s for at vende tilbage til Ban
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Generel Konfiguration';
-$lang['CONFIG_EXPLAIN'] = 'Skemaet nedenfor giver dig mulighed for at tilpasse alle generalforsamlingen valg. For Brugeren og Forum konfigurationer bruge den relaterede links i venstre side.';
+$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
 
 $lang['CONFIG_MODS'] = 'Konfiguration ændringer';
 $lang['MODS_EXPLAIN'] = 'Denne form giver dig mulighed for at justere ændringer';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Aktiver Forum Beskæring';
 $lang['ALLOW_BBCODE'] = 'Tillader, BBCode';
 $lang['ALLOW_SMILIES'] = 'Tillader Smilies';
 $lang['SMILIES_PATH'] = 'Smilies Opbevaring Vej';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Sti under din TorrentPier root dir, fx styles/images/smil';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Tillader Signaturer';
 $lang['MAX_SIG_LENGTH'] = 'Maksimal signatur længde';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalt antal tegn i brugernes signaturer';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Hvor længe en autologin nøglen er gyldig i 
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Administration';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Fra dette panel kan du tilføje, slette, redigere, ændre rækkefølgen og re-synkroniser kategorier og fora';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
 $lang['EDIT_FORUM'] = 'Rediger forum';
 $lang['CREATE_FORUM'] = 'Opret nyt forum';
 $lang['CREATE_SUB_FORUM'] = 'Opret underforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Opdatering For';
 $lang['CONFIG_UPDATED'] = 'Forum Konfiguration Er Blevet Opdateret';
 $lang['MOVE_UP'] = 'Flytte op';
 $lang['MOVE_DOWN'] = 'Flyt ned';
-$lang['RESYNC'] = 'Synk.';
+$lang['RESYNC'] = 'Re-sync';
 $lang['NO_MODE'] = 'Ingen tilstand blev sat';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Skemaet nedenfor giver dig mulighed for at tilpasse alle generalforsamlingen valg. For Brugeren og Forum konfigurationer bruge den relaterede links i venstre side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
 
 $lang['MOVE_CONTENTS'] = 'Flytte alt indhold';
 $lang['FORUM_DELETE'] = 'Slet Forum';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. længden af nyheder';
-$lang['NEWS_COUNT'] = 'Hvor mange nyheder show';
+$lang['NEWS_COUNT'] = 'How many news items to show';
 $lang['NEWS_FORUM_ID'] = 'Fra hvilke fora skal vises<br /> <h6>For flere fora skal du angive ID\'er adskilt af kommaer. Eksempel: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Ingen avatar';
 $lang['TRACKER_STATS'] = 'Statistik på tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Kvoten';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Indstillinger For Vedhæftede';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Her kan du konfigurere de Vigtigste Indstillinger for Vedhæftede Mod. Hvis du trykker på den Test-Indstillinger-Knappen, Udlæg Mod er et par System-Tests for at være sikker på, at det Mod vil arbejde ordentligt. Hvis du har problemer med at uploade Filer, skal du køre denne Test, for at få en detaljeret fejlmeddelelse.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Vedhæftede Fil Størrelse Indstillinger';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Vedhæftede Antal Indstillinger';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Vedhæftede Muligheder';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Her kan du vælge om du vil have vist d
 $lang['SHOW_APCP'] = 'Brug den nye kontrol panel applikationer';
 $lang['SHOW_APCP_EXPLAIN'] = 'Vælg, om du ønsker at bruge et separat kontrolpanel programmer (ja), eller den gamle metode med to kasser til applikationer og redigering af programmer (ingen) i besked feltet. Det er svært at forklare, hvordan det ser ud, så prøv selv.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'Fil størrelse';
+$lang['MAX_FILESIZE_ATTACH'] = 'File size';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Den maksimale filstørrelse for Filer. En værdi på 0 betyder "ubegrænset". Denne Indstilling er begrænset af din Server Konfiguration. For eksempel, hvis din php-Konfiguration tillader kun et maksimum på 2 MB uploads, dette kan ikke blive overskrevet af den Mod.';
 $lang['ATTACH_QUOTA'] = 'Vedhæftet Fil Kontingent';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimale Diskplads, ALLE Vedhæftede filer, der kan holde på dit Webhotel. En værdi på 0 betyder "ubegrænset".';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Slet alle for at poste vedhæftede da
 $lang['EMPTY_FILE_ENTRY'] = 'Tom Fil Indlæg';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Miniature resetted for Vedhæftede fil: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Synkronisering af vedhæftede filer er afsluttet.';
 $lang['SYNC_TOPICS'] = 'Sync Emner';
 $lang['SYNC_POSTS'] = 'Sync Indlæg';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Håndtere Specielle Kategorier';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Her kan du konfigurere de Særlige Kategorier. Du kan oprette Særlige Parametre og Vilkår for de Særlige Kategorier, der er tildelt til en Udvidelse Gruppe.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Indstillinger for Særlige Kategori: Billeder';
 $lang['SETTINGS_CAT_FLASH'] = 'Indstillinger for Særlige Kategori: Flash Filer';
-$lang['DISPLAY_INLINED'] = 'Vise Billeder Inlined';
+$lang['DISPLAY_INLINED'] = 'Display Images Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Vælg, om du vil vise billeder direkte i posten (ja) eller til at vise billeder som et link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimal Billede Dimensioner';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Her kan du angive den maksimalt tilladte Billede Dimension til at være tilsluttet (Bredde x Højde i pixels).<br />If det er indstillet til 0x0, denne funktion er deaktiveret. Med nogle Billeder med denne Funktion vil ikke arbejde på grund af begrænsninger i PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Hvis dette er defineret Dimension af et Bill
 $lang['ASSIGNED_GROUP'] = 'Tildelte Gruppe';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Opret Miniaturebilleder';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail Fil Størrelse';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Hvis et Billede er mindre end det, der er defineret Filesize, ingen Miniature vil blive skabt, fordi det er lille nok.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Styre Forbudt Udvidelser';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Den forbudte Udvidelse %s, findes allerede
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Udvidelse %s er defineret i din tilladt Extensions, skal du slette det deres, før du tilføjer det her.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Udvidelse Gruppe Tilladelser -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Her du er i stand til at begrænse den valgte Udvidelse Gruppe til Fora (defineret i Lov Fora Boks). Standard er at tillade en Udvidelse Grupper til alle Fora, Brugeren er i stand til at Vedhæfte Filer i (normal måde Udlæg Mod gjorde det siden begyndelsen). Blot tilføje de Fora, du ønsker Udvidelse Gruppe (Udvidelser inden for denne Gruppe) til at være tilladt der, standard ALLE FORA, vil forsvinde, når du tilføjer Fora til Listen. Du er i stand til at re-tilføje ALLE FORA på ethvert givet Tidspunkt. Hvis du tilføje et Forum, til dit Bord og Tilladelse er indstillet til ALLE FORA, vil intet ændre sig. Men hvis du har ændret og begrænset adgang til visse Fora, er du nødt til at tjekke tilbage her for at tilføje din nyoprettede Forum. Det er let at gøre dette automatisk, men dette vil tvinge dig til at redigere en masse Filer, derfor jeg har valgt den måde, det er nu. Husk, at alle dine Fora, vil være listet her.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'BEMÆRK:<br />Within de nedenfor anførte Fora, som dine Brugere er normalt tilladt at vedhæfte filer, men da ingen Udvidelse Gruppe lov til at være vedlagte der, som dine Brugere er i stand til at knytte noget. Hvis de prøver, de modtager fejlmeddelelser. Måske du ønsker at indstille Tilladelse \'Post-Filer" til ADMIN på disse Fora.<br /><br />';
 $lang['ADD_FORUMS'] = 'Tilføj Fora';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ingen Vedhæftede filer opfyldt dine søgekri
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Antallet af Vedhæftede filer';
-$lang['TOTAL_FILESIZE'] = 'Den Samlede Filstørrelse';
+$lang['TOTAL_FILESIZE'] = 'Total File Size';
 $lang['NUMBER_POSTS_ATTACH'] = 'Antallet af Stillinger med Vedhæftede filer';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Antallet af Emner med Vedhæftede filer';
 $lang['NUMBER_USERS_ATTACH'] = 'Uafhængige Brugere Indsendt Vedhæftede Filer';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'hold <i>Ctrl</i>, mens du markerer flere fora'
 $lang['REG_TORRENTS'] = 'Registrer torrents';
 $lang['DISALLOWED'] = 'Forbudt';
 $lang['ALLOW_REG_TRACKER'] = 'Tilladt fora for registrering .torrents på tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Tilladelse til at poste indhold, der er 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Vis knapper til manuelt at ændre DL-status';
 $lang['SELF_MODERATED'] = 'Brugere kan <b>move</b> deres emner til et andet forum';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Adgangsnøglen';
 $lang['BT_ADD_AUTH_KEY'] = 'Gøre det muligt at tilføje adgangsnøgle til torrent-filer, før du henter';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent browser (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php), er kun tilgængelige for brugere som er logget ind';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Tillader, boolean fuld-tekst søgning';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'brug *, +, -,.. søgninger';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diverse";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Vis bruger UL/DL-statistikker øverst på forumets hovedside";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Opdateringshastighed';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Hvor meget tid (sek) til at bo i tomgang, før du flytter til næste behandling cycle<br />Usually du behøver ikke at ændre denne';
 
 $lang['TIME_LIMIT'] = 'Frist';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Hvor meget tid (sek) efter behandling kan vare, før du flytter til næste cyklus';
+$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Dit PHP (sikker tilstand) har en timeout på %s sekunder, så hold dig under denne værdi</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver har en timeout af %s sek konfigureret, så bo under dette value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Du er blevet færdig med behandlingen p
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Genopbygge Søg Fremskridt';
 
-$lang['PROCESSED_POST_IDS'] = 'Forarbejdet indlæg ids : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Af udløbet af en Timer på %s sek. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Ryddet søg borde. ';
 $lang['DELETED_POSTS'] = '%s post(s) blev slettet af dine brugere i behandling. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Alle';
 
 $lang['TPL_EMPTY_FIELD'] = 'Du skal udfylde felt <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Du skal vælge <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Ikke en num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Skal være https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Skal være https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'sætte mig ind i emnet';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'At søge efter brugere med et indlæg t�
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'At søge efter brugere med et indlæg tæller mellem %d og %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'At søge efter brugere med et indlæg tæller værdi af %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'At søge efter brugere med en Twitter matchende %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'At søge efter brugere med en Hjemmeside matchende %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'At søge efter brugere med en Placering matchende %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'At søge efter brugere med deres Interesser felt matchende %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'At søge efter brugere med deres Erhverv felt matchende %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Lig';
 $lang['GREATER_THAN'] = 'Større end';
 $lang['LESS_THAN'] = 'Mindre end';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Du kan søge efter brugere baseret på postantalværdien. Du kan enten søge efter en bestemt værdi, større end eller mindre end en værdi eller mellem to værdier. For at udføre rækkeviddesøgningen skal du vælge "Er lig med" og derefter indsætte begyndelses- og slutværdierne for området adskilt af en bindestreg (-), f.eks. 10-15';
-$lang['USERFIELD'] = 'Userfield';
+$lang['USERFIELD'] = 'User field';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Søg efter brugere, der er baseret på forskellige felter. Wildcards understøttes ved brug af en asterix (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Du kan søge efter brugere, baseret på deres sidste login-tidspunkt ved hjælp af denne søgefunktion';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Dette vil vise brugere, som har valgt et bestemt sprog i deres Profil';
