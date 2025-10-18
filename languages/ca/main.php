@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'El fitxer és massa gran.<br />Maximum l
 $lang['DISALLOWED_EXTENSION'] = 'L\'Extensió %s no està permès'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'No està permès publicar els Arxius amb l\'Extensió %s en aquest Fòrum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'El fitxer és massa gran.<br />Max Mida: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Ho sento, però el màxim tamany de tots els fitxers Adjunts s\'assoleix. Si us plau, contactar amb el Consell Administrador si teniu preguntes.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Fitxer adjunt no es pot afegir, ja que el max. nombre de %d fitxers Adjunts en aquest post va aconseguir'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'L\'Adjunt/Imatge ha de ser menor que %d píxels d\'amplada i %d píxels d\'alta';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Pujar Error: no s\'ha Pogut carregar el fitxer Adjunt a %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Heu d\'introduir els valors de la \'Afegeix un fitxer Adjunt Quadre"';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'No pot Actualitzar el fitxer Adjunt, no van poder trobar un vell Adjunt Entrada';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Ho sento, però el màxim tamany de tots els fitxers Adjunts en el seu Missatge Privat Carpeta s\'ha assolit. Si us plau, elimineu alguns dels seus rebre/enviar arxius Adjunts.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Ho sento, però el màxim tamany de tots els fitxers Adjunts al Missatge Privat Carpeta de \'%s\' s\'ha assolit. Si us plau, fer-li saber, o espereu fins que ell/ella ha esborrat alguns dels seus Adjunts.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'No heu seleccionat un fitxer adjunt per descarregar o visualitzar.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'El Directori \'%s\' no existeix o no s\'ha 
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Si us plau, comproveu si \'%s\' és un directori.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Directori \'%s\' no és escriptura. Vostè haurà de crear la ruta de càrrega i chmod a 777 (o canviar el propietari per a vostè httpd-servidors propietari) per pujar fitxers.<br />If només teniu pla FTP-accés canviar \'Atribut\' del directori a rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Pujar La Quota';
-$lang['PM_QUOTA'] = 'H Quota';
-
 // Common Variables
 $lang['BYTES'] = 'Bytes';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Prova De La Configuració';
 $lang['NOT_ASSIGNED'] = 'No Assignat';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Cap Arxiu Comentari disponible';
 $lang['ATTACHBOX_LIMIT'] = 'La seva Attachbox is<br /><b>%d%%</b> complet';
-$lang['NO_QUOTA_LIMIT'] = 'No Hi Ha Límit De Quota';
 $lang['UNLIMITED'] = 'Il · limitat';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Simple Modalitat';
 $lang['ADVANCED_MODE'] = 'Mode Avançat';
 $lang['MODERATOR_STATUS'] = 'Moderador estat';
 
-$lang['ALLOWED_ACCESS'] = 'Es Permet L\'Accés';
-$lang['DISALLOWED_ACCESS'] = 'No Permès L\'Accés';
-$lang['IS_MODERATOR'] = 'És A Moderador';
-
-$lang['CONFLICT_WARNING'] = 'Autorització Conflicte Avís';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Aquest usuari encara té els drets d\'accés a aquest fòrum a través de la pertinença a un grup. Podeu modificar el grup de permisos o esborrar aquest usuari al grup totalment impedir-los tenir drets d\'accés. Els grups atorgament de drets (i els fòrums implicats) s\'observa a continuació.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Aquest usuari encara té moderador drets d\'aquest fòrum a través de la pertinença a un grup. Podeu modificar el grup de permisos o esborrar aquest usuari al grup totalment impedir-los tenir moderador drets. Els grups atorgament de drets (i els fòrums implicats) s\'observa a continuació.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'El següent usuari (o usuaris) encara tenen els drets d\'accés a aquest fòrum a través del seu usuari de configuració de permisos. Podeu alterar l\'usuari permisos plenament impedir-los tenir drets d\'accés. Els usuaris concedeixen drets (i els fòrums implicats) s\'observa a continuació.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'El següent usuari (o usuaris) encara han moderador drets d\'aquest fòrum a través del seu usuari de permisos de configuració. Podeu alterar l\'usuari permisos plenament impedir-los tenir moderador drets. Els usuaris concedeixen drets (i els fòrums implicats) s\'observa a continuació.';
-
 $lang['PUBLIC'] = 'Públiques';
 $lang['PRIVATE'] = 'Privat';
 $lang['REGISTERED'] = 'Registrat';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Votació';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Enquesta crear';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Fitxers';
 $lang['AUTH_DOWNLOAD'] = 'Descàrrega De Fitxers';
-
-$lang['SIMPLE_PERMISSION'] = 'Simple Permisos';
 
 $lang['USER_LEVEL'] = 'A Nivell D\'Usuari';
 $lang['AUTH_USER'] = 'Usuari';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Nom del lloc';
 $lang['SITE_DESC'] = 'Descripció del lloc';
 $lang['FORUMS_DISABLE'] = 'Desactivar consell';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Això farà que el consell no disponibles per als usuaris. Els administradors són capaços d\'accedir al Panell d\'Administració, mentre que la junta està desactivat.';
-$lang['ACCT_ACTIVATION'] = 'Activar el compte d\'activació';
 $lang['ACC_NONE'] = 'Cap'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Usuari';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Permet Signatures';
 $lang['MAX_SIG_LENGTH'] = 'Màxima longitud de la signatura';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Nombre màxim de caràcters que l\'usuari signatures';
 $lang['ALLOW_NAME_CHANGE'] = 'Permeten canvis de nom d\'Usuari';
-
-$lang['EMAIL_SETTINGS'] = 'Configuració De Correu Electrònic';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Activar La Confirmació Visual';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Requereix que els usuaris d\'introduir un codi definit per una imatge en el registre.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Permet inicis de sessió automàtic';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Feu clic %sHere%s per tornar a Somriure Admi
 
 // User Management
 $lang['USER_ADMIN'] = 'L\'Usuari De L\'Administració';
-$lang['USER_ADMIN_EXPLAIN'] = 'Aquí podeu canviar la informació dels usuaris i de determinades opcions. Per modificar els usuaris, permisos, si us plau, utilitzeu l\'usuari, grup i permisos del sistema.';
-
 $lang['LOOK_UP_USER'] = 'Buscar usuari';
-
-$lang['ADMIN_USER_FAIL'] = 'No podia actualitzar el perfil de l\'usuari.';
-$lang['ADMIN_USER_UPDATED'] = 'El perfil de l\'usuari ha estat actualitzat amb èxit.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Feu clic %sHere%s per tornar a Usuari de l\'Administració';
-
-$lang['USER_ALLOWPM'] = 'Pot enviar Missatges Privats';
-$lang['USER_ALLOWAVATAR'] = 'Pot mostrar avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Aquí podeu veure i esborrar actual de l\'usuari avatar.';
-
-$lang['USER_SPECIAL'] = 'Especial admin camps de només';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Aquests camps no són capaços de ser modificades pels usuaris. Aquí podeu establir la seva condició i les altres opcions que no són donats per als usuaris.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grup Administració';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Proporció més per un canvi de bonificacions e
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Panell De Control';
-$lang['SHADOW_ATTACHMENTS'] = 'Ombra Adjunts';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Prohibit Extensions';
 $lang['EXTENSION_CONTROL'] = 'Extensió De Control';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Extensió Grups De Control';
 $lang['SPECIAL_CATEGORIES'] = 'Categories Especials';
-$lang['SYNC_ATTACHMENTS'] = 'Sincronitza Els Arxius Adjunts';
-$lang['QUOTA_LIMITS'] = 'Quota Límits';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Fitxer Adjunt De Configuració';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Adjunt Tema Icona';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Aquesta Imatge es mostra abans de temes amb els arxius Adjunts. Deixeu aquest camp en blanc si no voleu una icona per a mostrar-la.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Adjunt Ordre De Visualització';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aquí podeu escollir si voleu mostrar els fitxers Adjunts en Missatges/PMs Descendent Filetime Tal (Nous Adjunt Primer) o Ascendent Filetime Ordre (més antic Adjunt Primer).';
-$lang['SHOW_APCP'] = 'Utilitzar el nou panell de control les aplicacions';
-$lang['SHOW_APCP_EXPLAIN'] = 'Trieu si voleu utilitzar un panell de control separat aplicacions (sí), o l\'antic mètode amb dos requadres per a les aplicacions i edició de les aplicacions (cap) en el quadre de missatge. És difícil d\'explicar com es veu, per tal de tractar de tu mateix.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Mida de la Fitxa';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Màxim tamany de fitxers Adjunts. Un valor de 0 significa \'il\'. Aquest Paràmetre està restringida per la vostra Configuració del Servidor. Per exemple, si la Configuració del vostre php només permet a un màxim de 2 MB d\'arxius, aquest no pot ser sobreescrit per la Mod.';
-$lang['ATTACH_QUOTA'] = 'Adjunt Quota';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Màxim Espai de Disc que TOTS els Adjunts poden contenir en el seu Espai web. Un valor de 0 significa \'il\'.';
 $lang['MAX_FILESIZE_PM'] = 'Màxim Tamany en Privat Carpeta de Missatges';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Màxim Espai de Disc a fitxers Adjunts es poden utilitzar fins a cada Usuari Privada de la caixa de Missatge. Un valor de 0 significa \'il\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Per Defecte Quota Límit';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Aquí podreu seleccionar per Defecte Quota Límit assignat automàticament a nous Usuaris registrats i als Usuaris sense un definits Quota Límit. L\'Opció \'no hi ha Cap Quota Límit" és per no utilitzar cap Adjunt de Quotes, sinó amb la Configuració predeterminada que heu definit dins d\'aquest Panell de Gestió.';
 
 $lang['MAX_ATTACHMENTS'] = 'Nombre màxim de fitxers Adjunts';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'El nombre màxim de fitxers adjunts admesos en un post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Deshabilitar El Fitxer Adjunt Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Aquesta opció és bàsicament per a provar noves plantilles o temes, es desactiven totes Adjunt Funcions, excepte el Panell d\'Administració.';
 $lang['PM_ATTACHMENTS'] = 'Permet els fitxers Adjunts a Missatges Privats';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Permet/Disallow adjuntar fitxers als Missatges Privats.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Mostrar aplicacions en la revisió de les comunicacions temes quan s\'escriu una resposta?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Si poses un "sí", totes les aplicacions es mostren en la revisió de les comunicacions temes.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Aquí pots esborrar dades adjuntes de missatges quan els fitxers estan desapareguts des del vostre sistema de fitxers, i suprimir els fitxers que ja no estan adscrits a cap anunci. Podeu descarregar o visualitzar un fitxer si feu clic en ell; si no hi ha cap vincle és present, el fitxer no existeix.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Esborrar tots els fitxers adjunts fitxers que hi ha en el vostre sistema de fitxers, i no estiguin assignades a un altre post.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Suprimir totes publicació de dades adjuntes per a fitxers que no existeixen en el sistema de fitxers.';
-$lang['EMPTY_FILE_ENTRY'] = 'Fitxer Buit Entrada';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'La vista prèvia ha estat restablerta per al fitxer adjunt: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'S\'ha acabat la sincronització dels fitxers adjunts.';
 $lang['SYNC_TOPICS'] = 'Sincronització Temes';
 $lang['SYNC_POSTS'] = 'Sincronització De Missatges';
-$lang['SYNC_THUMBNAILS'] = 'Sincronització De Miniatures';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Gestionar Les Extensions';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Aquí podeu gestionar les vostres Extensions d\'Arxiu. Si voleu permetre/bloquejar una Extensió a carregar, si us plau, utilitzeu l\'Extensió Grups de Gestió.';
 $lang['EXPLANATION'] = 'Explicació';
 $lang['EXTENSION_GROUP'] = 'Extensió Grup';
-$lang['INVALID_EXTENSION'] = 'Invalid Extensió';
 $lang['EXTENSION_EXIST'] = 'L\'Extensió %s ja existeixen'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'L\'Extensió %s està prohibit, que no són capaços d\'afegir-lo a la admesos Extensions'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Gestionar Extensió Grups';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'L\'Extensió Grup %s ja existeixen'; // replac
 $lang['MANAGE_CATEGORIES'] = 'Gestionar Categories Especials';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aquí podeu configurar les Categories Especials. Podeu configurar Paràmetres i Condicions Especials per a les Categories Especials assignades a un Grup d\'Extensió.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Paràmetres per a la Categoria Especial: les Imatges';
-$lang['SETTINGS_CAT_FLASH'] = 'Paràmetres per a la Categoria Especial: els Arxius Flash';
 $lang['DISPLAY_INLINED'] = 'Mostrar Les Imatges Inclinada';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Trieu si voleu mostrar les imatges directament a l\'entrada (sí) o per mostrar imatges com un enllaç ?';
 $lang['MAX_IMAGE_SIZE'] = 'Màxim Imatge Dimensions';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Crear Una Miniatura';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Mínim Tamany Miniatura';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Si una Imatge és més petit que aquest defineix Tamany, sense Miniatura serà creat, perquè és prou petit.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Gestionar Prohibit Extensions';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Aquí podeu afegir o eliminar els prohibit extensions. Les Extensions de php, php3 i php4, està prohibit per defecte per raons de seguretat, no es pot suprimir-los.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Prohibit Extensió %s ja existeixen'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'L\'Extensió %s es defineix en el seu admesos Extensions, si us plau, elimineu-lo de la seva abans d\'afegir-la aquí.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extensió Grup Permisos -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aquí podreu restringir l\'seleccionat Extensió Grup de Fòrums de la seva elecció (definida a la Admesos Fòrums Quadre). El valor Predeterminat és que per permetre l\'Extensió de Grups a tots els Fòrums de l\'Usuari és capaç d\'Adjuntar Fitxers en (la manera normal de l\'Adjunt Mod ho va fer des de l\'inici). Només afegir els Fòrums voleu que l\'Extensió Grup (les Extensions dins d\'aquest Grup) per a ser admesos hi ha, el valor per defecte TOTS els FÒRUMS desapareix quan es afegir Fòrums de la Llista. Ets capaç de tornar-la a afegir TOTS els FÒRUMS en qualsevol Moment. Si afegiu un Fòrum per el seu Consell i el Permís s\'estableix a TOTS els FÒRUMS res no canviarà. Però si heu canviat i restringit l\'accés a determinats Fòrums, vostè ha de comprovar de nou aquí per afegir la vostra recentment creat Fòrum. És fàcil fer-ho automàticament, però això obligarà a editar una sèrie de Fitxers, per tant, jo he triat el camí és ara. Si us plau, tingueu en compte, que tots els Fòrums s\'enumeren aquí.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Afegir Fòrums';
 $lang['ADD_SELECTED'] = 'Add Selected';
 $lang['PERM_ALL_FORUMS'] = 'TOTS ELS FÒRUMS';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Gestionar Adjunt Quota Límits';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Aquí podreu afegir/eliminar/canviar Quota Límits. Vostè és capaç d\'assignar aquests Quota Límits a Usuaris i Grups més tard. Per assignar una Quota de Limitar a un Usuari, heu d\'anar a Usuaris->Gestió, seleccioneu l\'Usuari i veuràs les Opcions a la part inferior. Per assignar una Quota de Limitar a un Grup, vés a Grups>Gestió, seleccioneu el Grup d\'editar-lo, i veureu les opcions de Configuració. Si voleu veure, que els Usuaris i Grups que estan assignats a una determinada Quota de Límit, feu clic a "Veure" a l\'esquerra de la Quota de Descripció.';
-$lang['ASSIGNED_USERS'] = 'Assignar Usuaris';
-$lang['ASSIGNED_GROUPS'] = 'Assignats A Grups';
-$lang['QUOTA_LIMIT_EXIST'] = 'La Quota Límit de %s existeix.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Fitxer Adjunt Tauler De Control';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Aquí podeu veure i gestionar tots els fitxers adjunts basat en els Usuaris, els fitxers Adjunts, Opinions, etc...';
-$lang['FILECOMMENT'] = 'Arxiu Comentari';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Utilitzeu * com a comodí per concordances parcials';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Nombre de Missatges amb fitxers Adjunts';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Nombre de Temes amb els arxius Adjunts';
 $lang['NUMBER_USERS_ATTACH'] = 'Usuaris Independents Publicat Adjunts';
 $lang['NUMBER_PMS_ATTACH'] = 'Nombre Total de fitxers Adjunts en Missatges Privats';
-$lang['ATTACHMENTS_PER_DAY'] = 'Adjunts per dia';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Adjunt Estadístiques per %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Configuració Actualitzat Amb Èxit';
 $lang['SET_DEFAULTS'] = 'Restablir valors predeterminats';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Fòrum de configuració';
-
 $lang['BT_SELECT_FORUMS'] = 'Fòrum opcions:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'manteniu premuda la tecla <i>Ctrl</i> mentre seleccionar múltiples fòrums';
 
