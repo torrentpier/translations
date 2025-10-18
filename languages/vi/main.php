@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Bạn không thể làm cho Vô danh, một thà
 $lang['CONFIRM_UNSUB'] = 'Bạn có chắc chắn có muốn đăng ký từ nhóm này?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Đăng ký tham gia vào nhóm này chưa được phê chuẩn; bạn có chắc chắn có muốn đăng ký không?';
 
-$lang['UNSUB_SUCCESS'] = 'Bạn đã được bỏ đăng ký từ nhóm này.';
+$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
 
 $lang['APPROVE_SELECTED'] = 'Chấp Nhận Lựa Chọn';
 $lang['DENY_SELECTED'] = 'Phủ Nhận Lựa Chọn';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Bạn không phải là một người điều hành các diễn đàn này.';
-$lang['NOT_AUTHORISED'] = 'Không Được Ủy Quyền';
+$lang['NOT_AUTHORISED'] = 'Not Authorized';
 
 $lang['YOU_BEEN_BANNED'] = 'Bạn đã bị cấm diễn đàn này. Xin liên hệ với các hội đồng quản trị cho thêm thông tin.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Xin lỗi, nhưng bạn không có quyền đ
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Mô tả'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Tải về'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'Kích cỡ';
+$lang['FILESIZE'] = 'File size';
 $lang['VIEWED'] = 'Xem';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Mở rộng \'%s\' đã bị vô hiệu hóa bởi quản trị viên, do đó phần đính kèm này không được hiển thị.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Đính Kèm là quá lớn.<br />Could không
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Đính Kèm là quá lớn.<br />Maximum kích Thước Tải lên: %d.<br />Please lưu ý rằng kích Thước này được xác định vị trí.ini, điều này có nghĩa là nó là thiết lập và đính Kèm Mod không thể ghi đè lên giá trị này.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Mở Rộng %s không được cho phép'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Bạn không được phép bài Tập với việc mở Rộng %s trong diễn Đàn này'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Đính Kèm là quá lớn.<br />Max kích Thước: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Xin lỗi, nhưng tối đa kích cỡ cho tất cả đính Kèm đạt được. Xin liên hệ với các Hội đồng quản Trị nếu bạn có những câu hỏi.';
+$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Đính kèm không thể thêm vào, vì max. số %d đính Kèm trong bài này đã đạt được'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Đính Kèm hình Ảnh, phải được ít hơn %d ảnh rộng và %d ảnh cao';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Lỗi tải lên: có Thể không phải là ngày đính Kèm để %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Bạn có để vào giá trị trong \'Th
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Không thể để Cập nhật đính Kèm, không thể tìm thấy già đính Kèm Nhập';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Xin lỗi, nhưng tối đa kích cỡ cho tất cả đính Kèm trong tin Nhắn của bạn đã đạt được Mục. Hãy xóa số của bạn nhận/gửi Kèm.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Xin lỗi, nhưng tối đa kích cỡ cho tất cả gì các tin Nhắn Mục của \'%s\' đã đạt được. Xin vui lòng cho anh biết, hoặc chờ cho đến khi ông/cô ấy đã bị xóa số của mình đính Kèm.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Bạn đã không chọn một đính kèm để tải, hay xem.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Đính Kèm Năng bị vô hiệu hóa.'
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Các Mục \'%s\' không tồn tại hay không Thể được tìm thấy.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Xin vui lòng kiểm tra nếu \'%s\' là một mục.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Mục \'%s\' không viết được. Bạn sẽ phải tạo ra các đường dẫn tải lên và đèn flash nó để 777 (hoặc thay đổi chủ sở hữu để bạn httpd-máy chủ sở hữu) để tải dữ liệu lên.<br />If bạn chỉ có đồng quản lý truy cập thay đổi \'Thuộc tính\' của các mục để rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Tải Lên Ngạch';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Tìm Kiếm Đính Kèm';
 $lang['TEST_SETTINGS'] = 'Kiểm Tra Thiết Lập';
 $lang['NOT_ASSIGNED'] = 'Không Được Giao';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Không có Tập tin có bình Luận';
-$lang['ATTACHBOX_LIMIT'] = 'Bạn Attachbox is<br /><b>%d%%</b> đầy đủ';
+$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
 $lang['NO_QUOTA_LIMIT'] = 'Không Có Giới Hạn Chế Chỉ Tiêu';
 $lang['UNLIMITED'] = 'Không giới hạn';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Một torrent với cùng một info_hash đã
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Các torrent v1-only đã bị vô hiệu hóa bởi quản trị viên tại thời điểm này, cho phép: v2 và hybrids';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Các torrent v2-only đã bị vô hiệu hóa bởi quản trị viên tại thời điểm này, cho phép: v1 và hybrids';
 $lang['BT_FLIST'] = 'Danh sách tệp';
-$lang['BT_FLIST_LIMIT'] = 'Cài đặt Tracker không cho phép xử lý danh sách có hơn %d tệp. Số hiện tại là: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root là một băm của tệp nhúng trong các torrent với hỗ trợ BitTorrent v2, người dùng tracker có thể khai thác, tính toán chúng, cũng như tải xuống các torrent đã loại bỏ trùng lặp bằng cách sử dụng các công cụ máy tính để bàn như <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Ngày tạo';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Xem';
 $lang['GOLD'] = 'Vàng';
 $lang['SILVER'] = 'Bạc';
 $lang['SET_GOLD_TORRENT'] = 'Làm cho vàng';
-$lang['UNSET_GOLD_TORRENT'] = 'Thay đổi vàng';
+$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
 $lang['SET_SILVER_TORRENT'] = 'Làm bạc';
-$lang['UNSET_SILVER_TORRENT'] = 'Thay đổi bạc';
+$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
 $lang['GOLD_STATUS'] = 'VÀNG TORRENT! TẢI VỀ GIAO THÔNG KHÔNG XEM XÉT!';
 $lang['SILVER_STATUS'] = 'BẠC TORRENT! TẢI VỀ GIAO THÔNG MỘT PHẦN COI!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Loại torrent đã được thay đổi thành: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Loại torrent đã được thay đổi thành:
 $lang['TORRENT_STATUS'] = 'Tìm kiếm theo trạng thái phát hành';
 $lang['SEARCH_IN_FORUMS'] = 'Tìm kiếm trong các diễn Đàn';
 $lang['SELECT_CAT'] = 'Chọn loại';
-$lang['GO_TO_SECTION'] = 'Chuyển đến phần';
+$lang['GO_TO_SECTION'] = 'Go to section';
 $lang['TORRENTS_FROM'] = 'Bài viết từ';
 $lang['SHOW_ONLY'] = 'Chỉ';
 $lang['SHOW_COLUMN'] = 'Show cột';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Nếu tỷ lệ của bạn rơi xuống dướ
 
 $lang['SEEDER_LAST_SEEN'] = 'Nhu cầu không nhìn thấy: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'Bạn cần phải login đầu tiên';
+$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
 $lang['ONLY_FOR_MOD'] = 'Này, lựa chọn duy nhất cho người kiểm duyệt';
 $lang['ONLY_FOR_ADMIN'] = 'Này, lựa chọn duy nhất cho quản trị';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Này, lựa chọn duy nhất cho siêu quản trị';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Một người dùng %s đã được đăng ký vớ
 $lang['HIDDEN'] = 'Ẩn';
 
 // from admin
-$lang['NOT_ADMIN'] = 'Bạn không có thẩm quyền để thực hiện điều này hội đồng quản trị';
+$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
 
 $lang['COOKIES_REQUIRED'] = 'Bánh phải được kích hoạt!';
 $lang['SESSION_EXPIRED'] = 'Phiên hết hạn';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Xin lỗi, đăng ký là người khuyết t�
 $lang['ONLY_NEW_POSTS'] = 'chỉ bài viết mới';
 $lang['ONLY_NEW_TOPICS'] = 'chỉ mới chủ đề';
 
-$lang['TORHELP_TITLE'] = 'Xin vui lòng giúp đỡ giống những torrent!';
+$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
 $lang['STATISTICS'] = 'Số liệu thống kê';
 $lang['STATISTIC'] = 'Số liệu thống kê';
 $lang['VALUE'] = 'Giá trị';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Tôi không đồng ý với các điều khoản';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Để đăng ký, bạn cần bật JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Đăng ký hiện đang đóng<br /><br />Đăng ký có sẵn trong: %s<br />Giờ máy chủ hiện tại: %s<br /><br />Chúng tôi xin lỗi về sự bất tiện";
 $lang['AUTOCOMPLETE'] = 'Tạo mật khẩu';
-$lang['YOUR_NEW_PASSWORD'] = 'Bạn là người mới, mật khẩu:';
+$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
 $lang['REGENERATE'] = 'Tái tạo';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Thời gian thực hiện:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'trên';
 $lang['OFF'] = 'tắt';
-$lang['MEMORY'] = 'Nhớ: ';
+$lang['MEMORY'] = 'Memory: ';
 $lang['QUERIES'] = 'thắc mắc';
 $lang['LIMIT'] = 'Giới hạn:';
 $lang['SHOW_LOG'] = 'Hiển thị nhật ký';
@@ -1572,7 +1572,7 @@ $lang['SUPERSCRIPT'] = 'Văn bản siêu cấp: [sup]text[/sup]';
 $lang['SUBSCRIPT'] = 'Văn bản hạ cấp: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Báo văn bản: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Chèn hình ảnh: [img]https://image_url[/img] (Ctrl+R)';
-$lang['URL'] = 'Url';
+$lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Chèn URL: [url]https://url[/url] hoặc [url=https://url]URL văn bản[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'Mã hiển thị: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Danh sách';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'Máy khách BitTorrent';
 $lang['DL_FORMULA'] = 'Công Thức:/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'dừng lại';
-$lang['DL_UPD'] = 'g: ';
+$lang['DL_UPD'] = 'update time: ';
 $lang['DL_INFO'] = 'cho dữ liệu <i><b>only cho hiện tại session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Ẩn tên máy khách BitTorrent của tôi trong danh sách peer';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Ẩn tên đất nước của tôi trong danh sách peer';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Người sử dụng mỗi ngày';
 $lang['BOARD_STARTED'] = 'Hội đồng quản trị bắt đầu';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar mục kích thước';
 $lang['DATABASE_SIZE'] = 'Cơ sở dữ liệu, kích thước';
-$lang['GZIP_COMPRESSION'] = 'Bao gồm nén';
+$lang['GZIP_COMPRESSION'] = 'GZIP compression';
 $lang['NOT_AVAILABLE'] = 'Không có';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Nhìn lên diễn Đàn';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Ở đây anh có thể thay đổi những điều khoản và điều hành tình trạng giao cho mỗi người dùng. Đừng quên khi thay đổi, quyền cá nhân quyền sử dụng vẫn có thể cho phép những người nhập cảnh vào đàn. Bạn sẽ được cảnh báo nếu trường hợp này.';
 $lang['USER_AUTH_EXPLAIN'] = 'Ở đây anh có thể thay đổi những điều khoản và điều hành tình trạng giao cho mỗi người dùng cá nhân. Đừng quên khi thay đổi quyền sử dụng nhóm đó quyền vẫn có thể cho phép những người nhập cảnh vào đàn. Bạn sẽ được cảnh báo nếu trường hợp này.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Ở đây anh có thể thay đổi cấp ủy quyền của mỗi người đàn. Bạn sẽ có cả một đơn giản và nâng cao phương pháp làm việc này đâu cao cấp hơn kiểm soát của mỗi người đàn hoạt động. Hãy nhớ rằng thay đổi sự cho phép cấp của các diễn đàn này sẽ ảnh hưởng đến những người có thể thực hiện các hoạt động khác nhau trong đó.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
 
 $lang['SIMPLE_MODE'] = 'Chế Độ Đơn Giản';
 $lang['ADVANCED_MODE'] = 'Chế Độ Cao';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Cho Phép Truy Cập Vào';
 $lang['DISALLOWED_ACCESS'] = 'Không Được Phép Truy Cập';
 $lang['IS_MODERATOR'] = 'Là Người Điều Hành';
 
-$lang['CONFLICT_WARNING'] = 'Ủy Quyền Xung Đột Cảnh Báo';
+$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Người này vẫn còn có quyền truy cập vào diễn đàn này qua thành viên nhóm. Bạn có thể muốn thay đổi các nhóm quyền hoặc bỏ này dùng để ngăn chặn họ có quyền truy cập. Các nhóm trao quyền (và các diễn đàn tham gia) là ý dưới đây.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Người này vẫn còn có điều hành quyền cho diễn đàn này qua thành viên nhóm. Bạn có thể muốn thay đổi các nhóm quyền hoặc bỏ này dùng để ngăn chặn họ có quyền điều hành. Các nhóm trao quyền (và các diễn đàn tham gia) là ý dưới đây.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Nhấn vào %sHere%s để trở về lệnh C
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Cấu Hình Chung';
-$lang['CONFIG_EXPLAIN'] = 'Mẫu dưới đây sẽ cho bạn tất cả các chung hội lựa chọn. Cho Người Đàn cấu hình sử dụng các liên kết trên phía bên tay trái.';
+$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
 
 $lang['CONFIG_MODS'] = 'Cấu hình thay đổi';
 $lang['MODS_EXPLAIN'] = 'Mẫu này cho phép anh để điều chỉnh sửa đổi';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Cho Phép Diễn Đàn Tỉa';
 $lang['ALLOW_BBCODE'] = 'Cho Phép New';
 $lang['ALLOW_SMILIES'] = 'Cho Phép Cười';
 $lang['SMILIES_PATH'] = 'Mặt Cười Lưu Trữ Đường';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Con đường dưới TorrentPier gốc dir, ví dụ như phong cách/hình ảnh/nụ cười';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Cho Chữ Ký';
 $lang['MAX_SIG_LENGTH'] = 'Tối đa chữ ký chiều dài';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Tối đa số các nhân vật trong dùng chữ ký';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Bao lâu một tượng chính là giá trị
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Diễn Đàn Quản Trị';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Từ bảng điều khiển này ông có thể thêm vào, rõ ràng, chỉnh sửa lại trật tự và tái-đồng loại và forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
 $lang['EDIT_FORUM'] = 'Chỉnh sửa diễn đàn';
 $lang['CREATE_FORUM'] = 'Tạo diễn đàn new';
 $lang['CREATE_SUB_FORUM'] = 'Tạo subforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Để Cập Nhật,';
 $lang['CONFIG_UPDATED'] = 'Diễn Đàn Cấu Hình Có Được Cập Nhật Thành Công';
 $lang['MOVE_UP'] = 'Di chuyển lên';
 $lang['MOVE_DOWN'] = 'Di chuyển xuống';
-$lang['RESYNC'] = 'Resync';
+$lang['RESYNC'] = 'Re-sync';
 $lang['NO_MODE'] = 'Không có chế độ đã được thiết lập';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Mẫu dưới đây sẽ cho bạn tất cả các chung hội lựa chọn. Cho Người Đàn cấu hình sử dụng các liên kết trên phía bên tay trái';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
 
 $lang['MOVE_CONTENTS'] = 'Di chuyển tất cả nội dung';
 $lang['FORUM_DELETE'] = 'Xóa Các Diễn Đàn';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. chiều dài của các tin tức';
-$lang['NEWS_COUNT'] = 'Bao nhiêu tin tức!';
+$lang['NEWS_COUNT'] = 'How many news items to show';
 $lang['NEWS_FORUM_ID'] = 'Từ các diễn đàn nào để hiển thị <br /> <h6>Đối với nhiều diễn đàn, nhập ID được phân tách bằng dấu phẩy. Ví dụ: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Không avatar';
 $lang['TRACKER_STATS'] = 'Số liệu thống kê trên theo dõi';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Ngạch Giới Hạn';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Đính Kèm Cài Đặt';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Ở đây anh có thể cấu hình Chính Cài đặt cho đính Kèm Mod. Nếu bạn nhấn vào kiểm Tra Cài đặt đính Kèm Mod không một vài Hệ thống kiểm Tra để chắc chắn rằng Mod sẽ làm việc đúng. Nếu bạn có vấn đề với các Tập tin tải lên, hãy chạy Thử nghiệm này, để có được một chi tiết lỗi-tin nhắn.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Đính Kèm Kích Cỡ Cài Đặt';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Đính Kèm Số Cài Đặt';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Đính Kèm Lựa Chọn';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Ở đây anh có thể chọn hiển t
 $lang['SHOW_APCP'] = 'Sử dụng mới ứng dụng bảng điều khiển';
 $lang['SHOW_APCP_EXPLAIN'] = 'Chọn nếu bạn muốn sử dụng một tách ứng dụng bảng điều khiển (có), hoặc các phương pháp cũ với hai hộp cho các ứng dụng và các ứng dụng chỉnh sửa (không có) trong hộp tin nhắn. Thật khó để giải thích nó trông như thế nào, vì vậy hãy thử cho chính mình.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'Kích cỡ';
+$lang['MAX_FILESIZE_ATTACH'] = 'File size';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Tối đa kích cỡ cho đính Kèm. Một giá trị của 0 có nghĩa là \'không\'. Này Thiết bị giới hạn bởi Cấu hình máy Chủ. Ví dụ, nếu trình Cấu hình chỉ cho phép một tối đa 2 MB ơn, điều này không thể được ghi đè Mod.';
 $lang['ATTACH_QUOTA'] = 'Đính Kèm Ngạch';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Tối đa Đĩa tất CẢ đính Kèm có thể giữ trên trang Web. Một giá trị của 0 có nghĩa là \'không\'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Xóa tất cả đăng tải dữ li�
 $lang['EMPTY_FILE_ENTRY'] = 'Tập Tin Rỗng Nhập';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Thu nhỏ đặt lại cho đính Kèm: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Đồng bộ hóa tệp đính kèm đã hoàn tất.';
 $lang['SYNC_TOPICS'] = 'Sync Chủ Đề';
 $lang['SYNC_POSTS'] = 'Đồng Bộ Bài';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Quản Lý Loại Đặc Biệt';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ở đây bạn có thể cấu hình các Danh mục Đặc biệt. Bạn có thể thiết lập Tham số và Điều kiện Đặc biệt cho các Danh mục Đặc biệt được chỉ định cho Nhóm Mở rộng.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Cài đặt cho Loại Đặc biệt: Hình ảnh';
 $lang['SETTINGS_CAT_FLASH'] = 'Cài đặt cho Loại Đặc biệt: Flash các Tập tin';
-$lang['DISPLAY_INLINED'] = 'Màn Hình Ảnh Inlined';
+$lang['DISPLAY_INLINED'] = 'Display Images Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Chọn hiển thị hình ảnh trực tiếp trong bài (phải) hay để màn hình, như một link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Hình Ảnh Tối Đa Chiều';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Ở đây anh có thể xác định tối đa cho phép Hình kích Thước để được gắn (Rộng x Cao trong ảnh).<br />If nó được thiết lập để 0x0 tính năng này vô hiệu hóa. Với một số Hình ảnh tính Năng này sẽ không làm việc do hạn chế tuệ.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Nếu điều này được xác định kí
 $lang['ASSIGNED_GROUP'] = 'Nhóm Giao';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Tạo Hình Thu Nhỏ';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Tối Thiểu Thu Nhỏ Kích Cỡ';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Nếu một hình Ảnh nhỏ hơn này được xác định Kích cỡ, không thu Nhỏ sẽ được tạo ra, bởi vì nó là đủ nhỏ.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Quản Lý Cấm Mở Rộng';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Cấm mở Rộng %s đã tồn tại'; //
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Mở Rộng %s là định nghĩa của bạn được phép mở Rộng, xin vui lòng hủy bỏ nó họ trước khi bạn thêm nó ở đây.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Mở Rộng Quyền Nhóm -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Ở đây anh có thể hạn chế việc mở Rộng được chọn để diễn Đàn của sự lựa chọn của bạn (xác định trong Phép diễn Đàn Hộp). Mặc Định là để cho phép mở Rộng Nhóm để tất cả các diễn Đàn các Người có thể Gắn các Tập tin vào (một cách bình thường đính Kèm Mod đã làm nó từ đầu). Chỉ cần thêm những người Đàn bạn muốn mở Rộng Nhóm (mở Rộng trong Nhóm này) được phép có mặc định tất CẢ các diễn ĐÀN sẽ biến mất khi bạn thêm diễn Đàn vào danh Sách. Bạn có thể để lại thêm tất CẢ các diễn ĐÀN bất cứ lúc nào. Nếu bạn thêm một diễn Đàn của Hội đồng và sự cho Phép được thiết lập để tất CẢ các diễn ĐÀN sẽ không có gì thay đổi. Nhưng nếu bạn có thay đổi và bị hạn chế truy cập vào các diễn Đàn nhất định, anh phải kiểm tra lại đây thêm bạn mới được tạo ra Forum. Nó rất dễ dàng để làm điều này tự động, nhưng điều này sẽ buộc mày phải sửa một loạt các Tập tin, vì vậy tôi đã chọn cách nó là bây giờ. Xin hãy nhớ rằng, tất cả các diễn Đàn của bạn sẽ được liệt kê ở đây.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'Chú Ý:<br />Within dưới đây Đàn của Người thường được phép để gắn các tập tin, nhưng vì không có mở Rộng Nhóm được phép được gắn đó, Người đã không thể gắn bất cứ điều gì. Nếu họ cố gắng, họ sẽ nhận Lỗi. Có thể bạn muốn đặt Quyền \'Bài Tập để QUẢN trị tại các diễn Đàn này.<br /><br />';
 $lang['ADD_FORUMS'] = 'Thêm Forums';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Không có đính Kèm gặp chí tìm kiếm
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Số an toàn';
-$lang['TOTAL_FILESIZE'] = 'Tổng Kích Cỡ';
+$lang['TOTAL_FILESIZE'] = 'Total File Size';
 $lang['NUMBER_POSTS_ATTACH'] = 'Số Bài với đính Kèm';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Số các chủ Đề với đính Kèm';
 $lang['NUMBER_USERS_ATTACH'] = 'Độc Lập Người Đã Đăng Đính Kèm';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'giữ <i>Ctrl</i> trong khi lựa chọn nhi�
 $lang['REG_TORRENTS'] = 'Đăng ký torrent';
 $lang['DISALLOWED'] = 'Cấm';
 $lang['ALLOW_REG_TRACKER'] = 'Cho phép các diễn đàn cho đăng ký .video theo dõi';
-$lang['ALLOW_PORNO_TOPIC'] = 'Cho phép để gửi nội dung 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Show nút cho tay thay đổi DL-tình trạng';
 $lang['SELF_MODERATED'] = 'Người có thể <b>move</b> của họ chủ đề khác diễn đàn';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Mật mã';
 $lang['BT_ADD_AUTH_KEY'] = 'Cho phép thêm mật mã để torrent-các tập tin trước khi tải';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent duyệt (theo dõi)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent duyệt (tracker.php) chỉ có thể cho người dùng đăng nhập';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Cho phép logic, đầy đủ những tìm kiếm';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'sử dụng *, hình.. trong những tìm kiếm';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Thể loại khác";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Hiển thị thống kê UL/DL của người dùng ở đầu trang chính của diễn đàn";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Tốc';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Bao nhiêu thời gian (giây) để ở chế độ chờ trước khi chuyển tới xử lý tiếp theo cycle<br />Usually bạn không cần phải thay đổi điều này';
 
 $lang['TIME_LIMIT'] = 'Giới hạn thời gian';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Bao nhiêu thời gian (giây) bài cuối cùng trước khi xử lý có thể di chuyển để tiếp theo chu kỳ';
+$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP của bạn (chế độ an toàn) có thời gian chờ được cấu hình là %s giây, vì vậy hãy giữ dưới giá trị này</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your web có một thời gian chờ của %s giây cấu hình, như vậy ở dưới này value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Anh hoàn thành việc xử lý tại 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Xây Dựng Lại Tìm Kiếm Sự Tiến Bộ';
 
-$lang['PROCESSED_POST_IDS'] = 'Xử lý bài id : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Đếm thời gian đã hết hiệu lực lúc %s giây. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Xóa tìm kiếm bàn. ';
 $lang['DELETED_POSTS'] = '%s bài(s) đã bị xóa của người sử dụng trong xử lý. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Tất cả';
 
 $lang['TPL_EMPTY_FIELD'] = 'Anh phải điền vào lĩnh vực này <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Bạn phải chọn <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Không phải là một.';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Phải là https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Phải là https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'đưa vào cơ thể';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Tìm kiếm người sử dụng với m
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Tìm kiếm người sử dụng với một số bài giữa %d và %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Tìm kiếm người sử dụng với một bài tính giá trị của %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Tìm kiếm người sử dụng với một kết hợp X (Twitter) %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Tìm kiếm người sử dụng với một trang Web phù hợp với %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Tìm kiếm người sử dụng với một vị Trí phù hợp với %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Tìm kiếm người sử dụng với Lợi ích của họ trường hợp %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Tìm kiếm người sử dụng với họ Nghề nghiệp trường hợp %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Bằng';
 $lang['GREATER_THAN'] = 'Lớn hơn';
 $lang['LESS_THAN'] = 'Ít hơn';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Bạn có thể tìm kiếm người dùng dựa trên giá trị số lượng bài đăng. Bạn có thể tìm kiếm theo một giá trị cụ thể, lớn hơn hoặc nhỏ hơn một giá trị hoặc giữa hai giá trị. Để thực hiện tìm kiếm phạm vi, chọn "Bằng", sau đó đặt các giá trị đầu và cuối của phạm vi được phân tách bằng dấu gạch ngang (-), ví dụ: 10-15';
-$lang['USERFIELD'] = 'Userfield';
+$lang['USERFIELD'] = 'User field';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Tìm kiếm người dựa vào các hồ sơ lĩnh vực. Kí hiệu được hỗ trợ bằng cách sử dụng một câu (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Bạn có thể tìm kiếm người dựa trên cuối cùng của họ đăng nhập ngày sử tìm kiếm này lựa chọn';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Điều này sẽ hiển thị sử dụng mà đã chọn một ngôn ngữ cụ thể trong hồ Sơ của họ';
