@@ -385,7 +385,7 @@ $lang['VOTE_CAST'] = 'Η ψήφος σας έχει ρίξει.';
 $lang['EMOTICONS'] = 'Emoticons';
 $lang['MORE_EMOTICONS'] = 'Δείτε περισσότερα Emoticons';
 
-$lang['FONT_COLOR'] = 'Χρώμα γραμματοσειράς';
+$lang['FONT_COLOR'] = 'Το χρώμα της γραμματοσειράς';
 $lang['COLOR_DEFAULT'] = 'Προεπιλογή';
 $lang['COLOR_DARK_RED'] = 'Σκούρο Κόκκινο';
 $lang['COLOR_RED'] = 'Κόκκινο';
@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Δεν μπορείτε να κάνετε Ανώ
 $lang['CONFIRM_UNSUB'] = 'Είστε σίγουρος ότι θέλετε να διαγραφείτε από αυτή την ομάδα;';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Η συνδρομή σας σε αυτή την ομάδα δεν έχει ακόμη εγκριθεί * είστε σίγουρος ότι θέλετε να διαγραφείτε από τη συνδρομή;';
 
-$lang['UNSUB_SUCCESS'] = 'Έχετε οηε-εγγραφεί από αυτή την ομάδα.';
+$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
 
 $lang['APPROVE_SELECTED'] = 'Εγκρίνει Επιλεγμένο';
 $lang['DENY_SELECTED'] = 'Άρνηση Επιλεγμένο';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Δεν είσαι moderator του φόρουμ αυτού.';
-$lang['NOT_AUTHORISED'] = 'Δεν Επιτρέπεται';
+$lang['NOT_AUTHORISED'] = 'Not Authorized';
 
 $lang['YOU_BEEN_BANNED'] = 'Έχετε απαγορευτεί από αυτό το φόρουμ. Για περισσότερες πληροφορίες, επικοινωνήστε με τον διαχειριστή του διοικητικού συμβουλίου.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Λυπάμαι αλλά δεν είστε ε�
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Περιγραφή'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Κατεβάστε το'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'Μέγεθος αρχείου';
+$lang['FILESIZE'] = 'File size';
 $lang['VIEWED'] = 'Είδαν';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Η επέκταση \'%s\' απενεργοποιήθηκε από τον διαχειριστή του πίνακα, επομένως αυτή η προσκόλληση δεν εμφανίζεται.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Το Συνημμένο είναι πολύ �
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Το Συνημμένο είναι πολύ μεγάλο.<br />Maximum Ανεβάστε Μέγεθος: %d MB.<br />Please να σημειώσετε ότι αυτό το Μέγεθος ορίζεται σε php.ini, αυτό σημαίνει ότι είναι σύνολο από PHP και το Συνημμένο Mod δεν μπορείτε να προσπεράσετε αυτή την τιμή.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Η Επέκταση %s δεν επιτρέπεται'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Δεν επιτρέπεται να δημοσιεύσετε τα Αρχεία με την Επέκταση %s μέσα σε αυτό το Φόρουμ'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Το Συνημμένο είναι πολύ μεγάλο.<br />Max Μέγεθος: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Συγγνώμη, αλλά το μέγιστο μέγεθος αρχείου για όλα τα Συνημμένα. Παρακαλείστε να επικοινωνήσετε με το Διαχειριστή του συστήματος, εάν έχετε ερωτήσεις.';
+$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Κατάσχεση δεν μπορεί να προστεθεί, από το max. αριθμός %d Συνημμένα σε αυτό το post επιτεύχθηκε'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Το Συνημμένο/Εικόνας πρέπει να είναι μικρότερη από %d εικονοστοιχεία πλάτος και %d εικονοκυττάρων υψηλά';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Ανεβάστε Σφάλμα: δεν θα Μπορούσε να ανεβάσετε Συνημμένο σε %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Θα πρέπει να εισάγετε τ
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Δεν είναι δυνατή η Ενημέρωση Συνημμένο, δεν μπορούσε να βρει παλιά Συνημμένο Εισόδου';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Συγγνώμη, αλλά το μέγιστο μέγεθος αρχείου για όλα τα Συνημμένα σε προσωπικό Μήνυμα Φάκελο που έχει επιτευχθεί. Παρακαλώ να διαγράψετε ορισμένα από τα λαμβάνονται/αποστέλλονται Συνημμένα.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Συγγνώμη, αλλά το μέγιστο μέγεθος αρχείου για όλα τα Συνημμένα στον Ιδιωτικό Μήνυμα Φάκελο "%s" έχει επιτευχθεί. Σε παρακαλώ, ή να περιμένετε έως ότου αυτός/αυτή έχει διαγραφεί κάποια Συνημμένα.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Δεν έχετε επιλέξει ένα συνημμένο για να το κατεβάσετε ή να δείτε.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Το Συνημμένο Δυνατότη
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Τον Κατάλογο \'%s" δεν υπάρχει ή δεν βρέθηκε.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Παρακαλώ ελέγξτε εάν "%s" είναι ένα directory.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Κατάλογο με %s " δεν είναι εγγράψιμο. Θα πρέπει να δημιουργήσετε το upload διαδρομή και το chmod σε 777 (ή να αλλάξετε τον ιδιοκτήτη να σας httpd-servers ιδιοκτήτη) για να φορτώσετε τα αρχεία.<br />If έχετε μόνο απλό FTP πρόσβαση αλλάξετε το "Χαρακτηριστικό" του καταλόγου για να rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Ανεβάστε Ποσόστωση';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Αναζήτηση Συνημμένα';
 $lang['TEST_SETTINGS'] = 'Δοκιμή Ρυθμίσεις';
 $lang['NOT_ASSIGNED'] = 'Δεν Έχει Εκχωρηθεί';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Δεν υπάρχει Αρχείο Σχόλιο διαθέσιμο';
-$lang['ATTACHBOX_LIMIT'] = 'Σας Attachbox is<br /><b>%d%%</b> πλήρη';
+$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
 $lang['NO_QUOTA_LIMIT'] = 'Κανένα Όριο';
 $lang['UNLIMITED'] = 'Απεριόριστη';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Άλλο ένα torrent με το ίδιο inf
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Τα torrents μόνο v1 έχουν απενεργοποιηθεί από τον διαχειριστή αυτή τη στιγμή, επιτρέπεται: v2 και υβρίδια';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Τα torrents μόνο v2 έχουν απενεργοποιηθεί από τον διαχειριστή αυτή τη στιγμή, επιτρέπεται: v1 και υβρίδια';
 $lang['BT_FLIST'] = 'Λίστα αρχείων';
-$lang['BT_FLIST_LIMIT'] = 'Οι ρυθμίσεις Tracker δεν επιτρέπουν την επεξεργασία λιστών με περισσότερα από %d αρχεία. Ο τρέχων αριθμός είναι: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'Η ρίζα Merkle του BitTorrent είναι ένα hash ενός αρχείου που ενσωματώνεται σε torrents με υποστήριξη BitTorrent v2, οι χρήστες του tracker μπορούν να το εξαγάγουν, να το υπολογίσουν, να κατεβάσουν επίσης deduplicated torrents χρησιμοποιώντας εργαλεία επιτραπέζιων υπολογιστών όπως <a href="%s" target="_blank" referrerpolicy="origin">Αναγνώστης Ρίζας Merkle Torrent</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Ημερομηνία δημιουργίας';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Θέα';
 $lang['GOLD'] = 'Χρυσό';
 $lang['SILVER'] = 'Ασημένιο';
 $lang['SET_GOLD_TORRENT'] = 'Κάνει χρυσό';
-$lang['UNSET_GOLD_TORRENT'] = 'Ακύρωσέ το χρυσό';
+$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
 $lang['SET_SILVER_TORRENT'] = 'Κάνει το ασήμι';
-$lang['UNSET_SILVER_TORRENT'] = 'Ακύρωσέ το ασήμι';
+$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
 $lang['GOLD_STATUS'] = 'ΧΡΥΣΌ TORRENT! ΚΑΤΕΒΆΣΤΕ ΚΥΚΛΟΦΟΡΊΑΣ ΔΕΝ ΛΑΜΒΆΝΕΙ ΥΠΌΨΗ!';
 $lang['SILVER_STATUS'] = 'ΑΣΗΜΈΝΙΟ TORRENT! ΚΑΤΕΒΆΣΤΕ ΚΥΚΛΟΦΟΡΊΑΣ ΕΝ ΜΈΡΕΙ ΝΑ ΘΕΩΡΗΘΕΊ!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Ο τύπος torrent άλλαξε σε: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Ο τύπος torrent άλλαξε σε: %s';
 $lang['TORRENT_STATUS'] = 'Αναζήτηση κατά κατάσταση κυκλοφορίας';
 $lang['SEARCH_IN_FORUMS'] = 'Αναζήτηση στο Φόρουμ';
 $lang['SELECT_CAT'] = 'Επιλέξτε κατηγορία';
-$lang['GO_TO_SECTION'] = 'Goto τμήμα';
+$lang['GO_TO_SECTION'] = 'Go to section';
 $lang['TORRENTS_FROM'] = 'Δημοσιεύσεις από';
 $lang['SHOW_ONLY'] = 'Εμφάνιση μόνο';
 $lang['SHOW_COLUMN'] = 'Εμφάνιση στήλης';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Αν η αναλογία πέφτει κάτω 
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder δει: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'Θα πρέπει να συνδεθείτε πρώτα';
+$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
 $lang['ONLY_FOR_MOD'] = 'Αυτή η επιλογή μόνο για συντονιστές';
 $lang['ONLY_FOR_ADMIN'] = 'Αυτή η επιλογή μόνο για τους admins';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Αυτή η επιλογή μόνο για super admins';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Ένας χρήστης %s είναι ήδη εγγε
 $lang['HIDDEN'] = 'Κρυφό';
 
 // from admin
-$lang['NOT_ADMIN'] = 'Δεν είστε εξουσιοδοτημένος για τη διαχείριση αυτού του πίνακα';
+$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
 
 $lang['COOKIES_REQUIRED'] = 'Τα Cookies πρέπει να είναι ενεργοποιημένη!';
 $lang['SESSION_EXPIRED'] = 'Συνεδρία έληξε';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Συγγνώμη, η εγγραφή είναι
 $lang['ONLY_NEW_POSTS'] = 'μόνο νέες θέσεις';
 $lang['ONLY_NEW_TOPICS'] = 'μόνο νέα θέματα';
 
-$lang['TORHELP_TITLE'] = 'Παρακαλώ βοηθήστε σπορά αυτών των torrents!';
+$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
 $lang['STATISTICS'] = 'Στατιστικά';
 $lang['STATISTIC'] = 'Στατιστική';
 $lang['VALUE'] = 'Τιμή';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Δεν συμφωνείτε με αυτούς τους ό�
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Για να εγγραφείτε, πρέπει να ενεργοποιήσετε την JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Η εγγραφή είναι προσωρινά κλειστή<br /><br />Η εγγραφή είναι διαθέσιμη κατά: %s<br />Τρέχουσα ώρα διακομιστή: %s<br /><br />Λυπάμαι για την ταλαιπωρία";
 $lang['AUTOCOMPLETE'] = 'Δημιουργία κωδικού πρόσβασης';
-$lang['YOUR_NEW_PASSWORD'] = 'Το νέο σας κωδικό πρόσβασης:';
+$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
 $lang['REGENERATE'] = 'Ανάπλαση';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Χρόνος εκτέλεσης:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'στις';
 $lang['OFF'] = 'από';
-$lang['MEMORY'] = 'Μεμ: ';
+$lang['MEMORY'] = 'Memory: ';
 $lang['QUERIES'] = 'ερωτήματα';
 $lang['LIMIT'] = 'Όριο:';
 $lang['SHOW_LOG'] = 'Εμφάνιση καταγραφής';
@@ -1572,7 +1572,7 @@ $lang['SUPERSCRIPT'] = 'Κείμενο σε υπερυψωμένο: [sup]κεί�
 $lang['SUBSCRIPT'] = 'Κείμενο σε υπογεγραμμένο: [sub]κείμενο[/sub]';
 $lang['QUOTE_TITLE'] = 'Παραθέτω το κείμενο: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Εισαγωγή εικόνας: [img]https://image_url[/img] (Ctrl+R)';
-$lang['URL'] = 'Url';
+$lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Εισαγωγή διεύθυνσης URL: [url]https://url[/url] ή [url=https://url]Κείμενο URL[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'Κώδικα επίδειξης: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Λίστα';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'Πελάτης BitTorrent';
 $lang['DL_FORMULA'] = 'Τύπος: Αποστέλλονται/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'σταμάτησε';
-$lang['DL_UPD'] = 'upd: ';
+$lang['DL_UPD'] = 'update time: ';
 $lang['DL_INFO'] = 'εμφανίζει τα δεδομένα <i><b>only για την τρέχουσα session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Απόκρυψη του ονόματος του πελάτη BitTorrent μου στη λίστα ομολόγων';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Απόκρυψη του ονόματος της χώρας μου στη λίστα ομολόγων';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Χρήστες ανά ημέρα';
 $lang['BOARD_STARTED'] = 'Πίνακας ξεκίνησε';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar καταλόγου μέγεθος';
 $lang['DATABASE_SIZE'] = 'Μέγεθος της βάσης δεδομένων';
-$lang['GZIP_COMPRESSION'] = 'Συμπίεση Gzip';
+$lang['GZIP_COMPRESSION'] = 'GZIP compression';
 $lang['NOT_AVAILABLE'] = 'Δεν είναι διαθέσιμη';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Κοίτα Φόρουμ';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Εδώ μπορείτε να αλλάξετε τα δικαιώματα και συντονιστής κατάσταση που ανατίθενται σε κάθε ομάδα χρηστών. Μην ξεχάσετε κατά την αλλαγή δικαιώματα της ομάδας ότι τα ατομικά δικαιώματα χρήστη μπορεί να εξακολουθούν να επιτρέπουν στο χρήστη καταχώρηση σε φόρουμ, κ. λπ. Θα πρέπει να προειδοποιούνται, αν αυτή είναι η περίπτωση.';
 $lang['USER_AUTH_EXPLAIN'] = 'Εδώ μπορείτε να αλλάξετε τα δικαιώματα και συντονιστής κατάσταση που έχουν ανατεθεί σε κάθε μεμονωμένο χρήστη. Μην ξεχάσετε κατά την αλλαγή δικαιωμάτων χρήστη ότι τα δικαιώματα της ομάδας μπορεί να εξακολουθούν να επιτρέπουν στο χρήστη καταχώρηση σε φόρουμ, κ. λπ. Θα πρέπει να προειδοποιούνται, αν αυτή είναι η περίπτωση.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Εδώ μπορείτε να αλλάξετε την άδεια επίπεδα του κάθε φόρουμ. Θα έχετε τόσο απλή και σύνθετη μέθοδο για να το κάνετε αυτό, όπου προηγμένη προσφέρει μεγαλύτερο έλεγχο του κάθε φόρουμ λειτουργία. Να θυμάστε ότι η αλλαγή την άδεια επίπεδο του φόρουμ θα επηρεάσει την οποία οι χρήστες μπορούν να εκτελούν τις διάφορες λειτουργίες εντός τους.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
 
 $lang['SIMPLE_MODE'] = 'Απλή Λειτουργία';
 $lang['ADVANCED_MODE'] = 'Προηγμένη Λειτουργία';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Επιτρέπεται Η Πρόσβαση';
 $lang['DISALLOWED_ACCESS'] = 'Δεν Επιτρέπεται Η Πρόσβαση';
 $lang['IS_MODERATOR'] = 'Είναι Συντονιστής';
 
-$lang['CONFLICT_WARNING'] = 'Έγκριση Σύγκρουση Προειδοποίηση';
+$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Αυτός ο χρήστης εξακολουθεί να έχει δικαιώματα πρόσβασης σε αυτό το φόρουμ μέσω ιδιότητα μέλους ομάδας. Μπορεί να θέλετε να αλλάξει τα δικαιώματα της ομάδας ή να καταργήσετε το χρήστη από την ομάδα να αποτρέψει πλήρως αυτούς που έχουν δικαιώματα πρόσβασης. Οι ομάδες χορήγηση δικαιωμάτων (και στο φόρουμ) είναι που αναφέρονται παρακάτω.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Αυτός ο χρήστης εξακολουθεί να έχει συντονιστής δικαιώματα σε αυτό το φόρουμ μέσω ιδιότητα μέλους ομάδας. Μπορεί να θέλετε να αλλάξει τα δικαιώματα της ομάδας ή να καταργήσετε το χρήστη από την ομάδα να αποτρέψει πλήρως τους moderator δικαιωμάτων. Οι ομάδες χορήγηση δικαιωμάτων (και στο φόρουμ) είναι που αναφέρονται παρακάτω.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Κάντε κλικ %sHere%s να επιστρ
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Γενική Διαμόρφωση';
-$lang['CONFIG_EXPLAIN'] = 'Η παρακάτω φόρμα θα σας επιτρέψει να προσαρμόσετε όλες τις γενικές επιλογές του σκάφους. Για το Χρήστη και το Φόρουμ συνθέσεις η χρήση τους σχετικούς συνδέσμους στην αριστερή πλευρά.';
+$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
 
 $lang['CONFIG_MODS'] = 'Διαμόρφωση τροποποιήσεις';
 $lang['MODS_EXPLAIN'] = 'Αυτή η μορφή σας επιτρέπει να ρυθμίσετε τις τροποποιήσεις';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Ενεργοποίηση Φόρουμ Κλάδεμα';
 $lang['ALLOW_BBCODE'] = 'Επιτρέπουν BBCode';
 $lang['ALLOW_SMILIES'] = 'Επιτρέπουν Smilies';
 $lang['SMILIES_PATH'] = 'Smilies Διαδρομή Αποθήκευσης';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Διαδρομή κάτω από το TorrentPier root dir, π. χ. μορφές/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Επιτρέπουν Υπογραφές';
 $lang['MAX_SIG_LENGTH'] = 'Μέγιστο μήκος υπογραφή';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Μέγιστος αριθμός χαρακτήρων στο χρήστη υπογραφές';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Πόσο καιρό ένα autologin κλει
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Φόρουμ Διοίκησης';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Από αυτόν τον πίνακα μπορείτε να προσθέσετε, να διαγράψετε, να επεξεργαστείτε, να αλλάξετε τη σειρά και να επαν-συγχρονίστε τις κατηγορίες και φόρουμ';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
 $lang['EDIT_FORUM'] = 'Edit φόρουμ';
 $lang['CREATE_FORUM'] = 'Δημιουργία νέου φόρουμ';
 $lang['CREATE_SUB_FORUM'] = 'Δημιουργία υποφόρουμ';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Προκειμένου Ενημέρωση';
 $lang['CONFIG_UPDATED'] = 'Φόρουμ Διαμόρφωση Έχει Ενημερωθεί Με Επιτυχία';
 $lang['MOVE_UP'] = 'Κινηθεί προς τα επάνω';
 $lang['MOVE_DOWN'] = 'Μετακίνηση προς τα κάτω';
-$lang['RESYNC'] = 'Resync';
+$lang['RESYNC'] = 'Re-sync';
 $lang['NO_MODE'] = 'Δεν mode';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Η παρακάτω φόρμα θα σας επιτρέψει να προσαρμόσετε όλες τις γενικές επιλογές του σκάφους. Για το Χρήστη και το Φόρουμ συνθέσεις η χρήση τους σχετικούς συνδέσμους στην αριστερή πλευρά';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
 
 $lang['MOVE_CONTENTS'] = 'Μετακινήστε όλα τα περιεχόμενα';
 $lang['FORUM_DELETE'] = 'Διαγραφή Φόρουμ';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. το μήκος των ειδήσεων';
-$lang['NEWS_COUNT'] = 'Πόσα νέα εμφάνιση';
+$lang['NEWS_COUNT'] = 'How many news items to show';
 $lang['NEWS_FORUM_ID'] = 'Από ποια φόρουμ να εμφανίσετε <br /> <h6>Για αρκετά φόρουμ, καθορίστε τα IDs χωρισμένα με κόμματα. Παράδειγμα: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Δεν avatar';
 $lang['TRACKER_STATS'] = 'Τα στατιστικά στοιχεία του tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Των Ορίων';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Ρυθμίσεις Σύνδεσης';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Εδώ μπορείτε να ρυθμίσετε τις Κύριες Ρυθμίσεις για την Κατάσχεση Mod. Αν πατήσετε το Τεστ Κουμπί Ρυθμίσεις (settings), το Συνημμένο Mod κάνει μερικές Δοκιμές του Συστήματος για να βεβαιωθείτε ότι ο νεαρός Δικυκλιστής θα λειτουργήσει σωστά. Αν έχετε προβλήματα με το φόρτωμα των Αρχείων, εκτελέστε αυτό το Τεστ, για να πάρετε μια λεπτομερή σφάλμα το μήνυμα.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Συνημμένο Μέγεθος Αρχείου Ρυθμίσεων';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Συνημμένο Αριθμό Ρυθμίσεις';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Επιλογές Σύνδεσης';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Εδώ μπορείτε να επιλέ
 $lang['SHOW_APCP'] = 'Χρησιμοποιήστε το νέο control panel εφαρμογές';
 $lang['SHOW_APCP_EXPLAIN'] = 'Επιλέξτε αν θέλετε να χρησιμοποιήσετε ένα ξεχωριστό control panel εφαρμογές (ναι), ή την παλιά μέθοδο με δύο κουτιά για εφαρμογές και εφαρμογές επεξεργασίας (none) στο πλαίσιο μηνύματος. Είναι δύσκολο να εξηγήσουμε πώς φαίνεται, ώστε να προσπαθήσουμε για τον εαυτό σας.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'Μέγεθος αρχείου';
+$lang['MAX_FILESIZE_ATTACH'] = 'File size';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Μέγιστο μέγεθος αρχείου για Συνημμένα. Μια τιμή 0 σημαίνει "απεριόριστη". Αυτή η Ρύθμιση περιορίζεται από τη Διαμόρφωση του Διακομιστή σας. Για παράδειγμα, αν η Ρύθμιση της php επιτρέπει μόνο μέχρι 2 MB upload, αυτό δεν μπορεί να αντικατασταθεί από το Υπεθα.';
 $lang['ATTACH_QUOTA'] = 'Κατάσχεση Ποσόστωσης';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Μέγιστο Χώρο στο Δίσκο ΌΛΑ τα Συνημμένα μπορεί να κρατήσει Webspace σας. Μια τιμή 0 σημαίνει "απεριόριστη".';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Διαγραφή όλων απόσπ�
 $lang['EMPTY_FILE_ENTRY'] = 'Κενό Αρχείο Εισόδου';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Μικρογραφία είναι για Σύνδεση: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Ο συγχρονισμός συνημμένου ολοκληρώθηκε.';
 $lang['SYNC_TOPICS'] = 'Θέματα Συγχρονισμού';
 $lang['SYNC_POSTS'] = 'Συγχρονίσετε Θέσεις';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Διαχείριση Ειδικών Κατηγορ
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Εδώ μπορείτε να ρυθμίσετε τις Ειδικές Κατηγορίες. Μπορείτε να ορίσετε Ειδικές Παραμέτρους και Συνθήκες για τις Ειδικές Κατηγορίες που έχουν ανατεθεί σε μια Ομάδα Επέκτασης.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Ρυθμίσεις για την Ειδική Κατηγορία: Εικόνες';
 $lang['SETTINGS_CAT_FLASH'] = 'Ρυθμίσεις για την Ειδική Κατηγορία: τα Αρχεία Flash';
-$lang['DISPLAY_INLINED'] = 'Επίδειξη Εικόνες Inlined';
+$lang['DISPLAY_INLINED'] = 'Display Images Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Επιλέξτε εάν θέλετε να εμφανίσετε τις εικόνες κατευθείαν μέσα στο post (ναι) ή για να εμφανίσετε τις εικόνες, όπως μια σύνδεση;';
 $lang['MAX_IMAGE_SIZE'] = 'Μέγιστες Διαστάσεις Εικόνας';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Εδώ μπορείτε να ορίσετε τη μέγιστη επιτρεπόμενη Διάσταση Εικόνας για να συνδεθεί (Πλάτος x Ύψος σε pixels).<br />If έχει οριστεί σε 0x0, αυτή η δυνατότητα είναι απενεργοποιημένη. Με μερικές Εικόνες από αυτό το Χαρακτηριστικό δεν θα λειτουργήσει λόγω περιορισμών στην PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Αν αυτό ορίζεται Διάστα�
 $lang['ASSIGNED_GROUP'] = 'Ανατεθεί Ομάδα';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Δημιουργία Μικρογραφιών';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Ελάχιστη Μικρογραφία Μέγεθος Αρχείου';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Αν μια Εικόνα είναι μικρότερο από αυτό που ορίζεται Filesize, καμία Μικρογραφία, θα δημιουργηθεί, επειδή είναι αρκετά μικρή.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Διαχείριση Απαγορεύεται Επεκτάσεις';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Το απαγορευμένο Επέκτα
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Η Επέκταση %s ορίζεται στο επιτρέπονται Επεκτάσεις, παρακαλούμε να το διαγράψετε τους, πριν την προσθέσετε εδώ.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Επέκταση Δικαιώματα Της Ομάδας -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Εδώ είστε σε θέση να περιορίσετε την επιλεγμένη Επέκταση του Ομίλου σε Φόρουμ της επιλογής σας (που ορίζεται στο Επιτρέπονται Φόρουμ Κουτί). Η Προεπιλογή είναι να επιτρέψει την Επέκταση των Ομάδων σε όλα τα Φόρουμ, ο Χρήστης είναι σε θέση να Επισυνάψετε Αρχεία σε (τον κανονικό τρόπο το Συνημμένο Mod να το έκανε από την αρχή). Απλά προσθέστε αυτά τα Φόρουμ θα ήθελα την Επέκταση του Ομίλου (οι Επεκτάσεις μέσα σε αυτή την Ομάδα) να επιτρέπεται η προεπιλογή σε ΌΛΑ τα ΦΌΡΟΥΜ που θα εξαφανιστεί όταν προσθέτετε Φόρουμ στη Λίστα. Είστε σε θέση να προσθέσετε εκ νέου ΌΛΑ τα ΦΌΡΟΥΜ σε κάθε δεδομένη Στιγμή. Εάν προσθέσετε ένα Φόρουμ για να του Σκάφους σας και την Άδεια ορίζεται σε ΌΛΟ το ΦΌΡΟΥΜ τίποτα δεν θα αλλάξει. Αλλά αν έχεις αλλάξει και να περιορίζεται η πρόσβαση σε ορισμένα Φόρουμ, θα πρέπει να ελέγξετε πίσω εδώ για να προσθέσετε το νεοσύστατο Φόρουμ. Είναι εύκολο να το κάνει αυτό αυτόματα, αλλά αυτό θα σας αναγκάσει να επεξεργαστείτε μια δέσμη των Αρχείων, ως εκ τούτου, έχω επιλέξει τον τρόπο που είναι τώρα. Παρακαλώ να έχετε κατά νου, ότι όλα τα Φόρουμ θα πρέπει να αναφέρονται εδώ.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'ΣΗΜΕΊΩΣΗ:<br />Within το παρακάτω Φόρουμ, οι Χρήστες σας είναι συνήθως επιτρέπεται να επισυνάψετε αρχεία, αλλά δεδομένου ότι δεν Παράταση Ομάδα επιτρέπεται να είναι κολλημένο εκεί, οι Χρήστες σας δεν είναι σε θέση να αποδίδουν τίποτα. Αν το δοκιμάσετε, θα λάβετε Μηνύματα Λάθους. Ίσως να θέλετε να ρυθμίσετε την Άδεια "Μετά Αρχείων" για να το ADMIN σε αυτά τα Φόρουμ.<br /><br />';
 $lang['ADD_FORUMS'] = 'Προσθέστε Φόρουμ';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Συνημμένα δεν πληρούντα�
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Αριθμός Συνημμένων';
-$lang['TOTAL_FILESIZE'] = 'Συνολικό Μέγεθος Αρχείου';
+$lang['TOTAL_FILESIZE'] = 'Total File Size';
 $lang['NUMBER_POSTS_ATTACH'] = 'Αριθμός μηνυμάτων με Συνημμένα';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Ο αριθμός των Θεμάτων, με τα Συνημμένα';
 $lang['NUMBER_USERS_ATTACH'] = 'Ανεξάρτητους Χρήστες Δημοσιεύτηκε Συνημμένα';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'κρατήστε πατημένο το <i>Ctrl
 $lang['REG_TORRENTS'] = 'Εγγραφείτε torrents';
 $lang['DISALLOWED'] = 'Απαγορεύεται';
 $lang['ALLOW_REG_TRACKER'] = 'Επιτρέπεται φόρουμ για την εγγραφή .torrents για tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Επιτρέπεται να δημοσιεύσετε το περιεχόμενο 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Εμφάνιση κουμπιά για να αλλάξετε με μη αυτόματο τρόπο DL-κατάσταση';
 $lang['SELF_MODERATED'] = 'Οι χρήστες μπορούν να <b>move</b> τους θέματα σε άλλο φόρουμ';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Κωδικό';
 $lang['BT_ADD_AUTH_KEY'] = 'Επιτρέπουν την προσθήκη κωδικό για να το torrent αρχεία πριν από τη λήψη';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent πρόγραμμα περιήγησης (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent πρόγραμμα περιήγησης (tracker.php) είναι προσβάσιμο μόνο για συνδεδεμένους χρήστες';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Επιτρέπουν boolean full-text αναζητήσεις';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'χρήση *, +, -,.. στις αναζητήσεις';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Διάφορος";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Εμφάνιση στατιστικών UL/DL χρηστών στην κορυφή της κύριας σελίδας του φόρουμ";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Αναζωογονεί το ποσοστό';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Πόσο χρόνο (σε δευτερόλεπτα) για να μείνει αδρανής πριν από τη μετάβαση στο επόμενο επεξεργασία cycle<br />Usually δεν χρειάζεται να το αλλάξετε αυτό';
 
 $lang['TIME_LIMIT'] = 'Προθεσμία';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Πόσο χρόνο (σε δευτερόλεπτα) μετά την επεξεργασία μπορεί να διαρκέσει πριν από τη μετάβαση σε επόμενο κύκλο';
+$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Η PHP σας (λειτουργία ασφαλείας) έχει οριστεί σε χρονικό όριο %s δευτερολέπτων, έτσι μείνετε κάτω από αυτή την τιμή</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver έχει ένα χρονικό όριο των %s δευτερόλεπτα ρυθμιστεί, έτσι ώστε να παραμείνει κάτω από αυτό το value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Με επιτυχία τελείωσε 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Αναδόμηση Αναζήτηση Πρόοδο';
 
-$lang['PROCESSED_POST_IDS'] = 'Επεξεργασία ταχυδρομείο ids : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Χρονόμετρο λήξει στο %s δευτερόλεπτα. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Καθάρισε πίνακες αναζήτησης. ';
 $lang['DELETED_POSTS'] = '%s post(s) είχαν διαγραφεί από τους χρήστες σας κατά τη διάρκεια της επεξεργασίας. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Όλα';
 
 $lang['TPL_EMPTY_FIELD'] = 'Θα πρέπει να συμπληρώσετε το πεδίο <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Θα πρέπει να επιλέξετε <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Πρέπει να είναι https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Πρέπει να είναι https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'βάλτε στο θέμα';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Αναζήτηση για χρήστες
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Αναζήτηση για χρήστες με ένα post count μεταξύ %d και %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Αναζήτηση για χρήστες με ένα post count αξία %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Αναζήτηση για χρήστες Twitter που ταιριάζουν %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Αναζήτηση για χρήστες με μια Ιστοσελίδα που ταιριάζουν %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Αναζήτηση για χρήστες με μια Τοποθεσία που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Αναζήτηση για χρήστες με τους Συμφέροντα πεδίο που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Αναζήτηση για χρήστες με τους Επάγγελμα πεδίο που ταιριάζουν %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Ισούται με';
 $lang['GREATER_THAN'] = 'Μεγαλύτερη από';
 $lang['LESS_THAN'] = 'Λιγότερο από';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Μπορείτε να αναζητήσετε χρήστες με βάση την τιμή του πλήθους αναρτήσεων. Μπορείτε είτε να κάνετε αναζήτηση με βάση μια συγκεκριμένη τιμή, μεγαλύτερη ή μικρότερη από μια τιμή είτε μεταξύ δύο τιμών. Για να κάνετε την αναζήτηση εύρους, επιλέξτε "Equals" και στη συνέχεια βάλτε τις τιμές αρχής και τέλους του εύρους χωρισμένες με μια παύλα (-), π.χ. 10-15';
-$lang['USERFIELD'] = 'Userfield';
+$lang['USERFIELD'] = 'User field';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Αναζήτηση για χρήστες με βάση διάφορα πεδία προφίλ. Μπαλαντέρ υποστηρίζονται χρησιμοποιώντας τον αστερίσκο (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Μπορείτε να αναζητήσετε χρήστες με βάση την τελευταία ημερομηνία σύνδεσης χρησιμοποιώντας αυτή την επιλογή αναζήτησης';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Αυτό θα εμφανίσει τους χρήστες τους οποίους έχετε επιλέξει μια συγκεκριμένη γλώσσα στο Προφίλ τους';
