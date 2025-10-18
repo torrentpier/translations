@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Vista nou post';
 $lang['PAGE_OF'] = 'Pàgina <b>%d</b> de <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Has introduït una invalid Twitter inici de sessió';
 
 $lang['FORUM_INDEX'] = '%s Índex Del Fòrum'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Esteu segur que voleu suprimir aquesta enquesta?
 $lang['FLOOD_ERROR'] = 'No es pot fer un altre post tan aviat després de la seva última; si us plau, torneu a intentar en un curt període de temps';
 $lang['EMPTY_SUBJECT'] = 'Heu d\'especificar un tema';
 $lang['EMPTY_MESSAGE'] = 'Has d\'introduir un missatge';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'El fòrum està bloquejat';
+$lang['TOPIC_LOCKED'] = 'Tema tancat';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema tancat';
 $lang['NO_POST_ID'] = 'Vostè ha de seleccionar un post per editar';
 $lang['NO_TOPIC_ID'] = 'Vostè ha de seleccionar un tema per a respondre';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Verd Fosc';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Enquesta';
+$lang['MODERATE'] = 'Moderador';
 $lang['SEND_PM_SHORT'] = 'H';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Buscant per als usuaris amb un post com
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Buscant per als usuaris amb un post comte menys de %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Buscant per als usuaris amb un post comptar entre %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Buscant per als usuaris amb un post comte valor de %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Buscant per als usuaris amb un Twitter coincidents %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Recerca per a usuaris amb una pàgina Web coincidents %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Recerca per a usuaris amb una Ubicació coincidents %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Buscant per als usuaris amb els seus Interessos camp de concordança %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Dia';
 $lang['POST_EDIT_CANNOT'] = 'Ho sentim, però no pots editar els missatges';
 $lang['FORUMS_IN_CAT'] = 'els fòrums en aquesta categoria';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Comentari de moderació';
 $lang['MC_LEGEND'] = 'Escriu un comentari';
 $lang['MC_FAQ'] = 'El text introduït, apareixerà en aquest missatge';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s en el seu missatge";
