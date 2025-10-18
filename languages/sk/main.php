@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Zobraziť najnovšie príspevok';
 $lang['PAGE_OF'] = 'Stránka <b>%d</b> z <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Zadali ste neplatný Twitter prihlásiť sa';
 
 $lang['FORUM_INDEX'] = '%s Fórum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Ste si istý, že chcete odstrániť túto anket
 $lang['FLOOD_ERROR'] = 'Nemôžete vykonávať iné pracovné miesto tak skoro po poslednej; prosím, skúste znova v krátkom čase';
 $lang['EMPTY_SUBJECT'] = 'Musíte zadať predmet';
 $lang['EMPTY_MESSAGE'] = 'Musíte zadať správu';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Fórum je zamknuté';
+$lang['TOPIC_LOCKED'] = 'Téma uzamknutá';
 $lang['TOPIC_LOCKED_SHORT'] = 'Téma uzamknutá';
 $lang['NO_POST_ID'] = 'Musíte vybrať príspevok na úpravu';
 $lang['NO_TOPIC_ID'] = 'Musíte vybrať tému, odpovedať na';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Tmavo Zelená';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Anketa';
+$lang['MODERATE'] = 'Moderovať';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Vyhľadávanie pre užívateľov s post
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Vyhľadávanie pre užívateľov s počet príspevkov menej ako %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Vyhľadávanie pre užívateľov s post počítať medzi %d a %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Vyhľadávanie pre užívateľov s post počítať hodnotu %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Vyhľadávanie pre užívateľov s Twitter zodpovedajúce %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Vyhľadávanie pre užívateľov s Webovej stránke zodpovedajúce %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Vyhľadávanie pre používateľov so Umiestnenie zodpovedajúce %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Vyhľadávanie pre užívateľov s ich Záujmami pole zodpovedajúce %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Deň';
 $lang['POST_EDIT_CANNOT'] = 'Ľutujeme, ale nemôžete upravovať príspevky';
 $lang['FORUMS_IN_CAT'] = 'fóra v tejto kategórii';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Komentár moderátora';
 $lang['MC_LEGEND'] = 'Napíšte komentár';
 $lang['MC_FAQ'] = 'Zadaný text sa zobrazí pod túto správu';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s v správe";
