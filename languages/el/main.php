@@ -82,8 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Δείτε την τελευταία θέση';
 $lang['VIEW_NEWEST_POST'] = 'Δείτε νεότερο post';
 $lang['PAGE_OF'] = 'Σελίδα <b>%d</b> της <b>%s</b>';
 
-$lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER'] = 'Το Twitter)';
+$lang['TWITTER_ERROR'] = 'Έχετε εισάγει μια μη έγκυρη Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Είστε σίγουρος ότι θέλετε 
 $lang['FLOOD_ERROR'] = 'Δεν μπορείτε να κάνετε άλλη θέση τόσο σύντομα μετά το τελευταίο σας παρακαλώ προσπαθήστε ξανά σε λίγο';
 $lang['EMPTY_SUBJECT'] = 'Πρέπει να καθορίσετε ένα θέμα';
 $lang['EMPTY_MESSAGE'] = 'Θα πρέπει να εισάγετε ένα μήνυμα';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Το φόρουμ είναι κλειδωμένο';
+$lang['TOPIC_LOCKED'] = 'Το θέμα είναι κλειδωμένο';
 $lang['TOPIC_LOCKED_SHORT'] = 'Το θέμα κλειδώνεται';
 $lang['NO_POST_ID'] = 'Θα πρέπει να επιλέξετε μια θέση για να επεξεργαστείτε';
 $lang['NO_TOPIC_ID'] = 'Θα πρέπει να επιλέξετε ένα θέμα για να απαντήσετε';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Σκούρο Πράσινο';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Δημοσκόπηση';
+$lang['MODERATE'] = 'Συντονιστής';
 $lang['SEND_PM_SHORT'] = 'ΜΜ';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Αναζήτηση για χρήστε�
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Αναζήτηση για χρήστες με ένα post count λιγότερο από %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Αναζήτηση για χρήστες με ένα post count μεταξύ %d και %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Αναζήτηση για χρήστες με ένα post count αξία %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Αναζήτηση για χρήστες Twitter που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Αναζήτηση για χρήστες με μια Ιστοσελίδα που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Αναζήτηση για χρήστες με μια Τοποθεσία που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Αναζήτηση για χρήστες με τους Συμφέροντα πεδίο που ταιριάζουν %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Ημέρα';
 $lang['POST_EDIT_CANNOT'] = 'Λυπάμαι, αλλά δεν μπορείτε να επεξεργαστείτε τα μηνύματα';
 $lang['FORUMS_IN_CAT'] = 'φόρουμ σε αυτή την κατηγορία';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Σχόλιο συντονιστή';
 $lang['MC_LEGEND'] = 'Πληκτρολογήστε ένα σχόλιο';
 $lang['MC_FAQ'] = 'Τέθηκε το κείμενο θα εμφανιστεί κάτω από αυτό το μήνυμα';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s στο μήνυμά σας";
