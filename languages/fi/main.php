@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Näytä uusin viesti';
 $lang['PAGE_OF'] = 'Sivu <b>%d</b> ja <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Olet antanut epäkelvon Twitter kirjautuminen';
 
 $lang['FORUM_INDEX'] = '%s Forum-Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Oletko varma, että haluat poistaa tämän kysel
 $lang['FLOOD_ERROR'] = 'Et voi tehdä toiseen virkaan, niin pian sen jälkeen, kun viimeinen, ole hyvä ja yritä uudelleen hetken kuluttua';
 $lang['EMPTY_SUBJECT'] = 'Sinun on määritettävä aihe';
 $lang['EMPTY_MESSAGE'] = 'Sinun täytyy syöttää viestin';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Foorumi on lukittu';
+$lang['TOPIC_LOCKED'] = 'Aihe lukittu';
 $lang['TOPIC_LOCKED_SHORT'] = 'Aihe lukittu';
 $lang['NO_POST_ID'] = 'Sinun täytyy valita viesti muokkaa';
 $lang['NO_TOPIC_ID'] = 'Sinun täytyy valita aihe, vastata';
@@ -1397,7 +1397,7 @@ $lang['COLOR_DARK_GREEN'] = 'Tumma Vihreä';
 // Short buttons
 $lang['IP'] = 'IP';
 $lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['MODERATE'] = 'Moderaattori';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Etsivät käyttäjät, joilla on post c
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Etsivät käyttäjät, joilla on post count vähemmän kuin %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Etsivät käyttäjät, joilla on post count välillä %d ja %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Etsivät käyttäjät, joilla on post count-arvo %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Etsivät käyttäjät, joilla on Twitter-matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Etsivät käyttäjät, joilla on Sivuston matching %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Etsimällä käyttäjille Sijainti matching %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Etsiminen käyttäjien kanssa heidän Etujaan alalla matching %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Päivä';
 $lang['POST_EDIT_CANNOT'] = 'Pahoillani, mutta et voi muokata viestejäsi';
 $lang['FORUMS_IN_CAT'] = 'foorumeilla tähän luokkaan';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderointi kommentti';
 $lang['MC_LEGEND'] = 'Kirjoita kommentti';
 $lang['MC_FAQ'] = 'Syötetty teksti näytetään alla tämä viesti';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s viestisi";
