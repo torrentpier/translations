@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Pielikums ir pārāk liels.<br />Maximum
 $lang['DISALLOWED_EXTENSION'] = 'Pagarinājuma %s nav atļauta'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Jums nav atļauts ievietot Failus ar Paplašinājumu %s šajā Forumā'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Pielikums ir pārāk liels.<br />Maksimālais izmērs: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Atvainojiet, bet maksimālais izmērs visiem pielikumiem ir sasniegts. Lūdzu, sazinieties ar Valdes administratoru, ja jums ir jautājumi.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Pielikumu nevar pievienot, jo maks. skaits %d Pielikumus šajā amatā tika sasniegts'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Pielikumu/Attēls nedrīkst būt mazāks par %d pikseļus plats un %d pikseļus augsts';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Augšupielādes Kļūda: Nevarēja augšupielādēt Pielikumu %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Jums ir, lai ievadītu vērtību "Pievienot Pielikumu" Kameras';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nevar Atjaunināt Pielikumu, nevar atrast veco Pielikumu Ierakstu';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Atvainojiet, bet maksimālais izmērs visiem pielikumiem jūsu Privātās ziņas mapē ir sasniegts. Lūdzu, dzēsiet dažus no saņemtajiem/nosūtītajiem pielikumiem.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Atvainojiet, bet maksimālais izmērs visiem pielikumiem privātās ziņas mapē \'%s\' ir sasniegts. Lūdzu, informējiet viņu, vai gaidiet, līdz viņš/viņa ir izdzēsis dažus no viņa/viņas pielikumiem.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jūs neesat izvēlēto pielikumu, lai ielādētu vai apskatītu.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Direktorija \'%s\' neeksistē vai tam nevar
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Lūdzu, pārbaudiet, ja "%s" ir katalogs.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalogs \'%s\' nav rakstāms. Jums ir jāizveido augšupielādes ceļš un jāiestata chmod uz 777 (vai jāmaina īpašnieks uz jūsu httpd-servera īpašnieku), lai augšupielādētu failus.<br />Ja jums ir tikai parasta FTP piekļuve, mainiet "Atribūtu" katalogam uz rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Augšupielādēt Kvotas';
-$lang['PM_QUOTA'] = 'PM Kvotas';
-
 // Common Variables
 $lang['BYTES'] = 'Baiti';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Testu Iestatījumi';
 $lang['NOT_ASSIGNED'] = 'Nav Piešķirts';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Neviens Fails Komentāru pieejams';
 $lang['ATTACHBOX_LIMIT'] = 'Jūsu Pielikumu kastīte ir<br /><b>%d%%</b> pilna';
-$lang['NO_QUOTA_LIMIT'] = 'Nē Kvotas Limitu';
 $lang['UNLIMITED'] = 'Neierobežots';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Vienkāršais Režīms';
 $lang['ADVANCED_MODE'] = 'Advanced Mode (Papildu Režīms';
 $lang['MODERATOR_STATUS'] = 'Moderators statuss';
 
-$lang['ALLOWED_ACCESS'] = 'Atļauta Piekļuve';
-$lang['DISALLOWED_ACCESS'] = 'Neattaisnot Piekļuve';
-$lang['IS_MODERATOR'] = 'Ir Moderators';
-
-$lang['CONFLICT_WARNING'] = 'Autorizācijas konfliktu brīdinājums';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Šis lietotājs vēl ir piekļuves tiesības attiecībā uz šo forumu, izmantojot grupas dalību. Jūs varat mainīt grupas atļaujas vai noņemtu šo lietotāju grupas, lai pilnībā novērstu tos, kam ir piekļuves tiesības. Grupām, kas piešķir tiesības (un forumiem iesaistīti), ir norādīti zemāk.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Šis lietotājs vēl ir moderators tiesības uz šo forumu, izmantojot grupas dalību. Jūs varat mainīt grupas atļaujas vai noņemtu šo lietotāju grupas, lai pilnībā novērstu tos, kam moderators tiesības. Grupām, kas piešķir tiesības (un forumiem iesaistīti), ir norādīti zemāk.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Šīm lietotājam (vai lietotāju), tomēr ir piekļuves tiesības attiecībā uz šo forumu, izmantojot savu lietotāja atļauju iestatījumi. Jūs varat mainīt lietotāja atļauju, lai pilnībā novērstu tos, kam ir piekļuves tiesības. Lietotāji piešķir tiesības (un forumiem iesaistīti), ir norādīti zemāk.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Šīm lietotājam (vai lietotāju), tomēr ir moderators tiesības uz šo forumu, izmantojot savu lietotāja atļauju iestatījumus. Jūs varat mainīt lietotāja atļauju, lai pilnībā novērstu tos, kam moderators tiesības. Lietotāji piešķir tiesības (un forumiem iesaistīti), ir norādīti zemāk.';
-
 $lang['PUBLIC'] = 'Valsts';
 $lang['PRIVATE'] = 'Privāti';
 $lang['REGISTERED'] = 'Reģistrēts';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Balsot';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Aptauja izveidot';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Failu Publicēšana';
 $lang['AUTH_DOWNLOAD'] = 'Lejupielādēt Failu';
-
-$lang['SIMPLE_PERMISSION'] = 'Vienkārši Atļaujas';
 
 $lang['USER_LEVEL'] = 'Lietotāja Līmenis';
 $lang['AUTH_USER'] = 'Lietotājs';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Vietnes nosaukums';
 $lang['SITE_DESC'] = 'Vietas apraksts';
 $lang['FORUMS_DISABLE'] = 'Izslēgt valde';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Tas padarīs valdes pieejama lietotājiem. Administratoriem ir iespēja piekļūt Administrācijas Panelis, kamēr uz kuģa, ir atspējots.';
-$lang['ACCT_ACTIVATION'] = 'Iespēju konta aktivizēšana';
 $lang['ACC_NONE'] = 'Nav'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Lietotājs';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Ļauj Parakstu';
 $lang['MAX_SIG_LENGTH'] = 'Maksimālais garums paraksts';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimālais rakstzīmju skaits, jo lietotāja parakstu';
 $lang['ALLOW_NAME_CHANGE'] = 'Ļauj Lietotājvārdu izmaiņas';
-
-$lang['EMAIL_SETTINGS'] = 'E-Pasta Uzstādījumi';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Aktivizēt Vizuālo Apstiprinājumu';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Pieprasa lietotājiem ievadīt kodu noteikts attēlu, reģistrējot.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Atļaujot automātisku pieteikšanos';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos 
 
 // User Management
 $lang['USER_ADMIN'] = 'Lietotāju Administrēšana';
-$lang['USER_ADMIN_EXPLAIN'] = 'Šeit jūs varat mainīt savu lietotāju informāciju un atsevišķas opcijas (iespēju līgumus. Lai mainītu lietotāju atļaujas, lūdzu, izmantojiet lietotāju un grupu atļaujas sistēmas.';
-
 $lang['LOOK_UP_USER'] = 'Meklēt lietotāja';
-
-$lang['ADMIN_USER_FAIL'] = 'Nevarēja atjaunināt lietotāja profilu.';
-$lang['ADMIN_USER_UPDATED'] = 'Lietotāja profils nav bijuši sekmīgi atjaunināts.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Noklikšķiniet uz %sHere%s atgriezties Lietotāja Administrācija';
-
-$lang['USER_ALLOWPM'] = 'Var sūtīt Privātās Ziņas';
-$lang['USER_ALLOWAVATAR'] = 'Var parādīt avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Šeit jūs varat redzēt un dzēst lietotāja pašreizējo avataru.';
-
-$lang['USER_SPECIAL'] = 'Īpašas admin-tikai lauki';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Šie lauki nav iespējams grozīt lietotāji. Šeit jūs varat iestatīt savu statusu un citas iespējas, kas nav dota lietotājiem.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupas Administrācija';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Daļa papildus iespēju apmainīties ar prēmij
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Vadības Panelis';
-$lang['SHADOW_ATTACHMENTS'] = 'Ēnu Pielikumus';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Aizliegts Paplašinājumi';
 $lang['EXTENSION_CONTROL'] = 'Pagarinājuma Kontroli';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Pagarinājums Kontroles Grupu';
 $lang['SPECIAL_CATEGORIES'] = 'Īpašu Kategoriju';
-$lang['SYNC_ATTACHMENTS'] = 'Sinhronizēt Pielikumus';
-$lang['QUOTA_LIMITS'] = 'Kvotas Robežās';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Pielikumu Uzstādījumi';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Pielikumu Tēmu Ikonas';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Šis Attēls tiek rādīts pirms tēmas ar Pielikumiem. Atstājiet šo lauku tukšu, ja nevēlaties ikonas, lai varētu parādīt.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Pielikumu Attēlošanas Secība';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Šeit jūs varat izvēlēties, vai rādīt Pielikumus Amati/PMs Dilstošā Filetime Secībā (Jaunākās Pirmo Pielikumu), vai Augošā Filetime Secībā (Vecākā Pirmo Pielikumu).';
-$lang['SHOW_APCP'] = 'Izmantot jaunos control panel';
-$lang['SHOW_APCP_EXPLAIN'] = 'Izvēlēties, vai vēlaties izmantot atsevišķu control panel (jā), vai vecā metode ar diviem lodziņiem pieteikumus un rediģēšanas lietojumprogrammas (nav) ziņojuma lodziņš. To ir grūti izskaidrot, kā tas izskatās, lai mēģinātu par sevi.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Faila izmērs';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimālais izmērs Pielikumiem. Vērtība 0 nozīmē "neierobežotu". Šis Uzstādījums ir ierobežota ar jūsu Servera Konfigurācijas. Piemēram, ja jūsu php Konfigurācijas tikai ļauj maksimāli 2 MB uploads, tas nevar būt pārrakstīts ar Mod.';
-$lang['ATTACH_QUOTA'] = 'Pielikumu Kvotas';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimālais Diska Vietas, VISUS Pielikumus var turēt uz jūsu Webspace. Vērtība 0 nozīmē "neierobežotu".';
 $lang['MAX_FILESIZE_PM'] = 'Maksimālais Izmērs Privātās Ziņas Mapē';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimālais Diska Vietas Pielikumus var izmantot līdz katra Lietotāja Privāto Ziņu kastē. Vērtība 0 nozīmē "neierobežotu".';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Noklusējuma Kvotas Limitu';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Šeit jums ir iespēja, lai izvēlētos Noklusējuma Kvotas Limitu, kas automātiski piešķirta pirmo reizi reģistrētiem Lietotājiem un Lietotājiem, bez definētas Kvotas Ierobežojums. Iespēja "Nē Kvotas Ierobežojums" nav, izmantojot jebkuru uzgali Kvotas, tā vietā izmantojot noklusējuma Iestatījumus, ko esat definējis šajā Vadības Panelis.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maksimālais Skaits Pielikumus';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimālais skaits pielikumus atļauts vienu amatu.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Izslēgt Pielikumu Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Šī iespēja ir galvenokārt pārbaudot jaunas veidnes vai tēmas, tas izslēdz visus Arestu Funkcijas, izņemot Admin Paneļa.';
 $lang['PM_ATTACHMENTS'] = 'Ļauj Pielikumus Privātās Ziņas';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Atļaut/Neatļaut pievienojot failus Privātās Ziņas.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Parādīt programmas, pārskatā par komunikācijas tēmām rakstot atbildi?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Ja jūs likts "jā", visi pieteikumi tiks parādīts pārskata sakaru tēmām.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Šeit jūs varat dzēst pielikumu datus no piedāvājumiem, ja faili ir pazudis no jūsu filesystem, un izdzēst failus, kas vairs nav saistīts ar kādu no piedāvājumiem. Jūs varat lejupielādēt vai apskatītu failu, ja jūs noklikšķiniet uz tā, ja nav saites ir klāt, fails neeksistē.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Dzēst visi pielikumi failus, kas eksistē uz jūsu filesystem un nav piešķirts esošo amatu.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Dzēst visu norīkojuma pielikumu datu failiem, kas nav jūsu filesystem.';
-$lang['EMPTY_FILE_ENTRY'] = 'Tukša Faila Ierakstu';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Priekšskatījums ir atiestatīts pielikumam: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Pielikuma sinhronizācija pabeigta.';
 $lang['SYNC_TOPICS'] = 'Sinhronizācijas Tēmas';
 $lang['SYNC_POSTS'] = 'Sinhronizācijas Amatiem';
-$lang['SYNC_THUMBNAILS'] = 'Sinhronizācijas Sīktēli';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Pārvaldīt Paplašinājumus';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Šeit jūs varat pārvaldīt Failu Paplašinājumus. Ja vēlaties atļaut/neatļaut Paplašinājums ir ielādēts, lūdzu, izmantojiet Pagarinājuma Grupas Vadība.';
 $lang['EXPLANATION'] = 'Paskaidrojums';
 $lang['EXTENSION_GROUP'] = 'Pagarinājums Grupu';
-$lang['INVALID_EXTENSION'] = 'Nederīgs Pagarināšana';
 $lang['EXTENSION_EXIST'] = 'Pagarinājuma %s jau pastāv'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Pagarinājuma %s ir aizliegta, jūs nevarat pievienot to atļauts Paplašinājumi'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Pārvaldīt Pagarināšanu Grupu';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Pagarinājuma Grupas %s jau pastāv'; // repla
 $lang['MANAGE_CATEGORIES'] = 'Pārvaldīt Īpašu Kategoriju';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Šeit jūs varat konfigurēt īpašās kategorijas. Jūs varat iestatīt īpašus parametrus un nosacījumus īpašajām kategorijām, kas piešķirtas paplašinājumu grupai.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Uzstādījumi Īpašas Kategorijas: Attēli';
-$lang['SETTINGS_CAT_FLASH'] = 'Uzstādījumi Īpašas Kategorijas: Flash Failus';
 $lang['DISPLAY_INLINED'] = 'Parādīt attēlus inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Izvēlieties, vai parādīt attēlus tieši pēc (jā), vai, lai apskatītu attēlus kā saites ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimālais Attēla Izmēri';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Izveidot Sīktēlu';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimālais sīktēla faila izmērs';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ja attēls ir mazāks nekā šis definētais faila izmērs, nav sīktēla tiks izveidots, jo tas ir pietiekami mazs.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Pārvaldīt Aizliegts Paplašinājumi';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Šeit jūs varat pievienot vai dzēst aizliegts paplašinājumi. Paplašinājumi, php, php3 un php4 ir aizliegts pēc noklusējuma drošības iemeslu dēļ, jūs nevarat dzēst tos.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Aizliegts Pagarināšanu %s jau pastāv'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Pagarinājuma %s ir norādīts jūsu atļauts Paplašinājumi, lūdzu izdzēsiet to, pirms jūs pievienot to šeit.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Paplašinājuma grupas atļaujas → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Šeit jums ir iespēja ierobežot izvēlēto Pagarinājumu Grupai Forumos jūsu izvēles (noteikts atļautā Forumos Box). Noklusējuma ir ļaut Pagarināšanu Grupas, lai visiem Forumos, Lietotājs varēs Pievienot Failus (parasti Pielikumu Mod darīja, jo sākumā). Vienkārši pievienojiet šos Forumus vēlaties pagarināt Grupas (Pagarinājumi šajā Grupā), tiks atļauts tur, noklusējuma, VISI FORUMI pazūd, kad jūs pievienot Forumos Sarakstā. Jums ir iespēja atkārtoti pievienot VISUS FORUMUS jebkurā Laikā. Ja jūs pievienot Forumā, kas uz jūsu Kuģa, un Atļaujas ir iestatīts uz VISIEM FORUMOS nekas nemainīsies. Bet, ja jums ir mainījies, un ierobežoja piekļuvi noteiktām Forumos, jums ir, lai pārbaudītu atpakaļ šeit, lai pievienotu savu jaunizveidoto Forumu. Tas ir viegli, lai to izdarītu automātiski, bet tas liks jums rediģēt ķekars Failus, tāpēc es esmu izvēlējies to, kā tas ir tagad. Lūdzu, ņemiet vērā, ka visu savu Forumos tiks uzskaitīti šeit.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Pievienot Forumos';
 $lang['ADD_SELECTED'] = 'Pievienot Atlasītos';
 $lang['PERM_ALL_FORUMS'] = 'VISOS FORUMOS';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Pārvaldīt Pielikumu Kvotu Limitus';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Šeit jums ir iespēja pievienot/dzēst/mainīt Kvotu Ierobežojumiem. Jums ir iespēja piešķirt šo Kvotu Ierobežojumus, lai Lietotāji un Grupas vēlāk. Lai piešķirtu Kvotas Limitu, lai Lietotājs, jums jādodas uz Lietotājiem->Vadības, izvēlieties Lietotāju un jūs redzēsiet Iespējas apakšā. Lai piešķirtu Kvotas Limitu, kādu Grupu, iet uz Grupām->Vadības, izvēlieties Grupu, lai rediģētu to, un jūs redzēsiet, Konfigurācijas Uzstādījumus. Ja jūs vēlaties, lai redzētu, kas Lietotājiem un Grupām tiek piešķirts, lai noteiktu Kvotu Ierobežojumu, noklikšķiniet uz "Skatu" pa kreisi Kvotu Apraksts.';
-$lang['ASSIGNED_USERS'] = 'Piešķirtie Lietotāji';
-$lang['ASSIGNED_GROUPS'] = 'Piešķirtie Grupu';
-$lang['QUOTA_LIMIT_EXIST'] = 'Kvotas Limitu, %s jau pastāv.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Failu Pielikumu, Vadības Panelis';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Šeit jūs varat apskatīt un pārvaldīt visus pielikumus, kas balstīta uz Lietotāju, Papildinājumi, Viedokļi utt...';
-$lang['FILECOMMENT'] = 'Faila Komentārs';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Izmantojiet * kā aizstājējzīmi daļēji atbilst';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Amata vietu skaits kopā ar Pielikumiem';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Vairākas Tēmas ar Pielikumiem';
 $lang['NUMBER_USERS_ATTACH'] = 'Neatkarīgu Lietotājiem Ievietojis Pielikumus';
 $lang['NUMBER_PMS_ATTACH'] = 'Kopējais Pielikumu Skaits, Privātās Ziņas';
-$lang['ATTACHMENTS_PER_DAY'] = 'Pielikumi dienā';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Pielikumu Statistika par %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigurācijas Atjaunināts Veiksmīgi';
 $lang['SET_DEFAULTS'] = 'Restore defaults (atjaunot noklusējumus';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forums config';
-
 $lang['BT_SELECT_FORUMS'] = 'Foruma iespējām:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'turiet nospiestu <i>Ctrl</i>, bet izvēloties vairākus forumos';
 
