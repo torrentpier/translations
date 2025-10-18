@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Sonuncu postu bax';
 $lang['VIEW_NEWEST_POST'] = 'Yeni post ilə bax';
 $lang['PAGE_OF'] = '<b>%d</b> səhifə <b>%s</b>';
 
-$lang['ICQ'] = 'Аська';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Siz səhv Skype girişini daxil etdiniz';
-
-$lang['TWITTER'] = 'Tvitter';
-$lang['TWITTER_ERROR'] = 'Yazdığınız etibarsız istifadəçi adı və Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Forum İndeksi'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Siz bu sorğunu silmək istədiyinizdən əminsi
 $lang['FLOOD_ERROR'] = 'Siz sonuncu postdan sonra belə tez səs verə bilməzsiniz; lütfən bir az sonra yenidən cəhd edin';
 $lang['EMPTY_SUBJECT'] = 'Mövzu daxil etməlisiniz';
 $lang['EMPTY_MESSAGE'] = 'Mesaj daxil etməlisiniz';
-$lang['FORUM_LOCKED'] = 'Bu forum kilidlənib: Siz mövzulara post etməyə, cavab verməyə və ya redaktə etməyə icazə verilməyib';
-$lang['TOPIC_LOCKED'] = 'Bu mövzu kilidlənib: Siz mesajları redaktə edə və ya cavab verə bilməzsiniz';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Mövzu bağlıdır';
 $lang['NO_POST_ID'] = 'Redaktə etmək üçün post seçməlisiniz';
 $lang['NO_TOPIC_ID'] = 'Cavab vermək üçün mövzu seçməlisiniz';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Polad mavi.';
 $lang['COLOR_GRAY'] = 'Boz.';
 $lang['COLOR_DARK_GREEN'] = 'Tünd yaşıl.';
 
-//txtb
-$lang['ICQ_TXTB'] = '[İCQ].';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Qaida].';
-$lang['READ_PROFILE_TXTB'] = '[Profil].';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail].';
-$lang['VISIT_WEBSITE_TXTB'] = '[WWW].';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Redaktə].';
-$lang['CODE_TOPIC_TXTB'] = '[Kodu]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Axtarış].';
-$lang['VIEW_IP_TXTB'] = '[IP].';
-$lang['DELETE_POST_TXTB'] = '[X].';
-$lang['MODERATE_POST_TXTB'] = '[M].';
-$lang['SEND_PM_TXTB'] = '[PM].';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'Xəbərdarlıq';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['cavab', 'cavablar'];
 $lang['DECLENSION']['TIMES'] = ['vaxt', 'dəfə'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent faylı zədələnib.';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Sayt" yalnız http://sitename ola bilər.';
-$lang['ICQ_ERROR'] = '"ICQ" sahəsi yalnız bir ICQ nömrəsi ehtiva edə bilər';
 $lang['INVALID_DATE'] = 'Yanlış tarix';
 $lang['PROFILE_USER'] = 'Profilin görünməsi.';
 $lang['GOOD_UPDATE'] = 'uğurla dəyişdirilib.';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Axtarış istifadəçilər mesaj sayı 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Axtarış istifadəçilərin mesaj sayı daha az %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'İstifadəçiləri axtarır, mesaj sayı %d ilə %d arasında';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'İstifadəçiləri axtarır, mesaj sayı %d olan';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Axtarış istifadəçilər üçün %s ilə uyğun ıcq ünvanı';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Axtarış istifadəçilər üçün %s ilə uyğun Skype';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Axtarış istifadəçilər üçün %s ilə uyğun Twitter';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Axtarış istifadəçilər üçün %s ilə uyğun vebsayt';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Axtarış istifadəçilər üçün %s ilə uyğun yer';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Axtarış istifadəçilər üçün %s ilə uyğun maraqlar sahəsi';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Gün';
 $lang['POST_EDIT_CANNOT'] = 'Bağışlayın, amma siz mesajları redaktə edə bilməzsiniz';
 $lang['FORUMS_IN_CAT'] = 'forumlar bu kateqoriya';
 
-$lang['MC_TITLE'] = 'Şərh moderasiyası';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Şərhinizi yazın';
 $lang['MC_FAQ'] = 'Daxil etdiyiniz mətn bu mesajın altında göstəriləcək';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s sizin mesajınızdadır";
