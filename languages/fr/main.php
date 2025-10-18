@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Vue nouveau post';
 $lang['PAGE_OF'] = 'Page <b>%d</b> de <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Vous avez entré une défaillance de connexion de Twitter';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Êtes-vous sûr de vouloir supprimer ce sondage?
 $lang['FLOOD_ERROR'] = 'Vous ne pouvez pas faire un autre post si peu de temps après votre dernier; veuillez réessayer dans un court instant';
 $lang['EMPTY_SUBJECT'] = 'Vous devez spécifier un objet';
 $lang['EMPTY_MESSAGE'] = 'Vous devez entrer un message';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Le Forum est verrouillé';
+$lang['TOPIC_LOCKED'] = 'Sujet verrouillé';
 $lang['TOPIC_LOCKED_SHORT'] = 'Sujet verrouillé';
 $lang['NO_POST_ID'] = 'Vous devez sélectionner un post pour le modifier';
 $lang['NO_TOPIC_ID'] = 'Vous devez choisir un sujet pour répondre à';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Vert Foncé';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Sondage';
+$lang['MODERATE'] = 'Modérateur';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'La recherche pour les utilisateurs avec
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'La recherche pour les utilisateurs avec un nombre de poste à moins de %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'La recherche pour les utilisateurs avec un nombre de poste entre %d et %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'La recherche pour les utilisateurs avec un nombre de poste de la valeur de %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'La recherche pour les utilisateurs de Twitter correspondant %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'La recherche pour les utilisateurs d\'un Site web correspondant %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'La recherche pour les utilisateurs avec un Emplacement correspondant %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'La recherche pour les utilisateurs avec leurs Intérêts champ correspondant %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Jour';
 $lang['POST_EDIT_CANNOT'] = 'Désolé, mais vous ne pouvez pas éditer les messages';
 $lang['FORUMS_IN_CAT'] = 'forums dans cette catégorie';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Commentaire de modération';
 $lang['MC_LEGEND'] = 'Tapez un commentaire';
 $lang['MC_FAQ'] = 'Le texte saisi sera affiché sous ce message';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s dans votre message";
