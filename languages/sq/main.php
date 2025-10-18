@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Ju nuk mund ti Anonim një anëtar i grupit.';
 $lang['CONFIRM_UNSUB'] = 'A jeni të sigurt që ju doni të unsubscribe nga ky grup?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Abonimin tuaj në këtë grup ende nuk është miratuar; ju jeni të sigurt që ju doni të unsubscribe?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'Ju keni qenë të shkëputur nga ky grup.';
 
 $lang['APPROVE_SELECTED'] = 'Të Miratojë Të Zgjedhura';
 $lang['DENY_SELECTED'] = 'Mohojnë Të Zgjedhura';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Ju nuk jeni nje moderator i këtij forumi.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Jo i autorizuar';
 
 $lang['YOU_BEEN_BANNED'] = 'Ju jeni ndaluar nga ky forum. Ju lutemi të kontaktoni administratorin e bordit për më shumë informacion.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Na vjen keq, por ju nuk janë të autorizuar 
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Përshkrimi'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Shkarkuar'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Madhësia e skedarit';
 $lang['VIEWED'] = 'Shihet';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Zgjatja \'%s\' është çaktivizuar nga një administrator i bordit, kështu që ky Prikaz nuk paraqitet.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Shtojcë është shumë i madh.<br />Could nu
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Shtojcë është shumë i madh.<br />Maximum Ngarkoni Madhësi: %d MB.<br />Please vini re se kjo masë është përcaktuar në php.ini, kjo do të thotë se është vendosur nga PHP dhe Shtojcën V nuk mund të tejkalojnë këtë vlerë.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Zgjerimi %s nuk është e lejuar'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nuk ju lejohet të postoni Fotografi me Zgjatje %s në kuadër të këtij Forumi'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Shtojca është shumë i madh.<br />Madhësia maksimale: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Na vjen keq, por madhësia maksimale e skedarëve për të gjitha Shtojcat është arritur. Ju lutem kontaktoni Administratorin e Bordit nëse keni pyetje.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Shtojcë nuk mund të shtohen, pasi max. numri i %d të bashkëngjitni skedarë në këtë post u arrit'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Attachment/Imazhi duhet të jetë më pak se %d pixels gjerë dhe %d (pixels) e lartë';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Ngarkoni Gabim: nuk Mund të ngarkoni Shtojcën për %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Ju keni për të hyrë vlerave në \'të S
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Në gjendje për të Rinovuar Bashkëlidhje, nuk mund të gjeni të vjetër Hyrjes Bashkangjitje';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Na vjen keq, por madhësia maksimale e skedarëve për të gjitha Shtojcat në Dosjen tuaj të Mesazheve Privat është arritur. Ju lutem fshini disa nga Shtojcat tuaja të marra/dërguara.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Na vjen keq, por madhësia maksimale e skedarëve për të gjitha Shtojcat në Dosjen e Mesazheve Privat të \'%s\' është arritur. Ju lutem njoftoni atë, ose prisni derisa ai/ajo të ketë fshirë disa nga Shtojcat e tij/saj.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Ju nuk e keni zgjedhur një shtojcë për të shkarkuar ose të parë.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Lidhja Tipar është i aktivizuar.';
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Directory \'%s\' nuk ekziston ose nuk Mund të gjendet.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Ju lutem kontrolloni nëse \'%s" është një directory.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Dosja \'%s\' nuk është e shkruashme. Ju do të duhet të krijoni rrugën e ngarkimit dhe ta vendosni atë në 777 (ose ndërroni pronarin në pronarin e serverëve tuaj httpd) për të ngarkuar skedarë.<br />Nëse keni vetëm qasje FTP të zakonshme ndryshoni \'Atributin\' e dosjes në rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Upload Të Kuotave';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Kërkim Bashkëngjitni Skedarë';
 $lang['TEST_SETTINGS'] = 'Test Cilësimet';
 $lang['NOT_ASSIGNED'] = 'Nuk Është Caktuar';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nuk ka Fotografi në dispozicion Koment';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Kutia juaj e shtojcave është<br /><b>%d%%</b> e plotë';
 $lang['NO_QUOTA_LIMIT'] = 'Nuk Ka Kuota Limit';
 $lang['UNLIMITED'] = 'Unlimited';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Një tjetër torrent me të njëjtën info_has
 $lang['BT_V1_ONLY_DISALLOWED'] = 'torrentet vetëm v1 janë të çaktivizuara nga administrator në këtë moment, të lejuara: v2 dhe hibride';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'torrentet vetëm v2 janë të çaktivizuara nga administrator në këtë moment, të lejuara: v1 dhe hibride';
 $lang['BT_FLIST'] = 'Lista e skedareve';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'Cilat do të thotë që cilësimet e përcjellësit nuk lejojnë përpunimin e listave me më shumë se %d skedarë. Numri aktual është: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root është një hash i një skedari të inkorporuar në torrentet me mbështetje BitTorrent v2, përdoruesit e tracker mund të nxjerrin, llogarisin ato, gjithashtu shkarkojnë torrentet e dedikuara duke përdorur mjete desktopi si <a href="%s" target="_blank" referrerpolicy="origin">Lexuesi i Merkle Root të Torrentëve</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Data e krijimit';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Shikime';
 $lang['GOLD'] = 'Ari';
 $lang['SILVER'] = 'Argjendi';
 $lang['SET_GOLD_TORRENT'] = 'Bërë ar';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Anulo arin';
 $lang['SET_SILVER_TORRENT'] = 'Bëni argjendi';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Anulo argjendin';
 $lang['GOLD_STATUS'] = 'ARI TORRENT! SHKARKO TRAFIKUT NUK E KONSIDEROJNË!';
 $lang['SILVER_STATUS'] = 'SILVER PËRRUA! SHKARKO TRAFIKUT PJESËRISHT KONSIDEROHET!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Tipo i torrentit e ndërrua në: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Tipo i torrentit e ndërrua në: %s';
 $lang['TORRENT_STATUS'] = 'Kërko sipas statusit të publikimit';
 $lang['SEARCH_IN_FORUMS'] = 'Kërkimi në Forume';
 $lang['SELECT_CAT'] = 'Zgjidhni kategorinë';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Shko në seksion';
 $lang['TORRENTS_FROM'] = 'Postime nga';
 $lang['SHOW_ONLY'] = 'Tregojnë vetëm';
 $lang['SHOW_COLUMN'] = 'Tregojnë kolonën';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Nëse juaj në raport të bie më poshtë %s, j
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nuk shihet: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Ju duhet të identifikoheni së pari';
 $lang['ONLY_FOR_MOD'] = 'Ky opsion vetëm për moderatorët';
 $lang['ONLY_FOR_ADMIN'] = 'Ky opsion vetëm për administratorët';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Ky opsion vetëm për administratorët super';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Një përdorues %s është tashmë i regjistruar me a
 $lang['HIDDEN'] = 'Fshehur';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Ju nuk jeni i autorizuar për të administruar këtë bord';
 
 $lang['COOKIES_REQUIRED'] = 'Cookit duhet të jenë të aktivizuara!';
 $lang['SESSION_EXPIRED'] = 'Sesioni i skaduar';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Na vjen keq, regjistrimi është me aftësi t�
 $lang['ONLY_NEW_POSTS'] = 'vetëm postimet e reja';
 $lang['ONLY_NEW_TOPICS'] = 'vetëm tema të reja';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Ju lutem ndihmoni në ndihmën për këto torrente!';
 $lang['STATISTICS'] = 'Statistikat';
 $lang['STATISTIC'] = 'Statistikat';
 $lang['VALUE'] = 'Vlera';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Unë nuk bien dakord për këto terma';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Për të regjistruar, duhet të aktivizoni JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Regjistrimi është aktualisht i mbyllur<br /><br />Regjistrimi është i disponueshëm gjatë: %s<br />Koha aktuale e serverit: %s<br /><br />Kërkojmë ndjesë për inconveniencen";
 $lang['AUTOCOMPLETE'] = 'Gjeneroni fjalëkalimin';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'Fjalëkalimi juaj i ri:';
 $lang['REGENERATE'] = 'Rilind';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Ekzekutimi kohë:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'në';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Kujtesa: ';
 $lang['QUERIES'] = 'pyetje';
 $lang['LIMIT'] = 'Limit:';
 $lang['SHOW_LOG'] = 'Shfaq log-un';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'Klienti BitTorrent';
 $lang['DL_FORMULA'] = 'Formula: Uploaded/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'u ndal';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'koha e përditësimit: ';
 $lang['DL_INFO'] = 'tregon të dhënat <i><b>only për aktual session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Fshih emrin e klientit tim BitTorrent në listën e peer';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Fshih emrin tim të vendit në listën e peer';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Përdoruesit në ditë';
 $lang['BOARD_STARTED'] = 'Bordi filloi';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar directory madhësia';
 $lang['DATABASE_SIZE'] = 'Madhësia e bazës së të dhënave';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'Shtypja GZIP';
 $lang['NOT_AVAILABLE'] = 'Jo në dispozicion';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Shiko Forumin';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Këtu ju mund të ndryshoni lejet dhe moderator status të caktuar për çdo përdorues të grupit. Mos harroni, kur ndryshon grupin lejet që përdoruesit individual lejet ende mund të lejojë përdoruesit e hyrjes në forume, etj. Ju do të jeni të paralajmëruar në qoftë se ky është rasti.';
 $lang['USER_AUTH_EXPLAIN'] = 'Këtu ju mund të ndryshoni lejet dhe moderator status të caktuar për çdo përdorues individual. Mos harroni, kur ndryshon përdorues lejet që grupi lejet ende mund të lejojë përdoruesit e hyrjes në forume, etj. Ju do të jeni të paralajmëruar në qoftë se ky është rasti.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Këtu mund të ndryshoni nivelet e autorizimit të çdo forumi. Ju do të keni një metodë të thjeshtë dhe një të avancuar për ta bërë këtë, ku e avancuara ofron kontroll më të madh mbi çdo operacion të forumit. Mos harroni se ndryshimi i niveleve të lejeve të forumeve do të ndikojë në cilët përdorues mund të kryejnë operacione të ndryshme brenda tyre.';
 
 $lang['SIMPLE_MODE'] = 'Thjeshtë Mode';
 $lang['ADVANCED_MODE'] = 'Mode Avancuar';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Lejohet Qasje';
 $lang['DISALLOWED_ACCESS'] = 'Palejueshme Qasje';
 $lang['IS_MODERATOR'] = 'Është Moderator';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Paralajmërimi për konfliktin e autorizimit';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Ky përdorues është ende ka qasje në të drejtat e këtij forumi nëpërmjet grupit të anëtarësisë. Ju mund të dëshironi për të ndryshuar grupin e lejeve ose të hiqni këtë përdoruesit e grupit për të plotësisht të parandaluar ata që kanë qasje në të drejta. Grupet dhënien e të drejtave (dhe forume të përfshirë) janë të renditura më poshtë.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Ky përdorues ka akoma moderator i të drejtave të këtij forumi nëpërmjet grupit të anëtarësisë. Ju mund të dëshironi për të ndryshuar grupin e lejeve ose të hiqni këtë përdoruesit e grupit për të plotësisht të parandaluar që ata kanë moderator i të drejtave. Grupet dhënien e të drejtave (dhe forume të përfshirë) janë të renditura më poshtë.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Kliko %sHere%s të kthehen për Ndalimin e Kon
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Konfigurimi I Përgjithshëm';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Formulari më poshtë do t\'ju lejojë të personalizoni të gjitha opsionet e përgjithshme të bordit. Për konfigurimet e Përdoruesve dhe Forumeve, përdorni lidhjet përkatëse në anën e majtë.';
 
 $lang['CONFIG_MODS'] = 'Ndryshimet konfigurimit';
 $lang['MODS_EXPLAIN'] = 'Kjo formë ju lejon për të rregulluar modifikimet';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Të Mundësojë Forum Shkurtim';
 $lang['ALLOW_BBCODE'] = 'Të Lejojë BBCode';
 $lang['ALLOW_SMILIES'] = 'Të Lejojë Smilies';
 $lang['SMILIES_PATH'] = 'Smilies Ruajtjen Rrugën';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Rruga nën dosjen tuaj TorrentPier, p.sh. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Të Lejojë Nënshkrimeve';
 $lang['MAX_SIG_LENGTH'] = 'Maksimale nënshkrimi gjatësi';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numri maksimal i karaktereve në nënshkrimet e përdoruesit';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Sa kohë një autologin kryesore është e vl
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forumi Administratës';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'Nga ky panel mund të shtoni, fshini, redaktoni, riorganizoni dhe ri-sinkronizoni kategoritë dhe forume';
 $lang['EDIT_FORUM'] = 'Edit forumi';
 $lang['CREATE_FORUM'] = 'Krijuar new forum';
 $lang['CREATE_SUB_FORUM'] = 'Krijoni nënforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Update Mënyrë Që';
 $lang['CONFIG_UPDATED'] = 'Forumi Konfigurimit Është Përditësuar Me Sukses';
 $lang['MOVE_UP'] = 'Për të shkuar deri';
 $lang['MOVE_DOWN'] = 'Lëvizin poshtë';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Ri-sinkronizoni';
 $lang['NO_MODE'] = 'Nuk ishte i vendosur mode';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formulari më poshtë do t\'ju lejojë të personalizoni të gjitha opsionet e përgjithshme të bordit. Për konfigurimet e Përdoruesve dhe Forumeve, përdorni lidhjet përkatëse në anën e majtë';
 
 $lang['MOVE_CONTENTS'] = 'Zhvendosja e të gjitha përmbajtja';
 $lang['FORUM_DELETE'] = 'Fshini Forumi';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. gjatësia e lajmeve';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Sa shumë artikuj lajmesh duhet të shfaqen';
 $lang['NEWS_FORUM_ID'] = 'Nga cilat forume për të shfaqur <br /> <h6>Për disa forume, specifikoni ID-të të ndara me presje. Shembull: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Nuk ka avatar';
 $lang['TRACKER_STATS'] = 'Statistika mbi tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Kufijve Të Kuotave';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Cilësimet Bashkangjitje';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Këtu ju mund të konfiguroni Cilësimet Kryesore për Shtojcën Mod. Nëse ju shtypni Test Cilësimet Button, lidhja Mod bën disa Sistemit të Testeve të jenë të sigurt se Mod do të punojnë si duhet. Nëse keni probleme me Fotografi ngarkimi, ju lutem të drejtuar këtë Test, për të marrë një të detajuar error-message.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Cilësimet për madhësinë e skedarëve të Shtojcave';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Shtojcën Numër Cilësimet';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Opsionet Bashkangjitje';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Këtu ju mund të zgjidhni nëse për t
 $lang['SHOW_APCP'] = 'Përdorim të ri të panelit të kontrollit të aplikacioneve';
 $lang['SHOW_APCP_EXPLAIN'] = 'Zgjidhni nëse doni të përdorni një të veçantë të panelit të kontrollit të aplikacioneve (po), ose vjetër metodë me dy kuti për aplikimet dhe redaktimi aplikacionet (asnjë) në mesazhin kuti. Është e vështirë për të shpjeguar se si duket, kështu që të përpiqet për veten e tij.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Madhësia e skedarit';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimale si kartela për të bashkëngjitni skedarë. Një vlerë prej 0 do të thotë \'pakufizuar\'. Ky Cilësim është i kufizuar nga tuaj të Konfigurimit të Serverit. Për shembull, nëse tuaj php Konfigurimit lejon vetëm një maksimum prej 2 MB ngarkimet, kjo nuk mund të jetë overwritten nga Mod.';
 $lang['ATTACH_QUOTA'] = 'Shtojcë Të Kuotave';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimale Hapësirë në Disk të GJITHA Bashkëngjitjet, mund të mbajë në Webspace tuaj. Një vlerë prej 0 do të thotë \'pakufizuar\'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Për të fshirë të gjitha postimi s
 $lang['EMPTY_FILE_ENTRY'] = 'Bosh File Hyrje';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Paraprakja është rishikuar për shtojcën: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Sinkronizimi i bashkëngjitjes përfundoi.';
 $lang['SYNC_TOPICS'] = 'Sync Tema';
 $lang['SYNC_POSTS'] = 'Sync Postimet';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Menaxhuar Kategori Të Veçanta';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Këtu mund të konfiguroni Kategoritë e Veçanta. Mund të vendosni Parametra dhe Kushtet e Veçanta për Kategoritë e Veçanta të caktuar për një Grup Zgjatjeje.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Cilësimet për Kategori të Veçantë: Imazhe';
 $lang['SETTINGS_CAT_FLASH'] = 'Cilësimet për Kategori të Veçantë: Flash Fotografi';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Shfaq Imazhet Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Zgjidhni nëse për të shfaqur imazhe drejtpërdrejt brenda post (po) ose për të shfaqur imazhe si një lidhje ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum Imazhin Përmasat';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Këtu ju mund të përcaktojë maksimale të lejuara Imazhin Dimension të jetë e bashkangjitur (Gjerësi x Lartësi në pixels).<br />If ajo është e cilësuar për 0x0, ky tipar është i aktivizuar. Me disa Imazhe këtë Funksion nuk do të funksionojë për shkak të kufizimeve në PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Nëse kjo përcaktuar përmasat e një Imazh
 $lang['ASSIGNED_GROUP'] = 'Të Caktuar E Grupit';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Të Krijuar Tablo';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Madhësia minimale e skedarit miniaturë';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Nëse një imazh është më i vogël se kjo madhësi e përcaktuar e skedarit, nuk do të krijohet një miniaturë, sepse është mjaft e vogël.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Menaxhuar Ndaluar Zgjerime';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'E ndaluar Zgjerimin %s tashmë ekzistojnë
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Zgjerimi %s është përcaktuar në lejohet juaj Extensions, ju lutem fshini atë e tyre para se të shtoni atë këtu.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Lejet e Grupit të Zgjatimeve → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Këtu ju jeni në gjendje për të kufizuar të përzgjedhur Vazhdimin e Grupit të Forumeve të zgjedhjes tuaj (të përcaktuara në Lejohet Forume Kuti). Default është për të lejuar Zgjerimin e Grupeve të të gjitha Forumet Përdoruesi është në gjendje të Bashkëngjitni Fotografi në (mënyrë normale Shtojcën Mod e bëri atë që në zanafillë). Vetëm të shtoni ato Forume ju doni Zgjerimin e Grupit (Extensions brenda këtij Grupi) do të lejohen atje, default, të GJITHA FORUMEVE do të zhduken kur ju të shtoni Forumet e Listës. Ju jeni në gjendje për të ri-shtoni të GJITHA FORUMET në çdo Kohë të dhënë. Nëse ju shtoni një Forum për Bordin tuaj dhe Lejen është e vendosur për të GJITHA FORUMET asgjë nuk do të ndryshojë. Por në qoftë se ju keni ndryshuar dhe për të kufizuar qasjen në disa Forume, ju duhet të kontrolloni përsëri këtu për të shtoni tuaj të sapokrijuar në Forum. Ajo është e lehtë për të bërë këtë automatikisht, por kjo do të detyruar ju për të redaktuar një bandë e Dosjeve, prandaj unë kam zgjedhur mënyra se si është tani. Ju lutemi të mbani në mend, se të gjitha Forumet do të jenë të listuara këtu.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'SHËNIM:<br />Within më poshtë shënuara Forume Përdoruesit tuaj normalisht janë të lejuar të bashkëngjitni fotografi, por që nuk ka Shtrirje në Grup është i lejuar të jetë e bashkangjitur atje, Përdoruesit tuaj nuk janë në gjendje për të bashkëngjitur ndonjë gjë. Nëse ata përpiqen, ata do të marrin Mesazhet e Gabimit. Ndoshta ju doni për të vendosur Leje \'Postoni Fotografi\' për ADMIN në këto Forume.<br /><br />';
 $lang['ADD_FORUMS'] = 'Të Shtoni Forume';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Nuk ka të bashkëngjitni skedarë përmbushu
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Numri i të bashkëngjitni skedarë';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Gjithsej madhësia e skedarit';
 $lang['NUMBER_POSTS_ATTACH'] = 'Numri i Postimeve me të bashkëngjitni skedarë';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Numri i Temave me të bashkëngjitni skedarë';
 $lang['NUMBER_USERS_ATTACH'] = 'Pavarur Përdoruesit Postuar Bashkëngjitni Skedarë';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'hold down <i>Ctrl</i> ndërsa zgjedhjen e shum
 $lang['REG_TORRENTS'] = 'Regjistrohu torrents';
 $lang['DISALLOWED'] = 'E ndaluar';
 $lang['ALLOW_REG_TRACKER'] = 'Lejohet forume për regjistrimin .torrents në tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Lejohet të postoni përmbajtje 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Trego butonat për me dorë ndryshimin DL-statusi';
 $lang['SELF_MODERATED'] = 'Përdoruesit mund të <b>move</b> tyre temave për një tjetër forum';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Passkey';
 $lang['BT_ADD_AUTH_KEY'] = 'Të mundësojë duke shtuar passkey me torrent-fotografi para shkarkimit';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent shfletuesit (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Shfletuesi i torrenteve (tracker.php) i arritshëm vetëm për përdoruesit e regjistruar';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Të lejojë boolean plotë-tekst kërkimit';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'përdorni *, +, - në kërkesa';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Të ndryshme";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Trego statistikat UL/DL të përdoruesit në krye të faqes kryesore të forumit";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Refresh rate';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Sa kohë (secs të qëndrojnë të papunë para se të lëviz për të ardhshëm të përpunimit të cycle<br />Usually ju nuk keni për të ndryshuar këtë';
 
 $lang['TIME_LIMIT'] = 'Afati kohor';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Sa kohë (sekonda) mund të zgjasë përpunimi i postit përpara se të kaloni në ciklin tjetër';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP juaj (modi i sigurt) ka një kufizim të kohës prej %s sekondash të konfiguruar, kështu që qëndroni nën këtë vlerë</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your serveri ka një timeout e %s secs konfiguruar, kështu që të qëndrojnë më poshtë në këtë value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Ju përfunduar me sukses e përpunimit 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Të Rindërtuar Kërkimi I Progresit';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'ID-të e postave të përpunuara : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Timer ka skaduar në %s secs. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Pastruar kërkim të rrumbullakëta. ';
 $lang['DELETED_POSTS'] = '%s post(s) janë fshirë nga përdoruesit tuaj të gjatë përpunimit. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Të gjitha';
 
 $lang['TPL_EMPTY_FIELD'] = 'Ju duhet të plotësoni fushën <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Ju duhet të zgjidhni <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Nuk është numër';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Duhet të jetë https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Duhet të jetë https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'të vënë në temë';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Kërkimi për përdoruesit me një posti
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Kërkimi për përdoruesit me një post të numëronte %d dhe %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Kërkimi për përdoruesit me një post të llogarisin vlerën e %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kërkimi për përdoruesit me një X (Twitter) përputhen %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Kërkimi për përdoruesit me një faqe interneti që përputhet me %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kërkimi për përdoruesit me një Vend përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kërkimi për përdoruesit me Interesat e tyre në terren përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Kërkimi për përdoruesit me Profesionin e tyre në terren përputhen %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Rezultati';
 $lang['GREATER_THAN'] = 'Më e madhe se';
 $lang['LESS_THAN'] = 'Më pak se';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Ju mund të kërkoni për përdorues bazuar në vlerën e numrit të postimeve. Mund të kërkoni ose sipas një vlere specifike, më të madhe ose më të vogël se një vlerë ose midis dy vlerave. Për të bërë kërkimin e diapazonit, zgjidhni "E barabartë" dhe më pas vendosni vlerat e fillimit dhe mbarimit të diapazonit të ndara me një vizë (-), p.sh. 10-15';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Fusha e përdoruesit';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Kërkimi për përdoruesit bazuar në të ndryshme profilin fushat. Wildcards janë të mbështetur duke përdorur një yll (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Ju mund të kërkoni për përdoruesit bazuar në e tyre të fundit të identifikoheni datë duke përdorur këtë opsionin e kërkimit';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Kjo do të afishojë përdoruesit të cilët kanë zgjedhur një gjuhë të veçantë në Profilin e tyre';
