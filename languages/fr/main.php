@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Afficher les derniers post';
 $lang['VIEW_NEWEST_POST'] = 'Vue nouveau post';
 $lang['PAGE_OF'] = 'Page <b>%d</b> de <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Vous avez entré une défaillance de connexion Skype';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Vous avez entré une défaillance de connexion de Twitter';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Êtes-vous sûr de vouloir supprimer ce sondage?
 $lang['FLOOD_ERROR'] = 'Vous ne pouvez pas faire un autre post si peu de temps après votre dernier; veuillez réessayer dans un court instant';
 $lang['EMPTY_SUBJECT'] = 'Vous devez spécifier un objet';
 $lang['EMPTY_MESSAGE'] = 'Vous devez entrer un message';
-$lang['FORUM_LOCKED'] = 'Ce forum est verrouillé, vous ne pouvez pas poster, répondre ou éditer les sujets';
-$lang['TOPIC_LOCKED'] = 'Ce sujet est verrouillé, vous ne pouvez pas éditer les messages ou faire de réponses';
+$lang['FORUM_LOCKED'] = 'Le Forum est verrouillé';
+$lang['TOPIC_LOCKED'] = 'Sujet verrouillé';
 $lang['TOPIC_LOCKED_SHORT'] = 'Sujet verrouillé';
 $lang['NO_POST_ID'] = 'Vous devez sélectionner un post pour le modifier';
 $lang['NO_TOPIC_ID'] = 'Vous devez choisir un sujet pour répondre à';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Bleu Acier';
 $lang['COLOR_GRAY'] = 'Gris';
 $lang['COLOR_DARK_GREEN'] = 'Vert Foncé';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Code]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Sondage';
+$lang['MODERATE'] = 'Modérateur';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['répondre', 'réponses'];
 $lang['DECLENSION']['TIMES'] = ['le temps', 'fois'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent fichier est corrompu';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Le "site" peut contenir seulement http://sitename';
-$lang['ICQ_ERROR'] = 'Le champ "ICQ" peut contenir uniquement un numéro ICQ';
 $lang['INVALID_DATE'] = 'Date invalide';
 $lang['PROFILE_USER'] = 'Affichage du profil';
 $lang['GOOD_UPDATE'] = 'a été modifié avec succès';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'La recherche pour les utilisateurs avec
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'La recherche pour les utilisateurs avec un nombre de poste à moins de %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'La recherche pour les utilisateurs avec un nombre de poste entre %d et %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'La recherche pour les utilisateurs avec un nombre de poste de la valeur de %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'La recherche pour les utilisateurs d\'ICQ adresse de correspondance %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'La recherche pour les utilisateurs de Skype correspondant %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'La recherche pour les utilisateurs de Twitter correspondant %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'La recherche pour les utilisateurs d\'un Site web correspondant %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'La recherche pour les utilisateurs avec un Emplacement correspondant %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Jour';
 $lang['POST_EDIT_CANNOT'] = 'Désolé, mais vous ne pouvez pas éditer les messages';
 $lang['FORUMS_IN_CAT'] = 'forums dans cette catégorie';
 
-$lang['MC_TITLE'] = 'La Modération Des Commentaires';
+$lang['MC_TITLE'] = 'Commentaire de modération';
 $lang['MC_LEGEND'] = 'Tapez un commentaire';
 $lang['MC_FAQ'] = 'Le texte saisi sera affiché sous ce message';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s dans votre message";

@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Pamje të fundit në post';
 $lang['VIEW_NEWEST_POST'] = 'Pikëpamje më e re post';
 $lang['PAGE_OF'] = 'Faqe <b>%d</b> e <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'E keni futur një të pavlefshme Skype identifikohu';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'E keni futur një të pavlefshme Twitter identifikohu';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'E keni futur një të pavlefshme X (Twitter) identifikohu';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Jeni i sigurt se doni të fshini të këtij sond
 $lang['FLOOD_ERROR'] = 'Ju nuk mund të bëni një post kaq shpejt pas tuaja të fundit, ju lutem provoni përsëri në një kohë të shkurtër';
 $lang['EMPTY_SUBJECT'] = 'Ju duhet të specifikoni një subjekt';
 $lang['EMPTY_MESSAGE'] = 'Ju duhet të shkruani një mesazh';
-$lang['FORUM_LOCKED'] = 'Ky forum është i kyçur: ju nuk mund të postoni, përgjigje për të, apo të redaktoni temat';
-$lang['TOPIC_LOCKED'] = 'Kjo temë është e mbyllur: ju nuk mund të redaktoni postimet ose për të marrë përgjigje';
+$lang['FORUM_LOCKED'] = 'Forumi është kyçur';
+$lang['TOPIC_LOCKED'] = 'Temë e mbyllur';
 $lang['TOPIC_LOCKED_SHORT'] = 'Temë e mbyllur';
 $lang['NO_POST_ID'] = 'Ju duhet të zgjidhni një post të redaktoni';
 $lang['NO_TOPIC_ID'] = 'Ju duhet të zgjidhni një temë për t\'u përgjigjur';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Çeliku Blu';
 $lang['COLOR_GRAY'] = 'Gri';
 $lang['COLOR_DARK_GREEN'] = 'Jeshile Të Errët';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kodi]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Anketës';
+$lang['MODERATE'] = 'Moderator';
+$lang['SEND_PM_SHORT'] = 'PD';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['përgjigje', 'përgjigje'];
 $lang['DECLENSION']['TIMES'] = ['kohë', 'kohët'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent file është korruptuar';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site" mund të përmbajë vetëm http://sitename';
-$lang['ICQ_ERROR'] = 'Fushën "ICQ" mund të përmbajë vetëm një numër ICQ';
 $lang['INVALID_DATE'] = 'Datë e pavlefshme';
 $lang['PROFILE_USER'] = 'Shihni profilin';
 $lang['GOOD_UPDATE'] = 'me sukses i ndryshuar';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Kërkimi për përdoruesit me një post
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Kërkimi për përdoruesit me një postin më pak se %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Kërkimi për përdoruesit me një post të numëronte %d dhe %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Kërkimi për përdoruesit me një post të llogarisin vlerën e %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Kërkimi për përdoruesit me një ICQ adresa përputhen %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Kërkimi për përdoruesit me një Skype përputhen %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kërkimi për përdoruesit me një Twitter përputhen %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kërkimi për përdoruesit me një X (Twitter) përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Kërkimi për përdoruesit me një Faqe interneti përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kërkimi për përdoruesit me një Vend përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kërkimi për përdoruesit me Interesat e tyre në terren përputhen %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Ditë';
 $lang['POST_EDIT_CANNOT'] = 'Na vjen keq, por ju nuk mund të redaktoni postimet';
 $lang['FORUMS_IN_CAT'] = 'forumet në këtë kategori';
 
-$lang['MC_TITLE'] = 'Koment Moderatori';
+$lang['MC_TITLE'] = 'Moderimi komenti';
 $lang['MC_LEGEND'] = 'Shkruani një koment';
 $lang['MC_FAQ'] = 'Futur tekst do të shfaqet nën këtë mesazh';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s në mesazhin tuaj";

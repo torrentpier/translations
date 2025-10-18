@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Görünümü son mesajı';
 $lang['VIEW_NEWEST_POST'] = 'Görünümünde yeni post';
 $lang['PAGE_OF'] = '<b>%s</b> sayfa <b>%d</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Geçersiz Skype oturumu girdiğiniz';
-
-$lang['TWITTER'] = 'Heyecan';
-$lang['TWITTER_ERROR'] = 'Geçersiz bir Twitter giriş girdiğiniz';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'Geçersiz bir X (Twitter) giriş girdiğiniz';
 
 $lang['FORUM_INDEX'] = '%s Forum Dizini'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Bu anketi silmek istediğinize emin misiniz?';
 $lang['FLOOD_ERROR'] = 'Çok yakında son sonra başka bir yazı yapamazsınız, lütfen kısa bir süre içinde deneyin';
 $lang['EMPTY_SUBJECT'] = 'Bir konu belirtmeniz gerekir';
 $lang['EMPTY_MESSAGE'] = 'Bir mesaj girmelisiniz';
-$lang['FORUM_LOCKED'] = 'Bu forum kilitlendi: Mesaj, Cevap veya Düzelt konular olamaz';
-$lang['TOPIC_LOCKED'] = 'Bu konu kilitli: cevaplar mesajları düzenleyebilir veya yapamazsınız';
+$lang['FORUM_LOCKED'] = 'Forum kilitli';
+$lang['TOPIC_LOCKED'] = 'Konu kilitli';
 $lang['TOPIC_LOCKED_SHORT'] = 'Konu kilitli';
 $lang['NO_POST_ID'] = 'Düzenlemek için bir yazı seçmelisiniz';
 $lang['NO_TOPIC_ID'] = 'Cevaplamak için bir konu seçmeniz gerekir';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Çelik Mavi';
 $lang['COLOR_GRAY'] = 'Gri';
 $lang['COLOR_DARK_GREEN'] = 'Koyu Yeşil';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kod]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Anket';
+$lang['MODERATE'] = 'Moderatör';
+$lang['SEND_PM_SHORT'] = 'AM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['cevap', 'cevaplar'];
 $lang['DECLENSION']['TIMES'] = ['zaman', 'kere'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent dosyası bozuk';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site" sadece http://sitename içerebilir';
-$lang['ICQ_ERROR'] = '"ICQ" alanı yalnızca bir ICQ numarası içerebilir';
 $lang['INVALID_DATE'] = 'Geçersiz tarih';
 $lang['PROFILE_USER'] = 'Görüntüleme profili';
 $lang['GOOD_UPDATE'] = 'başarıyla değiştirildi';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = '%d daha kullanıcılar için mesaj say�
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '%d daha kullanıcılar için mesaj sayısı ile arama daha az';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Kullanıcılar için %d ve %d arasında mesaj sayısı ile arama';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Kullanıcılar için %d post sayısı değeri ile arama';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Kullanıcılar için ICQ adresi ile arama %s eşleşen';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Kullanıcılar için bir Skype ile arama %s eşleşen';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kullanıcılar için bir Twitter ile arama %s eşleşen';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kullanıcılar için bir X (Twitter) ile arama %s eşleşen';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Kullanıcılar için %s bir web Sitesi ile eşleşen arama';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kullanıcılar için bir Konum ile arama %s eşleşen';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kullanıcıların Çıkarları ile arama eşleşen %s alan';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Gün';
 $lang['POST_EDIT_CANNOT'] = 'Özür dilerim ama mesaj düzenleyemezsiniz';
 $lang['FORUMS_IN_CAT'] = 'bu kategorideki forumlar';
 
-$lang['MC_TITLE'] = 'Yorum Denetimi';
+$lang['MC_TITLE'] = 'Moderasyon yorumları';
 $lang['MC_LEGEND'] = 'Bir açıklama yazın';
 $lang['MC_FAQ'] = 'Girilen metni bu mesaj altında görüntülenir';
 $lang['MC_COMMENT_PM_SUBJECT'] = "Mesajında %s";

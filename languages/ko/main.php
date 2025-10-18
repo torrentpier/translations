@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = '최신 보기 게시물';
 $lang['VIEW_NEWEST_POST'] = 'View 새로운 게시물';
 $lang['PAGE_OF'] = '페이지 <b>%d</b> 의 <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = '당신이 입력한 잘못된 Skype 로그인';
-
-$lang['TWITTER'] = '트위터';
-$lang['TWITTER_ERROR'] = '당신이 입력한 잘못된 Twitter 로그인';
+$lang['TWITTER'] = 'X (트위터)';
+$lang['TWITTER_ERROR'] = '당신이 입력한 잘못된 X (트위터) 로그인';
 
 $lang['FORUM_INDEX'] = '%s 포럼 인덱스'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Are you sure you want to delete 이 poll?';
 $lang['FLOOD_ERROR'] = '할 수 없습니다 또 다른 포스트 후 이렇게 빨리 당신의 마지막;에 다시 시도해 주시기 바랍 동';
 $lang['EMPTY_SUBJECT'] = '지정해야 합니다 주제';
 $lang['EMPTY_MESSAGE'] = '당신이를 입력해야한다는 메시지';
-$lang['FORUM_LOCKED'] = '이 포럼은 잠:할 수 없습니다 후,답변,또는 편집 항목';
-$lang['TOPIC_LOCKED'] = '이 항목은 잠:편집할 수 없습니다 게시물 또는 답변';
+$lang['FORUM_LOCKED'] = '포럼은 잠금';
+$lang['TOPIC_LOCKED'] = '잠긴 주제';
 $lang['TOPIC_LOCKED_SHORT'] = '잠긴 주제';
 $lang['NO_POST_ID'] = '을 선택해야 합니다 포스트를 편집';
 $lang['NO_TOPIC_ID'] = '을 선택해야 합니다 주제에 답변하기';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = '강철색';
 $lang['COLOR_GRAY'] = '회색';
 $lang['COLOR_DARK_GREEN'] = '어두운 녹색';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[코드]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = '투표';
+$lang['MODERATE'] = '중재';
+$lang['SEND_PM_SHORT'] = '오후';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['답변', '답글'];
 $lang['DECLENSION']['TIMES'] = ['시간', '시간'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent 파일이 손상되었습니다';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"사이트"이 포함될 수 있습만 http://sitename';
-$lang['ICQ_ERROR'] = '"ICQ" 필드는 ICQ 번호만 포함할 수 있습니다.';
 $lang['INVALID_DATE'] = '잘못된 날짜';
 $lang['PROFILE_USER'] = '프로필 보기';
 $lang['GOOD_UPDATE'] = '성공적으로 변경된';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = '검색에 대한 사용자는 게시물
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '검색에 대한 사용자는 게시물 개수보다 적은 %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = '검색에 대한 사용자는 게시물산 사 %d 및 %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '검색에 대한 사용자는 게시물을 카운트 값의 %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = '검색에 대한 사용자와 ICQ 주소 일치하는 %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = '검색에 대한 사용자는 Skype 일치하는 %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = '검색에 대한 사용자는 Twitter 일치하는 %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = '%s와 일치하는 X (트위터) 사용자를 검색 중';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = '검색에 대한 사용자와 웹사이트에 일치하는 %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = '검색에 대한 사용자와 위치에 일치하는 %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = '검색에 대한 사용자의 관심 분야 일치하는 %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = '일';
 $lang['POST_EDIT_CANNOT'] = '죄송하지만 편집할 수 없습니다 게시물';
 $lang['FORUMS_IN_CAT'] = '포럼에서는 카테고리';
 
-$lang['MC_TITLE'] = '댓글 검토';
+$lang['MC_TITLE'] = '중재 의견';
 $lang['MC_LEGEND'] = '의견 유형';
 $lang['MC_FAQ'] = '입력한 텍스트 아래에 표시됩니다 이 메시지';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s 에서 당신의 메시지";

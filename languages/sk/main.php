@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Zobraziť posledný príspevok';
 $lang['VIEW_NEWEST_POST'] = 'Zobraziť najnovšie príspevok';
 $lang['PAGE_OF'] = 'Stránka <b>%d</b> z <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Zadali ste neplatný Skype prihlásenie';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Zadali ste neplatný Twitter prihlásiť sa';
 
 $lang['FORUM_INDEX'] = '%s Fórum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Ste si istý, že chcete odstrániť túto anket
 $lang['FLOOD_ERROR'] = 'Nemôžete vykonávať iné pracovné miesto tak skoro po poslednej; prosím, skúste znova v krátkom čase';
 $lang['EMPTY_SUBJECT'] = 'Musíte zadať predmet';
 $lang['EMPTY_MESSAGE'] = 'Musíte zadať správu';
-$lang['FORUM_LOCKED'] = 'Toto fórum je zamknuté,: nemôžete pošty, odpovedať na ne, alebo upraviť témy';
-$lang['TOPIC_LOCKED'] = 'Táto téma je uzamknutá: nemôžete upravovať príspevky alebo aby odpovede';
+$lang['FORUM_LOCKED'] = 'Fórum je zamknuté';
+$lang['TOPIC_LOCKED'] = 'Téma uzamknutá';
 $lang['TOPIC_LOCKED_SHORT'] = 'Téma uzamknutá';
 $lang['NO_POST_ID'] = 'Musíte vybrať príspevok na úpravu';
 $lang['NO_TOPIC_ID'] = 'Musíte vybrať tému, odpovedať na';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Oceľová Modrá';
 $lang['COLOR_GRAY'] = 'Šedá';
 $lang['COLOR_DARK_GREEN'] = 'Tmavo Zelená';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kód]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Anketa';
+$lang['MODERATE'] = 'Moderovať';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['odpovedať', 'odpovede'];
 $lang['DECLENSION']['TIMES'] = ['čas', 'časy'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent súbor je poškodený';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Stránka" môže obsahovať len http://sitename';
-$lang['ICQ_ERROR'] = 'Pole "ICQ" môže obsahovať iba ICQ číslo';
 $lang['INVALID_DATE'] = '_neplatný dátum';
 $lang['PROFILE_USER'] = 'Zobrazenie profilu';
 $lang['GOOD_UPDATE'] = 'bolo úspešne zmenené';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Vyhľadávanie pre užívateľov s post
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Vyhľadávanie pre užívateľov s počet príspevkov menej ako %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Vyhľadávanie pre užívateľov s post počítať medzi %d a %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Vyhľadávanie pre užívateľov s post počítať hodnotu %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Vyhľadávanie pre užívateľov s ICQ adresu zodpovedajúce %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Vyhľadávanie pre užívateľov s Skype zodpovedajúce %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Vyhľadávanie pre užívateľov s Twitter zodpovedajúce %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Vyhľadávanie pre užívateľov s Webovej stránke zodpovedajúce %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Vyhľadávanie pre používateľov so Umiestnenie zodpovedajúce %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Deň';
 $lang['POST_EDIT_CANNOT'] = 'Ľutujeme, ale nemôžete upravovať príspevky';
 $lang['FORUMS_IN_CAT'] = 'fóra v tejto kategórii';
 
-$lang['MC_TITLE'] = 'Komentár Moderovanie';
+$lang['MC_TITLE'] = 'Komentár moderátora';
 $lang['MC_LEGEND'] = 'Napíšte komentár';
 $lang['MC_FAQ'] = 'Zadaný text sa zobrazí pod túto správu';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s v správe";

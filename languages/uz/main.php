@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Oxirgi xabar ko\'rish';
 $lang['VIEW_NEWEST_POST'] = 'eng yangi xabarni ko\'rish';
 $lang['PAGE_OF'] = '<b>%s</b> Page <b>%d</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Siz noto\'g\'ri login kiritdingiz Skype';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Siz noto\'g\'ri login kiritdingiz Twitter';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Agar bu so\'rovnomada o\'chirishni istaysizmi?';
 $lang['FLOOD_ERROR'] = 'Siz oxirgi keyin tez orada yana bir post qilish mumkin emas; Qisqa vaqt ichida yana urinib ko\'ring';
 $lang['EMPTY_SUBJECT'] = 'Siz mavzuni ko\'rsating kerak';
 $lang['EMPTY_MESSAGE'] = 'Siz xabar kirishingiz zarur';
-$lang['FORUM_LOCKED'] = 'Bu forum kilitlendi:, post uchun javob, yoki mavzularni to\'g\'irlashingiz mumkin emas,';
-$lang['TOPIC_LOCKED'] = 'Bu mavzu qulflangan: Xabarlar deðiþtiremez yoki javob yoza olmaysiz';
+$lang['FORUM_LOCKED'] = 'Forum qulflangan';
+$lang['TOPIC_LOCKED'] = 'Mavzu qulflangan';
 $lang['TOPIC_LOCKED_SHORT'] = 'Mavzu qulflangan';
 $lang['NO_POST_ID'] = 'Siz tahrir uchun post tanlashingiz kerak';
 $lang['NO_TOPIC_ID'] = 'Siz javob uchun bir mavzuni tanlash kerak';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Temir Blue';
 $lang['COLOR_GRAY'] = 'kul rang';
 $lang['COLOR_DARK_GREEN'] = 'To\'q yashil';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[kodi]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'So\'rov';
+$lang['MODERATE'] = 'Moderatsiya';
+$lang['SEND_PM_SHORT'] = 'AM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['javob', 'javoblar'];
 $lang['DECLENSION']['TIMES'] = ['vaqt', 'marta'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent fayli buzuq';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Sayt" faqat http o\'z ichiga olishi mumkin: // SITENAME';
-$lang['ICQ_ERROR'] = '"ICQ" maydoni faqat ICQ raqamidan iborat bo\'lishi mumkin';
 $lang['INVALID_DATE'] = 'Noto\'g\'ri sana';
 $lang['PROFILE_USER'] = 'Foydalanuvchi profili';
 $lang['GOOD_UPDATE'] = 'muvaffaqiyatli o\'zgartirildi';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'dan katta, %d hisoblash bir post bilan 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'kam %d hisoblash bir post bilan foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'bir post bilan foydalanuvchilar izlab %d va %d o\'rtasidagi hisob';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '%d bir post soni qiymati bilan foydalanuvchilar uchun qidiruv';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'bir ICQ manzili %s taalukli foydalanuvchilar uchun qidiruv';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'bir Skype %s taalukli foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'bir Twitter %s taalukli foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'bir Sayt %s taalukli foydalanuvchilar uchun qidiruv';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'a Manzil %s taalukli foydalanuvchilar uchun qidiruv';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'kun';
 $lang['POST_EDIT_CANNOT'] = 'Kechirasiz, lekin siz xabarlarni to\'g\'irlashingiz mumkin emas';
 $lang['FORUMS_IN_CAT'] = 'deb turkumidagi forumlar';
 
-$lang['MC_TITLE'] = 'Izohingiz';
+$lang['MC_TITLE'] = 'Moderatsiya izohi';
 $lang['MC_LEGEND'] = 'Izoh kiritish';
 $lang['MC_FAQ'] = 'Kiritilgan matn, bu xabarni ostida paydo bo\'ladi';
 $lang['MC_COMMENT_PM_SUBJECT'] = "Sizning xabarda %s";

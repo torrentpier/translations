@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Lihat posting terbaru';
 $lang['VIEW_NEWEST_POST'] = 'Lihat posting terbaru';
 $lang['PAGE_OF'] = 'Halaman <b>%d</b> dari <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Anda masukkan tidak valid login Skype';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Anda masukkan tidak valid Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Apakah anda yakin anda ingin menghapus jajak pen
 $lang['FLOOD_ERROR'] = 'Anda tidak bisa membuat posting lain sehingga segera setelah anda terakhir; silakan coba lagi dalam waktu singkat';
 $lang['EMPTY_SUBJECT'] = 'Anda harus menentukan subjek';
 $lang['EMPTY_MESSAGE'] = 'Anda harus memasukkan pesan';
-$lang['FORUM_LOCKED'] = 'Forum ini terkunci: anda tidak dapat mengirim, membalas, atau mengedit topik';
-$lang['TOPIC_LOCKED'] = 'Topik ini dikunci: anda tidak dapat mengedit posting atau membuat balasan';
+$lang['FORUM_LOCKED'] = 'Forum terkunci';
+$lang['TOPIC_LOCKED'] = 'Topik dikunci';
 $lang['TOPIC_LOCKED_SHORT'] = 'Topik dikunci';
 $lang['NO_POST_ID'] = 'Anda harus memilih sebuah post untuk edit';
 $lang['NO_TOPIC_ID'] = 'Anda harus memilih topik untuk membalas';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Baja Biru';
 $lang['COLOR_GRAY'] = 'Abu-abu';
 $lang['COLOR_DARK_GREEN'] = 'Hijau Gelap';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kode]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Jajak pendapat';
+$lang['MODERATE'] = 'Moderator';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['balas', 'balasan'];
 $lang['DECLENSION']['TIMES'] = ['waktu', 'kali'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent file korup';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Situs" mungkin hanya berisi http://sitename';
-$lang['ICQ_ERROR'] = 'Bidang "ICQ" hanya boleh berisi nomor ICQ';
 $lang['INVALID_DATE'] = 'Tanggal tidak valid';
 $lang['PROFILE_USER'] = 'Melihat profil';
 $lang['GOOD_UPDATE'] = 'berhasil diubah';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Mencari pengguna dengan post count lebi
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Mencari pengguna dengan post count kurang dari %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Mencari pengguna dengan post count antara %d dan %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Mencari pengguna dengan posting menghitung nilai %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Mencari pengguna dengan ICQ alamat pencocokan %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Mencari pengguna dengan aplikasi Skype yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Mencari pengguna dengan aplikasi Twitter yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Mencari pengguna dengan Website yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Mencari pengguna dengan Lokasi yang cocok %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Hari';
 $lang['POST_EDIT_CANNOT'] = 'Maaf, tapi anda tidak dapat mengedit posting';
 $lang['FORUMS_IN_CAT'] = 'forum dalam kategori ini';
 
-$lang['MC_TITLE'] = 'Moderasi Komentar';
+$lang['MC_TITLE'] = 'Komentar moderasi';
 $lang['MC_LEGEND'] = 'Jenis komentar';
 $lang['MC_FAQ'] = 'Teks yang dimasukkan akan ditampilkan di bawah pesan ini';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s dalam pesan anda";

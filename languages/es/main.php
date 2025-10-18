@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Ver último post';
 $lang['VIEW_NEWEST_POST'] = 'Ver más reciente post';
 $lang['PAGE_OF'] = 'Página <b>%d</b> de <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Usted introducido no es válido inicio de sesión de Skype';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Usted introducido no es válido de inicio de sesión de Twitter';
 
 $lang['FORUM_INDEX'] = '%s Índice Del Foro'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Está seguro de que desea eliminar esta encuesta
 $lang['FLOOD_ERROR'] = 'Usted no puede hacer otro post tan pronto después de su último; por favor, inténtelo de nuevo en un corto tiempo';
 $lang['EMPTY_SUBJECT'] = 'Debe especificar un tema';
 $lang['EMPTY_MESSAGE'] = 'Debe introducir un mensaje';
-$lang['FORUM_LOCKED'] = 'Este foro está bloqueado: no se puede publicar, responder o editar temas';
-$lang['TOPIC_LOCKED'] = 'Este tema está bloqueado: no puede editar mensajes o hacer respuestas';
+$lang['FORUM_LOCKED'] = 'El foro está cerrado';
+$lang['TOPIC_LOCKED'] = 'Tema bloqueado';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema bloqueado';
 $lang['NO_POST_ID'] = 'Usted debe seleccionar un post para editar';
 $lang['NO_TOPIC_ID'] = 'Usted debe seleccionar un tema para responder a';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Acero Azul';
 $lang['COLOR_GRAY'] = 'Gris';
 $lang['COLOR_DARK_GREEN'] = 'De Color Verde Oscuro';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Código]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Encuesta';
+$lang['MODERATE'] = 'Moderador';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['respuesta', 'respuestas'];
 $lang['DECLENSION']['TIMES'] = ['tiempo', 'veces'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent el archivo está dañado';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'El "sitio" sólo puede contener http://sitename';
-$lang['ICQ_ERROR'] = 'El campo "ICQ" solo puede contener un número de ICQ';
 $lang['INVALID_DATE'] = 'Fecha no válida';
 $lang['PROFILE_USER'] = 'Ver perfil';
 $lang['GOOD_UPDATE'] = 'se cambió correctamente';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'La búsqueda de usuarios con un post de
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'La búsqueda de usuarios con un puesto de contar con menos de %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'La búsqueda de usuarios con un puesto de contar entre %d y %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'La búsqueda de usuarios con un post en el valor de recuento de %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'La búsqueda de usuarios con un ICQ que la dirección coincida con %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Búsqueda para los usuarios de Skype coincidencia %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'La búsqueda de los usuarios de Twitter coincidencia %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'La búsqueda de usuarios con un sitio Web de juego de %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'La búsqueda de usuarios con una Ubicación coincidente %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Día';
 $lang['POST_EDIT_CANNOT'] = 'Lo sentimos, pero no se pueden editar los posts';
 $lang['FORUMS_IN_CAT'] = 'los foros en que categoría';
 
-$lang['MC_TITLE'] = 'La Moderación De Comentarios';
+$lang['MC_TITLE'] = 'Comentario de moderación';
 $lang['MC_LEGEND'] = 'Escribir un comentario';
 $lang['MC_FAQ'] = 'El texto introducido se mostrará debajo de este mensaje';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s en su mensaje";

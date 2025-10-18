@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Pogledajte zadnji post';
 $lang['VIEW_NEWEST_POST'] = 'Vidjeti novi post';
 $lang['PAGE_OF'] = '<b>%d</b> stranici <b>%s</b>';
 
-$lang['ICQ'] = 'Аська';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Unijeli ste netočan Skype login';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Unijeli ste netočan prijavu Twittera';
 
 $lang['FORUM_INDEX'] = 'Indeks Foruma %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Jeste li sigurni da želite ukloniti ovu anketu?
 $lang['FLOOD_ERROR'] = 'Vi ne možete napraviti još jedan post tako brzo nakon Vašeg zadnjeg; molimo vas, pokušajte ponovno kroz kratko vrijeme';
 $lang['EMPTY_SUBJECT'] = 'Morate navesti temu';
 $lang['EMPTY_MESSAGE'] = 'Morate upisati poruku';
-$lang['FORUM_LOCKED'] = 'Na ovom forumu blokirani: Vi ne možete post na koji odgovaraš, ili uređivati teme';
-$lang['TOPIC_LOCKED'] = 'Tema je zatvorena Vi ne možete urediti svoje poruke ili odgovore';
+$lang['FORUM_LOCKED'] = 'Forum je zaključan';
+$lang['TOPIC_LOCKED'] = 'Tema je zaključana';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema je zaključana';
 $lang['NO_POST_ID'] = 'Morate odabrati post za uređivanje';
 $lang['NO_TOPIC_ID'] = 'Morate odabrati temu za odgovor';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Metalno Plava';
 $lang['COLOR_GRAY'] = 'Siva';
 $lang['COLOR_DARK_GREEN'] = 'Tamno Zelena';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kod]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Anketa';
+$lang['MODERATE'] = 'Moderator';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['odgovor', 'odgovori'];
 $lang['DECLENSION']['TIMES'] = ['vrijeme', 'put'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent datoteka je oštećena';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Stranice" može sadržavati samo http://sitename';
-$lang['ICQ_ERROR'] = 'Polje "ICQ" može sadržavati samo ICQ broj';
 $lang['INVALID_DATE'] = 'Nevažeći datum';
 $lang['PROFILE_USER'] = 'Pogledaj profil';
 $lang['GOOD_UPDATE'] = 'uspješno je promijenjena';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Pretraživanje korisnika broj poruka vi
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Pretraživanje korisnika s manje postova nego %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Pretraživanje korisnika brojilo Poruka između %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Pretraživanje korisnika s Post count vrijednost %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Pretraživanje korisnika na icq adresa %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Pretraživanje korisnika putem Skype, odgovarajuće %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Pretraživanje korisnika Twittera odgovarao %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Pretraživanje korisnika s совпадающими %s stranice';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Pretraživanje korisnika sa lokacijom usklađenosti %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dan';
 $lang['POST_EDIT_CANNOT'] = 'Žao nam je, ali Vi ne možete urediti poruku';
 $lang['FORUMS_IN_CAT'] = 'forum u ovoj kategoriji';
 
-$lang['MC_TITLE'] = 'Komentar Umjerenost';
+$lang['MC_TITLE'] = 'Moderatorski komentar';
 $lang['MC_LEGEND'] = 'Unesite komentar';
 $lang['MC_FAQ'] = 'Upisani tekst će biti prikazan ispod ovom porukom';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s u vašoj poruci";

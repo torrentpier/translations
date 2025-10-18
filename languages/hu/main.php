@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Nézet legújabb hozzászólás';
 $lang['VIEW_NEWEST_POST'] = 'Nézet legújabb post';
 $lang['PAGE_OF'] = 'Oldal <b>%d</b> a <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'A Skype';
-$lang['SKYPE_ERROR'] = 'Hogy érvénytelen a Skype bejelentkezési';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Te érvénytelen Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Index Fórum'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Biztos, hogy törölni akarja ezt a felmérést?
 $lang['FLOOD_ERROR'] = 'Nem lehet, hogy egy másik poszt után az utolsó; kérjük, próbálja újra egy rövid ideig';
 $lang['EMPTY_SUBJECT'] = 'Meg kell adni egy tárgy';
 $lang['EMPTY_MESSAGE'] = 'Be kell írni egy üzenetet';
-$lang['FORUM_LOCKED'] = 'Ez a fórum lezárva: ön nem tud post, megválaszolása vagy szerkesztése témák';
-$lang['TOPIC_LOCKED'] = 'Ez a téma le van zárva nem lehetséges a szerkesztés hozzászólás vagy válasz';
+$lang['FORUM_LOCKED'] = 'Fórum le van zárva';
+$lang['TOPIC_LOCKED'] = 'Téma zárva';
 $lang['TOPIC_LOCKED_SHORT'] = 'Téma zárva';
 $lang['NO_POST_ID'] = 'Ki kell választani egy hozzászólást a szerkesztés';
 $lang['NO_TOPIC_ID'] = 'Válassza ki a témát, hogy a válasz, hogy';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Acél Kék';
 $lang['COLOR_GRAY'] = 'Szürke';
 $lang['COLOR_DARK_GREEN'] = 'Sötét Zöld';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kód]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Szavazás';
+$lang['MODERATE'] = 'Moderálás';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['válasz', 'válaszok'];
 $lang['DECLENSION']['TIMES'] = ['idő', 'szer'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent fájl sérült';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'A "helyszínen" csak a következőket tartalmazhatja http://sitename';
-$lang['ICQ_ERROR'] = 'Az "ICQ" mező csak ICQ számot tartalmazhat';
 $lang['INVALID_DATE'] = 'Érvénytelen dátum';
 $lang['PROFILE_USER'] = 'Profil megtekintése';
 $lang['GOOD_UPDATE'] = 'sikeresen megváltozott';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Keresés a felhasználók utáni szám 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Keresés a felhasználók utáni szám kevesebb, mint %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Keresés a felhasználók utáni szám között %d, %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Keresés a felhasználók utáni szám értéke %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Keresi, hogy a felhasználók egy ICQ-címét megfelelő %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Keresés a felhasználók egy Skype megfelelő %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Keresés a felhasználók egy Twitter megfelelő %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Keresés a felhasználók egy Weboldal megfelelő %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Keresi, hogy a felhasználók egy Helyen, megfelelő %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Nap';
 $lang['POST_EDIT_CANNOT'] = 'Sajnálom, de nem tudja szerkeszteni hozzászólás';
 $lang['FORUMS_IN_CAT'] = 'fórumok abban a kategóriában';
 
-$lang['MC_TITLE'] = 'Moderáció';
+$lang['MC_TITLE'] = 'Moderálási megjegyzés';
 $lang['MC_LEGEND'] = 'Írjon be egy megjegyzést';
 $lang['MC_FAQ'] = 'A beírt szöveg fog megjelenni alatt ezt az üzenetet';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s az üzenetet";

@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Se seneste indlæg';
 $lang['VIEW_NEWEST_POST'] = 'Se nyeste indlæg';
 $lang['PAGE_OF'] = 'Side <b>%d</b> af <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Du har indtastet en ugyldig Skype';
-
-$lang['TWITTER'] = 'Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Du har indtastet en ugyldig Twitter-login';
 
 $lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Er du sikker på du ønsker at slette denne afst
 $lang['FLOOD_ERROR'] = 'Du kan ikke gøre andet indlæg så hurtigt efter din sidste; prøv venligst igen om kort tid';
 $lang['EMPTY_SUBJECT'] = 'Du skal angive et emne';
 $lang['EMPTY_MESSAGE'] = 'Du skal indtaste en besked';
-$lang['FORUM_LOCKED'] = 'Dette forum er låst: du kan ikke indlæg, svare på eller redigere emner';
-$lang['TOPIC_LOCKED'] = 'Denne tråd er låst: du kan ikke redigere indlæg eller gør svar';
+$lang['FORUM_LOCKED'] = 'Forum er låst';
+$lang['TOPIC_LOCKED'] = 'Låst emne';
 $lang['TOPIC_LOCKED_SHORT'] = 'Låst emne';
 $lang['NO_POST_ID'] = 'Du skal vælge en post for at redigere';
 $lang['NO_TOPIC_ID'] = 'Du skal vælge et emne for at svare';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Stål Blå';
 $lang['COLOR_GRAY'] = 'Grå';
 $lang['COLOR_DARK_GREEN'] = 'Mørk Grøn';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kode]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderator';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['svar', 'svar'];
 $lang['DECLENSION']['TIMES'] = ['tid', 'tider'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent fil er korrupt';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site" kan kun indeholde http://sitename';
-$lang['ICQ_ERROR'] = '"ICQ"-feltet må kun indeholde et ICQ-nummer';
 $lang['INVALID_DATE'] = 'Ugyldig dato';
 $lang['PROFILE_USER'] = 'Visning af profil';
 $lang['GOOD_UPDATE'] = 'var blevet ændret,';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'At søge efter brugere med et indlæg, 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'At søge efter brugere med et indlæg tæller mindre end %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'At søge efter brugere med et indlæg tæller mellem %d og %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'At søge efter brugere med et indlæg tæller værdi af %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'At søge efter brugere med en ICQ-adresse matchende %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'At søge efter brugere med en Skype matchende %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'At søge efter brugere med en Twitter matchende %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'At søge efter brugere med en Hjemmeside matchende %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'At søge efter brugere med en Placering matchende %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dag';
 $lang['POST_EDIT_CANNOT'] = 'Undskyld, men du kan ikke redigere indlæg';
 $lang['FORUMS_IN_CAT'] = 'fora i denne kategori';
 
-$lang['MC_TITLE'] = 'Kommentar Moderation';
+$lang['MC_TITLE'] = 'Moderation kommentar';
 $lang['MC_LEGEND'] = 'Skriv en kommentar';
 $lang['MC_FAQ'] = 'Den indtastede tekst vil blive vist under denne besked';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s i din besked";

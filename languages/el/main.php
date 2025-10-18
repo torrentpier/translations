@@ -82,12 +82,7 @@ $lang['VIEW_LATEST_POST'] = 'Δείτε την τελευταία θέση';
 $lang['VIEW_NEWEST_POST'] = 'Δείτε νεότερο post';
 $lang['PAGE_OF'] = 'Σελίδα <b>%d</b> της <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Το Skype';
-$lang['SKYPE_ERROR'] = 'Έχετε εισάγει μια μη έγκυρη Skype σύνδεση';
-
-$lang['TWITTER'] = 'Το Twitter';
+$lang['TWITTER'] = 'Το Twitter)';
 $lang['TWITTER_ERROR'] = 'Έχετε εισάγει μια μη έγκυρη Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Είστε σίγουρος ότι θέλετε 
 $lang['FLOOD_ERROR'] = 'Δεν μπορείτε να κάνετε άλλη θέση τόσο σύντομα μετά το τελευταίο σας παρακαλώ προσπαθήστε ξανά σε λίγο';
 $lang['EMPTY_SUBJECT'] = 'Πρέπει να καθορίσετε ένα θέμα';
 $lang['EMPTY_MESSAGE'] = 'Θα πρέπει να εισάγετε ένα μήνυμα';
-$lang['FORUM_LOCKED'] = 'Αυτό το φόρουμ είναι κλειδωμένο: δεν μπορείτε να δημοσιεύσετε, να απαντήσετε, ή να επεξεργαστείτε θέματα';
-$lang['TOPIC_LOCKED'] = 'Αυτό το θέμα είναι κλειδωμένο: δεν μπορείτε να επεξεργαστείτε τα μηνύματα ή κάντε τις απαντήσεις';
+$lang['FORUM_LOCKED'] = 'Το φόρουμ είναι κλειδωμένο';
+$lang['TOPIC_LOCKED'] = 'Το θέμα είναι κλειδωμένο';
 $lang['TOPIC_LOCKED_SHORT'] = 'Το θέμα κλειδώνεται';
 $lang['NO_POST_ID'] = 'Θα πρέπει να επιλέξετε μια θέση για να επεξεργαστείτε';
 $lang['NO_TOPIC_ID'] = 'Θα πρέπει να επιλέξετε ένα θέμα για να απαντήσετε';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Χάλυβα Μπλε';
 $lang['COLOR_GRAY'] = 'Γκρι';
 $lang['COLOR_DARK_GREEN'] = 'Σκούρο Πράσινο';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Κώδικα]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Δημοσκόπηση';
+$lang['MODERATE'] = 'Συντονιστής';
+$lang['SEND_PM_SHORT'] = 'ΜΜ';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['απάντηση', 'απαντήσεις'];
 $lang['DECLENSION']['TIMES'] = ['ώρα', 'φορές'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent αρχείο είναι κατεστραμμ
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Το "site" μπορεί να περιέχει μόνο http://sitename';
-$lang['ICQ_ERROR'] = 'Το πεδίο "ICQ" μπορεί να περιέχει μόνο έναν αριθμό ICQ';
 $lang['INVALID_DATE'] = 'Μη έγκυρη ημερομηνία';
 $lang['PROFILE_USER'] = 'Προβολή προφίλ';
 $lang['GOOD_UPDATE'] = 'με επιτυχία αλλάξει';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Αναζήτηση για χρήστε�
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Αναζήτηση για χρήστες με ένα post count λιγότερο από %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Αναζήτηση για χρήστες με ένα post count μεταξύ %d και %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Αναζήτηση για χρήστες με ένα post count αξία %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Αναζήτηση για τους χρήστες με διεύθυνση ICQ ταιριάζουν %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Αναζήτηση για χρήστες του Skype που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Αναζήτηση για χρήστες Twitter που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Αναζήτηση για χρήστες με μια Ιστοσελίδα που ταιριάζουν %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Αναζήτηση για χρήστες με μια Τοποθεσία που ταιριάζουν %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Ημέρα';
 $lang['POST_EDIT_CANNOT'] = 'Λυπάμαι, αλλά δεν μπορείτε να επεξεργαστείτε τα μηνύματα';
 $lang['FORUMS_IN_CAT'] = 'φόρουμ σε αυτή την κατηγορία';
 
-$lang['MC_TITLE'] = 'Σχόλιο Μετριοπάθεια';
+$lang['MC_TITLE'] = 'Σχόλιο συντονιστή';
 $lang['MC_LEGEND'] = 'Πληκτρολογήστε ένα σχόλιο';
 $lang['MC_FAQ'] = 'Τέθηκε το κείμενο θα εμφανιστεί κάτω από αυτό το μήνυμα';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s στο μήνυμά σας";

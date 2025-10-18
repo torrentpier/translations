@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Xem bài viết mới nhất';
 $lang['VIEW_NEWEST_POST'] = 'Xem bài viết mới nhất';
 $lang['PAGE_OF'] = 'Trang <b>%d</b> của <b>%s</b>';
 
-$lang['ICQ'] = ', RANDOM';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Bạn bước vào một không đăng nhập Skype';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Bạn bước vào một hợp Twitter login';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'Bạn đã nhập một đăng nhập X (Twitter) không hợp lệ';
 
 $lang['FORUM_INDEX'] = '%s Diễn Đàn Chỉ Số'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Cậu có chắc chắn để hủy bỏ cuộc 
 $lang['FLOOD_ERROR'] = 'Bạn không thể làm cho một bài vì vậy, ngay sau khi cuối cùng của anh, hãy cố gắng một lần nữa trong một thời gian ngắn';
 $lang['EMPTY_SUBJECT'] = 'Anh phải xác định một chủ đề';
 $lang['EMPTY_MESSAGE'] = 'Bạn phải nhập một tin nhắn';
-$lang['FORUM_LOCKED'] = 'Diễn đàn này bị khóa: bạn không thể đăng trả lời, hoặc sửa đổi chủ đề';
-$lang['TOPIC_LOCKED'] = 'Chủ đề này bị khóa: bạn không thể sửa bài viết hoặc hãy trả lời';
+$lang['FORUM_LOCKED'] = 'Diễn đàn đang bị khóa';
+$lang['TOPIC_LOCKED'] = 'Chủ đề bị khóa';
 $lang['TOPIC_LOCKED_SHORT'] = 'Chủ đề bị khóa';
 $lang['NO_POST_ID'] = 'Mày phải chọn một bài để sửa';
 $lang['NO_TOPIC_ID'] = 'Mày phải chọn một chủ đề để trả lời';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Thép Màu Xanh';
 $lang['COLOR_GRAY'] = 'Màu xám';
 $lang['COLOR_DARK_GREEN'] = 'Tối Xanh';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Mã]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Thăm dò';
+$lang['MODERATE'] = 'Điều hành';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['trả lời', 'câu trả lời'];
 $lang['DECLENSION']['TIMES'] = ['thời gian', 'lần'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Tập tin Torrent được tham nhũng';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Trang web" chỉ có thể chứa http://sitename';
-$lang['ICQ_ERROR'] = 'Trường "ICQ" chỉ có thể chứa một số ICQ';
 $lang['INVALID_DATE'] = 'Ngày không hợp lệ';
 $lang['PROFILE_USER'] = 'Xem hồ sơ';
 $lang['GOOD_UPDATE'] = 'công đã được thay đổi';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Tìm kiếm người sử dụng với 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Tìm kiếm người sử dụng với một bài đếm ít hơn %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Tìm kiếm người sử dụng với một số bài giữa %d và %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Tìm kiếm người sử dụng với một bài tính giá trị của %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Tìm kiếm với một người sử dụng, RANDOM địa chỉ phù hợp với %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Tìm kiếm người sử dụng với một Skype phù hợp với %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Tìm kiếm người sử dụng với một kết hợp Twitter %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Tìm kiếm người sử dụng với một kết hợp X (Twitter) %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Tìm kiếm người sử dụng với một trang Web phù hợp với %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Tìm kiếm người sử dụng với một vị Trí phù hợp với %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Tìm kiếm người sử dụng với Lợi ích của họ trường hợp %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Ngày';
 $lang['POST_EDIT_CANNOT'] = 'Xin lỗi, nhưng anh không thể sửa bài';
 $lang['FORUMS_IN_CAT'] = 'trong các diễn đàn thể loại đó';
 
-$lang['MC_TITLE'] = 'Bình Luận Chừng Mực';
+$lang['MC_TITLE'] = 'Bình luận điều hành';
 $lang['MC_LEGEND'] = 'Loại bình luận';
 $lang['MC_FAQ'] = 'Nhập vào văn bản sẽ được hiển thị dưới tin nhắn này';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s trong tin nhắn của bạn";

@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'הצג את הפוסט האחרון';
 $lang['VIEW_NEWEST_POST'] = 'הצג את הפוסט החדש';
 $lang['PAGE_OF'] = 'דף <b>%d</b> של <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'אתה נכנס נכה סקייפ התחברות';
-
-$lang['TWITTER'] = 'טוויטר';
-$lang['TWITTER_ERROR'] = 'אתה נכנס נכה טוויטר כניסה';
+$lang['TWITTER'] = 'טוויטר)';
+$lang['TWITTER_ERROR'] = 'אתה נכנסת נכה טוויטר כניסה';
 
 $lang['FORUM_INDEX'] = '%s פורום מדד'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'אתה בטוח שאתה רוצה למחוק א�
 $lang['FLOOD_ERROR'] = 'אתה לא יכול לעשות עוד פוסט כל כך מהר אחרי האחרון שלך; אנא נסה שוב בעוד זמן קצר';
 $lang['EMPTY_SUBJECT'] = 'אתה חייב לציין את נושא';
 $lang['EMPTY_MESSAGE'] = 'עליך להזין הודעה';
-$lang['FORUM_LOCKED'] = 'פורום זה הוא נעול: אתה לא יכול לפרסם, לענות או לערוך נושאים';
-$lang['TOPIC_LOCKED'] = 'נושא זה נעול: אתה לא יכול לערוך הודעות או לבצע תגובות';
+$lang['FORUM_LOCKED'] = 'פורום נעול';
+$lang['TOPIC_LOCKED'] = 'נושא נעול';
 $lang['TOPIC_LOCKED_SHORT'] = 'נושא נעול';
 $lang['NO_POST_ID'] = 'עליך לבחור הודעה עריכה';
 $lang['NO_TOPIC_ID'] = 'עליך לבחור נושא להשיב';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'פלדה כחולה';
 $lang['COLOR_GRAY'] = 'אפור';
 $lang['COLOR_DARK_GREEN'] = 'ירוק כהה.';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[קוד]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'סקר';
+$lang['MODERATE'] = 'מנחה';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['תגובה', 'תגובות'];
 $lang['DECLENSION']['TIMES'] = ['זמן', 'פעמים'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent קובץ פגום';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"האתר" עשוי להכיל רק http://sitename';
-$lang['ICQ_ERROR'] = 'שדה "ICQ" יכול להכיל רק מספר ICQ';
 $lang['INVALID_DATE'] = 'תאריך לא חוקי';
 $lang['PROFILE_USER'] = 'הצגת פרופיל';
 $lang['GOOD_UPDATE'] = 'בהצלחה שינה';
@@ -2690,8 +2677,6 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'חיפוש עבור משתמשים עם
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'חיפוש עבור משתמשים עם פוסט נחשב פחות מאשר %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'חיפוש עבור משתמשים עם פוסט נחשב בין %d ו %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'חיפוש עבור משתמשים עם פוסט לספור את הערך של %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'חיפוש עבור משתמשים עם ICQ כתובת התאמת %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'חיפוש עבור משתמשים עם סקייפ התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'חיפוש עבור משתמשים עם טוויטר התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'חיפוש עבור משתמשים עם האתר התאמת %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'חיפוש עבור משתמשים עם מיקום התאמת %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'יום';
 $lang['POST_EDIT_CANNOT'] = 'מצטער, אבל אתה לא יכול לערוך הודעות';
 $lang['FORUMS_IN_CAT'] = 'פורומים בקטגוריה זו';
 
-$lang['MC_TITLE'] = 'אחד מתינות';
+$lang['MC_TITLE'] = 'הערת מנחה';
 $lang['MC_LEGEND'] = 'סוג תגובה';
 $lang['MC_FAQ'] = 'הזנת טקסט יוצג תחת הודעה זו';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s בהודעה שלך";

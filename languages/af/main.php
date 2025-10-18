@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Kyk na die jongste pos';
 $lang['VIEW_NEWEST_POST'] = 'Bekyk nuutste boodskap';
 $lang['PAGE_OF'] = 'Bladsy <b>%d</b> van <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Jy het \'n ongeldige Skype-aanmelding ingevoer';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Jy het \'n ongeldige Twitter-inskrywing ingevoer';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'Jy het \'n ongeldige X (Twitter) inskrywing ingevoer';
 
 $lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Is jy seker jy wil hierdie poll uitvee?';
 $lang['FLOOD_ERROR'] = 'Jy kan nie so gou na jou laaste \'n ander pos maak nie; Probeer asseblief weer \'n kort rukkie';
 $lang['EMPTY_SUBJECT'] = 'U moet \'n vak spesifiseer';
 $lang['EMPTY_MESSAGE'] = 'Jy moet \'n boodskap invoer';
-$lang['FORUM_LOCKED'] = 'Hierdie forum is gesluit: jy kan nie onderwerpe stuur, beantwoord of redigeer nie';
-$lang['TOPIC_LOCKED'] = 'Hierdie onderwerp is gesluit: jy kan nie plasings wysig of antwoorde maak nie';
+$lang['FORUM_LOCKED'] = 'Hierdie forum is gesluit';
+$lang['TOPIC_LOCKED'] = 'Hierdie onderwerp is gesluit';
 $lang['TOPIC_LOCKED_SHORT'] = 'Onderwerp gesluit';
 $lang['NO_POST_ID'] = 'Jy moet \'n pos kies om te wysig';
 $lang['NO_TOPIC_ID'] = 'Jy moet \'n onderwerp kies om te antwoord';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Staal Blou';
 $lang['COLOR_GRAY'] = 'Gray';
 $lang['COLOR_DARK_GREEN'] = 'Donkergroen';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[kode]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Peiling';
+$lang['MODERATE'] = 'Moderateur';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['antwoord', 'antwoorde'];
 $lang['DECLENSION']['TIMES'] = ['tyd', 'keer'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent-lêer is korrup';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Die "webwerf" mag slegs http: // sitnaam bevat';
-$lang['ICQ_ERROR'] = 'Die "ICQ" veld kan slegs \'n ICQ nommer bevat';
 $lang['INVALID_DATE'] = 'Ongeldige datum';
 $lang['PROFILE_USER'] = 'Kyk na profiel';
 $lang['GOOD_UPDATE'] = 'Is suksesvol verander';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Soek vir gebruikers met \'n postelling 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Soek vir gebruikers met \'n postelling minder as %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Soek vir gebruikers met \'n postelling tussen %d en %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Op soek na gebruikers met \'n post telling waarde van %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Op soek na gebruikers met \'n ICQ-adres wat ooreenstem met %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Op soek na gebruikers met \'n Skype wat ooreenstem met %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Soek vir gebruikers met \'n Twitter wat ooreenstem met %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Soek vir gebruikers met \'n X (Twitter) wat ooreenstem met %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Soek vir gebruikers met \'n webwerf wat ooreenstem met %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Op soek na gebruikers met \'n Ligging wat ooreenstem met %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Op soek na gebruikers met hul belangstellingsveld wat ooreenstem met %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'dag';
 $lang['POST_EDIT_CANNOT'] = 'Jammer, maar jy kan nie plasings wysig nie';
 $lang['FORUMS_IN_CAT'] = 'Forums in daardie kategorie';
 
-$lang['MC_TITLE'] = 'Kommentaar Moderering';
+$lang['MC_TITLE'] = 'Moderering kommentaar';
 $lang['MC_LEGEND'] = 'Tik \'n opmerking';
 $lang['MC_FAQ'] = 'Ingevoerde teks sal onder hierdie boodskap vertoon word';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s in jou boodskap";
