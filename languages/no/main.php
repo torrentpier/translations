@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Vedlegget er for stor.<br />Maximum Oppl
 $lang['DISALLOWED_EXTENSION'] = 'Utvidelsen %s er ikke tillatt'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Du har ikke lov til å legge ut Filer med Filtypen %s i dette Forumet'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Vedlegget er for stort.<br />Maksimal størrelse: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Beklager, men maksimal filstørrelse for alle vedlegg er nådd. Vennligst kontakt styreadministratoren hvis du har spørsmål.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Vedlegg kan legges til, siden maks. antall %d Vedlegg i dette innlegget ble oppnådd'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Vedlegg/Bilde må være mindre enn %d piksler bredt og %d punkter høy';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Laste opp Feil: Kan ikke laste opp Vedlegg til %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Du må skrive inn verdier i feltet "Legg til Vedlegg" - Boksen';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Ute av stand til å Oppdatere Vedlegget, kan ikke finne gamle Vedlegg Oppføring';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Beklager, men maksimal filstørrelse for alle vedlegg i din private meldingsmappe er nådd. Vennligst slett noen av dine mottatte/sendte vedlegg.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Beklager, men maksimal filstørrelse for alle vedlegg i private meldingsmappen til \'%s\' er nådd. Vennligst gi ham beskjed, eller vent til han/hun har slettet noen av sine vedlegg.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Du har ikke valgt et vedlegg for å laste ned eller se på.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Katalogen \'%s\' eksisterer ikke, eller Kun
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Vennligst sjekk om \'%s\' er en katalog.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalog \'%s\' er ikke skrivbar. Du må opprette opplastingsstien og endre tillatelsene til 777 (eller endre eieren til din httpd-server eier) for å laste opp filer.<br />Hvis du bare har vanlig FTP-tilgang, endre \'attributtet\' av katalogen til rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Laste Opp Kvoten';
-$lang['PM_QUOTA'] = 'PM Kvote';
-
 // Common Variables
 $lang['BYTES'] = 'Byte';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Test Innstillinger';
 $lang['NOT_ASSIGNED'] = 'Ikke Tildelt';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Ingen Fil Kommentar tilgjengelig';
 $lang['ATTACHBOX_LIMIT'] = 'Din vedleggsboks er<br /><b>%d%%</b> full';
-$lang['NO_QUOTA_LIMIT'] = 'Ingen Kvotegrensen';
 $lang['UNLIMITED'] = 'Ubegrenset';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Enkel Modus';
 $lang['ADVANCED_MODE'] = 'Avansert Modus';
 $lang['MODERATOR_STATUS'] = 'Moderator status';
 
-$lang['ALLOWED_ACCESS'] = 'Tilgang';
-$lang['DISALLOWED_ACCESS'] = 'Forbudt Tilgang';
-$lang['IS_MODERATOR'] = 'Er Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Advarsel om autorisasjonskonflikt';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Denne brukeren fortsatt har tilgang til dette forumet via gruppe-medlemskap. Det kan hende du ønsker å endre gruppe tillatelser eller fjerne denne bruker gruppen til fullt ut å hindre dem i å ha tilgang til rettigheter. Gruppene tildeling av rettigheter (og de fora som er involvert), er oppført nedenfor.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Denne brukeren har fortsatt moderator rettigheter til dette forumet via gruppe-medlemskap. Det kan hende du ønsker å endre gruppe tillatelser eller fjerne denne bruker gruppen til fullt ut å hindre dem å ha moderator rettigheter. Gruppene tildeling av rettigheter (og de fora som er involvert), er oppført nedenfor.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Følgende bruker (eller brukere) fortsatt har tilgang til dette forumet via brukerens tillatelse innstillinger. Det kan hende du ønsker å endre brukerens tillatelser til å fullstendig hindre dem i å ha tilgang til rettigheter. Brukerne er gitt rettigheter (og de fora som er involvert), er oppført nedenfor.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Følgende bruker (eller brukere) har fortsatt moderator rettigheter til dette forumet via deres bruker-innstillinger for tillatelser. Det kan hende du ønsker å endre brukerens tillatelser til å fullstendig hindre dem å ha moderator rettigheter. Brukerne er gitt rettigheter (og de fora som er involvert), er oppført nedenfor.';
-
 $lang['PUBLIC'] = 'Offentlig';
 $lang['PRIVATE'] = 'Privat';
 $lang['REGISTERED'] = 'Registrert';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Avstemning';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Avstemning opprette';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Legge Ut Filer';
 $lang['AUTH_DOWNLOAD'] = 'Last Ned Filer';
-
-$lang['SIMPLE_PERMISSION'] = 'Enkel Tillatelser';
 
 $lang['USER_LEVEL'] = 'Brukernivå';
 $lang['AUTH_USER'] = 'Bruker';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Navn på nettsted';
 $lang['SITE_DESC'] = 'Område beskrivelse';
 $lang['FORUMS_DISABLE'] = 'Deaktiver styret';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Dette vil gjøre styret utilgjengelige for brukerne. Administratorer er i stand til å få tilgang til Administrasjon Panel mens styret er deaktivert.';
-$lang['ACCT_ACTIVATION'] = 'Aktiver aktivering av konto';
 $lang['ACC_NONE'] = 'Ingen'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Bruker';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'La Signaturer';
 $lang['MAX_SIG_LENGTH'] = 'Maksimal signatur lengde';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalt antall tegn i bruker signaturer';
 $lang['ALLOW_NAME_CHANGE'] = 'La Brukernavn endringer';
-
-$lang['EMAIL_SETTINGS'] = 'E-Post-Innstillinger';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Aktiver Visuell Bekreftelse';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Krever at brukere skriver inn en kode definert av et bilde når du registrerer deg.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Tillat automatisk innlogginger';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klikk %sHere%s for å gå tilbake til Smiley
 
 // User Management
 $lang['USER_ADMIN'] = 'Brukeradministrasjon';
-$lang['USER_ADMIN_EXPLAIN'] = 'Her kan du endre dine brukere\' informasjon og visse alternativer. For å endre brukernes rettigheter, vennligst bruk brukeren og gruppen tillatelser system.';
-
 $lang['LOOK_UP_USER'] = 'Se opp brukeren';
-
-$lang['ADMIN_USER_FAIL'] = 'Kunne ikke oppdatere brukerens profil.';
-$lang['ADMIN_USER_UPDATED'] = 'Brukerens profil har blitt oppdatert på riktig måte.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klikk %sHere%s for å gå tilbake til brukeradministrasjon';
-
-$lang['USER_ALLOWPM'] = 'Kan sende Private Meldinger';
-$lang['USER_ALLOWAVATAR'] = 'Kan vise avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Her kan du se og slette brukerens nåværende avatar.';
-
-$lang['USER_SPECIAL'] = 'Spesialtilbud på hoteller i admin-bare feltene';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Disse feltene er ikke i stand til å bli endret av brukere. Her kan du sette sin status og andre alternativer som ikke er gitt til brukere.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Gruppen Administrasjon';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Andel tillegg for utveksling av bonuser på GB'
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Kontroll Panel';
-$lang['SHADOW_ATTACHMENTS'] = 'Shadow Vedlegg';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Forbudt Utvidelser';
 $lang['EXTENSION_CONTROL'] = 'Extension Kontroll';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Extension Grupper Kontroll';
 $lang['SPECIAL_CATEGORIES'] = 'Spesielle Kategorier';
-$lang['SYNC_ATTACHMENTS'] = 'Synkronisere Vedlegg';
-$lang['QUOTA_LIMITS'] = 'Kvote Grenser';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Vedlegg Innstillinger';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Vedlegg Emnet-Ikonet';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Dette Bildet vises før emner med Vedlegg. Lar dette feltet stå tomt hvis du ikke vil på et ikon for å bli vist.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Vedlegg Visningsrekkefølgen';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Her kan du velge om du vil vise Vedleggene i Innlegg/PMs i Synkende Filetime Rekkefølge (det Nyeste Vedlegg Første) eller Stigende Filetime For (Eldste Vedlegg Første).';
-$lang['SHOW_APCP'] = 'Bruk det nye kontrollpanelet programmer';
-$lang['SHOW_APCP_EXPLAIN'] = 'Velg om du vil bruke en separat kontrollpanel programmer (ja), eller den gamle metoden med to bokser for programmer og redigering programmer (ingen) i meldingsboksen. Det er vanskelig å forklare hvordan det ser ut, så prøv selv.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Filstørrelse';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimal filstørrelse for Vedlegg. En verdi på 0 betyr \'ubegrenset\'. Denne Innstillingen er begrenset av din Server Konfigurasjon. For eksempel, hvis din php-Konfigurasjon bare tillater en maks 2 MB opplasting, dette kan ikke overskrives av Mod.';
-$lang['ATTACH_QUOTA'] = 'Vedlegg Kvote';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimal Diskplass ALLE Vedlegg kan holde på webhotellet. En verdi på 0 betyr \'ubegrenset\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maksimal Filstørrelse i Private Meldinger-Mappen';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimal Diskplass Vedlegg kan bruke opp i hver enkelt brukers Egen meldingsboks. En verdi på 0 betyr \'ubegrenset\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Standard Kvotegrensen';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Her er du i stand til å velge Standard lagringsplassen automatisk tildelt nylig registrerte Brukere og Brukere uten en definert lagringsplassen. Alternativet "Ingen Kvote Limit\' er for ikke å bruke alle Vedlegg Kvoter, i stedet bruker standard-Innstillingene du har angitt i denne administrasjonspanelet.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maksimum Antall Vedlegg';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimalt antall vedlegg som er tillatt i ett innlegg.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Deaktiver Vedlegg Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Dette alternativet er først og fremst for å teste nye maler eller temaer, det deaktiverer alle Vedlegg Funksjoner bortsett fra Admin-Panelet.';
 $lang['PM_ATTACHMENTS'] = 'Tillat Vedlegg i Private Meldinger';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Tillate/Nekte å legge ved filer til Private Meldinger.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Vis programmer i gjennomgangen av kommunikasjon emner når du skriver et svar?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Hvis du setter et "ja", og alle søknader vil bli vist i gjennomgangen av kommunikasjon emner.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Her kan du slette vedlegget data fra innlegg når det mangler filer fra din filsystem, og slette filer som ikke lenger knyttet til noen innlegg. Du kan laste ned eller vise en fil hvis du klikker på den, hvis ikke linken er til stede, vil filen ikke eksisterer.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Slette alle vedlegg filer som finnes på filsystemet og er ikke knyttet til en eksisterende post.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Slette alle innlegg vedlegg data til filer som ikke eksisterer på filsystemet.';
-$lang['EMPTY_FILE_ENTRY'] = 'Tom Fil Oppføring';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Forhåndsvisningen har blitt tilbakestilt for vedlegget: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Synkronisering av vedlegg er fullført.';
 $lang['SYNC_TOPICS'] = 'Sync Emner';
 $lang['SYNC_POSTS'] = 'Sync Innlegg';
-$lang['SYNC_THUMBNAILS'] = 'Sync Miniatyrbilder';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Administrere Utvidelser';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Her kan du administrere din Filtyper. Hvis du ønsker å tillate/ikke tillate en Utvidelse til å bli lastet opp, kan du bruke Extension Grupper Management.';
 $lang['EXPLANATION'] = 'Forklaring';
 $lang['EXTENSION_GROUP'] = 'Extension Gruppe';
-$lang['INVALID_EXTENSION'] = 'Ugyldig Extension';
 $lang['EXTENSION_EXIST'] = 'Utvidelsen %s finnes allerede'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Utvidelsen %s er forbudt, du er ikke i stand til å legge det til Utvidelser tillatt'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Administrere Extension Grupper';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Utvidelsen Gruppe %s finnes allerede'; // repl
 $lang['MANAGE_CATEGORIES'] = 'Behandle Spesielle Kategorier';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Her kan du konfigurere de Spesielle Kategoriene. Du kan sette opp Spesielle Parametere og Forhold for de Spesielle Kategoriene tildelt en Utvidelsesgruppe.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Innstillinger for Special Category: Bilder';
-$lang['SETTINGS_CAT_FLASH'] = 'Innstillinger for Special Category: Flash-Filer';
 $lang['DISPLAY_INLINED'] = 'Vis bilder inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Velg om du vil vise bilder direkte i innlegg (ja) eller for å vise bilder som en link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimal Bilde Dimensjoner';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Opprette Miniatyrbilder';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum filstørrelse for miniatyrbilder';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Hvis et bilde er mindre enn denne definerte filstørrelsen, vil ingen miniatyrbilde bli opprettet, fordi det er smått nok.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Administrere Forbudt Utvidelser';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Her kan du legge til eller slette den forbudte utvidelser. Utvidelser php, php3 og php4 er forbudt ved standard for sikkerhetsmessige årsaker, kan du ikke slette dem.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Den forbudte Extension %s finnes allerede'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Utvidelsen %s er definert i lov Utvidelser, kan du slette det før du legger det inn her.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Tillatelser for utvidelsesgrupper → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Her du er i stand til å begrense den valgte Filtypen Gruppe til Fora av ditt valg (definert i Lov Fora Boks). Standard er å tillate Utvidelse Grupper til alle Fora, Brukeren er i stand til å Legge ved Filer i (vanlig måte Vedlegget Mod gjorde det siden begynnelsen). Bare legge til disse Fora du vil Utvidelsen Gruppe (Utvidelser innenfor denne Gruppen) til å være tillatt det, standard ALLE FORA vil forsvinne når du legger til Forum til Listen. Du er i stand til å legge ALLE FORA til enhver Tid. Hvis du vil legge til en Forumet til ditt Bord og Tillatelse er satt til ALLE FORA ingenting vil endre seg. Men hvis du har endret og begrenset tilgang til visse Fora, må du sjekke innom her for å legge til den nyopprettede Forum. Det er enkelt å gjøre dette automatisk, men dette vil tvinge deg til å redigere en haug av Filer, derfor har jeg valgt slik det er nå. Vær oppmerksom på at alle Fora vil bli listet opp her.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Legg Til Forumene';
 $lang['ADD_SELECTED'] = 'Legg Til Valgt';
 $lang['PERM_ALL_FORUMS'] = 'ALLE FORUMENE';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Behandle Vedlegg Kvote Grenser';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Her du er i stand til å legge til/slette/endre Kvote Grenser. Du er i stand til å tilordne disse Kvote Grenser til Brukere og Grupper senere. For å tilordne en Kvote på Grensen til en Bruker, må du gå til Brukere->Ledelse, velger du Brukeren, og du vil se Alternativene som er på bunnen. For å tilordne en Kvote Begrense til en Gruppe, kan du gå til Grupper->Ledelse, velg Gruppen for å redigere det, og vil du se konfigureringsinnstillinger. Hvis du ønsker å se, hvilke Brukere og Grupper som er tilordnet til en bestemt kvotegrensen, klikk på " Vis " på venstre side av Kvoten Beskrivelse.';
-$lang['ASSIGNED_USERS'] = 'Tildelt Brukere';
-$lang['ASSIGNED_GROUPS'] = 'Er Tilordnet Grupper';
-$lang['QUOTA_LIMIT_EXIST'] = 'Kvotegrensen %s eksisterer allerede.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'File Attachment Control Panel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Her kan du vise og administrere alle vedlegg er basert på Brukere, Vedlegg, Utsikt etc...';
-$lang['FILECOMMENT'] = 'Fil Kommentar';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Bruke * som jokertegn for delvise treff';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Antall Innlegg med Vedlegg';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Antall Emner med Vedlegg';
 $lang['NUMBER_USERS_ATTACH'] = 'Uavhengig Brukere Postet Vedlegg';
 $lang['NUMBER_PMS_ATTACH'] = 'Totalt Antall Vedlegg i Private Meldinger';
-$lang['ATTACHMENTS_PER_DAY'] = 'Vedlegg per dag';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Vedlegg Statistikk for %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigurasjon Fullført';
 $lang['SET_DEFAULTS'] = 'Gjenopprette standardinnstillinger';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum alternativer:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'hold nede <i>Ctrl</i> mens velge flere fora';
 
