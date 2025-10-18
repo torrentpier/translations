@@ -82,8 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'มุมมองโพสล่าสุด';
 $lang['VIEW_NEWEST_POST'] = 'มุมมองใหม่ล่าสุดของโพสต์';
 $lang['PAGE_OF'] = 'หน้า <b>%d</b> ของ <b>%s</b>';
 
-$lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER'] = 'ทวิตเตอร์';
+$lang['TWITTER_ERROR'] = 'คุณป้อนไม่ถูกต้องทวิตเตอร์ล็อกอิน';
 
 $lang['FORUM_INDEX'] = '%s ชุดัชนี'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'คุณแน่ใจหรือว่าค
 $lang['FLOOD_ERROR'] = 'คุณไม่สามารถทำให้คนอื่โพสต์ดังนั้นเร็วๆนี้หลังจากสุดท้ายของคุณ;โปรดลองใหม่อีกครั้งในพักหนึ่ง';
 $lang['EMPTY_SUBJECT'] = 'คุณต้องกำหนดชื่อเรื่อง';
 $lang['EMPTY_MESSAGE'] = 'คุณต้องป้อนข้อความ';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'ชุถูกล็อค';
+$lang['TOPIC_LOCKED'] = 'หัวข้อถูกล็อค';
 $lang['TOPIC_LOCKED_SHORT'] = 'หัวข้อถูกล็อค';
 $lang['NO_POST_ID'] = 'คุณต้องเลือกโพสที่จะแก้ไข';
 $lang['NO_TOPIC_ID'] = 'คุณต้องเลือกเป็นเรื่องที่จะตอบกลับไปยังผู้รับ';
@@ -1396,7 +1396,7 @@ $lang['COLOR_DARK_GREEN'] = 'สีเขียว';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
+$lang['POLL'] = 'โพล';
 $lang['MODERATE'] = 'Moderate';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'ค้นหาสำหรับใช
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'ค้นหาสำหรับใช้กับการจำนวนน้อยกว่า %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'ค้นหาสำหรับใช้กับโพสนับระหว่าง %d และ %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'ค้นหาสำหรับใช้กับโพสนับค่าของ %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'ค้นหาสำหรับใช้กับทวิตเตอร์ตรงกับ %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'ค้นหาสำหรับใช้กับเว็บไซต์ขอตรงกับ %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'ค้นหาสำหรับใช้กับตำแหน่งตรงกับ %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'ค้นหาสำหรับใช้กับพวกเขาสนใจสนามตรงกับ %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'วัน';
 $lang['POST_EDIT_CANNOT'] = 'ขอโทษแต่คุณไม่สามารถแก้ไขกัปตัน..เสาทางนี้';
 $lang['FORUMS_IN_CAT'] = 'forums อยู่ในหมวดหมู่';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'ความคิดเห็นการModerate';
 $lang['MC_LEGEND'] = 'ประเภทมีความคิดเห็น';
 $lang['MC_FAQ'] = 'ป้อนข้อความจะถูกใช้แสดงภายใต้ข้อความนี้';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s ในข้อความของคุณ";
