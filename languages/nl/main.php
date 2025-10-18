@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Bekijk de nieuwste post';
 $lang['PAGE_OF'] = 'Pagina <b>%d</b> van <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Je hebt een ongeldig Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Weet u zeker dat u wilt verwijderen van deze pol
 $lang['FLOOD_ERROR'] = 'U kunt niet een andere post zo snel na je laatste; gelieve opnieuw te proberen in een korte tijd';
 $lang['EMPTY_SUBJECT'] = 'U moet een onderwerp';
 $lang['EMPTY_MESSAGE'] = 'Je moet een bericht';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Dit forum is gesloten';
+$lang['TOPIC_LOCKED'] = 'Dit onderwerp is vergrendeld';
 $lang['TOPIC_LOCKED_SHORT'] = 'Onderwerp is vergrendeld';
 $lang['NO_POST_ID'] = 'Moet u een post bewerken';
 $lang['NO_TOPIC_ID'] = 'U moet selecteren van een onderwerp te beantwoorden';
@@ -1397,7 +1397,7 @@ $lang['COLOR_DARK_GREEN'] = 'Donker Groen';
 // Short buttons
 $lang['IP'] = 'IP';
 $lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Zoeken naar gebruikers met een post-cou
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Zoeken naar gebruikers met een post-count minder dan %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Zoeken naar gebruikers met een post-count tussen %d en %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Zoeken naar gebruikers met een post-count waarde van %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Zoeken naar gebruikers met een Twitter bijpassende %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Zoeken naar gebruikers met een bijpassende Website %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Zoeken naar gebruikers met een Locatie bijpassende %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Gebruikers zoeken met hun Belangen veld bijpassende %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Dag';
 $lang['POST_EDIT_CANNOT'] = 'Sorry, maar je kan niet berichten bewerken';
 $lang['FORUMS_IN_CAT'] = 'forums in die categorie';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderatiecommentaar';
 $lang['MC_LEGEND'] = 'Typ een commentaar';
 $lang['MC_FAQ'] = 'Ingevoerde tekst zal worden weergegeven onder dit bericht';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s in uw bericht";
