@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Liite on liian iso.<br />Maximum Lähety
 $lang['DISALLOWED_EXTENSION'] = 'Laajennus %s ei ole sallittua'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sinulla ei ole oikeutta lähettää Tiedostoja Laajennus %s Foorumissa'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Liite on liian iso.<br />Max Koko: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Anteeksi, mutta suurin tiedostokoko kaikki Liitteet on saavutettu. Ota yhteyttä ylläpitäjään, jos sinulla on kysyttävää.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Liitettä ei voi lisätä, koska max. määrä %d Liitetiedostoja tämä viesti oli saavutettu'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Liitetiedosto/Kuvan tulee olla vähemmän kuin %d pikseliä leveä ja %d pikseliä korkea';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Ladata Virhe: ei voitu ladata Liitetiedoston %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Sinun täytyy syöttää arvot "Lisää Liite" - Ruutuun';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Voi Päivittää Kiinnitys, ei löytänyt vanha Kiinnitys Merkintä';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Anteeksi, mutta suurin tiedostokoko kaikille Liitetiedostoja teidän Yksityinen Viesti Kansio on saavutettu. Poista joitakin saadut/lähetetyt Liitteet.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Anteeksi, mutta suurin tiedostokoko kaikille Liitteet Yksityinen Viesti Kansioon \'%s\' on saavutettu. Anna hänen tietää, tai odottaa, kunnes hän/hän on poistanut joitakin hänen/hänen Liitteet.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Et ole valinnut liitetiedostona ladata tai katsoa.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Hakemisto \'%s\' ei ole olemassa tai ei lö
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Ole hyvä ja tarkista, jos %s\' on hakemisto.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Hakemisto \'%s\' ei voi kirjoittaa. Sinun täytyy luoda upload polku ja chmod se 777 (tai vaihtaa omistajaa sinulle httpd-palvelimet omistaja) ladata tiedostoja.<br />If sinulla on vain tavallinen FTP-yhteys muuttaa \'Ominaisuus\' hakemiston rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Lähetyksen Kiintiön';
-$lang['PM_QUOTA'] = 'PM Kiintiön';
-
 // Common Variables
 $lang['BYTES'] = 'Tavua';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Testin Asetukset';
 $lang['NOT_ASSIGNED'] = 'Ei Määritetty';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Ei Tiedoston Kommentti saatavilla';
 $lang['ATTACHBOX_LIMIT'] = 'Sinun Attachbox is<br /><b>%d%%</b> täynnä';
-$lang['NO_QUOTA_LIMIT'] = 'Ei Quota Limit';
 $lang['UNLIMITED'] = 'Rajoittamaton';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Yksinkertainen Tila';
 $lang['ADVANCED_MODE'] = 'Advanced-Tilassa';
 $lang['MODERATOR_STATUS'] = 'Moderaattori-status';
 
-$lang['ALLOWED_ACCESS'] = 'Pääsy Sallittu';
-$lang['DISALLOWED_ACCESS'] = 'Luvaton Pääsy';
-$lang['IS_MODERATOR'] = 'On Moderaattori';
-
-$lang['CONFLICT_WARNING'] = 'Lupa Konflikti Varoitus';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Tämä käyttäjä on edelleen käyttöoikeus tämän foorumin kautta ryhmän jäsenyys. Haluat ehkä muuttaa ryhmän käyttöoikeudet tai poistaa tämän käyttäjän ryhmä, täysin estää niitä, joilla on käyttöoikeudet. Ryhmien oikeuksien myöntäminen (ja foorumeilla mukana) ovat huomautti alla.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Tämä käyttäjä on edelleen moderaattorin oikeudet tämän foorumin kautta ryhmän jäsenyys. Haluat ehkä muuttaa ryhmän käyttöoikeudet tai poistaa tämän käyttäjän ryhmä, täysin estää niitä, joilla on valvojan oikeudet. Ryhmien oikeuksien myöntäminen (ja foorumeilla mukana) ovat huomautti alla.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Seuraava käyttäjä (tai käyttäjät) on vielä käyttöoikeudet tämän foorumin kautta käyttäjän lupaa asetuksia. Haluat ehkä muuttaa käyttöoikeuksia täysin estää niitä, joilla on käyttöoikeudet. Käyttäjien oikeuksia (ja foorumeilla mukana) ovat huomautti alla.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Seuraava käyttäjä (tai käyttäjät) on vielä moderaattori oikeudet tämän foorumin kautta niiden käyttöoikeudet asetukset. Haluat ehkä muuttaa käyttöoikeuksia täysin estää ne ottaa moderaattori-oikeudet. Käyttäjien oikeuksia (ja foorumeilla mukana) ovat huomautti alla.';
-
 $lang['PUBLIC'] = 'Julkinen';
 $lang['PRIVATE'] = 'Yksityinen';
 $lang['REGISTERED'] = 'Rekisteröity';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Äänestys';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Kyselyn luominen';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Tiedostot';
 $lang['AUTH_DOWNLOAD'] = 'Lataa Tiedostot';
-
-$lang['SIMPLE_PERMISSION'] = 'Yksinkertainen Käyttöoikeudet';
 
 $lang['USER_LEVEL'] = 'Käyttäjän Tasolla';
 $lang['AUTH_USER'] = 'Käyttäjä';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Sivuston nimi';
 $lang['SITE_DESC'] = 'Sivuston kuvaus';
 $lang['FORUMS_DISABLE'] = 'Poistaa aluksella';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Tämä tekee hallituksen käytettävissä käyttäjille. Järjestelmänvalvojat voivat käyttää Hallinnon Paneeli, kun hallitus on poistettu käytöstä.';
-$lang['ACCT_ACTIVATION'] = 'Jotta tilin aktivointi';
 $lang['ACC_NONE'] = 'Ei mitään'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Käyttäjä';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Salli Allekirjoitukset';
 $lang['MAX_SIG_LENGTH'] = 'Suurin allekirjoitus pituus';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Merkkien enimmäismäärä käyttäjän allekirjoitukset';
 $lang['ALLOW_NAME_CHANGE'] = 'Anna Käyttäjätunnus muutoksia';
-
-$lang['EMAIL_SETTINGS'] = 'Sähköposti Asetukset';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Avulla Visuaalinen Vahvistus';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Vaatii käyttäjiä syötä koodi on määritelty kuvan, kun rekisteröitymättä.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Salli automaattiset kirjautumiset';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klikkaa %sHere%s palata Hymiö Hallinto';
 
 // User Management
 $lang['USER_ADMIN'] = 'Käyttäjä Hallinto';
-$lang['USER_ADMIN_EXPLAIN'] = 'Täällä voit muuttaa käyttäjien tietoja ja tiettyjä vaihtoehtoja. Voit muokata käyttäjien käyttöoikeuksia, käytä käyttäjän ja ryhmän oikeudet järjestelmään.';
-
 $lang['LOOK_UP_USER'] = 'Katso ylös käyttäjä';
-
-$lang['ADMIN_USER_FAIL'] = 'Ei voinut päivittää käyttäjän profiiliin.';
-$lang['ADMIN_USER_UPDATED'] = 'Käyttäjän profiili on päivitetty onnistuneesti.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klikkaa %sHere%s palata User Administration';
-
-$lang['USER_ALLOWPM'] = 'Voi lähettää Yksityisiä Viestejä';
-$lang['USER_ALLOWAVATAR'] = 'Voi näyttää avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Täällä voit nähdä ja poistaa nykyisen käyttäjän avatar.';
-
-$lang['USER_SPECIAL'] = 'Erityistä admin-vain kentät';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Nämä kentät eivät voi olla muutettu käyttäjille. Täällä voit asettaa niiden tilan, ja muita vaihtoehtoja, jotka eivät ole antaneet käyttäjille.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Konsernin Hallinto';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Osuus lisäksi vaihto bonuksia GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Ohjauspaneeli';
-$lang['SHADOW_ATTACHMENTS'] = 'Varjo Liitteet';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Kielletty Laajennukset';
 $lang['EXTENSION_CONTROL'] = 'Extension Control';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Laajennus Ryhmien Ohjaus';
 $lang['SPECIAL_CATEGORIES'] = 'Erityistä Luokat';
-$lang['SYNC_ATTACHMENTS'] = 'Synkronoida Liitteet';
-$lang['QUOTA_LIMITS'] = 'Kiintiön Rajoissa';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Kiinnitys Asetukset';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Kiinnitys Aihe Kuvake';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Tämä Kuva on näytössä, ennen kuin aiheet, joissa on Liitteitä. Jätä tämä kenttä tyhjäksi, jos et halua kuvaketta näytetään.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Kiinnitys Näyttö, Jotta';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Täällä voit valita, näytetäänkö Liitetiedostoja Viestit/PMs Alenevassa Filetime Järjestyksessä (Uusin Kiinnitys Ensin) tai Nouseva Filetime Järjestyksessä (Vanhin Kiinnitys Ensin).';
-$lang['SHOW_APCP'] = 'Käytä uutta ohjauspaneelin sovelluksia';
-$lang['SHOW_APCP_EXPLAIN'] = 'Valitse, haluatko käyttää erillisen ohjauspaneelin sovellukset (kyllä), tai vanha menetelmä, jossa on kaksi laatikkoa sovellukset ja editointi sovelluksia (ei mitään) viestikenttään. Sitä on vaikea selittää, miltä se näyttää, niin kokeile itse.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Tiedostokoko';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimi tiedostokoko Liitetiedostoja. Arvo 0 tarkoittaa \'rajaton\'. Tämä Asetus on rajoitettu Palvelimen Kokoonpano. Esimerkiksi, jos php Kokoonpano sallii vain enintään 2 MB lisäykset, tämä voi olla korvataan Mod.';
-$lang['ATTACH_QUOTA'] = 'Kiinnitys Kiintiö';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Suurin levytilaa KAIKKI Liitteet voi pitää teidän Webspace. Arvo 0 tarkoittaa \'rajaton\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maksimi Tiedostokoko Yksityiset Viestit-Kansioon';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Suurin levytilaa Liitetiedostoja voi käyttää kunkin Käyttäjän Yksityinen Viesti ruutuun. Arvo 0 tarkoittaa \'rajaton\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Default Quota Limit';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Täällä voit valita Oletuksena Kiintiö Rajoittaa automaattisesti ensirekisteröityjen Käyttäjät ja Käyttäjät, joilla on määritelty Kiintiön rajoissa. Vaihtoehto \'Ei Kiintiötä Raja\' on, joka ei käytä mitään Kiinnitys Kiintiöitä, sen sijaan käyttää default-Asetukset on määritetty tämän Johdon Paneeli.';
 
 $lang['MAX_ATTACHMENTS'] = 'Enimmäismäärä Liitteet';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Enimmäismäärä liitteet sallittu yksi viesti.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Poistaa Liitetiedoston Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Tämä vaihtoehto on lähinnä testata uusia malleja tai teemoja, se poistaa kaikki Kiinnitys Toiminnot, paitsi Admin Paneeli.';
 $lang['PM_ATTACHMENTS'] = 'Salli Liitetiedostoja Yksityisiä Viestejä';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Salli/Estä liittämällä tiedostot Yksityisiä Viestejä.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Näytä sovelluksia, tarkastelu, viestinnän aiheita, kun kirjoitat vastauksen?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Jos laittaa "kyllä", kaikki sovellukset näytetään tarkastelua viestinnän aiheista.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Täällä voit poistaa liitetiedoston tietoja viestejä, kun tiedostoja puuttuu teidän tiedostojärjestelmä, ja poistaa tiedostoja, jotka eivät ole enää kiinnitetty mitään viestejä. Voit ladata tai katsella tiedostoa, jos et klikkaa sitä; jos yhteys on läsnä, tiedostoa ei ole olemassa.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Poista kaikki liitteet tiedostoja, jotka ovat olemassa teidän tiedostojärjestelmä ja ei ole osoitettu olemassa olevaan virkaan.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Poista kaikki lähettämistä kiinnitys tiedot-tiedostoja, jotka eivät ole teidän tiedostojärjestelmä.';
-$lang['EMPTY_FILE_ENTRY'] = 'Tyhjä Tiedosto Merkintä';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Esikatselu on palautettu liitteelle: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Liitteen synkronointi valmis.';
 $lang['SYNC_TOPICS'] = 'Sync-Aiheet';
 $lang['SYNC_POSTS'] = 'Synkronoi Viestit';
-$lang['SYNC_THUMBNAILS'] = 'Sync Pikkukuvat';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Hallita Laajennuksia';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Täällä voit hallita tiedostopäätteet. Jos haluat sallia/estää Laajennus ladataan, käytä Laajennus Ryhmien Hallinta.';
 $lang['EXPLANATION'] = 'Selitys';
 $lang['EXTENSION_GROUP'] = 'Laajennus Ryhmä';
-$lang['INVALID_EXTENSION'] = 'Virheellinen Tiedostopääte';
 $lang['EXTENSION_EXIST'] = 'Laajennus %s jo olemassa'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Laajennus %s on kielletty, et voi lisätä sen saa Laajennukset'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Hallita Tiedostotunnistetta Ryhmät';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Laajennus Ryhmä %s jo olemassa'; // replace %
 $lang['MANAGE_CATEGORIES'] = 'Hallitse Erityistä Luokat';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Täällä voit konfiguroida Erityiset Luokat. Voit asettaa Erityiset Parametrit ja Ehdot Erityisille Luokille, jotka on liitetty Laajennusryhmään.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Asetukset Special Luokka: Kuvat';
-$lang['SETTINGS_CAT_FLASH'] = 'Asetukset Special Category: Flash-Tiedostoja';
 $lang['DISPLAY_INLINED'] = 'Näyttää Kuvien Sisältöön';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Valitse näytetäänkö kuvia suoraan sisällä postitse (kyllä) tai voit näyttää kuvat linkkinä ?';
 $lang['MAX_IMAGE_SIZE'] = 'Suurin Kuvan Mitat';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Luo Thumbnail';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Pienin Pikkukuva Tiedostokoko';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jos Kuva on pienempi kuin tämä on määritelty Tiedostokoko, ei Thumbnail luodaan, koska se on tarpeeksi pieni.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Hallita Kielletty Laajennukset';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Täällä voit lisätä tai poistaa kielletty laajennukset. Laajennukset php, php3 ja php4 on kielletty oletusarvoisesti turvallisuussyistä, et voi poistaa niitä.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Kielletty Tiedostotunnistetta %s jo olemassa'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Laajennus %s on määritelty sallitut Laajennukset, poista se ennen kuin lisäät sen tänne.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Laajennus-Ryhmän Käyttöoikeudet -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Täällä voit rajoittaa valitun Tiedostotunnistetta Ryhmä Foorumeilla valinta (määritellään Sallittu Foorumeilla. Laatikko). Oletusarvo on, että Tiedostotunnistetta Ryhmien kaikki Foorumit Käyttäjä voi Liittää Tiedostoja (normaalisti Kiinnitys Mod teki sen alusta). Lisää vain näitä Foorumeita haluat Laajennus Ryhmä (Extensions tämän Ryhmän sisällä) saa siellä, oletuksena KAIKKI FOORUMIT katoaa, kun lisäät Foorumeilla Luetteloon. Voit lisätä uudelleen KAIKKI FOORUMIT milloin tahansa. Jos lisäät foorumi teidän Aluksella ja Lupa on asettaa KAIKKI FOORUMIT mikään ei muutu. Mutta, jos olet muuttanut ja rajoitettu pääsy tiettyihin Foorumeilla, sinun täytyy tarkistaa takaisin tänne lisätä juuri luotu Foorumi. Se on helppo tehdä tämän automaattisesti, mutta tämä pakottaa voit muokata joukko Tiedostoja, siksi olen valinnut sellaiseksi kuin se on nyt. Pidä mielessä, että kaikki Foorumit on lueteltu tässä.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Lisää Foorumeilla';
 $lang['ADD_SELECTED'] = 'Lisää Valitut';
 $lang['PERM_ALL_FORUMS'] = 'KAIKKI FOORUMIT';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Hallita Kiinnitys Kiintiön Rajoissa';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Täällä voit lisätä/poistaa/muuttaa Kiintiön Rajoissa. Voit määrittää nämä Kiintiön Rajat Käyttäjät ja Ryhmät myöhemmin. Määrittää Kiintiön Raja-Käyttäjä, sinun täytyy mennä Käyttäjät->Hallinta, valitse Käyttäjä, ja näet Vaihtoehtoja alareunassa. Määrittää Kiintiön Raja-Ryhmään, siirry Ryhmät->Hallinta, valitse Ryhmä, jota haluat muokata, ja näet Asetukset. Jos haluat nähdä, mitkä Käyttäjät ja Ryhmät on määritetty tietyn Kiintiön rajoissa, klikkaa "Näytä" vasemmalla Kiintiön Kuvaus.';
-$lang['ASSIGNED_USERS'] = 'Kohdistetut Käyttäjät';
-$lang['ASSIGNED_GROUPS'] = 'Osoitettu Ryhmät';
-$lang['QUOTA_LIMIT_EXIST'] = 'Kiintiön Raja %s on jo olemassa.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Liitetiedoston Ohjauspaneeli';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Täällä voit tarkastella ja hallita kaikkia liitetiedostoja perustuu Käyttäjien, Liitetiedostoja, Näkemyksiä jne...';
-$lang['FILECOMMENT'] = 'Tiedoston Kommentti';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Käyttää * - merkkiä yleismerkkinä osittaista ottelut';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Useita Viestit, joissa on Liitteitä';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Useita Aiheita, joissa on Liitteitä';
 $lang['NUMBER_USERS_ATTACH'] = 'Riippumattomien Käyttäjien Lähetetty Liitteet';
 $lang['NUMBER_PMS_ATTACH'] = 'Kokonaismäärä Liitteet Yksityisiä Viestejä';
-$lang['ATTACHMENTS_PER_DAY'] = 'Liitteet per päivä';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Kiinnitys Tilastot %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Kokoonpano Päivitetty Onnistuneesti';
 $lang['SET_DEFAULTS'] = 'Palauta oletukset';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum vaihtoehdoista:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'pitämällä <i>Ctrl</i>, kun valitset useita foorumeilla';
 
