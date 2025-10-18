@@ -19,7 +19,7 @@ $lang['TOPICS'] = '主题';
 $lang['TOPICS_SHORT'] = '主题';
 $lang['REPLIES'] = '回复';
 $lang['REPLIES_SHORT'] = '回复';
-$lang['VIEWS'] = '观点';
+$lang['VIEWS'] = '觀點';
 $lang['POSTS'] = '帖子';
 $lang['POSTS_SHORT'] = '帖子';
 $lang['POSTED'] = '已发布';
@@ -213,12 +213,12 @@ $lang['SUBFORUMS'] = '子论坛';
 $lang['VIEW_FORUM'] = '查看论坛';
 
 $lang['FORUM_NOT_EXIST'] = '你所选择的论坛不存在。';
-$lang['REACHED_ON_ERROR'] = '您到达了这个页面错误。';
+$lang['REACHED_ON_ERROR'] = '您訪問此頁面時出現錯誤。';
 $lang['ERROR_PORNO_FORUM'] = '根据您的个人资料设定，成人论坛已被隐藏';
 
 $lang['DISPLAY_TOPICS'] = '显示主题';
 $lang['ALL_TOPICS'] = '全部主题';
-$lang['MODERATE_FORUM'] = '修改这个论坛';
+$lang['MODERATE_FORUM'] = '請修改此論壇。';
 $lang['TITLE_SEARCH_HINT'] = '搜索标题...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = '公告：';
@@ -241,7 +241,7 @@ $lang['RULES_VOTE_CAN'] = '你 <b>可以</b> 在本论坛参与投票';
 $lang['RULES_VOTE_CANNOT'] = '你 <b>不能</b> 在本论坛参与投票';
 $lang['RULES_MODERATE'] = '你 <b>可以</b> 管理这个论坛';
 
-$lang['NO_TOPICS_POST_ONE'] = '這個論壇中還沒有帖子<br />單擊 <b>新增主題</b> 圖示，您的帖子將是第一個。';
+$lang['NO_TOPICS_POST_ONE'] = '您不再關注此主題。';
 $lang['NO_RELEASES_POST_ONE'] = '這個論壇中還沒有發佈<br />單擊 <b>新增發佈</b> 圖示，您的發佈將是第一個。';
 
 // Viewtopic
@@ -252,8 +252,8 @@ $lang['POST_SUBJECT'] = '发表主题';
 $lang['SUBMIT_VOTE'] = '提交投票';
 $lang['VIEW_RESULTS'] = '查看结果';
 
-$lang['NO_NEWER_TOPICS'] = '论坛上没有新的帖子。';
-$lang['NO_OLDER_TOPICS'] = '论坛上没有更旧的帖子。';
+$lang['NO_NEWER_TOPICS'] = '論壇上沒有新的帖子。';
+$lang['NO_OLDER_TOPICS'] = '論壇上沒有更舊的帖子。';
 $lang['TOPIC_POST_NOT_EXIST'] = '您请求的主题或回复不存在';
 $lang['NO_POSTS_TOPIC'] = '本主题没有回复';
 
@@ -268,28 +268,28 @@ $lang['READ_PROFILE'] = '查看用户的个人资料';
 $lang['VISIT_WEBSITE'] = '访问发帖者的网站';
 $lang['VIEW_IP'] = '查看发帖者的IP';
 $lang['MODERATE_POST'] = '修改帖子';
-$lang['DELETE_POST'] = '删除这个职位';
+$lang['DELETE_POST'] = '刪除這個帖子。';
 
 $lang['WROTE'] = '写了'; // proceeds the username and is followed by the quoted text
-$lang['QUOTE'] = '报价'; // comes before bbcode quote output
-$lang['CODE'] = '代码'; // comes before bbcode code output
+$lang['QUOTE'] = '報價。'; // comes before bbcode quote output
+$lang['CODE'] = '代碼。'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = '隐藏文本';
-$lang['SPOILER_CLOSE'] = '转';
+$lang['SPOILER_CLOSE'] = '轉。';
 $lang['PLAY_ON_CURPAGE'] = '开始播放当前页';
 
 $lang['EDITED_TIME_TOTAL'] = '最後編輯由 <b>%s</b> 在 %s 上進行；共編輯了 %d 次。'; // Last edited by me on 12 Oct 2001; edited 1 time in total
 $lang['EDITED_TIMES_TOTAL'] = '最後編輯由 <b>%s</b> 在 %s 上進行；共編輯了 %d 次。'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
-$lang['LOCK_TOPIC'] = '锁的主题';
-$lang['UNLOCK_TOPIC'] = '解开话题';
-$lang['MOVE_TOPIC'] = '移话题';
-$lang['DELETE_TOPIC'] = '删除的议题';
-$lang['SPLIT_TOPIC'] = '分主题';
+$lang['LOCK_TOPIC'] = '鎖定主題。';
+$lang['UNLOCK_TOPIC'] = '解鎖主題。';
+$lang['MOVE_TOPIC'] = '移動主題。';
+$lang['DELETE_TOPIC'] = '刪除主題。';
+$lang['SPLIT_TOPIC'] = '拆分主題。';
 
-$lang['STOP_WATCHING_TOPIC'] = '停下的话题';
-$lang['START_WATCHING_TOPIC'] = '按照主题的答复';
-$lang['NO_LONGER_WATCHING'] = '你不再是以下这个话题';
-$lang['YOU_ARE_WATCHING'] = '你是下面这个主题的现在';
+$lang['STOP_WATCHING_TOPIC'] = '停止關注此主題。';
+$lang['START_WATCHING_TOPIC'] = '開始關注此主題的回覆。';
+$lang['NO_LONGER_WATCHING'] = '您不再關注此主題。';
+$lang['YOU_ARE_WATCHING'] = '您現在正關注此主題。';
 
 $lang['TOTAL_VOTES'] = '总票数';
 $lang['SEARCH_IN_TOPIC'] = '搜索话题...';
@@ -297,43 +297,43 @@ $lang['HIDE_IN_TOPIC'] = '隐藏';
 
 $lang['SHOW'] = '显示';
 $lang['AVATARS'] = '化身';
-$lang['RANK_IMAGES'] = '排名的图像';
+$lang['RANK_IMAGES'] = '排名的圖片';
 $lang['POST_IMAGES'] = '张贴图片';
 $lang['SIGNATURES'] = '签名';
-$lang['SPOILER'] = '扰流片';
-$lang['SHOW_OPENED'] = '显示打开';
-$lang['DOWNLOAD_PIC'] = '下载的图片';
+$lang['SPOILER'] = '劇透';
+$lang['SHOW_OPENED'] = '顯示已開啟';
+$lang['DOWNLOAD_PIC'] = '可下載的圖片';
 
-$lang['MODERATE_TOPIC'] = '中度这个话题';
-$lang['SELECT_POSTS_PER_PAGE'] = '每页的职位';
+$lang['MODERATE_TOPIC'] = '版主這個主題';
+$lang['SELECT_POSTS_PER_PAGE'] = '每頁的帖子';
 
 // Posting/Replying (Not private messaging!)
 $lang['TOPIC_REVIEW'] = '专题审查';
 
-$lang['NO_POST_MODE'] = '没有职位选择的模式'; // If posting.php is called without a mode (newtopic/reply/delete/etc., shouldn't be shown normally)
+$lang['NO_POST_MODE'] = '未選擇的貼文模式'; // If posting.php is called without a mode (newtopic/reply/delete/etc., shouldn't be shown normally)
 
 $lang['POST_A_NEW_TOPIC'] = '发布新的主题';
-$lang['POST_A_REPLY'] = '后新的答复';
-$lang['POST_TOPIC_AS'] = '后一专题作为';
-$lang['EDIT_POST'] = '编辑后';
+$lang['POST_A_REPLY'] = '後新的回復';
+$lang['POST_TOPIC_AS'] = '主題作為';
+$lang['EDIT_POST'] = '編輯貼文';
 $lang['EDIT_TOPIC_TITLE'] = '编辑专题的标题';
-$lang['EDIT_POST_NOT_1'] = '你是不是允许的 ';
-$lang['EDIT_POST_NOT_2'] = '你不能 ';
-$lang['EDIT_POST_AJAX'] = '你可不是编辑的职位与状态 ';
-$lang['AFTER_THE_LAPSE'] = '后失效 ';
+$lang['EDIT_POST_NOT_1'] = '您不被允許';
+$lang['EDIT_POST_NOT_2'] = '您不能';
+$lang['EDIT_POST_AJAX'] = '您無法編輯狀態的帖子';
+$lang['AFTER_THE_LAPSE'] = '在失效後';
 
 $lang['DONT_MESSAGE_TITLE'] = '你应该指定信息标题';
 $lang['INVALID_TOPIC_ID'] = '主题不存在的！';
-$lang['INVALID_TOPIC_ID_DB'] = '专题中不存在该数据库！';
+$lang['INVALID_TOPIC_ID_DB'] = '該主題在數據庫中不存在！';
 
 $lang['NOT_POST'] = '不存在的消息';
-$lang['NOT_EDIT_TOR_STATUS'] = '你可以未编辑版本有状况';
+$lang['NOT_EDIT_TOR_STATUS'] = '您無法編輯版本具有狀態';
 $lang['TOR_STATUS_DAYS'] = '天';
 
 $lang['OPTIONS'] = '选项';
 
 $lang['POST_ANNOUNCEMENT'] = '公告';
-$lang['POST_STICKY'] = '粘粘的';
+$lang['POST_STICKY'] = '粘性';
 $lang['POST_NORMAL'] = '正常';
 $lang['POST_DOWNLOAD'] = '下载';
 
@@ -375,22 +375,22 @@ $lang['DAYS'] = '天';
 $lang['POLL_FOR_EXPLAIN'] = '[输入 0 或留空以进行无限制时间的投票]';
 $lang['DELETE_POLL'] = '删除投票';
 
-$lang['MAX_SMILIES_PER_POST'] = '表情限制的%s表情，超过。';
+$lang['MAX_SMILIES_PER_POST'] = '表情符號超過了%s表情的限制。';
 
-$lang['ATTACH_SIGNATURE'] = '附上签名(签名可以改变在个人资料)';
+$lang['ATTACH_SIGNATURE'] = '附加簽名（簽名可以在個人檔案中更改）';
 $lang['NOTIFY'] = '在回复時通知我';
 $lang['ALLOW_ROBOTS_INDEXING'] = '允許機器人索引此主題';
 
-$lang['STORED'] = '您的信息已经进入了成功。';
-$lang['EDITED'] = '该消息已经被改变了';
-$lang['DELETED'] = '您的信息已删除成功。';
-$lang['POLL_DELETE'] = '你的调查已被删除成功。';
-$lang['VOTE_CAST'] = '你的票已经铸成。';
+$lang['STORED'] = '您的信息已成功輸入。';
+$lang['EDITED'] = '信息已被更改';
+$lang['DELETED'] = '您的信息已成功刪除。';
+$lang['POLL_DELETE'] = '您的投票已被刪除。';
+$lang['VOTE_CAST'] = '你已經投下了票。';
 
 $lang['EMOTICONS'] = '表情';
 $lang['MORE_EMOTICONS'] = '看更多的表情';
 
-$lang['FONT_COLOR'] = '字体的彩色';
+$lang['FONT_COLOR'] = '字體顏色';
 $lang['COLOR_DEFAULT'] = '默认的';
 $lang['COLOR_DARK_RED'] = '深红色';
 $lang['COLOR_RED'] = '红色的';
@@ -414,9 +414,9 @@ $lang['FONT_NORMAL'] = '正常的';
 $lang['FONT_LARGE'] = '大';
 $lang['FONT_HUGE'] = '巨大的';
 
-$lang['STYLES_TIP'] = '提示：式可以迅速应用于选定的文本。';
+$lang['STYLES_TIP'] = '提示：樣式可快速應用於選定的文本。';
 
-$lang['NEW_POSTS_PREVIEW'] = '主题具有新的、编辑或未读的员额';
+$lang['NEW_POSTS_PREVIEW'] = '主題具有新的、編輯或未讀的帖子';
 
 // Private Messaging
 $lang['PRIVATE_MESSAGING'] = '私人信息';
@@ -433,262 +433,262 @@ $lang['UNREAD_MESSAGE'] = '未读消息';
 $lang['READ_MESSAGE'] = '读消息';
 
 $lang['READ_PM'] = '读消息';
-$lang['POST_NEW_PM'] = '后消息';
-$lang['POST_REPLY_PM'] = '回答消息';
-$lang['POST_QUOTE_PM'] = '报价信息';
-$lang['EDIT_PM'] = '编辑的消息';
+$lang['POST_NEW_PM'] = '發送消息';
+$lang['POST_REPLY_PM'] = '回覆消息';
+$lang['POST_QUOTE_PM'] = '引用消息';
+$lang['EDIT_PM'] = '編輯消息';
 
 $lang['INBOX'] = '电子邮件收件箱';
-$lang['OUTBOX'] = '箱';
-$lang['SAVEBOX'] = 'Savebox';
-$lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = '标志';
-$lang['SUBJECT'] = '受';
+$lang['OUTBOX'] = '發件箱';
+$lang['SAVEBOX'] = '保存箱';
+$lang['SENTBOX'] = '已發箱';
+$lang['FLAG'] = '標誌';
+$lang['SUBJECT'] = '主旨';
 $lang['FROM'] = '从';
-$lang['TO'] = '要';
+$lang['TO'] = '至';
 $lang['DATE'] = '日期';
 $lang['MARK'] = '标记';
 $lang['SENT'] = '发送';
 $lang['SAVED'] = '保存';
 $lang['DELETE_MARKED'] = '删除标记';
 $lang['DELETE_ALL'] = '删除所有';
-$lang['SAVE_MARKED'] = '保存的标记';
-$lang['SAVE_MESSAGE'] = '保存信息';
-$lang['DELETE_MESSAGE'] = '删除邮件';
+$lang['SAVE_MARKED'] = '保存標記';
+$lang['SAVE_MESSAGE'] = '保存消息';
+$lang['DELETE_MESSAGE'] = '刪除消息';
 
-$lang['DISPLAY_MESSAGES'] = '显示的消息'; // Followed by number of days/weeks/months
+$lang['DISPLAY_MESSAGES'] = '顯示的消息'; // Followed by number of days/weeks/months
 $lang['ALL_MESSAGES'] = '所有消息';
 
-$lang['NO_MESSAGES_FOLDER'] = '有没有消息在这个文件夹';
+$lang['NO_MESSAGES_FOLDER'] = '此文件夾中沒有消息';
 
-$lang['PM_DISABLED'] = '私人信息已被禁用，在这个委员会。';
-$lang['CANNOT_SEND_PRIVMSG'] = '对不起，但是管理员有阻止你们从私人发送消息。';
-$lang['NO_TO_USER'] = '你必须指定一个用户名人发送这一信息。';
-$lang['NO_SUCH_USER'] = '对不起，但是没有这种用户存在。';
+$lang['PM_DISABLED'] = '私人消息在此版塊已被禁用。';
+$lang['CANNOT_SEND_PRIVMSG'] = '對不起，但管理員阻止你發送私人消息。';
+$lang['NO_TO_USER'] = '你必須指定一個用戶名以便發送這條消息。';
+$lang['NO_SUCH_USER'] = '對不起，但沒有這樣的用戶存在。';
 
-$lang['DISABLE_BBCODE_PM'] = '禁止设置高亮在这个消息';
-$lang['DISABLE_SMILIES_PM'] = '禁用表情符号，在这个消息';
+$lang['DISABLE_BBCODE_PM'] = '禁用此消息中的BB代碼';
+$lang['DISABLE_SMILIES_PM'] = '禁用此消息中的表情符號';
 
-$lang['MESSAGE_SENT'] = '<b>Your消息已经发送。</b>';
+$lang['MESSAGE_SENT'] = '<b>您的消息已發送。</b>';
 
 $lang['CLICK_RETURN_INBOX'] = '回到你的：<br /><br /> %s<b>Inbox</b>%s';
 $lang['CLICK_RETURN_SENTBOX'] = '&nbsp;&nbsp; %s<b>Sentbox</b>%s';
 $lang['CLICK_RETURN_OUTBOX'] = '&nbsp;&nbsp; %s<b>Outbox</b>%s';
 $lang['CLICK_RETURN_SAVEBOX'] = '&nbsp;&nbsp; %s<b>Savebox</b>%s';
-$lang['CLICK_RETURN_INDEX'] = '%sReturn的Index%s';
+$lang['CLICK_RETURN_INDEX'] = '%s返回索引%s';
 
 $lang['SEND_A_NEW_MESSAGE'] = '发送一个新的私人消息';
-$lang['SEND_A_REPLY'] = '答复私人消息';
-$lang['EDIT_MESSAGE'] = '编辑私人消息';
+$lang['SEND_A_REPLY'] = '回覆私人消息';
+$lang['EDIT_MESSAGE'] = '編輯私人消息';
 
 $lang['NOTIFICATION_SUBJECT'] = '已收到新私人消息！';
 
 $lang['FIND_USERNAME'] = '找到一个用户名';
 $lang['SELECT_USERNAME'] = '选择一个用户名';
 $lang['FIND'] = '找到';
-$lang['NO_MATCH'] = '没有匹配的发现。';
+$lang['NO_MATCH'] = '沒有找到匹配項。';
 
-$lang['NO_PM_ID'] = '请指定后ID';
-$lang['NO_SUCH_FOLDER'] = '文件夹中是找不到';
+$lang['NO_PM_ID'] = '請指定帖子ID';
+$lang['NO_SUCH_FOLDER'] = '找不到文件夾';
 $lang['NO_FOLDER'] = '请指定文件夹';
 
-$lang['MARK_ALL'] = '标记出所有';
-$lang['UNMARK_ALL'] = '取消所有';
+$lang['MARK_ALL'] = '標記所有';
+$lang['UNMARK_ALL'] = '取消標記所有';
 
 $lang['CONFIRM_DELETE_PM'] = '你确定要删除这个消息？';
 $lang['CONFIRM_DELETE_PMS'] = '你确定要删除这些消息吗?';
 
-$lang['INBOX_SIZE'] = '你的电子邮件收件箱is<br /><b>%d%%</b>全'; // e.g. Your Inbox is 50% full
-$lang['SENTBOX_SIZE'] = '你Sentbox is<br /><b>%d%%</b>全';
-$lang['SAVEBOX_SIZE'] = '你Savebox is<br /><b>%d%%</b>全';
+$lang['INBOX_SIZE'] = '您的電子郵件收件箱<br /><b>%d%%</b>滿了'; // e.g. Your Inbox is 50% full
+$lang['SENTBOX_SIZE'] = '您的已發箱<br /><b>%d%%</b>滿了';
+$lang['SAVEBOX_SIZE'] = '你的保存箱<br /><b>%d%%</b>滿了';
 
-$lang['CLICK_VIEW_PRIVMSG'] = '点击%sHere%s参观你的电子邮件收件箱';
+$lang['CLICK_VIEW_PRIVMSG'] = '點擊%s這裡%s參觀您的電子郵件收件箱';
 
 $lang['OUTBOX_EXPL'] = '';
 
 // Profiles/Registration
-$lang['VIEWING_USER_PROFILE'] = '查看文件：:%s';
-$lang['VIEWING_MY_PROFILE'] = '我的个人资料[<a href="%s">Settings/改变profile</a>]';
+$lang['VIEWING_USER_PROFILE'] = '查看文件：%s';
+$lang['VIEWING_MY_PROFILE'] = '我的個人資料[<a href="%s">設置/更改個人資料</a>]';
 
-$lang['DISABLED_USER'] = '帐户的障碍';
+$lang['DISABLED_USER'] = '帳戶已禁用';
 $lang['MANAGE_USER'] = '管理';
 
-$lang['PREFERENCES'] = '喜好';
-$lang['ITEMS_REQUIRED'] = '项目标有*需要除非另有说明。';
+$lang['PREFERENCES'] = '首選項';
+$lang['ITEMS_REQUIRED'] = '項目標有*是必需的，除非另有說明。';
 $lang['REGISTRATION_INFO'] = '注册信息';
-$lang['PROFILE_INFO'] = '资料信息';
+$lang['PROFILE_INFO'] = '個人信息';
 $lang['PROFILE_INFO_WARN'] = '公开提供的信息';
 $lang['AVATAR_PANEL'] = '阿凡达控制面板';
 
 $lang['WEBSITE'] = '网站';
 $lang['LOCATION'] = '位置';
 $lang['CONTACT'] = '接触';
-$lang['EMAIL_ADDRESS'] = 'E-mail地址';
-$lang['SEND_PRIVATE_MESSAGE'] = '送私人消息';
+$lang['EMAIL_ADDRESS'] = '電子郵件地址';
+$lang['SEND_PRIVATE_MESSAGE'] = '發送私人消息';
 $lang['HIDDEN_EMAIL'] = '[隐藏]';
-$lang['INTERESTS'] = '利益';
-$lang['OCCUPATION'] = '占领';
-$lang['POSTER_RANK'] = '海报等级';
+$lang['INTERESTS'] = '興趣';
+$lang['OCCUPATION'] = '職業';
+$lang['POSTER_RANK'] = '海報等級';
 $lang['AWARDED_RANK'] = '授予排名';
-$lang['SHOT_RANK'] = '拍摄的排名';
+$lang['SHOT_RANK'] = '拍攝排名';
 
-$lang['TOTAL_POSTS'] = '总的员额';
-$lang['SEARCH_USER_POSTS'] = '找个员额'; // Find all posts by username
-$lang['SEARCH_USER_POSTS_SHORT'] = '找到用户员额';
-$lang['SEARCH_USER_TOPICS'] = '找到用户的主题'; // Find all topics by username
+$lang['TOTAL_POSTS'] = '總的帖子';
+$lang['SEARCH_USER_POSTS'] = '找帖子'; // Find all posts by username
+$lang['SEARCH_USER_POSTS_SHORT'] = '找到用戶帖子';
+$lang['SEARCH_USER_TOPICS'] = '找到用戶主題'; // Find all topics by username
 
-$lang['NO_USER_ID_SPECIFIED'] = '对不起，但是，用户不存在。';
-$lang['WRONG_PROFILE'] = '你不能修改的概要文件是不是你自己的。';
+$lang['NO_USER_ID_SPECIFIED'] = '對不起，但該用戶不存在。';
+$lang['WRONG_PROFILE'] = '你不能修改不是你自己的個人資料。';
 
 $lang['ONLY_ONE_AVATAR'] = '只有一种类型的化身可以被指定';
-$lang['FILE_NO_DATA'] = '该文件在网址给了含有数据';
-$lang['NO_CONNECTION_URL'] = '一个连接不可能做到的网址给了';
-$lang['INCOMPLETE_URL'] = '该网址输入不完整';
-$lang['NO_SEND_ACCOUNT_INACTIVE'] = '对不起，但是你的密码无法被检索的因为你的账户目前的不活动';
-$lang['NO_SEND_ACCOUNT'] = '对不起，但是你的密码无法被检索。 请联络管理员论坛的更多信息';
+$lang['FILE_NO_DATA'] = '該文件在您提供的網址上不包含數據';
+$lang['NO_CONNECTION_URL'] = '無法建立與您提供的網址的連接';
+$lang['INCOMPLETE_URL'] = '您輸入的網址不完整';
+$lang['NO_SEND_ACCOUNT_INACTIVE'] = '抱歉，但是當前您的帳戶不活躍，無法檢索您的密碼';
+$lang['NO_SEND_ACCOUNT'] = '抱歉，無法檢索您的密碼。請聯繫論壇管理員以獲取更多信息';
 
 $lang['ALWAYS_ADD_SIG'] = '总是附有我的签名';
-$lang['HIDE_PORN_FORUMS'] = '隐藏内容18+';
-$lang['ADD_RETRACKER'] = '添加retracker在洪流的文件';
-$lang['ALWAYS_NOTIFY'] = '总是通知我的答复';
-$lang['ALWAYS_NOTIFY_EXPLAIN'] = '发送电子邮件时，有人答复的一个主题，你已经发布。 这可以改变的只要你的后。';
+$lang['HIDE_PORN_FORUMS'] = '隱藏內容18+';
+$lang['ADD_RETRACKER'] = '在洪流文件中添加retracker';
+$lang['ALWAYS_NOTIFY'] = '每次都有通知我答复';
+$lang['ALWAYS_NOTIFY_EXPLAIN'] = '當有人回覆您發佈的主題時，發送電子郵件。只要您發表的任何時候都可以更改。';
 
-$lang['BOARD_LANG'] = '董事会的语言';
-$lang['GENDER'] = '性别问题';
+$lang['BOARD_LANG'] = '論壇板塊的語言';
+$lang['GENDER'] = '性別問題';
 $lang['GENDER_SELECT'] = [
     0 => '未知',
     1 => '男性',
     2 => '女性'
 ];
-$lang['MODULE_OFF'] = '模块是残疾人!';
+$lang['MODULE_OFF'] = '模組被禁用!';
 
 $lang['BIRTHDAY'] = '生日';
 $lang['HAPPY_BIRTHDAY'] = '生日快乐！';
-$lang['WRONG_BIRTHDAY_FORMAT'] = '生日格式的输入不正确的。';
+$lang['WRONG_BIRTHDAY_FORMAT'] = '生日格式輸入不正確。';
 $lang['AGE'] = '年龄';
 $lang['BIRTHDAY_TO_HIGH'] = '抱歉，本網站不接受年齡超過 %d 歲的用戶';
 $lang['BIRTHDAY_TO_LOW'] = '抱歉，本網站不接受年齡低於 %d 歲的用戶';
-$lang['BIRTHDAY_TODAY'] = '用户与一个生日今天： ';
-$lang['BIRTHDAY_WEEK'] = '用户与一个生日内%d天：%s';
-$lang['NOBIRTHDAY_WEEK'] = '没有用户都有一个生日，在即将到来的%d天'; // %d is substituted with the number of days
-$lang['NOBIRTHDAY_TODAY'] = '不用户，今天有一个生日';
-$lang['BIRTHDAY_ENABLE'] = '使生日';
-$lang['BIRTHDAY_MAX_AGE'] = '最大年龄';
-$lang['BIRTHDAY_MIN_AGE'] = '分年龄';
+$lang['BIRTHDAY_TODAY'] = '今天生日的用戶：';
+$lang['BIRTHDAY_WEEK'] = '在接下來的%d天內生日的用戶：%s';
+$lang['NOBIRTHDAY_WEEK'] = '在即將到來的%d天中沒有用戶生日'; // %d is substituted with the number of days
+$lang['NOBIRTHDAY_TODAY'] = '今天沒有用戶生日';
+$lang['BIRTHDAY_ENABLE'] = '啟用生日';
+$lang['BIRTHDAY_MAX_AGE'] = '最大年齡';
+$lang['BIRTHDAY_MIN_AGE'] = '最小年齡';
 $lang['BIRTHDAY_CHECK_DAY'] = '檢查即將到來的生日的天數';
 $lang['YEARS'] = '年';
 
-$lang['NO_THEMES'] = '没有主题数据库';
+$lang['NO_THEMES'] = '數據庫中沒有主題';
 $lang['TIMEZONE'] = '时区';
 $lang['DATE_FORMAT_PROFILE'] = '日期格式';
 $lang['DATE_FORMAT_EXPLAIN'] = '语法使用的是相同的PHP<a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a>功能。';
 $lang['SIGNATURE'] = '签名';
-$lang['SIGNATURE_EXPLAIN'] = '这是一块的文本，可以添加的员额。 有一个%d字符的限制';
-$lang['SIGNATURE_DISABLE'] = '签署关于违反论坛的规则';
-$lang['PUBLIC_VIEW_EMAIL'] = '显示电子邮件地址在我的档案';
+$lang['SIGNATURE_EXPLAIN'] = '這是一段可以添加到您所發表的帖文中的文字。字符數限制為%d個。';
+$lang['SIGNATURE_DISABLE'] = '因違反論壇規則而被禁用。';
+$lang['PUBLIC_VIEW_EMAIL'] = '在我的個人資料中顯示電子郵件地址。';
 
-$lang['EMAIL_EXPLAIN'] = '在这个地址，你会被送到完成登记';
+$lang['EMAIL_EXPLAIN'] = '在此地址您將收到完成註冊的指示。';
 
 $lang['CURRENT_PASSWORD'] = '当前的密码';
 $lang['NEW_PASSWORD'] = '新密码';
 $lang['CONFIRM_PASSWORD'] = '确认密码';
-$lang['CONFIRM_PASSWORD_EXPLAIN'] = '你必须确认当前的密码如果你想改变它或改变你的e-mail地址';
-$lang['PASSWORD_IF_CHANGED'] = '你只需要提供密码如果你想改变它';
-$lang['PASSWORD_CONFIRM_IF_CHANGED'] = '你只需要确认你的密码，如果你改变了它上面';
+$lang['CONFIRM_PASSWORD_EXPLAIN'] = '如果您希望更改當前密碼或電子郵件地址，則必須確認當前密碼。';
+$lang['PASSWORD_IF_CHANGED'] = '如果您希望更改密碼，則只需提供一次密碼。';
+$lang['PASSWORD_CONFIRM_IF_CHANGED'] = '如果您在上方更改了密碼，則只需確認密碼。';
 
 $lang['AUTOLOGIN'] = '自动登录';
-$lang['RESET_AUTOLOGIN'] = '重设自动登录的关键';
-$lang['RESET_AUTOLOGIN_EXPL'] = '包括所有的地方，你已经访问了该论坛启用了自动登录';
+$lang['RESET_AUTOLOGIN'] = '重設自動登錄金鑰。';
+$lang['RESET_AUTOLOGIN_EXPL'] = '包括您訪問過的所有啟用了自動登錄的論壇位置。';
 
 $lang['AVATAR'] = '头像';
 $lang['AVATAR_EXPLAIN'] = '在您的帖子下顯示一個小圖像。一次只能顯示一個圖像，寬度不得超過 %d 像素，高度不得超過 %d 像素，且文件大小不得超過 %s。';
 $lang['AVATAR_DELETE'] = '删除头像';
-$lang['AVATAR_DISABLE'] = '阿凡达控制的选项，用于违反<a href="%s"><b>forum rules</b></a>';
-$lang['UPLOAD_AVATAR_FILE'] = '上传的头像';
+$lang['AVATAR_DISABLE'] = '因違反<a href="%s"><b>論壇規則</b></a>而禁用頭像控制選項。';
+$lang['UPLOAD_AVATAR_FILE'] = '上傳頭像。';
 
-$lang['SELECT_AVATAR'] = '选择的化身';
+$lang['SELECT_AVATAR'] = '選擇頭像。';
 $lang['RETURN_PROFILE'] = '回到档案';
 $lang['SELECT_CATEGORY'] = '选择类别';
 
-$lang['DELETE_IMAGE'] = '删除的图像';
+$lang['DELETE_IMAGE'] = '刪除圖片。';
 $lang['SET_MONSTERID_AVATAR'] = '設置 MonsterID 頭像';
-$lang['CURRENT_IMAGE'] = '目前的图像';
+$lang['CURRENT_IMAGE'] = '當前圖像。';
 
-$lang['NOTIFY_ON_PRIVMSG'] = '通知在新的私人消息';
+$lang['NOTIFY_ON_PRIVMSG'] = '新私人消息時通知。';
 $lang['HIDE_USER'] = '隐藏自己的在线状态';
 $lang['HIDDEN_USER'] = '隐藏的用户';
 
-$lang['PROFILE_UPDATED'] = '你的档案已经更新，';
-$lang['PROFILE_UPDATED_INACTIVE'] = '你的档案已经更新。 但是，你已经改变了至关重要的细节，因此您的账户是无效的。 检查你的电子邮件来了解如何重新激活你的帐户，或者如果管理活是必需的，等待管理员，以重新激活。';
+$lang['PROFILE_UPDATED'] = '您的個人資料已更新。';
+$lang['PROFILE_UPDATED_INACTIVE'] = '您的個人資料已更新。然而，您已經更改了重要的詳細信息，因此您的帳戶現在已無效。請檢查您的電子郵件以了解如何重新激活帳戶，或者如果需要管理員激活，則需等待管理員重新激活。';
 
 $lang['PASSWORD_MISMATCH'] = '密码输入并不匹配。';
-$lang['CURRENT_PASSWORD_MISMATCH'] = '目前的密码提供给不匹配，储存在该数据库。';
+$lang['CURRENT_PASSWORD_MISMATCH'] = '您提供的當前密碼與存儲在數據庫中的不匹配。';
 $lang['PASSWORD_LONG'] = '您的密碼必須不長於 %d 個字符且不短於 %d 個字符。';
-$lang['TOO_MANY_REGISTERS'] = '你已经做了太多注册的企图。 请稍后再试一次。';
-$lang['USERNAME_TAKEN'] = '对不起，但这个名已经采取。';
-$lang['USERNAME_INVALID'] = '对不起，但这名包含无效的角色';
-$lang['USERNAME_DISALLOWED'] = '对不起，但这个名已被禁止。';
-$lang['USERNAME_TOO_LONG'] = '你的名字太长。';
-$lang['USERNAME_TOO_SMALL'] = '你的名字是太小了。';
-$lang['EMAIL_TAKEN'] = '对不起，但是，电子邮件地址已经被注册用户。';
+$lang['TOO_MANY_REGISTERS'] = '您已經嘗試了太多次註冊。請稍後再試。';
+$lang['USERNAME_TAKEN'] = '抱歉，但該用戶名已被占用。';
+$lang['USERNAME_INVALID'] = '抱歉，但該用戶名包含無效字符。';
+$lang['USERNAME_DISALLOWED'] = '抱歉，但該用戶名已被禁止。';
+$lang['USERNAME_TOO_LONG'] = '您的名字太長。';
+$lang['USERNAME_TOO_SMALL'] = '您的名字太短。';
+$lang['EMAIL_TAKEN'] = '抱歉，但該電子郵件地址已註冊給用戶。';
 $lang['EMAIL_BANNED'] = '抱歉，但 <b>%s</b> 地址已被禁止。';
 $lang['EMAIL_INVALID'] = '对不起，但这个电子邮件地址无效。';
-$lang['EMAIL_TOO_LONG'] = '你的电子邮件太长。';
-$lang['SIGNATURE_TOO_LONG'] = '您的签名是太长。';
-$lang['SIGNATURE_ERROR_HTML'] = '签名可以只包含设置高亮';
-$lang['FIELDS_EMPTY'] = '你必须填补在需要的领域。';
+$lang['EMAIL_TOO_LONG'] = '您的電子郵件太長。';
+$lang['SIGNATURE_TOO_LONG'] = '您的簽名過長。';
+$lang['SIGNATURE_ERROR_HTML'] = '簽名只能包含BBCode。';
+$lang['FIELDS_EMPTY'] = '您必須填寫必填字段。';
 
 $lang['WELCOME_SUBJECT'] = '欢迎来到%s论坛'; // Welcome to my.com forums
 $lang['NEW_ACCOUNT_SUBJECT'] = '新的用户帐户';
 $lang['ACCOUNT_ACTIVATED_SUBJECT'] = '帐户被激活';
 
 $lang['ACCOUNT_ADDED'] = '谢谢你的注册。 你的账户已经建立。 现在，您可以登录用户名和密码';
-$lang['ACCOUNT_INACTIVE'] = '你的账户已经建立。 然而，这一论坛，需要激活帐户。 一个激活的关键已经发送的电子邮件地址你提供的。 请检查你的电子邮件的进一步信息，';
-$lang['ACCOUNT_ACTIVE'] = '你的账户已经启动。 谢谢你登记';
-$lang['REACTIVATE'] = '重新启动您的帐户！';
-$lang['ALREADY_ACTIVATED'] = '你已经激活你的帐户';
+$lang['ACCOUNT_INACTIVE'] = '您的帳戶已建立。然而，該論壇需要帳戶激活。激活密鑰已發送到您提供的電子郵件地址。請檢查您的電子郵件以獲取更多信息。';
+$lang['ACCOUNT_ACTIVE'] = '您的帳戶已被激活。謝謝您註冊。';
+$lang['REACTIVATE'] = '重新激活您的帳戶！';
+$lang['ALREADY_ACTIVATED'] = '您已經激活了您的帳戶。';
 
-$lang['REGISTRATION'] = '登记协议的条款';
+$lang['REGISTRATION'] = '註冊協議條款';
 
-$lang['WRONG_ACTIVATION'] = '激活键你提供给不匹配的任何数据库中。';
+$lang['WRONG_ACTIVATION'] = '您提供的激活金鑰與數據庫中的任何內容均不匹配。';
 $lang['SEND_PASSWORD'] = '给我一个新的密码';
-$lang['PASSWORD_UPDATED'] = '一个新的密码已经建立；请检查你的电子邮件的详细信息，以激活。';
-$lang['NO_EMAIL_MATCH'] = '电子邮件地址提供给不匹配的一个列出，用户名。';
-$lang['NEW_PASSWORD_ACTIVATION'] = '新激活密码';
-$lang['PASSWORD_ACTIVATED'] = '您的账户已被重新激活。 登录在，请使用所提供的密码在电子邮件接收。';
+$lang['PASSWORD_UPDATED'] = '一個新的密碼已創建；請檢查您的電子郵件以獲取激活的詳細信息。';
+$lang['NO_EMAIL_MATCH'] = '您提供的電子郵件地址與該用戶名中列出的不匹配。';
+$lang['NEW_PASSWORD_ACTIVATION'] = '新密碼激活';
+$lang['PASSWORD_ACTIVATED'] = '您的帳戶已重新激活。要登錄，請使用您收到的電子郵件中提供的密碼。';
 
 $lang['SEND_EMAIL_MSG'] = '发送电子邮件消息';
-$lang['NO_USER_SPECIFIED'] = '没有用户的指定';
-$lang['USER_PREVENT_EMAIL'] = '这个用户不希望收到电子邮件。 尝试送他们的私人信息。';
+$lang['NO_USER_SPECIFIED'] = '未指定用戶';
+$lang['USER_PREVENT_EMAIL'] = '該用戶不希望接收電子郵件。嘗試發送他們私人消息。';
 $lang['USER_NOT_EXIST'] = '用户并不存在';
-$lang['EMAIL_MESSAGE_DESC'] = '这种信息将作为普通的文本，所以不包括任何HTML或设置高亮的。 返回的地址为这个消息会将设置到你的电子邮件地址。';
+$lang['EMAIL_MESSAGE_DESC'] = '此消息將以普通文本形式發送，因此請不要包含任何HTML或BBCode。此消息的返回地址將設置為您的電子郵件地址。';
 $lang['FLOOD_EMAIL_LIMIT'] = '你不能送另一个电子邮件，在这个时候。 稍后再试一次。';
 $lang['RECIPIENT'] = '收件人';
 $lang['EMAIL_SENT'] = '电子邮件已发送。';
 $lang['SEND_EMAIL'] = '发送电子邮件';
 $lang['EMPTY_SUBJECT_EMAIL'] = '你必须指定一个主题的电子邮件。';
-$lang['EMPTY_MESSAGE_EMAIL'] = '你必须进入一个消息可以通过电子邮件发送。';
+$lang['EMPTY_MESSAGE_EMAIL'] = '您必須輸入一條消息以進行電子郵件發送。';
 
 $lang['USER_AGREEMENT'] = '用户协议';
 $lang['USER_AGREEMENT_HEAD'] = '为了继续进行，您必须同意以下规则';
-$lang['USER_AGREEMENT_AGREE'] = '我已经阅读并同意用户协议上';
+$lang['USER_AGREEMENT_AGREE'] = '我已閱讀並同意上面的用戶協議。';
 
 $lang['COPYRIGHT_HOLDERS'] = '对版权持有人';
-$lang['ADVERT'] = '宣传这个网站上';
+$lang['ADVERT'] = '在此網站上廣告';
 $lang['NOT_FOUND'] = '找不到的文件';
 
 // Memberslist
 $lang['SORT'] = '排序';
-$lang['SORT_TOP_TEN'] = '十海报';
+$lang['SORT_TOP_TEN'] = '十大海報';
 $lang['SORT_JOINED'] = '加入日期';
 $lang['SORT_USERNAME'] = '用户名';
 $lang['SORT_LOCATION'] = '位置';
-$lang['SORT_POSTS'] = '总的员额';
+$lang['SORT_POSTS'] = '總帖子數';
 $lang['SORT_EMAIL'] = '电子邮件';
 $lang['SORT_WEBSITE'] = '网站';
-$lang['ASC'] = '升';
+$lang['ASC'] = '升序';
 $lang['DESC'] = '降';
-$lang['ORDER'] = '了';
+$lang['ORDER'] = '訂單';
 
 // Thanks
 $lang['THANK_TOPIC'] = '為此主題投票';
@@ -704,18 +704,18 @@ $lang['INCORRECT_INVITE'] = '未找到邀請';
 $lang['INVITE_EXPIRED'] = '邀請已過期';
 
 // Group control panel
-$lang['GROUP_CONTROL_PANEL'] = '用户群体';
-$lang['GROUP_CONFIGURATION'] = '集团结构';
-$lang['GROUP_GOTO_CONFIG'] = '去组配置板';
-$lang['GROUP_RETURN'] = '回到用户组页';
-$lang['MEMBERSHIP_DETAILS'] = '小组成员的详细情况';
-$lang['JOIN_A_GROUP'] = '参加小组';
+$lang['GROUP_CONTROL_PANEL'] = '用戶組';
+$lang['GROUP_CONFIGURATION'] = '小組配置';
+$lang['GROUP_GOTO_CONFIG'] = '去組配置面板';
+$lang['GROUP_RETURN'] = '返回用戶組頁面';
+$lang['MEMBERSHIP_DETAILS'] = '小組會員詳細資訊';
+$lang['JOIN_A_GROUP'] = '加入小組';
 
-$lang['GROUP_INFORMATION'] = '小组的信息';
-$lang['GROUP_NAME'] = '小组的名字';
-$lang['GROUP_DESCRIPTION'] = '小组说明';
-$lang['GROUP_SIGNATURE'] = '小组签名';
-$lang['GROUP_MEMBERSHIP'] = '小组成员';
+$lang['GROUP_INFORMATION'] = '小組信息';
+$lang['GROUP_NAME'] = '小組名稱';
+$lang['GROUP_DESCRIPTION'] = '小組描述';
+$lang['GROUP_SIGNATURE'] = '小組簽名';
+$lang['GROUP_MEMBERSHIP'] = '小組成員資格';
 $lang['GROUP_MEMBERS'] = '小组成员';
 $lang['GROUP_MODERATOR'] = '小组的主持人';
 $lang['PENDING_MEMBERS'] = '未决的成员';
@@ -778,43 +778,43 @@ $lang['NONE'] = '没有';
 
 $lang['SUBSCRIBE'] = '订阅';
 $lang['UNSUBSCRIBE_GROUP'] = '取消订阅';
-$lang['VIEW_INFORMATION'] = '看信息';
-$lang['MEMBERS_IN_GROUP'] = '成员在集团';
+$lang['VIEW_INFORMATION'] = '查看資訊';
+$lang['MEMBERS_IN_GROUP'] = '群組中的成員';
 
 // Release Groups
-$lang['POST_RELEASE_FROM_GROUP'] = '后释放组';
+$lang['POST_RELEASE_FROM_GROUP'] = '從群組中發佈釋放';
 $lang['CHOOSE_RELEASE_GROUP'] = '没有选择';
 $lang['ATTACH_RG_SIG'] = '附释放组签名';
-$lang['RELEASE_FROM_RG'] = '释放物通过';
-$lang['GROUPS_RELEASES'] = '小组的版本';
-$lang['MORE_RELEASES'] = '找到所有版本的小组';
+$lang['RELEASE_FROM_RG'] = '釋放由...製作';
+$lang['GROUPS_RELEASES'] = '群組的版本';
+$lang['MORE_RELEASES'] = '找到該群組的所有版本';
 $lang['NOT_A_RELEASE_GROUP'] = '这个小组不是一个释放组';
 
 // Search
-$lang['SEARCH_ERROR'] = '目前，搜索引擎是不available<br /><br />Try重复请求后几秒钟';
+$lang['SEARCH_ERROR'] = '目前，搜索引擎不可用<br /><br />請在幾秒後重試';
 $lang['SEARCH_HELP_URL'] = '搜索的帮助';
 $lang['SEARCH_QUERY'] = '搜索查询';
 $lang['SEARCH_OPTIONS'] = '搜索选项';
 
 $lang['SEARCH_WORDS'] = '搜索关键词';
-$lang['SEARCH_WORDS_EXPL'] = '你可以使用<b>+</b>定义的话，它必须在结果和<b>-</b>定义的词语不应在结果(例如："+word1-word2"). *用作通配符的部分匹配';
-$lang['SEARCH_AUTHOR'] = '寻找作者';
+$lang['SEARCH_WORDS_EXPL'] = '你可以使用<b>+</b>來定義必須在結果中的詞，以及<b>-</b>來定義不應該出現在結果中的詞（例如："+word1 -word2"）。使用*作為部分匹配的通配符';
+$lang['SEARCH_AUTHOR'] = '尋找作者';
 $lang['SEARCH_AUTHOR_EXPL'] = '*用作通配符的部分匹配';
 
-$lang['SEARCH_TITLES_ONLY'] = '搜索一专题的标题只';
-$lang['SEARCH_ALL_WORDS'] = '所有的话';
-$lang['SEARCH_MY_MSG_ONLY'] = '只搜索的在我的职位';
+$lang['SEARCH_TITLES_ONLY'] = '只搜索話題標題';
+$lang['SEARCH_ALL_WORDS'] = '所有單詞';
+$lang['SEARCH_MY_MSG_ONLY'] = '只搜索我的帖子';
 $lang['IN_MY_POSTS'] = '在我的员额';
 $lang['SEARCH_MY_TOPICS'] = '在我的主题';
 $lang['NEW_TOPICS'] = '新的话题';
 
-$lang['RETURN_FIRST'] = '返回首'; // followed by xxx characters in a select box
-$lang['CHARACTERS_POSTS'] = '字符的职位';
+$lang['RETURN_FIRST'] = '返回第一個'; // followed by xxx characters in a select box
+$lang['CHARACTERS_POSTS'] = '職位的字符';
 
 $lang['SEARCH_PREVIOUS'] = '搜索之前';
 
 $lang['SORT_BY'] = '排序';
-$lang['SORT_TIME'] = '后时间';
+$lang['SORT_TIME'] = '發帖時間';
 $lang['SORT_POST_SUBJECT'] = '后受';
 $lang['SORT_TOPIC_TITLE'] = '主题标题';
 $lang['SORT_AUTHOR'] = '作者';
@@ -823,34 +823,34 @@ $lang['SORT_FORUM'] = '论坛';
 $lang['DISPLAY_RESULTS_AS'] = '显示结果';
 $lang['ALL_AVAILABLE'] = '所有可用的';
 $lang['BRIEFLY'] = '简要地说';
-$lang['NO_SEARCHABLE_FORUMS'] = '你没有权搜索任何论坛，在这个网站。';
+$lang['NO_SEARCHABLE_FORUMS'] = '您沒有權限搜索此網站上的任何論壇。';
 
-$lang['NO_SEARCH_MATCH'] = '没有主题或职位见到了你的搜索标准';
+$lang['NO_SEARCH_MATCH'] = '沒有主題或帖子符合你的搜索標準';
 $lang['FOUND_SEARCH_MATCH'] = '搜索发现%d匹配'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = '搜索发现%d匹配'; // e.g. Search found 24 matches
-$lang['TOO_MANY_SEARCH_RESULTS'] = '太多的结果可以发现，请尝试的更具体的';
+$lang['TOO_MANY_SEARCH_RESULTS'] = '結果可能過多，請嘗試更具體一些';
 
-$lang['CLOSE_WINDOW'] = '靠近窗户';
-$lang['CLOSE'] = '靠近';
+$lang['CLOSE_WINDOW'] = '關閉窗口';
+$lang['CLOSE'] = '關閉';
 $lang['HIDE'] = '隐藏';
 $lang['SEARCH_TERMS'] = '搜索词';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
-$lang['SORRY_AUTH_VIEW'] = '对不起，但仅仅%s可以查看这个论坛。';
-$lang['SORRY_AUTH_READ'] = '对不起，但仅仅%s可以阅读的主题，在这个论坛。';
-$lang['SORRY_AUTH_POST'] = '对不起，但仅仅%s可以发布主题，在这个论坛。';
-$lang['SORRY_AUTH_REPLY'] = '对不起，但仅仅%s可以回复对员额在这个论坛。';
-$lang['SORRY_AUTH_EDIT'] = '对不起，但仅仅%s可以编辑员额在这个论坛。';
-$lang['SORRY_AUTH_DELETE'] = '对不起，但仅仅%s可以删除的员额在这个论坛。';
-$lang['SORRY_AUTH_VOTE'] = '对不起，但仅仅%s可以投票中的民意调查在这个论坛。';
-$lang['SORRY_AUTH_STICKY'] = '对不起，但仅仅%s可以发布粘信在这个论坛。';
-$lang['SORRY_AUTH_ANNOUNCE'] = '对不起，但仅仅%s可以发布公告，在这个论坛。';
+$lang['SORRY_AUTH_VIEW'] = '抱歉，只有%s可以查看此論壇。';
+$lang['SORRY_AUTH_READ'] = '抱歉，只有%s可以在此論壇中閱讀主題。';
+$lang['SORRY_AUTH_POST'] = '抱歉，只有%s可以在此論壇中發帖。';
+$lang['SORRY_AUTH_REPLY'] = '抱歉，只有%s可以在此論壇中回復帖子。';
+$lang['SORRY_AUTH_EDIT'] = '抱歉，只有%s可以編輯此論壇中的帖子。';
+$lang['SORRY_AUTH_DELETE'] = '抱歉，只有%s可以在此論壇中刪除帖子。';
+$lang['SORRY_AUTH_VOTE'] = '抱歉，只有%s可以在此論壇中的民意調查中投票。';
+$lang['SORRY_AUTH_STICKY'] = '抱歉，只有%s可以在此論壇中發布固定訊息。';
+$lang['SORRY_AUTH_ANNOUNCE'] = '抱歉，只有%s可以在此論壇中發布公告。';
 
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
 $lang['AUTH_REGISTERED_USERS'] = '<b>registered users</b>';
-$lang['AUTH_USERS_GRANTED_ACCESS'] = '<b>users授予特别access</b>';
+$lang['AUTH_USERS_GRANTED_ACCESS'] = '授予特殊訪問權的用戶';
 $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
@@ -860,12 +860,12 @@ $lang['NOT_AUTHORISED'] = '没有授权';
 $lang['YOU_BEEN_BANNED'] = '您已被禁止从此论坛。有关详细信息，请联系董事会管理员。';
 
 // Viewonline
-$lang['ONLINE_EXPLAIN'] = '用户活动在过去五分钟';
+$lang['ONLINE_EXPLAIN'] = '過去五分鐘內活躍的用戶';
 $lang['LAST_UPDATED'] = '最后更新';
 
 // Moderator Control Panel
 $lang['MOD_CP'] = '主持人控制面板';
-$lang['MOD_CP_EXPLAIN'] = '使用下面的表格可以执行的质量适度行动在这个论坛。 你可以锁，开锁、移动或删除任何数量的议题。';
+$lang['MOD_CP_EXPLAIN'] = '使用下面的表格，您可以在此論壇中執行批量管理操作。 您可以鎖定、解鎖、移動或刪除任意數量的主題。';
 
 $lang['SELECT'] = '选择';
 $lang['DELETE'] = '删除';
@@ -878,36 +878,36 @@ $lang['NO_TOPICS_REMOVED'] = '没有主题被删除。';
 $lang['TOPICS_LOCKED'] = '所选择的主题已经锁定。';
 $lang['TOPICS_MOVED'] = '所选择的主题已经移动。';
 $lang['TOPICS_UNLOCKED'] = '所选择的主题已经解锁。';
-$lang['NO_TOPICS_MOVED'] = '没有主题是移动。';
+$lang['NO_TOPICS_MOVED'] = '沒有帖子被移動。';
 
 $lang['CONFIRM_DELETE_TOPIC'] = '你确定要删除该选择的话题吗？';
 $lang['CONFIRM_LOCK_TOPIC'] = '你确定你想要锁所选择的主题吗？';
 $lang['CONFIRM_UNLOCK_TOPIC'] = '你确定你想要解开所选择的主题吗？';
-$lang['CONFIRM_MOVE_TOPIC'] = '你确定你想要移动的选定主题/s?';
+$lang['CONFIRM_MOVE_TOPIC'] = '你確定要移動所選主題/雙方嗎？';
 
 $lang['MOVE_TO_FORUM'] = '移动到论坛';
-$lang['LEAVE_SHADOW_TOPIC'] = '留下的阴影中的主题的老的论坛。';
+$lang['LEAVE_SHADOW_TOPIC'] = '在舊論壇中留下陰影主題。';
 
-$lang['SPLIT_TOPIC_EXPLAIN'] = '使用下面的表格可分割的一个主题中的两个，无论是通过选择的职位，单独或通过分裂在一个选定的后';
-$lang['NEW_TOPIC_TITLE'] = '新专题的标题';
-$lang['FORUM_FOR_NEW_TOPIC'] = '论坛对新的话题';
-$lang['SPLIT_POSTS'] = '分选定的职位';
-$lang['SPLIT_AFTER'] = '分离后的选择';
-$lang['TOPIC_SPLIT'] = '所选择的主题已经成功地拆分';
+$lang['SPLIT_TOPIC_EXPLAIN'] = '使用下面的表格，您可以將一個主題分割為兩個主題，無論是透過單獨選擇貼文還是通過在所選貼文中進行分割。';
+$lang['NEW_TOPIC_TITLE'] = '新主題標題';
+$lang['FORUM_FOR_NEW_TOPIC'] = '新主題的論壇';
+$lang['SPLIT_POSTS'] = '分割選定的帖子';
+$lang['SPLIT_AFTER'] = '從所選帖子中分割';
+$lang['TOPIC_SPLIT'] = '所選主題已成功拆分';
 
-$lang['TOO_MANY_ERROR'] = '你有选择太多的员额。 你只能选择一个职位的分裂一个主题后！';
+$lang['TOO_MANY_ERROR'] = '您選擇的帖子太多。 您只能選擇一個帖子來分割主題！';
 
-$lang['NONE_SELECTED'] = '你有没有选择的执行这种操作。 请回去至少选择一个。';
-$lang['NEW_FORUM'] = '新的论坛，';
+$lang['NONE_SELECTED'] = '您沒有選擇任何內容執行此操作。 請返回並至少選擇一個。';
+$lang['NEW_FORUM'] = '新論壇';
 
-$lang['THIS_POSTS_IP'] = 'IP地址为这个职位';
-$lang['OTHER_IP_THIS_USER'] = '其他的IP地址，这个用户已从';
-$lang['USERS_THIS_IP'] = '用户发布从这个IP地址';
-$lang['IP_INFO'] = '知识产权信息';
-$lang['LOOKUP_IP'] = '看起来的IP地址';
+$lang['THIS_POSTS_IP'] = '此帖的IP地址';
+$lang['OTHER_IP_THIS_USER'] = '此用戶發布的其他IP地址';
+$lang['USERS_THIS_IP'] = '用此IP地址發布的用戶';
+$lang['IP_INFO'] = 'IP信息';
+$lang['LOOKUP_IP'] = '查找IP地址';
 
 // Timezones ... for display on each page
-$lang['ALL_TIMES'] = '所有时间都<span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
+$lang['ALL_TIMES'] = '所有時間都是<span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
 // These are displayed in the timezone select box
 $lang['TZ']['-12'] = 'UTC-12';
@@ -953,18 +953,18 @@ $lang['DATETIME']['WEDNESDAY'] = '星期三';
 $lang['DATETIME']['THURSDAY'] = '星期四';
 $lang['DATETIME']['FRIDAY'] = '星期五';
 $lang['DATETIME']['SATURDAY'] = '星期六';
-$lang['DATETIME']['SUN'] = '太阳';
-$lang['DATETIME']['MON'] = 'Mon';
+$lang['DATETIME']['SUN'] = '太陽';
+$lang['DATETIME']['MON'] = '星期一';
 $lang['DATETIME']['TUE'] = '星期二';
 $lang['DATETIME']['WED'] = '星期三';
 $lang['DATETIME']['THU'] = '周四';
 $lang['DATETIME']['FRI'] = '周五';
-$lang['DATETIME']['SAT'] = '坐了';
+$lang['DATETIME']['SAT'] = '星期六';
 $lang['DATETIME']['JANUARY'] = '一月';
 $lang['DATETIME']['FEBRUARY'] = '二月';
 $lang['DATETIME']['MARCH'] = '三月';
 $lang['DATETIME']['APRIL'] = '四月';
-$lang['DATETIME']['MAY'] = '可';
+$lang['DATETIME']['MAY'] = '五月';
 $lang['DATETIME']['JUNE'] = '六月';
 $lang['DATETIME']['JULY'] = '七月';
 $lang['DATETIME']['AUGUST'] = '八月';
@@ -974,15 +974,15 @@ $lang['DATETIME']['NOVEMBER'] = '十一月';
 $lang['DATETIME']['DECEMBER'] = '十二月';
 $lang['DATETIME']['JAN'] = 'Jan';
 $lang['DATETIME']['FEB'] = '二月';
-$lang['DATETIME']['MAR'] = '玛';
-$lang['DATETIME']['APR'] = 'Apr';
-$lang['DATETIME']['JUN'] = 'Jun';
-$lang['DATETIME']['JUL'] = 'Jul';
-$lang['DATETIME']['AUG'] = 'Aug';
-$lang['DATETIME']['SEP'] = 'Sep';
-$lang['DATETIME']['OCT'] = 'Oct';
-$lang['DATETIME']['NOV'] = 'Nov';
-$lang['DATETIME']['DEC'] = 'Dec';
+$lang['DATETIME']['MAR'] = '三月';
+$lang['DATETIME']['APR'] = '四月';
+$lang['DATETIME']['JUN'] = '六月';
+$lang['DATETIME']['JUL'] = '七月';
+$lang['DATETIME']['AUG'] = '八月';
+$lang['DATETIME']['SEP'] = '九月';
+$lang['DATETIME']['OCT'] = '十月';
+$lang['DATETIME']['NOV'] = '十一月';
+$lang['DATETIME']['DEC'] = '十二月';
 
 // Country selector
 $lang['COUNTRY'] = '國家';
@@ -1115,7 +1115,7 @@ $lang['COUNTRIES'] = [
     'KM' => '科摩羅',
     'KN' => '聖基茨和尼維斯',
     'KP' => '朝鮮人民民主共和國',
-    'KR' => '韓國，韓國',
+    'KR' => '韓國',
     'KW' => '科威特',
     'KY' => '開曼群島',
     'KZ' => '哈薩克斯坦',
