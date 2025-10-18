@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Visa senaste inlägg';
 $lang['VIEW_NEWEST_POST'] = 'Visa senaste inlägg';
 $lang['PAGE_OF'] = 'Sidan <b>%d</b> av <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Du angav ett ogiltigt Skype logga in';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Du angav ett ogiltigt Twitter logga in';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Är du säker på att du vill radera denna omrö
 $lang['FLOOD_ERROR'] = 'Du kan inte göra annat inlägg så snart efter din sista, vänligen försök igen om en liten stund';
 $lang['EMPTY_SUBJECT'] = 'Du måste ange ett ämne';
 $lang['EMPTY_MESSAGE'] = 'Du måste ange ett meddelande';
-$lang['FORUM_LOCKED'] = 'Detta forum är låst: du kan inte posta eller svara redigera ämnen';
-$lang['TOPIC_LOCKED'] = 'Detta ämne är låst: du kan inte redigera inlägg eller göra svar';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Låst ämne';
 $lang['NO_POST_ID'] = 'Du måste välja en post för att redigera';
 $lang['NO_TOPIC_ID'] = 'Du måste välja ett ämne för att svara';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Blå Stål';
 $lang['COLOR_GRAY'] = 'Grå';
 $lang['COLOR_DARK_GREEN'] = 'Mörk Grön';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kod]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['svara', 'svar'];
 $lang['DECLENSION']['TIMES'] = ['tid', 'gånger'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent-filen är skadad';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site" får endast innehålla http://sitename';
-$lang['ICQ_ERROR'] = 'Fältet "ICQ" får endast innehålla ett ICQ-nummer';
 $lang['INVALID_DATE'] = 'Ogiltigt datum';
 $lang['PROFILE_USER'] = 'Visa profil';
 $lang['GOOD_UPDATE'] = 'ändrats';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Söker efter användare med ett inlägg
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Söker efter användare med ett inlägg räkna mindre än %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Söker efter användare med ett inlägg räkna mellan %d och %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Söker efter användare med ett inlägg räkna värdet av %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Söker efter användare med en ICQ-adress som motsvarar %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Söker efter användare med en Skype matchande %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Söker efter användare med ett Twitter matchande %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Söker efter användare med en Webbplats som matchar %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Söker efter användare med en Plats matchande %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Söker efter användare med deras Intressen fält matchande %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dag';
 $lang['POST_EDIT_CANNOT'] = 'Ledsen, men du kan inte redigera inlägg';
 $lang['FORUMS_IN_CAT'] = 'forum i denna kategori';
 
-$lang['MC_TITLE'] = 'Kommentarsmoderering';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Skriv en kommentar';
 $lang['MC_FAQ'] = 'Text kommer att visas under denna meddelande';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s i ditt meddelande";
