@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = 'Posturi';
 $lang['POSTED'] = 'Postat';
 $lang['USERNAME'] = 'Numele de utilizator';
 $lang['PASSWORD'] = 'Parola';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = 'Arată parola';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = 'Activat';
 $lang['DISABLED'] = 'Dezactivate';
 $lang['ERROR'] = 'Eroare';
 $lang['SELECT_ACTION'] = 'Selectați acțiune';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = 'Șterge';
+$lang['MOVE_TO_TOP'] = 'Mută în vârf';
 $lang['UNKNOWN'] = 'Necunoscut';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = 'Copiază în clipboard';
+$lang['NO_ITEMS'] = 'Se pare că nu există date aici...';
+$lang['PLEASE_TRY_AGAIN'] = 'Vă rugăm să încercați din nou după câteva secunde...';
 
 $lang['NEXT_PAGE'] = 'Următoarea';
 $lang['PREVIOUS_PAGE'] = 'Anterior';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Șablon cache a fost eliminat';
 $lang['DATASTORE_CLEARED'] = 'Datastore a fost eliminat';
 $lang['BOARD_DISABLE'] = 'Ne pare rău, acest forum este dezactivat. Încercați să reveniți mai târziu';
 $lang['BOARD_DISABLE_CRON'] = 'Forumul este oprit pentru întreținere. Încercați să reveniți mai târziu';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = 'Forum dezactivat de administrator. Puteți să-l activați în orice moment';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum blocat de declanșatorul cron job. Puteți elimina blocarea în orice moment';
 $lang['ADMIN_DISABLE_TITLE'] = 'Forumul este dezactivat';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumul este oprit pentru întreținere';
 $lang['ADMIN_UNLOCK'] = 'Permite forumul';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Membru al grupului';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Această acțiune nu poate fi efectuată în modul demo!';
 
 $lang['CURRENT_TIME'] = 'Ora curentă este: <span class="tz_time">%s</span>';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Mesaje noi [ Închis ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Forumul este blocat';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = 'Vă rugăm să introduceți numele de utilizator și parola pentru a vă conecta.';
 $lang['LOGIN'] = 'Log in';
 $lang['LOGOUT'] = 'Log out';
 $lang['CONFIRM_LOGOUT'] = 'Sunteți sigur că doriți să vă conectați?';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = 'Ai <b>can</b> vota în chestionarele din acest forum'
 $lang['RULES_VOTE_CANNOT'] = 'Ai <b>cannot</b> vota în chestionarele din acest forum';
 $lang['RULES_MODERATE'] = 'Ai <b>can</b> moderat acest forum';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = 'Nu sunt postări în acest forum încă<br />Click pe iconița <b>Subiect Nou</b>, iar postarea ta va fi prima.';
+$lang['NO_RELEASES_POST_ONE'] = 'Nu sunt versiuni în acest forum încă<br />Click pe iconița <b>Nouă Versiune</b>, iar versiunea ta va fi prima.';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'Vezi subiect';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = 'text ascuns';
 $lang['SPOILER_CLOSE'] = 'transforma';
 $lang['PLAY_ON_CURPAGE'] = 'Începe să joci pe pagina curentă';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = 'Editat ultima dată de <b>%s</b> pe %s; editat %d dată în total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = 'Editat ultima dată de <b>%s</b> pe %s; editat %d ori în total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Lock la topic';
 $lang['UNLOCK_TOPIC'] = 'Debloca subiect';
@@ -378,8 +378,8 @@ $lang['DELETE_POLL'] = 'Șterge sondaj';
 $lang['MAX_SMILIES_PER_POST'] = 'Emoticoane limita de %s emoticoane depășit.';
 
 $lang['ATTACH_SIGNATURE'] = 'Atașați semnătura (semnături poate fi schimbata din profil)';
-$lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['NOTIFY'] = 'Notifică-mă despre răspunsuri';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Permite roboților indexarea acestui subiect';
 
 $lang['STORED'] = 'Mesajul tau a fost introdus cu succes.';
 $lang['EDITED'] = 'Mesajul a fost schimbat';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Trimite un nou mesaj privat';
 $lang['SEND_A_REPLY'] = 'Răspunsul la un mesaj privat';
 $lang['EDIT_MESSAGE'] = 'Editare mesaj privat';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = 'Un mesaj privat nou a fost primit!';
 
 $lang['FIND_USERNAME'] = 'Găsiți un nume de utilizator';
 $lang['SELECT_USERNAME'] = 'Selectați un nume de Utilizator';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = 'Ziua de nastere';
 $lang['HAPPY_BIRTHDAY'] = 'La Multi Ani!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Ziua de naștere format a fost introdus incorect.';
 $lang['AGE'] = 'Varsta';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = 'Ne pare rău, acest site nu acceptă utilizatori mai în vârstă de %d ani';
+$lang['BIRTHDAY_TO_LOW'] = 'Ne pare rău, acest site nu acceptă utilizatori mai tineri de %d ani';
 $lang['BIRTHDAY_TODAY'] = 'Utilizatorii cu o zi de naștere astăzi: ';
 $lang['BIRTHDAY_WEEK'] = 'Utilizatorii cu o zi de naștere în următoarele %d zile: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Utilizatorii nu au o zi de naștere în viitorul %d zile'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = 'Utilizatorii nu au o zi de naștere astăzi';
 $lang['BIRTHDAY_ENABLE'] = 'Activați ziua';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max vârstă';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min vârstă';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Zile pentru a verifica zilele de naștere ce urmează';
 $lang['YEARS'] = 'Ani';
 
 $lang['NO_THEMES'] = 'Nu Temele În baza de date';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = 'Resetare autologin cheie';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'inclusiv toate locurile pe care le-am vizitat forumul permis auto-conectare';
 
 $lang['AVATAR'] = 'Avatar';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = 'Afișează o imagine grafică mică sub detaliile tale în postări. Doar o imagine poate fi afișată la un moment dat, lățimea sa nu poate fi mai mare de %d pixeli, înălțimea nu poate fi mai mare de %d pixeli și dimensiunea fișierului nu mai mult de %s.';
 $lang['AVATAR_DELETE'] = 'Șterge avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar control dezactivat opțiunea pentru încălcarea <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Încărcați avatar';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = 'Reveni la profil';
 $lang['SELECT_CATEGORY'] = 'Selectați categorie';
 
 $lang['DELETE_IMAGE'] = 'Ștergeți imaginea';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = 'Setează avatar MonsterID';
 $lang['CURRENT_IMAGE'] = 'Imaginea curentă';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Notifica pe mesaj privat nou';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = 'Profilul a fost actualizat. Cu toate aceste
 
 $lang['PASSWORD_MISMATCH'] = 'Parolele introduse nu se potrivesc.';
 $lang['CURRENT_PASSWORD_MISMATCH'] = 'Actuala parola pe care ați furnizat nu se potrivește cu cea stocată în baza de date.';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = 'Parola ta nu trebuie să fie mai lungă de %d caractere și nu mai scurtă de %d caractere.';
 $lang['TOO_MANY_REGISTERS'] = 'Ai făcut prea multe încercări de înregistrare. Vă rugăm să încercați din nou mai târziu.';
 $lang['USERNAME_TAKEN'] = 'Îmi pare rău, dar acest utilizator a fost deja luată.';
 $lang['USERNAME_INVALID'] = 'Îmi pare rău, dar acest nume de utilizator conține un caracter invalid';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Îmi pare rău, dar acest utilizator a fost anul
 $lang['USERNAME_TOO_LONG'] = 'Numele este prea lung.';
 $lang['USERNAME_TOO_SMALL'] = 'Numele tău este prea mic.';
 $lang['EMAIL_TAKEN'] = 'Îmi pare rău, dar adresa e-mail este deja înregistrat la un utilizator.';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = 'Ne pare rău, dar adresa <b>%s</b> a fost interzisă.';
 $lang['EMAIL_INVALID'] = 'Ne pare rau, dar aceasta adresa de e-mail este invalida.';
 $lang['EMAIL_TOO_LONG'] = 'Dvs. de e-mail este prea lung.';
 $lang['SIGNATURE_TOO_LONG'] = 'Semnatura ta este prea lung.';
@@ -691,17 +691,17 @@ $lang['DESC'] = 'Descendent';
 $lang['ORDER'] = 'Pentru';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = 'Votează pentru acest subiect';
+$lang['THANKS_GRATITUDE'] = 'Apreciem recunoștința ta';
+$lang['LAST_LIKES'] = 'Ultimele voturi';
+$lang['LIKE_OWN_POST'] = 'Nu poți vota pentru propriul tău subiect';
+$lang['NO_LIKES'] = 'Nimeni nu a votat încă';
+$lang['LIKE_ALREADY'] = 'Ai votat deja pentru acest subiect';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = 'Cod de invitație';
+$lang['INCORRECT_INVITE'] = 'Invitația nu a fost găsită';
+$lang['INVITE_EXPIRED'] = 'Invitația a expirat';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = 'Grupuri De Utilizatori';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = 'O cerere să se alăture grupului a fost făcut.';
 $lang['GROUP_APPROVED'] = 'Cererea dvs. a fost aprobată.';
 $lang['GROUP_ADDED'] = 'Ai fost adăugată la acest grup de utilizatori.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Sunteți deja un membru al acestui grup';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s este deja membru al acestui grup';
+$lang['USER_IS_MOD_GROUP'] = '%s este moderator al acestui grup';
 $lang['GROUP_TYPE_UPDATED'] = 'Actualizat cu succes tip de grup.';
 $lang['EFFECTIVE_DATE'] = 'Data Intrării În Vigoare';
 
@@ -985,30 +985,30 @@ $lang['DATETIME']['NOV'] = 'Nov';
 $lang['DATETIME']['DEC'] = 'Dec';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = 'Țară';
+$lang['SET_OWN_COUNTRY'] = 'Setează țara proprie (manual)';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
+    0 => 'Nu a fost selectat',
     'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
-    'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
+    'AE' => 'Emiratele Arabe Unite',
+    'AF' => 'Afganistan',
+    'AG' => 'Antigua și Barbuda',
     'AI' => 'Anguilla',
     'AL' => 'Albania',
     'AM' => 'Armenia',
     'AO' => 'Angola',
     'AQ' => 'Antarctica',
     'AR' => 'Argentina',
-    'AS' => 'American Samoa',
+    'AS' => 'Samoa Americană',
     'AT' => 'Austria',
     'AU' => 'Australia',
     'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
-    'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
+    'AX' => 'Insulele Aland',
+    'AZ' => 'Azerbaidjan',
+    'BA' => 'Bosnia și Herțegovina',
     'BB' => 'Barbados',
     'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
+    'BE' => 'Belgia',
     'BF' => 'Burkina Faso',
     'BG' => 'Bulgaria',
     'BH' => 'Bahrain',
@@ -1017,239 +1017,239 @@ $lang['COUNTRIES'] = [
     'BL' => 'Saint Barthélemy',
     'BM' => 'Bermuda',
     'BN' => 'Brunei Darussalam',
-    'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
-    'BR' => 'Brazil',
+    'BO' => 'Bolivia, Stat Plurinacional',
+    'BQ' => 'Țările de Jos Caraibiene',
+    'BR' => 'Brazilia',
     'BS' => 'Bahamas',
     'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
+    'BV' => 'Insula Bouvet',
     'BW' => 'Botswana',
     'BY' => 'Belarus',
     'BZ' => 'Belize',
     'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
+    'CC' => 'Insulele Cocos (Keeling)',
+    'CD' => 'Congo, Republica Democrată Congo',
+    'CF' => 'Republica Central Africană',
+    'CG' => 'Republica Congo',
+    'CH' => 'Elveția',
+    'CI' => 'Republica Cote d\'Ivoire',
+    'CK' => 'Insulele Cook',
     'CL' => 'Chile',
-    'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
-    'CO' => 'Colombia',
+    'CM' => 'Camerun',
+    'CN' => 'China (Republica Populară Chineză)',
+    'CO' => 'Columbia',
     'CR' => 'Costa Rica',
     'CU' => 'Cuba',
-    'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
+    'CV' => 'Capul Verde',
+    'CW' => 'Țara Curaçao',
+    'CX' => 'Insula Crăciunului',
     'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
+    'CZ' => 'Republica Cehă',
+    'DE' => 'Germania',
     'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
+    'DK' => 'Danemarca',
     'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
+    'DO' => 'Republica Dominicană',
     'DZ' => 'Algeria',
     'EC' => 'Ecuador',
     'EE' => 'Estonia',
-    'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
-    'ER' => 'Eritrea',
-    'ES' => 'Spain',
-    'ET' => 'Ethiopia',
-    'EU' => 'Europe',
-    'FI' => 'Finland',
+    'EG' => 'Egipt',
+    'EH' => 'Sahara Occidentală',
+    'ER' => 'Eritreea',
+    'ES' => 'Spania',
+    'ET' => 'Etiopia',
+    'EU' => 'Europa',
+    'FI' => 'Finlanda',
     'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
+    'FK' => 'Insulele Falkland (Malvine)',
+    'FM' => 'Micronezia, Statele Federate',
+    'FO' => 'Insulele Feroe',
+    'FR' => 'Franța',
     'GA' => 'Gabon',
-    'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
-    'GB-SCT' => 'Scotland',
-    'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
+    'GB-ENG' => 'Anglia',
+    'GB-NIR' => 'Irlanda de Nord',
+    'GB-SCT' => 'Scotia',
+    'GB-WLS' => 'Țara Galilor',
+    'GB' => 'Regatul Unit',
     'GD' => 'Grenada',
     'GE' => 'Georgia',
-    'GF' => 'French Guiana',
+    'GF' => 'Guyana Franceză',
     'GG' => 'Guernsey',
     'GH' => 'Ghana',
     'GI' => 'Gibraltar',
-    'GL' => 'Greenland',
-    'GM' => 'Gambia',
-    'GN' => 'Guinea',
-    'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
+    'GL' => 'Grecia',
+    'GM' => 'Groenlanda',
+    'GN' => 'Gambia',
+    'GP' => 'Guineea',
+    'GQ' => 'Guadelupa',
+    'GR' => 'Guinea Ecuatorială',
+    'GS' => 'Grecia',
     'GT' => 'Guatemala',
     'GU' => 'Guam',
-    'GW' => 'Guinea-Bissau',
+    'GW' => 'Guineea-Bissau',
     'GY' => 'Guyana',
     'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
+    'HM' => 'Insula Heard și Insulele McDonald',
     'HN' => 'Honduras',
-    'HR' => 'Croatia',
+    'HR' => 'Croația',
     'HT' => 'Haiti',
-    'HU' => 'Hungary',
-    'ID' => 'Indonesia',
-    'IE' => 'Ireland',
+    'HU' => 'Ungaria',
+    'ID' => 'Indonezia',
+    'IE' => 'Irlanda',
     'IL' => 'Israel',
-    'IM' => 'Isle of Man',
+    'IM' => 'Insula Man',
     'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
-    'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
-    'IS' => 'Iceland',
-    'IT' => 'Italy',
+    'IO' => 'Teritoriul Britanic din Oceanul Indian',
+    'IQ' => 'Irak',
+    'IR' => 'Iran, Republica Islamică',
+    'IS' => 'Islanda',
+    'IT' => 'Italia',
     'JE' => 'Jersey',
     'JM' => 'Jamaica',
-    'JO' => 'Jordan',
-    'JP' => 'Japan',
-    'KE' => 'Kenya',
-    'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
+    'JO' => 'Iordania',
+    'JP' => 'Japonia',
+    'KE' => 'Kenia',
+    'KG' => 'Kârgâzstan',
+    'KH' => 'Cambodgia',
     'KI' => 'Kiribati',
-    'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
+    'KM' => 'Comore',
+    'KN' => 'Saint Kitts și Nevis',
+    'KP' => 'Coreea, Republica Populară Democrată',
+    'KR' => 'Coreea, Republica',
     'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
-    'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
+    'KY' => 'Insulele Cayman',
+    'KZ' => 'Kazahstan',
+    'LA' => 'Laos (Republica Democratică Populară Lao)',
+    'LB' => 'Liban',
     'LC' => 'Saint Lucia',
     'LI' => 'Liechtenstein',
     'LK' => 'Sri Lanka',
     'LR' => 'Liberia',
     'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
-    'LU' => 'Luxembourg',
-    'LV' => 'Latvia',
-    'LY' => 'Libya',
-    'MA' => 'Morocco',
+    'LT' => 'Lituania',
+    'LU' => 'Luxemburg',
+    'LV' => 'Letonia',
+    'LY' => 'Libia',
+    'MA' => 'Maroc',
     'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
-    'ME' => 'Montenegro',
+    'MD' => 'Moldova, Republica',
+    'ME' => 'Muntenegru',
     'MF' => 'Saint Martin',
     'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
+    'MH' => 'Insulele Marshall',
+    'MK' => 'Macedonia de Nord',
     'ML' => 'Mali',
     'MM' => 'Myanmar',
     'MN' => 'Mongolia',
     'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
-    'MQ' => 'Martinique',
+    'MP' => 'Insulele Marii Arii de Nord',
+    'MQ' => 'Martinica',
     'MR' => 'Mauritania',
     'MS' => 'Montserrat',
     'MT' => 'Malta',
     'MU' => 'Mauritius',
-    'MV' => 'Maldives',
+    'MV' => 'Maldiva',
     'MW' => 'Malawi',
-    'MX' => 'Mexico',
+    'MX' => 'Mexic',
     'MY' => 'Malaysia',
-    'MZ' => 'Mozambique',
+    'MZ' => 'Mozambic',
     'NA' => 'Namibia',
-    'NC' => 'New Caledonia',
+    'NC' => 'Noua Caledonie',
     'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
+    'NF' => 'Insula Norfolk',
     'NG' => 'Nigeria',
     'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
+    'NL' => 'Țările de Jos',
+    'NO' => 'Norvegia',
     'NP' => 'Nepal',
     'NR' => 'Nauru',
     'NU' => 'Niue',
-    'NZ' => 'New Zealand',
+    'NZ' => 'Noua Zeelandă',
     'OM' => 'Oman',
     'PA' => 'Panama',
     'PE' => 'Peru',
-    'PF' => 'French Polynesia',
-    'PG' => 'Papua New Guinea',
-    'PH' => 'Philippines',
+    'PF' => 'Polinezia Franceză',
+    'PG' => 'Papua Noua Guinee',
+    'PH' => 'Filipine',
     'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
+    'PL' => 'Polonia',
+    'PM' => 'Saint Pierre și Miquelon',
     'PN' => 'Pitcairn',
     'PR' => 'Puerto Rico',
-    'PS' => 'Palestine',
-    'PT' => 'Portugal',
+    'PS' => 'Palestina',
+    'PT' => 'Portugalia',
     'PW' => 'Palau',
     'PY' => 'Paraguay',
     'QA' => 'Qatar',
     'RE' => 'Réunion',
-    'RO' => 'Romania',
+    'RO' => 'România',
     'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
+    'RU' => 'Federația Rusă',
     'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
+    'SA' => 'Arabia Saudită',
+    'SB' => 'Insulele Solomon',
     'SC' => 'Seychelles',
     'SD' => 'Sudan',
-    'SE' => 'Sweden',
+    'SE' => 'Suedia',
     'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
+    'SH' => 'Saint Helena, Ascension și Tristan da Cunha',
     'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SK' => 'Slovakia',
+    'SJ' => 'Insulele Svalbard și Jan Mayen',
+    'SK' => 'Slovacia',
     'SL' => 'Sierra Leone',
     'SM' => 'San Marino',
     'SN' => 'Senegal',
     'SO' => 'Somalia',
     'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
+    'SS' => 'Sudanul de Sud',
+    'SU' => 'Uniunea Sovietică',
+    'ST' => 'São Tomé și Príncipe',
     'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
+    'SX' => 'Sint Maarten (partea olandeză)',
+    'SY' => 'Republica Arabă Syriană',
     'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
+    'TC' => 'Insulele Turks și Caicos',
     'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
+    'TF' => 'Teritoriile Franceze de Sud',
     'TG' => 'Togo',
-    'TH' => 'Thailand',
+    'TH' => 'Thailanda',
     'TJ' => 'Tajikistan',
     'TK' => 'Tokelau',
-    'TL' => 'Timor-Leste',
+    'TL' => 'Timorul de Est',
     'TM' => 'Turkmenistan',
     'TN' => 'Tunisia',
     'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
+    'TR' => 'Turcia',
+    'TT' => 'Trinidad și Tobago',
     'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
-    'UA' => 'Ukraine',
+    'TW' => 'Taiwan (Republica Chineză)',
+    'TZ' => 'Tanzania, Republica Unită',
+    'UA' => 'Ucraina',
     'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
+    'UM' => 'Insulele Mici Exterioare ale SUA',
+    'US' => 'Statele Unite',
     'UY' => 'Uruguay',
     'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
+    'VA' => 'Sfântul Scaun (Statul Vatican)',
+    'VC' => 'Saint Vincent și Grenadine',
+    'VE' => 'Venezuela, Republica Bolivariană',
+    'VG' => 'Insulele Virgine, britanice',
+    'VI' => 'Insulele Virgine, SUA',
     'VN' => 'Vietnam',
     'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
+    'WF' => 'Insulele Wallis și Futuna',
     'WS' => 'Samoa',
     'XK' => 'Kosovo',
     'YE' => 'Yemen',
     'YU' => 'Yugoslavia',
     'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
+    'ZA' => 'Africa de Sud',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
-    'LGBT' => 'Pride flag'
+    'WBW' => 'Minunata Rusie a Viitorului',
+    'PACE' => 'Steagul păcii',
+    'LGBT' => 'Steagul mândriei'
 ];
 
 // Errors
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = 'Descriere'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = 'Vizualizate';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Extensia \'%s\' a fost dezactivată de un administrator, prin urmare acest Atașament nu este afișat.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
-$lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
+$lang['STREAM'] = 'Flux';
+$lang['RESOLUTION'] = 'Rezoluție: <b>%s</b>';
+$lang['CHANNELS'] = 'Canale: <b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = 'Dispunerea canalelor: <b>%s</b>';
 $lang['BITRATE'] = 'Bitrate: <b>%s</b>';
-$lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
-$lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
-$lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['SAMPLE_RATE'] = 'Rata de eșantionare: <b>%s</b>';
+$lang['AUDIO_TRACK'] = 'Informații despre pista audio (%d):';
+$lang['AUDIO_CODEC'] = 'Codec audio: <b title="%s">%s</b>';
+$lang['VIDEO_CODEC'] = 'Codec video: <b title="%s">%s</b>';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Afișați mai multe informații despre fișier';
+$lang['DOWNLOAD_M3U_FILE'] = 'Descărcați fișierul .m3u';
+$lang['PLAYBACK_M3U'] = 'Redați fișierul .m3u';
+$lang['COPY_STREAM_LINK'] = 'Copiați linkul fluxului în clipboard';
+$lang['M3U_NOT_SUPPORTED'] = 'Acest fișier nu poate fi redat în browser...';
+$lang['M3U_FFPROBE_NO_DATA'] = 'Se pare că ffprobe nu va putea returna date despre acest codec...';
+$lang['M3U_NOTICE'] = 'Unele browsere nu acceptă redarea anumitor formate video. În acest caz, puteți descărca fișierul .m3u și îl puteți reda folosind un player terț';
 
 $lang['ATTACHMENT'] = 'Atașamente';
 $lang['ATTACHMENT_THUMBNAIL'] = 'Atașament Miniatură';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = 'Adăugat';
 $lang['BT_REG_ON_TRACKER'] = 'Înregistrați pe tracker';
 $lang['BT_REG_FAIL'] = 'Nu ar putea înregistra torrent pe tracker';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Un alt torrent cu același info_hash deja <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
-$lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'torrenturile v1- doar au fost dezactivate de către administrator în acest moment, permise: v2 și hibride';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'torrenturile v2- doar au fost dezactivate de către administrator în acest moment, permise: v1 și hibride';
+$lang['BT_FLIST'] = 'Listă de fișiere';
+$lang['BT_FLIST_LIMIT'] = 'Setările trackerului nu permit procesarea listelor cu mai mult de %d fișiere. Numărul actual este: %d';
+$lang['BT_FLIST_BTMR_HASH'] = 'Hash BTMR';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'Rădăcina Merkle BitTorrent este un hash al unui fișier încorporat în torrenturile care acceptă BitTorrent v2, utilizatorii tracker-ului pot extrage, le pot calcula, de asemenea, pot descărca torrenturi deduplicate folosind instrumente de desktop cum ar fi <a href="%s" target="_blank" referrerpolicy="origin">Cititorul Rădăcinii Merkle Torrent</a>';
+$lang['BT_FLIST_CREATION_DATE'] = 'Data creării';
+$lang['BT_IS_PRIVATE'] = 'Torrent privat';
+$lang['BT_FLIST_FILE_PATH'] = 'Calea fișierului (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = 'Hash-urile fișierelor | metainformații .torrent';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Listă de anunțuri';
+$lang['BT_FLIST_ANNOUNCERS'] = 'Anunțuri';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Această listă conține anunțuri ale fișierului torrent';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Eliminați de la tracker';
 $lang['BT_UNREGISTERED'] = 'Torrent neînregistrate';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = 'Torrentul a fost deja dezregistrat';
 $lang['BT_REGISTERED'] = 'Torrent înregistrate pe tracker<br /><br />Now aveți nevoie pentru a <a href="%s"><b>download ta torrent</b></a> și rulați-l folosind BitTorrent client alegerea folder cu fișierele originale sunteți de partajare ca calea de descărcare';
 $lang['INVALID_ANN_URL'] = 'Invalid Anunța URL [%s]<br /><br />must fi <b>%s</b>';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Nu ar putea adăuga passkey<br /><br />Torrent înregistrat pe tracker';
 $lang['BT_PASSKEY'] = 'Cheia de acces';
 $lang['BT_GEN_PASSKEY'] = 'creați un nou';
 $lang['BT_PASSKEY_VIEW'] = 'show';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Atenție! După schimbarea cheii de acces, va trebui să re-descărcați toate torrenturile active!\nEști sigur că dorești să creezi o nouă cheie de acces?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Nu căutare forumuri găsit';
 
 $lang['SEEDS'] = 'Semințe';
@@ -1403,35 +1403,35 @@ $lang['RELEASING'] = 'Auto';
 $lang['SEEDING'] = 'Semințe';
 $lang['LEECHING'] = 'Lipitoare';
 $lang['IS_REGISTERED'] = 'Înregistrați';
-$lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET'] = 'Link magnet';
+$lang['MAGNET_FOR_GUESTS'] = 'Afișați linkul magnet pentru oaspeți';
+$lang['MAGNET_v2'] = 'Link magnet (BitTorrent v2 suportat)';
 
 //torrent status mod
 $lang['TOR_STATUS'] = 'Starea';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Selectați starea';
 $lang['TOR_STATUS_NOT_SELECT'] = 'Nu ați selectat statut.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Toate stările';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = 'Statutul acestui subiect este: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'nu am verificat',
     TOR_CLOSED => 'închis',
     TOR_APPROVED => 'verificat',
     TOR_NEED_EDIT => 'nu formalizate până',
     TOR_NO_DESC => 'nu formalizate',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => 'duplicat',
+    TOR_CLOSED_CPHOLD => 'închis (drepturi de autor)',
     TOR_CONSUMED => 'absorbit',
     TOR_DOUBTFUL => 'îndoielnic',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => 'în examinare',
     TOR_TMP => 'temporar',
     TOR_PREMOD => 'pre-moderare',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => 'refacem',
 ];
 $lang['TOR_STATUS_FAILED'] = 'O astfel de stare nu exista!';
 $lang['TORRENT_FAILED'] = 'Distributia nu a fost găsit!';
 $lang['TOR_STATUS_DUB'] = 'Distribuția are același statut';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Schimbarea de statut nu poate fi efectuată!';
 $lang['TOR_STATUS_OF'] = 'Distribuția are statut de:';
 $lang['TOR_STATUS_CHANGED'] = 'S-a modificat statutul: ';
 $lang['TOR_BACK'] = ' înapoi';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Lipsă identificator de fișier!';
 $lang['CHANGE_TOR_TYPE'] = 'Tip torrent schimbat cu succes';
 $lang['DEL_TORRENT'] = 'Ești sigur că doriți să ștergeți de pe torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Ești sigur că doriți să ștergeți și pentru a muta acest subiect?';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = 'Aveți o eliberare neterminată. Înainte de a crea o nouă, vă rugăm să o finalizați!';
+$lang['TOR_STATUS_LOG_ACTION'] = 'Statut nou: %s.<br/>Statut anterior: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Schimbarea statutului de distribuție - %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Salut, %s.\n\nStarea [url=%s]distribuției tale[/url] a fost schimbată în [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Modificări în design - %s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "Salut, %s.\n\nDistribuția ta a fost schimbată - [url=%s]%s[/url]\n\nTe rugăm să o verifici din nou.";
 $lang['TOR_AUTH_FIXED'] = 'Fix';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The informații a trimis la moderator. Aștepta.</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = 'Semințe de văzut ultima dată';
 $lang['BT_SORT_FORUM'] = 'Forum';
 $lang['SIZE'] = 'Dimensiune';
 $lang['PIECE_LENGTH'] = 'Lungimea piesei';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = 'Descărcări finalizate';
 $lang['ADDED'] = 'Adăugat';
 $lang['DELETE_TORRENT'] = 'Șterge torrent';
 $lang['DELETE_MOVE_TORRENT'] = 'Șterge și muta subiect';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = 'Silver';
 $lang['UNSET_SILVER_TORRENT'] = 'Desface argint';
 $lang['GOLD_STATUS'] = 'AUR TORRENT! DESCĂRCAȚI TRAFIC NU IA ÎN CONSIDERARE!';
 $lang['SILVER_STATUS'] = 'ARGINT TORRENT! DESCĂRCAȚI TRAFIC PARȚIAL LUATE ÎN CONSIDERARE!';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = 'Tipul torrentului a fost schimbat în: %s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = 'Căutare după statutul release-ului';
 $lang['SEARCH_IN_FORUMS'] = 'Căutare în Forumuri';
 $lang['SELECT_CAT'] = 'Selectați categorie';
 $lang['GO_TO_SECTION'] = 'Du-te la secțiunea';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Torrent înregistrat deja';
 $lang['NOT_TORRENT'] = 'Acest fișier nu este torrent';
 $lang['ONLY_1_TOR_PER_POST'] = 'Vă puteți înregistra doar un singur torrent intr-un singur post';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Vă puteți înregistra doar un singur torrent într-un singur subiect';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = 'Profil torrent';
 $lang['CUR_ACTIVE_DLS'] = 'Active torrents';
 
 $lang['TD_TRAF'] = 'Astăzi';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Selectați';
 $lang['SEED_BONUS'] = 'Semințe de bonus';
 $lang['EXCHANGE'] = 'Schimb';
 $lang['EXCHANGE_BONUS'] = 'Schimbul de semințe de bonusuri';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s pentru distribuție</b> <br /> Să schimbi puncte bonus pentru %1$s trafic care va fi adăugat la totalul distribuției tale.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Pret';
 $lang['EXCHANGE_NOT'] = 'Schimbul nu este disponibil';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You nu au bonusuri disponibile.
 $lang['BONUS_RETURN'] = 'Reveni la semințe bonus de schimb';
 
 $lang['TRACKER'] = 'Tracker';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = 'Release aleator';
 $lang['OPEN_TOPICS'] = 'Deschide subiecte';
 $lang['OPEN_IN_SAME_WINDOW'] = 'deschide în aceeași fereastră';
 $lang['SHOW_TIME_TOPICS'] = 'show timp de crearea subiecte';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Designer';
 $lang['LAST_IP'] = 'Ultimul IP:';
 $lang['REG_IP'] = 'Înregistrare IP:';
 $lang['OTHER_IP'] = 'Alte IP:';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'Un utilizator %s este deja înregistrat cu adresa ta IP. Dacă nu te-ai înregistrat niciodată pe trackerul nostru, trimite un email către <a href="mailto:%s">Administrator</a>';
 $lang['HIDDEN'] = 'Ascunse';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = 'Nu';
 //mpd
 $lang['DELETE_POSTS'] = 'Șterge mesajele selectate';
 $lang['DELETE_POSTS_SUCCESFULLY'] = 'Selectate posturi au fost eliminate cu succes';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = 'Niciun mesaj nu a fost eliminat.';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Anunțuri';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = 'Update post timp';
 $lang['TOPIC_SPLIT_NEW'] = 'Subiect nou';
 $lang['TOPIC_SPLIT_OLD'] = 'Subiect vechi';
 $lang['BOT_LEAVE_MSG_MOVED'] = 'Adaugă bot-mesaj despre mutarea';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = 'Motiv pentru mutare';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Adaugă bot-mesaj despre split spre <b>old topic</b>';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Adaugă bot-mesaj despre split spre <b>new topic</b>';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['răspuns', 'răspunsurile'];
 $lang['DECLENSION']['TIMES'] = ['timp', 'ori'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['fișier', 'fișiere'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['a doua', 'secunde'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = 'Comentariu';
 
 // search
 $lang['SEARCH_S'] = 'căutare...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = 'pe forum';
+$lang['TRACKER_S'] = 'pe tracker';
 $lang['HASH_S'] = 'de info_hash';
 
 // copyright
 $lang['NOTICE'] = '!ATENȚIE!';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = 'Site-ul nu furnizează versiuni electronice ale produselor și se ocupă doar cu colectarea și catalogarea referințelor trimise și publicate pe forum de cititorii noștri. Dacă ești proprietarul legal al oricărui material trimis și nu dorești ca referința la acesta să fie în catalogul nostru, contactează-ne și îl vom elimina imediat. Fișierele pentru schimb pe tracker sunt furnizate de utilizatorii site-ului și administrația nu își asumă responsabilitatea pentru conținutul acestora. Vă rugăm să nu încărcați fișiere protejate prin drepturi de autor sau fișiere cu conținut ilegal!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Prăbușirea director';
 $lang['EXPAND'] = 'Extinde';
 $lang['SWITCH'] = 'Comutator';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Crește/scade fereastra';
 $lang['EMPTY_ATTACH_ID'] = 'Lipsă identificator de fișier!';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = 'Fișierul lipsește de pe server!';
 $lang['ERROR_BUILD'] = 'Conținutul acestui fișier torrent nu pot fi vizualizate pe site-ul (nu a fost posibil de a construi o listă de fișiere)';
 $lang['TORFILE_INVALID'] = 'Torrent fișierul este corupt';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site-ul" poate conține numai http://sitename';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = 'Câmpul "ICQ" poate conține doar un număr ICQ';
+$lang['INVALID_DATE'] = 'Dată invalidă';
 $lang['PROFILE_USER'] = 'Vizualizare profil';
 $lang['GOOD_UPDATE'] = 'a fost schimbat cu succes';
 $lang['UCP_DOWNLOADS'] = 'Descărcări';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Ești sigur că doriți să ștergeți acest uti
 $lang['USER_DELETED'] = 'Utilizator a fost șters cu succes';
 $lang['DELETE_USER_ALL_POSTS'] = 'Ștergeți toate mesajele utilizatorului';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Ești sigur că doriți să ștergeți toate mesajele și toate subiectele început de acest utilizator?';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = 'Șterge toate mesajele, cu excepția postărilor inițiale';
 $lang['DELETE_USER_POSTS_ME'] = 'Ești sigur că doriți să ștergeți toate posturile mele?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Ești sigur că vrei să ștergi toate mesajele, cu excepția postărilor inițiale?';
 $lang['USER_DELETED_POSTS'] = 'Posturi au fost eliminate cu succes';
 
 $lang['USER'] = 'Utilizator';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Nu sunteți autorizat pentru a vizualiza grupuri a
 
 $lang['USER_ACTIVATE'] = 'Activa';
 $lang['USER_DEACTIVATE'] = 'Dezactivați';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = 'Ești sigur că vrei să dezactivezi acest utilizator?';
 $lang['USER_ACTIVATE_ON'] = 'Utilizatorul a fost activat cu succes';
 $lang['USER_DEACTIVATE_ME'] = 'Nu se poate dezactiva contul meu!';
 $lang['ACTIVATE_CONFIRM'] = 'Sunteți sigur că doriți să dezactivați acest utilizator?';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = 'Trebuie să specificați adresa de e-mail';
 $lang['CHOOSE_PASS'] = 'Câmpul pentru parolă nu trebuie să fie gol!';
 $lang['CHOOSE_PASS_ERR'] = 'Parolele introduse nu se potrivesc';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Parola trebuie să fie de cel puțin %d caractere';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Parola ta trebuie să aibă cel mult %d caractere';
+$lang['CHOOSE_PASS_ERR_NUM'] = 'Parola trebuie să conțină cel puțin o cifră';
+$lang['CHOOSE_PASS_ERR_LETTER'] = 'Parola trebuie să conțină cel puțin o literă din alfabetul latin';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'Parola trebuie să conțină cel puțin o literă mare din alfabetul latin';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Parola trebuie să conțină cel puțin un caracter special';
 $lang['CHOOSE_PASS_OK'] = 'Parolele se potrivesc';
 $lang['CHOOSE_PASS_REG_OK'] = 'Parolele se potrivesc, puteți continua cu înregistrarea';
 $lang['CHOOSE_PASS_FAILED'] = 'Pentru a schimba parola, trebuie să specificați în mod corect parola curentă';
 $lang['EMAILER_DISABLED'] = 'Ne pare rău, această caracteristică este temporar nu lucrează';
 $lang['TERMS_ON'] = 'Sunt de acord cu acești termeni și condiții';
 $lang['TERMS_OFF'] = 'Eu nu sunt de acord cu acești termeni';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'Pentru a te înregistra, trebuie să activezi JavaScript';
+$lang['REGISTERED_IN_TIME'] = "Înregistrarea este în prezent închisă<br /><br />Înregistrarea este disponibilă în timpul: %s<br />Ora curentă a serverului: %s<br /><br />Ne cerem scuze pentru inconvenient";
+$lang['AUTOCOMPLETE'] = 'Generați parolă';
 $lang['YOUR_NEW_PASSWORD'] = 'Ta sunt noua parola:';
 $lang['REGENERATE'] = 'Regenera';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = 'off';
 $lang['MEMORY'] = 'Mem: ';
 $lang['QUERIES'] = 'interogări';
 $lang['LIMIT'] = 'Limita:';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = 'Afișează log-ul';
+$lang['EXPLAINED_LOG'] = 'Log explicat';
+$lang['CUT_LOG'] = 'Taie interogările lungi';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = 'Descărcați gratuit și la viteza maximă!';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = 'Bold text: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'Italic text: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = 'Subliniere text: [u]text[/u] (Ctrl+U)';
 $lang['STRIKEOUT'] = 'Ratari text: [s]text[/s] (Ctrl+S)';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
+$lang['BOX_TAG'] = 'Cadru în jurul textului: [box]text[/box] sau [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = 'Introduceți indentarea: [indent]text[/indent]';
+$lang['PRE_TAG'] = 'Text preformatat: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Text la superscript: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Text la subscript: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Text citat: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Inserați imaginea: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'Url';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = 'Cod display: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Lista';
 $lang['LIST_TITLE'] = 'Lista: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = 'Listă ordonată: [list=]text[/list] (Ctrl+O)';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = 'Acronim';
+$lang['ACRONYM_TITLE'] = 'Acronim: [acronym=Text complet]Text scurt[/acronym]';
 $lang['QUOTE_SEL'] = 'Citat selectat';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = 'JavaScript trebuie să fie activat pentru a trimite mesaje';
 
 $lang['NEW'] = 'Noi';
 $lang['NEWEST'] = 'Cele mai noi';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL viteză';
 $lang['DL_DL_SPEED'] = 'Viteza de DL';
 $lang['DL_PORT'] = 'Port';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'Client BitTorrent';
 $lang['DL_FORMULA'] = 'Formula: Încărcat/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'oprit';
 $lang['DL_UPD'] = 'upd: ';
 $lang['DL_INFO'] = 'prezinta date <i><b>only pentru curent session</b></i>';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Ascundeți numele clientului meu BitTorrent în lista peer-urilor';
+$lang['HIDE_PEER_COUNTRY_NAME'] = 'Ascundeți numele țării mele în lista peer-urilor';
+$lang['HIDE_PEER_USERNAME'] = 'Ascundeți numele meu de utilizator în lista peer-urilor';
 
 // Post PIN
 $lang['POST_PIN'] = 'Pin primul post';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = 'Pentru a șterge o comandă din listă, faceți clic p
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Privit subiecte';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Nu urmăresc niciun subiect';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Înapoi la pagina de start';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = 'Du-te la profil';
 
 $lang['WARNING'] = 'Avertizare';
 $lang['INDEXER'] = 'Reindex căutare';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = 'Indexul de căutare a fost actualizat cu succes';
 
 $lang['FORUM_STYLE'] = 'Stil de Forum';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = 'Eliberarea Template-Uri';
 $lang['ACTIONS_LOG'] = 'Raport privind acțiunea';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = 'Starea migrației bazei de date';
+$lang['MIGRATIONS_DATABASE_NAME'] = 'Numele bazei de date';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Tabele totale';
+$lang['MIGRATIONS_DATABASE_SIZE'] = 'Dimensiunea bazei de date';
+$lang['MIGRATIONS_DATABASE_INFO'] = 'Informații despre baza de date';
+$lang['MIGRATIONS_SYSTEM'] = 'Sistem de migrare';
+$lang['MIGRATIONS_NEEDS_SETUP'] = 'Necesită configurare';
 $lang['MIGRATIONS_ACTIVE'] = 'Active';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
-$lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Nelivrat';
+$lang['MIGRATIONS_UP_TO_DATE'] = 'Totul este la zi';
+$lang['MIGRATIONS_PENDING_COUNT'] = 'în așteptare';
+$lang['MIGRATIONS_APPLIED'] = 'Migrații aplicate';
+$lang['MIGRATIONS_PENDING'] = 'Migrații în așteptare';
+$lang['MIGRATIONS_VERSION'] = 'Versiune';
+$lang['MIGRATIONS_NAME'] = 'Numele migrației';
+$lang['MIGRATIONS_FILE'] = 'Fișier de migrație';
+$lang['MIGRATIONS_APPLIED_AT'] = 'Aplicat la';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'Finalizat la';
+$lang['MIGRATIONS_CURRENT_VERSION'] = 'Versiune curentă';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Nicio migrație aplicată';
+$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instrucțiuni';
+$lang['MIGRATIONS_SETUP_STATUS'] = 'Starea configurării';
+$lang['MIGRATIONS_SETUP_GUIDE'] = 'Vezi ghidul de configurare de mai jos';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Acțiune necesară';
 
 // Index
 $lang['MAIN_INDEX'] = 'Forum Index';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'Gzip compression';
 $lang['NOT_AVAILABLE'] = 'Nu este disponibil';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
+$lang['ADMIN_SYSTEM_INFORMATION'] = 'Informații despre sistem';
 $lang['ADMIN_SYSTEM_OS'] = 'OS:';
 $lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
-$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Baza de date:';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Limită de memorie:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Informații despre spațiul pe disk:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (utilizat: %s | liber: %s)';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Timp maxim de execuție:';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Datastore';
-$lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_CACHE'] = 'Șterge cache-ul';
+$lang['CLEAR_TEMPLATES_CACHE'] = 'Cache de șabloane';
 
 // Update
 $lang['USER_LEVELS'] = 'Niveluri de utilizatori';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Mesajele utilizatorului conta a fost s
 $lang['SHOW_ONLINE_USERLIST'] = 'Arată lista de utilizatori online';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Gestionați robots.txt';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'Fișierul robots.txt a fost actualizat cu succes';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sFaceți clic aici pentru a reveni la managerul robots.txt%s';
 
 // Auth pages
 $lang['USER_SELECT'] = 'Selectați un Utilizator';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = 'Permisiuni de utilizator au fost actualizate';
 $lang['GROUP_AUTH_UPDATED'] = 'Permisiuni de grup au fost actualizate';
 
 $lang['AUTH_UPDATED'] = 'Permisiuni au fost actualizate';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = 'Nu s-a putut actualiza statutul administratorului';
+$lang['AUTH_SELF_ERROR'] = 'Nu s-a putut schimba de la admin la utilizator';
+$lang['NO_FORUMS_AVAILABLE'] = 'Nu sunt forumuri disponibile. Creați mai întâi forumuri pentru a gestiona permisiunile.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Faceți clic pe %sHere%s pentru a reveni la Permisiuni de Utilizator';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Faceți clic pe %sHere%s să se întoarcă la Grupul Permissions';
 $lang['CLICK_RETURN_FORUMAUTH'] = 'Faceți clic pe %sHere%s pentru a reveni la Forum Permissions';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Ban Control';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = 'Aici puteți controla interzicerea utilizatorilor.';
 $lang['BAN_USERNAME'] = 'Interzicerea unuia sau a mai multor utilizatori';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Puteți ban mai mulți utilizatori într-un du-te folosind combinația corespunzătoare de mouse-ul și tastatura pentru computer și browser-ul';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = 'Debarcează unu sau mai mulți utilizatori specifici';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Puteți unban mai mulți utilizatori într-un du-te folosind combinația corespunzătoare de mouse-ul și tastatura pentru computer și browser-ul';
 $lang['NO_BANNED_USERS'] = 'Nu a interzis numele de utilizator';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'De banuri a fost actualizat cu succes';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Administrare Forum';
 $lang['FORUM_ADMIN_EXPLAIN'] = 'De la acest panou puteți adăuga, șterge, edita, re-comanda și re-sincroniza categorii și forumuri';
 $lang['EDIT_FORUM'] = 'Edit forum';
 $lang['CREATE_FORUM'] = 'Crea noi pe forum';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = 'Creează subforum';
 $lang['CREATE_CATEGORY'] = 'De a crea noi categorii';
 $lang['REMOVE'] = 'Elimina';
 $lang['UPDATE_ORDER'] = 'Actualizare Pentru';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = 'Muta tot continutul';
 $lang['FORUM_DELETE'] = 'Șterge Forum';
 $lang['FORUM_DELETE_EXPLAIN'] = 'Formularul de mai jos vă va permite să ștergeți un forum (sau de categorie) și să decidă în cazul în care doriți pentru a pune toate subiectele (sau forumuri) conținea.';
 $lang['CATEGORY_DELETE'] = 'Ștergeți Categoria';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = 'Numele categoriei nu este specificat';
 
 $lang['STATUS_LOCKED'] = 'Blocat';
 $lang['STATUS_UNLOCKED'] = 'Deblocat';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Cu ajutorul acestui formular puteți adăuga, edita, v
 $lang['ADD_NEW_RANK'] = 'Adaugă rang nou';
 $lang['RANK_TITLE'] = 'Rang Titlu';
 $lang['STYLE_COLOR'] = 'Stil de rang';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = 'Specificați o clasă pentru a stiliza titlul cu culoarea dorită. De exemplu: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Gradul De Imagine';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Utilizați această pentru a defini o mică imagine asociată cu rangul';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Faceți clic pe %sHere%s să se întoarc�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informațiile De Versiune';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = 'Actualizare disponibilă';
+$lang['CHANGELOG'] = 'Jurnal de modificări';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Permis de încercări de autentificare';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Numai administratorii';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s pot vizualiza acest forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s pot citi mesaje în acest forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s pot posta in acest forum';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s poate răspunde la postări în acest forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s pot edita mesaje în acest forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s pot șterge mesaje în acest forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s pot posta lipicios subiecte în acest forum';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = 'Sincronizare';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. lungimea de știri';
 $lang['NEWS_COUNT'] = 'Câte știri show';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'Din ce forumuri să afișez <br /> <h6>Pentru mai multe forumuri, specificați ID-uri separate prin virgule. Exemplu: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Nu avatar';
 $lang['TRACKER_STATS'] = 'Statisticile pe tracker';
 $lang['WHOIS_INFO'] = 'Informații despre adresa IP';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Spectacol pe la moderatori index.php';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = 'Afișează data de început a forumului pe index.php';
 $lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If nu au distribuții la statutul de v, #, sau T în această secțiune, inclusiv subcapitole, distribuția va primi automat acest status</h6>';
 $lang['TOR_COMMENT'] = '<h4>Comentariu despre starea unei distribuții</h4> <h6>Comentariul vă permite să subliniați erorile făcute la eliberator. Dacă stările sunt incomplete, un formular de răspuns la eliberare este disponibil pentru managerul de ediție pentru a corecta ediția</h6>';
 $lang['SEED_BONUS_ADD'] = '<h4>Adding semințe bonus </h4> <h6> Număr de distribuții sunt înmânate de către utilizator și dimensiunea de bonusuri pentru ei (de încărcare de ori pe oră) </h6>';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Extinderea Grupului %s există deja'; // repla
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Gestiona Categorii Speciale';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aici puteți configura Categoriile Speciale. Puteți stabili Parametrii Speciali și Condiții pentru Categoriile Speciale atribuite unui Grup de Extensie.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Setări pentru Categorii Speciale: Imagini';
 $lang['SETTINGS_CAT_FLASH'] = 'Setări pentru Categorii Speciale: Fișiere Flash';
 $lang['DISPLAY_INLINED'] = 'Afișa Imagini Inline';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = 'Anunta url';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'puteți defini suplimentare permis url-uri în "includes/torrent_announce_urls.php"';
 $lang['BT_DISABLE_DHT'] = 'Dezactivați DHT network';
 $lang['BT_DISABLE_DHT_EXPL'] = 'Dezactivați Peer Exchange și DHT (recomandat pentru rețele private, doar url-anunt)';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = 'Acest tracker este privat: listarea fișierelor (pentru oaspeți), DHT | PEX sunt dezactivate';
+$lang['BT_PRIVATE_TORRENT'] = 'Creatorul acestui torrent l-a făcut privat';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Verifica anunța url';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'înregistrați pe tracker permis doar url-uri';
 $lang['BT_REPLACE_ANN_URL'] = 'Înlocuiți url anunt';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Permite boolean căutări full-text';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'utilizare *, +, -,.. în căutări';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diverse";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Arată statistici UL/DL utilizatori în partea de sus a paginii principale a forumului";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Înregistra automat torrent pe tracker pentru subiecte noi';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Schimba tema de stare pentru a "Descărca" în timp ce înregistrarea torrent pe tracker';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'se va schimba subiect de tip pentru a "Descarca" indiferent de setări forum';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = 'Șablon cu handicap';
 $lang['FOR_NEW_TEMPLATE'] = 'pentru noile modele!';
 $lang['CHANGED'] = 'S-a schimbat';
 $lang['REMOVED'] = 'Eliminat';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = 'Confirmați, sunteți sigur că doriți să efectuați această acțiune';
 
 $lang['CRON_LIST'] = 'Cron lista';
 $lang['CRON_ID'] = 'ID';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Permite';
 $lang['RUN_MAIN_CRON'] = 'Începe cron';
 $lang['ADD_JOB'] = 'Adăugați locuri de muncă cron';
 $lang['DELETE_JOB'] = 'Ești sigur că doriți să ștergeți cron job?';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron este acum în funcțiune sau este defect -> ';
 $lang['REPAIR_CRON'] = 'Reparații Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Edit muncă';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Dezactivați bord';
 $lang['BOARD_DISABLE_EXPL'] = 'dezactivați bord atunci când acest lucru se rula';
 $lang['RUN_COUNTER'] = 'În contradicție';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = 'Sarcina a fost eliminată cu succes';
 $lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> există deja!';
 $lang['TITLE_DUPLICATE'] = 'Sarcini Numele <b>' . @$_POST['cron_title'] . '</b> există deja!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sÎntoarceți-vă pentru a adăuga sarcina%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack la Sarcina Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Reconstrui Indexul De Căutare';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Cât de mult timp (secunde) pentru a rămâne i
 
 $lang['TIME_LIMIT'] = 'Limita de timp';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Cât de mult timp (secunde) post-procesare poate dura înainte de a trece la următorul ciclu';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) are un timeout configurat de %s secs, așa că rămâi sub această valoare</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your serverul are un timeout de %s secunde configurat, așa că stai jos acest value</i>';
 
 $lang['DISABLE_BOARD'] = 'Dezactivați bord';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = 'Ați introdus unele valori greșite. Vă rugăm să veri
 $lang['PROCESSING'] = 'Prelucrare...';
 $lang['FINISHED'] = 'Terminat';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Subiectul a fost mutat din forum [b]%s[/b] în forum [b]%s[/b].[br][b]Motivul mutării:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Subiectul a fost divizat. Subiect nou - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Subiectul a fost despărțit de [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = 'Apel semințe';
 $lang['CALLSEED_EXPLAIN'] = 'Ia notificare cu o cerere pentru a reveni la distributie';
 $lang['CALLSEED_SUBJECT'] = 'Descărcați ajuta %s';
 $lang['CALLSEED_TEXT'] = 'Buna ziua![br]Your este nevoie de ajutor în eliberarea [url=%s]%s[/url][br]if vă decideți pentru a ajuta, dar deja eliminat fișier torrent, o puteți descărca de [url=%s]this[/url][br][br]i speranță pentru ajutor!';
@@ -2855,19 +2855,19 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Subiect:<br /> <b>closed</b>',
     'mod_topic_unlock' => 'Subiect:<br /> <b>opened</b>',
     'mod_topic_split' => 'Subiect:<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => 'Subiect:<br /> <b>setat descărcat</b>',
+    'mod_topic_unset_downloaded' => 'Subiect:<br /> <b>dezactivate descărcare</b>',
+    'mod_topic_change_tor_status' => 'Subiect:<br /> <b>starea torrentului schimbată</b>',
+    'mod_topic_change_tor_type' => 'Subiect:<br /> <b>tipul torrentului schimbat</b>',
+    'mod_topic_tor_unregister' => 'Subiect:<br /> <b>torrentul deregistrat</b>',
+    'mod_topic_tor_register' => 'Subiect:<br /> <b>torrentul înregistrat</b>',
+    'mod_topic_tor_delete' => 'Subiect:<br /> <b>torrentul șters</b>',
+    'mod_topic_renamed' => 'Subiect:<br /> <b>renumit</b>',
+    'mod_topic_poll_started' => 'Subiect:<br /> <b>sondajul a început</b>',
+    'mod_topic_poll_finished' => 'Subiect:<br /> <b>sondajul s-a terminat</b>',
+    'mod_topic_poll_deleted' => 'Subiect:<br /> <b>sondajul șters</b>',
+    'mod_topic_poll_added' => 'Subiect:<br /> <b>sondajul adăugat</b>',
+    'mod_topic_poll_edited' => 'Subiect:<br /> <b>sondajul editat</b>',
     'mod_post_delete' => 'Post:<br /> <b>deleted</b>',
     'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
     'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = 'Vă rugăm să completați formularul de eliberare';
 $lang['NEW_RELEASE'] = 'Noua versiune';
 $lang['NEXT'] = 'Continua';
 $lang['OTHER'] = 'Alte';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = 'Altele';
+$lang['ALL'] = 'Toate';
 
 $lang['TPL_EMPTY_FIELD'] = 'Trebuie să completați câmpul <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Trebuie să selectați <b>%s</b>';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'În căutarea pentru utilizatorii cu si
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'În căutarea pentru utilizatorii cu o Locație potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'În căutarea pentru utilizatorii cu Interesele lor domeniu de potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'În căutarea pentru utilizatorii cu Ocupația lor domeniu de potrivire %s';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Căutarea utilizatorilor care au vizitat în ultimul %s';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Căutarea utilizatorilor care au vizitat după ultima %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'În căutarea pentru utilizatorii care au stabilit %s ca limba lor';
 $lang['SEARCH_FOR_TIMEZONE'] = 'În căutarea pentru utilizatorii care au stabilit UTC %s ca fus orar';
 $lang['SEARCH_FOR_STYLE'] = 'În căutarea pentru utilizatorii care au stabilit %s ca stilul lor';
@@ -3061,7 +3061,7 @@ $lang['FORUM_MAP'] = 'Forumuri hartă';
 $lang['ATOM_FEED'] = 'Hrana';
 $lang['ATOM_ERROR'] = 'Eroare la generarea unui feed';
 $lang['ATOM_SUBSCRIBE'] = 'Aboneaza-te la feed';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = 'Nici o opțiune de mod furnizată pentru feed';
 $lang['ATOM_NO_FORUM'] = 'Acest forum nu are un flux (nr. în curs de desfășurare subiecte)';
 $lang['ATOM_NO_USER'] = 'Acest utilizator nu are o alimentare (nu in curs de desfasurare subiecte)';
 $lang['ATOM_UPDATED'] = 'Actualizat';
@@ -3070,15 +3070,15 @@ $lang['ATOM_GLOBAL_FEED'] = 'Feed global pentru toate forumurile';
 $lang['HASH_INVALID'] = 'Hash %s este invalid';
 $lang['HASH_NOT_FOUND'] = 'Lansare cu hash %s nu a fost găsit';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[align=center]textul din aceasta pagina este editată la: [url]%s[/url]. Această linie poate vedea doar administratorii.[/align]';
 $lang['TERMS_EXPLAIN'] = 'Pe această pagină, puteți specifica textul de regulile de bază de resurse este afișat pentru utilizatori.';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Termenii au fost actualizați cu succes';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Aici pentru a reveni la editorul de termeni%s';
 
 $lang['TR_STATS'] = [
     0 => 'utilizatorii inactivi în 30 de zile',
     1 => 'utilizatorii inactivi pentru 90 de zile',
-    2 => 'medium size distributions on the tracker',
+    2 => 'distribuții de dimensiune medie pe tracker',
     3 => 'cât de multe totală mâinile pe tracker',
     4 => 'câți locuiesc pe mâini (există cel puțin 1 led)',
     5 => 'cât de multe mâini în cazul în care a semănat mai mult de 5 seminte',
@@ -3108,11 +3108,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = 'Fiecare rând corespunde un singur răspuns (max'
 $lang['OLD_BROWSER'] = 'Utilizați un browser învechit. Site-ul nu va afișa corect.';
 $lang['GO_BACK'] = 'Du-te înapoi';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Încărcarea fișierului este dezactivată';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fișier de încărcare de eroare';
 $lang['UPLOAD_ERROR_SIZE'] = 'Fișierul încărcat depășește dimensiunea maximă a %s';
 $lang['UPLOAD_ERROR_FORMAT'] = 'Invalid tip de fișier de imagine';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Dimensiunile imaginii depășește valoarea maximă admisibilă %sx%s pixeli';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'Fișierul încărcat nu este o imagine';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'Extensia %s de popularitate nu este permis';
 $lang['UPLOAD_ERRORS'] = [
@@ -3128,18 +3128,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Verificați că nu sunt un robot';
 $lang['CAPTCHA_WRONG'] = 'Tu nu a putut confirma că nu sunt un robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nu este complet configurat</h2><p>Generați cheile folosind tabloul de bord al serviciului dumneavoastră captcha, după care trebuie să le introduceți în biblioteca fișierelor/config.php.</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verificarea CAPTCHA are loc în fundal';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = 'Răspundeți la';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => 'Fără subiect',
     'GROUP_ADDED' => 'Ai fost adăugat la grupul de utilizatori',
     'GROUP_APPROVED' => 'Solicitarea dvs. de a vă alătura grupului de utilizatori a fost acceptată',
     'GROUP_REQUEST' => 'O solicitare de a vă alătura grupului dvs. de utilizatori',
     'PRIVMSG_NOTIFY' => 'Mesaj privat nou',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => 'Notificare de răspuns în fir - %s',
     'USER_ACTIVATE' => 'Reactivarea contului',
     'USER_ACTIVATE_PASSWD' => 'Confirmarea unei noi parole',
     'USER_WELCOME' => 'Bun venit pe site-ul %s',
@@ -3147,17 +3147,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = 'Resetare raport';
+$lang['BT_NULL_RATIO_NONE'] = 'Nu aveți un raport';
+$lang['BT_NULL_RATIO_ALERT'] = "Atenție!\n\nSuntem siguri că doriți să resetați raportul dumneavoastră?";
+$lang['BT_NULL_RATIO_AGAIN'] = 'Ați resetat deja raportul!';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'Aveți un raport bun. Resetarea este posibilă doar cu un raport mai mic de %s';
+$lang['BT_NULL_RATIO_SUCCESS'] = 'Raportul a fost resetat cu succes!';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
-$lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SIZE'] = 'Dimensiune totală:';
+$lang['RELEASER_STAT'] = 'Statistici Releaser:';
+$lang['RELEASER_STAT_SHOW'] = 'Arată statistici';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = 'Comutare mod întunecat';
