@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'ビューの最新の募';
 $lang['VIEW_NEWEST_POST'] = 'ビューの最新ポスト';
 $lang['PAGE_OF'] = 'ページ<b>%d</b>の<b>%s</b>';
 
-$lang['ICQ'] = 'はicqだ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = '入力された無効なSkypeにログイン';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = '入力された無効Twitterにログイン';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%sフォーラム指数'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Are you sure you want to deleteこの世論調�
 $lang['FLOOD_ERROR'] = 'はできません別のポストですぐにごした後は、再度お試しください。を';
 $lang['EMPTY_SUBJECT'] = 'を指定する必要があります。対象';
 $lang['EMPTY_MESSAGE'] = '必ず入力してくださいメッセージ';
-$lang['FORUM_LOCKED'] = 'このフォーラムがロックできません、回答、または編集topics';
-$lang['TOPIC_LOCKED'] = 'このテーマット:編集できませんの投稿もしくは回答';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = '話題のロック';
 $lang['NO_POST_ID'] = 'を選択してくださいポストの編集';
 $lang['NO_TOPIC_ID'] = 'を選択してください課題への回答';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = '鉄青';
 $lang['COLOR_GRAY'] = 'グレー';
 $lang['COLOR_DARK_GREEN'] = '濃緑';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[コード]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['返信', '回答'];
 $lang['DECLENSION']['TIMES'] = ['時間', '倍'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrentファイルが破損';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"サイト"を含みhttp://sitename';
-$lang['ICQ_ERROR'] = '「ICQ」フィールドにはICQ番号のみを含めることができます';
 $lang['INVALID_DATE'] = '無効な日付';
 $lang['PROFILE_USER'] = '閲覧概要';
 $lang['GOOD_UPDATE'] = 'した変更に成功';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = '検索ユーザーの投稿回数以上
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '検索ユーザーの投稿回数以上%d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = '検索ユーザーの投稿回数と%dと%d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '検索ユーザーの投稿回数値%d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = '検索ユーザーはicqだ住所マッチング%s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = '検索ユーザーのSkypeマッチング%s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = '検索ユーザーのTwitterのマッチング%s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = '検索ユーザーのサイトマッチング%s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = '検索ユーザーのロケ地マッチング%s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = '検索ユーザーに自分のフェッショナル版の処理スピ%s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = '日';
 $lang['POST_EDIT_CANNOT'] = '申し訳ございません、あなたの編集できませんの投稿';
 $lang['FORUMS_IN_CAT'] = 'フォーラムにするカテゴリ';
 
-$lang['MC_TITLE'] = 'コメントを節度';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'タイプaのコメント';
 $lang['MC_FAQ'] = '入力したテキスト表示されます本メッセージ';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%sにメッセージ";
