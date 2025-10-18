@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Den Bifogade filen är för stor.<br />M
 $lang['DISALLOWED_EXTENSION'] = 'Förlängning %s är inte tillåtna'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Du är inte tillåtet att publicera Filer med Filändelsen %s inom detta Forum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Den bifogade filen är för stor.<br />Max Storlek: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Ledsen, men den maximala filstorleken för alla bilagor har nåtts. Vänligen kontakta styrelseadministratören om du har frågor.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Kvarstad får inte läggas till, eftersom max. antal %d Bilagor i detta inlägg var uppnås'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Den Bifogade filen/Bilden måste vara mindre än %d pixlar bred och %d pixlar hög';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Ladda upp Fel: Kunde inte ladda upp en Bilaga till %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Du måste ange värden i " Lägga till en Bifogad fil i Rutan';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Det går inte att Uppdatera Bifogad fil, kunde inte hitta gamla Bifogad fil Inlägg';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Ledsen, men den maximala filstorleken för alla bilagor i din mapp för privata meddelanden har nåtts. Vänligen ta bort några av dina mottagna/sända bilagor.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Ledsen, men den maximala filstorleken för alla bilagor i mappen för privata meddelanden som tillhör \'%s\' har nåtts. Vänligen låt honom/henne veta, eller vänta tills han/hon har raderat några av sina bilagor.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Du har inte valt en bifogad fil för att hämta eller visa.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Katalogen \'%s\' finns inte eller Kunde int
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Kontrollera om det är "%s" är en katalog.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalog \'%s\' är inte skrivbar. Du måste skapa uppladdningsvägen och ändra rättigheter till 777 (eller ändra ägaren till din httpd-server ägare) för att ladda upp filer.<br />Om du endast har vanlig FTP-åtkomst, ändra \'Attribut\' för katalogen till rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Ladda Upp Kvot';
-$lang['PM_QUOTA'] = 'PM Kvot';
-
 // Common Variables
 $lang['BYTES'] = 'Byte';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Inställningar För Test';
 $lang['NOT_ASSIGNED'] = 'Inte Tilldelat';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Ingen Fil Kommentar finns';
 $lang['ATTACHBOX_LIMIT'] = 'Din bilagelåda är<br /><b>%d%%</b> full';
-$lang['NO_QUOTA_LIMIT'] = 'Ingen Kvot';
 $lang['UNLIMITED'] = 'Obegränsat';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Enkelt Läge';
 $lang['ADVANCED_MODE'] = 'Avancerat Läge';
 $lang['MODERATOR_STATUS'] = 'Moderator status';
 
-$lang['ALLOWED_ACCESS'] = 'Tillträde';
-$lang['DISALLOWED_ACCESS'] = 'Otillåten Åtkomst';
-$lang['IS_MODERATOR'] = 'Är Moderator';
-
-$lang['CONFLICT_WARNING'] = 'Behörighetskonfliktsvarning';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Den här användaren har fortfarande åtkomst rättigheter till detta forum via medlemskap i gruppen. Du kanske vill ändra behörigheter eller ta bort den här användaren grupp för att helt förhindra dem att ha tillgång till rättigheter. De grupper som ger rättigheter (och forum inblandade) är noterat nedan.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Den här användaren har fortfarande moderator rättigheter till detta forum via medlemskap i gruppen. Du kanske vill ändra behörigheter eller ta bort den här användaren grupp för att helt förhindra dem med moderator rättigheter. De grupper som ger rättigheter (och forum inblandade) är noterat nedan.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Följande användare (eller användare) fortfarande har åtkomst rättigheter till detta forum via sina användare behörighet inställningar. Du kanske vill ändra behörigheter för att helt förhindra dem att ha tillgång till rättigheter. De användare som har beviljats rättigheter (och forum inblandade) är noterat nedan.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Följande användare (eller användare) har fortfarande moderator rättigheter till detta forum via sina användare behörigheter inställningar. Du kanske vill ändra behörigheter för att helt förhindra dem med moderator rättigheter. De användare som har beviljats rättigheter (och forum inblandade) är noterat nedan.';
-
 $lang['PUBLIC'] = 'Allmänna';
 $lang['PRIVATE'] = 'Privat';
 $lang['REGISTERED'] = 'Registrerade';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Omröstning';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Skapa enkät';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Skicka Filer';
 $lang['AUTH_DOWNLOAD'] = 'Ladda Ner Filer';
-
-$lang['SIMPLE_PERMISSION'] = 'Enkel Behörigheter';
 
 $lang['USER_LEVEL'] = 'Användar Nivå';
 $lang['AUTH_USER'] = 'Användare';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Webbplatsens namn';
 $lang['SITE_DESC'] = 'Webbplatsen beskrivning';
 $lang['FORUMS_DISABLE'] = 'Inaktivera styrelsen';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Detta kommer att göra att styrelsen inte tillgänglig för användare. Administratörer har åtkomst till Administration Panel medan styrelsen som är funktionshindrade.';
-$lang['ACCT_ACTIVATION'] = 'Aktivera konto aktivering';
 $lang['ACC_NONE'] = 'Ingen'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Användare';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Låt Signaturer';
 $lang['MAX_SIG_LENGTH'] = 'Maximal signatur längd';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximalt antal tecken i användarens signaturer';
 $lang['ALLOW_NAME_CHANGE'] = 'Låt Användarnamn förändringar';
-
-$lang['EMAIL_SETTINGS'] = 'E-Post Inställningar';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Aktivera Visuell Bekräftelse';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Kräver att användarna anger en kod som definieras av en bild när du registrerar dig.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Tillåt automatiska inloggningar';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Klicka %sHere%s för att återgå till Smile
 
 // User Management
 $lang['USER_ADMIN'] = 'Användaradministration';
-$lang['USER_ADMIN_EXPLAIN'] = 'Här kan du ändra dina användares information och vissa alternativ. För att ändra användarnas behörigheter, vänligen använd användare och behörigheter systemet.';
-
 $lang['LOOK_UP_USER'] = 'Leta upp användaren';
-
-$lang['ADMIN_USER_FAIL'] = 'Kunde inte uppdatera användarens profil.';
-$lang['ADMIN_USER_UPDATED'] = 'Användarens profil har uppdaterats.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Klicka %sHere%s för att återgå till Användaren Administration';
-
-$lang['USER_ALLOWPM'] = 'Kan skicka Privata Meddelanden';
-$lang['USER_ALLOWAVATAR'] = 'Kan visa avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Här kan du se och ta bort användarens nuvarande avatar.';
-
-$lang['USER_SPECIAL'] = 'Särskilda admin fält';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Dessa fält kan inte ändras av användare. Här kan du ange deras status och andra alternativ som inte ges till användarna.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Koncernens Administration';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Andelen tillägg för utbyte av bonusar på GB'
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Kontrollpanelen';
-$lang['SHADOW_ATTACHMENTS'] = 'Skugga Bifogade Filer';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Förbjudet Tillägg';
 $lang['EXTENSION_CONTROL'] = 'Förlängning Kontroll';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Förlängning Grupper Kontroll';
 $lang['SPECIAL_CATEGORIES'] = 'Särskilda Kategorier';
-$lang['SYNC_ATTACHMENTS'] = 'Synkronisera Bilagor';
-$lang['QUOTA_LIMITS'] = 'Kvotgränser';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Bilaga Inställningar';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Bilaga Ämne Ikonen';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Denna Bild visas innan ämnen med Bilagor. Lämna det här fältet tomt om du inte vill att en ikon ska visas.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Bifogad Fil Visas';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Här kan du välja om du vill visa Bilagor i Inlägg/PMs-i Fallande Filetime Ordning (Nyaste Bifogad fil Först) eller Stigande Filetime För (Äldsta Bifogad fil Först).';
-$lang['SHOW_APCP'] = 'Använd den nya kontrollpanelen program';
-$lang['SHOW_APCP_EXPLAIN'] = 'Välj om du vill använda en separat kontrollpanel program (ja), eller den gamla metoden med två lådor för program och applikationer (ingen) i meddelanderutan. Det är svårt att förklara hur det ser ut, så försök att för dig själv.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Filstorlek';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maximal filstorlek för Bifogade filer. Ett värde på 0 innebär "obegränsad". Denna Inställning är begränsad av din Server-Konfiguration. Till exempel, om din php-Konfiguration tillåter bara max 2 MB uppladdning, detta kan inte skrivas över av Mod.';
-$lang['ATTACH_QUOTA'] = 'Bilaga Kvot';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximala Utrymme som ALLA Bilagor kan hålla på ditt Webbutrymme. Ett värde på 0 innebär "obegränsad".';
 $lang['MAX_FILESIZE_PM'] = 'Maximal Filstorlek i Privata Meddelanden-Mappen';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximala Utrymme som Bilagor kan använda upp i varje Användares Privata Meddelande-rutan. Ett värde på 0 innebär "obegränsad".';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Standard Kvot';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Här har du möjlighet att välja Standard Kvot som tilldelats automatiskt till nyligen registrerade Användare och Användare utan en definierad storleksgräns. Alternativet "Ingen Kvot" för att inte använda någon Bilaga Kvoter, istället använder den förvalda Inställningar som du har definierat inom denna Förvaltning Panel.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maximalt Antal Bilagor';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Det maximala antalet bilagor accepteras i ett inlägg.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Inaktivera Bilaga Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Detta alternativ är främst för att testa nya mallar eller teman, inaktiveras alla bilagor Funktioner, utom Admin Panel.';
 $lang['PM_ATTACHMENTS'] = 'Att Bifogade filer i Privata Meddelanden';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Tillåt/tillåt inte bifoga filer i Privata Meddelanden.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Visa program i den översyn av kommunikation ämnen när du skriver ett svar?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Om du sätter i ett "ja", alla program kommer att visas i den översyn av kommunikation ämnen.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Här kan du ta bort bifogad fil data från inläggen när de filer som saknas från ditt filsystem och ta bort filer som inte längre är anslutna till någon av inläggen. Du kan ladda ner eller visa en fil om du klickar på den, om ingen länk finns, filen inte finns.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Ta bort alla bifogade filer som finns på ditt filsystem och inte tilldelats en befintlig post.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Ta bort alla meddelanden bilaga uppgifter för filer som inte finns på ditt filsystem.';
-$lang['EMPTY_FILE_ENTRY'] = 'Tom Fil Inlägg';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Förhandsgranskningen har återställts för bilagan: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Synkronisering av bilaga slutförd.';
 $lang['SYNC_TOPICS'] = 'Sync Ämnen';
 $lang['SYNC_POSTS'] = 'Sync Inlägg';
-$lang['SYNC_THUMBNAILS'] = 'Sync Miniatyrer';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Hantera Tillägg';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Här kan du hantera dina Filändelser. Om du vill tillåta/inte tillåta en Förlängning för att laddas upp, vänligen använd Förlängning Grupper Förvaltning.';
 $lang['EXPLANATION'] = 'Förklaring';
 $lang['EXTENSION_GROUP'] = 'Förlängning Grupp';
-$lang['INVALID_EXTENSION'] = 'Ogiltiga Förlängning';
 $lang['EXTENSION_EXIST'] = 'Förlängning %s redan finns'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Förlängning %s är förbjudet, du kan inte lägga till det tillåtna Tillägg'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Hantera Grupper Förlängning';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Förlängning Grupp %s redan finns'; // replac
 $lang['MANAGE_CATEGORIES'] = 'Hantera Speciella Kategorier';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Här kan du konfigurera de Särskilda Kategorierna. Du kan ställa in Särskilda Parametrar och Villkor för de Särskilda Kategorier som tilldelats en Förlängningsgrupp.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Inställningar för Speciella Kategori: Bilder';
-$lang['SETTINGS_CAT_FLASH'] = 'Inställningar för Speciella Kategori: Flash-Filer';
 $lang['DISPLAY_INLINED'] = 'Visa bilder inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Välj om du vill visa bilder direkt i inlägg (ja), eller att visa bilder som en länk ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximal Bild Dimensioner';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Skapa Miniatyrbilder';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minsta filstorlek för miniatyrbild';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Om en bild är mindre än denna definierade filstorlek, kommer ingen förhandsvisning att skapas, eftersom den är tillräckligt liten.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Hantera Förbjudet Tillägg';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Här kan du lägga till eller ta bort den förbjudna tillägg. Tillägg php, php3 och php4 är förbjudet enligt standard av säkerhetsskäl kan du inte ta bort dem.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Den förbjudna Förlängning %s redan finns'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Förlängning %s är definierade i din tillåtna Tillägg, ta bort det deras innan du lägger till den här.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Behörigheter för förlängningsgrupp → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Här har du möjlighet att begränsa den valda Extension Grupp till Forum av ditt val (som definieras i den Tillåtna Forum Box). Standard är att tillåta Förlängning Grupper för att alla Forum som Användaren har möjlighet att Bifoga Filer till (normalt sätt Bilagan Mod gjorde det sedan början). Lägg bara till de Forum du vill ha en Förlängning Grupp (Tillägg inom denna Grupp) för att vara tillåtna att det finns, standard är ALLA FORUM kommer att försvinna när du lägger till Forum för att Listan. Du kan lägga till ALLA FORUM vid varje given Tidpunkt. Om du lägger till ett Forum för att din Styrelse och Behörigheten är inställd på ALLA FORUM ingenting kommer att förändras. Men om du har ändrat och begränsad tillgång till vissa Forum, kan du titta in här för att lägga till ditt nyskapade Forumet. Det är lätt att göra detta automatiskt, men detta kommer att tvinga dig att redigera en massa Filer, därför har jag valt den vägen är det nu. Tänk på att alla dina Forum kommer att listas här.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Lägg Till Forum';
 $lang['ADD_SELECTED'] = 'Lägg Till Markerade';
 $lang['PERM_ALL_FORUMS'] = 'ALLA FORUM';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Hantera Bifogade Filer Kvotgränser';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Här har du möjlighet att lägga till/ta bort/ändra kvotgränser. Du kan tilldela dessa Kvoter för Användare och Grupper senare. För att tilldela en Kvot till en Användare, måste du gå till Användare->Förvaltning, väljer du Användaren och du kommer att se Alternativ i botten. För att tilldela en Kvot till en Grupp, gå till Grupper->Förvaltning, välj den Grupp du vill redigera det, och du kommer att se konfigurationsinställningar. Om du vill se vilka Användare och Grupper som har tilldelats till en viss Kvot, klicka på "Visa" till vänster om Kvoten Beskrivning.';
-$lang['ASSIGNED_USERS'] = 'Tilldelade Användare';
-$lang['ASSIGNED_GROUPS'] = 'Tilldelade Grupper';
-$lang['QUOTA_LIMIT_EXIST'] = 'Den Kvot %s redan finns.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Bifogad Fil Kontrollpanelen';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Här kan du se och hantera alla bifogade filer baserat på Användare, Bilagor, Åsikter osv...';
-$lang['FILECOMMENT'] = 'Fil Kommentar';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Använd * som jokertecken för partiella matchningar';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Antal Inlägg med Bilagor';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Antal Ämnen med Bilagor';
 $lang['NUMBER_USERS_ATTACH'] = 'Oberoende Användare Postat Bifogade Filer';
 $lang['NUMBER_PMS_ATTACH'] = 'Totalt Antal Bifogade filer i Privata Meddelanden';
-$lang['ATTACHMENTS_PER_DAY'] = 'Bilagor per dag';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Bilaga Statistik för %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfiguration Uppdaterats';
 $lang['SET_DEFAULTS'] = 'Återställ standardvärden';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Forum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Forum alternativ:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'håll ned <i>Ctrl</i> när du väljer flera forum';
 
