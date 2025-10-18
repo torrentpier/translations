@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'A Melléklet túl nagy volt.<br />Maximu
 $lang['DISALLOWED_EXTENSION'] = 'A Kiterjesztés %s nem engedélyezett'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nem engedélyezett, hogy a post kiterjesztésű Fájlok %s belül ez a Fórum'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'A Melléklet túl nagy volt.<br />Max Méret: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sajnáljuk, de a maximális fájlméretet minden Mellékletek elérte. Kérlek, lépj kapcsolatba az adminisztrátorral, ha kérdése van.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Mellékletet nem adható hozzá, mivel a max. száma %d Csatolmányokat ebben a post volt elérni'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'A Mellékletet/Kép lehet kevesebb, mint %d pixel széles %d pixel magas';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Feltöltés Hiba: nem sikerült a feltöltés Mellékletet %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Meg kell adnia az értékeket a "Melléklet Hozzáadása" gombra Doboz';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nem tudja Frissíteni Mellékletet, nem találja régi Mellékletet Bejegyzés';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sajnáljuk, de a maximális fájlméretet minden Mellékletek a Privát Üzenet Mappa elérték. Kérjük, törölje a kapott/küldött Mellékleteket.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sajnáljuk, de a maximális fájlméretet minden Mellékletek a Privát Üzenet Mappa \'%s\' elérték. Kérjük, tudassa vele, vagy várjunk, amíg ő törölte néhány a/a Mellékleteket.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Még nem kiválasztott egy mellékletet, hogy a letöltés vagy a megnéz lehetőséget.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'A Könyvtár \'%s\' nem létezik, vagy nem 
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Kérjük, ellenőrizze, hogy \'%s\' egy könyvtár.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Könyvtár \'%s nem írható. Akkor létre kell hozni a feltöltés ösvényen, majd a chmod, hogy a 777-es (vagy változtassa meg a tulajdonos, hogy httpd-szerver tulajdonosa) feltölteni a fájlokat.<br />If csak sima FTP-hozzáférés változás a \'Attribútum\' a könyvtár rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Feltöltés Kvóta';
-$lang['PM_QUOTA'] = 'PM Kvóta';
-
 // Common Variables
 $lang['BYTES'] = 'Bájt';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Vizsgálati Beállítások';
 $lang['NOT_ASSIGNED'] = 'Nem Rendelhető';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nincs Fájl Hozzászólás elérhető';
 $lang['ATTACHBOX_LIMIT'] = 'A Attachbox is<br /><b>%d%%</b> teljes';
-$lang['NO_QUOTA_LIMIT'] = 'Nem Adott Korlát';
 $lang['UNLIMITED'] = 'Korlátlan';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Egyszerű Mód';
 $lang['ADVANCED_MODE'] = 'Haladó Üzemmód';
 $lang['MODERATOR_STATUS'] = 'Moderátor állapota';
 
-$lang['ALLOWED_ACCESS'] = 'Szabad Hozzáférés';
-$lang['DISALLOWED_ACCESS'] = 'Nem Engedélyezett Hozzáférés';
-$lang['IS_MODERATOR'] = 'A Moderátor';
-
-$lang['CONFLICT_WARNING'] = 'Engedély Konfliktus Figyelmeztetés';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Ez a felhasználó még hozzáférési jogokat, hogy ezen a fórumon keresztül csoport tagság. Érdemes lehet megváltoztatni a csoport jogosultságait, vagy távolítsa el ezt a felhasználó a csoport teljes mértékben megakadályozza őket, hogy a hozzáférési jogokat. A csoportok jogainak megadása (a fórumon részt) olvashatjuk.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Ez a felhasználó még moderátor jogot ezen a fórumon keresztül csoport tagság. Érdemes lehet megváltoztatni a csoport jogosultságait, vagy távolítsa el ezt a felhasználó a csoport teljes mértékben megakadályozza őket, hogy moderátor jogait. A csoportok jogainak megadása (a fórumon részt) olvashatjuk.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'A következő felhasználó (vagy a felhasználók) még hozzáférési jogokat, hogy ezen a fórumon keresztül, a felhasználói engedélyt a beállításokat. Érdemes lehet megváltoztatni a felhasználói jogosultságokat, hogy teljes mértékben megakadályozza őket, hogy a hozzáférési jogokat. A felhasználók számára biztosított jogokat (a fórumon részt) olvashatjuk.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'A következő felhasználó (vagy a felhasználók) még moderátor jogot ezen a fórumon keresztül, hogy a felhasználói jogosultságok beállításait. Érdemes lehet megváltoztatni a felhasználói jogosultságokat, hogy teljes mértékben megakadályozza őket, hogy moderátor jogait. A felhasználók számára biztosított jogokat (a fórumon részt) olvashatjuk.';
-
 $lang['PUBLIC'] = 'Nyilvános';
 $lang['PRIVATE'] = 'Privát';
 $lang['REGISTERED'] = 'Regisztrált';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Szavazás';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Szavazás létrehozása';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Fájlok Közzététele';
 $lang['AUTH_DOWNLOAD'] = 'Letölthető Fájlok';
-
-$lang['SIMPLE_PERMISSION'] = 'Egyszerű Engedélyek';
 
 $lang['USER_LEVEL'] = 'Felhasználói Szintű';
 $lang['AUTH_USER'] = 'Felhasználó';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Oldal neve';
 $lang['SITE_DESC'] = 'Oldal leírása';
 $lang['FORUMS_DISABLE'] = 'Tiltsa le igazgatóság';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Ez biztosítja, hogy a testület nem elérhető a felhasználók számára. A rendszergazdák képesek hozzáférést az Adminisztrációs Panel, míg a fórumon le van tiltva.';
-$lang['ACCT_ACTIVATION'] = 'Engedélyezze a fiók aktiválása';
 $lang['ACC_NONE'] = 'Egyik sem'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Felhasználó';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Lehetővé Teszi, Aláírás';
 $lang['MAX_SIG_LENGTH'] = 'Maximális aláírás hossza';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximális karakterek száma, a felhasználói aláírás';
 $lang['ALLOW_NAME_CHANGE'] = 'Lehetővé Felhasználónév változások';
-
-$lang['EMAIL_SETTINGS'] = 'E-Mail Beállítások';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Engedélyezze A Vizuális Megerősítés';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Megköveteli, hogy a felhasználó belép a kód által meghatározott egy kép, amikor regisztráció.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Lehetővé teszi az automatikus belépés';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Kattintson %sHere%s vissza Mosolygó Köziga
 
 // User Management
 $lang['USER_ADMIN'] = 'Felhasználói Adminisztráció';
-$lang['USER_ADMIN_EXPLAIN'] = 'Itt meg lehet változtatni a felhasználók tájékoztatást, illetve bizonyos lehetőségeket. Módosítására a felhasználók jogosultságait, kérjük, használja a felhasználó, illetve a csoport az engedélyek rendszere.';
-
 $lang['LOOK_UP_USER'] = 'Nézz fel a felhasználó';
-
-$lang['ADMIN_USER_FAIL'] = 'Nem frissítést a felhasználó profilját.';
-$lang['ADMIN_USER_UPDATED'] = 'A felhasználói profil frissült sikeresen.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Kattintson %sHere%s, hogy visszatérjen a Felhasználói Adminisztráció';
-
-$lang['USER_ALLOWPM'] = 'Lehet Privát Üzenetet küldeni';
-$lang['USER_ALLOWAVATAR'] = 'Képes megjeleníteni avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Itt megtekintheti, valamint törölheti a felhasználó aktuális avatar.';
-
-$lang['USER_SPECIAL'] = 'Különleges admin-csak mezők';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Ezek a mezők nem képes módosítani a felhasználók által. Itt megadhatja, hogy az állapota, valamint más lehetőségeket, melyek nem adott felhasználó.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Csoport Adminisztráció';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Aránya, továbbá egy csere a bónuszokat GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Vezérlőpult';
-$lang['SHADOW_ATTACHMENTS'] = 'Árnyék Mellékletek';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Tiltott Kiterjesztések';
 $lang['EXTENSION_CONTROL'] = 'Kiterjesztés Ellenőrzés';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Kiterjesztés Csoportok Kontroll';
 $lang['SPECIAL_CATEGORIES'] = 'Különleges Kategóriák';
-$lang['SYNC_ATTACHMENTS'] = 'Szinkronizálás Mellékletek';
-$lang['QUOTA_LIMITS'] = 'Korlátok';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Rögzítési Beállítások';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Melléklet Téma Ikonra';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Ez a Kép jelenik meg, mielőtt témákat Mellékleteket. Ezt a mezőt hagyja üresen, ha nem akarod, egy ikon jelenik meg.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Melléklet Megjelenítési Sorrend';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Itt választhatja ki, hogy megjelenjen-e a Mellékleteket Hozzászólás/PMs Csökkenő Filetime Érdekében (Legújabb Mellékletet Első), vagy Növekvő Filetime Érdekében (Legrégebbi Mellékletet Első).';
-$lang['SHOW_APCP'] = 'Használja az új vezérlőpult alkalmazások';
-$lang['SHOW_APCP_EXPLAIN'] = 'Válassza ki, hogy szeretné-e használni egy külön vezérlő panel alkalmazások (igen), vagy a régi módszer, a két doboz az alkalmazások, majd a képszerkesztő alkalmazások (none) az üzenet mezőbe. Nehéz megmagyarázni, hogyan néz ki, szóval próbáld meg te is.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Fájlméret';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'A maximális fájlméretet a Mellékleteket. A 0 érték azt jelenti, hogy \'korlátlan\'. Ez a Beállítás korlátozza a Szerver Konfigurációját. Például, ha a php Konfigurációs csak lehetővé teszi, hogy maximum 2 MB feltöltések, ez nem írja felül a Mod.';
-$lang['ATTACH_QUOTA'] = 'Melléklet Kvóta';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximális Merevlemez-terület az ÖSSZES Mellékleteket lehet tartani a Tárhely. A 0 érték azt jelenti, hogy \'korlátlan\'.';
 $lang['MAX_FILESIZE_PM'] = 'A maximális Fájlméretet, a Privát Üzenetek Mappa';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximális Merevlemez-terület Mellékletek használhatja fel az egyes Felhasználói személyes Üzenet mezőbe. A 0 érték azt jelenti, hogy \'korlátlan\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Alapértelmezett Adott Korlát';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Itt ön tudja, hogy válassza ki az Alapértelmezett Kvóta Limit automatikusan hozzárendeli az újonnan regisztrált Felhasználó valamint a Felhasználók anélkül, hogy egy meghatározott Kvóta Határ. A Lehetőség Nem adott Korlát\', hogy nem használ semmilyen Mellékletet, Kvóták, ehelyett használja az alapértelmezett Beállítások megadott ezen belül a Menedzsment Panel.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maximális Számú Mellékletek';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'A maximális számú mellékletek engedélyezett egy post.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Tiltsa Le Mellékletet Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Ez a lehetőség elsősorban a vizsgálati új sablonok, vagy témák, letiltja az összes Mellékletet Funkciók kivéve az Admin Panel.';
 $lang['PM_ATTACHMENTS'] = 'Lehetővé Mellékletek a Privát Üzenetek';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Engedélyezi/Letiltja a fájlok csatolása, hogy Privát Üzenetet.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Mutasd meg az alkalmazások a felülvizsgálat kommunikációs témakörök írásakor a válasz?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Ha egy "igen", az összes alkalmazás jelenik meg, a felülvizsgálat során a kommunikáció témakörökben.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Itt törölheti a mellékletet adatok a hozzászólásokat, ha a fájlok hiányoznak a fájlrendszer, illetve törölni a fájlokat, amelyekre már nincs csatolt bármely hozzászólásokat. Letöltheti vagy megtekintheti a fájl, ha rákattint; ha nincs kapcsolat van jelen, akkor a fájl nem létezik.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Törölje az összes mellékleteket fájlokat, hogy létezik a fájlrendszer nem rendelt egy már meglévő hozzászólást.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Törölje az összes kiküldetés melléklet adatok, fájlok, amelyek nem léteznek a fájlrendszer.';
-$lang['EMPTY_FILE_ENTRY'] = 'Üres Fájlt Bejegyzés';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'A példa a melléklethez: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'A melléklet szinkronizálása befejeződött.';
 $lang['SYNC_TOPICS'] = 'Fordította: Témák';
 $lang['SYNC_POSTS'] = 'Fordította: Hozzászólások';
-$lang['SYNC_THUMBNAILS'] = 'Fordította: Miniatűrök';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Kezelése Fájlokat';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Itt kezelhetjük a Fájlokat. Ha engedélyezi/letiltja a Kiterjesztés feltöltött, kérjük, használja a Kiterjesztés Csoportok Kezelése.';
 $lang['EXPLANATION'] = 'Magyarázat';
 $lang['EXTENSION_GROUP'] = 'Kiterjesztés Csoport';
-$lang['INVALID_EXTENSION'] = 'Érvénytelen Kiterjesztés';
 $lang['EXTENSION_EXIST'] = 'A Kiterjesztés %s már létezik'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'A Kiterjesztés %s tilos, vagy nem képes felvenni a megengedett Kiterjesztések'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Kezelése Kiterjesztését Csoportok';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'A Kiterjesztés Csoport %s már létezik'; // 
 $lang['MANAGE_CATEGORIES'] = 'Kezelése Speciális Kategóriák';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Itt konfigurálhatja a Különleges Kategóriákat. Beállíthatja a Különleges Paramétereket és Feltételeket a Különleges Kategóriákhoz, amelyek hozzárendelve vannak egy Kiterjesztési Csoporthoz.';
 $lang['SETTINGS_CAT_IMAGES'] = 'A beállításokat Különleges Kategória: Képek';
-$lang['SETTINGS_CAT_FLASH'] = 'A beállításokat Különleges Kategória: Flash-Fájlok';
 $lang['DISPLAY_INLINED'] = 'Képek Megjelenítése Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Válassza ki, hogy megjelenjen-e a képeket közvetlenül belül a post (igen) vagy a képek megjelenítése, mint egy linket ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximális Képméretet';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Hozzon Létre Bélyegkép';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimális Miniatűr Fájlméretet';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ha a Kép kisebb, mint ez a meghatározott Fájlméretet, nem Miniatűr jön létre, mert elég kicsi.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Kezelése Tiltott Kiterjesztések';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Itt adhat hozzá vagy törölhet a tiltott kiterjesztések. A php Fájlokat, php3, php4 tilos alapértelmezés szerint biztonsági okokból nem lehet törölni őket.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'A tiltott Kiterjesztését %s már létezik'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'A Kiterjesztés %s határozza meg a megengedett Kiterjesztések, kérjük, törölje a, mielőtt add meg itt.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Kiterjesztés A Csoport Jogosultságait -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Itt ön tudja, hogy korlátozza a kiválasztott Kiterjesztését Csoport Fórumokon a választás (meghatározott a Megengedett Fórumok Doboz). Az Alapértelmezett Kiterjesztés lehetővé teszi, Csoportok, hogy az összes Fórumon a Felhasználó képes a Fájlok Csatolása a (a szokásos módon a Mellékletet Mod volt a kezdetek óta). Csak hozzá azok a Fórumok azt akarod, hogy a Kiterjesztés Csoport (a Z e Csoporton belül) engedélyezett, az alapértelmezett az ÖSSZES FÓRUMOK eltűnik, ha hozzá Fórumokon, hogy a Listán. Ön tudja, hogy újra hozzá MINDEN FÓRUMON, minden pillanatban. Ha új Fórum a Fedélzeten, illetve az Engedély beállítása az ÖSSZES FÓRUMOK, semmi sem fog változni. De ha megváltoztak, illetve korlátozott a hozzáférés, bizonyos Fórumokon, hogy nézzen vissza ide, hogy add hozzá az újonnan létrehozott Fórum. Könnyű ezt automatikusan megteszi, de ezt fogja kényszeríteni, hogy a szerkesztés egy csomó kép, ezért úgy döntöttem, ahogy most van. Kérjük, ne feledje, hogy az összes Fórumon megtalálható itt.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Add Fórumok';
 $lang['ADD_SELECTED'] = 'Hozzáadás A Kiválasztott';
 $lang['PERM_ALL_FORUMS'] = 'MINDEN FÓRUMOK';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Melléklet Kezelése Korlátok';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Itt ön tudja, hogy hozzáadása/törlése/módosítása Korlátok. Meg tudja rendelni, ezek a Korlátok a Felhasználók vagy Csoportok később. Rendelni egy adott Korlát, hogy egy Felhasználó, el kell menni, hogy a Felhasználók->Menedzsment, válassza ki a Felhasználót, majd az Opciók alján. Rendelni egy adott Korlát, hogy egy Csoport, menj Csoportok->Menedzsment, válassza ki a Csoport szerkeszteni, a Konfigurációs Beállításokat. Ha szeretné látni, hogy mely Felhasználók, illetve Csoportok vannak rendelve, hogy egy adott Kvóta Határ, kattintson a "Nézet" a bal oldalon a Kvóta Leírás.';
-$lang['ASSIGNED_USERS'] = 'Hozzárendelt Felhasználók';
-$lang['ASSIGNED_GROUPS'] = 'Hozzárendelt Csoportok';
-$lang['QUOTA_LIMIT_EXIST'] = 'Az adott Korlát %s létezik már.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'A Csatolt Fájl Vezérlőpult';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Itt megtekintheti, valamint kezelheti az összes mellékletek alapján a Felhasználók, Mellékletek, Kilátás, stb...';
-$lang['FILECOMMENT'] = 'Fájl Hozzászólás';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Használja a * helyettesítő karaktert, a részleges mérkőzések';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Álláshelyek száma Mellékleteket';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Témakörök száma Mellékleteket';
 $lang['NUMBER_USERS_ATTACH'] = 'Független Felhasználók Írt Mellékletek';
 $lang['NUMBER_PMS_ATTACH'] = 'Teljes Számú Mellékletek Privát Üzenetek';
-$lang['ATTACHMENTS_PER_DAY'] = 'Mellékletek / nap';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Melléklet Statisztikák %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigurációs Sikeresen Frissítve';
 $lang['SET_DEFAULTS'] = 'Alapértékek visszaállítása';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Fórum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Fórum lehetőségek közül:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'tartsa lenyomva <i>Ctrl</i> míg kiválasztása több fórumok';
 
