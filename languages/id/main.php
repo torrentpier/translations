@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Lihat posting terbaru';
 $lang['PAGE_OF'] = 'Halaman <b>%d</b> dari <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Anda masukkan tidak valid Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Apakah anda yakin anda ingin menghapus jajak pen
 $lang['FLOOD_ERROR'] = 'Anda tidak bisa membuat posting lain sehingga segera setelah anda terakhir; silakan coba lagi dalam waktu singkat';
 $lang['EMPTY_SUBJECT'] = 'Anda harus menentukan subjek';
 $lang['EMPTY_MESSAGE'] = 'Anda harus memasukkan pesan';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum terkunci';
+$lang['TOPIC_LOCKED'] = 'Topik dikunci';
 $lang['TOPIC_LOCKED_SHORT'] = 'Topik dikunci';
 $lang['NO_POST_ID'] = 'Anda harus memilih sebuah post untuk edit';
 $lang['NO_TOPIC_ID'] = 'Anda harus memilih topik untuk membalas';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Hijau Gelap';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Jajak pendapat';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Mencari pengguna dengan post count lebi
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Mencari pengguna dengan post count kurang dari %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Mencari pengguna dengan post count antara %d dan %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Mencari pengguna dengan posting menghitung nilai %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Mencari pengguna dengan aplikasi Twitter yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Mencari pengguna dengan Website yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Mencari pengguna dengan Lokasi yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Mencari pengguna dengan Kepentingan mereka di bidang pencocokan %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Hari';
 $lang['POST_EDIT_CANNOT'] = 'Maaf, tapi anda tidak dapat mengedit posting';
 $lang['FORUMS_IN_CAT'] = 'forum dalam kategori ini';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Komentar moderasi';
 $lang['MC_LEGEND'] = 'Jenis komentar';
 $lang['MC_FAQ'] = 'Teks yang dimasukkan akan ditampilkan di bawah pesan ini';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s dalam pesan anda";
