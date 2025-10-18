@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Jūs nevarat veikt Anonīmas grupas loceklis.';
 $lang['CONFIRM_UNSUB'] = 'Vai jūs esat pārliecināts, ka jūs vēlaties, lai atteiktos no šīs grupas?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Savu abonēšanas šajā grupā vēl nav apstiprināti; jūs esat pārliecināts, ka jūs vēlaties, lai atteiktos?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'Jums ir atspējots no šīs grupas.';
 
 $lang['APPROVE_SELECTED'] = 'Apstiprināt Izvēlēto';
 $lang['DENY_SELECTED'] = 'Noliegt Izvēlēts';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Jūs neesat moderators šo forumu.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Nav Atļauts';
 
 $lang['YOU_BEEN_BANNED'] = 'Jūs esat aizliegts šajā forumā. Lai iegūtu plašāku informāciju, lūdzu, sazinieties ar padomes administratoru.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Atvainojiet, bet jums nav atļauts apskatīt 
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Apraksts'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Lejupielādēt'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Faila izmērs';
 $lang['VIEWED'] = 'Skatīts';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Paplašinājums \'%s\' tika deaktivizēts valdes administratora, tāpēc šis pielikums nav redzams.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Pielikums ir pārāk liels.<br />Could nav ie
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Pielikums ir pārāk liels.<br />Maximum Augšupielādēt Izmērs: %d MB.<br />Please, ņemiet vērā, ka šis Lielums ir definēts php.ini, tas nozīmē, ka tā ir iestatīta ar PHP un Pielikumu Mod nevar ignorēt šo vērtību.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Pagarinājuma %s nav atļauta'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Jums nav atļauts ievietot Failus ar Paplašinājumu %s šajā Forumā'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Pielikums ir pārāk liels.<br />Maksimālais izmērs: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Atvainojiet, bet maksimālais izmērs visiem pielikumiem ir sasniegts. Lūdzu, sazinieties ar Valdes administratoru, ja jums ir jautājumi.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Pielikumu nevar pievienot, jo maks. skaits %d Pielikumus šajā amatā tika sasniegts'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Pielikumu/Attēls nedrīkst būt mazāks par %d pikseļus plats un %d pikseļus augsts';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Augšupielādes Kļūda: Nevarēja augšupielādēt Pielikumu %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Jums ir, lai ievadītu vērtību "Pievieno
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nevar Atjaunināt Pielikumu, nevar atrast veco Pielikumu Ierakstu';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Atvainojiet, bet maksimālais izmērs visiem pielikumiem jūsu Privātās ziņas mapē ir sasniegts. Lūdzu, dzēsiet dažus no saņemtajiem/nosūtītajiem pielikumiem.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Atvainojiet, bet maksimālais izmērs visiem pielikumiem privātās ziņas mapē \'%s\' ir sasniegts. Lūdzu, informējiet viņu, vai gaidiet, līdz viņš/viņa ir izdzēsis dažus no viņa/viņas pielikumiem.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jūs neesat izvēlēto pielikumu, lai ielādētu vai apskatītu.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Pielikumu Līdzeklis ir atspējots.';
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Direktorija \'%s\' neeksistē vai tam nevar atrast.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Lūdzu, pārbaudiet, ja "%s" ir katalogs.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalogs \'%s\' nav rakstāms. Jums ir jāizveido augšupielādes ceļš un jāiestata chmod uz 777 (vai jāmaina īpašnieks uz jūsu httpd-servera īpašnieku), lai augšupielādētu failus.<br />Ja jums ir tikai parasta FTP piekļuve, mainiet "Atribūtu" katalogam uz rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Augšupielādēt Kvotas';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Meklēt Aprīkojums';
 $lang['TEST_SETTINGS'] = 'Testu Iestatījumi';
 $lang['NOT_ASSIGNED'] = 'Nav Piešķirts';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Neviens Fails Komentāru pieejams';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Jūsu Pielikumu kastīte ir<br /><b>%d%%</b> pilna';
 $lang['NO_QUOTA_LIMIT'] = 'Nē Kvotas Limitu';
 $lang['UNLIMITED'] = 'Neierobežots';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Citu torrent ar pašu info_hash jau <a href="%
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1 tikai torenti pašlaik ir atslēgti, atļauts: v2 un hibrīdi';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2 tikai torenti pašlaik ir atslēgti, atļauts: v1 un hibrīdi';
 $lang['BT_FLIST'] = 'Failu saraksts';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'Tracker iestatījumi neļauj apstrādāt sarakstus ar vairāk nekā %d failiem. Pašreizējais skaits ir: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle sakne ir faila hash, kas iedibināts torentos ar BitTorrent v2 atbalstu, tracker lietotāji var izvilkt, aprēķināt to, kā arī lejupielādēt deduplicētos torentus, izmantojot darbvirsmas rīkus, piemēram, <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Izveides datums';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Viedokļi';
 $lang['GOLD'] = 'Zelta';
 $lang['SILVER'] = 'Sudraba';
 $lang['SET_GOLD_TORRENT'] = 'Padarīt zelta';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Neizdarīt zeltu';
 $lang['SET_SILVER_TORRENT'] = 'Padarīt sudraba';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Neizdarīt sudrabu';
 $lang['GOLD_STATUS'] = 'ZELTA TORRENT! LEJUPIELĀDĒT SATIKSMES NEUZSKATA!';
 $lang['SILVER_STATUS'] = 'SUDRABA TORRENT! LEJUPIELĀDĒT SATIKSMES DAĻĒJI UZSKATĪT!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrenta veids mainīts uz: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Torrenta veids mainīts uz: %s';
 $lang['TORRENT_STATUS'] = 'Meklēt pēc izvades statusa';
 $lang['SEARCH_IN_FORUMS'] = 'Meklēšana Forumos';
 $lang['SELECT_CAT'] = 'Izvēlieties kategoriju';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Dodieties uz sadaļu';
 $lang['TORRENTS_FROM'] = 'Ziņas';
 $lang['SHOW_ONLY'] = 'Rādīt tikai';
 $lang['SHOW_COLUMN'] = 'Rādīt kolonnu';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Ja jūsu rādītājs ir zemāks %s, jūs nevar�
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nav redzējis: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Vispirms jums ir jāpiesakās';
 $lang['ONLY_FOR_MOD'] = 'Šo opciju tikai moderatoriem';
 $lang['ONLY_FOR_ADMIN'] = 'Šo opciju tikai administratori';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Šo opciju tikai tad, super admins';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Lietotājs %s jau ir reģistrēts ar jūsu IP adresi.
 $lang['HIDDEN'] = 'Slēpts';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Jums nav atļauts pārvaldīt šo dēli';
 
 $lang['COOKIES_REQUIRED'] = 'Sīkfaili ir jābūt aktivizētam!';
 $lang['SESSION_EXPIRED'] = 'Sesijas beidzies';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Atvainojiet, reģistrācija ir atspējota šaj
 $lang['ONLY_NEW_POSTS'] = 'tikai jaunas amata vietas';
 $lang['ONLY_NEW_TOPICS'] = 'tikai jaunas tēmas';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Lūdzu, palīdziet sēt šīs straumes!';
 $lang['STATISTICS'] = 'Statistika';
 $lang['STATISTIC'] = 'Statistika';
 $lang['VALUE'] = 'Vērtība';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Man nav piekrītat šiem noteikumiem';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Lai reģistrētos, jums ir jāiespējo JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Reģistrācija pašlaik ir slēgta<br /><br />Reģistrācija ir pieejama laikā: %s<br />Pašreizējais servera laiks: %s<br /><br />Atvainojamies par sagādātajām neērtībām";
 $lang['AUTOCOMPLETE'] = 'Ģenerēt paroli';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'Jūsu jaunā parole:';
 $lang['REGENERATE'] = 'Atjaunot';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Izpildes laiks:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'par';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Atmiņa: ';
 $lang['QUERIES'] = 'jautājumi';
 $lang['LIMIT'] = 'Daudzums:';
 $lang['SHOW_LOG'] = 'Rādīt žurnālu';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrent klients';
 $lang['DL_FORMULA'] = 'Formula: Augšupielādēto/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'apturēts';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'atjaunot laiks: ';
 $lang['DL_INFO'] = 'rāda dati <i><b>only kārtējā session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Paslēpt manu BitTorrent klienta nosaukumu dalībnieku sarakstā';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Paslēpt manu valsts nosaukumu dalībnieku sarakstā';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Lietotāji dienā';
 $lang['BOARD_STARTED'] = 'Valde sāka';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar katalogs izmēra';
 $lang['DATABASE_SIZE'] = 'Datubāzes izmērs';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'GZIP saspiešana';
 $lang['NOT_AVAILABLE'] = 'Nav pieejama';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Meklēt Forumā';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Šeit jūs varat mainīt atļaujas un moderatoru statusu, kas piešķirts katrai lietotāju grupai. Neaizmirstiet, mainot grupas atļaujas, ka atsevišķu lietotāju atļaujas, iespējams, joprojām ļauj lietotājam ieraksts forumos, utt. Jūs brīdinās, ja tas ir gadījums.';
 $lang['USER_AUTH_EXPLAIN'] = 'Šeit jūs varat mainīt atļaujas un moderatoru statusu, kas piešķirts katram lietotājam individuāli. Neaizmirstiet, mainot lietotāja atļaujas, kas grupas atļaujas vēl var ļaut lietotājam ieraksts forumos, utt. Jūs brīdinās, ja tas ir gadījums.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Šeit jūs varat mainīt katra foruma autorizācijas līmeņus. Jums būs gan vienkārša, gan uzlabota metode to izdarīt, kur uzlabota piedāvā lielāku kontroli pār katras foruma darbību. Atcerieties, ka, mainot forumu atļauju līmeni, ietekmēs to, kuri lietotāji var veikt dažādas darbības iekšā tajos.';
 
 $lang['SIMPLE_MODE'] = 'Vienkāršais Režīms';
 $lang['ADVANCED_MODE'] = 'Advanced Mode (Papildu Režīms';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Atļauta Piekļuve';
 $lang['DISALLOWED_ACCESS'] = 'Neattaisnot Piekļuve';
 $lang['IS_MODERATOR'] = 'Ir Moderators';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Autorizācijas konfliktu brīdinājums';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Šis lietotājs vēl ir piekļuves tiesības attiecībā uz šo forumu, izmantojot grupas dalību. Jūs varat mainīt grupas atļaujas vai noņemtu šo lietotāju grupas, lai pilnībā novērstu tos, kam ir piekļuves tiesības. Grupām, kas piešķir tiesības (un forumiem iesaistīti), ir norādīti zemāk.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Šis lietotājs vēl ir moderators tiesības uz šo forumu, izmantojot grupas dalību. Jūs varat mainīt grupas atļaujas vai noņemtu šo lietotāju grupas, lai pilnībā novērstu tos, kam moderators tiesības. Grupām, kas piešķir tiesības (un forumiem iesaistīti), ir norādīti zemāk.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos Ai
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Vispārējā Konfigurācija';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Zemāk esošā forma ļaus jums pielāgot visus vispārējos dēļa iestatījumus. Lietotāja un foruma konfigurācijām izmantot saistītās saites kreisajā pusē.';
 
 $lang['CONFIG_MODS'] = 'Konfigurācijas izmaiņas';
 $lang['MODS_EXPLAIN'] = 'Šī forma ļauj jums pielāgot izmaiņas';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Iespēju Forums, Atzarošanas';
 $lang['ALLOW_BBCODE'] = 'Atļaut BBCode';
 $lang['ALLOW_SMILIES'] = 'Ļauj Smaidiņus';
 $lang['SMILIES_PATH'] = 'Smaidiņus Uzglabāšanas Ceļš';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Ceļš zem jūsu TorrentPier saknes direktorijas, piemēram, styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Ļauj Parakstu';
 $lang['MAX_SIG_LENGTH'] = 'Maksimālais garums paraksts';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimālais rakstzīmju skaits, jo lietotāja parakstu';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Cik ilgi autologin atslēga ir derīga dienā
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Foruma Administrācija';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'No šī paneļa jūs varat pievienot, dzēst, rediģēt, pārkārtot un atkārtoti sinhronizēt kategorijas un forumus';
 $lang['EDIT_FORUM'] = 'Edit forumā';
 $lang['CREATE_FORUM'] = 'Izveidot jaunu foruma';
 $lang['CREATE_SUB_FORUM'] = 'Izveidot apakšforumus';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Atjauninājumu, Lai';
 $lang['CONFIG_UPDATED'] = 'Foruma Konfigurācija Ir Jāatjaunina Veiksmīgi';
 $lang['MOVE_UP'] = 'Pārvietot uz augšu';
 $lang['MOVE_DOWN'] = 'Pārvietot lejup';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Atkārtoti sinhronizēt';
 $lang['NO_MODE'] = 'Nē režīms ir iestatīts';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Zemāk esošā forma ļaus jums pielāgot visus vispārējos dēļa iestatījumus. Lietotāja un foruma konfigurācijām izmantot saistītās saites kreisajā pusē';
 
 $lang['MOVE_CONTENTS'] = 'Pārvietot visas tiesības aizsargātas';
 $lang['FORUM_DELETE'] = 'Dzēst Forumā';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sinhronizācija';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Maks. garums ziņas';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Cik daudz jaunumu rādīt';
 $lang['NEWS_FORUM_ID'] = 'No kuriem forumu rādīt <br /> <h6>Pāris forumiem, norādiet ID, atdalot ar komatiem. Piemērs: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Nav avatar';
 $lang['TRACKER_STATS'] = 'Statistika par tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Kvotas Robežās';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Pielikumu Uzstādījumi';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Šeit jūs varat konfigurēt, Galvenos Uzstādījumus Arestu Mod. Ja jūs nospiediet Testu Iestatījumi Pogu, pielikums Mod vai pāris Sistēmu Pārbaudes, lai pārliecinātos, ka Am darbosies pareizi. Ja jums ir problēmas ar augšupielādējot Failus, lūdzu, palaidiet šo pārbaudījumu, lai saņemtu detalizētu kļūdas ziņojumu.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Pielikumu faila izmēra iestatījumi';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Pielikumu Skaits Uzstādījumi';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Pielikumu Iespējas';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Šeit jūs varat izvēlēties, vai rād
 $lang['SHOW_APCP'] = 'Izmantot jaunos control panel';
 $lang['SHOW_APCP_EXPLAIN'] = 'Izvēlēties, vai vēlaties izmantot atsevišķu control panel (jā), vai vecā metode ar diviem lodziņiem pieteikumus un rediģēšanas lietojumprogrammas (nav) ziņojuma lodziņš. To ir grūti izskaidrot, kā tas izskatās, lai mēģinātu par sevi.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Faila izmērs';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimālais izmērs Pielikumiem. Vērtība 0 nozīmē "neierobežotu". Šis Uzstādījums ir ierobežota ar jūsu Servera Konfigurācijas. Piemēram, ja jūsu php Konfigurācijas tikai ļauj maksimāli 2 MB uploads, tas nevar būt pārrakstīts ar Mod.';
 $lang['ATTACH_QUOTA'] = 'Pielikumu Kvotas';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimālais Diska Vietas, VISUS Pielikumus var turēt uz jūsu Webspace. Vērtība 0 nozīmē "neierobežotu".';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Dzēst visu norīkojuma pielikumu dat
 $lang['EMPTY_FILE_ENTRY'] = 'Tukša Faila Ierakstu';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Priekšskatījums ir atiestatīts pielikumam: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Pielikuma sinhronizācija pabeigta.';
 $lang['SYNC_TOPICS'] = 'Sinhronizācijas Tēmas';
 $lang['SYNC_POSTS'] = 'Sinhronizācijas Amatiem';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Pārvaldīt Īpašu Kategoriju';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Šeit jūs varat konfigurēt īpašās kategorijas. Jūs varat iestatīt īpašus parametrus un nosacījumus īpašajām kategorijām, kas piešķirtas paplašinājumu grupai.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Uzstādījumi Īpašas Kategorijas: Attēli';
 $lang['SETTINGS_CAT_FLASH'] = 'Uzstādījumi Īpašas Kategorijas: Flash Failus';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Parādīt attēlus inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Izvēlieties, vai parādīt attēlus tieši pēc (jā), vai, lai apskatītu attēlus kā saites ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimālais Attēla Izmēri';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Šeit jūs varat noteikt maksimālo atļauto Attēla Izmērs tiks pievienots (Platums x Augstums pikseļos).<br />If tas ir iestatīts, lai 0x0, šis līdzeklis ir atspējots. Ar dažiem Attēliem, šis Līdzeklis nedarbojas, jo ierobežojumi PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Ja tas definēts Dimensiju Attēlu, kas ir s
 $lang['ASSIGNED_GROUP'] = 'Piešķirtie Grupu';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Izveidot Sīktēlu';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimālais sīktēla faila izmērs';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ja attēls ir mazāks nekā šis definētais faila izmērs, nav sīktēla tiks izveidots, jo tas ir pietiekami mazs.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Pārvaldīt Aizliegts Paplašinājumi';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Aizliegts Pagarināšanu %s jau pastāv'; 
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Pagarinājuma %s ir norādīts jūsu atļauts Paplašinājumi, lūdzu izdzēsiet to, pirms jūs pievienot to šeit.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Paplašinājuma grupas atļaujas → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Šeit jums ir iespēja ierobežot izvēlēto Pagarinājumu Grupai Forumos jūsu izvēles (noteikts atļautā Forumos Box). Noklusējuma ir ļaut Pagarināšanu Grupas, lai visiem Forumos, Lietotājs varēs Pievienot Failus (parasti Pielikumu Mod darīja, jo sākumā). Vienkārši pievienojiet šos Forumus vēlaties pagarināt Grupas (Pagarinājumi šajā Grupā), tiks atļauts tur, noklusējuma, VISI FORUMI pazūd, kad jūs pievienot Forumos Sarakstā. Jums ir iespēja atkārtoti pievienot VISUS FORUMUS jebkurā Laikā. Ja jūs pievienot Forumā, kas uz jūsu Kuģa, un Atļaujas ir iestatīts uz VISIEM FORUMOS nekas nemainīsies. Bet, ja jums ir mainījies, un ierobežoja piekļuvi noteiktām Forumos, jums ir, lai pārbaudītu atpakaļ šeit, lai pievienotu savu jaunizveidoto Forumu. Tas ir viegli, lai to izdarītu automātiski, bet tas liks jums rediģēt ķekars Failus, tāpēc es esmu izvēlējies to, kā tas ir tagad. Lūdzu, ņemiet vērā, ka visu savu Forumos tiks uzskaitīti šeit.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'PIEZĪME:<br />Within zemāk minētie Forumos Lietotāji parasti ir atļauts, lai pievienotu failus, bet, tā kā Pagarinājums Grupa ir atļauts piestiprināt tur, Lietotāji nevar pievienot neko. Ja viņi cenšas, viņi saņems Kļūdas Ziņojumu. Varbūt jūs vēlaties, lai uzstādītu Atļauju "Post Failu" ADMIN uz šo Forumu.<br /><br />';
 $lang['ADD_FORUMS'] = 'Pievienot Forumos';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ne Pielikumi tikās meklēšanas kritērijus'
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Pielikumu skaits';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Kopējais faila izmērs';
 $lang['NUMBER_POSTS_ATTACH'] = 'Amata vietu skaits kopā ar Pielikumiem';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Vairākas Tēmas ar Pielikumiem';
 $lang['NUMBER_USERS_ATTACH'] = 'Neatkarīgu Lietotājiem Ievietojis Pielikumus';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'turiet nospiestu <i>Ctrl</i>, bet izvēloties 
 $lang['REG_TORRENTS'] = 'Reģistrēties straumēm';
 $lang['DISALLOWED'] = 'Aizliegta';
 $lang['ALLOW_REG_TRACKER'] = 'Atļauts forumos, lai reģistrētos .torrentus par tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Atļauts publicēt saturu 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Rādīt pogas, lai manuāli mainot DL-statuss';
 $lang['SELF_MODERATED'] = 'Lietotāji var <b>move</b> savas tēmas uz citu forumu';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Patentatslēga';
 $lang['BT_ADD_AUTH_KEY'] = 'Ļauj pievienot piekļuves atslēga uz torrent failus pirms lejupielādes';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent pārlūku (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent pārlūks (tracker.php) pieejams tikai reģistrētiem lietotājiem';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Ļauj boolean pilna teksta meklēšana';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'izmantojiet *, +, - meklēšanā';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Dažādi";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Rādīt lietotāju UL/DL statistiku foruma galvenās lapas augšdaļā";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Atsvaidzes';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Cik daudz laika (sekundes) palikt dīkstāvē, pirms pāriet uz nākamo pārstrādes cycle<br />Usually jums nav, lai mainītu šo';
 
 $lang['TIME_LIMIT'] = 'Termiņš';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Cik daudz laika (sekundes) ziņu apstrāde var ilgt, pirms pāriešanas uz nākamo ciklu';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Jūsu PHP (drošības režīms) ir konfigurēts atslēgumam uz %s sekunžu, tāpēc palieciet zem šī vērtības</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserveri ir taimauts no %s sekundes konfigurēts tā, lai nepārsniegtu šo value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Jūs veiksmīgi pabeidzis apstrādi pos
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Atjaunot Meklēšanas Progresu';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Apstrādātie ziņas ID: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Taimeris darbības %s sekundes. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Noskaidroti meklēšanas tabulas. ';
 $lang['DELETED_POSTS'] = '%s pastu(s), tika svītrots ar savu lietotāju apstrādes laikā. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Visas';
 
 $lang['TPL_EMPTY_FIELD'] = 'Jums ir aizpildiet jomā <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Jums ir jāizvēlas <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Nav skaitlis';
 $lang['TPL_NOT_URL'] = '<b>%s</b>  — jābūt https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b>  — jābūt https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'ieliec tēmu';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Meklēt lietotājus ar post count mazāk
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Meklēt lietotājus ar post count starp %d un %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Meklēt lietotājus ar post count vērtību %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Meklē lietotājiem Čivināt, saskaņojot %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Meklē lietotājus ar mājas lapu, kas atbilst %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Meklēt lietotājus ar Atrašanās vietu iekārtošanas %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Meklēt lietotājus ar viņu Interešu jomā, saskaņošana %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Meklēt lietotājus ar savu Profesiju jomā, saskaņošana %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Rezultāts';
 $lang['GREATER_THAN'] = 'Lielāks par';
 $lang['LESS_THAN'] = 'Mazāk nekā';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Varat meklēt lietotājus, pamatojoties uz ziņu skaita vērtību. Varat meklēt pēc noteiktas vērtības, kas ir lielāka vai mazāka par vērtību, vai starp divām vērtībām. Lai veiktu diapazona meklēšanu, atlasiet "Vienāds", pēc tam ievietojiet diapazona sākuma un beigu vērtības, atdalot tās ar domuzīmi (-), piemēram, 10-15.';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Lietotāja lauks';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Meklēt lietotājiem, pamatojoties uz dažādu profilu laukus. Aizstājējzīmju tiek atbalstīta, izmantojot zvaigznīti (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Jūs varat meklēt lietotājiem, pamatojoties uz savu pēdējais pieteikšanās datums, izmantojot šo meklēšanas iespēja';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Šī būs redzama lietotājiem, kuriem ir izvēlējies konkrētu valodu, jo viņu Profilu';
