@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'ビューの最新ポスト';
 $lang['PAGE_OF'] = 'ページ<b>%d</b>の<b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = '無効なX (Twitter) ログインが入力されました';
 
 $lang['FORUM_INDEX'] = '%sフォーラム指数'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Are you sure you want to deleteこの世論調�
 $lang['FLOOD_ERROR'] = 'はできません別のポストですぐにごした後は、再度お試しください。を';
 $lang['EMPTY_SUBJECT'] = 'を指定する必要があります。対象';
 $lang['EMPTY_MESSAGE'] = '必ず入力してくださいメッセージ';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'フォーラムがロックされました';
+$lang['TOPIC_LOCKED'] = '話題がロックされました';
 $lang['TOPIC_LOCKED_SHORT'] = '話題のロック';
 $lang['NO_POST_ID'] = 'を選択してくださいポストの編集';
 $lang['NO_TOPIC_ID'] = 'を選択してください課題への回答';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = '濃緑';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = '投票';
+$lang['MODERATE'] = 'モデレート';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = '検索ユーザーの投稿回数以上
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '検索ユーザーの投稿回数以上%d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = '検索ユーザーの投稿回数と%dと%d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '検索ユーザーの投稿回数値%d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = '一致するX (Twitter)を持つユーザーを検索中です%s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = '検索ユーザーのサイトマッチング%s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = '検索ユーザーのロケ地マッチング%s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = '検索ユーザーに自分のフェッショナル版の処理スピ%s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = '日';
 $lang['POST_EDIT_CANNOT'] = '申し訳ございません、あなたの編集できませんの投稿';
 $lang['FORUMS_IN_CAT'] = 'フォーラムにするカテゴリ';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'モデレーションコメント';
 $lang['MC_LEGEND'] = 'タイプaのコメント';
 $lang['MC_FAQ'] = '入力したテキスト表示されます本メッセージ';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%sにメッセージ";
