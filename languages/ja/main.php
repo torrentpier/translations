@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'はできません匿名でグループのメン
 $lang['CONFIRM_UNSUB'] = 'Are you sure you wantへの登録解除はこのグループです。';
 $lang['CONFIRM_UNSUB_PENDING'] = 'ご契約にはこのグループは、未承認されてい;are you sure you wantへの登録解除すか？';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'このグループからの購読が解除されました。';
 
 $lang['APPROVE_SELECTED'] = '承認を選択';
 $lang['DENY_SELECTED'] = '拒否選択';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = '外からガラス越しにテーブルがモデレーターのこのフォーラムです。';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = '許可されていません';
 
 $lang['YOU_BEEN_BANNED'] = 'あなたはこのフォーラムから禁止されています。詳細については、ボード管理者にお問い合わせください。';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = '申し訳ございませんがはできませ
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = '説明'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'ダウンロード'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'ファイルサイズ';
 $lang['VIEWED'] = '閲覧';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = '拡張子 \'%s\' はボード管理者によって無効にされたため、この添付ファイルは表示されません。'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = '添付ファイルは大きすぎます。<br
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '添付ファイルは大きすぎます。<br />Maximumアップロードサイズ:%d応募を推奨いたします。<br />Pleaseなお、このサイズを定義してクリアしました。iniは、この設定はPHPの添付Modできませんこのメソッドをオーバーライドす。'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'の延長%sが許可されない'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'ことができませんのでポストのファイルの拡張子%sこのフォーラム'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = '添付ファイルは大きすぎます。<br />最大サイズ：%s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = '申し訳ございませんが、すべての添付ファイルの最大ファイルサイズに達しました。質問がある場合は、ボード管理者にお問い合わせください。';
 $lang['TOO_MANY_ATTACHMENTS'] = '別紙に追加できないので、最大です。 数%d添付ファイルをこの募集でしたが実現'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'の添付画像よりも大きな%dピクセル幅%dピクセルの高';
 $lang['GENERAL_UPLOAD_ERROR'] = 'アップロードエラーなアップロードする添付%sます。'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'して入力値に\'添付ファイルを�
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'な更新着いない古い別紙参入';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = '申し訳ございませんが、プライベートメッセージフォルダ内のすべての添付ファイルの最大ファイルサイズに達しました。受信/送信した添付ファイルのいくつかを削除してください。';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = '申し訳ございませんが、\'%s\'のプライベートメッセージフォルダ内のすべての添付ファイルの最大ファイルサイズに達しました。彼に知らせてください、または彼/彼女がいくつかの添付ファイルを削除するのを待ちます。';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'まだ選択したアタッチメントをダウンロードしたり。';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'の添付機能が無効になってい�
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'ディレクトリ\'%s\'が存在しない又は見つかりませんでした。'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = '確認してください\'%s"をクリックします。'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'ディレクトリ\'%s\'は書き込み可能ではありません。アップロードパスを作成し、777にchmodするか（または所有者をhttpdサーバーの所有者に変更する）してファイルをアップロードする必要があります。<br />プレーンFTPアクセスしかない場合は、ディレクトリの「属性」をrwxrwxrwxに変更してください。'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'アップロード数';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = '検索添付';
 $lang['TEST_SETTINGS'] = '試験設定';
 $lang['NOT_ASSIGNED'] = 'に割り当てられません';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'ファイルのコメント可能';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'あなたの添付ボックスは<br /><b>%d%%</b>満杯です';
 $lang['NO_QUOTA_LIMIT'] = 'ない数値';
 $lang['UNLIMITED'] = '無制限';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = '他の激流を同じくinfo_hashて<a href="%
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1専用トレントは現在管理者によって無効にされています。許可されているのはv2およびハイブリッドです。';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2専用トレントは現在管理者によって無効にされています。許可されているのはv1およびハイブリッドです。';
 $lang['BT_FLIST'] = 'ファイルリスト';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'トラッカー設定では、%dファイルを超えるリストを処理することは許可されていません。現在の数は：%d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMRハッシュ';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Rootは、BitTorrent v2サポートを持つトレントに埋め込まれたファイルのハッシュです。トラッカーのユーザーはそれを抽出、計算できます。また、<a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>のようなデスクトップツールを使用して重複しないトレントをダウンロードできます。';
 $lang['BT_FLIST_CREATION_DATE'] = '作成日';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = '眺望';
 $lang['GOLD'] = '金';
 $lang['SILVER'] = '銀';
 $lang['SET_GOLD_TORRENT'] = 'う金';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = '金を無効にする';
 $lang['SET_SILVER_TORRENT'] = '作銀';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = '銀を無効にする';
 $lang['GOLD_STATUS'] = '金激流です！ ダウンロードの交通とは考えておりません!';
 $lang['SILVER_STATUS'] = '銀激流です！ ダウンロードは交通部分的に考慮す！';
 $lang['TOR_TYPE_LOG_ACTION'] = 'トレントの種類が変更されました: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'トレントの種類が変更されました: %
 $lang['TORRENT_STATUS'] = 'リリースのステータスで検索';
 $lang['SEARCH_IN_FORUMS'] = '検索フォーラム';
 $lang['SELECT_CAT'] = 'カテゴリを選択';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'セクションに移動';
 $lang['TORRENTS_FROM'] = 'だから';
 $lang['SHOW_ONLY'] = 'のみを表示';
 $lang['SHOW_COLUMN'] = 'ショーカラム';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'ご率を下回%sませんダウンロードす
 
 $lang['SEEDER_LAST_SEEN'] = '播種装置には見られない:<b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = '最初にログインする必要があります';
 $lang['ONLY_FOR_MOD'] = 'このオプションのみモデレーター';
 $lang['ONLY_FOR_ADMIN'] = 'このオプションのみ管理者';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'このオプションのみスーパー管理者';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'あなたのIPアドレスでユーザー%sがすで�
 $lang['HIDDEN'] = '隠れた';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'このボードを管理する権限がありません';
 
 $lang['COOKIES_REQUIRED'] = 'クッキーにしておく必要があります!';
 $lang['SESSION_EXPIRED'] = 'セッション終了しました';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'ご登録はこの時間';
 $lang['ONLY_NEW_POSTS'] = '新規投稿';
 $lang['ONLY_NEW_TOPICS'] = 'みの新しい研究テーマ';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'これらのトレントをシードするのを手伝ってください！';
 $lang['STATISTICS'] = '統計';
 $lang['STATISTIC'] = '統計';
 $lang['VALUE'] = '値';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = '同意しないこ';
 $lang['JAVASCRIPT_ON_REGISTER'] = '登録するには、JavaScriptを有効にする必要があります';
 $lang['REGISTERED_IN_TIME'] = "現在、登録は閉じています<br /><br />登録は次の間に利用可能です: %s<br />現在のサーバー時間: %s<br /><br />ご不便をおかけして申し訳ありません";
 $lang['AUTOCOMPLETE'] = 'パスワードを生成する';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = '新しいパスワード：';
 $lang['REGENERATE'] = '再生';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = '実施時間：';
 $lang['SEC'] = 'sec';
 $lang['ON'] = '月';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'メモリ：';
 $lang['QUERIES'] = '問合せ';
 $lang['LIMIT'] = '限度額：';
 $lang['SHOW_LOG'] = 'ログを表示';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'BitTorrentクライアント';
 $lang['DL_FORMULA'] = '式：掲載/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = '停止';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = '更新時間：';
 $lang['DL_INFO'] = 'を示すデータ<i><b>only現在のsession</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'ピアリストで私のBitTorrentクライアント名を隠す';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'ピアリストで私の国名を隠す';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'ユーザー当たりの日';
 $lang['BOARD_STARTED'] = 'ボードを開始';
 $lang['AVATAR_DIR_SIZE'] = 'アバターディレクトリのサイズ';
 $lang['DATABASE_SIZE'] = 'データベースのサイズ';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'GZIP圧縮';
 $lang['NOT_AVAILABLE'] = '不可';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = '見フォーラム';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'ここでは変更することが可能にアクセス権限モデレーターの状況々のユーザーに割り当てられるグループです。 忘れなく変更時のグループの権限とユーザー個人の権限がユーザーの入力フォーラムなどです。 まれており、その場合です。';
 $lang['USER_AUTH_EXPLAIN'] = 'ここでは変更することが可能にアクセス権限モデレーター状に各個人のユーザーです。 忘れなく変更時のユーザーの権限とグループアクセス権も許可ユーザの入力フォーラムなどです。 まれており、その場合です。';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'ここでは、各フォーラムの権限レベルを変更できます。これには、簡単な方法と高度な方法があり、高度な方法では各フォーラムの操作をより細かく制御できます。フォーラムの権限レベルを変更すると、さまざまな操作を実行できるユーザーが影響を受けることを忘れないでください。';
 
 $lang['SIMPLE_MODE'] = 'シンプルモード';
 $lang['ADVANCED_MODE'] = '先端モード';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'アクセスが許可され';
 $lang['DISALLOWED_ACCESS'] = 'アクセス許可';
 $lang['IS_MODERATOR'] = 'がモデレーター';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = '承認の競合警告';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'このユーザーがアクセス権をこのフォーラムを通グループの会員です。 ている変更のグループの権限又は除去するこのユーザーのグループを完全に防止のためにアクセス権です。 グループの権利のフォーラムについては以下のとおりであります。';
 $lang['CONFLICT_MOD_USERAUTH'] = 'このユーザーがモデレーターの権利フォーラムを通グループの会員です。 ている変更のグループの権限又は除去するこのユーザーのグループを完全に防止しているモデレーターの権利ます。 グループの権利のフォーラムについては以下のとおりであります。';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'をクリックし%sHere%s返還を禁止制�
 
 // Configuration
 $lang['GENERAL_CONFIG'] = '一般設定';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = '以下のフォームを使用すると、すべての一般的なボードオプションをカスタマイズできます。ユーザーおよびフォーラムの設定には、左側にある関連リンクを使用してください。';
 
 $lang['CONFIG_MODS'] = '設定の変更';
 $lang['MODS_EXPLAIN'] = 'この形状を調整する事が可能変更';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'するフォーラムの刈り込み';
 $lang['ALLOW_BBCODE'] = 'きBBCode';
 $lang['ALLOW_SMILIES'] = 'きSmilies';
 $lang['SMILIES_PATH'] = 'Smiliesストレージパス';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'あなたのTorrentPierルートディレクトリの下のパス、例：styles/images/smiles';
 $lang['ALLOW_SIG'] = 'る署名';
 $lang['MAX_SIG_LENGTH'] = '最大の署名の長さ';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '最大文字数はユーザーの署名';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'か、autologinキーが有効になる場合
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'フォーラム管理';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'このパネルから、カテゴリやフォーラムを追加、削除、編集、再配置、再同期できます。';
 $lang['EDIT_FORUM'] = '編集フォーラム';
 $lang['CREATE_FORUM'] = '新規作成フォーラム';
 $lang['CREATE_SUB_FORUM'] = 'サブフォーラムを作成';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = '更新順';
 $lang['CONFIG_UPDATED'] = 'フォーラムの設定を更新しました';
 $lang['MOVE_UP'] = '移動する';
 $lang['MOVE_DOWN'] = '下方に移動';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = '再同期';
 $lang['NO_MODE'] = 'モードに設定した';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = '以下のフォームを使用すると、すべての一般的なボードオプションをカスタマイズできます。ユーザーおよびフォーラムの設定には、左側にある関連リンクを使用してください。';
 
 $lang['MOVE_CONTENTS'] = '移動全ての内容';
 $lang['FORUM_DELETE'] = '削除フォーラム';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = '同期';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. 長さのニュース';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = '表示するニュース項目の数';
 $lang['NEWS_FORUM_ID'] = 'どのフォーラムを表示するか<br /> <h6>複数のフォーラムの場合、カンマで区切ったIDを指定してください。例: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'ないアバター';
 $lang['TRACKER_STATS'] = '統計のトラッカー';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'クォータ制限';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = '添付の設定';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'ここで設定することができメインの設定を別紙のModです。 ボタンを押すと、テスト設定ボタン、添付ファイルをModでは数システムの試験とっていることをご確認くださいModは正常に動作します。 ていれば問題ファイルのアップロードを実行してくださいこの試験は、詳細なエラーメッセージです。';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = '添付ファイルサイズ設定';
 $lang['ATTACH_NUMBER_SETTINGS'] = '添付番号の設定';
 $lang['ATTACH_OPTIONS_SETTINGS'] = '取付オプション';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'ここで表示するかどうかを選
 $lang['SHOW_APCP'] = '用の新しいコントロールパネルの採用';
 $lang['SHOW_APCP_EXPLAIN'] = 'するかどうかを選択します。利用には別途制御パネルの応用(有)、または古い方法との二つの箱にアプリケーションや編集アプリケーションなしのメッセージボックスです。 では説明しにくい見せ方を実感してくださいます。';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'ファイルサイズ';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = '最大filesize用して再現することができます。 値0は"無限"です。 この設定は制限されるサーバの設定をします。 例えば、php設定を切ることができ、最大2メガバイト遊びのこの書き換えることができませんので、Modです。';
 $lang['ATTACH_QUOTA'] = '取付枠';
 $lang['ATTACH_QUOTA_EXPLAIN'] = '最大ディスクスペースすべての添付ファイルでごウェブ空間です。 値0は"無限"です。';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'べて削除すると投稿の添付�
 $lang['EMPTY_FILE_ENTRY'] = '空のファイルのエントリ';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = '添付ファイルのプレビューがリセットされました：%s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = '添付ファイルの同期が完了しました。';
 $lang['SYNC_TOPICS'] = '同期Topics';
 $lang['SYNC_POSTS'] = '同期の投稿';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = '管理特別なカテゴリ';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'ここでは特別なカテゴリを設定できます。拡張グループに割り当てられた特別なカテゴリのための特別なパラメータと条件を設定できます。';
 $lang['SETTINGS_CAT_IMAGES'] = '設定のための特別なカテゴリ：画像';
 $lang['SETTINGS_CAT_FLASH'] = '設定のための特別なカテゴリ：Flashファイル';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = '画像をインラインで表示';
 $lang['DISPLAY_INLINED_EXPLAIN'] = '表示するかどうかを選択画像の直接の後(あり)または画像表示とリンクすか？';
 $lang['MAX_IMAGE_SIZE'] = '最大画像寸法';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'ここで定義することができ、ペレーションを確認してくだ画像寸法（幅×高さ(ピクセル)です。<br />If設定0x0には、この機能が無効になっています。 一部の画像はこの機能は動作しませんの制約によりクリアしました。';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'この定義次元画像によっては、�
 $lang['ASSIGNED_GROUP'] = 'されているグループ';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'サムネイルの作成';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = '最小サムネイルファイルサイズ';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'この定義されたファイルサイズより小さい画像の場合、サムネイルは作成されません。なぜなら、十分に小さいからです。';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = '管理禁断の拡張';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = '禁断の延長%sに存在する'; // repl
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'の延長%sを定義しておきの拡張子を削除してくださいここを追加するときは、その前にしてください。'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = '拡張グループの権限 → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'こちらきを制限する選択した拡張子グループのフォーラムのご希望に定義されているせフォーラムボックス)です。 デフォルトの可能性の拡張グループの全てのフォーラムは、ユーザが添付ファイル(通常の方法は、別添のModかったです。 んのプロフィールをチェックフォーラムはそのままにして拡張(Extensionにはこのグループ）ができることであり、デフォルトのすべてのフォーラムが消えるときに追加のフォーラムの一覧です。 き再度の追加、すべてのフォーラム任意することができるものとします。 を追加した場合、フォーラムのお役に許可を設定し、すべてのフォーラムも変化します。 ものを変えなければならな制限されたアクセスするフォーラムをご確認ください。エクスペディアに追加するには新規作成されたフォーラムです。 ですのは容易なこと自動的に、このまま編集ファイルが限定されていないのです。 詳しくは、全てのフォーラムは、ここに表示されます。';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = '注:<br />Within下記のフォーラムのユーザーは、通常、許可のデータファイルを添付すが、拡張子なしグループの更させていただくことがありますの添付があり、ユーザーが添付しています。 合うものを受けるエラーメッセージが返されます。 か設定したい、許可後のファイルの管理これらのフォーラムです。<br /><br />';
 $lang['ADD_FORUMS'] = '追加のフォーラム';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = '愛着のた検索条件';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = '数アタッチメント';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = '総ファイルサイズ';
 $lang['NUMBER_POSTS_ATTACH'] = '投稿数添付ファイル付き';
 $lang['NUMBER_TOPICS_ATTACH'] = 'ついて、様々な研究テーマの添付';
 $lang['NUMBER_USERS_ATTACH'] = '独立したユーザー投稿の添付';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = '押<i>Ctrl</i>を複数選択するフォー�
 $lang['REG_TORRENTS'] = '登録納入';
 $lang['DISALLOWED'] = '禁止';
 $lang['ALLOW_REG_TRACKER'] = 'せフォーラムに登録します。納入るトラッカー';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = '18歳以上のコンテンツの投稿を許可する';
 $lang['SHOW_DL_BUTTONS'] = 'ショーボタンを手動で変化するDL-状況';
 $lang['SELF_MODERATED'] = 'ユーザー<b>move</b>が自身の研究テーマを他のフォーラム';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'パスキー';
 $lang['BT_ADD_AUTH_KEY'] = '能の追加パスキーのtorrentファイルをダウンロードする前に';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = '激流ブラウザトラッカー)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'トレントブラウザ（tracker.php）は、ログインユーザーのみアクセス可能です。';
 $lang['BT_SEARCH_BOOL_MODE'] = 'すboolean全文検索';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = '検索で*, +, -を使用する';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "その他";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "フォーラムのメインページの上部にユーザーのUL/DL統計を表示する";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'リフレッシュレ';
 $lang['REFRESH_RATE_EXPLAIN'] = 'どのくらいの時間（秒）寝る前に移動次の処理cycle<br />Usuallyいを変化させるこ';
 
 $lang['TIME_LIMIT'] = '制限時間';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = '次のサイクルに移る前に、ポストプロセッシングが続けられる時間（秒）';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (セーフモード)には設定されたタイムアウトが%s秒であるため、この値を下回るようにしてください</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Yourウェブサーバがタイムアウトの%s秒に設定で、以下のこvalue</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'き成功裡の内に終了いたしま
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = '復興の進捗を検索';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = '処理された投稿ID：%s - %s';
 $lang['TIMER_EXPIRED'] = 'タイマー終了しましたので%s秒ます。 ';
 $lang['CLEARED_SEARCH_TABLES'] = 'クリア検索テーブルです。 ';
 $lang['DELETED_POSTS'] = '%sポスト(s)によって削除されたユーザーの時に処理します。 ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'すべて';
 
 $lang['TPL_EMPTY_FIELD'] = '必分野に<b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'を選択してください<b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - 数値ではありません';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - https:// URL である必要があります';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - https:// IMG_URL である必要があります';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'の対象';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = '検索ユーザーの投稿回数以上%
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = '検索ユーザーの投稿回数と%dと%d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '検索ユーザーの投稿回数値%d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = '一致するX (Twitter)を持つユーザーを検索中です%s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'ウェブサイトが%sと一致するユーザーを検索中';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = '検索ユーザーのロケ地マッチング%s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = '検索ユーザーに自分のフェッショナル版の処理スピ%s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = '検索ユーザの職業分野のマッチング%s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Equals';
 $lang['GREATER_THAN'] = '以上';
 $lang['LESS_THAN'] = '以上';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = '投稿数の値に基づいてユーザーを検索できます。特定の値、値よりも大きいか小さいか、または 2 つの値の間で検索できます。範囲検索を行うには、[等しい] を選択し、範囲の開始値と終了値をダッシュ (-) で区切って入力します (例: 10-15)。';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'ユーザーフィールド';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = '検索ユーザーに基づき、数種類のプロフィール分野です。 ワイルドカードには対応して使用する際はブラウザ設定でjavascriptを有効にします(※)。';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = '検索できますユーザーのログインの際には、最終ログイン日時をこの検索のオプション';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'この表示ユーザーを選択した特定の言語のプロフィール';
