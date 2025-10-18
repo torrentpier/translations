@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Vezi cele mai recente post';
 $lang['VIEW_NEWEST_POST'] = 'Vezi cele mai noi post';
 $lang['PAGE_OF'] = 'Pagina <b>%d</b> de <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Ai intrat într-un invalid login Skype';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Ai intrat într-un invalid de autentificare Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Ești sigur că doriți să ștergeți acest son
 $lang['FLOOD_ERROR'] = 'Nu poți face un alt post atât de repede după ultima ta; vă rugăm să încercați din nou într-un timp scurt';
 $lang['EMPTY_SUBJECT'] = 'Trebuie să specificați un subiect';
 $lang['EMPTY_MESSAGE'] = 'Trebuie să introduceți un mesaj';
-$lang['FORUM_LOCKED'] = 'Acest forum este blocat: nu puteți posta, de a răspunde, edita subiecte';
-$lang['TOPIC_LOCKED'] = 'Acest subiect este blocat: nu puteți modifica mesaje sau să facă răspunsurile';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Subiect blocat';
 $lang['NO_POST_ID'] = 'Trebuie să selectați un mesaj pentru a edita';
 $lang['NO_TOPIC_ID'] = 'Trebuie să selectați un subiect pentru a răspunde la';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Albastru De Oțel Albastru';
 $lang['COLOR_GRAY'] = 'Gri';
 $lang['COLOR_DARK_GREEN'] = 'De Culoare Verde Închis';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Cod]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['răspuns', 'răspunsurile'];
 $lang['DECLENSION']['TIMES'] = ['timp', 'ori'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent fișierul este corupt';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site-ul" poate conține numai http://sitename';
-$lang['ICQ_ERROR'] = 'Câmpul "ICQ" poate conține doar un număr ICQ';
 $lang['INVALID_DATE'] = 'Dată invalidă';
 $lang['PROFILE_USER'] = 'Vizualizare profil';
 $lang['GOOD_UPDATE'] = 'a fost schimbat cu succes';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'În căutarea pentru utilizatorii cu un
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'În căutarea pentru utilizatorii cu un post conta mai puțin decât %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'În căutarea pentru utilizatorii cu un post conta între %d și %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'În căutarea pentru utilizatorii cu un post conta valoarea %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'În căutarea pentru utilizatorii cu un ICQ adresa de potrivire %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'În căutarea pentru utilizatorii cu un Skype potrivire %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'În căutarea pentru utilizatorii cu un Twitter potrivire %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'În căutarea pentru utilizatorii cu site-Ul de potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'În căutarea pentru utilizatorii cu o Locație potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'În căutarea pentru utilizatorii cu Interesele lor domeniu de potrivire %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Zi';
 $lang['POST_EDIT_CANNOT'] = 'Îmi pare rău, dar nu puteți edita posturile';
 $lang['FORUMS_IN_CAT'] = 'forumuri în această categorie';
 
-$lang['MC_TITLE'] = 'Moderarea Comentariilor';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Tastați un comentariu';
 $lang['MC_FAQ'] = 'Textul introdus va fi afișat sub acest mesaj';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s în mesajul dvs.";
