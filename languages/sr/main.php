@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Гледати последњи пост';
 $lang['VIEW_NEWEST_POST'] = 'Видите нови пост';
 $lang['PAGE_OF'] = '<b>%d</b> страници <b>%s</b>';
 
-$lang['ICQ'] = 'Ицк';
-
-$lang['SKYPE'] = 'Скипе';
-$lang['SKYPE_ERROR'] = 'Унели сте неисправно корисничко име Скипе';
-
-$lang['TWITTER'] = 'Твиттер';
-$lang['TWITTER_ERROR'] = 'Унели сте неисправно корисничко име Твиттер феед';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = 'Индекс Форума %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Да ли сте сигурни да желит�
 $lang['FLOOD_ERROR'] = 'Ви не можете да урадите још један пост тако брзо након последњег; молимо вас, покушајте поново за кратко време';
 $lang['EMPTY_SUBJECT'] = 'Морате да одредите тему';
 $lang['EMPTY_MESSAGE'] = 'Морате да унесете поруку';
-$lang['FORUM_LOCKED'] = 'На овом форуму су блокирани: не можете пост, на који јављаш, или да мењате теме';
-$lang['TOPIC_LOCKED'] = 'Ова тема је закључана и не можете мењати поруке или одговора';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Тема је закључана';
 $lang['NO_POST_ID'] = 'Морате да изаберете пост за уређивање';
 $lang['NO_TOPIC_ID'] = 'Морате да изаберете тему за одговор';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Челичне Плаве';
 $lang['COLOR_GRAY'] = 'Сива';
 $lang['COLOR_DARK_GREEN'] = 'Тамно Зелена';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Код]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'МВ';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['одговор', 'одговори'];
 $lang['DECLENSION']['TIMES'] = ['време', 'пут'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Торрент датотека је оштећен�
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Сајт" може садржати само http://sitename';
-$lang['ICQ_ERROR'] = 'Поље "ICQ" може садржати само ICQ број';
 $lang['INVALID_DATE'] = 'Погрешан датум';
 $lang['PROFILE_USER'] = 'Прегледај профил';
 $lang['GOOD_UPDATE'] = 'је успешно промењен';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Претрага корисника б�
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Претрага корисника са постова мање него %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Претрага корисника бројач Порука између %d и %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Претрага корисника са Post count вредност %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Претрага корисника на ицк адреса %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Претрага корисника помоћу Скипе, одговарајуће %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Претрага корисника са Твитера усаглашености %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Претрага корисника са совпадающими %s сајт';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Претрага корисника са локације о усаглашености %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Претрага корисника у складу са њиховим интересима области запошљавања %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Дан';
 $lang['POST_EDIT_CANNOT'] = 'Жао ми је, али Ви не можете да измените поруке';
 $lang['FORUMS_IN_CAT'] = 'форуми у овој категорији';
 
-$lang['MC_TITLE'] = 'Коментар Умерености';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Унесите коментар';
 $lang['MC_FAQ'] = 'Овај текст ће бити приказан испод овог поруком';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s у вашој поруци";
