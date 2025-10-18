@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Pikëpamje më e re post';
 $lang['PAGE_OF'] = 'Faqe <b>%d</b> e <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'E keni futur një të pavlefshme X (Twitter) identifikohu';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Jeni i sigurt se doni të fshini të këtij sond
 $lang['FLOOD_ERROR'] = 'Ju nuk mund të bëni një post kaq shpejt pas tuaja të fundit, ju lutem provoni përsëri në një kohë të shkurtër';
 $lang['EMPTY_SUBJECT'] = 'Ju duhet të specifikoni një subjekt';
 $lang['EMPTY_MESSAGE'] = 'Ju duhet të shkruani një mesazh';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forumi është kyçur';
+$lang['TOPIC_LOCKED'] = 'Temë e mbyllur';
 $lang['TOPIC_LOCKED_SHORT'] = 'Temë e mbyllur';
 $lang['NO_POST_ID'] = 'Ju duhet të zgjidhni një post të redaktoni';
 $lang['NO_TOPIC_ID'] = 'Ju duhet të zgjidhni një temë për t\'u përgjigjur';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Jeshile Të Errët';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Anketës';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PD';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Kërkimi për përdoruesit me një post
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Kërkimi për përdoruesit me një postin më pak se %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Kërkimi për përdoruesit me një post të numëronte %d dhe %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Kërkimi për përdoruesit me një post të llogarisin vlerën e %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kërkimi për përdoruesit me një X (Twitter) përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Kërkimi për përdoruesit me një Faqe interneti përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kërkimi për përdoruesit me një Vend përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kërkimi për përdoruesit me Interesat e tyre në terren përputhen %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Ditë';
 $lang['POST_EDIT_CANNOT'] = 'Na vjen keq, por ju nuk mund të redaktoni postimet';
 $lang['FORUMS_IN_CAT'] = 'forumet në këtë kategori';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderimi komenti';
 $lang['MC_LEGEND'] = 'Shkruani një koment';
 $lang['MC_FAQ'] = 'Futur tekst do të shfaqet nën këtë mesazh';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s në mesazhin tuaj";
