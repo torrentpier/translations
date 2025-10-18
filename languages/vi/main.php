@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Xem bài viết mới nhất';
 $lang['PAGE_OF'] = 'Trang <b>%d</b> của <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Bạn đã nhập một đăng nhập X (Twitter) không hợp lệ';
 
 $lang['FORUM_INDEX'] = '%s Diễn Đàn Chỉ Số'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Cậu có chắc chắn để hủy bỏ cuộc 
 $lang['FLOOD_ERROR'] = 'Bạn không thể làm cho một bài vì vậy, ngay sau khi cuối cùng của anh, hãy cố gắng một lần nữa trong một thời gian ngắn';
 $lang['EMPTY_SUBJECT'] = 'Anh phải xác định một chủ đề';
 $lang['EMPTY_MESSAGE'] = 'Bạn phải nhập một tin nhắn';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Diễn đàn đang bị khóa';
+$lang['TOPIC_LOCKED'] = 'Chủ đề bị khóa';
 $lang['TOPIC_LOCKED_SHORT'] = 'Chủ đề bị khóa';
 $lang['NO_POST_ID'] = 'Mày phải chọn một bài để sửa';
 $lang['NO_TOPIC_ID'] = 'Mày phải chọn một chủ đề để trả lời';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Tối Xanh';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Thăm dò';
+$lang['MODERATE'] = 'Điều hành';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Tìm kiếm người sử dụng với 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Tìm kiếm người sử dụng với một bài đếm ít hơn %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Tìm kiếm người sử dụng với một số bài giữa %d và %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Tìm kiếm người sử dụng với một bài tính giá trị của %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Tìm kiếm người sử dụng với một kết hợp X (Twitter) %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Tìm kiếm người sử dụng với một trang Web phù hợp với %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Tìm kiếm người sử dụng với một vị Trí phù hợp với %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Tìm kiếm người sử dụng với Lợi ích của họ trường hợp %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Ngày';
 $lang['POST_EDIT_CANNOT'] = 'Xin lỗi, nhưng anh không thể sửa bài';
 $lang['FORUMS_IN_CAT'] = 'trong các diễn đàn thể loại đó';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Bình luận điều hành';
 $lang['MC_LEGEND'] = 'Loại bình luận';
 $lang['MC_FAQ'] = 'Nhập vào văn bản sẽ được hiển thị dưới tin nhắn này';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s trong tin nhắn của bạn";
