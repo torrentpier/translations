@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Se nyeste indlæg';
 $lang['PAGE_OF'] = 'Side <b>%d</b> af <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Du har indtastet en ugyldig Twitter-login';
 
 $lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Er du sikker på du ønsker at slette denne afst
 $lang['FLOOD_ERROR'] = 'Du kan ikke gøre andet indlæg så hurtigt efter din sidste; prøv venligst igen om kort tid';
 $lang['EMPTY_SUBJECT'] = 'Du skal angive et emne';
 $lang['EMPTY_MESSAGE'] = 'Du skal indtaste en besked';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum er låst';
+$lang['TOPIC_LOCKED'] = 'Låst emne';
 $lang['TOPIC_LOCKED_SHORT'] = 'Låst emne';
 $lang['NO_POST_ID'] = 'Du skal vælge en post for at redigere';
 $lang['NO_TOPIC_ID'] = 'Du skal vælge et emne for at svare';
@@ -1397,7 +1397,7 @@ $lang['COLOR_DARK_GREEN'] = 'Mørk Grøn';
 // Short buttons
 $lang['IP'] = 'IP';
 $lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'At søge efter brugere med et indlæg, 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'At søge efter brugere med et indlæg tæller mindre end %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'At søge efter brugere med et indlæg tæller mellem %d og %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'At søge efter brugere med et indlæg tæller værdi af %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'At søge efter brugere med en Twitter matchende %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'At søge efter brugere med en Hjemmeside matchende %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'At søge efter brugere med en Placering matchende %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'At søge efter brugere med deres Interesser felt matchende %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Dag';
 $lang['POST_EDIT_CANNOT'] = 'Undskyld, men du kan ikke redigere indlæg';
 $lang['FORUMS_IN_CAT'] = 'fora i denne kategori';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderation kommentar';
 $lang['MC_LEGEND'] = 'Skriv en kommentar';
 $lang['MC_FAQ'] = 'Den indtastede tekst vil blive vist under denne besked';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s i din besked";
