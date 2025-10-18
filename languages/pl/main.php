@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Zobacz ostatni post';
 $lang['VIEW_NEWEST_POST'] = 'Zobaczyć nowy post';
 $lang['PAGE_OF'] = '<b>%d</b> stronie <b>%s</b>';
 
-$lang['ICQ'] = 'Icq';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Wpisałeś niewłaściwy login Skype';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Wpisałeś niewłaściwy login Twittera';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = 'Indeks Forum %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Jesteś pewien, że chcesz usunąć ten sondaż?
 $lang['FLOOD_ERROR'] = 'Nie możesz zrobić jeszcze jeden post tak szybko po ostatniej; proszę spróbować ponownie po krótkim czasie';
 $lang['EMPTY_SUBJECT'] = 'Należy podać temat';
 $lang['EMPTY_MESSAGE'] = 'Musisz wpisać wiadomość';
-$lang['FORUM_LOCKED'] = 'Na tym forum jest zablokowane, nie możesz post, na który odpowiadasz, lub edytować tematy';
-$lang['TOPIC_LOCKED'] = 'Ten temat jest zamknięty, nie można edytować wiadomości lub odpowiedzi';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Temat jest zablokowany';
 $lang['NO_POST_ID'] = 'Należy wybrać stanowisko do edycji';
 $lang['NO_TOPIC_ID'] = 'Musisz wybrać temat do odpowiedzi';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Stalowy Niebieski';
 $lang['COLOR_GRAY'] = 'Szary';
 $lang['COLOR_DARK_GREEN'] = 'Ciemny Zielony';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kod]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['odpowiedź', 'odpowiedzi'];
 $lang['DECLENSION']['TIMES'] = ['czas', 'raz'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent plik jest uszkodzony';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Witryna" może zawierać tylko http://sitename';
-$lang['ICQ_ERROR'] = 'Pole "ICQ" może zawierać tylko numer ICQ';
 $lang['INVALID_DATE'] = 'Nieprawidłowa data';
 $lang['PROFILE_USER'] = 'Wyświetl profil';
 $lang['GOOD_UPDATE'] = 'został pomyślnie zmieniony';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Wyszukiwanie użytkowników liczba post
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Wyszukiwanie użytkowników z postów mniej niż %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Wyszukiwanie użytkowników licznik Wiadomości między %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Wyszukiwanie użytkowników z Post count wartość %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Wyszukiwanie użytkowników w gg adres %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Wyszukiwanie użytkowników za pomocą Skype \' a, odpowiednie %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Wyszukiwanie użytkowników Twittera zgodności %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Wyszukiwanie użytkowników z pasującymi %s stronę';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Wyszukiwanie użytkowników z lokalizacją zgodności %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Wyszukiwanie użytkowników, z uwzględnieniem ich interesów w zakresie doboru %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dzień';
 $lang['POST_EDIT_CANNOT'] = 'Przepraszam, ale nie można edytować wiadomości';
 $lang['FORUMS_IN_CAT'] = 'fora w tej kategorii';
 
-$lang['MC_TITLE'] = 'Komentarz Do Moderacji';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Wpisz komentarz';
 $lang['MC_FAQ'] = 'Wpisany tekst będzie wyświetlany pod tym komunikatem';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s w swoim komunikacie";
