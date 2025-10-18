@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Zobrazit nejnovější příspěvek';
 $lang['PAGE_OF'] = 'Stránka <b>%d</b> z <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Zadali jste neplatný Twitter přihlášení';
 
 $lang['FORUM_INDEX'] = '%s Fórum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Jsou si jisti, že chcete smazat tuto anketu?';
 $lang['FLOOD_ERROR'] = 'Nemůžete provést další příspěvek tak brzo po své poslední; zkuste to prosím znovu za chvíli';
 $lang['EMPTY_SUBJECT'] = 'Musíte zadat předmět';
 $lang['EMPTY_MESSAGE'] = 'Musíte zadat zprávu';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Fórum je zamknuté';
+$lang['TOPIC_LOCKED'] = 'Téma je zamklé';
 $lang['TOPIC_LOCKED_SHORT'] = 'Téma zamkl';
 $lang['NO_POST_ID'] = 'Musíte vybrat post upravit';
 $lang['NO_TOPIC_ID'] = 'Musíte vybrat téma odpovědět';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Tmavě Zelená';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Anketa';
+$lang['MODERATE'] = 'Moderovat';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Hledat pro uživatele s post počet vě
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Hledat pro uživatele s post počet méně než %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Hledat pro uživatele s post počítat mezi %d a %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Hledat pro uživatele s post počet hodnota %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Hledání uživatelů se Twitter odpovídající %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Hledání uživatelům webové Stránky odpovídající %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Hledat pro uživatele s Polohou odpovídající %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Hledání uživatelů s jejich Zájmy pole odpovídající %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Den';
 $lang['POST_EDIT_CANNOT'] = 'Je mi líto, ale nemůžete upravovat příspěvky';
 $lang['FORUMS_IN_CAT'] = 'fóra v této kategorii';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderátor komentář';
 $lang['MC_LEGEND'] = 'Typ komentář';
 $lang['MC_FAQ'] = 'Zadaný text se zobrazí pod tuto zprávu';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s ve své zprávě";
