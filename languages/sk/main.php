@@ -1045,17 +1045,12 @@ $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Príloha je príliš veľká.<br />Maxim
 $lang['DISALLOWED_EXTENSION'] = 'Rozšírenie %s nie je povolené,'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Ste nesmú post Súbory s Príponou %s v tomto Fóre'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'Príloha je príliš veľká.<br />Max Veľkosť: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Ospravedlňujeme sa, ale maximálna filesize pre všetkých Príloh je dosiahnutá. Prosím, obráťte sa na Palube Správcu, ak máte otázky.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Prílohu nie je možné pridať, pretože max. počet %d Príloh v tomto príspevku bolo dosiahnuté'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Prílohu/Obrázok musí byť menej ako %d pixelov a %d pixelov';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Odovzdanie Chyba: nepodarilo nahrať Prílohy na %s.'; // replace %s with local path
 
 $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Budete musieť zadať hodnoty v \'Pridať Prílohu\' Box';
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nemôžete Aktualizovať Prílohu, nemohol nájsť staré Prílohu Zápisu';
-
-// Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Ospravedlňujeme sa, ale maximálna filesize pre všetky Prílohy vo vašich Súkromných Správ Priečinok, že sa dosiahol. Prosím, odstráňte niektoré prijatých/odoslaných Príloh.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Ospravedlňujeme sa, ale maximálna filesize pre všetkých Príloh v Súkromných Správ Priečinok "%s\', že sa dosiahol. Prosím, dajte mu vedieť, alebo počkajte, kým on/ona má odstránené niektoré z jeho/jej Príloh.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nemáte vybranú prílohu na stiahnutie alebo zobrazenie.';
@@ -1074,10 +1069,6 @@ $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Adresár \'%s\' neexistuje alebo sa nenaši
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Prosím skontrolujte, či \'%s" je adresár.'; // replace %s with directory
 $lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory "%s" nie je zapisovateľný. Budete musieť vytvoriť upload cesta a chmod to, aby 777 (alebo zmeniť vlastníka, aby ste httpd-servery ubytovateľ) ak chcete preniesť súbory.<br />If máte len obyčajný FTP prístup zmeniť "Atribút" adresár na rwxrwxrwx.'; // replace %s with directory
 
-// Quota Variables
-$lang['UPLOAD_QUOTA'] = 'Odovzdať Kvóty';
-$lang['PM_QUOTA'] = 'POPOLUDNÍ Kvóty';
-
 // Common Variables
 $lang['BYTES'] = 'Bajtoch';
 $lang['KB'] = 'KB';
@@ -1088,7 +1079,6 @@ $lang['TEST_SETTINGS'] = 'Test Nastavenia';
 $lang['NOT_ASSIGNED'] = 'Not Assigned';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Žiadny Súbor Komentár k dispozícii';
 $lang['ATTACHBOX_LIMIT'] = 'Vaše Attachbox is<br /><b>%d%%</b> full';
-$lang['NO_QUOTA_LIMIT'] = 'Bez Limitu Kvóty';
 $lang['UNLIMITED'] = 'Neobmedzený';
 
 //bt
@@ -1769,17 +1759,6 @@ $lang['SIMPLE_MODE'] = 'Jednoduchý Režim';
 $lang['ADVANCED_MODE'] = 'Rozšírený Režim';
 $lang['MODERATOR_STATUS'] = 'Moderátor stav';
 
-$lang['ALLOWED_ACCESS'] = 'Povolený Prístup';
-$lang['DISALLOWED_ACCESS'] = 'Povolené Prístup';
-$lang['IS_MODERATOR'] = 'Je Moderátor';
-
-$lang['CONFLICT_WARNING'] = 'Povolenie Konfliktu Upozornenie';
-$lang['CONFLICT_ACCESS_USERAUTH'] = 'Tento užívateľ ešte má prístupové práva do tohto fóra cez členstvo v skupine. Možno budete chcieť zmeniť povolenia skupiny alebo odstránenie tejto používateľskej skupiny, ak chcete úplne zabrániť ich majú prístupové práva. Skupiny, ktoré priznávajú práva (a konferencie zúčastnených) sú uvedené nižšie.';
-$lang['CONFLICT_MOD_USERAUTH'] = 'Tento užívateľ ešte má moderátor práva na tomto fóre prostredníctvom členstva v skupine. Možno budete chcieť zmeniť povolenia skupiny alebo odstránenie tejto používateľskej skupiny, ak chcete úplne zabrániť ich s moderátorom práva. Skupiny, ktoré priznávajú práva (a konferencie zúčastnených) sú uvedené nižšie.';
-
-$lang['CONFLICT_ACCESS_GROUPAUTH'] = 'Nasledujúce užívateľ (alebo užívatelia) stále majú prístupové práva do tohto fóra cez svoje používateľské nastavenia povolení. Možno budete chcieť zmeniť povolenia používateľa úplne zabrániť ich majú prístupové práva. Používateľov poskytuje práva (a konferencie zúčastnených) sú uvedené nižšie.';
-$lang['CONFLICT_MOD_GROUPAUTH'] = 'Nasledujúce užívateľ (alebo užívatelia) ešte moderátor práva na tomto fóre cez svoje používateľské nastavenia povolení. Možno budete chcieť zmeniť povolenia používateľa úplne zabrániť ich s moderátorom práva. Používateľov poskytuje práva (a konferencie zúčastnených) sú uvedené nižšie.';
-
 $lang['PUBLIC'] = 'Verejné';
 $lang['PRIVATE'] = 'Súkromné';
 $lang['REGISTERED'] = 'Registrovaná';
@@ -1804,8 +1783,6 @@ $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Hlasovať';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Vytvoriť anketu';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Uverejňovanie Súborov';
 $lang['AUTH_DOWNLOAD'] = 'Súbory Na Stiahnutie';
-
-$lang['SIMPLE_PERMISSION'] = 'Jednoduché Povolenia';
 
 $lang['USER_LEVEL'] = 'Úroveň Užívateľa';
 $lang['AUTH_USER'] = 'Používateľ';
@@ -1851,7 +1828,6 @@ $lang['SITE_NAME'] = 'Názov lokality';
 $lang['SITE_DESC'] = 'Popis stránky';
 $lang['FORUMS_DISABLE'] = 'Vypnúť rada';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'To umožní, aby na palube k dispozícii pre používateľov. Správcovia majú prístup k administračnom Paneli, kým doske sú vypnuté.';
-$lang['ACCT_ACTIVATION'] = 'Povoliť aktivovanie konta';
 $lang['ACC_NONE'] = 'Žiadne'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Používateľ';
 $lang['ACC_ADMIN'] = 'Admin';
@@ -1875,12 +1851,6 @@ $lang['ALLOW_SIG'] = 'Povoliť Podpisov';
 $lang['MAX_SIG_LENGTH'] = 'Maximálny podpis dĺžka';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximálny počet znakov v podpisy používateľa';
 $lang['ALLOW_NAME_CHANGE'] = 'Povoliť používateľské Meno zmeny';
-
-$lang['EMAIL_SETTINGS'] = 'Nastavenia E-Mailu';
-
-// Visual Confirmation
-$lang['VISUAL_CONFIRM'] = 'Zapnúť Vizuálnu Potvrdenie';
-$lang['VISUAL_CONFIRM_EXPLAIN'] = 'Vyžaduje, aby užívatelia zadajte kód definovaný obraz pri registrácii.';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Povoliť automatické prihlásenie';
@@ -1971,21 +1941,7 @@ $lang['CLICK_RETURN_SMILEADMIN'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete 
 
 // User Management
 $lang['USER_ADMIN'] = 'Správy Užívateľov';
-$lang['USER_ADMIN_EXPLAIN'] = 'Tu môžete zmeniť svoje používateľov informácií a určité opcie. Ak chcete upraviť používateľov povolenia, použite, prosím, používateľ a skupina povolenia systém.';
-
 $lang['LOOK_UP_USER'] = 'Vyhľadať užívateľa';
-
-$lang['ADMIN_USER_FAIL'] = 'Nemohli aktualizovať profil používateľa.';
-$lang['ADMIN_USER_UPDATED'] = 'Profil užívateľa bol úspešne aktualizovaný.';
-$lang['CLICK_RETURN_USERADMIN'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť do Správy užívateľov';
-
-$lang['USER_ALLOWPM'] = 'Môžete odosielať Súkromné Správy';
-$lang['USER_ALLOWAVATAR'] = 'Môžete zobraziť avatar';
-
-$lang['ADMIN_AVATAR_EXPLAIN'] = 'Tu si môžete prezrieť a zmazať užívateľa aktuálneho avatar.';
-
-$lang['USER_SPECIAL'] = 'Špeciálne admin-len polia';
-$lang['USER_SPECIAL_EXPLAIN'] = 'Tieto polia nie sú schopní byť menené užívateľom. Tu môžete nastaviť ich stav a ostatné možnosti, ktoré nie sú dané používateľov.';
 
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Skupina Správy';
@@ -2155,13 +2111,9 @@ $lang['SEED_BONUS_ROPORTION'] = 'Podiel okrem výmenu bonusy na GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Ovládací Panel';
-$lang['SHADOW_ATTACHMENTS'] = 'Tieň Prílohy';
-$lang['FORBIDDEN_EXTENSIONS'] = 'Zakázané Rozšírenia';
 $lang['EXTENSION_CONTROL'] = 'Rozšírenie Ovládanie';
 $lang['EXTENSION_GROUP_MANAGE'] = 'Rozšírenie Skupiny Ovládanie';
 $lang['SPECIAL_CATEGORIES'] = 'Špeciálne Kategórie';
-$lang['SYNC_ATTACHMENTS'] = 'Synchronizovať Prílohy';
-$lang['QUOTA_LIMITS'] = 'Kvóty Limity';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Príloha Nastavenia';
@@ -2178,17 +2130,11 @@ $lang['ATTACH_TOPIC_ICON'] = 'Príloha Icon';
 $lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Tento Obrázok sa zobrazí pred tém s Prílohami. Ponechajte toto pole prázdne, ak nechcete ikonu sa zobrazí.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Príloha Poradie Zobrazenia';
 $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Tu si môžete vybrať, či chcete zobraziť Prílohy Príspevkov/PMs v Zostupnom Filetime Objednávky (Najnovšie Prílohu Prvý) alebo Vzostupne Filetime Objednávky (Najstaršie Prílohu Prvý).';
-$lang['SHOW_APCP'] = 'Použite nový ovládací panel aplikácie';
-$lang['SHOW_APCP_EXPLAIN'] = 'Vyberte, či chcete použiť samostatný ovládací panel aplikácií (áno), alebo starý metóda s dvoma políčok pre aplikácie a úprava aplikácie (none) v okne s hlásením. Je ťažké vysvetliť, ako to vyzerá, tak skúste sami.';
 
 $lang['MAX_FILESIZE_ATTACH'] = 'Veľkosť súboru';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maximálny filesize Príloh. Hodnota 0 znamená, \'neobmedzené\'. Toto Nastavenie je obmedzené your Server Configuration. Napríklad, ak je vaše php umožňuje len maximálne 2 MB obrázky, tento nemôže byť prepísaná Mod.';
-$lang['ATTACH_QUOTA'] = 'Príloha Kvóty';
-$lang['ATTACH_QUOTA_EXPLAIN'] = 'Najviac Miesta na Disku VŠETKÝCH Príloh, môžete držať na váš webový priestor. Hodnota 0 znamená, \'neobmedzené\'.';
 $lang['MAX_FILESIZE_PM'] = 'Maximálny Filesize v Súkromných Správ Priečinka';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Najviac Miesta na Disku Príloh sa môžu použiť v každom Užívateľovi Súkromné Správy box. Hodnota 0 znamená, \'neobmedzené\'.';
-$lang['DEFAULT_QUOTA_LIMIT'] = 'Predvolený Limit Kvóty';
-$lang['DEFAULT_QUOTA_LIMIT_EXPLAIN'] = 'Tu si môžete vybrať Predvolený Limit Kvóty automaticky zaradený do novo registrovaných Užívateľov a Užívateľov bez definovaného Limitu Kvóty. Možnosť "Bez Limitu Kvóty" je pre nepoužívate žiadnu Prílohu, Kvóty, namiesto pomocou predvoleného Nastavenia, ktoré ste definovali v rámci tejto Riadenia Panel.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maximálny Počet Príloh';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maximálny počet príloh, ktoré sú povolené v jednom príspevku.';
@@ -2199,30 +2145,17 @@ $lang['DISABLE_MOD'] = 'Vypnúť Prílohu Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Táto možnosť je určená hlavne pre testovanie nových šablón alebo témy, to zakáže všetky Prílohy Funkcie okrem Admin Panelu.';
 $lang['PM_ATTACHMENTS'] = 'Povoliť Prílohy v Súkromných Správ';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Povoliť/Zakázať pripojenie súborov do Súkromných Správ.';
-$lang['ATTACHMENT_TOPIC_REVIEW'] = 'Zobraziť aplikácie v hodnotení komunikačných tém pri písaní odpoveď?';
-$lang['ATTACHMENT_TOPIC_REVIEW_EXPLAIN'] = 'Ak sa vám dať "áno", všetky aplikácie budú zobrazovať v prehľade komunikačných tém.';
-
-// Attachments -> Shadow Attachments
-$lang['SHADOW_ATTACHMENTS_EXPLAIN'] = 'Tu môžete vymazať prílohu údajov z účtovania ak chýbajú súbory z vášho súborového systému, a odstrániť súbory, ktoré sú už pripojené žiadne komentáre. Môžete si stiahnuť alebo prezrieť súbor, ak kliknete na ňu; ak nie, odkaz je prítomný, súbor neexistuje.';
-$lang['SHADOW_ATTACHMENTS_FILE_EXPLAIN'] = 'Vymazať všetky prílohy súbory, ktoré existujú na vašom súborovom systéme a nie sú pripísané na existujúci príspevok.';
-$lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Zrušiť všetky účtovania prílohu údajov pre súbory, ktoré neexistujú na vašom súborovom systéme.';
-$lang['EMPTY_FILE_ENTRY'] = 'Prázdny Súbor Vstupu';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'Náhľad bol resetovaný pre prílohu: %s'; // replace %s with physical Filename
-$lang['ATTACH_SYNC_FINISHED'] = 'Synchronizácia prílohy je dokončená.';
 $lang['SYNC_TOPICS'] = 'Synchronizácia Témy';
 $lang['SYNC_POSTS'] = 'Synchronizácia Príspevky';
-$lang['SYNC_THUMBNAILS'] = 'Synchronizácia Miniatúry';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Spravovať Rozšírenia';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Tu môžete spravovať Prípony. Ak chcete povoliť/zakázať a Rozšírenie na odoslanie, prosím, použite Rozšírenie Skupín Riadenia.';
 $lang['EXPLANATION'] = 'Vysvetlenie';
 $lang['EXTENSION_GROUP'] = 'Rozšírenie Skupiny';
-$lang['INVALID_EXTENSION'] = 'Neplatné Rozšírenie';
 $lang['EXTENSION_EXIST'] = 'Rozšírenie %s, už existuje'; // replace %s with the Extension
-$lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Rozšírenie %s je zakázané, nie ste schopní pridať do povolené Rozšírenia'; // replace %s with Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Spravovať Rozšírenia Skupiny';
@@ -2241,7 +2174,6 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Rozšírenie Skupiny %s, už existuje'; // rep
 $lang['MANAGE_CATEGORIES'] = 'Správa Špeciálne Kategórie';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Tu môžete konfigurovať Špeciálne Kategórie. Môžete nastaviť Špeciálne Parametre a Podmienky pre Špeciálne Kategórie priradené Rozšírenie Skupiny.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Nastavenia pre Osobitná Kategória: Obrázky';
-$lang['SETTINGS_CAT_FLASH'] = 'Nastavenia pre Špeciálne Kategórie: Flash Súbory';
 $lang['DISPLAY_INLINED'] = 'Zobrazenie Obrázkov Inlined';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Vyberte, či chcete zobrazovať obrázky priamo do testu post (áno) alebo ak chcete zobraziť snímky ako odkaz ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximálne Rozmery Obrazu';
@@ -2254,12 +2186,6 @@ $lang['IMAGE_CREATE_THUMBNAIL'] = 'Vytvoriť Miniatúru';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimálne Miniatúru Filesize';
 $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ak je Obrázok menší ako je to definované Filesize, č Miniatúry budú vytvorené, pretože to je dosť malý na to.';
 
-// Extensions -> Forbidden Extensions
-$lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Spravovať Zakázané Rozšírenia';
-$lang['MANAGE_FORBIDDEN_EXTENSIONS_EXPLAIN'] = 'Tu môžete pridať, odstrániť alebo zakázané rozšírenia. Rozšírenia php, php3 a php4, sú zakázané štandardne sa z bezpečnostných dôvodov nie je možné ich odstrániť.';
-$lang['FORBIDDEN_EXTENSION_EXIST'] = 'Zakázané Rozšírenie %s, už existuje'; // replace %s with the extension
-$lang['EXTENSION_EXIST_FORBIDDEN'] = 'Rozšírenie %s je definované vo vašom povolené Rozšírenia, prosím zmazať ich pred tým, než pridáte tu.'; // replace %s with the extension
-
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Predĺženie Povolenia Skupiny -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Tu ste schopní obmedziť vybrané Rozšírenie Skupiny na Fórach vášho výberu (definované v Dovolené Fóra Okno). Predvolené je umožniť Rozšírenie Skupín na všetky Fóra, Užívateľ je schopný Pripojiť Súbory do (obvyklým spôsobom Prílohu Mod to urobil od začiatku). Stačí pridať týchto Fórach chcete Rozšírenie Skupiny (Rozšírenia v rámci tejto Skupiny), aby mohla tam, predvolené VŠETKY FÓRA zmizne, keď pridáte Fóra do Zoznamu. Ste schopní znova pridať VŠETKY FÓRA v danom Čase. Ak pridáte Fórum na vaše Rady a Súhlasu je nastavený na VŠETKÝCH FÓRACH nič nezmení. Ale ak ste zmenili a obmedzený prístup k niektorým Fóra, musíte sa vráťte sem pridajte svoje novo vytvorené Fórum. Je ľahké urobiť automaticky, ale to bude nútiť, aby ste upraviť veľa Súborov, preto som si vybrala tak, ako to je teraz. Prosím, majte na pamäti, že všetky vaše Fóra budú uvedené tu.';
@@ -2268,17 +2194,9 @@ $lang['ADD_FORUMS'] = 'Pridať Fóra';
 $lang['ADD_SELECTED'] = 'Pridať Vybrané';
 $lang['PERM_ALL_FORUMS'] = 'VŠETKY FÓRA';
 
-// Attachments -> Quota Limits
-$lang['MANAGE_QUOTAS'] = 'Správa Prílohu Kvóty Limity';
-$lang['MANAGE_QUOTAS_EXPLAIN'] = 'Tu budete môcť pridať/vymazať/zmena Kvóty Limity. Ste schopní priradiť tieto Kvóty Limity pre Používateľov a Skupiny neskôr. Ak chcete priradiť Limitu Kvóty, aby Používateľ, budete musieť ísť do Používatelia->Riadenie, vyberte Používateľa, a uvidíte Možnosti v dolnej časti stránky. Ak chcete priradiť Limitu Kvóty do Skupiny, prejdite na Skupiny->Riadenie, vyberte Skupiny, ktoré chcete upraviť, a zobrazí sa Konfiguračné Nastavenia. Ak chcete vidieť, čo Používateľov a Skupín, ktoré sú priradené k určitému Limitu Kvóty, kliknite na "Zobraziť" v ľavej časti Kvóty Popis.';
-$lang['ASSIGNED_USERS'] = 'Pridelené Užívateľov';
-$lang['ASSIGNED_GROUPS'] = 'Priradené Skupiny';
-$lang['QUOTA_LIMIT_EXIST'] = 'Do Limitu Kvóty %s už existujú.'; // Replace %s with the Quota Description
-
 // Attachments -> Control Panel
 $lang['CONTROL_PANEL_TITLE'] = 'Priložený Súbor Ovládací Panel';
 $lang['CONTROL_PANEL_EXPLAIN'] = 'Tu môžete zobraziť a spravovať všetky prílohy, na základe Užívateľov, Prílohy, Názory atď...';
-$lang['FILECOMMENT'] = 'Súbor Komentár';
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Použitie * ako zástupný znak pre čiastočné zápasy';
@@ -2296,7 +2214,6 @@ $lang['NUMBER_POSTS_ATTACH'] = 'Počet Miest s Prílohami';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Počet Tém s Prílohami';
 $lang['NUMBER_USERS_ATTACH'] = 'Nezávislé Užívatelia Zaslali Prílohy';
 $lang['NUMBER_PMS_ATTACH'] = 'Celkový Počet Príloh v Súkromných Správ';
-$lang['ATTACHMENTS_PER_DAY'] = 'Prílohy na deň';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Príloha Štatistiky pre %s'; // replace %s with username
@@ -2335,8 +2252,6 @@ $lang['CONFIG_UPD'] = 'Konfigurácia Úspešne Aktualizovaný';
 $lang['SET_DEFAULTS'] = 'Restore defaults';
 
 // Forum config
-$lang['FORUM_CFG_EXPL'] = 'Fórum config';
-
 $lang['BT_SELECT_FORUMS'] = 'Fórum možnosti:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'podržte <i>Ctrl</i> pri výbere viacerých fór';
 
