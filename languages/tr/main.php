@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = 'Mesaj';
 $lang['POSTED'] = 'Gönderildi';
 $lang['USERNAME'] = 'Kullanıcı adı';
 $lang['PASSWORD'] = 'Şifre';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = 'Şifreyi göster';
 $lang['EMAIL'] = 'E-posta';
 $lang['PM'] = 'AM';
 $lang['AUTHOR'] = 'Yazar';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = 'Etkin';
 $lang['DISABLED'] = 'Devre dışı';
 $lang['ERROR'] = 'Hata';
 $lang['SELECT_ACTION'] = 'Seçin eylem';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = 'Temizle';
+$lang['MOVE_TO_TOP'] = 'Üste taşı';
 $lang['UNKNOWN'] = 'Bilinmeyen';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = 'Pano\'ya kopyala';
+$lang['NO_ITEMS'] = 'Burada hiç veri yok...';
+$lang['PLEASE_TRY_AGAIN'] = 'Lütfen birkaç saniye sonra tekrar deneyin...';
 
 $lang['NEXT_PAGE'] = 'Gelecek';
 $lang['PREVIOUS_PAGE'] = 'Önceki';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Şablon önbelleği temizlendi';
 $lang['DATASTORE_CLEARED'] = 'Veri deposu temizlendi';
 $lang['BOARD_DISABLE'] = 'Üzgünüm, bu forumu devre dışı bırakılır. Sonra geri gelmeye çalışın';
 $lang['BOARD_DISABLE_CRON'] = 'Forum bakım için aşağı. Sonra geri gelmeye çalışın';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = 'Forum yönetici tarafından devre dışı bırakıldı. Dilediğiniz zaman etkinleştirebilirsiniz';
+$lang['ADMIN_DISABLE_CRON'] = 'Forum, cron işi tetikleyicisi tarafından kilitlenmiştir. Kilidi istediğiniz zaman kaldırabilirsiniz';
 $lang['ADMIN_DISABLE_TITLE'] = 'Forum devre dışı bırakılır';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum bakım için aşağı';
 $lang['ADMIN_UNLOCK'] = 'Forum etkinleştir';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = 'Yönetici';
 $lang['ONLINE_MOD'] = 'Moderatör';
 $lang['ONLINE_GROUP_MEMBER'] = 'Grup üyesi';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Bu işlem demo modunda gerçekleştirilemez!';
 
 $lang['CURRENT_TIME'] = 'Geçerli zaman <span class="tz_time">%s</span>: ';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = '[ Kilitli ]Yeni Mesaj';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum kilitli';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = 'Oturum açmak için kullanıcı adınızı ve şifrenizi girin.';
 $lang['LOGIN'] = 'Günlük';
 $lang['LOGOUT'] = 'Oturum';
 $lang['CONFIRM_LOGOUT'] = 'Çıkmak istediğinizden emin misiniz?';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = 'Bu forumda anketlerde oy <b>can</b>';
 $lang['RULES_VOTE_CANNOT'] = 'Bu forumda anketlerde oy <b>cannot</b>';
 $lang['RULES_MODERATE'] = '<b>can</b> bu forum orta sana';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = 'Bu forumda henüz hiç gönderi yok<br /><b>Yeni Konu</b> simgesine tıklayın, ve gönderiniz ilk olacak.';
+$lang['NO_RELEASES_POST_ONE'] = 'Bu forumda henüz hiç sürüm yok<br /> <b>Yeni Sürüm</b> simgesine tıklayın, ve sürümünüz ilk olacak.';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'Başlık';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = 'gizli metin';
 $lang['SPOILER_CLOSE'] = 'dön';
 $lang['PLAY_ON_CURPAGE'] = 'Şimdiki sayfada Başlat';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = 'Son olarak <b>%s</b> tarafından %s tarihinde düzenlendi; toplamda %d kez düzenlendi'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = 'Son olarak <b>%s</b> tarafından %s tarihinde düzenlendi; toplamda %d kez düzenlendi'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Konu kilit';
 $lang['UNLOCK_TOPIC'] = 'Kilidini konu';
@@ -378,8 +378,8 @@ $lang['DELETE_POLL'] = 'Silmek anket';
 $lang['MAX_SMILIES_PER_POST'] = '%s ifadeler ifadeler sınırı aşıldı.';
 
 $lang['ATTACH_SIGNATURE'] = '(İmzalar profilden değiştirilebilir)imza ekle';
-$lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['NOTIFY'] = 'Yanıtlar hakkında beni bilgilendir';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Bu konunun robotlar tarafından dizine alınmasına izin ver';
 
 $lang['STORED'] = 'Mesajınız başarıyla girildi.';
 $lang['EDITED'] = 'Mesajı değiştirildi';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Yeni özel mesaj gönder';
 $lang['SEND_A_REPLY'] = 'Cevap özel mesaj için';
 $lang['EDIT_MESSAGE'] = 'Edit özel mesaj';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = 'Yeni Özel Mesaj alındı!';
 
 $lang['FIND_USERNAME'] = 'Bir kullanıcı adı bul';
 $lang['SELECT_USERNAME'] = 'Bir Kullanıcı adı seçin';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = 'Doğum günü';
 $lang['HAPPY_BIRTHDAY'] = 'Doğum Günün Kutlu Olsun!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Doğum günü biçimi yanlış girilmiştir.';
 $lang['AGE'] = 'Yaş';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = 'Üzgünüm, bu site %d yaşın üzerindeki kullanıcıları kabul etmiyor';
+$lang['BIRTHDAY_TO_LOW'] = 'Üzgünüm, bu site %d yaşın altındaki kullanıcıları kabul etmiyor';
 $lang['BIRTHDAY_TODAY'] = 'Doğum günü bugün olan kullanıcılar: ';
 $lang['BIRTHDAY_WEEK'] = 'Bir sonraki %d gün içinde doğum günü olan kullanıcılar: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Hiçbir kullanıcı %d önümüzdeki günlerde doğum günü var'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = 'Hiçbir kullanıcı bugün doğum günün';
 $lang['BIRTHDAY_ENABLE'] = 'Doğum günü etkinleştir';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max yaş';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min yaş';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Gelecek doğum günlerini kontrol etmek için günler';
 $lang['YEARS'] = 'Yıl';
 
 $lang['NO_THEMES'] = 'Veritabanında Temalar';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = 'Reset otomatik girişi anahtarı';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'ziyaret ettiğiniz tüm yerleri de dahil olmak üzere foruma otomatik giriş etkin';
 
 $lang['AVATAR'] = 'Avatar';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = 'Mesajlarınızda bilgilerin altında küçük bir grafik resim görüntüler. Aynı anda yalnızca bir resim gösterilebilir, genişliği %d pikselden fazla olamaz, yüksekliği %d pikselden fazla olamaz ve dosya boyutu %s\'dan fazla olamaz.';
 $lang['AVATAR_DELETE'] = 'Silmek avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar kontrol seçeneği ihlali için <a href="%s"><b>forum rules</b></a> devre dışı';
 $lang['UPLOAD_AVATAR_FILE'] = 'Upload avatar';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = 'Profile geri';
 $lang['SELECT_CATEGORY'] = 'Kategori seçin';
 
 $lang['DELETE_IMAGE'] = 'Görüntüyü sil';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = 'MonsterID avatarını ayarla';
 $lang['CURRENT_IMAGE'] = 'Geçerli görüntü';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Yeni özel mesaj bildir';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = 'Profiliniz güncellendi. Ancak, hayati ayr�
 
 $lang['PASSWORD_MISMATCH'] = 'Girdiğiniz parolalar uyuşmuyor.';
 $lang['CURRENT_PASSWORD_MISMATCH'] = 'Sağladığınız geçerli parola veritabanında saklanan eşleşmiyor.';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = 'Şifreniz %d karakterden uzun olmamalı ve %d karakterden kısa olmamalıdır.';
 $lang['TOO_MANY_REGISTERS'] = 'Çok fazla kayıt girişimleri yaptık. Lütfen daha sonra tekrar deneyin.';
 $lang['USERNAME_TAKEN'] = 'Üzgünüm, ama bu kullanıcı adı zaten alınmış.';
 $lang['USERNAME_INVALID'] = 'Üzgünüm, ama bu kullanıcı adı geçersiz bir karakter içeriyor.';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Üzgünüm, ama bu kullanıcı adı sayılmadı.
 $lang['USERNAME_TOO_LONG'] = 'Adın çok uzun.';
 $lang['USERNAME_TOO_SMALL'] = 'Adını çok küçük.';
 $lang['EMAIL_TAKEN'] = 'Üzgünüm, ama e-posta adresi zaten bir kullanıcı için kayıtlı.';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = 'Üzgünüm, ancak <b>%s</b> adres yasaklandı.';
 $lang['EMAIL_INVALID'] = 'Üzgünüm, ama bu e-posta adresi geçersiz.';
 $lang['EMAIL_TOO_LONG'] = 'E-posta çok uzun.';
 $lang['SIGNATURE_TOO_LONG'] = 'İmzanız çok uzun.';
@@ -691,17 +691,17 @@ $lang['DESC'] = 'İnen';
 $lang['ORDER'] = 'Sipariş';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = 'Bu konuya oy ver';
+$lang['THANKS_GRATITUDE'] = 'Minnettarlığınızı takdir ediyoruz';
+$lang['LAST_LIKES'] = 'Son oylar';
+$lang['LIKE_OWN_POST'] = 'Kendi konunuza oy veremezsiniz';
+$lang['NO_LIKES'] = 'Henüz hiç kimse oy vermedi';
+$lang['LIKE_ALREADY'] = 'Bu konuya zaten oy verdiniz';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = 'Davet kodu';
+$lang['INCORRECT_INVITE'] = 'Davet bulunamadı';
+$lang['INVITE_EXPIRED'] = 'Davetin süresi dolmuş';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = 'Kullanıcı Grupları';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = 'Grubunuza katılmak için bir istek yapıldı.';
 $lang['GROUP_APPROVED'] = 'Talebiniz onaylandı.';
 $lang['GROUP_ADDED'] = 'Bu grup için eklenmiş.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Zaten bu grubun bir üyesisin';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s zaten bu grubun bir üyesidir';
+$lang['USER_IS_MOD_GROUP'] = '%s bu grubun moderatörüdür';
 $lang['GROUP_TYPE_UPDATED'] = 'Başarılı bir grup türü güncellendi.';
 $lang['EFFECTIVE_DATE'] = 'Tarih Etkili';
 
@@ -985,271 +985,271 @@ $lang['DATETIME']['NOV'] = 'Kas';
 $lang['DATETIME']['DEC'] = 'Ara';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = 'Ülke';
+$lang['SET_OWN_COUNTRY'] = 'Kendi ülkenizi ayarlayın (Manuel)';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
+    0 => 'Seçilmedi',
     'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
-    'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
+    'AE' => 'Birleşik Arap Emirlikleri',
+    'AF' => 'Afganistan',
+    'AG' => 'Antigua ve Barbuda',
     'AI' => 'Anguilla',
-    'AL' => 'Albania',
-    'AM' => 'Armenia',
+    'AL' => 'Arnavutluk',
+    'AM' => 'Ermenistan',
     'AO' => 'Angola',
-    'AQ' => 'Antarctica',
-    'AR' => 'Argentina',
-    'AS' => 'American Samoa',
-    'AT' => 'Austria',
-    'AU' => 'Australia',
+    'AQ' => 'Antarktika',
+    'AR' => 'Arjantin',
+    'AS' => 'Amerikan Samoa',
+    'AT' => 'Avusturya',
+    'AU' => 'Avustralya',
     'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
-    'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
+    'AX' => 'Aland Adaları',
+    'AZ' => 'Azerbaycan',
+    'BA' => 'Bosna-Hersek',
     'BB' => 'Barbados',
-    'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
+    'BD' => 'Bangladeş',
+    'BE' => 'Belçika',
     'BF' => 'Burkina Faso',
-    'BG' => 'Bulgaria',
-    'BH' => 'Bahrain',
+    'BG' => 'Bulgaristan',
+    'BH' => 'Bahreyn',
     'BI' => 'Burundi',
     'BJ' => 'Benin',
     'BL' => 'Saint Barthélemy',
     'BM' => 'Bermuda',
-    'BN' => 'Brunei Darussalam',
-    'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
-    'BR' => 'Brazil',
-    'BS' => 'Bahamas',
-    'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
-    'BW' => 'Botswana',
+    'BN' => 'Brunei',
+    'BO' => 'Bolivya',
+    'BQ' => 'Karayip Hollanda',
+    'BR' => 'Brezilya',
+    'BS' => 'Bahama',
+    'BT' => 'Butan',
+    'BV' => 'Bouvet Adası',
+    'BW' => 'Botsvana',
     'BY' => 'Belarus',
     'BZ' => 'Belize',
-    'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
-    'CL' => 'Chile',
-    'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
-    'CO' => 'Colombia',
-    'CR' => 'Costa Rica',
-    'CU' => 'Cuba',
+    'CA' => 'Kanada',
+    'CC' => 'Cocos (Keeling) Adaları',
+    'CD' => 'Kongo, Demokratik Cumhuriyeti',
+    'CF' => 'Orta Afrika Cumhuriyeti',
+    'CG' => 'Kongo Cumhuriyeti',
+    'CH' => 'İsviçre',
+    'CI' => 'Fas Cumhuriyeti',
+    'CK' => 'Cook Adaları',
+    'CL' => 'Şili',
+    'CM' => 'Kamerun',
+    'CN' => 'Çin (Çin Halk Cumhuriyeti)',
+    'CO' => 'Kolombiya',
+    'CR' => 'Kosta Rika',
+    'CU' => 'Küba',
     'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
-    'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
+    'CW' => 'Curaçao',
+    'CX' => 'Noel Adası',
+    'CY' => 'Kıbrıs',
+    'CZ' => 'Çek Cumhuriyeti',
+    'DE' => 'Almanya',
     'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
-    'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
-    'DZ' => 'Algeria',
-    'EC' => 'Ecuador',
-    'EE' => 'Estonia',
-    'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
-    'ER' => 'Eritrea',
-    'ES' => 'Spain',
-    'ET' => 'Ethiopia',
-    'EU' => 'Europe',
-    'FI' => 'Finland',
+    'DK' => 'Danimarka',
+    'DM' => 'Dominika',
+    'DO' => 'Dominikan Cumhuriyeti',
+    'DZ' => 'Cezayir',
+    'EC' => 'Ekvador',
+    'EE' => 'Estonya',
+    'EG' => 'Mısır',
+    'EH' => 'Batı Sahra',
+    'ER' => 'Eritre',
+    'ES' => 'İspanya',
+    'ET' => 'Etiyopya',
+    'EU' => 'Avrupa',
+    'FI' => 'Finlandiya',
     'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
+    'FK' => 'Falkland Adaları (Malvinas)',
+    'FM' => 'Mikronezya, Federasyon Devletleri',
+    'FO' => 'Faroe Adaları',
+    'FR' => 'Fransa',
     'GA' => 'Gabon',
-    'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
-    'GB-SCT' => 'Scotland',
-    'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
+    'GB-ENG' => 'İngiltere',
+    'GB-NIR' => 'Kuzey İrlanda',
+    'GB-SCT' => 'İskoçya',
+    'GB-WLS' => 'Galler',
+    'GB' => 'Birleşik Krallık',
     'GD' => 'Grenada',
-    'GE' => 'Georgia',
-    'GF' => 'French Guiana',
+    'GE' => 'Gürcistan',
+    'GF' => 'Fransız Guyanası',
     'GG' => 'Guernsey',
-    'GH' => 'Ghana',
-    'GI' => 'Gibraltar',
-    'GL' => 'Greenland',
+    'GH' => 'Gana',
+    'GI' => 'Cebelitarık',
+    'GL' => 'Grönland',
     'GM' => 'Gambia',
-    'GN' => 'Guinea',
+    'GN' => 'Gine',
     'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
+    'GQ' => 'Ekvator Ginesi',
+    'GR' => 'Yunanistan',
+    'GS' => 'Güney Georgia ve Güney Sandwich Adaları',
     'GT' => 'Guatemala',
     'GU' => 'Guam',
-    'GW' => 'Guinea-Bissau',
+    'GW' => 'Gine-Bissau',
     'GY' => 'Guyana',
     'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
+    'HM' => 'Heard Adası ve McDonald Adaları',
     'HN' => 'Honduras',
-    'HR' => 'Croatia',
+    'HR' => 'Hırvatistan',
     'HT' => 'Haiti',
-    'HU' => 'Hungary',
-    'ID' => 'Indonesia',
-    'IE' => 'Ireland',
-    'IL' => 'Israel',
-    'IM' => 'Isle of Man',
-    'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
-    'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
-    'IS' => 'Iceland',
-    'IT' => 'Italy',
+    'HU' => 'Macaristan',
+    'ID' => 'Endonezya',
+    'IE' => 'İrlanda',
+    'IL' => 'İsrail',
+    'IM' => 'Man Adası',
+    'IN' => 'Hindistan',
+    'IO' => 'Britanya Hint Okyanusu Bölgesi',
+    'IQ' => 'Irak',
+    'IR' => 'İran, İslam Cumhuriyeti',
+    'IS' => 'İzlanda',
+    'IT' => 'İtalya',
     'JE' => 'Jersey',
-    'JM' => 'Jamaica',
-    'JO' => 'Jordan',
-    'JP' => 'Japan',
+    'JM' => 'Jamaika',
+    'JO' => 'Ürdün',
+    'JP' => 'Japonya',
     'KE' => 'Kenya',
-    'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
+    'KG' => 'Kırgızistan',
+    'KH' => 'Kamboçya',
     'KI' => 'Kiribati',
-    'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
-    'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
-    'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
+    'KM' => 'Komorlar',
+    'KN' => 'Saint Kitts ve Nevis',
+    'KP' => 'Kore, Demokratik Halk Cumhuriyeti',
+    'KR' => 'Kore, Cumhuriyet',
+    'KW' => 'Kuveyt',
+    'KY' => 'Cayman Adaları',
+    'KZ' => 'Kazakistan',
+    'LA' => 'Laos (Lao Halk Demokratik Cumhuriyeti)',
+    'LB' => 'Lübnan',
     'LC' => 'Saint Lucia',
     'LI' => 'Liechtenstein',
     'LK' => 'Sri Lanka',
-    'LR' => 'Liberia',
-    'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
-    'LU' => 'Luxembourg',
-    'LV' => 'Latvia',
+    'LR' => 'Liberya',
+    'LS' => 'Lesoto',
+    'LT' => 'Litvanya',
+    'LU' => 'Lüksemburg',
+    'LV' => 'Letonya',
     'LY' => 'Libya',
-    'MA' => 'Morocco',
-    'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
-    'ME' => 'Montenegro',
+    'MA' => 'Fas',
+    'MC' => 'Monako',
+    'MD' => 'Moldova, Cumhuriyeti',
+    'ME' => 'Karadağ',
     'MF' => 'Saint Martin',
-    'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
+    'MG' => 'Madagaskar',
+    'MH' => 'Marshall Adaları',
+    'MK' => 'Kuzey Makedonya',
     'ML' => 'Mali',
     'MM' => 'Myanmar',
-    'MN' => 'Mongolia',
+    'MN' => 'Moğolistan',
     'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
+    'MP' => 'Kuzey Mariana Adaları',
     'MQ' => 'Martinique',
     'MR' => 'Mauritania',
     'MS' => 'Montserrat',
     'MT' => 'Malta',
     'MU' => 'Mauritius',
-    'MV' => 'Maldives',
-    'MW' => 'Malawi',
-    'MX' => 'Mexico',
-    'MY' => 'Malaysia',
-    'MZ' => 'Mozambique',
-    'NA' => 'Namibia',
-    'NC' => 'New Caledonia',
-    'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
-    'NG' => 'Nigeria',
-    'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
+    'MV' => 'Maldivler',
+    'MW' => 'Malavi',
+    'MX' => 'Meksika',
+    'MY' => 'Malezya',
+    'MZ' => 'Mozambik',
+    'NA' => 'Namibya',
+    'NC' => 'Yeni Kaledonya',
+    'NE' => 'Nijer',
+    'NF' => 'Norfolk Adası',
+    'NG' => 'Nijerya',
+    'NI' => 'Nikaragua',
+    'NL' => 'Hollanda',
+    'NO' => 'Norveç',
     'NP' => 'Nepal',
     'NR' => 'Nauru',
     'NU' => 'Niue',
-    'NZ' => 'New Zealand',
-    'OM' => 'Oman',
+    'NZ' => 'Yeni Zelanda',
+    'OM' => 'Umman',
     'PA' => 'Panama',
     'PE' => 'Peru',
-    'PF' => 'French Polynesia',
-    'PG' => 'Papua New Guinea',
-    'PH' => 'Philippines',
+    'PF' => 'Fransız Polinezyası',
+    'PG' => 'Papua Yeni Gine',
+    'PH' => 'Filipinler',
     'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
+    'PL' => 'Polonya',
+    'PM' => 'Saint Pierre ve Miquelon',
     'PN' => 'Pitcairn',
-    'PR' => 'Puerto Rico',
-    'PS' => 'Palestine',
-    'PT' => 'Portugal',
+    'PR' => 'Porto Riko',
+    'PS' => 'Filistin',
+    'PT' => 'Portekiz',
     'PW' => 'Palau',
     'PY' => 'Paraguay',
-    'QA' => 'Qatar',
+    'QA' => 'Katar',
     'RE' => 'Réunion',
-    'RO' => 'Romania',
-    'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
-    'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
-    'SC' => 'Seychelles',
+    'RO' => 'Romanya',
+    'RS' => 'Sırbistan',
+    'RU' => 'Rusya Federasyonu',
+    'RW' => 'Ruanda',
+    'SA' => 'Suudi Arabistan',
+    'SB' => 'Solomon Adaları',
+    'SC' => 'Seyşeller',
     'SD' => 'Sudan',
-    'SE' => 'Sweden',
-    'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
-    'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SK' => 'Slovakia',
+    'SE' => 'İsveç',
+    'SG' => 'Singapur',
+    'SH' => 'Saint Helena, Ascension ve Tristan da Cunha',
+    'SI' => 'Slovenya',
+    'SJ' => 'Svalbard ve Jan Mayen Adaları',
+    'SK' => 'Slovakya',
     'SL' => 'Sierra Leone',
     'SM' => 'San Marino',
     'SN' => 'Senegal',
-    'SO' => 'Somalia',
-    'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
+    'SO' => 'Somali',
+    'SR' => 'Surinam',
+    'SS' => 'Güney Sudan',
+    'SU' => 'Sovyetler Birliği',
+    'ST' => 'Sao Tome ve Principe',
     'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
-    'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
-    'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
+    'SX' => 'Sint Maarten (Hollanda kısmı)',
+    'SY' => 'Suriye Arap Cumhuriyeti',
+    'SZ' => 'Svaziland',
+    'TC' => 'Turks ve Caicos Adaları',
+    'TD' => 'Çad',
+    'TF' => 'Fransız Güney Bölgeleri',
     'TG' => 'Togo',
-    'TH' => 'Thailand',
-    'TJ' => 'Tajikistan',
+    'TH' => 'Tayland',
+    'TJ' => 'Tacikistan',
     'TK' => 'Tokelau',
     'TL' => 'Timor-Leste',
-    'TM' => 'Turkmenistan',
-    'TN' => 'Tunisia',
+    'TM' => 'Türkmenistan',
+    'TN' => 'Tunus',
     'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
+    'TR' => 'Türkiye',
+    'TT' => 'Trinidad ve Tobago',
     'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
-    'UA' => 'Ukraine',
+    'TW' => 'Tayvan (Çin Cumhuriyeti)',
+    'TZ' => 'Tanzanya, Birleşik Cumhuriyeti',
+    'UA' => 'Ukrayna',
     'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
+    'UM' => 'ABD Küçük Dış Adaları',
+    'US' => 'Amerika Birleşik Devletleri',
     'UY' => 'Uruguay',
-    'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
+    'UZ' => 'Özbekistan',
+    'VA' => 'Kutsal Makam (Vatikan Şehir Devleti)',
+    'VC' => 'Saint Vincent ve Grenadinler',
+    'VE' => 'Venezuela, Bolivarcı Cumhuriyet',
+    'VG' => 'Virjin Adaları, Britanya',
+    'VI' => 'Virjin Adaları, ABD',
     'VN' => 'Vietnam',
     'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
+    'WF' => 'Wallis ve Futuna Adaları',
     'WS' => 'Samoa',
-    'XK' => 'Kosovo',
+    'XK' => 'Kosova',
     'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
+    'YU' => 'Yugoslavya',
     'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
+    'ZA' => 'Güney Afrika',
     'ZM' => 'Zambia',
-    'ZW' => 'Zimbabwe',
+    'ZW' => 'Zimbabve',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
-    'LGBT' => 'Pride flag'
+    'WBW' => 'Gelecek Harika Rusya',
+    'PACE' => 'Barış bayrağı',
+    'LGBT' => 'Gurur bayrağı'
 ];
 
 // Errors
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = 'Açıklama'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'İndir'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filesize';
 $lang['VIEWED'] = 'Görüntülenen';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '\'%s\' uzantısı bir yönetici tarafından devre dışı bırakıldı, bu nedenle bu ek görüntülenmez.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
-$lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
+$lang['STREAM'] = 'Akış';
+$lang['RESOLUTION'] = 'Çözüm: <b>%s</b>';
+$lang['CHANNELS'] = 'Kanallar: <b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = 'Kanal düzeni: <b>%s</b>';
 $lang['BITRATE'] = 'Bitrate: <b>%s</b>';
-$lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
-$lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
-$lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['SAMPLE_RATE'] = 'Örnekleme hızı: <b>%s</b>';
+$lang['AUDIO_TRACK'] = 'Ses parçası bilgisi (%d):';
+$lang['AUDIO_CODEC'] = 'Ses kodeği: <b title="%s">%s</b>';
+$lang['VIDEO_CODEC'] = 'Video kodeği: <b title="%s">%s</b>';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Dosya hakkında daha fazla bilgi göster';
+$lang['DOWNLOAD_M3U_FILE'] = 'İndir .m3u dosyası';
+$lang['PLAYBACK_M3U'] = 'Oynatma .m3u dosyası';
+$lang['COPY_STREAM_LINK'] = 'Akış bağlantısını panoya kopyala';
+$lang['M3U_NOT_SUPPORTED'] = 'Bu dosya tarayıcıda oynatılamaz...';
+$lang['M3U_FFPROBE_NO_DATA'] = 'Görünüşe göre ffprobe bu kodek hakkında veri döndüremeyecek...';
+$lang['M3U_NOTICE'] = 'Bazı tarayıcılar belirli video formatlarının oynatılmasını desteklememektedir. Bu durumda, .m3u dosyasını indirip üçüncü parti bir oynatıcıda oynatabilirsiniz';
 
 $lang['ATTACHMENT'] = 'Ekleri';
 $lang['ATTACHMENT_THUMBNAIL'] = 'Ek Küçük Resim';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = 'Eklendi';
 $lang['BT_REG_ON_TRACKER'] = 'İzci kayıt';
 $lang['BT_REG_FAIL'] = 'İzci torrent kaydedilemedi';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Aynı info_hash ile başka bir torrent zaten <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrentler şu anda yönetici tarafından devre dışı bırakıldı, izin verilen: v2 ve hibritler';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrentler şu anda yönetici tarafından devre dışı bırakıldı, izin verilen: v1 ve hibritler';
+$lang['BT_FLIST'] = 'Dosyalar listesi';
+$lang['BT_FLIST_LIMIT'] = 'İzleyici ayarları %d\'den fazla dosya içeren listelerin işlenmesine izin vermiyor. Mevcut sayı: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root, BitTorrent v2 desteğiyle eklenmiş torrentlerdeki bir dosyanın hash\'idir, izleyiciler bunu çıkartabilir, hesaplayabilir ve <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a> gibi masaüstü araçları kullanarak tekrarlanmış torrentleri indirebilir';
+$lang['BT_FLIST_CREATION_DATE'] = 'Oluşturma tarihi';
+$lang['BT_IS_PRIVATE'] = 'Özel torrent';
+$lang['BT_FLIST_FILE_PATH'] = 'Yol (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = 'Dosya hash\'leri | .torrent meta bilgileri';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Duyurucu listesi';
+$lang['BT_FLIST_ANNOUNCERS'] = 'Duyurucular';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Bu liste torrent dosyasının duyurucularını içerir';
 $lang['BT_UNREG_FROM_TRACKER'] = 'İzleyiciden Kaldır';
 $lang['BT_UNREGISTERED'] = 'Torrent kayıtsız';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent zaten kayıtsız';
 $lang['BT_REGISTERED'] = 'Torrent <a href="%s"><b>download torrent</b></a> ihtiyaç duyduğunuz ve indirme yolu olarak paylaştığınız özgün dosyaları ile klasör seçme BitTorrent istemcisi kullanarak tracker<br /><br />Now kayıtlı';
 $lang['INVALID_ANN_URL'] = 'Geçersiz İlan URL [%s]<br /><br />must <b>%s</b> olmak';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'İzci kayıtlı değil passkey<br /><br />Torrent eklenemedi';
 $lang['BT_PASSKEY'] = 'Geçiş anahtarı';
 $lang['BT_GEN_PASSKEY'] = 'yeni oluştur';
 $lang['BT_PASSKEY_VIEW'] = 'göster';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Dikkat! Şifre anahtarınızı değiştirdikten sonra, tüm aktif torrentleri yeniden indirmeniz gerekecek! \n Yeni bir şifre anahtarı oluşturmak istediğinize emin misiniz?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Hayır aranabilir forumlar';
 
 $lang['SEEDS'] = 'Tohum';
@@ -1403,35 +1403,35 @@ $lang['RELEASING'] = 'Kendini';
 $lang['SEEDING'] = 'Tohum';
 $lang['LEECHING'] = 'Sülük';
 $lang['IS_REGISTERED'] = 'Kayıtlı';
-$lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET'] = 'Manyet bağlı';
+$lang['MAGNET_FOR_GUESTS'] = 'Konuklar için manyet bağlı göster';
+$lang['MAGNET_v2'] = 'Manyet bağlantısı (BitTorrent v2 destekli)';
 
 //torrent status mod
 $lang['TOR_STATUS'] = 'Durumu';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Durumu seçin';
 $lang['TOR_STATUS_NOT_SELECT'] = 'Durum seçmediniz.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Tüm durumlar';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = 'Bu konunun durumu: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'işaretli değil',
     TOR_CLOSED => 'kapalı',
     TOR_APPROVED => 'kontrol',
     TOR_NEED_EDIT => 'resmiyet kadar değil',
     TOR_NO_DESC => 'resmiyet değil',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => 'çift',
+    TOR_CLOSED_CPHOLD => 'kapalı (telif hakkı)',
     TOR_CONSUMED => 'emilen',
     TOR_DOUBTFUL => 'şüpheli',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => 'kontrol ediliyor',
     TOR_TMP => 'geçici',
     TOR_PREMOD => 'pre-ılımlılık',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => 'doldurmak',
 ];
 $lang['TOR_STATUS_FAILED'] = 'Böyle bir durum yok!';
 $lang['TORRENT_FAILED'] = 'Dağıtım bulunamadı!';
 $lang['TOR_STATUS_DUB'] = 'Dağıtım aynı durum vardır';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Durum değişikliği yapılamaz!';
 $lang['TOR_STATUS_OF'] = 'Dağıtım durumu vardır:';
 $lang['TOR_STATUS_CHANGED'] = 'Durum değişti: ';
 $lang['TOR_BACK'] = ' geri';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Eksik dosya tanımlayıcıyı!';
 $lang['CHANGE_TOR_TYPE'] = 'Tür torrent başarıyla değiştirildi';
 $lang['DEL_TORRENT'] = 'Torrent silmek istediğinizden emin misiniz?';
 $lang['DEL_MOVE_TORRENT'] = 'Silmek ve konuyu taşımak istediğinizden emin misiniz?';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = 'Tamamlanmamış bir yayınız var. Yeni bir tane oluşturmadan önce lütfen bunu bitirin!';
+$lang['TOR_STATUS_LOG_ACTION'] = 'Yeni durum: %s.<br/>Önceki durum: %s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Dağıtım statüsünün değiştirilmesi - %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Merhaba, %s.\n\n[url=%s]dağıtımınızın[/url] durumu [b]%s[/b] olarak değiştirildi";
 
 $lang['TOR_AUTH_TITLE'] = 'Tasarım değişiklikleri - %s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "Merhaba, %s.\n\nDağıtımınız değiştirildi - [url=%s]%s[/url]\n\nLütfen bunu tekrar kontrol edin.";
 $lang['TOR_AUTH_FIXED'] = 'Sabit';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The bilgi moderatör gönderdi. Bekliyoruz.</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = 'Son tohum görüldü';
 $lang['BT_SORT_FORUM'] = 'Forum';
 $lang['SIZE'] = 'Boyutu';
 $lang['PIECE_LENGTH'] = 'Parça uzunluğu';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = 'Tamamlanan indirmeler';
 $lang['ADDED'] = 'Eklendi';
 $lang['DELETE_TORRENT'] = 'Sil torrent';
 $lang['DELETE_MOVE_TORRENT'] = 'Silmek ve hareket konu';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = 'Gümüş olun';
 $lang['UNSET_SILVER_TORRENT'] = 'Yapamazsınız Gümüş';
 $lang['GOLD_STATUS'] = 'ALTIN TORRENT! İNDİR TRAFİK DİKKATE ALMAZ.';
 $lang['SILVER_STATUS'] = 'GÜMÜŞ TORRENT! İNDİR TRAFİK KISMEN KABUL!';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent türü şuna değiştirildi: %s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = 'Sürüm durumuna göre ara';
 $lang['SEARCH_IN_FORUMS'] = 'Forumlarda arama';
 $lang['SELECT_CAT'] = 'Kategori seçin';
 $lang['GO_TO_SECTION'] = 'Goto bölüm';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Torrent zaten kayıtlı';
 $lang['NOT_TORRENT'] = 'Bu dosya torrent değil';
 $lang['ONLY_1_TOR_PER_POST'] = 'Bir yazı yalnızca bir torrent kaydedebilirsiniz';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Bir konuda tek bir torrent kaydedebilirsiniz';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent profili';
 $lang['CUR_ACTIVE_DLS'] = 'Etkin torrentler';
 
 $lang['TD_TRAF'] = 'Bugün';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Seçin';
 $lang['SEED_BONUS'] = 'Tohum bonus';
 $lang['EXCHANGE'] = 'Döviz';
 $lang['EXCHANGE_BONUS'] = 'Tohum ikramiye değişimi';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s dağıtıma</b> <br /> Trafiğinizden %1$s bonus puan almak için toplamınıza eklenecektir.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Fiyat';
 $lang['EXCHANGE_NOT'] = 'Exchange mevcut değil';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You ikramiye yok. Daha fazla to
 $lang['BONUS_RETURN'] = 'Tohum bonus değişimi dönmek';
 
 $lang['TRACKER'] = 'İzci';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = 'Rastgele sürüm';
 $lang['OPEN_TOPICS'] = 'Açık konular';
 $lang['OPEN_IN_SAME_WINDOW'] = 'aynı pencerede aç';
 $lang['SHOW_TIME_TOPICS'] = 'yaratılış konuları zaman gösterecek';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Tasarımcı';
 $lang['LAST_IP'] = 'Son IP:';
 $lang['REG_IP'] = 'Kayıt IP:';
 $lang['OTHER_IP'] = 'Diğer IP:';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'IP adresinizle zaten kaydedilmiş bir kullanıcı %s\'dir. Eğer daha önce izleyicimizde kayıtlı değilseniz, <a href="mailto:%s">Yöneticiye</a> e-posta gönderin';
 $lang['HIDDEN'] = 'Gizli';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = 'Asla';
 //mpd
 $lang['DELETE_POSTS'] = 'Sil seçilen mesaj';
 $lang['DELETE_POSTS_SUCCESFULLY'] = 'Seçilen mesajlar başarıyla kaldırıldı';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = 'Herhangi bir gönderi kaldırılmadı.';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Duyurular';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = 'Post zaman güncelleme';
 $lang['TOPIC_SPLIT_NEW'] = 'Yeni konu';
 $lang['TOPIC_SPLIT_OLD'] = 'Eski konu';
 $lang['BOT_LEAVE_MSG_MOVED'] = 'Taşınmayı bot Ekle-mesaj';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = 'Taşıma nedeni';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = '<b>old topic</b> split hakkında bot-mesaj ekleyin';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = '<b>new topic</b> split hakkında bot-mesaj ekleyin';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['cevap', 'cevaplar'];
 $lang['DECLENSION']['TIMES'] = ['zaman', 'kere'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['dosya', 'dosyalar'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['ikinci', 'saniye'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = 'Yorum';
 
 // search
 $lang['SEARCH_S'] = 'arama...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = 'forumda';
+$lang['TRACKER_S'] = 'izleyicide';
 $lang['HASH_S'] = 'tarafından info_hash';
 
 // copyright
 $lang['NOTICE'] = '!DİKKAT!';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = 'Site, ürünlerin elektronik sürümlerini sağlamaz ve yalnızca okuyucularımızın gönderip yayınladığı referansların toplanması ve kataloglanmasıyla ilgilenir. Eğer herhangi bir gönderilen materyalin yasal sahibiyseniz ve buna atıf yapılmasını istemiyorsanız, lütfen bizimle iletişime geçin ve hemen onu kaldıracağız. İzleyicideki dosyalar, sitenin kullanıcıları tarafından sunulmaktadır ve yönetim bunların içeriğinden sorumlu tutulamaz. Lütfen telif hakkıyla korunan veya yasadışı içerik barındıran dosyaları yüklemeyin!';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Çöküş dizini';
 $lang['EXPAND'] = 'Genişletin';
 $lang['SWITCH'] = 'Anahtarı';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Pencereyi artırın/azaltın';
 $lang['EMPTY_ATTACH_ID'] = 'Eksik dosya tanımlayıcıyı!';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = 'Sunucuda dosya yok!';
 $lang['ERROR_BUILD'] = 'Bu torrent dosyasının içeriğini (dosya listesi oluşturmak mümkün değildi)sitesinde izlenemez';
 $lang['TORFILE_INVALID'] = 'Torrent dosyası bozuk';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site" sadece http://sitename içerebilir';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = '"ICQ" alanı yalnızca bir ICQ numarası içerebilir';
+$lang['INVALID_DATE'] = 'Geçersiz tarih';
 $lang['PROFILE_USER'] = 'Görüntüleme profili';
 $lang['GOOD_UPDATE'] = 'başarıyla değiştirildi';
 $lang['UCP_DOWNLOADS'] = 'İndir';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Bu kullanıcıyı silmek istediğinizden emin mi
 $lang['USER_DELETED'] = 'Kullanıcı başarıyla silindi';
 $lang['DELETE_USER_ALL_POSTS'] = 'Tüm kullanıcı mesajları silmek';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Bu kullanıcı tarafından başlatılan tüm mesajları ve tüm konuları silmek istediğinizden emin misiniz?';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = 'İlk gönderiler dışındaki tüm mesajları sil';
 $lang['DELETE_USER_POSTS_ME'] = 'Bütün mesajları silmek istediğinizden emin misiniz?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'İlk gönderiler dışındaki tüm mesajları silmek istediğinize emin misiniz?';
 $lang['USER_DELETED_POSTS'] = 'Mesajlar başarıyla kaldırıldı';
 
 $lang['USER'] = 'Kullanıcı';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Gizli gruplar görüntülemek için yetkiniz yok';
 
 $lang['USER_ACTIVATE'] = 'Etkinleştirmek';
 $lang['USER_DEACTIVATE'] = 'Devre dışı bırak';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = 'Bu kullanıcıyı devre dışı bırakmak istediğinize emin misiniz?';
 $lang['USER_ACTIVATE_ON'] = 'Kullanıcı başarıyla etkinleştirildi';
 $lang['USER_DEACTIVATE_ME'] = 'Hesabımı devre dışı bırakmak mümkün değil!';
 $lang['ACTIVATE_CONFIRM'] = 'Bu kullanıcı devre dışı bırakmak istediğinizden emin misiniz?';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = 'E-posta belirtmeniz gerekir';
 $lang['CHOOSE_PASS'] = 'Parola alanı boş olamaz!';
 $lang['CHOOSE_PASS_ERR'] = 'Girilen şifreler eşleşmiyor';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Şifrenizi %d en azından karakter olmalıdır';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Şifreniz %d karakterden daha uzun olmamalıdır';
+$lang['CHOOSE_PASS_ERR_NUM'] = 'Parola en az bir rakam içermelidir';
+$lang['CHOOSE_PASS_ERR_LETTER'] = 'Parola en az bir Latin alfabesi harfi içermelidir';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'Parola en az bir büyük harf içermelidir';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Parola en az bir özel karakter içermelidir';
 $lang['CHOOSE_PASS_OK'] = 'Parolalar eşleşmiyor';
 $lang['CHOOSE_PASS_REG_OK'] = 'Şifreler aynı, kayıt devam edebilirsiniz';
 $lang['CHOOSE_PASS_FAILED'] = 'Şifreyi değiştirmek için doğru, geçerli parola belirtmeniz gerekir';
 $lang['EMAILER_DISABLED'] = 'Üzgünüm, bu özelliği geçici olarak çalışmıyor';
 $lang['TERMS_ON'] = 'Bu Şartlar ve koşullar kabul ediyorum';
 $lang['TERMS_OFF'] = 'Bu koşulları kabul etmiyorum';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'Kayıt olmak için JavaScript\'in etkinleştirilmesi gerekir';
+$lang['REGISTERED_IN_TIME'] = "Kayıt şu anda kapalı<br /><br />Kayıt şu saat aralığında mevcuttur: %s<br />Mevcut sunucu saati: %s<br /><br />Verdiğimiz rahatsızlıktan dolayı özür dileriz";
+$lang['AUTOCOMPLETE'] = 'Şifre oluştur';
 $lang['YOUR_NEW_PASSWORD'] = 'Yeni şifre:';
 $lang['REGENERATE'] = 'Yeniden';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = 'kapalı';
 $lang['MEMORY'] = 'Mem: ';
 $lang['QUERIES'] = 'sorguları';
 $lang['LIMIT'] = 'Sınırı:';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = 'Günlüğü göster';
+$lang['EXPLAINED_LOG'] = 'Açıklanan günlük';
+$lang['CUT_LOG'] = 'Uzun sorguları kes';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = 'Özgür ve maksimum hızda.';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = '(Ctrl+B)kalın metin: [b]text[/b]';
 $lang['ITALIC'] = 'İtalik metin: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = '(Ctrl+U)altı çizili metin: [u]text[/u]';
 $lang['STRIKEOUT'] = '(Ctrl+S)üstü çizili metin: [s]text[/s]';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
+$lang['BOX_TAG'] = 'Metin etrafında çerçeve: [box]text[/box] veya [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = 'Girinti ekleyin: [indent]text[/indent]';
+$lang['PRE_TAG'] = 'Önceden biçimlendirilmiş metin: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Üst simge metni: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Alt simge metni: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = '(Ctrl+Q)alıntı metin: [quote]text[/quote]';
 $lang['IMG_TITLE'] = 'Resim ekle: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'Url';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = 'Kod ekran: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Liste';
 $lang['LIST_TITLE'] = 'Liste: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = '(Ctrl+O)text[/list] [list=]sipariş listesi:';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = 'Kısaltma';
+$lang['ACRONYM_TITLE'] = 'Kısaltma: [acronym=Tam metin]Kısa metin[/acronym]';
 $lang['QUOTE_SEL'] = 'Seçili alıntı';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = 'Mesaj göndermek için JavaScript\'in etkinleştirilmesi gerekir';
 
 $lang['NEW'] = 'Yeni';
 $lang['NEWEST'] = 'En yeni';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL hızı';
 $lang['DL_DL_SPEED'] = 'DL hızı';
 $lang['DL_PORT'] = 'Bağlantı noktası';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'BitTorrent istemcisi';
 $lang['DL_FORMULA'] = 'Formül: Yükledi/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'durdu';
 $lang['DL_UPD'] = 'UDP: ';
 $lang['DL_INFO'] = 'veri <i><b>only geçerli session</b></i> için gösterir';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = 'BitTorrent istemci adımı gizle';
+$lang['HIDE_PEER_COUNTRY_NAME'] = 'Ülke adımı gizle';
+$lang['HIDE_PEER_USERNAME'] = 'Kullanıcı adımı gizle';
 
 // Post PIN
 $lang['POST_PIN'] = 'Pin ilk yazı';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = 'Listeden bir sipariş silmek için, simgesine herhangi
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'İzlenen konular';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Herhangi bir konuyu izlemiyorsunuz';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Ev sayfasına geri dön';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = 'Profiline git';
 
 $lang['WARNING'] = 'Uyarı';
 $lang['INDEXER'] = 'Anda arama';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = 'Arama dizini başarıyla güncellendi';
 
 $lang['FORUM_STYLE'] = 'Forum tarzı';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = 'Sürüm Şablonları';
 $lang['ACTIONS_LOG'] = 'Eylem raporu';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = 'Veritabanı Göç Durumu';
+$lang['MIGRATIONS_DATABASE_NAME'] = 'Veritabanı Adı';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Toplam Tablo';
+$lang['MIGRATIONS_DATABASE_SIZE'] = 'Veritabanı Boyutu';
+$lang['MIGRATIONS_DATABASE_INFO'] = 'Veritabanı Bilgisi';
+$lang['MIGRATIONS_SYSTEM'] = 'Göç Sistemi';
+$lang['MIGRATIONS_NEEDS_SETUP'] = 'Kurulum Gerekiyor';
 $lang['MIGRATIONS_ACTIVE'] = 'Aktif';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
-$lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Başlatılmamış';
+$lang['MIGRATIONS_UP_TO_DATE'] = 'Hepsi güncel';
+$lang['MIGRATIONS_PENDING_COUNT'] = 'beklemede';
+$lang['MIGRATIONS_APPLIED'] = 'Uygulanan Göçler';
+$lang['MIGRATIONS_PENDING'] = 'Bekleyen Göçler';
+$lang['MIGRATIONS_VERSION'] = 'Sürüm';
+$lang['MIGRATIONS_NAME'] = 'Göç Adı';
+$lang['MIGRATIONS_FILE'] = 'Göç Dosyası';
+$lang['MIGRATIONS_APPLIED_AT'] = 'Uygulandı';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'Tamamlandı';
+$lang['MIGRATIONS_CURRENT_VERSION'] = 'Mevcut Sürüm';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Uygulanan göç yok';
+$lang['MIGRATIONS_INSTRUCTIONS'] = 'Talimatlar';
+$lang['MIGRATIONS_SETUP_STATUS'] = 'Kurulum Durumu';
+$lang['MIGRATIONS_SETUP_GUIDE'] = 'Aşağıdaki kurulum kılavuzuna bakın';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = 'İşlem Gerekiyor';
 
 // Index
 $lang['MAIN_INDEX'] = 'Forum Dizini';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'Gzip sıkıştırma';
 $lang['NOT_AVAILABLE'] = 'Mevcut değil';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
+$lang['ADMIN_SYSTEM_INFORMATION'] = 'Sistem bilgisi';
 $lang['ADMIN_SYSTEM_OS'] = 'OS:';
 $lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
-$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Veritabanı:';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Hafıza sınırı:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk alanı bilgisi:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (kullanılan: %s | serbest: %s)';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Maksimum yürütme süresi:';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Veri deposuna';
-$lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_CACHE'] = 'Önbellek';
+$lang['CLEAR_TEMPLATES_CACHE'] = 'Şablonlar önbelleği';
 
 // Update
 $lang['USER_LEVELS'] = 'Kullanıcı seviyeleri';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Mesaj Sayısı kullanıcı eşitledikt
 $lang['SHOW_ONLINE_USERLIST'] = 'Online kullanıcıların listesini göster';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'robots.txt yönetimi';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'robots.txt dosyası başarıyla güncellendi';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%s robots.txt yöneticisine dönmek için buraya tıklayın%s';
 
 // Auth pages
 $lang['USER_SELECT'] = 'Bir Kullanıcı seçin';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = 'Kullanıcı izinleri güncellendi';
 $lang['GROUP_AUTH_UPDATED'] = 'Grup izinleri güncellendi';
 
 $lang['AUTH_UPDATED'] = 'İzinleri güncellendi';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = 'Yönetici durumu güncellenemedi';
+$lang['AUTH_SELF_ERROR'] = 'Kendinizi admin\'den kullanıcıya değiştiremediniz';
+$lang['NO_FORUMS_AVAILABLE'] = 'Hiç forum yok. Öncelikle izinleri yönetmek için forumlar oluşturun.';
 $lang['CLICK_RETURN_USERAUTH'] = '%sHere%s Kullanıcı İzinleri geri dönmek için tıklayın';
 $lang['CLICK_RETURN_GROUPAUTH'] = '%sHere%s Grup İzinlerine dönmek için tıklayın';
 $lang['CLICK_RETURN_FORUMAUTH'] = '%sHere%s İzinleri Foruma dönmek için tıklayın';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Ban Kontrol';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = 'Burada kullanıcıların yasaklanmasını kontrol edebilirsiniz.';
 $lang['BAN_USERNAME'] = 'Bir veya daha fazla belirli kullanıcılar Ban';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Bir bilgisayar fare ve klavye uygun kombinasyonu kullanılarak tarayıcı birden çok kullanıcının yasağı ve';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = 'Bir veya daha fazla belirli kullanıcıyı yasakla';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Bir bilgisayar fare ve klavye uygun kombinasyonu kullanılarak tarayıcı birden çok kullanıcı yasak kaldırma ve';
 $lang['NO_BANNED_USERS'] = 'Hayır yasaklı kullanıcı adları';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Status başarıyla güncellendi';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Forum Yönetimi';
 $lang['FORUM_ADMIN_EXPLAIN'] = 'Bu panelden Ekle, sil, Düzenle, Yeniden Sipariş ve yeniden senkronize kategoriler ve forumlar';
 $lang['EDIT_FORUM'] = 'Forum Düzenle';
 $lang['CREATE_FORUM'] = 'Yeni bir forum oluşturmak';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = 'Alt forum oluştur';
 $lang['CREATE_CATEGORY'] = 'Yeni kategori oluşturma';
 $lang['REMOVE'] = 'Kaldır';
 $lang['UPDATE_ORDER'] = 'Güncelleme Sırası';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = 'Tüm içeriğini taşımak';
 $lang['FORUM_DELETE'] = 'Sil Forum';
 $lang['FORUM_DELETE_EXPLAIN'] = 'Aşağıdaki formu (veya kategori) bir forum silmek ve içerdiği (ya da forumlar) tüm konuları nereye koymak istediğinize karar izin verir.';
 $lang['CATEGORY_DELETE'] = 'Sil Kategori';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = 'Kategori adı belirtilmemiş';
 
 $lang['STATUS_LOCKED'] = 'Kilitli';
 $lang['STATUS_UNLOCKED'] = 'Kilidi';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Bu formu kullanarak eklemek, düzenlemek, görüntüle
 $lang['ADD_NEW_RANK'] = 'Yeni rütbe Ekle';
 $lang['RANK_TITLE'] = 'Rütbe Başlığı';
 $lang['STYLE_COLOR'] = 'Stil rütbe';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = 'Başlığın istenen renkte stilini belirlemek için bir sınıf belirtin. Örneğin: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Rütbe Resim';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Rütbe ile ilgili küçük bir resim tanımlamak için kullanın';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%sHere%s Kullanıcı adı Yönetim izin V
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Sürüm Bilgileri';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = 'Güncelleme mevcut';
+$lang['CHANGELOG'] = 'Değişiklik günlüğü';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'İzin verilen oturum açma girişimleri';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Sadece yöneticiler';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s bu forum görüntüleyin';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s Bu forumdaki başlıkları okuyabilir';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s bu forumda gönderebilir';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s bu forumda gönderilere yanıt verebilir';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s bu forumda mesaj düzenleme';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s Bu forumdaki mesajları silebilir';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s Bu foruma sabit başlık göndermek olabilir';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = 'Eşitleme';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. haber uzunluğu';
 $lang['NEWS_COUNT'] = 'Haber çok göster nasıl';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'Hangi forumlardan görüntülenecek <br /> <h6>Birden fazla forum için, kimlikleri virgülle ayırarak belirtin. Örnek: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Hayır avatar';
 $lang['TRACKER_STATS'] = 'İzleyici istatistikleri';
 $lang['WHOIS_INFO'] = 'IP adresi hakkında bilgi';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Yöneticiler üzerinde index.php göster';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = 'index.php\'de forum başlangıç tarihini göster';
 $lang['PREMOD_HELP'] = 'V bu bölümde, * ya da T, kısımlar da dahil olmak üzere durumu dağılımları gerekmez <h4><span class="tor-icon tor-dup">&#8719;</span> Öncesi moderation</h4> <h6>İf, dağıtım otomatik olarak bu status</h6> almak';
 $lang['TOR_COMMENT'] = '<h4>Bir dağıtımın durumu hakkında yorum yapın</h4> <h6>Yorum, yayınlayıcıya yapılan hataları belirtmenizi sağlar. Durumlar eksikse sürüm</h6>düzeltmek için sürüm yöneticisine bir yayın yanıt formu sunulur.';
 $lang['SEED_BONUS_ADD'] = 'Dağılımları <h4>Adding tohum bonus </h4> <h6> Numarası </h6> kullanıcı ve onlar için ikramiye boyutu (saatte şarj) dağıtıldı';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = '%s Uzantısı Grup zaten var'; // replace %s w
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Özel Kategorileri Yönet';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Burada Özel Kategorileri yapılandırabilirsiniz. Uzantı Grubuna atanmış Özel Kategoriler için Özel Parametreler ve Koşullar ayarlayabilirsiniz.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Özel Kategori için ayarlar: Görüntüler';
 $lang['SETTINGS_CAT_FLASH'] = 'Özel Kategori ayarları: Flash Dosyaları';
 $lang['DISPLAY_INLINED'] = 'Ekran Görüntüleri İnlined';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = 'Url duyurmak';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'includes/torrent_announce_urls.php "ek izin urls tanımlayabilirsiniz';
 $lang['BT_DISABLE_DHT'] = 'Devre dışı bırakmak DHT ağ';
 $lang['BT_DISABLE_DHT_EXPL'] = '(Özel ağlar için önerilir)devre dışı bırakın, Eş Değişimi ve DHT url sadece duyurmak';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = 'Bu izleyici özel: dosya listesi (misafirler için), DHT | PEX devre dışı bırakıldı';
+$lang['BT_PRIVATE_TORRENT'] = 'Bu torrentin yaratıcısı onu özel yaptı';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Doğrulamak url duyurmak';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'kayıt tracker sadece urls izin';
 $lang['BT_REPLACE_ANN_URL'] = 'İlan url değiştirin';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Boolean tam metin arama izin ver';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'aramalarda * kullanın, +, -,.. ';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Muhtelif";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Forumun ana sayfasının en üstünde kullanıcı UL/DL istatistiklerini göster";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Otomatik olarak yeni konular için torrent tracker üzerinde kayıt';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'İzci torrent kaydedilirken değişikliği konusunu durumu "İndirmek" ';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'forum Ayarları ne olursa olsun, "İndir" konusu türü değişecek';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = 'Şablon devre dışı';
 $lang['FOR_NEW_TEMPLATE'] = 'yeni modeller için!';
 $lang['CHANGED'] = 'Değişti';
 $lang['REMOVED'] = 'Kaldırıldı';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = 'Onayla, bu işlemi gerçekleştirmek istediğine emin misin?';
 
 $lang['CRON_LIST'] = 'Cron listesi';
 $lang['CRON_ID'] = 'KİMLİĞİ';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Etkinleştir';
 $lang['RUN_MAIN_CRON'] = 'Başlangıç cron';
 $lang['ADD_JOB'] = 'Cron işi Ekle';
 $lang['DELETE_JOB'] = 'Cron işi silmek istediğinizden emin misiniz?';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron şu anda çalışıyor veya bozuk -> ';
 $lang['REPAIR_CRON'] = 'Tamir Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'İşi Düzenle';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Devre kartı';
 $lang['BOARD_DISABLE_EXPL'] = 'devre kartı bu işi olduğunda çalıştırmak';
 $lang['RUN_COUNTER'] = 'Sayacı çalıştırmak';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = 'İş başarıyla kaldırıldı';
 $lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> zaten var!';
 $lang['TITLE_DUPLICATE'] = 'Görev Adı <b>' . @$_POST['cron_title'] . '</b> zaten var!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sİş eklemeye geri dön%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack Göreve Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Arama Dizini Yeniden Oluşturmak';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Çok (sn) zaman bir sonraki işlem için cycle<
 
 $lang['TIME_LIMIT'] = 'Zaman sınırı';
 $lang['TIME_LIMIT_EXPLAIN'] = '(Sn) zaman çok post işleme önce bir sonraki döngüsü için hareket ne kadar sürebilir';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP\'niz (güvenli mod) %s saniye olarak yapılandırılmış bir zaman aşımına sahiptir, bu değerin altında kalın</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your Web sunucusu yapılandırılmış %s saniye bir zaman aşımı yok, bu yüzden bu value</i> altında kalmak';
 
 $lang['DISABLE_BOARD'] = 'Devre kartı';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = 'Bazı yanlış değerler girdiniz. Lütfen girişinizi k
 $lang['PROCESSING'] = 'İşleme...';
 $lang['FINISHED'] = 'Bitmiş';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Konu forumdan [b]%s[/b] forumuna [b]%s[/b] taşındı.[br][b]Taşınma nedeni:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Konu bölünmüş. Yeni konu [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Konu [b]%s[/b][br][br]%s arasında bölünmüş';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = 'Tohumları ara';
 $lang['CALLSEED_EXPLAIN'] = 'Talep dağılımı için geri bildirim almak';
 $lang['CALLSEED_SUBJECT'] = 'İndir %s yardım';
 $lang['CALLSEED_TEXT'] = 'Merhaba![br]Your yardım etmeye karar, ama zaten torrent dosyası silinmiş %s[/url][br]if %s [url=] açıklamasında, yardımın için %s [url=] this[/url][br][br]i umut indirebilirsiniz gereklidir.';
@@ -2855,22 +2855,22 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Konu:<br /> <b>closed</b>',
     'mod_topic_unlock' => 'Konu:<br /> <b>opened</b>',
     'mod_topic_split' => 'Konu:<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => 'Konu:<br /> <b>indirildi olarak ayarlandı</b>',
+    'mod_topic_unset_downloaded' => 'Konu:<br /> <b>indirildi olarak ayarından çıkarıldı</b>',
+    'mod_topic_change_tor_status' => 'Konu:<br /> <b>torrent durumu değiştirildi</b>',
+    'mod_topic_change_tor_type' => 'Konu:<br /> <b>torrent türü değiştirildi</b>',
+    'mod_topic_tor_unregister' => 'Konu:<br /> <b>torrent kaydı silindi</b>',
+    'mod_topic_tor_register' => 'Konu:<br /> <b>torrent kaydedildi</b>',
+    'mod_topic_tor_delete' => 'Konu:<br /> <b>torrent silindi</b>',
+    'mod_topic_renamed' => 'Konu:<br /> <b>yeniden adlandırıldı</b>',
+    'mod_topic_poll_started' => 'Konu:<br /> <b>anket başlatıldı</b>',
+    'mod_topic_poll_finished' => 'Konu:<br /> <b>anket tamamlandı</b>',
+    'mod_topic_poll_deleted' => 'Konu:<br /> <b>anket silindi</b>',
+    'mod_topic_poll_added' => 'Konu:<br /> <b>anket eklendi</b>',
+    'mod_topic_poll_edited' => 'Konu:<br /> <b>anket düzenlendi</b>',
     'mod_post_delete' => 'Gönderen:<br /> <b>deleted</b>',
-    'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
-    'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
+    'mod_post_pin' => 'Gönderi:<br /> <b>sabitledi</b>',
+    'mod_post_unpin' => 'Gönderi:<br /> <b>sabitlemeyi kaldırdı</b>',
     'adm_user_delete' => 'Kullanıcı:<br /> <b>deleted</b>',
     'adm_user_ban' => 'Kullanıcı:<br /> <b>ban</b>',
     'adm_user_unban' => 'Kullanıcı:<br /> <b>unban</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = 'Lütfen izin formunu doldurun';
 $lang['NEW_RELEASE'] = 'Yeni sürüm';
 $lang['NEXT'] = 'Devam';
 $lang['OTHER'] = 'Başka';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = 'Diğerleri';
+$lang['ALL'] = 'Tüm';
 
 $lang['TPL_EMPTY_FIELD'] = '<b>%s</b> alanını doldurmalısınız';
 $lang['TPL_EMPTY_SEL'] = '<b>%s</b> seçmeniz gerekir';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Kullanıcılar için %s bir web Sitesi 
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kullanıcılar için bir Konum ile arama %s eşleşen';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kullanıcıların Çıkarları ile arama eşleşen %s alan';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Kullanıcılar için İşgal alanı ile arama %s eşleşen';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Son %s içinde ziyaret etmiş kullanıcıları arıyorum';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Son %s sonrasında ziyaret etmiş kullanıcıları arıyorum';
 $lang['SEARCH_FOR_LANGUAGE'] = '%s ayarlanmış olan kullanıcılar için dil olarak aranıyor';
 $lang['SEARCH_FOR_TIMEZONE'] = '%s UTC ayarlanmış olan kullanıcılar için zaman dilimi olarak aranıyor';
 $lang['SEARCH_FOR_STYLE'] = '%s ayarlanmış olan kullanıcılar için arama tarzı';
@@ -3063,7 +3063,7 @@ $lang['FORUM_MAP'] = 'Forum göster';
 $lang['ATOM_FEED'] = 'Yayın';
 $lang['ATOM_ERROR'] = 'Hata üreten besleme';
 $lang['ATOM_SUBSCRIBE'] = 'Beslemesine abone';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = 'Feed için mod seçenekleri sağlanmadı';
 $lang['ATOM_NO_FORUM'] = 'Bu forumda (devam eden konular)bir besleme yok';
 $lang['ATOM_NO_USER'] = 'Bu kullanıcı (devam eden konular)bir besleme yok';
 $lang['ATOM_UPDATED'] = 'Güncellenme Tarihi';
@@ -3072,15 +3072,15 @@ $lang['ATOM_GLOBAL_FEED'] = 'Tüm forumlar için küresel besleme';
 $lang['HASH_INVALID'] = '%s karma geçersiz';
 $lang['HASH_NOT_FOUND'] = 'Karma %s değilim serbest bulundu';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[align=center]Bu sayfanın metni şu tarihte düzenlendi: [url]%s[/url]. Bu satırı yalnızca yöneticiler görebilir.[/align]';
 $lang['TERMS_EXPLAIN'] = 'Bu sayfada, kaynağın Temel Kurallar metni kullanıcılar için görüntülenir belirtebilirsiniz.';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Şartlar başarıyla güncellendi';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sGenel Ayarları Geri Dön%s';
 
 $lang['TR_STATS'] = [
     0 => '30 gün aktif olmayan kullanıcılar',
     1 => '90 gün boyunca aktif olmayan kullanıcılar',
-    2 => 'medium size distributions on the tracker',
+    2 => 'izleyicideki orta boy dağıtımlar',
     3 => 'birçok izleyici toplam ellerini nasıl',
     4 => '(en az 1 led kaç canlı eller)',
     5 => '5 Ekim daha fazla tohum birçok eller nasıl',
@@ -3110,11 +3110,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = 'Her satır, bir cevap için (max karşılık geli
 $lang['OLD_BROWSER'] = 'Eski bir tarayıcı kullanıyorsunuz. Web sitesi düzgün görüntülenmez.';
 $lang['GO_BACK'] = 'Geri dönmek';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Dosya yükleme devre dışı bırakıldı';
 $lang['UPLOAD_ERROR_COMMON'] = 'Yükleme hatası dosya';
 $lang['UPLOAD_ERROR_SIZE'] = 'Yüklenen dosyayı %s en büyük boyutu aşıyor';
 $lang['UPLOAD_ERROR_FORMAT'] = 'Görüntü geçersiz dosya türü';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Görüntü boyutları izin verilen maksimum %sx%s pikseli aşıyor';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'Yüklenen dosya bir resim değil';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'İndirme için %s uzatamazsınız';
 $lang['UPLOAD_ERRORS'] = [
@@ -3130,18 +3130,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Bir robot olmadığını kontrol edin';
 $lang['CAPTCHA_WRONG'] = 'Bir robot olmadığını onaylamak değil mi';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha tam olarak yapılandırılmamış</h2><p>Captcha hizmetinizin kontrol panelinden anahtarları oluşturun, ardından bunları dosya kütüphanesine/config.php yerleştirmeniz gerekir.</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA doğrulaması arka planda gerçekleşmektedir';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = 'Yanıtla';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => 'Konu yok',
     'GROUP_ADDED' => 'Kullanıcı grubuna eklendiniz',
     'GROUP_APPROVED' => 'Kullanıcı grubuna katılma isteğiniz kabul edildi',
     'GROUP_REQUEST' => 'Kullanıcı grubunuza katılma isteği',
     'PRIVMSG_NOTIFY' => 'yeni özel mesaj',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => 'Konuda yanıt bildirimi - %s',
     'USER_ACTIVATE' => 'Hesap yeniden etkinleştirme',
     'USER_ACTIVATE_PASSWD' => 'Yeni bir parolanın onaylanması',
     'USER_WELCOME' => 'siteye hoşgeldiniz %s',
@@ -3149,17 +3149,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = 'Oranı sıfırla';
+$lang['BT_NULL_RATIO_NONE'] = 'Bir oranınız yok';
+$lang['BT_NULL_RATIO_ALERT'] = "Dikkat!\n\nOranınızı sıfırlamak istediğinize emin misiniz?";
+$lang['BT_NULL_RATIO_AGAIN'] = 'Zaten oranınızı sıfırladınız!';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'İyi bir orana sahipsiniz. Sıfırlama yalnızca %s\'den düşük bir oran ile mümkündür';
+$lang['BT_NULL_RATIO_SUCCESS'] = 'Oran başarıyla sıfırlandı!';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
-$lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SIZE'] = 'Toplam boyut:';
+$lang['RELEASER_STAT'] = 'Oranlayıcı istatistikleri:';
+$lang['RELEASER_STAT_SHOW'] = 'İstatistikleri göster';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = 'Karanlık modu aç/kapat';
