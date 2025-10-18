@@ -390,7 +390,7 @@ $lang['VOTE_CAST'] = 'Your vote has been cast.';
 $lang['EMOTICONS'] = 'Emoticons';
 $lang['MORE_EMOTICONS'] = 'View more Emoticons';
 
-$lang['FONT_COLOR'] = 'Font colour';
+$lang['FONT_COLOR'] = 'Font color';
 $lang['COLOR_DEFAULT'] = 'Default';
 $lang['COLOR_DARK_RED'] = 'Dark Red';
 $lang['COLOR_RED'] = 'Red';
@@ -758,7 +758,7 @@ $lang['COULD_NOT_ANON_USER'] = 'You cannot make Anonymous a group member.';
 $lang['CONFIRM_UNSUB'] = 'Are you sure you want to unsubscribe from this group?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Your subscription to this group has not yet been approved; are you sure you want to unsubscribe?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been un-subscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
 
 $lang['APPROVE_SELECTED'] = 'Approve Selected';
 $lang['DENY_SELECTED'] = 'Deny Selected';
@@ -855,7 +855,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'You are not a moderator of this forum.';
-$lang['NOT_AUTHORISED'] = 'Not Authorised';
+$lang['NOT_AUTHORISED'] = 'Not Authorized';
 
 $lang['YOU_BEEN_BANNED'] = 'You have been banned from this forum. Please contact the board administrator for more information.';
 
@@ -1267,7 +1267,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sorry but you are not authorized to view or d
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Description'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'Filesize';
+$lang['FILESIZE'] = 'File size';
 $lang['VIEWED'] = 'Viewed';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1471,9 +1471,9 @@ $lang['BT_VIEWS'] = 'Views';
 $lang['GOLD'] = 'Gold';
 $lang['SILVER'] = 'Silver';
 $lang['SET_GOLD_TORRENT'] = 'Make gold';
-$lang['UNSET_GOLD_TORRENT'] = 'UnMake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
 $lang['SET_SILVER_TORRENT'] = 'Make silver';
-$lang['UNSET_SILVER_TORRENT'] = 'UnMake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
 $lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC DOES NOT CONSIDER!';
 $lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC PARTIALLY CONSIDERED!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
@@ -1481,7 +1481,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
 $lang['TORRENT_STATUS'] = 'Search by status of release';
 $lang['SEARCH_IN_FORUMS'] = 'Search in Forums';
 $lang['SELECT_CAT'] = 'Select category';
-$lang['GO_TO_SECTION'] = 'Goto section';
+$lang['GO_TO_SECTION'] = 'Go to section';
 $lang['TORRENTS_FROM'] = 'Posts from';
 $lang['SHOW_ONLY'] = 'Show only';
 $lang['SHOW_COLUMN'] = 'Show column';
@@ -1808,7 +1808,7 @@ $lang['EXECUTION_TIME'] = 'Execution time:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'on';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Mem: ';
+$lang['MEMORY'] = 'Memory: ';
 $lang['QUERIES'] = 'queries';
 $lang['LIMIT'] = 'Limit:';
 $lang['SHOW_LOG'] = 'Show log';
@@ -1849,7 +1849,7 @@ $lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
 $lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Quote text: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Insert image: [img]https://image_url[/img] (Ctrl+R)';
-$lang['URL'] = 'Url';
+$lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Insert URL: [url]https://url[/url] or [url=https://url]URL text[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'Code display: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'List';
@@ -1993,7 +1993,7 @@ $lang['USERS_PER_DAY'] = 'Users per day';
 $lang['BOARD_STARTED'] = 'Board started';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar directory size';
 $lang['DATABASE_SIZE'] = 'Database size';
-$lang['GZIP_COMPRESSION'] = 'Gzip compression';
+$lang['GZIP_COMPRESSION'] = 'GZIP compression';
 $lang['NOT_AVAILABLE'] = 'Not available';
 
 // System information
