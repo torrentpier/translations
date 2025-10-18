@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Prikaz zadnje objave';
 $lang['VIEW_NEWEST_POST'] = 'Ogledate najnovejše objave';
 $lang['PAGE_OF'] = 'Stran <b>%d</b> od <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Ste ga vnesli, je neveljaven Skype prijava';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Ste ga vnesli, je neveljaven Twitter prijava';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Ali ste prepričani, da želite izbrisati ta raz
 $lang['FLOOD_ERROR'] = 'Ne morete klicati drugo delovno mesto, tako kmalu po zadnjem; prosimo, poskusite znova, v kratkem pa';
 $lang['EMPTY_SUBJECT'] = 'Določiti morate temo';
 $lang['EMPTY_MESSAGE'] = 'Vnesti morate sporočilo';
-$lang['FORUM_LOCKED'] = 'Ta forum je zaklenjen: ne morete objaviti, odgovor da, ali urejate teme';
-$lang['TOPIC_LOCKED'] = 'Ta tema je zaklenjena: ne morete urejati prispevkov ali, da odgovori';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema zaklenjena';
 $lang['NO_POST_ID'] = 'Morate izbrati mesto za urejanje';
 $lang['NO_TOPIC_ID'] = 'Morate izbrati temo, če želite odgovoriti';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Jekleno Modra';
 $lang['COLOR_GRAY'] = 'Siva';
 $lang['COLOR_DARK_GREEN'] = 'Temno Zelena';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kodo]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['odgovori', 'odgovori'];
 $lang['DECLENSION']['TIMES'] = ['čas', 'krat'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent datoteka je poškodovana';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Stran" lahko vsebujejo samo http://sitename';
-$lang['ICQ_ERROR'] = 'Polje "ICQ" lahko vsebuje le ICQ številko';
 $lang['INVALID_DATE'] = 'Neveljavna datum';
 $lang['PROFILE_USER'] = 'Ogled profila';
 $lang['GOOD_UPDATE'] = 'bil uspešno spremenjena';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Iskanje za uporabnike z objavo count ve
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Iskanje za uporabnike z objavo šteje manj kot %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Iskanje za uporabnike z objavo šteje med %d in %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Iskanje za uporabnike z objavo šteje vrednost %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Iskanje uporabnikov z ICQ naslov ujemanje %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Iščejo uporabniki z Skype ujemanje %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Iščejo uporabniki z Twitter ujemanje %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Iskanje uporabnikom spletne Strani ujemanje %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Iskanje uporabnikov z Lokacijo ujemanje %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Iskanje uporabnikov z njihovimi Interesi področju ujemanje %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dan';
 $lang['POST_EDIT_CANNOT'] = 'Žal mi je, ampak ne morete urejati prispevkov';
 $lang['FORUMS_IN_CAT'] = 'forumi v to kategorijo';
 
-$lang['MC_TITLE'] = 'Komentar Zmernost';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Vnesite komentar';
 $lang['MC_FAQ'] = 'Vneseno besedilo bo prikazano pod tem sporočilu';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s v vaše sporočilo";
