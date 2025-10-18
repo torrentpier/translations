@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Se siste innlegg';
 $lang['VIEW_NEWEST_POST'] = 'Vis nyeste innlegg';
 $lang['PAGE_OF'] = 'Side <b>%d</b> av <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Du har skrevet inn et ugyldig Skype-logg inn';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Du har skrevet inn et ugyldig Twitter-logg';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Er du sikker på at du vil slette denne målinge
 $lang['FLOOD_ERROR'] = 'Du kan ikke lage et innlegg så snart etter siste; prøv på nytt om kort tid';
 $lang['EMPTY_SUBJECT'] = 'Du må angi et emne';
 $lang['EMPTY_MESSAGE'] = 'Du må skrive inn en beskjed';
-$lang['FORUM_LOCKED'] = 'Dette forumet er låst: du kan ikke innlegget svar til eller redigere emner';
-$lang['TOPIC_LOCKED'] = 'Dette emnet er låst: du kan ikke redigere innleggene eller gjøre svar';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Låst emne';
 $lang['NO_POST_ID'] = 'Du må velge en post for å redigere';
 $lang['NO_TOPIC_ID'] = 'Du må velge et emne for å svare';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Stål Blå';
 $lang['COLOR_GRAY'] = 'Grå';
 $lang['COLOR_DARK_GREEN'] = 'Mørk Grønn';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kode]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['svar', 'svar'];
 $lang['DECLENSION']['TIMES'] = ['tid', 'ganger'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent-filen er skadet';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Nettstedet" kan inneholde bare http://sitename';
-$lang['ICQ_ERROR'] = '"ICQ"-feltet kan kun inneholde et ICQ-nummer';
 $lang['INVALID_DATE'] = 'Ugyldig dato';
 $lang['PROFILE_USER'] = 'Vise profilen';
 $lang['GOOD_UPDATE'] = 'ble vellykket endret';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Å søke etter brukere med et innlegg c
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Å søke etter brukere med et innlegg telle mindre enn %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Å søke etter brukere med et innlegg count mellom %d og %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Å søke etter brukere med et innlegg count verdien av %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Å søke etter brukere med en ICQ adresser %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Å søke etter brukere med en Skype matchende %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Å søke etter brukere med en Twitter matchende %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Å søke etter brukere med en Nettside matchende %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Å søke etter brukere med en Beliggenhet matchende %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Å søke etter brukere med deres Interesser feltet matchende %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dag';
 $lang['POST_EDIT_CANNOT'] = 'Beklager, men du kan ikke redigere innleggene dine';
 $lang['FORUMS_IN_CAT'] = 'fora i denne kategorien';
 
-$lang['MC_TITLE'] = 'Kommentar Moderering';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Skriv en kommentar';
 $lang['MC_FAQ'] = 'Teksten vil bli vist under denne meldingen';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s i meldingen";
