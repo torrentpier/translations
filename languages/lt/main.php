@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Peržiūrėti naujausius pranešimus';
 $lang['VIEW_NEWEST_POST'] = 'Peržiūrėti naujausias pranešimas';
 $lang['PAGE_OF'] = 'Puslapis <b>%d</b>, <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = '"Skype"';
-$lang['SKYPE_ERROR'] = 'Įvedėte neteisingą Skype login';
-
-$lang['TWITTER'] = '"Twitter"';
-$lang['TWITTER_ERROR'] = 'Įvedėte neteisingą "Twitter" login';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Forume Indeksas'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Ar jūs tikrai norite ištrinti šią apklausą?
 $lang['FLOOD_ERROR'] = 'Jūs negalite atlikti kitas pareigas, todėl netrukus po paskutinio, prašome pabandyti dar kartą trumpam';
 $lang['EMPTY_SUBJECT'] = 'Turite nurodyti tema';
 $lang['EMPTY_MESSAGE'] = 'Jūs turite įvesti pranešimą';
-$lang['FORUM_LOCKED'] = 'Šis forumas yra užrakinta: jūs negalite rašyti, atsakyti ar redaguoti temos';
-$lang['TOPIC_LOCKED'] = 'Ši tema yra užrakinta: jūs negalite redaguoti pranešimų ar padaryti atsakymai';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema užrakinta';
 $lang['NO_POST_ID'] = 'Jūs privalote pasirinkti po redaguoti';
 $lang['NO_TOPIC_ID'] = 'Jūs turite pasirinkti temą atsakyti';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Plieno Mėlyna';
 $lang['COLOR_GRAY'] = 'Juoda';
 $lang['COLOR_DARK_GREEN'] = 'Tamsiai Žalia';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Kodas]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['atsakyti', 'atsakymai'];
 $lang['DECLENSION']['TIMES'] = ['laikas', 'laikas'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent failas yra sugadintas';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Svetainė" gali būti tik http://sitename';
-$lang['ICQ_ERROR'] = '"ICQ" laukas gali turėti tik ICQ numerį';
 $lang['INVALID_DATE'] = 'Neteisinga data';
 $lang['PROFILE_USER'] = 'Profilio peržiūra';
 $lang['GOOD_UPDATE'] = 'buvo pakeistas sėkmingai';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Ieško vartotojai post count didesnis n
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Ieško vartotojai post count mažiau nei %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Ieško vartotojai post count tarp %d ir %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Ieško vartotojai post count vertė %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Ieško vartotojai ICQ adresas atitikimo %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Ieško vartotojai su "Skype" atitikimo %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Ieško vartotojai su "Twitter" atitikimo %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Ieškote paslaugų gavėjams Svetainėje atitikimo %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Ieško vartotojai Vietą atitikimo %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Ieško vartotojus su jų Interesų laukas atitikimo %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dieną';
 $lang['POST_EDIT_CANNOT'] = 'Atsiprašome, bet jūs negalite redaguoti žinutes';
 $lang['FORUMS_IN_CAT'] = 'forumuose šioje kategorijoje';
 
-$lang['MC_TITLE'] = 'Komentaras Santūrumą';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Įveskite komentarą';
 $lang['MC_FAQ'] = 'Įrašytas tekstas bus rodomas pagal šį pranešimą';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s jūsų pranešimas";
