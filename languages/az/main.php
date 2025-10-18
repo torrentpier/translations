@@ -59,7 +59,7 @@ $lang['NO'] = 'Yoxdur';
 $lang['ENABLED'] = 'Aktiv';
 $lang['DISABLED'] = 'Deaktiv edildi';
 $lang['ERROR'] = 'Səhv';
-$lang['SELECT_ACTION'] = 'Seçin fəaliyyət';
+$lang['SELECT_ACTION'] = 'Fəaliyyəti seçin';
 $lang['CLEAR'] = 'Təmizlə';
 $lang['MOVE_TO_TOP'] = 'Ən yuxarı daşı';
 $lang['UNKNOWN'] = 'Məlum deyil';
@@ -70,7 +70,7 @@ $lang['PLEASE_TRY_AGAIN'] = 'Bir neçə saniyə sonra yenidən cəhd edin...';
 $lang['NEXT_PAGE'] = 'Daha sonra';
 $lang['PREVIOUS_PAGE'] = 'Əvvəlki';
 $lang['SHORT_PAGE'] = 'səhifə';
-$lang['GOTO_PAGE'] = 'Səhifə';
+$lang['GOTO_PAGE'] = 'Səhifəyə gedin';
 $lang['GOTO_SHORT'] = 'Səhifə';
 $lang['JOINED'] = 'Qoşulub';
 $lang['LONGEVITY'] = 'Qeydiyyatdan keçdi';
@@ -82,8 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Sonuncu postu bax';
 $lang['VIEW_NEWEST_POST'] = 'Yeni post ilə bax';
 $lang['PAGE_OF'] = '<b>%d</b> səhifə <b>%s</b>';
 
-$lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER'] = 'X (Tvitter)';
+$lang['TWITTER_ERROR'] = 'Yazdığınız etibarsız istifadəçi adı və Tvitter';
 
 $lang['FORUM_INDEX'] = '%s Forum İndeksi'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -93,7 +93,7 @@ $lang['POST_REGULAR_TOPIC'] = 'Növbəti mövzunu post';
 $lang['REPLY_TO_TOPIC'] = 'Mövzuda cavab';
 $lang['REPLY_WITH_QUOTE'] = 'Sitat ilə cavab verin';
 
-$lang['CLICK_RETURN_TOPIC'] = 'Basın %sHere%s mövzusuna qayıtmaq'; // %s's here are for uris, do not remove!
+$lang['CLICK_RETURN_TOPIC'] = 'Klikləyin %sBurada%s mövzusuna qayıtmaq üçün'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_LOGIN'] = 'Basın %sHere%s yenidən cəhd edin';
 $lang['CLICK_RETURN_FORUM'] = 'Basın %sHere%s forumuna qayıtmaq';
 $lang['CLICK_VIEW_MESSAGE'] = 'Basın %sHere%s mesajınıza qayıtmaq';
@@ -255,7 +255,7 @@ $lang['NO_POSTS_TOPIC'] = 'Bu mövzuda heç bir mesaj yoxdur.';
 $lang['DISPLAY_POSTS'] = 'Mesajları göstərin.';
 $lang['ALL_POSTS'] = 'Bütün mesajlar.';
 $lang['NEWEST_FIRST'] = 'Yeni İlk';
-$lang['OLDEST_FIRST'] = 'Köhnə İlk';
+$lang['OLDEST_FIRST'] = 'Köhnə ən əvvəl';
 
 $lang['BACK_TO_TOP'] = 'Yuxarıya dön.';
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Siz bu sorğunu silmək istədiyinizdən əminsi
 $lang['FLOOD_ERROR'] = 'Siz sonuncu postdan sonra belə tez səs verə bilməzsiniz; lütfən bir az sonra yenidən cəhd edin';
 $lang['EMPTY_SUBJECT'] = 'Mövzu daxil etməlisiniz';
 $lang['EMPTY_MESSAGE'] = 'Mesaj daxil etməlisiniz';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum bağlanıb.';
+$lang['TOPIC_LOCKED'] = 'Mövzu bağlıdır';
 $lang['TOPIC_LOCKED_SHORT'] = 'Mövzu bağlıdır';
 $lang['NO_POST_ID'] = 'Redaktə etmək üçün post seçməlisiniz';
 $lang['NO_TOPIC_ID'] = 'Cavab vermək üçün mövzu seçməlisiniz';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Tünd yaşıl.';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Sorğu';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'Xəbərdarlıq';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -1531,11 +1531,11 @@ $lang['EXECUTION_TIME'] = 'Yerinə yetirilməsi vaxtı:';
 $lang['SEC'] = 's';
 $lang['ON'] = 's';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Madam: ';
+$lang['MEMORY'] = 'Sorğular';
 $lang['QUERIES'] = 'sorğu';
 $lang['LIMIT'] = 'Məhdudiyyətlər:';
 $lang['SHOW_LOG'] = 'Görüntüləmə qeydi';
-$lang['EXPLAINED_LOG'] = 'Açıqlanan qeyd';
+$lang['EXPLAINED_LOG'] = 'Açıqlanmış qeyd';
 $lang['CUT_LOG'] = 'Uzun sualları kəsin';
 
 // Attach Guest
@@ -1575,7 +1575,7 @@ $lang['IMG_TITLE'] = 'Şəkil daxil edin: [img]https://image_url[/img] (Ctrl+R)'
 $lang['URL'] = 'URL ünvanı';
 $lang['URL_TITLE'] = 'URL daxil edin: [url]https://url[/url] və ya [url=https://url]URL mətni[/url] (Ctrl+W)';
 $lang['CODE_TITLE'] = 'Kod nümayişi: [code]code[/code] (Ctrl+K)';
-$lang['LIST'] = 'Siyahısı';
+$lang['LIST'] = 'Siyahı';
 $lang['LIST_TITLE'] = 'Siyahı: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = 'Nizamlı siyahı: [list=]text[/list] (Ctrl+O)';
 $lang['ACRONYM'] = 'Qısaltma';
@@ -1630,7 +1630,7 @@ $lang['NO_WATCHED_TOPICS'] = 'Hər hansı bir mövzuya baxmırsınız';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Geri ana səhifəsi';
-$lang['FORUM_RETURN'] = 'Geri forum';
+$lang['FORUM_RETURN'] = 'Forumava qayıt';
 $lang['TOPIC_RETURN'] = 'Mövzuya geri dön';
 $lang['POST_RETURN'] = 'Postda getmək';
 $lang['PROFILE_EDIT_RETURN'] = 'Redaktə etməyə geri dön';
@@ -1960,7 +1960,7 @@ $lang['IMPORT'] = 'İdxal Mimikalar';
 $lang['SMILE_CONFLICTS'] = 'Münaqişələr zamanı nə etmək lazımdır';
 $lang['DEL_EXISTING_SMILEYS'] = 'İdxaldan əvvəl mövcud mimikaları sil';
 $lang['IMPORT_SMILE_PACK'] = 'İdxal Smiley Paketi';
-$lang['EXPORT_SMILE_PACK'] = 'Yaratmaq Smiley Paketi';
+$lang['EXPORT_SMILE_PACK'] = 'Smiley Paketi yarat';
 $lang['EXPORT_SMILES'] = 'Mövcud mimikalarınızdan smiley paketi yaratmaq üçün %sHere%s ilə smile.pak faylını yükləyin. Bu faylı müvafiq olaraq adlandırın və .pak fayl uzadılmasını saxlayın. Sonra bütün smiley şəkillərinizi və bu .pak konfiqurasiya faylını özündə cəmləşdirən zip faylı yaradın.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Təbəssüm idi uğurla əlavə edildi';
@@ -2147,7 +2147,7 @@ $lang['TOR_COMMENT'] = '<h4>Paylaşım statusu ilə bağlı şərh</h4> <h6>Şə
 $lang['SEED_BONUS_ADD'] = '<h4>Bonus toxum əlavə edilməsi </h4> <h6>Sayı paylayıcı tərəfdən verilir və bu üçün bonusların ölçüsü (bir saatdan bir dəfə) </h6>';
 $lang['SEED_BONUS_RELEASE'] = 'bu N-relizlər sayı.';
 $lang['SEED_BONUS_POINTS'] = 'saatda bonuslar.';
-$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum bölüşdürülməsi, onun üçün ediləcək əlavə bonuslar </h4> <h6> istəyirsinizsə bunları bonuslar bütün poçt, boş buraxın. </h6>';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum bölüşdürülmə bonuslar üçün veriləcək </h4> <h6> Bütün bölüşdürmələr üçün bonuslar hesablamaq istəyirsinizsə, boş buraxın. </h6>';
 $lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum uzunluğu istifadəçinin traceri, sonra hansı bonuslar veriləcəkdir </h4> <h6> əgər istəsəniz bütün istifadəçilər üçün bonuslar toplamaq, boş buraxın. </h6>';
 $lang['SEED_BONUS_WARNING'] = 'Diqqət! Toxum bonuslar artan qaydada olmalıdır.';
 $lang['SEED_BONUS_EXCHANGE'] = 'Mübadilə Сид Bonuslar quraşdırılması.';
@@ -2228,7 +2228,7 @@ $lang['UNABLE_ADD_FORBIDDEN_EXTENSION'] = 'Genişləndirmə %s qadağan edilmiş
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Qrup İdarə Genişləndirilməsi';
 $lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Burada siz Genişləndirmə Qruplarınızı əlavə edə, silə və dəyişdirə bilərsiniz, genişləndirmə qruplarını deaktiv edə, onlara xüsusi bir Kateqoriya təyin edə, yükləmə mexanizmini dəyişə və qrup aid olan əlavənin qarşısında göstəriləcək Yükləmə İkonunu müəyyən edə bilərsiniz.';
 $lang['SPECIAL_CATEGORY'] = 'Xüsusi Bir Kateqoriya';
-$lang['CATEGORY_IMAGES'] = 'Şəkil';
+$lang['CATEGORY_IMAGES'] = 'Şəkillər';
 $lang['ALLOWED'] = 'İcazə';
 $lang['ALLOWED_FORUMS'] = 'İcazə verilmiş Forumlar';
 $lang['EXT_GROUP_PERMISSIONS'] = 'Qrup İcazələri';
@@ -2310,7 +2310,7 @@ $lang['SORT_ATTACHMENTS'] = 'Əlavələr';
 $lang['SORT_SIZE'] = 'Ölçü';
 $lang['SORT_FILENAME'] = 'Fayl adı';
 $lang['SORT_COMMENT'] = 'Şərh';
-$lang['SORT_EXTENSION'] = 'Genişləndirilməsi';
+$lang['SORT_EXTENSION'] = 'Genişləndirmə';
 $lang['SORT_DOWNLOADS'] = 'Yükləmələr.';
 $lang['SORT_POSTTIME'] = 'Post vaxtı';
 
@@ -2431,7 +2431,7 @@ $lang['CRON_ENABLE'] = 'Yandır.';
 
 $lang['RUN_MAIN_CRON'] = 'Хрон başlayın.';
 $lang['ADD_JOB'] = 'Хрон tapşırığı əlavə edin.';
-$lang['DELETE_JOB'] = 'Siz əmin deyilsinizsə aradan qaldırılması üçün tapşırıq?';
+$lang['DELETE_JOB'] = 'Cron tapşırığını silmək istədiyinizdən əminsiniz?';
 $lang['CRON_WORKS'] = 'Cron hal-hazırda işləyir və ya sınıqdır -> ';
 $lang['REPAIR_CRON'] = 'Cron təmir.';
 
@@ -2506,11 +2506,11 @@ $lang['DISABLE_BOARD_EXPLAIN_ENABLED'] = 'Bu, emalı başa çatdıqdan sonra avt
 $lang['DISABLE_BOARD_EXPLAIN_ALREADY'] = '<i>Sizin panelləriniz artıq aradan qaldırılıb</i>.';
 
 // Information strings
-$lang['INFO_PROCESSING_STOPPED'] = 'Siz son dayandırdı emal post_id %s (%s emal ismarıc) %s';
-$lang['INFO_PROCESSING_ABORTED'] = 'Siz dünən bunu etdi emal post_id %s (%s emal mesaj) %s';
+$lang['INFO_PROCESSING_STOPPED'] = 'Siz sonuncu dəfə emalı post_id %s (%s emal edilən postlar) %s';
+$lang['INFO_PROCESSING_ABORTED'] = 'Siz sonuncu dəfə emalı abort etdiniz post_id %s (%s emal edilən ismarıclar) %s';
 $lang['INFO_PROCESSING_ABORTED_SOON'] = 'Lütfən, davam etmədən əvvəl bir neçə dəqiqə gözləyin...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Siz post_id %s (%s emal edilmiş post) tarixində emalı müvəffəqiyyətlə bitirdiniz.';
-$lang['INFO_PROCESSING_FINISHED_NEW'] = 'Siz müvəffəqiyyətlə başa emal post_id %s (%s emal ismarıc) %s,<br />but idi %s yeni post(s) bu tarixdən sonra';
+$lang['INFO_PROCESSING_FINISHED_NEW'] = 'Siz post_id %s (%s emal edilən postlar) %s emalı başa çətirsiniz,<br />amma bu tarixdən sonra %s yeni post var';
 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Yenidən axtarışın bərpası.';
@@ -2552,7 +2552,7 @@ $lang['BOARD_STATUS'] = 'Şuranın statusu.';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Bütün qiymətləndirilən dəyərlər qiymətləndirilir. Bu dəyərlər elan olunan tamamlanmış procent-ə həmin illərdə təqdim edilən.';
 
-$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Basın %shere%s qayıtmaq üçün bərpa etmək üçün axtarış';
+$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Basın %shere%s qayıtmaq üçün axtarış qurmaq üçün';
 $lang['REBUILD_SEARCH_ABORTED'] = 'Bərpa aktı post_id %s-dan keçirilmədi.<br /><br />İş qaydasında geri bu təxirə salındı, siz yenidən axtarışa qayıda biləcəksiniz.';
 $lang['WRONG_INPUT'] = 'Sizin daxil etdiyiniz dəyərlər yanlışdır. Xahiş edirik, daxil etdiyiniz məlumatları yoxlayıb, bir daha cəhd edin.';
 
@@ -2668,7 +2668,7 @@ $lang['SEARCH_FOR_EMAIL'] = 'Axtarış e-poçt ünvanı uyğun %s';
 $lang['SEARCH_FOR_IP'] = 'Axtarış IP ünvanı uyğun %s';
 $lang['SEARCH_FOR_DATE'] = 'Axtarış edən istifadəçiləri qoşulub %s %d/%d/%d';
 $lang['SEARCH_FOR_GROUP'] = 'Axtarış qrupunun %s';
-$lang['SEARCH_FOR_RANK'] = 'Axtarış daşıyıcıları dərəcə %s';
+$lang['SEARCH_FOR_RANK'] = 'Axtarış daşıyıcıların dərəcə %s';
 $lang['SEARCH_FOR_BANNED'] = 'Axtarış qadağan edilmiş istifadəçilər.';
 $lang['SEARCH_FOR_ADMINS'] = 'Axtarış administratorları.';
 $lang['SEARCH_FOR_MODS'] = 'Axtarış moderatorları.';
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Axtarış istifadəçilər mesaj sayı 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Axtarış istifadəçilərin mesaj sayı daha az %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'İstifadəçiləri axtarır, mesaj sayı %d ilə %d arasında';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'İstifadəçiləri axtarır, mesaj sayı %d olan';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = '%s ilə uyğun Tvitter axtarılır';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Axtarış istifadəçilər üçün %s ilə uyğun vebsayt';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Axtarış istifadəçilər üçün %s ilə uyğun yer';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Axtarış istifadəçilər üçün %s ilə uyğun maraqlar sahəsi';
@@ -2721,7 +2721,7 @@ $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'Müəyyən bir foruma Moderasiya ica
 
 $lang['SEARCH_USERS_NEW'] = '%s %d nəticə(s) verdi. <a href="%s">başqa bir axtarış</a> edin.';
 $lang['BANNED'] = 'Qadağan';
-$lang['NOT_BANNED'] = 'Heç Bir Qadağa Qoyulub';
+$lang['NOT_BANNED'] = 'Qadağa yoxdur';
 $lang['SEARCH_NO_RESULTS'] = 'Seçdiyiniz meyarlara uyğun heç bir istifadəçi yoxdur. Düzgün axtarış edin.';
 $lang['ACCOUNT_STATUS'] = 'Hesab Statusu';
 $lang['SORT_OPTIONS'] = 'Çeşidləmə seçimləri:';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Gün';
 $lang['POST_EDIT_CANNOT'] = 'Bağışlayın, amma siz mesajları redaktə edə bilməzsiniz';
 $lang['FORUMS_IN_CAT'] = 'forumlar bu kateqoriya';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderasiya şərhi';
 $lang['MC_LEGEND'] = 'Şərhinizi yazın';
 $lang['MC_FAQ'] = 'Daxil etdiyiniz mətn bu mesajın altında göstəriləcək';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s sizin mesajınızdadır";
@@ -2763,18 +2763,18 @@ $lang['SITEMAP'] = 'Saytın xəritəsi';
 $lang['SITEMAP_ADMIN'] = 'İdarə saytın xəritəsi';
 $lang['SITEMAP_CREATED'] = 'Saytın xəritəsi yaradılmışdır';
 $lang['SITEMAP_AVAILABLE'] = 'və mövcuddur';
-$lang['SITEMAP_NOT_CREATED'] = 'Saytın xəritəsi hələ yaradılıb';
+$lang['SITEMAP_NOT_CREATED'] = 'Məkan xəritəsi hələ yaradılmayıb';
 $lang['SITEMAP_OPTIONS'] = 'Variantlar';
 $lang['SITEMAP_CREATE'] = 'Saytın xəritəsini yaratmaq/yeniləmək';
 $lang['SITEMAP_WHAT_NEXT'] = 'Nə etməli?';
 $lang['SITEMAP_GOOGLE_1'] = 'Qeydiyyatdan sizin sayta <a href="https://www.google.com/webmasters/" target="_blank">Google Webmaster</a> köməyi ilə haqq-hesab Google.';
-$lang['SITEMAP_GOOGLE_2'] = '<a href="https://www.google.com/webmasters/tools/sitemap-list" target="_blank">Add sitemap</a> siz sayta qeydiyyatdan keçmişdir.';
+$lang['SITEMAP_GOOGLE_2'] = '<a href="https://www.google.com/webmasters/tools/sitemap-list" target="_blank">Sitemap əlavə edin</a> siz qeydiyyatdan keçmiş saytdan.';
 $lang['SITEMAP_YANDEX_1'] = 'Qeydiyyatdan sizin sayta <a href="https://webmaster.yandex.ru/sites/" target="_blank">Yandex Webmaster</a> hesabı istifadə edərək, Yandex.';
 $lang['SITEMAP_YANDEX_2'] = '<a href="https://webmaster.yandex.ru/site/map.xml" target="_blank">Add sitemap</a> siz sayta qeydiyyatdan keçmişdir.';
-$lang['SITEMAP_BING_1'] = 'Qeydiyyatdan sizin sayta <a href="https://www.bing.com/webmaster/" target="_blank">Bing Webmaster</a> hesabı ilə Maykrosoft.';
+$lang['SITEMAP_BING_1'] = 'Mikrosoft hesabınızdakı <a href="https://www.bing.com/webmaster/" target="_blank">Bing Webmaster</a> ilə sizin saytınızı qeyd edin.';
 $lang['SITEMAP_BING_2'] = 'Saytın yaradılmış xəritəsi əlavə.';
 $lang['SITEMAP_ADD_TITLE'] = 'Əlavə səhifə üçün xəritə';
-$lang['SITEMAP_ADD_PAGE'] = 'Əlavə səhifə';
+$lang['SITEMAP_ADD_PAGE'] = 'Konteyner səhifəsi';
 $lang['SITEMAP_ADD_EXP_1'] = 'Siz qeyd edə bilərsiniz əlavə səhifələri saytda, hansı ki, daxil edilməlidir sizin yaraddığınız xəritəyə.';
 $lang['SITEMAP_ADD_EXP_2'] = 'Hər bir link http(s):// ilə başlamalıdır və yeni xətt!.';
 
