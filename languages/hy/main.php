@@ -25,7 +25,7 @@ $lang['POSTS_SHORT'] = 'Պաշտոնները';
 $lang['POSTED'] = 'Ավելացնել';
 $lang['USERNAME'] = 'Անուն';
 $lang['PASSWORD'] = 'Գաղտնաբառը';
-$lang['PASSWORD_SHOW_BTN'] = 'Show password';
+$lang['PASSWORD_SHOW_BTN'] = 'Ցույց տալ գաղտնաբառը';
 $lang['EMAIL'] = 'Էլեկտրոնային փոստի հասցեն';
 $lang['PM'] = 'Թեմա ըստ';
 $lang['AUTHOR'] = 'Հեղինակ';
@@ -60,12 +60,12 @@ $lang['ENABLED'] = 'Ներառված է';
 $lang['DISABLED'] = 'Անջատված';
 $lang['ERROR'] = 'Սխալ է';
 $lang['SELECT_ACTION'] = 'Ընտրեք գործողությունը';
-$lang['CLEAR'] = 'Clear';
-$lang['MOVE_TO_TOP'] = 'Move to top';
+$lang['CLEAR'] = 'Մաքրել';
+$lang['MOVE_TO_TOP'] = 'Տեղափոխել վեր';
 $lang['UNKNOWN'] = 'Հայտնի չէ';
-$lang['COPY_TO_CLIPBOARD'] = 'Copy to clipboard';
-$lang['NO_ITEMS'] = 'There seems to be no data here...';
-$lang['PLEASE_TRY_AGAIN'] = 'Please try again after a few seconds...';
+$lang['COPY_TO_CLIPBOARD'] = 'Գործողություն գրտնակ';
+$lang['NO_ITEMS'] = 'Այստեղ թվում է, որ տվյալներ չկա...';
+$lang['PLEASE_TRY_AGAIN'] = 'Խնդրում ենք կրկին փորձել մի քանի վայրկյան անց...';
 
 $lang['NEXT_PAGE'] = 'Ավելին';
 $lang['PREVIOUS_PAGE'] = 'Նախորդ';
@@ -111,8 +111,8 @@ $lang['ALL_TEMPLATE_CLEARED'] = 'Cache կաղապար էր մաքրել';
 $lang['DATASTORE_CLEARED'] = 'Շտեմարան էր մաքրվել է';
 $lang['BOARD_DISABLE'] = 'Ցավոք, այս ֆորումին անջատված է. Փորձենք վերադառնալ ավելի ուշ';
 $lang['BOARD_DISABLE_CRON'] = 'Համաժողովը փակվել է տեխնիկական սպասարկում: Փորձենք վերադառնալ ավելի ուշ';
-$lang['ADMIN_DISABLE'] = 'The forum is disabled by the administrator. You can enable it at any time';
-$lang['ADMIN_DISABLE_CRON'] = 'Forum locked by the cron job trigger. You can remove the lock at any time';
+$lang['ADMIN_DISABLE'] = 'Համաժողովն անջատված է ադմինիստրատորով։ Դուք կարող եք այն միացնել ցանկացած ժամանակ';
+$lang['ADMIN_DISABLE_CRON'] = 'Համաժողովը արգելափակված է cron աշխատանքով։ Դուք կարող եք հանել արգելափակումը ցանկացած ժամանակ';
 $lang['ADMIN_DISABLE_TITLE'] = 'Համաժողովին անջատված է';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Համաժողովը փակվել է տեխնիկական սպասարկում';
 $lang['ADMIN_UNLOCK'] = 'Միացնել համաժողովը';
@@ -133,7 +133,7 @@ $lang['ONLINE_ADMIN'] = 'Ադմինիստրատոր';
 $lang['ONLINE_MOD'] = 'Մոդերատոր';
 $lang['ONLINE_GROUP_MEMBER'] = 'Խմբի անդամ';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'This action can not be performed in demo mode!';
+$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Այս գործողությունը չի կարող կատարվել ցուցադրական ռեժիմում!';
 
 $lang['CURRENT_TIME'] = 'Ընթացիկ ժամանակը: <span class="tz_time">%s</span>';
 
@@ -182,7 +182,7 @@ $lang['NEW_POSTS_LOCKED'] = 'Նոր հաղորդագրություններ [ ա�
 $lang['FORUM_LOCKED_MAIN'] = 'Համաժողովը արգելափակվել է';
 
 // Login
-$lang['ENTER_PASSWORD'] = 'Please enter your username and password to log in.';
+$lang['ENTER_PASSWORD'] = 'Խնդրում ենք մուտքագրել ձեր անունն ու գաղտնաբառը մուտք գործելու համար։';
 $lang['LOGIN'] = 'Մուտք գործել';
 $lang['LOGOUT'] = 'Դուրս գալ';
 $lang['CONFIRM_LOGOUT'] = 'Դուք համոզված եք, որ ցանկանում եք դուրս գալ?';
@@ -241,8 +241,8 @@ $lang['RULES_VOTE_CAN'] = 'Դուք <b>can</b> քվեարկել այս համա�
 $lang['RULES_VOTE_CANNOT'] = 'Դուք <b>cannot</b> քվեարկել հետազոտությունների այս ֆորումին';
 $lang['RULES_MODERATE'] = 'Դուք <b>can</b> ելույթների այս համաժողովը';
 
-$lang['NO_TOPICS_POST_ONE'] = 'There are no posts in this forum yet<br />Click on the <b>New Topic</b> icon, and your post will be the first.';
-$lang['NO_RELEASES_POST_ONE'] = 'There are no releases in this forum yet<br />Click on the <b>New Release</b> icon, and your release will be the first.';
+$lang['NO_TOPICS_POST_ONE'] = 'Այս ֆորումում դեռ գրառումներ չկան<br />Քաղաքում <b>Նոր թեմա</b> խորհրդանիշը, և ձեր գրառումը կլինի առաջինը։';
+$lang['NO_RELEASES_POST_ONE'] = 'Այս ֆորումում դեռ թողարկումներ չկան<br />Քաղաքում <b>Նոր թողարկում</b> խորհրդանիշը, և ձեր թողարկումը կլինի առաջինը։';
 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'Դիտել թեմաներ';
@@ -277,8 +277,8 @@ $lang['SPOILER_HEAD'] = 'թաքնված տեքստը';
 $lang['SPOILER_CLOSE'] = 'հերթը';
 $lang['PLAY_ON_CURPAGE'] = 'Սկսել է խաղալ ընթացիկ էջը';
 
-$lang['EDITED_TIME_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
-$lang['EDITED_TIMES_TOTAL'] = 'Last edited by <b>%s</b> on %s; edited %d times in total'; // Last edited by me on 12 Oct 2001; edited 2 times in total
+$lang['EDITED_TIME_TOTAL'] = 'Վերջին անգամ խմբագրել է <b>%s</b> %s ամսաթվի վրա; խմբագրել է %d անգամ ընդհանուր առմամբ։'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIMES_TOTAL'] = 'Վերջին անգամ խմբագրել է <b>%s</b> %s ամսաթվի վրա; խմբագրել է %d անգամ ընդհանուր առմամբ։'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Փակել թեման';
 $lang['UNLOCK_TOPIC'] = 'Բացեք ձեր թեման';
@@ -379,7 +379,7 @@ $lang['MAX_SMILIES_PER_POST'] = 'Սահմանաչափը սմայլներ են ս
 
 $lang['ATTACH_SIGNATURE'] = 'Հավելված ստորագրությունը (ստորագրությունները կարելի է փոփոխել պրոֆիլի)';
 $lang['NOTIFY'] = 'Notify me on replies';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Allow robots indexing this topic';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Թույլ տալ ռոբոտների ինդեքսավորել այս թեման';
 
 $lang['STORED'] = 'Ձեր հաղորդագրությունը հաջողությամբ է մտցվել ։ ';
 $lang['EDITED'] = 'Հաղորդագրություն փոխվել է';
@@ -481,7 +481,7 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Ուղարկել նոր անհատ հաղորդա
 $lang['SEND_A_REPLY'] = 'Ի պատասխան անձնական հաղորդագրություն';
 $lang['EDIT_MESSAGE'] = 'Խմբագրել անձնական հաղորդագրություն';
 
-$lang['NOTIFICATION_SUBJECT'] = 'New Private Message has been received!';
+$lang['NOTIFICATION_SUBJECT'] = 'Նոր անձնական հաղորդագրություն է ստացվել!';
 
 $lang['FIND_USERNAME'] = 'Գտնել անունը';
 $lang['SELECT_USERNAME'] = 'Ընտրեք Անուն';
@@ -566,8 +566,8 @@ $lang['BIRTHDAY'] = 'Ծննդյան օրը';
 $lang['HAPPY_BIRTHDAY'] = 'Ծնունդդ Շնորհավոր!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Ձևաչափը ծննդյան սխալ.';
 $lang['AGE'] = 'Տարիքը';
-$lang['BIRTHDAY_TO_HIGH'] = 'Sorry, this site does not accept users older than %d years old';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept user younger than %d years old';
+$lang['BIRTHDAY_TO_HIGH'] = 'Ցավոք, այս կայքը նախատեսված չէ օգտատերերի համար, ովքեր ավելի հին են %d տարուց։';
+$lang['BIRTHDAY_TO_LOW'] = 'Ցավոք, այս կայքը նախատեսված չէ օգտատերերի համար, ովքեր երիտասարդ են %d տարուց։';
 $lang['BIRTHDAY_TODAY'] = 'Օգտատերերի Օրը: ';
 $lang['BIRTHDAY_WEEK'] = 'Օգտվողները ծննդյան հաջորդ օրերի ընթացքում %d: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Օգտվողները չունեցող ծննդյան առաջիկա %d օր'; // %d is substituted with the number of days
@@ -575,7 +575,7 @@ $lang['NOBIRTHDAY_TODAY'] = 'Ոչ ոք օգտվողների Օրը';
 $lang['BIRTHDAY_ENABLE'] = 'Միացնել ծննդյան օրը';
 $lang['BIRTHDAY_MAX_AGE'] = 'Մաքս տարիքը';
 $lang['BIRTHDAY_MIN_AGE'] = 'Նվազագույն տարիքը';
-$lang['BIRTHDAY_CHECK_DAY'] = 'Days to check for upcoming birthdays';
+$lang['BIRTHDAY_CHECK_DAY'] = 'Օրեր, որոնք ստուգված են լինելու՝ րոպեներ';
 $lang['YEARS'] = 'Տարի';
 
 $lang['NO_THEMES'] = 'Ոչ թեմաներ տվյալների բազայում';
@@ -601,7 +601,7 @@ $lang['RESET_AUTOLOGIN'] = 'Բանալին автологина վերականգ
 $lang['RESET_AUTOLOGIN_EXPL'] = 'այն բոլոր վայրերը, որոնք այցելել եք համաժողովը ընդգրկված ավտոմատ մուտքը համակարգ';
 
 $lang['AVATAR'] = 'Անձնանշան';
-$lang['AVATAR_EXPLAIN'] = 'Displays a small graphic image below your details in posts. Only one image can be displayed at a time, its width can be no greater than %d pixels, the height no greater than %d pixels, and the file size no more than %s.';
+$lang['AVATAR_EXPLAIN'] = 'Ցուցադրվում է փոքր գրաֆիկական պատկերը ձեր մանրամասների տակ պաշտոններում: Միաժամանակ կարելի է ցուցադրել միայն մեկ նկարը, նրա լայնությունը չի կարող գերազանցել %d պիքսել, բարձությունը ՝ %d պիքսել, և ֆայլի չափը չի կարող գերազանցել %s։';
 $lang['AVATAR_DELETE'] = 'Հեռացնել անձնանշան';
 $lang['AVATAR_DISABLE'] = 'Կառավարման հնարավորություն ավատար անջատված խախտելու համար <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Բեռնել անձնանշան';
@@ -611,7 +611,7 @@ $lang['RETURN_PROFILE'] = 'Վերադառնալ անձնագիրը';
 $lang['SELECT_CATEGORY'] = 'Ընտրել կատեգորիա';
 
 $lang['DELETE_IMAGE'] = 'Հեռացում նկարներ';
-$lang['SET_MONSTERID_AVATAR'] = 'Set MonsterID avatar';
+$lang['SET_MONSTERID_AVATAR'] = 'Ստանալ MonsterID-avatar-ը';
 $lang['CURRENT_IMAGE'] = 'Ներկայիս իմիջը';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Տեղեկացնել նոր անձնական հաղորդագրությունների';
@@ -623,7 +623,7 @@ $lang['PROFILE_UPDATED_INACTIVE'] = 'Ձեր պրոֆիլը թարմացվել է
 
 $lang['PASSWORD_MISMATCH'] = 'Ձեր մուտքագրած գաղտնաբառերը չեն համընկնում ։ ';
 $lang['CURRENT_PASSWORD_MISMATCH'] = 'Ընթացիկ գաղտնաբառը, դուք ներկայացնում, չի համընկնում պահվող տվյալների բազայի.';
-$lang['PASSWORD_LONG'] = 'Your password must be no longer than %d characters and no shorter than %d characters.';
+$lang['PASSWORD_LONG'] = 'Ձեր գաղտնաբառը չի կարող գերազանցել %d նիշ և չի կարող լինել %d նիշից կարճ։';
 $lang['TOO_MANY_REGISTERS'] = 'Դուք ձեռնարկել, շատ փորձերի գրանցման ։ Խնդրում ենք կրկին փորձել ավելի ուշ.';
 $lang['USERNAME_TAKEN'] = 'Կներեք, բայց այս անունը արդեն զբաղված է ։ ';
 $lang['USERNAME_INVALID'] = 'Կներեք, բայց այս օգտագործողի անունը պարունակում է անթույլատրելի խորհրդանիշ';
@@ -631,7 +631,7 @@ $lang['USERNAME_DISALLOWED'] = 'Կներեք, բայց այս անունը ար�
 $lang['USERNAME_TOO_LONG'] = 'Ձեր անունը չափազանց երկար է ։ ';
 $lang['USERNAME_TOO_SMALL'] = 'Ձեր անունը չափազանց փոքր է:';
 $lang['EMAIL_TAKEN'] = 'Կներեք, բայց այս E-mail հասցե արդեն գրանցված օգտվողի մասին.';
-$lang['EMAIL_BANNED'] = 'Sorry, but the <b>%s</b> address has been banned.';
+$lang['EMAIL_BANNED'] = 'Ցավոք, բայց <b>%s</b> հասցեն արգելված է։';
 $lang['EMAIL_INVALID'] = 'Կներեք, բայց այս էլ-փոստի հասցեն անվավեր է:';
 $lang['EMAIL_TOO_LONG'] = 'Ձեր հաղորդագրությունը չափազանց երկար է.';
 $lang['SIGNATURE_TOO_LONG'] = 'Ձեր ստորագրությունը շատ երկար է ։ ';
@@ -691,17 +691,17 @@ $lang['DESC'] = 'Desc';
 $lang['ORDER'] = 'Պատվերը';
 
 // Thanks
-$lang['THANK_TOPIC'] = 'Vote for this topic';
-$lang['THANKS_GRATITUDE'] = 'We appreciate your gratitude';
-$lang['LAST_LIKES'] = 'Last votes';
-$lang['LIKE_OWN_POST'] = 'You can\'t vote for your own topic';
-$lang['NO_LIKES'] = 'Nobody gave a vote yet';
-$lang['LIKE_ALREADY'] = 'You already voted this topic';
+$lang['THANK_TOPIC'] = 'Քվեարկեք այս թեմայի համար';
+$lang['THANKS_GRATITUDE'] = 'Մենք գնահատում ենք ձեր շնորհակալությունը';
+$lang['LAST_LIKES'] = 'Վերջին ձայներ';
+$lang['LIKE_OWN_POST'] = 'Դուք չեք կարող քվեարկել ձեր սեփական թեմայի համար';
+$lang['NO_LIKES'] = 'Բոյի կողմից դեռ չկա ձայն';
+$lang['LIKE_ALREADY'] = 'Դուք արդեն քվեարկել եք այս թեմայի համար';
 
 // Invites
-$lang['INVITE_CODE'] = 'Invite code';
-$lang['INCORRECT_INVITE'] = 'Invite not found';
-$lang['INVITE_EXPIRED'] = 'Invite expired';
+$lang['INVITE_CODE'] = 'Վճարային կոդ';
+$lang['INCORRECT_INVITE'] = 'Վճարային խախտում';
+$lang['INVITE_EXPIRED'] = 'Վճարը ժամկետը ավարտվել է';
 
 // Group control panel
 $lang['GROUP_CONTROL_PANEL'] = 'Խմբի Օգտագործողների Համար';
@@ -747,8 +747,8 @@ $lang['GROUP_REQUEST'] = 'Խնդրում միանալ ձեր խմբին ձեռք
 $lang['GROUP_APPROVED'] = 'Ձեր հարցումը հավանություն ստանա:';
 $lang['GROUP_ADDED'] = 'Դուք ավելացվել է: այս խմբին.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Դուք արդեն հանդիսանում եք այս խմբի';
-$lang['USER_IS_MEMBER_GROUP'] = '%s is already a member of this group';
-$lang['USER_IS_MOD_GROUP'] = '%s is a moderator of this group';
+$lang['USER_IS_MEMBER_GROUP'] = '%s արդեն անդամ է այս խմբում';
+$lang['USER_IS_MOD_GROUP'] = '%s մահաթիր է այս խմբի';
 $lang['GROUP_TYPE_UPDATED'] = 'Հաջողությամբ թարմացվել Տեսակը խմբի.';
 $lang['EFFECTIVE_DATE'] = 'Ուժի Մեջ Մտնելու Ամսաթիվը';
 
@@ -985,271 +985,271 @@ $lang['DATETIME']['NOV'] = 'Նոյեմբերի';
 $lang['DATETIME']['DEC'] = 'Դեկտեմբերի';
 
 // Country selector
-$lang['COUNTRY'] = 'Country';
-$lang['SET_OWN_COUNTRY'] = 'Set own country (Manually)';
+$lang['COUNTRY'] = 'Երկիր';
+$lang['SET_OWN_COUNTRY'] = 'Անձնական երկրները (Դիտեք)';
 $lang['COUNTRIES'] = [
-    0 => 'Not selected',
-    'AD' => 'Andorra',
-    'AE' => 'United Arab Emirates',
-    'AF' => 'Afghanistan',
-    'AG' => 'Antigua and Barbuda',
-    'AI' => 'Anguilla',
-    'AL' => 'Albania',
-    'AM' => 'Armenia',
-    'AO' => 'Angola',
-    'AQ' => 'Antarctica',
-    'AR' => 'Argentina',
-    'AS' => 'American Samoa',
-    'AT' => 'Austria',
-    'AU' => 'Australia',
-    'AW' => 'Aruba',
-    'AX' => 'Aland Islands',
-    'AZ' => 'Azerbaijan',
-    'BA' => 'Bosnia and Herzegovina',
-    'BB' => 'Barbados',
-    'BD' => 'Bangladesh',
-    'BE' => 'Belgium',
-    'BF' => 'Burkina Faso',
-    'BG' => 'Bulgaria',
-    'BH' => 'Bahrain',
-    'BI' => 'Burundi',
-    'BJ' => 'Benin',
-    'BL' => 'Saint Barthélemy',
-    'BM' => 'Bermuda',
-    'BN' => 'Brunei Darussalam',
-    'BO' => 'Bolivia, Plurinational State of',
-    'BQ' => 'Caribbean Netherlands',
-    'BR' => 'Brazil',
-    'BS' => 'Bahamas',
-    'BT' => 'Bhutan',
-    'BV' => 'Bouvet Island',
-    'BW' => 'Botswana',
-    'BY' => 'Belarus',
-    'BZ' => 'Belize',
-    'CA' => 'Canada',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CD' => 'Congo, the Democratic Republic of the',
-    'CF' => 'Central African Republic',
-    'CG' => 'Republic of the Congo',
-    'CH' => 'Switzerland',
-    'CI' => 'Republic of Cote d\'Ivoire',
-    'CK' => 'Cook Islands',
-    'CL' => 'Chile',
-    'CM' => 'Cameroon',
-    'CN' => 'China (People\'s Republic of China)',
-    'CO' => 'Colombia',
-    'CR' => 'Costa Rica',
-    'CU' => 'Cuba',
-    'CV' => 'Cape Verde',
-    'CW' => 'Country of Curaçao',
-    'CX' => 'Christmas Island',
-    'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'DE' => 'Germany',
-    'DJ' => 'Djibouti',
-    'DK' => 'Denmark',
-    'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
-    'DZ' => 'Algeria',
-    'EC' => 'Ecuador',
-    'EE' => 'Estonia',
-    'EG' => 'Egypt',
-    'EH' => 'Western Sahara',
-    'ER' => 'Eritrea',
-    'ES' => 'Spain',
-    'ET' => 'Ethiopia',
-    'EU' => 'Europe',
-    'FI' => 'Finland',
-    'FJ' => 'Fiji',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FM' => 'Micronesia, Federated States of',
-    'FO' => 'Faroe Islands',
-    'FR' => 'France',
-    'GA' => 'Gabon',
-    'GB-ENG' => 'England',
-    'GB-NIR' => 'Northern Ireland',
-    'GB-SCT' => 'Scotland',
-    'GB-WLS' => 'Wales',
-    'GB' => 'United Kingdom',
-    'GD' => 'Grenada',
-    'GE' => 'Georgia',
-    'GF' => 'French Guiana',
-    'GG' => 'Guernsey',
-    'GH' => 'Ghana',
-    'GI' => 'Gibraltar',
-    'GL' => 'Greenland',
-    'GM' => 'Gambia',
-    'GN' => 'Guinea',
-    'GP' => 'Guadeloupe',
-    'GQ' => 'Equatorial Guinea',
-    'GR' => 'Greece',
-    'GS' => 'South Georgia and the South Sandwich Islands',
-    'GT' => 'Guatemala',
-    'GU' => 'Guam',
-    'GW' => 'Guinea-Bissau',
-    'GY' => 'Guyana',
-    'HK' => 'Hong Kong',
-    'HM' => 'Heard Island and McDonald Islands',
-    'HN' => 'Honduras',
-    'HR' => 'Croatia',
-    'HT' => 'Haiti',
-    'HU' => 'Hungary',
-    'ID' => 'Indonesia',
-    'IE' => 'Ireland',
-    'IL' => 'Israel',
-    'IM' => 'Isle of Man',
-    'IN' => 'India',
-    'IO' => 'British Indian Ocean Territory',
-    'IQ' => 'Iraq',
-    'IR' => 'Iran, Islamic Republic of',
-    'IS' => 'Iceland',
-    'IT' => 'Italy',
-    'JE' => 'Jersey',
-    'JM' => 'Jamaica',
-    'JO' => 'Jordan',
-    'JP' => 'Japan',
-    'KE' => 'Kenya',
-    'KG' => 'Kyrgyzstan',
-    'KH' => 'Cambodia',
-    'KI' => 'Kiribati',
-    'KM' => 'Comoros',
-    'KN' => 'Saint Kitts and Nevis',
-    'KP' => 'Korea, Democratic People\'s Republic of',
-    'KR' => 'Korea, Republic of',
-    'KW' => 'Kuwait',
-    'KY' => 'Cayman Islands',
-    'KZ' => 'Kazakhstan',
-    'LA' => 'Laos (Lao People\'s Democratic Republic)',
-    'LB' => 'Lebanon',
-    'LC' => 'Saint Lucia',
-    'LI' => 'Liechtenstein',
-    'LK' => 'Sri Lanka',
-    'LR' => 'Liberia',
-    'LS' => 'Lesotho',
-    'LT' => 'Lithuania',
-    'LU' => 'Luxembourg',
-    'LV' => 'Latvia',
-    'LY' => 'Libya',
-    'MA' => 'Morocco',
-    'MC' => 'Monaco',
-    'MD' => 'Moldova, Republic of',
-    'ME' => 'Montenegro',
-    'MF' => 'Saint Martin',
-    'MG' => 'Madagascar',
-    'MH' => 'Marshall Islands',
-    'MK' => 'North Macedonia',
-    'ML' => 'Mali',
-    'MM' => 'Myanmar',
-    'MN' => 'Mongolia',
-    'MO' => 'Macao',
-    'MP' => 'Northern Mariana Islands',
-    'MQ' => 'Martinique',
-    'MR' => 'Mauritania',
-    'MS' => 'Montserrat',
-    'MT' => 'Malta',
-    'MU' => 'Mauritius',
-    'MV' => 'Maldives',
-    'MW' => 'Malawi',
-    'MX' => 'Mexico',
-    'MY' => 'Malaysia',
-    'MZ' => 'Mozambique',
-    'NA' => 'Namibia',
-    'NC' => 'New Caledonia',
-    'NE' => 'Niger',
-    'NF' => 'Norfolk Island',
-    'NG' => 'Nigeria',
-    'NI' => 'Nicaragua',
-    'NL' => 'Netherlands',
-    'NO' => 'Norway',
-    'NP' => 'Nepal',
-    'NR' => 'Nauru',
-    'NU' => 'Niue',
-    'NZ' => 'New Zealand',
-    'OM' => 'Oman',
-    'PA' => 'Panama',
-    'PE' => 'Peru',
-    'PF' => 'French Polynesia',
-    'PG' => 'Papua New Guinea',
-    'PH' => 'Philippines',
-    'PK' => 'Pakistan',
-    'PL' => 'Poland',
-    'PM' => 'Saint Pierre and Miquelon',
-    'PN' => 'Pitcairn',
-    'PR' => 'Puerto Rico',
-    'PS' => 'Palestine',
-    'PT' => 'Portugal',
-    'PW' => 'Palau',
-    'PY' => 'Paraguay',
-    'QA' => 'Qatar',
-    'RE' => 'Réunion',
-    'RO' => 'Romania',
-    'RS' => 'Serbia',
-    'RU' => 'Russian Federation',
-    'RW' => 'Rwanda',
-    'SA' => 'Saudi Arabia',
-    'SB' => 'Solomon Islands',
-    'SC' => 'Seychelles',
-    'SD' => 'Sudan',
-    'SE' => 'Sweden',
-    'SG' => 'Singapore',
-    'SH' => 'Saint Helena, Ascension and Tristan da Cunha',
-    'SI' => 'Slovenia',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SK' => 'Slovakia',
-    'SL' => 'Sierra Leone',
-    'SM' => 'San Marino',
-    'SN' => 'Senegal',
-    'SO' => 'Somalia',
-    'SR' => 'Suriname',
-    'SS' => 'South Sudan',
-    'SU' => 'Soviet Union',
-    'ST' => 'Sao Tome and Principe',
-    'SV' => 'El Salvador',
-    'SX' => 'Sint Maarten (Dutch part)',
-    'SY' => 'Syrian Arab Republic',
-    'SZ' => 'Swaziland',
-    'TC' => 'Turks and Caicos Islands',
-    'TD' => 'Chad',
-    'TF' => 'French Southern Territories',
-    'TG' => 'Togo',
-    'TH' => 'Thailand',
-    'TJ' => 'Tajikistan',
-    'TK' => 'Tokelau',
-    'TL' => 'Timor-Leste',
-    'TM' => 'Turkmenistan',
-    'TN' => 'Tunisia',
-    'TO' => 'Tonga',
-    'TR' => 'Turkey',
-    'TT' => 'Trinidad and Tobago',
-    'TV' => 'Tuvalu',
-    'TW' => 'Taiwan (Republic of China)',
-    'TZ' => 'Tanzania, United Republic of',
-    'UA' => 'Ukraine',
-    'UG' => 'Uganda',
-    'UM' => 'US Minor Outlying Islands',
-    'US' => 'United States',
-    'UY' => 'Uruguay',
-    'UZ' => 'Uzbekistan',
-    'VA' => 'Holy See (Vatican City State)',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'VE' => 'Venezuela, Bolivarian Republic of',
-    'VG' => 'Virgin Islands, British',
-    'VI' => 'Virgin Islands, U.S.',
-    'VN' => 'Vietnam',
-    'VU' => 'Vanuatu',
-    'WF' => 'Wallis and Futuna Islands',
-    'WS' => 'Samoa',
-    'XK' => 'Kosovo',
-    'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
-    'YT' => 'Mayotte',
-    'ZA' => 'South Africa',
-    'ZM' => 'Zambia',
-    'ZW' => 'Zimbabwe',
+    0 => 'Չի ընտրվել',
+    'AD' => 'Անդորրա',
+    'AE' => 'Միացյալ Արաբական Էմիրություններ',
+    'AF' => 'Աֆղանստան',
+    'AG' => 'Անտիգուա և Բարբուդա',
+    'AI' => 'Անգվիլա',
+    'AL' => 'Ալբանիա',
+    'AM' => 'Հայաստան',
+    'AO' => 'Անգոլա',
+    'AQ' => 'Անտարկտիկա',
+    'AR' => 'Արգենտինա',
+    'AS' => 'Ամերիկյան Սամոա',
+    'AT' => 'Ավստրալիա',
+    'AU' => 'Աստրիա',
+    'AW' => 'Արուբա',
+    'AX' => 'Ալանդական կղզիներ',
+    'AZ' => 'Ադրբեջան',
+    'BA' => 'Բոսնիա և Հերցեգովինա',
+    'BB' => 'Բարբադոս',
+    'BD' => 'Բանգլադեշ',
+    'BE' => 'Բելգիա',
+    'BF' => 'Բուրկինա Ֆասո',
+    'BG' => 'Բուլղարիա',
+    'BH' => 'Բահրեյն',
+    'BI' => 'Բուրունդի',
+    'BJ' => 'Բենին',
+    'BL' => 'Սուրբ Բարտոլոմեոս',
+    'BM' => 'Բերմուդա',
+    'BN' => 'Բրունեյ',
+    'BO' => 'Բոլիվիա, Պլուրինացիոնալ պետություն',
+    'BQ' => 'Կարիբյան Նիդերլանդներ',
+    'BR' => 'Բրազիլիա',
+    'BS' => 'Բահամա',
+    'BT' => 'Բուտան',
+    'BV' => 'Բուհիայի կղզի',
+    'BW' => 'Բոթսվանա',
+    'BY' => 'Բելառուս',
+    'BZ' => 'Բելիզ',
+    'CA' => 'Կանադա',
+    'CC' => 'Կոկոս (Կիլինգ) կղզիներ',
+    'CD' => 'Կո՞նգոյի դեմոկրատական հանրապետություն',
+    'CF' => 'Կենտրոնական Աֆրիկական Հանրապետություն',
+    'CG' => 'Կոնգոյի Հանրապետություն',
+    'CH' => 'Շվեյցարիա',
+    'CI' => 'Կոտ դ\'Իվուար',
+    'CK' => 'Կուկի կղզիներ',
+    'CL' => 'Չիլի',
+    'CM' => 'Կամերուն',
+    'CN' => 'Չինաստան (Հանրապետության)',
+    'CO' => 'Կոլումբիա',
+    'CR' => 'Կոստա Ռիկա',
+    'CU' => 'Կուբա',
+    'CV' => 'Կապ Վերդե',
+    'CW' => 'Կուրասովի երկիր',
+    'CX' => 'Խրիստոսյան կղզի',
+    'CY' => 'Կիպրոս',
+    'CZ' => 'Չեխիա',
+    'DE' => 'Գերմանիա',
+    'DJ' => 'Դիջիբուտի',
+    'DK' => 'Դանիա',
+    'DM' => 'Դոմինիկան',
+    'DO' => 'Դոմինիկյան Հանրապետություն',
+    'DZ' => 'Ալժիր',
+    'EC' => 'Էկվադոր',
+    'EE' => 'էսթոնիա',
+    'EG' => 'Եգիպտոս',
+    'EH' => 'Արևմտյան Սահարա',
+    'ER' => 'Էրիտրեյա',
+    'ES' => 'Իսպանիա',
+    'ET' => 'Եթովպիա',
+    'EU' => 'Եվրոպա',
+    'FI' => 'Ֆինլանդիա',
+    'FJ' => 'Ֆiji',
+    'FK' => 'Ֆոկլենդյան կղզիներ (Մալվինյան)',
+    'FM' => 'Միկրոնեզիա, Դաշնակցային պետություն',
+    'FO' => 'Ֆարոե կղզիներ',
+    'FR' => 'Ֆրանսիա',
+    'GA' => 'Գաբոն',
+    'GB-ENG' => 'Անգլիա',
+    'GB-NIR' => 'Հյուսիսային Իռլանդիա',
+    'GB-SCT' => 'Սկոտլանդիա',
+    'GB-WLS' => 'Ուելս',
+    'GB' => 'Միացյալ Թագավորություն',
+    'GD' => 'Գրենադա',
+    'GE' => 'Վրաստան',
+    'GF' => 'Ֆրանսիական Գվիանա',
+    'GG' => 'Գերնսին',
+    'GH' => 'Գանա',
+    'GI' => 'Ջիբրալտար',
+    'GL' => 'Գրենլանդիա',
+    'GM' => 'Գամբիա',
+    'GN' => 'Գվինեան',
+    'GP' => 'Գվադելուպե',
+    'GQ' => 'Հավաքական Գվինեա',
+    'GR' => 'Հույն',
+    'GS' => 'Հարավային Ջորջիա և Հարավային Սենդվիչյան կղզիներ',
+    'GT' => 'Գվatemala',
+    'GU' => 'Գուամ',
+    'GW' => 'Գվինեա-Բիսաու',
+    'GY' => 'Գայանա',
+    'HK' => 'Հոնկոնգ',
+    'HM' => 'Հարդ կղզի և Մակդոնալդի կղզիներ',
+    'HN' => 'Հոնդուրաս',
+    'HR' => 'Խորվաթիա',
+    'HT' => 'Հաիթի',
+    'HU' => 'Հունգարիա',
+    'ID' => 'Ինդոնեզիա',
+    'IE' => 'Իռլանդիա',
+    'IL' => 'Իսրայել',
+    'IM' => 'Մանի կղզու',
+    'IN' => 'Հնդկաստան',
+    'IO' => 'Բրիտանական Հնդկական Դիոլում',
+    'IQ' => 'Իրաք',
+    'IR' => 'Իրանը, Իսլամական Հանրապետություն',
+    'IS' => 'Իսլանդիա',
+    'IT' => 'Իտալիա',
+    'JE' => 'Ջերսի',
+    'JM' => 'Յամայկա',
+    'JO' => 'Հորդանան',
+    'JP' => 'Ճապոնիա',
+    'KE' => 'Քենիա',
+    'KG' => 'Կիրգիզստան',
+    'KH' => 'Կամբոժա',
+    'KI' => 'Կիրիբատի',
+    'KM' => 'Կոմորոս',
+    'KN' => 'Սուրբ Քիթս և Նեվիս',
+    'KP' => 'Կորեա, ժողովրդական ժողովրդականի Հանրապետություն',
+    'KR' => 'Կորեա, Հանրապետություն',
+    'KW' => 'Քուվեյթ',
+    'KY' => 'Կայման կղզիներ',
+    'KZ' => 'Ղազախստան',
+    'LA' => 'Լաոս (Լաոյի ժողովրդական Դեմոկրատական Հանրապետություն)',
+    'LB' => 'Լիբանան',
+    'LC' => 'Սուրբ Լույսիան',
+    'LI' => 'Լիխտենզթեյն',
+    'LK' => 'Սրի Լանկա',
+    'LR' => 'Լիբերիա',
+    'LS' => 'Լեսոթո',
+    'LT' => 'Լիտվա',
+    'LU' => 'Լյուքսեմբուրգ',
+    'LV' => 'Լիտվյան',
+    'LY' => 'Լիբիա',
+    'MA' => 'Մարոկո',
+    'MC' => 'Մոնակո',
+    'MD' => 'Մոլդովա, Հանրապետություն',
+    'ME' => 'Մոնտենեգրո',
+    'MF' => 'Սուրբ Մարտին',
+    'MG' => 'Մադագասկար',
+    'MH' => 'Մարշալյան կղզիներ',
+    'MK' => 'उत्तर मानचूरिया',
+    'ML' => 'Մալի',
+    'MM' => 'Մյանմար',
+    'MN' => 'Մոնղոլիա',
+    'MO' => 'Մակաո',
+    'MP' => 'उत्तर मैरियन द्वीपसमूह',
+    'MQ' => 'Մարտենիկ',
+    'MR' => 'Մաուրիտանիա',
+    'MS' => 'Մոնսերրադ',
+    'MT' => 'Մալտա',
+    'MU' => 'Մաուրիցիա',
+    'MV' => 'Մալդիվներ',
+    'MW' => 'Մավրիկիա',
+    'MX' => 'Մեխիկո',
+    'MY' => 'Մալայզիա',
+    'MZ' => 'Մոզամբիկ',
+    'NA' => 'Նամիբիա',
+    'NC' => 'Նոր Կալեդոնիա',
+    'NE' => 'Նիգեր',
+    'NF' => 'Նորդոլկ կղզի',
+    'NG' => 'նիգերիա',
+    'NI' => 'Նիկարագվա',
+    'NL' => 'Նիդերլանդներ',
+    'NO' => 'Նորվեգիա',
+    'NP' => 'Նեպալ',
+    'NR' => 'Նաուրու',
+    'NU' => 'Նյութ',
+    'NZ' => 'Նոր Զելանդիա',
+    'OM' => 'Օման',
+    'PA' => 'Պանամա',
+    'PE' => 'Պերու',
+    'PF' => 'Ֆրանսիական Փոլինեզիա',
+    'PG' => 'Պապուա Նոր Գվինեա',
+    'PH' => 'Ֆիլիպիններ',
+    'PK' => 'Պակիստան',
+    'PL' => 'Լեհաստան',
+    'PM' => 'Սուրբ Պիեռ և Միկելոն',
+    'PN' => 'Փիթկերն',
+    'PR' => 'Պուերտո Ռիկո',
+    'PS' => 'Պաղեստին',
+    'PT' => 'Պորտուգալիա',
+    'PW' => 'Պալաու',
+    'PY' => 'Պարագվայ',
+    'QA' => 'Կատար',
+    'RE' => 'Ռեունիոն',
+    'RO' => 'Ռումինիա',
+    'RS' => 'Կովկաս',
+    'RU' => 'Ռուսաստանի Դաշնություն',
+    'RW' => 'ռուանդա',
+    'SA' => 'Սաուդյան Արաբիա',
+    'SB' => 'Սոլոմոնյան կղզիներ',
+    'SC' => 'Սեյշելյան կղզիներ',
+    'SD' => 'Սուդան',
+    'SE' => 'Շվեդիա',
+    'SG' => 'Սինգապուր',
+    'SH' => 'Սուրբ Հելենա, Ակսենցիոն և Տրիստան դը Կունյա',
+    'SI' => 'Սլովենիա',
+    'SJ' => 'Սվալբարդ և Յան Մայեն կղզիներ',
+    'SK' => 'Սլովակիա',
+    'SL' => 'Սիերա Լեոն',
+    'SM' => 'Սան Մարինո',
+    'SN' => 'Սենեգալ',
+    'SO' => 'Սոմալի',
+    'SR' => 'Սուրինամ',
+    'SS' => 'Հարավային Սուդան',
+    'SU' => 'Սովետական Միություն',
+    'ST' => 'Սաո Տոմե և Պրինսիպե',
+    'SV' => 'Սալվադոր',
+    'SX' => 'Սինթ Մարտեն (հոլանդական մաս)',
+    'SY' => 'Սիրիական Արաբական Հանրապետության',
+    'SZ' => 'Սվազիլանդ',
+    'TC' => 'Թուրքիայի և Կայկոս կղզիներ',
+    'TD' => 'Չադ',
+    'TF' => 'Ֆրանսիական հարավային տարածքներ',
+    'TG' => 'Տոգո',
+    'TH' => 'Թաիլանդ',
+    'TJ' => 'Տաջիկստան',
+    'TK' => 'Թոկելաու',
+    'TL' => 'Տիմոր-Լեստե',
+    'TM' => 'Թուրքմենիստան',
+    'TN' => 'Տունիս',
+    'TO' => 'Տոնկա',
+    'TR' => 'Թուրքիա',
+    'TT' => 'Թրինիդադ և Տոբագո',
+    'TV' => 'Տուվալու',
+    'TW' => 'Թայվան (Չինաստանի Հանրապետություն)',
+    'TZ' => 'Տանզանիա, Միացյալ Հանրապետություն',
+    'UA' => 'Ուկրաինա',
+    'UG' => 'Ուգանդա',
+    'UM' => 'ԱՄՆ Մասնակի Դեպարտամենտներ',
+    'US' => 'Միացյալ Նահանգներ',
+    'UY' => 'Ուրուգվայ',
+    'UZ' => 'Ուզբեկստան',
+    'VA' => 'Սուրբ Աթոռ (Վատիկանի քաղաքstaat)',
+    'VC' => 'Սուրբ Վենսենտ և Գրենադիններ',
+    'VE' => 'Վենեսուելա, Բոլիվարական Հանրապետություն',
+    'VG' => 'Բրիտանիայի Virgin Islands',
+    'VI' => 'ԱՄՆ Virgin Islands',
+    'VN' => 'Վիետնամ',
+    'VU' => 'Վանուատու',
+    'WF' => 'Վալլիս և Ֆուտունայի կղզիներ',
+    'WS' => 'Սամոա',
+    'XK' => 'Կոսովոյ',
+    'YE' => 'Եմեն',
+    'YU' => 'Յուգոսլավիա',
+    'YT' => 'Մայոտ',
+    'ZA' => 'Աֆրիկայի հարավ',
+    'ZM' => 'Զամբիա',
+    'ZW' => 'Զիմբաբվե',
     // Additional flags
-    'WBW' => 'Wonderful Russia of the Future',
-    'PACE' => 'Peace flag',
-    'LGBT' => 'Pride flag'
+    'WBW' => 'Պարզ արևելյան Ղրիմ',
+    'PACE' => 'Խաղաղության դրոշ',
+    'LGBT' => 'Գիտակցության դրոշ'
 ];
 
 // Errors
@@ -1269,25 +1269,25 @@ $lang['DESCRIPTION'] = 'Նկարագրություն'; // used in Administration
 $lang['DOWNLOAD'] = 'Ներբեռնել'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Չափ';
 $lang['VIEWED'] = 'Դիտարկել';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'The Extension \'%s\' was deactivated by a board admin, therefore this Attachment is not displayed.'; // used in Posts and PM's, replace %s with mime type
+$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Extension \'%s\'-ը անջատված է գլխավոր ադմինիստրատորի կողմից, այդ պատճառով այս կցորդն չի ցուցադրվում։'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
-$lang['STREAM'] = 'Stream';
-$lang['RESOLUTION'] = 'Resolution: <b>%s</b>';
-$lang['CHANNELS'] = 'Channels: <b>%s</b>';
-$lang['CHANNELS_LAYOUT'] = 'Channels layout: <b>%s</b>';
-$lang['BITRATE'] = 'Bitrate: <b>%s</b>';
-$lang['SAMPLE_RATE'] = 'Sample rate: <b>%s</b>';
-$lang['AUDIO_TRACK'] = 'Audio track information (%d):';
-$lang['AUDIO_CODEC'] = 'Audio codec: <b title="%s">%s</b>';
-$lang['VIDEO_CODEC'] = 'Video codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about file';
-$lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u file';
-$lang['PLAYBACK_M3U'] = 'Playback .m3u file';
-$lang['COPY_STREAM_LINK'] = 'Copy stream link to clipboard';
-$lang['M3U_NOT_SUPPORTED'] = 'This file cannot be played in the browser...';
-$lang['M3U_FFPROBE_NO_DATA'] = 'It seems ffprobe will not be able to return data about this codec...';
-$lang['M3U_NOTICE'] = 'Some browsers do not support playback of certain video formats. In such a case, you can download the .m3u file and play it using a third-party player';
+$lang['STREAM'] = 'Աղմուկ';
+$lang['RESOLUTION'] = 'Խնդիր: <b>%s</b>';
+$lang['CHANNELS'] = 'Հեռուստաալիքների:<b>%s</b>';
+$lang['CHANNELS_LAYOUT'] = 'Միավորների ձևաչափ:<b>%s</b>';
+$lang['BITRATE'] = 'Bitrate:<b>%s</b>';
+$lang['SAMPLE_RATE'] = 'Sample rate:<b>%s</b>';
+$lang['AUDIO_TRACK'] = 'Խոսքային ուղու տեղեկություններ (%d):';
+$lang['AUDIO_CODEC'] = 'Աուդիո կոդեկ:<b title="%s">%s</b>';
+$lang['VIDEO_CODEC'] = 'Տեսանյութի կոդեկ:<b title="%s">%s</b>';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Ցույց տալ լրացուցիչ տեղեկություններ ֆայլի մասին';
+$lang['DOWNLOAD_M3U_FILE'] = 'Բեռնել .m3u ֆայլը';
+$lang['PLAYBACK_M3U'] = 'Լրացուցիչ տվյալների .m3u ֆայլը';
+$lang['COPY_STREAM_LINK'] = 'Պտտել թողարկված բազմապիսի հղումներ';
+$lang['M3U_NOT_SUPPORTED'] = 'Այս ֆայլը չի կարող խաղացվել բրաուզերում...';
+$lang['M3U_FFPROBE_NO_DATA'] = 'Հանդես է գալիս, որ ffprobe-ը չի կարող վերադարձնել տվյալ այս կոդեկի մասին...';
+$lang['M3U_NOTICE'] = 'Մի շարք բրաուզերներ չեն աջակցում որոշ տեսահոլովակների ձևաչափերի խաղարկման։ Այս դեպքում կարող եք ստանալ.m3u ֆայլը և նվագել այն երրորդ կողմի խաղացողով';
 
 $lang['ATTACHMENT'] = 'Ներդրումները';
 $lang['ATTACHMENT_THUMBNAIL'] = 'Հավելված Ուրվագիծը';
@@ -1367,29 +1367,29 @@ $lang['BT_ADDED'] = 'Ավելացված է';
 $lang['BT_REG_ON_TRACKER'] = 'Գրանցվել խուզարկու';
 $lang['BT_REG_FAIL'] = 'Չի հաջողվել գրանցել տարափ է խուզարկու';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Այլ հեղեղ նույն info_hash արդեն <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents have been disabled by the administrator at the moment, allowed: v2 and hybrids';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents have been disabled by the administrator at the moment, allowed: v1 and hybrids';
-$lang['BT_FLIST'] = 'Files list';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow to process lists with more than %d files. Current number is: %d';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'v1- ով տորխեններն արգելվել են ադմինիստրատորի կողմից, թույլատրվում է v2 և հեղինակներ';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'v2 -ով տորխեններն արգելվել են ադմինիստրատորի կողմից, թույլատրվում է v1 և հեղինակներ';
+$lang['BT_FLIST'] = 'Ֆայլերի ցուցակը';
+$lang['BT_FLIST_LIMIT'] = 'Թրաքերները չեն թույլատրում մշակել ցուցակներ, որոնք ունեն ավելի քան %d ֆայլեր։ Ներկա թիվն է: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
-$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root is a hash of a file embedded in torrents with BitTorrent v2 support, tracker users can extract, calculate them, also download deduplicated torrents using desktop tools such as <a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
-$lang['BT_FLIST_CREATION_DATE'] = 'Creation date';
-$lang['BT_IS_PRIVATE'] = 'Private torrent';
-$lang['BT_FLIST_FILE_PATH'] = 'Path (%s)';
-$lang['BT_FLIST_LINK_TITLE'] = 'File hashes | .torrent meta-info';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Announcers list';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Announcers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'This list contains announcers of torrent file';
+$lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root-ը մի ֆայլի համառոտազնուն է, որը ներդրված է BitTorrent v2 աջակցող տորխեններում, թրաքերային օգտվողերը կարող են դրանք դուրս բերել, հաշվարկել դրանք, ինչպես նաեւ ներբեռնել կրկնվող տորխեններ, օգտագործելով աշխատասեղանի գործիքներ, ինչպիսին է<a href="%s" target="_blank" referrerpolicy="origin">Torrent Merkle Root Reader</a>';
+$lang['BT_FLIST_CREATION_DATE'] = 'Ստեղծման ամսաթիվ';
+$lang['BT_IS_PRIVATE'] = 'Անձնական տորխեն';
+$lang['BT_FLIST_FILE_PATH'] = 'Ճանապարհ (%s)';
+$lang['BT_FLIST_LINK_TITLE'] = 'Ֆայլի մանրամասների | .torrent մետաինֆո';
+$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Հայտարարողների ցուցակը';
+$lang['BT_FLIST_ANNOUNCERS'] = 'Հայտարարողներ';
+$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Այս ցուցակում առկա են տորխենային ֆայլի հայտարարողներ';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Հեռացնել ճանապարհները';
 $lang['BT_UNREGISTERED'] = 'Հեղեղ չգրանցված';
-$lang['BT_UNREGISTERED_ALREADY'] = 'Torrent already unregistered';
+$lang['BT_UNREGISTERED_ALREADY'] = 'Տորխեն արդեն ոչ գրանցվել';
 $lang['BT_REGISTERED'] = 'Հեղեղ գրանցված tracker<br /><br />Now պետք է <a href="%s"><b>download ձեր torrent</b></a> եւ վազում այն միջոցով տարափ հաճախորդը ընտրելով թղթապանակը исходными ֆայլեր եք կիսվում, քանի որ ճանապարհը ներբեռնել';
 $lang['INVALID_ANN_URL'] = 'Սխալ է Տեղեկացնել URL-հասցե [%s]<br /><br />must է <b>%s</b>';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Չի կարող ավելացնել passkey<br /><br />Torrent չի գրանցվել խուզարկու';
 $lang['BT_PASSKEY'] = 'Отмычка';
 $lang['BT_GEN_PASSKEY'] = 'ստեղծել նոր';
 $lang['BT_PASSKEY_VIEW'] = 'ցույց տալ';
-$lang['BT_GEN_PASSKEY_NEW'] = "Attention! After changing your passkey, you will need to re-download all the active torrents! \n Are you sure you want to create a new passkey?";
+$lang['BT_GEN_PASSKEY_NEW'] = "Ուշադրություն! Երբ նոր գաղտնաբառը փոխվի, անհրաժեշտ կլինի կրկին ներբեռնել բոլոր ակտիվ տորրենտները! \n Ձեր նոր գաղտնաբառը ստեղծելու համար վստահ եք?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Ոչ համաժողովների որոնում են գտել';
 
 $lang['SEEDS'] = 'Սերմերի';
@@ -1403,35 +1403,35 @@ $lang['RELEASING'] = 'Собственн';
 $lang['SEEDING'] = 'Սերմերի';
 $lang['LEECHING'] = 'Մի տզրուկ';
 $lang['IS_REGISTERED'] = 'Գրանցված է';
-$lang['MAGNET'] = 'Magnet-link';
-$lang['MAGNET_FOR_GUESTS'] = 'Show magnet-link for guests';
-$lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 supported)';
+$lang['MAGNET'] = 'Մագնետային հղում';
+$lang['MAGNET_FOR_GUESTS'] = 'Ցույց տալ մագնետային հղումը հյուրերի համար';
+$lang['MAGNET_v2'] = 'Մագնետային հղում (BitTorrent v2 աջակցված)';
 
 //torrent status mod
 $lang['TOR_STATUS'] = 'Կարգավիճակ';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Ընտրեք կարգավիճակը';
 $lang['TOR_STATUS_NOT_SELECT'] = 'Դուք չեք ընտրվել է կարգավիճակը.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Բոլոր կարգավիճակ';
-$lang['TOR_STATUS_FORBIDDEN'] = 'This topic\'s status is: ';
+$lang['TOR_STATUS_FORBIDDEN'] = 'Այս թեմայի վիճակը է: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'չի հաստատվել',
     TOR_CLOSED => 'փակ',
     TOR_APPROVED => 'վերցված է',
     TOR_NEED_EDIT => 'չի ձևակերպվել է դեռ',
     TOR_NO_DESC => 'ոչ պաշտոնապես',
-    TOR_DUP => 'duplicate',
-    TOR_CLOSED_CPHOLD => 'closed (copyright)',
+    TOR_DUP => 'կրկնակի',
+    TOR_CLOSED_CPHOLD => 'փակված (հեղինակային իրավունք)',
     TOR_CONSUMED => 'ներծծվում է մաշկի մեջ',
     TOR_DOUBTFUL => 'կասկածելի է',
-    TOR_CHECKING => 'being checked',
+    TOR_CHECKING => 'տեսակավորված',
     TOR_TMP => 'ժամանակավոր',
     TOR_PREMOD => 'премодерации',
-    TOR_REPLENISH => 'replenishing',
+    TOR_REPLENISH => 'համալրման',
 ];
 $lang['TOR_STATUS_FAILED'] = 'Նման կարգավիճակի գոյություն չունի!';
 $lang['TORRENT_FAILED'] = 'Բաշխումը չի գտնվել.';
 $lang['TOR_STATUS_DUB'] = 'Բաշխումն ունի նույն կարգավիճակը';
-$lang['TOR_DONT_CHANGE'] = 'Change of status can not be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Կարգավիճակի փոփոխությունը չի կարող լինել!';
 $lang['TOR_STATUS_OF'] = 'Բաշխումը կարգավիճակ ունի:';
 $lang['TOR_STATUS_CHANGED'] = 'Կարգավիճակը փոխվել է: ';
 $lang['TOR_BACK'] = ' ետ';
@@ -1440,15 +1440,15 @@ $lang['INVALID_ATTACH_ID'] = 'Բացակայում է նույնականացու
 $lang['CHANGE_TOR_TYPE'] = 'Տեսակը торрента հաջողությամբ փոփոխվել';
 $lang['DEL_TORRENT'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել հեղեղ?';
 $lang['DEL_MOVE_TORRENT'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել և տեղափոխել թեման?';
-$lang['UNEXECUTED_RELEASE'] = 'You have an unfinished release. Before creating a new one, please finish it!';
-$lang['TOR_STATUS_LOG_ACTION'] = 'New status: %s.<br/>Previous status: %s.';
+$lang['UNEXECUTED_RELEASE'] = 'Դուք ունեք unfinished release: Անցկացնել եք նորն ստեղծելուց առաջ!';
+$lang['TOR_STATUS_LOG_ACTION'] = 'Նոր վիճակը:%s.<br/>Ավելի վաղ վիճակը:%s.';
 
 // tor_comment
 $lang['TOR_MOD_TITLE'] = 'Կարգավիճակի փոփոխությունը բաժանելու - %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nStatus of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_MSG'] = "Բարև ձեզ, %s.\n\n[URL=%s]դուք[/url] բաշխումը փոխվել է գտնվող՝ [b]%s[/b]";
 
 $lang['TOR_AUTH_TITLE'] = 'Փոփոխություններ դիզայն - %s';
-$lang['TOR_AUTH_MSG'] = "Hello, %s.\n\nYour distribution has been changed - [url=%s]%s[/url]\n\nPlease re-check it.";
+$lang['TOR_AUTH_MSG'] = "Բարև ձեզ, %s.\n\nԴուք բաշխումը փոխվել է - [url=%s]%s[/url]\n\nԽնդրում ենք կրկին ստուգել։";
 $lang['TOR_AUTH_FIXED'] = 'Ֆիքսված';
 $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The տեղեկատվությունը ուղարկվել է модератору. Կարելի է ակնկալել.</span>';
 
@@ -1457,7 +1457,7 @@ $lang['BT_SEEDER_LAST_SEEN'] = 'Զաւակ վերջին անգամ տեսել';
 $lang['BT_SORT_FORUM'] = 'Համաժողովը';
 $lang['SIZE'] = 'Չափ';
 $lang['PIECE_LENGTH'] = 'Երկարությունը կտոր';
-$lang['COMPLETED'] = 'Completed downloads';
+$lang['COMPLETED'] = 'Ավարտված բեռնումներ';
 $lang['ADDED'] = 'Ավելացված է';
 $lang['DELETE_TORRENT'] = 'Հեռացնել տարափ';
 $lang['DELETE_MOVE_TORRENT'] = 'Ջնջել և տեղափոխել թեմաները';
@@ -1476,9 +1476,9 @@ $lang['SET_SILVER_TORRENT'] = 'Արծաթ';
 $lang['UNSET_SILVER_TORRENT'] = 'Համասեռամոլների արծաթ';
 $lang['GOLD_STATUS'] = 'ՈՍԿԵ ՀԵՂԵՂ! ԲԵՌՆԵԼ ԵՐԹԵՒԵԿՈՒԹՅՈՒՆԸ ՉԻ ՀԱՄԱՐՈՒՄ!';
 $lang['SILVER_STATUS'] = 'ԱՐԾԱԹԵ ՀԵՂԵՂ! ԲԵՌՆԵԼ ԵՐԹԵՒԵԿՈՒԹՅՈՒՆԸ ՄԱՍԱՄԲ ՔՆՆԱՐԿՎՈՒՄ ԵՆ!';
-$lang['TOR_TYPE_LOG_ACTION'] = 'Torrent type changed to: %s';
+$lang['TOR_TYPE_LOG_ACTION'] = 'Տորխենի տեսակ փոխվել է:%s';
 
-$lang['TORRENT_STATUS'] = 'Search by status of release';
+$lang['TORRENT_STATUS'] = 'Փնտրել թողարկման կարգավիճակով';
 $lang['SEARCH_IN_FORUMS'] = 'Փնտրում ֆորումներում';
 $lang['SELECT_CAT'] = 'Ընտրել կատեգորիա';
 $lang['GO_TO_SECTION'] = 'Բաժին կլի';
@@ -1554,7 +1554,7 @@ $lang['ALREADY_REG'] = 'Հեղեղ արդեն գրանցվել է';
 $lang['NOT_TORRENT'] = 'Այս ֆայլը torrent';
 $lang['ONLY_1_TOR_PER_POST'] = 'Դուք կարող եք գրանցել միայն մեկ հոսքը պաշտոնում';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Դուք կարող եք գրանցել միայն մեկ հեղեղ մեկ թեմայի';
-$lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profile';
+$lang['VIEWING_USER_BT_PROFILE'] = 'Տորխեն պրոֆիլ';
 $lang['CUR_ACTIVE_DLS'] = 'Ակտիվ торрентов';
 
 $lang['TD_TRAF'] = 'Այսօր';
@@ -1576,7 +1576,7 @@ $lang['BONUS_SELECT'] = 'Ընտրեք';
 $lang['SEED_BONUS'] = 'Բոնուս սերմերի';
 $lang['EXCHANGE'] = 'Փոխանակում';
 $lang['EXCHANGE_BONUS'] = 'Փոխանակում սերմերի բոնուսների';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s to distribution</b> <br /> To exchange bonus points for %1$s traffic which will be added to your distribution total.';
+$lang['BONUS_UPLOAD_DESC'] = '<b>%s համար բաշխման</b> <br /> Փոխանակելու բոնուսային միավորների համար %1$s շարժումը, որը կավելացվի ձեր բաշխման գումարին։';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Գինը';
 $lang['EXCHANGE_NOT'] = 'Փոխանակում հասանելի չէ';
@@ -1585,7 +1585,7 @@ $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You չունեն բոնուսն
 $lang['BONUS_RETURN'] = 'Վերադարձ բոնուսային սերմացուի դիմաց';
 
 $lang['TRACKER'] = 'Ճանապարհները';
-$lang['RANDOM_RELEASE'] = 'Random release';
+$lang['RANDOM_RELEASE'] = 'Լավագույն թողարկում';
 $lang['OPEN_TOPICS'] = 'Բացել թեմաներ';
 $lang['OPEN_IN_SAME_WINDOW'] = 'բացել նույն պատուհանում';
 $lang['SHOW_TIME_TOPICS'] = 'ցույց է տալիս ժամանակը թեմաներ ստեղծել';
@@ -1609,7 +1609,7 @@ $lang['DESIGNER'] = 'Դիզայներ';
 $lang['LAST_IP'] = 'Վերջին IP-ն:';
 $lang['REG_IP'] = 'Գրանցում IP-հասցեներ:';
 $lang['OTHER_IP'] = 'Այլ IP:';
-$lang['ALREADY_REG_IP'] = 'A user %s is already registered with your IP address. If you have not previously registered on our tracker, email the <a href="mailto:%s">Administrator</a>';
+$lang['ALREADY_REG_IP'] = 'Օգտատեր %s արդեն գրանցված է ձեր IP հասցեով։ Եթե Դուք նախկինում գրանցված չեք, մաղթեք <a href="mailto:%s">Ադմինիստրատոր</a>';
 $lang['HIDDEN'] = 'Թաքնված';
 
 // from admin
@@ -1628,7 +1628,7 @@ $lang['NEVER'] = 'Երբեք';
 //mpd
 $lang['DELETE_POSTS'] = 'Հեռացնել ընտրված հաղորդագրությունները';
 $lang['DELETE_POSTS_SUCCESFULLY'] = 'Որոշ հաղորդագրություններ էին հաջողությամբ հեռացվել';
-$lang['NO_POSTS_REMOVED'] = 'No posts were removed.';
+$lang['NO_POSTS_REMOVED'] = 'Չկա ոչ մի գրառում, որը ջնջել է։';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Հայտարարություններ';
@@ -1644,7 +1644,7 @@ $lang['UPDATE_POST_TIME'] = 'Թարմացվել է պաշտոնից անգամ';
 $lang['TOPIC_SPLIT_NEW'] = 'Նոր թեմա';
 $lang['TOPIC_SPLIT_OLD'] = 'Հին թեմաները';
 $lang['BOT_LEAVE_MSG_MOVED'] = 'Ավելացնել բոտի հաղորդագրություն տեղափոխվելու մասին';
-$lang['BOT_REASON_MOVED'] = 'Reason to move';
+$lang['BOT_REASON_MOVED'] = 'Ապրանքի տեղափոխման պատճառով';
 $lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Ավելացնել բոտի հաղորդագրություն պառակտման մասին <b>old topic</b>';
 $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Ավելացնել բոտի հաղորդագրություն պառակտման մասին <b>new topic</b>';
 //qr
@@ -1679,7 +1679,7 @@ $lang['SEND_PM_TXTB'] = '[PM]';
 
 $lang['DECLENSION']['REPLIES'] = ['պատասխան', 'պատասխաններ'];
 $lang['DECLENSION']['TIMES'] = ['ժամանակ', 'անգամ'];
-$lang['DECLENSION']['FILES'] = ['file', 'files'];
+$lang['DECLENSION']['FILES'] = ['ֆայլ', 'ֆայլեր'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['երկրորդ', 'վայրկյան'],
@@ -1715,28 +1715,28 @@ $lang['COMMENT'] = 'Մեկնաբանություն';
 
 // search
 $lang['SEARCH_S'] = 'որոնում...';
-$lang['FORUM_S'] = 'on the forum';
-$lang['TRACKER_S'] = 'on the tracker';
+$lang['FORUM_S'] = 'համաժողովում';
+$lang['TRACKER_S'] = 'հետևիչում';
 $lang['HASH_S'] = 'ըստ info_hash';
 
 // copyright
 $lang['NOTICE'] = '!Ուշադրություն!';
-$lang['COPY'] = 'The site does not provide electronic versions of products, and is engaged only in collecting and cataloguing the references sent and published on the forum by our readers. If you are the legal owner of any submitted material and do not wish the reference to it to be in our catalogue, contact us and we shall immediately remove it. Files for exchange on the tracker are provided by users of the site, and the administration does not bear responsibility for their content. Please do not upload files protected by copyrights, or files with illegal content!';
+$lang['COPY'] = 'Կայքը չի տրամադրում արտադրանքի էլեկտրոնային տարբերակներ և զբաղվում է միայն ենթակառուցվածքների հավաքման և վերամշակման հայտնաբերում, որը ուղարկվել և հրապարակվել է մեր ընթերցողների կողմից ֆորումում։ Եթե դուք իրավական սեփականատեր եք որևէ նյութի, որը ներկայացվել է, և չեք ցանկանում, որ դրա դրույթը լինի մեր կատալոգում, կապնեք մեզ և մենք անմիջապես կհանենք նրան։ Ամբողջական տեղեկությունները մեր առաջնորդությանը չի կրում այդ արժեքների վրա, խնդրում ենք լրագրել ակտիվ պահել։';
 
 // FILELIST
 $lang['COLLAPSE'] = 'Կատալոգ փլուզումից';
 $lang['EXPAND'] = 'Ծավալել';
 $lang['SWITCH'] = 'Switch';
-$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Increase/decrease the window';
+$lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Ավելացնել/պակասեցնել պատուհանը';
 $lang['EMPTY_ATTACH_ID'] = 'Բացակայում է նույնականացուցիչ ֆայլը!';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server!';
+$lang['TOR_NOT_FOUND'] = 'Ֆայլը բացակայում է սերվերում!';
 $lang['ERROR_BUILD'] = 'Բովանդակությունը այս torrent-ֆայլի չի կարելի է տեսնել կայքում (չի հաջողվել կառուցել ֆայլերի ցանկը)';
 $lang['TORFILE_INVALID'] = 'Torrent ֆայլը վնասված է';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Կայքը կարող է պարունակել միայն http://sitename';
-$lang['ICQ_ERROR'] = 'The "ICQ" field may contain only an ICQ number';
-$lang['INVALID_DATE'] = 'Invalid date';
+$lang['ICQ_ERROR'] = '"ICQ" դաշտը կարող է պարունակել միայն ICQ համարը';
+$lang['INVALID_DATE'] = 'Սխալ ամսաթիվ';
 $lang['PROFILE_USER'] = 'Դիտել պրոֆիլը';
 $lang['GOOD_UPDATE'] = 'հաջողությամբ փոփոխվել';
 $lang['UCP_DOWNLOADS'] = '- Բեռնումների';
@@ -1759,9 +1759,9 @@ $lang['USER_DELETE_CONFIRM'] = 'Դուք համոզված եք, որ ցանկա�
 $lang['USER_DELETED'] = 'Օգտագործողը հաջողությամբ հեռացվել';
 $lang['DELETE_USER_ALL_POSTS'] = 'Հեռացնել բոլոր գրառումները';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել բոլոր հաղորդագրությունները և բոլոր թեմաները ստեղծված այդ օգտագործողի?';
-$lang['DELETE_USER_POSTS'] = 'Delete all messages, except for first posts';
+$lang['DELETE_USER_POSTS'] = 'Ջնջել բոլոր հաղորդագրությունները՝ բացի առաջիններից';
 $lang['DELETE_USER_POSTS_ME'] = 'Դուք համոզված եք, որ ցանկանում եք ջնջել իմ բոլոր պաշտոնները?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all messages, except for first posts?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Դուք վստահ եք, որ ցանկանում եք ջնջել բոլոր հաղորդագրությունները՝ բացի առաջինից?';
 $lang['USER_DELETED_POSTS'] = 'Հաղորդագրություններ հաջողությամբ հեռացվել';
 
 $lang['USER'] = 'Օգտագործողը';
@@ -1774,7 +1774,7 @@ $lang['GROUP_LIST_HIDDEN'] = 'Ձեզ չի թույլատրվում դիտել թ
 
 $lang['USER_ACTIVATE'] = 'Ակտիվացնել';
 $lang['USER_DEACTIVATE'] = 'Անջատել';
-$lang['DEACTIVATE_CONFIRM'] = 'Are you sure you want to deactivate this user?';
+$lang['DEACTIVATE_CONFIRM'] = 'Դուք վստահ եք, որ ցանկանում եք դադարեցնել այս օգտագործողին?';
 $lang['USER_ACTIVATE_ON'] = 'Օգտագործողը հաջողությամբ ակտիվանում է';
 $lang['USER_DEACTIVATE_ME'] = 'Դուք կարող եք ապաակտիվացնել ձեր հաշիվը!';
 $lang['ACTIVATE_CONFIRM'] = 'Դուք համոզված եք, որ ցանկանում եք անջատել այդ օգտագործողի?';
@@ -1786,20 +1786,20 @@ $lang['CHOOSE_E_MAIL'] = 'Դուք պետք է փոստի հասցե';
 $lang['CHOOSE_PASS'] = 'Դաշտ գաղտնաբառը չպետք է լինի դատարկ!';
 $lang['CHOOSE_PASS_ERR'] = 'Ձեր մուտքագրած գաղտնաբառերը չեն համընկնում';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Ձեր գաղտնաբառը պետք է լինի ոչ պակաս, քան %d նիշ';
-$lang['CHOOSE_PASS_ERR_MAX'] = 'Your password must be no longer than %d characters';
-$lang['CHOOSE_PASS_ERR_NUM'] = 'The password must contain at least one digit';
-$lang['CHOOSE_PASS_ERR_LETTER'] = 'The password must contain at least one letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'The password must contain at least one uppercase letter of the Latin alphabet';
-$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'The password must contain at least one special character';
+$lang['CHOOSE_PASS_ERR_MAX'] = 'Ձեր գաղտնաբառը պետք է լինի ոչ ավելի, քան %d նիշ';
+$lang['CHOOSE_PASS_ERR_NUM'] = 'Գաղտնաբառը պետք է լինի առնվազն մեկ թվի պարունակությամբ';
+$lang['CHOOSE_PASS_ERR_LETTER'] = 'Գաղտնաբառը պետք է լինի առնվազն մեկ անգլերեն հատկանիշով';
+$lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'Գաղտնաբառը պետք է լինի առնվազն մեկ մեծատառով';
+$lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Գաղտնաբառը պետք է լինի առնվազն մեկ հատուկ զետեղումով';
 $lang['CHOOSE_PASS_OK'] = 'Գաղտնաբառերը համընկնում են';
 $lang['CHOOSE_PASS_REG_OK'] = 'Գաղտնաբառերը համընկնում են, դուք կարող եք անցնել գրանցման';
 $lang['CHOOSE_PASS_FAILED'] = 'Փոխել գաղտնաբառը, անհրաժեշտ է ճիշտ նշել գաղտնաբառը';
 $lang['EMAILER_DISABLED'] = 'Ցավոք, այս գործառույթը ժամանակավորապես չի աշխատում';
 $lang['TERMS_ON'] = 'Ես համաձայն է այդ պայմաններին:';
 $lang['TERMS_OFF'] = 'Ես համաձայն չեմ այդ պայմաններին';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'To register, you need to enable JavaScript';
-$lang['REGISTERED_IN_TIME'] = "Registration is currently closed<br /><br />Registration is available during: %s<br />Current server time: %s<br /><br />We apologize for the inconvenience";
-$lang['AUTOCOMPLETE'] = 'Generate password';
+$lang['JAVASCRIPT_ON_REGISTER'] = 'Գրանցվելու համար անհրաժեշտ է JavaScript-ն միացնել';
+$lang['REGISTERED_IN_TIME'] = "Գրանցումը այս պահին փակ է<br /><br />Գրանցումը հասանելի է հետևյալ ժամանակահատվածում՝ %s<br />Բոլոր այցելություններին ցույց տալ ժամանակը: %s<br /><br />Ներողություն ենք հայտնում անհարմարությունների համար";
+$lang['AUTOCOMPLETE'] = 'Ստեղծել գաղտնաբառ';
 $lang['YOUR_NEW_PASSWORD'] = 'Ձեր նոր գաղտնաբառը:';
 $lang['REGENERATE'] = 'Վերականգնել';
 
@@ -1811,9 +1811,9 @@ $lang['OFF'] = 'է';
 $lang['MEMORY'] = 'Մադամ: ';
 $lang['QUERIES'] = 'հարցումներ';
 $lang['LIMIT'] = 'Սահմանափակումները:';
-$lang['SHOW_LOG'] = 'Show log';
-$lang['EXPLAINED_LOG'] = 'Explained log';
-$lang['CUT_LOG'] = 'Cut long queries';
+$lang['SHOW_LOG'] = 'Ցույց տալ գիրք';
+$lang['EXPLAINED_LOG'] = 'Հանգեցված գիրք';
+$lang['CUT_LOG'] = 'Կտրել երկար հարցում';
 
 // Attach Guest
 $lang['DOWNLOAD_INFO'] = 'Անվճար բեռնել եւ առավելագույն արագությամբ!';
@@ -1841,12 +1841,12 @@ $lang['BOLD'] = 'Համարձակ տեքստը: [b]text[/b] (դյուրանցմ�
 $lang['ITALIC'] = 'Курсивный տեքստը: [i]text[/i] (դյուրանցման Ctrl+i)';
 $lang['UNDERLINE'] = 'Ընդգծելով տեքստը: [u]text[/u] (բանալիների Ctrl+U)';
 $lang['STRIKEOUT'] = 'Зачеркнутый տեքստը: [s]text[/s] (Ctrl+c)';
-$lang['BOX_TAG'] = 'Frame around text: [box]text[/box] or [box=#333,#888]text[/box]';
-$lang['INDENT_TAG'] = 'Insert indent: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Preformatted text: [pre]text[/pre]';
+$lang['BOX_TAG'] = 'Տեքստի շրջանակի շուրջ: [box]text[/box] կամ [box=#333,#888]text[/box]';
+$lang['INDENT_TAG'] = 'Գործարկել աղբյուր: [indent]text[/indent]';
+$lang['PRE_TAG'] = 'Նախապես ձևավորված տեքստ: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Լավագիր տեքստ: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Կոլոլ տեքստ: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Մեջբերում եմ տեքստը: [quote]text[/quote] (դյուրանցման Ctrl+M)';
 $lang['IMG_TITLE'] = 'Տեղադրեք պատկեր՝ [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'URL-հասցե';
@@ -1855,10 +1855,10 @@ $lang['CODE_TITLE'] = 'Էկրան կոդ: [code]code[/code] (Ctrl+)';
 $lang['LIST'] = 'Ցուցակ';
 $lang['LIST_TITLE'] = 'Ցուցակը: [list]text[/list] (դյուրանցման Ctrl+l)';
 $lang['LIST_ITEM'] = 'Պատվիրված ցուցակը: [ցուցակ=]text[/list] (դյուրանցման Ctrl+)';
-$lang['ACRONYM'] = 'Acronym';
-$lang['ACRONYM_TITLE'] = 'Acronym: [acronym=Full text]Short text[/acronym]';
+$lang['ACRONYM'] = 'Ակրոնիմ';
+$lang['ACRONYM_TITLE'] = 'Ակրոնիմ: [acronym=Full text]Short text[/acronym]';
 $lang['QUOTE_SEL'] = 'Մեջբերում առանձնացված';
-$lang['JAVASCRIPT_ON'] = 'JavaScript must be enabled to send messages';
+$lang['JAVASCRIPT_ON'] = 'JavaScript-ն պետք է միացված լինի հաղորդագրություննեների ուղարկման համար';
 
 $lang['NEW'] = 'Նոր';
 $lang['NEWEST'] = 'Նոր';
@@ -1874,15 +1874,15 @@ $lang['DL_DL'] = 'Dl';
 $lang['DL_UL_SPEED'] = 'Արագությունը փող';
 $lang['DL_DL_SPEED'] = 'Արագությունը dl';
 $lang['DL_PORT'] = 'Նավահանգիստ';
-$lang['DL_CLIENT'] = 'BitTorrent client';
+$lang['DL_CLIENT'] = 'BitTorrent հաճախորդ';
 $lang['DL_FORMULA'] = 'Բանաձեւը: Բեռնված/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'կանգ է առել';
 $lang['DL_UPD'] = 'упд: ';
 $lang['DL_INFO'] = 'ցույց է տալիս տվյալներ <i><b>only ընթացիկ session</b></i>';
-$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Hide my BitTorrent client name in peer list';
-$lang['HIDE_PEER_COUNTRY_NAME'] = 'Hide my country name in peer list';
-$lang['HIDE_PEER_USERNAME'] = 'Hide my username in peer list';
+$lang['HIDE_PEER_TORRENT_CLIENT'] = 'Լռեցնել իմ BitTorrent հաճախորդի անվանումը Զարգացողների ցանկում';
+$lang['HIDE_PEER_COUNTRY_NAME'] = 'Անհրաժեշտ է նշել իմ երկրի անունը Զարգացողների ցանկում';
+$lang['HIDE_PEER_USERNAME'] = 'Անհրաժեշտ է նշել իմ օգտվողի անունը Զարգացողների ցանկում';
 
 // Post PIN
 $lang['POST_PIN'] = 'Ամրապնդել է առաջին գրառումը';
@@ -1903,7 +1903,7 @@ $lang['DEL_LIST_INFO'] = 'Հեռացնել պատվերը ցուցակից, սե
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Նայում թեմաներ';
-$lang['NO_WATCHED_TOPICS'] = 'No watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Չկա դիտարկվող թեմաներ';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Վերադառնալ գլխավոր էջ';
@@ -1915,7 +1915,7 @@ $lang['PROFILE_RETURN'] = 'Անցնել անձնագիրը';
 
 $lang['WARNING'] = 'Նախազգուշացում';
 $lang['INDEXER'] = 'Որոնում переиндексация';
-$lang['INDEXER_SUCCESS'] = 'Search index updated successfully';
+$lang['INDEXER_SUCCESS'] = 'Փնտրտուք ցուցիչը հաջողությամբ թարմացվել է';
 
 $lang['FORUM_STYLE'] = 'Համաժողովի ոճը';
 
@@ -1947,30 +1947,30 @@ $lang['RELEASE_TEMPLATES'] = 'Կաղապարներ Թողարկման';
 $lang['ACTIONS_LOG'] = 'Հաշվետվություն գործողությունների մասին';
 
 // Migrations
-$lang['MIGRATIONS_STATUS'] = 'Database Migration Status';
-$lang['MIGRATIONS_DATABASE_NAME'] = 'Database Name';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Total Tables';
-$lang['MIGRATIONS_DATABASE_SIZE'] = 'Database Size';
-$lang['MIGRATIONS_DATABASE_INFO'] = 'Database Information';
-$lang['MIGRATIONS_SYSTEM'] = 'Migration System';
-$lang['MIGRATIONS_NEEDS_SETUP'] = 'Needs Setup';
+$lang['MIGRATIONS_STATUS'] = 'Տվյալների բազայի Միգրացիայի վիճակը';
+$lang['MIGRATIONS_DATABASE_NAME'] = 'Տվյալների բազայի անուն';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Ընդհանուր աղյուսակներ';
+$lang['MIGRATIONS_DATABASE_SIZE'] = 'Տվյալների բազայի չափը';
+$lang['MIGRATIONS_DATABASE_INFO'] = 'Տվյալների բազայի տեղեկություններ';
+$lang['MIGRATIONS_SYSTEM'] = 'Միգրացիայի համակարգ';
+$lang['MIGRATIONS_NEEDS_SETUP'] = 'Հաճախորդություն հնարավորություն';
 $lang['MIGRATIONS_ACTIVE'] = 'Ակտիվ';
-$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Not Initialized';
-$lang['MIGRATIONS_UP_TO_DATE'] = 'All up to date';
-$lang['MIGRATIONS_PENDING_COUNT'] = 'pending';
-$lang['MIGRATIONS_APPLIED'] = 'Applied Migrations';
-$lang['MIGRATIONS_PENDING'] = 'Pending Migrations';
-$lang['MIGRATIONS_VERSION'] = 'Version';
-$lang['MIGRATIONS_NAME'] = 'Migration Name';
-$lang['MIGRATIONS_FILE'] = 'Migration File';
-$lang['MIGRATIONS_APPLIED_AT'] = 'Applied At';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Completed At';
-$lang['MIGRATIONS_CURRENT_VERSION'] = 'Current Version';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'No migrations applied';
-$lang['MIGRATIONS_INSTRUCTIONS'] = 'Instructions';
-$lang['MIGRATIONS_SETUP_STATUS'] = 'Setup Status';
-$lang['MIGRATIONS_SETUP_GUIDE'] = 'See setup guide below';
-$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Action Required';
+$lang['MIGRATIONS_NOT_INITIALIZED'] = 'Չի սկսված';
+$lang['MIGRATIONS_UP_TO_DATE'] = 'Բոլորը թարմացված են';
+$lang['MIGRATIONS_PENDING_COUNT'] = 'մատակարարելը';
+$lang['MIGRATIONS_APPLIED'] = 'Ընդունված Միգրացիաներ';
+$lang['MIGRATIONS_PENDING'] = 'Մատակարարելոը Միգրացիաներ';
+$lang['MIGRATIONS_VERSION'] = 'Րոդիպ';
+$lang['MIGRATIONS_NAME'] = 'Միգրացիայի անուն';
+$lang['MIGRATIONS_FILE'] = 'Միգրացիայի ֆայլ';
+$lang['MIGRATIONS_APPLIED_AT'] = 'Ընդունված Ազգ';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'Ավարտվեց Աշխառնություն';
+$lang['MIGRATIONS_CURRENT_VERSION'] = 'Ընկալվելի արգի միգրացիա';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Ոչ մի միգրացիա չի եղել';
+$lang['MIGRATIONS_INSTRUCTIONS'] = 'Հանդիպումներ';
+$lang['MIGRATIONS_SETUP_STATUS'] = 'Միջազգային կարգելման ժամ';
+$lang['MIGRATIONS_SETUP_GUIDE'] = 'Տեսնել կարգահանման ուղեցույցը ստորև';
+$lang['MIGRATIONS_ACTION_REQUIRED'] = 'Գործողություն է պահանջվում';
 
 // Index
 $lang['MAIN_INDEX'] = 'Ինդեքսը Համաժողովի';
@@ -1997,19 +1997,19 @@ $lang['GZIP_COMPRESSION'] = 'GZIP սեղմում';
 $lang['NOT_AVAILABLE'] = 'Հասանելի չէ';
 
 // System information
-$lang['ADMIN_SYSTEM_INFORMATION'] = 'System information';
-$lang['ADMIN_SYSTEM_OS'] = 'OS:';
+$lang['ADMIN_SYSTEM_INFORMATION'] = 'Համակարգի տեղեկություններ';
+$lang['ADMIN_SYSTEM_OS'] = 'ՕՍ:';
 $lang['ADMIN_SYSTEM_PHP_VER'] = 'PHP:';
-$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
-$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Memory limit:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Disk space info:';
-$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (used: %s | free: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max execution time:';
+$lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Տվյալների բազա:';
+$lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Հիշողության սահմանը:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Դիսկի տարածքի տեղեկություններ:';
+$lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (օգտագործվող: %s | ազատ: %s)';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Мак финал პროდუქტՅան ացած={| -|}';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Տվյալների շտեմարան';
-$lang['CLEAR_CACHE'] = 'Cache';
-$lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
+$lang['CLEAR_CACHE'] = 'Կրեմ';
+$lang['CLEAR_TEMPLATES_CACHE'] = 'Նմուշների կույտ';
 
 // Update
 $lang['USER_LEVELS'] = 'Հարթաչափեր';
@@ -2025,9 +2025,9 @@ $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Գրառումները կոմս էր �
 $lang['SHOW_ONLINE_USERLIST'] = 'Ցուցադրել ցանկը օնլայն օգտագործողներ';
 
 // Robots.txt editor
-$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Manage robots.txt';
-$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'File robots.txt has been updated successfully';
-$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sClick Here to return to robots.txt manager%s';
+$lang['ROBOTS_TXT_EDITOR_TITLE'] = 'Կառավարել robots.txt';
+$lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'Ֆայլ robots.txt - ը հաջողությամբ թարմացվել է';
+$lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sՍեղմեք այստեղ robots.txt կառավարման մեջ վերադառնալու համար%s';
 
 // Auth pages
 $lang['USER_SELECT'] = 'Ընտրեք user';
@@ -2095,19 +2095,19 @@ $lang['USER_AUTH_UPDATED'] = 'Թույլտվության օգտվողների թ
 $lang['GROUP_AUTH_UPDATED'] = 'Թույլտվության խմբի թարմացվել';
 
 $lang['AUTH_UPDATED'] = 'Թույլտվության թարմացվել';
-$lang['AUTH_GENERAL_ERROR'] = 'Could not update admin status';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to user';
-$lang['NO_FORUMS_AVAILABLE'] = 'No forums available. Create forums first to manage permissions.';
+$lang['AUTH_GENERAL_ERROR'] = 'Չկարողացան թարմացնել ադմինին կարգավիճակ';
+$lang['AUTH_SELF_ERROR'] = 'Չկարողացա փոխել ինքներս ձեզ վարչությանը օգտվողի';
+$lang['NO_FORUMS_AVAILABLE'] = 'Ֆորումներ չկա։ Նախ ստեղծեք ֆորումներ, որպեսզի ղեկավարեք թույլտվությունները։';
 $lang['CLICK_RETURN_USERAUTH'] = 'Սեղմեք %sHere%s վերադարձնել օգտագործողի իրավունքները';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Սեղմեք %sHere%s վերադառնալ խմբում թույլտվության';
 $lang['CLICK_RETURN_FORUMAUTH'] = 'Սեղմեք %sHere%s վերադառնալ համաժողովը թույլտվության';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Վերահսկողության Արգելքը';
-$lang['BAN_EXPLAIN'] = 'Here you can control the banning of users.';
+$lang['BAN_EXPLAIN'] = 'Այստեղ դուք կարող եք վերահսկել օգտվողներին արգելելու գործընթացը։';
 $lang['BAN_USERNAME'] = 'Արգելքը մեկ կամ մի քանի կոնկրետ օգտագործողների համար';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Դուք կարող եք արգելել է մի քանի օգտվողներին մեկ անգամ, օգտագործելով համապատասխան համադրություն մկնիկը եւ ստեղնաշարի ձեր համակարգչի բրաուզերի';
-$lang['UNBAN_USERNAME'] = 'Unban one or more specific users';
+$lang['UNBAN_USERNAME'] = 'Արգելել մեկ կամ մի քանի կոնկրետ օգտատերեր';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Դուք կարող եք разбанить մի քանի օգտվողներին մեկ անգամ, օգտագործելով համապատասխան համադրություն մկնիկը եւ ստեղնաշարի ձեր համակարգչի բրաուզերի';
 $lang['NO_BANNED_USERS'] = 'Արգելված լոգիններն';
 $lang['BAN_UPDATE_SUCESSFUL'] = '"Банлист հաջողությամբ թարմացվել';
@@ -2170,7 +2170,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Վարչակազմը Համաժողովի';
 $lang['FORUM_ADMIN_EXPLAIN'] = 'Օգտագործելով այս վահանակի կարելի է ավելացնել, ջնջել, խմբագրել, փոփոխել կարգը և կրկին համեմատել բաժիններում եւ ֆորումներում';
 $lang['EDIT_FORUM'] = 'Խմբագրում համաժողովի';
 $lang['CREATE_FORUM'] = 'Ստեղծել նոր ֆորում';
-$lang['CREATE_SUB_FORUM'] = 'Create subforum';
+$lang['CREATE_SUB_FORUM'] = 'Ստեղծել ենթաֆորում';
 $lang['CREATE_CATEGORY'] = 'Ստեղծել նոր կատեգորիա';
 $lang['REMOVE'] = 'Հեռացնել';
 $lang['UPDATE_ORDER'] = 'Կարգը Թարմացումները';
@@ -2185,7 +2185,7 @@ $lang['MOVE_CONTENTS'] = 'Տեղափոխել բոլոր բովանդակությ
 $lang['FORUM_DELETE'] = 'Համաժողովը Հեռացնել';
 $lang['FORUM_DELETE_EXPLAIN'] = 'Ստորեւ բերված ձեւը թույլ է տալիս ձեզ հեռացնել համաժողովը (կամ աստիճան) եւ լուծել, որտեղ դուք ցանկանում եք տեղադրել բոլոր թեմաները (կամ համաժողովներ) այն պարունակում է.';
 $lang['CATEGORY_DELETE'] = 'Հեռացնել Կատեգորիա';
-$lang['CATEGORY_NAME_EMPTY'] = 'Category name not specified';
+$lang['CATEGORY_NAME_EMPTY'] = 'Կատեգորիայի անունը չնշված է';
 
 $lang['STATUS_LOCKED'] = 'Արգելափակվել է';
 $lang['STATUS_UNLOCKED'] = 'Վերաբացված';
@@ -2336,7 +2336,7 @@ $lang['RANKS_EXPLAIN'] = 'Օգտագործելով այս ձեւով Դուք կ
 $lang['ADD_NEW_RANK'] = 'Ավելացնել նոր աստիճան';
 $lang['RANK_TITLE'] = 'Անվանումը Կոչում';
 $lang['STYLE_COLOR'] = 'Աստիճան ոճը';
-$lang['STYLE_COLOR_FAQ'] = 'Specify a class to style the title with the desired color. For example: <i class="bold">colorAdmin</i>';
+$lang['STYLE_COLOR_FAQ'] = 'Նշեք դասակարգ` դիզայնը ցանկալի գույնով։ Օրինակ՝ <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Նկարներ Աստիճան';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Օգտագործեք այս որոշելու փոքր նկարներ, որոնք կապված են կոչում';
 
@@ -2371,8 +2371,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Սեղմեք %sHere%s վերադարձն�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Տեղեկություններ Տարբերակը';
-$lang['UPDATE_AVAILABLE'] = 'Update available';
-$lang['CHANGELOG'] = 'Changelog';
+$lang['UPDATE_AVAILABLE'] = 'Թարմացումը հասանելի է';
+$lang['CHANGELOG'] = 'Փոփոխությունների ցանկ';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Թույլատրված մուտք փորձերը';
@@ -2393,7 +2393,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_ADMIN'] = 'Միայն ադմինիստրատոր�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VIEW'] = '%s կարող եք դիտել այս համաժողովը';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_READ'] = '%s կարող է կարդալ գրառումները այս ֆորումում';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s կարող եք տեղադրել այս ֆորումում';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s can reply to posts in this forum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s կարող է պատասխանել այս ֆորումի հաղորդագրություններին';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s կարող եք խմբագրել գրառումները այս ֆորումում';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s կարող եք ջնջել գրառումները այս ֆորումում';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s կարող եք հրապարակել прилепленные թեմաներ այս ֆորումում';
@@ -2413,12 +2413,12 @@ $lang['SYNC'] = 'Sync';
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. երկարությունը նորություններ';
 $lang['NEWS_COUNT'] = 'Որքան նորությունների ցույց են տալիս';
-$lang['NEWS_FORUM_ID'] = 'From which forums to display <br /> <h6>For several forums, specify IDs separated by commas. Example: 1,2,3</h6>';
+$lang['NEWS_FORUM_ID'] = 'Որոշել, թե որ ֆորումներում պետք է ցուցադրվեն<br /> <h6>Մի քանի ֆորումների համար, նշեք ID-ները՝ բաժանված կոմաններով։ Օրինակ՝ 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Ոչ avatar';
 $lang['TRACKER_STATS'] = 'Վիճակագրությունը խուզարկու';
 $lang['WHOIS_INFO'] = 'Տեղեկություններ IP-հասցեն';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Ցույց տալ модераторам index.php';
-$lang['SHOW_BOARD_STARTED_INDEX'] = 'Show board start date on index.php';
+$lang['SHOW_BOARD_STARTED_INDEX'] = 'Ցուցադրել գրանցման սկսման ամսաթիվը index.php ֆունկցիայում';
 $lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> նախապես moderation</h4> <h6>If չունեն բաշխման կարգավիճակի, # կամ t այս բաժնում, ներառյալ ենթաբաժիններ, որ բաժանում է ավտոմատ կերպով ստանում է տվյալ status</h6>';
 $lang['TOR_COMMENT'] = '<h4>Մեկնաբանություն բաշխման կարգավիճակի վերաբերյալ</h4> <h6>Մեկնաբանությունը թույլ է տալիս մատնանշել թողարկողին թույլ տրված սխալները: Եթե կարգավիճակները թերի են, թողարկման պատասխանի ձևը հասանելի է թողարկման մենեջերին՝</h6>թողարկումը շտկելու համար';
 $lang['SEED_BONUS_ADD'] = '<h4>Adding բոնուս սերմեր </h4> <h6> Միավորների քան բաշխման տալիս օգտվողին եւ բոնուսների չափը նրանց համար (անգամ լիցքավորման ժամ) </h6>';
@@ -2516,7 +2516,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Խումբը ընդլայնումը %s արդ�
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Վարչությունը Հատուկ Կատեգորիաների';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Here you can configure the Special Categories. You can set up Special Parameters and Conditions for the Special Categories assigned to an Extension Group.';
+$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Այստեղ դուք կարող եք հարմարեցնել Հատուկ Կատեգորիաները։ Դուք կարող եք կարգավորել Հատուկ Պարամետրեր և Պայմաններ Հատուկ Կատեգորիաների համար, որոնք տրամադրված են Միացնել խմբին։';
 $lang['SETTINGS_CAT_IMAGES'] = 'Կառավարում համար հատուկ կատեգորիաներ: նկարներ';
 $lang['SETTINGS_CAT_FLASH'] = 'Կառավարում համար հատուկ կատեգորիաներ: ֆլեշ ֆայլեր';
 $lang['DISPLAY_INLINED'] = 'Ցուցադրել Պատկերները Кликабельны';
@@ -2629,8 +2629,8 @@ $lang['BT_ANNOUNCE_URL'] = 'Տեղեկացնել URL-հասցե';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'դուք կարող եք սահմանել լրացուցիչ թույլատրելի URL-հասցեներ է "includes/torrent_announce_urls.php"';
 $lang['BT_DISABLE_DHT'] = 'Անջատել ցանցը DHT-ի';
 $lang['BT_DISABLE_DHT_EXPL'] = 'Անջատել փոխանակում пирами և DHT (խորհուրդ է տրվում մասնավոր ցանցերի, միայն URL-հասցե տեղեկացնել)';
-$lang['BT_PRIVATE_TRACKER'] = 'This tracker is private: file listing (for guests), DHT | PEX are disabled';
-$lang['BT_PRIVATE_TORRENT'] = 'The creator of this torrent made it private';
+$lang['BT_PRIVATE_TRACKER'] = 'Այս հետևիչը գաղտնի է՝ ֆայլի ցուցակ (հյուրերի համար), DHT | PEX-ը անջատված են';
+$lang['BT_PRIVATE_TORRENT'] = 'Այս տորրենտի ստեղծողը այն դարձրել է գաղտնի';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Ստուգել տեղեկացնել URL-հասցե';
 $lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'Գրանցվել խուզարկու թույլատրվում է միայն URL-հասցեները';
 $lang['BT_REPLACE_ANN_URL'] = 'Փոխարինել հայտարարել է URL-հասցե';
@@ -2669,7 +2669,7 @@ $lang['BT_SEARCH_BOOL_MODE'] = 'Լուծել տրամաբանական полно
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'օգտագործել *, +, -,.. որոնման';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Ժողովածու";
-$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Show user UL/DL statistics at the top of the forum's main page";
+$lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Ցույց տալ UL/DL վիճակագրությունը ֆորումի գլխավոր էջի վերևում";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Ավտոմատ Գրանցում торрента է խուզարկու նոր թեմաներ';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Կարգավիճակը թեման փոխվել է "Բեռնում" գրանցման торрента է խուզարկու';
 $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'պետք է փոխել Տեսակի թեմաները "Բեռնել" անկախ պարամետրերը համաժողովի';
@@ -2680,7 +2680,7 @@ $lang['TEMPLATE_DISABLE'] = 'Կաղապար անջատված';
 $lang['FOR_NEW_TEMPLATE'] = 'համար նոր մոդելներ!';
 $lang['CHANGED'] = 'Փոխվել է';
 $lang['REMOVED'] = 'Հեռացվել է';
-$lang['QUESTION'] = 'Confirm are you sure you want to perform this action';
+$lang['QUESTION'] = 'Հաստատել՝ վստահ եք, որ ցանկանում եք կատարել այս գործողությունը';
 
 $lang['CRON_LIST'] = 'Ցուցակը хрон';
 $lang['CRON_ID'] = 'Id';
@@ -2709,7 +2709,7 @@ $lang['CRON_ENABLE'] = 'Միացնել';
 $lang['RUN_MAIN_CRON'] = 'Սկսել хрон';
 $lang['ADD_JOB'] = 'Ավելացնել хрон';
 $lang['DELETE_JOB'] = 'Դուք համոզված եք, որ ցանկանում եք հեռացնել աշխատանք?';
-$lang['CRON_WORKS'] = 'Cron is currently working or is broken -> ';
+$lang['CRON_WORKS'] = 'Cron-ը այս պահին աշխատում է կամ սխալված է -> ';
 $lang['REPAIR_CRON'] = 'Նորոգում Хрон';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Փոփոխությունը առաջադրանքները';
@@ -2741,10 +2741,10 @@ $lang['FORUM_DISABLE'] = 'Անջատել Խորհրդի';
 $lang['BOARD_DISABLE_EXPL'] = 'անջատել Խորհրդի, երբ այդ աշխատանքը կատարվում է';
 $lang['RUN_COUNTER'] = 'Հակասում են';
 
-$lang['JOB_REMOVED'] = 'The job has been removed successfully';
+$lang['JOB_REMOVED'] = 'Պիտակը հաջողությամբ հեռացվել է';
 $lang['SCRIPT_DUPLICATE'] = 'Սցենարը <b>' . @$_POST['cron_script'] . '</b> արդեն կա!';
 $lang['TITLE_DUPLICATE'] = 'Անունը Խնդիրները <b>' . @$_POST['cron_title'] . '</b> արդեն կա!';
-$lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
+$lang['CLICK_RETURN_JOBS_ADDED'] = '%sՎերադառնալ ավելացնել աշխատանքի%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack խնդիրները Scheduler%s';
 
 $lang['REBUILD_SEARCH'] = 'Վերակառուցել Ինդեքսը Որոնման';
@@ -2774,7 +2774,7 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Որքան ժամանակ (վրկ) ոչինչ �
 
 $lang['TIME_LIMIT'] = 'Սահմանաչափը ժամանակ';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Որքան ժամանակ (վրկ) постобработка կարող է տեւել մինչեւ հաջորդ ցիկլի';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (safe mode) has a timeout of %s secs configured, so stay below this value</i>';
+$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Դուք PHP (անվտանգ ռեժիմում) համալրման ժամանակ սահմանվեց %s վայրկյան, այնպես որ մնացեք այս արժեքի տակ</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your вебсервер ունի таймаут %s վայրկյան կենտրոնանում է, ուստի մնալ այս value</i>';
 
 $lang['DISABLE_BOARD'] = 'Անջատել Խորհրդի';
@@ -2837,11 +2837,11 @@ $lang['WRONG_INPUT'] = 'Դուք մտել սխալ արժեքները. Խնդր�
 $lang['PROCESSING'] = 'Մշակում...';
 $lang['FINISHED'] = 'Ավարտել է';
 
-$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Topic has been moved from forum [b]%s[/b] to forum [b]%s[/b].[br][b]Reason for moving:[/b] %s[br][br]%s';
+$lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Թեմա տեղափոխվել է հրաբխից [b]%s[/b] մինչև հրաբուխ [b]%s[/b].[br][b]Արժանապատվությունը տեղափոխման համար:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'Թեմա բաժանված էր. Նոր թեմա - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Թեմա բաժանվել են [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeds';
+$lang['CALLSEED'] = 'Զանգահարել սերմերի';
 $lang['CALLSEED_EXPLAIN'] = 'Վերցնել ծանուցում ՝ խնդրելով վերադառնալ раздачу';
 $lang['CALLSEED_SUBJECT'] = 'Բեռնել օգնություն %s';
 $lang['CALLSEED_TEXT'] = 'Բարեւ ձեզ![br]Your տեղեկանք պետք է դուրս գալու հետ [URL=%s]%s[/url][br]if դուք որոշել է օգնել, բայց արդեն հեռացրել են torrent ֆայլը, դուք կարող եք բեռնել այն [URL=%s]this[/url][br][br]i ակնկալում եմ Ձեր օգնությունը.';
@@ -2855,22 +2855,22 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Թեմա:<br /> <b>closed</b>',
     'mod_topic_unlock' => 'Թեմա:<br /> <b>opened</b>',
     'mod_topic_split' => 'Թեմա:<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Topic:<br /> <b>set downloaded</b>',
-    'mod_topic_unset_downloaded' => 'Topic:<br /> <b>unset downloaded</b>',
-    'mod_topic_change_tor_status' => 'Topic:<br /> <b>changed torrent status</b>',
-    'mod_topic_change_tor_type' => 'Topic:<br /> <b>changed torrent type</b>',
-    'mod_topic_tor_unregister' => 'Topic:<br /> <b>torrent unregistered</b>',
-    'mod_topic_tor_register' => 'Topic:<br /> <b>torrent registered</b>',
-    'mod_topic_tor_delete' => 'Topic:<br /> <b>torrent deleted</b>',
-    'mod_topic_renamed' => 'Topic:<br /> <b>renamed</b>',
-    'mod_topic_poll_started' => 'Topic:<br /> <b>poll started</b>',
-    'mod_topic_poll_finished' => 'Topic:<br /> <b>poll finished</b>',
-    'mod_topic_poll_deleted' => 'Topic:<br /> <b>poll deleted</b>',
-    'mod_topic_poll_added' => 'Topic:<br /> <b>poll added</b>',
-    'mod_topic_poll_edited' => 'Topic:<br /> <b>poll edited</b>',
+    'mod_topic_set_downloaded' => 'Թեմա:<br /> <b>տեղադրված է ներբեռնված</b>',
+    'mod_topic_unset_downloaded' => 'Թեմա:<br /> <b>հեռացնել ներբեռնումը</b>',
+    'mod_topic_change_tor_status' => 'Թեմա:<br /> <b>փոփոխվել է տորրենտի կարգավիճակը</b>',
+    'mod_topic_change_tor_type' => 'Թեմա:<br /> <b>փոփոխվել է տորրենտի տեսակը</b>',
+    'mod_topic_tor_unregister' => 'Թեմա:<br /> <b>տորրենտը չգրանցված է</b>',
+    'mod_topic_tor_register' => 'Թեմա:<br /> <b>տորրենտը գրանցված է</b>',
+    'mod_topic_tor_delete' => 'Թեմա:<br /> <b>տորրենտը ջնջված է</b>',
+    'mod_topic_renamed' => 'Թեմա:<br /> <b>անվանակոչված է</b>',
+    'mod_topic_poll_started' => 'Թեմա:<br /> <b>հարցում սկսված է</b>',
+    'mod_topic_poll_finished' => 'Թեմա:<br /> <b>հարցումը ավարտվել է</b>',
+    'mod_topic_poll_deleted' => 'Թեմա:<br /> <b>հարցումը ջնջված է</b>',
+    'mod_topic_poll_added' => 'Թեմա:<br /> <b>հարցումը ավելացված է</b>',
+    'mod_topic_poll_edited' => 'Թեմա:<br /> <b>հարցումը խմբագրված է</b>',
     'mod_post_delete' => 'Պաշտոնը:<br /> <b>deleted</b>',
-    'mod_post_pin' => 'Post:<br /> <b>pinned</b>',
-    'mod_post_unpin' => 'Post:<br /> <b>unpinned</b>',
+    'mod_post_pin' => 'Պոստ:<br /> <b>պասիվ</b>',
+    'mod_post_unpin' => 'Պոստ:<br /> <b>չպասիվ</b>',
     'adm_user_delete' => 'Օգտվողների համար:<br /> <b>deleted</b>',
     'adm_user_ban' => 'Օգտվողների համար:<br /> <b>ban</b>',
     'adm_user_unban' => 'Օգտվողների համար:<br /> <b>unban</b>',
@@ -2903,8 +2903,8 @@ $lang['RELEASE_WELCOME'] = 'Խնդրում ենք լրացնել թողարկմ�
 $lang['NEW_RELEASE'] = 'Նոր թողարկում';
 $lang['NEXT'] = 'Շարունակել';
 $lang['OTHER'] = 'Այլ';
-$lang['OTHERS'] = 'Others';
-$lang['ALL'] = 'All';
+$lang['OTHERS'] = 'Այլ';
+$lang['ALL'] = 'Բոլոր';
 
 $lang['TPL_EMPTY_FIELD'] = 'Դուք պետք է լրացնել դաշտ <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Դուք պետք է ընտրել <b>%s</b>';
@@ -2961,8 +2961,8 @@ $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Որոնել օգտագործողներ
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Որոնում են օգտագործողների գտնվելու վայրը համապատասխանության %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Որոնել օգտագործողներին, հաշվի առնելով նրանց շահերի ոլորտում ընտրության %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Որոնել օգտագործողներին իրենց օկուպացիայի դաշտ համապատասխանող %s';
-$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Searching for users who have visited in the last %s';
-$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Searching for users who have visited after the last %s';
+$lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Որոնել օգտատերերի, որոնք այցելել են վերջին %s';
+$lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Որոնել օգտատերերի, որոնք այցելել են մնում %s-ից հետո';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Որոնել օգտատերերի, որոնք պարզել են %s ինչպես նրանց լեզուն';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Որոնել օգտատերերի, որոնք սահմանել են համաշխարհային %s թե ինչպես են իրենց Ժամային գոտին';
 $lang['SEARCH_FOR_STYLE'] = 'Որոնել օգտատերերի, որոնք պարզել են %s ինչպես նրանց ոճը';
@@ -3062,7 +3062,7 @@ $lang['FORUM_MAP'] = 'Քարտեզ համաժողովների';
 $lang['ATOM_FEED'] = 'Կերակրել';
 $lang['ATOM_ERROR'] = 'Генерируя սխալները կերակրել';
 $lang['ATOM_SUBSCRIBE'] = 'Բաժանորդագրվեք rss';
-$lang['ATOM_NO_MODE'] = 'No mode option provided for the feed';
+$lang['ATOM_NO_MODE'] = 'Չկա ռեժիմի տարբերակ, որը տրամադրված է սննդային առևտրում';
 $lang['ATOM_NO_FORUM'] = 'Այս համաժողովը է կերակրել (ոչ ընթացիկ թեմաներ)';
 $lang['ATOM_NO_USER'] = 'Այս օգտագործողի չկա սննդի (ոչ մշտական թեմաները)';
 $lang['ATOM_UPDATED'] = 'Թարմացնել';
@@ -3071,15 +3071,15 @@ $lang['ATOM_GLOBAL_FEED'] = 'Համաշխարհային ֆորում բոլոր 
 $lang['HASH_INVALID'] = 'Հաշ-%s է անվավեր';
 $lang['HASH_NOT_FOUND'] = 'Թողարկումը հետ հաշ-%s չի գտնվել';
 
-$lang['TERMS_EMPTY_TEXT'] = '[align=center]The text of this page is edited at: [url]%s[/url]. This line can see only administrators.[/align]';
+$lang['TERMS_EMPTY_TEXT'] = '[հարթեցնել=կենտրոն]Այս էջի տեքստը խմբագրվել է՝ [url]%s[/url]. Այս գիծը կարող է տեսնել միայն ադմինիստրատորները.[/align]';
 $lang['TERMS_EXPLAIN'] = 'Այս էջում դուք կարող եք հարցնել տեքստը, հիմնական կանոնները ռեսուրսի ցուցադրվում է օգտվողների համար:';
-$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Terms have been updated successfully';
-$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sClick Here to return to Terms editor%s';
+$lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Տողերը հաջողությամբ թարմացվել են';
+$lang['CLICK_RETURN_TERMS_CONFIG'] = '%sՏեղ այստեղ է, որ պետք է վերադառնալ պայմանագիր խմբագիր%s';
 
 $lang['TR_STATS'] = [
     0 => 'ոչ ակտիվ օգտվողներ ՝ 30 օրվա ընթացքում,',
     1 => 'ակտիվ օգտագործողների 90 օրվա ընթացքում',
-    2 => 'medium size distributions on the tracker',
+    2 => 'միջին չափի բաշխումներ հետևիչում',
     3 => 'քանի ընդամենը բաշխման վրա խուզարկու',
     4 => 'որքան ուղղակի ձեռքերում է (կա գոնե 1 Sid)',
     5 => 'որքան ձեռքերը, որ ցանքս ավելի քան 5 սերմերի',
@@ -3109,11 +3109,11 @@ $lang['NEW_POLL_M_EXPLAIN'] = 'Յուրաքանչյուր տող համապատ�
 $lang['OLD_BROWSER'] = 'Դուք օգտագործում եք հնացած բրաուզերի. Կայքը չի կարող ճիշտ ցուցադրվում.';
 $lang['GO_BACK'] = 'Վերադառնալ';
 
-$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
+$lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Ֆայլի բեռնավարձը անջատված է';
 $lang['UPLOAD_ERROR_COMMON'] = 'Ֆայլը բեռնել սխալ';
 $lang['UPLOAD_ERROR_SIZE'] = 'Բեռնել ֆայլը գերազանցում առավելագույն չափը %s';
 $lang['UPLOAD_ERROR_FORMAT'] = 'Անթույլատրելի պատկերի ֆայլի Տեսակը';
-$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Image dimensions exceed the maximum allowable %sx%s pixels';
+$lang['UPLOAD_ERROR_DIMENSIONS'] = 'Պատկերի չափերը գերազանցում են առավելագույն թույլատրելի %sx%s պիկսելները';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'Բեռնել ֆայլը չէ պատկերով';
 $lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'Ընդլայնումը %s բեռնել չի թույլատրվում';
 $lang['UPLOAD_ERRORS'] = [
@@ -3129,18 +3129,18 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Համոզվեք, որ Դուք չեք ռոբոտը';
 $lang['CAPTCHA_WRONG'] = 'Դուք չեք կարող հաստատել, որ Դուք ռոբոտը';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file library/config.php.</p>';
-$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'The CAPTCHA verification occurs in the background';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha-ն լիովին չի կարգավորված</h2><p>Ստեղծեք բանալիները ձեր captcha ծառայության հսկողությունների միջոցով, հետո դուք միջոցներ պետք է դնեք ֆայլի library/config.php-ում:</p>';
+$lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-ի ստուգումը կատարվում է հետևելիս';
 
 // Sending email
-$lang['REPLY_TO'] = 'Reply to';
+$lang['REPLY_TO'] = 'Պատասխանել';
 $lang['EMAILER_SUBJECT'] = [
     'EMPTY' => 'Ոչ մի առարկա',
     'GROUP_ADDED' => 'Դուք ավելացվել եք օգտվողների խմբին',
     'GROUP_APPROVED' => 'Օգտատերերի խմբին միանալու Ձեր խնդրանքը բավարարվել է',
     'GROUP_REQUEST' => 'Ձեր օգտատերերի խմբին միանալու հարցում',
     'PRIVMSG_NOTIFY' => 'Նոր անձնական հաղորդագրություն',
-    'TOPIC_NOTIFY' => 'Notification of response in the thread - %s',
+    'TOPIC_NOTIFY' => 'Հետադարձ կապ %s թեմայում',
     'USER_ACTIVATE' => 'Հաշվի վերաակտիվացում',
     'USER_ACTIVATE_PASSWD' => 'Նոր գաղտնաբառի հաստատում',
     'USER_WELCOME' => 'Բարի գալուստ կայք %s',
@@ -3148,17 +3148,17 @@ $lang['EMAILER_SUBJECT'] = [
 ];
 
 // Null ratio
-$lang['BT_NULL_RATIO'] = 'Reset ratio';
-$lang['BT_NULL_RATIO_NONE'] = 'You don\'t have a ratio';
-$lang['BT_NULL_RATIO_ALERT'] = "Attention!\n\nAre you sure you want to reset your ratio?";
-$lang['BT_NULL_RATIO_AGAIN'] = 'You have already reset your ratio!';
-$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'You have a good ratio. Reset is possible only with a ratio less than %s';
-$lang['BT_NULL_RATIO_SUCCESS'] = 'The ratio has been reset successfully!';
+$lang['BT_NULL_RATIO'] = 'Վերաձևակերպել հարաբերակցությունը';
+$lang['BT_NULL_RATIO_NONE'] = 'Դուք չունեք հարաբերակցություն';
+$lang['BT_NULL_RATIO_ALERT'] = "Ուշադրություն!\n\nՎստահ եք, որ ցանկանում եք վերականգնել ձեր հարաբերակցությունը?";
+$lang['BT_NULL_RATIO_AGAIN'] = 'Դուք արդեն վերականգնել եք ձեր հարաբերակցությունը!';
+$lang['BT_NULL_RATIO_NOT_NEEDED'] = 'Դուք ունեք լավ հարաբերակցություն: Վերականգնումը հնարավոր է միայն հարաբերակցությամբ, որը ավելի փոքր է %s';
+$lang['BT_NULL_RATIO_SUCCESS'] = 'Հարաբերակցությունը հաջողությամբ վերականգնվել է!';
 
 // Releaser stats
-$lang['RELEASER_STAT_SIZE'] = 'Total size:';
-$lang['RELEASER_STAT'] = 'Releaser stats:';
-$lang['RELEASER_STAT_SHOW'] = 'Show stats';
+$lang['RELEASER_STAT_SIZE'] = 'Ընդհանուր չափը:';
+$lang['RELEASER_STAT'] = 'Հետևողի վիճակագրությունը:';
+$lang['RELEASER_STAT_SHOW'] = 'Ցույց տալ վիճակագրությունը';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggle dark mode';
+$lang['DARK_MODE_TOGGLE'] = 'Ընտրել մութ ռեժիմը';
