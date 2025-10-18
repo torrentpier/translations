@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Vezi cele mai noi post';
 $lang['PAGE_OF'] = 'Pagina <b>%d</b> de <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Ai intrat într-un invalid de autentificare Twitter';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Ești sigur că doriți să ștergeți acest son
 $lang['FLOOD_ERROR'] = 'Nu poți face un alt post atât de repede după ultima ta; vă rugăm să încercați din nou într-un timp scurt';
 $lang['EMPTY_SUBJECT'] = 'Trebuie să specificați un subiect';
 $lang['EMPTY_MESSAGE'] = 'Trebuie să introduceți un mesaj';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forumul este blocat';
+$lang['TOPIC_LOCKED'] = 'Subiect blocat';
 $lang['TOPIC_LOCKED_SHORT'] = 'Subiect blocat';
 $lang['NO_POST_ID'] = 'Trebuie să selectați un mesaj pentru a edita';
 $lang['NO_TOPIC_ID'] = 'Trebuie să selectați un subiect pentru a răspunde la';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'De Culoare Verde Închis';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Sondaj';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'În căutarea pentru utilizatorii cu un
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'În căutarea pentru utilizatorii cu un post conta mai puțin decât %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'În căutarea pentru utilizatorii cu un post conta între %d și %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'În căutarea pentru utilizatorii cu un post conta valoarea %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'În căutarea pentru utilizatorii cu un Twitter potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'În căutarea pentru utilizatorii cu site-Ul de potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'În căutarea pentru utilizatorii cu o Locație potrivire %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'În căutarea pentru utilizatorii cu Interesele lor domeniu de potrivire %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Zi';
 $lang['POST_EDIT_CANNOT'] = 'Îmi pare rău, dar nu puteți edita posturile';
 $lang['FORUMS_IN_CAT'] = 'forumuri în această categorie';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Comentariul moderării';
 $lang['MC_LEGEND'] = 'Tastați un comentariu';
 $lang['MC_FAQ'] = 'Textul introdus va fi afișat sub acest mesaj';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s în mesajul dvs.";
