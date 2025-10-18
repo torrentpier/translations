@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Vista últim post';
 $lang['VIEW_NEWEST_POST'] = 'Vista nou post';
 $lang['PAGE_OF'] = 'Pàgina <b>%d</b> de <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Has introduït una invalid Skype inici de sessió';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Has introduït una invalid Twitter inici de sessió';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Índex Del Fòrum'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Esteu segur que voleu suprimir aquesta enquesta?
 $lang['FLOOD_ERROR'] = 'No es pot fer un altre post tan aviat després de la seva última; si us plau, torneu a intentar en un curt període de temps';
 $lang['EMPTY_SUBJECT'] = 'Heu d\'especificar un tema';
 $lang['EMPTY_MESSAGE'] = 'Has d\'introduir un missatge';
-$lang['FORUM_LOCKED'] = 'Aquest fòrum està bloquejat: que no hi podeu publicar, per respondre, o editar temes';
-$lang['TOPIC_LOCKED'] = 'Aquest tema està bloquejat: no pots editar els missatges o fer les respostes';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema tancat';
 $lang['NO_POST_ID'] = 'Vostè ha de seleccionar un post per editar';
 $lang['NO_TOPIC_ID'] = 'Vostè ha de seleccionar un tema per a respondre';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'D\'Acer Blau';
 $lang['COLOR_GRAY'] = 'Gris';
 $lang['COLOR_DARK_GREEN'] = 'Verd Fosc';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Codi]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'H';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['resposta', 'les respostes'];
 $lang['DECLENSION']['TIMES'] = ['temps', 'temps'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent fitxer està corrupte';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'El "lloc" pot contenir només http://sitename';
-$lang['ICQ_ERROR'] = 'El camp "ICQ" només pot contenir un número ICQ';
 $lang['INVALID_DATE'] = 'Data no vàlida';
 $lang['PROFILE_USER'] = 'Veient perfil';
 $lang['GOOD_UPDATE'] = 'va ser canviat correctament';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Buscant per als usuaris amb un post com
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Buscant per als usuaris amb un post comte menys de %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Buscant per als usuaris amb un post comptar entre %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Buscant per als usuaris amb un post comte valor de %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Buscant per als usuaris amb un ICQ adreça coincidents %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Buscant per als usuaris amb un Skype coincidents %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Buscant per als usuaris amb un Twitter coincidents %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Recerca per a usuaris amb una pàgina Web coincidents %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Recerca per a usuaris amb una Ubicació coincidents %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Buscant per als usuaris amb els seus Interessos camp de concordança %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dia';
 $lang['POST_EDIT_CANNOT'] = 'Ho sentim, però no pots editar els missatges';
 $lang['FORUMS_IN_CAT'] = 'els fòrums en aquesta categoria';
 
-$lang['MC_TITLE'] = 'Comentari Moderació';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Escriu un comentari';
 $lang['MC_FAQ'] = 'El text introduït, apareixerà en aquest missatge';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s en el seu missatge";
