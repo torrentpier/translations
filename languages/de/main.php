@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Anzeigen neueste post';
 $lang['PAGE_OF'] = 'Seite <b>%d</b> von <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Sie trat einen ungültigen Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Forum-Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Sind Sie sicher, dass Sie wollen, löschen Sie d
 $lang['FLOOD_ERROR'] = 'Sie können nicht einem anderen post so kurz nach Ihrem letzten; bitte versuchen Sie es in kurzer Zeit';
 $lang['EMPTY_SUBJECT'] = 'Sie müssen ein Thema';
 $lang['EMPTY_MESSAGE'] = 'Sie müssen geben Sie eine Nachricht ein';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum ist gesperrt';
+$lang['TOPIC_LOCKED'] = 'Thema gesperrt';
 $lang['TOPIC_LOCKED_SHORT'] = 'Thema gesperrt';
 $lang['NO_POST_ID'] = 'Sie müssen wählen Sie einen Beitrag zu Bearbeiten';
 $lang['NO_TOPIC_ID'] = 'Sie müssen wählen Sie ein Thema aus, um Antworten zu';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Dunkelgrün';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Umfrage';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Die Suche für Benutzer mit einer Beitr
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Die Suche für Benutzer mit einer Beitragszahl von weniger als %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Die Suche für Benutzer mit einer Beitragszahl zwischen %d und %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Suche für die Nutzer mit einem post-count-Wert %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Die Suche für Benutzer mit einem Twitter-matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Suche für die Nutzer mit einer Website passend %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Die Suche für Benutzer, die mit einem Location-matching %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Suche für die Nutzer mit Ihren Interessen Feld-matching %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Tag';
 $lang['POST_EDIT_CANNOT'] = 'Tut mir Leid, aber Sie können keine Beiträge editieren';
 $lang['FORUMS_IN_CAT'] = 'Foren in dieser Kategorie';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderationskommentar';
 $lang['MC_LEGEND'] = 'Geben Sie einen Kommentar ein';
 $lang['MC_FAQ'] = 'Eingegebenen text wird angezeigt, die unter dieser Nachricht';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s in Ihrer Nachricht";
