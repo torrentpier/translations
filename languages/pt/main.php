@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Visualizar postagem mais recente';
 $lang['VIEW_NEWEST_POST'] = 'Vista o mais novo post';
 $lang['PAGE_OF'] = 'Página <b>%d</b> de <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'O Skype';
-$lang['SKYPE_ERROR'] = 'Você inseriu um erro de login do Skype';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Você inseriu um erro de Twitter login';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Índice Do Fórum'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Tem certeza de que deseja excluir essa enquete?'
 $lang['FLOOD_ERROR'] = 'Você não pode fazer outro post logo depois de seu último; por favor, tente novamente em um curto espaço de tempo';
 $lang['EMPTY_SUBJECT'] = 'Você deve especificar um assunto';
 $lang['EMPTY_MESSAGE'] = 'Você deve digitar uma mensagem';
-$lang['FORUM_LOCKED'] = 'Este fórum está bloqueado: você não pode postar, responder ou editar tópicos';
-$lang['TOPIC_LOCKED'] = 'Este tópico está bloqueado: você não pode editar postagens ou fazer respostas';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tópico bloqueado';
 $lang['NO_POST_ID'] = 'Você deve selecionar um post para editar';
 $lang['NO_TOPIC_ID'] = 'Você deve selecionar um tópico para responder';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Aço Azul';
 $lang['COLOR_GRAY'] = 'Cinzento';
 $lang['COLOR_DARK_GREEN'] = 'Verde Escuro';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[Código]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'PM';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['responder', 'respostas'];
 $lang['DECLENSION']['TIMES'] = ['tempo', 'vezes'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent do arquivo está corrompido';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'O "site" pode conter apenas http://sitename';
-$lang['ICQ_ERROR'] = 'O campo "ICQ" pode conter apenas um número ICQ';
 $lang['INVALID_DATE'] = 'Data inválida';
 $lang['PROFILE_USER'] = 'Visualização de perfil';
 $lang['GOOD_UPDATE'] = 'foi alterada com êxito';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'A pesquisa para os usuários com um pos
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'A pesquisa para os usuários com um post a contar menos de %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'A pesquisa para os usuários com um post a contar entre %d e %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'A pesquisa para os usuários com um post do valor de contagem de %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'A pesquisa para os usuários com um ICQ endereço de correspondência %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Procurando por usuários do Skype correspondência %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'A pesquisa para os usuários com um Twitter de correspondência %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'A pesquisa para os usuários com um Site de correspondência %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'A pesquisa para os usuários com uma Localização correspondente %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'A pesquisa para os usuários, com seus Interesses campo correspondente %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'Dia';
 $lang['POST_EDIT_CANNOT'] = 'Desculpe, mas você não pode editar postagens';
 $lang['FORUMS_IN_CAT'] = 'fóruns em que categoria';
 
-$lang['MC_TITLE'] = 'Moderação De Comentários';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Escreva um comentário';
 $lang['MC_FAQ'] = 'O texto digitado será exibido abaixo esta mensagem';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s em sua mensagem";
