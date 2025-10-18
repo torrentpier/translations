@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Visa senaste inlägg';
 $lang['PAGE_OF'] = 'Sidan <b>%d</b> av <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Du angav ett ogiltigt Twitter logga in';
 
 $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Är du säker på att du vill radera denna omrö
 $lang['FLOOD_ERROR'] = 'Du kan inte göra annat inlägg så snart efter din sista, vänligen försök igen om en liten stund';
 $lang['EMPTY_SUBJECT'] = 'Du måste ange ett ämne';
 $lang['EMPTY_MESSAGE'] = 'Du måste ange ett meddelande';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Forum är låst';
+$lang['TOPIC_LOCKED'] = 'Låst ämne';
 $lang['TOPIC_LOCKED_SHORT'] = 'Låst ämne';
 $lang['NO_POST_ID'] = 'Du måste välja en post för att redigera';
 $lang['NO_TOPIC_ID'] = 'Du måste välja ett ämne för att svara';
@@ -1397,7 +1397,7 @@ $lang['COLOR_DARK_GREEN'] = 'Mörk Grön';
 // Short buttons
 $lang['IP'] = 'IP';
 $lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['MODERATE'] = 'Moderator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Söker efter användare med ett inlägg
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Söker efter användare med ett inlägg räkna mindre än %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Söker efter användare med ett inlägg räkna mellan %d och %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Söker efter användare med ett inlägg räkna värdet av %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Söker efter användare med ett Twitter matchande %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Söker efter användare med en Webbplats som matchar %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Söker efter användare med en Plats matchande %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Söker efter användare med deras Intressen fält matchande %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Dag';
 $lang['POST_EDIT_CANNOT'] = 'Ledsen, men du kan inte redigera inlägg';
 $lang['FORUMS_IN_CAT'] = 'forum i denna kategori';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderation kommentar';
 $lang['MC_LEGEND'] = 'Skriv en kommentar';
 $lang['MC_FAQ'] = 'Text kommer att visas under denna meddelande';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s i ditt meddelande";
