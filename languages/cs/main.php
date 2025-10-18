@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Nelze vytvořit Anonymní člen skupiny.';
 $lang['CONFIRM_UNSUB'] = 'Jsou si jisti, že chcete odhlásit z této skupiny?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Vaše předplatné této skupiny dosud nebyla schválena; jsou si jisti, že chcete odhlásit?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'Byli jste odhlášeni z této skupiny.';
 
 $lang['APPROVE_SELECTED'] = 'Schválit Vybrané';
 $lang['DENY_SELECTED'] = 'Odepřít Vybraná';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Nejste moderátor tohoto fóra.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Nejste autorizováni';
 
 $lang['YOU_BEEN_BANNED'] = 'Byl jste zakázán z tohoto fóra. Pro více informací kontaktujte administrátora.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Omlouváme se, ale nemáte oprávnění k pro
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Popis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Ke stažení'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Velikost souboru';
 $lang['VIEWED'] = 'Zobrazit';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Rozšíření \'%s\' bylo deaktivováno administrátorem, proto tato příloha není zobrazená.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Příloha je příliš velká.<br />Could nen
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Příloha je příliš velká.<br />Maximum Uploadu Velikost: %d MB.<br />Please na vědomí, že tato Velikost je definována v php.ini, to znamená, že je nastavena pomocí PHP a Přílohu Mod nemůže přepsat hodnotu.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Rozšíření %s není povoleno'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Není dovoleno publikovat Soubory s Příponou %s v rámci tohoto Fóra'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Příloha je příliš velká.<br />Max Velikost: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Omlouváme se, ale maximální velikost všech příloh byla dosažena. Prosím, kontaktujte administrátora desky, pokud máte dotazy.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Přílohu nelze přidat, protože max. počet %d Příloh v tomto příspěvku bylo dosaženo'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Připevnění/Obrázek musí být menší než %d pixelů široký a %d pixelů vysoký';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Nahrát Chyba: nelze nahrát Přílohu k %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Budete muset zadat hodnoty v \'Přidat Př
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Nelze Aktualizovat Přílohu, nemůže najít staré Nástavec Vstupu';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Omlouváme se, ale maximální velikost všech příloh ve vašem soukromém zprávovém adresáři byla dosažena. Prosím, odstraňte některé z vašich přijatých/odeslaných příloh.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Omlouváme se, ale maximální velikost všech příloh v soukromém zprávovém adresáři \'%s\' byla dosažena. Prosím, dejte mu vědět, nebo počkejte, až některé z jeho/její příloh odstraní.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nemáte vybranou přílohu ke stažení nebo prohlížení.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Přílohu Funkce je zakázána.';
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Adresář \'%s\' neexistuje nebo nemůže být nalezen.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Prosím, zkontrolujte, zda \'%s\' je adresář.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Adresář \'%s\' není zapisovatelný. Budete muset vytvořit cestu pro nahrávání a nastavit oprávnění na 777 (nebo změnit vlastníka na vlastníka httpd servery) pro nahrávání souborů.<br />Pokud máte pouze běžný FTP přístup, změňte \'atribut\' adresáře na rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Nahrát Kvóty';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Prohledat Přílohy';
 $lang['TEST_SETTINGS'] = 'Test Nastavení';
 $lang['NOT_ASSIGNED'] = 'Nepřiřazeno';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Žádný Soubor k dispozici Komentář';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Vaše úložiště je<br /><b>%d%%</b> plné';
 $lang['NO_QUOTA_LIMIT'] = 'Žádné Kvóty, Omezit';
 $lang['UNLIMITED'] = 'Neomezený';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Další torrent se stejným info_hash již <a 
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Torrenty pouze v1 byly v tuto chvíli administrátorem zakázány, povolené: v2 a hybridy';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Torrenty pouze v2 byly v tuto chvíli administrátorem zakázány, povolené: v1 a hybridy';
 $lang['BT_FLIST'] = 'Seznam souborů';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'Nastavení trackera neumožňuje zpracování seznamů s více než %d soubory. Aktuální počet je: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root je hash souboru vložený do torrentů s podporou BitTorrent v2, uživatelé trackeru je mohou extrahovat, spočítat je, také stahovat deduplikované torrenty pomocí desktopových nástrojů jako <a href="%s" target="_blank" referrerpolicy="origin">Čtečka Merkle Root Torrentu</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Datum vytvoření';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Názory';
 $lang['GOLD'] = 'Zlato';
 $lang['SILVER'] = 'Stříbrná';
 $lang['SET_GOLD_TORRENT'] = 'Vyrobit zlato';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Zrušit zlaté';
 $lang['SET_SILVER_TORRENT'] = 'Stříbrný';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Zrušit stříbrné';
 $lang['GOLD_STATUS'] = 'ZLATO TORRENT! KE STAŽENÍ DOPRAVNÍ NEPOVAŽUJE!';
 $lang['SILVER_STATUS'] = 'STŘÍBRNÉ TORRENT! KE STAŽENÍ DOPRAVNÍ ČÁSTEČNĚ ZA TO!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Typ torrentu změněn na: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Typ torrentu změněn na: %s';
 $lang['TORRENT_STATUS'] = 'Hledat podle statusu vydání';
 $lang['SEARCH_IN_FORUMS'] = 'Hledat ve Fórech';
 $lang['SELECT_CAT'] = 'Vyberte kategorii';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Přejít na sekci';
 $lang['TORRENTS_FROM'] = 'Příspěvky od';
 $lang['SHOW_ONLY'] = 'Zobrazit pouze';
 $lang['SHOW_COLUMN'] = 'Zobrazit sloupec';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Pokud váš poměr klesne pod %s, nebudete moci
 
 $lang['SEEDER_LAST_SEEN'] = 'Secí stroj neviděl: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Musíte se nejprve přihlásit';
 $lang['ONLY_FOR_MOD'] = 'Tato možnost pouze pro moderátory';
 $lang['ONLY_FOR_ADMIN'] = 'Tato možnost je dostupná pouze pro administrátory';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Tato možnost pouze pro super admini';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Uživatel %s je již registrován s vaší IP adresou
 $lang['HIDDEN'] = 'Skryté';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Nejste oprávněni spravovat tuto desku';
 
 $lang['COOKIES_REQUIRED'] = 'Cookies musí být povolen!';
 $lang['SESSION_EXPIRED'] = 'Relace vypršela';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Omlouváme se, registrace je zakázáno v tét
 $lang['ONLY_NEW_POSTS'] = 'pouze nové příspěvky';
 $lang['ONLY_NEW_TOPICS'] = 'pouze nová témata';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Prosím, pomozte se sdílením těchto torrentů!';
 $lang['STATISTICS'] = 'Statistiky';
 $lang['STATISTIC'] = 'Statistika';
 $lang['VALUE'] = 'Hodnota';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Nesouhlasím s těmito podmínkami';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Pro registraci musíte povolit JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Registrace je aktuálně uzavřena<br /><br />Registrace je dostupná během: %s<br />Aktuální čas serveru: %s<br /><br />Omlouváme se za nepříjemnosti";
 $lang['AUTOCOMPLETE'] = 'Generovat heslo';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'Vaše nové heslo:';
 $lang['REGENERATE'] = 'Regenerovat';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Čas spuštění:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'na';
 $lang['OFF'] = 'z';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Paměť: ';
 $lang['QUERIES'] = 'dotazy';
 $lang['LIMIT'] = 'Limit:';
 $lang['SHOW_LOG'] = 'Zobrazit protokol';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'Klient BitTorrent';
 $lang['DL_FORMULA'] = 'Vzorec: Nahrál/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'zastavil';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'aktualizace času: ';
 $lang['DL_INFO'] = 'zobrazuje údaje <i><b>only pro aktuální session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Skrýt název mého klienta BitTorrent v seznamu peerů';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Skrýt název mé země v seznamu peerů';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Uživatelů za den';
 $lang['BOARD_STARTED'] = 'Rada začala';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar velikost adresáře';
 $lang['DATABASE_SIZE'] = 'Velikost databáze';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'Gzip komprese';
 $lang['NOT_AVAILABLE'] = 'Není k dispozici';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Podívejte se Fóra';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Zde můžete měnit oprávnění a moderátor stav přiřazen ke každé uživatelské skupině. Nezapomeňte při změně oprávnění skupiny, že individuální oprávnění uživatele může ještě povolit vstup uživatele do fóra, atd. Budete upozorněni, pokud je to tento případ.';
 $lang['USER_AUTH_EXPLAIN'] = 'Zde můžete měnit oprávnění a moderátor přiřadil stav každého jednotlivého uživatele. Nezapomeňte při změně oprávnění uživatele, že oprávnění skupiny může ještě povolit vstup uživatele do fóra, atd. Budete upozorněni, pokud je to tento případ.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Zde můžete měnit úrovně autorizace každého fóra. Budete mít jak jednoduchou, tak pokročilou metodu, kde pokročilá nabízí větší kontrolu nad každou operací fóra. Pamatujte, že změna úrovně oprávnění fór ovlivní, kteří uživatelé mohou vykonávat různé operace v nich.';
 
 $lang['SIMPLE_MODE'] = 'Jednoduchý Režim';
 $lang['ADVANCED_MODE'] = 'Pokročilý Režim';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Povolen Přístup';
 $lang['DISALLOWED_ACCESS'] = 'Zakázal Přístup';
 $lang['IS_MODERATOR'] = 'Je Moderátor';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Varování o konfliktu autorizace';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Tento uživatel stále má přístupová práva do tohoto fóra prostřednictvím členství ve skupině. Možná budete chtít změnit oprávnění skupiny nebo odebrat tuto uživatelskou skupinu, aby plně zabránit jim mají přístupová práva. Skupiny přiznání práv (a fór), jsou uvedeny níže.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Tento uživatel má stále moderátor práva na tomto fóru prostřednictvím členství ve skupině. Možná budete chtít změnit oprávnění skupiny nebo odebrat tuto uživatelskou skupinu, aby plně zabránit jim s moderátorem práva. Skupiny přiznání práv (a fór), jsou uvedeny níže.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Klikněte %sHere%s vrátit k Zákazu Řízení
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Obecné Konfigurace';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Formulář níže vám umožní přizpůsobit všechny obecné možnosti fóra. Pro konfigurace uživatelů a fór použijte související odkazy na levé straně.';
 
 $lang['CONFIG_MODS'] = 'Konfigurační změny';
 $lang['MODS_EXPLAIN'] = 'Tento formulář umožňuje nastavit změny';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Povolit Fórum Prořezávání';
 $lang['ALLOW_BBCODE'] = 'Povolit BBCode';
 $lang['ALLOW_SMILIES'] = 'Povolit Smajlíky';
 $lang['SMILIES_PATH'] = 'Smajlíci Cestu Úložiště';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Cesta pod vaším kořenovým adresářem TorrentPier, např. styles/images/smiles';
 $lang['ALLOW_SIG'] = 'Povolit Podpisy';
 $lang['MAX_SIG_LENGTH'] = 'Maximální délka podpisu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximální počet znaků v uživatelské podpisy';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Jak dlouho autologin klíč je platný pro dn
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Fórum Správy';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'Z této nabídky můžete přidávat, mazat, upravovat, přeuspořádat a znovu synchronizovat kategorie a fóra';
 $lang['EDIT_FORUM'] = 'Upravit fórum';
 $lang['CREATE_FORUM'] = 'Vytvořit nové fórum';
 $lang['CREATE_SUB_FORUM'] = 'Vytvořit subforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Aktualizace Pořadí';
 $lang['CONFIG_UPDATED'] = 'Fórum Konfigurace Byla Úspěšně Aktualizována';
 $lang['MOVE_UP'] = 'Posunout nahoru';
 $lang['MOVE_DOWN'] = 'Přesunout dolů';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Znovu synchronizovat';
 $lang['NO_MODE'] = 'Žádný režim byl nastaven';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formulář níže vám umožní přizpůsobit všechny obecné možnosti fóra. Pro konfigurace uživatelů a fór použijte související odkazy na levé straně';
 
 $lang['MOVE_CONTENTS'] = 'Přesunout veškerý obsah';
 $lang['FORUM_DELETE'] = 'Odstranit Forum';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Synchronizace';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. délka zprávy';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Kolik zpráv zobrazit';
 $lang['NEWS_FORUM_ID'] = 'Z jakých fór zobrazit <br /> <h6>Pro několik fór zadejte ID oddělená čárkami. Příklad: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Žádný avatar';
 $lang['TRACKER_STATS'] = 'Statistiky tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Limity Kvót';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Přílohu Nastavení';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Zde si můžete nastavit Hlavní Nastavení pro Attachment Mod. Pokud stisknete Testovací Tlačítko Nastavení, Připevnění Mod dělá několik Zkoušek Systému, aby se být jisti, že Mod bude fungovat správně. Pokud máte problémy s odesílání Souborů, spusťte tento Test, aby se podrobná chybová zpráva.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Nastavení velikosti souboru příloh';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Příloha Číslo Nastavení';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Možnosti Připevnění';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Zde si můžete vybrat, zda chcete zobr
 $lang['SHOW_APCP'] = 'Použijte nové ovládací panel aplikace';
 $lang['SHOW_APCP_EXPLAIN'] = 'Vyberte, zda chcete použít samostatný ovládací panel aplikace (ano), nebo stará metoda s dvěma boxy pro aplikace a aplikace pro editaci (žádný) v okně zprávy. To je těžké vysvětlit, jak to vypadá, tak zkuste pro sebe.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Velikost souboru';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maximální velikost souboru pro Přílohy. Hodnota 0 znamená "neomezené". Toto Nastavení je omezeno tím, že Konfigurace vašeho Serveru. Například, pokud vaše php Konfigurace umožňuje pouze maximálně 2 MB obrázky, to nemůže být přepsán Mod.';
 $lang['ATTACH_QUOTA'] = 'Příloha Kvóty';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maximální Místo na Disku VŠECHNY Přílohy mohou držet na váš webový Prostor. Hodnota 0 znamená "neomezené".';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Odstranit všechny vysílání příl
 $lang['EMPTY_FILE_ENTRY'] = 'Prázdná Položka Souboru';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Náhled byl resetován pro přílohu: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Synchronizace přílohy dokončena.';
 $lang['SYNC_TOPICS'] = 'Synchronizace Témata';
 $lang['SYNC_POSTS'] = 'Synchronizovat Příspěvky';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Správa Zvláštní Kategorie';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Zde si můžete nastavit Zvláštní Kategorie. Můžete nastavit Speciální Parametry a Podmínky pro Speciální Kategorie přidělené k Rozšíření Skupiny.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Nastavení pro Speciální Kategorie: Obrázky';
 $lang['SETTINGS_CAT_FLASH'] = 'Nastavení pro Speciální Kategorie: Flash Soubory';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Zobrazit obrázky inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Vyberte, zda chcete zobrazovat obrázky přímo do příspěvku (ano), nebo chcete-li obrázky zobrazit jako odkaz ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximální Rozměry Obrázku';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Zde můžete definovat maximální povolený Rozměr Obrazu musí být připojen (Šířka x Výška v pixelech).<br />If je nastavena na hodnotu 0x0, je tato funkce deaktivována. S některými Obrazy, tato Funkce nebude fungovat kvůli omezení v PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Pokud je tento definován Rozměr Obrazu je 
 $lang['ASSIGNED_GROUP'] = 'Přiřazené Skupiny';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Vytvořit Miniaturu';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimální velikost náhledu souboru';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Pokud je obrázek menší než definovaná velikost souboru, nebude vytvořena žádná miniatura, protože je dostatečně malý.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Spravovat Zakázané Rozšíření';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Zakázané Rozšíření %s již existují
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Rozšíření %s je definována ve vašem povoleno Rozšíření, prosím, odstranit jejich předtím, než jste ho sem přidat.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Oprávnění skupiny rozšíření → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Tady jste schopni omezit vybrané Rozšíření Skupiny do Fóra podle vašeho výběru (definovanými v Povolené Fóra Box). Výchozí nastavení je umožnit Rozšíření Skupin na všech Fórech Uživatel je schopen Připojit Soubory do (normálním způsobem Přílohu Mod udělal to od začátku). Stačí přidat ty Fóra chcete Rozšíření Skupiny (Rozšíření v rámci této Skupiny), musí být povolena tam, default VŠECHNA FÓRA zmizí, když přidáte Fórum na Seznamu. Jste schopni re-přidat VŠECHNY FÓRA v daném okamžiku. Když přidáte Fórum na vaše Rady a Svolení, je nastaven na VŠECH FÓRECH, nic se nezmění. Ale pokud jste změnili a omezil přístup do některých Fór, budete muset podívat se sem přidat své nově vytvořené Fórum. To je snadné, jak to udělat automaticky, ale to vás donutí upravit pár Souborů, proto jsem si vybrala tak, jak to je teď. Prosím, mějte na paměti, že všechny vaše Fóra budou uvedeny zde.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'POZNÁMKA:<br />Within níže uvedených Fórech Uživatelé jsou obvykle dovoleno připojit soubory, ale od té doby žádné Rozšíření Skupiny je dovoleno být připojeny tam, Uživatelé jsou schopni připojit cokoliv. Pokud se budou snažit, budou se zobrazit Chybové Zprávy. Možná budete chtít nastavit Oprávnění \'Post Soubory\' ADMIN na těchto Fórech.<br /><br />';
 $lang['ADD_FORUMS'] = 'Přidat Fóra';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Bez Příloh se setkal vaše kritéria vyhled
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Počet Příloh';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Celková velikost souboru';
 $lang['NUMBER_POSTS_ATTACH'] = 'Počet Míst s Přílohami';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Počet Témat s Přílohami';
 $lang['NUMBER_USERS_ATTACH'] = 'Nezávislé Uživatelé Zaslali Příloh';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'podržte <i>Ctrl</i> při výběru více fóre
 $lang['REG_TORRENTS'] = 'Zaregistrujte torrenty';
 $lang['DISALLOWED'] = 'Zakázáno';
 $lang['ALLOW_REG_TRACKER'] = 'Povoleno fóra pro registraci .torrent na tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Povolený obsah 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Zobrazit tlačítka pro ruční změnu DL-stav';
 $lang['SELF_MODERATED'] = 'Uživatelé mohou <b>move</b> jejich témata do jiného fóra';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Klíč';
 $lang['BT_ADD_AUTH_KEY'] = 'Povolit přidáním klíče na torrent soubory před stažením';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent prohlížeče (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Prohlížeč torrentů (tracker.php) přístupný pouze pro přihlášené uživatele';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Umožňují boolean fulltextové vyhledávání';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'používejte *, +, - v dotazech';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Různé";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Zobrazit statistiky UL/DL uživatelů na hlavní stránce fóra";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Obnovovací frekvence';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Kolik času (v sekundách) zůstat nečinný před přechodem k dalšímu zpracování cycle<br />Usually nemusíš změnit';
 
 $lang['TIME_LIMIT'] = 'Lhůta';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Jak dlouho (v sekundách) může trvat post-processing, než se přesune na další cyklus';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Váš PHP (safe mode) má nastavený časový limit %s sekund, takže zůstaňte pod tuto hodnotu</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver má časový limit %s sekund, nakonfigurován, tak, že zůstane pod tento value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Úspěšně jste dokončili zpracován�
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Znovu Hledat Pokrok';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Zpracované ID příspěvků : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Časovač vypršela na %s sekund. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Cleared vyhledávací tabulky. ';
 $lang['DELETED_POSTS'] = '%s post(y) byly vymazány prostřednictvím vašich uživatelů v průběhu zpracování. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Všechny';
 
 $lang['TPL_EMPTY_FIELD'] = 'Musíte vyplnit pole <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Musíte vybrat <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Není číslo';
 $lang['TPL_NOT_URL'] = '<b>%s</b> – Musí být https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> – Musí být https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'dát do předmětu';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Hledat pro uživatele s post počet mén
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Hledat pro uživatele s post počítat mezi %d a %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Hledat pro uživatele s post počet hodnota %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Hledání uživatelů se Twitter odpovídající %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Hledání uživatelů se shodujícími webovými stránkami %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Hledat pro uživatele s Polohou odpovídající %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Hledání uživatelů s jejich Zájmy pole odpovídající %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Hledání uživatelů s jejich Okupace pole odpovídající %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Rovná';
 $lang['GREATER_THAN'] = 'Větší než';
 $lang['LESS_THAN'] = 'Méně než';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Uživatele můžete vyhledávat na základě hodnoty počtu příspěvků. Můžete vyhledávat podle konkrétní hodnoty, větší nebo menší než hodnota nebo mezi dvěma hodnotami. Chcete-li provést vyhledávání rozsahu, vyberte „Rovno“ a poté vložte počáteční a koncové hodnoty rozsahu oddělené pomlčkou (-), např. 10-15';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Uživatelské pole';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Hledat pro uživatele na základě různých profilových oborů. Zástupné znaky jsou podporovány pomocí asterix (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Můžete hledat pro uživatele na základě jejich posledního přihlášení pomocí této možnosti vyhledávání';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'To bude zobrazovat uživatelům, kterým si vybrali konkrétní jazyk ve svém Profilu';
