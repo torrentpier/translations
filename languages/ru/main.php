@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Посмотреть последнее сообщ�
 $lang['VIEW_NEWEST_POST'] = 'Перейти к первому непрочитанному сообщению';
 $lang['PAGE_OF'] = 'Страница <b>%d</b> из <b>%s</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Вы ввели некорректный логин Skype';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Вы ввели некорректный логин Twitter';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = 'Список форумов %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Вы уверены, что хотите уда�
 $lang['FLOOD_ERROR'] = 'Вы не можете отправить следующее сообщение сразу после предыдущего. Пожалуйста, попробуйте чуть попозже';
 $lang['EMPTY_SUBJECT'] = 'Вы должны указать заголовок сообщения, когда начинаете новую тему';
 $lang['EMPTY_MESSAGE'] = 'Вы должны ввести текст сообщения';
-$lang['FORUM_LOCKED'] = 'Этот форум закрыт, вы не можете писать новые сообщения и редактировать старые';
-$lang['TOPIC_LOCKED'] = 'Эта тема закрыта, вы не можете писать ответы и редактировать сообщения';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Тема закрыта';
 $lang['NO_POST_ID'] = 'Вы должны выбрать сообщение для редактирования';
 $lang['NO_TOPIC_ID'] = 'Вы должны выбрать тему для ответа';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'Темно-Голубой';
 $lang['COLOR_GRAY'] = 'Серый';
 $lang['COLOR_DARK_GREEN'] = 'Темно-Зеленый';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Цитировать]';
-$lang['READ_PROFILE_TXTB'] = '[Профиль]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Изменить]';
-$lang['CODE_TOPIC_TXTB'] = '[Код]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Поиск]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[ЛС]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'ЛС';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['ответ', 'ответа'];
 $lang['DECLENSION']['TIMES'] = ['раз', 'раза'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Торрент-файл поврежден!';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Поле "Сайт" может содержать только http://ссылку';
-$lang['ICQ_ERROR'] = 'Поле "ICQ" может содержать только номер icq';
 $lang['INVALID_DATE'] = 'Неверный поиск';
 $lang['PROFILE_USER'] = 'Профиль пользователя';
 $lang['GOOD_UPDATE'] = 'был успешно изменен';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Поиск пользователей �
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Поиск пользователей с количеством сообщений менее %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Поиск пользователей с количеством сообщений от %d до %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Поиск пользователей с количеством сообщений %d';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'Поиск пользователей с адресом ICQ %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Поиск пользователей с логином в Skype %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Поиск пользователей с логином в Twitter %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Поиск пользователей, чей веб-сайт %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Поиск пользователей из %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Поиск пользователей с интересами %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'День';
 $lang['POST_EDIT_CANNOT'] = 'Извините, вы не можете редактировать сообщения';
 $lang['FORUMS_IN_CAT'] = 'форумов в этой категории';
 
-$lang['MC_TITLE'] = 'Модераторский комментарий';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Тип комментария';
 $lang['MC_FAQ'] = 'Введенный Вами текст будет отображаться под этим сообщением';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s в Вашем сообщении";
