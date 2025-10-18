@@ -82,13 +82,8 @@ $lang['VIEW_LATEST_POST'] = 'Соңғы хабарлама қарау';
 $lang['VIEW_NEWEST_POST'] = 'жаңа пост қарау';
 $lang['PAGE_OF'] = '<b>%s</b> бет <b>%d</b>';
 
-$lang['ICQ'] = 'ICQ';
-
-$lang['SKYPE'] = 'Skype';
-$lang['SKYPE_ERROR'] = 'Сіз жарамсыз Skype логин кірді';
-
-$lang['TWITTER'] = 'Twitter';
-$lang['TWITTER_ERROR'] = 'Сіз жарамсыз Twitter логин кірді';
+$lang['TWITTER'] = 'X (Twitter)';
+$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Форумдар тізімі'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -345,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Егер сіз осы сауалнама жой
 $lang['FLOOD_ERROR'] = 'Сіз де көп ұзамай сіздің соңғы кейін басқа лауазымға жасау мүмкін емес; қысқа уақытта қайталап көріңіз';
 $lang['EMPTY_SUBJECT'] = 'Сіз тақырыпты көрсету керек';
 $lang['EMPTY_MESSAGE'] = 'Сіз хабарлама енгізу керек';
-$lang['FORUM_LOCKED'] = 'Бұл форум жабық: Сіз, хабарлама қалдыруға немесе тақырыптарды өңдей алмайды';
-$lang['TOPIC_LOCKED'] = 'Бұл тақырып жабылып, сіз өңдей хабар жауаптар жасау мүмкін емес';
+$lang['FORUM_LOCKED'] = 'This forum is locked';
+$lang['TOPIC_LOCKED'] = 'This topic is locked';
 $lang['TOPIC_LOCKED_SHORT'] = 'Тақырып құлыпталған';
 $lang['NO_POST_ID'] = 'Сіз өңдеу үшін лауазымын таңдау керек';
 $lang['NO_TOPIC_ID'] = 'Сіз жауап беру үшін тақырыпты таңдау керек';
@@ -1399,19 +1394,12 @@ $lang['COLOR_STEEL_BLUE'] = 'болат Көк';
 $lang['COLOR_GRAY'] = 'сұр';
 $lang['COLOR_DARK_GREEN'] = 'Dark Жасыл';
 
-//txtb
-$lang['ICQ_TXTB'] = '[ICQ]';
-$lang['REPLY_WITH_QUOTE_TXTB'] = '[Quote]';
-$lang['READ_PROFILE_TXTB'] = '[Profile]';
-$lang['SEND_EMAIL_TXTB'] = '[E-mail]';
-$lang['VISIT_WEBSITE_TXTB'] = '[www]';
-$lang['EDIT_DELETE_POST_TXTB'] = '[Edit]';
-$lang['CODE_TOPIC_TXTB'] = '[код]';
-$lang['SEARCH_USER_POSTS_TXTB'] = '[Search]';
-$lang['VIEW_IP_TXTB'] = '[ip]';
-$lang['DELETE_POST_TXTB'] = '[x]';
-$lang['MODERATE_POST_TXTB'] = '[m]';
-$lang['SEND_PM_TXTB'] = '[PM]';
+// Short buttons
+$lang['IP'] = 'IP';
+$lang['POLL'] = 'Poll';
+$lang['MODERATE'] = 'Moderate';
+$lang['SEND_PM_SHORT'] = 'Премьер-Министр';
+$lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['жауап', 'жауап'];
 $lang['DECLENSION']['TIMES'] = ['уақыт', 'рет'];
@@ -1471,7 +1459,6 @@ $lang['TORFILE_INVALID'] = 'Torrent файл бүлінген';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '// SITENAME: «сайт» тек HTTP болуы мүмкін';
-$lang['ICQ_ERROR'] = '«ICQ» өрісі тек ICQ нөмірін қамтуы мүмкін';
 $lang['INVALID_DATE'] = 'Жарамсыз күн';
 $lang['PROFILE_USER'] = 'Профилді';
 $lang['GOOD_UPDATE'] = 'сәтті өзгертілді';
@@ -2690,9 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'лауазымына бар пайда�
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'лауазымына бар пайдаланушылар үшін іздеу %d кем санау';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = '%d және %d арасындағы кейінгі санау бар пайдаланушылар үшін іздеу';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = '%d бір пост саны мәнімен пайдаланушылар үшін іздеу';
-$lang['SEARCH_FOR_USERFIELD_ICQ'] = 'а ICQ мекенжай сәйкестік бар пайдаланушылар үшін іздеу %s';
-$lang['SEARCH_FOR_USERFIELD_SKYPE'] = 'Егер Skype сәйкестік бар пайдаланушылар үшін іздеу %s';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Егер Twitter сәйкестік бар пайдаланушылар үшін іздеу %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Егер сайт сәйкестік бар пайдаланушылар үшін іздеу %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Орын сәйкестік бар пайдаланушылар үшін іздеу %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'олардың мүдделері өрісінің сәйкестігін бар пайдаланушылар үшін іздеу %s';
@@ -2746,7 +2731,7 @@ $lang['DAY'] = 'күн';
 $lang['POST_EDIT_CANNOT'] = 'Кешіріңіз, бірақ сіз хабарды редакциялау мүмкін емес';
 $lang['FORUMS_IN_CAT'] = 'сол санаттағы форумдар';
 
-$lang['MC_TITLE'] = 'Модерация түсініктеме';
+$lang['MC_TITLE'] = 'Moderation comment';
 $lang['MC_LEGEND'] = 'Пікір енгізіңіз';
 $lang['MC_FAQ'] = 'Енгізілген мәтін осы хабарламаның астында пайда болады';
 $lang['MC_COMMENT_PM_SUBJECT'] = "Егер хабарламада %s";
