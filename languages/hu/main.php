@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Nézet legújabb post';
 $lang['PAGE_OF'] = 'Oldal <b>%d</b> a <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Te érvénytelen Twitter login';
 
 $lang['FORUM_INDEX'] = '%s Index Fórum'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Biztos, hogy törölni akarja ezt a felmérést?
 $lang['FLOOD_ERROR'] = 'Nem lehet, hogy egy másik poszt után az utolsó; kérjük, próbálja újra egy rövid ideig';
 $lang['EMPTY_SUBJECT'] = 'Meg kell adni egy tárgy';
 $lang['EMPTY_MESSAGE'] = 'Be kell írni egy üzenetet';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Fórum le van zárva';
+$lang['TOPIC_LOCKED'] = 'Téma zárva';
 $lang['TOPIC_LOCKED_SHORT'] = 'Téma zárva';
 $lang['NO_POST_ID'] = 'Ki kell választani egy hozzászólást a szerkesztés';
 $lang['NO_TOPIC_ID'] = 'Válassza ki a témát, hogy a válasz, hogy';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'Sötét Zöld';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Szavazás';
+$lang['MODERATE'] = 'Moderálás';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Keresés a felhasználók utáni szám 
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Keresés a felhasználók utáni szám kevesebb, mint %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Keresés a felhasználók utáni szám között %d, %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Keresés a felhasználók utáni szám értéke %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Keresés a felhasználók egy Twitter megfelelő %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Keresés a felhasználók egy Weboldal megfelelő %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Keresi, hogy a felhasználók egy Helyen, megfelelő %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Keresés a felhasználók számára a saját Érdekeit mező megfelelő %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Nap';
 $lang['POST_EDIT_CANNOT'] = 'Sajnálom, de nem tudja szerkeszteni hozzászólás';
 $lang['FORUMS_IN_CAT'] = 'fórumok abban a kategóriában';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Moderálási megjegyzés';
 $lang['MC_LEGEND'] = 'Írjon be egy megjegyzést';
 $lang['MC_FAQ'] = 'A beírt szöveg fog megjelenni alatt ezt az üzenetet';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s az üzenetet";
