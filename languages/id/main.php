@@ -753,7 +753,7 @@ $lang['COULD_NOT_ANON_USER'] = 'Anda tidak bisa membuat Anonymous anggota kelomp
 $lang['CONFIRM_UNSUB'] = 'Apakah anda yakin anda ingin berhenti berlangganan dari grup ini?';
 $lang['CONFIRM_UNSUB_PENDING'] = 'Anda berlangganan ke grup ini belum disetujui; apakah anda yakin anda ingin berhenti berlangganan?';
 
-$lang['UNSUB_SUCCESS'] = 'You have been unsubscribed from this group.';
+$lang['UNSUB_SUCCESS'] = 'Anda telah un-berlangganan dari grup ini.';
 
 $lang['APPROVE_SELECTED'] = 'Menyetujui Dipilih';
 $lang['DENY_SELECTED'] = 'Menyangkal Dipilih';
@@ -850,7 +850,7 @@ $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Anda bukan moderator dari forum ini.';
-$lang['NOT_AUTHORISED'] = 'Not Authorized';
+$lang['NOT_AUTHORISED'] = 'Tidak Resmi';
 
 $lang['YOU_BEEN_BANNED'] = 'Anda telah dilarang dari forum ini. Silahkan hubungi administrator forum untuk informasi lebih lanjut.';
 
@@ -998,7 +998,7 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Maaf, tapi anda tidak diizinkan untuk melihat
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Deskripsi'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'File size';
+$lang['FILESIZE'] = 'Ukuran File';
 $lang['VIEWED'] = 'Dilihat';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Ekstensi \'%s\' dinonaktifkan oleh admin papan, oleh karena itu lampiran ini tidak ditampilkan.'; // used in Posts and PM's, replace %s with mime type
 
@@ -1044,8 +1044,8 @@ $lang['ATTACHMENT_PHP_SIZE_NA'] = 'Lampiran terlalu besar.<br />Could tidak mend
 $lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Lampiran terlalu besar.<br />Maximum Tanggal Ukuran: %d MB.<br />Please perhatikan bahwa Ukuran ini didefinisikan dalam php.ini, ini berarti itu ditetapkan oleh PHP dan Lampiran Mod tidak bisa mengesampingkan nilai ini.'; // replace %d with ini_get('upload_max_filesize')
 $lang['DISALLOWED_EXTENSION'] = 'Perpanjangan %s tidak diperbolehkan'; // replace %s with extension (e.g. .php)
 $lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Anda tidak diperbolehkan untuk mengirim File dengan Ekstensi %s dalam Forum ini'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'The Attachment is too big.<br />Maximum Size: %s'; // replace %d with maximum file size, %s with size var
-$lang['ATTACH_QUOTA_REACHED'] = 'Sorry, but the maximum file size for all Attachments is reached. Please contact the Board Administrator if you have questions.';
+$lang['ATTACHMENT_TOO_BIG'] = 'Lampiran terlalu besar.<br />Max Ukuran: %s'; // replace %d with maximum file size, %s with size var
+$lang['ATTACH_QUOTA_REACHED'] = 'Maaf, tapi maksimal ukuran file untuk semua Lampiran tercapai. Silahkan hubungi Administrator Dewan jika anda memiliki pertanyaan.';
 $lang['TOO_MANY_ATTACHMENTS'] = 'Lampiran tidak dapat ditambahkan, sejak max. jumlah %d Lampiran dalam posting ini dicapai'; // replace %d with maximum number of attachments
 $lang['ERROR_IMAGESIZE'] = 'Lampiran/Gambar harus kurang dari %d piksel lebar dan %d piksel tinggi';
 $lang['GENERAL_UPLOAD_ERROR'] = 'Tanggal Error: tidak Bisa upload Lampiran %s.'; // replace %s with local path
@@ -1054,8 +1054,8 @@ $lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Anda harus memasukkan nilai-nilai dalam \'
 $lang['ERROR_MISSING_OLD_ENTRY'] = 'Tidak dapat Memperbarui Lampiran, tidak bisa menemukan old Lampiran Entri';
 
 // Errors -> PM Related
-$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in your Private Message Folder has been reached. Please delete some of your received/sent Attachments.';
-$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Sorry, but the maximum file size for all Attachments in the Private Message Folder of \'%s\' has been reached. Please let him know, or wait until he/she has deleted some of his/her Attachments.';
+$lang['ATTACH_QUOTA_SENDER_PM_REACHED'] = 'Maaf, tapi maksimal ukuran file untuk semua Lampiran dalam Pesan Pribadi Folder telah tercapai. Silakan hapus beberapa dari anda menerima/mengirim Lampiran.';
+$lang['ATTACH_QUOTA_RECEIVER_PM_REACHED'] = 'Maaf, tapi maksimal ukuran file untuk semua Lampiran dalam Pesan Pribadi Folder \'%s\' telah tercapai. Tolong biarkan dia tahu, atau menunggu sampai dia/dia telah menghapus beberapa dari/nya Lampiran.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Anda belum memilih lampiran untuk men-download atau lihat.';
@@ -1072,7 +1072,7 @@ $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Lampiran Fitur dinonaktifkan.';
 
 $lang['DIRECTORY_DOES_NOT_EXIST'] = 'Direktori \'%s\' tidak ada atau tidak dapat ditemukan.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Silakan periksa jika \'%s\' adalah sebuah direktori.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directory \'%s\' is not writable. You\'ll have to create the upload path and chmod it to 777 (or change the owner to you httpd-servers owner) to upload files.<br />If you have only plain FTP-access change the \'Attribute\' of the directory to rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'Direktori \'%s\' tidak dapat ditulisi. Anda akan memiliki untuk membuat tanggal path dan chmod ke 777 (atau mengubah pemilik untuk anda httpd-penyedia server) untuk meng-upload file.<br />Jika anda memiliki hanya polos FTP-akses mengubah \'Atribut\' dari direktori untuk rwxrwxrwx.'; // replace %s with directory
 
 // Quota Variables
 $lang['UPLOAD_QUOTA'] = 'Tanggal Kuota';
@@ -1087,7 +1087,7 @@ $lang['ATTACH_SEARCH_QUERY'] = 'Pencarian Lampiran';
 $lang['TEST_SETTINGS'] = 'Menguji Pengaturan';
 $lang['NOT_ASSIGNED'] = 'Tidak Ditugaskan';
 $lang['NO_FILE_COMMENT_AVAILABLE'] = 'Tidak ada File yang tersedia Komentar';
-$lang['ATTACHBOX_LIMIT'] = 'Your Attach box is<br /><b>%d%%</b> full';
+$lang['ATTACHBOX_LIMIT'] = 'Anda Attachbox is<br /><b>%d%%</b> penuh';
 $lang['NO_QUOTA_LIMIT'] = 'Tidak Ada Batas Kuota';
 $lang['UNLIMITED'] = 'Terbatas';
 
@@ -1101,7 +1101,7 @@ $lang['BT_REG_FAIL_SAME_HASH'] = 'Torrent lain yang sama info_hash sudah <a href
 $lang['BT_V1_ONLY_DISALLOWED'] = 'torrent v1-only telah dinonaktifkan oleh administrator saat ini, yang diizinkan: v2 dan hibrida';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'torrent v2-only telah dinonaktifkan oleh administrator saat ini, yang diizinkan: v1 dan hibrida';
 $lang['BT_FLIST'] = 'Daftar file';
-$lang['BT_FLIST_LIMIT'] = 'Tracker settings do not allow processing lists with more than %d files. Current number is: %d';
+$lang['BT_FLIST_LIMIT'] = 'Pengaturan tracker tidak mengizinkan pemrosesan daftar dengan lebih dari %d file. Jumlah saat ini adalah: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
 $lang['BT_FLIST_BTMR_NOTICE'] = 'BitTorrent Merkle Root adalah hash dari file yang disematkan dalam torrent dengan dukungan BitTorrent v2, pengguna tracker dapat mengekstrak, menghitung mereka, juga mengunduh torrent yang diduplikasi menggunakan alat desktop seperti <a href="%s" target="_blank" referrerpolicy="origin">Pembaca Merkle Root Torrent</a>';
 $lang['BT_FLIST_CREATION_DATE'] = 'Tanggal pembuatan';
@@ -1202,9 +1202,9 @@ $lang['BT_VIEWS'] = 'Views';
 $lang['GOLD'] = 'Emas';
 $lang['SILVER'] = 'Perak';
 $lang['SET_GOLD_TORRENT'] = 'Membuat emas';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'UnMake emas';
 $lang['SET_SILVER_TORRENT'] = 'Silver';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'UnMake silver';
 $lang['GOLD_STATUS'] = 'EMAS TORRENT! DOWNLOAD LALU LINTAS TIDAK MEMPERTIMBANGKAN!';
 $lang['SILVER_STATUS'] = 'PERAK TORRENT! DOWNLOAD LALU LINTAS SEBAGIAN DIANGGAP!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Tipe torrent diubah menjadi: %s';
@@ -1212,7 +1212,7 @@ $lang['TOR_TYPE_LOG_ACTION'] = 'Tipe torrent diubah menjadi: %s';
 $lang['TORRENT_STATUS'] = 'Cari berdasarkan status rilis';
 $lang['SEARCH_IN_FORUMS'] = 'Cari di Forum';
 $lang['SELECT_CAT'] = 'Pilih kategori';
-$lang['GO_TO_SECTION'] = 'Go to section';
+$lang['GO_TO_SECTION'] = 'Goto bagian';
 $lang['TORRENTS_FROM'] = 'Posting dari';
 $lang['SHOW_ONLY'] = 'Tampilkan hanya';
 $lang['SHOW_COLUMN'] = 'Tampilkan kolom';
@@ -1327,7 +1327,7 @@ $lang['BT_RATIO_WARNING_MSG'] = 'Jika anda terlalu jatuh di bawah %s, anda tidak
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder tidak dilihat: <b>%s</b>';
 
-$lang['NEED_TO_LOGIN_FIRST'] = 'You need to log in first';
+$lang['NEED_TO_LOGIN_FIRST'] = 'Anda harus login terlebih dahulu';
 $lang['ONLY_FOR_MOD'] = 'Pilihan ini hanya untuk moderator';
 $lang['ONLY_FOR_ADMIN'] = 'Pilihan ini hanya untuk admin';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Pilihan ini hanya untuk super admin';
@@ -1344,7 +1344,7 @@ $lang['ALREADY_REG_IP'] = 'Pengguna %s sudah terdaftar dengan alamat IP Anda. Ji
 $lang['HIDDEN'] = 'Tersembunyi';
 
 // from admin
-$lang['NOT_ADMIN'] = 'You are not authorized to administer this board';
+$lang['NOT_ADMIN'] = 'Anda tidak diizinkan untuk mengelola forum ini';
 
 $lang['COOKIES_REQUIRED'] = 'Cookie harus diaktifkan!';
 $lang['SESSION_EXPIRED'] = 'Sesi berakhir';
@@ -1425,7 +1425,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Maaf, pendaftaran dinonaktifkan pada saat ini'
 $lang['ONLY_NEW_POSTS'] = 'hanya posting baru';
 $lang['ONLY_NEW_TOPICS'] = 'hanya topik-topik baru';
 
-$lang['TORHELP_TITLE'] = 'Please help to seed these torrents!';
+$lang['TORHELP_TITLE'] = 'Mohon bantuan pembibitan ini torrents!';
 $lang['STATISTICS'] = 'Statistik';
 $lang['STATISTIC'] = 'Statistik';
 $lang['VALUE'] = 'Nilai';
@@ -1523,7 +1523,7 @@ $lang['TERMS_OFF'] = 'Saya tidak setuju dengan ketentuan ini';
 $lang['JAVASCRIPT_ON_REGISTER'] = 'Untuk mendaftar, Anda perlu mengaktifkan JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Registrasi saat ini ditutup<br /><br />Registrasi tersedia selama: %s<br />Waktu server saat ini: %s<br /><br />Kami mohon maaf atas ketidaknyamanan ini";
 $lang['AUTOCOMPLETE'] = 'Hasilkan kata sandi';
-$lang['YOUR_NEW_PASSWORD'] = 'Your new password:';
+$lang['YOUR_NEW_PASSWORD'] = 'Anda adalah password baru:';
 $lang['REGENERATE'] = 'Regenerasi';
 
 // Debug
@@ -1531,7 +1531,7 @@ $lang['EXECUTION_TIME'] = 'Waktu pelaksanaan:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'pada';
 $lang['OFF'] = 'off';
-$lang['MEMORY'] = 'Memory: ';
+$lang['MEMORY'] = 'Memori: ';
 $lang['QUERIES'] = 'query';
 $lang['LIMIT'] = 'Batas:';
 $lang['SHOW_LOG'] = 'Tampilkan log';
@@ -1601,7 +1601,7 @@ $lang['DL_CLIENT'] = 'Klien BitTorrent';
 $lang['DL_FORMULA'] = 'Rumus: Upload/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'berhenti';
-$lang['DL_UPD'] = 'update time: ';
+$lang['DL_UPD'] = 'update posting kali: ';
 $lang['DL_INFO'] = 'menunjukkan data <i><b>only untuk saat ini session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Sembunyikan nama klien BitTorrent saya di daftar peer';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Sembunyikan nama negara saya di daftar peer';
@@ -1716,7 +1716,7 @@ $lang['USERS_PER_DAY'] = 'Pengguna per hari';
 $lang['BOARD_STARTED'] = 'Papan mulai';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar direktori ukuran';
 $lang['DATABASE_SIZE'] = 'Ukuran Database';
-$lang['GZIP_COMPRESSION'] = 'GZIP compression';
+$lang['GZIP_COMPRESSION'] = 'Gzip compression';
 $lang['NOT_AVAILABLE'] = 'Tidak tersedia';
 
 // System information
@@ -1763,7 +1763,7 @@ $lang['LOOK_UP_FORUM'] = 'Melihat Forum';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Di sini anda dapat mengubah hak akses dan moderator status ditugaskan untuk masing-masing kelompok pengguna. Jangan lupa ketika mengubah group permissions bahwa izin pengguna individu mungkin masih memungkinkan user untuk masuk ke forum, dll. Anda akan diperingatkan jika hal ini terjadi.';
 $lang['USER_AUTH_EXPLAIN'] = 'Di sini anda dapat mengubah hak akses dan moderator status yang diberikan kepada masing-masing pengguna. Jangan lupa ketika mengubah hak akses pengguna yang izin grup masih dapat memungkinkan pengguna masuk ke forum, dll. Anda akan diperingatkan jika hal ini terjadi.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Here you can alter the authorization levels of each forum. You will have both a simple and advanced method for doing this, where advanced offers greater control of each forum operation. Remember that changing the permission level of forums will affect which users can carry out the various operations within them.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'Di sini anda dapat mengubah otorisasi tingkat masing-masing forum. Anda akan memiliki keduanya yang sederhana dan lanjutan metode untuk melakukan hal ini, mana yang canggih menawarkan kontrol yang lebih besar dari masing-masing forum operasi. Ingat bahwa perubahan tingkat izin dari forum akan mempengaruhi pengguna yang dapat melaksanakan berbagai operasi dalam diri mereka.';
 
 $lang['SIMPLE_MODE'] = 'Mode Sederhana';
 $lang['ADVANCED_MODE'] = 'Mode Lanjutan';
@@ -1773,7 +1773,7 @@ $lang['ALLOWED_ACCESS'] = 'Diperbolehkan Akses';
 $lang['DISALLOWED_ACCESS'] = 'Batasan Akses';
 $lang['IS_MODERATOR'] = 'Adalah Moderator';
 
-$lang['CONFLICT_WARNING'] = 'Authorization Conflict Warning';
+$lang['CONFLICT_WARNING'] = 'Otorisasi Konflik Peringatan';
 $lang['CONFLICT_ACCESS_USERAUTH'] = 'Pengguna ini masih memiliki hak akses ke forum ini melalui keanggotaan kelompok. Anda mungkin ingin mengubah group permissions atau menghapus user grup untuk sepenuhnya mencegah mereka yang memiliki hak akses. Kelompok pemberian hak (dan forum terlibat) tercantum di bawah ini.';
 $lang['CONFLICT_MOD_USERAUTH'] = 'Pengguna ini masih memiliki hak moderator untuk forum ini melalui keanggotaan kelompok. Anda mungkin ingin mengubah group permissions atau menghapus user grup untuk sepenuhnya mencegah mereka memiliki hak moderator. Kelompok pemberian hak (dan forum terlibat) tercantum di bawah ini.';
 
@@ -1838,7 +1838,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Klik %sHere%s untuk kembali ke Ban Kontrol';
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Konfigurasi Umum';
-$lang['CONFIG_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side.';
+$lang['CONFIG_EXPLAIN'] = 'Formulir di bawah ini akan memungkinkan anda untuk menyesuaikan semua pengurus umum pilihan. Untuk Pengguna dan Forum konfigurasi menggunakan link terkait di sisi kiri.';
 
 $lang['CONFIG_MODS'] = 'Konfigurasi modifikasi';
 $lang['MODS_EXPLAIN'] = 'Bentuk ini memungkinkan anda untuk menyesuaikan modifikasi';
@@ -1870,7 +1870,7 @@ $lang['ENABLE_PRUNE'] = 'Mengaktifkan Forum Pemangkasan';
 $lang['ALLOW_BBCODE'] = 'Memungkinkan BBCode';
 $lang['ALLOW_SMILIES'] = 'Memungkinkan Smilies';
 $lang['SMILIES_PATH'] = 'Smilies Jalur Penyimpanan';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier root directory, e.g. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Jalan di bawah TorrentPier root dir, misalnya gaya/gambar/tersenyum';
 $lang['ALLOW_SIG'] = 'Memungkinkan Tanda Tangan';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum tanda tangan panjang';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Jumlah maksimum karakter pada tanda tangan pengguna';
@@ -1890,7 +1890,7 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Berapa lama autologin kunci ini berlaku untuk
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Administrasi';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'From this panel you can add, delete, edit, re-order and resynchronize categories and forums';
+$lang['FORUM_ADMIN_EXPLAIN'] = 'Dari panel ini, anda dapat menambah, menghapus, mengedit, re-order dan kembali sinkronisasi kategori dan forum';
 $lang['EDIT_FORUM'] = 'Mengedit forum';
 $lang['CREATE_FORUM'] = 'Membuat forum baru';
 $lang['CREATE_SUB_FORUM'] = 'Buat subforum';
@@ -1900,9 +1900,9 @@ $lang['UPDATE_ORDER'] = 'Update Order';
 $lang['CONFIG_UPDATED'] = 'Forum Konfigurasi Telah Berhasil Diperbarui';
 $lang['MOVE_UP'] = 'Bergerak naik';
 $lang['MOVE_DOWN'] = 'Bergerak turun';
-$lang['RESYNC'] = 'Re-sync';
+$lang['RESYNC'] = 'Re-sinkronisasi';
 $lang['NO_MODE'] = 'Tidak ada mode set';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'The form below will allow you to customize all the general board options. For User and Forum configurations use the related links on the left-hand side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formulir di bawah ini akan memungkinkan anda untuk menyesuaikan semua pengurus umum pilihan. Untuk Pengguna dan Forum konfigurasi menggunakan link terkait di sisi kiri';
 
 $lang['MOVE_CONTENTS'] = 'Memindahkan semua isi';
 $lang['FORUM_DELETE'] = 'Menghapus Forum';
@@ -2135,7 +2135,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. panjang berita';
-$lang['NEWS_COUNT'] = 'How many news items to show';
+$lang['NEWS_COUNT'] = 'Berapa banyak berita yang ditampilkan';
 $lang['NEWS_FORUM_ID'] = 'Dari forum mana untuk ditampilkan <br /> <h6>Untuk beberapa forum, tentukan ID yang dipisahkan koma. Contoh: 1,2,3</h6>';
 $lang['NOAVATAR'] = 'Tidak ada avatar';
 $lang['TRACKER_STATS'] = 'Statistik tracker';
@@ -2166,7 +2166,7 @@ $lang['QUOTA_LIMITS'] = 'Batas Kuota';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Lampiran Pengaturan';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Di sini anda dapat mengkonfigurasi Pengaturan Utama untuk Lampiran Mod. Jika anda tekan tombol Test Settings Tombol, Lampiran Mod melakukan beberapa Pengujian Sistem untuk memastikan bahwa Mod ini akan bekerja dengan baik. Jika anda memiliki masalah dengan meng-upload File, silahkan jalankan Tes ini, untuk mendapatkan detil kesalahan-pesan.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Attachment File Size Settings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Lampiran Filesize Pengaturan';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Lampiran Nomor Setelan';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Lampiran Pilihan';
 
@@ -2181,7 +2181,7 @@ $lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Di sini anda dapat memilih apakah akan 
 $lang['SHOW_APCP'] = 'Gunakan panel kontrol baru aplikasi';
 $lang['SHOW_APCP_EXPLAIN'] = 'Pilih apakah anda ingin menggunakan panel kontrol terpisah aplikasi (ya), atau metode lama dengan dua kotak untuk aplikasi dan aplikasi editing (tidak ada) dalam kotak pesan. Sulit untuk menjelaskan bagaimana hal itu terlihat, jadi cobalah untuk diri sendiri.';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'File size';
+$lang['MAX_FILESIZE_ATTACH'] = 'Ukuran File';
 $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimum ukuran file Lampiran. Nilai 0 berarti \'tak terbatas\'. Pengaturan ini dibatasi dengan Konfigurasi Server anda. Misalnya, jika Konfigurasi php anda hanya memungkinkan maksimal 2 MB yang di upload, ini tidak akan ditimpa oleh Mod.';
 $lang['ATTACH_QUOTA'] = 'Lampiran Kuota';
 $lang['ATTACH_QUOTA_EXPLAIN'] = 'Maksimum Ruang Disk SEMUA Lampiran bisa tahan pada ruang Web anda. Nilai 0 berarti \'tak terbatas\'.';
@@ -2209,7 +2209,7 @@ $lang['SHADOW_ATTACHMENTS_ROW_EXPLAIN'] = 'Menghapus semua postingan lampiran da
 $lang['EMPTY_FILE_ENTRY'] = 'File Kosong Entri';
 
 // Attachments -> Sync
-$lang['SYNC_THUMBNAIL_RESETTED'] = 'The preview has been reset for the attachment: %s'; // replace %s with physical Filename
+$lang['SYNC_THUMBNAIL_RESETTED'] = 'Prabaca telah direset untuk lampiran: %s'; // replace %s with physical Filename
 $lang['ATTACH_SYNC_FINISHED'] = 'Sinkronisasi Lampiran Selesai.';
 $lang['SYNC_TOPICS'] = 'Sync Topik';
 $lang['SYNC_POSTS'] = 'Sync Posting';
@@ -2242,7 +2242,7 @@ $lang['MANAGE_CATEGORIES'] = 'Mengelola Kategori Khusus';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Di sini Anda dapat mengonfigurasi Kategori Khusus. Anda dapat mengatur Parameter Khusus dan Ketentuan untuk Kategori Khusus yang ditugaskan kepada Grup Ekstensi.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Pengaturan untuk Kategori Khusus: Gambar';
 $lang['SETTINGS_CAT_FLASH'] = 'Pengaturan untuk Kategori Khusus: File Flash';
-$lang['DISPLAY_INLINED'] = 'Display Images Inline';
+$lang['DISPLAY_INLINED'] = 'Tampilan Gambar Inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Pilih apakah akan menampilkan gambar secara langsung dalam posting (ya) atau untuk menampilkan gambar sebagai link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Gambar Maksimum Dimensi';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Di sini anda dapat menentukan maksimum yang diizinkan Dimensi Gambar untuk dilampirkan (Lebar x Tinggi dalam piksel).<br />If diatur ke 0x0, fitur ini dinonaktifkan. Dengan beberapa Gambar Fitur ini tidak akan bekerja karena keterbatasan dalam PHP.';
@@ -2251,8 +2251,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Jika ini didefinisikan Dimensi dari Gambar t
 $lang['ASSIGNED_GROUP'] = 'Ditugaskan Group';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Membuat Thumbnail';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail File Size';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'If an image is smaller than this defined file size, no thumbnail will be created, because it\'s small enough.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail Filesize';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jika sebuah Gambar lebih kecil dari ini didefinisikan Filesize, tidak ada Thumbnail akan dibuat, karena itu cukup kecil.';
 
 // Extensions -> Forbidden Extensions
 $lang['MANAGE_FORBIDDEN_EXTENSIONS'] = 'Mengelola Dilarang Ekstensi';
@@ -2261,7 +2261,7 @@ $lang['FORBIDDEN_EXTENSION_EXIST'] = 'Terlarang Ekstensi %s sudah ada'; // repla
 $lang['EXTENSION_EXIST_FORBIDDEN'] = 'Perpanjangan %s didefinisikan dalam ekstensi-Ekstensi yang diperbolehkan, silakan menghapus mereka sebelum anda menambahkannya di sini.'; // replace %s with the extension
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Group Permissions → \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Ekstensi Group Permissions -> \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Di sini anda dapat membatasi dipilih Ekstensi Kelompok untuk Forum pilihan anda (didefinisikan dalam Diizinkan Forum Kotak). Default adalah untuk memungkinkan Ekstensi Kelompok untuk semua Forum Pengguna dapat Melampirkan File ke dalam (dengan cara normal Lampiran Mod melakukannya sejak awal). Hanya menambahkan orang-orang Forum yang anda inginkan Ekstensi Kelompok (Ekstensi dalam Kelompok ini) yang akan diizinkan di sana, default SEMUA FORUM akan hilang ketika anda menambahkan Forum ke Daftar. Anda dapat menambahkan SEMUA FORUM pada Waktu tertentu. Jika anda menambahkan Forum ke forum anda dan Izin diatur ke SEMUA FORUM tidak akan ada perubahan. Tetapi jika anda telah berubah dan membatasi akses ke beberapa Forum, anda harus memeriksa kembali ke sini untuk menambah teman baru dibuat Forum. Sangat mudah untuk melakukan ini secara otomatis, tetapi hal ini akan memaksa anda untuk mengedit sekelompok File, oleh karena itu aku telah memilih jalan yang sekarang. Harap diingat, bahwa semua Forum anda akan tercantum di sini.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'CATATAN:<br />Within yang tercantum di bawah Forum Pengguna anda biasanya diperbolehkan untuk melampirkan file, tapi karena tidak ada Perpanjangan Kelompok diperbolehkan untuk dilampirkan di sana, Pengguna dapat melampirkan apa-apa. Jika mereka mencoba, mereka akan menerima Pesan Kesalahan. Mungkin anda ingin mengatur Izin \'Post\' File \' untuk ADMIN di Forum ini.<br /><br />';
 $lang['ADD_FORUMS'] = 'Menambahkan Forum';
@@ -2291,7 +2291,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Tidak ada Lampiran yang memenuhi kriteria pen
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Jumlah Lampiran';
-$lang['TOTAL_FILESIZE'] = 'Total File Size';
+$lang['TOTAL_FILESIZE'] = 'Total Filesize';
 $lang['NUMBER_POSTS_ATTACH'] = 'Jumlah Posting dengan Lampiran';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Jumlah Topik dengan Lampiran';
 $lang['NUMBER_USERS_ATTACH'] = 'Pengguna Independen Diposting Lampiran';
@@ -2343,7 +2343,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'tahan <i>Ctrl</i> sambil memilih beberapa foru
 $lang['REG_TORRENTS'] = 'Daftar torrents';
 $lang['DISALLOWED'] = 'Dilarang';
 $lang['ALLOW_REG_TRACKER'] = 'Diperbolehkan forum untuk mendaftar .torrents pada tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Allowed posting content 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Diperbolehkan untuk posting konten 18+';
 $lang['SHOW_DL_BUTTONS'] = 'Tampilkan tombol untuk mengubah secara manual DL-status';
 $lang['SELF_MODERATED'] = 'Pengguna dapat <b>move</b> topik ke forum lain';
 
@@ -2387,9 +2387,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Kunci sandi';
 $lang['BT_ADD_AUTH_KEY'] = 'Mengaktifkan menambahkan kata sandi ke torrent file-file sebelum men-download';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent browser (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) accessible only for logged-in users';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php) hanya dapat diakses untuk login pengguna';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Memungkinkan boolean penuh-pencarian teks';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - in searches';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'menggunakan *, +, -,.. dalam pencarian';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Lain-lain";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Tampilkan statistik UL/DL pengguna di bagian atas halaman utama forum";
@@ -2496,7 +2496,7 @@ $lang['REFRESH_RATE'] = 'Refresh rate';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Berapa banyak waktu (detik) untuk tetap siaga sebelum pindah ke berikutnya pengolahan cycle<br />Usually anda tidak perlu mengubah ini';
 
 $lang['TIME_LIMIT'] = 'Batas waktu';
-$lang['TIME_LIMIT_EXPLAIN'] = 'How much time (secs) post-processing can last before moving to next cycle';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Berapa banyak waktu (detik) post processing dapat bertahan sebelum pindah ke siklus berikutnya';
 $lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>PHP Anda (mode aman) memiliki batas waktu %s detik dikonfigurasi, jadi tetaplah di bawah nilai ini</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver memiliki batas waktu %s detik dikonfigurasi, jadi tinggal di bawah ini value</i>';
 
@@ -2515,7 +2515,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Anda berhasil menyelesaikan pengolahan 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Membangun Kembali Kemajuan Pencarian';
 
-$lang['PROCESSED_POST_IDS'] = 'Processed post IDs : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Diproses post id : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Timer berakhir pada %s detik. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Dibersihkan pencarian tabel. ';
 $lang['DELETED_POSTS'] = '%s post(s) yang dihapus oleh pengguna selama pengolahan. ';
@@ -2631,7 +2631,7 @@ $lang['ALL'] = 'Semua';
 
 $lang['TPL_EMPTY_FIELD'] = 'Anda harus mengisi field <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Anda harus memilih <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Not a number';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - num';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Harus https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Harus https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'dimasukkan ke subjek';
@@ -2678,7 +2678,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Mencari pengguna dengan post count kuran
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Mencari pengguna dengan post count antara %d dan %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Mencari pengguna dengan posting menghitung nilai %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Mencari pengguna dengan aplikasi Twitter yang cocok %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Searching for users with a Website matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Mencari pengguna dengan Website yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Mencari pengguna dengan Lokasi yang cocok %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Mencari pengguna dengan Kepentingan mereka di bidang pencocokan %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Mencari pengguna dengan bidang Pekerjaan yang cocok %s';
@@ -2710,7 +2710,7 @@ $lang['EQUALS'] = 'Sama';
 $lang['GREATER_THAN'] = 'Lebih besar dari';
 $lang['LESS_THAN'] = 'Kurang dari';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Anda dapat mencari pengguna berdasarkan nilai jumlah posting. Anda dapat mencari berdasarkan nilai tertentu, lebih besar atau lebih kecil dari nilai, atau di antara dua nilai. Untuk melakukan pencarian rentang, pilih "Sama Dengan" lalu masukkan nilai awal dan akhir rentang yang dipisahkan oleh tanda hubung (-), misalnya 10-15';
-$lang['USERFIELD'] = 'User field';
+$lang['USERFIELD'] = 'Tingkat pengguna';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Pencarian untuk pengguna berdasarkan berbagai bidang profil. Wildcard yang didukung menggunakan asterix (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Anda dapat mencari pengguna berdasarkan tanggal login terakhir menggunakan opsi pencarian ini';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Ini akan menampilkan pengguna yang telah memilih bahasa tertentu dalam Profil mereka';
