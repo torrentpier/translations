@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Ver más reciente post';
 $lang['PAGE_OF'] = 'Página <b>%d</b> de <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Usted introducido no es válido de inicio de sesión de Twitter';
 
 $lang['FORUM_INDEX'] = '%s Índice Del Foro'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Está seguro de que desea eliminar esta encuesta
 $lang['FLOOD_ERROR'] = 'Usted no puede hacer otro post tan pronto después de su último; por favor, inténtelo de nuevo en un corto tiempo';
 $lang['EMPTY_SUBJECT'] = 'Debe especificar un tema';
 $lang['EMPTY_MESSAGE'] = 'Debe introducir un mensaje';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'El foro está cerrado';
+$lang['TOPIC_LOCKED'] = 'Tema bloqueado';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema bloqueado';
 $lang['NO_POST_ID'] = 'Usted debe seleccionar un post para editar';
 $lang['NO_TOPIC_ID'] = 'Usted debe seleccionar un tema para responder a';
@@ -1396,8 +1396,8 @@ $lang['COLOR_DARK_GREEN'] = 'De Color Verde Oscuro';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Encuesta';
+$lang['MODERATE'] = 'Moderador';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'La búsqueda de usuarios con un post de
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'La búsqueda de usuarios con un puesto de contar con menos de %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'La búsqueda de usuarios con un puesto de contar entre %d y %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'La búsqueda de usuarios con un post en el valor de recuento de %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'La búsqueda de los usuarios de Twitter coincidencia %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'La búsqueda de usuarios con un sitio Web de juego de %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'La búsqueda de usuarios con una Ubicación coincidente %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'La búsqueda de usuarios con sus Intereses campo de juego %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Día';
 $lang['POST_EDIT_CANNOT'] = 'Lo sentimos, pero no se pueden editar los posts';
 $lang['FORUMS_IN_CAT'] = 'los foros en que categoría';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Comentario de moderación';
 $lang['MC_LEGEND'] = 'Escribir un comentario';
 $lang['MC_FAQ'] = 'El texto introducido se mostrará debajo de este mensaje';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s en su mensaje";
