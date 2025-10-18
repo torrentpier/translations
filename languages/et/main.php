@@ -83,7 +83,7 @@ $lang['VIEW_NEWEST_POST'] = 'Vaadata uusim postitus';
 $lang['PAGE_OF'] = 'Lehekülg <b>%d</b>, <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'You entered an invalid X (Twitter) login';
+$lang['TWITTER_ERROR'] = 'Sisestatud kehtetu X (Twitter) login';
 
 $lang['FORUM_INDEX'] = '%s Foorum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
@@ -340,8 +340,8 @@ $lang['CONFIRM_DELETE_POLL'] = 'Oled sa kindel, et tahad kustutada seda küsitlu
 $lang['FLOOD_ERROR'] = 'Sa ei saa teha teine postitust nii kiiresti peale viimast; palun proovige uuesti lühikest aega';
 $lang['EMPTY_SUBJECT'] = 'Peate täpsustama teema';
 $lang['EMPTY_MESSAGE'] = 'Peate sisestama sõnum';
-$lang['FORUM_LOCKED'] = 'This forum is locked';
-$lang['TOPIC_LOCKED'] = 'This topic is locked';
+$lang['FORUM_LOCKED'] = 'Foorum on lukus';
+$lang['TOPIC_LOCKED'] = 'Teema lukus';
 $lang['TOPIC_LOCKED_SHORT'] = 'Teema lukus';
 $lang['NO_POST_ID'] = 'Teil tuleb valida postitada muutmine';
 $lang['NO_TOPIC_ID'] = 'Tuleb valida teemale vastata';
@@ -1396,14 +1396,14 @@ $lang['COLOR_DARK_GREEN'] = 'Tume Roheline';
 
 // Short buttons
 $lang['IP'] = 'IP';
-$lang['POLL'] = 'Poll';
-$lang['MODERATE'] = 'Moderate';
+$lang['POLL'] = 'Küsitlus';
+$lang['MODERATE'] = 'Moderaator';
 $lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['vastus', 'vastused'];
 $lang['DECLENSION']['TIMES'] = ['aeg', 'korda'];
-$lang['DECLENSION']['FILES'] = ['fail', 'files'];
+$lang['DECLENSION']['FILES'] = ['fail', 'failid'];
 
 $lang['DELTA_TIME']['INTERVALS'] = [
     'seconds' => ['teine', 'sekundit'],
@@ -2677,7 +2677,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Otsides kasutajatele a post count on su
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Otsides kasutajatele post count vähem kui %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Otsides kasutajatele post count vahel %d ja %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Otsides kasutajatele post count väärtus %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Searching for users with an X (Twitter) matching %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Otsides kasutajatele X (Twitter) sobitamine %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Otsides kasutajatele Veebisaidi sobitamine %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Otsides kasutajatele Asukoha sobitamine %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Otsides kasutajad, kellel on oma Huvide valdkonnas sobitamine %s';
@@ -2731,7 +2731,7 @@ $lang['DAY'] = 'Päev';
 $lang['POST_EDIT_CANNOT'] = 'Vabandust, aga sa ei saa muuta postitused';
 $lang['FORUMS_IN_CAT'] = 'foorumid selle kategooria';
 
-$lang['MC_TITLE'] = 'Moderation comment';
+$lang['MC_TITLE'] = 'Modereerimise kommentaar';
 $lang['MC_LEGEND'] = 'Tüüp kommentaar';
 $lang['MC_FAQ'] = 'Sisestatud tekst kuvatakse käesolevast sõnum';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s teie sõnum";
