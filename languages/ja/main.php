@@ -30,7 +30,6 @@ $lang['EMAIL'] = 'メール';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = '著者';
 $lang['TIME'] = '時間';
-$lang['HOURS'] = '時間';
 $lang['MESSAGE'] = 'メッセージ';
 $lang['TORRENT'] = '急流';
 $lang['PERMISSIONS'] = 'アクセス権';
@@ -89,14 +88,10 @@ $lang['FORUM_INDEX'] = '%sフォーラム指数'; // e.g. sitename Forum Index, 
 
 $lang['POST_NEW_TOPIC'] = '後の新たな課題';
 $lang['POST_NEW_RELEASE'] = 'ポスト新発売';
-$lang['POST_REGULAR_TOPIC'] = 'ポスト正規課題';
 $lang['REPLY_TO_TOPIC'] = '回答題';
-$lang['REPLY_WITH_QUOTE'] = '返信引用';
 
 $lang['CLICK_RETURN_TOPIC'] = 'をクリックし%sHere%sの話題'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_LOGIN'] = 'をクリックし%sHere%sによっては';
 $lang['CLICK_RETURN_FORUM'] = 'をクリックし%sHere%sのフォーラム';
-$lang['CLICK_VIEW_MESSAGE'] = 'をクリックし%sHere%sに戻すメッセージ';
 $lang['CLICK_RETURN_MODCP'] = 'をクリックし%sHere%s帰モデレーター制御パネル';
 $lang['CLICK_RETURN_GROUP'] = 'をクリックし%sHere%s戻グループ情報';
 
@@ -137,7 +132,6 @@ $lang['SEARCH_SELF'] = '私の投稿';
 $lang['SEARCH_SELF_BY_LAST'] = '前回の投稿時間';
 $lang['SEARCH_SELF_BY_MY'] = '私のポスト時間';
 $lang['SEARCH_UNANSWERED'] = 'ビュー答の投稿';
-$lang['SEARCH_UNANSWERED_SHORT'] = '答';
 $lang['SEARCH_LATEST'] = '最新のトピックス';
 $lang['LATEST_RELEASES'] = '最新のリリース';
 
@@ -155,9 +149,7 @@ $lang['NOTHING_HAS_CHANGED'] = '何も変わっていない';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'ユーザーを掲載して計<b>%s</b>題'; // Number of topics
-$lang['POSTED_ARTICLES_ZERO_TOTAL'] = 'ユーザーを掲載して計<b>0</b>記事'; // Number of posts
 $lang['POSTED_ARTICLES_TOTAL'] = 'ユーザーを掲載して計<b>%s</b>記事'; // Number of posts
-$lang['REGISTERED_USERS_ZERO_TOTAL'] = 'ま<b>0</b>登録ユーザー'; // # registered users
 $lang['REGISTERED_USERS_TOTAL'] = 'ま<b>%s</b>登録ユーザー'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = '男子:<b>%d</b>、女子：<b>%d</b>その他：<b>%d</b>';
 $lang['NEWEST_USER'] = '最新の登録ユーザーは<b>%s</b>'; // a href, username, /a
@@ -167,13 +159,9 @@ $lang['TORRENTS_STAT'] = '納入:<b style="color: blue;">%s</b>,&nbsp;の合計�
 $lang['PEERS_STAT'] = '仲間:<b>%s</b>,&nbsp;Seeders:<b class="seedmed">%s</b>,&nbsp;Leechers:<b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = '合計速度:<b>%s</b>&nbsp;'; // %s = total speed.
 
-$lang['NO_NEW_POSTS_LAST_VISIT'] = '新しい投稿から最後の訪問';
 $lang['NO_NEW_POSTS'] = '新しい投稿';
 $lang['NEW_POSTS'] = '新規投稿';
 $lang['NEW_POST'] = '新しい投稿';
-$lang['NO_NEW_POSTS_HOT'] = '新しい投稿【大人気】';
-$lang['NEW_POSTS_HOT'] = '新規投稿【大人気】';
-$lang['NEW_POSTS_LOCKED'] = '新規投稿"ロック]';
 $lang['FORUM_LOCKED_MAIN'] = 'フォーラムがロックされ';
 
 // Login
@@ -198,7 +186,6 @@ $lang['PRIVATE_MESSAGES'] = 'プライベートメッセージ';
 $lang['WHOSONLINE'] = '人は、オンライン';
 
 $lang['MARK_ALL_FORUMS_READ'] = 'フラグを、すべてのフォーラムとして読み';
-$lang['FORUMS_MARKED_READ'] = '全てのフォーラム＜日本語仮抄訳＞欧州連として読み';
 
 $lang['LATEST_NEWS'] = '最新ニュース';
 $lang['NETWORK_NEWS'] = 'ネットワークのニュース';
@@ -208,7 +195,6 @@ $lang['SUBFORUMS'] = 'Subforums';
 $lang['VIEW_FORUM'] = 'ビューフォーラム';
 
 $lang['FORUM_NOT_EXIST'] = 'このフォーラムを選択したは存在しない。';
-$lang['REACHED_ON_ERROR'] = 'また、このページでエラーになります。';
 $lang['ERROR_PORNO_FORUM'] = 'このタイプのフォーラム(18+)に、隠されたプロフィールす';
 
 $lang['DISPLAY_TOPICS'] = '表示題';
@@ -217,7 +203,6 @@ $lang['MODERATE_FORUM'] = '緩やかなこのフォーラム';
 $lang['TITLE_SEARCH_HINT'] = '検索タイトルは---';
 
 $lang['TOPIC_ANNOUNCEMENT'] = '発表：';
-$lang['TOPIC_STICKY'] = '粘:';
 $lang['TOPIC_MOVED'] = '移動:';
 $lang['TOPIC_POLL'] = '[調査]';
 
@@ -245,7 +230,6 @@ $lang['VIEW_TOPIC'] = '話題を見';
 $lang['GUEST'] = '客';
 $lang['POST_SUBJECT'] = 'ポスト対象';
 $lang['SUBMIT_VOTE'] = '提出票';
-$lang['VIEW_RESULTS'] = 'ビュー結果';
 
 $lang['NO_NEWER_TOPICS'] = 'ありませんより新しいテーマフォーラム';
 $lang['NO_OLDER_TOPICS'] = 'ありません以上に欠くことのフォーラム';
@@ -257,12 +241,7 @@ $lang['ALL_POSTS'] = 'すべての投稿';
 $lang['NEWEST_FIRST'] = '最初の';
 $lang['OLDEST_FIRST'] = '日時の古い';
 
-$lang['BACK_TO_TOP'] = 'トップへ戻る';
-
 $lang['READ_PROFILE'] = 'ユーザのプロフィール';
-$lang['VISIT_WEBSITE'] = '訪問ポスターのwebサイト';
-$lang['VIEW_IP'] = 'ビューポスターのIPアドレス';
-$lang['MODERATE_POST'] = '投稿を';
 $lang['DELETE_POST'] = 'この投稿を削除し';
 
 $lang['WROTE'] = '書'; // proceeds the username and is followed by the quoted text
@@ -286,7 +265,6 @@ $lang['START_WATCHING_TOPIC'] = 'に従って課題回答';
 $lang['NO_LONGER_WATCHING'] = 'なくなった後この話題';
 $lang['YOU_ARE_WATCHING'] = '上記のこの今話題';
 
-$lang['TOTAL_VOTES'] = '総投票数';
 $lang['SEARCH_IN_TOPIC'] = '検索トピックス...';
 $lang['HIDE_IN_TOPIC'] = '隠す';
 
@@ -312,10 +290,6 @@ $lang['POST_A_REPLY'] = '新規投稿に返信';
 $lang['POST_TOPIC_AS'] = 'ポストとして話題';
 $lang['EDIT_POST'] = '編集後';
 $lang['EDIT_TOPIC_TITLE'] = '編集話題のタイトル';
-$lang['EDIT_POST_NOT_1'] = 'とはできません ';
-$lang['EDIT_POST_NOT_2'] = 'できません ';
-$lang['EDIT_POST_AJAX'] = 'できませんので編集後の状況 ';
-$lang['AFTER_THE_LAPSE'] = '過 ';
 
 $lang['DONT_MESSAGE_TITLE'] = 'を指定してくださいメッセージタイトル';
 $lang['INVALID_TOPIC_ID'] = '話題の欠席です！';
@@ -323,7 +297,6 @@ $lang['INVALID_TOPIC_ID_DB'] = '話題が存在しないデータベースです
 
 $lang['NOT_POST'] = '欠席のメッセージ';
 $lang['NOT_EDIT_TOR_STATUS'] = '画面の操作ができなくなりコーポレートコミュニケーションの状況';
-$lang['TOR_STATUS_DAYS'] = '日';
 
 $lang['OPTIONS'] = 'オプション';
 
@@ -352,27 +325,19 @@ $lang['DELETE_OWN_POSTS'] = '申し訳ございません、あなただけの削
 $lang['CANNOT_DELETE_REPLIED'] = '申し訳ございません、あなたを削除しないにかかって返';
 $lang['CANNOT_DELETE_POLL'] = '申し訳ございません、あなたを削除することはできません積極的調査';
 $lang['EMPTY_POLL_TITLE'] = '必ず入力してくださいタイトルがpoll';
-$lang['TO_FEW_POLL_OPTIONS'] = '必ず入力してください少なくとも二つのpollのオプション';
-$lang['TO_MANY_POLL_OPTIONS'] = 'また、あまり多くのpollのオプション';
 $lang['POST_HAS_NO_POLL'] = 'このポストがない調査';
 $lang['ALREADY_VOTED'] = 'いて投票をこの世論調査';
 $lang['NO_VOTE_OPTION'] = 'を指定する必要があります。オプションが決';
 $lang['LOCKED_WARN'] = 'ご投稿にロックされ話題に！';
 
 $lang['ADD_POLL'] = '追加の投票';
-$lang['ADD_POLL_EXPLAIN'] = 'ない場合は追加の投票をお話題は、空欄にします。';
-$lang['POLL_QUESTION'] = '世論調査の質問';
 $lang['POLL_OPTION'] = 'Pollのオプション';
-$lang['ADD_OPTION'] = '追加オプション';
 $lang['UPDATE'] = '更新';
-$lang['POLL_FOR'] = '実世論調査のため';
 $lang['DAYS'] = '日';
-$lang['POLL_FOR_EXPLAIN'] = '【Enter0または空欄で結構たい投票]';
 $lang['DELETE_POLL'] = '削除のpoll';
 
 $lang['MAX_SMILIES_PER_POST'] = '絵文字制限の%s絵文字を超えます。';
 
-$lang['ATTACH_SIGNATURE'] = '添付signature(署名を変更できるプロファイル）';
 $lang['NOTIFY'] = '返信の通知を受け取る';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'このトピックのインデックス作成をロボットに許可';
 
@@ -385,31 +350,21 @@ $lang['VOTE_CAST'] = 'あなたの投票をしています。';
 $lang['EMOTICONS'] = '絵文字';
 $lang['MORE_EMOTICONS'] = 'ありが絵文字';
 
-$lang['FONT_COLOR'] = 'フォント色';
-$lang['COLOR_DEFAULT'] = 'デフォルト';
 $lang['COLOR_DARK_RED'] = '暗赤色';
 $lang['COLOR_RED'] = '赤';
 $lang['COLOR_ORANGE'] = 'オレンジ';
 $lang['COLOR_BROWN'] = '茶色';
-$lang['COLOR_YELLOW'] = '黄色';
 $lang['COLOR_GREEN'] = '緑';
 $lang['COLOR_OLIVE'] = 'オリーブ';
-$lang['COLOR_CYAN'] = '藍';
 $lang['COLOR_BLUE'] = '青';
 $lang['COLOR_DARK_BLUE'] = '紺';
 $lang['COLOR_INDIGO'] = '藍';
 $lang['COLOR_VIOLET'] = '紫';
-$lang['COLOR_WHITE'] = '白';
-$lang['COLOR_BLACK'] = '黒';
 
-$lang['FONT_SIZE'] = '文字サイズ';
-$lang['FONT_TINY'] = '小さな';
 $lang['FONT_SMALL'] = '小';
 $lang['FONT_NORMAL'] = '通常の';
 $lang['FONT_LARGE'] = '大';
 $lang['FONT_HUGE'] = '巨大';
-
-$lang['STYLES_TIP'] = 'ヒント:スタイルに適用でき迅速に選択されたテキストです。';
 
 $lang['NEW_POSTS_PREVIEW'] = '話題は、編集または未読の投稿';
 
@@ -452,7 +407,6 @@ $lang['SAVE_MESSAGE'] = '保存のメッセージ';
 $lang['DELETE_MESSAGE'] = '削除メッセージ';
 
 $lang['DISPLAY_MESSAGES'] = '表示メッセージ'; // Followed by number of days/weeks/months
-$lang['ALL_MESSAGES'] = 'すべてのメッセージ';
 
 $lang['NO_MESSAGES_FOLDER'] = 'ありませんメッセージをこのフォルダ';
 
@@ -460,9 +414,6 @@ $lang['PM_DISABLED'] = '個人メールで使用できなくなっている。';
 $lang['CANNOT_SEND_PRIVMSG'] = '申し訳ございません、あなたの管理者がお送りするプライベートメッセージです。';
 $lang['NO_TO_USER'] = 'を指定しなければなりませんのユーザー名者は、このメッセージです。';
 $lang['NO_SUCH_USER'] = '申し訳ございません、あなたのメールが存在します。';
-
-$lang['DISABLE_BBCODE_PM'] = 'Disable BBCodeこのメッセージ';
-$lang['DISABLE_SMILIES_PM'] = 'Disable Smiliesこのメッセージ';
 
 $lang['MESSAGE_SENT'] = '<b>Yourい合わせ内容を送信しました。</b>';
 
@@ -476,8 +427,6 @@ $lang['SEND_A_NEW_MESSAGE'] = '送付の新プライベートメッセージ';
 $lang['SEND_A_REPLY'] = '返信メッセージ';
 $lang['EDIT_MESSAGE'] = '編集プライベートメッセージ';
 
-$lang['NOTIFICATION_SUBJECT'] = '新しいプライベートメッセージが届きました！';
-
 $lang['FIND_USERNAME'] = 'くのユーザー名';
 $lang['SELECT_USERNAME'] = '選択ユーザーネーム';
 $lang['FIND'] = '見';
@@ -485,7 +434,6 @@ $lang['NO_MATCH'] = '不一致するデータは見つかります。';
 
 $lang['NO_PM_ID'] = 'を指定してくださいポストID';
 $lang['NO_SUCH_FOLDER'] = 'フォルダが見つからなかった';
-$lang['NO_FOLDER'] = 'フォルダを指定してください';
 
 $lang['MARK_ALL'] = 'すべてのマーク';
 $lang['UNMARK_ALL'] = 'すべてのマーク解除';
@@ -496,8 +444,6 @@ $lang['CONFIRM_DELETE_PMS'] = 'Are you sure you want to deleteこれらのメッ
 $lang['INBOX_SIZE'] = 'メールの受信をごis<br /><b>%d%%</b>フル'; // e.g. Your Inbox is 50% full
 $lang['SENTBOX_SIZE'] = 'おSentbox is<br /><b>%d%%</b>フル';
 $lang['SAVEBOX_SIZE'] = 'おSavebox is<br /><b>%d%%</b>フル';
-
-$lang['CLICK_VIEW_PRIVMSG'] = 'をクリックし%sHere%sを訪問。';
 
 $lang['OUTBOX_EXPL'] = '';
 
@@ -512,7 +458,6 @@ $lang['PREFERENCES'] = '設定';
 $lang['ITEMS_REQUIRED'] = '達成できなかった項目は、必要な下記にお問い合わせ下さい。';
 $lang['REGISTRATION_INFO'] = '登録情報';
 $lang['PROFILE_INFO'] = 'プロフィール情報';
-$lang['PROFILE_INFO_WARN'] = '公開情報';
 $lang['AVATAR_PANEL'] = 'アバターの制御パネル';
 
 $lang['WEBSITE'] = 'Webサイト';
@@ -520,7 +465,6 @@ $lang['LOCATION'] = '所在地';
 $lang['CONTACT'] = '連絡先';
 $lang['EMAIL_ADDRESS'] = 'Eメールアドレス';
 $lang['SEND_PRIVATE_MESSAGE'] = '送信メッセージ';
-$lang['HIDDEN_EMAIL'] = '【隠れ]';
 $lang['INTERESTS'] = '利益';
 $lang['OCCUPATION'] = '職業';
 $lang['POSTER_RANK'] = 'ポスターのランク';
@@ -533,16 +477,9 @@ $lang['SEARCH_USER_POSTS_SHORT'] = '見つユーザーの投稿';
 $lang['SEARCH_USER_TOPICS'] = '見つユーザー課題'; // Find all topics by username
 
 $lang['NO_USER_ID_SPECIFIED'] = '申し訳ございません、あなたのユーザーは存在しない。';
-$lang['WRONG_PROFILE'] = '変更できませんのプロファイルになります。';
-
-$lang['ONLY_ONE_AVATAR'] = 'みタイプのアバターに指定できる';
-$lang['FILE_NO_DATA'] = 'ファイルのURLやりくりは夫婦で別にされていま含まないデータ';
-$lang['NO_CONNECTION_URL'] = '接続できませんでしたURLへのやりくりは夫婦で別にされていま';
-$lang['INCOMPLETE_URL'] = 'URLを入力された不完全';
 $lang['NO_SEND_ACCOUNT_INACTIVE'] = '申し訳ございません、あなたのパスワードは復元することはできませんのでお客様の口座は、現在休止';
 $lang['NO_SEND_ACCOUNT'] = '申し訳ございません、あなたのパスワードを検索できない。 下のフォーラム管理者情報';
 
-$lang['ALWAYS_ADD_SIG'] = '必ず添付に署名';
 $lang['HIDE_PORN_FORUMS'] = '非表示コンテンツ18+';
 $lang['ADD_RETRACKER'] = '追加retracker急流にもまれのファイル';
 $lang['ALWAYS_NOTIFY'] = '通知の私の回答';
@@ -573,9 +510,7 @@ $lang['BIRTHDAY_MIN_AGE'] = '分の年齢';
 $lang['BIRTHDAY_CHECK_DAY'] = '今後の誕生日を確認する日数';
 $lang['YEARS'] = '年';
 
-$lang['NO_THEMES'] = 'なテーマでのデータベース';
 $lang['TIMEZONE'] = 'タイムゾーン';
-$lang['DATE_FORMAT_PROFILE'] = '日付フォーマット';
 $lang['DATE_FORMAT_EXPLAIN'] = '構文の使用と同一であPHP<a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a>機能します。';
 $lang['SIGNATURE'] = '署名';
 $lang['SIGNATURE_EXPLAIN'] = 'このブロックのテキストを追加することがで投稿することができます。 あ%d文字制限';
@@ -600,14 +535,9 @@ $lang['AVATAR_EXPLAIN'] = '投稿内の詳細の下に小さな画像を表示�
 $lang['AVATAR_DELETE'] = 'アバター削除';
 $lang['AVATAR_DISABLE'] = 'アバター制御オプションに関して無効に違反<a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'アップロードバ';
-
-$lang['SELECT_AVATAR'] = 'アバターを選択';
 $lang['RETURN_PROFILE'] = '返却のプロフィール';
-$lang['SELECT_CATEGORY'] = 'カテゴリを選択';
-
 $lang['DELETE_IMAGE'] = '画像の削除';
 $lang['SET_MONSTERID_AVATAR'] = 'MonsterIDアバターを設定';
-$lang['CURRENT_IMAGE'] = '現在の画像';
 
 $lang['NOTIFY_ON_PRIVMSG'] = '知の新しいプライベートメッセージ';
 $lang['HIDE_USER'] = '非表示のオンライン状況';
@@ -616,31 +546,24 @@ $lang['HIDDEN_USER'] = '隠れたユーザー';
 $lang['PROFILE_UPDATED'] = 'プロフィールを更新しまし';
 $lang['PROFILE_UPDATED_INACTIVE'] = 'プロフィールを更新しました。 しかしながら、重要な変更内容は、このようにアカウントは無効です。 確認e-mailをどのように再口座の場合、または管理アクティベーションが必要なの管理者が簡単に更新閲覧です。';
 
-$lang['PASSWORD_MISMATCH'] = 'のパスワードの入力が一致しなかったためです。';
-$lang['CURRENT_PASSWORD_MISMATCH'] = '現在のパスワードのご提供と一致しないことをデータベースに格納されます。';
 $lang['PASSWORD_LONG'] = 'パスワードは%d文字以下で、%d文字以上でなければなりません。';
-$lang['TOO_MANY_REGISTERS'] = 'いても多くの登録を試みます。 後ほど再度お試しください。.';
 $lang['USERNAME_TAKEN'] = '申し訳ございません、あなたのこのユーザ名はすでにする体制を整えています。';
 $lang['USERNAME_INVALID'] = '申し訳ございません、あなたのこのユーザ名が無効な文字';
 $lang['USERNAME_DISALLOWED'] = '申し訳ございません、あなたはこのユーザー名は許可します。';
 $lang['USERNAME_TOO_LONG'] = 'お名が長すぎます。';
 $lang['USERNAME_TOO_SMALL'] = 'お名前が小さすぎます。';
 $lang['EMAIL_TAKEN'] = '申し訳ございません、あなたのe-mailアドレスが既に登録済みユーザーです。';
-$lang['EMAIL_BANNED'] = '申し訳ありませんが、<b>%s</b> アドレスは禁止されています。';
 $lang['EMAIL_INVALID'] = '申し訳ございません、あなたはこのe-mailアドレスが無効になります。';
 $lang['EMAIL_TOO_LONG'] = 'メールが長すぎます。';
 $lang['SIGNATURE_TOO_LONG'] = '自筆の署名が長すぎます。';
 $lang['SIGNATURE_ERROR_HTML'] = 'この署名のみを含むことができBBCode';
 $lang['FIELDS_EMPTY'] = '必ずご記入必須項目となります。';
 
-$lang['WELCOME_SUBJECT'] = 'ウ%sフォーラム'; // Welcome to my.com forums
-$lang['NEW_ACCOUNT_SUBJECT'] = '新規ユーザーアカウント';
-$lang['ACCOUNT_ACTIVATED_SUBJECT'] = '口座の活性化';
+$lang['WELCOME_SUBJECT'] = 'ウ%sフォーラム';
 
 $lang['ACCOUNT_ADDED'] = 'ご登録、ありがとうございますです。 アカウント作成されています。 ましても、仮にそうでなかった場合ログインユーザー名とパスワード';
 $lang['ACCOUNT_INACTIVE'] = 'アカウント作成されています。 しかし、このフォーラムが必要で口座を与することが知られている。 アクティベーション-キーが送られて、e-mailアドレスをお客様よりご提供いただいたします。 ご確認ください。e-mailる詳しい情報';
 $lang['ACCOUNT_ACTIVE'] = 'アカウントで起動します。 ご登録、ありがとうございます';
-$lang['REACTIVATE'] = '再。';
 $lang['ALREADY_ACTIVATED'] = 'いお客様の口座';
 
 $lang['REGISTRATION'] = '登録契約条件';
@@ -649,15 +572,12 @@ $lang['WRONG_ACTIVATION'] = 'アクティベーションキーでご提供致し
 $lang['SEND_PASSWORD'] = '私まで送って新しいパスワード';
 $lang['PASSWORD_UPDATED'] = '新しいパスワードが作成されると、ご確認いただけe-mailによって起動します。';
 $lang['NO_EMAIL_MATCH'] = 'Eメールアドレスのご提供と一致しないにしては、該当するユーザ名です。';
-$lang['NEW_PASSWORD_ACTIVATION'] = '新しいパスワードの活性化';
 $lang['PASSWORD_ACTIVATED'] = '自分のアカウントが再起動します。 ログインをご利用くださいパスワードを提供されるすべてのメールを頂きます。';
 
 $lang['SEND_EMAIL_MSG'] = 'メールメッセージ';
 $lang['NO_USER_SPECIFIED'] = 'ないユーザ指定された';
-$lang['USER_PREVENT_EMAIL'] = 'このユーザーを希望しない旨のメールを受信します。 みに送るメッセージです。';
 $lang['USER_NOT_EXIST'] = 'ユーザーが存在しない';
 $lang['EMAIL_MESSAGE_DESC'] = 'このメッセージを送信するテキスト形式で含んでいないモジュール\'をクリックしまBBCodeます。 戻りアドレスはこのメッセージが設定されますお客様のeメールアドレスにお送りします。';
-$lang['FLOOD_EMAIL_LIMIT'] = 'などして再度お試しくださいe-mailます。 後ほど再度お試します。';
 $lang['RECIPIENT'] = '受';
 $lang['EMAIL_SENT'] = 'E-メール送信が完了しています。';
 $lang['SEND_EMAIL'] = 'メール送信';
@@ -744,20 +664,12 @@ $lang['GROUP_ADDED'] = 'きのこusergroupます。';
 $lang['ALREADY_MEMBER_GROUP'] = 'すでに会員の方はこのグループ';
 $lang['USER_IS_MEMBER_GROUP'] = '%s はこのグループのメンバーです';
 $lang['USER_IS_MOD_GROUP'] = '%s はこのグループのモデレーターです';
-$lang['GROUP_TYPE_UPDATED'] = '成グループを更新します。';
 $lang['EFFECTIVE_DATE'] = '効力発生日';
-
 $lang['COULD_NOT_ADD_USER'] = 'ユーザの選択したは存在しない。';
-$lang['COULD_NOT_ANON_USER'] = 'はできません匿名でグループのメンバーは、グループです。';
-
-$lang['CONFIRM_UNSUB'] = 'Are you sure you wantへの登録解除はこのグループです。';
-$lang['CONFIRM_UNSUB_PENDING'] = 'ご契約にはこのグループは、未承認されてい;are you sure you wantへの登録解除すか？';
-
 $lang['UNSUB_SUCCESS'] = 'このグループからの購読が解除されました。';
 
 $lang['APPROVE_SELECTED'] = '承認を選択';
 $lang['DENY_SELECTED'] = '拒否選択';
-$lang['NOT_LOGGED_IN'] = 'するにはログインしてください参加グループです。';
 $lang['REMOVE_SELECTED'] = '削除を選択';
 $lang['ADD_MEMBER'] = 'メンバーを追加';
 $lang['NOT_GROUP_MODERATOR'] = 'ないこのグループのモデレーター、そのため実行できませんのアクションです。';
@@ -773,7 +685,6 @@ $lang['NONE'] = 'なし';
 
 $lang['SUBSCRIBE'] = '購読';
 $lang['UNSUBSCRIBE_GROUP'] = '登録解除';
-$lang['VIEW_INFORMATION'] = 'ビュー情報';
 $lang['MEMBERS_IN_GROUP'] = '会員がグループ';
 
 // Release Groups
@@ -786,7 +697,6 @@ $lang['MORE_RELEASES'] = 'すべてのスリリースのグループ';
 $lang['NOT_A_RELEASE_GROUP'] = 'このグループがリリースグループ';
 
 // Search
-$lang['SEARCH_ERROR'] = '現在の検索エンジンはavailable<br /><br />Try繰り返し申請の後の数秒間';
 $lang['SEARCH_HELP_URL'] = '検索ヘルプ';
 $lang['SEARCH_QUERY'] = '検索クエリ';
 $lang['SEARCH_OPTIONS'] = '検索オプション';
@@ -798,22 +708,15 @@ $lang['SEARCH_AUTHOR_EXPL'] = '使用してワイルドカードの部分一致'
 
 $lang['SEARCH_TITLES_ONLY'] = '検索課題のタイトルのみ';
 $lang['SEARCH_ALL_WORDS'] = 'すべての言葉';
-$lang['SEARCH_MY_MSG_ONLY'] = '検索けん';
 $lang['IN_MY_POSTS'] = '私の投稿';
 $lang['SEARCH_MY_TOPICS'] = '私の話題';
 $lang['NEW_TOPICS'] = '新着トピックス';
-
-$lang['RETURN_FIRST'] = '戻り最初の'; // followed by xxx characters in a select box
-$lang['CHARACTERS_POSTS'] = '文字を投稿';
 
 $lang['SEARCH_PREVIOUS'] = '検索前';
 
 $lang['SORT_BY'] = '並べ替え';
 $lang['SORT_TIME'] = 'ポスト時間';
-$lang['SORT_POST_SUBJECT'] = 'ポスト対象';
 $lang['SORT_TOPIC_TITLE'] = '話題のタイトル';
-$lang['SORT_AUTHOR'] = '著者';
-$lang['SORT_FORUM'] = 'フォーラム';
 
 $lang['DISPLAY_RESULTS_AS'] = '表示結果として';
 $lang['ALL_AVAILABLE'] = 'で利用可能なすべて';
@@ -823,24 +726,18 @@ $lang['NO_SEARCHABLE_FORUMS'] = 'いないアクセス権を検索フォーラ�
 $lang['NO_SEARCH_MATCH'] = 'ないトピックまたは投稿た検索条件';
 $lang['FOUND_SEARCH_MATCH'] = '検索した%d合'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = '検索した%d合'; // e.g. Search found 24 matches
-$lang['TOO_MANY_SEARCH_RESULTS'] = '多くの結果が見つからしてみてください具体的';
 
 $lang['CLOSE_WINDOW'] = 'ウィンドウを閉';
 $lang['CLOSE'] = '近';
 $lang['HIDE'] = '隠す';
-$lang['SEARCH_TERMS'] = '検索条件';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = '申し訳ございません、あなただけ%sできるビューのこのフォーラムです。';
 $lang['SORRY_AUTH_READ'] = '申し訳ございません、あなただけ%s読めに欠くことのフォーラムです。';
-$lang['SORRY_AUTH_POST'] = '申し訳ございません、あなただけ%sでに欠くことのフォーラムです。';
 $lang['SORRY_AUTH_REPLY'] = '申し訳ございません、あなただけ%sでに返信投稿はこのフォーラムです。';
 $lang['SORRY_AUTH_EDIT'] = '申し訳ございません、あなただけ%sを編集できる職フォーラムです。';
 $lang['SORRY_AUTH_DELETE'] = '申し訳ございません、あなただけ%sで削除できる職フォーラムです。';
-$lang['SORRY_AUTH_VOTE'] = '申し訳ございません、あなただけ%sで投票の投票にこのフォーラムです。';
-$lang['SORRY_AUTH_STICKY'] = '申し訳ございません、あなただけ%sで付箋メッセージをこのフォーラムです。';
-$lang['SORRY_AUTH_ANNOUNCE'] = '申し訳ございません、あなただけ%sでお知らせを掲載はこのフォーラムです。';
 
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
@@ -860,8 +757,6 @@ $lang['LAST_UPDATED'] = '最終更新';
 
 // Moderator Control Panel
 $lang['MOD_CP'] = 'モデレーター制御パネル';
-$lang['MOD_CP_EXPLAIN'] = '下記のフォームを行うことが可能ですの質量減速操作このフォーラムです。 きロック解除、または削除ついて、様々な研究テーマです。';
-
 $lang['SELECT'] = '選択';
 $lang['DELETE'] = '削除';
 $lang['MOVE'] = '移動';
@@ -876,8 +771,6 @@ $lang['TOPICS_UNLOCKED'] = 'については解除されます。';
 $lang['NO_TOPICS_MOVED'] = 'な話題を移します。';
 
 $lang['CONFIRM_DELETE_TOPIC'] = 'Are you sure you want to removeを選択したテーマ/sか？';
-$lang['CONFIRM_LOCK_TOPIC'] = 'Are you sure you wantへのロックを選択したテーマ/sか？';
-$lang['CONFIRM_UNLOCK_TOPIC'] = 'Are you sure you wantのロックを解除する場合は選択したテーマ/sか？';
 $lang['CONFIRM_MOVE_TOPIC'] = 'Are you sure you wantへ移動を選択したテーマ/sか？';
 
 $lang['MOVE_TO_FORUM'] = '移動フォーラム';
@@ -889,11 +782,7 @@ $lang['FORUM_FOR_NEW_TOPIC'] = 'フォーラムのための新たな課題';
 $lang['SPLIT_POSTS'] = '分割を選択した投稿';
 $lang['SPLIT_AFTER'] = '分割から選択したポスト';
 $lang['TOPIC_SPLIT'] = 'の選択したテーマにして分割し';
-
-$lang['TOO_MANY_ERROR'] = '選択したものが多く投稿します。 できるだけは日本人の配偶者やその家族に話題になります。';
-
 $lang['NONE_SELECTED'] = 'いなし選択を行うことで操作します。 お選択します。';
-$lang['NEW_FORUM'] = '新しいフォーラム';
 
 $lang['THIS_POSTS_IP'] = 'IPアドレス';
 $lang['OTHER_IP_THIS_USER'] = 'その他のIPアドレスはこのユーザは表示しない"の設定を解除し、';
@@ -999,7 +888,6 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = '申し訳ございませんがはできませ
 $lang['DESCRIPTION'] = '説明'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'ダウンロード'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'ファイルサイズ';
-$lang['VIEWED'] = '閲覧';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = '拡張子 \'%s\' はボード管理者によって無効にされたため、この添付ファイルは表示されません。'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
@@ -1033,7 +921,6 @@ $lang['FILE_COMMENT'] = 'ファイルのコメント';
 // Posting/PM -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = '投稿の添付';
 $lang['UPDATE_COMMENT'] = 'コメントを更新';
-$lang['DELETE_ATTACHMENTS'] = '添付削除';
 $lang['DELETE_ATTACHMENT'] = '削除';
 $lang['DELETE_THUMBNAIL'] = 'サムネイルの削除';
 $lang['UPLOAD_NEW_VERSION'] = 'アップロードの新バージョン';
@@ -1057,10 +944,8 @@ $lang['NO_ATTACHMENT_SELECTED'] = 'まだ選択したアタッチメントをダ
 $lang['ERROR_NO_ATTACHMENT'] = 'を選択添付が存在しないも';
 
 // Delete Attachments
-$lang['CONFIRM_DELETE_ATTACHMENTS'] = 'Are you sure you want to deleteを選択添付すか？';
 $lang['DELETED_ATTACHMENTS'] = 'を選択添付削除されてしまったものと思われます。';
 $lang['ERROR_DELETED_ATTACHMENTS'] = 'な削除して再現することができます。';
-$lang['CONFIRM_DELETE_PM_ATTACHMENTS'] = 'まず削除したいすべての添付ファイルを掲載しこのPMのか？';
 
 // General Error Messages
 $lang['ATTACHMENT_FEATURE_DISABLED'] = 'の添付機能が無効になっています。';
@@ -1077,14 +962,10 @@ $lang['GB'] = 'GB';
 $lang['ATTACH_SEARCH_QUERY'] = '検索添付';
 $lang['TEST_SETTINGS'] = '試験設定';
 $lang['NOT_ASSIGNED'] = 'に割り当てられません';
-$lang['NO_FILE_COMMENT_AVAILABLE'] = 'ファイルのコメント可能';
-$lang['ATTACHBOX_LIMIT'] = 'あなたの添付ボックスは<br /><b>%d%%</b>満杯です';
-$lang['UNLIMITED'] = '無制限';
 
 //bt
 $lang['BT_REG_YES'] = '登録';
 $lang['BT_REG_NO'] = '登録されていない';
-$lang['BT_ADDED'] = '追加';
 $lang['BT_REG_ON_TRACKER'] = '登録トラッカー';
 $lang['BT_REG_FAIL'] = 'な登録激流にトラッカー';
 $lang['BT_REG_FAIL_SAME_HASH'] = '他の激流を同じくinfo_hashて<a href="%s"><b>registered</b></a>';
@@ -1098,9 +979,6 @@ $lang['BT_FLIST_CREATION_DATE'] = '作成日';
 $lang['BT_IS_PRIVATE'] = 'プライベートトレント';
 $lang['BT_FLIST_FILE_PATH'] = 'パス (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'ファイルハッシュ | .torrentメタ情報';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'アナウンス者リスト';
-$lang['BT_FLIST_ANNOUNCERS'] = 'アナウンス者';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'このリストにはトレントファイルのアナウンス者が含まれています。';
 $lang['BT_UNREG_FROM_TRACKER'] = 'トラッカーから削除';
 $lang['BT_UNREGISTERED'] = '激流が未登録';
 $lang['BT_UNREGISTERED_ALREADY'] = 'トレントはすでに登録解除されています。';
@@ -1175,9 +1053,7 @@ $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The送信さ
 
 $lang['BT_TOPIC_TITLE'] = '話題のタイトル';
 $lang['BT_SEEDER_LAST_SEEN'] = '種子の最終見る';
-$lang['BT_SORT_FORUM'] = 'フォーラム';
 $lang['SIZE'] = 'サイズ';
-$lang['PIECE_LENGTH'] = '片の長さ';
 $lang['COMPLETED'] = '完了したダウンロード';
 $lang['ADDED'] = '追加';
 $lang['DELETE_TORRENT'] = '削除急流';
@@ -1273,7 +1149,6 @@ $lang['ALLOWED_ONLY_1ST_POST_REG'] = '登録納入だけに許されなら最初
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'な登録激流がこのフォーラム';
 $lang['ALREADY_REG'] = '激流に登録されてい';
 $lang['NOT_TORRENT'] = 'このファイルがない急流';
-$lang['ONLY_1_TOR_PER_POST'] = '登録することができ唯一の激流に日本人の配偶者やその家族';
 $lang['ONLY_1_TOR_PER_TOPIC'] = '登録することができ唯一の激流が一つの話題';
 $lang['VIEWING_USER_BT_PROFILE'] = 'トレントプロファイル';
 $lang['CUR_ACTIVE_DLS'] = '活納入';
@@ -1336,7 +1211,6 @@ $lang['HIDDEN'] = '隠れた';
 // from admin
 $lang['NOT_ADMIN'] = 'このボードを管理する権限がありません';
 
-$lang['COOKIES_REQUIRED'] = 'クッキーにしておく必要があります!';
 $lang['SESSION_EXPIRED'] = 'セッション終了しました';
 
 // Sort memberlist per letter
@@ -1372,11 +1246,8 @@ $lang['BOT_AFTER_SPLIT_TO_NEW'] = '追加ボット-メッセージが分割<b>ne
 $lang['QUICK_REPLY'] = 'クイック返信';
 $lang['INS_NAME_TIP'] = '挿入のの名称又は選択したテキストです。';
 $lang['QUOTE_SELECTED'] = '見積もりの選択';
-$lang['QR_ATTACHSIG'] = '署名を添付';
 $lang['QR_NOTIFY'] = '通知に返信';
-$lang['QR_DISABLE'] = '無効化';
 $lang['QR_USERNAME'] = '名称';
-$lang['NO_TEXT_SEL'] = '選択テキストのどのページしてから、再度挿入してください';
 $lang['QR_FONT_SEL'] = 'フォントフェース';
 $lang['QR_COLOR_SEL'] = 'フォント色';
 $lang['QR_SIZE_SEL'] = '文字サイズ';
@@ -1419,9 +1290,7 @@ $lang['TORHELP_TITLE'] = 'これらのトレントをシードするのを手伝
 $lang['STATISTICS'] = '統計';
 $lang['STATISTIC'] = '統計';
 $lang['VALUE'] = '値';
-$lang['INVERT_SELECT'] = '反転の選択';
 $lang['STATUS'] = '状況';
-$lang['LAST_CHANGED_BY'] = '最後の変更';
 $lang['CHANGES'] = '変化';
 $lang['ACTION'] = '行動';
 $lang['REASON'] = 'その理由';
@@ -1508,9 +1377,6 @@ $lang['CHOOSE_PASS_OK'] = 'パスワードに一致';
 $lang['CHOOSE_PASS_REG_OK'] = 'パスワード試合ができ、登録';
 $lang['CHOOSE_PASS_FAILED'] = 'パスワードを変更し、正しく認識しなければならな現在のパスワード';
 $lang['EMAILER_DISABLED'] = 'この機能は一時的に働いていない';
-$lang['TERMS_ON'] = '同意してこれらの条件';
-$lang['TERMS_OFF'] = '同意しないこ';
-$lang['JAVASCRIPT_ON_REGISTER'] = '登録するには、JavaScriptを有効にする必要があります';
 $lang['REGISTERED_IN_TIME'] = "現在、登録は閉じています<br /><br />登録は次の間に利用可能です: %s<br />現在のサーバー時間: %s<br /><br />ご不便をおかけして申し訳ありません";
 $lang['AUTOCOMPLETE'] = 'パスワードを生成する';
 $lang['YOUR_NEW_PASSWORD'] = '新しいパスワード：';
@@ -1535,7 +1401,6 @@ $lang['WHAT_IS_A_TORRENT'] = 'う急流すか？';
 $lang['RATINGS_AND_LIMITATIONS'] = '格付の制限';
 
 $lang['SCREENSHOTS_RULES'] = 'を読む規則配置画面です！';
-$lang['SCREENSHOTS_RULES_TOPIC'] = 'の読み込みルールを敷きの画面のことです！';
 $lang['AJAX_EDIT_OPEN'] = 'しいオープンを迅速に編集す！';
 $lang['GO_TO_PAGE'] = 'くオススメはできません。';
 $lang['EDIT'] = '編集';
@@ -1655,8 +1520,6 @@ $lang['ADD_NEW'] = '追加';
 $lang['CRON'] = 'タスクスケジューラ(d)';
 $lang['REBUILD_SEARCH_INDEX'] = '再検索インデックス';
 $lang['FORUM_CONFIG'] = 'フォーラムの設定';
-$lang['TRACKER_CONFIG'] = 'トラッカーの設定';
-$lang['RELEASE_TEMPLATES'] = 'リリーステンプレート';
 $lang['ACTIONS_LOG'] = '報告書アクション';
 
 // Migrations
@@ -1787,12 +1650,7 @@ $lang['AUTH_DOWNLOAD'] = 'ファイルのダウンロード';
 $lang['USER_LEVEL'] = 'ユーザーレベル';
 $lang['AUTH_USER'] = 'ユーザー';
 $lang['AUTH_ADMIN'] = '管理者';
-$lang['GROUP_MEMBERSHIPS'] = 'Usergroup員';
-$lang['USERGROUP_MEMBERS'] = 'このグループは、以下のメンバー';
-
 $lang['FORUM_AUTH_UPDATED'] = 'フォーラムアクセス権の情報を更新いたし';
-$lang['USER_AUTH_UPDATED'] = 'ユーザーの権限の情報を更新いたし';
-$lang['GROUP_AUTH_UPDATED'] = 'グループの権限の情報を更新いたし';
 
 $lang['AUTH_UPDATED'] = 'アクセス権の情報を更新いたし';
 $lang['AUTH_GENERAL_ERROR'] = '管理者ステータスを更新できませんでした。';
@@ -1860,13 +1718,11 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'か、autologinキーが有効になる場合
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'フォーラム管理';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'このパネルから、カテゴリやフォーラムを追加、削除、編集、再配置、再同期できます。';
 $lang['EDIT_FORUM'] = '編集フォーラム';
 $lang['CREATE_FORUM'] = '新規作成フォーラム';
 $lang['CREATE_SUB_FORUM'] = 'サブフォーラムを作成';
 $lang['CREATE_CATEGORY'] = '新しいカテゴリ';
 $lang['REMOVE'] = '削除';
-$lang['UPDATE_ORDER'] = '更新順';
 $lang['CONFIG_UPDATED'] = 'フォーラムの設定を更新しました';
 $lang['MOVE_UP'] = '移動する';
 $lang['MOVE_DOWN'] = '下方に移動';
@@ -1889,7 +1745,6 @@ $lang['FORUM_STATUS'] = 'フォーラムの状況';
 $lang['FORUM_PRUNING'] = '自動刈り込み';
 
 $lang['PRUNE_DAYS'] = '削除するなしに、掲載されている';
-$lang['SET_PRUNE_DATA'] = 'また自動車-プルーンのためこのフォーラムがなかったセットの数日間で剪定します。 おいします。';
 
 $lang['MOVE_AND_DELETE'] = '移動-削除';
 
@@ -1946,7 +1801,6 @@ $lang['LOOK_UP_USER'] = '見上げてユーザー';
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'グループ管理';
 $lang['GROUP_ADMIN_EXPLAIN'] = 'このパネルで管理すべてのusergroupsます。 削除できますの作成、編集、既存グループです。 しだいにモデレーターは、切替開閉するグループの状況を設定しグループの名前と説明';
-$lang['ERROR_UPDATING_GROUPS'] = 'エラーがあったソフトウェア更新中は、集団';
 $lang['UPDATED_GROUP'] = 'グループを更新しました';
 $lang['ADDED_NEW_GROUP'] = 'の新しいグループの作成に成功したことが確認';
 $lang['DELETED_GROUP'] = '当社グループの削除に成功した';
@@ -1955,8 +1809,6 @@ $lang['EDIT_GROUP'] = 'グループの編集"';
 $lang['GROUP_STATUS'] = 'グループの状況';
 $lang['GROUP_DELETE'] = 'グループを削除';
 $lang['GROUP_DELETE_CHECK'] = 'このグループの削除';
-$lang['SUBMIT_GROUP_CHANGES'] = '提出の変化';
-$lang['RESET_GROUP_CHANGES'] = 'リセットの変更';
 $lang['NO_GROUP_NAME'] = 'を指定する必要があります。名このグループ';
 $lang['NO_GROUP_MODERATOR'] = 'を指定する必要があります。モデレーターのためにこのグループ';
 $lang['NO_GROUP_MODE'] = 'を指定する必要があります。モードこのグループは開閉';
@@ -1974,7 +1826,6 @@ $lang['DO_PRUNE'] = 'いプルーン';
 $lang['ALL_FORUMS'] = '全てのフォーラム';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'プルーントピックスなしの回答がこの日が多';
 $lang['TOPICS_PRUNED'] = '話題の刈り込み';
-$lang['POSTS_PRUNED'] = 'ポス刈り込み';
 $lang['PRUNE_SUCCESS'] = 'フォーラムは、刈り込みに成功し';
 $lang['NOT_DAYS'] = 'プルーン日選択なし';
 
@@ -1985,7 +1836,6 @@ $lang['WORD'] = '言葉';
 $lang['EDIT_WORD_CENSOR'] = '編集語センサ';
 $lang['REPLACEMENT'] = '交換';
 $lang['ADD_NEW_WORD'] = '新しい単語';
-$lang['UPDATE_WORD'] = '更新の単語センサ';
 
 $lang['MUST_ENTER_WORD'] = '必ず入力してください単語とその交換';
 $lang['NO_WORD_SELECTED'] = 'ない単語選択のための編集';
@@ -2005,9 +1855,6 @@ $lang['ALL_USERS'] = 'すべてのユーザー';
 
 $lang['MASS_EMAIL_MESSAGE_TYPE'] = 'メールの種類';
 
-$lang['EMAIL_SUCCESSFULL'] = 'お問い合わせ内容を送信';
-$lang['CLICK_RETURN_MASSEMAIL'] = 'をクリックし%sHere%sに戻るには大量のメールフォーム';
-
 // Ranks admin
 $lang['RANKS_TITLE'] = 'ランク管理';
 $lang['RANKS_EXPLAIN'] = 'こちらのフォームをご利用できる追加、編集、および削除します。 を作ることもできますカスタム級に適用可能なユーザーは、ユーザー管理施設';
@@ -2020,7 +1867,6 @@ $lang['RANK_IMAGE'] = 'ランク画像';
 $lang['RANK_IMAGE_EXPLAIN'] = 'この定義の小さな画像のランク';
 
 $lang['MUST_SELECT_RANK'] = 'を選択してくださいaランク';
-$lang['NO_ASSIGNED_RANK'] = '特にランク付';
 
 $lang['RANK_UPDATED'] = 'ランクを更新しました';
 $lang['RANK_ADDED'] = 'ランクが追加されていた';
@@ -2093,7 +1939,6 @@ $lang['SYNC'] = '同期';
 $lang['MAX_NEWS_TITLE'] = 'Max. 長さのニュース';
 $lang['NEWS_COUNT'] = '表示するニュース項目の数';
 $lang['NEWS_FORUM_ID'] = 'どのフォーラムを表示するか<br /> <h6>複数のフォーラムの場合、カンマで区切ったIDを指定してください。例: 1,2,3</h6>';
-$lang['NOAVATAR'] = 'ないアバター';
 $lang['TRACKER_STATS'] = '統計のトラッカー';
 $lang['WHOIS_INFO'] = 'に関する情報IPアドレス';
 $lang['SHOW_MOD_HOME_PAGE'] = 'ショーのモデレーターのindex.php';
@@ -2145,10 +1990,6 @@ $lang['DISABLE_MOD'] = '無効に添付Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'このオプションは、主に試験用の新しいテンプレートやテーマでは無効にすべての添付機能の管理者パネルです。';
 $lang['PM_ATTACHMENTS'] = 'きの添付ファイルをプライベートメッセージ';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = '許可/可ファイルを添プライベートメッセージです。';
-
-// Attachments -> Sync
-$lang['SYNC_TOPICS'] = '同期Topics';
-$lang['SYNC_POSTS'] = '同期の投稿';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = '管理の拡張子';
@@ -2234,8 +2075,6 @@ $lang['SORT_POSTTIME'] = 'ポスト時間';
 // View Types
 $lang['VIEW_STATISTIC'] = '統計';
 $lang['VIEW_SEARCH'] = '検索';
-$lang['VIEW_USERNAME'] = 'ユーザー名';
-$lang['VIEW_ATTACHMENTS'] = '添付';
 
 // Successfully updated
 $lang['ATTACH_CONFIG_UPDATED'] = '添付ファイル設定に成功し';
@@ -2249,7 +2088,6 @@ $lang['EXTENSION'] = '延長';
 
 $lang['RETURN_CONFIG'] = '%sReturnにConfiguration%s';
 $lang['CONFIG_UPD'] = '構成に成功し';
-$lang['SET_DEFAULTS'] = 'デフォルトの復元';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'フォーラムのオプション:';
@@ -2259,7 +2097,6 @@ $lang['REG_TORRENTS'] = '登録納入';
 $lang['DISALLOWED'] = '禁止';
 $lang['ALLOW_REG_TRACKER'] = 'せフォーラムに登録します。納入るトラッカー';
 $lang['ALLOW_PORNO_TOPIC'] = '18歳以上のコンテンツの投稿を許可する';
-$lang['SHOW_DL_BUTTONS'] = 'ショーボタンを手動で変化するDL-状況';
 $lang['SELF_MODERATED'] = 'ユーザー<b>move</b>が自身の研究テーマを他のフォーラム';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = '発表すURL';
@@ -2331,7 +2168,6 @@ $lang['CRON_LAST_RUN'] = '最終走行';
 $lang['CRON_NEXT_RUN'] = 'ジが動的にバインディングを生成';
 $lang['CRON_RUN_COUNT'] = '走る';
 $lang['CRON_MANAGE'] = '管理';
-$lang['CRON_OPTIONS'] = 'Cronのオプション';
 $lang['CRON_DISABLED_WARNING'] = '警告！ cron スクリプトの実行は無効になっています。有効にするには、APP_CRON_ENABLED 変数を設定します。';
 
 $lang['CRON_ENABLED'] = 'Cronを有効に';
@@ -2343,9 +2179,6 @@ $lang['CRON_RUN'] = '走';
 $lang['CRON_DEL'] = '削除';
 $lang['CRON_DISABLE'] = '無効化';
 $lang['CRON_ENABLE'] = '能';
-
-$lang['RUN_MAIN_CRON'] = '開始cron';
-$lang['ADD_JOB'] = '追加cronジョブ';
 $lang['DELETE_JOB'] = 'Are you sure you want to delete cronジョブは？';
 $lang['CRON_WORKS'] = 'Cronは現在動作中または壊れています -> ';
 $lang['REPAIR_CRON'] = '修理Cron';
@@ -2412,13 +2245,9 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'どのくらいの時間（秒）寝る前に�
 
 $lang['TIME_LIMIT'] = '制限時間';
 $lang['TIME_LIMIT_EXPLAIN'] = '次のサイクルに移る前に、ポストプロセッシングが続けられる時間（秒）';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Your PHP (セーフモード)には設定されたタイムアウトが%s秒であるため、この値を下回るようにしてください</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Yourウェブサーバがタイムアウトの%s秒に設定で、以下のこvalue</i>';
 
 $lang['DISABLE_BOARD'] = 'ボードの無効化';
-$lang['DISABLE_BOARD_EXPLAIN'] = 'かどうかを無効にするボードの処理中';
-$lang['DISABLE_BOARD_EXPLAIN_ENABLED'] = 'ますと自動的に有効になり終了後の処理';
-$lang['DISABLE_BOARD_EXPLAIN_ALREADY'] = '<i>Yourに至るまでdisabled</i>';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = '前回停止の処理ゃ%s(%s処理職）%s';
@@ -2440,7 +2269,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'すべての投稿処理が成功しました。
 $lang['ALL_TABLES_OPTIMIZED'] = 'すべての検索テーブルの最適化を行った。';
 
 $lang['PROCESSING_POST_DETAILS'] = '処理後';
-$lang['PROCESSED_POSTS'] = '処理投稿';
 $lang['PERCENT'] = '％';
 $lang['CURRENT_SESSION'] = '現在のセッション';
 $lang['TOTAL'] = '合計';
@@ -2455,15 +2283,10 @@ $lang['TIME_FROM_THE_BEGINNING'] = '最初から';
 $lang['TIME_AVERAGE'] = '平均サイクル';
 $lang['TIME_ESTIMATED'] = '推計までは仕上がり';
 
-$lang['DATABASE_SIZE_DETAILS'] = 'データベースのサイズ詳細';
-$lang['SIZE_CURRENT'] = '現在の';
 $lang['SIZE_ESTIMATED'] = '推定後の仕上げ';
 $lang['SIZE_SEARCH_TABLES'] = '検索テーブルサイズ';
-$lang['SIZE_DATABASE'] = 'データベースのサイズ';
 
-$lang['ACTIVE_PARAMETERS'] = '活動パラメータ';
 $lang['POSTS_LAST_CYCLE'] = '加工ポスト(s)最終サイクル';
-$lang['BOARD_STATUS'] = '板状';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*)すべての推定値を算出しapproximately<br />based現在の完成％ない場合は、最終値です。<br />Asの完成％増加の推定値に近づく実際のものです。';
 
@@ -2537,11 +2360,9 @@ $lang['RELEASES'] = 'リリース';
 
 $lang['BACK'] = '裏';
 $lang['ERROR_FORM'] = '無効な分野';
-$lang['RELEASE_WELCOME'] = 'リリースフォームに入力してください';
 $lang['NEW_RELEASE'] = '新しいリリース';
 $lang['NEXT'] = '続き';
 $lang['OTHER'] = 'その他';
-$lang['OTHERS'] = 'その他';
 $lang['ALL'] = 'すべて';
 
 $lang['TPL_EMPTY_FIELD'] = '必分野に<b>%s</b>';
@@ -2601,7 +2422,6 @@ $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = '最後の%sに訪問したユーザ
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = '最後の%sの後に訪問したユーザーを検索中';
 $lang['SEARCH_FOR_LANGUAGE'] = '検索ユーザを設定してい%sとしての言語';
 $lang['SEARCH_FOR_TIMEZONE'] = '検索ユーザを設定していUTC%sとしてタイムゾーン';
-$lang['SEARCH_FOR_STYLE'] = '検索ユーザを設定してい%sとしてそのスタイル';
 $lang['SEARCH_FOR_MODERATORS'] = '検索モデレーターのフォーラム>%s';
 $lang['SEARCH_USERS_ADVANCED'] = '先進のユーザを検索';
 $lang['SEARCH_USERS_EXPLAIN'] = 'このモジュールで行う高度な検索のためのユーザーの広範な基準です。 をお読みください記述をそれぞれの分野を理解した検索オプションです。';
@@ -2630,7 +2450,6 @@ $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = '検索ユーザーに基づき、数�
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = '検索できますユーザーのログインの際には、最終ログイン日時をこの検索のオプション';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'この表示ユーザーを選択した特定の言語のプロフィール';
 $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'ユーザーに選定した特定のタイムゾーンはプロフィール';
-$lang['SEARCH_USERS_STYLE_EXPLAIN'] = '表示ユーザを選択した特定のスタイルです。';
 $lang['MODERATORS_OF'] = 'モデレーターの';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = '特定のフォーラムに対するモデレート権限を持つユーザーを検索します。モデレート権限は、ユーザー権限によって、または適切なグループ権限を持つグループに属していることによって認識されます。';
 
