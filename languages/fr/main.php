@@ -91,9 +91,9 @@ $lang['POST_NEW_RELEASE'] = 'Post nouvelle version';
 $lang['REPLY_TO_TOPIC'] = 'Répondre au sujet';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Cliquez sur %sHere%s pour revenir au sujet'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_FORUM'] = 'Cliquez sur %sHere%s de retour sur le forum';
+$lang['CLICK_RETURN_FORUM'] = 'Cliquez sur %sHere%s pour retourner au forum.';
 $lang['CLICK_RETURN_MODCP'] = 'Cliquez sur %sHere%s pour retourner au Panneau de Contrôle du Modérateur';
-$lang['CLICK_RETURN_GROUP'] = 'Cliquez sur %sHere%s pour revenir à des informations de groupe';
+$lang['CLICK_RETURN_GROUP'] = 'Cliquez sur %sHere%s pour revenir à l\'information du groupe.';
 
 $lang['ADMIN_PANEL'] = 'Aller au Panneau d\'Administration';
 $lang['ALL_CACHE_CLEARED'] = 'Cache a été effacé';
@@ -734,7 +734,7 @@ $lang['HIDE'] = 'masquer';
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = 'Désolé, mais seulement %s peuvent consulter ce forum.';
-$lang['SORRY_AUTH_READ'] = 'Désolé, mais seulement %s peuvent lire des sujets dans ce forum.';
+$lang['SORRY_AUTH_READ'] = 'Désolé, mais seulement %s peut lire des sujets dans ce forum.';
 $lang['SORRY_AUTH_REPLY'] = 'Désolé, mais seulement %s peuvent répondre aux messages dans ce forum.';
 $lang['SORRY_AUTH_EDIT'] = 'Désolé, mais seulement %s peut éditer les messages dans ce forum.';
 $lang['SORRY_AUTH_DELETE'] = 'Désolé, mais seulement %s peuvent supprimer les messages dans ce forum.';
@@ -856,17 +856,17 @@ $lang['DATETIME']['SEPTEMBER'] = 'Septembre';
 $lang['DATETIME']['OCTOBER'] = 'Octobre';
 $lang['DATETIME']['NOVEMBER'] = 'Novembre';
 $lang['DATETIME']['DECEMBER'] = 'Décembre';
-$lang['DATETIME']['JAN'] = 'Jan';
+$lang['DATETIME']['JAN'] = 'Janvier';
 $lang['DATETIME']['FEB'] = 'Février';
-$lang['DATETIME']['MAR'] = 'Mar';
+$lang['DATETIME']['MAR'] = 'Mars';
 $lang['DATETIME']['APR'] = 'Avril';
 $lang['DATETIME']['JUN'] = 'Juin';
 $lang['DATETIME']['JUL'] = 'Juil';
 $lang['DATETIME']['AUG'] = 'Août';
-$lang['DATETIME']['SEP'] = 'Sep';
-$lang['DATETIME']['OCT'] = 'Oct';
-$lang['DATETIME']['NOV'] = 'Nov';
-$lang['DATETIME']['DEC'] = 'Dec';
+$lang['DATETIME']['SEP'] = 'Septembre';
+$lang['DATETIME']['OCT'] = 'Octobre';
+$lang['DATETIME']['NOV'] = 'Novembre';
+$lang['DATETIME']['DEC'] = 'Décembre';
 
 // Country selector
 $lang['COUNTRY'] = 'Pays';
@@ -1786,7 +1786,7 @@ $lang['SMILE_CONFLICTS'] = 'Que faire en cas de conflits.';
 $lang['DEL_EXISTING_SMILEYS'] = 'Supprimer les émoticônes existantes avant l\'importation.';
 $lang['IMPORT_SMILE_PACK'] = 'Importer le Pack d\'Émoticônes.';
 $lang['EXPORT_SMILE_PACK'] = 'Créer un Pack d\'Émoticônes.';
-$lang['EXPORT_SMILES'] = 'Pour créer un smiley pack de actuellement installée sur votre ordinateur smileys, cliquez sur %sHere%s pour télécharger le sourire.pak fichier. Le nom de ce fichier de façon appropriée en veillant à garder le .pak extension de fichier. Puis créer un fichier zip contenant l\'ensemble de vos smiley images plus .pak fichier de configuration.';
+$lang['EXPORT_SMILES'] = 'Pour créer un pack de smileys à partir de vos smileys actuellement installés, cliquez sur %sHere%s pour télécharger le fichier smiles.pak. Nommez ce fichier de manière appropriée en veillant à conserver l\'extension .pak. Ensuite, créez un fichier zip contenant toutes vos images de smileys ainsi que ce fichier de configuration .pak.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Le Smiley a été ajouté avec succès';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Le Smiley a été mis à jour avec succès';
@@ -2283,14 +2283,14 @@ $lang['TIME_FROM_THE_BEGINNING'] = 'Depuis le début';
 $lang['TIME_AVERAGE'] = 'Moyenne par cycle';
 $lang['TIME_ESTIMATED'] = 'Estimé jusqu\'à la fin';
 
-$lang['SIZE_ESTIMATED'] = 'Estimé après finition';
+$lang['SIZE_ESTIMATED'] = 'Estimé après la fin.';
 $lang['SIZE_SEARCH_TABLES'] = 'Taille des tables de recherche';
 
 $lang['POSTS_LAST_CYCLE'] = 'Post(s) traité(s) lors du dernier cycle';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Tous les valeurs estimées sont calculées approximativement<br />en fonction du pourcentage terminé actuel et peuvent ne pas représenter les valeurs finales réelles.<br />À mesure que le pourcentage achevé augmente, les valeurs estimées se rapprocheront des valeurs réelles.';
 
-$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Cliquez sur %shere%s pour revenir à la Reconstruction de Recherche';
+$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Cliquez sur %shere%s pour revenir à la reconstruction de recherche.';
 $lang['REBUILD_SEARCH_ABORTED'] = 'Reconstruire la recherche abandonnée à post_id %s.<br /><br />Si vous avez interrompu pendant le traitement, vous devez attendre quelques minutes avant de pouvoir relancer la reconstruction de recherche afin que le dernier cycle puisse se terminer.';
 $lang['WRONG_INPUT'] = 'Vous avez entré les valeurs erronées. Veuillez vérifier votre saisie et essayez à nouveau.';
 
@@ -2558,7 +2558,7 @@ $lang['NEW_POLL_U_START'] = 'Activer le sondage';
 $lang['NEW_POLL_U_END'] = 'Terminer le sondage';
 $lang['NEW_POLL_M_TITLE'] = 'Titre du sondage';
 $lang['NEW_POLL_M_VOTES'] = 'Options';
-$lang['NEW_POLL_M_EXPLAIN'] = 'Chaque ligne correspond à une réponse (max';
+$lang['NEW_POLL_M_EXPLAIN'] = 'Chaque ligne correspond à une réponse (max.';
 
 $lang['OLD_BROWSER'] = 'Vous utilisez un navigateur obsolète. Le site ne s\'affichera pas correctement.';
 $lang['GO_BACK'] = 'Revenir en arrière';
