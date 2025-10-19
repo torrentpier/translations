@@ -12,8 +12,8 @@ $lang['ADMIN'] = 'Адміністрування';
 $lang['FORUM'] = 'Форум';
 $lang['CATEGORY'] = 'Категорія';
 $lang['HIDE_CAT'] = 'Приховати категорії';
-$lang['HIDE_CAT_MESS'] = 'Деякі категорії приховані шляхом налаштування параметрів відображення.';
-$lang['SHOW_ALL'] = 'Показати всі.';
+$lang['HIDE_CAT_MESS'] = 'Деякі категорії приховані шляхом налаштування параметрів відображення';
+$lang['SHOW_ALL'] = 'Показати всі';
 $lang['TOPIC'] = 'Тема';
 $lang['TOPICS'] = 'Теми';
 $lang['TOPICS_SHORT'] = 'Теми';
@@ -26,7 +26,7 @@ $lang['POSTED'] = 'Опубліковано';
 $lang['USERNAME'] = 'Ім\'я користувача';
 $lang['PASSWORD'] = 'Пароль';
 $lang['PASSWORD_SHOW_BTN'] = 'Показати пароль';
-$lang['EMAIL'] = 'Електронна пошта.';
+$lang['EMAIL'] = 'Email';
 $lang['PM'] = 'ПП';
 $lang['AUTHOR'] = 'Автор';
 $lang['TIME'] = 'Час';
@@ -47,10 +47,10 @@ $lang['6_MONTHS'] = 'за останні 6 місяців';
 $lang['1_YEAR'] = 'за останній рік';
 
 $lang['GO'] = 'Перейти';
-$lang['SUBMIT'] = 'Підтвердити.';
+$lang['SUBMIT'] = 'Підтвердити';
 $lang['RESET'] = 'Скинути';
 $lang['CANCEL'] = 'Скасувати';
-$lang['PREVIEW'] = 'Попередній перегляд.';
+$lang['PREVIEW'] = 'Попередній перегляд';
 $lang['AJAX_PREVIEW'] = 'Швидкий перегляд';
 $lang['CONFIRM'] = 'Підтвердити';
 $lang['YES'] = 'Так';
@@ -177,7 +177,7 @@ $lang['REMEMBER'] = 'Запам\'ятати';
 $lang['USER_WELCOME'] = 'Ласкаво просимо,';
 
 // Index page
-$lang['HOME'] = 'Домашня сторінка.';
+$lang['HOME'] = 'Домашня сторінка';
 $lang['NO_POSTS'] = 'Немає повідомлень';
 $lang['NO_FORUMS'] = 'Ця дошка немає форумів';
 
@@ -228,7 +228,7 @@ $lang['NO_RELEASES_POST_ONE'] = 'У цьому форумі ще немає ви
 $lang['VIEW_TOPIC'] = 'Перегляд теми';
 
 $lang['GUEST'] = 'Гість';
-$lang['POST_SUBJECT'] = 'Тема повідомлення.';
+$lang['POST_SUBJECT'] = 'Тема повідомлення';
 $lang['SUBMIT_VOTE'] = 'Проголосувати';
 
 $lang['NO_NEWER_TOPICS'] = 'Немає більш нових тем';
@@ -242,7 +242,7 @@ $lang['NEWEST_FIRST'] = 'Спочатку нові';
 $lang['OLDEST_FIRST'] = 'Спочатку старі';
 
 $lang['READ_PROFILE'] = 'Переглянути профіль користувача';
-$lang['DELETE_POST'] = 'Видалити це повідомлення.';
+$lang['DELETE_POST'] = 'Видалити це повідомлення';
 
 $lang['WROTE'] = 'написав (-ла)'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Цитата'; // comes before bbcode quote output
