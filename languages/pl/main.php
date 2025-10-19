@@ -472,7 +472,7 @@ $lang['AWARDED_RANK'] = 'Nadana ranga';
 $lang['SHOT_RANK'] = 'Ranga zdjęcia';
 
 $lang['TOTAL_POSTS'] = 'Łącznie wiadomości';
-$lang['SEARCH_USER_POSTS'] = 'Znaleźć wiadomości'; // Find all posts by username
+$lang['SEARCH_USER_POSTS'] = 'Znaleźć posty'; // Find all posts by username
 $lang['SEARCH_USER_POSTS_SHORT'] = 'Znajdź posty użytkownika';
 $lang['SEARCH_USER_TOPICS'] = 'Znajdź tematy użytkownika'; // Find all topics by username
 
@@ -765,9 +765,9 @@ $lang['UNLOCK'] = 'Odblokuj.';
 
 $lang['TOPICS_REMOVED'] = 'Wybrane tematy zostały pomyślnie usunięte z bazy danych.';
 $lang['NO_TOPICS_REMOVED'] = 'Nie usunięto żadnych tematów.';
-$lang['TOPICS_LOCKED'] = 'Niektóre tematy zostały zablokowane.';
+$lang['TOPICS_LOCKED'] = 'Wybrane tematy zostały zablokowane.';
 $lang['TOPICS_MOVED'] = 'Wybrane tematy zostały przeniesione.';
-$lang['TOPICS_UNLOCKED'] = 'Niektóre tematy zostały odblokowane.';
+$lang['TOPICS_UNLOCKED'] = 'Wybrane tematy zostały odblokowane.';
 $lang['NO_TOPICS_MOVED'] = 'Nie przeniesiono żadnych tematów.';
 
 $lang['CONFIRM_DELETE_TOPIC'] = 'Czy na pewno chcesz usunąć wybrany temat/y?';
@@ -1068,9 +1068,9 @@ $lang['BT_VIEWS'] = 'Widoki';
 $lang['GOLD'] = 'Złoto';
 $lang['SILVER'] = 'Srebrny';
 $lang['SET_GOLD_TORRENT'] = 'Utwórz złoty';
-$lang['UNSET_GOLD_TORRENT'] = 'Unmake gold';
+$lang['UNSET_GOLD_TORRENT'] = 'Unikaj złota';
 $lang['SET_SILVER_TORRENT'] = 'Utwórz srebrny';
-$lang['UNSET_SILVER_TORRENT'] = 'Unmake silver';
+$lang['UNSET_SILVER_TORRENT'] = 'Unikaj srebra';
 $lang['GOLD_STATUS'] = 'Złoty torrent! Pobierz ruch nie wlicza!';
 $lang['SILVER_STATUS'] = 'Srebrny torrent! Pobierz ruch częściowo wliczany!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Typ torrenta zmieniony na: %s';
@@ -1097,7 +1097,7 @@ $lang['BT_SHOW_FORUM'] = 'Forum';
 $lang['BT_SHOW_AUTHOR'] = 'Autor';
 $lang['BT_SHOW_SPEED'] = 'Prędkość';
 $lang['SEED_NOT_SEEN'] = 'Siedzi nie widać';
-$lang['TITLE_MATCH'] = 'Mecz tytuł';
+$lang['TITLE_MATCH'] = 'dopasowanie tytułu';
 $lang['BT_USER_NOT_FOUND'] = 'nie znaleziono';
 $lang['DL_SPEED'] = 'Ogólna prędkość pobierania';
 
@@ -1109,27 +1109,27 @@ $lang['BT_3_DAY_FOR'] = 'ostatnie trzy dni';
 $lang['BT_7_DAYS_FOR'] = 'w zeszłym tygodniu';
 $lang['BT_2_WEEKS_FOR'] = 'ostatnie dwa tygodnie';
 $lang['BT_1_MONTH_FOR'] = 'w zeszłym miesiącu';
-$lang['BT_1_DAY'] = '1 jednodniowe';
+$lang['BT_1_DAY'] = '1 dzień';
 $lang['BT_3_DAYS'] = '3 dni';
 $lang['BT_7_DAYS'] = 'tydzień';
 $lang['BT_2_WEEKS'] = '2 tygodnie';
 $lang['BT_1_MONTH'] = 'miesiąc';
 
-$lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'Dl-lista i torrent działalności';
+$lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'Aktywność na liście DL i torrenty';
 $lang['DLWILL'] = 'Pobierz';
-$lang['DLDOWN'] = 'Ładowania';
-$lang['DLCOMPLETE'] = 'Pełna';
+$lang['DLDOWN'] = 'Pobieranie';
+$lang['DLCOMPLETE'] = 'Zakończone';
 $lang['DLCANCEL'] = 'Cofnij';
 
 $lang['DL_LIST_DEL'] = 'Wyczyść DL-listę';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Usunąć dl-listę w tym temacie?';
-$lang['SHOW_DL_LIST'] = 'Pokaz dl-lista';
+$lang['SHOW_DL_LIST'] = 'Pokaż listę DL';
 $lang['SET_DL_STATUS'] = 'Pobierz';
 $lang['UNSET_DL_STATUS'] = 'Nie pobierać';
 $lang['TOPICS_DOWN_SETS'] = 'Status tematu zmieniona na <b>Pobierz</b>';
 $lang['TOPICS_DOWN_UNSETS'] = 'Status <b>Pobierz</b> usunięte';
 
-$lang['TOPIC_DL'] = 'Dl';
+$lang['TOPIC_DL'] = 'DL';
 
 $lang['MY_DOWNLOADS'] = 'Moje pobierania';
 $lang['SEARCH_DL_WILL'] = 'Planowane';
@@ -2159,7 +2159,7 @@ $lang['QUESTION'] = 'Potwierdź, czy na pewno chcesz wykonać tę akcję';
 
 $lang['CRON_LIST'] = 'Lista crona';
 $lang['CRON_ID'] = 'Identyfikator';
-$lang['CRON_ACTIVE'] = 'W';
+$lang['CRON_ACTIVE'] = 'Włączony';
 $lang['CRON_ACTIVE_EXPL'] = 'Aktywne zadania';
 $lang['CRON_TITLE'] = 'Nazwa';
 $lang['CRON_SCRIPT'] = 'Scenariusz';
@@ -2219,7 +2219,7 @@ $lang['CLICK_RETURN_JOBS_ADDED'] = '%sWróć do dodawania zadania%s';
 $lang['CLICK_RETURN_JOBS'] = '%sPowrót do Harmonogramu zadań%s';
 
 $lang['REBUILD_SEARCH'] = 'Przebuduj Indeks Wyszukiwania';
-$lang['REBUILD_SEARCH_DESC'] = 'Wskaźnik ten mod każdy post na waszym forum, naprawa tabel wyszukiwania. Można zatrzymać się, kiedy chcesz i następnym razem, gdy chcesz uruchomić go ponownie, będziesz mógł kontynuować w którym zostało przerwane.<br /><br />It może zająć dużo czasu, aby pokazać swoje postępy (w zależności od stanowiska za cykl" i "regulamin"), więc proszę, nie wychodź ze swojej strony aż do jej zakończenia, oczywiście, jeśli chcesz, aby przerwać go.';
+$lang['REBUILD_SEARCH_DESC'] = 'Ten mod zamieszczać każdy post na forum, przebudowywanie tabel wyszukiwania.';
 
 // Input screen
 $lang['STARTING_POST_ID'] = 'Od postu_id';
@@ -2274,7 +2274,7 @@ $lang['CURRENT_SESSION'] = 'Bieżąca sesja';
 $lang['TOTAL'] = 'Suma';
 
 $lang['PROCESS_DETAILS'] = 'od <b>%s</b> do <b>%s</b> (z całkowitej <b>%s</b>)';
-$lang['PERCENT_COMPLETED'] = '%s %% zakończony';
+$lang['PERCENT_COMPLETED'] = '%s %% zakończone';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Szczegóły bieżącej sesji';
 $lang['PROCESSING_TIME'] = 'Czas przetwarzania';
@@ -2377,7 +2377,7 @@ $lang['TPL_NEW_LINE'] = 'nowa linia';
 $lang['TPL_NEW_LINE_AFTER'] = 'nowej linii po nagłówku';
 $lang['TPL_NUM'] = 'ilość';
 $lang['TPL_URL'] = 'URL';
-$lang['TPL_IMG'] = 'obrazy';
+$lang['TPL_IMG'] = 'obraz';
 $lang['TPL_PRE'] = 'pre';
 $lang['TPL_SPOILER'] = 'spoiler';
 $lang['TPL_IN_LINE'] = 'w tym samym wierszu';
