@@ -156,7 +156,7 @@ $lang['NEWEST_USER'] = 'Der neueste registrierte Benutzer ist <b>%s</b>'; // a h
 
 // Tracker stats
 $lang['TORRENTS_STAT'] = 'Torrents: <b style="color: blue;">%s</b>,&nbsp; Gesamte Größe: <b>%s</b>'; // first %s = number of torrents, second %s is the total size.
-$lang['PEERS_STAT'] = 'Peers: <b>%s</b>,&nbsp; Seeder: <b class="seedmed">%s</b>,&nbsp; Leecher: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
+$lang['PEERS_STAT'] = 'Peers: <b>%s</b>,&nbsp; Seeder: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Gesamt-Geschwindigkeit: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Keine neuen Beiträge';
@@ -274,7 +274,7 @@ $lang['RANK_IMAGES'] = 'Rangbilder';
 $lang['POST_IMAGES'] = 'Postbilder';
 $lang['SIGNATURES'] = 'Signaturen';
 $lang['SPOILER'] = 'Spoiler';
-$lang['SHOW_OPENED'] = 'Show eröffnet';
+$lang['SHOW_OPENED'] = 'Geöffnet anzeigen';
 $lang['DOWNLOAD_PIC'] = 'Herunterladbare Bilder';
 
 $lang['MODERATE_TOPIC'] = 'Moderieren Sie dieses Thema';
@@ -502,7 +502,7 @@ $lang['BIRTHDAY_TO_HIGH'] = 'Entschuldigung, diese Seite akzeptiert keine Benutz
 $lang['BIRTHDAY_TO_LOW'] = 'Entschuldigung, diese Seite akzeptiert keine Benutzer, die jünger als %d Jahre alt sind';
 $lang['BIRTHDAY_TODAY'] = 'Benutzer mit Geburtstag heute: ';
 $lang['BIRTHDAY_WEEK'] = 'Benutzer mit Geburtstag innerhalb der nächsten %d Tage: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'Keine Benutzer mit einem Geburtstag in der kommenden %d Tage'; // %d is substituted with the number of days
+$lang['NOBIRTHDAY_WEEK'] = 'Es gibt keine Benutzer, die in den nächsten %d Tagen Geburtstag haben.'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Keine Benutzer haben heute Geburtstag';
 $lang['BIRTHDAY_ENABLE'] = 'Aktivieren Sie den Geburtstag.';
 $lang['BIRTHDAY_MAX_AGE'] = 'Maximaler Geburtstag';
@@ -533,7 +533,7 @@ $lang['RESET_AUTOLOGIN_EXPL'] = 'einschließlich aller Orte, die Sie besucht hab
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Zeigt ein kleines grafisches Bild unter Ihren Details in den Beiträgen an. Es kann nur ein Bild gleichzeitig angezeigt werden, dessen Breite nicht größer als %d Pixel, die Höhe nicht größer als %d Pixel und die Dateigröße nicht mehr als %s betragen darf.';
 $lang['AVATAR_DELETE'] = 'Avatar löschen';
-$lang['AVATAR_DISABLE'] = 'Avatar-control-option deaktiviert für die Verletzung <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Die Avatar-Kontrolloption wurde aufgrund eines Verstoßes gegen die <a href="%s"><b>Forum Regeln</b></a> deaktiviert.';
 $lang['UPLOAD_AVATAR_FILE'] = 'Avatar hochladen.';
 $lang['RETURN_PROFILE'] = 'Zurück zum Profil';
 $lang['DELETE_IMAGE'] = 'Bild löschen';
@@ -1176,7 +1176,7 @@ $lang['BONUS_UPLOAD_DESC'] = '<b>%s zur Verteilung</b> <br />Um Bonuspunkte für
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Preis';
 $lang['EXCHANGE_NOT'] = 'Der Austausch ist nicht verfügbar';
-$lang['BONUS_SUCCES'] = 'Für Sie ist es erfolgreich angeworben %s';
+$lang['BONUS_SUCCES'] = 'Für Sie ist es erfolgreich erfasst %s.';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">Sie haben keine Boni zur Verfügung. Mehr Seed!</span>';
 $lang['BONUS_RETURN'] = 'Zurück zur Saatgut-Bonus-Austausch';
 
