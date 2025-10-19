@@ -30,7 +30,6 @@ $lang['EMAIL'] = 'Email';
 $lang['PM'] = 'AM';
 $lang['AUTHOR'] = 'Muallif';
 $lang['TIME'] = 'vaqt';
-$lang['HOURS'] = 'soat';
 $lang['MESSAGE'] = 'Xabar';
 $lang['TORRENT'] = 'torrent';
 $lang['PERMISSIONS'] = 'ruxsatlar';
@@ -89,14 +88,10 @@ $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be
 
 $lang['POST_NEW_TOPIC'] = 'Yangi mavzu';
 $lang['POST_NEW_RELEASE'] = 'Post yangi relizlar';
-$lang['POST_REGULAR_TOPIC'] = 'Post muntazam mavzu';
 $lang['REPLY_TO_TOPIC'] = 'Mavzuga javob berish';
-$lang['REPLY_WITH_QUOTE'] = 'Iqtibos bilan javob';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Mavzuga qaytish uchun %sHere%s bosing'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_LOGIN'] = 'yana urinib %sHere%s bosing';
 $lang['CLICK_RETURN_FORUM'] = 'Forumda qaytish uchun %sHere%s bosing';
-$lang['CLICK_VIEW_MESSAGE'] = 'xabaringizga qaytish uchun %sHere%s bosing';
 $lang['CLICK_RETURN_MODCP'] = 'Moderator Boshqarish paneliga qaytish uchun %sHere%s bosing';
 $lang['CLICK_RETURN_GROUP'] = 'guruh axborot qaytish uchun %sHere%s bosing';
 
@@ -137,7 +132,6 @@ $lang['SEARCH_SELF'] = 'Mening xabarlar';
 $lang['SEARCH_SELF_BY_LAST'] = 'Oxirgi xabar vaqti';
 $lang['SEARCH_SELF_BY_MY'] = 'mening post vaqti';
 $lang['SEARCH_UNANSWERED'] = 'O\'tkazib yuborilgan xabarlar';
-$lang['SEARCH_UNANSWERED_SHORT'] = 'javobsiz';
 $lang['SEARCH_LATEST'] = 'Oxirgi mavzular';
 $lang['LATEST_RELEASES'] = 'Oxirgi relizlar';
 
@@ -155,9 +149,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Hech narsa o\'zgardi';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Bizning foydalanuvchilar <b>%s</b> mavzularda jami tashlashdi'; // Number of topics
-$lang['POSTED_ARTICLES_ZERO_TOTAL'] = 'Bizning foydalanuvchilar <b>0</b> maqola jami tashlashdi'; // Number of posts
 $lang['POSTED_ARTICLES_TOTAL'] = 'Bizning foydalanuvchilar <b>%s</b> maqola jami tashlashdi'; // Number of posts
-$lang['REGISTERED_USERS_ZERO_TOTAL'] = 'Biz <b>0</b> ro\'yxatdan o\'tgan foydalanuvchi bor'; // # registered users
 $lang['REGISTERED_USERS_TOTAL'] = 'Biz <b>%s</b> ro\'yxatdan o\'tgan foydalanuvchi bor'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Boys: <b>%d</b>, Qizlar: <b>%d</b>, Boshqalar: <b>%d</b>';
 $lang['NEWEST_USER'] = 'eng yangi ro\'yxatga olingan foydalanuvchi <b>%s</b> emas'; // a href, username, /a
@@ -167,13 +159,9 @@ $lang['TORRENTS_STAT'] = 'Torrent\'ler: <b style="color: blue;">%s</b>,&nbsp; Ja
 $lang['PEERS_STAT'] = 'Tengdoshlari: <b>%s</b>,&nbsp; non: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Umumiy tezligi: <b>%s</b>&nbsp;'; // %s = total speed.
 
-$lang['NO_NEW_POSTS_LAST_VISIT'] = 'Oxirgi tashrifingizdan beri Yangi postlar yo\'q';
 $lang['NO_NEW_POSTS'] = 'Yangi postlar yo\'q';
 $lang['NEW_POSTS'] = 'Yangi xabarlar';
 $lang['NEW_POST'] = 'Yangi post';
-$lang['NO_NEW_POSTS_HOT'] = 'Yangi postlar yo\'q [Ommabop]';
-$lang['NEW_POSTS_HOT'] = 'Yangi postlar [Ommabop]';
-$lang['NEW_POSTS_LOCKED'] = 'Yangi postlar [Berk]';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum qulflangan';
 
 // Login
@@ -198,7 +186,6 @@ $lang['PRIVATE_MESSAGES'] = 'xususiy Xabarlar';
 $lang['WHOSONLINE'] = 'Kim onlayn bo\'lgan';
 
 $lang['MARK_ALL_FORUMS_READ'] = 'Flag o\'qiladi barcha forumlar';
-$lang['FORUMS_MARKED_READ'] = 'Barcha qamrovli o\'qilgan deb belgilandi';
 
 $lang['LATEST_NEWS'] = 'So\'nggi yangiliklar';
 $lang['NETWORK_NEWS'] = 'tarmoq yangiliklari';
@@ -208,7 +195,6 @@ $lang['SUBFORUMS'] = 'Quyi forumlar';
 $lang['VIEW_FORUM'] = 'View Forum';
 
 $lang['FORUM_NOT_EXIST'] = 'siz tanlagan forum mavjud emas.';
-$lang['REACHED_ON_ERROR'] = 'Siz xato bu sahifaga erishgan.';
 $lang['ERROR_PORNO_FORUM'] = 'forumlar bu turi (18+) sizlar orqali profili yashirilgan edi';
 
 $lang['DISPLAY_TOPICS'] = 'satrlari ko\'rsatish';
@@ -217,7 +203,6 @@ $lang['MODERATE_FORUM'] = 'O\'rtacha, bu forum';
 $lang['TITLE_SEARCH_HINT'] = 'Qidiruv nomi ...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = 'e\'lon:';
-$lang['TOPIC_STICKY'] = 'Muhim:';
 $lang['TOPIC_MOVED'] = 'ko\'chirildi:';
 $lang['TOPIC_POLL'] = '[Ovoz]';
 
@@ -245,7 +230,6 @@ $lang['VIEW_TOPIC'] = 'View topic';
 $lang['GUEST'] = 'mehmon';
 $lang['POST_SUBJECT'] = 'Ro\'yxatdan';
 $lang['SUBMIT_VOTE'] = 'ovoz Submit';
-$lang['VIEW_RESULTS'] = 'View natijalar';
 
 $lang['NO_NEWER_TOPICS'] = 'bu forumda hech yangi mavzular bor';
 $lang['NO_OLDER_TOPICS'] = 'bu forumda hech Eski mavzular bor';
@@ -257,12 +241,7 @@ $lang['ALL_POSTS'] = 'barcha xabarlar';
 $lang['NEWEST_FIRST'] = 'Avval yangilari Avval';
 $lang['OLDEST_FIRST'] = 'eskilari';
 
-$lang['BACK_TO_TOP'] = 'Orqaga yuqori';
-
 $lang['READ_PROFILE'] = 'View Foydalanuvchining';
-$lang['VISIT_WEBSITE'] = 'Foydalanuvchining vebsayti';
-$lang['VIEW_IP'] = 'View e\'lon IP-manzil';
-$lang['MODERATE_POST'] = 'o\'rtacha xabarlar';
 $lang['DELETE_POST'] = 'Bu post o\'chirish';
 
 $lang['WROTE'] = 'yozgan'; // proceeds the username and is followed by the quoted text
@@ -286,7 +265,6 @@ $lang['START_WATCHING_TOPIC'] = 'javoblar uchun mavzuni rioya';
 $lang['NO_LONGER_WATCHING'] = 'Siz endi bu mavzuni quyidagi';
 $lang['YOU_ARE_WATCHING'] = 'Siz hozir bu mavzuni quyidagi';
 
-$lang['TOTAL_VOTES'] = 'jami ovozlar';
 $lang['SEARCH_IN_TOPIC'] = 'mavzu qidirish ...';
 $lang['HIDE_IN_TOPIC'] = 'yashir';
 
@@ -312,10 +290,6 @@ $lang['POST_A_REPLY'] = 'Post yangi javob';
 $lang['POST_TOPIC_AS'] = 'deb xabar Mavzu';
 $lang['EDIT_POST'] = 'Edit Post';
 $lang['EDIT_TOPIC_TITLE'] = 'Edit mavzu nomi';
-$lang['EDIT_POST_NOT_1'] = 'Siz ruxsat yo\'q';
-$lang['EDIT_POST_NOT_2'] = 'Sen qila olmaysan';
-$lang['EDIT_POST_AJAX'] = 'Siz holati bilan post to\'g\'irlashingiz mumkin emas,';
-$lang['AFTER_THE_LAPSE'] = 'o\'tgandan so\'ng';
 
 $lang['DONT_MESSAGE_TITLE'] = 'Siz xabar sarlavhasini belgilash kerak';
 $lang['INVALID_TOPIC_ID'] = 'Mavzu Absent!';
@@ -323,7 +297,6 @@ $lang['INVALID_TOPIC_ID_DB'] = 'Mavzu ma\'lumotlar bazasida mavjud emas!';
 
 $lang['NOT_POST'] = 'yo\'q Xabar';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Siz holati bilan ozod to\'g\'irlashingiz mumkin emas,';
-$lang['TOR_STATUS_DAYS'] = 'kun';
 
 $lang['OPTIONS'] = 'Options';
 
@@ -352,27 +325,19 @@ $lang['DELETE_OWN_POSTS'] = 'Kechirasiz, lekin siz faqat o\'z xabarlarni o\'chir
 $lang['CANNOT_DELETE_REPLIED'] = 'Kechirasiz, lekin siz javob qilingan xabarlarni o\'chirishingiz mumkin emas';
 $lang['CANNOT_DELETE_POLL'] = 'Kechirasiz, lekin siz faol so\'rovnomani o\'chirishingiz mumkin emas,';
 $lang['EMPTY_POLL_TITLE'] = 'Siz Anketaga mavzu kirishingiz zarur';
-$lang['TO_FEW_POLL_OPTIONS'] = 'Siz kamida ikki so\'rovnoma Jami variantni kirishingiz zarur';
-$lang['TO_MANY_POLL_OPTIONS'] = 'Siz juda ko\'p so\'rovnoma Jami variantni kirishga uringan';
 $lang['POST_HAS_NO_POLL'] = 'Bu post hech so\'rovnoma Jami';
 $lang['ALREADY_VOTED'] = 'Siz allaqachon bu so\'roq ovoz';
 $lang['NO_VOTE_OPTION'] = 'ovoz berish paytida bir variantni tanlashingiz kerak';
 $lang['LOCKED_WARN'] = 'Siz qulflangan mavzu ichiga posted!';
 
 $lang['ADD_POLL'] = 'So\'rov qo\'shish';
-$lang['ADD_POLL_EXPLAIN'] = 'Agar mavzuga so\'rovnoma qo\'shish istamasangiz, maydonlarni bo\'sh qoldiring.';
-$lang['POLL_QUESTION'] = 'Poll savol';
 $lang['POLL_OPTION'] = 'Poll variant';
-$lang['ADD_OPTION'] = 'variantni qo\'shish';
 $lang['UPDATE'] = 'yangilash';
-$lang['POLL_FOR'] = 'uchun ishga tushirish so\'rov';
 $lang['DAYS'] = 'kun';
-$lang['POLL_FOR_EXPLAIN'] = '[0 kiriting yoki tuganmas so\'rov uchun bo\'sh qoldiring,]';
 $lang['DELETE_POLL'] = 'so\'rovnomani o\'chirish';
 
 $lang['MAX_SMILIES_PER_POST'] = '%s So\'zlari jumlalari chegarasi oshdi.';
 
-$lang['ATTACH_SIGNATURE'] = 'imzo biriktiring (imzo profili o\'zgarishi mumkin)';
 $lang['NOTIFY'] = 'Javoblar bo\'lsa, meni xabardor qil';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Robotlarga bu mavzuni indeksatsiya qilishga ruxsat berish';
 
@@ -385,31 +350,21 @@ $lang['VOTE_CAST'] = 'Sizning ovoz qilindi.';
 $lang['EMOTICONS'] = 'jumlalari';
 $lang['MORE_EMOTICONS'] = 'yana SQL ko\'rish';
 
-$lang['FONT_COLOR'] = 'Shrift rang';
-$lang['COLOR_DEFAULT'] = 'Default';
 $lang['COLOR_DARK_RED'] = 'Dark Red';
 $lang['COLOR_RED'] = 'qizil';
 $lang['COLOR_ORANGE'] = 'apelsin';
 $lang['COLOR_BROWN'] = 'jigar rang';
-$lang['COLOR_YELLOW'] = 'sariq';
 $lang['COLOR_GREEN'] = 'yashil';
 $lang['COLOR_OLIVE'] = 'Olive';
-$lang['COLOR_CYAN'] = 'ko\'k';
 $lang['COLOR_BLUE'] = 'ko\'k';
 $lang['COLOR_DARK_BLUE'] = 'Dark Blue';
 $lang['COLOR_INDIGO'] = 'Indigo';
 $lang['COLOR_VIOLET'] = 'binafsha';
-$lang['COLOR_WHITE'] = 'oq rang';
-$lang['COLOR_BLACK'] = 'qora';
 
-$lang['FONT_SIZE'] = 'Shrift hajmi';
-$lang['FONT_TINY'] = 'kichkina';
 $lang['FONT_SMALL'] = 'kichkina';
 $lang['FONT_NORMAL'] = 'oddiy';
 $lang['FONT_LARGE'] = 'katta';
 $lang['FONT_HUGE'] = 'ulkan';
-
-$lang['STYLES_TIP'] = 'Maslahat: Styles tanlangan matnga tez qo\'llanilishi mumkin.';
 
 $lang['NEW_POSTS_PREVIEW'] = 'Mavzu, yangi tahrir yoki o\'qilmagan xabarlar mavjud';
 
@@ -452,7 +407,6 @@ $lang['SAVE_MESSAGE'] = 'saqlash Xabar';
 $lang['DELETE_MESSAGE'] = 'Xabarni o\'chirish';
 
 $lang['DISPLAY_MESSAGES'] = 'displey xabarlari'; // Followed by number of days/weeks/months
-$lang['ALL_MESSAGES'] = 'barcha Xabarlar';
 
 $lang['NO_MESSAGES_FOLDER'] = 'Bu papkada hech qanday xabar yo\'q';
 
@@ -460,9 +414,6 @@ $lang['PM_DISABLED'] = 'Shaxsiy xabarlar, bu kemada o\'chirib qo\'yildi.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Kechirasiz, lekin administrator Shaxsiy xabar yuborish sizni man qildi.';
 $lang['NO_TO_USER'] = 'Siz ushbu xabarni yuborish uchun kimni uchun foydalanuvchi nomi belgilash kerak.';
 $lang['NO_SUCH_USER'] = 'Kechirasiz, lekin bunday foydalanuvchi mavjud.';
-
-$lang['DISABLE_BBCODE_PM'] = 'Ushbu xabarda BBCode o\'chirib qo\'yish';
-$lang['DISABLE_SMILIES_PM'] = 'Ushbu xabarda jumlalari o\'chirib qo\'yish';
 
 $lang['MESSAGE_SENT'] = '<b>Your Xabar sent.</b> bo\'ldi';
 
@@ -476,8 +427,6 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Yangi shaxsiy xabar yuboring';
 $lang['SEND_A_REPLY'] = 'bir maxsus xat javob';
 $lang['EDIT_MESSAGE'] = 'shaxsiy xabar tahrirlash';
 
-$lang['NOTIFICATION_SUBJECT'] = 'Yangi Xususiy Xabar qabul qilindi!';
-
 $lang['FIND_USERNAME'] = 'Agar foydalanuvchi nomi topish';
 $lang['SELECT_USERNAME'] = 'Agar foydalanuvchi nomi tanlang';
 $lang['FIND'] = 'topish';
@@ -485,7 +434,6 @@ $lang['NO_MATCH'] = 'Hech narsa topilmadi.';
 
 $lang['NO_PM_ID'] = 'post ID ko\'rsating';
 $lang['NO_SUCH_FOLDER'] = 'Jild topilmadi';
-$lang['NO_FOLDER'] = 'papkani ko\'rsating';
 
 $lang['MARK_ALL'] = 'Mark barcha';
 $lang['UNMARK_ALL'] = 'o\'chirish barcha';
@@ -496,8 +444,6 @@ $lang['CONFIRM_DELETE_PMS'] = 'Agar siz bu xabarlarni o\'chirib tashlamoqchimisi
 $lang['INBOX_SIZE'] = 'Sizning Qabul qiling to\'liq is<br /><b>%d%%</b>'; // e.g. Your Inbox is 50% full
 $lang['SENTBOX_SIZE'] = 'Sizning Sentbox to\'liq is<br /><b>%d%%</b>';
 $lang['SAVEBOX_SIZE'] = 'Sizning Savebox to\'liq is<br /><b>%d%%</b>';
-
-$lang['CLICK_VIEW_PRIVMSG'] = 'Qabul qilingan xabarlarni ziyorat qilish %sHere%s bosing';
 
 $lang['OUTBOX_EXPL'] = '';
 
@@ -512,7 +458,6 @@ $lang['PREFERENCES'] = 'Eng afzal';
 $lang['ITEMS_REQUIRED'] = 'a * bilan belgilangan qismlar aks belgilanmagan bo\'lsa kerak.';
 $lang['REGISTRATION_INFO'] = 'Ro\'yxatdan o\'tish ma\'lumot';
 $lang['PROFILE_INFO'] = 'Foydalanuvchining profili ma\'lumot';
-$lang['PROFILE_INFO_WARN'] = 'Jamoat uchun ochiq axborot';
 $lang['AVATAR_PANEL'] = 'Foydalanuvchining barcha e\'lonlar nazorat panel';
 
 $lang['WEBSITE'] = 'Veb-sayt';
@@ -520,7 +465,6 @@ $lang['LOCATION'] = 'Manzil';
 $lang['CONTACT'] = 'aloqa';
 $lang['EMAIL_ADDRESS'] = 'Elektron pochta manzili';
 $lang['SEND_PRIVATE_MESSAGE'] = 'shaxsiy xabar yuboring';
-$lang['HIDDEN_EMAIL'] = '[Yashirin]';
 $lang['INTERESTS'] = 'Qiziqishlari';
 $lang['OCCUPATION'] = 'hunar';
 $lang['POSTER_RANK'] = 'plakat qator';
@@ -533,16 +477,9 @@ $lang['SEARCH_USER_POSTS_SHORT'] = 'Foydalanuvchi xabarini Top';
 $lang['SEARCH_USER_TOPICS'] = 'Foydalanuvchi mavzularni topish'; // Find all topics by username
 
 $lang['NO_USER_ID_SPECIFIED'] = 'Kechirasiz, lekin bu foydalanuvchilar mavjud emas.';
-$lang['WRONG_PROFILE'] = 'Siz o\'z emas profil o\'zgartirish mumkin emas.';
-
-$lang['ONLY_ONE_AVATAR'] = 'avatar faqat bitta turi belgilangan bo\'lishi mumkin';
-$lang['FILE_NO_DATA'] = 'Agar berdi URL da fayl ma\'lumotlarni o\'z ichiga olgan';
-$lang['NO_CONNECTION_URL'] = 'A aloqa Agar berdi URL qilib bo\'lmadi';
-$lang['INCOMPLETE_URL'] = 'Siz kiritgan manzil to\'liq emas';
 $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Hisobingizda harakatsiz, chunki Kechirasiz, lekin parolni qaytarib olingan bo\'lishi mumkin emas';
 $lang['NO_SEND_ACCOUNT'] = 'Kechirasiz, lekin parolni olinadi mumkin emas. Qo\'shimcha ma\'lumot olish uchun forum administratoriga murojaat qiling';
 
-$lang['ALWAYS_ADD_SIG'] = 'Har doim mening imzo qo\'shishingiz';
 $lang['HIDE_PORN_FORUMS'] = 'mazmunini yashirish 18+';
 $lang['ADD_RETRACKER'] = 'torrent fayllarni ham retracker qo\'shish';
 $lang['ALWAYS_NOTIFY'] = 'Har doim, menga javob berish-';
@@ -573,9 +510,7 @@ $lang['BIRTHDAY_MIN_AGE'] = 'min yoshi';
 $lang['BIRTHDAY_CHECK_DAY'] = 'Uzoq kelajaktagi tug\'ilgan kunlarni tekshirish uchun kunlar';
 $lang['YEARS'] = 'yil';
 
-$lang['NO_THEMES'] = 'ma\'lumotlar bazasi yo\'q Mavzular';
 $lang['TIMEZONE'] = 'Vaqt zonasi';
-$lang['DATE_FORMAT_PROFILE'] = 'Sana formati';
 $lang['DATE_FORMAT_EXPLAIN'] = 'ishlatiladigan sintaktik PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date () </a> funktsiyasi bilan bir xil bo\'ladi.';
 $lang['SIGNATURE'] = 'imzolash';
 $lang['SIGNATURE_EXPLAIN'] = 'Bu siz foydalanuvchilar uchun qo\'shimcha mumkin matni bir blok bo\'ladi. a %d belgi chegarasi bor';
@@ -600,14 +535,9 @@ $lang['AVATAR_EXPLAIN'] = 'Xabarlaringizda tafsilotlaringiz ostida kichik grafik
 $lang['AVATAR_DELETE'] = 'Foydalanuvchining profili Foydalanuvchining barcha o\'chirish';
 $lang['AVATAR_DISABLE'] = 'Foydalanuvchining barcha e\'lonlar nazorat variant buzilishi <a href="%s"><b>forum rules</b></a> uchun o\'chirib';
 $lang['UPLOAD_AVATAR_FILE'] = 'Yuklab olish avatar';
-
-$lang['SELECT_AVATAR'] = 'tanlang avatar';
 $lang['RETURN_PROFILE'] = 'profile qaytish';
-$lang['SELECT_CATEGORY'] = 'Turkum tanlang';
-
 $lang['DELETE_IMAGE'] = 'tasvirni o\'chirish';
 $lang['SET_MONSTERID_AVATAR'] = 'MonsterID avatarini o\'rnatish';
-$lang['CURRENT_IMAGE'] = 'amaldagi tasvir';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Yangi Xususiy e\'lonlar bildiring';
 $lang['HIDE_USER'] = 'Forumda onlayn ekanligingizni yashirish';
@@ -616,31 +546,24 @@ $lang['HIDDEN_USER'] = 'Yashirin foydalanuvchi';
 $lang['PROFILE_UPDATED'] = 'Sizning profili yangilandi';
 $lang['PROFILE_UPDATED_INACTIVE'] = 'Sizning profili yangilandi. Ammo, shunday sizning hisob hozir faol emas, hayotiy ma\'lumotlarni o\'zgardi. Hisobingizni qayta yoqish yoki admin faollashtirish zarur bo\'lsa administrator uni qayta yoqish uchun, kutish qanday topish uchun e-pochta tekshiring.';
 
-$lang['PASSWORD_MISMATCH'] = 'Siz kiritgan parol to\'g\'ri kelmadi.';
-$lang['CURRENT_PASSWORD_MISMATCH'] = 'Agar taqdim etilgan joriy parol ma\'lumotlar bazasida saqlanadi, deb mos kelmaydi.';
 $lang['PASSWORD_LONG'] = 'Sizning parolingiz %d belgidan ko\'proq va %d belgidan kam bo\'lmasligi kerak.';
-$lang['TOO_MANY_REGISTERS'] = 'Siz juda ko\'p Ro\'yxatdan urinish qildik. Iltimos keyinroq qaytadan urinib ko\'ring.';
 $lang['USERNAME_TAKEN'] = 'Kechirasiz, lekin bu foydalanuvchi nomi allaqachon qabul qilingan.';
 $lang['USERNAME_INVALID'] = 'Kechirasiz, lekin bu foydalanuvchi nomi yaroqsiz belgi mavjud';
 $lang['USERNAME_DISALLOWED'] = 'Kechirasiz, lekin bu foydalanuvchi nomi taqiqlangan.';
 $lang['USERNAME_TOO_LONG'] = 'Sizning nomi juda uzun.';
 $lang['USERNAME_TOO_SMALL'] = 'Ismingiz juda kichik bo\'ladi.';
 $lang['EMAIL_TAKEN'] = 'Kechirasiz, lekin bu e-mail manzili allaqachon bir foydalanuvchi ro\'yxatdan o\'tgan.';
-$lang['EMAIL_BANNED'] = 'Kechirasiz, lekin <b>%s</b> manzili man qilingan.';
 $lang['EMAIL_INVALID'] = 'Kechirasiz, lekin bu e-mail manzil noto\'g\'ri.';
 $lang['EMAIL_TOO_LONG'] = 'Sizning e-mail ham uzun.';
 $lang['SIGNATURE_TOO_LONG'] = 'Sizning imzo juda uzun.';
 $lang['SIGNATURE_ERROR_HTML'] = 'imzo faqat BBCodeni o\'z ichiga olishi mumkin';
 $lang['FIELDS_EMPTY'] = 'Siz zarur maydonlarni to\'ldiring kerak.';
 
-$lang['WELCOME_SUBJECT'] = '%s Forumlar xush kelibsiz'; // Welcome to my.com forums
-$lang['NEW_ACCOUNT_SUBJECT'] = 'Yangi foydalanuvchi hisob';
-$lang['ACCOUNT_ACTIVATED_SUBJECT'] = 'Account Yoqilgan';
+$lang['WELCOME_SUBJECT'] = '%s Forumlar xush kelibsiz';
 
 $lang['ACCOUNT_ADDED'] = 'Ro\'yxatdan o\'tganingiz uchun rahmat. Sizning hisob yaratildi. Siz endi foydalanuvchi nomi va parol bilan kirish mumkin';
 $lang['ACCOUNT_INACTIVE'] = 'Sizning hisob yaratildi. Biroq, bu forum hisob aktivlashtirishni talab. Faollashtirish kaliti siz taqdim e-mail manziliga yuborildi. Qo\'shimcha ma\'lumot olish uchun e-pochta manzilini tekshiring';
 $lang['ACCOUNT_ACTIVE'] = 'Sizning hisob faqat faollashtirilgan qilindi. Ro\'yxatdan o\'tganingiz uchun rahmat';
-$lang['REACTIVATE'] = 'Hisobingizni qayta yoqish!';
 $lang['ALREADY_ACTIVATED'] = 'Siz allaqachon hisobingizni faol';
 
 $lang['REGISTRATION'] = 'Ro\'yxatdan Shartnoma shartlari';
@@ -649,15 +572,12 @@ $lang['WRONG_ACTIVATION'] = 'Agar taqdim etilgan faollashtirish kaliti ma`lumotl
 $lang['SEND_PASSWORD'] = 'Menga yangi parolni yuboring';
 $lang['PASSWORD_UPDATED'] = 'Yangi parol tashkil etildi; uni faollashtirish haqida batafsil ma\'lumot uchun e-pochta tekshiring.';
 $lang['NO_EMAIL_MATCH'] = 'Agar taqdim etilgan e-mail manzili deb nomi uchun keltirilgan bir xil emas.';
-$lang['NEW_PASSWORD_ACTIVATION'] = 'Yangi parol faollashtirish';
 $lang['PASSWORD_ACTIVATED'] = 'Sizning hisob qayta-faollashtirilgan qilindi. kirish uchun siz qabul e-pochtada ta\'minlangan parolni foydalaning.';
 
 $lang['SEND_EMAIL_MSG'] = 'e-mail xabar yuborish';
 $lang['NO_USER_SPECIFIED'] = 'Yo\'q, foydalanuvchi belgilangan edi';
-$lang['USER_PREVENT_EMAIL'] = 'Ushbu foydalanuvchi e-pochta qabul qilmoqchi emas. ularga maxsus xabar yuborish harakat qilib ko\'ring.';
 $lang['USER_NOT_EXIST'] = 'Bu foydalanuvchi mavjud emas';
 $lang['EMAIL_MESSAGE_DESC'] = 'Bu xabar matn sifatida yuboriladi, shuning uchun har qanday HTML yoki BBCode emas. Xabarga javob yozish manzili E-mail manziliga belgilanadi.';
-$lang['FLOOD_EMAIL_LIMIT'] = 'Siz bu paytda boshqa e-mail yuborish mumkin emas. Keyinroq urinib ko\'ring.';
 $lang['RECIPIENT'] = 'oluvchi';
 $lang['EMAIL_SENT'] = 'e-mail yuborildi.';
 $lang['SEND_EMAIL'] = 'e-mail yuborish';
@@ -744,20 +664,12 @@ $lang['GROUP_ADDED'] = 'Siz ushbu guruhi qo\'shilgan.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Siz allaqachon bu guruh a\'zosi';
 $lang['USER_IS_MEMBER_GROUP'] = '%s bu guruhning a\'zosi';
 $lang['USER_IS_MOD_GROUP'] = '%s bu guruhda moderator';
-$lang['GROUP_TYPE_UPDATED'] = 'Muvaffaqiyatli guruh turini yangilangan.';
 $lang['EFFECTIVE_DATE'] = 'Ijroga Kirish muddati';
-
 $lang['COULD_NOT_ADD_USER'] = 'Tanlangan foydalanuvchi mavjud emas.';
-$lang['COULD_NOT_ANON_USER'] = 'Siz Anonymous guruhi a\'zosi qilish mumkin emas.';
-
-$lang['CONFIRM_UNSUB'] = 'Agar bu guruhdan obunani bekor qilish uchun istaysizmi?';
-$lang['CONFIRM_UNSUB_PENDING'] = 'Bu guruhga Sizning obuna hali tasdiqlangan emas; Agar siz obunani bekor qilish tashlamoqchimisiz?';
-
 $lang['UNSUB_SUCCESS'] = 'Siz bu guruhdan un-obuna bo\'lgan.';
 
 $lang['APPROVE_SELECTED'] = 'tasdiqlansin Tanlangan';
 $lang['DENY_SELECTED'] = 'Rad qilish Tanlangan';
-$lang['NOT_LOGGED_IN'] = 'Siz guruhga ishtirok etish uchun tizimga kirishingiz kerak.';
 $lang['REMOVE_SELECTED'] = 'olib tashlash Tanlangan';
 $lang['ADD_MEMBER'] = 'Member qo\'shish';
 $lang['NOT_GROUP_MODERATOR'] = 'Shu sababli siz bu amalni bajara olmaydi, bu guruhning moderator emas.';
@@ -773,7 +685,6 @@ $lang['NONE'] = 'hech qaysi';
 
 $lang['SUBSCRIBE'] = 'obuna';
 $lang['UNSUBSCRIBE_GROUP'] = 'obunani bekor qilish';
-$lang['VIEW_INFORMATION'] = 'View Axborot';
 $lang['MEMBERS_IN_GROUP'] = 'guruhda a\'zo';
 
 // Release Groups
@@ -786,7 +697,6 @@ $lang['MORE_RELEASES'] = 'guruhning barcha versiyalar topish';
 $lang['NOT_A_RELEASE_GROUP'] = 'Bu guruh bir-reliz guruhi emas';
 
 // Search
-$lang['SEARCH_ERROR'] = 'Ayni paytda, qidiruvi, bir necha soniyadan keyin so\'rov takrorlash uchun available<br /><br />Try emas';
 $lang['SEARCH_HELP_URL'] = 'Qidiruv Yordam';
 $lang['SEARCH_QUERY'] = 'Qidiruv so\'rovlar';
 $lang['SEARCH_OPTIONS'] = 'Qidiruv Options';
@@ -798,22 +708,15 @@ $lang['SEARCH_AUTHOR_EXPL'] = 'qisman o\'yinlarda uchun * belgisini joker sifati
 
 $lang['SEARCH_TITLES_ONLY'] = 'Qidiruv Mavzu satrlari, faqat';
 $lang['SEARCH_ALL_WORDS'] = 'barcha so\'zlar';
-$lang['SEARCH_MY_MSG_ONLY'] = 'faqat mening xabarlar qidirish';
 $lang['IN_MY_POSTS'] = 'Mening Xabarlar';
 $lang['SEARCH_MY_TOPICS'] = 'mening mavzularda';
 $lang['NEW_TOPICS'] = 'Yangi mavzular';
-
-$lang['RETURN_FIRST'] = 'birinchi qaytish'; // followed by xxx characters in a select box
-$lang['CHARACTERS_POSTS'] = 'xabarlar belgilar';
 
 $lang['SEARCH_PREVIOUS'] = 'oldingi qidirish';
 
 $lang['SORT_BY'] = 'Saralash turi';
 $lang['SORT_TIME'] = 'Post Time';
-$lang['SORT_POST_SUBJECT'] = 'Post Mavzu';
 $lang['SORT_TOPIC_TITLE'] = 'Mavzu nomi';
-$lang['SORT_AUTHOR'] = 'Muallif';
-$lang['SORT_FORUM'] = 'Forum';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Natijalar';
 $lang['ALL_AVAILABLE'] = 'barcha mavjud';
@@ -823,24 +726,18 @@ $lang['NO_SEARCHABLE_FORUMS'] = 'Siz bu saytda har qanday forum qidirish uchun r
 $lang['NO_SEARCH_MATCH'] = 'Hech mavzular yoki xabarlar qidirish mezonlarini uchrashdi';
 $lang['FOUND_SEARCH_MATCH'] = 'Qidiruv %d uchrashuvini topildi'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Qidiruv %d natija topildi'; // e.g. Search found 24 matches
-$lang['TOO_MANY_SEARCH_RESULTS'] = 'Juda ko\'p natijalar topish mumkin, yana aniq bo\'lishga harakat qiling';
 
 $lang['CLOSE_WINDOW'] = 'Close Window';
 $lang['CLOSE'] = 'yaqin';
 $lang['HIDE'] = 'yashirish';
-$lang['SEARCH_TERMS'] = 'Qidiruv shartlari';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = 'Kechirasiz, lekin faqat %s Bu forumni ko\'rish mumkin.';
 $lang['SORRY_AUTH_READ'] = 'Kechirasiz, lekin faqat %s Bu forumdagi mavzularga o\'qishingiz mumkin.';
-$lang['SORRY_AUTH_POST'] = 'Kechirasiz, lekin faqat %s, bu forumda mavzu ocha mumkin.';
 $lang['SORRY_AUTH_REPLY'] = 'Kechirasiz, lekin faqat %s bu forumda xabarlar javob mumkin.';
 $lang['SORRY_AUTH_EDIT'] = 'Kechirasiz, lekin faqat %s bu forumda xabarlarni to\'g\'irlashingiz mumkin.';
 $lang['SORRY_AUTH_DELETE'] = 'Kechirasiz, lekin faqat %s bu forumda xabarlarni o\'chirishingiz mumkin.';
-$lang['SORRY_AUTH_VOTE'] = 'Kechirasiz, lekin faqat %s bu forumda So\'rov ovoz mumkin.';
-$lang['SORRY_AUTH_STICKY'] = 'Kechirasiz, lekin faqat %s bu forumda yopishqoq xabarlarni yuborishingiz mumkin.';
-$lang['SORRY_AUTH_ANNOUNCE'] = 'Kechirasiz, lekin faqat %s bu forumda e\'lonlarini yuborishingiz mumkin.';
 
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
@@ -860,8 +757,6 @@ $lang['LAST_UPDATED'] = 'so\'nggi yangilangan';
 
 // Moderator Control Panel
 $lang['MOD_CP'] = 'Moderator Boshqarish paneli';
-$lang['MOD_CP_EXPLAIN'] = 'Agar bu forumda ommaviy o\'rtachalik operatsiyalarni bajarish mumkin quyidagi shakl orqali. Siz, qulflash qulfini ochish, ko\'chirish yoki mavzularga har qanday raqamni o\'chirish mumkin.';
-
 $lang['SELECT'] = 'tanlang';
 $lang['DELETE'] = 'o\'chirish';
 $lang['MOVE'] = 'ko\'chirish';
@@ -876,8 +771,6 @@ $lang['TOPICS_UNLOCKED'] = 'Tanlangan mavzular himoyasi etildi.';
 $lang['NO_TOPICS_MOVED'] = 'Yo\'q, mavzular ko\'chib keldi.';
 
 $lang['CONFIRM_DELETE_TOPIC'] = 'Agar tanlangan mavzu / s olib tashlashga ishonchingiz komilmi?';
-$lang['CONFIRM_LOCK_TOPIC'] = 'Agar tanlangan mavzu / s qulflash istasangiz ishonchingiz komilmi?';
-$lang['CONFIRM_UNLOCK_TOPIC'] = 'Agar tanlangan mavzu / s qulfini ochish istasangiz ishonchingiz komilmi?';
 $lang['CONFIRM_MOVE_TOPIC'] = 'Agar tanlangan mavzu / s ko\'chirish istasangiz ishonchingiz komilmi?';
 
 $lang['MOVE_TO_FORUM'] = 'Forumda ko\'chib';
@@ -889,11 +782,7 @@ $lang['FORUM_FOR_NEW_TOPIC'] = 'Yangi mavzu uchun forum';
 $lang['SPLIT_POSTS'] = 'Split tanlangan xabarlar';
 $lang['SPLIT_AFTER'] = 'Tanlangan lavozimidan bo\'linib';
 $lang['TOPIC_SPLIT'] = 'Tanlangan mavzu muvaffaqiyatli YARILMIŞTIR';
-
-$lang['TOO_MANY_ERROR'] = 'Siz juda ko\'p xabarlar tanladingiz. Siz faqat keyin mavzuni bo\'linib bir post tanlashingiz mumkin!';
-
 $lang['NONE_SELECTED'] = 'Siz ushbu operatsiyani amalga oshirish uchun tanlangan yo\'q. orqaga qayting va kamida bir-ni tanlang.';
-$lang['NEW_FORUM'] = 'Yangi forum';
 
 $lang['THIS_POSTS_IP'] = 'Bu mavzu uchun IP-manzil';
 $lang['OTHER_IP_THIS_USER'] = 'Ushbu foydalanuvchi posted boshqa IP-manzillar';
@@ -999,7 +888,6 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Kechirasiz, lekin siz ko\'rishingiz yoki bu p
 $lang['DESCRIPTION'] = 'Tavsif'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Yuklash'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fayl hajmi';
-$lang['VIEWED'] = 'Ko\'rib chiqildi';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = '\'%s\' kengaytmasi taxtasi administratori tomonidan o\'chirilgan, shuning uchun bu ilova ko\'rsatilmaydi.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
@@ -1033,7 +921,6 @@ $lang['FILE_COMMENT'] = 'Fayl Comment';
 // Posting/PM -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Posted Qo\'shilgan';
 $lang['UPDATE_COMMENT'] = 'yangilash Comment';
-$lang['DELETE_ATTACHMENTS'] = 'Qo\'shilgan o\'chirish';
 $lang['DELETE_ATTACHMENT'] = 'Plaginni yo\'q';
 $lang['DELETE_THUMBNAIL'] = 'Thumbnail o\'chirish';
 $lang['UPLOAD_NEW_VERSION'] = 'Yangi versiyasini yuklash';
@@ -1057,10 +944,8 @@ $lang['NO_ATTACHMENT_SELECTED'] = 'Siz yuklab yoki ko\'rish uchun qo\'shimcha ta
 $lang['ERROR_NO_ATTACHMENT'] = 'Tanlangan ilova endi mavjud emas';
 
 // Delete Attachments
-$lang['CONFIRM_DELETE_ATTACHMENTS'] = 'Siz tanlagan Qo\'shilgan o\'chirib tashlashga ishonchingiz komilmi?';
 $lang['DELETED_ATTACHMENTS'] = 'Tanlangan Qo\'shilgan o\'chirildi.';
 $lang['ERROR_DELETED_ATTACHMENTS'] = 'Qo\'shilgan o\'chirib bo\'lmadi.';
-$lang['CONFIRM_DELETE_PM_ATTACHMENTS'] = 'Agar siz bu AM posted barcha Qo\'shilgan o\'chirib tashlashga ishonchingiz komilmi?';
 
 // General Error Messages
 $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Ilova xususiyatni o\'chirib.';
@@ -1077,14 +962,10 @@ $lang['GB'] = 'GB';
 $lang['ATTACH_SEARCH_QUERY'] = 'Qidiruv Qo\'shilgan';
 $lang['TEST_SETTINGS'] = 'Test Sozlamalar';
 $lang['NOT_ASSIGNED'] = 'ATANMAMIŞ';
-$lang['NO_FILE_COMMENT_AVAILABLE'] = 'mavjud emas Fayl Comment';
-$lang['ATTACHBOX_LIMIT'] = 'Sizning Attachbox to\'liq<br /><b>%d%%</b>';
-$lang['UNLIMITED'] = 'Cheksiz';
 
 //bt
 $lang['BT_REG_YES'] = 'ro\'yxatga olingan';
 $lang['BT_REG_NO'] = 'ro\'yxatga emas';
-$lang['BT_ADDED'] = 'Yükladi';
 $lang['BT_REG_ON_TRACKER'] = 'reyting www.uz ro\'yxatdan';
 $lang['BT_REG_FAIL'] = 'reyting www.uz torrent ro\'yxatdan bo\'lmadi';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Shu info_hash allaqachon <a href="%s"><b>registered</b></a> bilan yana bir torrent';
@@ -1098,9 +979,6 @@ $lang['BT_FLIST_CREATION_DATE'] = 'Yaratish sanasi';
 $lang['BT_IS_PRIVATE'] = 'Maxfiy torrent';
 $lang['BT_FLIST_FILE_PATH'] = 'Yo\'l (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'Fayl hash\'lari | .torrent meta-ma\'lumotlar';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'E\'lon qiluvchilar ro\'yxati';
-$lang['BT_FLIST_ANNOUNCERS'] = 'E\'lon qiluvchilar';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Ushbu ro\'yxat torrent fayl e\'lon qiluvchilarini o\'z ichiga oladi';
 $lang['BT_UNREG_FROM_TRACKER'] = 'izdoshlari o\'chirish';
 $lang['BT_UNREGISTERED'] = 'Ro\'yxatdan o\'tmagan torrent';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrent allaqachon ro\'yxatdan o\'chirildi';
@@ -1175,9 +1053,7 @@ $lang['TOR_AUTH_SENT_COMMENT'] = 'moderator yuborilgan &middot; <span class="see
 
 $lang['BT_TOPIC_TITLE'] = 'Mavzu nomi';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Urug \'so\'nggi ko\'rgan';
-$lang['BT_SORT_FORUM'] = 'Forum';
 $lang['SIZE'] = 'hajmi';
-$lang['PIECE_LENGTH'] = 'parcha uzunligi';
 $lang['COMPLETED'] = 'Tugallangan yuklamalar';
 $lang['ADDED'] = 'Yükladi';
 $lang['DELETE_TORRENT'] = 'torrent o\'chirish';
@@ -1273,7 +1149,6 @@ $lang['ALLOWED_ONLY_1ST_POST_REG'] = 'torrent Yozib faqat birinchi lavozimidan r
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'bu forumda torrent ro\'yxatdan bo\'lmadi';
 $lang['ALREADY_REG'] = 'Torrent allaqachon ro\'yxatga';
 $lang['NOT_TORRENT'] = 'Bu fayl torrent emas';
-$lang['ONLY_1_TOR_PER_POST'] = 'Siz bir post faqat bitta torrent ro\'yxatdan mumkin';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Bir mavzu faqat bitta torrent ro\'yxatdan mumkin';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profili';
 $lang['CUR_ACTIVE_DLS'] = 'Foydalanuvchining barcha e\'lonlar, torrent';
@@ -1336,7 +1211,6 @@ $lang['HIDDEN'] = 'yashirin';
 // from admin
 $lang['NOT_ADMIN'] = 'Ushbu taxtani boshqarish uchun vakolatli emas';
 
-$lang['COOKIES_REQUIRED'] = 'Cookies ni yoqishingiz shart!';
 $lang['SESSION_EXPIRED'] = 'Seans muddati';
 
 // Sort memberlist per letter
@@ -1372,11 +1246,8 @@ $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'topic</b> <b>new Split haqida bot-xabar qo\'s
 $lang['QUICK_REPLY'] = 'Tezkor Javob';
 $lang['INS_NAME_TIP'] = 'nomi yoki tanlangan matn joylashtiring.';
 $lang['QUOTE_SELECTED'] = 'Iqtibos tanlangan';
-$lang['QR_ATTACHSIG'] = 'imzo biriktiring';
 $lang['QR_NOTIFY'] = 'javob haqida xabardor';
-$lang['QR_DISABLE'] = 'o\'chirib qo\'yish';
 $lang['QR_USERNAME'] = 'ism';
-$lang['NO_TEXT_SEL'] = 'bir sahifada bir joyda bir matnni tanlang va yana urinib ko\'ring';
 $lang['QR_FONT_SEL'] = 'Shrift yuzi';
 $lang['QR_COLOR_SEL'] = 'Shrift rang';
 $lang['QR_SIZE_SEL'] = 'Shrift hajmi';
@@ -1419,9 +1290,7 @@ $lang['TORHELP_TITLE'] = 'Iltimos, bu torrentlarni ekishga yordam bering!';
 $lang['STATISTICS'] = 'statistika';
 $lang['STATISTIC'] = 'Statistik';
 $lang['VALUE'] = 'Value';
-$lang['INVERT_SELECT'] = 'tanlash tartibini almashtirish';
 $lang['STATUS'] = 'holat';
-$lang['LAST_CHANGED_BY'] = 'Oxirgi tomonidan o\'zgartirildi';
 $lang['CHANGES'] = 'o\'zgarishlar';
 $lang['ACTION'] = 'harakat';
 $lang['REASON'] = 'sabab';
@@ -1508,9 +1377,6 @@ $lang['CHOOSE_PASS_OK'] = 'parollar o\'yin';
 $lang['CHOOSE_PASS_REG_OK'] = 'Parollar siz ro\'yxatdan bilan davom mumkin, mos';
 $lang['CHOOSE_PASS_FAILED'] = 'Parolni o\'zgartirish uchun, to\'g\'ri joriy parolni belgilash kerak';
 $lang['EMAILER_DISABLED'] = 'Kechirasiz, bu xususiyat vaqtincha ishlamayotgan';
-$lang['TERMS_ON'] = 'Men bu shart va sharoitlar bilan rozi';
-$lang['TERMS_OFF'] = 'Men ushbu shartlarga rozi emas';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Ro\'yxatdan o\'tish uchun JavaScriptni yoqishingiz kerak';
 $lang['REGISTERED_IN_TIME'] = "Ro'yxatdan o'tish hozirda yopiq<br /><br /> Ro'yxatdan o'tish mumkin bo'lgan vaqt: %s<br /> Hozirgi server vaqti: %s<br /><br /> Noqulayliklar uchun uzr";
 $lang['AUTOCOMPLETE'] = 'Parolni yaratish';
 $lang['YOUR_NEW_PASSWORD'] = 'Sizning yangi parolingiz:';
@@ -1535,7 +1401,6 @@ $lang['WHAT_IS_A_TORRENT'] = 'torrent nima?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Reyting va cheklashlar';
 
 $lang['SCREENSHOTS_RULES'] = 'ekran ko\'z qo\'ydi qoidalarini o\'qing!';
-$lang['SCREENSHOTS_RULES_TOPIC'] = 'Joriy bo\'limda hududda ekran ko\'z qo\'ydi qoidalarini o\'qing!';
 $lang['AJAX_EDIT_OPEN'] = 'Agar siz allaqachon bir tez reja, ochgan!';
 $lang['GO_TO_PAGE'] = 'sahifasiga o\'tish ...';
 $lang['EDIT'] = 'Edit';
@@ -1655,8 +1520,6 @@ $lang['ADD_NEW'] = 'qo\'shish';
 $lang['CRON'] = 'Topshiriq Taymer (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Qidiruv indeksini qayta qurish';
 $lang['FORUM_CONFIG'] = 'Forum ri';
-$lang['TRACKER_CONFIG'] = 'Kuzatishdan sozlamalari';
-$lang['RELEASE_TEMPLATES'] = 'relizlar Templates';
 $lang['ACTIONS_LOG'] = 'harakatlar to\'g\'risida hisobot';
 
 // Migrations
@@ -1787,12 +1650,7 @@ $lang['AUTH_DOWNLOAD'] = 'Fayllar Download';
 $lang['USER_LEVEL'] = 'Foydalanuvchi darajasi';
 $lang['AUTH_USER'] = 'foydalanuvchi';
 $lang['AUTH_ADMIN'] = 'Administrator';
-$lang['GROUP_MEMBERSHIPS'] = 'Foydalanuvchi guruhiga Ro\'yxatdan guruhlari';
-$lang['USERGROUP_MEMBERS'] = 'Bu guruh quyidagi a\'zo bor';
-
 $lang['FORUM_AUTH_UPDATED'] = 'Forum togri yangilandi';
-$lang['USER_AUTH_UPDATED'] = 'Foydalanuvchi togri yangilandi';
-$lang['GROUP_AUTH_UPDATED'] = 'Group togri yangilandi';
 
 $lang['AUTH_UPDATED'] = 'Ruxsatlar yangilandi';
 $lang['AUTH_GENERAL_ERROR'] = 'Boshqaruv maqomini yangilash mumkin emas';
@@ -1860,13 +1718,11 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Foydalanuvchi taxtasidan tashrif bo\'lmasa, q
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum ma\'muriyati';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Bu paneldan siz kategoriyalar va forumlarni kiritish, o\'chirish, tahrirlash, qayta tartiblash va qayta sinxronlashtirish mumkin.';
 $lang['EDIT_FORUM'] = 'Edit forum';
 $lang['CREATE_FORUM'] = 'Yangi forum yaratish';
 $lang['CREATE_SUB_FORUM'] = 'Subforum yaratish';
 $lang['CREATE_CATEGORY'] = 'yangi bo\'lim yaratish';
 $lang['REMOVE'] = 'olib tashlash';
-$lang['UPDATE_ORDER'] = 'yangilash tartibi';
 $lang['CONFIG_UPDATED'] = 'Forum Konfiguratsiya muvaffaqiyatli yangilandi';
 $lang['MOVE_UP'] = 'Yuqoriga harakatlanmoq';
 $lang['MOVE_DOWN'] = 'pastga ko\'chirish';
@@ -1889,7 +1745,6 @@ $lang['FORUM_STATUS'] = 'Forum holati';
 $lang['FORUM_PRUNING'] = 'Avto-Azizillo';
 
 $lang['PRUNE_DAYS'] = 'yilda chop etilmagan masalalar olib tashlash';
-$lang['SET_PRUNE_DATA'] = 'Siz bu forumda uchun avto-Erik yoqilgan, lekin Azizillo kun bir qator belgilash bermadi. orqaga qaytib, buni qiling.';
 
 $lang['MOVE_AND_DELETE'] = 'Ko\'chirish va o\'chirish';
 
@@ -1946,7 +1801,6 @@ $lang['LOOK_UP_USER'] = 'foydalanuvchi yuqoriga qara';
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Group ma\'muriyati';
 $lang['GROUP_ADMIN_EXPLAIN'] = 'Bu panel siz barcha guruhlar ro\'yxatini boshqarish mumkin. Siz yaratish, o\'chirish va mavjud guruhlarga o\'zgartirishingiz mumkin. Siz, moderator tanlash yopiq / ochiq guruh maqomini o\'zgartirish va guruh nomini va tavsifi o\'rnatishingiz mumkin';
-$lang['ERROR_UPDATING_GROUPS'] = 'guruhlar yangilash xatolik yuz berdi';
 $lang['UPDATED_GROUP'] = 'guruh muvaffaqiyatli yangilandi';
 $lang['ADDED_NEW_GROUP'] = 'Yangi guruh muvaffaqiyatli yaratildi';
 $lang['DELETED_GROUP'] = 'guruh muvaffaqiyatli o\'chirildi qilindi';
@@ -1955,8 +1809,6 @@ $lang['EDIT_GROUP'] = 'Edit guruhi';
 $lang['GROUP_STATUS'] = 'Group holati';
 $lang['GROUP_DELETE'] = 'guruh o\'chirish';
 $lang['GROUP_DELETE_CHECK'] = 'Bu guruhni o\'chirish';
-$lang['SUBMIT_GROUP_CHANGES'] = 'O\'zgarishlarni Submit';
-$lang['RESET_GROUP_CHANGES'] = 'O\'zgarishlarni o\'rnatish';
 $lang['NO_GROUP_NAME'] = 'Siz ushbu guruh nomini belgilash kerak';
 $lang['NO_GROUP_MODERATOR'] = 'Siz ushbu guruh uchun bir moderator belgilash kerak';
 $lang['NO_GROUP_MODE'] = 'Siz ushbu guruh uchun bir rejimini belgilash kerak, ochiq yoki yopiq';
@@ -1974,7 +1826,6 @@ $lang['DO_PRUNE'] = 'qora olxo\'ri, albatta';
 $lang['ALL_FORUMS'] = 'barcha Forumlar';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Bu necha kun ichida javob yo\'q bilan qora olxo\'ri mavzular';
 $lang['TOPICS_PRUNED'] = 'Mavzular kesib';
-$lang['POSTS_PRUNED'] = 'Xabarlar kesib';
 $lang['PRUNE_SUCCESS'] = 'Forum muvaffaqiyatli kesib qilindi';
 $lang['NOT_DAYS'] = 'Qora olxo\'ri kun tanlangan emas';
 
@@ -1985,7 +1836,6 @@ $lang['WORD'] = 'so\'z';
 $lang['EDIT_WORD_CENSOR'] = 'Edit so\'z tsenzura';
 $lang['REPLACEMENT'] = 'o\'zgartirish';
 $lang['ADD_NEW_WORD'] = 'Yangi so\'zni qo\'shish';
-$lang['UPDATE_WORD'] = 'Yangilash so\'z tsenzura';
 
 $lang['MUST_ENTER_WORD'] = 'Siz bir so\'z va uning almashtirish kirishingiz zarur';
 $lang['NO_WORD_SELECTED'] = 'tartibga solish uchun tanlangan Hech so\'z';
@@ -2005,9 +1855,6 @@ $lang['ALL_USERS'] = 'barcha foydalanuvchilar';
 
 $lang['MASS_EMAIL_MESSAGE_TYPE'] = 'Elektron pochta turi';
 
-$lang['EMAIL_SUCCESSFULL'] = 'Xabaringiz jo\'natildi';
-$lang['CLICK_RETURN_MASSEMAIL'] = 'Mass Email shaklida qaytish uchun %sHere%s bosing';
-
 // Ranks admin
 $lang['RANKS_TITLE'] = 'Rank ma\'muriyati';
 $lang['RANKS_EXPLAIN'] = 'Agar, kiritish saflarini tahrir, ko\'rinish va o\'chirishingiz mumkin, bu formasini foydalanish. Bundan tashqari, foydalanuvchi boshqarish mexanizmi orqali bir foydalanuvchiga qo\'llanilishi mumkin o\'rganish safiga yaratishingiz mumkin';
@@ -2020,7 +1867,6 @@ $lang['RANK_IMAGE'] = 'Rank Image';
 $lang['RANK_IMAGE_EXPLAIN'] = 'unvoni bilan bog\'liq kichik tasvirni aniqlash uchun foydalanishi';
 
 $lang['MUST_SELECT_RANK'] = 'Siz unvonga tanlashingiz kerak';
-$lang['NO_ASSIGNED_RANK'] = 'tayinlangan hech qanday maxsus unvon';
 
 $lang['RANK_UPDATED'] = 'qator muvaffaqiyatli yangilandi';
 $lang['RANK_ADDED'] = 'qator muvaffaqiyatli qo\'shildi';
@@ -2093,7 +1939,6 @@ $lang['SYNC'] = 'Sinx';
 $lang['MAX_NEWS_TITLE'] = 'Maks. yangiliklar uzunligi';
 $lang['NEWS_COUNT'] = 'Qancha yangiliklarni ko\'rsatish';
 $lang['NEWS_FORUM_ID'] = 'Qaysi forumlardan ko\'rsatish<br /> <h6>Bir necha forumlar uchun IDlar vergul bilan ajratilgan holda ko\'rsatilishi kerak. Misol: 1,2,3</h6>';
-$lang['NOAVATAR'] = 'No avatar';
 $lang['TRACKER_STATS'] = 'reyting www.uz Statistika';
 $lang['WHOIS_INFO'] = 'IP manzil haqida ma\'lumot';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Moderatorlar index.php ko\'rsatish';
@@ -2145,10 +1990,6 @@ $lang['DISABLE_MOD'] = 'O\'chirish ilova Tartibni';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Bu variant, asosan, yangi shablonini yoki mavzularni sinov uchun, bu Admin panel tashqari barcha ilova vazifalari o\'chirib hisoblanadi.';
 $lang['PM_ATTACHMENTS'] = 'Xususiy xabar qo\'shimchalarini ruxsat berish';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Xususiy Xabarlar fayllarni birikib yo\'l /.';
-
-// Attachments -> Sync
-$lang['SYNC_TOPICS'] = 'Sinx Mavzular';
-$lang['SYNC_POSTS'] = 'Sinx Xabarlar';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Kengaytmalarni boshqarish';
@@ -2234,8 +2075,6 @@ $lang['SORT_POSTTIME'] = 'Post Time';
 // View Types
 $lang['VIEW_STATISTIC'] = 'statistika';
 $lang['VIEW_SEARCH'] = 'Qidirmoq';
-$lang['VIEW_USERNAME'] = 'Foydalanuvchi nomi';
-$lang['VIEW_ATTACHMENTS'] = 'Qo\'shilgan';
 
 // Successfully updated
 $lang['ATTACH_CONFIG_UPDATED'] = 'Attachment Konfiguratsiya muvaffaqiyatli yangilandi';
@@ -2249,7 +2088,6 @@ $lang['EXTENSION'] = 'kengaytma';
 
 $lang['RETURN_CONFIG'] = 'Configuration%s uchun %sReturn';
 $lang['CONFIG_UPD'] = 'Konfiguratsiya muvaffaqiyatli Yangilangan';
-$lang['SET_DEFAULTS'] = 'Standart sozlamalarni tiklash';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'Forum imkoniyatlari:';
@@ -2259,7 +2097,6 @@ $lang['REG_TORRENTS'] = 'torrent ro\'yxatdan';
 $lang['DISALLOWED'] = 'man';
 $lang['ALLOW_REG_TRACKER'] = 'reyting www.uz .torrents ro\'yxatdan uchun ruxsat forumlar';
 $lang['ALLOW_PORNO_TOPIC'] = 'Mazmunini ocha ruxsat 18+';
-$lang['SHOW_DL_BUTTONS'] = 'qo\'lda o\'zgartirish DL-holati uchun Show tugmalari';
 $lang['SELF_MODERATED'] = 'Foydalanuvchilar yana forumda o\'z mavzularni <b>move</b> mumkin';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'URL e\'lon';
@@ -2331,7 +2168,6 @@ $lang['CRON_LAST_RUN'] = 'Oxirgi ishga tushirish';
 $lang['CRON_NEXT_RUN'] = 'Keyingi Run';
 $lang['CRON_RUN_COUNT'] = 'ishlaydi';
 $lang['CRON_MANAGE'] = 'boshqarish';
-$lang['CRON_OPTIONS'] = 'cron imkoniyatlari';
 $lang['CRON_DISABLED_WARNING'] = 'Ogohlantirish! Cron skriptlarini ishga tushirish o\'chirilgan. Uni yoqish uchun APP_CRON_ENABLED o‘zgaruvchisini o‘rnating.';
 
 $lang['CRON_ENABLED'] = 'cron yoqilgan';
@@ -2343,9 +2179,6 @@ $lang['CRON_RUN'] = 'yugurish';
 $lang['CRON_DEL'] = 'o\'chirish';
 $lang['CRON_DISABLE'] = 'o\'chirib qo\'yish';
 $lang['CRON_ENABLE'] = 'yoqish';
-
-$lang['RUN_MAIN_CRON'] = 'cron boshlash';
-$lang['ADD_JOB'] = 'cron ishi qo\'shish';
 $lang['DELETE_JOB'] = 'Agar cron ishi o\'chirib tashlashga ishonchingiz komilmi?';
 $lang['CRON_WORKS'] = 'Cron hozirda ishlamoqda yoki buzilgan -> ';
 $lang['REPAIR_CRON'] = 'Cron ta\'mirlash';
@@ -2412,13 +2245,9 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'cycle<br />Usually siz bu o\'zgartirish shart e
 
 $lang['TIME_LIMIT'] = 'vaqt limiti';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Keyingi tsikliga o\'tishdan oldin postni qayta ishlash qancha vaqt (soniyada) davom etishi mumkin';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Sizning PHP (xavfsiz rejimda) %s soniya uchun belgilangan, shuning uchun bu qiymatdan pastda bo\'ling</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver tuzilgan %s soniya vaqt tugashi ega, shuning uchun bu value</i> quyida qolish';
 
 $lang['DISABLE_BOARD'] = 'O\'chirish kengashi';
-$lang['DISABLE_BOARD_EXPLAIN'] = 'ishlash paytida taxtasidan o\'chirish uchun yoki yo\'qligini';
-$lang['DISABLE_BOARD_EXPLAIN_ENABLED'] = 'Bu qayta ishlash tugaganidan keyin avtomatik ravishda yoqiladi';
-$lang['DISABLE_BOARD_EXPLAIN_ALREADY'] = '<i>Your kengashi allaqachon disabled</i> emas';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Siz so\'nggi %s kuni post_id da %s (%s qayta xabarlar) ishlash to\'xtadi';
@@ -2440,7 +2269,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Barcha xabarlar muvaffaqiyatli qayta qilindi.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Barcha qidiruv jadvallar muvaffaqiyatli eng etildi.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'ishlash post';
-$lang['PROCESSED_POSTS'] = 'qayta ishlangan Xabarlar';
 $lang['PERCENT'] = 'foiz';
 $lang['CURRENT_SESSION'] = 'joriy sessiya';
 $lang['TOTAL'] = 'jami';
@@ -2455,15 +2283,10 @@ $lang['TIME_FROM_THE_BEGINNING'] = 'boshidan';
 $lang['TIME_AVERAGE'] = 'O\'rtacha boshiga aylanishi';
 $lang['TIME_ESTIMATED'] = 'marraga qadar taxmin';
 
-$lang['DATABASE_SIZE_DETAILS'] = 'Ma\'lumotlar bazasi hajmi details';
-$lang['SIZE_CURRENT'] = 'hozirgi';
 $lang['SIZE_ESTIMATED'] = 'tugagandan so\'ng taxmin';
 $lang['SIZE_SEARCH_TABLES'] = 'Qidiruv Stollar hajmi';
-$lang['SIZE_DATABASE'] = 'ma\'lumotlar bazasi hajmi';
 
-$lang['ACTIVE_PARAMETERS'] = 'Foydalanuvchining barcha e\'lonlar, parametrlari';
 $lang['POSTS_LAST_CYCLE'] = 'O\'tgan tsikli ishlov post (lar)';
-$lang['BOARD_STATUS'] = 'kengashi holati';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Barcha taxmin qiymatlari joriy yakunlandi foizi approximately<br />based hisoblanadi va yakunlandi foiz taxmin qiymatlari haqiqiy bo\'lgan yaqin keladi oshiradi haqiqiy final values.<br />As vakili mumkin emas.';
 
@@ -2537,11 +2360,9 @@ $lang['RELEASES'] = 'relizlar';
 
 $lang['BACK'] = 'orqaga';
 $lang['ERROR_FORM'] = 'noto\'g\'ri sohalar';
-$lang['RELEASE_WELCOME'] = 'Iltimos, chiqarish shaklini to\'ldiring';
 $lang['NEW_RELEASE'] = 'Yangi relizlar';
 $lang['NEXT'] = 'Davom';
 $lang['OTHER'] = 'boshqa';
-$lang['OTHERS'] = 'Boshqalar';
 $lang['ALL'] = 'Hamma';
 
 $lang['TPL_EMPTY_FIELD'] = 'Siz maydonini to\'ldirish kerak <b>%s</b>';
@@ -2601,7 +2422,6 @@ $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'O\'tgan %s da tashrif buyurgan foyd
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'O\'tgan %s dan keyin tashrif buyurgan foydalanuvchilarni qidirish';
 $lang['SEARCH_FOR_LANGUAGE'] = 'ularning tili sifatida %s o\'rnatgan foydalanuvchilar qidirilmoqda';
 $lang['SEARCH_FOR_TIMEZONE'] = 'ularning soat sifatida UTC %s o\'rnatgan foydalanuvchilar qidirilmoqda';
-$lang['SEARCH_FOR_STYLE'] = 'ularning uslubi sifatida %s o\'rnatgan foydalanuvchilar qidirilmoqda';
 $lang['SEARCH_FOR_MODERATORS'] = 'Forum moderator qidirish -> %s';
 $lang['SEARCH_USERS_ADVANCED'] = 'Advanced User Qidiruv';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Ushbu modul mezonlar keng foydalanuvchilar uchun rivojlangan qo\'ng\'iroqlarini amalga oshirish imkonini beradi. butunlay bir-qidiruv variantni tushunish uchun, har bir sohada ostida ta\'rifini o\'qib chiqing.';
@@ -2630,7 +2450,6 @@ $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'turli profili sohalarda asoslangan fo
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Siz ushbu qidiruv variantni foydalanib, ularning so\'nggi kirish sana asoslangan foydalanuvchilar uchun qo\'ng\'iroq qilishingiz mumkin';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Bu ularning Profil ma\'lum bir til tanlangan foydalanuvchilar aks etadi';
 $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'Ularning profili ma\'lum bir vaqt zonasini tanladingiz foydalanuvchilar';
-$lang['SEARCH_USERS_STYLE_EXPLAIN'] = 'muayyan uslub tanladingiz ko\'rsatish foydalanuvchilar.';
 $lang['MODERATORS_OF'] = 'ning Moderatorlar';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'Muayyan forumga Moderatsiya ruxsatiga ega foydalanuvchilarni qidiring. Moderatsiya ruxsatlari foydalanuvchi ruxsatlari yoki to\'g\'ri guruh ruxsatlariga ega bo\'lgan guruhda bo\'lish orqali tan olinadi.';
 

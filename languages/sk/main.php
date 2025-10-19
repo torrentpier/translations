@@ -30,7 +30,6 @@ $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
 $lang['TIME'] = 'Čas';
-$lang['HOURS'] = 'Hodín';
 $lang['MESSAGE'] = 'Správa';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Povolenia';
@@ -89,14 +88,10 @@ $lang['FORUM_INDEX'] = '%s Fórum Index'; // e.g. sitename Forum Index, %s can b
 
 $lang['POST_NEW_TOPIC'] = 'Zakladať nové témy';
 $lang['POST_NEW_RELEASE'] = 'Po novom vydaní';
-$lang['POST_REGULAR_TOPIC'] = 'Post pravidelné témou';
 $lang['REPLY_TO_TOPIC'] = 'Odpovedať na témy';
-$lang['REPLY_WITH_QUOTE'] = 'Odpovedať citovať';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť k téme'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_LOGIN'] = 'Kliknite na tlačidlo %sHere%s skúste to znova';
 $lang['CLICK_RETURN_FORUM'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť do fóra';
-$lang['CLICK_VIEW_MESSAGE'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť ku svojej správe';
 $lang['CLICK_RETURN_MODCP'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť na Moderátora Ovládací Panel';
 $lang['CLICK_RETURN_GROUP'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť do skupiny informácií';
 
@@ -137,7 +132,6 @@ $lang['SEARCH_SELF'] = 'Moje príspevky';
 $lang['SEARCH_SELF_BY_LAST'] = 'posledný príspevok času';
 $lang['SEARCH_SELF_BY_MY'] = 'môj príspevok času';
 $lang['SEARCH_UNANSWERED'] = 'Zobraziť príspevky bez odpovedí';
-$lang['SEARCH_UNANSWERED_SHORT'] = 'bez odpovedí';
 $lang['SEARCH_LATEST'] = 'Najnovšie témy';
 $lang['LATEST_RELEASES'] = 'Najnovšie verzie';
 
@@ -155,9 +149,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nič sa zmenila';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Naši užívatelia zaslali celkom <b>%s</b> témy'; // Number of topics
-$lang['POSTED_ARTICLES_ZERO_TOTAL'] = 'Naši užívatelia zaslali celkom <b>0</b> články'; // Number of posts
 $lang['POSTED_ARTICLES_TOTAL'] = 'Naši užívatelia zaslali celkom <b>%s</b> články'; // Number of posts
-$lang['REGISTERED_USERS_ZERO_TOTAL'] = 'Máme <b>0</b> registrovaných užívateľov'; // # registered users
 $lang['REGISTERED_USERS_TOTAL'] = 'Máme <b>%s</b> registrovaných užívateľov'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Chlapci: <b>%d</b>, Dievčatá: <b>%d</b>, Ostatné: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Najnovším registrovaným užívateľom je <b>%s</b>'; // a href, username, /a
@@ -167,13 +159,9 @@ $lang['TORRENTS_STAT'] = 'Torrenty: <b style="color: blue;">%s</b>,&nbsp; Celkov
 $lang['PEERS_STAT'] = 'Spolužiaci: <b>%s</b>,&nbsp; Sejacie Stroje: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Celková rýchlosť: <b>%s</b>&nbsp;'; // %s = total speed.
 
-$lang['NO_NEW_POSTS_LAST_VISIT'] = 'Žiadne nové príspevky od vašej poslednej návštevy';
 $lang['NO_NEW_POSTS'] = 'Žiadne nové príspevky';
 $lang['NEW_POSTS'] = 'Nové príspevky';
 $lang['NEW_POST'] = 'Nový príspevok';
-$lang['NO_NEW_POSTS_HOT'] = 'Žiadne nové príspevky [ Obľúbené ]';
-$lang['NEW_POSTS_HOT'] = 'Nové príspevky [ Obľúbené ]';
-$lang['NEW_POSTS_LOCKED'] = 'Nové príspevky [ Zamknuté ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Fórum je zamknuté';
 
 // Login
@@ -198,7 +186,6 @@ $lang['PRIVATE_MESSAGES'] = 'Súkromné Správy';
 $lang['WHOSONLINE'] = 'Kto je on-line';
 
 $lang['MARK_ALL_FORUMS_READ'] = 'Vlajka všetky fóra ako prečítané';
-$lang['FORUMS_MARKED_READ'] = 'Všetky fóra označené ako prečítané';
 
 $lang['LATEST_NEWS'] = 'Najnovšie správy';
 $lang['NETWORK_NEWS'] = 'Network news';
@@ -208,7 +195,6 @@ $lang['SUBFORUMS'] = 'Subforums';
 $lang['VIEW_FORUM'] = 'Zobraziť Fórum';
 
 $lang['FORUM_NOT_EXIST'] = 'Fórum ste vybrali neexistuje.';
-$lang['REACHED_ON_ERROR'] = 'Dostali ste sa do tejto stránke chyba.';
 $lang['ERROR_PORNO_FORUM'] = 'Tento typ fóra (18+), bol skrytý vo vašom profile vás';
 
 $lang['DISPLAY_TOPICS'] = 'Zobrazenie témy';
@@ -217,7 +203,6 @@ $lang['MODERATE_FORUM'] = 'Stredne tomto fóre';
 $lang['TITLE_SEARCH_HINT'] = 'vyhľadávanie hlava...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = 'Oznámenie:';
-$lang['TOPIC_STICKY'] = 'Sticky:';
 $lang['TOPIC_MOVED'] = 'Presunuté:';
 $lang['TOPIC_POLL'] = '[ Anketa ]';
 
@@ -245,7 +230,6 @@ $lang['VIEW_TOPIC'] = 'Zobraziť tému';
 $lang['GUEST'] = 'Hosťovské';
 $lang['POST_SUBJECT'] = 'Post subject';
 $lang['SUBMIT_VOTE'] = 'Odoslať hlasovať';
-$lang['VIEW_RESULTS'] = 'Zobrazenie výsledkov';
 
 $lang['NO_NEWER_TOPICS'] = 'Nie sú žiadne novšie témy v tomto fóre';
 $lang['NO_OLDER_TOPICS'] = 'Nie sú staršie témy v tomto fóre';
@@ -257,12 +241,7 @@ $lang['ALL_POSTS'] = 'Všetky Príspevky';
 $lang['NEWEST_FIRST'] = 'Najnovšie Prvý';
 $lang['OLDEST_FIRST'] = 'Najprv Najstaršie';
 
-$lang['BACK_TO_TOP'] = 'Späť na začiatok';
-
 $lang['READ_PROFILE'] = 'Zobraziť profil používateľa';
-$lang['VISIT_WEBSITE'] = 'Navštívte plagátu webové stránky';
-$lang['VIEW_IP'] = 'Zobrazenie plagátu IP adresu';
-$lang['MODERATE_POST'] = 'Stredne príspevky';
 $lang['DELETE_POST'] = 'Vymazať tento príspevok';
 
 $lang['WROTE'] = 'napísal'; // proceeds the username and is followed by the quoted text
@@ -286,7 +265,6 @@ $lang['START_WATCHING_TOPIC'] = 'Postupujte podľa témy pre odpovede';
 $lang['NO_LONGER_WATCHING'] = 'Vy ste už na základe tejto téme';
 $lang['YOU_ARE_WATCHING'] = 'Máte nasledujúce tejto téme teraz';
 
-$lang['TOTAL_VOTES'] = 'Celkom Hlasov';
 $lang['SEARCH_IN_TOPIC'] = 'hľadať v téme...';
 $lang['HIDE_IN_TOPIC'] = 'Skryť';
 
@@ -312,10 +290,6 @@ $lang['POST_A_REPLY'] = 'Po novom odpovedať';
 $lang['POST_TOPIC_AS'] = 'Príspevok témy, ako';
 $lang['EDIT_POST'] = 'Upraviť príspevok';
 $lang['EDIT_TOPIC_TITLE'] = 'Upraviť tému hlava';
-$lang['EDIT_POST_NOT_1'] = 'Nie je povolené, ';
-$lang['EDIT_POST_NOT_2'] = 'Nie je možné ';
-$lang['EDIT_POST_AJAX'] = 'Nemôžete upravovať príspevok stav ';
-$lang['AFTER_THE_LAPSE'] = 'po uplynutí ';
 
 $lang['DONT_MESSAGE_TITLE'] = 'Mali by ste zadať názov správy';
 $lang['INVALID_TOPIC_ID'] = 'Téma Chýba!';
@@ -323,7 +297,6 @@ $lang['INVALID_TOPIC_ID_DB'] = 'Téma neexistuje v databáze!';
 
 $lang['NOT_POST'] = 'Chýba Správy';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Nemôžete upravovať uvoľnenie s stavu';
-$lang['TOR_STATUS_DAYS'] = 'dní';
 
 $lang['OPTIONS'] = 'Možnosti';
 
@@ -352,27 +325,19 @@ $lang['DELETE_OWN_POSTS'] = 'Ospravedlňujeme sa, ale môžete odstrániť iba v
 $lang['CANNOT_DELETE_REPLIED'] = 'Ľutujeme, ale nemôžete vymazať príspevky, ktoré boli odpovedal na';
 $lang['CANNOT_DELETE_POLL'] = 'Ľutujeme, ale nemôžete odstrániť aktívny anketu';
 $lang['EMPTY_POLL_TITLE'] = 'Musíte zadať názov ankety';
-$lang['TO_FEW_POLL_OPTIONS'] = 'Musíte zadať aspoň dve možnosti anketu';
-$lang['TO_MANY_POLL_OPTIONS'] = 'Ste sa pokúšali zadať príliš veľa ankete možnosti';
 $lang['POST_HAS_NO_POLL'] = 'Tento príspevok nemá žiadne ankety';
 $lang['ALREADY_VOTED'] = 'Už ste hlasovali v tejto ankete';
 $lang['NO_VOTE_OPTION'] = 'Musíte zadať možnosť pri hlasovaní';
 $lang['LOCKED_WARN'] = 'Ste vyslaný do zamknuté témy!';
 
 $lang['ADD_POLL'] = 'Pridať anketu';
-$lang['ADD_POLL_EXPLAIN'] = 'Ak nechcete pridať anketu témy, nechajte polia prázdne.';
-$lang['POLL_QUESTION'] = 'Anketa otázka';
 $lang['POLL_OPTION'] = 'Anketa možnosť';
-$lang['ADD_OPTION'] = 'Pridať možnosť';
 $lang['UPDATE'] = 'Aktualizácia';
-$lang['POLL_FOR'] = 'Spustiť anketu pre';
 $lang['DAYS'] = 'Dní';
-$lang['POLL_FOR_EXPLAIN'] = '[ Enter 0 alebo ponechajte prázdne pre nekončiace anketa ]';
 $lang['DELETE_POLL'] = 'Vymazať anketu';
 
 $lang['MAX_SMILIES_PER_POST'] = 'Emotikony limit %s emotikony prekročené.';
 
-$lang['ATTACH_SIGNATURE'] = 'Pripojiť podpis (podpisy môžu byť zmenené v profile)';
 $lang['NOTIFY'] = 'Oznámte mi, ak sú odpovede';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Povoliť robotom indexovať túto tému';
 
@@ -385,31 +350,21 @@ $lang['VOTE_CAST'] = 'Váš hlas bol obsadený.';
 $lang['EMOTICONS'] = 'Emotikony';
 $lang['MORE_EMOTICONS'] = 'Zobraziť viac Smajlíkov';
 
-$lang['FONT_COLOR'] = 'Farba písma';
-$lang['COLOR_DEFAULT'] = 'Predvolený';
 $lang['COLOR_DARK_RED'] = 'Tmavo Červená';
 $lang['COLOR_RED'] = 'Červená';
 $lang['COLOR_ORANGE'] = 'Orange';
 $lang['COLOR_BROWN'] = 'Hnedá';
-$lang['COLOR_YELLOW'] = 'Žltá';
 $lang['COLOR_GREEN'] = 'Zelená';
 $lang['COLOR_OLIVE'] = 'Olivový';
-$lang['COLOR_CYAN'] = 'Azúrová';
 $lang['COLOR_BLUE'] = 'Modrá';
 $lang['COLOR_DARK_BLUE'] = 'Tmavo Modrá';
 $lang['COLOR_INDIGO'] = 'Indigo';
 $lang['COLOR_VIOLET'] = 'Fialová';
-$lang['COLOR_WHITE'] = 'Biela';
-$lang['COLOR_BLACK'] = 'Čierna';
 
-$lang['FONT_SIZE'] = 'Veľkosť písma';
-$lang['FONT_TINY'] = 'Drobná';
 $lang['FONT_SMALL'] = 'Malé';
 $lang['FONT_NORMAL'] = 'Normálna';
 $lang['FONT_LARGE'] = 'Veľká';
 $lang['FONT_HUGE'] = 'Obrovská';
-
-$lang['STYLES_TIP'] = 'Tip: Štýly môžu byť uplatnené rýchlo na vybraný text.';
 
 $lang['NEW_POSTS_PREVIEW'] = 'Téma má nový, upravený alebo neprečítané príspevky';
 
@@ -452,7 +407,6 @@ $lang['SAVE_MESSAGE'] = 'Uložiť Správu';
 $lang['DELETE_MESSAGE'] = 'Vymazať Správu';
 
 $lang['DISPLAY_MESSAGES'] = 'Zobraziť správy'; // Followed by number of days/weeks/months
-$lang['ALL_MESSAGES'] = 'Všetky Správy';
 
 $lang['NO_MESSAGES_FOLDER'] = 'Nie sú žiadne správy v tomto priečinku';
 
@@ -460,9 +414,6 @@ $lang['PM_DISABLED'] = 'Súkromné správy bol zakázaný na tomto fóre.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Ospravedlňujeme sa, ale administrátor má zabrániť vám v odosielaní súkromných správ.';
 $lang['NO_TO_USER'] = 'Musíte zadať meno používateľa, ktorému chcete poslať túto správu.';
 $lang['NO_SUCH_USER'] = 'Ľutujeme, ale žiadne také existuje používateľ.';
-
-$lang['DISABLE_BBCODE_PM'] = 'Vypnúť BBCode v tejto správe';
-$lang['DISABLE_SMILIES_PM'] = 'Vypnúť Smajlíky v tejto správe';
 
 $lang['MESSAGE_SENT'] = '<b>Your správa bola odoslaná.</b>';
 
@@ -476,8 +427,6 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Poslať novú súkromnú správu';
 $lang['SEND_A_REPLY'] = 'Odpovedať na súkromnú správu';
 $lang['EDIT_MESSAGE'] = 'Upraviť súkromnú správu';
 
-$lang['NOTIFICATION_SUBJECT'] = 'Bol prijatý nový súkromný odkaz!';
-
 $lang['FIND_USERNAME'] = 'Nájsť užívateľské meno';
 $lang['SELECT_USERNAME'] = 'Vyberte Meno používateľa';
 $lang['FIND'] = 'Nájsť';
@@ -485,7 +434,6 @@ $lang['NO_MATCH'] = 'Žiadne zápasy našiel.';
 
 $lang['NO_PM_ID'] = 'Uveďte post ID';
 $lang['NO_SUCH_FOLDER'] = 'Priečinok nie je nájdený';
-$lang['NO_FOLDER'] = 'Prosím, zadajte priečinok,';
 
 $lang['MARK_ALL'] = 'Označiť všetky';
 $lang['UNMARK_ALL'] = 'Odznačiť všetko';
@@ -496,8 +444,6 @@ $lang['CONFIRM_DELETE_PMS'] = 'Ste si istý, že chcete vymazať tieto správy?'
 $lang['INBOX_SIZE'] = 'Vaše Prijaté is<br /><b>%d%%</b> full'; // e.g. Your Inbox is 50% full
 $lang['SENTBOX_SIZE'] = 'Vaše Sentbox is<br /><b>%d%%</b> full';
 $lang['SAVEBOX_SIZE'] = 'Vaše Savebox is<br /><b>%d%%</b> full';
-
-$lang['CLICK_VIEW_PRIVMSG'] = 'Kliknite na tlačidlo %sHere%s na návštevu vašej schránky';
 
 $lang['OUTBOX_EXPL'] = '';
 
@@ -512,7 +458,6 @@ $lang['PREFERENCES'] = 'Preferencie';
 $lang['ITEMS_REQUIRED'] = 'Položky označené * sú povinné ak nie je uvedené inak.';
 $lang['REGISTRATION_INFO'] = 'Registračné Informácie';
 $lang['PROFILE_INFO'] = 'Informácie O Profile';
-$lang['PROFILE_INFO_WARN'] = 'Verejne dostupné informácie';
 $lang['AVATAR_PANEL'] = 'Avatar ovládací panel';
 
 $lang['WEBSITE'] = 'Webové stránky';
@@ -520,7 +465,6 @@ $lang['LOCATION'] = 'Umiestnenie';
 $lang['CONTACT'] = 'Kontakt';
 $lang['EMAIL_ADDRESS'] = 'E-mailová adresa';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Poslať súkromnú správu';
-$lang['HIDDEN_EMAIL'] = '[ Skryté ]';
 $lang['INTERESTS'] = 'Záujmy';
 $lang['OCCUPATION'] = 'Zamestnanie';
 $lang['POSTER_RANK'] = 'Plagát hodnosť';
@@ -533,16 +477,9 @@ $lang['SEARCH_USER_POSTS_SHORT'] = 'Nájsť používateľ príspevky';
 $lang['SEARCH_USER_TOPICS'] = 'Nájsť používateľ témy'; // Find all topics by username
 
 $lang['NO_USER_ID_SPECIFIED'] = 'Ospravedlňujeme sa, ale, že užívateľ nebude existovať.';
-$lang['WRONG_PROFILE'] = 'Nemôžete zmeniť profil, ktorý nie je vlastné.';
-
-$lang['ONLY_ONE_AVATAR'] = 'Iba jeden typ avatar môže byť uvedené';
-$lang['FILE_NO_DATA'] = 'Súbor na adresu URL, ktorú dal neobsahuje žiadne údaje';
-$lang['NO_CONNECTION_URL'] = 'Pripojenie nemôže byť vykonané na adresu URL, ktorú dal';
-$lang['INCOMPLETE_URL'] = 'Adresa URL, ktorú ste zadali, je neúplné';
 $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Ospravedlňujeme sa, ale vaše heslo nemôže byť obnovený, pretože vaše konto je v súčasnosti neaktívny';
 $lang['NO_SEND_ACCOUNT'] = 'Ospravedlňujeme sa, ale vaše heslo nemôže byť obnovený. Prosím, kontaktujte fóra administrátora pre viac informácií';
 
-$lang['ALWAYS_ADD_SIG'] = 'Vždy pripojiť môj podpis';
 $lang['HIDE_PORN_FORUMS'] = 'Skryť obsah 18+';
 $lang['ADD_RETRACKER'] = 'Pridať retracker v torrent súbory';
 $lang['ALWAYS_NOTIFY'] = 'Vždy upozorniť ma odpovedí';
@@ -573,9 +510,7 @@ $lang['BIRTHDAY_MIN_AGE'] = 'Minimálny vek';
 $lang['BIRTHDAY_CHECK_DAY'] = 'Dni na kontrolu blížiacich sa narodenín';
 $lang['YEARS'] = 'Rokov';
 
-$lang['NO_THEMES'] = 'Žiadne Témy V databáze';
 $lang['TIMEZONE'] = 'Časové pásmo';
-$lang['DATE_FORMAT_PROFILE'] = 'Formát dátumu';
 $lang['DATE_FORMAT_EXPLAIN'] = 'Syntax používaných je totožné PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> funkciu.';
 $lang['SIGNATURE'] = 'Podpis';
 $lang['SIGNATURE_EXPLAIN'] = 'Tento blok textu, ktoré môžu byť pridané k príspevky, ktoré robíte. Tam je %d znakov, ako je limit';
@@ -600,14 +535,9 @@ $lang['AVATAR_EXPLAIN'] = 'Zobrazí malý grafický obrázok pod vašimi údajmi
 $lang['AVATAR_DELETE'] = 'Vymazať avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar kontroly možnosť disabled za porušenie <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Odovzdanie avatar';
-
-$lang['SELECT_AVATAR'] = 'Vyberte avatar';
 $lang['RETURN_PROFILE'] = 'Návrat do profilu';
-$lang['SELECT_CATEGORY'] = 'Vyberte kategóriu';
-
 $lang['DELETE_IMAGE'] = 'Vymazať snímku';
 $lang['SET_MONSTERID_AVATAR'] = 'Nastaviť avatar MonsterID';
-$lang['CURRENT_IMAGE'] = 'Aktuálny obrázok';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Upozorniť na nové súkromné správy';
 $lang['HIDE_USER'] = 'Skryť svoj stav online';
@@ -616,31 +546,24 @@ $lang['HIDDEN_USER'] = 'Skrytý používateľ';
 $lang['PROFILE_UPDATED'] = 'Váš profil bol aktualizovaný';
 $lang['PROFILE_UPDATED_INACTIVE'] = 'Váš profil bol aktualizovaný. Avšak, ste zmenili dôležité detaily, tak je účet neaktívny teraz. Skontrolujte svoj e-mail, aby zistili, ako na opätovnú aktiváciu vášho účtu, alebo ak admin aktivácia je povinná, počkať na administrátora, ak chcete znova aktivovať.';
 
-$lang['PASSWORD_MISMATCH'] = 'Heslá, ktoré ste zadali, nezodpovedá.';
-$lang['CURRENT_PASSWORD_MISMATCH'] = 'Aktuálne heslo, ktoré ste zadali, sa nezhoduje, že uložené v databáze.';
 $lang['PASSWORD_LONG'] = 'Vaše heslo musí byť dlhšie ako %d znaky a kratšie ako %d znakov.';
-$lang['TOO_MANY_REGISTERS'] = 'Ste urobili príliš veľa registračné pokusy. Prosím, skúste znovu / a neskôr.';
 $lang['USERNAME_TAKEN'] = 'Ospravedlňujeme sa, ale toto užívateľské meno bolo už prijali.';
 $lang['USERNAME_INVALID'] = 'Ospravedlňujeme sa, ale toto užívateľské meno obsahuje neplatný znak';
 $lang['USERNAME_DISALLOWED'] = 'Ospravedlňujeme sa, ale toto užívateľské meno bolo zakázané.';
 $lang['USERNAME_TOO_LONG'] = 'Vaše meno je príliš dlhé.';
 $lang['USERNAME_TOO_SMALL'] = 'Vaše meno je príliš malý.';
 $lang['EMAIL_TAKEN'] = 'Ospravedlňujeme sa, ale, že e-mailová adresa je už zaregistrovaná pre používateľa.';
-$lang['EMAIL_BANNED'] = 'Prepáčte, ale <b>%s</b> adresa bola zakázaná.';
 $lang['EMAIL_INVALID'] = 'Je nám ľúto, ale táto e-mailová adresa je neplatná.';
 $lang['EMAIL_TOO_LONG'] = 'Váš e-mail je príliš dlhé.';
 $lang['SIGNATURE_TOO_LONG'] = 'Váš podpis je príliš dlhé.';
 $lang['SIGNATURE_ERROR_HTML'] = 'Podpis môže obsahovať iba BBCode';
 $lang['FIELDS_EMPTY'] = 'Musíte vyplniť povinné polia.';
 
-$lang['WELCOME_SUBJECT'] = 'Vitajte na %s Fóra'; // Welcome to my.com forums
-$lang['NEW_ACCOUNT_SUBJECT'] = 'Nové používateľské konto';
-$lang['ACCOUNT_ACTIVATED_SUBJECT'] = 'Aktivované Konto';
+$lang['WELCOME_SUBJECT'] = 'Vitajte na %s Fóra';
 
 $lang['ACCOUNT_ADDED'] = 'Ďakujeme za registráciu. Váš účet bol vytvorený. Teraz môžete prihlásiť pomocou svojho používateľského mena a hesla';
 $lang['ACCOUNT_INACTIVE'] = 'Váš účet bol vytvorený. Avšak, toto fórum vyžaduje aktivácie účtu. Aktivačný kľúč, odoslanej na e-mailovú adresu, ktorú ste zadali. Prosím, informujte e-mailom ďalšie informácie';
 $lang['ACCOUNT_ACTIVE'] = 'Váš účet bol práve aktivované. Ďakujeme za registráciu';
-$lang['REACTIVATE'] = 'Aktivovať váš účet!';
 $lang['ALREADY_ACTIVATED'] = 'Už ste sa aktivuje váš účet';
 
 $lang['REGISTRATION'] = 'Registrácia Podmienok Dohody';
@@ -649,15 +572,12 @@ $lang['WRONG_ACTIVATION'] = 'Aktivačný kľúč, ktorý dodáva nezodpovedá ž
 $lang['SEND_PASSWORD'] = 'Mi poslať nové heslo';
 $lang['PASSWORD_UPDATED'] = 'Nové heslo bolo vytvorené; skontrolujte prosím váš e-mail podrobnosti o tom, ako aktivovať.';
 $lang['NO_EMAIL_MATCH'] = 'E-mailovú adresu, ktorú ste zadali, sa nezhoduje uvedené, že užívateľské meno.';
-$lang['NEW_PASSWORD_ACTIVATION'] = 'Nové heslo aktivácia';
 $lang['PASSWORD_ACTIVATED'] = 'Váš účet bol znova aktivovaný. Ak sa chcete prihlásiť, prosím, použite heslo, ktoré dodávajú na e-mail, ktorý ste dostali.';
 
 $lang['SEND_EMAIL_MSG'] = 'Odoslanie e-mailovej správy';
 $lang['NO_USER_SPECIFIED'] = 'Žiadny používateľ nebol zadaný';
-$lang['USER_PREVENT_EMAIL'] = 'Tento používateľ nemá záujem dostávať e-mailom. Skúste im pošlete súkromnú správu.';
 $lang['USER_NOT_EXIST'] = 'Že používateľ neexistuje';
 $lang['EMAIL_MESSAGE_DESC'] = 'Táto správa sa odošle ako obyčajný text, takže sa nemusíte obsahujú akékoľvek HTML alebo BBCode. Návrat adresa tejto správy bude nastavený na vašu e-mailovú adresu.';
-$lang['FLOOD_EMAIL_LIMIT'] = 'Nemôžete odosielať iný e-mail, v tejto dobe. Skúste to znova neskôr.';
 $lang['RECIPIENT'] = 'Príjemca';
 $lang['EMAIL_SENT'] = 'E-mail bol poslaný.';
 $lang['SEND_EMAIL'] = 'Poslať e-mail';
@@ -744,20 +664,12 @@ $lang['GROUP_ADDED'] = 'Boli ste pridaní do tohto usergroup.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Ste už členom tejto skupiny';
 $lang['USER_IS_MEMBER_GROUP'] = '%s je už členom tejto skupiny';
 $lang['USER_IS_MOD_GROUP'] = '%s je moderátorom tejto skupiny';
-$lang['GROUP_TYPE_UPDATED'] = 'Úspešne aktualizované skupiny typu.';
 $lang['EFFECTIVE_DATE'] = 'Dátum Účinnosti';
-
 $lang['COULD_NOT_ADD_USER'] = 'Používateľ ste vybrali neexistuje.';
-$lang['COULD_NOT_ANON_USER'] = 'Nemôžete volať Anonymné, člen skupiny.';
-
-$lang['CONFIRM_UNSUB'] = 'Ste si istý, že chcete zrušiť vyžiadanie z tejto skupiny?';
-$lang['CONFIRM_UNSUB_PENDING'] = 'Vaše predplatné do tejto skupiny zatiaľ nebol schválený; ste si istý, že chcete zrušiť vyžiadanie?';
-
 $lang['UNSUB_SUCCESS'] = 'Boli ste un-vyžiadané z tejto skupiny.';
 
 $lang['APPROVE_SELECTED'] = 'Schvaľuje Vybrané';
 $lang['DENY_SELECTED'] = 'Deny Vybraných';
-$lang['NOT_LOGGED_IN'] = 'Musíte byť prihlásený, aby sa pripojiť k skupine.';
 $lang['REMOVE_SELECTED'] = 'Odstrániť Vybrané';
 $lang['ADD_MEMBER'] = 'Pridať Člena';
 $lang['NOT_GROUP_MODERATOR'] = 'Nie ste v tejto skupine je moderátor, preto nie je možné vykonávať túto činnosť.';
@@ -773,7 +685,6 @@ $lang['NONE'] = 'Žiadne';
 
 $lang['SUBSCRIBE'] = 'Objednať';
 $lang['UNSUBSCRIBE_GROUP'] = 'Odhlásiť';
-$lang['VIEW_INFORMATION'] = 'Zobraziť Informácie';
 $lang['MEMBERS_IN_GROUP'] = 'Členovia skupiny';
 
 // Release Groups
@@ -786,7 +697,6 @@ $lang['MORE_RELEASES'] = 'Nájsť všetky správy skupiny';
 $lang['NOT_A_RELEASE_GROUP'] = 'Táto skupina nie je uvoľnenie skupiny';
 
 // Search
-$lang['SEARCH_ERROR'] = 'V okamihu, vyhľadávače nie je available<br /><br />Try opakovať žiadosť po niekoľkých sekúnd';
 $lang['SEARCH_HELP_URL'] = 'Nápoveď Vyhľadávania';
 $lang['SEARCH_QUERY'] = 'Vyhľadávací Dopyt';
 $lang['SEARCH_OPTIONS'] = 'Možnosti Hľadania';
@@ -798,22 +708,15 @@ $lang['SEARCH_AUTHOR_EXPL'] = 'Použitie * ako zástupný znak pre čiastočné 
 
 $lang['SEARCH_TITLES_ONLY'] = 'Hľadať tému tituly iba';
 $lang['SEARCH_ALL_WORDS'] = 'všetky slová';
-$lang['SEARCH_MY_MSG_ONLY'] = 'Hľadať len v mojich príspevkoch';
 $lang['IN_MY_POSTS'] = 'V moje príspevky';
 $lang['SEARCH_MY_TOPICS'] = 'v moje témy';
 $lang['NEW_TOPICS'] = 'Nové témy';
-
-$lang['RETURN_FIRST'] = 'Prvý návrat'; // followed by xxx characters in a select box
-$lang['CHARACTERS_POSTS'] = 'znaky príspevky';
 
 $lang['SEARCH_PREVIOUS'] = 'Predchádzajúce vyhľadávania';
 
 $lang['SORT_BY'] = 'Zoradiť podľa';
 $lang['SORT_TIME'] = 'Post Čas';
-$lang['SORT_POST_SUBJECT'] = 'Post Subject';
 $lang['SORT_TOPIC_TITLE'] = 'Názov Témy';
-$lang['SORT_AUTHOR'] = 'Autor';
-$lang['SORT_FORUM'] = 'Fórum';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Zobrazenie výsledkov';
 $lang['ALL_AVAILABLE'] = 'Všetky dostupné';
@@ -823,24 +726,18 @@ $lang['NO_SEARCHABLE_FORUMS'] = 'Nemáte povolenia na vyhľadávanie každom fó
 $lang['NO_SEARCH_MATCH'] = 'Žiadne témy alebo príspevky splnené kritériá vyhľadávania';
 $lang['FOUND_SEARCH_MATCH'] = 'Vyhľadávanie nájsť %d zápas'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Vyhľadávanie nájsť %d zápasy'; // e.g. Search found 24 matches
-$lang['TOO_MANY_SEARCH_RESULTS'] = 'Príliš mnoho výsledkov je možné nájsť, skúste byť konkrétnejší,';
 
 $lang['CLOSE_WINDOW'] = 'Zavrieť Okno';
 $lang['CLOSE'] = 'zatvoriť';
 $lang['HIDE'] = 'skryť';
-$lang['SEARCH_TERMS'] = 'Hľadané výrazy';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = 'Ospravedlňujeme sa, ale len %s môžete pozrieť tomto fóre.';
 $lang['SORRY_AUTH_READ'] = 'Ospravedlňujeme sa, ale len %s môžete prečítať témy v tomto fóre.';
-$lang['SORRY_AUTH_POST'] = 'Ospravedlňujeme sa, ale len %s môže písať témy v tomto fóre.';
 $lang['SORRY_AUTH_REPLY'] = 'Ospravedlňujeme sa, ale len %s môžete odpovedať na príspevky v tomto fóre.';
 $lang['SORRY_AUTH_EDIT'] = 'Ospravedlňujeme sa, ale len %s môže upravovať príspevky v tomto fóre.';
 $lang['SORRY_AUTH_DELETE'] = 'Ospravedlňujeme sa, ale len %s môžete vymazať príspevky v tomto fóre.';
-$lang['SORRY_AUTH_VOTE'] = 'Ospravedlňujeme sa, ale len %s môžete hlasovať v anketách v tomto fóre.';
-$lang['SORRY_AUTH_STICKY'] = 'Ospravedlňujeme sa, ale len %s môže písať sticky správy v tomto fóre.';
-$lang['SORRY_AUTH_ANNOUNCE'] = 'Ospravedlňujeme sa, ale len %s môžu písať oznámenia v tomto fóre.';
 
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
@@ -860,8 +757,6 @@ $lang['LAST_UPDATED'] = 'Posledná Aktualizácia:';
 
 // Moderator Control Panel
 $lang['MOD_CP'] = 'Moderátor Ovládací Panel';
-$lang['MOD_CP_EXPLAIN'] = 'Pomocou nižšie uvedeného formulára môžete vykonať hmotnosť moderovanie operácie na tomto fóre. Môžete zablokovať, unlock, presunúť alebo odstrániť akýkoľvek počet tém.';
-
 $lang['SELECT'] = 'Vyberte';
 $lang['DELETE'] = 'Vymazať';
 $lang['MOVE'] = 'Presuňte';
@@ -876,8 +771,6 @@ $lang['TOPICS_UNLOCKED'] = 'Vybrané témy boli odomknuté.';
 $lang['NO_TOPICS_MOVED'] = 'Žiadne témy boli presunuté.';
 
 $lang['CONFIRM_DELETE_TOPIC'] = 'Ste si istý, že chcete odstrániť zvolenú tému/s?';
-$lang['CONFIRM_LOCK_TOPIC'] = 'Ste si istý, že chcete zablokovať vybrané témy/s?';
-$lang['CONFIRM_UNLOCK_TOPIC'] = 'Sú si istí, že chcete odomknúť vybrané témy/s?';
 $lang['CONFIRM_MOVE_TOPIC'] = 'Sú si istí, že chcete presunúť vybrané témy/s?';
 
 $lang['MOVE_TO_FORUM'] = 'Presuňte sa na fóre';
@@ -889,11 +782,7 @@ $lang['FORUM_FOR_NEW_TOPIC'] = 'Fórum pre novú tému';
 $lang['SPLIT_POSTS'] = 'Split vybrané príspevky';
 $lang['SPLIT_AFTER'] = 'Split z vybraných príspevok';
 $lang['TOPIC_SPLIT'] = 'Vybrané témy boli rozdelené úspešne';
-
-$lang['TOO_MANY_ERROR'] = 'Máte vybrané príliš mnoho miest. Môžete vybrať iba jeden post rozdeliť téma po!';
-
 $lang['NONE_SELECTED'] = 'Nemáte žiadny vybraný na vykonanie tejto operácie. Prosím vráťte sa späť a vyberte aspoň jeden.';
-$lang['NEW_FORUM'] = 'Nové fórum';
 
 $lang['THIS_POSTS_IP'] = 'IP adresa na tento príspevok';
 $lang['OTHER_IP_THIS_USER'] = 'Iné IP adresy, tento užívateľ bol vyslaný z';
@@ -999,7 +888,6 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Ospravedlňujeme sa, ale nie ste oprávnený 
 $lang['DESCRIPTION'] = 'Popis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Stiahnuť'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Veľkosť súboru';
-$lang['VIEWED'] = 'Pozrieť';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Rozšírenie \'%s\' bolo deaktivované administrátorom, a preto táto príloha nie je zobrazená.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
@@ -1033,7 +921,6 @@ $lang['FILE_COMMENT'] = 'Súbor Komentár';
 // Posting/PM -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Publikované Prílohy';
 $lang['UPDATE_COMMENT'] = 'Aktualizácia Komentár';
-$lang['DELETE_ATTACHMENTS'] = 'Odstrániť Prílohy';
 $lang['DELETE_ATTACHMENT'] = 'Vymazať Prílohu';
 $lang['DELETE_THUMBNAIL'] = 'Odstrániť Miniatúru';
 $lang['UPLOAD_NEW_VERSION'] = 'Nahrať Novú Verziu';
@@ -1057,10 +944,8 @@ $lang['NO_ATTACHMENT_SELECTED'] = 'Nemáte vybranú prílohu na stiahnutie alebo
 $lang['ERROR_NO_ATTACHMENT'] = 'Vybranú Prílohu neexistuje už';
 
 // Delete Attachments
-$lang['CONFIRM_DELETE_ATTACHMENTS'] = 'Ste si istý, že chcete odstrániť vybranú Prílohu?';
 $lang['DELETED_ATTACHMENTS'] = 'Vybrané Prílohy boli odstránené.';
 $lang['ERROR_DELETED_ATTACHMENTS'] = 'Nemohol odstrániť Prílohy.';
-$lang['CONFIRM_DELETE_PM_ATTACHMENTS'] = 'Ste si istý, že chcete vymazať všetky Prílohy zverejnené v tejto PM?';
 
 // General Error Messages
 $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Príloha Funkcia je vypnutá.';
@@ -1077,14 +962,10 @@ $lang['GB'] = 'GB';
 $lang['ATTACH_SEARCH_QUERY'] = 'Vyhľadávanie Prílohy';
 $lang['TEST_SETTINGS'] = 'Test Nastavenia';
 $lang['NOT_ASSIGNED'] = 'Not Assigned';
-$lang['NO_FILE_COMMENT_AVAILABLE'] = 'Žiadny Súbor Komentár k dispozícii';
-$lang['ATTACHBOX_LIMIT'] = 'Vaše Attachbox is<br /><b>%d%%</b> full';
-$lang['UNLIMITED'] = 'Neobmedzený';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrovaná';
 $lang['BT_REG_NO'] = 'Nie je registrovaná';
-$lang['BT_ADDED'] = 'Pridané';
 $lang['BT_REG_ON_TRACKER'] = 'Zaregistrujte sa na tracker';
 $lang['BT_REG_FAIL'] = 'Nemohol zaregistrovať torrent na tracker';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Ďalší torrent s rovnakým info_hash už <a href="%s"><b>registered</b></a>';
@@ -1098,9 +979,6 @@ $lang['BT_FLIST_CREATION_DATE'] = 'Dátum vytvorenia';
 $lang['BT_IS_PRIVATE'] = 'Súkromný torrent';
 $lang['BT_FLIST_FILE_PATH'] = 'Cesta (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'Hashy súborov | .torrent meta-informácie';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Zoznam vyhlasovateľov';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Vyhlasovatelia';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Tento zoznam obsahuje vyhlasovateľov súboru torrent';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Odstrániť z tracker';
 $lang['BT_UNREGISTERED'] = 'Torrent neregistrovaný';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrent už bol zrušený';
@@ -1175,9 +1053,7 @@ $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The informá
 
 $lang['BT_TOPIC_TITLE'] = 'Názov témy';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Semeno naposledy videný';
-$lang['BT_SORT_FORUM'] = 'Fórum';
 $lang['SIZE'] = 'Veľkosť';
-$lang['PIECE_LENGTH'] = 'Kus dĺžka';
 $lang['COMPLETED'] = 'Dokončené sťahovanie';
 $lang['ADDED'] = 'Pridané';
 $lang['DELETE_TORRENT'] = 'Vymazať torrent';
@@ -1273,7 +1149,6 @@ $lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registrácia torrenty povolené, len z prv
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Nemohol zaregistrovať torrent v tomto fóre';
 $lang['ALREADY_REG'] = 'Torrent je už registrovaná';
 $lang['NOT_TORRENT'] = 'Tento súbor nie je torrent';
-$lang['ONLY_1_TOR_PER_POST'] = 'Môžete sa zaregistrovať iba jeden torrent v jednom príspevku';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Môžete sa zaregistrovať iba jeden torrent v jednej témy';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrentový profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktívne torrenty';
@@ -1336,7 +1211,6 @@ $lang['HIDDEN'] = 'Skryté';
 // from admin
 $lang['NOT_ADMIN'] = 'Nie ste oprávnený spravovať túto dosku';
 
-$lang['COOKIES_REQUIRED'] = 'Cookies musia byť povolené!';
 $lang['SESSION_EXPIRED'] = 'Relácia skončila';
 
 // Sort memberlist per letter
@@ -1372,11 +1246,8 @@ $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Pridať bot-správa o rozdeliť na <b>new top
 $lang['QUICK_REPLY'] = 'Rýchla Odpoveď';
 $lang['INS_NAME_TIP'] = 'Vložiť meno alebo vybratý text.';
 $lang['QUOTE_SELECTED'] = 'Citát vybraných';
-$lang['QR_ATTACHSIG'] = 'Pripojiť podpis';
 $lang['QR_NOTIFY'] = 'Upozorniť na odpovede';
-$lang['QR_DISABLE'] = 'Vypnúť';
 $lang['QR_USERNAME'] = 'Názov';
-$lang['NO_TEXT_SEL'] = 'Vyberte text kdekoľvek na stránku a skúste to znova';
 $lang['QR_FONT_SEL'] = 'Písmo';
 $lang['QR_COLOR_SEL'] = 'Farba písma';
 $lang['QR_SIZE_SEL'] = 'Veľkosť písma';
@@ -1419,9 +1290,7 @@ $lang['TORHELP_TITLE'] = 'Pomôžte, prosím, zdieľať, tieto torrenty!';
 $lang['STATISTICS'] = 'Štatistiky';
 $lang['STATISTIC'] = 'Štatistika';
 $lang['VALUE'] = 'Hodnota';
-$lang['INVERT_SELECT'] = 'Invertovať výber';
 $lang['STATUS'] = 'Stav';
-$lang['LAST_CHANGED_BY'] = 'Naposledy zmenené';
 $lang['CHANGES'] = 'Zmeny';
 $lang['ACTION'] = 'Akcia';
 $lang['REASON'] = 'Dôvod';
@@ -1508,9 +1377,6 @@ $lang['CHOOSE_PASS_OK'] = 'Heslá zápas';
 $lang['CHOOSE_PASS_REG_OK'] = 'Heslá zápas, môžete pristúpiť k registrácii';
 $lang['CHOOSE_PASS_FAILED'] = 'Pre zmenu hesla je nutné správne zadať aktuálne heslo';
 $lang['EMAILER_DISABLED'] = 'Ospravedlňujeme sa, táto funkcia je dočasne nefunguje';
-$lang['TERMS_ON'] = 'Súhlasím s tým, aby tieto obchodné podmienky';
-$lang['TERMS_OFF'] = 'Som nesúhlasíte s týmito podmienkami,';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Na registráciu je potrebné povoliť JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Registrácia je aktuálne uzavretá<br /><br />Registrácia je k dispozícii od: %s<br />Aktuálny čas servera: %s<br /><br />Ospravedlňujeme sa za spôsobené nepríjemnosti";
 $lang['AUTOCOMPLETE'] = 'Generovať heslo';
 $lang['YOUR_NEW_PASSWORD'] = 'Sú vaše nové heslo:';
@@ -1535,7 +1401,6 @@ $lang['WHAT_IS_A_TORRENT'] = 'Čo je torrent?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Hodnotenia a Obmedzenia';
 
 $lang['SCREENSHOTS_RULES'] = 'Prečítajte si pravidlá stanovené screenshoty!';
-$lang['SCREENSHOTS_RULES_TOPIC'] = 'Prečítajte si pravidlá stanovené obrázky v tejto sekcii!';
 $lang['AJAX_EDIT_OPEN'] = 'Už ste otvorili jednu rýchlu úpravu!';
 $lang['GO_TO_PAGE'] = 'Prejsť na stránku ...';
 $lang['EDIT'] = 'Upraviť';
@@ -1655,8 +1520,6 @@ $lang['ADD_NEW'] = 'Pridať';
 $lang['CRON'] = 'Plánovač úloh (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Prebudovať indexu vyhľadávania';
 $lang['FORUM_CONFIG'] = 'Fórum nastavenia';
-$lang['TRACKER_CONFIG'] = 'Tracker nastavenia';
-$lang['RELEASE_TEMPLATES'] = 'Uvoľnenie Šablóny';
 $lang['ACTIONS_LOG'] = 'Správa o činnosti';
 
 // Migrations
@@ -1787,12 +1650,7 @@ $lang['AUTH_DOWNLOAD'] = 'Súbory Na Stiahnutie';
 $lang['USER_LEVEL'] = 'Úroveň Užívateľa';
 $lang['AUTH_USER'] = 'Používateľ';
 $lang['AUTH_ADMIN'] = 'Administrátor';
-$lang['GROUP_MEMBERSHIPS'] = 'Usergroup členstvo';
-$lang['USERGROUP_MEMBERS'] = 'Táto kategória má nasledovných členov';
-
 $lang['FORUM_AUTH_UPDATED'] = 'Fórum povolenia boli aktualizované';
-$lang['USER_AUTH_UPDATED'] = 'Používateľ povolenia boli aktualizované';
-$lang['GROUP_AUTH_UPDATED'] = 'Povolenia skupiny boli aktualizované';
 
 $lang['AUTH_UPDATED'] = 'Povolenia boli aktualizované';
 $lang['AUTH_GENERAL_ERROR'] = 'Nepodarilo sa aktualizovať stav administrátora';
@@ -1860,13 +1718,11 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Ako dlho je autologin kľúč je platný v dn
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Fórum Správy';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Z tohto panelu môžete pridať, odstrániť, upraviť, re-objednávky a znovu synchronizovať kategórie a fórach';
 $lang['EDIT_FORUM'] = 'Upraviť fórum';
 $lang['CREATE_FORUM'] = 'Vytvoriť nové fórum';
 $lang['CREATE_SUB_FORUM'] = 'Vytvoriť subfórum';
 $lang['CREATE_CATEGORY'] = 'Vytvorenie novej kategórie';
 $lang['REMOVE'] = 'Odstrániť';
-$lang['UPDATE_ORDER'] = 'Aktualizácia Objednávky';
 $lang['CONFIG_UPDATED'] = 'Fórum Konfigurácia Bol Úspešne Aktualizovaný';
 $lang['MOVE_UP'] = 'Posunúť hore';
 $lang['MOVE_DOWN'] = 'Presunúť dole';
@@ -1889,7 +1745,6 @@ $lang['FORUM_STATUS'] = 'Fórum stav';
 $lang['FORUM_PRUNING'] = 'Auto-prerezávanie';
 
 $lang['PRUNE_DAYS'] = 'Odstraňovať témy, ktoré neboli publikované v';
-$lang['SET_PRUNE_DATA'] = 'Máte zapnuté automatické prerezávať pre toto fórum, ale nebol nastavený počet dní, prerezávať. Prosím vráťte sa späť a tak.';
 
 $lang['MOVE_AND_DELETE'] = 'Pohyb a Vymazať';
 
@@ -1946,7 +1801,6 @@ $lang['LOOK_UP_USER'] = 'Vyhľadať užívateľa';
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Skupina Správy';
 $lang['GROUP_ADMIN_EXPLAIN'] = 'Z tohto panelu môžete spravovať všetky vaše usergroups. Môžete vymazať, vytváranie a úprava existujúcich skupín. Môžete si vybrať moderátori, prepnúť otvorené/zatvorené stave skupiny a nastaviť názov skupiny a popis';
-$lang['ERROR_UPDATING_GROUPS'] = 'Došlo k chybe pri aktualizácii skupiny';
 $lang['UPDATED_GROUP'] = 'Skupina bola úspešne aktualizovaný';
 $lang['ADDED_NEW_GROUP'] = 'Nová skupina bola vytvorená úspešne';
 $lang['DELETED_GROUP'] = 'Skupina bola úspešne odstránený';
@@ -1955,8 +1809,6 @@ $lang['EDIT_GROUP'] = 'Upraviť skupiny';
 $lang['GROUP_STATUS'] = 'Skupina stav';
 $lang['GROUP_DELETE'] = 'Vymazať skupinu';
 $lang['GROUP_DELETE_CHECK'] = 'Zrušiť túto skupinu';
-$lang['SUBMIT_GROUP_CHANGES'] = 'Odoslať Zmeny';
-$lang['RESET_GROUP_CHANGES'] = 'Reset Zmeny';
 $lang['NO_GROUP_NAME'] = 'Musíte zadať meno pre túto skupinu';
 $lang['NO_GROUP_MODERATOR'] = 'Musíte zadať moderátor pre túto skupinu';
 $lang['NO_GROUP_MODE'] = 'Musíte zadať režim pre túto skupinu, otvorené alebo zatvorené';
@@ -1974,7 +1826,6 @@ $lang['DO_PRUNE'] = 'Robiť Slivka';
 $lang['ALL_FORUMS'] = 'Všetky Fóra';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Slivka témy bez odpovede v tejto mnoho dní';
 $lang['TOPICS_PRUNED'] = 'Témy vyradiť,';
-$lang['POSTS_PRUNED'] = 'Príspevky zmazané';
 $lang['PRUNE_SUCCESS'] = 'Fórum bolo zmazané úspešne';
 $lang['NOT_DAYS'] = 'Slivka dní nie vybraných';
 
@@ -1985,7 +1836,6 @@ $lang['WORD'] = 'Slovo';
 $lang['EDIT_WORD_CENSOR'] = 'Upraviť slovo cenzurovať';
 $lang['REPLACEMENT'] = 'Náhradné';
 $lang['ADD_NEW_WORD'] = 'Chcete pridať nové slovo';
-$lang['UPDATE_WORD'] = 'Aktualizácia slovo cenzurovať';
 
 $lang['MUST_ENTER_WORD'] = 'Musíte zadať slovo a jeho nahradenie';
 $lang['NO_WORD_SELECTED'] = 'Žiadne slovo vybrané pre úpravu';
@@ -2005,9 +1855,6 @@ $lang['ALL_USERS'] = 'Všetci Užívatelia';
 
 $lang['MASS_EMAIL_MESSAGE_TYPE'] = 'Typ e-mailu';
 
-$lang['EMAIL_SUCCESSFULL'] = 'Vaša správa bola odoslaná';
-$lang['CLICK_RETURN_MASSEMAIL'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť na Hromadné e-mailový formulár';
-
 // Ranks admin
 $lang['RANKS_TITLE'] = 'Rank Správy';
 $lang['RANKS_EXPLAIN'] = 'Pomocou tohto formulára môžete pridať, upraviť, zobraziť alebo vymazať v radoch. Môžete vytvoriť aj vlastné radov, ktoré sa môžu aplikovať na používateľské cez užívateľské facility management';
@@ -2020,7 +1867,6 @@ $lang['RANK_IMAGE'] = 'Rank Obrázok';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Použite tento, ak chcete definovať malý obrázok spojené s hodnosti';
 
 $lang['MUST_SELECT_RANK'] = 'Musíte vybrať hodnosť';
-$lang['NO_ASSIGNED_RANK'] = 'Žiadne špeciálne rank pripísané';
 
 $lang['RANK_UPDATED'] = 'Hodnosť bol úspešne aktualizovaný';
 $lang['RANK_ADDED'] = 'Hodnosť bol úspešne pridaný';
@@ -2093,7 +1939,6 @@ $lang['SYNC'] = 'Synchronizácia';
 $lang['MAX_NEWS_TITLE'] = 'Max. dĺžka novinky';
 $lang['NEWS_COUNT'] = 'Koľko novinky zobraziť';
 $lang['NEWS_FORUM_ID'] = 'Z ktorých fór zobraziť <br /> <h6>Pre niekoľko fór uveďte ID oddelené čiarkami. Príklad: 1,2,3</h6>';
-$lang['NOAVATAR'] = 'Žiadny avatar';
 $lang['TRACKER_STATS'] = 'Štatistické údaje o tracker';
 $lang['WHOIS_INFO'] = 'Informácie o IP adresu';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Zobraziť na moderátorov index.php';
@@ -2145,10 +1990,6 @@ $lang['DISABLE_MOD'] = 'Vypnúť Prílohu Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Táto možnosť je určená hlavne pre testovanie nových šablón alebo témy, to zakáže všetky Prílohy Funkcie okrem Admin Panelu.';
 $lang['PM_ATTACHMENTS'] = 'Povoliť Prílohy v Súkromných Správ';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Povoliť/Zakázať pripojenie súborov do Súkromných Správ.';
-
-// Attachments -> Sync
-$lang['SYNC_TOPICS'] = 'Synchronizácia Témy';
-$lang['SYNC_POSTS'] = 'Synchronizácia Príspevky';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Spravovať Rozšírenia';
@@ -2234,8 +2075,6 @@ $lang['SORT_POSTTIME'] = 'Post Čas';
 // View Types
 $lang['VIEW_STATISTIC'] = 'Štatistiky';
 $lang['VIEW_SEARCH'] = 'Vyhľadávanie';
-$lang['VIEW_USERNAME'] = 'Užívateľské meno';
-$lang['VIEW_ATTACHMENTS'] = 'Prílohy';
 
 // Successfully updated
 $lang['ATTACH_CONFIG_UPDATED'] = 'Príloha Konfigurácia úspešne aktualizovaný';
@@ -2249,7 +2088,6 @@ $lang['EXTENSION'] = 'Rozšírenie';
 
 $lang['RETURN_CONFIG'] = '%sReturn na Configuration%s';
 $lang['CONFIG_UPD'] = 'Konfigurácia Úspešne Aktualizovaný';
-$lang['SET_DEFAULTS'] = 'Restore defaults';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'Fórum možnosti:';
@@ -2259,7 +2097,6 @@ $lang['REG_TORRENTS'] = 'Zaregistrovať torrenty';
 $lang['DISALLOWED'] = 'Zakázané';
 $lang['ALLOW_REG_TRACKER'] = 'Povolené fóra pre registráciu .torrenty na tracker';
 $lang['ALLOW_PORNO_TOPIC'] = 'Dovolené zverejňovať obsah 18+';
-$lang['SHOW_DL_BUTTONS'] = 'Zobraziť tlačidlá pre manuálne zmena DL-stav';
 $lang['SELF_MODERATED'] = 'Používatelia môžu <b>move</b> ich témy do iného fóra';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Oznamujeme URL';
@@ -2331,7 +2168,6 @@ $lang['CRON_LAST_RUN'] = 'Naposledy Spustené';
 $lang['CRON_NEXT_RUN'] = 'Ďalší Beh';
 $lang['CRON_RUN_COUNT'] = 'Beží';
 $lang['CRON_MANAGE'] = 'Správa';
-$lang['CRON_OPTIONS'] = 'Cron možnosti';
 $lang['CRON_DISABLED_WARNING'] = 'POZOR! Spúšťanie cron skriptov je zakázané. Ak ju chcete povoliť, nastavte premennú APP_CRON_ENABLED.';
 
 $lang['CRON_ENABLED'] = 'Cron povolené';
@@ -2343,9 +2179,6 @@ $lang['CRON_RUN'] = 'Spustiť';
 $lang['CRON_DEL'] = 'Vymazať';
 $lang['CRON_DISABLE'] = 'Vypnúť';
 $lang['CRON_ENABLE'] = 'Zapnúť';
-
-$lang['RUN_MAIN_CRON'] = 'Štart cron';
-$lang['ADD_JOB'] = 'Pridať cronu';
 $lang['DELETE_JOB'] = 'Ste si istý, že chcete vymazať cronu?';
 $lang['CRON_WORKS'] = 'Cron aktuálne funguje alebo je rozbitý -> ';
 $lang['REPAIR_CRON'] = 'Opravy Cron';
@@ -2412,13 +2245,9 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Koľko času (svs) na pobyt v nečinnosti pred 
 
 $lang['TIME_LIMIT'] = 'Lehota';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Koľko času (svs) post spracovanie môže trvať, než sa presťahoval do ďalšieho cyklu';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Váš PHP (safe mode) má časový limit %s sekúnd nastavený, preto sa držte pod touto hodnotou</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver má časový limit %s sekúnd nakonfigurovaný, aby pobyt pod týmto value</i>';
 
 $lang['DISABLE_BOARD'] = 'Vypnúť rada';
-$lang['DISABLE_BOARD_EXPLAIN'] = 'Či alebo nie, ak chcete vypnúť vaše rady pri spracovaní';
-$lang['DISABLE_BOARD_EXPLAIN_ENABLED'] = 'To sa zapne automaticky po ukončení spracovania';
-$lang['DISABLE_BOARD_EXPLAIN_ALREADY'] = '<i>Your palube je už disabled</i>';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Ste naposledy zastavili spracovanie na post_id %s (%s spracované príspevky) na %s';
@@ -2440,7 +2269,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Všetky príspevky boli úspešne spracovaná.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Všetky vyhľadávacie tabuľky boli úspešne optimalizované.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Spracovanie príspevku';
-$lang['PROCESSED_POSTS'] = 'Spracované Príspevky';
 $lang['PERCENT'] = 'Percent';
 $lang['CURRENT_SESSION'] = 'Aktuálnej Relácie';
 $lang['TOTAL'] = 'Celkom';
@@ -2455,15 +2283,10 @@ $lang['TIME_FROM_THE_BEGINNING'] = 'Od začiatku';
 $lang['TIME_AVERAGE'] = 'Priemer za cyklus';
 $lang['TIME_ESTIMATED'] = 'Odhaduje sa, kým povrch';
 
-$lang['DATABASE_SIZE_DETAILS'] = 'Veľkosť databázy podrobnosti';
-$lang['SIZE_CURRENT'] = 'Aktuálna';
 $lang['SIZE_ESTIMATED'] = 'Odhaduje po dokončiť';
 $lang['SIZE_SEARCH_TABLES'] = 'Vyhľadávanie Tabuliek veľkosť';
-$lang['SIZE_DATABASE'] = 'Veľkosť databázy';
 
-$lang['ACTIVE_PARAMETERS'] = 'Aktívne parametre';
 $lang['POSTS_LAST_CYCLE'] = 'Spracované post(s) v poslednom cykle';
-$lang['BOARD_STATUS'] = 'Rada stav';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Všetky odhadované hodnoty sú vypočítané approximately<br />based na aktuálnej ukončené percent a nemusí predstavujú skutočné konečné hodnoty.<br />As vyplnený percent zvyšuje odhadované hodnoty príde bližšie k skutočnej ty.';
 
@@ -2537,11 +2360,9 @@ $lang['RELEASES'] = 'Uvoľňovanie';
 
 $lang['BACK'] = 'Späť';
 $lang['ERROR_FORM'] = 'Neplatné polia';
-$lang['RELEASE_WELCOME'] = 'Vyplňte formulár na uvoľnenie';
 $lang['NEW_RELEASE'] = 'Nové vydanie';
 $lang['NEXT'] = 'Pokračovať';
 $lang['OTHER'] = 'Iné';
-$lang['OTHERS'] = 'Ostatné';
 $lang['ALL'] = 'Všetky';
 
 $lang['TPL_EMPTY_FIELD'] = 'Musíte vyplniť pole <b>%s</b>';
@@ -2601,7 +2422,6 @@ $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Vyhľadávanie pre užívateľov, k
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Vyhľadávanie pre užívateľov, ktorí navštívili po poslednom %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Vyhľadávanie pre užívateľov, ktorí majú nastavené %s ako ich jazyku';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Vyhľadávanie pre užívateľov, ktorí majú nastavený UTC %s ako ich časové pásmo';
-$lang['SEARCH_FOR_STYLE'] = 'Vyhľadávanie pre užívateľov, ktorí majú nastavené %s ako ich štýl';
 $lang['SEARCH_FOR_MODERATORS'] = 'Vyhľadávanie pre moderátorov Fóra -> %s';
 $lang['SEARCH_USERS_ADVANCED'] = 'Pre Pokročilého Používateľa Vyhľadávanie';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Tento Modul vám umožní vykonávať rozšírené vyhľadávania pre užívateľov na širokú škálu kritérií. Prosím, prečítajte si popis pod každého poľa, aby pochopili každú možnosť vyhľadávania úplne.';
@@ -2630,7 +2450,6 @@ $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Vyhľadávanie pre používateľov na
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Môžete vyhľadávať užívateľom na základe ich posledného prihlásenia dátum pomocou tejto možnosť vyhľadávania';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Táto možnosť zobrazí používateľov, ktorým vybrali konkrétny jazyk v ich Profile';
 $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'Užívatelia, ktorí si vybrali konkrétne časové pásmo v ich profile';
-$lang['SEARCH_USERS_STYLE_EXPLAIN'] = 'Zobrazenie používateľov, ktorí si vybrali konkrétny štýl.';
 $lang['MODERATORS_OF'] = 'Moderátori';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'Vyhľadajte používateľov s oprávnením na moderovanie v konkrétnom fóre. Povolenia na moderovanie sú uznané buď používateľskými povoleniami, alebo tým, že sú v skupine so správnymi skupinovými povoleniami.';
 

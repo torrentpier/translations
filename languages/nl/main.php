@@ -30,7 +30,6 @@ $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Auteur';
 $lang['TIME'] = 'Tijd';
-$lang['HOURS'] = 'Uur';
 $lang['MESSAGE'] = 'Bericht';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Machtigingen';
@@ -89,14 +88,10 @@ $lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be
 
 $lang['POST_NEW_TOPIC'] = 'Nieuw onderwerp plaatsen';
 $lang['POST_NEW_RELEASE'] = 'Post nieuwe release';
-$lang['POST_REGULAR_TOPIC'] = 'Post regelmatig onderwerp';
 $lang['REPLY_TO_TOPIC'] = 'Reageer op dit onderwerp';
-$lang['REPLY_WITH_QUOTE'] = 'Antwoord met citaat';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Klik op %sHere%s om terug te keren naar het onderwerp'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_LOGIN'] = 'Klik op %sHere%s te probeer het opnieuw';
 $lang['CLICK_RETURN_FORUM'] = 'Klik op %sHere%s om terug te keren naar het forum';
-$lang['CLICK_VIEW_MESSAGE'] = 'Klik op %sHere%s om terug te keren naar uw bericht';
 $lang['CLICK_RETURN_MODCP'] = 'Klik op %sHere%s om terug te keren naar Moderator Controle Paneel';
 $lang['CLICK_RETURN_GROUP'] = 'Klik op %sHere%s om terug te keren naar groep informatie';
 
@@ -137,7 +132,6 @@ $lang['SEARCH_SELF'] = 'Mijn berichten';
 $lang['SEARCH_SELF_BY_LAST'] = 'laatste bericht tijd';
 $lang['SEARCH_SELF_BY_MY'] = 'mijn post tijd';
 $lang['SEARCH_UNANSWERED'] = 'Bekijk onbeantwoorde berichten';
-$lang['SEARCH_UNANSWERED_SHORT'] = 'onbeantwoorde';
 $lang['SEARCH_LATEST'] = 'Laatste onderwerpen';
 $lang['LATEST_RELEASES'] = 'Nieuwste releases';
 
@@ -155,9 +149,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Niets is gewijzigd';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Onze gebruikers hebben geplaatst, van een totaal van <b>%s</b> onderwerpen'; // Number of topics
-$lang['POSTED_ARTICLES_ZERO_TOTAL'] = 'Onze gebruikers hebben geplaatst, van een totaal van <b>0</b> artikelen'; // Number of posts
 $lang['POSTED_ARTICLES_TOTAL'] = 'Onze gebruikers hebben geplaatst, van een totaal van <b>%s</b> artikelen'; // Number of posts
-$lang['REGISTERED_USERS_ZERO_TOTAL'] = 'We hebben <b>0</b> geregistreerde gebruikers'; // # registered users
 $lang['REGISTERED_USERS_TOTAL'] = 'We hebben <b>%s</b> geregistreerde gebruikers'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Jongens: <b>%d</b>, Meisjes: <b>%d</b>, Anderen: <b>%d</b>';
 $lang['NEWEST_USER'] = 'De nieuwste geregistreerde gebruiker is <b>%s</b>'; // a href, username, /a
@@ -167,13 +159,9 @@ $lang['TORRENTS_STAT'] = 'Torrents: <b style="color: blue;">%s</b>,&nbsp; Totale
 $lang['PEERS_STAT'] = 'Peers: <b>%s</b>,&nbsp; Seeders: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Totale snelheid: <b>%s</b>&nbsp;'; // %s = total speed.
 
-$lang['NO_NEW_POSTS_LAST_VISIT'] = 'Geen nieuwe berichten sinds uw laatste bezoek';
 $lang['NO_NEW_POSTS'] = 'Geen nieuwe posts';
 $lang['NEW_POSTS'] = 'Nieuwe berichten';
 $lang['NEW_POST'] = 'Nieuwe post';
-$lang['NO_NEW_POSTS_HOT'] = 'Geen nieuwe berichten [ Populair ]';
-$lang['NEW_POSTS_HOT'] = 'Nieuwe berichten [ Populair ]';
-$lang['NEW_POSTS_LOCKED'] = 'Nieuwe berichten [ Locked ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum is gesloten';
 
 // Login
@@ -198,7 +186,6 @@ $lang['PRIVATE_MESSAGES'] = 'Prive Berichten';
 $lang['WHOSONLINE'] = 'Wie is online';
 
 $lang['MARK_ALL_FORUMS_READ'] = 'Vlag alle forums als gelezen';
-$lang['FORUMS_MARKED_READ'] = 'Alle fora gemarkeerd als gelezen';
 
 $lang['LATEST_NEWS'] = 'Laatste nieuws';
 $lang['NETWORK_NEWS'] = 'Netwerk-nieuws';
@@ -208,7 +195,6 @@ $lang['SUBFORUMS'] = 'Subforums';
 $lang['VIEW_FORUM'] = 'Bekijk Forum';
 
 $lang['FORUM_NOT_EXIST'] = 'Het forum die u hebt geselecteerd niet bestaat.';
-$lang['REACHED_ON_ERROR'] = 'U bereikt deze pagina in de fout.';
 $lang['ERROR_PORNO_FORUM'] = 'Dit soort forums (18+) was verborgen in uw profiel u';
 
 $lang['DISPLAY_TOPICS'] = 'Display onderwerpen';
@@ -217,7 +203,6 @@ $lang['MODERATE_FORUM'] = 'Matige dit forum';
 $lang['TITLE_SEARCH_HINT'] = 'zoeken op titel...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = 'Aankondiging:';
-$lang['TOPIC_STICKY'] = 'Sticky:';
 $lang['TOPIC_MOVED'] = 'Verplaatst:';
 $lang['TOPIC_POLL'] = '[ Poll ]';
 
@@ -245,7 +230,6 @@ $lang['VIEW_TOPIC'] = 'Bekijk onderwerp';
 $lang['GUEST'] = 'Gast';
 $lang['POST_SUBJECT'] = 'Post subject';
 $lang['SUBMIT_VOTE'] = 'Verzend stem';
-$lang['VIEW_RESULTS'] = 'Bekijk de resultaten';
 
 $lang['NO_NEWER_TOPICS'] = 'Er zijn geen nieuwere topics in dit forum';
 $lang['NO_OLDER_TOPICS'] = 'Er zijn geen oudere topics in dit forum';
@@ -257,12 +241,7 @@ $lang['ALL_POSTS'] = 'Alle Berichten';
 $lang['NEWEST_FIRST'] = 'Nieuwste Eerst';
 $lang['OLDEST_FIRST'] = 'Oudste Eerst';
 
-$lang['BACK_TO_TOP'] = 'Terug naar boven';
-
 $lang['READ_PROFILE'] = 'Bekijk het profiel van de gebruiker';
-$lang['VISIT_WEBSITE'] = 'Bezoek poster website';
-$lang['VIEW_IP'] = 'Bekijk de poster IP-adres';
-$lang['MODERATE_POST'] = 'Matige berichten';
 $lang['DELETE_POST'] = 'Verwijder deze post';
 
 $lang['WROTE'] = 'schreef'; // proceeds the username and is followed by the quoted text
@@ -286,7 +265,6 @@ $lang['START_WATCHING_TOPIC'] = 'Volg het onderwerp voor de antwoorden';
 $lang['NO_LONGER_WATCHING'] = 'U bent niet langer volgt dit onderwerp';
 $lang['YOU_ARE_WATCHING'] = 'U volgt dit onderwerp nu';
 
-$lang['TOTAL_VOTES'] = 'Totaal Stemmen';
 $lang['SEARCH_IN_TOPIC'] = 'zoeken in het onderwerp...';
 $lang['HIDE_IN_TOPIC'] = 'Verbergen';
 
@@ -312,10 +290,6 @@ $lang['POST_A_REPLY'] = 'Post nieuwe antwoorden';
 $lang['POST_TOPIC_AS'] = 'Bericht onderwerp';
 $lang['EDIT_POST'] = 'Edit post';
 $lang['EDIT_TOPIC_TITLE'] = 'Bewerken onderwerp titel';
-$lang['EDIT_POST_NOT_1'] = 'Het is u niet toegestaan ';
-$lang['EDIT_POST_NOT_2'] = 'U kan niet ';
-$lang['EDIT_POST_AJAX'] = 'U kan niet bewerk bericht met de status ';
-$lang['AFTER_THE_LAPSE'] = 'na het verstrijken van de ';
 
 $lang['DONT_MESSAGE_TITLE'] = 'U moet opgeven berichttitel';
 $lang['INVALID_TOPIC_ID'] = 'Onderwerp Afwezig!';
@@ -323,7 +297,6 @@ $lang['INVALID_TOPIC_ID_DB'] = 'Onderwerp bestaat niet in de database!';
 
 $lang['NOT_POST'] = 'Afwezig Bericht';
 $lang['NOT_EDIT_TOR_STATUS'] = 'U kan niet bewerk release met de status';
-$lang['TOR_STATUS_DAYS'] = 'dagen';
 
 $lang['OPTIONS'] = 'Opties';
 
@@ -352,27 +325,19 @@ $lang['DELETE_OWN_POSTS'] = 'Sorry, maar kunt u alleen uw eigen berichten verwij
 $lang['CANNOT_DELETE_REPLIED'] = 'Sorry, maar je kan niet berichten verwijderen die zijn beantwoord';
 $lang['CANNOT_DELETE_POLL'] = 'Sorry, maar je kan niet verwijderen van een actieve poll';
 $lang['EMPTY_POLL_TITLE'] = 'Je moet een titel voor de poll';
-$lang['TO_FEW_POLL_OPTIONS'] = 'Moet u ten minste twee poll opties';
-$lang['TO_MANY_POLL_OPTIONS'] = 'U hebt geprobeerd om voer te veel poll opties';
 $lang['POST_HAS_NO_POLL'] = 'Dit bericht heeft geen poll';
 $lang['ALREADY_VOTED'] = 'Je hebt gestemd in deze poll';
 $lang['NO_VOTE_OPTION'] = 'U moet een optie bij het stemmen';
 $lang['LOCKED_WARN'] = 'U geplaatst in gesloten onderwerp!';
 
 $lang['ADD_POLL'] = 'Een poll toevoegen';
-$lang['ADD_POLL_EXPLAIN'] = 'Als u niet wilt dat om een poll toevoegen aan je onderwerp, laat u de velden leeg.';
-$lang['POLL_QUESTION'] = 'Poll-vraag';
 $lang['POLL_OPTION'] = 'Poll optie';
-$lang['ADD_OPTION'] = 'Optie toevoegen';
 $lang['UPDATE'] = 'Update';
-$lang['POLL_FOR'] = 'Voer poll voor';
 $lang['DAYS'] = 'Dagen';
-$lang['POLL_FOR_EXPLAIN'] = '[ Enter 0 of leeg laten voor een nooit eindigende poll ]';
 $lang['DELETE_POLL'] = 'Poll verwijderen';
 
 $lang['MAX_SMILIES_PER_POST'] = 'Emoticons beperken van %s emoticons overschreden.';
 
-$lang['ATTACH_SIGNATURE'] = 'Bevestig handtekening (handtekeningen kan worden gewijzigd in profiel)';
 $lang['NOTIFY'] = 'Houd mij op de hoogte over antwoorden';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Sta robots toe deze discussie te indexeren';
 
@@ -385,31 +350,21 @@ $lang['VOTE_CAST'] = 'Uw stem heeft uitgebracht.';
 $lang['EMOTICONS'] = 'Emoticons';
 $lang['MORE_EMOTICONS'] = 'Bekijk meer Emoticons';
 
-$lang['FONT_COLOR'] = 'Kleur van het lettertype';
-$lang['COLOR_DEFAULT'] = 'Standaard';
 $lang['COLOR_DARK_RED'] = 'Donker Rood';
 $lang['COLOR_RED'] = 'Rood';
 $lang['COLOR_ORANGE'] = 'Oranje';
 $lang['COLOR_BROWN'] = 'Bruin';
-$lang['COLOR_YELLOW'] = 'Geel';
 $lang['COLOR_GREEN'] = 'Groen';
 $lang['COLOR_OLIVE'] = 'Olive';
-$lang['COLOR_CYAN'] = 'Cyaan';
 $lang['COLOR_BLUE'] = 'Blauw';
 $lang['COLOR_DARK_BLUE'] = 'Donker Blauw';
 $lang['COLOR_INDIGO'] = 'Indigo';
 $lang['COLOR_VIOLET'] = 'Violet';
-$lang['COLOR_WHITE'] = 'Wit';
-$lang['COLOR_BLACK'] = 'Zwart';
 
-$lang['FONT_SIZE'] = 'Font grootte';
-$lang['FONT_TINY'] = 'Tiny';
 $lang['FONT_SMALL'] = 'Kleine';
 $lang['FONT_NORMAL'] = 'Normaal';
 $lang['FONT_LARGE'] = 'Groot';
 $lang['FONT_HUGE'] = 'Groot';
-
-$lang['STYLES_TIP'] = 'Tip: Stijlen kunnen worden toegepast snel op geselecteerde tekst.';
 
 $lang['NEW_POSTS_PREVIEW'] = 'Onderwerp is nieuw, bewerkt of ongelezen berichten';
 
@@ -452,7 +407,6 @@ $lang['SAVE_MESSAGE'] = 'Bericht Opslaan';
 $lang['DELETE_MESSAGE'] = 'Bericht Verwijderen';
 
 $lang['DISPLAY_MESSAGES'] = 'Display messages (berichten weergeven'; // Followed by number of days/weeks/months
-$lang['ALL_MESSAGES'] = 'Alle Berichten';
 
 $lang['NO_MESSAGES_FOLDER'] = 'Er zijn geen berichten in deze map';
 
@@ -460,9 +414,6 @@ $lang['PM_DISABLED'] = 'Privé berichten is uitgeschakeld op dit forum.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Sorry, maar de beheerder heeft voorkomen dat u van het verzenden van privé-berichten.';
 $lang['NO_TO_USER'] = 'U moet een gebruikersnaam aan wie dit bericht verzenden.';
 $lang['NO_SUCH_USER'] = 'Sorry, maar de gebruiker niet bestaat.';
-
-$lang['DISABLE_BBCODE_PM'] = 'Schakel BBCode op dit bericht';
-$lang['DISABLE_SMILIES_PM'] = 'Schakel Smilies uit in dit bericht';
 
 $lang['MESSAGE_SENT'] = '<b>Your bericht is verzonden.</b>';
 
@@ -476,8 +427,6 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Stuur een privé-bericht';
 $lang['SEND_A_REPLY'] = 'Antwoord op een privé-bericht';
 $lang['EDIT_MESSAGE'] = 'Bewerken prive bericht';
 
-$lang['NOTIFICATION_SUBJECT'] = 'Je hebt een nieuwe privé-bericht ontvangen!';
-
 $lang['FIND_USERNAME'] = 'Het vinden van een gebruikersnaam';
 $lang['SELECT_USERNAME'] = 'Kies een Gebruikersnaam';
 $lang['FIND'] = 'Zoeken';
@@ -485,7 +434,6 @@ $lang['NO_MATCH'] = 'Geen wedstrijden gevonden.';
 
 $lang['NO_PM_ID'] = 'Geef bericht-ID';
 $lang['NO_SUCH_FOLDER'] = 'De map is niet gevonden';
-$lang['NO_FOLDER'] = 'Geef de map';
 
 $lang['MARK_ALL'] = 'Mark allen';
 $lang['UNMARK_ALL'] = 'Uit alle';
@@ -496,8 +444,6 @@ $lang['CONFIRM_DELETE_PMS'] = 'Weet u zeker dat u wilt verwijderen van deze beri
 $lang['INBOX_SIZE'] = 'Uw Postvak in is<br /><b>%d%%</b> volledige'; // e.g. Your Inbox is 50% full
 $lang['SENTBOX_SIZE'] = 'Uw Sentbox is<br /><b>%d%%</b> volledige';
 $lang['SAVEBOX_SIZE'] = 'Uw Savebox is<br /><b>%d%%</b> volledige';
-
-$lang['CLICK_VIEW_PRIVMSG'] = 'Klik op %sHere%s naar uw Postvak in';
 
 $lang['OUTBOX_EXPL'] = '';
 
@@ -512,7 +458,6 @@ $lang['PREFERENCES'] = 'Voorkeuren';
 $lang['ITEMS_REQUIRED'] = 'Items gemarkeerd met een * zijn verplicht, tenzij anders vermeld.';
 $lang['REGISTRATION_INFO'] = 'Registratie Gegevens';
 $lang['PROFILE_INFO'] = 'Profiel Gegevens';
-$lang['PROFILE_INFO_WARN'] = 'Openbaar beschikbare informatie';
 $lang['AVATAR_PANEL'] = 'Avatar bedieningspaneel';
 
 $lang['WEBSITE'] = 'Website';
@@ -520,7 +465,6 @@ $lang['LOCATION'] = 'Locatie';
 $lang['CONTACT'] = 'Contact';
 $lang['EMAIL_ADDRESS'] = 'E-mail adres';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Stuur privé bericht';
-$lang['HIDDEN_EMAIL'] = '[ Verborgen ]';
 $lang['INTERESTS'] = 'Belangen';
 $lang['OCCUPATION'] = 'Beroep';
 $lang['POSTER_RANK'] = 'Poster rang';
@@ -533,16 +477,9 @@ $lang['SEARCH_USER_POSTS_SHORT'] = 'Zoek berichten gebruiker';
 $lang['SEARCH_USER_TOPICS'] = 'Gebruiker zoeken op onderwerpen'; // Find all topics by username
 
 $lang['NO_USER_ID_SPECIFIED'] = 'Sorry, maar dat de gebruiker niet bestaat.';
-$lang['WRONG_PROFILE'] = 'Kunt u niet wijzigen van een profiel dat is niet uw eigen.';
-
-$lang['ONLY_ONE_AVATAR'] = 'Slechts een type avatar kan worden opgegeven';
-$lang['FILE_NO_DATA'] = 'Het bestand op de URL die u gaf, bevat geen gegevens';
-$lang['NO_CONNECTION_URL'] = 'Een verbinding kan niet worden gemaakt naar de URL die u gaf';
-$lang['INCOMPLETE_URL'] = 'De URL die je hebt ingevoerd, is onvolledig';
 $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Sorry, maar je wachtwoord kan niet opgehaald worden omdat je account is momenteel niet actief';
 $lang['NO_SEND_ACCOUNT'] = 'Sorry, maar uw wachtwoord niet teruggehaald kunnen worden. Neem contact op met de forum beheerder voor meer informatie';
 
-$lang['ALWAYS_ADD_SIG'] = 'Altijd bevestig mijn handtekening';
 $lang['HIDE_PORN_FORUMS'] = 'Verberg de inhoud 18+';
 $lang['ADD_RETRACKER'] = 'Toevoegen retracker in torrent-bestanden';
 $lang['ALWAYS_NOTIFY'] = 'Waarschuw me als er reacties zijn.';
@@ -573,9 +510,7 @@ $lang['BIRTHDAY_MIN_AGE'] = 'Minimum leeftijd';
 $lang['BIRTHDAY_CHECK_DAY'] = 'Dagen om te controleren op aankomende verjaardagen';
 $lang['YEARS'] = 'Jaar';
 
-$lang['NO_THEMES'] = 'Geen Thema \' s In de database';
 $lang['TIMEZONE'] = 'Tijdzone';
-$lang['DATE_FORMAT_PROFILE'] = 'Datum formaat';
 $lang['DATE_FORMAT_EXPLAIN'] = 'De syntax die gebruikt wordt is gelijk aan de PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> functie.';
 $lang['SIGNATURE'] = 'Handtekening';
 $lang['SIGNATURE_EXPLAIN'] = 'Dit is een blok tekst dat kan worden toegevoegd aan berichten die u maakt. Er is een %d tekens';
@@ -600,14 +535,9 @@ $lang['AVATAR_EXPLAIN'] = 'Toont een kleine afbeelding onder uw gegevens in beri
 $lang['AVATAR_DELETE'] = 'Verwijderen avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar controle optie uitgeschakeld voor de strijd <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Upload avatar';
-
-$lang['SELECT_AVATAR'] = 'Selecteer avatar';
 $lang['RETURN_PROFILE'] = 'Terug naar de profiel';
-$lang['SELECT_CATEGORY'] = 'Selecteer categorie:';
-
 $lang['DELETE_IMAGE'] = 'Verwijder afbeelding';
 $lang['SET_MONSTERID_AVATAR'] = 'Stel MonsterID-avatar in';
-$lang['CURRENT_IMAGE'] = 'Huidige afbeelding';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Melden op nieuw privé-bericht';
 $lang['HIDE_USER'] = 'Je online-status verbergen';
@@ -616,31 +546,24 @@ $lang['HIDDEN_USER'] = 'Verborgen gebruiker';
 $lang['PROFILE_UPDATED'] = 'Uw profiel is aangepast';
 $lang['PROFILE_UPDATED_INACTIVE'] = 'Je profiel is bijgewerkt. Echter, u hebt gewijzigd belangrijke details, dus is uw account inactief is nu. Controleer uw e-mail om uit te vinden hoe om uw account te heractiveren, of als admin activering is vereist, wacht u voor de beheerder om deze opnieuw te activeren.';
 
-$lang['PASSWORD_MISMATCH'] = 'De wachtwoorden die u hebt ingevoerd niet overeen.';
-$lang['CURRENT_PASSWORD_MISMATCH'] = 'De huidige wachtwoord dat u hebt opgegeven, komt niet overeen met die in de database opgeslagen.';
 $lang['PASSWORD_LONG'] = 'Je wachtwoord mag niet langer zijn dan %d tekens en niet korter dan %d tekens.';
-$lang['TOO_MANY_REGISTERS'] = 'Je hebt te veel registratie-pogingen. Probeer het later opnieuw.';
 $lang['USERNAME_TAKEN'] = 'Sorry, maar deze gebruikersnaam is al in gebruik.';
 $lang['USERNAME_INVALID'] = 'Sorry, maar deze gebruikersnaam bevat een ongeldig teken';
 $lang['USERNAME_DISALLOWED'] = 'Sorry, maar deze gebruikersnaam is niet toegestaan.';
 $lang['USERNAME_TOO_LONG'] = 'Uw naam is te lang.';
 $lang['USERNAME_TOO_SMALL'] = 'Uw naam is te klein.';
 $lang['EMAIL_TAKEN'] = 'Sorry, maar dat e-mail adres is al geregistreerd voor een gebruiker.';
-$lang['EMAIL_BANNED'] = 'Sorry, maar het <b>%s</b> adres is verbannen.';
 $lang['EMAIL_INVALID'] = 'Sorry, maar dit e-mail adres is ongeldig.';
 $lang['EMAIL_TOO_LONG'] = 'Uw e-mail is te lang.';
 $lang['SIGNATURE_TOO_LONG'] = 'Uw ondertekening is te lang.';
 $lang['SIGNATURE_ERROR_HTML'] = 'De handtekening kan bevatten alleen BBCode';
 $lang['FIELDS_EMPTY'] = 'Vult u de vereiste velden in.';
 
-$lang['WELCOME_SUBJECT'] = 'Welkom bij %s Forums'; // Welcome to my.com forums
-$lang['NEW_ACCOUNT_SUBJECT'] = 'Nieuwe gebruiker';
-$lang['ACCOUNT_ACTIVATED_SUBJECT'] = 'Account Geactiveerd';
+$lang['WELCOME_SUBJECT'] = 'Welkom bij %s Forums';
 
 $lang['ACCOUNT_ADDED'] = 'Bedankt voor je registratie. Uw account is aangemaakt. U kunt nu inloggen met uw gebruikersnaam en wachtwoord';
 $lang['ACCOUNT_INACTIVE'] = 'Uw account is aangemaakt. Echter, dit forum vereist account te activeren. Een activatie sleutel is verzonden naar het e-mailadres dat u hebt opgegeven. Controleer uw e-mail voor nadere informatie';
 $lang['ACCOUNT_ACTIVE'] = 'Uw account is net geactiveerd. Bedankt voor je registratie';
-$lang['REACTIVATE'] = 'Uw account opnieuw te activeren!';
 $lang['ALREADY_ACTIVATED'] = 'U hebt reeds het activeren van uw account';
 
 $lang['REGISTRATION'] = 'Registratie Voorwaarden';
@@ -649,15 +572,12 @@ $lang['WRONG_ACTIVATION'] = 'De activeringssleutel u geleverde niet overeenkomt 
 $lang['SEND_PASSWORD'] = 'Stuur mij een nieuw wachtwoord';
 $lang['PASSWORD_UPDATED'] = 'Een nieuw wachtwoord is aangemaakt, controleer uw e-mail voor meer informatie over hoe om het te activeren.';
 $lang['NO_EMAIL_MATCH'] = 'Het e-mailadres dat u hebt opgegeven, komt niet overeen met die van de betreffende gebruikersnaam.';
-$lang['NEW_PASSWORD_ACTIVATION'] = 'Nieuw wachtwoord activering';
 $lang['PASSWORD_ACTIVATED'] = 'Uw account werd opnieuw geactiveerd. Om in te loggen, gebruik dan het wachtwoord in de e-mail die u hebt ontvangen.';
 
 $lang['SEND_EMAIL_MSG'] = 'Stuur een e-mail bericht';
 $lang['NO_USER_SPECIFIED'] = 'Geen gebruiker is opgegeven';
-$lang['USER_PREVENT_EMAIL'] = 'Deze gebruiker niet wenst te ontvangen e-mail. Stuur hem een privaat bericht.';
 $lang['USER_NOT_EXIST'] = 'Die gebruikersnaam bestaat niet';
 $lang['EMAIL_MESSAGE_DESC'] = 'Dit bericht wordt verstuurd in platte tekst, dus niet elke HTML of BBCode. Het retour adres voor dit bericht zal worden ingesteld voor uw e-mail adres.';
-$lang['FLOOD_EMAIL_LIMIT'] = 'U kunt een e-mail op dit moment. Probeer het later opnieuw.';
 $lang['RECIPIENT'] = 'Ontvanger';
 $lang['EMAIL_SENT'] = 'De e-mail is verzonden.';
 $lang['SEND_EMAIL'] = 'Stuur een e-mail';
@@ -744,20 +664,12 @@ $lang['GROUP_ADDED'] = 'Je bent toegevoegd aan deze gebruikersgroep.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Bent u al lid van deze groep';
 $lang['USER_IS_MEMBER_GROUP'] = '%s is al lid van deze groep';
 $lang['USER_IS_MOD_GROUP'] = '%s is een moderator van deze groep';
-$lang['GROUP_TYPE_UPDATED'] = 'Bijgewerkt groep type.';
 $lang['EFFECTIVE_DATE'] = 'Datum';
-
 $lang['COULD_NOT_ADD_USER'] = 'De gebruiker die u hebt geselecteerd niet bestaat.';
-$lang['COULD_NOT_ANON_USER'] = 'U kunt niet Anoniem een lid van de groep.';
-
-$lang['CONFIRM_UNSUB'] = 'Bent u zeker dat u zich wilt afmelden voor deze groep?';
-$lang['CONFIRM_UNSUB_PENDING'] = 'Uw abonnement om deze groep nog niet is goedgekeurd; bent u zeker dat u zich wilt afmelden?';
-
 $lang['UNSUB_SUCCESS'] = 'U bent vn-geplaatst van deze groep.';
 
 $lang['APPROVE_SELECTED'] = 'Goedkeuren Geselecteerd';
 $lang['DENY_SELECTED'] = 'Ontkennen Geselecteerd';
-$lang['NOT_LOGGED_IN'] = 'U moet ingelogd zijn om bij een groep aansluiten.';
 $lang['REMOVE_SELECTED'] = 'Verwijder Geselecteerde';
 $lang['ADD_MEMBER'] = 'Lid Toevoegen';
 $lang['NOT_GROUP_MODERATOR'] = 'U bent niet van deze groep de moderator, daarom kunt u niet uitvoeren van die actie.';
@@ -773,7 +685,6 @@ $lang['NONE'] = 'Geen';
 
 $lang['SUBSCRIBE'] = 'Inschrijven';
 $lang['UNSUBSCRIBE_GROUP'] = 'Uitschrijven';
-$lang['VIEW_INFORMATION'] = 'Bekijk De Informatie';
 $lang['MEMBERS_IN_GROUP'] = 'Leden in de groep';
 
 // Release Groups
@@ -786,7 +697,6 @@ $lang['MORE_RELEASES'] = 'Vind alle releases van de groep';
 $lang['NOT_A_RELEASE_GROUP'] = 'Deze groep is niet een release group';
 
 // Search
-$lang['SEARCH_ERROR'] = 'Op het moment dat de zoekmachine is niet available<br /><br />Try herhaalt de aanvraag na een paar seconden';
 $lang['SEARCH_HELP_URL'] = 'Zoek Hulp';
 $lang['SEARCH_QUERY'] = 'Zoekopdracht';
 $lang['SEARCH_OPTIONS'] = 'Zoekopties';
@@ -798,22 +708,15 @@ $lang['SEARCH_AUTHOR_EXPL'] = 'Gebruik * als jokerteken voor gedeeltelijke overe
 
 $lang['SEARCH_TITLES_ONLY'] = 'Zoeken op onderwerp titels alleen';
 $lang['SEARCH_ALL_WORDS'] = 'alle woorden';
-$lang['SEARCH_MY_MSG_ONLY'] = 'Zoek alleen in mijn berichten';
 $lang['IN_MY_POSTS'] = 'In mijn berichten';
 $lang['SEARCH_MY_TOPICS'] = 'in mijn onderwerpen';
 $lang['NEW_TOPICS'] = 'Nieuwe onderwerpen';
-
-$lang['RETURN_FIRST'] = 'Terug eerste'; // followed by xxx characters in a select box
-$lang['CHARACTERS_POSTS'] = 'tekens van berichten';
 
 $lang['SEARCH_PREVIOUS'] = 'Vorige zoeken';
 
 $lang['SORT_BY'] = 'Sorteren op';
 $lang['SORT_TIME'] = 'Post Tijd';
-$lang['SORT_POST_SUBJECT'] = 'Post Subject';
 $lang['SORT_TOPIC_TITLE'] = 'Onderwerp Titel';
-$lang['SORT_AUTHOR'] = 'Auteur';
-$lang['SORT_FORUM'] = 'Forum';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Toon resultaten als';
 $lang['ALL_AVAILABLE'] = 'Alle beschikbare';
@@ -823,24 +726,18 @@ $lang['NO_SEARCHABLE_FORUMS'] = 'U hebt geen machtigingen om te zoeken in het fo
 $lang['NO_SEARCH_MATCH'] = 'Geen onderwerpen of berichten voldaan aan uw zoekcriteria voldoen';
 $lang['FOUND_SEARCH_MATCH'] = 'Zoekopdracht gevonden %d wedstrijd'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Zoekopdracht gevonden %d wedstrijden'; // e.g. Search found 24 matches
-$lang['TOO_MANY_SEARCH_RESULTS'] = 'Te veel resultaten gevonden kunnen worden, probeer dan om meer specifiek te zijn';
 
 $lang['CLOSE_WINDOW'] = 'Venster Sluiten';
 $lang['CLOSE'] = 'sluiten';
 $lang['HIDE'] = 'verbergen';
-$lang['SEARCH_TERMS'] = 'Zoektermen';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = 'Sorry, maar alleen %s kunt bekijken dit forum.';
 $lang['SORRY_AUTH_READ'] = 'Sorry, maar alleen %s kunt lezen topics in dit forum.';
-$lang['SORRY_AUTH_POST'] = 'Sorry, maar alleen %s kan post onderwerpen in dit forum.';
 $lang['SORRY_AUTH_REPLY'] = 'Sorry, maar alleen %s kunnen reageren op posts in dit forum.';
 $lang['SORRY_AUTH_EDIT'] = 'Sorry, maar alleen %s kunnen berichten bewerken in dit forum.';
 $lang['SORRY_AUTH_DELETE'] = 'Sorry, maar alleen %s kan berichten verwijderen in dit forum.';
-$lang['SORRY_AUTH_VOTE'] = 'Sorry, maar alleen %s kunnen stemmen in polls in dit forum.';
-$lang['SORRY_AUTH_STICKY'] = 'Sorry, maar alleen %s kan post sticky berichten in dit forum.';
-$lang['SORRY_AUTH_ANNOUNCE'] = 'Sorry, maar alleen %s kan mededelingen plaatsen in dit forum.';
 
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
@@ -860,8 +757,6 @@ $lang['LAST_UPDATED'] = 'Laatst Bijgewerkt';
 
 // Moderator Control Panel
 $lang['MOD_CP'] = 'Moderator Controle Paneel';
-$lang['MOD_CP_EXPLAIN'] = 'Met behulp van onderstaand formulier kunt u uitvoeren massa moderatie bewerkingen op dit forum. U kunt locken, unlock, verplaatsen of verwijderen van een aantal onderwerpen.';
-
 $lang['SELECT'] = 'Selecteer';
 $lang['DELETE'] = 'Verwijderen';
 $lang['MOVE'] = 'Verplaatsen';
@@ -876,8 +771,6 @@ $lang['TOPICS_UNLOCKED'] = 'De geselecteerde onderwerpen zijn ontgrendeld.';
 $lang['NO_TOPICS_MOVED'] = 'Geen onderwerpen zijn verplaatst.';
 
 $lang['CONFIRM_DELETE_TOPIC'] = 'Weet u zeker dat u wilt verwijderen van het geselecteerde onderwerp/s?';
-$lang['CONFIRM_LOCK_TOPIC'] = 'Weet u zeker dat u wilt vergrendelen van het gekozen thema/s?';
-$lang['CONFIRM_UNLOCK_TOPIC'] = 'Weet u zeker dat u wilt ontgrendelen van het gekozen thema/s?';
 $lang['CONFIRM_MOVE_TOPIC'] = 'Weet u zeker dat u wilt verplaatsen het gekozen onderwerp/s?';
 
 $lang['MOVE_TO_FORUM'] = 'Verplaatsen naar het forum';
@@ -889,11 +782,7 @@ $lang['FORUM_FOR_NEW_TOPIC'] = 'Forum voor het nieuwe onderwerp';
 $lang['SPLIT_POSTS'] = 'Split geselecteerde berichten';
 $lang['SPLIT_AFTER'] = 'Splitsen van het geselecteerde bericht';
 $lang['TOPIC_SPLIT'] = 'Het gekozen onderwerp is opgesplitst succes';
-
-$lang['TOO_MANY_ERROR'] = 'U hebt geselecteerd te veel berichten. Je kunt alleen een post voor het splitsen van een onderwerp na!';
-
 $lang['NONE_SELECTED'] = 'U hebt geselecteerd niets om deze bewerking uitvoeren op. Ga terug en selecteer tenminste één.';
-$lang['NEW_FORUM'] = 'Nieuwe forum';
 
 $lang['THIS_POSTS_IP'] = 'Het IP-adres voor dit bericht';
 $lang['OTHER_IP_THIS_USER'] = 'Andere IP-adressen van deze gebruiker is geplaatst vanaf';
@@ -999,7 +888,6 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sorry, maar u bent niet gemachtigd om te beki
 $lang['DESCRIPTION'] = 'Beschrijving'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Downloaden'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Bestandsgrootte';
-$lang['VIEWED'] = 'Bekeken';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'De extensie \'%s\' is gedeactiveerd door een board-admin, daarom wordt deze bijlage niet weergegeven.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
@@ -1033,7 +921,6 @@ $lang['FILE_COMMENT'] = 'Bestand Reactie';
 // Posting/PM -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Geplaatst Bijlagen';
 $lang['UPDATE_COMMENT'] = 'Update Reactie';
-$lang['DELETE_ATTACHMENTS'] = 'Bijlagen Verwijderen';
 $lang['DELETE_ATTACHMENT'] = 'Bijlage Verwijderen';
 $lang['DELETE_THUMBNAIL'] = 'Verwijderen Miniatuur';
 $lang['UPLOAD_NEW_VERSION'] = 'Upload Nieuwe Versie';
@@ -1057,10 +944,8 @@ $lang['NO_ATTACHMENT_SELECTED'] = 'Je hebt niet gekozen voor een bijlage te down
 $lang['ERROR_NO_ATTACHMENT'] = 'Als u de geselecteerde Bijlage bestaat niet meer';
 
 // Delete Attachments
-$lang['CONFIRM_DELETE_ATTACHMENTS'] = 'Weet u zeker dat u wilt verwijderen van de geselecteerde Bijlagen?';
 $lang['DELETED_ATTACHMENTS'] = 'De geselecteerde Bijlagen zijn verwijderd.';
 $lang['ERROR_DELETED_ATTACHMENTS'] = 'Kan niet verwijderen van Bijlagen.';
-$lang['CONFIRM_DELETE_PM_ATTACHMENTS'] = 'Weet u zeker dat u wilt verwijderen van alle Bijlagen gepost in dit UUR?';
 
 // General Error Messages
 $lang['ATTACHMENT_FEATURE_DISABLED'] = 'De Bijlage Functie is uitgeschakeld.';
@@ -1077,14 +962,10 @@ $lang['GB'] = 'GB';
 $lang['ATTACH_SEARCH_QUERY'] = 'Zoek Bijlagen';
 $lang['TEST_SETTINGS'] = 'Instellingen Testen';
 $lang['NOT_ASSIGNED'] = 'Niet Toegewezen';
-$lang['NO_FILE_COMMENT_AVAILABLE'] = 'Geen Bestand geen Commentaar beschikbaar';
-$lang['ATTACHBOX_LIMIT'] = 'Uw Attachbox is<br /><b>%d%%</b> volledige';
-$lang['UNLIMITED'] = 'Onbeperkt';
 
 //bt
 $lang['BT_REG_YES'] = 'Geregistreerd';
 $lang['BT_REG_NO'] = 'Niet geregistreerd';
-$lang['BT_ADDED'] = 'Toegevoegd';
 $lang['BT_REG_ON_TRACKER'] = 'Registreren op tracker';
 $lang['BT_REG_FAIL'] = 'Kan niet registreren torrent tracker op';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Een andere torrent met dezelfde info_hash al <a href="%s"><b>registered</b></a>';
@@ -1098,9 +979,6 @@ $lang['BT_FLIST_CREATION_DATE'] = 'Aanmaakdatum';
 $lang['BT_IS_PRIVATE'] = 'Privé-torrent';
 $lang['BT_FLIST_FILE_PATH'] = 'Pad (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'Bestandshashes | .torrent meta-informatie';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Aankondigerslijst';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Aankondigers';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Deze lijst bevat aankondigers van torrentbestand';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Verwijder van drijver';
 $lang['BT_UNREGISTERED'] = 'Torrent ongeregistreerde';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrent al afgemeld';
@@ -1175,9 +1053,7 @@ $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The informat
 
 $lang['BT_TOPIC_TITLE'] = 'Onderwerp titel';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Zaad voor het laatst gezien';
-$lang['BT_SORT_FORUM'] = 'Forum';
 $lang['SIZE'] = 'Grootte';
-$lang['PIECE_LENGTH'] = 'Stuk lengte';
 $lang['COMPLETED'] = 'Voltooide downloads';
 $lang['ADDED'] = 'Toegevoegd';
 $lang['DELETE_TORRENT'] = 'Verwijderen torrent';
@@ -1273,7 +1149,6 @@ $lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Het registreren van torrents alleen toeges
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Kan niet registreren torrent in dit forum';
 $lang['ALREADY_REG'] = 'Torrent al geregistreerd';
 $lang['NOT_TORRENT'] = 'Dit bestand is niet torrent';
-$lang['ONLY_1_TOR_PER_POST'] = 'U kunt zich inschrijven alleen een torrent in één post';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'U kunt zich inschrijven alleen een torrent in een onderwerp';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profiel';
 $lang['CUR_ACTIVE_DLS'] = 'Actieve torrents';
@@ -1336,7 +1211,6 @@ $lang['HIDDEN'] = 'Verborgen';
 // from admin
 $lang['NOT_ADMIN'] = 'U bent niet gemachtigd is voor het beheer van de raad van bestuur';
 
-$lang['COOKIES_REQUIRED'] = 'Cookies moeten zijn ingeschakeld!';
 $lang['SESSION_EXPIRED'] = 'Sessie verlopen';
 
 // Sort memberlist per letter
@@ -1372,11 +1246,8 @@ $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Toevoegen bot-bericht over split naar <b>new 
 $lang['QUICK_REPLY'] = 'Snel Antwoord';
 $lang['INS_NAME_TIP'] = 'Vul de naam of de geselecteerde tekst.';
 $lang['QUOTE_SELECTED'] = 'Quote geselecteerd';
-$lang['QR_ATTACHSIG'] = 'Bevestig handtekening';
 $lang['QR_NOTIFY'] = 'Melden op antwoord';
-$lang['QR_DISABLE'] = 'Uitschakelen';
 $lang['QR_USERNAME'] = 'Naam';
-$lang['NO_TEXT_SEL'] = 'Selecteer een tekst ergens op een pagina en probeer het opnieuw';
 $lang['QR_FONT_SEL'] = 'Font face';
 $lang['QR_COLOR_SEL'] = 'Kleur van het lettertype';
 $lang['QR_SIZE_SEL'] = 'Font grootte';
@@ -1419,9 +1290,7 @@ $lang['TORHELP_TITLE'] = 'Gelieve te helpen zaaien deze torrents!';
 $lang['STATISTICS'] = 'Statistieken';
 $lang['STATISTIC'] = 'Statistiek';
 $lang['VALUE'] = 'Waarde';
-$lang['INVERT_SELECT'] = 'Selectie omkeren';
 $lang['STATUS'] = 'Status';
-$lang['LAST_CHANGED_BY'] = 'Laatst gewijzigd door';
 $lang['CHANGES'] = 'Wijzigingen';
 $lang['ACTION'] = 'Actie';
 $lang['REASON'] = 'Reden';
@@ -1508,9 +1377,6 @@ $lang['CHOOSE_PASS_OK'] = 'Wachtwoorden overeenkomen,';
 $lang['CHOOSE_PASS_REG_OK'] = 'Wachtwoorden overeenkomen, kunt u verder gaan met de registratie';
 $lang['CHOOSE_PASS_FAILED'] = 'Om het wachtwoord te wijzigen, moet u het correct opgeven van de huidige wachtwoord in';
 $lang['EMAILER_DISABLED'] = 'Sorry, deze functie is tijdelijk niet werken';
-$lang['TERMS_ON'] = 'Ik ga akkoord met deze voorwaarden';
-$lang['TERMS_OFF'] = 'Ik ga niet akkoord met deze voorwaarden';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Om te registreren, moet u JavaScript inschakelen';
 $lang['REGISTERED_IN_TIME'] = "Registratie is momenteel gesloten<br /><br />Registratie is beschikbaar tijdens: %s<br />Huidige tijd op de server: %s<br /><br />Onze excuses voor het ongemak";
 $lang['AUTOCOMPLETE'] = 'Genereer wachtwoord';
 $lang['YOUR_NEW_PASSWORD'] = 'Uw nieuwe wachtwoord:';
@@ -1535,7 +1401,6 @@ $lang['WHAT_IS_A_TORRENT'] = 'Wat is een torrent?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Ratings en Beperkingen';
 
 $lang['SCREENSHOTS_RULES'] = 'Lees de regels screenshots!';
-$lang['SCREENSHOTS_RULES_TOPIC'] = 'Lees de regels uit de screenshots in deze sectie!';
 $lang['AJAX_EDIT_OPEN'] = 'Heb je al geopend voor een snelle montage!';
 $lang['GO_TO_PAGE'] = 'Ga naar pagina ...';
 $lang['EDIT'] = 'Bewerken';
@@ -1655,8 +1520,6 @@ $lang['ADD_NEW'] = 'Toevoegen';
 $lang['CRON'] = 'Taakplanner (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Rebuild index zoeken';
 $lang['FORUM_CONFIG'] = 'Forum instellingen';
-$lang['TRACKER_CONFIG'] = 'Tracker instellingen';
-$lang['RELEASE_TEMPLATES'] = 'Release Sjablonen';
 $lang['ACTIONS_LOG'] = 'Rapport over de actie';
 
 // Migrations
@@ -1787,12 +1650,7 @@ $lang['AUTH_DOWNLOAD'] = 'Download Bestanden';
 $lang['USER_LEVEL'] = 'Gebruiker Niveau';
 $lang['AUTH_USER'] = 'Gebruiker';
 $lang['AUTH_ADMIN'] = 'Beheerder';
-$lang['GROUP_MEMBERSHIPS'] = 'Gebruikersgroep lidmaatschappen';
-$lang['USERGROUP_MEMBERS'] = 'Deze groep heeft de volgende leden';
-
 $lang['FORUM_AUTH_UPDATED'] = 'Forum permissies zijn bijgewerkt';
-$lang['USER_AUTH_UPDATED'] = 'Gebruiker machtigingen zijn bijgewerkt';
-$lang['GROUP_AUTH_UPDATED'] = 'Groep rechten zijn bijgewerkt';
 
 $lang['AUTH_UPDATED'] = 'Machtigingen zijn bijgewerkt';
 $lang['AUTH_GENERAL_ERROR'] = 'Kon admin-status niet bijwerken';
@@ -1860,13 +1718,11 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Hoe lang een autologin is de sleutel geldig v
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Beheer';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Vanaf dit paneel kunt u toevoegen, verwijderen, bewerken, de volgorde en opnieuw synchroniseren categorieën en forums';
 $lang['EDIT_FORUM'] = 'Wijzig forum';
 $lang['CREATE_FORUM'] = 'Maak nieuwe forum';
 $lang['CREATE_SUB_FORUM'] = 'Maak subforum aan';
 $lang['CREATE_CATEGORY'] = 'Nieuwe categorie maken';
 $lang['REMOVE'] = 'Verwijderen';
-$lang['UPDATE_ORDER'] = 'Update Om';
 $lang['CONFIG_UPDATED'] = 'Forum Configuratie Met Succes Is Bijgewerkt';
 $lang['MOVE_UP'] = 'Omhoog';
 $lang['MOVE_DOWN'] = 'Omlaag verplaatsen';
@@ -1889,7 +1745,6 @@ $lang['FORUM_STATUS'] = 'Forum status';
 $lang['FORUM_PRUNING'] = 'Auto-snoeien';
 
 $lang['PRUNE_DAYS'] = 'Verwijder onderwerpen die niet zijn geplaatst in';
-$lang['SET_PRUNE_DATA'] = 'U hebt ingeschakeld auto-snoeien voor dit forum, maar niet een aantal dagen te snoeien. Ga terug en doen.';
 
 $lang['MOVE_AND_DELETE'] = 'Verplaatsen en Verwijderen';
 
@@ -1946,7 +1801,6 @@ $lang['LOOK_UP_USER'] = 'Gebruikers';
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Groep Administratie';
 $lang['GROUP_ADMIN_EXPLAIN'] = 'Vanaf dit paneel kunt u het beheren van alle gebruikersgroepen. U kunt het verwijderen, het maken en bewerken van bestaande groepen. U kunt kiezen moderators, toggle open/gesloten groep status en stel de groep een naam en beschrijving';
-$lang['ERROR_UPDATING_GROUPS'] = 'Er is een fout opgetreden tijdens het bijwerken van de groepen';
 $lang['UPDATED_GROUP'] = 'De groep met succes is bijgewerkt';
 $lang['ADDED_NEW_GROUP'] = 'De nieuwe groep is succesvol aangemaakt';
 $lang['DELETED_GROUP'] = 'De groep is succesvol verwijderd';
@@ -1955,8 +1809,6 @@ $lang['EDIT_GROUP'] = 'Groep bewerken';
 $lang['GROUP_STATUS'] = 'Groeps-status';
 $lang['GROUP_DELETE'] = 'Groep verwijderen';
 $lang['GROUP_DELETE_CHECK'] = 'Deze groep verwijderen';
-$lang['SUBMIT_GROUP_CHANGES'] = 'Submit Changes (Wijzigingen Versturen';
-$lang['RESET_GROUP_CHANGES'] = 'Wijzigingen Ongedaan Maken';
 $lang['NO_GROUP_NAME'] = 'U moet een naam opgeven voor deze groep';
 $lang['NO_GROUP_MODERATOR'] = 'U moet een moderator voor deze groep';
 $lang['NO_GROUP_MODE'] = 'U moet een modus voor deze groep, in open of gesloten';
@@ -1974,7 +1826,6 @@ $lang['DO_PRUNE'] = 'Doe Snoeien';
 $lang['ALL_FORUMS'] = 'Alle Fora';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Het snoeien van onderwerpen met geen antwoorden in dit aantal dagen';
 $lang['TOPICS_PRUNED'] = 'Onderwerpen gesnoeid';
-$lang['POSTS_PRUNED'] = 'Berichten gesnoeid';
 $lang['PRUNE_SUCCESS'] = 'Forum heeft zijn gesnoeid succes';
 $lang['NOT_DAYS'] = 'Snoeien dagen niet geselecteerd';
 
@@ -1985,7 +1836,6 @@ $lang['WORD'] = 'Word';
 $lang['EDIT_WORD_CENSOR'] = 'Bewerk word censureren';
 $lang['REPLACEMENT'] = 'Vervanging';
 $lang['ADD_NEW_WORD'] = 'Nieuw woord toevoegen';
-$lang['UPDATE_WORD'] = 'Update woord van de censor';
 
 $lang['MUST_ENTER_WORD'] = 'Geef een woord in en de vervanging';
 $lang['NO_WORD_SELECTED'] = 'Geen woord gekozen voor het bewerken van';
@@ -2005,9 +1855,6 @@ $lang['ALL_USERS'] = 'Alle Gebruikers';
 
 $lang['MASS_EMAIL_MESSAGE_TYPE'] = 'E-mail type';
 
-$lang['EMAIL_SUCCESSFULL'] = 'Uw bericht is verzonden';
-$lang['CLICK_RETURN_MASSEMAIL'] = 'Klik op %sHere%s om terug te keren naar de Massa e-Mail formulier';
-
 // Ranks admin
 $lang['RANKS_TITLE'] = 'Rang Administratie';
 $lang['RANKS_EXPLAIN'] = 'Met behulp van dit formulier kunt u toevoegen, bewerken, weergeven en verwijderen gelederen. U kunt ook aangepaste gelederen die kunnen worden toegepast op een gebruiker via de user facility management';
@@ -2020,7 +1867,6 @@ $lang['RANK_IMAGE'] = 'Rank Afbeelding';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Gebruik deze voor het definiëren van een kleine afbeelding zijn die geassocieerd is met de rank';
 
 $lang['MUST_SELECT_RANK'] = 'Moet u een rang';
-$lang['NO_ASSIGNED_RANK'] = 'Geen speciale rang toegewezen';
 
 $lang['RANK_UPDATED'] = 'De rang is met succes bijgewerkt';
 $lang['RANK_ADDED'] = 'De rang is succesvol toegevoegd';
@@ -2093,7 +1939,6 @@ $lang['SYNC'] = 'Sync';
 $lang['MAX_NEWS_TITLE'] = 'Max. de lengte van het nieuws';
 $lang['NEWS_COUNT'] = 'Hoeveel nieuws tonen';
 $lang['NEWS_FORUM_ID'] = 'Van welke forums om weer te geven <br /> <h6>Voor meerdere forums, geef ID\'s op gescheiden door komma\'s. Voorbeeld: 1,2,3</h6>';
-$lang['NOAVATAR'] = 'Geen avatar';
 $lang['TRACKER_STATS'] = 'De statistieken worden op de tracker -';
 $lang['WHOIS_INFO'] = 'Informatie over het IP-adres';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Toon moderators op de index.php';
@@ -2145,10 +1990,6 @@ $lang['DISABLE_MOD'] = 'Uitschakelen Attachment Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Deze optie is vooral bedoeld voor het testen van nieuwe sjablonen of thema \' s, het schakelt alle Gehechtheid Functies, met uitzondering van de Admin Panel.';
 $lang['PM_ATTACHMENTS'] = 'Bijlagen toestaan in Prive Berichten';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Toestaan/niet Toestaan van het bijvoegen van bestanden aan Privé-Berichten.';
-
-// Attachments -> Sync
-$lang['SYNC_TOPICS'] = 'Sync Onderwerpen';
-$lang['SYNC_POSTS'] = 'Sync Berichten';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Het Beheer Van Extensies';
@@ -2234,8 +2075,6 @@ $lang['SORT_POSTTIME'] = 'Post Tijd';
 // View Types
 $lang['VIEW_STATISTIC'] = 'Statistieken';
 $lang['VIEW_SEARCH'] = 'Zoeken';
-$lang['VIEW_USERNAME'] = 'Gebruikersnaam';
-$lang['VIEW_ATTACHMENTS'] = 'Bijlagen';
 
 // Successfully updated
 $lang['ATTACH_CONFIG_UPDATED'] = 'Bijlage Configuratie bijgewerkt';
@@ -2249,7 +2088,6 @@ $lang['EXTENSION'] = 'Verlenging';
 
 $lang['RETURN_CONFIG'] = '%sReturn te Configuration%s';
 $lang['CONFIG_UPD'] = 'Configuratie Met Succes Bijgewerkt';
-$lang['SET_DEFAULTS'] = 'Standaardinstellingen herstellen';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'Forum opties:';
@@ -2259,7 +2097,6 @@ $lang['REG_TORRENTS'] = 'Registreren torrents';
 $lang['DISALLOWED'] = 'Verboden';
 $lang['ALLOW_REG_TRACKER'] = 'Toegestaan forums voor de registratie .torrents op tracker';
 $lang['ALLOW_PORNO_TOPIC'] = 'Toegestaan om inhoud te posten 18+';
-$lang['SHOW_DL_BUTTONS'] = 'Toon knoppen voor het handmatig wijzigen van DL-status';
 $lang['SELF_MODERATED'] = 'Gebruikers kunnen <b>move</b> hun onderwerpen naar een ander forum';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Kondigen URL';
@@ -2331,7 +2168,6 @@ $lang['CRON_LAST_RUN'] = 'Laatste Run';
 $lang['CRON_NEXT_RUN'] = 'Volgende';
 $lang['CRON_RUN_COUNT'] = 'Loopt';
 $lang['CRON_MANAGE'] = 'Beheren';
-$lang['CRON_OPTIONS'] = 'Cron opties';
 $lang['CRON_DISABLED_WARNING'] = 'Waarschuwing! Het uitvoeren van cron-scripts is uitgeschakeld. Stel de variabele APP_CRON_ENABLED in om deze in te schakelen.';
 
 $lang['CRON_ENABLED'] = 'Cron ingeschakeld';
@@ -2343,9 +2179,6 @@ $lang['CRON_RUN'] = 'Uitvoeren';
 $lang['CRON_DEL'] = 'Verwijderen';
 $lang['CRON_DISABLE'] = 'Uitschakelen';
 $lang['CRON_ENABLE'] = 'Inschakelen';
-
-$lang['RUN_MAIN_CRON'] = 'Start cron';
-$lang['ADD_JOB'] = 'Toevoegen cron job';
 $lang['DELETE_JOB'] = 'Weet u zeker dat u wilt verwijderen cron job?';
 $lang['CRON_WORKS'] = 'Cron werkt momenteel of is kapot -> ';
 $lang['REPAIR_CRON'] = 'Reparatie Cron';
@@ -2412,13 +2245,9 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Hoeveel tijd (sec) te blijven inactief voor het
 
 $lang['TIME_LIMIT'] = 'Termijn';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Hoeveel tijd (sec) post-processing kan duren voordat u naar een volgende cyclus';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Uw PHP (veilige modus) heeft een time-out van %s seconden geconfigureerd, dus blijf onder deze waarde</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver heeft een time-out van %s sec geconfigureerd, dus blijf onder deze value</i>';
 
 $lang['DISABLE_BOARD'] = 'Uitschakelen van bestuur';
-$lang['DISABLE_BOARD_EXPLAIN'] = 'Of uitschakelen van de raad van bestuur tijdens de verwerking';
-$lang['DISABLE_BOARD_EXPLAIN_ENABLED'] = 'Het zal automatisch worden ingeschakeld na het einde van de verwerking';
-$lang['DISABLE_BOARD_EXPLAIN_ALREADY'] = '<i>Your raad is al disabled</i>';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Je laatste stopte de verwerking op post_id %s (%s verwerkt berichten) op %s';
@@ -2440,7 +2269,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Alle berichten zijn verwerkt.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Zoeken in alle tabellen werden geoptimaliseerd met succes.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'De verwerking van de post';
-$lang['PROCESSED_POSTS'] = 'Verwerkte Berichten';
 $lang['PERCENT'] = 'Procent';
 $lang['CURRENT_SESSION'] = 'Huidige Sessie';
 $lang['TOTAL'] = 'Totaal';
@@ -2455,15 +2283,10 @@ $lang['TIME_FROM_THE_BEGINNING'] = 'Vanaf het begin';
 $lang['TIME_AVERAGE'] = 'Gemiddelde per cyclus';
 $lang['TIME_ESTIMATED'] = 'Geschatte tot finish';
 
-$lang['DATABASE_SIZE_DETAILS'] = 'De grootte van de Database details';
-$lang['SIZE_CURRENT'] = 'Huidige';
 $lang['SIZE_ESTIMATED'] = 'Geschatte na de finish';
 $lang['SIZE_SEARCH_TABLES'] = 'Zoeken in Tabellen grootte';
-$lang['SIZE_DATABASE'] = 'De grootte van de Database';
 
-$lang['ACTIVE_PARAMETERS'] = 'Actieve parameters';
 $lang['POSTS_LAST_CYCLE'] = 'Verwerkt de post(s) op de laatste cyclus';
-$lang['BOARD_STATUS'] = 'Raad van bestuur status';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Alle geschatte waarden zijn berekend approximately<br />based op de huidige voltooid procent en mogelijk niet overeen met de werkelijke uiteindelijke waarden.<br />As de voltooid procent verhoogt de geschatte waarden dichter bij de werkelijke degenen.';
 
@@ -2537,11 +2360,9 @@ $lang['RELEASES'] = 'Persberichten';
 
 $lang['BACK'] = 'Terug';
 $lang['ERROR_FORM'] = 'Ongeldige velden';
-$lang['RELEASE_WELCOME'] = 'Vul dan het vrijgaveformulier in';
 $lang['NEW_RELEASE'] = 'Nieuwe release';
 $lang['NEXT'] = 'Doorgaan';
 $lang['OTHER'] = 'Andere';
-$lang['OTHERS'] = 'Anderen';
 $lang['ALL'] = 'Alle';
 
 $lang['TPL_EMPTY_FIELD'] = 'U vult het veld <b>%s</b>';
@@ -2601,7 +2422,6 @@ $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Zoeken naar gebruikers die in de la
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Zoeken naar gebruikers die hebben bezocht na de laatste %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Zoeken naar gebruikers die een %s als hun taal';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Zoeken naar gebruikers die hebben UTC %s als hun tijdzone';
-$lang['SEARCH_FOR_STYLE'] = 'Zoeken naar gebruikers die een %s als hun stijl';
 $lang['SEARCH_FOR_MODERATORS'] = 'Zoeken naar moderators van het Forum -> %s';
 $lang['SEARCH_USERS_ADVANCED'] = 'Geavanceerde Gebruiker Zoeken';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Deze Module stelt u in staat om geavanceerde zoekopdrachten uitvoeren voor gebruikers op een breed scala van criteria. Lees de beschrijvingen onder elk veld te begrijpen elke zoekopdracht optie volledig.';
@@ -2630,7 +2450,6 @@ $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Zoeken naar gebruikers op basis van v
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'U kunt zoeken naar gebruikers op basis van hun laatste login-datum met deze optie zoeken';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Dit zal u gebruikers weergeven wie hebben gekozen voor een specifieke taal in hun Profiel';
 $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'Gebruikers die hebben gekozen voor een specifieke tijdzone in hun profiel';
-$lang['SEARCH_USERS_STYLE_EXPLAIN'] = 'U gebruikers weergeven die hebben gekozen voor een bepaalde stijl.';
 $lang['MODERATORS_OF'] = 'Moderators van';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'Zoeken naar gebruikers met modererende machtigingen voor een specifiek forum. Moderatiemachtigingen worden herkend door gebruikersmachtigingen of door deel uit te maken van een groep met de juiste groepsmachtigingen.';
 

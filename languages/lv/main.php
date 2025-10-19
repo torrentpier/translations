@@ -30,7 +30,6 @@ $lang['EMAIL'] = 'E-pasts';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autors';
 $lang['TIME'] = 'Laiks';
-$lang['HOURS'] = 'Stundas';
 $lang['MESSAGE'] = 'Ziņojums';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Atļaujas';
@@ -89,14 +88,10 @@ $lang['FORUM_INDEX'] = '%s Forumā Indekss'; // e.g. sitename Forum Index, %s ca
 
 $lang['POST_NEW_TOPIC'] = 'Publicēt jaunu tēmu';
 $lang['POST_NEW_RELEASE'] = 'Publicēt jaunu presei';
-$lang['POST_REGULAR_TOPIC'] = 'Pēc regulāras tēmu';
 $lang['REPLY_TO_TOPIC'] = 'Atbildēt uz tēmu';
-$lang['REPLY_WITH_QUOTE'] = 'Atbildēt ar citātu';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos uz tēmu'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_LOGIN'] = 'Noklikšķiniet uz %sHere%s, mēģiniet vēlreiz';
 $lang['CLICK_RETURN_FORUM'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos uz forumu';
-$lang['CLICK_VIEW_MESSAGE'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos, lai jūsu ziņojums';
 $lang['CLICK_RETURN_MODCP'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos Moderators Vadības Panelis';
 $lang['CLICK_RETURN_GROUP'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos grupas informācijas';
 
@@ -137,7 +132,6 @@ $lang['SEARCH_SELF'] = 'Mans posts';
 $lang['SEARCH_SELF_BY_LAST'] = 'pēdējais sūtījums laiks';
 $lang['SEARCH_SELF_BY_MY'] = 'manu pastu laiks';
 $lang['SEARCH_UNANSWERED'] = 'Apskatīt neatbildētus amatiem';
-$lang['SEARCH_UNANSWERED_SHORT'] = 'atbildes';
 $lang['SEARCH_LATEST'] = 'Jaunākās tēmas';
 $lang['LATEST_RELEASES'] = 'Jaunākās relīzes';
 
@@ -155,9 +149,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nekas nav mainījies';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Mūsu lietotāji ir ievietojis kopā <b>%s</b> tēmas'; // Number of topics
-$lang['POSTED_ARTICLES_ZERO_TOTAL'] = 'Mūsu lietotāji ir ievietojis kopā <b>0</b> izstrādājumi'; // Number of posts
 $lang['POSTED_ARTICLES_TOTAL'] = 'Mūsu lietotāji ir ievietojis kopā <b>%s</b> izstrādājumi'; // Number of posts
-$lang['REGISTERED_USERS_ZERO_TOTAL'] = 'Mums ir <b>0</b> reģistrēti lietotāji'; // # registered users
 $lang['REGISTERED_USERS_TOTAL'] = 'Mums ir <b>%s</b> reģistrēti lietotāji'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Zēni: <b>%d</b>, Meitenes: <b>%d</b>, Citi: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Jaunākais reģistrētais lietotājs ir <b>%s</b>'; // a href, username, /a
@@ -167,13 +159,9 @@ $lang['TORRENTS_STAT'] = 'Torrentus: <b style="color: blue;">%s</b>,&nbsp; Kopē
 $lang['PEERS_STAT'] = 'Vienaudžu: <b>%s</b>,&nbsp; Sējmašīnas: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Kopējais ātrums: <b>%s</b>&nbsp;'; // %s = total speed.
 
-$lang['NO_NEW_POSTS_LAST_VISIT'] = 'Bez jaunas amata vietas kopš jūsu pēdējā apmeklējuma';
 $lang['NO_NEW_POSTS'] = 'Bez jaunas amata vietas';
 $lang['NEW_POSTS'] = 'Jaunas amata vietas';
 $lang['NEW_POST'] = 'New post';
-$lang['NO_NEW_POSTS_HOT'] = 'Bez jaunas amata vietas [ Populāri ]';
-$lang['NEW_POSTS_HOT'] = 'Jaunas amata vietas [ Populāri ]';
-$lang['NEW_POSTS_LOCKED'] = 'Jaunas amata vietas [ Bloķēts ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Forums ir slēgts';
 
 // Login
@@ -198,7 +186,6 @@ $lang['PRIVATE_MESSAGES'] = 'Privātās Ziņas';
 $lang['WHOSONLINE'] = 'Kurš ir tiešsaistē';
 
 $lang['MARK_ALL_FORUMS_READ'] = 'Karogs visu forumu kā izlasītu';
-$lang['FORUMS_MARKED_READ'] = 'Visos forumos atzīmēti kā izlasītu';
 
 $lang['LATEST_NEWS'] = 'Jaunākās ziņas';
 $lang['NETWORK_NEWS'] = 'Tīkla ziņas';
@@ -208,7 +195,6 @@ $lang['SUBFORUMS'] = 'Subforums';
 $lang['VIEW_FORUM'] = 'Skatīt Foruma';
 
 $lang['FORUM_NOT_EXIST'] = 'Foruma esat izvēlējies neeksistē.';
-$lang['REACHED_ON_ERROR'] = 'Jūs esat sasniedzis šo lapu kļūda.';
 $lang['ERROR_PORNO_FORUM'] = 'Šāda veida forumi (18+) bija paslēptas jūsu profilu jums';
 
 $lang['DISPLAY_TOPICS'] = 'Reklāmas tēmas';
@@ -217,7 +203,6 @@ $lang['MODERATE_FORUM'] = 'Mērens šajā forumā';
 $lang['TITLE_SEARCH_HINT'] = 'meklēšanas sadaļa...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = 'Sludinājums:';
-$lang['TOPIC_STICKY'] = 'Lipīga:';
 $lang['TOPIC_MOVED'] = 'Pārvietots:';
 $lang['TOPIC_POLL'] = '[ Aptauja ]';
 
@@ -245,7 +230,6 @@ $lang['VIEW_TOPIC'] = 'Apskatīt tēmu';
 $lang['GUEST'] = 'Viesis';
 $lang['POST_SUBJECT'] = 'Publicēt tēmu';
 $lang['SUBMIT_VOTE'] = 'Iesniegt balsojums';
-$lang['VIEW_RESULTS'] = 'Apskatīt rezultātus';
 
 $lang['NO_NEWER_TOPICS'] = 'Nav jaunāku tematiem šajā forumā';
 $lang['NO_OLDER_TOPICS'] = 'Nav vecākas tēmas šajā forumā';
@@ -257,12 +241,7 @@ $lang['ALL_POSTS'] = 'Visas Ziņas';
 $lang['NEWEST_FIRST'] = 'Jaunākās Vispirms';
 $lang['OLDEST_FIRST'] = 'Vecākais Pirmais';
 
-$lang['BACK_TO_TOP'] = 'Atpakaļ uz augšu';
-
 $lang['READ_PROFILE'] = 'Skatīt lietotāja profilu';
-$lang['VISIT_WEBSITE'] = 'Apmeklēt plakātu mājas lapā';
-$lang['VIEW_IP'] = 'Skatīt plakātu IP adrese';
-$lang['MODERATE_POST'] = 'Mērens amatiem';
 $lang['DELETE_POST'] = 'Dzēst šo ziņu';
 
 $lang['WROTE'] = 'rakstīja'; // proceeds the username and is followed by the quoted text
@@ -286,7 +265,6 @@ $lang['START_WATCHING_TOPIC'] = 'Sekojiet tēmu atbildes';
 $lang['NO_LONGER_WATCHING'] = 'Jūs vairs šo tēmu';
 $lang['YOU_ARE_WATCHING'] = 'Jums ir pēc šī tēma tagad';
 
-$lang['TOTAL_VOTES'] = 'Kopā Balsis';
 $lang['SEARCH_IN_TOPIC'] = 'meklēt tēmu...';
 $lang['HIDE_IN_TOPIC'] = 'Paslēpt';
 
@@ -312,10 +290,6 @@ $lang['POST_A_REPLY'] = 'Publicēt jaunu atbildēt';
 $lang['POST_TOPIC_AS'] = 'Publicēt tēmu, kā';
 $lang['EDIT_POST'] = 'Edit post';
 $lang['EDIT_TOPIC_TITLE'] = 'Edit tēmas nosaukums';
-$lang['EDIT_POST_NOT_1'] = 'Jums nav atļauts ';
-$lang['EDIT_POST_NOT_2'] = 'Jūs nevarat ';
-$lang['EDIT_POST_AJAX'] = 'Jūs nevar rediģēt post ar statusu ';
-$lang['AFTER_THE_LAPSE'] = 'pēc tam, kad zaudē spēku ';
 
 $lang['DONT_MESSAGE_TITLE'] = 'Jums vajadzētu norādīt ziņojuma nosaukumu';
 $lang['INVALID_TOPIC_ID'] = 'Tēmas Klāt!';
@@ -323,7 +297,6 @@ $lang['INVALID_TOPIC_ID_DB'] = 'Tēma neeksistē datu bāze!';
 
 $lang['NOT_POST'] = 'Klāt Ziņojums';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Jūs nevar rediģēt atbrīvot ar statusu';
-$lang['TOR_STATUS_DAYS'] = 'dienas';
 
 $lang['OPTIONS'] = 'Iespējas';
 
@@ -352,27 +325,19 @@ $lang['DELETE_OWN_POSTS'] = 'Atvainojiet, bet jūs varat dzēst tikai savu amata
 $lang['CANNOT_DELETE_REPLIED'] = 'Atvainojiet, bet jūs nevarat dzēst amata vietas, kas ir atbildēts';
 $lang['CANNOT_DELETE_POLL'] = 'Atvainojiet, bet jūs nevarat dzēst aktīvs aptauja';
 $lang['EMPTY_POLL_TITLE'] = 'Jums jābūt ievadiet nosaukumu jūsu aptauja';
-$lang['TO_FEW_POLL_OPTIONS'] = 'Jums ir jāievada vismaz divas iespējas aptauja';
-$lang['TO_MANY_POLL_OPTIONS'] = 'Jūs centāties ievadīt pārāk daudz aptauju iespējas';
 $lang['POST_HAS_NO_POLL'] = 'Šis amats nav aptauja';
 $lang['ALREADY_VOTED'] = 'Jūs jau esat balsojis šajā aptaujā';
 $lang['NO_VOTE_OPTION'] = 'Jums jānorāda variants, kad balsošana';
 $lang['LOCKED_WARN'] = 'Jūs ievietojis savā bloķēta tēmu!';
 
 $lang['ADD_POLL'] = 'Pievienot aptauju';
-$lang['ADD_POLL_EXPLAIN'] = 'Ja nevēlies pievienot aptauju, lai jūsu tēmu, atstājiet lauku tukšu.';
-$lang['POLL_QUESTION'] = 'Aptaujas jautājumu';
 $lang['POLL_OPTION'] = 'Aptauja variants';
-$lang['ADD_OPTION'] = 'Pievienot opciju,';
 $lang['UPDATE'] = 'Update';
-$lang['POLL_FOR'] = 'Palaist aptauju par';
 $lang['DAYS'] = 'Dienas';
-$lang['POLL_FOR_EXPLAIN'] = '[ Enter 0 vai atstāt tukšu, lai nebeidzams aptauja ]';
 $lang['DELETE_POLL'] = 'Dzēst aptauja';
 
 $lang['MAX_SMILIES_PER_POST'] = 'Emocijas robeža %s emocijas pārsniegts.';
 
-$lang['ATTACH_SIGNATURE'] = 'Pievienot parakstu (paraksti var tikt mainīts profils)';
 $lang['NOTIFY'] = 'Paziņot man par atbildēm';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Atļaut robotiem indeksēt šo tēmu';
 
@@ -385,31 +350,21 @@ $lang['VOTE_CAST'] = 'Jūsu balsojums ir nodotas.';
 $lang['EMOTICONS'] = 'Emocijas';
 $lang['MORE_EMOTICONS'] = 'Skatīt vairāk Emocijas';
 
-$lang['FONT_COLOR'] = 'Fonta krāsa';
-$lang['COLOR_DEFAULT'] = 'Noklusējuma';
 $lang['COLOR_DARK_RED'] = 'Tumši Sarkana';
 $lang['COLOR_RED'] = 'Sarkana';
 $lang['COLOR_ORANGE'] = 'Apelsīnu';
 $lang['COLOR_BROWN'] = 'Brūna';
-$lang['COLOR_YELLOW'] = 'Dzeltena';
 $lang['COLOR_GREEN'] = 'Zaļa';
 $lang['COLOR_OLIVE'] = 'Olīvu';
-$lang['COLOR_CYAN'] = 'Zila';
 $lang['COLOR_BLUE'] = 'Zila';
 $lang['COLOR_DARK_BLUE'] = 'Tumši Zils';
 $lang['COLOR_INDIGO'] = 'Indigo';
 $lang['COLOR_VIOLET'] = 'Violeta';
-$lang['COLOR_WHITE'] = 'Balts';
-$lang['COLOR_BLACK'] = 'Melns';
 
-$lang['FONT_SIZE'] = 'Fonta lielums';
-$lang['FONT_TINY'] = 'Tiny';
 $lang['FONT_SMALL'] = 'Maza';
 $lang['FONT_NORMAL'] = 'Normāls';
 $lang['FONT_LARGE'] = 'Liela';
 $lang['FONT_HUGE'] = 'Milzīgs';
-
-$lang['STYLES_TIP'] = 'Mājiens: Stilus var ātri piemērot, lai izvēlēto tekstu.';
 
 $lang['NEW_POSTS_PREVIEW'] = 'Tēma ir jauns, rediģēt vai nelasītu posts';
 
@@ -452,7 +407,6 @@ $lang['SAVE_MESSAGE'] = 'Saglabāt Ziņu';
 $lang['DELETE_MESSAGE'] = 'Dzēst Ziņu';
 
 $lang['DISPLAY_MESSAGES'] = 'Displeja ziņas'; // Followed by number of days/weeks/months
-$lang['ALL_MESSAGES'] = 'Visas Ziņas';
 
 $lang['NO_MESSAGES_FOLDER'] = 'Nav ziņas šajā mapē';
 
@@ -460,9 +414,6 @@ $lang['PM_DISABLED'] = 'Privātās ziņojumapmaiņas ir atspējota uz šī kuģa
 $lang['CANNOT_SEND_PRIVMSG'] = 'Atvainojiet, bet administrators ir novērst jūs no sūtīt privātās ziņas.';
 $lang['NO_TO_USER'] = 'Jums jānorāda lietotājvārds, uz kuru nosūtīt šo ziņojumu.';
 $lang['NO_SUCH_USER'] = 'Atvainojiet, bet šāds lietotājs neeksistē.';
-
-$lang['DISABLE_BBCODE_PM'] = 'Disable BBCode šo ziņu';
-$lang['DISABLE_SMILIES_PM'] = 'Izslēgt Emocijas, jo šo ziņu';
 
 $lang['MESSAGE_SENT'] = '<b>Your ziņojums ir nosūtīts.</b>';
 
@@ -476,8 +427,6 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Nosūtīt jaunu privāto ziņu';
 $lang['SEND_A_REPLY'] = 'Atbildi uz privāto ziņu';
 $lang['EDIT_MESSAGE'] = 'Edit privātu ziņu';
 
-$lang['NOTIFICATION_SUBJECT'] = 'Saņemta jauna privātā ziņa!';
-
 $lang['FIND_USERNAME'] = 'Atrast lietotājvārdu';
 $lang['SELECT_USERNAME'] = 'Izvēlieties Lietotājvārdu';
 $lang['FIND'] = 'Atrast';
@@ -485,7 +434,6 @@ $lang['NO_MATCH'] = 'Nav atrasta neviena atbilstība.';
 
 $lang['NO_PM_ID'] = 'Lūdzu, norādiet pastu ID';
 $lang['NO_SUCH_FOLDER'] = 'Mape nav atrasta';
-$lang['NO_FOLDER'] = 'Lūdzu, norādiet mapi';
 
 $lang['MARK_ALL'] = 'Atzīmēt visu';
 $lang['UNMARK_ALL'] = 'Rādīt visus';
@@ -496,8 +444,6 @@ $lang['CONFIRM_DELETE_PMS'] = 'Vai jūs esat pārliecināts, ka vēlaties izdzē
 $lang['INBOX_SIZE'] = 'Jūsu Iesūtni is<br /><b>%d%%</b> pilna'; // e.g. Your Inbox is 50% full
 $lang['SENTBOX_SIZE'] = 'Jūsu Sentbox is<br /><b>%d%%</b> pilna';
 $lang['SAVEBOX_SIZE'] = 'Jūsu Savebox is<br /><b>%d%%</b> pilna';
-
-$lang['CLICK_VIEW_PRIVMSG'] = 'Noklikšķiniet uz %sHere%s, lai apmeklētu jūsu Iesūtni';
 
 $lang['OUTBOX_EXPL'] = '';
 
@@ -512,7 +458,6 @@ $lang['PREFERENCES'] = 'Preferences';
 $lang['ITEMS_REQUIRED'] = 'Posteņi, kas apzīmēti ar * ir nepieciešami, ja vien nav norādīts citādi.';
 $lang['REGISTRATION_INFO'] = 'Reģistrācijas Informācija';
 $lang['PROFILE_INFO'] = 'Profila Informācija';
-$lang['PROFILE_INFO_WARN'] = 'Publiski pieejamā informācija';
 $lang['AVATAR_PANEL'] = 'Avatar vadības panelis';
 
 $lang['WEBSITE'] = 'Mājas lapa';
@@ -520,7 +465,6 @@ $lang['LOCATION'] = 'Atrašanās vieta';
 $lang['CONTACT'] = 'Kontaktinformācija';
 $lang['EMAIL_ADDRESS'] = 'E-pasta adrese';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Sūtīt privātu ziņu';
-$lang['HIDDEN_EMAIL'] = '[ Slēpts ]';
 $lang['INTERESTS'] = 'Intereses';
 $lang['OCCUPATION'] = 'Nodarbošanās';
 $lang['POSTER_RANK'] = 'Plakātu rangs';
@@ -533,16 +477,9 @@ $lang['SEARCH_USER_POSTS_SHORT'] = 'Atrast lietotāja amatiem';
 $lang['SEARCH_USER_TOPICS'] = 'Atrast lietotāja tēmas'; // Find all topics by username
 
 $lang['NO_USER_ID_SPECIFIED'] = 'Atvainojiet, bet, ka lietotājs neeksistē.';
-$lang['WRONG_PROFILE'] = 'Jūs nevarat modificētu profilu, kas nav jūsu.';
-
-$lang['ONLY_ONE_AVATAR'] = 'Tikai viena tipa avatar var būt norādīts';
-$lang['FILE_NO_DATA'] = 'Faila URL, kas jums deva satur nav datu';
-$lang['NO_CONNECTION_URL'] = 'Savienojumu nevar tikt veikti uz URL, kas jums deva';
-$lang['INCOMPLETE_URL'] = 'URL, ko jūs ievadījāt, ir nepilnīga';
 $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Atvainojiet, bet jūsu paroli nevar ielādēt, jo jūsu kontā pašlaik ir neaktīvs,';
 $lang['NO_SEND_ACCOUNT'] = 'Atvainojiet, bet jūsu paroli nevar izgūt. Lūdzu, sazinieties ar foruma administratoru, lai saņemtu plašāku informāciju';
 
-$lang['ALWAYS_ADD_SIG'] = 'Vienmēr pievienot manu parakstu';
 $lang['HIDE_PORN_FORUMS'] = 'Paslēpt satura 18+';
 $lang['ADD_RETRACKER'] = 'Pievienot retracker, torrent failus';
 $lang['ALWAYS_NOTIFY'] = 'Vienmēr informēt mani par atbildēm';
@@ -573,9 +510,7 @@ $lang['BIRTHDAY_MIN_AGE'] = 'Min vecuma';
 $lang['BIRTHDAY_CHECK_DAY'] = 'Dienas, lai pārbaudītu nākamās dzimšanas dienas';
 $lang['YEARS'] = 'Gadi';
 
-$lang['NO_THEMES'] = 'Nē Tēmām datu bāze';
 $lang['TIMEZONE'] = 'Laika josla';
-$lang['DATE_FORMAT_PROFILE'] = 'Datuma formāts';
 $lang['DATE_FORMAT_EXPLAIN'] = 'To izmanto sintakse ir identiska PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> funkciju.';
 $lang['SIGNATURE'] = 'Paraksts';
 $lang['SIGNATURE_EXPLAIN'] = 'Tas ir teksta bloku, kas var tikt pievienots amatu, jūs veicat. Tur ir %d rakstzīmju limitu';
@@ -600,14 +535,9 @@ $lang['AVATAR_EXPLAIN'] = 'Postos zem jūsu informācijas tiks parādīta maza g
 $lang['AVATAR_DELETE'] = 'Dzēst avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar kontroles iespēja invalīdiem pārkāpšanu <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Upload avatar';
-
-$lang['SELECT_AVATAR'] = 'Izvēlieties avatar';
 $lang['RETURN_PROFILE'] = 'Atgriezties profilu';
-$lang['SELECT_CATEGORY'] = 'Izvēlieties kategoriju';
-
 $lang['DELETE_IMAGE'] = 'Dzēst attēlu';
 $lang['SET_MONSTERID_AVATAR'] = 'Iestatīt MonsterID avataru';
-$lang['CURRENT_IMAGE'] = 'Pašreizējo attēlu';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Informēt par jaunu privātu ziņojumu';
 $lang['HIDE_USER'] = 'Slēpt jūsu tiešsaistes statuss';
@@ -616,31 +546,24 @@ $lang['HIDDEN_USER'] = 'Slēpts lietotājs';
 $lang['PROFILE_UPDATED'] = 'Jūsu profils ir atjaunināta';
 $lang['PROFILE_UPDATED_INACTIVE'] = 'Jūsu profils ir atjaunināta. Tomēr, jums ir mainīta būtiska informācija, tādējādi jūsu konts ir neaktīvs tagad. Pārbaudiet savu e-pastu, lai uzzinātu, kā, lai atkārtoti aktivizētu kontu, vai arī ja admin aktivizācija tiek pieprasīta, pagaidiet, lai administrators un atjaunot to.';
 
-$lang['PASSWORD_MISMATCH'] = 'Paroles esat ievadījis nesakrita.';
-$lang['CURRENT_PASSWORD_MISMATCH'] = 'Pašreizējo paroli, ko sniedzat, neatbilst tam, kas glabājas datu bāzē.';
 $lang['PASSWORD_LONG'] = 'Jūsu parolei jābūt ne garākai par %d rakstzīmēm un ne īsākai par %d rakstzīmēm.';
-$lang['TOO_MANY_REGISTERS'] = 'Jums ir pārāk daudz reģistrācijas mēģinājumiem. Lūdzu, mēģiniet vēlreiz vēlāk.';
 $lang['USERNAME_TAKEN'] = 'Atvainojiet, bet šis lietotājvārds jau ir veikti.';
 $lang['USERNAME_INVALID'] = 'Atvainojiet, bet šis lietotājvārds ir nederīga rakstzīme';
 $lang['USERNAME_DISALLOWED'] = 'Atvainojiet, bet šis lietotājvārds ir atļauts.';
 $lang['USERNAME_TOO_LONG'] = 'Jūsu vārds ir pārāk garš.';
 $lang['USERNAME_TOO_SMALL'] = 'Jūsu vārds ir pārāk mazs.';
 $lang['EMAIL_TAKEN'] = 'Atvainojiet, bet šī e-pasta adrese jau ir reģistrēta lietotāja.';
-$lang['EMAIL_BANNED'] = 'Atvainojiet, bet <b>%s</b> adrese ir aizliegta.';
 $lang['EMAIL_INVALID'] = 'Atvainojiet, bet šī e-pasta adrese ir nederīga.';
 $lang['EMAIL_TOO_LONG'] = 'Jūsu e-pasta adrese ir pārāk gara.';
 $lang['SIGNATURE_TOO_LONG'] = 'Jūsu paraksts ir pārāk garš.';
 $lang['SIGNATURE_ERROR_HTML'] = 'Paraksts var būt tikai BBCode';
 $lang['FIELDS_EMPTY'] = 'Jums ir nepieciešams aizpildīt laukus.';
 
-$lang['WELCOME_SUBJECT'] = 'Laipni lūdzam %s Forumos'; // Welcome to my.com forums
-$lang['NEW_ACCOUNT_SUBJECT'] = 'Jaunu lietotāja kontu';
-$lang['ACCOUNT_ACTIVATED_SUBJECT'] = 'Konts Aktivizēts';
+$lang['WELCOME_SUBJECT'] = 'Laipni lūdzam %s Forumos';
 
 $lang['ACCOUNT_ADDED'] = 'Paldies par reģistrēšanos. Jūsu konts ir izveidots. Tagad jūs varat ielogoties ar savu lietotājvārdu un paroli';
 $lang['ACCOUNT_INACTIVE'] = 'Jūsu konts ir izveidots. Tomēr, šis forums ir nepieciešama konta aktivizēšanas. Aktivizācijas atslēgu nosūtīta uz e-pasta adresi, kuru norādījāt. Lūdzu, pārbaudiet savu e-pastu papildu informāciju';
 $lang['ACCOUNT_ACTIVE'] = 'Jūsu konts ir tikko aktivizēts. Paldies par reģistrēšanos';
-$lang['REACTIVATE'] = 'Aktivizējiet savu kontu!';
 $lang['ALREADY_ACTIVATED'] = 'Jūs jau aktivizēt savu kontu';
 
 $lang['REGISTRATION'] = 'Reģistrācijas Nolīguma Noteikumi';
@@ -649,15 +572,12 @@ $lang['WRONG_ACTIVATION'] = 'Aktivizācijas atslēgu, ko sniedzat neatbilst nevi
 $lang['SEND_PASSWORD'] = 'Atsūtiet man jaunu paroli';
 $lang['PASSWORD_UPDATED'] = 'Jauna parole ir izveidots, lūdzu, pārbaudi savu e-pastu informāciju par to, kā, lai to aktivizētu.';
 $lang['NO_EMAIL_MATCH'] = 'E-pasta adrese, ko sniedzat neatbilst vienā sarakstā, lai šo lietotājvārdu.';
-$lang['NEW_PASSWORD_ACTIVATION'] = 'Jaunu paroli aktivizēšana';
 $lang['PASSWORD_ACTIVATED'] = 'Jūsu konta darbība ir atjaunota. Lai pieteiktos, lūdzu, izmantojiet paroli, ko piegādā e-pastu esat saņēmis.';
 
 $lang['SEND_EMAIL_MSG'] = 'Nosūtīt e-pasta ziņojumu,';
 $lang['NO_USER_SPECIFIED'] = 'Neviens lietotājs, bija norādīts';
-$lang['USER_PREVENT_EMAIL'] = 'Šis lietotājs nevēlas saņemt e-pastu. Mēģiniet nosūtot privāto ziņu.';
 $lang['USER_NOT_EXIST'] = 'Ka lietotājs neeksistē';
 $lang['EMAIL_MESSAGE_DESC'] = 'Šī ziņa tiks nosūtīta kā vienkāršu tekstu, tātad, neietver jebkādu HTML vai BBCode. Atgriešanās adrese vai šī ziņa tiks iestatīts jūsu e-pasta adresi.';
-$lang['FLOOD_EMAIL_LIMIT'] = 'Jūs nevarat sūtīt citu e-pasta šajā laikā. Mēģiniet vēlreiz vēlāk.';
 $lang['RECIPIENT'] = 'Saņēmējs';
 $lang['EMAIL_SENT'] = 'E-pasts ir nosūtīts.';
 $lang['SEND_EMAIL'] = 'Nosūtīt e-pastu';
@@ -744,20 +664,12 @@ $lang['GROUP_ADDED'] = 'Jums ir pievienoti šo usergroup.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Jūs esat jau šīs grupas dalībnieks,';
 $lang['USER_IS_MEMBER_GROUP'] = '%s jau ir šīs grupas dalībnieks';
 $lang['USER_IS_MOD_GROUP'] = '%s ir šīs grupas moderators';
-$lang['GROUP_TYPE_UPDATED'] = 'Veiksmīgi atjaunināta grupa tips.';
 $lang['EFFECTIVE_DATE'] = 'Spēkā Stāšanās Datums';
-
 $lang['COULD_NOT_ADD_USER'] = 'Lietotāja esat izvēlējies neeksistē.';
-$lang['COULD_NOT_ANON_USER'] = 'Jūs nevarat veikt Anonīmas grupas loceklis.';
-
-$lang['CONFIRM_UNSUB'] = 'Vai jūs esat pārliecināts, ka jūs vēlaties, lai atteiktos no šīs grupas?';
-$lang['CONFIRM_UNSUB_PENDING'] = 'Savu abonēšanas šajā grupā vēl nav apstiprināti; jūs esat pārliecināts, ka jūs vēlaties, lai atteiktos?';
-
 $lang['UNSUB_SUCCESS'] = 'Jums ir atspējots no šīs grupas.';
 
 $lang['APPROVE_SELECTED'] = 'Apstiprināt Izvēlēto';
 $lang['DENY_SELECTED'] = 'Noliegt Izvēlēts';
-$lang['NOT_LOGGED_IN'] = 'Jums jābūt pieteicies lai pievienotos grupai.';
 $lang['REMOVE_SELECTED'] = 'Noņemt Atlasītos';
 $lang['ADD_MEMBER'] = 'Pievienot Loceklis';
 $lang['NOT_GROUP_MODERATOR'] = 'Jūs neesat šīs grupas moderators, tāpēc jūs nevarat veikt šo darbību.';
@@ -773,7 +685,6 @@ $lang['NONE'] = 'Nav';
 
 $lang['SUBSCRIBE'] = 'Abonēt';
 $lang['UNSUBSCRIBE_GROUP'] = 'Atrakstīties';
-$lang['VIEW_INFORMATION'] = 'Skatīt Informāciju';
 $lang['MEMBERS_IN_GROUP'] = 'Dalībnieku grupas';
 
 // Release Groups
@@ -786,7 +697,6 @@ $lang['MORE_RELEASES'] = 'Atrast visas relīzes par grupu';
 $lang['NOT_A_RELEASE_GROUP'] = 'Šī grupa ir ne presei grupa';
 
 // Search
-$lang['SEARCH_ERROR'] = 'Brīdī, meklētājprogrammas nav available<br /><br />Try, lai atkārtotu pieprasījumu pēc dažām sekundēm';
 $lang['SEARCH_HELP_URL'] = 'Meklēšanas Palīdzība';
 $lang['SEARCH_QUERY'] = 'Meklēšanas Vaicājums';
 $lang['SEARCH_OPTIONS'] = 'Meklēšanas Iespējas';
@@ -798,22 +708,15 @@ $lang['SEARCH_AUTHOR_EXPL'] = 'Izmantojiet * kā aizstājējzīmi daļēji atbil
 
 $lang['SEARCH_TITLES_ONLY'] = 'Meklēšanas tēmu nosaukumus tikai';
 $lang['SEARCH_ALL_WORDS'] = 'visi vārdi';
-$lang['SEARCH_MY_MSG_ONLY'] = 'Meklēšanas tikai mans posts';
 $lang['IN_MY_POSTS'] = 'Manā amata';
 $lang['SEARCH_MY_TOPICS'] = 'manā tēmas';
 $lang['NEW_TOPICS'] = 'Jaunās tēmas';
-
-$lang['RETURN_FIRST'] = 'Atpakaļ pirmajā'; // followed by xxx characters in a select box
-$lang['CHARACTERS_POSTS'] = 'rakstzīmes no amata';
 
 $lang['SEARCH_PREVIOUS'] = 'Meklēšanas iepriekšējā';
 
 $lang['SORT_BY'] = 'Kārtot pēc';
 $lang['SORT_TIME'] = 'Pēc Laika';
-$lang['SORT_POST_SUBJECT'] = 'Publicēt Tēmu';
 $lang['SORT_TOPIC_TITLE'] = 'Tēmas Nosaukums';
-$lang['SORT_AUTHOR'] = 'Autors';
-$lang['SORT_FORUM'] = 'Forums';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Displeja rezultātu, kā';
 $lang['ALL_AVAILABLE'] = 'Visi pieejams';
@@ -823,24 +726,18 @@ $lang['NO_SEARCHABLE_FORUMS'] = 'Jums nav atļaujas, lai meklētu jebkurā forum
 $lang['NO_SEARCH_MATCH'] = 'Nē, tēmas vai ziņas, kas izpildītas jūsu meklēšanas kritērijiem';
 $lang['FOUND_SEARCH_MATCH'] = 'Meklēšanas atradu %d spēles'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Meklēšanas atradu %d spēles'; // e.g. Search found 24 matches
-$lang['TOO_MANY_SEARCH_RESULTS'] = 'Pārāk daudz rezultātiem var atrast, lūdzu, mēģiniet, lai būtu precīzāk';
 
 $lang['CLOSE_WINDOW'] = 'Aizvērt Logu';
 $lang['CLOSE'] = 'aizvērt';
 $lang['HIDE'] = 'paslēpt';
-$lang['SEARCH_TERMS'] = 'Meklēšanas nosacījumus';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = 'Atvainojiet, bet tikai %s var apskatīt šajā forumā.';
 $lang['SORRY_AUTH_READ'] = 'Atvainojiet, bet tikai %s var lasīt tēmas šajā forumā.';
-$lang['SORRY_AUTH_POST'] = 'Atvainojiet, bet tikai %s var publicēt tēmu šajā forumā.';
 $lang['SORRY_AUTH_REPLY'] = 'Atvainojiet, bet tikai %s varat atbildēt uz amatu šajā forumā.';
 $lang['SORRY_AUTH_EDIT'] = 'Atvainojiet, bet tikai %s var rediģēt posts šajā forumā.';
 $lang['SORRY_AUTH_DELETE'] = 'Atvainojiet, bet tikai %s varat izdzēst posts šajā forumā.';
-$lang['SORRY_AUTH_VOTE'] = 'Atvainojiet, bet tikai %s var balsot aptaujās šajā forumā.';
-$lang['SORRY_AUTH_STICKY'] = 'Atvainojiet, bet tikai %s var ievietot lapiņu ziņojumus šajā forumā.';
-$lang['SORRY_AUTH_ANNOUNCE'] = 'Atvainojiet, bet tikai %s var ievietot paziņojumus šajā forumā.';
 
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
@@ -860,8 +757,6 @@ $lang['LAST_UPDATED'] = 'Pēdējo Reizi Atjaunināts';
 
 // Moderator Control Panel
 $lang['MOD_CP'] = 'Moderators Vadības Panelis';
-$lang['MOD_CP_EXPLAIN'] = 'Izmantojot šo veidlapu, jūs varat veikt masas mēru darbību šajā forumā. Varat bloķēt, atbloķēt, pārvietot vai dzēst jebkuru tēmu skaitu.';
-
 $lang['SELECT'] = 'Izvēlieties';
 $lang['DELETE'] = 'Dzēst';
 $lang['MOVE'] = 'Pārvietot';
@@ -876,8 +771,6 @@ $lang['TOPICS_UNLOCKED'] = 'Izvēlētās tēmas ir atslēgts.';
 $lang['NO_TOPICS_MOVED'] = 'Nē tēmas tika pārvietotas.';
 
 $lang['CONFIRM_DELETE_TOPIC'] = 'Vai jūs esat pārliecināts, ka jūs vēlaties, lai izņemtu izvēlēto tēmu/s?';
-$lang['CONFIRM_LOCK_TOPIC'] = 'Vai jūs esat pārliecināts, ka jūs vēlaties, lai fiksētu izvēlēto tēmu/s?';
-$lang['CONFIRM_UNLOCK_TOPIC'] = 'Vai jūs esat pārliecināts, ka jūs vēlaties, lai atbloķētu izvēlēto tēmu/s?';
 $lang['CONFIRM_MOVE_TOPIC'] = 'Vai jūs esat pārliecināts, ka jūs vēlaties, lai pārvietotu izvēlēto tēmu/s?';
 
 $lang['MOVE_TO_FORUM'] = 'Pāriet uz foruma';
@@ -889,11 +782,7 @@ $lang['FORUM_FOR_NEW_TOPIC'] = 'Forums jauna tēma';
 $lang['SPLIT_POSTS'] = 'Split izvēlēto amatu';
 $lang['SPLIT_AFTER'] = 'Sadalīt no izvēlētā pastu';
 $lang['TOPIC_SPLIT'] = 'Izvēlētās tēmas ir sadalītas veiksmīgi';
-
-$lang['TOO_MANY_ERROR'] = 'Jūs esat izvēlējies pārāk daudz vietas. Jūs varat izvēlēties tikai vienu amatu sadalīt tēmu pēc!';
-
 $lang['NONE_SELECTED'] = 'Jums nav izvēlēts, lai veiktu šo operāciju. Lūdzu, ej atpakaļ un, izvēlieties vismaz viens.';
-$lang['NEW_FORUM'] = 'Jauns forums';
 
 $lang['THIS_POSTS_IP'] = 'IP adrese, lai šis sūtījums';
 $lang['OTHER_IP_THIS_USER'] = 'Citām IP adresēm, šis lietotājs ir ievietojis no';
@@ -999,7 +888,6 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Atvainojiet, bet jums nav atļauts apskatīt 
 $lang['DESCRIPTION'] = 'Apraksts'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Lejupielādēt'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Faila izmērs';
-$lang['VIEWED'] = 'Skatīts';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Paplašinājums \'%s\' tika deaktivizēts valdes administratora, tāpēc šis pielikums nav redzams.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
@@ -1033,7 +921,6 @@ $lang['FILE_COMMENT'] = 'Faila Komentārs';
 // Posting/PM -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Iesūtīts Pielikumus';
 $lang['UPDATE_COMMENT'] = 'Atjaunināt Komentāru';
-$lang['DELETE_ATTACHMENTS'] = 'Dzēst Pielikumus';
 $lang['DELETE_ATTACHMENT'] = 'Dzēst Pielikumu';
 $lang['DELETE_THUMBNAIL'] = 'Dzēst Sīktēlu';
 $lang['UPLOAD_NEW_VERSION'] = 'Augšupielādēt Jaunu Versiju';
@@ -1057,10 +944,8 @@ $lang['NO_ATTACHMENT_SELECTED'] = 'Jūs neesat izvēlēto pielikumu, lai ielād�
 $lang['ERROR_NO_ATTACHMENT'] = 'Izvēlēto Pielikumu vairs nepastāv';
 
 // Delete Attachments
-$lang['CONFIRM_DELETE_ATTACHMENTS'] = 'Vai jūs esat pārliecināts, ka jūs vēlaties, lai dzēstu atlasītos Pielikumus?';
 $lang['DELETED_ATTACHMENTS'] = 'Izvēlēto Pielikumi ir izdzēsta.';
 $lang['ERROR_DELETED_ATTACHMENTS'] = 'Nevar dzēst Pielikumus.';
-$lang['CONFIRM_DELETE_PM_ATTACHMENTS'] = 'Vai jūs esat pārliecināts, ka vēlaties dzēst visus Pielikumus ievietojis šajā PM?';
 
 // General Error Messages
 $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Pielikumu Līdzeklis ir atspējots.';
@@ -1077,14 +962,10 @@ $lang['GB'] = 'GB';
 $lang['ATTACH_SEARCH_QUERY'] = 'Meklēt Aprīkojums';
 $lang['TEST_SETTINGS'] = 'Testu Iestatījumi';
 $lang['NOT_ASSIGNED'] = 'Nav Piešķirts';
-$lang['NO_FILE_COMMENT_AVAILABLE'] = 'Neviens Fails Komentāru pieejams';
-$lang['ATTACHBOX_LIMIT'] = 'Jūsu Pielikumu kastīte ir<br /><b>%d%%</b> pilna';
-$lang['UNLIMITED'] = 'Neierobežots';
 
 //bt
 $lang['BT_REG_YES'] = 'Reģistrēts';
 $lang['BT_REG_NO'] = 'Nav reģistrēts';
-$lang['BT_ADDED'] = 'Pievienot';
 $lang['BT_REG_ON_TRACKER'] = 'Reģistrēties tracker';
 $lang['BT_REG_FAIL'] = 'Nevarēja reģistrēties par torrent tracker';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Citu torrent ar pašu info_hash jau <a href="%s"><b>registered</b></a>';
@@ -1098,9 +979,6 @@ $lang['BT_FLIST_CREATION_DATE'] = 'Izveides datums';
 $lang['BT_IS_PRIVATE'] = 'Privāts torrents';
 $lang['BT_FLIST_FILE_PATH'] = 'Ceļš (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'Failu hashes | .torrent meta-informācija';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Paziņotāju saraksts';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Paziņotāji';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Šis saraksts satur torrent faila paziņotājus';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Noņemt no tracker';
 $lang['BT_UNREGISTERED'] = 'Torrent nereģistrētiem';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrents jau ir atskaitīts';
@@ -1175,9 +1053,7 @@ $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The informā
 
 $lang['BT_TOPIC_TITLE'] = 'Tēmas nosaukums';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Sēklas pēdējo reizi redzējām';
-$lang['BT_SORT_FORUM'] = 'Forums';
 $lang['SIZE'] = 'Izmērs';
-$lang['PIECE_LENGTH'] = 'Gabals garums';
 $lang['COMPLETED'] = 'Pabeigtas lejupielādes';
 $lang['ADDED'] = 'Pievienot';
 $lang['DELETE_TORRENT'] = 'Dzēst torrent';
@@ -1273,7 +1149,6 @@ $lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Reģistrējoties straumēm atļauts tikai 
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Nevarēja reģistrēties torrent šajā forumā';
 $lang['ALREADY_REG'] = 'Torrent, kas jau reģistrēts';
 $lang['NOT_TORRENT'] = 'Šis fails nav torrent';
-$lang['ONLY_1_TOR_PER_POST'] = 'Jūs varat reģistrēties tikai vienā torrent viens sūtījums';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Jūs varat reģistrēties tikai vienā torrent viena tēma';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrenta profils';
 $lang['CUR_ACTIVE_DLS'] = 'Aktīvā straumēm';
@@ -1336,7 +1211,6 @@ $lang['HIDDEN'] = 'Slēpts';
 // from admin
 $lang['NOT_ADMIN'] = 'Jums nav atļauts pārvaldīt šo dēli';
 
-$lang['COOKIES_REQUIRED'] = 'Sīkfaili ir jābūt aktivizētam!';
 $lang['SESSION_EXPIRED'] = 'Sesijas beidzies';
 
 // Sort memberlist per letter
@@ -1372,11 +1246,8 @@ $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Pievienot bot-ziņa par to sadalīt, lai <b>n
 $lang['QUICK_REPLY'] = 'Ātrā Atbilde';
 $lang['INS_NAME_TIP'] = 'Ielikt vārdu vai izvēlēto tekstu.';
 $lang['QUOTE_SELECTED'] = 'Citēt izvēlēto';
-$lang['QR_ATTACHSIG'] = 'Pievienot parakstu';
 $lang['QR_NOTIFY'] = 'Paziņot par atbildi';
-$lang['QR_DISABLE'] = 'Atslēgt';
 $lang['QR_USERNAME'] = 'Nosaukums';
-$lang['NO_TEXT_SEL'] = 'Izvēlieties teksta jebkur lapā un mēģiniet vēlreiz';
 $lang['QR_FONT_SEL'] = 'Font face';
 $lang['QR_COLOR_SEL'] = 'Fonta krāsa';
 $lang['QR_SIZE_SEL'] = 'Fonta lielums';
@@ -1419,9 +1290,7 @@ $lang['TORHELP_TITLE'] = 'Lūdzu, palīdziet sēt šīs straumes!';
 $lang['STATISTICS'] = 'Statistika';
 $lang['STATISTIC'] = 'Statistika';
 $lang['VALUE'] = 'Vērtība';
-$lang['INVERT_SELECT'] = 'Invertcukuru izvēles';
 $lang['STATUS'] = 'Statuss';
-$lang['LAST_CHANGED_BY'] = 'Pēdējā mainīt';
 $lang['CHANGES'] = 'Izmaiņas';
 $lang['ACTION'] = 'Darbība';
 $lang['REASON'] = 'Iemesls';
@@ -1508,9 +1377,6 @@ $lang['CHOOSE_PASS_OK'] = 'Paroles spēles';
 $lang['CHOOSE_PASS_REG_OK'] = 'Paroles spēlē, jūs varat doties ar reģistrācijas';
 $lang['CHOOSE_PASS_FAILED'] = 'Lai mainītu paroli, jums ir pareizi norādīt pašreizējo paroli';
 $lang['EMAILER_DISABLED'] = 'Atvainojiet, šis līdzeklis ir uz laiku, kas nav darba';
-$lang['TERMS_ON'] = 'Es piekrītu šiem noteikumiem un nosacījumiem';
-$lang['TERMS_OFF'] = 'Man nav piekrītat šiem noteikumiem';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Lai reģistrētos, jums ir jāiespējo JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Reģistrācija pašlaik ir slēgta<br /><br />Reģistrācija ir pieejama laikā: %s<br />Pašreizējais servera laiks: %s<br /><br />Atvainojamies par sagādātajām neērtībām";
 $lang['AUTOCOMPLETE'] = 'Ģenerēt paroli';
 $lang['YOUR_NEW_PASSWORD'] = 'Jūsu jaunā parole:';
@@ -1535,7 +1401,6 @@ $lang['WHAT_IS_A_TORRENT'] = 'Kas ir torrent?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Vērtējumi un Ierobežojumi';
 
 $lang['SCREENSHOTS_RULES'] = 'Izlasiet noteikumus, kas izklāstīti ekrānšāviņi!';
-$lang['SCREENSHOTS_RULES_TOPIC'] = 'Lasīt noteikumiem, kas izklāstīti ekrānšāviņi šajā sadaļā!';
 $lang['AJAX_EDIT_OPEN'] = 'Jūs esat jau atvēra vienu ātru rediģēšanu!';
 $lang['GO_TO_PAGE'] = 'Iet uz lapu ...';
 $lang['EDIT'] = 'Edit';
@@ -1655,8 +1520,6 @@ $lang['ADD_NEW'] = 'Pievienot';
 $lang['CRON'] = 'Uzdevumu Plānotājs (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Atjaunot meklēšanas indekss';
 $lang['FORUM_CONFIG'] = 'Foruma uzstādījumi';
-$lang['TRACKER_CONFIG'] = 'Tracker uzstādījumi';
-$lang['RELEASE_TEMPLATES'] = 'Atbrīvošanas Veidnes';
 $lang['ACTIONS_LOG'] = 'Ziņojumā par rīcības';
 
 // Migrations
@@ -1787,12 +1650,7 @@ $lang['AUTH_DOWNLOAD'] = 'Lejupielādēt Failu';
 $lang['USER_LEVEL'] = 'Lietotāja Līmenis';
 $lang['AUTH_USER'] = 'Lietotājs';
 $lang['AUTH_ADMIN'] = 'Administrators';
-$lang['GROUP_MEMBERSHIPS'] = 'Usergroup biedri';
-$lang['USERGROUP_MEMBERS'] = 'Šī grupa ir šādi deputāti';
-
 $lang['FORUM_AUTH_UPDATED'] = 'Foruma atļaujas ir atjaunināti';
-$lang['USER_AUTH_UPDATED'] = 'Lietotāja atļauju ir atjaunināti';
-$lang['GROUP_AUTH_UPDATED'] = 'Grupas atļaujas ir atjaunināti';
 
 $lang['AUTH_UPDATED'] = 'Atļaujas ir atjaunināti';
 $lang['AUTH_GENERAL_ERROR'] = 'Nevarēja atjaunot administratora statusu';
@@ -1860,13 +1718,11 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Cik ilgi autologin atslēga ir derīga dienā
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Foruma Administrācija';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'No šī paneļa jūs varat pievienot, dzēst, rediģēt, pārkārtot un atkārtoti sinhronizēt kategorijas un forumus';
 $lang['EDIT_FORUM'] = 'Edit forumā';
 $lang['CREATE_FORUM'] = 'Izveidot jaunu foruma';
 $lang['CREATE_SUB_FORUM'] = 'Izveidot apakšforumus';
 $lang['CREATE_CATEGORY'] = 'Izveidot jaunu kategoriju';
 $lang['REMOVE'] = 'Noņemt';
-$lang['UPDATE_ORDER'] = 'Atjauninājumu, Lai';
 $lang['CONFIG_UPDATED'] = 'Foruma Konfigurācija Ir Jāatjaunina Veiksmīgi';
 $lang['MOVE_UP'] = 'Pārvietot uz augšu';
 $lang['MOVE_DOWN'] = 'Pārvietot lejup';
@@ -1889,7 +1745,6 @@ $lang['FORUM_STATUS'] = 'Forums statuss';
 $lang['FORUM_PRUNING'] = 'Auto-atzarošanas';
 
 $lang['PRUNE_DAYS'] = 'Noņemt tēmas, kas nav bijuši nozīmēti saskaņā';
-$lang['SET_PRUNE_DATA'] = 'Jums ir ieslēgts auto-plūmju par šo forumu, bet nebija noteiktas vairākas dienas, lai žāvētu plūmju. Lūdzu, ej atpakaļ un darīt.';
 
 $lang['MOVE_AND_DELETE'] = 'Pārvietot un Dzēst';
 
@@ -1946,7 +1801,6 @@ $lang['LOOK_UP_USER'] = 'Meklēt lietotāja';
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupas Administrācija';
 $lang['GROUP_ADMIN_EXPLAIN'] = 'No šī paneļa jūs varat pārvaldīt visas jūsu usergroups. Jūs varat dzēst, izveidot un rediģēt esošos grupām. Jūs varat izvēlēties, moderatori, pārslēgt atvērts/aizvērts grupas statusu un noteikt grupas nosaukums un apraksts';
-$lang['ERROR_UPDATING_GROUPS'] = 'Tur bija kļūda, atjauninot grupu';
 $lang['UPDATED_GROUP'] = 'Grupa ir atjaunināta veiksmīgi';
 $lang['ADDED_NEW_GROUP'] = 'Jaunā grupa ir izveidota veiksmīgi';
 $lang['DELETED_GROUP'] = 'Grupa ir veiksmīgi izdzēsti';
@@ -1955,8 +1809,6 @@ $lang['EDIT_GROUP'] = 'Edit group';
 $lang['GROUP_STATUS'] = 'Grupas statusu';
 $lang['GROUP_DELETE'] = 'Dzēst grupu';
 $lang['GROUP_DELETE_CHECK'] = 'Dzēst šo grupu';
-$lang['SUBMIT_GROUP_CHANGES'] = 'Apstiprināt Izmaiņas';
-$lang['RESET_GROUP_CHANGES'] = 'Reset Izmaiņas';
 $lang['NO_GROUP_NAME'] = 'Norādiet nosaukumu šajā grupā';
 $lang['NO_GROUP_MODERATOR'] = 'Jums jānorāda moderators šīs grupas';
 $lang['NO_GROUP_MODE'] = 'Jums jānorāda režīmu šīs grupas, atklāts vai slēgts';
@@ -1974,7 +1826,6 @@ $lang['DO_PRUNE'] = 'Darīt Prune';
 $lang['ALL_FORUMS'] = 'Visos Forumos';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Plūme tēmas, kam nav atbildes šajā daudzas dienas';
 $lang['TOPICS_PRUNED'] = 'Tēmas atzaro';
-$lang['POSTS_PRUNED'] = 'Amata vietas, kas atzaro';
 $lang['PRUNE_SUCCESS'] = 'Forums ir atzaro veiksmīgi';
 $lang['NOT_DAYS'] = 'Prune dienas nav izvēlēts';
 
@@ -1985,7 +1836,6 @@ $lang['WORD'] = 'Vārds';
 $lang['EDIT_WORD_CENSOR'] = 'Labot vārdu cenzēt';
 $lang['REPLACEMENT'] = 'Nomaiņa';
 $lang['ADD_NEW_WORD'] = 'Pievienot jaunu vārdu';
-$lang['UPDATE_WORD'] = 'Atjaunināt vārdu cenzēt';
 
 $lang['MUST_ENTER_WORD'] = 'Jums ir jāievada vārds un tā nomaiņa';
 $lang['NO_WORD_SELECTED'] = 'Nav vārdu izvēlēts rediģēšanai';
@@ -2005,9 +1855,6 @@ $lang['ALL_USERS'] = 'Visi Lietotāji';
 
 $lang['MASS_EMAIL_MESSAGE_TYPE'] = 'E-pasta veids';
 
-$lang['EMAIL_SUCCESSFULL'] = 'Jūsu ziņojums ir nosūtīts';
-$lang['CLICK_RETURN_MASSEMAIL'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos Masa e-Pasta forma';
-
 // Ranks admin
 $lang['RANKS_TITLE'] = 'Rangs Administrācija';
 $lang['RANKS_EXPLAIN'] = 'Izmantojot šo veidlapu, jūs varat pievienot, rediģēt, apskatīt un dzēst rindās. Jūs varat arī izveidot pielāgotus rindās, ko var piemērot, lai lietotājs, izmantojot lietotāja vadības iekārtas';
@@ -2020,7 +1867,6 @@ $lang['RANK_IMAGE'] = 'Rangs Attēlu';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Izmantojiet šo, lai norādītu, mazs attēls, kas saistīts ar rank';
 
 $lang['MUST_SELECT_RANK'] = 'Jums ir nepieciešams, lai izvēlētos rangs';
-$lang['NO_ASSIGNED_RANK'] = 'Nav īpašu rangs piešķirts';
 
 $lang['RANK_UPDATED'] = 'Rangs ir atjaunināta veiksmīgi';
 $lang['RANK_ADDED'] = 'Rangs tika veiksmīgi pievienots';
@@ -2093,7 +1939,6 @@ $lang['SYNC'] = 'Sinhronizācija';
 $lang['MAX_NEWS_TITLE'] = 'Maks. garums ziņas';
 $lang['NEWS_COUNT'] = 'Cik daudz jaunumu rādīt';
 $lang['NEWS_FORUM_ID'] = 'No kuriem forumu rādīt <br /> <h6>Pāris forumiem, norādiet ID, atdalot ar komatiem. Piemērs: 1,2,3</h6>';
-$lang['NOAVATAR'] = 'Nav avatar';
 $lang['TRACKER_STATS'] = 'Statistika par tracker';
 $lang['WHOIS_INFO'] = 'Informācija par IP adresi';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Rādīt regulētāju index.php';
@@ -2145,10 +1990,6 @@ $lang['DISABLE_MOD'] = 'Izslēgt Pielikumu Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Šī iespēja ir galvenokārt pārbaudot jaunas veidnes vai tēmas, tas izslēdz visus Arestu Funkcijas, izņemot Admin Paneļa.';
 $lang['PM_ATTACHMENTS'] = 'Ļauj Pielikumus Privātās Ziņas';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Atļaut/Neatļaut pievienojot failus Privātās Ziņas.';
-
-// Attachments -> Sync
-$lang['SYNC_TOPICS'] = 'Sinhronizācijas Tēmas';
-$lang['SYNC_POSTS'] = 'Sinhronizācijas Amatiem';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Pārvaldīt Paplašinājumus';
@@ -2234,8 +2075,6 @@ $lang['SORT_POSTTIME'] = 'Pēc Laika';
 // View Types
 $lang['VIEW_STATISTIC'] = 'Statistika';
 $lang['VIEW_SEARCH'] = 'Meklēšana';
-$lang['VIEW_USERNAME'] = 'Lietotājvārdu';
-$lang['VIEW_ATTACHMENTS'] = 'Pielikumi';
 
 // Successfully updated
 $lang['ATTACH_CONFIG_UPDATED'] = 'Pielikumu Konfigurācijas atjaunināts veiksmīgi';
@@ -2249,7 +2088,6 @@ $lang['EXTENSION'] = 'Pagarinājums';
 
 $lang['RETURN_CONFIG'] = '%sReturn, lai Configuration%s';
 $lang['CONFIG_UPD'] = 'Konfigurācijas Atjaunināts Veiksmīgi';
-$lang['SET_DEFAULTS'] = 'Restore defaults (atjaunot noklusējumus';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'Foruma iespējām:';
@@ -2259,7 +2097,6 @@ $lang['REG_TORRENTS'] = 'Reģistrēties straumēm';
 $lang['DISALLOWED'] = 'Aizliegta';
 $lang['ALLOW_REG_TRACKER'] = 'Atļauts forumos, lai reģistrētos .torrentus par tracker';
 $lang['ALLOW_PORNO_TOPIC'] = 'Atļauts publicēt saturu 18+';
-$lang['SHOW_DL_BUTTONS'] = 'Rādīt pogas, lai manuāli mainot DL-statuss';
 $lang['SELF_MODERATED'] = 'Lietotāji var <b>move</b> savas tēmas uz citu forumu';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Announce URL';
@@ -2331,7 +2168,6 @@ $lang['CRON_LAST_RUN'] = 'Pēdējā Braucienā';
 $lang['CRON_NEXT_RUN'] = 'Nākamajā Reizē';
 $lang['CRON_RUN_COUNT'] = 'Iet';
 $lang['CRON_MANAGE'] = 'Pārvaldīt';
-$lang['CRON_OPTIONS'] = 'Cron iespējas';
 $lang['CRON_DISABLED_WARNING'] = 'Brīdinājums! Cron skriptu palaišana ir atspējota. Lai to iespējotu, iestatiet mainīgo APP_CRON_ENABLED.';
 
 $lang['CRON_ENABLED'] = 'Cron iespējots';
@@ -2343,9 +2179,6 @@ $lang['CRON_RUN'] = 'Palaist';
 $lang['CRON_DEL'] = 'Dzēst';
 $lang['CRON_DISABLE'] = 'Atslēgt';
 $lang['CRON_ENABLE'] = 'Ļauj';
-
-$lang['RUN_MAIN_CRON'] = 'Sākt cron';
-$lang['ADD_JOB'] = 'Pievienot cron darbu';
 $lang['DELETE_JOB'] = 'Vai jūs esat pārliecināts, ka vēlaties dzēst cron darbu?';
 $lang['CRON_WORKS'] = 'Cron pašlaik darbojas vai ir sabojājies -> ';
 $lang['REPAIR_CRON'] = 'Remonts Cron';
@@ -2412,13 +2245,9 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Cik daudz laika (sekundes) palikt dīkstāvē, 
 
 $lang['TIME_LIMIT'] = 'Termiņš';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Cik daudz laika (sekundes) ziņu apstrāde var ilgt, pirms pāriešanas uz nākamo ciklu';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Jūsu PHP (drošības režīms) ir konfigurēts atslēgumam uz %s sekunžu, tāpēc palieciet zem šī vērtības</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserveri ir taimauts no %s sekundes konfigurēts tā, lai nepārsniegtu šo value</i>';
 
 $lang['DISABLE_BOARD'] = 'Izslēgt valde';
-$lang['DISABLE_BOARD_EXPLAIN'] = 'Ir vai nav atspējot jūsu kuģa, kamēr apstrādes';
-$lang['DISABLE_BOARD_EXPLAIN_ENABLED'] = 'Tā tiks aktivizēta automātiski pēc apstrādes';
-$lang['DISABLE_BOARD_EXPLAIN_ALREADY'] = '<i>Your valde ir jau disabled</i>';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Pēdējās apturēta apstrādi post_id %s (%s apstrādāti raksti) %s';
@@ -2440,7 +2269,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Visas amata vietas tika veiksmīgi apstrādāts.
 $lang['ALL_TABLES_OPTIMIZED'] = 'Visas meklēšanas tabulas, tika optimizēta veiksmīgi.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Apstrādes pastu';
-$lang['PROCESSED_POSTS'] = 'Pārstrādāti Amatu';
 $lang['PERCENT'] = 'Procenti';
 $lang['CURRENT_SESSION'] = 'Pašreizējā Sesijā';
 $lang['TOTAL'] = 'Kopā';
@@ -2455,15 +2283,10 @@ $lang['TIME_FROM_THE_BEGINNING'] = 'No sākuma';
 $lang['TIME_AVERAGE'] = 'Vidēji vienā ciklā';
 $lang['TIME_ESTIMATED'] = 'Lēsts līdz beigām';
 
-$lang['DATABASE_SIZE_DETAILS'] = 'Datu bāzes lielums ziņas';
-$lang['SIZE_CURRENT'] = 'Pašreizējo';
 $lang['SIZE_ESTIMATED'] = 'Lēsts, pēc finiša';
 $lang['SIZE_SEARCH_TABLES'] = 'Meklēšanas Tabulas izmērs';
-$lang['SIZE_DATABASE'] = 'Datubāzes izmērs';
 
-$lang['ACTIVE_PARAMETERS'] = 'Aktīvā parametri';
 $lang['POSTS_LAST_CYCLE'] = 'Apstrādāti pastu(s) pagājušajā ciklā';
-$lang['BOARD_STATUS'] = 'Valdes statuss';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Visas paredzamās vērtības aprēķina approximately<br />based par pašreizējo pabeigta procentiem, un tas var neatspoguļot faktisko gala vērtības.<br />As pabeigta procentiem palielina aplēstās vērtības nāks tuvāk faktisko tiem.';
 
@@ -2537,11 +2360,9 @@ $lang['RELEASES'] = 'Relīzes';
 
 $lang['BACK'] = 'Atpakaļ';
 $lang['ERROR_FORM'] = 'Nederīgs lauki';
-$lang['RELEASE_WELCOME'] = 'Lūdzu, aizpildiet atbrīvošanas veidlapu';
 $lang['NEW_RELEASE'] = 'Jauno atbrīvošanu';
 $lang['NEXT'] = 'Turpināt';
 $lang['OTHER'] = 'Citi';
-$lang['OTHERS'] = 'Citi';
 $lang['ALL'] = 'Visas';
 
 $lang['TPL_EMPTY_FIELD'] = 'Jums ir aizpildiet jomā <b>%s</b>';
@@ -2601,7 +2422,6 @@ $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Meklē lietotājus, kuri apmeklēju
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Meklē lietotājus, kuri ir apmeklējuši pēc pēdējā %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Meklē lietotājus, kuri ir noteikti %s kā viņu valodu';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Meklē lietotājus, kuri ir noteikti UTC %s kā to laika josla';
-$lang['SEARCH_FOR_STYLE'] = 'Meklē lietotājus, kuri ir noteikti %s kā savu stilu';
 $lang['SEARCH_FOR_MODERATORS'] = 'Meklēt moderatori Forumā -> %s';
 $lang['SEARCH_USERS_ADVANCED'] = 'Pieredzējis Lietotājs Meklēšana';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Šis Modulis ļauj jums veikt izvērsto meklēšanu lietotājiem uz visdažādākajiem kritērijiem. Lūdzu, izlasiet aprakstus katrā jomā, lai saprastu katra meklēšanas iespēja pilnībā.';
@@ -2630,7 +2450,6 @@ $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Meklēt lietotājiem, pamatojoties uz
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Jūs varat meklēt lietotājiem, pamatojoties uz savu pēdējais pieteikšanās datums, izmantojot šo meklēšanas iespēja';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Šī būs redzama lietotājiem, kuriem ir izvēlējies konkrētu valodu, jo viņu Profilu';
 $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'Lietotāji, kuri ir izvēlējušies konkrētu laika josla viņu profilu';
-$lang['SEARCH_USERS_STYLE_EXPLAIN'] = 'Reklāmas lietotājiem, kuri ir izvēlējušies konkrētu stilu.';
 $lang['MODERATORS_OF'] = 'Moderators';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'Meklējiet lietotājus ar regulēšanas atļaujām konkrētam forumam. Moderēšanas atļaujas tiek atpazītas vai nu pēc lietotāja atļaujām, vai arī, atrodoties grupā ar pareizajām grupas atļaujām.';
 

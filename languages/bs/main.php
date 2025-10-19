@@ -30,7 +30,6 @@ $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
 $lang['TIME'] = 'Vrijeme';
-$lang['HOURS'] = 'Sata';
 $lang['MESSAGE'] = 'Poruka';
 $lang['TORRENT'] = 'Bujicama';
 $lang['PERMISSIONS'] = 'Dozvole';
@@ -89,14 +88,10 @@ $lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can b
 
 $lang['POST_NEW_TOPIC'] = 'Post nova tema';
 $lang['POST_NEW_RELEASE'] = 'Post novo izdanje';
-$lang['POST_REGULAR_TOPIC'] = 'Post redovne temu';
 $lang['REPLY_TO_TOPIC'] = 'Odgovor na temu';
-$lang['REPLY_WITH_QUOTE'] = 'Odgovor sa citat';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Klik %sHere%s da se vratimo na temu'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_LOGIN'] = 'Klik %sHere%s da ponovo pokušamo';
 $lang['CLICK_RETURN_FORUM'] = 'Klik %sHere%s da se vratim u forum';
-$lang['CLICK_VIEW_MESSAGE'] = 'Klik %sHere%s da se vrati u tvoju poruku';
 $lang['CLICK_RETURN_MODCP'] = 'Klik %sHere%s da se vrati u Moderator Kontrolnu Ploču';
 $lang['CLICK_RETURN_GROUP'] = 'Klik %sHere%s da se vrati u grupi informacije';
 
@@ -137,7 +132,6 @@ $lang['SEARCH_SELF'] = 'Moje funkcije';
 $lang['SEARCH_SELF_BY_LAST'] = 'zadnji post vremena';
 $lang['SEARCH_SELF_BY_MY'] = 'moje mjesto vremena';
 $lang['SEARCH_UNANSWERED'] = 'Pogled neodgovorenih funkcije';
-$lang['SEARCH_UNANSWERED_SHORT'] = 'bez odgovora';
 $lang['SEARCH_LATEST'] = 'Najnovije teme';
 $lang['LATEST_RELEASES'] = 'Najnovije oslobađa';
 
@@ -155,9 +149,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Da se ništa nije promijenilo';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Naš korisnici su postavili ukupno <b>%s</b> teme'; // Number of topics
-$lang['POSTED_ARTICLES_ZERO_TOTAL'] = 'Naš korisnici su postavili ukupno <b>0</b> članci'; // Number of posts
 $lang['POSTED_ARTICLES_TOTAL'] = 'Naš korisnici su postavili ukupno <b>%s</b> članci'; // Number of posts
-$lang['REGISTERED_USERS_ZERO_TOTAL'] = 'Imamo <b>0</b> registrovana korisnici'; // # registered users
 $lang['REGISTERED_USERS_TOTAL'] = 'Imamo <b>%s</b> registrovana korisnici'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Momci: <b>%d</b>, Devojke: <b>%d</b>, Drugi: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Najnoviji registrovani korisnik je <b>%s</b>'; // a href, username, /a
@@ -167,13 +159,9 @@ $lang['TORRENTS_STAT'] = 'Bujica: <b style="color: blue;">%s</b>,&nbsp; Ukupno v
 $lang['PEERS_STAT'] = 'Vršnjaci: <b>%s</b>,&nbsp; Seeders: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Ukupno brzina: <b>%s</b>&nbsp;'; // %s = total speed.
 
-$lang['NO_NEW_POSTS_LAST_VISIT'] = 'Ne nova mjesta od tvoje poslednje posete';
 $lang['NO_NEW_POSTS'] = 'Ne nova funkcija';
 $lang['NEW_POSTS'] = 'Nova pozicija';
 $lang['NEW_POST'] = 'Novo mjesto.';
-$lang['NO_NEW_POSTS_HOT'] = 'Ne nova mjesta [ Popularna ]';
-$lang['NEW_POSTS_HOT'] = 'Nova pozicija [ Popularna ]';
-$lang['NEW_POSTS_LOCKED'] = 'Nova pozicija [ Zaključana ]';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum je zaključan';
 
 // Login
@@ -198,7 +186,6 @@ $lang['PRIVATE_MESSAGES'] = 'Privatni Poruke';
 $lang['WHOSONLINE'] = 'Ko je online';
 
 $lang['MARK_ALL_FORUMS_READ'] = 'Zastavu sve forumima kao pročitao';
-$lang['FORUMS_MARKED_READ'] = 'Sve forumima označena kao pročitao';
 
 $lang['LATEST_NEWS'] = 'Najnovije vijesti';
 $lang['NETWORK_NEWS'] = 'Mreža vijest';
@@ -208,7 +195,6 @@ $lang['SUBFORUMS'] = 'Subforums';
 $lang['VIEW_FORUM'] = 'Pogled Forum';
 
 $lang['FORUM_NOT_EXIST'] = 'Forum si odabrani ne postoji.';
-$lang['REACHED_ON_ERROR'] = 'Dobili ste ova stranica u greška.';
 $lang['ERROR_PORNO_FORUM'] = 'Ovaj tip forumima (18+) bio je sakriven u tvoj profil od tebe';
 
 $lang['DISPLAY_TOPICS'] = 'Prikaži teme';
@@ -217,7 +203,6 @@ $lang['MODERATE_FORUM'] = 'Umjerena ovo forum';
 $lang['TITLE_SEARCH_HINT'] = 'potrazi naslov...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = 'Obavijest:';
-$lang['TOPIC_STICKY'] = 'Ljepljive:';
 $lang['TOPIC_MOVED'] = 'Preselio:';
 $lang['TOPIC_POLL'] = '[ Anketu ]';
 
@@ -245,7 +230,6 @@ $lang['VIEW_TOPIC'] = 'Pogled temu';
 $lang['GUEST'] = 'Gost';
 $lang['POST_SUBJECT'] = 'Post temu';
 $lang['SUBMIT_VOTE'] = 'Dostaviti glasati';
-$lang['VIEW_RESULTS'] = 'Pogled rezultate';
 
 $lang['NO_NEWER_TOPICS'] = 'Nema novih tema u ovo forum';
 $lang['NO_OLDER_TOPICS'] = 'Nema stariji teme u forum';
@@ -257,12 +241,7 @@ $lang['ALL_POSTS'] = 'Sve Jedinice';
 $lang['NEWEST_FIRST'] = 'Najnoviji Prvi';
 $lang['OLDEST_FIRST'] = 'Prvo Najstarije';
 
-$lang['BACK_TO_TOP'] = 'Nazad na vrh';
-
 $lang['READ_PROFILE'] = 'Pogled korisnika profil';
-$lang['VISIT_WEBSITE'] = 'Posjete poster stranici';
-$lang['VIEW_IP'] = 'Pogled poster IP adrese';
-$lang['MODERATE_POST'] = 'Umjerena funkcije';
 $lang['DELETE_POST'] = 'Izbrisati ovo post';
 
 $lang['WROTE'] = 'napisao'; // proceeds the username and is followed by the quoted text
@@ -286,7 +265,6 @@ $lang['START_WATCHING_TOPIC'] = 'Prati tema za odgovara';
 $lang['NO_LONGER_WATCHING'] = 'Nisi više nakon ovoj temi';
 $lang['YOU_ARE_WATCHING'] = 'Pratite ovu temu sada';
 
-$lang['TOTAL_VOTES'] = 'Ukupno Glasova';
 $lang['SEARCH_IN_TOPIC'] = 'potrazi u temu...';
 $lang['HIDE_IN_TOPIC'] = 'Sakrij';
 
@@ -312,10 +290,6 @@ $lang['POST_A_REPLY'] = 'Post novog odgovora';
 $lang['POST_TOPIC_AS'] = 'Post tema kao';
 $lang['EDIT_POST'] = 'Uredi post';
 $lang['EDIT_TOPIC_TITLE'] = 'Uredi tema titulu';
-$lang['EDIT_POST_NOT_1'] = 'Nije ti dozvoljeno ';
-$lang['EDIT_POST_NOT_2'] = 'Ne možete ';
-$lang['EDIT_POST_AJAX'] = 'Ne možeš da se uredi post sa status ';
-$lang['AFTER_THE_LAPSE'] = 'nakon pogrešna ';
 
 $lang['DONT_MESSAGE_TITLE'] = 'Ti bi trebalo navesti poruku titulu';
 $lang['INVALID_TOPIC_ID'] = 'Tema Odsutan!';
@@ -323,7 +297,6 @@ $lang['INVALID_TOPIC_ID_DB'] = 'Temi ne postoji u bazu!';
 
 $lang['NOT_POST'] = 'Odsutni Poruku';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Ne možeš da se uredi pustiti sa status';
-$lang['TOR_STATUS_DAYS'] = 'dana';
 
 $lang['OPTIONS'] = 'Opcija';
 
@@ -352,27 +325,19 @@ $lang['DELETE_OWN_POSTS'] = 'Žao mi je, ali ne možeš obrisati svoje pozicije'
 $lang['CANNOT_DELETE_REPLIED'] = 'Žao mi je, ali ne može izbrisati mjesta koje su da je odgovorio';
 $lang['CANNOT_DELETE_POLL'] = 'Žao mi je, ali ne možeš obrisati aktivnu anketu';
 $lang['EMPTY_POLL_TITLE'] = 'Ti mora ući naslov za tvoju';
-$lang['TO_FEW_POLL_OPTIONS'] = 'Ti mora ući u bar dve opcije anketu';
-$lang['TO_MANY_POLL_OPTIONS'] = 'Vas su pokušali da uđu previše anketu opcije';
 $lang['POST_HAS_NO_POLL'] = 'Ovo mjesto nema anketu';
 $lang['ALREADY_VOTED'] = 'Već si glasala u ovu anketu';
 $lang['NO_VOTE_OPTION'] = 'Moraš navesti opcija kada glasanja';
 $lang['LOCKED_WARN'] = 'Ti si je postavio na zaključana temu!';
 
 $lang['ADD_POLL'] = 'Dodaj anketu';
-$lang['ADD_POLL_EXPLAIN'] = 'Ako ne želiš da dodam anketu za tvoj temu, ostavi polja prazan.';
-$lang['POLL_QUESTION'] = 'Anketu pitanje';
 $lang['POLL_OPTION'] = 'Anketu opcija';
-$lang['ADD_OPTION'] = 'Dodaj opcija';
 $lang['UPDATE'] = 'Ažurirati';
-$lang['POLL_FOR'] = 'Trči ankete';
 $lang['DAYS'] = 'Dana';
-$lang['POLL_FOR_EXPLAIN'] = '[ Ući 0 ili ostaviti prazno neiscrpnu anketu ]';
 $lang['DELETE_POLL'] = 'Obriši anketu';
 
 $lang['MAX_SMILIES_PER_POST'] = 'Praktički limit od %s smajlica premašio.';
 
-$lang['ATTACH_SIGNATURE'] = 'Zakači potpis (potpisi se može promijeniti u profil)';
 $lang['NOTIFY'] = 'Obavijesti me o odgovorima';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Dozvolite robotima indeksiranje ove teme';
 
@@ -385,31 +350,21 @@ $lang['VOTE_CAST'] = 'Vaš glas je bačena.';
 $lang['EMOTICONS'] = 'Praktički';
 $lang['MORE_EMOTICONS'] = 'Pogled više Smajlica';
 
-$lang['FONT_COLOR'] = 'Font boja';
-$lang['COLOR_DEFAULT'] = 'Uobičajeni';
 $lang['COLOR_DARK_RED'] = 'Tamno Crveni';
 $lang['COLOR_RED'] = 'Crveni';
 $lang['COLOR_ORANGE'] = 'Narandžasta';
 $lang['COLOR_BROWN'] = 'Brown';
-$lang['COLOR_YELLOW'] = 'Žuti';
 $lang['COLOR_GREEN'] = 'Zeleni';
 $lang['COLOR_OLIVE'] = 'Olive';
-$lang['COLOR_CYAN'] = 'Cyan';
 $lang['COLOR_BLUE'] = 'Plavi';
 $lang['COLOR_DARK_BLUE'] = 'Tamno Plavu';
 $lang['COLOR_INDIGO'] = 'Indigo';
 $lang['COLOR_VIOLET'] = 'Violet';
-$lang['COLOR_WHITE'] = 'Bijeli';
-$lang['COLOR_BLACK'] = 'Crna';
 
-$lang['FONT_SIZE'] = 'Slova';
-$lang['FONT_TINY'] = 'Male';
 $lang['FONT_SMALL'] = 'Male';
 $lang['FONT_NORMAL'] = 'Normalan';
 $lang['FONT_LARGE'] = 'Veliki';
 $lang['FONT_HUGE'] = 'Veliki';
-
-$lang['STYLES_TIP'] = 'Savjet: Stil može primijeniti brzo da izabrani tekst.';
 
 $lang['NEW_POSTS_PREVIEW'] = 'Tema je novi, uredio ili nepročitano funkcije';
 
@@ -452,7 +407,6 @@ $lang['SAVE_MESSAGE'] = 'Spasi Poruku';
 $lang['DELETE_MESSAGE'] = 'Izbrišete Poruku';
 
 $lang['DISPLAY_MESSAGES'] = 'Prikaži poruke'; // Followed by number of days/weeks/months
-$lang['ALL_MESSAGES'] = 'Sve Poruke';
 
 $lang['NO_MESSAGES_FOLDER'] = 'Nema poruka u ovu fasciklu';
 
@@ -460,9 +414,6 @@ $lang['PM_DISABLED'] = 'Privatni poruka je onesposobljen na ovaj odbor.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Žao mi je, ali administrator je spriječiti od šalje privatni poruke.';
 $lang['NO_TO_USER'] = 'Moraš navesti korisničko ime kome da pošaljem poruku.';
 $lang['NO_SUCH_USER'] = 'Žao mi je, ali ne tako korisnik postoji.';
-
-$lang['DISABLE_BBCODE_PM'] = 'Onesposobite BBCode u ovu poruku';
-$lang['DISABLE_SMILIES_PM'] = 'Onesposobite Smilies u ovu poruku';
 
 $lang['MESSAGE_SENT'] = '<b>Your poruka je poslana.</b>';
 
@@ -476,8 +427,6 @@ $lang['SEND_A_NEW_MESSAGE'] = 'Poslati novu poruku privatni';
 $lang['SEND_A_REPLY'] = 'Odgovor na privatni poruku';
 $lang['EDIT_MESSAGE'] = 'Uredi privatni poruku';
 
-$lang['NOTIFICATION_SUBJECT'] = 'Primljena nova privatna poruka!';
-
 $lang['FIND_USERNAME'] = 'Naći korisničko ime';
 $lang['SELECT_USERNAME'] = 'Izaberite korisničko ime';
 $lang['FIND'] = 'Naći';
@@ -485,7 +434,6 @@ $lang['NO_MATCH'] = 'Ne odgovara našao.';
 
 $lang['NO_PM_ID'] = 'Molimo navedite post ID';
 $lang['NO_SUCH_FOLDER'] = 'Direktorij nije našao';
-$lang['NO_FOLDER'] = 'Molimo navedite fasciklu';
 
 $lang['MARK_ALL'] = 'Mark sve';
 $lang['UNMARK_ALL'] = 'Sve vozilu';
@@ -496,8 +444,6 @@ $lang['CONFIRM_DELETE_PMS'] = 'Jesi li sigurna da želiš da ovo izbrisati poruk
 $lang['INBOX_SIZE'] = 'Tvoje Inbox is<br /><b>%d%%</b> punu'; // e.g. Your Inbox is 50% full
 $lang['SENTBOX_SIZE'] = 'Tvoj Sentbox is<br /><b>%d%%</b> punu';
 $lang['SAVEBOX_SIZE'] = 'Tvoj Savebox is<br /><b>%d%%</b> punu';
-
-$lang['CLICK_VIEW_PRIVMSG'] = 'Klik %sHere%s da posetimo tvoje Inbox';
 
 $lang['OUTBOX_EXPL'] = '';
 
@@ -512,7 +458,6 @@ $lang['PREFERENCES'] = 'Postavke';
 $lang['ITEMS_REQUIRED'] = 'Stvari označene sa * su potrebne osim ako naveo drugačije.';
 $lang['REGISTRATION_INFO'] = 'Registracija Informacije';
 $lang['PROFILE_INFO'] = 'Profil Informacije';
-$lang['PROFILE_INFO_WARN'] = 'Dostupnim informacijama';
 $lang['AVATAR_PANEL'] = 'Avatar kontrolnu ploču';
 
 $lang['WEBSITE'] = 'Web stranica';
@@ -520,7 +465,6 @@ $lang['LOCATION'] = 'Lokacija';
 $lang['CONTACT'] = 'Kontakt';
 $lang['EMAIL_ADDRESS'] = 'E-mail adresa';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Pošalji poruku privatni';
-$lang['HIDDEN_EMAIL'] = '[ Skrivene ]';
 $lang['INTERESTS'] = 'Interesa';
 $lang['OCCUPATION'] = 'Okupacije';
 $lang['POSTER_RANK'] = 'Poster čin';
@@ -533,16 +477,9 @@ $lang['SEARCH_USER_POSTS_SHORT'] = 'Naći korisnik funkcije';
 $lang['SEARCH_USER_TOPICS'] = 'Naći korisnik teme'; // Find all topics by username
 
 $lang['NO_USER_ID_SPECIFIED'] = 'Žao mi je, ali to je korisnik ne postoji.';
-$lang['WRONG_PROFILE'] = 'Ne možeš mijenjati profil to nije vaše.';
-
-$lang['ONLY_ONE_AVATAR'] = 'Samo jedna vrsta avatar može biti navedeno';
-$lang['FILE_NO_DATA'] = 'Fajl na URL dao si sadrži podatke';
-$lang['NO_CONNECTION_URL'] = 'Veza ne može biti na URL si dao';
-$lang['INCOMPLETE_URL'] = 'URL si ušao je nepotpun';
 $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Žao mi je, ali tvoj lozinku ne može biti pronađeno, jer vaš račun je trenutno neaktivni';
 $lang['NO_SEND_ACCOUNT'] = 'Žao mi je, ali tvoj lozinku ne može biti pronađeno. Molimo vas da kontaktirate forum administrator za više informacija';
 
-$lang['ALWAYS_ADD_SIG'] = 'Uvijek zakačiti moj potpis';
 $lang['HIDE_PORN_FORUMS'] = 'Sakriti sadržaja 18+';
 $lang['ADD_RETRACKER'] = 'Dodaj retracker u bujicama datoteke';
 $lang['ALWAYS_NOTIFY'] = 'Uvijek obavesti me odgovara';
@@ -573,9 +510,7 @@ $lang['BIRTHDAY_MIN_AGE'] = 'Min godina';
 $lang['BIRTHDAY_CHECK_DAY'] = 'Dani za provjeru predstojećih rođendana';
 $lang['YEARS'] = 'Godina';
 
-$lang['NO_THEMES'] = 'Ne Teme U bazi podataka';
 $lang['TIMEZONE'] = 'Vremensku zonu';
-$lang['DATE_FORMAT_PROFILE'] = 'Datum format';
 $lang['DATE_FORMAT_EXPLAIN'] = 'Sintaksu koristio je identičan PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> funkcije.';
 $lang['SIGNATURE'] = 'Potpis';
 $lang['SIGNATURE_EXPLAIN'] = 'Ovo je blok tekst to može biti dodana da mjesta. Tamo je %d lik limit';
@@ -600,14 +535,9 @@ $lang['AVATAR_EXPLAIN'] = 'Prikazuje malu grafičku sliku ispod vaših podataka 
 $lang['AVATAR_DELETE'] = 'Obriši avatar';
 $lang['AVATAR_DISABLE'] = 'Avatar kontrolu opcija onesposobljen za kršenje <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Postavi avatar';
-
-$lang['SELECT_AVATAR'] = 'Odaberite avatar';
 $lang['RETURN_PROFILE'] = 'Povratak u profil';
-$lang['SELECT_CATEGORY'] = 'Izaberite kategoriju';
-
 $lang['DELETE_IMAGE'] = 'Obriši imidž';
 $lang['SET_MONSTERID_AVATAR'] = 'Postavi MonsterID avatar';
-$lang['CURRENT_IMAGE'] = 'Trenutna imidž';
 
 $lang['NOTIFY_ON_PRIVMSG'] = 'Obavesti na novu poruku privatni';
 $lang['HIDE_USER'] = 'Sakriti tvoj online status';
@@ -616,31 +546,24 @@ $lang['HIDDEN_USER'] = 'Skrivena korisnik';
 $lang['PROFILE_UPDATED'] = 'Tvoj profil je ažurirani';
 $lang['PROFILE_UPDATED_INACTIVE'] = 'Tvoj profil je vec popunjen. Međutim, promijenio si vitalni detalje, čime se vaš račun je neaktivan. Provjerite e-mail da saznamo kako da se reaktivira vaš račun, ili ako admin aktiviranje je potrebno, čekaj za administrator da se reaktivira.';
 
-$lang['PASSWORD_MISMATCH'] = 'Lozinke si ušao nije odgovarao.';
-$lang['CURRENT_PASSWORD_MISMATCH'] = 'Trenutne lozinke ti obezbedio ne odgovara da pohranjene u bazi podataka.';
 $lang['PASSWORD_LONG'] = 'Vaša lozinka ne smije biti duža od %d karaktera i ne kraća od %d karaktera.';
-$lang['TOO_MANY_REGISTERS'] = 'Napravio si previše registracija pokušava. Molim vas pokušajte kasnije.';
 $lang['USERNAME_TAKEN'] = 'Žao mi je, ali ovo korisničko ime je već zauzeto.';
 $lang['USERNAME_INVALID'] = 'Žao mi je, ali ovo korisničko ime sadrži invalid karakter';
 $lang['USERNAME_DISALLOWED'] = 'Žao mi je, ali ovo korisničko ime je zabranjena.';
 $lang['USERNAME_TOO_LONG'] = 'Tvoje ime je previše dugo.';
 $lang['USERNAME_TOO_SMALL'] = 'Tvoje ime je previše mali.';
 $lang['EMAIL_TAKEN'] = 'Žao mi je, ali to e-mail adresa je već registrovan na korisnik.';
-$lang['EMAIL_BANNED'] = 'Žao nam je, ali <b>%s</b> adresa je zabranjena.';
 $lang['EMAIL_INVALID'] = 'Žao mi je, ali ovaj e-mail adresa, je nevažeći.';
 $lang['EMAIL_TOO_LONG'] = 'Tvoj e-mail je previše dugo.';
 $lang['SIGNATURE_TOO_LONG'] = 'Tvoj potpis je previše dugo.';
 $lang['SIGNATURE_ERROR_HTML'] = 'Potpis može da sadrži samo BBCode';
 $lang['FIELDS_EMPTY'] = 'Morate da ispunite potrebne polja.';
 
-$lang['WELCOME_SUBJECT'] = 'Dobrodošli %s Forumima'; // Welcome to my.com forums
-$lang['NEW_ACCOUNT_SUBJECT'] = 'Novi korisnički račun';
-$lang['ACCOUNT_ACTIVATED_SUBJECT'] = 'Račun Aktiviran';
+$lang['WELCOME_SUBJECT'] = 'Dobrodošli %s Forumima';
 
 $lang['ACCOUNT_ADDED'] = 'Hvala ti za registraciju. Vaš račun je stvorena. Sada možete se prijaviti sa svoje korisničko ime i lozinku';
 $lang['ACCOUNT_INACTIVE'] = 'Vaš račun je stvorena. Međutim, ovo forum zahtijeva račun aktiviranje. Za aktiviranje ključ je poslao e-mail adresa koju si mi dao. Molim te provjeri e-mail za dodatne informacije';
 $lang['ACCOUNT_ACTIVE'] = 'Vaš račun je upravo aktivirao. Hvala ti za registraciju';
-$lang['REACTIVATE'] = 'Uključiti svoj račun!';
 $lang['ALREADY_ACTIVATED'] = 'Već si aktivirao tvoj račun';
 
 $lang['REGISTRATION'] = 'Registracija Sporazum Uslovima';
@@ -649,15 +572,12 @@ $lang['WRONG_ACTIVATION'] = 'Aktivacioni ključ ti obezbedio ne odgovara li u ba
 $lang['SEND_PASSWORD'] = 'Mi poslati novu šifru';
 $lang['PASSWORD_UPDATED'] = 'Nova lozinka je stvorio; molim te, provjeri e-mail za detalje o tome kako da se aktivirati.';
 $lang['NO_EMAIL_MATCH'] = 'E-mail adresu ti obezbedio ne odgovara taj navedeni za to korisničko ime.';
-$lang['NEW_PASSWORD_ACTIVATION'] = 'Nova lozinka aktiviranje';
 $lang['PASSWORD_ACTIVATED'] = 'Vaš račun je ponovo aktivirao. Da se prijavite, molim te koriste šifru isporučio u e-mail koji si primio.';
 
 $lang['SEND_EMAIL_MSG'] = 'Poslao e-mejl poruku,';
 $lang['NO_USER_SPECIFIED'] = 'Ne korisnik je određen';
-$lang['USER_PREVENT_EMAIL'] = 'Ovo korisnik ne želi da primili e-mail. Pokušaj im je poslao privatni poruku.';
 $lang['USER_NOT_EXIST'] = 'To korisnik ne postoji';
 $lang['EMAIL_MESSAGE_DESC'] = 'Ovo poruka ce biti poslana kao običan tekst, tako da ne uključuju svaki HTML ili BBCode. Povratak adresu za ova poruka će biti spremno za tvoj e-mail adresu.';
-$lang['FLOOD_EMAIL_LIMIT'] = 'Ne možeš poslati još jedan \' e-mail na ovaj put. Pokušati ponovo kasnije.';
 $lang['RECIPIENT'] = 'Primalac';
 $lang['EMAIL_SENT'] = 'E-mail koji je poslao.';
 $lang['SEND_EMAIL'] = 'Pošalji e-mail';
@@ -744,20 +664,12 @@ $lang['GROUP_ADDED'] = 'Bio si dodao ovo usergroup.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Već si član ove grupe';
 $lang['USER_IS_MEMBER_GROUP'] = '%s je već član ove grupe';
 $lang['USER_IS_MOD_GROUP'] = '%s je moderator ove grupe';
-$lang['GROUP_TYPE_UPDATED'] = 'Uspješno ažurirani grupa tip.';
 $lang['EFFECTIVE_DATE'] = 'Efektivni Datum';
-
 $lang['COULD_NOT_ADD_USER'] = 'Korisnik ti izabrao ne postoji.';
-$lang['COULD_NOT_ANON_USER'] = 'Ne možeš napraviti, Anonimni član te grupe.';
-
-$lang['CONFIRM_UNSUB'] = 'Jesi li sigurna da želiš da već od ove grupe?';
-$lang['CONFIRM_UNSUB_PENDING'] = 'Pretplatu na ovoj grupi još nije odobren; jesi li sigurna da želiš da već?';
-
 $lang['UNSUB_SUCCESS'] = 'Bio si un-upisani od ove grupe.';
 
 $lang['APPROVE_SELECTED'] = 'Odobriti Odabrane';
 $lang['DENY_SELECTED'] = 'Poreći Odabrane';
-$lang['NOT_LOGGED_IN'] = 'Moraš biti prijavljeni da se pridružiš grupi.';
 $lang['REMOVE_SELECTED'] = 'Ukloni Odabrane';
 $lang['ADD_MEMBER'] = 'Dodaj Član';
 $lang['NOT_GROUP_MODERATOR'] = 'Ne ova grupa je moderator, stoga ne možeš to izvesti akciju.';
@@ -773,7 +685,6 @@ $lang['NONE'] = 'Niko';
 
 $lang['SUBSCRIBE'] = 'Pretplatite';
 $lang['UNSUBSCRIBE_GROUP'] = 'Već';
-$lang['VIEW_INFORMATION'] = 'Pogled Informacije';
 $lang['MEMBERS_IN_GROUP'] = 'Članovi u grupi';
 
 // Release Groups
@@ -786,7 +697,6 @@ $lang['MORE_RELEASES'] = 'Da nađem sve što pušta u grupi';
 $lang['NOT_A_RELEASE_GROUP'] = 'Ova grupa nije oslobodi grupi';
 
 // Search
-$lang['SEARCH_ERROR'] = 'U ovom trenutku, tražilice nije available<br /><br />Try da ponavljam zahtjev nakon nekoliko sekundi';
 $lang['SEARCH_HELP_URL'] = 'Potrazi Pomoc';
 $lang['SEARCH_QUERY'] = 'Potrazi Upit';
 $lang['SEARCH_OPTIONS'] = 'Potrazi Opcije';
@@ -798,22 +708,15 @@ $lang['SEARCH_AUTHOR_EXPL'] = 'Koristi * kao ludo za djelomičan odgovara';
 
 $lang['SEARCH_TITLES_ONLY'] = 'Potrazi tema samo titule';
 $lang['SEARCH_ALL_WORDS'] = 'sve riječi';
-$lang['SEARCH_MY_MSG_ONLY'] = 'Potrazi samo u moje funkcije';
 $lang['IN_MY_POSTS'] = 'U moje funkcije';
 $lang['SEARCH_MY_TOPICS'] = 'u moje teme';
 $lang['NEW_TOPICS'] = 'Nove teme';
-
-$lang['RETURN_FIRST'] = 'Povratak je prvo'; // followed by xxx characters in a select box
-$lang['CHARACTERS_POSTS'] = 'likovi postova';
 
 $lang['SEARCH_PREVIOUS'] = 'Potrazi prethodnu';
 
 $lang['SORT_BY'] = 'Neki od strane';
 $lang['SORT_TIME'] = 'Post Vremena';
-$lang['SORT_POST_SUBJECT'] = 'Post Temu';
 $lang['SORT_TOPIC_TITLE'] = 'Tema Titulu';
-$lang['SORT_AUTHOR'] = 'Autor';
-$lang['SORT_FORUM'] = 'Forum';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Prikaži rezultate kao';
 $lang['ALL_AVAILABLE'] = 'Sve raspoložive';
@@ -823,24 +726,18 @@ $lang['NO_SEARCHABLE_FORUMS'] = 'Nemate dozvolu za pretres svakog forum na ovu s
 $lang['NO_SEARCH_MATCH'] = 'Ne teme ili mjesta upoznao vašu kriterijumima pretrage';
 $lang['FOUND_SEARCH_MATCH'] = 'Potrazi našao %d meč'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Potrazi našao %d odgovara'; // e.g. Search found 24 matches
-$lang['TOO_MANY_SEARCH_RESULTS'] = 'Previše rezultate može biti pronađen, molim vas, pokušajte biti određeniji';
 
 $lang['CLOSE_WINDOW'] = 'Blizu Prozora';
 $lang['CLOSE'] = 'blizu';
 $lang['HIDE'] = 'sakrij';
-$lang['SEARCH_TERMS'] = 'Pretrage';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = 'Žao mi je, ali samo %s moze vidjeti ovo forum.';
 $lang['SORRY_AUTH_READ'] = 'Žao mi je, ali samo %s čitati teme u forum.';
-$lang['SORRY_AUTH_POST'] = 'Žao mi je, ali samo %s mogu post teme u forum.';
 $lang['SORRY_AUTH_REPLY'] = 'Žao mi je, ali samo %s mogu da odgovorim na mjesta u ovom forum.';
 $lang['SORRY_AUTH_EDIT'] = 'Žao mi je, ali samo %s mogu uredi mjesta u ovom forum.';
 $lang['SORRY_AUTH_DELETE'] = 'Žao mi je, ali samo %s može izbrisati mjesta u ovom forum.';
-$lang['SORRY_AUTH_VOTE'] = 'Žao mi je, ali samo %s mogu glasati u ankete u forum.';
-$lang['SORRY_AUTH_STICKY'] = 'Žao mi je, ali samo %s mogu post ljepljivo poruke u forum.';
-$lang['SORRY_AUTH_ANNOUNCE'] = 'Žao mi je, ali samo %s mogu post najave u forum.';
 
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
@@ -860,8 +757,6 @@ $lang['LAST_UPDATED'] = 'Ažurirano';
 
 // Moderator Control Panel
 $lang['MOD_CP'] = 'Moderator Kontrolnu Ploču';
-$lang['MOD_CP_EXPLAIN'] = 'Koristi formi ispod možete obavljati masa umjerenost operacije na ovoj forum. Možete zaključati, otključaj, mrdaj ili izbriši bilo koji broj teme.';
-
 $lang['SELECT'] = 'Odaberite';
 $lang['DELETE'] = 'Obriši';
 $lang['MOVE'] = 'Pomjeri';
@@ -876,8 +771,6 @@ $lang['TOPICS_UNLOCKED'] = 'Izabrani teme su bila otključana.';
 $lang['NO_TOPICS_MOVED'] = 'Ne teme su se preselili.';
 
 $lang['CONFIRM_DELETE_TOPIC'] = 'Jesi li sigurna da želiš da ukloni odabrane tema/s?';
-$lang['CONFIRM_LOCK_TOPIC'] = 'Jesi li sigurna da želiš da zaključam odabrane tema/s?';
-$lang['CONFIRM_UNLOCK_TOPIC'] = 'Jesi li sigurna da želiš da otključa odabrane tema/s?';
 $lang['CONFIRM_MOVE_TOPIC'] = 'Jesi li sigurna da želiš da se preselim izabrani tema/s?';
 
 $lang['MOVE_TO_FORUM'] = 'Preseliti u forum';
@@ -889,11 +782,7 @@ $lang['FORUM_FOR_NEW_TOPIC'] = 'Forum za novu temu';
 $lang['SPLIT_POSTS'] = 'Split odabrane funkcije';
 $lang['SPLIT_AFTER'] = 'Razdvojiti od izabranih post';
 $lang['TOPIC_SPLIT'] = 'Izabrani tema je bila podeljena uspješno';
-
-$lang['TOO_MANY_ERROR'] = 'Izabrali ste previše funkcija. Možeš samo izaberi jedno mjesto da podelimo tema poslije!';
-
 $lang['NONE_SELECTED'] = 'Nemaš ništa odabrana da izvoditi ovu operaciju. Molim te, vrati se i odabrati bar jedan.';
-$lang['NEW_FORUM'] = 'Novi forum';
 
 $lang['THIS_POSTS_IP'] = 'IP adresu za ovo mjesto';
 $lang['OTHER_IP_THIS_USER'] = 'Drugi IP adrese ovo korisnik ima iz postavio';
@@ -999,7 +888,6 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Žao mi je ali nisi ovlašten da pogled ili s
 $lang['DESCRIPTION'] = 'Opis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Preuzimanje'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Veličina datoteke';
-$lang['VIEWED'] = 'Smatra';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Ekstenzija \'%s\' je deaktivirana od strane admina, stoga ovaj prilog nije prikazan.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
@@ -1033,7 +921,6 @@ $lang['FILE_COMMENT'] = 'Dosije Komentar';
 // Posting/PM -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Postavio Prilozi';
 $lang['UPDATE_COMMENT'] = 'Novosti Komentar';
-$lang['DELETE_ATTACHMENTS'] = 'Obriši Prilozi';
 $lang['DELETE_ATTACHMENT'] = 'Obriši Prilog';
 $lang['DELETE_THUMBNAIL'] = 'Nema Izbrisati';
 $lang['UPLOAD_NEW_VERSION'] = 'Postavi Novi Verziju';
@@ -1057,10 +944,8 @@ $lang['NO_ATTACHMENT_SELECTED'] = 'Nisi odabran zakrpu za preuzimanje ili pogled
 $lang['ERROR_NO_ATTACHMENT'] = 'Izabrani Prilog više i ne postoji';
 
 // Delete Attachments
-$lang['CONFIRM_DELETE_ATTACHMENTS'] = 'Jesi li sigurna da želiš da mi obrišeš taj izabrani se Vežu?';
 $lang['DELETED_ATTACHMENTS'] = 'Izabrani Dodaci su obrisane.';
 $lang['ERROR_DELETED_ATTACHMENTS'] = 'Ne može izbrisati Prilozi.';
-$lang['CONFIRM_DELETE_PM_ATTACHMENTS'] = 'Jesi li sigurna da želiš da izbrisati sve Veze postavio za ovo POPODNE?';
 
 // General Error Messages
 $lang['ATTACHMENT_FEATURE_DISABLED'] = 'Prilog Osobina je onemogućeno.';
@@ -1077,14 +962,10 @@ $lang['GB'] = 'GB';
 $lang['ATTACH_SEARCH_QUERY'] = 'Potrazi Prilozi';
 $lang['TEST_SETTINGS'] = 'Test Postavke';
 $lang['NOT_ASSIGNED'] = 'Ne Dodijeljen';
-$lang['NO_FILE_COMMENT_AVAILABLE'] = 'Nema Dosije Komentar na raspolaganju';
-$lang['ATTACHBOX_LIMIT'] = 'Tvoj Attachbox is<br /><b>%d%%</b> punu';
-$lang['UNLIMITED'] = 'Neograničeno';
 
 //bt
 $lang['BT_REG_YES'] = 'Registriran';
 $lang['BT_REG_NO'] = 'Nije registrovana';
-$lang['BT_ADDED'] = 'Dodao';
 $lang['BT_REG_ON_TRACKER'] = 'Registrirati na tragač';
 $lang['BT_REG_FAIL'] = 'Ne mogu registar bujicama na tragač';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Još bujicama sa isti info_hash već <a href="%s"><b>registered</b></a>';
@@ -1098,9 +979,6 @@ $lang['BT_FLIST_CREATION_DATE'] = 'Datum kreiranja';
 $lang['BT_IS_PRIVATE'] = 'Privatni torrent';
 $lang['BT_FLIST_FILE_PATH'] = 'Putanja (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'Hash datoteka | .torrent meta-informacije';
-$lang['BT_FLIST_ANNOUNCERS_LIST'] = 'Lista oglašivača';
-$lang['BT_FLIST_ANNOUNCERS'] = 'Oglašivači';
-$lang['BT_FLIST_ANNOUNCERS_NOTICE'] = 'Ova lista sadrži oglašivače torrent datoteke';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Ukloni od tragač';
 $lang['BT_UNREGISTERED'] = 'Bujicama neprijavljeni';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrent je već odjavljen';
@@ -1175,9 +1053,7 @@ $lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The informac
 
 $lang['BT_TOPIC_TITLE'] = 'Tema titulu';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Seme zadnji put viđen';
-$lang['BT_SORT_FORUM'] = 'Forum';
 $lang['SIZE'] = 'Veličine';
-$lang['PIECE_LENGTH'] = 'Komadu dužinu';
 $lang['COMPLETED'] = 'Završeni preuzimanja';
 $lang['ADDED'] = 'Dodao';
 $lang['DELETE_TORRENT'] = 'Obriši bujicama';
@@ -1273,7 +1149,6 @@ $lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registracija bujica dozvoljeno samo od prv
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Ne mogu registar bujicama u forum';
 $lang['ALREADY_REG'] = 'Potpuno je već registrovan';
 $lang['NOT_TORRENT'] = 'Ovaj fajl ne bujicama';
-$lang['ONLY_1_TOR_PER_POST'] = 'Možete prijaviti samo jedan bujicama u jednom post';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Možete prijaviti samo jedan bujicama u jedna tema';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktivni bujica';
@@ -1336,7 +1211,6 @@ $lang['HIDDEN'] = 'Sakriven';
 // from admin
 $lang['NOT_ADMIN'] = 'Nemate pravo da vodim ovo odbor';
 
-$lang['COOKIES_REQUIRED'] = 'Kolačiće mora biti omogućeno!';
 $lang['SESSION_EXPIRED'] = 'Sjednica je istekao';
 
 // Sort memberlist per letter
@@ -1372,11 +1246,8 @@ $lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Dodaj bot-poruku u vezi podijeliti da <b>new 
 $lang['QUICK_REPLY'] = 'Brz Odgovor';
 $lang['INS_NAME_TIP'] = 'Ubacite ime ili izabrani tekst.';
 $lang['QUOTE_SELECTED'] = 'Citiram odabrane';
-$lang['QR_ATTACHSIG'] = 'Zakači potpis';
 $lang['QR_NOTIFY'] = 'Obavesti na odgovor';
-$lang['QR_DISABLE'] = 'Onesposobite';
 $lang['QR_USERNAME'] = 'Ime';
-$lang['NO_TEXT_SEL'] = 'Odaberite poruku nigdje na stranicu i pokušaj ponovo';
 $lang['QR_FONT_SEL'] = 'Font lice';
 $lang['QR_COLOR_SEL'] = 'Font boja';
 $lang['QR_SIZE_SEL'] = 'Slova';
@@ -1419,9 +1290,7 @@ $lang['TORHELP_TITLE'] = 'Molim te, pomozi zvezdane ove bujica!';
 $lang['STATISTICS'] = 'Statistike';
 $lang['STATISTIC'] = 'Statistike';
 $lang['VALUE'] = 'Vrednost';
-$lang['INVERT_SELECT'] = 'Preokrenes izbor';
 $lang['STATUS'] = 'Status';
-$lang['LAST_CHANGED_BY'] = 'Prošle promenjeno';
 $lang['CHANGES'] = 'Promjene';
 $lang['ACTION'] = 'Akciju';
 $lang['REASON'] = 'Razlog zbog kojeg';
@@ -1508,9 +1377,6 @@ $lang['CHOOSE_PASS_OK'] = 'Lozinke meč';
 $lang['CHOOSE_PASS_REG_OK'] = 'Lozinke meč, možete da nastavite sa registracija';
 $lang['CHOOSE_PASS_FAILED'] = 'Da promjeniti lozinku, sigurno si dobro navedite trenutne lozinke';
 $lang['EMAILER_DISABLED'] = 'Žao mi je, ovo crta je privremeno ne radi';
-$lang['TERMS_ON'] = 'Slažem se sa ovim uslovima';
-$lang['TERMS_OFF'] = 'Ne slažem se sa ovim uslovima';
-$lang['JAVASCRIPT_ON_REGISTER'] = 'Za registraciju, potrebno je omogućiti JavaScript';
 $lang['REGISTERED_IN_TIME'] = "Registracija je trenutno zatvorena<br /><br />Registracija je dostupna tokom: %s<br />Trenutno vreme servera: %s<br /><br />Izvinjavamo se zbog neprijatnosti";
 $lang['AUTOCOMPLETE'] = 'Generišite lozinku';
 $lang['YOUR_NEW_PASSWORD'] = 'Tvoje su nova lozinka:';
@@ -1535,7 +1401,6 @@ $lang['WHAT_IS_A_TORRENT'] = 'Šta je bujicama?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Gledanost i Ograničenja';
 
 $lang['SCREENSHOTS_RULES'] = 'Pročitala pravila ... položena snimaka ekrana!';
-$lang['SCREENSHOTS_RULES_TOPIC'] = 'Pročitala pravila postavio snimaka ekrana u ovom delu!';
 $lang['AJAX_EDIT_OPEN'] = 'Jesi li već otvorili jedan brzi uređivanja!';
 $lang['GO_TO_PAGE'] = 'Idi na stranici ...';
 $lang['EDIT'] = 'Uredi';
@@ -1655,8 +1520,6 @@ $lang['ADD_NEW'] = 'Dodaj';
 $lang['CRON'] = 'Zadatak Sekretaricu (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Obnove potragu indeks';
 $lang['FORUM_CONFIG'] = 'Forum postavke';
-$lang['TRACKER_CONFIG'] = 'Tragač postavke';
-$lang['RELEASE_TEMPLATES'] = 'Oslobodi Turskoj';
 $lang['ACTIONS_LOG'] = 'Izvještaj o akciju';
 
 // Migrations
@@ -1787,12 +1650,7 @@ $lang['AUTH_DOWNLOAD'] = 'Preuzimanje Datoteke';
 $lang['USER_LEVEL'] = 'Korisnik Nivou';
 $lang['AUTH_USER'] = 'Korisnik';
 $lang['AUTH_ADMIN'] = 'Administrator';
-$lang['GROUP_MEMBERSHIPS'] = 'Usergroup članstvo';
-$lang['USERGROUP_MEMBERS'] = 'Ova grupa ima sljedeće članova';
-
 $lang['FORUM_AUTH_UPDATED'] = 'Forum dozvole ažurirani';
-$lang['USER_AUTH_UPDATED'] = 'Korisnik dozvole ažurirani';
-$lang['GROUP_AUTH_UPDATED'] = 'Grupa dozvole ažurirani';
 
 $lang['AUTH_UPDATED'] = 'Dozvole ažurirani';
 $lang['AUTH_GENERAL_ERROR'] = 'Nije moguće ažurirati status administratora';
@@ -1860,13 +1718,11 @@ $lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Koliko dugo je autologin ključ je važi za d
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Uprave';
-$lang['FORUM_ADMIN_EXPLAIN'] = 'Od ovo vijeće možeš da dodaš, briši, edit, ponovo red i re-sinkroniziraju kategorije i forumima';
 $lang['EDIT_FORUM'] = 'Uredi forum';
 $lang['CREATE_FORUM'] = 'Stvoriti novi forum';
 $lang['CREATE_SUB_FORUM'] = 'Kreiraj podforum';
 $lang['CREATE_CATEGORY'] = 'Stvoriti nova kategorija';
 $lang['REMOVE'] = 'Ukloni';
-$lang['UPDATE_ORDER'] = 'Novosti Naređenje';
 $lang['CONFIG_UPDATED'] = 'Forum Podešavanja Je Ažurirani Uspješno';
 $lang['MOVE_UP'] = 'Pomaknuti';
 $lang['MOVE_DOWN'] = 'Pomerite';
@@ -1889,7 +1745,6 @@ $lang['FORUM_STATUS'] = 'Forum status';
 $lang['FORUM_PRUNING'] = 'Auto-posmatrala';
 
 $lang['PRUNE_DAYS'] = 'Ukloni temama koje nisu postavljeni u';
-$lang['SET_PRUNE_DATA'] = 'Pretvorio si na auto-prune za ovo forum ali nije postavio broj dana da šljiva. Molim te da se vratim i da uradim.';
 
 $lang['MOVE_AND_DELETE'] = 'Pomakni se i Obriši';
 
@@ -1946,7 +1801,6 @@ $lang['LOOK_UP_USER'] = 'Pogledaj korisnik';
 // Group Management
 $lang['GROUP_ADMINISTRATION'] = 'Grupa Uprave';
 $lang['GROUP_ADMIN_EXPLAIN'] = 'Od ovo vijeće ti mogu dati sve svoje usergroups. Možeš da obrišeš, stvoriti i uredi postojeće grupe. Možda si izabrao predavači, uključi otvori/zatvorena grupa status i postavi grupa ime i opis';
-$lang['ERROR_UPDATING_GROUPS'] = 'Došlo je do greške dok ažuriranja grupama';
 $lang['UPDATED_GROUP'] = 'Grupa je ažurirani uspješno';
 $lang['ADDED_NEW_GROUP'] = 'Nova grupa je stvorio uspješno';
 $lang['DELETED_GROUP'] = 'Grupa je bila obrisana uspješno';
@@ -1955,8 +1809,6 @@ $lang['EDIT_GROUP'] = 'Uredi grupi';
 $lang['GROUP_STATUS'] = 'Grupa status';
 $lang['GROUP_DELETE'] = 'Obriši grupi';
 $lang['GROUP_DELETE_CHECK'] = 'Obriši ovoj grupi';
-$lang['SUBMIT_GROUP_CHANGES'] = 'Dostaviti Promjene';
-$lang['RESET_GROUP_CHANGES'] = 'Reset Promjene';
 $lang['NO_GROUP_NAME'] = 'Moraš navesti ime za ovu grupu';
 $lang['NO_GROUP_MODERATOR'] = 'Moraš navesti moderator za ovu grupu';
 $lang['NO_GROUP_MODE'] = 'Moraš navesti modu za ovu grupu, otvoreno ili zatvoreno';
@@ -1974,7 +1826,6 @@ $lang['DO_PRUNE'] = 'Uradi Prune';
 $lang['ALL_FORUMS'] = 'Sve Forumima';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Prune teme bez odgovora na ovo mnogo dana';
 $lang['TOPICS_PRUNED'] = 'Teme ošteceni';
-$lang['POSTS_PRUNED'] = 'Pozicije ošteceni';
 $lang['PRUNE_SUCCESS'] = 'Forum je odbaceni uspješno';
 $lang['NOT_DAYS'] = 'Prune dana ne odabrane';
 
@@ -1985,7 +1836,6 @@ $lang['WORD'] = 'Reč';
 $lang['EDIT_WORD_CENSOR'] = 'Uredi riječ cenzora';
 $lang['REPLACEMENT'] = 'Zamjena';
 $lang['ADD_NEW_WORD'] = 'Dodaj nova reč';
-$lang['UPDATE_WORD'] = 'Novosti riječ cenzora';
 
 $lang['MUST_ENTER_WORD'] = 'Ti mora ući riječ i njegova zamjena';
 $lang['NO_WORD_SELECTED'] = 'Ne riječ izabran za montažu';
@@ -2005,9 +1855,6 @@ $lang['ALL_USERS'] = 'Sve Korisnici';
 
 $lang['MASS_EMAIL_MESSAGE_TYPE'] = 'Vrsta e-pošte';
 
-$lang['EMAIL_SUCCESSFULL'] = 'Tvoja poruka je poslata';
-$lang['CLICK_RETURN_MASSEMAIL'] = 'Klik %sHere%s da se vratim u Masovni e-Mail obliku';
-
 // Ranks admin
 $lang['RANKS_TITLE'] = 'Čin Uprave';
 $lang['RANKS_EXPLAIN'] = 'Koristi ovaj formular možeš da dodaš, edit, pogled i obriši redovima. Također možete stvoriti običaj redove što se može upotrebiti u korisnik preko korisnik upravljanje objekat';
@@ -2020,7 +1867,6 @@ $lang['RANK_IMAGE'] = 'Čin Imidž';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Iskoristi ovo da definišemo malo sliku povezan sa čin';
 
 $lang['MUST_SELECT_RANK'] = 'Moraš odabrati čin';
-$lang['NO_ASSIGNED_RANK'] = 'Ne posebno čin dodijeljen';
 
 $lang['RANK_UPDATED'] = 'Čin je bio ažurirani uspješno';
 $lang['RANK_ADDED'] = 'Čin je bio dodao uspješno';
@@ -2093,7 +1939,6 @@ $lang['SYNC'] = 'Prevod';
 $lang['MAX_NEWS_TITLE'] = 'Max. dužina vijest';
 $lang['NEWS_COUNT'] = 'Koliko vijesti pokaži';
 $lang['NEWS_FORUM_ID'] = 'Iz kojih foruma prikazati <br /> <h6>Za više foruma, navedite ID-ove odvojene zarezom. Primer: 1,2,3</h6>';
-$lang['NOAVATAR'] = 'Ne avatar';
 $lang['TRACKER_STATS'] = 'Statistiku o tragač';
 $lang['WHOIS_INFO'] = 'Informacije o IP adrese';
 $lang['SHOW_MOD_HOME_PAGE'] = 'Pokaži na predavači na index.php';
@@ -2145,10 +1990,6 @@ $lang['DISABLE_MOD'] = 'Onesposobite Prilog Mod';
 $lang['DISABLE_MOD_EXPLAIN'] = 'Ovo opcija je uglavnom za ispitivanje nove turskoj, ili teme, to isključuje sve Prilog Funkcije osim Admin Vijeće.';
 $lang['PM_ATTACHMENTS'] = 'Dozvoliti da se Vežu na Privatnu Poruke';
 $lang['PM_ATTACHMENTS_EXPLAIN'] = 'Dozvoliti/Disallow uz datoteke Privatnim Poruke.';
-
-// Attachments -> Sync
-$lang['SYNC_TOPICS'] = 'Prevod Teme';
-$lang['SYNC_POSTS'] = 'Prevod Funkcije';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Snaći Ekstenzije';
@@ -2234,8 +2075,6 @@ $lang['SORT_POSTTIME'] = 'Post Vremena';
 // View Types
 $lang['VIEW_STATISTIC'] = 'Statistike';
 $lang['VIEW_SEARCH'] = 'Potrazi';
-$lang['VIEW_USERNAME'] = 'Korisničko ime';
-$lang['VIEW_ATTACHMENTS'] = 'Prilozi';
 
 // Successfully updated
 $lang['ATTACH_CONFIG_UPDATED'] = 'Prilog Podešavanja ažurirani uspješno';
@@ -2249,7 +2088,6 @@ $lang['EXTENSION'] = 'Produženje';
 
 $lang['RETURN_CONFIG'] = '%sReturn da Configuration%s';
 $lang['CONFIG_UPD'] = 'Podešavanja Ažurirani Uspješno';
-$lang['SET_DEFAULTS'] = 'Obnovi uobičajno';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'Forum opcije:';
@@ -2259,7 +2097,6 @@ $lang['REG_TORRENTS'] = 'Registar bujica';
 $lang['DISALLOWED'] = 'Zabranjeno';
 $lang['ALLOW_REG_TRACKER'] = 'Dozvoljeno forumima za registraciju .bujica na tragač';
 $lang['ALLOW_PORNO_TOPIC'] = 'Dozvoljeno da post sadržaja 18+';
-$lang['SHOW_DL_BUTTONS'] = 'Pokaži dugmad za ručno mijenja DL-status';
 $lang['SELF_MODERATED'] = 'Korisnici mogu <b>move</b> svoje teme da još forum';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Objaviti URL';
@@ -2331,7 +2168,6 @@ $lang['CRON_LAST_RUN'] = 'Prošle Trči';
 $lang['CRON_NEXT_RUN'] = 'Sledeći Trči';
 $lang['CRON_RUN_COUNT'] = 'Trči';
 $lang['CRON_MANAGE'] = 'Snaći';
-$lang['CRON_OPTIONS'] = 'Cron opcije';
 $lang['CRON_DISABLED_WARNING'] = 'Upozorenje! Pokretanje cron skripti je onemogućeno. Da biste to omogućili, postavite varijablu APP_CRON_ENABLED.';
 
 $lang['CRON_ENABLED'] = 'Cron omogućila';
@@ -2343,9 +2179,6 @@ $lang['CRON_RUN'] = 'Trči';
 $lang['CRON_DEL'] = 'Obriši';
 $lang['CRON_DISABLE'] = 'Onesposobite';
 $lang['CRON_ENABLE'] = 'Omogućiti';
-
-$lang['RUN_MAIN_CRON'] = 'Počni cron';
-$lang['ADD_JOB'] = 'Dodaj cron posao';
 $lang['DELETE_JOB'] = 'Jesi li sigurna da želiš da izbrišete cron posao?';
 $lang['CRON_WORKS'] = 'Cron trenutno radi ili je pokvaren -> ';
 $lang['REPAIR_CRON'] = 'Popravak Cron';
@@ -2412,13 +2245,9 @@ $lang['REFRESH_RATE_EXPLAIN'] = 'Koliko vremena (sekunde) ostati prazna prije pr
 
 $lang['TIME_LIMIT'] = 'Vremenskog ograničenja';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Koliko vremena (sekunde) post obradu može trajati prije preseliti u slijedeći ciklus';
-$lang['TIME_LIMIT_EXPLAIN_SAFE'] = '<i>Vaš PHP (sigurni režim) ima podešen vremenski limit od %s sekundi, pa se držite ispod ove vrednosti</i>';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver je odmor od %s sekunde konfiguriran, tako da ostaneš ispod ovo value</i>';
 
 $lang['DISABLE_BOARD'] = 'Onesposobite odbor';
-$lang['DISABLE_BOARD_EXPLAIN'] = 'Da li je ili nije onesposobiti tvoj odbor dok obradu';
-$lang['DISABLE_BOARD_EXPLAIN_ENABLED'] = 'To će biti omogućeno automatski nakon kraja obradu';
-$lang['DISABLE_BOARD_EXPLAIN_ALREADY'] = '<i>Your odbor je već disabled</i>';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Prošle zaustavio obrada na post_id %s (%s obradio mjesta) na %s';
@@ -2440,7 +2269,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Sve jedinice su procesuirani uspješno.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Sve pretražite stolovi bili poboljšanje uspješno.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Obradu post';
-$lang['PROCESSED_POSTS'] = 'Obradio Funkcije';
 $lang['PERCENT'] = 'Posto';
 $lang['CURRENT_SESSION'] = 'Trenutna Sesija';
 $lang['TOTAL'] = 'Ukupno';
@@ -2455,15 +2283,10 @@ $lang['TIME_FROM_THE_BEGINNING'] = 'Od početka';
 $lang['TIME_AVERAGE'] = 'Prosjek po ciklus';
 $lang['TIME_ESTIMATED'] = 'Procjenjuje dok ne završimo';
 
-$lang['DATABASE_SIZE_DETAILS'] = 'Podataka veličine detalja';
-$lang['SIZE_CURRENT'] = 'Trenutna';
 $lang['SIZE_ESTIMATED'] = 'Procjenjuje nakon što završimo';
 $lang['SIZE_SEARCH_TABLES'] = 'Potrazi Stolove veličine';
-$lang['SIZE_DATABASE'] = 'Podataka veličine';
 
-$lang['ACTIVE_PARAMETERS'] = 'Aktivni parametre';
 $lang['POSTS_LAST_CYCLE'] = 'Obradio post(s) na prošlog ciklusa';
-$lang['BOARD_STATUS'] = 'Odbor status';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Sve procenjene vrednosti se računaju approximately<br />based na trenutnu završen posto i možda ne predstavljaju konačni vrijednosti.<br />As je završen % povećanja procenjene vrednosti će doći bliže pravoj oni.';
 
@@ -2537,11 +2360,9 @@ $lang['RELEASES'] = 'Oslobađa';
 
 $lang['BACK'] = 'Nazad';
 $lang['ERROR_FORM'] = 'Nevažeći polja';
-$lang['RELEASE_WELCOME'] = 'Molimo popunite formular za oslobađanje';
 $lang['NEW_RELEASE'] = 'Novo izdanje';
 $lang['NEXT'] = 'Nastavi';
 $lang['OTHER'] = 'Drugi';
-$lang['OTHERS'] = 'Drugi';
 $lang['ALL'] = 'Sve';
 
 $lang['TPL_EMPTY_FIELD'] = 'Moraš ispuniti terenu <b>%s</b>';
@@ -2601,7 +2422,6 @@ $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Tražim korisnike koji su posjetili
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Tražim korisnike koji su posjetili nakon zadnjeg %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Potrazi za korisnika koji je postavio %s kao njihov jezik';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Potrazi za korisnika koji je postavio ruba evrope %s kao svoju vremensku zonu';
-$lang['SEARCH_FOR_STYLE'] = 'Potrazi za korisnika koji je postavio %s kao i njihov stil';
 $lang['SEARCH_FOR_MODERATORS'] = 'Potraga za predavači na Forum -> %s';
 $lang['SEARCH_USERS_ADVANCED'] = 'Napredna Korisnik Potragu';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Ovaj Modul ti omogućava da izvede napredna pretraga za korisnike na širok spektar kriterije. Molim vas da pročitate opisa ispod svakog polja da razumijemo jedna potraga opcija u potpunosti.';
@@ -2630,7 +2450,6 @@ $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Potraga za korisnike zasnovan na razl
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Možeš potrazi za korisnike na osnovu njihovih zadnjih prijavu sudar koristeći ovu pretragu opcija';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Ovo će prikazati korisnika kojeg izabrao određeni jezik u svom Profilu';
 $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'Korisnika koji je izabrao određeni vremensku zonu u svom profilu';
-$lang['SEARCH_USERS_STYLE_EXPLAIN'] = 'Prikaži korisnika koji je izabrao određeni stil.';
 $lang['MODERATORS_OF'] = 'Predavači na';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'Potražite korisnike sa dozvolama za moderiranje na određenom forumu. Dozvole za moderiranje se prepoznaju ili po korisničkim dozvolama ili po članstvu u grupi s pravim grupnim dozvolama.';
 
