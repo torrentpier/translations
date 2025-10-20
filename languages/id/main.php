@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forum peta';
 $lang['ATOM_FEED'] = 'Pakan';
 $lang['ATOM_ERROR'] = 'Kesalahan menghasilkan pakan';
 $lang['ATOM_SUBSCRIBE'] = 'Berlangganan feed';
-$lang['ATOM_NO_MODE'] = 'Tidak ada opsi mode yang disediakan untuk umpan ini';
-$lang['ATOM_NO_FORUM'] = 'Forum ini tidak memiliki pakan (tidak ada yang sedang berlangsung topik)';
-$lang['ATOM_NO_USER'] = 'Pengguna ini tidak memiliki pakan (tidak ada yang sedang berlangsung topik)';
 $lang['ATOM_UPDATED'] = 'Updated';
 $lang['ATOM_GLOBAL_FEED'] = 'Umpan global untuk semua forum';
 
