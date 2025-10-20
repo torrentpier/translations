@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = '論壇地圖。';
 $lang['ATOM_FEED'] = '訂閱。';
 $lang['ATOM_ERROR'] = '生成源時出錯。';
 $lang['ATOM_SUBSCRIBE'] = '訂閱源。';
-$lang['ATOM_NO_MODE'] = '未提供供稿的模式選項';
-$lang['ATOM_NO_FORUM'] = '該論壇沒有源（沒有正在進行的主題）。';
-$lang['ATOM_NO_USER'] = '此用戶沒有源（沒有正在進行的主題）。';
 $lang['ATOM_UPDATED'] = '已更新';
 $lang['ATOM_GLOBAL_FEED'] = '全球論壇源。';
 
