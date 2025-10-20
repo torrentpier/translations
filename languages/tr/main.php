@@ -2518,9 +2518,6 @@ $lang['FORUM_MAP'] = 'Forum göster';
 $lang['ATOM_FEED'] = 'Yayın';
 $lang['ATOM_ERROR'] = 'Hata üreten besleme';
 $lang['ATOM_SUBSCRIBE'] = 'Beslemesine abone';
-$lang['ATOM_NO_MODE'] = 'Feed için mod seçenekleri sağlanmadı';
-$lang['ATOM_NO_FORUM'] = 'Bu forumda (devam eden konular)bir besleme yok';
-$lang['ATOM_NO_USER'] = 'Bu kullanıcı (devam eden konular)bir besleme yok';
 $lang['ATOM_UPDATED'] = 'Güncellenme Tarihi';
 $lang['ATOM_GLOBAL_FEED'] = 'Tüm forumlar için küresel besleme';
 
