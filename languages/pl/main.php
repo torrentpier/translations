@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Mapa forum';
 $lang['ATOM_FEED'] = 'Karmienie';
 $lang['ATOM_ERROR'] = 'Błąd generowania kanału.';
 $lang['ATOM_SUBSCRIBE'] = 'Subskrybuj kanał';
-$lang['ATOM_NO_MODE'] = 'Nie podano opcji trybu dla kanału';
-$lang['ATOM_NO_FORUM'] = 'To forum nie ma kanału (brak bieżących tematów).';
-$lang['ATOM_NO_USER'] = 'Ten użytkownik nie ma kanału (brak bieżących tematów).';
 $lang['ATOM_UPDATED'] = 'Zaktualizowano';
 $lang['ATOM_GLOBAL_FEED'] = 'Globalny kanał dla wszystkich forów.';
 
