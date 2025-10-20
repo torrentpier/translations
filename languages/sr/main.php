@@ -2517,9 +2517,6 @@ $lang['FORUM_MAP'] = 'Карта форума';
 $lang['ATOM_FEED'] = 'Нахрани';
 $lang['ATOM_ERROR'] = 'Генерише грешке нахрани';
 $lang['ATOM_SUBSCRIBE'] = 'Претплатите се на канал';
-$lang['ATOM_NO_MODE'] = 'Није пружена опција режима за фидин';
-$lang['ATOM_NO_FORUM'] = 'Овај форум не храни (не тренутне теме)';
-$lang['ATOM_NO_USER'] = 'Овај корисник нема хране (нема сталне теме)';
 $lang['ATOM_UPDATED'] = 'Izmenjeno';
 $lang['ATOM_GLOBAL_FEED'] = 'Глобална храна за све форуме';
 

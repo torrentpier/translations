@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forumi\' zemljevid';
 $lang['ATOM_FEED'] = 'Krmo';
 $lang['ATOM_ERROR'] = 'Napaka pridobivanje krme';
 $lang['ATOM_SUBSCRIBE'] = 'Naročiti krme';
-$lang['ATOM_NO_MODE'] = 'Ni bila navedena možnost načina za vir';
-$lang['ATOM_NO_FORUM'] = 'Ta forum nima krme (brez tekočih vsebin)';
-$lang['ATOM_NO_USER'] = 'Ta uporabnik nima vira (brez tekočih vsebin)';
 $lang['ATOM_UPDATED'] = 'Posodobi';
 $lang['ATOM_GLOBAL_FEED'] = 'Svetovni vir za vse forumih';
 

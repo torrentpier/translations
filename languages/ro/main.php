@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forumuri hartă';
 $lang['ATOM_FEED'] = 'Hrana';
 $lang['ATOM_ERROR'] = 'Eroare la generarea unui feed';
 $lang['ATOM_SUBSCRIBE'] = 'Aboneaza-te la feed';
-$lang['ATOM_NO_MODE'] = 'Nici o opțiune de mod furnizată pentru feed';
-$lang['ATOM_NO_FORUM'] = 'Acest forum nu are un flux (nr. în curs de desfășurare subiecte)';
-$lang['ATOM_NO_USER'] = 'Acest utilizator nu are o alimentare (nu in curs de desfasurare subiecte)';
 $lang['ATOM_UPDATED'] = 'Actualizat';
 $lang['ATOM_GLOBAL_FEED'] = 'Feed global pentru toate forumurile';
 

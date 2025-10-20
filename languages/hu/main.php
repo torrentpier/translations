@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Fórumok\' térkép';
 $lang['ATOM_FEED'] = 'Takarmány';
 $lang['ATOM_ERROR'] = 'A hibát generáló takarmány';
 $lang['ATOM_SUBSCRIBE'] = 'Iratkozz fel a feed';
-$lang['ATOM_NO_MODE'] = 'Nem biztosított mód opció a feedhez';
-$lang['ATOM_NO_FORUM'] = 'Ez a fórum nem egy feed (nincs folyamatban lévő témák)';
-$lang['ATOM_NO_USER'] = 'Ez a felhasználó nem rendelkezik takarmány (nincs folyamatban lévő témák)';
 $lang['ATOM_UPDATED'] = 'Módosítva';
 $lang['ATOM_GLOBAL_FEED'] = 'Globális hírcsatorna az összes fórum számára';
 

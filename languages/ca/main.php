@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Fòrums mapa';
 $lang['ATOM_FEED'] = 'Alimentació';
 $lang['ATOM_ERROR'] = 'Error generar feed';
 $lang['ATOM_SUBSCRIBE'] = 'Subscriure\'s al feed';
-$lang['ATOM_NO_MODE'] = 'No s\'ha proporcionat cap opció de mode per al feed';
-$lang['ATOM_NO_FORUM'] = 'Aquest fòrum no tenen una alimentació (no continuada temes)';
-$lang['ATOM_NO_USER'] = 'Aquest usuari no té un feed (no continuada temes)';
 $lang['ATOM_UPDATED'] = 'Actualitzat';
 $lang['ATOM_GLOBAL_FEED'] = 'Feed global per a tots els fòrums';
 

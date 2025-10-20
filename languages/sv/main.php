@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forum\' karta';
 $lang['ATOM_FEED'] = 'Foder';
 $lang['ATOM_ERROR'] = 'Fel skapa foder';
 $lang['ATOM_SUBSCRIBE'] = 'Prenumerera på feed';
-$lang['ATOM_NO_MODE'] = 'Ingen lägealternativ angivet för flödet';
-$lang['ATOM_NO_FORUM'] = 'Detta forum inte har en feed (inga aktuella ämnen)';
-$lang['ATOM_NO_USER'] = 'Den här användaren har inte en feed (inga aktuella ämnen)';
 $lang['ATOM_UPDATED'] = 'Uppdaterad';
 $lang['ATOM_GLOBAL_FEED'] = 'Globala feed för alla forum';
 

@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forumuose " žemėlapį';
 $lang['ATOM_FEED'] = 'Pašarų';
 $lang['ATOM_ERROR'] = 'Klaida generuojant pašarų';
 $lang['ATOM_SUBSCRIBE'] = 'Prenumeruoti informacijos santrauką,';
-$lang['ATOM_NO_MODE'] = 'Nemokamo pasirinkimo parinktis nėra pateikta';
-$lang['ATOM_NO_FORUM'] = 'Šis forumas neturi pašarų (joks temas)';
-$lang['ATOM_NO_USER'] = 'Šis vartotojas neturi pašarų (joks temas)';
 $lang['ATOM_UPDATED'] = 'Atnaujinta';
 $lang['ATOM_GLOBAL_FEED'] = 'Visuotinis informacijos šaltinis visiems forumuose';
 

@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Foorumid\' kaart';
 $lang['ATOM_FEED'] = 'Sööt';
 $lang['ATOM_ERROR'] = 'Viga teeniva sööt';
 $lang['ATOM_SUBSCRIBE'] = 'Tellida sööda';
-$lang['ATOM_NO_MODE'] = 'Toimingu režiim ei ole antud toitmiseks';
-$lang['ATOM_NO_FORUM'] = 'See foorum ei ole sööda kohta (nr käimasolevad teemad)';
-$lang['ATOM_NO_USER'] = 'See kasutaja ei ole sööda kohta (nr käimasolevad teemad)';
 $lang['ATOM_UPDATED'] = 'Uuendus';
 $lang['ATOM_GLOBAL_FEED'] = 'Globaalne sööt kõikidele foorumitele';
 

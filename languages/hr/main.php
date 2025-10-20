@@ -2517,9 +2517,6 @@ $lang['FORUM_MAP'] = 'Karta foruma';
 $lang['ATOM_FEED'] = 'Hraniti';
 $lang['ATOM_ERROR'] = 'Generirajući pogreške hraniti';
 $lang['ATOM_SUBSCRIBE'] = 'Pretplatite se na kanal';
-$lang['ATOM_NO_MODE'] = 'Nema opcije načina za feed';
-$lang['ATOM_NO_FORUM'] = 'Ovaj forum ne pase (ne aktualne teme)';
-$lang['ATOM_NO_USER'] = 'To ime nema napajanja (nema stalni teme)';
 $lang['ATOM_UPDATED'] = 'Ažuriraj';
 $lang['ATOM_GLOBAL_FEED'] = 'Globalni feed za sve forume';
 

@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = '포럼\'맵';
 $lang['ATOM_FEED'] = '피드';
 $lang['ATOM_ERROR'] = '오류가 생성 피드';
 $lang['ATOM_SUBSCRIBE'] = '피드 구독';
-$lang['ATOM_NO_MODE'] = '피드를 위한 모드 옵션이 제공되지 않았습니다';
-$lang['ATOM_NO_FORUM'] = '이 포럼을 가지지 않 피드(지속적인 항목)';
-$lang['ATOM_NO_USER'] = '이 사용자가 없 피드(지속적인 항목)';
 $lang['ATOM_UPDATED'] = '업데이트되었습니다.';
 $lang['ATOM_GLOBAL_FEED'] = '모든 포럼의 글로벌 피드';
 

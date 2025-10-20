@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forumima\' karta';
 $lang['ATOM_FEED'] = 'Nahrani';
 $lang['ATOM_ERROR'] = 'Greška stvaraju nahrani';
 $lang['ATOM_SUBSCRIBE'] = 'Pretplatite na nahrani';
-$lang['ATOM_NO_MODE'] = 'Nema opcije moda za feed';
-$lang['ATOM_NO_FORUM'] = 'Ovo forum nema hrane (ne toku teme)';
-$lang['ATOM_NO_USER'] = 'Ovo korisnik nema hrane (ne toku teme)';
 $lang['ATOM_UPDATED'] = 'Updated';
 $lang['ATOM_GLOBAL_FEED'] = 'Globalna hrana za sve forume';
 

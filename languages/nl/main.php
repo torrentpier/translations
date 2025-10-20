@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forums\' kaart';
 $lang['ATOM_FEED'] = 'Feed';
 $lang['ATOM_ERROR'] = 'Fout bij het genereren van feed';
 $lang['ATOM_SUBSCRIBE'] = 'Abonneren op de feed';
-$lang['ATOM_NO_MODE'] = 'Geen modusoptie opgegeven voor de feed';
-$lang['ATOM_NO_FORUM'] = 'Dit forum beschikt niet over een voeding (geen doorlopende onderwerpen)';
-$lang['ATOM_NO_USER'] = 'Deze gebruiker heeft geen voeding (geen doorlopende onderwerpen)';
 $lang['ATOM_UPDATED'] = 'Bijgewerkt';
 $lang['ATOM_GLOBAL_FEED'] = 'Globale feed voor alle forums';
 

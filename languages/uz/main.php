@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forumlar xaritasi';
 $lang['ATOM_FEED'] = 'Tasma';
 $lang['ATOM_ERROR'] = 'Xato ishlab ozuqa';
 $lang['ATOM_SUBSCRIBE'] = 'tasmasiga obuna';
-$lang['ATOM_NO_MODE'] = 'Feed uchun rejim tanlanmagan';
-$lang['ATOM_NO_FORUM'] = 'Bu forum bir ovqatni (davom etgan har qanday sifatlar) yo\'q';
-$lang['ATOM_NO_USER'] = 'Ushbu foydalanuvchi bir ovqatni (davom etgan har qanday sifatlar) yo\'q';
 $lang['ATOM_UPDATED'] = 'Yangilandi';
 $lang['ATOM_GLOBAL_FEED'] = 'Barcha forumlar uchun global ovqatlanish';
 

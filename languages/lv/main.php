@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forums " kartes';
 $lang['ATOM_FEED'] = 'Barība';
 $lang['ATOM_ERROR'] = 'Kļūda rada barības';
 $lang['ATOM_SUBSCRIBE'] = 'Abonēt plūsmu,';
-$lang['ATOM_NO_MODE'] = 'Nav nodrošināta modeļa izvēle plūsmai';
-$lang['ATOM_NO_FORUM'] = 'Šis forums nav barības (nav pastāvīgo tēmas)';
-$lang['ATOM_NO_USER'] = 'Šim lietotājam nav barības (nav pastāvīgo tēmas)';
 $lang['ATOM_UPDATED'] = 'Atjaunināt, Atjauninājums';
 $lang['ATOM_GLOBAL_FEED'] = 'Globālā plūsma visiem forumiem';
 

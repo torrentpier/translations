@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'フォーラム"地図';
 $lang['ATOM_FEED'] = '飼料';
 $lang['ATOM_ERROR'] = 'エラー発生飼料';
 $lang['ATOM_SUBSCRIBE'] = '購読の飼料';
-$lang['ATOM_NO_MODE'] = 'フィードのモードオプションが提供されていません';
-$lang['ATOM_NO_FORUM'] = 'このフォーラムがない飼料(継続的な課題)';
-$lang['ATOM_NO_USER'] = 'このユーザーがない飼料(継続的な課題)';
 $lang['ATOM_UPDATED'] = '更新日時';
 $lang['ATOM_GLOBAL_FEED'] = 'すべてのフォーラムのグローバルフィード';
 

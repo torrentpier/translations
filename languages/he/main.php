@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'פורומים של המפה';
 $lang['ATOM_FEED'] = 'להאכיל';
 $lang['ATOM_ERROR'] = 'שגיאה ביצירת להאכיל';
 $lang['ATOM_SUBSCRIBE'] = 'הירשם ל-rss';
-$lang['ATOM_NO_MODE'] = 'לא ניתנה אפשרות מצב להזנה';
-$lang['ATOM_NO_FORUM'] = 'הפורום הזה לא צריך להאכיל (לא שוטף נושאים)';
-$lang['ATOM_NO_USER'] = 'משתמש זה אינו חייב להאכיל (לא שוטף נושאים)';
 $lang['ATOM_UPDATED'] = 'עדכן';
 $lang['ATOM_GLOBAL_FEED'] = 'גלובל להאכיל עבור כל הפורומים';
 

@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forums \'kaart';
 $lang['ATOM_FEED'] = 'Voer';
 $lang['ATOM_ERROR'] = 'Kon nie voer voer nie';
 $lang['ATOM_SUBSCRIBE'] = 'Teken in op die voer';
-$lang['ATOM_NO_MODE'] = 'Geen modusopsie voorsien vir die voer nie';
-$lang['ATOM_NO_FORUM'] = 'Hierdie forum het geen feed (geen deurlopende onderwerpe)';
-$lang['ATOM_NO_USER'] = 'Hierdie gebruiker het geen feed (geen deurlopende onderwerpe)';
 $lang['ATOM_UPDATED'] = 'Updated';
 $lang['ATOM_GLOBAL_FEED'] = 'Globale voer vir alle forums';
 

@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Карта форумов';
 $lang['ATOM_FEED'] = 'Лента';
 $lang['ATOM_ERROR'] = 'Ошибка генерации ленты';
 $lang['ATOM_SUBSCRIBE'] = 'Подписка на ленту';
-$lang['ATOM_NO_MODE'] = 'Не выбран режим для feed-канала';
-$lang['ATOM_NO_FORUM'] = 'Для этого форума нет ленты (нет начатых тем)';
-$lang['ATOM_NO_USER'] = 'Для этого пользователя нет ленты (нет начатых тем)';
 $lang['ATOM_UPDATED'] = 'Обновлено';
 $lang['ATOM_GLOBAL_FEED'] = 'Глобальная лента для всех форумов';
 
