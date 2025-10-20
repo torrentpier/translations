@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Fóra mapu';
 $lang['ATOM_FEED'] = 'Krmivo';
 $lang['ATOM_ERROR'] = 'Chyba při generování krmiva';
 $lang['ATOM_SUBSCRIBE'] = 'Přihlásit se k odběru krmiva';
-$lang['ATOM_NO_MODE'] = 'Žádná možnost módu poskytnuta pro krmivo';
-$lang['ATOM_NO_FORUM'] = 'Toto fórum nemá krmit (ne probíhající témata)';
-$lang['ATOM_NO_USER'] = 'Tento uživatel nemá krmivo (žádné probíhající témata)';
 $lang['ATOM_UPDATED'] = 'Aktualizováno';
 $lang['ATOM_GLOBAL_FEED'] = 'Globální zdroj pro všechny fóra';
 
