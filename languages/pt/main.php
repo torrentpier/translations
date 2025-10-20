@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Fóruns de " mapa';
 $lang['ATOM_FEED'] = 'Alimentação';
 $lang['ATOM_ERROR'] = 'Erro ao gerar o feed';
 $lang['ATOM_SUBSCRIBE'] = 'Assine o feed';
-$lang['ATOM_NO_MODE'] = 'Nenhuma opção de modo fornecida para o feed';
-$lang['ATOM_NO_FORUM'] = 'Este fórum não tem um feed (não contínuo tópicos)';
-$lang['ATOM_NO_USER'] = 'Este usuário não tem um feed (não contínuo tópicos)';
 $lang['ATOM_UPDATED'] = 'Actualizada';
 $lang['ATOM_GLOBAL_FEED'] = 'Alimentação global para todos os fóruns';
 
