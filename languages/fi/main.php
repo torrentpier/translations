@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Foorumeita kartta';
 $lang['ATOM_FEED'] = 'Feed';
 $lang['ATOM_ERROR'] = 'Virhe tuottaa rehun';
 $lang['ATOM_SUBSCRIBE'] = 'Tilaa syöte';
-$lang['ATOM_NO_MODE'] = 'Syöttövalintaa ei ole annettu syötteelle';
-$lang['ATOM_NO_FORUM'] = 'Tämä foorumi ei ole ruokkia (ei käynnissä olevia aiheita)';
-$lang['ATOM_NO_USER'] = 'Tämä käyttäjä ei ole ruokkia (ei käynnissä olevia aiheita)';
 $lang['ATOM_UPDATED'] = 'Päivitetty';
 $lang['ATOM_GLOBAL_FEED'] = 'Maailmanlaajuinen rehu kaikille foorumeille';
 
