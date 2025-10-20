@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forumların xəritəsi';
 $lang['ATOM_FEED'] = 'Yem';
 $lang['ATOM_ERROR'] = 'Yem yaratmaqda səhv baş verdi';
 $lang['ATOM_SUBSCRIBE'] = 'Kanonala abunə olun';
-$lang['ATOM_NO_MODE'] = 'Yem üçün mod seçimi təqdim edilməyib';
-$lang['ATOM_NO_FORUM'] = 'Bu forumda qidalanma yoxdur (cari mövzular yoxdur)';
-$lang['ATOM_NO_USER'] = 'Bu istifadəçinin qidalanması yoxdur (cari mövzular yoxdur)';
 $lang['ATOM_UPDATED'] = 'Yenilə';
 $lang['ATOM_GLOBAL_FEED'] = 'Bütün forumlar üçün qlobal yem';
 
