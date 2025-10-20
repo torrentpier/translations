@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Харитаи Форумҳо \'';
 $lang['ATOM_FEED'] = 'Feed';
 $lang['ATOM_ERROR'] = 'хўроки тавлиди Хатои';
 $lang['ATOM_SUBSCRIBE'] = 'Обуна ба хўроки';
-$lang['ATOM_NO_MODE'] = 'Ҳеҷ варианти режим барои хӯроки таъриф наёфтааст';
-$lang['ATOM_NO_FORUM'] = 'Ин баҳс надорад, хўроки (на мавзӯъҳои ҷорӣ) нест,';
-$lang['ATOM_NO_USER'] = 'Корбари мазкур ба як хўроки (на мавзӯъҳои ҷорӣ) нест,';
 $lang['ATOM_UPDATED'] = 'Updated';
 $lang['ATOM_GLOBAL_FEED'] = 'Хўроки Global барои ҳамаи форумҳо';
 
