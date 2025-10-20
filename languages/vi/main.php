@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Các diễn đàn\' bản đồ';
 $lang['ATOM_FEED'] = 'Thức ăn';
 $lang['ATOM_ERROR'] = 'Lỗi tạo ra thức ăn';
 $lang['ATOM_SUBSCRIBE'] = 'Theo dõi các nguồn';
-$lang['ATOM_NO_MODE'] = 'Không cung cấp tùy chọn chế độ cho nguồn cấp dữ liệu';
-$lang['ATOM_NO_FORUM'] = 'Diễn đàn này không có thức ăn (không liên tục chủ đề)';
-$lang['ATOM_NO_USER'] = 'Người này không có thức ăn (không liên tục chủ đề)';
 $lang['ATOM_UPDATED'] = 'Đã cập nhật';
 $lang['ATOM_GLOBAL_FEED'] = 'Thức ăn toàn cầu cho tất cả các diễn đàn';
 
