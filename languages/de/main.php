@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Karte der Foren.';
 $lang['ATOM_FEED'] = 'Feed';
 $lang['ATOM_ERROR'] = 'Fehler beim Erstellen des Feeds.';
 $lang['ATOM_SUBSCRIBE'] = 'Abonnieren Sie den Feed.';
-$lang['ATOM_NO_MODE'] = 'Keine Modusoption für den Feed angegeben';
-$lang['ATOM_NO_FORUM'] = 'Dieses Forum hat keinen Feed (keine laufenden Themen).';
-$lang['ATOM_NO_USER'] = 'Dieser Benutzer hat keinen Feed (keine laufenden Themen).';
 $lang['ATOM_UPDATED'] = 'Aktualisiert';
 $lang['ATOM_GLOBAL_FEED'] = 'Global feed für alle Foren';
 
