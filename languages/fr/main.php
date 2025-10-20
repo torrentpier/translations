@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Plan des forums';
 $lang['ATOM_FEED'] = 'Flux';
 $lang['ATOM_ERROR'] = 'Erreur de génération de flux';
 $lang['ATOM_SUBSCRIBE'] = 'Abonnez-vous au flux';
-$lang['ATOM_NO_MODE'] = 'Aucune option de mode fournie pour le flux';
-$lang['ATOM_NO_FORUM'] = 'Ce forum n\'a pas de flux (pas de sujets en cours)';
-$lang['ATOM_NO_USER'] = 'Cet utilisateur n\'a pas de flux (pas de sujets en cours)';
 $lang['ATOM_UPDATED'] = 'Mis à jour le';
 $lang['ATOM_GLOBAL_FEED'] = 'Flux globaux pour tous les forums';
 
