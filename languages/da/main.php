@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Fora\' kort';
 $lang['ATOM_FEED'] = 'Foder';
 $lang['ATOM_ERROR'] = 'Fejl ved generering af foder';
 $lang['ATOM_SUBSCRIBE'] = 'Abonnér på feed';
-$lang['ATOM_NO_MODE'] = 'Ingen tilstandsmulighed leveret for feedet';
-$lang['ATOM_NO_FORUM'] = 'Dette forum har ikke et feed (ingen løbende emner)';
-$lang['ATOM_NO_USER'] = 'Denne bruger har ikke et feed (ingen løbende emner)';
 $lang['ATOM_UPDATED'] = 'Updated';
 $lang['ATOM_GLOBAL_FEED'] = 'Globalt feed til alle fora';
 
