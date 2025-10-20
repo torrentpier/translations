@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Forumet\' harta';
 $lang['ATOM_FEED'] = 'Feed';
 $lang['ATOM_ERROR'] = 'Gabim gjeneruar feed';
 $lang['ATOM_SUBSCRIBE'] = 'Të regjistroheni për të ushqyer';
-$lang['ATOM_NO_MODE'] = 'Nuk është ofruar asnjë mundësi mode për burimin';
-$lang['ATOM_NO_FORUM'] = 'Në këtë forum nuk ka një ushqim (jo të vazhdueshme tema)';
-$lang['ATOM_NO_USER'] = 'Ky përdorues nuk ka një ushqim (jo të vazhdueshme tema)';
 $lang['ATOM_UPDATED'] = 'Përditësim';
 $lang['ATOM_GLOBAL_FEED'] = 'Ushqim global për të gjitha forumet';
 
