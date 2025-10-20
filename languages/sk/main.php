@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Fórum\' mapa';
 $lang['ATOM_FEED'] = 'Zdroj';
 $lang['ATOM_ERROR'] = 'Chyba generovanie zdroj';
 $lang['ATOM_SUBSCRIBE'] = 'Prihlásenie na odber informačných kanálov';
-$lang['ATOM_NO_MODE'] = 'Žiadna voľba módu nebola poskytnutá pre kanál';
-$lang['ATOM_NO_FORUM'] = 'Toto fórum nemá krmív (bez prebieha témy)';
-$lang['ATOM_NO_USER'] = 'Tento používateľ nemá krmiva (č prebieha témy)';
 $lang['ATOM_UPDATED'] = 'Aktualizované';
 $lang['ATOM_GLOBAL_FEED'] = 'Globálne krmivo pre všetky fóra';
 
