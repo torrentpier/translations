@@ -2516,9 +2516,6 @@ $lang['FORUM_MAP'] = 'Fora kart';
 $lang['ATOM_FEED'] = '- Feed';
 $lang['ATOM_ERROR'] = 'Feil generering av fôr';
 $lang['ATOM_SUBSCRIBE'] = 'Abonner på feed';
-$lang['ATOM_NO_MODE'] = 'Ingen modusalternativ gitt for tilførselen';
-$lang['ATOM_NO_FORUM'] = 'Dette forumet har ikke en mate (ingen pågående emner)';
-$lang['ATOM_NO_USER'] = 'Denne brukeren har ikke en mate (ingen pågående emner)';
 $lang['ATOM_UPDATED'] = 'Oppdatert';
 $lang['ATOM_GLOBAL_FEED'] = 'Global feed for alle fora';
 
