@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Lapa';
 $lang['JOINED'] = 'Pievienojies';
 $lang['LONGEVITY'] = 'Reģistrēts';
 $lang['IP_ADDRESS'] = 'IP Adrese';
-$lang['POSTED_AFTER'] = 'pēc tam, kad';
 
 $lang['SELECT_FORUM'] = 'Izvēlieties forumā';
 $lang['VIEW_LATEST_POST'] = 'Apskatīt jaunākās post';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['atbildēt', 'atbildes'];
 $lang['DECLENSION']['TIMES'] = ['laiks', 'reizes'];
 $lang['DECLENSION']['FILES'] = ['fails', 'faili'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['otrais', 'sekundes'],
-    'minutes' => ['minūtes', 'minūtes'],
-    'hours' => ['stunda', 'stundas'],
-    'mday' => ['diena', 'dienas'],
-    'mon' => ['mēnesis', 'mēneši'],
-    'year' => ['gads', 'gadi'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
