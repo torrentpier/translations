@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Stran';
 $lang['JOINED'] = 'Pridružen';
 $lang['LONGEVITY'] = 'Registrirani';
 $lang['IP_ADDRESS'] = 'IP Naslov';
-$lang['POSTED_AFTER'] = 'po';
 
 $lang['SELECT_FORUM'] = 'Izberite forum';
 $lang['VIEW_LATEST_POST'] = 'Prikaz zadnje objave';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['odgovori', 'odgovori'];
 $lang['DECLENSION']['TIMES'] = ['čas', 'krat'];
 $lang['DECLENSION']['FILES'] = ['datoteka', 'datoteke'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['drugo', 'sekund'],
-    'minutes' => ['minuto', 'minut'],
-    'hours' => ['uro', 'ur'],
-    'mday' => ['dan', 'dni'],
-    'mon' => ['mesec', 'mesecev'],
-    'year' => ['leto', 'leta'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
