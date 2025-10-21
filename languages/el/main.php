@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Σελίδα';
 $lang['JOINED'] = 'Συνεκδικασθείσες';
 $lang['LONGEVITY'] = 'Εγγεγραμμένοι';
 $lang['IP_ADDRESS'] = 'Διεύθυνση IP';
-$lang['POSTED_AFTER'] = 'μετά';
 
 $lang['SELECT_FORUM'] = 'Επιλέξτε φόρουμ';
 $lang['VIEW_LATEST_POST'] = 'Δείτε την τελευταία θέση';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['απάντηση', 'απαντήσεις'];
 $lang['DECLENSION']['TIMES'] = ['ώρα', 'φορές'];
 $lang['DECLENSION']['FILES'] = ['αρχείο', 'αρχεία'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['δεύτερο', 'δευτερόλεπτα'],
-    'minutes' => ['λεπτό', 'λεπτά'],
-    'hours' => ['ώρα', 'ώρες'],
-    'mday' => ['ημέρα', 'ημέρες'],
-    'mon' => ['μήνα', 'μήνες'],
-    'year' => ['έτος', 'χρόνια'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
