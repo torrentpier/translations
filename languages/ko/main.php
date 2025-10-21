@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = '페이지';
 $lang['JOINED'] = '류';
 $lang['LONGEVITY'] = '등록';
 $lang['IP_ADDRESS'] = 'IP 주소';
-$lang['POSTED_AFTER'] = '후에';
 
 $lang['SELECT_FORUM'] = '선택한 포럼';
 $lang['VIEW_LATEST_POST'] = '최신 보기 게시물';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['답변', '답글'];
 $lang['DECLENSION']['TIMES'] = ['시간', '시간'];
 $lang['DECLENSION']['FILES'] = ['파일', '파일들'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['두 번째', '초'],
-    'minutes' => ['분', '분'],
-    'hours' => ['시간', '시간'],
-    'mday' => ['일', '일'],
-    'mon' => ['달', '개월'],
-    'year' => ['년도', '세'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

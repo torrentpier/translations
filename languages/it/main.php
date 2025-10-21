@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Pagina';
 $lang['JOINED'] = 'Unito';
 $lang['LONGEVITY'] = 'Registrati';
 $lang['IP_ADDRESS'] = 'Indirizzo IP';
-$lang['POSTED_AFTER'] = 'dopo';
 
 $lang['SELECT_FORUM'] = 'Seleziona forum';
 $lang['VIEW_LATEST_POST'] = 'Visualizzazione post più recente';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['risposta', 'risposte'];
 $lang['DECLENSION']['TIMES'] = ['tempo', 'volte'];
 $lang['DECLENSION']['FILES'] = ['file', 'file'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['secondo', 'secondi'],
-    'minutes' => ['minuti', 'minuti'],
-    'hours' => ['ora', 'ore'],
-    'mday' => ['giorno', 'giorni'],
-    'mon' => ['mese', 'mesi'],
-    'year' => ['anno', 'anni'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

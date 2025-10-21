@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = '页面';
 $lang['JOINED'] = '加入时间';
 $lang['LONGEVITY'] = '注册';
 $lang['IP_ADDRESS'] = 'IP地址';
-$lang['POSTED_AFTER'] = '之后';
 
 $lang['SELECT_FORUM'] = '选择论坛';
 $lang['VIEW_LATEST_POST'] = '查看最新发表的文章';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['回复', '答复'];
 $lang['DECLENSION']['TIMES'] = ['时间', '时间'];
 $lang['DECLENSION']['FILES'] = ['檔案', '檔案'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['第二', '幾秒鐘'],
-    'minutes' => ['鐘', '分鐘'],
-    'hours' => ['小時', '小時'],
-    'mday' => ['一天', '天'],
-    'mon' => ['一個月', '幾個月'],
-    'year' => ['年', '年'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

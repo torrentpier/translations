@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Sida';
 $lang['JOINED'] = 'Gick';
 $lang['LONGEVITY'] = 'Registrerade';
 $lang['IP_ADDRESS'] = 'IP-Adress';
-$lang['POSTED_AFTER'] = 'efter';
 
 $lang['SELECT_FORUM'] = 'Välj forum';
 $lang['VIEW_LATEST_POST'] = 'Visa senaste inlägg';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['svara', 'svar'];
 $lang['DECLENSION']['TIMES'] = ['tid', 'gånger'];
 $lang['DECLENSION']['FILES'] = ['fil', 'filer'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['andra', 'sekunder'],
-    'minutes' => ['minuter', 'minuter'],
-    'hours' => ['timme', 'timmar'],
-    'mday' => ['dag', 'dagar'],
-    'mon' => ['månad', 'månader'],
-    'year' => ['år', 'år'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

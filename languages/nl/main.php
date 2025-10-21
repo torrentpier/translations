@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Pagina';
 $lang['JOINED'] = 'Samengevoegd';
 $lang['LONGEVITY'] = 'Geregistreerd';
 $lang['IP_ADDRESS'] = 'IP-Adres';
-$lang['POSTED_AFTER'] = 'na';
 
 $lang['SELECT_FORUM'] = 'Selecteer forum';
 $lang['VIEW_LATEST_POST'] = 'Bekijk laatste bericht';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['beantwoorden', 'antwoorden'];
 $lang['DECLENSION']['TIMES'] = ['tijd', 'tijden'];
 $lang['DECLENSION']['FILES'] = ['bestand', 'bestanden'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['tweede', 'seconden'],
-    'minutes' => ['minuut', 'minuten'],
-    'hours' => ['uur', 'uur'],
-    'mday' => ['dag', 'dagen'],
-    'mon' => ['maand', 'maanden'],
-    'year' => ['jaar', 'jaar'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Сторінка';
 $lang['JOINED'] = 'Приєднався';
 $lang['LONGEVITY'] = 'Зареєстрований';
 $lang['IP_ADDRESS'] = 'IP-адреса';
-$lang['POSTED_AFTER'] = 'після';
 
 $lang['SELECT_FORUM'] = 'Оберіть форум';
 $lang['VIEW_LATEST_POST'] = 'Показати останнє повідомлення';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['відповідь', 'відповіді'];
 $lang['DECLENSION']['TIMES'] = ['раз', 'разів'];
 $lang['DECLENSION']['FILES'] = ['файл', 'файли'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['секунда', 'секунд'],
-    'minutes' => ['хвилина', 'хвилин'],
-    'hours' => ['година', 'годин'],
-    'mday' => ['день', 'днів'],
-    'mon' => ['місяць', 'місяців'],
-    'year' => ['рік', 'років'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

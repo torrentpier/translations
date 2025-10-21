@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Էջ';
 $lang['JOINED'] = 'Միացել';
 $lang['LONGEVITY'] = 'Գրանցված է';
 $lang['IP_ADDRESS'] = 'IP հասցե';
-$lang['POSTED_AFTER'] = 'հետո';
 
 $lang['SELECT_FORUM'] = 'Ընտրեք համաժողովը';
 $lang['VIEW_LATEST_POST'] = 'Դիտել վերջին գրառումը';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['պատասխան', 'պատասխաններ'];
 $lang['DECLENSION']['TIMES'] = ['ժամանակ', 'անգամ'];
 $lang['DECLENSION']['FILES'] = ['ֆայլ', 'ֆայլեր'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['երկրորդ', 'վայրկյան'],
-    'minutes' => ['րոպե', 'ր.........................................'],
-    'hours' => ['ժամ', 'ժամ'],
-    'mday' => ['օր', 'օր'],
-    'mon' => ['ամիս', 'ամիս'],
-    'year' => ['տարի', 'տարի'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

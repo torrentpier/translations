@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Pagina';
 $lang['JOINED'] = 'S-au alăturat';
 $lang['LONGEVITY'] = 'Înregistrați';
 $lang['IP_ADDRESS'] = 'Adresa IP';
-$lang['POSTED_AFTER'] = 'după';
 
 $lang['SELECT_FORUM'] = 'Selectați forum';
 $lang['VIEW_LATEST_POST'] = 'Vezi cele mai recente post';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['răspuns', 'răspunsurile'];
 $lang['DECLENSION']['TIMES'] = ['timp', 'ori'];
 $lang['DECLENSION']['FILES'] = ['fișier', 'fișiere'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['a doua', 'secunde'],
-    'minutes' => ['minute', 'minute'],
-    'hours' => ['oră', 'ore'],
-    'mday' => ['zi', 'zile'],
-    'mon' => ['luna', 'luni'],
-    'year' => ['an', 'ani'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

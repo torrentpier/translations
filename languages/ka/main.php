@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'გვერდი';
 $lang['JOINED'] = 'შეუერთდა';
 $lang['LONGEVITY'] = 'რეგისტრირებული';
 $lang['IP_ADDRESS'] = 'IP მისამართი';
-$lang['POSTED_AFTER'] = 'მას შემდეგ, რაც';
 
 $lang['SELECT_FORUM'] = 'აირჩიეთ ფორუმი';
 $lang['VIEW_LATEST_POST'] = 'ბოლო პოსტი';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['პასუხი', 'გამოხმაურება'];
 $lang['DECLENSION']['TIMES'] = ['დრო', '- ჯერ'];
 $lang['DECLENSION']['FILES'] = ['ფაილი', 'ფაილები'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['მეორე', 'წამი'],
-    'minutes' => ['წუთი', 'წუთი'],
-    'hours' => ['საათი', 'საათი'],
-    'mday' => ['დღეს', 'დღის'],
-    'mon' => ['თვის', 'თვის'],
-    'year' => ['წელი', 'წლის'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

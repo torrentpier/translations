@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Stránka';
 $lang['JOINED'] = 'Pridal';
 $lang['LONGEVITY'] = 'Registrovaná';
 $lang['IP_ADDRESS'] = 'IP Adresa';
-$lang['POSTED_AFTER'] = 'po';
 
 $lang['SELECT_FORUM'] = 'Vyberte fórum';
 $lang['VIEW_LATEST_POST'] = 'Zobraziť posledný príspevok';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['odpovedať', 'odpovede'];
 $lang['DECLENSION']['TIMES'] = ['čas', 'časy'];
 $lang['DECLENSION']['FILES'] = ['súbor', 'súbory'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['druhý', 'sekúnd'],
-    'minutes' => ['minúta', 'minút'],
-    'hours' => ['hodina', 'hodín'],
-    'mday' => ['deň', 'dní'],
-    'mon' => ['mesiac', 'mesiacov'],
-    'year' => ['rok', 'rokov'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

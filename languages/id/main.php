@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Halaman';
 $lang['JOINED'] = 'Bergabung';
 $lang['LONGEVITY'] = 'Terdaftar';
 $lang['IP_ADDRESS'] = 'Alamat IP';
-$lang['POSTED_AFTER'] = 'setelah';
 
 $lang['SELECT_FORUM'] = 'Pilih forum';
 $lang['VIEW_LATEST_POST'] = 'Lihat posting terbaru';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['balas', 'balasan'];
 $lang['DECLENSION']['TIMES'] = ['waktu', 'kali'];
 $lang['DECLENSION']['FILES'] = ['file', 'files'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['kedua', 'detik'],
-    'minutes' => ['menit', 'menit'],
-    'hours' => ['jam', 'jam'],
-    'mday' => ['hari', 'hari'],
-    'mon' => ['bulan', 'bulan'],
-    'year' => ['tahun', 'tahun'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

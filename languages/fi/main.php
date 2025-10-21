@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Sivu';
 $lang['JOINED'] = 'Liittynyt';
 $lang['LONGEVITY'] = 'Rekisteröity';
 $lang['IP_ADDRESS'] = 'IP-Osoite';
-$lang['POSTED_AFTER'] = 'jälkeen';
 
 $lang['SELECT_FORUM'] = 'Valitse foorumi';
 $lang['VIEW_LATEST_POST'] = 'Näytä viimeisin viesti';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['vastaus', 'vastaukset'];
 $lang['DECLENSION']['TIMES'] = ['aika', 'kertaa'];
 $lang['DECLENSION']['FILES'] = ['tiedosto', 'tiedostot'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['toinen', 'sekuntia'],
-    'minutes' => ['minuutin', 'minuuttia'],
-    'hours' => ['tunti', 'tuntia'],
-    'mday' => ['päivä', 'päivää'],
-    'mon' => ['kuukausi', 'kuukautta'],
-    'year' => ['vuonna', 'vuotta'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

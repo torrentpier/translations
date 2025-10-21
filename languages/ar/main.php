@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'الصفحة';
 $lang['JOINED'] = 'انضم';
 $lang['LONGEVITY'] = 'مسجل';
 $lang['IP_ADDRESS'] = 'عنوان IP';
-$lang['POSTED_AFTER'] = 'بعد';
 
 $lang['SELECT_FORUM'] = 'حدد المنتدى';
 $lang['VIEW_LATEST_POST'] = 'عرض آخر مشاركة';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['رد', 'الردود'];
 $lang['DECLENSION']['TIMES'] = ['الوقت', 'مرات'];
 $lang['DECLENSION']['FILES'] = ['ملف', 'الملفات'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['الثاني', 'ثانية'],
-    'minutes' => ['دقيقة', 'دقائق'],
-    'hours' => ['ساعة', 'ساعات'],
-    'mday' => ['اليوم', 'لا يوجد أيا منها.'],
-    'mon' => ['شهر.', 'أشهر'],
-    'year' => ['العام', 'سنوات'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

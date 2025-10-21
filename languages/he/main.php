@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'דף';
 $lang['JOINED'] = 'הצטרף';
 $lang['LONGEVITY'] = 'רשום';
 $lang['IP_ADDRESS'] = 'כתובת ה-IP';
-$lang['POSTED_AFTER'] = 'אחרי';
 
 $lang['SELECT_FORUM'] = 'בחר פורום';
 $lang['VIEW_LATEST_POST'] = 'הצג את הפוסט האחרון';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['תגובה', 'תגובות'];
 $lang['DECLENSION']['TIMES'] = ['זמן', 'פעמים'];
 $lang['DECLENSION']['FILES'] = ['קובץ', 'קבצים'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['השני', 'שניות'],
-    'minutes' => ['דקה', 'דקות'],
-    'hours' => ['שעה', 'שעות'],
-    'mday' => ['יום', 'ימים'],
-    'mon' => ['בחודש', 'חודשים'],
-    'year' => ['שנה', 'שנים'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

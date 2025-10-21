@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'ページ';
 $lang['JOINED'] = '入';
 $lang['LONGEVITY'] = '登録';
 $lang['IP_ADDRESS'] = 'IPアドレス';
-$lang['POSTED_AFTER'] = '後';
 
 $lang['SELECT_FORUM'] = '選択フォーラム';
 $lang['VIEW_LATEST_POST'] = 'ビューの最新の募';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['返信', '回答'];
 $lang['DECLENSION']['TIMES'] = ['時間', '倍'];
 $lang['DECLENSION']['FILES'] = ['ファイル', 'ファイル'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['第', '秒'],
-    'minutes' => ['分', '分'],
-    'hours' => ['時間', '時間'],
-    'mday' => ['日', '日'],
-    'mon' => ['月', 'ヶ月'],
-    'year' => ['年', '年'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Lehekülg';
 $lang['JOINED'] = 'Liitunud';
 $lang['LONGEVITY'] = 'Registreeritud';
 $lang['IP_ADDRESS'] = 'IP Aadress';
-$lang['POSTED_AFTER'] = 'pärast';
 
 $lang['SELECT_FORUM'] = 'Valige foorumil';
 $lang['VIEW_LATEST_POST'] = 'Vaadata viimast postitust';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['vastus', 'vastused'];
 $lang['DECLENSION']['TIMES'] = ['aeg', 'korda'];
 $lang['DECLENSION']['FILES'] = ['fail', 'failid'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['teine', 'sekundit'],
-    'minutes' => ['minut', 'minutit'],
-    'hours' => ['tund', 'tundi'],
-    'mday' => ['päev', 'päeva'],
-    'mon' => ['kuu', 'kuud'],
-    'year' => ['aasta', 'aasta'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];

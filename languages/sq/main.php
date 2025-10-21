@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Faqe';
 $lang['JOINED'] = 'U bashkuan';
 $lang['LONGEVITY'] = 'Regjistruar';
 $lang['IP_ADDRESS'] = 'IP Adresa';
-$lang['POSTED_AFTER'] = 'pas';
 
 $lang['SELECT_FORUM'] = 'Zgjidhni forumi';
 $lang['VIEW_LATEST_POST'] = 'Pamje të fundit në post';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['përgjigje', 'përgjigje'];
 $lang['DECLENSION']['TIMES'] = ['kohë', 'kohët'];
 $lang['DECLENSION']['FILES'] = ['skedar', 'skedarë'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['i dytë', 'sekonda'],
-    'minutes' => ['minutë', 'minuta'],
-    'hours' => ['orë', 'orë'],
-    'mday' => ['ditë', 'ditë'],
-    'mon' => ['muaj', 'muaj'],
-    'year' => ['viti', 'vjet'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
