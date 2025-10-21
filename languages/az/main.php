@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Səhifə';
 $lang['JOINED'] = 'Qoşulub';
 $lang['LONGEVITY'] = 'Qeydiyyatdan keçdi';
 $lang['IP_ADDRESS'] = 'IP-ünvan';
-$lang['POSTED_AFTER'] = 'sonra';
 
 $lang['SELECT_FORUM'] = 'Seçin forum';
 $lang['VIEW_LATEST_POST'] = 'Sonuncu postu bax';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['cavab', 'cavablar'];
 $lang['DECLENSION']['TIMES'] = ['vaxt', 'dəfə'];
 $lang['DECLENSION']['FILES'] = ['fayl', 'fayllar'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['ikinci', 'saniyə'],
-    'minutes' => ['dəqiqə', 'dəqiqə'],
-    'hours' => ['saat', 'saat'],
-    'mday' => ['gün', 'gün'],
-    'mon' => ['ay', 'ay'],
-    'year' => ['yaş', 'yaş'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
