@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Oldal';
 $lang['JOINED'] = 'Csatlakozott';
 $lang['LONGEVITY'] = 'Regisztrált';
 $lang['IP_ADDRESS'] = 'IP-Cím';
-$lang['POSTED_AFTER'] = 'után';
 
 $lang['SELECT_FORUM'] = 'Válassza fórum';
 $lang['VIEW_LATEST_POST'] = 'Nézet legújabb hozzászólás';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['válasz', 'válaszok'];
 $lang['DECLENSION']['TIMES'] = ['idő', 'szer'];
 $lang['DECLENSION']['FILES'] = ['fájl', 'fájlok'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['második', 'másodperc'],
-    'minutes' => ['perc', 'perc'],
-    'hours' => ['óra', 'óra'],
-    'mday' => ['nap', 'nap'],
-    'mon' => ['hónap', 'hónap'],
-    'year' => ['év', 'év'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
