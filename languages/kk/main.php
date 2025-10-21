@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'бет';
 $lang['JOINED'] = 'Қосылды';
 $lang['LONGEVITY'] = 'тіркелген';
 $lang['IP_ADDRESS'] = 'IP мекен-жайы';
-$lang['POSTED_AFTER'] = 'кейін';
 
 $lang['SELECT_FORUM'] = 'форум таңдаңыз';
 $lang['VIEW_LATEST_POST'] = 'Соңғы хабарлама қарау';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['жауап', 'жауап'];
 $lang['DECLENSION']['TIMES'] = ['уақыт', 'рет'];
 $lang['DECLENSION']['FILES'] = ['файл', 'файлдар'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['секунд', 'секунд'],
-    'minutes' => ['минут', 'минут'],
-    'hours' => ['сағат', 'сағат'],
-    'mday' => ['күн', 'күн'],
-    'mon' => ['ай', 'ай'],
-    'year' => ['жыл', 'жылдар'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
