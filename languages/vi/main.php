@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Trang';
 $lang['JOINED'] = 'Tham gia';
 $lang['LONGEVITY'] = 'Đăng ký';
 $lang['IP_ADDRESS'] = 'Địa chỉ IP';
-$lang['POSTED_AFTER'] = 'sau';
 
 $lang['SELECT_FORUM'] = 'Chọn diễn đàn';
 $lang['VIEW_LATEST_POST'] = 'Xem bài viết mới nhất';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['trả lời', 'câu trả lời'];
 $lang['DECLENSION']['TIMES'] = ['thời gian', 'lần'];
 $lang['DECLENSION']['FILES'] = ['tệp', 'các tệp'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['thứ hai', 'giây'],
-    'minutes' => ['phút', 'phút'],
-    'hours' => ['giờ', 'giờ'],
-    'mday' => ['ngày', 'ngày'],
-    'mon' => ['tháng', 'tháng'],
-    'year' => ['năm', 'năm'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
