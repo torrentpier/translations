@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'पृष्ठ';
 $lang['JOINED'] = 'में शामिल हो गए';
 $lang['LONGEVITY'] = 'दर्ज कराई';
 $lang['IP_ADDRESS'] = 'आईपी ​​पता';
-$lang['POSTED_AFTER'] = 'बाद';
 
 $lang['SELECT_FORUM'] = 'फ़ोरम चुनें';
 $lang['VIEW_LATEST_POST'] = 'नवीनतम पोस्ट देखें';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['जवाब दें', 'उत्तर'];
 $lang['DECLENSION']['TIMES'] = ['पहर', 'टाइम्स'];
 $lang['DECLENSION']['FILES'] = ['फ़ाइल', 'फाइलें'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['दूसरा', 'सेकंड'],
-    'minutes' => ['मिनट', 'मिनट'],
-    'hours' => ['घंटा', 'घंटे'],
-    'mday' => ['दिन', 'दिन'],
-    'mon' => ['महीना', 'महीने'],
-    'year' => ['साल', 'वर्षों'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
