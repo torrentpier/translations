@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'Странице';
 $lang['JOINED'] = 'Придружио';
 $lang['LONGEVITY'] = 'Регистрован';
 $lang['IP_ADDRESS'] = 'ИП адреса';
-$lang['POSTED_AFTER'] = 'након';
 
 $lang['SELECT_FORUM'] = 'Изаберите форум';
 $lang['VIEW_LATEST_POST'] = 'Гледати последњи пост';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['одговор', 'одговори'];
 $lang['DECLENSION']['TIMES'] = ['време', 'пут'];
 $lang['DECLENSION']['FILES'] = ['фајл', 'фајлови'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['други', 'секунди'],
-    'minutes' => ['минут', 'минута'],
-    'hours' => ['сат', 'сати'],
-    'mday' => ['дан', 'дана'],
-    'mon' => ['месец', 'месеци'],
-    'year' => ['годину', 'година'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
