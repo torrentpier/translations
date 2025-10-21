@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'bet';
 $lang['JOINED'] = 'Qo\'shilgan';
 $lang['LONGEVITY'] = 'ro\'yxatga olingan';
 $lang['IP_ADDRESS'] = 'IP manzili';
-$lang['POSTED_AFTER'] = 'so\'ng';
 
 $lang['SELECT_FORUM'] = 'tanlang forum';
 $lang['VIEW_LATEST_POST'] = 'Oxirgi xabar ko\'rish';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['javob', 'javoblar'];
 $lang['DECLENSION']['TIMES'] = ['vaqt', 'marta'];
 $lang['DECLENSION']['FILES'] = ['fayl', 'fayllar'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['ikkinchi', 'soniya'],
-    'minutes' => ['daqiqa', 'daqiqa'],
-    'hours' => ['soat', 'soat'],
-    'mday' => ['kun', 'kun'],
-    'mon' => ['oy', 'oy'],
-    'year' => ['yil', 'yil'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
