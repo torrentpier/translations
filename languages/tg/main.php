@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'саҳифа';
 $lang['JOINED'] = 'ҳамроҳ';
 $lang['LONGEVITY'] = 'Сабтшуда';
 $lang['IP_ADDRESS'] = 'IP Нишонӣ';
-$lang['POSTED_AFTER'] = 'баъд аз';
 
 $lang['SELECT_FORUM'] = 'Интихоб кунед форум';
 $lang['VIEW_LATEST_POST'] = 'Дидани охирин мансаби';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['ҷавоб', 'АКС'];
 $lang['DECLENSION']['TIMES'] = ['замон', 'маротиба'];
 $lang['DECLENSION']['FILES'] = ['файл', 'файлҳо'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['дуюм', 'сония'],
-    'minutes' => ['лаҳза', 'дақиқа'],
-    'hours' => ['соат', 'соат'],
-    'mday' => ['рӯз', 'рӯз'],
-    'mon' => ['моҳ', 'моҳ'],
-    'year' => ['сол', 'сол'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s %2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
