@@ -74,7 +74,6 @@ $lang['GOTO_SHORT'] = 'หน้า';
 $lang['JOINED'] = 'เข้าร่วม';
 $lang['LONGEVITY'] = 'จดทะเบียน';
 $lang['IP_ADDRESS'] = 'ที่อยู่ IP';
-$lang['POSTED_AFTER'] = 'หลังจาก';
 
 $lang['SELECT_FORUM'] = 'เลือกชุ';
 $lang['VIEW_LATEST_POST'] = 'มุมมองโพสล่าสุด';
@@ -1265,16 +1264,6 @@ $lang['WEBSITE_SHORT'] = 'WWW';
 $lang['DECLENSION']['REPLIES'] = ['ตอบกลับ', 'การตอบกลับ'];
 $lang['DECLENSION']['TIMES'] = ['เวลา', 'ครั้งแล้ว'];
 $lang['DECLENSION']['FILES'] = ['ไฟล์', 'ไฟล์'];
-
-$lang['DELTA_TIME']['INTERVALS'] = [
-    'seconds' => ['ที่สอง', 'วินาที'],
-    'minutes' => ['นาที', 'นาที'],
-    'hours' => ['ชั่วโมง', 'ชั่วโมง'],
-    'mday' => ['วัน', 'วัน'],
-    'mon' => ['เดือนนึง', 'เดือน'],
-    'year' => ['ปี', 'ปี'],
-];
-$lang['DELTA_TIME']['FORMAT'] = '%1$s%2$s'; // 5(%1) minutes(%2)
 
 $lang['AUTH_TYPES'][AUTH_ALL] = $lang['AUTH_ANONYMOUS_USERS'];
 $lang['AUTH_TYPES'][AUTH_REG] = $lang['AUTH_REGISTERED_USERS'];
