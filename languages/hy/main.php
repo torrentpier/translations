@@ -792,40 +792,6 @@ $lang['LOOKUP_IP'] = 'Դիտել IP-հասցե';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'Բոլոր ժամանակները <span class="tz_time">%s</span> են'; // This is followed by UTC and the timezone offset
 
-// These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'Համաշխարհային - 12';
-$lang['TZ']['-11'] = 'Համաշխարհային - 11';
-$lang['TZ']['-10'] = 'Համաշխարհային - 10';
-$lang['TZ']['-9'] = 'Համաշխարհային - 9';
-$lang['TZ']['-8'] = 'Համաշխարհային - 8';
-$lang['TZ']['-7'] = 'Համաշխարհային - 7';
-$lang['TZ']['-6'] = 'Համաշխարհային - 6';
-$lang['TZ']['-5'] = 'Համաշխարհային - 5';
-$lang['TZ']['-4'] = 'Համաշխարհային - 4';
-$lang['TZ']['-3.5'] = 'UTC - 3.5 է';
-$lang['TZ']['-3'] = 'Համաշխարհային - 3';
-$lang['TZ']['-2'] = 'UTC - 2 է';
-$lang['TZ']['-1'] = 'UTC - 1 է';
-$lang['TZ']['0'] = 'UTC ± 0 է';
-$lang['TZ']['1'] = 'UTC + 1';
-$lang['TZ']['2'] = 'UTC + 2 է';
-$lang['TZ']['3'] = 'UTC + 3';
-$lang['TZ']['3.5'] = 'UTC + 3.5 է';
-$lang['TZ']['4'] = 'UTC + 4 է';
-$lang['TZ']['4.5'] = 'UTC + 4.5 է';
-$lang['TZ']['5'] = 'UTC + 5 է';
-$lang['TZ']['5.5'] = 'UTC + 5.5 է';
-$lang['TZ']['6'] = 'UTC + 6';
-$lang['TZ']['6.5'] = 'UTC + 6.5 է';
-$lang['TZ']['7'] = 'Ժամանակ UTC + 7';
-$lang['TZ']['8'] = 'UTC + 8';
-$lang['TZ']['9'] = 'Ժամանակ UTC + 9';
-$lang['TZ']['9.5'] = 'Ժամանակ UTC + 9.5';
-$lang['TZ']['10'] = 'Համաշխարհային + 10';
-$lang['TZ']['11'] = 'UTC + 11';
-$lang['TZ']['12'] = 'UTC + 12';
-$lang['TZ']['13'] = 'UTC + 13 է';
-
 $lang['DATETIME']['TODAY'] = 'Այսօր';
 $lang['DATETIME']['YESTERDAY'] = 'Երեկ';
 
