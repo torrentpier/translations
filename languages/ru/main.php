@@ -792,40 +792,6 @@ $lang['LOOKUP_IP'] = 'Посмотреть хост для IP';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'Часовой пояс: <span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
-// These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'UTC - 12';
-$lang['TZ']['-11'] = 'UTC - 11';
-$lang['TZ']['-10'] = 'UTC - 10';
-$lang['TZ']['-9'] = 'UTC - 9';
-$lang['TZ']['-8'] = 'UTC - 8';
-$lang['TZ']['-7'] = 'UTC - 7';
-$lang['TZ']['-6'] = 'UTC - 6';
-$lang['TZ']['-5'] = 'UTC - 5';
-$lang['TZ']['-4'] = 'UTC - 4';
-$lang['TZ']['-3.5'] = 'UTC - 3:30';
-$lang['TZ']['-3'] = 'UTC - 3';
-$lang['TZ']['-2'] = 'UTC - 2';
-$lang['TZ']['-1'] = 'UTC - 1';
-$lang['TZ']['0'] = 'UTC ± 0';
-$lang['TZ']['1'] = 'UTC + 1';
-$lang['TZ']['2'] = 'UTC + 2 (Калининградское время | USZ1)';
-$lang['TZ']['3'] = 'UTC + 3 (Московское время | MSK)';
-$lang['TZ']['3.5'] = 'UTC + 3:30';
-$lang['TZ']['4'] = 'UTC + 4 (Самарское время | SAMT)';
-$lang['TZ']['4.5'] = 'UTC + 4:30';
-$lang['TZ']['5'] = 'UTC + 5 (Екатеринбургское время | YEKT)';
-$lang['TZ']['5.5'] = 'UTC + 5:30';
-$lang['TZ']['6'] = 'UTC + 6 (Омское время | OMST)';
-$lang['TZ']['6.5'] = 'UTC + 6:30';
-$lang['TZ']['7'] = 'UTC + 7 (Красноярское время | KRAT)';
-$lang['TZ']['8'] = 'UTC + 8 (Иркутское время | IRKT)';
-$lang['TZ']['9'] = 'UTC + 9 (Якутское время | YAKT)';
-$lang['TZ']['9.5'] = 'UTC + 9:30';
-$lang['TZ']['10'] = 'UTC + 10 (Владивостокское время | VLAT)';
-$lang['TZ']['11'] = 'UTC + 11 (Среднеколымское время | SRET)';
-$lang['TZ']['12'] = 'UTC + 12 (Камчатское время | PETT)';
-$lang['TZ']['13'] = 'UTC + 13';
-
 $lang['DATETIME']['TODAY'] = 'Сегодня, в';
 $lang['DATETIME']['YESTERDAY'] = 'Вчера, в';
 
