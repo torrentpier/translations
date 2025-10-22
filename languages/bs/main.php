@@ -792,40 +792,6 @@ $lang['LOOKUP_IP'] = 'Pogledaj IP adrese';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'Sve vreme su <span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
-// These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'Ruba evrope 12';
-$lang['TZ']['-11'] = 'Ruba evrope 11';
-$lang['TZ']['-10'] = 'Ruba evrope 10';
-$lang['TZ']['-9'] = 'Ruba evrope 9';
-$lang['TZ']['-8'] = 'Ruba evrope 8';
-$lang['TZ']['-7'] = 'Ruba evrope 7';
-$lang['TZ']['-6'] = 'Ruba evrope 6';
-$lang['TZ']['-5'] = 'Ruba evrope 5';
-$lang['TZ']['-4'] = 'Ruba evrope 4';
-$lang['TZ']['-3.5'] = 'Ruba evrope 3.5';
-$lang['TZ']['-3'] = 'Ruba evrope 3';
-$lang['TZ']['-2'] = 'Ruba evrope 2';
-$lang['TZ']['-1'] = 'Ruba evrope 1';
-$lang['TZ']['0'] = 'Ruba evrope mozda, hvaia! javit 0';
-$lang['TZ']['1'] = 'Ruba evrope + 1';
-$lang['TZ']['2'] = 'Ruba evrope + 2';
-$lang['TZ']['3'] = 'Ruba evrope + 3';
-$lang['TZ']['3.5'] = 'Ruba evrope + 3.5';
-$lang['TZ']['4'] = 'Ruba evrope + 4';
-$lang['TZ']['4.5'] = 'Ruba evrope + 4.5';
-$lang['TZ']['5'] = 'Ruba evrope + 5';
-$lang['TZ']['5.5'] = 'Ruba evrope + 5.5';
-$lang['TZ']['6'] = 'Ruba evrope + 6';
-$lang['TZ']['6.5'] = 'Ruba evrope + 6.5';
-$lang['TZ']['7'] = 'Ruba evrope + 7';
-$lang['TZ']['8'] = 'Ruba evrope + 8';
-$lang['TZ']['9'] = 'Ruba evrope + 9';
-$lang['TZ']['9.5'] = 'Ruba evrope + 9.5';
-$lang['TZ']['10'] = 'Ruba evrope + 10';
-$lang['TZ']['11'] = 'Ruba evrope + 11';
-$lang['TZ']['12'] = 'Ruba evrope + 12';
-$lang['TZ']['13'] = 'Ruba evrope + 13';
-
 $lang['DATETIME']['TODAY'] = 'Danas';
 $lang['DATETIME']['YESTERDAY'] = 'Jučer';
 
