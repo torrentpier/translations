@@ -792,40 +792,6 @@ $lang['LOOKUP_IP'] = 'Разгледай IP адрес';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'През цялото време <span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
-// These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'Световно - 12';
-$lang['TZ']['-11'] = 'Световно - 11';
-$lang['TZ']['-10'] = 'На световното - 10';
-$lang['TZ']['-9'] = 'Световен - 9';
-$lang['TZ']['-8'] = 'Световно - 8';
-$lang['TZ']['-7'] = 'Световно - 7';
-$lang['TZ']['-6'] = 'Световно - 6';
-$lang['TZ']['-5'] = 'Световно - 5';
-$lang['TZ']['-4'] = 'Световно - 4';
-$lang['TZ']['-3.5'] = 'УТЦ - 3.5';
-$lang['TZ']['-3'] = 'Световно - 3';
-$lang['TZ']['-2'] = 'УТЦ - 2';
-$lang['TZ']['-1'] = 'УТЦ - 1';
-$lang['TZ']['0'] = 'От UTC ± 0';
-$lang['TZ']['1'] = 'По UTC + 1';
-$lang['TZ']['2'] = 'Gmt + 2';
-$lang['TZ']['3'] = 'По UTC + 3';
-$lang['TZ']['3.5'] = 'Време UTC + 3.5';
-$lang['TZ']['4'] = 'UTC + 4';
-$lang['TZ']['4.5'] = 'Време UTC + 4.5';
-$lang['TZ']['5'] = 'По UTC + 5';
-$lang['TZ']['5.5'] = 'Време UTC + 5.5';
-$lang['TZ']['6'] = 'По UTC + 6';
-$lang['TZ']['6.5'] = 'Световна + 6.5';
-$lang['TZ']['7'] = 'UTC + 7';
-$lang['TZ']['8'] = 'По UTC + 8';
-$lang['TZ']['9'] = 'UTC + 9';
-$lang['TZ']['9.5'] = 'Време UTC + 9.5';
-$lang['TZ']['10'] = 'Световна + 10';
-$lang['TZ']['11'] = 'По UTC + 11';
-$lang['TZ']['12'] = 'По UTC + 12';
-$lang['TZ']['13'] = 'Световна + 13';
-
 $lang['DATETIME']['TODAY'] = 'Днес';
 $lang['DATETIME']['YESTERDAY'] = 'Вчера';
 
