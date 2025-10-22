@@ -792,40 +792,6 @@ $lang['LOOKUP_IP'] = 'IP adresini aramak';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'Her zaman <span class="tz_time">%s</span> vardır'; // This is followed by UTC and the timezone offset
 
-// These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'UTC - 12';
-$lang['TZ']['-11'] = 'UTC - 11';
-$lang['TZ']['-10'] = '10 UTC - ';
-$lang['TZ']['-9'] = 'UTC - 9';
-$lang['TZ']['-8'] = 'UTC - 8';
-$lang['TZ']['-7'] = 'UTC - 7';
-$lang['TZ']['-6'] = 'UTC - 6';
-$lang['TZ']['-5'] = 'UTC - 5';
-$lang['TZ']['-4'] = 'UTC - 4';
-$lang['TZ']['-3.5'] = 'UTC - 3.5';
-$lang['TZ']['-3'] = 'UTC - 3';
-$lang['TZ']['-2'] = 'UTC - 2';
-$lang['TZ']['-1'] = 'UTC - 1';
-$lang['TZ']['0'] = 'UTC ± 0';
-$lang['TZ']['1'] = '1 UTC + ';
-$lang['TZ']['2'] = 'UTC + 2';
-$lang['TZ']['3'] = '3 UTC + ';
-$lang['TZ']['3.5'] = '3.5 UTC + ';
-$lang['TZ']['4'] = '4 UTC + ';
-$lang['TZ']['4.5'] = '4.5 UTC + ';
-$lang['TZ']['5'] = 'UTC + 5';
-$lang['TZ']['5.5'] = '5.5 UTC + ';
-$lang['TZ']['6'] = '6 UTC + ';
-$lang['TZ']['6.5'] = '6.5 UTC + ';
-$lang['TZ']['7'] = '7 UTC + ';
-$lang['TZ']['8'] = '8 UTC + ';
-$lang['TZ']['9'] = '9 UTC + ';
-$lang['TZ']['9.5'] = '9.5 UTC + ';
-$lang['TZ']['10'] = '10 UTC + ';
-$lang['TZ']['11'] = '11 UTC + ';
-$lang['TZ']['12'] = '12 UTC + ';
-$lang['TZ']['13'] = '13 UTC + ';
-
 $lang['DATETIME']['TODAY'] = 'Bugün';
 $lang['DATETIME']['YESTERDAY'] = 'Dün';
 
