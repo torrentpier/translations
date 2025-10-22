@@ -792,40 +792,6 @@ $lang['LOOKUP_IP'] = 'Nhìn lên địa chỉ IP';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'Tất cả thời gian được <span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
-// These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'GIỜ vn - 12';
-$lang['TZ']['-11'] = 'GIỜ vn - 11';
-$lang['TZ']['-10'] = 'GIỜ vn - 10';
-$lang['TZ']['-9'] = 'GIỜ vn - 9';
-$lang['TZ']['-8'] = 'GIỜ - 8';
-$lang['TZ']['-7'] = 'GIỜ vn - 7';
-$lang['TZ']['-6'] = 'GIỜ vn - 6';
-$lang['TZ']['-5'] = 'GIỜ vn - 5';
-$lang['TZ']['-4'] = 'GIỜ vn - 4';
-$lang['TZ']['-3.5'] = 'GIỜ vn - 3.5';
-$lang['TZ']['-3'] = 'GIỜ vn - 3';
-$lang['TZ']['-2'] = 'GIỜ vn - 2';
-$lang['TZ']['-1'] = 'GIỜ vn - 1';
-$lang['TZ']['0'] = 'GIỜ ± 0';
-$lang['TZ']['1'] = 'GIỜ vn 1';
-$lang['TZ']['2'] = 'GIỜ + 2';
-$lang['TZ']['3'] = 'GIỜ + 3';
-$lang['TZ']['3.5'] = 'GIỜ vn 3.5';
-$lang['TZ']['4'] = 'GIỜ + 4';
-$lang['TZ']['4.5'] = 'GIỜ vn 4.5';
-$lang['TZ']['5'] = 'GIỜ vn 5';
-$lang['TZ']['5.5'] = 'GIỜ vn 5.5';
-$lang['TZ']['6'] = 'GIỜ vn 6';
-$lang['TZ']['6.5'] = 'GIỜ vn 6.5';
-$lang['TZ']['7'] = 'GIỜ vn 7';
-$lang['TZ']['8'] = 'GIỜ vn 8';
-$lang['TZ']['9'] = 'GIỜ vn 9';
-$lang['TZ']['9.5'] = 'GIỜ vn 9.5';
-$lang['TZ']['10'] = 'CẶP 10';
-$lang['TZ']['11'] = 'GIỜ vn 11';
-$lang['TZ']['12'] = 'GIỜ vn 12';
-$lang['TZ']['13'] = 'GIỜ vn 13';
-
 $lang['DATETIME']['TODAY'] = 'Ngày hôm nay';
 $lang['DATETIME']['YESTERDAY'] = 'Ngày hôm qua';
 
