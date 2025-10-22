@@ -792,40 +792,6 @@ $lang['LOOKUP_IP'] = 'Prikaži IP-adresa';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'Sve vrijeme <span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
-// These are displayed in the timezone select box
-$lang['TZ']['-12'] = 'Svjetske - 12';
-$lang['TZ']['-11'] = 'Svjetske - 11';
-$lang['TZ']['-10'] = 'Svjetske - 10';
-$lang['TZ']['-9'] = 'Svjetske - 9';
-$lang['TZ']['-8'] = 'Svjetske - 8';
-$lang['TZ']['-7'] = 'Svjetske - 7';
-$lang['TZ']['-6'] = 'Svjetske - 6';
-$lang['TZ']['-5'] = 'Svjetske - 5';
-$lang['TZ']['-4'] = 'Svjetske - 4';
-$lang['TZ']['-3.5'] = 'УТЦ - 3.5';
-$lang['TZ']['-3'] = 'Svjetske - 3';
-$lang['TZ']['-2'] = 'УТЦ - 2';
-$lang['TZ']['-1'] = 'УТЦ - 1';
-$lang['TZ']['0'] = 'UTC ± 0';
-$lang['TZ']['1'] = 'U UTC + 1';
-$lang['TZ']['2'] = 'Gmt + 2';
-$lang['TZ']['3'] = 'UTC + 3';
-$lang['TZ']['3.5'] = 'Vrijeme UTC + 3.5';
-$lang['TZ']['4'] = 'Vrijeme UTC + 4';
-$lang['TZ']['4.5'] = 'Vrijeme UTC + 4.5';
-$lang['TZ']['5'] = 'UTC + 5';
-$lang['TZ']['5.5'] = 'Vrijeme UTC + 5.5';
-$lang['TZ']['6'] = 'UTC + 6';
-$lang['TZ']['6.5'] = 'Svjetske + 6.5';
-$lang['TZ']['7'] = 'Vrijeme UTC + 7';
-$lang['TZ']['8'] = 'UTC + 8';
-$lang['TZ']['9'] = 'Vrijeme UTC + 9';
-$lang['TZ']['9.5'] = 'Vrijeme UTC + 9.5';
-$lang['TZ']['10'] = 'Svjetske + 10';
-$lang['TZ']['11'] = 'UTC + 11';
-$lang['TZ']['12'] = 'UTC + 12';
-$lang['TZ']['13'] = 'Svjetske + 13';
-
 $lang['DATETIME']['TODAY'] = 'Danas';
 $lang['DATETIME']['YESTERDAY'] = 'Jučer';
 
