@@ -11,7 +11,7 @@
 $lang['ADMIN'] = 'Quản lý';
 $lang['FORUM'] = 'Forum';
 $lang['CATEGORY'] = 'Mục';
-$lang['HIDE_CAT'] = 'Hide loại';
+$lang['HIDE_CAT'] = 'Ẩn loại';
 $lang['HIDE_CAT_MESS'] = 'Một số danh mục bị ẩn bởi các tùy chọn hiển thị tùy chỉnh';
 $lang['SHOW_ALL'] = 'Hiển thị tất cả';
 $lang['TOPIC'] = 'Chủ đề';
@@ -23,18 +23,18 @@ $lang['VIEWS'] = 'Xem';
 $lang['POSTS'] = 'Bài';
 $lang['POSTS_SHORT'] = 'Bài';
 $lang['POSTED'] = 'Đăng';
-$lang['USERNAME'] = 'Tên';
+$lang['USERNAME'] = 'Tên người dùng';
 $lang['PASSWORD'] = 'Mật khẩu';
 $lang['PASSWORD_SHOW_BTN'] = 'Hiển thị mật khẩu';
 $lang['EMAIL'] = 'Email';
 $lang['PM'] = 'PM';
-$lang['AUTHOR'] = 'Giả';
+$lang['AUTHOR'] = 'Tác giả';
 $lang['TIME'] = 'Thời gian';
 $lang['MESSAGE'] = 'Tin nhắn';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Quyền';
 $lang['TYPE'] = 'Loại';
-$lang['SEEDER'] = 'Nhu cầu';
+$lang['SEEDER'] = 'Seeder';
 $lang['LEECHER'] = 'Leecher';
 $lang['RELEASER'] = 'Releaser';
 
@@ -53,8 +53,8 @@ $lang['CANCEL'] = 'Hủy';
 $lang['PREVIEW'] = 'Xem trước';
 $lang['AJAX_PREVIEW'] = 'Xem Nhanh';
 $lang['CONFIRM'] = 'Xác nhận';
-$lang['YES'] = 'Yes';
-$lang['NO'] = 'Không có';
+$lang['YES'] = 'Có';
+$lang['NO'] = 'Không';
 $lang['ENABLED'] = 'Kích hoạt';
 $lang['DISABLED'] = 'Vô hiệu hóa';
 $lang['ERROR'] = 'Lỗi';
@@ -83,27 +83,27 @@ $lang['PAGE_OF'] = 'Trang <b>%d</b> của <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Bạn đã nhập một đăng nhập X (Twitter) không hợp lệ';
 
-$lang['FORUM_INDEX'] = '%s Diễn Đàn Chỉ Số'; // e.g. sitename Forum Index, %s can be removed if you prefer
+$lang['FORUM_INDEX'] = 'Chỉ số diễn đàn %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
-$lang['POST_NEW_TOPIC'] = 'Bài mới chủ đề';
-$lang['POST_NEW_RELEASE'] = 'Bài mới phát hành';
-$lang['REPLY_TO_TOPIC'] = 'Trả lời đề';
+$lang['POST_NEW_TOPIC'] = 'Đăng bài chủ đề mới';
+$lang['POST_NEW_RELEASE'] = 'Đăng bài phát hành mới';
+$lang['REPLY_TO_TOPIC'] = 'Trả lời chủ đề';
 
-$lang['CLICK_RETURN_TOPIC'] = 'Nhấn vào %sHere%s quay trở lại chủ đề'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_FORUM'] = 'Nhấn vào %sHere%s để trở về các diễn đàn';
-$lang['CLICK_RETURN_MODCP'] = 'Nhấn vào %sHere%s để trở về điều Hành Bảng điều Khiển';
-$lang['CLICK_RETURN_GROUP'] = 'Nhấn vào %sHere%s để trở về nhóm thông tin';
+$lang['CLICK_RETURN_TOPIC'] = 'Nhấn %s đây%s để trở lại chủ đề'; // %s's here are for uris, do not remove!
+$lang['CLICK_RETURN_FORUM'] = 'Nhấn %s đây%s để trở về diễn đàn';
+$lang['CLICK_RETURN_MODCP'] = 'Nhấn %s đây%s để trở về Bảng điều khiển của người quản lý';
+$lang['CLICK_RETURN_GROUP'] = 'Nhấn %s đây%s để trở về thông tin nhóm';
 
 $lang['ADMIN_PANEL'] = 'Đi đến Bảng điều khiển Quản trị';
 $lang['ALL_CACHE_CLEARED'] = 'Nhớ tạm đã được xóa';
 $lang['ALL_TEMPLATE_CLEARED'] = 'Mẫu nhớ tạm đã được xóa';
 $lang['DATASTORE_CLEARED'] = 'Kho dữ liệu đã bị xóa';
-$lang['BOARD_DISABLE'] = 'Xin lỗi, diễn đàn này là vô hiệu hóa. Hãy cố gắng trở lại sau';
-$lang['BOARD_DISABLE_CRON'] = 'Diễn đàn đang tắt để bảo trì. Hãy cố gắng trở lại sau';
+$lang['BOARD_DISABLE'] = 'Xin lỗi, diễn đàn này đã bị vô hiệu hóa. Hãy thử quay lại sau.';
+$lang['BOARD_DISABLE_CRON'] = 'Diễn đàn đang bảo trì. Hãy thử quay lại sau.';
 $lang['ADMIN_DISABLE'] = 'Diễn đàn bị vô hiệu hóa bởi quản trị viên. Bạn có thể bật lại bất cứ lúc nào';
 $lang['ADMIN_DISABLE_CRON'] = 'Diễn đàn bị khóa bởi việc kích hoạt cron. Bạn có thể xóa khóa bất cứ lúc nào';
-$lang['ADMIN_DISABLE_TITLE'] = 'Các diễn đàn đang vô hiệu hóa';
-$lang['ADMIN_DISABLE_CRON_TITLE'] = 'Diễn đàn đang tắt để bảo trì';
+$lang['ADMIN_DISABLE_TITLE'] = 'Diễn đàn đang vô hiệu hóa.';
+$lang['ADMIN_DISABLE_CRON_TITLE'] = 'Diễn đàn đang bảo trì.';
 $lang['ADMIN_UNLOCK'] = 'Cho phép diễn đàn';
 $lang['ADMIN_UNLOCKED'] = 'Mở khóa';
 $lang['ADMIN_UNLOCK_CRON'] = 'Bỏ khóa';
@@ -792,46 +792,9 @@ $lang['LOOKUP_IP'] = 'Nhìn lên địa chỉ IP';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'Tất cả thời gian được <span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
+// Friendly dates (used in bb_date function)
 $lang['DATETIME']['TODAY'] = 'Ngày hôm nay';
 $lang['DATETIME']['YESTERDAY'] = 'Ngày hôm qua';
-
-$lang['DATETIME']['SUNDAY'] = '';
-$lang['DATETIME']['MONDAY'] = '';
-$lang['DATETIME']['TUESDAY'] = '';
-$lang['DATETIME']['WEDNESDAY'] = '';
-$lang['DATETIME']['THURSDAY'] = '';
-$lang['DATETIME']['FRIDAY'] = '';
-$lang['DATETIME']['SATURDAY'] = '';
-$lang['DATETIME']['SUN'] = '';
-$lang['DATETIME']['MON'] = '';
-$lang['DATETIME']['TUE'] = '';
-$lang['DATETIME']['WED'] = '';
-$lang['DATETIME']['THU'] = '';
-$lang['DATETIME']['FRI'] = '';
-$lang['DATETIME']['SAT'] = '';
-$lang['DATETIME']['JANUARY'] = '';
-$lang['DATETIME']['FEBRUARY'] = '';
-$lang['DATETIME']['MARCH'] = '';
-$lang['DATETIME']['APRIL'] = '';
-$lang['DATETIME']['MAY'] = '';
-$lang['DATETIME']['JUNE'] = '';
-$lang['DATETIME']['JULY'] = '';
-$lang['DATETIME']['AUGUST'] = '';
-$lang['DATETIME']['SEPTEMBER'] = '';
-$lang['DATETIME']['OCTOBER'] = '';
-$lang['DATETIME']['NOVEMBER'] = '';
-$lang['DATETIME']['DECEMBER'] = '';
-$lang['DATETIME']['JAN'] = '';
-$lang['DATETIME']['FEB'] = '';
-$lang['DATETIME']['MAR'] = '';
-$lang['DATETIME']['APR'] = '';
-$lang['DATETIME']['JUN'] = '';
-$lang['DATETIME']['JUL'] = '';
-$lang['DATETIME']['AUG'] = '';
-$lang['DATETIME']['SEP'] = '';
-$lang['DATETIME']['OCT'] = '';
-$lang['DATETIME']['NOV'] = '';
-$lang['DATETIME']['DEC'] = '';
 
 // Country selector
 $lang['COUNTRY'] = 'Quốc gia';
