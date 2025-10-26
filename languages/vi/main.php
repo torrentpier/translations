@@ -482,7 +482,7 @@ $lang['NO_SEND_ACCOUNT'] = 'Xin lỗi, nhưng mật khẩu không thể lấy đ
 $lang['HIDE_PORN_FORUMS'] = 'Nội dung ẩn 18+';
 $lang['ADD_RETRACKER'] = 'Thêm retracker vào torrent.';
 $lang['ALWAYS_NOTIFY'] = 'Luôn luôn thông báo cho tôi khi có câu trả lời.';
-$lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Gửi một e-mail khi ai đó trả lời một chủ đề mà bạn đã đăng trong. Điều này có thể thay đổi bất cứ khi nào bạn.';
+$lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Gửi một e-mail khi có người trả lời chủ đề mà bạn đã đăng. Điều này có thể thay đổi bất kỳ lúc nào bạn đăng.';
 
 $lang['BOARD_LANG'] = 'Hội đồng quản trị ngôn ngữ';
 $lang['GENDER'] = 'Giới';
@@ -896,7 +896,7 @@ $lang['BT_REG_YES'] = 'Đăng ký';
 $lang['BT_REG_NO'] = 'Không đăng ký';
 $lang['BT_REG_ON_TRACKER'] = 'Đăng ký trên theo dõi';
 $lang['BT_REG_FAIL'] = 'Không thể đăng ký torrent trên theo dõi';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Một torrent với cùng một info_hash đã <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Một torrent với cùng info_hash đã <a href="%s"><b>đăng ký</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Các torrent v1-only đã bị vô hiệu hóa bởi quản trị viên tại thời điểm này, cho phép: v2 và hybrids';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Các torrent v2-only đã bị vô hiệu hóa bởi quản trị viên tại thời điểm này, cho phép: v1 và hybrids';
 $lang['BT_FLIST'] = 'Danh sách tệp';
@@ -1050,7 +1050,7 @@ $lang['DLCOMPLETE'] = 'Hoàn thành.';
 $lang['DLCANCEL'] = 'Hủy.';
 
 $lang['DL_LIST_DEL'] = 'Rõ ràng, DL-danh Sách.';
-$lang['DL_LIST_DEL_CONFIRM'] = 'Rõ ràng DL-danh Sách cho chủ đề này?';
+$lang['DL_LIST_DEL_CONFIRM'] = 'Xóa DL-List cho chủ đề này?';
 $lang['SHOW_DL_LIST'] = 'Show DL-danh Sách.';
 $lang['SET_DL_STATUS'] = 'Tải về.';
 $lang['UNSET_DL_STATUS'] = 'Không Tải.';
@@ -1484,7 +1484,7 @@ $lang['NUMBER_TOPICS'] = 'Số chủ đề';
 $lang['TOPICS_PER_DAY'] = 'Số chủ đề mỗi ngày';
 $lang['NUMBER_USERS'] = 'Số người dùng';
 $lang['USERS_PER_DAY'] = 'Số người sử dụng mỗi ngày';
-$lang['BOARD_STARTED'] = 'Hội đồng quản trị bắt đầu';
+$lang['BOARD_STARTED'] = 'Diễn đàn bắt đầu';
 $lang['AVATAR_DIR_SIZE'] = 'Kích thước thư mục Avatar';
 $lang['DATABASE_SIZE'] = 'Kích thước cơ sở dữ liệu';
 $lang['GZIP_COMPRESSION'] = 'Nén GZIP';
@@ -1540,10 +1540,10 @@ $lang['SIMPLE_MODE'] = 'Chế độ đơn giản';
 $lang['ADVANCED_MODE'] = 'Chế độ nâng cao';
 $lang['MODERATOR_STATUS'] = 'Trạng thái điều hành';
 
-$lang['PUBLIC'] = 'Công';
+$lang['PUBLIC'] = 'Công cộng';
 $lang['PRIVATE'] = 'Riêng tư';
 $lang['REGISTERED'] = 'Đã đăng ký';
-$lang['ADMINISTRATORS'] = 'Quản trị';
+$lang['ADMINISTRATORS'] = 'Quản trị viên';
 
 // These are displayed in the drop-down boxes for advanced mode forum auth, try and keep them short!
 $lang['FORUM_ALL'] = 'Tất cả';
@@ -1561,7 +1561,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Xóa';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Dính';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Thông báo';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Bỏ phiếu';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Thăm dò ý kiến tạo';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Tạo cuộc thăm dò';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Đính kèm bài viết';
 $lang['AUTH_DOWNLOAD'] = 'Tải tập tin';
 
@@ -2034,9 +2034,9 @@ $lang['BT_DEL_ADDIT_ANN_URLS_EXPL'] = 'Nếu torrent chứa địa chỉ của c
 $lang['BT_SHOW_PEERS_HEAD'] = 'Danh sách Đồng nghiệp';
 $lang['BT_SHOW_PEERS'] = 'Hiển thị đồng nghiệp (gieo hạt và leechers)';
 $lang['BT_SHOW_PEERS_EXPL'] = 'Điều này sẽ hiển thị danh sách gieo hạt/leechers trên chủ đề với torrent';
-$lang['BT_SHOW_PEERS_MODE'] = 'Mặc định cho các đồng nghiệp như:';
+$lang['BT_SHOW_PEERS_MODE'] = 'Theo mặc định, hiển thị peers như:';
 $lang['BT_SHOW_PEERS_MODE_COUNT'] = 'Chỉ đếm';
-$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Tên chỉ';
+$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Chỉ tên';
 $lang['BT_SHOW_PEERS_MODE_FULL'] = 'Chi tiết đầy đủ';
 $lang['BT_ALLOW_SPMODE_CHANGE'] = 'Cho phép chế độ "Chi tiết đầy đủ"';
 $lang['BT_ALLOW_SPMODE_CHANGE_EXPL'] = 'Nếu "không", chỉ chế độ hiển thị đồng nghiệp mặc định sẽ khả dụng';
@@ -2046,7 +2046,7 @@ $lang['BT_SHOW_PORT_ONLY_MODER'] = 'Đồng nghiệp\' <b>Port</b> chỉ có th�
 $lang['BT_SHOW_DL_LIST_HEAD'] = 'Danh sách DL-';
 $lang['BT_SHOW_DL_LIST'] = 'Hiển thị danh sách DL-trong chủ đề';
 $lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Hiển thị chỉ danh sách DL trên trang đầu tiên trong các chủ đề';
-$lang['BT_DL_LIST_ONLY_COUNT'] = 'Chỉ số của người sử dụng';
+$lang['BT_DL_LIST_ONLY_COUNT'] = 'Chỉ hiển thị số lượng người dùng';
 $lang['BT_SHOW_DL_LIST_BUTTONS'] = 'Hiển thị nút cho việc thay đổi bằng tay trạng thái DL';
 $lang['BT_SHOW_DL_BUT_WILL'] = $lang['DLWILL'];
 $lang['BT_SHOW_DL_BUT_DOWN'] = $lang['DLDOWN'];
@@ -2103,27 +2103,27 @@ $lang['REPAIR_CRON'] = 'Sửa chữa cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Chỉnh sửa công việc';
 $lang['CRON_EDIT_HEAD_ADD'] = 'Thêm công việc';
-$lang['CRON_SCRIPT_EXPL'] = 'tên của kịch bản từ "bao gồm/định kỳ/việc/"';
+$lang['CRON_SCRIPT_EXPL'] = 'tên của script từ "includes/cron/jobs/"';
 $lang['SCHEDULE'] = [
     'select' => '&raquo; Chọn bắt đầu',
-    'hourly' => 'giờ',
+    'hourly' => 'hàng giờ',
     'daily' => 'hàng ngày',
     'weekly' => 'hàng tuần',
     'monthly' => 'hàng tháng',
     'interval' => 'khoảng thời gian'
 ];
-$lang['NOSELECT'] = 'Không có chọn';
-$lang['RUN_DAY'] = 'Chạy ngày';
+$lang['NOSELECT'] = 'Không chọn';
+$lang['RUN_DAY'] = 'Ngày chạy';
 $lang['RUN_DAY_EXPL'] = 'ngày khi công việc này chạy';
-$lang['RUN_TIME'] = 'Chạy thời gian';
+$lang['RUN_TIME'] = 'Thời gian chạy';
 $lang['RUN_TIME_EXPL'] = 'thời gian khi công việc này chạy (ví dụ: 05:00:00)';
-$lang['RUN_ORDER'] = 'Chạy trật tự';
+$lang['RUN_ORDER'] = 'Thứ tự chạy';
 $lang['LAST_RUN'] = 'Chạy Cuối Cùng';
 $lang['NEXT_RUN'] = 'Chạy Tiếp Theo';
-$lang['RUN_INTERVAL'] = 'Chạy khoảng thời gian';
+$lang['RUN_INTERVAL'] = 'Khoảng thời gian chạy';
 $lang['RUN_INTERVAL_EXPL'] = 'ví dụ: 00:10:00';
-$lang['LOG_ENABLED'] = 'Đăng nhập được kích hoạt';
-$lang['LOG_FILE'] = 'Đăng nhập tập tin';
+$lang['LOG_ENABLED'] = 'Ghi nhật ký được bật';
+$lang['LOG_FILE'] = 'Tệp nhật ký';
 $lang['LOG_FILE_EXPL'] = 'tệp tin để lưu nhật ký';
 $lang['LOG_SQL_QUERIES'] = 'Ghi lại các truy vấn SQL';
 $lang['FORUM_DISABLE'] = 'Vô hiệu hóa hội đồng quản trị';
@@ -2289,15 +2289,15 @@ $lang['TPL_NOT_NUM'] = '<b>%s</b> - Không phải là một.';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Phải là https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Phải là https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'đưa vào chủ thể';
-$lang['TPL_POSTER'] = 'áp phích';
+$lang['TPL_POSTER'] = 'Người đăng';
 $lang['TPL_REQ_FILLING'] = 'yêu cầu thông tin';
 $lang['TPL_NEW_LINE'] = 'dòng mới';
-$lang['TPL_NEW_LINE_AFTER'] = 'dòng mới sau khi tiêu đề';
+$lang['TPL_NEW_LINE_AFTER'] = 'dòng mới sau tiêu đề';
 $lang['TPL_NUM'] = 'số';
 $lang['TPL_URL'] = 'URL';
 $lang['TPL_IMG'] = 'ảnh';
 $lang['TPL_PRE'] = 'pre';
-$lang['TPL_SPOILER'] = 'gió';
+$lang['TPL_SPOILER'] = 'spoiler';
 $lang['TPL_IN_LINE'] = 'trong cùng một dòng';
 $lang['TPL_HEADER_ONLY'] = 'chỉ trong một tiêu đề';
 
@@ -2341,15 +2341,15 @@ $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Tìm kiếm những ai có đế
 $lang['SEARCH_FOR_LANGUAGE'] = 'Tìm kiếm những ai đã thiết lập %s như ngôn ngữ của họ';
 $lang['SEARCH_FOR_TIMEZONE'] = 'Tìm kiếm những ai đã thiết lập GIỜ %s như là của họ múi giờ';
 $lang['SEARCH_FOR_MODERATORS'] = 'Tìm kiếm điều hành viên của diễn Đàn -> %s';
-$lang['SEARCH_USERS_ADVANCED'] = 'Tiến Dùng Tìm Kiếm';
+$lang['SEARCH_USERS_ADVANCED'] = 'Tìm kiếm người dùng nâng cao';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Module này cho phép bạn thực hiện các tìm kiếm nâng cao cho người sử dụng trên nhiều tiêu chí. Xin vui lòng đọc các mô tả bên dưới mỗi lĩnh vực để hiểu rõ hoàn toàn từng tùy chọn tìm kiếm.';
 $lang['SEARCH_USERNAME_EXPLAIN'] = 'Ở đây bạn có thể tìm kiếm tên người dùng không bị phân biệt chữ hoa chữ thường. Nếu bạn muốn phù hợp một phần của tên người dùng, sử dụng * (một dấu hoa thị) như một ký tự đại diện.';
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'Nhập một biểu thức để phù hợp với địa chỉ email của người dùng. Điều này không phân biệt chữ hoa chữ thường. Nếu bạn muốn thực hiện một bộ phần, sử dụng * (một dấu hoa thị) như một ký tự đại diện.';
 $lang['SEARCH_IP_EXPLAIN'] = 'Tìm kiếm người sử dụng bởi một địa chỉ IP cụ thể (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'Người đã tham gia';
 $lang['SEARCH_USERS_LASTVISITED'] = 'Người mà đã đến thăm';
-$lang['IN_THE_LAST'] = 'trong các tác';
-$lang['AFTER_THE_LAST'] = 'sau khi cuối cùng';
+$lang['IN_THE_LAST'] = 'trong vòng';
+$lang['AFTER_THE_LAST'] = 'sau lần cuối';
 $lang['BEFORE'] = 'Trước';
 $lang['AFTER'] = 'Sau';
 $lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Tìm kiếm người sử dụng tham gia Trước hay Sau ngày cụ thể (và trên). Định dạng ngày là YYYY/MM/DD.';
@@ -2425,7 +2425,7 @@ $lang['SITEMAP_YANDEX_1'] = 'Đăng ký trang web của bạn ở <a href="https
 $lang['SITEMAP_YANDEX_2'] = '<a href="https://webmaster.yandex.ru/site/map.xml" target="_blank">Add sitemap</a> trang web của bạn đăng ký.';
 $lang['SITEMAP_BING_1'] = 'Đăng ký trang web của bạn ở <a href="https://www.bing.com/webmaster/" target="_blank">Bing Webmaster</a> sử dụng tài khoản Microsoft.';
 $lang['SITEMAP_BING_2'] = 'Thêm sơ đồ của trang web bạn đã đăng ký vào cài đặt của nó.';
-$lang['SITEMAP_ADD_TITLE'] = 'Trang bổ sung cho sơ đồ';
+$lang['SITEMAP_ADD_TITLE'] = 'Trang bổ sung cho sơ đồ trang web';
 $lang['SITEMAP_ADD_PAGE'] = 'Các trang phụ';
 $lang['SITEMAP_ADD_EXP_1'] = 'Bạn có thể chỉ định các trang bổ sung mà bạn muốn đưa vào tệp sơ đồ mà bạn tạo.';
 $lang['SITEMAP_ADD_EXP_2'] = 'Mỗi tài liệu tham khảo phải bắt đầu bằng http(s):// và một dòng mới!';

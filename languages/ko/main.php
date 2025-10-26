@@ -1597,7 +1597,7 @@ $lang['CONFIG_MODS'] = '구성 수정';
 $lang['MODS_EXPLAIN'] = '이 양식을 사용하여 수정사항을 조정할 수 있습니다.';
 
 $lang['CLICK_RETURN_CONFIG'] = '%s여기를%s 클릭하여 일반 구성으로 돌아갑니다.';
-$lang['CLICK_RETURN_CONFIG_MODS'] = '%sBack 설정 modifications%s';
+$lang['CLICK_RETURN_CONFIG_MODS'] = '%s설정 수정으로 돌아가기%s';
 
 $lang['GENERAL_SETTINGS'] = '일반 포럼 설정.';
 $lang['SITE_NAME'] = '사이트 이름.';
@@ -1810,7 +1810,7 @@ $lang['DISALLOWED_DELETED'] = '허용되지 않는 사용자 이름이 성공적
 $lang['DISALLOW_SUCCESSFUL'] = '허용되지 않는 사용자 이름이 성공적으로 추가되었습니다.';
 $lang['DISALLOWED_ALREADY'] = '입력한 이름은 허용될 수 없습니다. 목록에 이미 존재하거나, 단어 검열 목록에 있으며, 일치하는 사용자 이름이 존재합니다.';
 
-$lang['CLICK_RETURN_DISALLOWADMIN'] = '클릭 %sHere%s 하는 반품을 허용하지 않는 사용자 이름 관리';
+$lang['CLICK_RETURN_DISALLOWADMIN'] = '%s여기%s를 클릭하여 \'사용자 이름 금지 관리\'로 돌아가기';
 
 // Version Check
 $lang['VERSION_INFORMATION'] = '버전 정보';
@@ -2234,8 +2234,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => '주제:<br /> <b>닫힘</b>',
     'mod_topic_unlock' => '주제:<br /> <b>열림</b>',
     'mod_topic_split' => '주제:<br /> <b>분할됨</b>',
-    'mod_topic_set_downloaded' => '주제:<br /> <b>다운로드 완료 설정</b>',
-    'mod_topic_unset_downloaded' => '주제:<br /> <b>다운로드 제거 설정</b>',
+    'mod_topic_set_downloaded' => '주제:<br /> <b>다운로드됨으로 설정</b>',
+    'mod_topic_unset_downloaded' => '주제:<br /> <b>다운로드됨 설정 해제</b>',
     'mod_topic_change_tor_status' => '주제:<br /> <b>토렌트 상태 변경</b>',
     'mod_topic_change_tor_type' => '주제:<br /> <b>토렌트 유형 변경</b>',
     'mod_topic_tor_unregister' => '주제:<br /> <b>토렌트 등록 해제</b>',
@@ -2376,7 +2376,7 @@ $lang['BANNED'] = '금지';
 $lang['NOT_BANNED'] = '을 금지하지 않았습니다.';
 $lang['SEARCH_NO_RESULTS'] = '누구에도 선택한 기준이 없습니다.';
 $lang['ACCOUNT_STATUS'] = '계정 상태';
-$lang['SORT_OPTIONS'] = '종 옵션:';
+$lang['SORT_OPTIONS'] = '정렬 옵션:';
 $lang['LAST_VISIT'] = '마지막으로 방문';
 $lang['DAY'] = '일';
 

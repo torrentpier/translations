@@ -27,7 +27,7 @@ $lang['USERNAME'] = 'Foydalanuvchi nomi';
 $lang['PASSWORD'] = 'parol';
 $lang['PASSWORD_SHOW_BTN'] = 'Parolni ko\'rsatish';
 $lang['EMAIL'] = 'Email';
-$lang['PM'] = 'AM';
+$lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Muallif';
 $lang['TIME'] = 'vaqt';
 $lang['MESSAGE'] = 'Xabar';
@@ -36,7 +36,7 @@ $lang['PERMISSIONS'] = 'ruxsatlar';
 $lang['TYPE'] = 'shrift';
 $lang['SEEDER'] = 'non eng mashinasi';
 $lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'releaser';
+$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 kun';
 $lang['7_DAYS'] = '7 kun';
@@ -92,7 +92,7 @@ $lang['REPLY_TO_TOPIC'] = 'Mavzuga javob berish';
 $lang['CLICK_RETURN_TOPIC'] = 'Mavzuga qaytish uchun %sHere%s bosing'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Forumda qaytish uchun %sHere%s bosing';
 $lang['CLICK_RETURN_MODCP'] = 'Moderator Boshqarish paneliga qaytish uchun %sHere%s bosing';
-$lang['CLICK_RETURN_GROUP'] = 'guruh axborot qaytish uchun %sHere%s bosing';
+$lang['CLICK_RETURN_GROUP'] = 'Guruh axborot qaytish uchun %sHere%s bosing';
 
 $lang['ADMIN_PANEL'] = 'Boshqaruv paneliga o\'tish';
 $lang['ALL_CACHE_CLEARED'] = 'Kesh tozalandi';
@@ -1187,7 +1187,7 @@ $lang['COLOR_DARK_GREEN'] = 'To\'q yashil.';
 $lang['IP'] = 'IP';
 $lang['POLL'] = 'So\'rov';
 $lang['MODERATE'] = 'Moderatsiya';
-$lang['SEND_PM_SHORT'] = 'AM';
+$lang['SEND_PM_SHORT'] = 'PM';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['javob', 'javoblar'];
@@ -1393,7 +1393,7 @@ $lang['NO_TOPICS_MY_MESSAGE'] = 'Sizning xabarlar ro\'yxatida (ehtimol siz allaq
 $lang['EDIT_MY_MESSAGE_LIST'] = 'ro\'yxatni tahrirlash';
 $lang['SELECT_INVERT'] = 'tanlang / teskari';
 $lang['RESTORE_ALL_POSTS'] = 'Barcha postlarni tiklang';
-$lang['DEL_LIST_MY_MESSAGE'] = 'ro\'yxatdan tanlangan mavzuni o\'chirish';
+$lang['DEL_LIST_MY_MESSAGE'] = 'Ro\'yxatdan tanlangan mavzuni o\'chirish';
 $lang['DEL_LIST_MY_MESSAGE_INFO'] = 'O\'chirilgandan keyin <b>butun ro\'yxatni</b> yangilash uchun ko\'rsatilgan allaqachon o\'chirilgan mavzular';
 $lang['DEL_LIST_INFO'] = 'Ro\'yxatdan buyurtmani o\'chirish uchun, har qanday qismining nomlari chap belgini bosing';
 
@@ -1421,20 +1421,20 @@ $lang['GENERAL'] = 'General Admin';
 $lang['USERS'] = 'Foydalanuvchi Admin';
 $lang['GROUPS'] = 'Group Admin';
 $lang['FORUMS'] = 'Forum Admin';
-$lang['MODS'] = 'o\'zgartirishlar';
+$lang['MODS'] = 'O\'zgartirishlar';
 
-$lang['CONFIGURATION'] = 'konfiguratsiya';
-$lang['MANAGE'] = 'boshqaruv';
-$lang['DISALLOW'] = 'nomlarini Taqaiqlash';
-$lang['PRUNE'] = 'Azizillo';
-$lang['MASS_EMAIL'] = 'Mass Email';
-$lang['RANKS'] = 'darajalar';
-$lang['SMILIES'] = 'jumlalari';
-$lang['BAN_MANAGEMENT'] = 'Ban Control';
-$lang['WORD_CENSOR'] = 'Word tsenzurasiz';
-$lang['EXPORT'] = 'eksport';
-$lang['CREATE_NEW'] = 'yaratish';
-$lang['ADD_NEW'] = 'qo\'shish';
+$lang['CONFIGURATION'] = 'Konfiguratsiya';
+$lang['MANAGE'] = 'Boshqaruv';
+$lang['DISALLOW'] = 'Nomlarini Taqaiqlash';
+$lang['PRUNE'] = 'Kesish';
+$lang['MASS_EMAIL'] = 'Ommaviy elektron pochta';
+$lang['RANKS'] = 'Darajalar';
+$lang['SMILIES'] = 'Jumlalari';
+$lang['BAN_MANAGEMENT'] = 'Ta\'qiqlarni boshqarish';
+$lang['WORD_CENSOR'] = 'So\'zlarni senzura qilish';
+$lang['EXPORT'] = 'Eksport';
+$lang['CREATE_NEW'] = 'Yaratish';
+$lang['ADD_NEW'] = 'Qo\'shish';
 $lang['CRON'] = 'Topshiriq Tartib (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Qidiruv indeksini qayta tiklash';
 $lang['FORUM_CONFIG'] = 'Forum parametrlari';
@@ -1458,7 +1458,7 @@ $lang['MIGRATIONS_VERSION'] = 'Versiya';
 $lang['MIGRATIONS_NAME'] = 'Migratsiya nomi';
 $lang['MIGRATIONS_FILE'] = 'Migratsiya fayli';
 $lang['MIGRATIONS_APPLIED_AT'] = 'Amalga oshirilgan paytda';
-$lang['MIGRATIONS_COMPLETED_AT'] = 'Tugallandi';
+$lang['MIGRATIONS_COMPLETED_AT'] = 'Tugallangan vaqti';
 $lang['MIGRATIONS_CURRENT_VERSION'] = 'Joriy versiya';
 $lang['MIGRATIONS_NOT_APPLIED'] = 'Hech qanday migratsiya amalga oshirilmagan';
 $lang['MIGRATIONS_INSTRUCTIONS'] = 'Ko\'rsatmalar';
@@ -1469,11 +1469,11 @@ $lang['MIGRATIONS_ACTION_REQUIRED'] = 'Harakat talab qilinadi';
 // Index
 $lang['MAIN_INDEX'] = 'Forum ko\'rinishi';
 $lang['FORUM_STATS'] = 'Forum statistikasi';
-$lang['ADMIN_INDEX'] = 'Admin indeksi';
+$lang['ADMIN_INDEX'] = 'Ma\'muriyat indeksi';
 $lang['CREATE_PROFILE'] = 'Profil yaratish';
 
-$lang['TP_VERSION'] = 'TorrentPier versiya';
-$lang['TP_RELEASE_DATE'] = 'Ishlab chiqarilish sanasi';
+$lang['TP_VERSION'] = 'TorrentPier versiyasi';
+$lang['TP_RELEASE_DATE'] = 'Chiqarilgan sana';
 $lang['PHP_INFO'] = 'PHP haqida ma\'lumot';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'Admin indeksi qaytish uchun %sBu yerga%s bosing';
@@ -1511,7 +1511,7 @@ $lang['USER_LEVELS_UPDATED'] = 'Foydalanuvchi darajalari yangilandi';
 
 // Synchronize
 $lang['SYNCHRONIZE'] = 'Sinxronlash';
-$lang['TOPICS_DATA_SYNCHRONIZED'] = 'Mavzular ma\'lumotlar sinxronizatsiya qilindi';
+$lang['TOPICS_DATA_SYNCHRONIZED'] = 'Mavzular ma\'lumotlari sinxronlashtirildi';
 $lang['USER_POSTS_COUNT'] = 'Foydalanuvchi postlarni hisoblash';
 $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Foydalanuvchi postlarini hisoblash sinxronizatsiya qilindi';
 
@@ -1579,7 +1579,7 @@ $lang['CLICK_RETURN_GROUPAUTH'] = 'Guruh ruxsatiga qaytish uchun %sBu yerga%s bo
 $lang['CLICK_RETURN_FORUMAUTH'] = 'Forum ruxsatiga qaytish uchun %sBu yerga%s bosing';
 
 // Banning
-$lang['BAN_CONTROL'] = 'Ban Control';
+$lang['BAN_CONTROL'] = 'Ta\'qiqlarni boshqarish';
 $lang['BAN_EXPLAIN'] = 'Bu yerda siz foydalanuvchilarni taqiq qilishni boshqarishingiz mumkin.';
 $lang['BAN_USERNAME'] = 'Bir yoki bir necha foydalanuvchini taqiqlash';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Siz sichqoncha va klaviatura kombinatsiyasidan foydalanib, bir necha foydalanuvchini taqiqlashingiz mumkin.';
@@ -1677,7 +1677,7 @@ $lang['FORUMS_UPDATED'] = 'Forum va Turkum axborot muvaffaqiyatli yangilandi';
 
 $lang['MUST_DELETE_FORUMS'] = 'Siz bu kategoriya o\'chirishdan avval barcha forumlarni o\'chirishingiz kerak.';
 
-$lang['CLICK_RETURN_FORUMADMIN'] = 'Forum ma\'muriyati qaytish uchun %sHere%s bosing';
+$lang['CLICK_RETURN_FORUMADMIN'] = 'Forum ma\'muriyatiga qaytish uchun %sbu yerga%s bosing';
 
 $lang['SHOW_ALL_FORUMS_ON_ONE_PAGE'] = 'Bir sahifada barcha forumlar ko\'rsatish';
 
@@ -1704,7 +1704,7 @@ $lang['SMILE_CONFLICTS'] = 'Nima to\'qnashuvlar holda amalga oshirilishi lozim,.
 $lang['DEL_EXISTING_SMILEYS'] = 'Import qilishdan oldin mavjud jumlalarni o\'chirish.';
 $lang['IMPORT_SMILE_PACK'] = 'Jumla paketini import qilish.';
 $lang['EXPORT_SMILE_PACK'] = 'Siz bilan jumla paketi yaratish.';
-$lang['EXPORT_SMILES'] = 'hozirgi o\'rnatilgan smaylik bir smiley paketini yaratish uchun, smiles.pak faylni yuklab olish uchun %sHere%s bosing. tegishli Pak fayl kengaytmalariga qolish uchun ishonch hosil qilish, bu fayl nomi. Keyin smiley tasvirlar barcha o\'z ichiga olgan zip faylini plus bu Pak konfiguratsiya faylini yarating.';
+$lang['EXPORT_SMILES'] = 'Hozirgi o\'rnatilgan smaylik bir smiley paketini yaratish uchun, smiles.pak faylni yuklab olish uchun %sHere%s bosing. tegishli Pak fayl kengaytmalariga qolish uchun ishonch hosil qilish, bu fayl nomi. Keyin smiley tasvirlar barcha o\'z ichiga olgan zip faylini plus bu Pak konfiguratsiya faylini yarating.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Smiley muvaffaqiyatli qo\'shildi';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Smiley muvaffaqiyatli yangilandi';
@@ -1914,7 +1914,7 @@ $lang['MANAGE_EXTENSIONS'] = 'Kengaytmalarni boshqarish';
 $lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Bu yerda siz fayl kengaytmalari boshqarishingiz mumkin.';
 $lang['EXPLANATION'] = 'tushuntirish';
 $lang['EXTENSION_GROUP'] = 'kengaytma Group';
-$lang['EXTENSION_EXIST'] = '%s allaqachon mavjud Extension'; // replace %s with the Extension
+$lang['EXTENSION_EXIST'] = '%s kengaytmasi allaqachon mavjud'; // replace %s with the Extension
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Kengaytma Guruhlar boshqarish';
@@ -1927,7 +1927,7 @@ $lang['EXT_GROUP_PERMISSIONS'] = 'Group ruxsati';
 $lang['DOWNLOAD_MODE'] = 'Download Mode';
 $lang['UPLOAD_ICON'] = 'Yuklab olish Icon';
 $lang['MAX_GROUPS_FILESIZE'] = 'Maximum hajmi';
-$lang['EXTENSION_GROUP_EXIST'] = 'Extension Group %s allaqachon mavjud'; // replace %s with the group name
+$lang['EXTENSION_GROUP_EXIST'] = 'Kengaytma guruhi %s allaqachon mavjud'; // replace %s with the group name
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Maxsus Kategoriyalar boshqarish';
@@ -2070,7 +2070,7 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'izlovchidan torrentni o\'chirish vaqtid
 
 // Release
 $lang['TEMPLATE_DISABLE'] = 'o\'chirilgan andoza.';
-$lang['FOR_NEW_TEMPLATE'] = 'yangi naqsh uchun!';
+$lang['FOR_NEW_TEMPLATE'] = 'yangi naqshlar uchun!';
 $lang['CHANGED'] = 'O\'zgartirilgan';
 $lang['REMOVED'] = 'o\'chirildi.';
 $lang['QUESTION'] = 'Harakatni bajarish uchun ishonchingiz komilmi?';
@@ -2097,7 +2097,7 @@ $lang['CRON_RUN'] = 'yugurish.';
 $lang['CRON_DEL'] = 'o\'chirish.';
 $lang['CRON_DISABLE'] = 'o\'chirib qo\'yish.';
 $lang['CRON_ENABLE'] = 'yoqish.';
-$lang['DELETE_JOB'] = 'Agar cron ishi o\'chirib tashlashga ishonchingiz komilmi?';
+$lang['DELETE_JOB'] = 'Cron ishini o\'chirishga ishonchingiz komilmi?';
 $lang['CRON_WORKS'] = 'Cron hozirda ishlamoqda yoki buzilgan -> ';
 $lang['REPAIR_CRON'] = 'Cron ta\'mirlash.';
 
@@ -2184,7 +2184,7 @@ $lang['DELETED_POSTS'] = '%s post (lar) qayta ishlash jarayonida foydalanuvchila
 $lang['PROCESSING_NEXT_POSTS'] = 'Ishlash keyingi %s post (lar). Iltimos kuting...';
 $lang['ALL_SESSION_POSTS_PROCESSED'] = 'Joriy sessiyada barcha postlar qayta ishlanadi.';
 $lang['ALL_POSTS_PROCESSED'] = 'Barcha xabarlar muvaffaqiyatli qayta qilindi.';
-$lang['ALL_TABLES_OPTIMIZED'] = 'Barcha qidiruv jadvallar muvaffaqiyatli eng etildi.';
+$lang['ALL_TABLES_OPTIMIZED'] = 'Barcha qidiruv jadvallari muvaffaqiyatli optimallashtirildi.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Buni pot-postni ishga tushirmoqda';
 $lang['PERCENT'] = 'foiz';
@@ -2208,7 +2208,7 @@ $lang['POSTS_LAST_CYCLE'] = 'O\'tgan tsiklda post(lar) qayta ishlangan.';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*) Barcha taxmin qiymatlar, joriy tugatildi foiziga qarab, hisoblangan.<br />Finallarni nihoyasiga yetganda.”';
 
-$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Izlash qayta qaytish uchun %shere%s bosing';
+$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Qidiruvni qayta qurishga qaytish uchun %sbu yerga%s bosing';
 $lang['REBUILD_SEARCH_ABORTED'] = 'Qayta qurish post_id %s da qaytarildi.<br /><br />Agar qayta ishlash paytida qoldirgan bo\'lsangiz, qaytaga QR yaratish uchun yana kutishingiz kerak.';
 $lang['WRONG_INPUT'] = 'Agar ba\'zi noto\'g\'ri qadriyatlar kirib. Kiritilgan ma\'lumotlarni tekshiring va yana urinib ko\'ring.';
 
@@ -2260,7 +2260,7 @@ $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Harakatlar Kirishi: Izlash imkoniyatlari';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'harakat';
 $lang['ACTS_LOG_USER'] = 'foydalanuvchi';
-$lang['ACTS_LOG_LOGS_FROM'] = 'dan Qaydlar';
+$lang['ACTS_LOG_LOGS_FROM'] = 'Dan Qaydlar ';
 $lang['ACTS_LOG_FIRST'] = 'bilan boshlanadigan.';
 $lang['ACTS_LOG_DAYS_BACK'] = 'orqaga kun.';
 $lang['ACTS_LOG_TOPIC_MATCH'] = 'Mavzu nomi o\'yin.';

@@ -89,8 +89,8 @@ $lang['POST_NEW_TOPIC'] = 'Postează subiect nou';
 $lang['POST_NEW_RELEASE'] = 'Creează o nouă versiune';
 $lang['REPLY_TO_TOPIC'] = 'Răspunde la subiect';
 
-$lang['CLICK_RETURN_TOPIC'] = 'Faceți clic pe %sHere%s pentru a reveni la subiect'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_FORUM'] = 'Faceți clic pe %sHere%s pentru a reveni la forum';
+$lang['CLICK_RETURN_TOPIC'] = 'Faceți clic pe %saici%s pentru a reveni la subiect'; // %s's here are for uris, do not remove!
+$lang['CLICK_RETURN_FORUM'] = 'Faceți clic pe %saici%s pentru a reveni la forum';
 $lang['CLICK_RETURN_MODCP'] = 'Faceți clic pe %sHere%s pentru a reveni la Panoul de Control Moderator';
 $lang['CLICK_RETURN_GROUP'] = 'Faceți clic pe %sHere%s pentru a reveni la informațiile grupului';
 
@@ -136,9 +136,9 @@ $lang['LATEST_RELEASES'] = 'Cele mai recente versiuni';
 
 $lang['REGISTER'] = 'Înregistrare';
 $lang['PROFILE'] = 'Profil';
-$lang['EDIT_PROFILE'] = 'Editare profil';
+$lang['EDIT_PROFILE'] = 'Editează profilul';
 $lang['SEARCH'] = 'Căutare';
-$lang['MEMBERLIST'] = 'Membri';
+$lang['MEMBERLIST'] = 'Lista membrilor';
 $lang['USERGROUPS'] = 'Grupuri de utilizatori';
 $lang['LASTPOST'] = 'Ultimul Post';
 $lang['MODERATOR'] = 'Moderator';
@@ -477,7 +477,7 @@ $lang['SEARCH_USER_TOPICS'] = 'Găsi subiecte de utilizator'; // Find all topics
 
 $lang['NO_USER_ID_SPECIFIED'] = 'Îmi pare rău, dar acest utilizator nu există.';
 $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Scuze, dar parola nu poate fi recuperată deoarece contul dvs. este în prezent inactiv.';
-$lang['NO_SEND_ACCOUNT'] = 'Scuze, dar parola nu pot fi recuperate. Vă rugăm să contactați administratorul forumului pentru mai multe informații';
+$lang['NO_SEND_ACCOUNT'] = 'Ne pare rău, dar parola nu poate fi recuperată. Vă rugăm să contactați administratorul forumului pentru mai multe informații';
 
 $lang['HIDE_PORN_FORUMS'] = 'Ascunde conținutul 18+';
 $lang['ADD_RETRACKER'] = 'Adaugă retracker în fișiere torrent';
@@ -532,7 +532,7 @@ $lang['RESET_AUTOLOGIN_EXPL'] = 'inclusiv toate locurile pe care le-ai vizitat f
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Afișează o imagine grafică mică sub detaliile tale în postări. Doar o imagine poate fi afișată la un moment dat, lățimea sa nu poate fi mai mare de %d pixeli, înălțimea nu poate fi mai mare de %d pixeli și dimensiunea fișierului nu mai mult de %s.';
 $lang['AVATAR_DELETE'] = 'Șterge avatar';
-$lang['AVATAR_DISABLE'] = 'Avatar control dezactivat opțiunea pentru încălcarea <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Opțiunea de control a avatarului a fost dezactivată pentru încălcarea <a href="%s"><b>regulilor forumului</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Încărcați avatar';
 $lang['RETURN_PROFILE'] = 'Reveni la profil';
 $lang['DELETE_IMAGE'] = 'Ștergeți imaginea';
@@ -550,7 +550,7 @@ $lang['USERNAME_TAKEN'] = 'Îmi pare rău, dar acest utilizator a fost deja luat
 $lang['USERNAME_INVALID'] = 'Îmi pare rău, dar acest nume de utilizator conține un caracter invalid';
 $lang['USERNAME_DISALLOWED'] = 'Îmi pare rău, dar acest utilizator a fost interzis.';
 $lang['USERNAME_TOO_LONG'] = 'Numele este prea lung.';
-$lang['USERNAME_TOO_SMALL'] = 'Numele tău este prea mic.';
+$lang['USERNAME_TOO_SMALL'] = 'Numele tău este prea scurt.';
 $lang['EMAIL_TAKEN'] = 'Îmi pare rău, dar adresa de e-mail este deja înregistrată la un utilizator.';
 $lang['EMAIL_INVALID'] = 'Îmi pare rău, dar această adresă de e-mail este invalidă.';
 $lang['EMAIL_TOO_LONG'] = 'E-mailul tău este prea lung.';
@@ -781,7 +781,7 @@ $lang['FORUM_FOR_NEW_TOPIC'] = 'Forum pentru subiect nou.';
 $lang['SPLIT_POSTS'] = 'Împărțiți mesajele selectate.';
 $lang['SPLIT_AFTER'] = 'Împărțit de post selecționat.';
 $lang['TOPIC_SPLIT'] = 'Subiectul selectat a fost împărțit cu succes.';
-$lang['NONE_SELECTED'] = 'Nu ai nimic selectat pentru a efectua această operațiune. Te rog du-te înapoi și selectați cel puțin unul.';
+$lang['NONE_SELECTED'] = 'Nu ați selectat niciun element pentru a efectua această operațiune. Vă rugăm să reveniți și să selectați cel puțin unul.';
 
 $lang['THIS_POSTS_IP'] = 'Adresa IP pentru această postare.';
 $lang['OTHER_IP_THIS_USER'] = 'Alte adrese IP de la care acest utilizator a postat.';
@@ -1356,7 +1356,7 @@ $lang['ACRONYM_TITLE'] = 'Acronim: [acronym=Text complet]Text scurt[/acronym]';
 $lang['QUOTE_SEL'] = 'Citat selectat';
 $lang['JAVASCRIPT_ON'] = 'JavaScript trebuie să fie activat pentru a trimite mesaje';
 
-$lang['NEW'] = 'Noi';
+$lang['NEW'] = 'Nou';
 $lang['NEWEST'] = 'Cele mai noi';
 $lang['LATEST'] = 'Cele mai recente';
 $lang['POST'] = 'Post';
@@ -1484,7 +1484,7 @@ $lang['NUMBER_TOPICS'] = 'Numărul subiectelor';
 $lang['TOPICS_PER_DAY'] = 'Subiecte pe zi';
 $lang['NUMBER_USERS'] = 'Numărul utilizatorilor';
 $lang['USERS_PER_DAY'] = 'Utilizatori pe zi';
-$lang['BOARD_STARTED'] = 'Consiliul a început';
+$lang['BOARD_STARTED'] = 'Forumul a fost creat';
 $lang['AVATAR_DIR_SIZE'] = 'Dimensiunea directorului de avatar';
 $lang['DATABASE_SIZE'] = 'Dimensiunea bazei de date';
 $lang['GZIP_COMPRESSION'] = 'Compresie GZIP';
@@ -1704,7 +1704,7 @@ $lang['SMILE_CONFLICTS'] = 'Ce trebuie făcut în caz de conflicte.';
 $lang['DEL_EXISTING_SMILEYS'] = 'Ștergeți zâmbetele existente înainte de import.';
 $lang['IMPORT_SMILE_PACK'] = 'Importați pachetul smiley.';
 $lang['EXPORT_SMILE_PACK'] = 'Creați un pachet smiley.';
-$lang['EXPORT_SMILES'] = 'Pentru a crea un pachet smiley de la instalat în prezent smileys, faceți clic pe %sHere%s pentru a descărca zâmbete.pak fișier. Numele acestui fișier în mod corespunzător asigurându-vă că pentru a menține .pak extensie de fișier. Apoi a crea un fișier zip care conține toate imagini smiley plus .pak fișier de configurare.';
+$lang['EXPORT_SMILES'] = 'Pentru a crea un pachet de smiley din smiley-urile instalate în prezent, faceți clic pe %sAici%s pentru a descărca fișierul smiles.pak. Denumiți acest fișier corespunzător, având grijă să păstrați extensia .pak. Apoi creați un fișier zip care conține toate imaginile smiley plus fișierul de configurare .pak.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Smiley a fost adăugat cu succes';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Smiley a fost actualizat cu succes';
@@ -1963,7 +1963,7 @@ $lang['SIZE_SMALLER_THAN'] = 'Mărimea atașamentului mai mică decât (bytes)';
 $lang['SIZE_GREATER_THAN'] = 'Mărimea atașamentului mai mare decât (bytes)';
 $lang['COUNT_SMALLER_THAN'] = 'Numărul de descărcări mai mic decât';
 $lang['COUNT_GREATER_THAN'] = 'Numărul de descărcări mai mare decât';
-$lang['MORE_DAYS_OLD'] = 'Mai mult decât acest lucru de multe zile';
+$lang['MORE_DAYS_OLD'] = 'Mai vechi de atâtea zile';
 $lang['NO_ATTACH_SEARCH_MATCH'] = 'Niciun atașament care să îndeplinească criteriile dumneavoastră de căutare';
 
 // Control Panel -> Statistics
@@ -2097,7 +2097,7 @@ $lang['CRON_RUN'] = 'Rula.';
 $lang['CRON_DEL'] = 'Șterge.';
 $lang['CRON_DISABLE'] = 'Dezactivați.';
 $lang['CRON_ENABLE'] = 'Permite.';
-$lang['DELETE_JOB'] = 'Ești sigur că doriți să ștergeți cron job?';
+$lang['DELETE_JOB'] = 'Sunteți sigur că doriți să ștergeți sarcina cron?';
 $lang['CRON_WORKS'] = 'Cron este acum în funcțiune sau este defect -> ';
 $lang['REPAIR_CRON'] = 'Reparați Cron.';
 
@@ -2181,7 +2181,7 @@ $lang['PROCESSED_POST_IDS'] = 'ID-urile postărilor procesate: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Cronometrul a expirat la %s secunde. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Tabelele de căutare au fost șterse.';
 $lang['DELETED_POSTS'] = '%s post(s) au fost șterse de către utilizatori în timpul prelucrării. ';
-$lang['PROCESSING_NEXT_POSTS'] = 'Prelucrarea viitoare %s post(s). Vă rugăm să așteptați...';
+$lang['PROCESSING_NEXT_POSTS'] = 'Se procesează următoarele %s postări. Vă rugăm să așteptați...';
 $lang['ALL_SESSION_POSTS_PROCESSED'] = 'Prelucrate toate posturile din sesiunea curentă.';
 $lang['ALL_POSTS_PROCESSED'] = 'Toate posturile au fost procesate cu succes.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Toate tabelele de căutare au fost optimizate cu succes.';
@@ -2329,7 +2329,7 @@ $lang['SEARCH_FOR_MODS'] = 'Căutarea Moderatorilor.';
 $lang['SEARCH_FOR_DISABLED'] = 'Căutarea utilizatorilor dezactivat.';
 $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Căutarea utilizatorilor cu un număr de post mult mai mare decât %d.';
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Căutarea utilizatorilor cu numărul de post mai puțin de %d.';
-$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'În căutarea pentru utilizatorii cu un post conta între %d și %d';
+$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Se caută utilizatori cu un număr de postări între %d și %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Căutând utilizatori cu un număr de postări egal cu %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Încercare de a găsi utilizatori cu un Twitter care se potrivește cu %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Căutând utilizatori cu un site web care se potrivește cu %s';
@@ -2345,7 +2345,7 @@ $lang['SEARCH_USERS_ADVANCED'] = 'Căutare avansată utilizator.';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Acest Modul vă permite să efectuați căutări avansate pentru utilizatorii de pe o gamă largă de criterii. Vă rugăm să citiți descrierile de sub fiecare domeniu pentru a înțelege fiecare opțiune de căutare complet.';
 $lang['SEARCH_USERNAME_EXPLAIN'] = 'Introduceți o expresie pentru a se potrivi adresa de e-mail a utilizatorului.';
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'Căutare pentru utilizatorii la o anumită adresă IP.';
-$lang['SEARCH_IP_EXPLAIN'] = 'Căutării pentru utilizatorii către o anumită adresă IP (xxx.xxx.xxx.xxx).';
+$lang['SEARCH_IP_EXPLAIN'] = 'Căutați utilizatori după o adresă IP specifică (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'Utilizatorii care au aderat.';
 $lang['SEARCH_USERS_LASTVISITED'] = 'Utilizatorii care au vizitat.';
 $lang['IN_THE_LAST'] = 'în ultimele.';
@@ -2353,7 +2353,7 @@ $lang['AFTER_THE_LAST'] = 'după ultima.';
 $lang['BEFORE'] = 'Înainte.';
 $lang['AFTER'] = 'După.';
 $lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Căutare pentru utilizatorii alăturați-vă.';
-$lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Vezi toți membrii grupului selectat.';
+$lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Vizualizați toți membrii grupului selectat.';
 $lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Vezi toate transportatoarele selectate.';
 $lang['BANNED_USERS'] = 'Utilizatorii interziși.';
 $lang['DISABLED_USERS'] = 'Utilizatori cu handicap.';

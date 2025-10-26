@@ -92,7 +92,7 @@ $lang['REPLY_TO_TOPIC'] = 'Odpovedať na tému';
 $lang['CLICK_RETURN_TOPIC'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť k téme'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť do fóra';
 $lang['CLICK_RETURN_MODCP'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť na Moderátora Ovládací Panel';
-$lang['CLICK_RETURN_GROUP'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť do skupiny informácií';
+$lang['CLICK_RETURN_GROUP'] = 'Kliknite %sSem%s pre návrat k informáciám o skupine';
 
 $lang['ADMIN_PANEL'] = 'Prejdite na Panel Správy';
 $lang['ALL_CACHE_CLEARED'] = 'Cache bol vymazaný';
@@ -343,7 +343,7 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Povoliť robotom indexovať túto tému';
 $lang['STORED'] = 'Vaša správa bola úspešne zadaná.';
 $lang['EDITED'] = 'Správa bola zmenená';
 $lang['DELETED'] = 'Vaša správa bola úspešne odstránená.';
-$lang['POLL_DELETE'] = 'Váš prieskum bol úspešne odstránený.';
+$lang['POLL_DELETE'] = 'Vaša anketa bola úspešne odstránená.';
 $lang['VOTE_CAST'] = 'Váš hlas bol udelený.';
 
 $lang['EMOTICONS'] = 'Emotikony';
@@ -758,8 +758,8 @@ $lang['LAST_UPDATED'] = 'Posledná Aktualizácia:';
 $lang['MOD_CP'] = 'Ovládací panel moderátora';
 $lang['SELECT'] = 'Vyberte';
 $lang['DELETE'] = 'Vymazať';
-$lang['MOVE'] = 'Presuňte';
-$lang['LOCK'] = 'Zámok';
+$lang['MOVE'] = 'Presunúť';
+$lang['LOCK'] = 'Zamknúť';
 $lang['UNLOCK'] = 'Odomknúť';
 
 $lang['TOPICS_REMOVED'] = 'Vybrané témy boli úspešne odstránené z databázy.';
@@ -896,7 +896,7 @@ $lang['BT_REG_YES'] = 'Registrovaná.';
 $lang['BT_REG_NO'] = 'Nie je registrovaná.';
 $lang['BT_REG_ON_TRACKER'] = 'Zaregistrujte sa na tracker.';
 $lang['BT_REG_FAIL'] = 'Nemohol zaregistrovať torrent na tracker.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Ďalší torrent s rovnakým info_hash už <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Ďalší torrent s rovnakým info_hash je už <a href="%s"><b>registrovaný</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'torrenty iba v1 boli momentálne zakázané administrátorom, povolené: v2 a hybridy';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'torrenty iba v2 boli momentálne zakázané administrátorom, povolené: v1 a hybridy';
 $lang['BT_FLIST'] = 'Zoznam súborov';
@@ -922,7 +922,7 @@ $lang['BT_NO_SEARCHABLE_FORUMS'] = 'Nenašli sa žiadne vyhľadávacie fóra.';
 $lang['SEEDS'] = 'Semeno.';
 $lang['LEECHS'] = 'Pijavice.';
 $lang['SPEED_UP'] = 'Zrýchlenie';
-$lang['SPEED_DOWN'] = 'Rýchlosť Dole';
+$lang['SPEED_DOWN'] = 'Znížiť rýchlosť';
 
 $lang['SEEDERS'] = 'Seedery';
 $lang['LEECHERS'] = 'Leechery';
@@ -948,11 +948,11 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_NO_DESC => 'nie je formalizovaný',
     TOR_DUP => 'duplikát',
     TOR_CLOSED_CPHOLD => 'uzavreté (autorské právo)',
-    TOR_CONSUMED => 'vstrebáva',
+    TOR_CONSUMED => 'vstrebávaný',
     TOR_DOUBTFUL => 'pochybné',
     TOR_CHECKING => 'kontroluje sa',
     TOR_TMP => 'dočasné',
-    TOR_PREMOD => 'pre-moderovanie',
+    TOR_PREMOD => 'predmoderácia',
     TOR_REPLENISH => 'doplňovanie',
 ];
 $lang['TOR_STATUS_FAILED'] = 'Takýto stav neexistuje!';
@@ -966,7 +966,7 @@ $lang['PROCEED'] = 'Pokračovať';
 $lang['INVALID_ATTACH_ID'] = 'Chýbajúci identifikátor súboru!';
 $lang['CHANGE_TOR_TYPE'] = 'Typ torrentu bol úspešne zmenený.';
 $lang['DEL_TORRENT'] = 'Ste si istý, že chcete vymazať torrent?';
-$lang['DEL_MOVE_TORRENT'] = 'Ste si istý, že chcete zrušiť a presunúť tému?';
+$lang['DEL_MOVE_TORRENT'] = 'Ste si istí, že chcete vymazať a presunúť tému?';
 $lang['UNEXECUTED_RELEASE'] = 'Máte neukončené uvoľnenie. Predtým, ako vytvoríte nové, prosím, dokončte ho!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'Nový stav: %s.<br/>Predchádzajúci stav: %s.';
 
@@ -1243,7 +1243,7 @@ $lang['UCP_DOWNLOADS'] = 'Súbory na stiahnutie';
 $lang['HIDE_DOWNLOADS'] = 'Skryť aktuálny zoznam stiahnutí na vašom profile';
 $lang['BAN_USER'] = 'Aby sa zabránilo používateľom';
 $lang['USER_NOT_ALLOWED'] = 'Používatelia nie sú povolení';
-$lang['HIDE_AVATARS'] = 'Zobraziť avatarov';
+$lang['HIDE_AVATARS'] = 'Zobraziť avatary';
 $lang['SHOW_CAPTION'] = 'Zobraziť váš podpis';
 $lang['DOWNLOAD_TORRENT'] = 'Stiahnuť torrent';
 $lang['SEND_PM'] = 'Odoslať PM';
@@ -1268,7 +1268,7 @@ $lang['USER'] = 'Používateľ';
 $lang['ROLE'] = 'Úloha:';
 $lang['MEMBERSHIP_IN'] = 'Členstvo v';
 $lang['PARTY'] = 'Strana:';
-$lang['CANDIDATE'] = 'Uchádzača:';
+$lang['CANDIDATE'] = 'Kandidát:';
 $lang['INDIVIDUAL'] = 'Má individuálne práva';
 $lang['GROUP_LIST_HIDDEN'] = 'Nie ste oprávnený zobraziť skryté skupiny';
 
@@ -1467,16 +1467,16 @@ $lang['MIGRATIONS_SETUP_GUIDE'] = 'Pozrite si inštruktážny sprievodca nižši
 $lang['MIGRATIONS_ACTION_REQUIRED'] = 'Vyžaduje akciu';
 
 // Index
-$lang['MAIN_INDEX'] = 'Fórum Index';
+$lang['MAIN_INDEX'] = 'Index fóra';
 $lang['FORUM_STATS'] = 'Štatistiky fóra';
-$lang['ADMIN_INDEX'] = 'Admin Index';
+$lang['ADMIN_INDEX'] = 'Index administrátora';
 $lang['CREATE_PROFILE'] = 'Vytvoriť profil';
 
 $lang['TP_VERSION'] = 'TorrentPier verzia';
 $lang['TP_RELEASE_DATE'] = 'Dátum vydania';
 $lang['PHP_INFO'] = 'Informácie o PHP';
 
-$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť na Admin Index';
+$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Kliknite %sSem%s pre návrat na administračný index';
 
 $lang['NUMBER_POSTS'] = 'Počet príspevkov';
 $lang['POSTS_PER_DAY'] = 'Príspevky za deň';
@@ -1484,7 +1484,7 @@ $lang['NUMBER_TOPICS'] = 'Počet tém';
 $lang['TOPICS_PER_DAY'] = 'Tém za deň';
 $lang['NUMBER_USERS'] = 'Počet používateľov';
 $lang['USERS_PER_DAY'] = 'Užívateľov za deň';
-$lang['BOARD_STARTED'] = 'Rada začala';
+$lang['BOARD_STARTED'] = 'Fórum založené';
 $lang['AVATAR_DIR_SIZE'] = 'Veľkosť adresára avatarov';
 $lang['DATABASE_SIZE'] = 'Veľkosť databázy';
 $lang['GZIP_COMPRESSION'] = 'Gzip kompresia';
@@ -1501,7 +1501,7 @@ $lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (použité: %s | voľné: %s)';
 $lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Maximálny čas vykonávania:';
 
 // Clear Cache
-$lang['DATASTORE'] = 'Datastore';
+$lang['DATASTORE'] = 'Úložisko dát';
 $lang['CLEAR_CACHE'] = 'Vymazať vyrovnávaciu pamäť';
 $lang['CLEAR_TEMPLATES_CACHE'] = 'Cache šablón';
 
@@ -1553,7 +1553,7 @@ $lang['FORUM_MOD'] = 'MOD';
 $lang['FORUM_ADMIN'] = 'ADMIN';
 
 $lang['AUTH_VIEW'] = $lang['VIEW'] = 'Zobraziť';
-$lang['AUTH_READ'] = $lang['READ'] = 'Prečítajte si';
+$lang['AUTH_READ'] = $lang['READ'] = 'Čítať';
 $lang['AUTH_POST'] = $lang['POST'] = 'Post';
 $lang['AUTH_REPLY'] = $lang['REPLY'] = 'Odpovedať';
 $lang['AUTH_EDIT'] = $lang['EDIT'] = 'Upraviť';
@@ -1574,20 +1574,20 @@ $lang['AUTH_UPDATED'] = 'Povolenia boli aktualizované';
 $lang['AUTH_GENERAL_ERROR'] = 'Nepodarilo sa aktualizovať stav administrátora';
 $lang['AUTH_SELF_ERROR'] = 'Nedalo sa zmeniť seba z administrátora na užívateľa';
 $lang['NO_FORUMS_AVAILABLE'] = 'Žiadne fóra k dispozícii. Najprv vytvorte fóra, aby ste mohli spravovať oprávnenia.';
-$lang['CLICK_RETURN_USERAUTH'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť do Povolenia Používateľa';
-$lang['CLICK_RETURN_GROUPAUTH'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť do Skupiny Povolenia';
-$lang['CLICK_RETURN_FORUMAUTH'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť na Fórum Povolenia';
+$lang['CLICK_RETURN_USERAUTH'] = 'Kliknite %sSem%s pre návrat k povoleniam používateľa';
+$lang['CLICK_RETURN_GROUPAUTH'] = 'Kliknite %sSem%s pre návrat k povoleniam skupiny';
+$lang['CLICK_RETURN_FORUMAUTH'] = 'Kliknite %sSem%s pre návrat k povoleniam fóra';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Zákaz ovládania';
 $lang['BAN_EXPLAIN'] = 'Tu môžete ovládať zakázanie užívateľov.';
-$lang['BAN_USERNAME'] = 'Zákaz jeden alebo viac konkrétnych používateľov';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Môžete zakázať viacerých používateľov v jednej ísť pomocou vhodnej kombinácie myš a klávesnica vášho počítača a prehliadača';
+$lang['BAN_USERNAME'] = 'Zablokovať jedného alebo viac konkrétnych používateľov';
+$lang['BAN_USERNAME_EXPLAIN'] = 'Môžete naraz zablokovať viacerých používateľov pomocou vhodnej kombinácie myši a klávesnice pre váš počítač a prehliadač';
 $lang['UNBAN_USERNAME'] = 'Zrušiť zákaz jednému alebo viacerým konkrétnym užívateľom';
-$lang['UNBAN_USERNAME_EXPLAIN'] = 'Môžete unban viacerých používateľov v jednej ísť pomocou vhodnej kombinácie myš a klávesnica vášho počítača a prehliadača';
+$lang['UNBAN_USERNAME_EXPLAIN'] = 'Môžete naraz odblokovať viacerých používateľov pomocou vhodnej kombinácie myši a klávesnice vášho počítača a prehliadača';
 $lang['NO_BANNED_USERS'] = 'Žiadne zakázané mená';
-$lang['BAN_UPDATE_SUCESSFUL'] = 'Na banlist bol úspešne aktualizovaný';
-$lang['CLICK_RETURN_BANADMIN'] = 'Kliknite na tlačidlo %sHere%s ak sa chcete vrátiť na Zákaz Ovládanie';
+$lang['BAN_UPDATE_SUCESSFUL'] = 'Zoznam zákazov bol úspešne aktualizovaný';
+$lang['CLICK_RETURN_BANADMIN'] = 'Kliknite %sSem%s pre návrat do správy zákazov';
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Všeobecné konfigurácie';
@@ -2036,7 +2036,7 @@ $lang['BT_SHOW_PEERS'] = 'Zobraziť rovesníkov (seeders a leechers)';
 $lang['BT_SHOW_PEERS_EXPL'] = 'toto zobrazí zoznam seeders/leechers nad témou s torrentom';
 $lang['BT_SHOW_PEERS_MODE'] = 'Predvolene zobraziť rovesníkov ako:';
 $lang['BT_SHOW_PEERS_MODE_COUNT'] = 'Počítať iba';
-$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Mená len';
+$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Iba mená';
 $lang['BT_SHOW_PEERS_MODE_FULL'] = 'Úplné podrobnosti';
 $lang['BT_ALLOW_SPMODE_CHANGE'] = 'Povoliť režim "podrobnosti"';
 $lang['BT_ALLOW_SPMODE_CHANGE_EXPL'] = 'ak "nie", iba predvolený režim zobrazenia rovesníkov bude k dispozícii';
@@ -2046,7 +2046,7 @@ $lang['BT_SHOW_PORT_ONLY_MODER'] = 'Porty rovesníkov sú viditeľné iba pre mo
 $lang['BT_SHOW_DL_LIST_HEAD'] = 'Zoznam DL';
 $lang['BT_SHOW_DL_LIST'] = 'Zobraziť DL-zoznam v témach na stiahnutie';
 $lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Zobraziť DL-zoznam iba na prvej stránke v témach';
-$lang['BT_DL_LIST_ONLY_COUNT'] = 'Zobrazujú sa iba počet užívateľov';
+$lang['BT_DL_LIST_ONLY_COUNT'] = 'Zobraziť iba počet používateľov';
 $lang['BT_SHOW_DL_LIST_BUTTONS'] = 'Zobraziť tlačidlá pre manuálnu zmenu stavu DL';
 $lang['BT_SHOW_DL_BUT_WILL'] = $lang['DLWILL'];
 $lang['BT_SHOW_DL_BUT_DOWN'] = $lang['DLDOWN'];
@@ -2058,14 +2058,14 @@ $lang['BT_ADD_AUTH_KEY'] = 'Povoliť pridanie univerzálneho kľúča na torrent
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent prehliadač (tracker)';
 $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent prehliadač (tracker.php) dostupné len pre prihlásených užívateľov';
-$lang['BT_SEARCH_BOOL_MODE'] = 'Povoliť boolean full-text vyhľadávanie';
+$lang['BT_SEARCH_BOOL_MODE'] = 'Povoliť booleovské fulltextové vyhľadávanie';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'použite *, +, - pri hľadaní';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Rôzne";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Zobraziť štatistiky UL/DL používateľa v hornej časti hlavnej stránky fóra";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automaticky zaregistrovať torrent na tracker pre nové témy';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Zmeniť stav témy na "Stiahnuť" počas registrácie torrentu na tracker';
-$lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'zmení tému typu "Stiahnuť", bez ohľadu na nastavenia fóra';
+$lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'zmení typ témy na "Na stiahnutie" bez ohľadu na nastavenia fóra';
 $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Zmeniť stav témy na "Normálny" počas odregistrovania torrentu z tracker';
 
 // Release
@@ -2079,44 +2079,44 @@ $lang['CRON_LIST'] = 'Cron zoznam';
 $lang['CRON_ID'] = 'ID';
 $lang['CRON_ACTIVE'] = 'Na';
 $lang['CRON_ACTIVE_EXPL'] = 'Aktívne úlohy';
-$lang['CRON_TITLE'] = 'Hlava';
+$lang['CRON_TITLE'] = 'Názov';
 $lang['CRON_SCRIPT'] = 'Skript';
 $lang['CRON_SCHEDULE'] = 'Harmonogram';
 $lang['CRON_LAST_RUN'] = 'Naposledy spustené';
 $lang['CRON_NEXT_RUN'] = 'Ďalší beh';
-$lang['CRON_RUN_COUNT'] = 'Beží';
-$lang['CRON_MANAGE'] = 'Správa';
+$lang['CRON_RUN_COUNT'] = 'Spustenia';
+$lang['CRON_MANAGE'] = 'Spravovať';
 $lang['CRON_DISABLED_WARNING'] = 'POZOR! Spúšťanie cron skriptov je zakázané. Ak ho chcete povoliť, nastavte premennú APP_CRON_ENABLED.';
 
-$lang['CRON_ENABLED'] = 'Cron povolené';
+$lang['CRON_ENABLED'] = 'Cron povolený';
 $lang['CRON_CHECK_INTERVAL'] = 'Cron interval kontroly (sekundy)';
 
 $lang['WITH_SELECTED'] = 'S vybranými';
-$lang['NOTHING'] = 'nič';
+$lang['NOTHING'] = 'nerobiť nič';
 $lang['CRON_RUN'] = 'Spustiť';
 $lang['CRON_DEL'] = 'Vymazať';
 $lang['CRON_DISABLE'] = 'Vypnúť';
 $lang['CRON_ENABLE'] = 'Povoliť';
-$lang['DELETE_JOB'] = 'Ste si istý, že chcete vymazať cronu?';
+$lang['DELETE_JOB'] = 'Ste si istí, že chcete vymazať cron úlohu?';
 $lang['CRON_WORKS'] = 'Cron aktuálne funguje alebo je rozbitý -> ';
 $lang['REPAIR_CRON'] = 'Opraviť Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Upraviť prácu';
 $lang['CRON_EDIT_HEAD_ADD'] = 'Pridať prácu';
-$lang['CRON_SCRIPT_EXPL'] = 'meno skriptu z "zahŕňa/cron/jobs/"';
+$lang['CRON_SCRIPT_EXPL'] = 'Názov skriptu z "includes/cron/jobs/"';
 $lang['SCHEDULE'] = [
-    'select' => '&raquo; Vyberte položku štart',
-    'hourly' => 'hodinová',
+    'select' => '&raquo; Vyberte štart',
+    'hourly' => 'každú hodinu',
     'daily' => 'denne',
     'weekly' => 'týždenne',
-    'monthly' => 'mesačný',
+    'monthly' => 'mesačne',
     'interval' => 'interval'
 ];
-$lang['NOSELECT'] = 'Vyberte položku č.';
-$lang['RUN_DAY'] = 'Spustiť deň';
-$lang['RUN_DAY_EXPL'] = 'deň, keď túto prácu spustiť';
+$lang['NOSELECT'] = 'Nie je vybrané';
+$lang['RUN_DAY'] = 'Deň spustenia';
+$lang['RUN_DAY_EXPL'] = 'deň, kedy sa táto úloha spustí';
 $lang['RUN_TIME'] = 'čas spustenia';
-$lang['RUN_TIME_EXPL'] = 'v čase, keď túto prácu spustiť (napr. 05:00:00)';
+$lang['RUN_TIME_EXPL'] = 'čas, kedy sa táto úloha spustí (napr. 05:00:00)';
 $lang['RUN_ORDER'] = 'spúšťanie rozkazov';
 $lang['LAST_RUN'] = 'naposledy spustené';
 $lang['NEXT_RUN'] = 'ďalší beh';
@@ -2234,14 +2234,14 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Téma:<br /> <b>zavreté</b>',
     'mod_topic_unlock' => 'Téma:<br /> <b>otvorené</b>',
     'mod_topic_split' => 'Téma:<br /> <b>rozdelené</b>',
-    'mod_topic_set_downloaded' => 'Téma:<br /> <b>nastavené na stiahnutie</b>',
+    'mod_topic_set_downloaded' => 'Téma:<br /> <b>označené ako stiahnuté</b>',
     'mod_topic_unset_downloaded' => 'Téma:<br /> <b>zrušené sťahovanie</b>',
     'mod_topic_change_tor_status' => 'Téma:<br /> <b>zmenený stav torrentu</b>',
     'mod_topic_change_tor_type' => 'Téma:<br /> <b>zmenený typ torrentu</b>',
     'mod_topic_tor_unregister' => 'Téma:<br /> <b>torrent nezaevidovaný</b>',
     'mod_topic_tor_register' => 'Téma:<br /> <b>torrent registrovaný</b>',
     'mod_topic_tor_delete' => 'Téma:<br /> <b>torrent odstránený</b>',
-    'mod_topic_renamed' => 'Téma:<br /> <b>prezmenované</b>',
+    'mod_topic_renamed' => 'Téma:<br /> <b>premenované</b>',
     'mod_topic_poll_started' => 'Téma:<br /> <b>anketa bola spustená</b>',
     'mod_topic_poll_finished' => 'Téma:<br /> <b>anketa bola ukončená</b>',
     'mod_topic_poll_deleted' => 'Téma:<br /> <b>anketa bola odstránená</b>',
@@ -2289,10 +2289,10 @@ $lang['TPL_NOT_NUM'] = '<b>%s</b> - Nie je číslo';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Musí byť https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> – Musí byť https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'dať do predmetu';
-$lang['TPL_POSTER'] = 'plagát';
+$lang['TPL_POSTER'] = 'autor';
 $lang['TPL_REQ_FILLING'] = 'vyžaduje vyplnenie';
 $lang['TPL_NEW_LINE'] = 'nový riadok';
-$lang['TPL_NEW_LINE_AFTER'] = 'nový riadok po hlave';
+$lang['TPL_NEW_LINE_AFTER'] = 'nový riadok za nadpisom';
 $lang['TPL_NUM'] = 'číslo';
 $lang['TPL_URL'] = 'URL';
 $lang['TPL_IMG'] = 'obrázok';
@@ -2326,7 +2326,7 @@ $lang['SEARCH_FOR_RANK'] = 'Vyhľadávanie nositeľov hodnosti %s';
 $lang['SEARCH_FOR_BANNED'] = 'Vyhľadávanie zakázaných užívateľov';
 $lang['SEARCH_FOR_ADMINS'] = 'Vyhľadávanie správcov';
 $lang['SEARCH_FOR_MODS'] = 'Vyhľadávanie moderátorov';
-$lang['SEARCH_FOR_DISABLED'] = 'Vyhľadávanie pre zdravotne postihnutých užívateľov';
+$lang['SEARCH_FOR_DISABLED'] = 'Vyhľadávanie zakázaných používateľov';
 $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Vyhľadávanie pre užívateľov s príspevkami viac ako %d';
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Vyhľadávanie pre užívateľov s príspevkami menej ako %d';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Vyhľadávanie pre užívateľov s počtom príspevkov medzi %d a %d';

@@ -116,7 +116,7 @@ $lang['DISPLAYING_OPTIONS'] = 'Prikaz možnosti.';
 $lang['REGISTERED_USERS'] = 'Registrirani Uporabniki:';
 $lang['BROWSING_FORUM'] = 'Uporabniki brskanje ta forum.';
 $lang['ONLINE_USERS'] = 'Skupaj so <b>%1$d</b> uporabniki online: %2$d registriranih in %3$d gostov';
-$lang['RECORD_ONLINE_USERS'] = 'Večina uporabnikov vedno online je <b>%s</b> na %s'; // first %s = number of users, second %s is the date.
+$lang['RECORD_ONLINE_USERS'] = 'Največ uporabnikov hkrati je bilo <b>%s</b> dne %s'; // first %s = number of users, second %s is the date.
 
 $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
@@ -260,7 +260,7 @@ $lang['DELETE_TOPIC'] = 'Izbriši to temo';
 $lang['SPLIT_TOPIC'] = 'Ločite temo';
 
 $lang['STOP_WATCHING_TOPIC'] = 'Prenehajte slediti temi';
-$lang['START_WATCHING_TOPIC'] = 'Sledite temo za odgovore';
+$lang['START_WATCHING_TOPIC'] = 'Sledite temi za odgovore';
 $lang['NO_LONGER_WATCHING'] = 'Za to temo ne sledite več';
 $lang['YOU_ARE_WATCHING'] = 'Sedaj sledite tej temi';
 
@@ -763,14 +763,14 @@ $lang['LOCK'] = 'Zaklepanje';
 $lang['UNLOCK'] = 'Odkleni';
 
 $lang['TOPICS_REMOVED'] = 'Izbrane teme so bile uspešno odstranjene iz baze.';
-$lang['NO_TOPICS_REMOVED'] = 'Ni teme, ki so bile odstranjene.';
+$lang['NO_TOPICS_REMOVED'] = 'Nobena tema ni bila odstranjena.';
 $lang['TOPICS_LOCKED'] = 'Izbrane teme so bile zaklenjene.';
 $lang['TOPICS_MOVED'] = 'Izbrane teme so bile premaknjene.';
 $lang['TOPICS_UNLOCKED'] = 'Izbrane teme so bile odklenjene.';
 $lang['NO_TOPICS_MOVED'] = 'Ni teme, ki so se premaknile.';
 
-$lang['CONFIRM_DELETE_TOPIC'] = 'Ali ste prepričani, da želite odstraniti izbrano temo/s?';
-$lang['CONFIRM_MOVE_TOPIC'] = 'Ali ste prepričani, da želite premakniti izbrane teme/s?';
+$lang['CONFIRM_DELETE_TOPIC'] = 'Ali ste prepričani, da želite odstraniti izbrane teme?';
+$lang['CONFIRM_MOVE_TOPIC'] = 'Ali ste prepričani, da želite premakniti izbrane teme?';
 
 $lang['MOVE_TO_FORUM'] = 'Premikanje forum.';
 $lang['LEAVE_SHADOW_TOPIC'] = 'Pustite senco teme v starem forumu.';
@@ -896,7 +896,7 @@ $lang['BT_REG_YES'] = 'Registrirani';
 $lang['BT_REG_NO'] = 'Ni registriran';
 $lang['BT_REG_ON_TRACKER'] = 'Registrirajte se na tracker';
 $lang['BT_REG_FAIL'] = 'Ni mogoče registrirati torrenta na trackerju.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Drugi torrent z enakim info_hash že <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Drug torrent z enakim info_hash je že <a href="%s"><b>registriran</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Torrenti, ki podpirajo samo v1, so bili trenutno onemogočeni, dovoljeni: v2 in hibridi';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Torrenti, ki podpirajo samo v2, so bili trenutno onemogočeni, dovoljeni: v1 in hibridi';
 $lang['BT_FLIST'] = 'Seznam datotek';
@@ -995,7 +995,7 @@ $lang['BT_VIEWS'] = 'Ogledov';
 // Gold/Silver releases
 $lang['GOLD'] = 'Zlato';
 $lang['SILVER'] = 'Srebrn';
-$lang['SET_GOLD_TORRENT'] = 'Da zlato';
+$lang['SET_GOLD_TORRENT'] = 'Označi kot zlato';
 $lang['UNSET_GOLD_TORRENT'] = 'Odstrani zlato';
 $lang['SET_SILVER_TORRENT'] = 'Da srebro';
 $lang['UNSET_SILVER_TORRENT'] = 'Odstrani srebro';
@@ -1016,15 +1016,15 @@ $lang['SEL_CHAPTERS_HELP'] = 'Lahko izberete največ %s particije';
 $lang['HIDE_CONTENTS'] = 'Skrij vsebino {...}';
 $lang['FILTER_BY_NAME'] = '<i>Filter po imenu </i>';
 
-$lang['BT_ONLY_ACTIVE'] = 'Aktivna';
+$lang['BT_ONLY_ACTIVE'] = 'Aktivno';
 $lang['BT_ONLY_MY'] = 'Moje objave';
-$lang['BT_SEED_EXIST'] = 'Seeder obstajajo';
+$lang['BT_SEED_EXIST'] = 'Seeder obstaja';
 $lang['BT_ONLY_NEW'] = 'Novo od zadnjega obiska';
 $lang['BT_SHOW_CAT'] = 'Kategorija';
 $lang['BT_SHOW_FORUM'] = 'Forum';
 $lang['BT_SHOW_AUTHOR'] = 'Avtor';
 $lang['BT_SHOW_SPEED'] = 'Hitrost';
-$lang['SEED_NOT_SEEN'] = 'Seeder ni videl';
+$lang['SEED_NOT_SEEN'] = 'Seeder ni viden';
 $lang['TITLE_MATCH'] = 'Naslov ujema';
 $lang['BT_USER_NOT_FOUND'] = 'ni najdeno';
 $lang['DL_SPEED'] = 'Skupna hitrost prenosa';
@@ -1044,9 +1044,9 @@ $lang['BT_2_WEEKS'] = '2 tedna';
 $lang['BT_1_MONTH'] = 'mesec';
 
 $lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'DL-seznam in aktivnost torrenta';
-$lang['DLWILL'] = 'Bo prenos';
+$lang['DLWILL'] = 'Se bo preneslo';
 $lang['DLDOWN'] = 'Nalaganje';
-$lang['DLCOMPLETE'] = 'Skupaj';
+$lang['DLCOMPLETE'] = 'Dokončano';
 $lang['DLCANCEL'] = 'Prekliči';
 
 $lang['DL_LIST_DEL'] = 'Ponovno jasno, DL-seznam';
@@ -1064,12 +1064,12 @@ $lang['SEARCH_DL_WILL'] = 'Načrtovano';
 $lang['SEARCH_DL_WILL_DOWNLOADS'] = 'Načrtovana nalaganja';
 $lang['SEARCH_DL_DOWN'] = 'Trenutno';
 $lang['SEARCH_DL_COMPLETE'] = 'Zaključeno';
-$lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Dokončana';
+$lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Dokončani prenosi';
 $lang['SEARCH_DL_CANCEL'] = 'Odpovedano';
 $lang['CUR_DOWNLOADS'] = 'Trenutno prenos';
 $lang['CUR_UPLOADS'] = 'Trenutno nalaganje';
 $lang['SEARCH_RELEASES'] = 'Izdaja';
-$lang['TOR_SEARCH_TITLE'] = 'Iskanje torrentov možnosti';
+$lang['TOR_SEARCH_TITLE'] = 'Možnosti iskanja torrentov';
 $lang['OPEN_TOPIC'] = 'Odprite temo';
 
 $lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Objavljanje torrentov je dovoljeno le v prvem prispevku.';
@@ -1433,7 +1433,7 @@ $lang['SMILIES'] = 'Smeški';
 $lang['BAN_MANAGEMENT'] = 'Nadzor prepovedi';
 $lang['WORD_CENSOR'] = 'Cenzura besed';
 $lang['EXPORT'] = 'Izvoz';
-$lang['CREATE_NEW'] = 'Ustvarjanje';
+$lang['CREATE_NEW'] = 'Ustvari';
 $lang['ADD_NEW'] = 'Dodaj';
 $lang['CRON'] = 'Razporejevalnik opravil (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Obnovite iskalni indeks';
@@ -1639,7 +1639,7 @@ $lang['FORUM_ADMIN_MAIN'] = 'Forum Uprava';
 $lang['EDIT_FORUM'] = 'Urejanje foruma';
 $lang['CREATE_FORUM'] = 'Ustvarite nov forum';
 $lang['CREATE_SUB_FORUM'] = 'Ustvari podforum';
-$lang['CREATE_CATEGORY'] = 'Ustvarjanje nove kategorije';
+$lang['CREATE_CATEGORY'] = 'Ustvari novo kategorijo';
 $lang['REMOVE'] = 'Odstrani';
 $lang['CONFIG_UPDATED'] = 'Forum Konfiguracija Je Bil Uspešno Posodobljen';
 $lang['MOVE_UP'] = 'Premakni navzgor';
@@ -2112,7 +2112,7 @@ $lang['SCHEDULE'] = [
     'monthly' => 'mesečno.',
     'interval' => 'interval.'
 ];
-$lang['NOSELECT'] = 'Izberite št.';
+$lang['NOSELECT'] = 'Ni izbranega';
 $lang['RUN_DAY'] = 'Tekmovalni dan.';
 $lang['RUN_DAY_EXPL'] = 'dan, ko to delo teče.';
 $lang['RUN_TIME'] = 'Čas izvajanja.';
@@ -2249,7 +2249,7 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_poll_edited' => 'Tema:<br /> <b>anketa urejena</b>.',
     'mod_post_delete' => 'Prispevek:<br /> <b>izbrisan</b>',
     'mod_post_pin' => 'Prispevek:<br /> <b>priklenjen</b>',
-    'mod_post_unpin' => 'Prispevek:<br /> <b>odprta prilepljenost</b>',
+    'mod_post_unpin' => 'Prispevek:<br /> <b>ni pritrjen</b>',
     'adm_user_delete' => 'Uporabnik:<br /> <b>izbrisan</b>',
     'adm_user_ban' => 'Uporabnik:<br /> <b>prepovedan</b>',
     'adm_user_unban' => 'Uporabnik:<br /> <b>odprava prepovedi</b>',
@@ -2261,7 +2261,7 @@ $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Dejanje';
 $lang['ACTS_LOG_USER'] = 'Uporabnik';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Dnevniki iz ';
-$lang['ACTS_LOG_FIRST'] = 'začetek z';
+$lang['ACTS_LOG_FIRST'] = 'začenši z';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dni nazaj';
 $lang['ACTS_LOG_TOPIC_MATCH'] = 'Tekma teme naslov';
 $lang['ACTS_LOG_SORT_BY'] = 'Razvrsti po';
@@ -2288,14 +2288,14 @@ $lang['TPL_EMPTY_SEL'] = 'Izbrati morate <b>%s</b>.';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - ni številka.';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - URL mora biti https://';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Mora biti https:// IMG_URL';
-$lang['TPL_PUT_INTO_SUBJECT'] = 'dal v temo';
-$lang['TPL_POSTER'] = 'plakat';
+$lang['TPL_PUT_INTO_SUBJECT'] = 'vnesite v zadevo';
+$lang['TPL_POSTER'] = 'avtor prispevka';
 $lang['TPL_REQ_FILLING'] = 'zahteva izpolnitev';
 $lang['TPL_NEW_LINE'] = 'nova vrstica';
 $lang['TPL_NEW_LINE_AFTER'] = 'nova vrstica po naslovu';
 $lang['TPL_NUM'] = 'število';
 $lang['TPL_URL'] = 'URL';
-$lang['TPL_IMG'] = 'slike';
+$lang['TPL_IMG'] = 'slika';
 $lang['TPL_PRE'] = 'pre';
 $lang['TPL_SPOILER'] = 'spojler';
 $lang['TPL_IN_LINE'] = 'v isti vrstici';

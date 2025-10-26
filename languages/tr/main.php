@@ -91,8 +91,8 @@ $lang['REPLY_TO_TOPIC'] = 'Konuya cevap';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Konuya dönmek için %sHere%s tıklayın'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Foruma dönmek için %sHere%s tıklayın';
-$lang['CLICK_RETURN_MODCP'] = '%sHere%s Kontrol Paneli Moderatör dönmek için tıklayın';
-$lang['CLICK_RETURN_GROUP'] = '%sHere%s bilgi grup geri dönmek için tıklayın';
+$lang['CLICK_RETURN_MODCP'] = 'Moderatör Kontrol Paneline dönmek için %sHere%s tıklayın';
+$lang['CLICK_RETURN_GROUP'] = 'Grup bilgisine dönmek için %sHere%s tıklayın';
 
 $lang['ADMIN_PANEL'] = 'Yönetim Paneline git';
 $lang['ALL_CACHE_CLEARED'] = 'Önbellek temizlendi';
@@ -116,7 +116,7 @@ $lang['DISPLAYING_OPTIONS'] = 'Görüntüleme seçenekleri';
 $lang['REGISTERED_USERS'] = 'Kayıtlı Kullanıcılar:';
 $lang['BROWSING_FORUM'] = 'Bu forumu gezen kullanıcılar:';
 $lang['ONLINE_USERS'] = 'Toplam <b>%1$d</b> çevrimiçi kullanıcı var: %2$d kayıtlı ve %3$d misafir.';
-$lang['RECORD_ONLINE_USERS'] = 'İnternetteki çoğu kullanıcı %s üzerinde <b>%s</b> oldu'; // first %s = number of users, second %s is the date.
+$lang['RECORD_ONLINE_USERS'] = 'En fazla çevrimiçi kullanıcı sayısı <b>%s</b> idi, %s tarihinde'; // first %s = number of users, second %s is the date.
 
 $lang['ONLINE_ADMIN'] = 'Yönetici';
 $lang['ONLINE_MOD'] = 'Moderatör';
@@ -764,14 +764,14 @@ $lang['LOCK'] = 'Kilit';
 $lang['UNLOCK'] = 'Kilidini açmak.';
 
 $lang['TOPICS_REMOVED'] = 'Seçilen konular başarıyla veritabanından kaldırılmıştır.';
-$lang['NO_TOPICS_REMOVED'] = 'Hayır konular çıkarıldı.';
+$lang['NO_TOPICS_REMOVED'] = 'Hiç konu silinmedi.';
 $lang['TOPICS_LOCKED'] = 'Seçilen konular kilitlenmiş.';
 $lang['TOPICS_MOVED'] = 'Seçilen konular taşınmış.';
 $lang['TOPICS_UNLOCKED'] = 'Seçilen konular kilidini açmak.';
-$lang['NO_TOPICS_MOVED'] = 'Hayır konular taşındı.';
+$lang['NO_TOPICS_MOVED'] = 'Hiç konu taşınmadı.';
 
-$lang['CONFIRM_DELETE_TOPIC'] = 'Seçilen konu/s silmek istediğinizden emin misiniz?';
-$lang['CONFIRM_MOVE_TOPIC'] = 'Seçilen konu/s taşımak istediğinizden emin misiniz?';
+$lang['CONFIRM_DELETE_TOPIC'] = 'Seçilen konuyu/konuları silmek istediğinizden emin misiniz?';
+$lang['CONFIRM_MOVE_TOPIC'] = 'Seçilen konuyu/konuları taşımak istediğinizden emin misiniz?';
 
 $lang['MOVE_TO_FORUM'] = 'Hareket foruma.';
 $lang['LEAVE_SHADOW_TOPIC'] = 'Eski forumda gölge konu bırakın.';
@@ -791,7 +791,7 @@ $lang['IP_INFO'] = 'IP Bilgileri';
 $lang['LOOKUP_IP'] = 'IP adresini aramak.';
 
 // Timezones ... for display on each page
-$lang['ALL_TIMES'] = 'Her zaman <span class="tz_time">%s</span> vardır'; // This is followed by UTC and the timezone offset
+$lang['ALL_TIMES'] = 'Tüm zamanlar <span class="tz_time">%s</span> olarak gösterilmektedir'; // This is followed by UTC and the timezone offset
 
 // Friendly dates (used in bb_date function)
 $lang['DATETIME']['TODAY'] = 'Bugün';
@@ -803,7 +803,7 @@ $lang['SET_OWN_COUNTRY'] = 'Kendi ülkenizi ayarlayın (Manuel)';
 
 // Errors
 $lang['INFORMATION'] = 'Bilgi';
-$lang['ADMIN_REAUTHENTICATE'] = '/Yeniden Yönetim Kurulu orta yönetmek için kendinizi tanıtmanız.';
+$lang['ADMIN_REAUTHENTICATE'] = 'Forum panosunu yönetmek/modere etmek için kimliğinizi yeniden doğrulamalısınız.';
 
 // Attachment Mod Main Language Variables
 // Auth Related Entries
@@ -897,7 +897,7 @@ $lang['BT_REG_YES'] = 'Kayıtlı.';
 $lang['BT_REG_NO'] = 'Kayıtlı değil.';
 $lang['BT_REG_ON_TRACKER'] = 'İzleyici kaydı.';
 $lang['BT_REG_FAIL'] = 'İzleyici torrent kaydedilemedi.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Aynı info_hash ile başka bir torrent zaten <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Aynı info_hash\'a sahip başka bir torrent zaten <a href="%s"><b>kayıtlı</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrentler şu anda yönetici tarafından devre dışı bırakıldı, izin verilen: v2 ve hibritler';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrentler şu anda yönetici tarafından devre dışı bırakıldı, izin verilen: v1 ve hibritler';
 $lang['BT_FLIST'] = 'Dosyalar listesi';
@@ -1240,7 +1240,7 @@ $lang['WEBSITE_ERROR'] = '"Site" sadece http://sitename içerebilir';
 $lang['INVALID_DATE'] = 'Geçersiz tarih';
 $lang['PROFILE_USER'] = 'Görüntüleme profili';
 $lang['GOOD_UPDATE'] = 'başarıyla değiştirildi';
-$lang['UCP_DOWNLOADS'] = 'İndir';
+$lang['UCP_DOWNLOADS'] = 'İndirilenler';
 $lang['HIDE_DOWNLOADS'] = 'Profilinizdeki mevcut indirme listesini gizle.';
 $lang['BAN_USER'] = 'Bir kullanıcıyı yasaklamak için.';
 $lang['USER_NOT_ALLOWED'] = 'Kullanıcılara izin verilmez.';
@@ -1426,14 +1426,14 @@ $lang['MODS'] = 'Değişiklikler';
 
 $lang['CONFIGURATION'] = 'Yapılandırma';
 $lang['MANAGE'] = 'Yönetim';
-$lang['DISALLOW'] = 'İzin vermemek isimleri';
+$lang['DISALLOW'] = 'İzin Verilmeyen İsimler';
 $lang['PRUNE'] = 'Budama';
 $lang['MASS_EMAIL'] = 'Toplu E-Posta';
-$lang['RANKS'] = 'Rütbeleri';
+$lang['RANKS'] = 'Rütbeler';
 $lang['SMILIES'] = 'Gülümseme';
 $lang['BAN_MANAGEMENT'] = 'Yasak Kontrol';
 $lang['WORD_CENSOR'] = 'Kelime Sansürü';
-$lang['EXPORT'] = 'İhracat';
+$lang['EXPORT'] = 'Dışa aktar';
 $lang['CREATE_NEW'] = 'Oluşturun';
 $lang['ADD_NEW'] = 'Ekle';
 $lang['CRON'] = 'Görev Zamanlayıcı (cron)';
@@ -1541,7 +1541,7 @@ $lang['SIMPLE_MODE'] = 'Basit mod';
 $lang['ADVANCED_MODE'] = 'Gelişmiş mod';
 $lang['MODERATOR_STATUS'] = 'Moderatör durumu';
 
-$lang['PUBLIC'] = 'Kamu';
+$lang['PUBLIC'] = 'Herkese açık';
 $lang['PRIVATE'] = 'Özel';
 $lang['REGISTERED'] = 'Kayıtlı';
 $lang['ADMINISTRATORS'] = 'Yönetici';
@@ -1553,15 +1553,15 @@ $lang['FORUM_PRIVATE'] = 'Özel';
 $lang['FORUM_MOD'] = 'Mod';
 $lang['FORUM_ADMIN'] = 'Yönetici';
 
-$lang['AUTH_VIEW'] = $lang['VIEW'] = 'Görünüm';
+$lang['AUTH_VIEW'] = $lang['VIEW'] = 'Görüntüle';
 $lang['AUTH_READ'] = $lang['READ'] = 'Oku';
 $lang['AUTH_POST'] = $lang['POST'] = 'Post';
 $lang['AUTH_REPLY'] = $lang['REPLY'] = 'Cevap';
 $lang['AUTH_EDIT'] = $lang['EDIT'] = 'Düzenle';
 $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Sil';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Yapışkan';
-$lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'İlan';
-$lang['AUTH_VOTE'] = $lang['VOTE'] = 'Oy';
+$lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Duyuru';
+$lang['AUTH_VOTE'] = $lang['VOTE'] = 'Oy kullan';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Anket oluştur';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Gönder dosyaları';
 $lang['AUTH_DOWNLOAD'] = 'Dosyaları indir';
@@ -1600,7 +1600,7 @@ $lang['MODS_EXPLAIN'] = 'Bu form değişiklikleri ayarlamak için izin verir.';
 $lang['CLICK_RETURN_CONFIG'] = '%sGenel yapılandırmaya geri dönmek için buraya tıklayın%s';
 $lang['CLICK_RETURN_CONFIG_MODS'] = '%sAyarları değişikliklerine geri dönmek için buraya tıklayın%s';
 
-$lang['GENERAL_SETTINGS'] = 'Genel Kurul Ayarları';
+$lang['GENERAL_SETTINGS'] = 'Genel Forum Ayarları';
 $lang['SITE_NAME'] = 'Site adı';
 $lang['SITE_DESC'] = 'Site açıklaması';
 $lang['FORUMS_DISABLE'] = 'Kurul devre dışı bırak';
@@ -1705,13 +1705,13 @@ $lang['SMILE_CONFLICTS'] = 'Çatışmalar durumunda ne yapılmalı.';
 $lang['DEL_EXISTING_SMILEYS'] = 'İçe aktarım öncesi mevcut gülümsemeleri silin.';
 $lang['IMPORT_SMILE_PACK'] = 'Gülümseme Paketini İçe Aktarın.';
 $lang['EXPORT_SMILE_PACK'] = 'Gülümseme Paketini Oluştur.';
-$lang['EXPORT_SMILES'] = 'Şu anda yüklü suratlar gülen bir paket oluşturmak için smiles indirmek için %sHere%s tıklatın.pak dosyası. Uygun olduğundan emin tutmak için bu dosya .pak dosya uzantısı. Sonra gülen görüntüleri artı bütün bunları içeren bir zip dosyası oluşturun .pak yapılandırma dosyası.';
+$lang['EXPORT_SMILES'] = 'Mevcut yüklü smiley\'lerinizden bir smiley paketi oluşturmak için smiles.pak dosyasını indirmek üzere %sHere%s öğesine tıklayın. Bu dosyaya uygun bir ad verin ve .pak dosya uzantısını koruduğunuzdan emin olun. Ardından tüm smiley resimleriniz ile bu .pak yapılandırma dosyasını içeren bir zip dosyası oluşturun.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Gülümseme başarıyla eklendi.';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Gülümseme başarıyla güncellendi.';
 $lang['SMILEY_IMPORT_SUCCESS'] = 'Gülümseme Paketi başarıyla içe aktarıldı!';
 $lang['SMILEY_DEL_SUCCESS'] = 'Gülümseme başarıyla kaldırıldı.';
-$lang['CLICK_RETURN_SMILEADMIN'] = 'Gülen İdaresi dönmek için %sHere%s tıklayın';
+$lang['CLICK_RETURN_SMILEADMIN'] = 'Smiley Yönetimine dönmek için %sHere%s tıklayın';
 
 // User Management
 $lang['USER_ADMIN'] = 'Kullanıcı Yönetimi';
@@ -1734,7 +1734,7 @@ $lang['NO_GROUP_MODE'] = 'Bu grup için açık veya kapalı bir mod belirtin.';
 $lang['NO_GROUP_ACTION'] = 'Herhangi bir eylem belirtildi.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Eski grup moderatör silinecek mi?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Eski moderatörü silmek için bu kutuyu işaretleyin.';
-$lang['CLICK_RETURN_GROUPSADMIN'] = 'Yönetim Grubu dönmek için %sHere%s tıklatın.';
+$lang['CLICK_RETURN_GROUPSADMIN'] = 'Grup Yönetimine dönmek için %sHere%s tıklayın.';
 $lang['SELECT_GROUP'] = 'Bir grup seçin';
 $lang['LOOK_UP_GROUP'] = 'Grubu ara.';
 
@@ -1900,7 +1900,7 @@ $lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Ekler için maksimum dosya boyutu. 0 de�
 $lang['MAX_FILESIZE_PM'] = 'Özel Mesajlar Klasöründe Maksimum Dosya Boyutu';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimum Disk Alanı Eklerin her Kullanıcının Özel Mesaj kutusu. 0 değeri \'sınırsız\' anlamına gelir.';
 
-$lang['MAX_ATTACHMENTS'] = 'Eklerin Sayısı';
+$lang['MAX_ATTACHMENTS'] = 'Maksimum Ek Sayısı';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Bir mesajda izin verilen maksimum ek sayısı.';
 $lang['MAX_ATTACHMENTS_PM'] = 'Bir Özel Mesajda Eklerin maksimum sayısı.';
 $lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Kullanıcının özel bir mesaja dahil edilmesine izin verilen eklerin maximum sayısını tanımlayın.';
@@ -2174,7 +2174,7 @@ $lang['INFO_PROCESSING_STOPPED'] = 'Son işlem (%s işlenmiş mesajlar) post_id 
 $lang['INFO_PROCESSING_ABORTED'] = 'Son işlem (%s işlenmiş mesajlar) post_id %s \'% de %s iptal edildi.';
 $lang['INFO_PROCESSING_ABORTED_SOON'] = 'Devam etmeden önce birkaç dakika bekleyin.';
 $lang['INFO_PROCESSING_FINISHED'] = 'Başarıyla %s (%s işlenmiş mesajlar) işlem tamamlandı';
-$lang['INFO_PROCESSING_FINISHED_NEW'] = 'Başarıyla (%s işlenmiş mesajlar) post_id %s de %s üzerinde işlem bittiğinde,<br />but bu tarihten sonra(s) %s yeni mesaj var';
+$lang['INFO_PROCESSING_FINISHED_NEW'] = 'post_id %s (%s işlenmiş mesaj) üzerinde %s tarihinde işlemi başarıyla tamamladınız,<br />ancak o tarihten sonra %s yeni mesaj eklendi';
 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Arama İlerleme Yeniden';
@@ -2225,7 +2225,7 @@ $lang['BOT_TOPIC_SPLITS'] = 'Konu [b]%s[/b][br][br]%s arasında bölünmüş';
 $lang['CALLSEED'] = 'Tohumları ara';
 $lang['CALLSEED_EXPLAIN'] = 'Dağıtım için geri dönme isteği ile not alın.';
 $lang['CALLSEED_SUBJECT'] = '%s yardımını indirin.';
-$lang['CALLSEED_TEXT'] = 'Merhaba![br]Your yardım etmeye karar, ama zaten torrent dosyası silinmiş %s[/url][br]if %s [url=] açıklamasında, yardımın için %s [url=] this[/url][br][br]i umut indirebilirsiniz gereklidir.';
+$lang['CALLSEED_TEXT'] = 'Merhaba![br]Yayıma yardımınıza ihtiyaç var: [url=%s]%s[/url][br]Yardım etmeye karar verirseniz ancak torrent dosyasını zaten sildiyseniz, onu [url=%s]buradan[/url] indirebilirsiniz.[br][br]Yardımınızı umuyorum!';
 $lang['CALLSEED_MSG_OK'] = 'Mesaj, bu sürümü indiren tüm kullanıcılara gönderildi.';
 $lang['CALLSEED_MSG_SPAM'] = 'İstek bir kez başarıyla gönderildi (Muhtemelen size ait değil).<br /><br />Bir sonraki istek gönderme fırsatı <b>%s</b> olacaktır.';
 $lang['CALLSEED_HAVE_SEED'] = 'Konu (<b>Seeders:</b> %d) yardım gerektirmiyor.';
@@ -2355,8 +2355,8 @@ $lang['AFTER_THE_LAST'] = 'sonra son.';
 $lang['BEFORE'] = 'Önce.';
 $lang['AFTER'] = 'Sonra.';
 $lang['SEARCH_USERS_JOINED_EXPLAIN'] = '(ve) önce veya sonra belirli bir tarihte katılmak için kullanıcı arama.';
-$lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Seçili grubun tüm üyeleri görüntüleyin.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Seçilen rütbe tüm taşıyıcı görüntüleyin.';
+$lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Seçili grubun tüm üyelerini görüntüleyin.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Seçilen rütbeye sahip tüm üyeleri görüntüleyin.';
 $lang['BANNED_USERS'] = 'Yasaklı Kullanıcılar';
 $lang['DISABLED_USERS'] = 'Engelli Kullanıcılar';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Yöneticiler - Yönetici yetkilerine sahip tüm kullanıcılar; Moderatörler - Tüm forum moderatörleri; Yasaklanan Kullanıcılar - Bu forumlarda yasaklanan tüm hesaplar; Devre Dışı Bırakılmış Kullanıcılar - Hesapları devre dışı bırakılmış tüm kullanıcılar (manuel olarak devre dışı bırakılmış veya e-posta adreslerini hiç doğrulamamış); Özel Mesajları devre dışı bırakılmış kullanıcılar - Özel Mesaj ayrıcalıkları kaldırılmış olan kullanıcıları seçer (Kullanıcı Yönetimi aracılığıyla yapılır)';
