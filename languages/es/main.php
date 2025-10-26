@@ -1104,7 +1104,7 @@ $lang['BONUS_UPLOAD_DESC'] = '<b>%s a distribución</b> <br /> Para intercambiar
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Precio';
 $lang['EXCHANGE_NOT'] = 'El intercambio no disponible';
-$lang['BONUS_SUCCES'] = 'A usted que se ha alistado %s';
+$lang['BONUS_SUCCES'] = 'Se le ha inscrito correctamente %s';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">No tiene bonificaciones disponibles. ¡Más siembra!</span>';
 $lang['BONUS_RETURN'] = 'Volver al intercambio de bonos de siembra.';
 
@@ -1332,7 +1332,7 @@ $lang['RIGHT'] = 'A la derecha';
 $lang['CENTER'] = 'Centrado';
 $lang['JUSTIFY'] = 'Ajuste a la anchura';
 $lang['HOR_LINE'] = 'Línea Horizontal (Ctrl+8)';
-$lang['NEW_LINE'] = 'La nueva línea de';
+$lang['NEW_LINE'] = 'Nueva línea';
 $lang['BOLD'] = 'El texto en negrita: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'Texto en cursiva: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = 'Subrayar texto: [u]text[/u] (Ctrl+U)';
@@ -1704,7 +1704,7 @@ $lang['SMILE_CONFLICTS'] = 'Qué hacer en caso de conflictos.';
 $lang['DEL_EXISTING_SMILEYS'] = 'Eliminar los emoticonos existentes antes de la importación.';
 $lang['IMPORT_SMILE_PACK'] = 'Importación de paquete de emoticono.';
 $lang['EXPORT_SMILE_PACK'] = 'Crear paquete de emoticonos.';
-$lang['EXPORT_SMILES'] = 'Para crear un smiley pack instalado actualmente emoticonos, haga clic en %sHere%s para descargar las sonrisas.pak archivo. El nombre de este archivo correctamente, asegurándose de mantener la .pak extensión de archivo. A continuación, cree un archivo zip que contiene todos los de su carita de imágenes además de este .pak archivo de configuración.';
+$lang['EXPORT_SMILES'] = 'Para crear un paquete de emoticonos a partir de los emoticonos actualmente instalados, haga clic en %sAquí%s para descargar el archivo smiles.pak. Nombre este archivo adecuadamente, asegurándose de mantener la extensión .pak. A continuación, cree un archivo zip que contenga todas las imágenes de sus emoticonos junto con este archivo de configuración .pak.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'El Smiley se ha añadido correctamente';
 $lang['SMILEY_EDIT_SUCCESS'] = 'El Smiley se ha actualizado correctamente';
@@ -2291,9 +2291,9 @@ $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Debe ser URL https://';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'poner en el asunto';
 $lang['TPL_POSTER'] = 'cartel';
 $lang['TPL_REQ_FILLING'] = 'requiere ser llenado';
-$lang['TPL_NEW_LINE'] = 'la nueva línea de';
+$lang['TPL_NEW_LINE'] = 'nueva línea';
 $lang['TPL_NEW_LINE_AFTER'] = 'nueva línea después del título';
-$lang['TPL_NUM'] = 'número de';
+$lang['TPL_NUM'] = 'número';
 $lang['TPL_URL'] = 'URL';
 $lang['TPL_IMG'] = 'imagen';
 $lang['TPL_PRE'] = 'pre';
