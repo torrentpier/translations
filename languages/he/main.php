@@ -792,46 +792,9 @@ $lang['LOOKUP_IP'] = 'לחפש כתובת ה-IP';
 // Timezones ... for display on each page
 $lang['ALL_TIMES'] = 'כל הזמנים הם <span class="tz_time">%s</span>'; // This is followed by UTC and the timezone offset
 
+// Friendly dates (used in bb_date function)
 $lang['DATETIME']['TODAY'] = 'היום';
 $lang['DATETIME']['YESTERDAY'] = 'אתמול';
-
-$lang['DATETIME']['SUNDAY'] = '';
-$lang['DATETIME']['MONDAY'] = '';
-$lang['DATETIME']['TUESDAY'] = '';
-$lang['DATETIME']['WEDNESDAY'] = '';
-$lang['DATETIME']['THURSDAY'] = '';
-$lang['DATETIME']['FRIDAY'] = '';
-$lang['DATETIME']['SATURDAY'] = '';
-$lang['DATETIME']['SUN'] = '';
-$lang['DATETIME']['MON'] = '';
-$lang['DATETIME']['TUE'] = '';
-$lang['DATETIME']['WED'] = '';
-$lang['DATETIME']['THU'] = '';
-$lang['DATETIME']['FRI'] = '';
-$lang['DATETIME']['SAT'] = '';
-$lang['DATETIME']['JANUARY'] = '';
-$lang['DATETIME']['FEBRUARY'] = '';
-$lang['DATETIME']['MARCH'] = '';
-$lang['DATETIME']['APRIL'] = '';
-$lang['DATETIME']['MAY'] = '';
-$lang['DATETIME']['JUNE'] = '';
-$lang['DATETIME']['JULY'] = '';
-$lang['DATETIME']['AUGUST'] = '';
-$lang['DATETIME']['SEPTEMBER'] = '';
-$lang['DATETIME']['OCTOBER'] = '';
-$lang['DATETIME']['NOVEMBER'] = '';
-$lang['DATETIME']['DECEMBER'] = '';
-$lang['DATETIME']['JAN'] = '';
-$lang['DATETIME']['FEB'] = '';
-$lang['DATETIME']['MAR'] = '';
-$lang['DATETIME']['APR'] = '';
-$lang['DATETIME']['JUN'] = '';
-$lang['DATETIME']['JUL'] = '';
-$lang['DATETIME']['AUG'] = '';
-$lang['DATETIME']['SEP'] = '';
-$lang['DATETIME']['OCT'] = '';
-$lang['DATETIME']['NOV'] = '';
-$lang['DATETIME']['DEC'] = '';
 
 // Country selector
 $lang['COUNTRY'] = 'מדינה';
