@@ -34,9 +34,9 @@ $lang['MESSAGE'] = 'Zpráva';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Oprávnění';
 $lang['TYPE'] = 'Typ';
-$lang['SEEDER'] = 'Secí stroj';
-$lang['LEECHER'] = 'Felčar';
-$lang['RELEASER'] = 'Uvolňovač';
+$lang['SEEDER'] = 'Seedér';
+$lang['LEECHER'] = 'Stahovač';
+$lang['RELEASER'] = 'Vydavatel';
 
 $lang['1_DAY'] = '1 Den';
 $lang['7_DAYS'] = '7 Dní';
@@ -86,7 +86,7 @@ $lang['TWITTER_ERROR'] = 'Zadali jste neplatné přihlašovací údaje pro Twitt
 $lang['FORUM_INDEX'] = '%s Fórum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
 $lang['POST_NEW_TOPIC'] = 'Odeslat nové téma';
-$lang['POST_NEW_RELEASE'] = 'Příspěvek nová verze';
+$lang['POST_NEW_RELEASE'] = 'Zveřejnit novou verzi';
 $lang['REPLY_TO_TOPIC'] = 'Odpověď na téma';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Klikněte %s Zde %s k návratu k tématu'; // %s's here are for uris, do not remove!
@@ -103,7 +103,7 @@ $lang['BOARD_DISABLE_CRON'] = 'Fórum je vypnuto pro údržbu';
 $lang['ADMIN_DISABLE'] = 'Fórum je zakázáno správcem. Můžete ho kdykoli povolit';
 $lang['ADMIN_DISABLE_CRON'] = 'Fórum zamčeno spouštěčem cron jobu. Zámek můžete kdykoli odstranit';
 $lang['ADMIN_DISABLE_TITLE'] = 'Fórum je zakázáno';
-$lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fórum je pro údržbu';
+$lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fórum je v údržbě';
 $lang['ADMIN_UNLOCK'] = 'Povolit fórum';
 $lang['ADMIN_UNLOCKED'] = 'Odemčený';
 $lang['ADMIN_UNLOCK_CRON'] = 'Odstranit zámek';
@@ -546,7 +546,7 @@ $lang['PROFILE_UPDATED'] = 'Váš profil byl aktualizován';
 $lang['PROFILE_UPDATED_INACTIVE'] = 'Váš profil byl aktualizován. Nicméně, změnili jste důležité údaje, a váš účet je nyní neaktivní. Zkontrolujte svůj e-mail, jak znovu aktivovat svůj účet, nebo pokud je zapotřebí aktivace správcem, počkejte, až správce aktivuje účet.';
 
 $lang['PASSWORD_LONG'] = 'Vaše heslo nesmí být delší než %d znaků a kratší než %d znaků.';
-$lang['USERNAME_TAKEN'] = 'Omlouvám se, ale toto uživatelské jméno již bylo přijato.';
+$lang['USERNAME_TAKEN'] = 'Toto uživatelské jméno je již obsazeno.';
 $lang['USERNAME_INVALID'] = 'Omlouvám se, ale toto uživatelské jméno obsahuje neplatný znak.';
 $lang['USERNAME_DISALLOWED'] = 'Omlouvám se, ale toto uživatelské jméno je zakázáno.';
 $lang['USERNAME_TOO_LONG'] = 'Vaše jméno je příliš dlouhé.';
@@ -735,7 +735,7 @@ $lang['HIDE'] = 'skrýt.';
 $lang['SORRY_AUTH_VIEW'] = 'Omlouváme se, ale pouze %s může prohlížet toto fórum.';
 $lang['SORRY_AUTH_READ'] = 'Omlouváme se, ale pouze %s mohou číst témata v tomto fóru.';
 $lang['SORRY_AUTH_REPLY'] = 'Omlouváme se, ale pouze %s mohou odpovídat na příspěvky v tomto fóru.';
-$lang['SORRY_AUTH_EDIT'] = 'Omlouváme se, ale pouze %s můžete upravovat své příspěvky v tomto fóru.';
+$lang['SORRY_AUTH_EDIT'] = 'Omlouváme se, ale pouze %s mohou upravovat příspěvky v tomto fóru.';
 $lang['SORRY_AUTH_DELETE'] = 'Omlouváme se, ale pouze %s mohou mazat příspěvky v tomto fóru.';
 
 // These replace the %s in the above strings
@@ -896,7 +896,7 @@ $lang['BT_REG_YES'] = 'Registrován';
 $lang['BT_REG_NO'] = 'Není registrován';
 $lang['BT_REG_ON_TRACKER'] = 'Zaregistrujte se na tracker';
 $lang['BT_REG_FAIL'] = 'Nemohl zaregistrovat torrent na tracker';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Další torrent se stejným info_hash již <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Další torrent se stejným info_hash je již <a href="%s"><b>registrován</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Torrenty pouze v1 byly v tuto chvíli administrátorem zakázány, povolené: v2 a hybridy';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Torrenty pouze v2 byly v tuto chvíli administrátorem zakázány, povolené: v1 a hybridy';
 $lang['BT_FLIST'] = 'Seznam souborů';
@@ -910,7 +910,7 @@ $lang['BT_FLIST_LINK_TITLE'] = 'Hash souboru | .torrent meta-informace';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Odstranit z trackeru.';
 $lang['BT_UNREGISTERED'] = 'Torrent není registrován.';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrent již byl odregistrován';
-$lang['BT_REGISTERED'] = 'Torrent registrované na tracker<br /><br />Now musíte <a href="%s"><b>download vaše torrent</b></a> a spusťte jej pomocí BitTorrent klient výběru složky s původní soubory, které jste sdílení jako cesta ke stažení';
+$lang['BT_REGISTERED'] = 'Torrent byl zaregistrován na trackeru<br /><br />Nyní si musíte <a href="%s"><b>stáhnout svůj torrent</b></a> a spustit jej ve svém BitTorrent klientu, přičemž jako cestu pro stahování vyberte složku s původními soubory, které sdílíte';
 $lang['INVALID_ANN_URL'] = 'Neplatná Oznámit URL [%s]<br /><br />musí být <b>%s</b>.';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'Nelze přidat passkey<br /><br />Torrent není registrován na tracker.';
 $lang['BT_PASSKEY'] = 'Klíč.';
@@ -926,7 +926,7 @@ $lang['SPEED_DOWN'] = 'Rychlost dolů.';
 
 $lang['SEEDERS'] = 'Secí stroje';
 $lang['LEECHERS'] = 'Leech';
-$lang['RELEASING'] = 'Já';
+$lang['RELEASING'] = 'Vlastní';
 $lang['SEEDING'] = 'Semeno';
 $lang['LEECHING'] = 'Pijavice';
 $lang['IS_REGISTERED'] = 'Registrován';
@@ -944,15 +944,15 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'není kontrolována',
     TOR_CLOSED => 'zavřeno',
     TOR_APPROVED => 'zkontrolováno',
-    TOR_NEED_EDIT => 'není formálně až do',
+    TOR_NEED_EDIT => 'nebude formálně potvrzeno do',
     TOR_NO_DESC => 'není formálně',
     TOR_DUP => 'duplikát',
     TOR_CLOSED_CPHOLD => 'uzavřený (autorská práva)',
-    TOR_CONSUMED => 'vstřebává',
+    TOR_CONSUMED => 'sloučeno',
     TOR_DOUBTFUL => 'pochybné',
     TOR_CHECKING => 'je kontrolováno',
     TOR_TMP => 'dočasné',
-    TOR_PREMOD => 'pre-moderování',
+    TOR_PREMOD => 'předmoderace',
     TOR_REPLENISH => 'doplnění',
 ];
 $lang['TOR_STATUS_FAILED'] = 'All provided translations are incorrect; please provide correct translations.';
@@ -1000,7 +1000,7 @@ $lang['UNSET_GOLD_TORRENT'] = 'Zrušit zlato';
 $lang['SET_SILVER_TORRENT'] = 'Stříbrný.';
 $lang['UNSET_SILVER_TORRENT'] = 'Zrušit stříbro';
 $lang['GOLD_STATUS'] = 'ZLATÝ TORRENT! KE STAŽENÍ DOPRAVNÍ NEPOVAŽUJE!';
-$lang['SILVER_STATUS'] = 'STŘÍBRNÉ TORRENT! KE STAŽENÍ DOPRAVNÍ ČÁSTEČNĚ ZA TO!';
+$lang['SILVER_STATUS'] = 'STŘÍBRNÝ TORRENT! STAHOVACÍ PROVOZ JE ČÁSTEČNĚ ZOHLEDNĚN!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Typ torrentu změněn na: %s';
 
 $lang['TORRENT_STATUS'] = 'Hledat podle statusu vydání';
@@ -1064,7 +1064,7 @@ $lang['SEARCH_DL_WILL'] = 'Plánované';
 $lang['SEARCH_DL_WILL_DOWNLOADS'] = 'Plánované Stažení';
 $lang['SEARCH_DL_DOWN'] = 'Aktuální';
 $lang['SEARCH_DL_COMPLETE'] = 'Dokončeno';
-$lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Dokončená Stahování';
+$lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Dokončené stahování';
 $lang['SEARCH_DL_CANCEL'] = 'Zrušen';
 $lang['CUR_DOWNLOADS'] = 'Aktuální Soubory ke stažení';
 $lang['CUR_UPLOADS'] = 'Aktuální Nahrávky';
@@ -1090,7 +1090,7 @@ $lang['MAX_SPEED'] = 'Rychlost';
 $lang['DOWNLOADED'] = 'Staženo';
 $lang['UPLOADED'] = 'Nahráno';
 $lang['RELEASED'] = 'Vydáno';
-$lang['BONUS'] = 'Na vzácné';
+$lang['BONUS'] = 'Vzácně';
 $lang['IT_WILL_BE_DOWN'] = 'Bude považováno až po stažení.';
 $lang['SPMODE_FULL'] = 'Zobrazit vrstevníky v plných detailech.';
 
@@ -1159,7 +1159,7 @@ $lang['TOPICS_STICKY'] = 'Stickies';
 $lang['TOPICS_NORMAL'] = 'Témata';
 
 //dpc
-$lang['DOUBLE_POST_ERROR'] = 'Nemůžete provést další příspěvek s přesně stejný text jako vaše poslední.';
+$lang['DOUBLE_POST_ERROR'] = 'Nemůžete udělat další příspěvek se stejným textem jako váš poslední.';
 
 //upt
 $lang['UPDATE_POST_TIME'] = 'Aktualizace příspěvku.';
@@ -1255,12 +1255,12 @@ $lang['USER_DELETE'] = 'Odstranit.';
 $lang['USER_DELETE_EXPLAIN'] = 'Odstranit tohoto uživatele.';
 $lang['USER_DELETE_ME'] = 'Omlouváme se, váš účet je zakázáno odstraňovat.';
 $lang['USER_DELETE_CSV'] = 'Omlouváme se, tento účet není povolen k odstranění.';
-$lang['USER_DELETE_CONFIRM'] = 'Jsou si jisti, že chcete smazat tohoto uživatele?';
+$lang['USER_DELETE_CONFIRM'] = 'Jste si jisti, že chcete smazat tohoto uživatele?';
 $lang['USER_DELETED'] = 'Uživatel byl úspěšně smazán.';
 $lang['DELETE_USER_ALL_POSTS'] = 'Odstranit všechny uživatelské příspěvky.';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Jsou si jisti, že chcete odstranit všechny zprávy a všechna témata, která začal tento uživatel?';
 $lang['DELETE_USER_POSTS'] = 'Odstranit všechny zprávy, kromě prvních příspěvků';
-$lang['DELETE_USER_POSTS_ME'] = 'Jsou si jisti, že chcete odstranit všechny mé příspěvky?';
+$lang['DELETE_USER_POSTS_ME'] = 'Jste si jisti, že chcete odstranit všechny mé příspěvky?';
 $lang['DELETE_USER_POSTS_CONFIRM'] = 'Jste si jisti, že chcete odstranit všechny zprávy, kromě prvních příspěvků?';
 $lang['USER_DELETED_POSTS'] = 'Příspěvky byly úspěšně odstraněny.';
 
@@ -1328,7 +1328,7 @@ $lang['NEW_WINDOW'] = 'v novém okně';
 // BB Code
 $lang['ALIGN'] = 'Zarovnat:';
 $lang['LEFT'] = 'Vlevo';
-$lang['RIGHT'] = 'Doprava';
+$lang['RIGHT'] = 'Vpravo';
 $lang['CENTER'] = 'Střed';
 $lang['JUSTIFY'] = 'Přizpůsobit šířce';
 $lang['HOR_LINE'] = 'Horizontální řádek (Ctrl+8)';
@@ -1341,8 +1341,8 @@ $lang['BOX_TAG'] = 'Rámeček kolem textu: [box]text[/box] nebo [box=#333,#888]t
 $lang['INDENT_TAG'] = 'Vložit odsazení: [indent]text[/indent]';
 $lang['PRE_TAG'] = 'Formátovaný text: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
-$lang['SUPERSCRIPT'] = 'Nadpisový text: [sup]text[/sup]';
-$lang['SUBSCRIPT'] = 'Podpisový text: [sub]text[/sub]';
+$lang['SUPERSCRIPT'] = 'Horní index: [sup]text[/sup]';
+$lang['SUBSCRIPT'] = 'Dolní index: [sub]text[/sub]';
 $lang['QUOTE_TITLE'] = 'Citace textu: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Vložit obrázek: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'URL';
@@ -1561,7 +1561,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Odstranit';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Lepkavé';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Oznámit';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Hlasování';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Anketa vytvořit';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Vytvořit anketu';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Příspěvky soubory';
 $lang['AUTH_DOWNLOAD'] = 'Soubory ke stažení';
 
@@ -1704,7 +1704,7 @@ $lang['SMILE_CONFLICTS'] = 'Co by mělo být provedeno v případě konfliktů.'
 $lang['DEL_EXISTING_SMILEYS'] = 'Odstranit existující smajlíky.';
 $lang['IMPORT_SMILE_PACK'] = 'Importovat balíček smajlíků.';
 $lang['EXPORT_SMILE_PACK'] = 'Vytvořit balíček smajlíků.';
-$lang['EXPORT_SMILES'] = 'Vytvořit smiley pack z vašeho aktuálně nainstalované smajlíky, klepněte na tlačítko %sHere%s ke stažení úsměvy.pak soubor. Název tohoto souboru vhodně ujistěte se, že udržet .pak soubor rozšíření. Pak vytvořte soubor zip obsahující všechny vaše smiley obrázky plus .pak konfigurační soubor.';
+$lang['EXPORT_SMILES'] = 'Chcete-li vytvořit balíček smajlíků z aktuálně nainstalovaných smajlíků, klikněte %sZde%s pro stažení souboru smiles.pak. Tento soubor pojmenujte vhodně a zachovejte příponu .pak. Poté vytvořte zip soubor obsahující všechny obrázky smajlíků a tento konfigurační soubor .pak.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Smajlík byl úspěšně přidán';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Smajlík byl aktualizován úspěšně';
@@ -1900,7 +1900,7 @@ $lang['MAX_FILESIZE_PM'] = 'Maximální velikost souboru v soukromé zprávě.';
 $lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximální diskový prostor, který mohou přílohy využít v každé soukromé zprávě uživatele.';
 
 $lang['MAX_ATTACHMENTS'] = 'Maximální Počet Příloh';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maximální počet příloh povoleno v jednom příspěvku.';
+$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maximální počet příloh povolených v jednom příspěvku.';
 $lang['MAX_ATTACHMENTS_PM'] = 'Maximální počet příloh v jednom soukromé zprávě.';
 $lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Definujte maximální počet příloh, které může uživatel zahrnout do soukromé zprávy.';
 
@@ -2140,7 +2140,7 @@ $lang['REBUILD_SEARCH'] = 'Znovu Sestavit Vyhledávací Index';
 $lang['REBUILD_SEARCH_DESC'] = 'Tento mod bude indexovat každý příspěvek ve vašem fóru, přestavbou vyhledávacích tabulek. Můžete přestat kdykoli chcete, a při dalším spuštění obdržíte možnost pokračovat tam, kde jste skončili.<br /><br />Může trvat dlouho, než se zobrazí jeho pokrok (v závislosti na "Příspěvcích na cyklus" a "Časovém limitu"), tak prosím, nepohybujte se z jeho pokrokové stránky, dokud není dokončeno, pokud samozřejmě nechcete jej přerušit.';
 
 // Input screen
-$lang['STARTING_POST_ID'] = 'Začíná post_id';
+$lang['STARTING_POST_ID'] = 'Počáteční ID příspěvku';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'První příspěvek, odkud zpracování začne<br />Můžete si vybrat, zda začnete od začátku nebo od příspěvku, který jste naposledy zastavili.';
 
 $lang['START_OPTION_BEGINNING'] = 'začít od začátku';
@@ -2169,13 +2169,13 @@ $lang['DISABLE_BOARD'] = ' Zakázat fórum';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Jste naposledy zastavili zpracování na post_id %s (%s zpracované příspěvky) na %s';
-$lang['INFO_PROCESSING_ABORTED'] = 'Ty poslední přerušena zpracování na post_id %s (%s zpracované příspěvky) na %s';
+$lang['INFO_PROCESSING_ABORTED'] = 'Zpracování jste naposledy přerušili na post_id %s (%s zpracovaných příspěvků) dne %s';
 $lang['INFO_PROCESSING_ABORTED_SOON'] = 'Prosím, vyčkejte několik minut, než budete pokračovat...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Úspěšně jste dokončili zpracování (%s zpracované příspěvky) na %s';
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Úspěšně jste dokončili zpracování na post_id %s (%s zpracované příspěvky) na %s,<br />ale po této datu bylo %s nových příspěvků.';
 
 // Progress screen
-$lang['REBUILD_SEARCH_PROGRESS'] = 'Znovu Hledat Pokrok';
+$lang['REBUILD_SEARCH_PROGRESS'] = 'Průběh obnovy vyhledávání';
 
 $lang['PROCESSED_POST_IDS'] = 'Zpracované ID příspěvků : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Časovač vypršela na %s sekund. ';
@@ -2192,7 +2192,7 @@ $lang['CURRENT_SESSION'] = 'Aktuální Relace';
 $lang['TOTAL'] = 'Celkem';
 
 $lang['PROCESS_DETAILS'] = 'z <b>%s</b> na <b>%s</b> (z celkem <b>%s</b>)';
-$lang['PERCENT_COMPLETED'] = '%s %% dokončena';
+$lang['PERCENT_COMPLETED'] = '%s %% dokončeno';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Aktuální relace podrobností.';
 $lang['PROCESSING_TIME'] = 'Doba zpracování';
@@ -2331,7 +2331,7 @@ $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Hledat pro uživatele s příspěvky v�
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Hledat pro uživatele s příspěvky menší než %d.';
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Hledat pro uživatele s příspěvky mezi %d a %d.';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Hledat pro uživatele s příspěvky, které mají hodnotu %d.';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Hledání uživatelů se Twitter odpovídající %s';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Hledání uživatelů s X (Twitter) odpovídajícím %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Hledání uživatelů se shodujícími webovými stránkami %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Hledat pro uživatele s polohou odpovídající %s.';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Hledání uživatelů s jejich zájmy odpovídající %s.';
