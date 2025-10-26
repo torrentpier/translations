@@ -468,7 +468,7 @@ $lang['INTERESTS'] = 'Intressen';
 $lang['OCCUPATION'] = 'Yrke';
 $lang['POSTER_RANK'] = 'Affischrang';
 $lang['AWARDED_RANK'] = 'Tilldelad rang';
-$lang['SHOT_RANK'] = 'Skott rang';
+$lang['SHOT_RANK'] = 'Skottrang';
 
 $lang['TOTAL_POSTS'] = 'Totalt inlägg';
 $lang['SEARCH_USER_POSTS'] = 'Hitta inlägg'; // Find all posts by username
@@ -1364,7 +1364,7 @@ $lang['OLD'] = 'Gamlast';
 
 // DL-List
 $lang['DL_USER'] = 'Användarnamn';
-$lang['DL_PERCENT'] = 'Komplett procent';
+$lang['DL_PERCENT'] = 'Slutfört procent';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL.';
 $lang['DL_UL_SPEED'] = 'UL hastighet';
@@ -1426,7 +1426,7 @@ $lang['MODS'] = 'Ändringar';
 $lang['CONFIGURATION'] = 'Konfiguration';
 $lang['MANAGE'] = 'Förvaltning';
 $lang['DISALLOW'] = 'Förbjudna namn';
-$lang['PRUNE'] = 'Beskärning';
+$lang['PRUNE'] = 'Rensning';
 $lang['MASS_EMAIL'] = 'Massutskick av e-post';
 $lang['RANKS'] = 'Rangordningar';
 $lang['SMILIES'] = 'Smilys';
@@ -1610,7 +1610,7 @@ $lang['ACC_ADMIN'] = 'Admin';
 
 $lang['ABILITIES_SETTINGS'] = 'Användarens och Forum Grundläggande Inställningar';
 $lang['MAX_POLL_OPTIONS'] = 'Max antal omröstningsalternativ';
-$lang['FLOOD_INTERVAL'] = 'Översvämning Intervall';
+$lang['FLOOD_INTERVAL'] = 'Flood-intervall';
 $lang['FLOOD_INTERVAL_EXPLAIN'] = 'Antalet sekunder som en användare måste vänta mellan inlägg';
 $lang['TOPICS_PER_PAGE'] = 'Ämnen Per Sida';
 $lang['POSTS_PER_PAGE'] = 'Inlägg Per Sida';
@@ -1704,7 +1704,7 @@ $lang['SMILE_CONFLICTS'] = 'Vad ska göras vid konflikter.';
 $lang['DEL_EXISTING_SMILEYS'] = 'Ta bort befintliga smilies innan import.';
 $lang['IMPORT_SMILE_PACK'] = 'Importera Smiley-pack.';
 $lang['EXPORT_SMILE_PACK'] = 'Skapa Smiley-Pack';
-$lang['EXPORT_SMILES'] = 'För att skapa en smiley pack från dina installerade smileys, klicka %sHere%s för att hämta ler.pak-fil. Namnge den här filen på lämpligt sätt se till att hålla den .pak file extension. Skapa sedan en zip-fil som innehåller alla av din smiley bilder plus detta .pak konfigurationsfilen.';
+$lang['EXPORT_SMILES'] = 'För att skapa ett smiley‑paket från dina nuvarande installerade smileys, klicka %sHär%s för att ladda ner filen smiles.pak. Döp filen lämpligt och behåll filändelsen .pak. Skapa sedan en zip-fil som innehåller alla smileybilder samt denna .pak‑konfigurationsfil.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Smiley har lagts till framgång';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Smiley har uppdaterats';
@@ -1779,7 +1779,7 @@ $lang['RANKS_EXPLAIN'] = 'Genom detta formulär kan du lägga till, redigera, vi
 
 $lang['ADD_NEW_RANK'] = 'Lägg till ny rank';
 $lang['RANK_TITLE'] = 'Ranktitel';
-$lang['STYLE_COLOR'] = 'Stil rang';
+$lang['STYLE_COLOR'] = 'Stilrang';
 $lang['STYLE_COLOR_FAQ'] = 'Ange en klass för att styla titeln med önskad färg. Till exempel: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Rankbild';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Använd detta för att definiera en liten bild kopplad till rang.';
@@ -2206,7 +2206,7 @@ $lang['SIZE_SEARCH_TABLES'] = 'Storlek på söktabeller';
 
 $lang['POSTS_LAST_CYCLE'] = 'Bearbetade inlägg på sista cykeln';
 
-$lang['INFO_ESTIMATED_VALUES'] = '(*) Alla beräknade värden är beräknade approximately<br />based på den aktuella klar procent och får inte representera den faktiska slutliga värden.<br />As avslutade procent ökar de beräknade värdena kommer att komma närmare den faktiska och kära.';
+$lang['INFO_ESTIMATED_VALUES'] = '(*) Alla uppskattade värden är beräknade ungefärligt<br />baserat på den aktuella andelen slutfört och kanske inte återspeglar de faktiska slutvärdena.<br />När andelen slutfört ökar kommer de uppskattade värdena att närma sig de verkliga.';
 
 $lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Klicka %shär%s för att återgå till att återuppbygga sökande';
 $lang['REBUILD_SEARCH_ABORTED'] = 'Återuppbyggnad av sök avbröts vid post_id %s.<br /><br />Om du avbröt medan behandlingen var aktiv, måste du vänta några minuter innan du kan återuppbygga sökningen igen, så att den sista cykeln blir färdig.';
@@ -2288,8 +2288,8 @@ $lang['TPL_EMPTY_SEL'] = 'Du måste välja <b>%s</b>';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - Inte ett nummer';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Måste vara https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Måste vara https:// IMG_URL';
-$lang['TPL_PUT_INTO_SUBJECT'] = 'lägg till ämnet';
-$lang['TPL_POSTER'] = 'affisch';
+$lang['TPL_PUT_INTO_SUBJECT'] = 'lägg i ämnesraden';
+$lang['TPL_POSTER'] = 'inläggsförfattare';
 $lang['TPL_REQ_FILLING'] = 'kräver ifyllande';
 $lang['TPL_NEW_LINE'] = 'ny linje';
 $lang['TPL_NEW_LINE_AFTER'] = 'ny linje efter titeln';
@@ -2322,7 +2322,7 @@ $lang['SEARCH_FOR_EMAIL'] = 'Söker e-postadresser som matchar %s';
 $lang['SEARCH_FOR_IP'] = 'Söker IP-adresser som matchar %s';
 $lang['SEARCH_FOR_DATE'] = 'Söker användare som gick med %s %d/%d/%d';
 $lang['SEARCH_FOR_GROUP'] = 'Söker efter gruppmedlemmar %s';
-$lang['SEARCH_FOR_RANK'] = 'Söker bärare av rang %s';
+$lang['SEARCH_FOR_RANK'] = 'Söker användare med rang %s';
 $lang['SEARCH_FOR_BANNED'] = 'Söker efter bannade användare';
 $lang['SEARCH_FOR_ADMINS'] = 'Söker efter administratörer';
 $lang['SEARCH_FOR_MODS'] = 'Söker efter moderatorer';
@@ -2354,7 +2354,7 @@ $lang['BEFORE'] = 'Före';
 $lang['AFTER'] = 'Efter';
 $lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Sök efter användare som registrerat sig före eller efter (och på) ett specifikt datum. Datumformatet är ÅÅÅÅ/MM/DD.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Visa alla medlemmar i den valda gruppen.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Visa alla bärare av den valda rang.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Visa alla användare med den valda rangen.';
 $lang['BANNED_USERS'] = 'Bannade användare';
 $lang['DISABLED_USERS'] = 'Funktionshindrade användare';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Administratörer - Alla användare med administratörsbehörigheter; Moderatorer - Alla forummoderatorer; Bannade användare - Alla konton som har blivit bannade på dessa forum; Inaktiverade användare - Alla användare med inaktiverade konton (antingen manuellt inaktiverade eller aldrig verifierade sin e-postadress); Användare med inaktiverade PM - Välja användare som har fått sina privata meddelanden borttagna (Gjord via Användarhantering)';
@@ -2431,7 +2431,7 @@ $lang['SITEMAP_ADD_EXP_1'] = 'Du kan ange ytterligare sidor på din webbplats so
 $lang['SITEMAP_ADD_EXP_2'] = 'Varje referens måste börja med http(s):// och en ny linje!';
 
 $lang['FORUM_MAP'] = 'Forumkarta';
-$lang['ATOM_FEED'] = 'Foder';
+$lang['ATOM_FEED'] = 'Flöde';
 $lang['ATOM_ERROR'] = 'Fel vid generering av foder';
 $lang['ATOM_SUBSCRIBE'] = 'Prenumerera på foder.';
 $lang['ATOM_UPDATED'] = 'Uppdaterad';
