@@ -532,7 +532,7 @@ $lang['RESET_AUTOLOGIN_EXPL'] = 'Inclusief alle plaatsen die u heeft bezocht waa
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Toont een kleine afbeelding onder uw gegevens in berichten. Slechts één afbeelding kan tegelijkertijd worden weergegeven, en de breedte mag niet groter zijn dan %d pixels, de hoogte niet groter dan %d pixels, en de bestandsgrootte niet meer dan %s.';
 $lang['AVATAR_DELETE'] = 'Verwijderen avatar';
-$lang['AVATAR_DISABLE'] = 'Avatar controle optie uitgeschakeld voor de strijd <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Optie voor avatarcontrole uitgeschakeld wegens overtreding van de <a href="%s"><b>forumregels</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Upload avatar';
 $lang['RETURN_PROFILE'] = 'Terug naar profiel.';
 $lang['DELETE_IMAGE'] = 'Verwijder afbeelding';
@@ -896,7 +896,7 @@ $lang['BT_REG_YES'] = 'Geregistreerd.';
 $lang['BT_REG_NO'] = 'Niet geregistreerd.';
 $lang['BT_REG_ON_TRACKER'] = 'Registreren op de tracker.';
 $lang['BT_REG_FAIL'] = 'Kan torrent niet registreren op de tracker.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Een andere torrent met dezelfde info_hash al <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Een andere torrent met dezelfde info_hash is al <a href="%s"><b>geregistreerd</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents zijn op dit moment door de administrator uitgeschakeld, toegestaan: v2 en hybriden';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents zijn op dit moment door de administrator uitgeschakeld, toegestaan: v1 en hybriden';
 $lang['BT_FLIST'] = 'Bestandenlijst';
@@ -999,13 +999,13 @@ $lang['SET_GOLD_TORRENT'] = 'Goud maken';
 $lang['UNSET_GOLD_TORRENT'] = 'Maak goud ongedaan.';
 $lang['SET_SILVER_TORRENT'] = 'Zilver maken.';
 $lang['UNSET_SILVER_TORRENT'] = 'Maak zilver ongedaan.';
-$lang['GOLD_STATUS'] = 'GOUD TORRENT! DOWNLOAD VERKEER NIET OVERWEGEN!';
-$lang['SILVER_STATUS'] = 'ZILVER TORRENT! DOWNLOAD VERKEER GEDEELTELIJK BESCHOUWD!';
+$lang['GOLD_STATUS'] = 'GOUD TORRENT! DOWNLOADVERKEER WORDT NIET MEEGEREKEND!';
+$lang['SILVER_STATUS'] = 'ZILVER TORRENT! DOWNLOADVERKEER WORDT GEDEELTELIJK MEEGEREKEND!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrenttype gewijzigd naar: %s';
 
 $lang['TORRENT_STATUS'] = 'Zoek op status van uitgave';
 $lang['SEARCH_IN_FORUMS'] = 'Zoeken in Forums';
-$lang['SELECT_CAT'] = 'Selecteer categorie:';
+$lang['SELECT_CAT'] = 'Selecteer categorie';
 $lang['GO_TO_SECTION'] = 'Ga naar de sectie';
 $lang['TORRENTS_FROM'] = 'Berichten van.';
 $lang['SHOW_ONLY'] = 'Toon alleen.';
@@ -1677,7 +1677,7 @@ $lang['FORUMS_UPDATED'] = 'Forum en Categorie-informatie is met succes bijgewerk
 
 $lang['MUST_DELETE_FORUMS'] = 'U moet alle forums verwijderen voordat u deze categorie kunt verwijderen.';
 
-$lang['CLICK_RETURN_FORUMADMIN'] = 'Klik op %sHere%s om terug te keren naar de Forum Administratie';
+$lang['CLICK_RETURN_FORUMADMIN'] = 'Klik op %sHier%s om terug te keren naar de Forumadministratie';
 
 $lang['SHOW_ALL_FORUMS_ON_ONE_PAGE'] = 'Toon alle forums op één pagina';
 
@@ -1710,7 +1710,7 @@ $lang['SMILEY_ADD_SUCCESS'] = 'De Smiley is succesvol toegevoegd';
 $lang['SMILEY_EDIT_SUCCESS'] = 'De Smiley is bijgewerkt met succes.';
 $lang['SMILEY_IMPORT_SUCCESS'] = 'De Smiley Pack is geïmporteerd met succes!';
 $lang['SMILEY_DEL_SUCCESS'] = 'De Smiley is succesvol verwijderd';
-$lang['CLICK_RETURN_SMILEADMIN'] = 'Klik op %sHere%s om terug te keren naar Smiley-Administratie';
+$lang['CLICK_RETURN_SMILEADMIN'] = 'Klik op %sHier%s om terug te keren naar de Smiley-administratie';
 
 // User Management
 $lang['USER_ADMIN'] = 'Gebruikers Administratie';
