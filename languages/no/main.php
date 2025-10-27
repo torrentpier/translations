@@ -1336,18 +1336,18 @@ $lang['NEW_LINE'] = 'Ny linje';
 $lang['BOLD'] = 'Fet tekst: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'Kursiv tekst: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = 'Understreket tekst: [u]text[/u] (Ctrl+U)';
-$lang['STRIKEOUT'] = 'Overstreke tekst: [s]text[/s] (Ctrl+S)';
+$lang['STRIKEOUT'] = 'Gjennomstreket tekst: [s]tekst[/s] (Ctrl+S)';
 $lang['BOX_TAG'] = 'Ramme rundt tekst: [box]tekst[/box] eller [box=#333,#888]tekst[/box]';
 $lang['INDENT_TAG'] = 'Sett inn innrykk: [indent]tekst[/indent]';
-$lang['PRE_TAG'] = 'Forberedt tekst: [pre]tekst[/pre]';
+$lang['PRE_TAG'] = 'Forhåndsformatert tekst: [pre]tekst[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]tekst[/nfo]';
-$lang['SUPERSCRIPT'] = 'Superscript tekst: [sup]tekst[/sup]';
-$lang['SUBSCRIPT'] = 'Subscript tekst: [sub]tekst[/sub]';
+$lang['SUPERSCRIPT'] = 'Hevet skrift: [sup]tekst[/sup]';
+$lang['SUBSCRIPT'] = 'Senket skrift: [sub]tekst[/sub]';
 $lang['QUOTE_TITLE'] = 'Sitat tekst: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Sett inn bilde: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Sett inn URL: [url]https://url[/url] eller [url=https://url]URL tekst[/url] (Ctrl+W)';
-$lang['CODE_TITLE'] = 'Kode display: [code]code[/code] (Ctrl+K)';
+$lang['CODE_TITLE'] = 'Kodevisning: [code]kode[/code] (Ctrl+K)';
 $lang['LIST'] = 'Listen';
 $lang['LIST_TITLE'] = 'Liste: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = 'Sortert liste: [list=]text[/list] (Ctrl+O)';
@@ -1371,11 +1371,11 @@ $lang['DL_UL_SPEED'] = 'UL hastighet';
 $lang['DL_DL_SPEED'] = 'DL hastighet';
 $lang['DL_PORT'] = 'Port';
 $lang['DL_CLIENT'] = 'BitTorrent-klient';
-$lang['DL_FORMULA'] = 'Formel: Lastet Opp/TorrentSize';
+$lang['DL_FORMULA'] = 'Formel: Lastet opp/Torrentstørrelse';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'stoppet';
 $lang['DL_UPD'] = 'oppdater tid: ';
-$lang['DL_INFO'] = 'viser data <i><b>only for gjeldende session</b></i>';
+$lang['DL_INFO'] = 'viser data <i><b>kun for gjeldende økt</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Skjul navnet på BitTorrent-klienten min i peer-listen';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Skjul navnet på landet mitt i peer-listen';
 $lang['HIDE_PEER_USERNAME'] = 'Skjul brukernavnet mitt i peer-listen';
@@ -1391,14 +1391,14 @@ $lang['GOTO_MY_MESSAGE'] = 'Lukk og gå tilbake til listen "Mine Meldinger"';
 $lang['DEL_MY_MESSAGE'] = 'Utvalgte emner har blitt fjernet fra "Mine Meldinger"';
 $lang['NO_TOPICS_MY_MESSAGE'] = 'Ingen emner ble funnet i listen over innleggene dine (kanskje du allerede har fjernet dem)';
 $lang['EDIT_MY_MESSAGE_LIST'] = 'rediger liste';
-$lang['SELECT_INVERT'] = 'velg / invert';
+$lang['SELECT_INVERT'] = 'velg / omvendt';
 $lang['RESTORE_ALL_POSTS'] = 'Gjenopprette alle innlegg';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Slette valgt emne fra listen';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Etter fjerning av opp til å oppdatere <b>entire list</b> det kan være vist allerede slettet tråder';
-$lang['DEL_LIST_INFO'] = 'For å slette en ordre fra listen, klikker du på ikonet til venstre for navn på noen avsnitt';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Etter fjerning, oppdater <b>hele listen</b>. Det kan vises tråder som allerede er slettet.';
+$lang['DEL_LIST_INFO'] = 'For å slette et element fra listen, klikk på ikonet til venstre for navnet i en hvilken som helst seksjon';
 
 // Watched topics
-$lang['WATCHED_TOPICS'] = 'Så emner';
+$lang['WATCHED_TOPICS'] = 'Overvåkede emner';
 $lang['NO_WATCHED_TOPICS'] = 'Ingen overvåkede emner';
 
 // set_die_append_msg
@@ -1476,7 +1476,7 @@ $lang['TP_VERSION'] = 'TorrentPier versjon';
 $lang['TP_RELEASE_DATE'] = 'Utgivelsesdato';
 $lang['PHP_INFO'] = 'Informasjon om PHP';
 
-$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Klikk %sHere%s for å gå tilbake til Admin Index';
+$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Klikk %sHer%s for å gå tilbake til Administrasjonsindeksen';
 
 $lang['NUMBER_POSTS'] = 'Antall innlegg';
 $lang['POSTS_PER_DAY'] = 'Innlegg per dag';
@@ -1574,9 +1574,9 @@ $lang['AUTH_UPDATED'] = 'Tillatelser har blitt oppdatert';
 $lang['AUTH_GENERAL_ERROR'] = 'Klarte ikke å oppdatere adminstatus';
 $lang['AUTH_SELF_ERROR'] = 'Kunne ikke endre deg fra administrator til bruker';
 $lang['NO_FORUMS_AVAILABLE'] = 'Ingen fora tilgjengelig. Opprett fora først for å administrere tillatelser.';
-$lang['CLICK_RETURN_USERAUTH'] = 'Klikk %sHere%s for å gå tilbake til brukertillatelser';
-$lang['CLICK_RETURN_GROUPAUTH'] = 'Klikk %sHere%s for å gå tilbake til Gruppen Tillatelser';
-$lang['CLICK_RETURN_FORUMAUTH'] = 'Klikk %sHere%s for å gå tilbake til Forumet Tillatelser';
+$lang['CLICK_RETURN_USERAUTH'] = 'Klikk %sHer%s for å gå tilbake til brukertillatelser';
+$lang['CLICK_RETURN_GROUPAUTH'] = 'Klikk %sHer%s for å gå tilbake til grupptillatelser';
+$lang['CLICK_RETURN_FORUMAUTH'] = 'Klikk %sHer%s for å gå tilbake til forumtillatelser';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Forbudet Kontroll';
@@ -1596,8 +1596,8 @@ $lang['CONFIG_EXPLAIN'] = 'Skjemaet nedenfor vil tillate deg å tilpasse alle de
 $lang['CONFIG_MODS'] = 'Konfigurasjon endringer';
 $lang['MODS_EXPLAIN'] = 'Dette skjemaet gir deg mulighet til å justere endringer';
 
-$lang['CLICK_RETURN_CONFIG'] = '%sClick Her for å gå tilbake til Generelle Configuration%s';
-$lang['CLICK_RETURN_CONFIG_MODS'] = '%sBack til innstillinger modifications%s';
+$lang['CLICK_RETURN_CONFIG'] = '%sKlikk her for å gå tilbake til generell konfigurasjon%s';
+$lang['CLICK_RETURN_CONFIG_MODS'] = '%sTilbake til innstillingsendringene%s';
 
 $lang['GENERAL_SETTINGS'] = 'Generelt Styret Innstillinger';
 $lang['SITE_NAME'] = 'Navn på nettsted';
@@ -1677,7 +1677,7 @@ $lang['FORUMS_UPDATED'] = 'Forum og Kategori informasjon fullført';
 
 $lang['MUST_DELETE_FORUMS'] = 'Du må slette alle fora før du kan slette denne kategorien';
 
-$lang['CLICK_RETURN_FORUMADMIN'] = 'Klikk %sHere%s for å gå tilbake til Forumet Administrasjon';
+$lang['CLICK_RETURN_FORUMADMIN'] = 'Klikk %sHer%s for å gå tilbake til forumadministrasjonen';
 
 $lang['SHOW_ALL_FORUMS_ON_ONE_PAGE'] = 'Vis alle fora på én side';
 
@@ -1710,7 +1710,7 @@ $lang['SMILEY_ADD_SUCCESS'] = 'Smiley har blitt lagt til';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Smiley har blitt fullført';
 $lang['SMILEY_IMPORT_SUCCESS'] = 'Den Smilefjes-Pack har blitt importert vellykket!';
 $lang['SMILEY_DEL_SUCCESS'] = 'Smiley har blitt fjernet';
-$lang['CLICK_RETURN_SMILEADMIN'] = 'Klikk %sHere%s for å gå tilbake til Smiley Administrasjon';
+$lang['CLICK_RETURN_SMILEADMIN'] = 'Klikk %sHer%s for å gå tilbake til smileyadministrasjonen';
 
 // User Management
 $lang['USER_ADMIN'] = 'Brukeradministrasjon';
@@ -1810,7 +1810,7 @@ $lang['DISALLOWED_DELETED'] = 'Den forbudt brukernavn har blitt fjernet';
 $lang['DISALLOW_SUCCESSFUL'] = 'Den forbudt brukernavn har blitt lagt til';
 $lang['DISALLOWED_ALREADY'] = 'Navnet du har angitt, ikke kunne bli forbudt. Det enten allerede finnes i listen, finnes i word-sensurere liste, eller en tilsvarende brukernavn er til stede.';
 
-$lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikk %sHere%s for å gå tilbake til å Nekte Brukernavn Administrasjon';
+$lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikk %sHer%s for å gå tilbake til administrasjon av forbudte brukernavn';
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versjon Informasjon';
@@ -1943,7 +1943,7 @@ $lang['ASSIGNED_GROUP'] = 'Tildelt Gruppe';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Opprette Miniatyrbilder';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum filstørrelse for miniatyrbilder';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Hvis et bilde er mindre enn denne definerte filstørrelsen, vil ingen miniatyrbilde bli opprettet, fordi det er smått nok.';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Hvis et bilde er mindre enn denne angitte filstørrelsen, opprettes det ikke noe miniatyrbilde, fordi bildet er lite nok.';
 
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Tillatelser for utvidelsesgrupper → \'%s\''; // Replace %s with the Groups Name
@@ -2014,7 +2014,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'hold nede <i>Ctrl</i> mens velge flere fora';
 $lang['REG_TORRENTS'] = 'Registrer torrents';
 $lang['DISALLOWED'] = 'Forbudt';
 $lang['ALLOW_REG_TRACKER'] = 'Tillatt fora for å registrere deg .torrents på tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Tillatt å poste innhold 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Tillat publisering av 18+-innhold';
 $lang['SELF_MODERATED'] = 'Brukere kan <b>move</b> sine emner fra et annet forum';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Annonsere URL';
@@ -2177,7 +2177,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Du fullført behandlingen på post_id %
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Gjenoppbygge Søk Pågår';
 
-$lang['PROCESSED_POST_IDS'] = 'Behandlede innlegg IDs: %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Behandlede innlegg-IDer: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Utløp på %s sekunder. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Ryddet søk bord. ';
 $lang['DELETED_POSTS'] = '%s innlegg(s) ble slettet av brukerne under behandling. ';
