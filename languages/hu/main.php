@@ -1932,7 +1932,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'A Kiterjesztés Csoport %s már létezik'; // 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Kezelése Speciális Kategóriák';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Itt konfigurálhatja a Különleges Kategóriákat. Beállíthatja a Különleges Paramétereket és Feltételeket a Különleges Kategóriákhoz, amelyek hozzárendelve vannak egy Kiterjesztési Csoporthoz.';
-$lang['SETTINGS_CAT_IMAGES'] = 'A beállításokat Különleges Kategória: Képek';
+$lang['SETTINGS_CAT_IMAGES'] = 'Különleges kategória beállításai: Képek';
 $lang['DISPLAY_INLINED'] = 'Képek beágyazott megjelenítése';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Válassza ki, hogy megjelenjen-e a képeket közvetlenül belül a post (igen) vagy a képek megjelenítése, mint egy linket ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maximális Képméretet';
@@ -2169,71 +2169,71 @@ $lang['DISABLE_BOARD'] = 'Tiltsa le igazgatóság';
 
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Tegnap megállt a feldolgozás a post_id %s (%s feldolgozott hozzászólás) %s';
-$lang['INFO_PROCESSING_ABORTED'] = 'Tegnap megszakadt a feldolgozás a post_id %s (%s feldolgozott hozzászólás) %s';
-$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Kérjük, várjon néhány percet, mielőtt tovább...';
-$lang['INFO_PROCESSING_FINISHED'] = 'Sikeresen befejezte a feldolgozás (%s feldolgozott hozzászólás) %s';
-$lang['INFO_PROCESSING_FINISHED_NEW'] = 'Sikeresen befejezte a feldolgozás a post_id %s (%s feldolgozott hozzászólás) %s,<br />but volt %s új hozzászólás(ok) után a dátum után';
+$lang['INFO_PROCESSING_ABORTED'] = 'Utoljára megszakította a feldolgozást a post_id %s-nél (%s feldolgozott hozzászólás) ekkor: %s';
+$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Kérjük, várjon néhány percet, mielőtt folytatná...';
+$lang['INFO_PROCESSING_FINISHED'] = 'Sikeresen befejezte a feldolgozást (%s feldolgozott hozzászólás) %s';
+$lang['INFO_PROCESSING_FINISHED_NEW'] = 'Sikeresen befejezte a feldolgozást a post_id %s-nél (%s feldolgozott hozzászólás) %s,<br />de azóta %s új hozzászólás érkezett';
 
 // Progress screen
-$lang['REBUILD_SEARCH_PROGRESS'] = 'Építse Újra A Keresés Haladás';
+$lang['REBUILD_SEARCH_PROGRESS'] = 'Keresés újjáépítésének folyamata';
 
 $lang['PROCESSED_POST_IDS'] = 'Feldolgozott bejegyzésazonosítók: %s - %s';
-$lang['TIMER_EXPIRED'] = 'Időzítő lejárt a %s mp. ';
-$lang['CLEARED_SEARCH_TABLES'] = 'Tiszta keresési táblázatok. ';
-$lang['DELETED_POSTS'] = '%s poszt(ok) által törölt felhasználó a feldolgozás során. ';
-$lang['PROCESSING_NEXT_POSTS'] = 'A feldolgozás következő %s poszt(ok). Kérem várjon...';
-$lang['ALL_SESSION_POSTS_PROCESSED'] = 'A feldolgozott összes hozzászólás aktuális munkamenet.';
-$lang['ALL_POSTS_PROCESSED'] = 'Az összes hozzászólás dolgozták fel, sikeresen.';
-$lang['ALL_TABLES_OPTIMIZED'] = 'Minden keresési táblázatok optimalizált sikeresen.';
+$lang['TIMER_EXPIRED'] = 'Az időzítő lejárt: %s mp.';
+$lang['CLEARED_SEARCH_TABLES'] = 'Keresési táblák törölve.';
+$lang['DELETED_POSTS'] = '%s posztot töröltek a felhasználók a feldolgozás során.';
+$lang['PROCESSING_NEXT_POSTS'] = 'A következő %s poszt feldolgozása folyamatban. Kérjük, várjon...';
+$lang['ALL_SESSION_POSTS_PROCESSED'] = 'Minden hozzászólást feldolgoztunk az aktuális munkamenet során.';
+$lang['ALL_POSTS_PROCESSED'] = 'Minden hozzászólást sikeresen feldolgoztak.';
+$lang['ALL_TABLES_OPTIMIZED'] = 'Minden keresési táblát sikeresen optimalizáltunk.';
 
-$lang['PROCESSING_POST_DETAILS'] = 'Feldolgozás post';
+$lang['PROCESSING_POST_DETAILS'] = 'Bejegyzés feldolgozása';
 $lang['PERCENT'] = 'Százalék';
 $lang['CURRENT_SESSION'] = 'Aktuális Munkamenet';
 $lang['TOTAL'] = 'Összesen';
 
-$lang['PROCESS_DETAILS'] = 'a <b>%s</b>, hogy <b>%s</b> (összesen <b>%s</b>)';
+$lang['PROCESS_DETAILS'] = '<b>%s</b>-től <b>%s</b>-ig (összesen: <b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %% befejezett';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Aktuális munkamenet részletek';
 $lang['PROCESSING_TIME'] = 'Feldolgozási idő';
 $lang['TIME_LAST_POSTS'] = 'Utolsó %s poszt(ok)';
-$lang['TIME_FROM_THE_BEGINNING'] = 'A kezdet';
+$lang['TIME_FROM_THE_BEGINNING'] = 'A kezdetektől';
 $lang['TIME_AVERAGE'] = 'Átlagos ciklusonként';
-$lang['TIME_ESTIMATED'] = 'Becsült végéig';
+$lang['TIME_ESTIMATED'] = 'Becsült hátralevő idő';
 
-$lang['SIZE_ESTIMATED'] = 'Becsült után befejezzük';
+$lang['SIZE_ESTIMATED'] = 'Becsült a befejezés után';
 $lang['SIZE_SEARCH_TABLES'] = 'Keresési Táblázatok mérete';
 
-$lang['POSTS_LAST_CYCLE'] = 'Feldolgozott poszt(ok), az utolsó ciklus';
+$lang['POSTS_LAST_CYCLE'] = 'Feldolgozott posztok az utolsó ciklusban';
 
-$lang['INFO_ESTIMATED_VALUES'] = '(*) A becsült érték kiszámítása approximately<br />based a jelenlegi befejezett % - os, illetve lehet, hogy nem képviseli a tényleges végső értékek.<br />As a kitöltött százalékkal növeli a becsült értékek gyere közelebb, hogy a tényleges is.';
+$lang['INFO_ESTIMATED_VALUES'] = '(*) A becsült értékek hozzávetőlegesek, a jelenlegi befejezett százalék alapján számítva, és nem feltétlenül tükrözik a tényleges végső értékeket.<br />Ahogy a befejezési százalék növekszik, a becsült értékek közelebb kerülnek a ténylegesekhez.';
 
-$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Kattintson %shere%s vissza Újjáépíteni Keresés';
-$lang['REBUILD_SEARCH_ABORTED'] = 'Építse újra a keresés megszakítva a post_id %s.<br /><br />If vetetni feldolgozása közben volt, hogy várni kell néhány perc, amíg fut építse újra a Keresést, így az utolsó ciklus befejezni.';
-$lang['WRONG_INPUT'] = 'A beírt néhány rossz értékeket. Kérjük, ellenőrizze a bemeneti, majd próbálja meg újra.';
+$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Kattintson %side%s a Keresés újjáépítéséhez való visszatéréshez';
+$lang['REBUILD_SEARCH_ABORTED'] = 'A Keresés újjáépítése megszakadt a post_id %s-nél.<br /><br />Ha a feldolgozás közben megszakította, várjon néhány percet, mielőtt újra futtatja a Keresés újjáépítését, hogy az utolsó ciklus befejeződhessen.';
+$lang['WRONG_INPUT'] = 'Helytelen értékeket adott meg. Kérjük, ellenőrizze a bevitelét, és próbálja újra.';
 
 // Buttons
 $lang['PROCESSING'] = 'Feldolgozás...';
 $lang['FINISHED'] = 'Vége';
 
 $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'A téma átkerült a fórum [b]%s[/b] fórumra [b]%s[/b].[br][b]Az áthelyezés oka:[/b] %s[br][br]%s';
-$lang['BOT_MESS_SPLITS'] = 'Téma már osztott. Új téma - [b]%s[/b][br][br]%s';
-$lang['BOT_TOPIC_SPLITS'] = 'Téma már szét a [b]%s[/b][br][br]%s';
+$lang['BOT_MESS_SPLITS'] = 'A téma felosztásra került. Új téma - [b]%s[/b][br][br]%s';
+$lang['BOT_TOPIC_SPLITS'] = 'A téma felosztásra került a [b]%s[/b]-ból[br][br]%s';
 
-$lang['CALLSEED'] = 'Hívás magok';
-$lang['CALLSEED_EXPLAIN'] = 'Vegye észre, azzal a kéréssel, hogy visszatérjen az engedély';
-$lang['CALLSEED_SUBJECT'] = 'Letöltés segíteni %s';
-$lang['CALLSEED_TEXT'] = 'Helló![br]Your segítségre van szükség, a kiadás [url=%s]%s[/url][br]if úgy dönt, hogy segítsen, de már törölt a torrent fájlt, akkor töltse le a [url=%s]this[/url][br][br]i remélem a segítséget!';
-$lang['CALLSEED_MSG_OK'] = 'Üzenetet küldött, hogy azok, akik letöltötték ezt kiadás';
-$lang['CALLSEED_MSG_SPAM'] = 'Kérésére már egyszer sikeresen elküldött (Valószínűleg nem)<br /><br />The következő lehetőséget, hogy küld egy kérést, hogy <b>%s</b>.';
-$lang['CALLSEED_HAVE_SEED'] = 'A téma nem igényel segítséget (<b>Seeders:</b> %d)';
+$lang['CALLSEED'] = 'Seederek hívása';
+$lang['CALLSEED_EXPLAIN'] = 'Értesítés a disztribúció visszatérésére vonatkozó kéréssel';
+$lang['CALLSEED_SUBJECT'] = 'Letöltési segítség %s';
+$lang['CALLSEED_TEXT'] = 'Szia![br]Segítségedre van szükség a kiadványban: [url=%s]%s[/url][br]Ha úgy döntesz, hogy segítesz, de már törölted a torrent fájlt, letöltheted innen: [url=%s]ez[/url][br][br]Előre is köszönöm a segítséget!';
+$lang['CALLSEED_MSG_OK'] = 'Üzenet elküldve azoknak, akik letöltötték ezt a kiadást';
+$lang['CALLSEED_MSG_SPAM'] = 'A kérelem már egyszer sikeresen elküldésre került (valószínűleg nem te)<br /><br />A következő lehetőség a kérelem elküldésére: <b>%s</b>.';
+$lang['CALLSEED_HAVE_SEED'] = 'A téma nem igényel segítséget (<b>Seederek:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
-    'mod_topic_delete' => 'Téma:<br /> <b>deleted</b>',
-    'mod_topic_move' => 'Téma:<br /> <b>moved</b>',
-    'mod_topic_lock' => 'Téma:<br /> <b>closed</b>',
-    'mod_topic_unlock' => 'Téma:<br /> <b>opened</b>',
-    'mod_topic_split' => 'Téma:<br /> <b>split</b>',
+    'mod_topic_delete' => 'Téma:<br /> <b>törölve</b>',
+    'mod_topic_move' => 'Téma:<br /> <b>áthelyezve</b>',
+    'mod_topic_lock' => 'Téma:<br /> <b>lezárva</b>',
+    'mod_topic_unlock' => 'Téma:<br /> <b>megnyitva</b>',
+    'mod_topic_split' => 'Téma:<br /> <b>felosztva</b>',
     'mod_topic_set_downloaded' => 'Téma:<br /> <b>letöltve beállítva</b>',
     'mod_topic_unset_downloaded' => 'Téma:<br /> <b>letöltve eltávolítva</b>',
     'mod_topic_change_tor_status' => 'Téma:<br /> <b>torrent státusz megváltoztatva</b>',
@@ -2247,12 +2247,12 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_poll_deleted' => 'Téma:<br /> <b>szavazás törölve</b>',
     'mod_topic_poll_added' => 'Téma:<br /> <b>szavazás hozzáadva</b>',
     'mod_topic_poll_edited' => 'Téma:<br /> <b>szavazás szerkesztve</b>',
-    'mod_post_delete' => 'Poszt:<br /> <b>deleted</b>',
+    'mod_post_delete' => 'Poszt:<br /> <b>törölve</b>',
     'mod_post_pin' => 'Poszt:<br /> <b>rögzítve</b>',
     'mod_post_unpin' => 'Poszt:<br /> <b>rögzítés eltávolítva</b>',
-    'adm_user_delete' => 'Felhasználó:<br /> <b>deleted</b>',
-    'adm_user_ban' => 'Felhasználó:<br /> <b>ban</b>',
-    'adm_user_unban' => 'Felhasználó:<br /> <b>unban</b>',
+    'adm_user_delete' => 'Felhasználó:<br /> <b>törölve</b>',
+    'adm_user_ban' => 'Felhasználó:<br /> <b>letiltva</b>',
+    'adm_user_unban' => 'Felhasználó:<br /> <b>letiltás feloldva</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Minden cselekvés';
