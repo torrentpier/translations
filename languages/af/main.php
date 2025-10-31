@@ -10,21 +10,21 @@
 // Common, these terms are used extensively on several pages
 $lang['ADMIN'] = 'administrasie';
 $lang['FORUM'] = 'Forum';
-$lang['CATEGORY'] = 'kategorie';
+$lang['CATEGORY'] = 'Kategorie';
 $lang['HIDE_CAT'] = 'Versteek kategorieë';
 $lang['HIDE_CAT_MESS'] = 'Sommige kategorieë word versteek deur gepasmaakte vertoonopsies';
 $lang['SHOW_ALL'] = 'Wys alles';
-$lang['TOPIC'] = 'onderwerp';
+$lang['TOPIC'] = 'Onderwerp';
 $lang['TOPICS'] = 'onderwerpe';
 $lang['TOPICS_SHORT'] = 'onderwerpe';
 $lang['REPLIES'] = 'antwoorde';
 $lang['REPLIES_SHORT'] = 'antwoorde';
-$lang['VIEWS'] = 'views';
+$lang['VIEWS'] = 'Bekykte keer';
 $lang['POSTS'] = 'poste';
 $lang['POSTS_SHORT'] = 'poste';
 $lang['POSTED'] = 'gepos';
 $lang['USERNAME'] = 'Gebruikersnaam';
-$lang['PASSWORD'] = 'wagwoord';
+$lang['PASSWORD'] = 'Wagwoord';
 $lang['PASSWORD_SHOW_BTN'] = 'Wys wagwoord';
 $lang['EMAIL'] = 'e-pos';
 $lang['PM'] = 'PM';
@@ -32,11 +32,11 @@ $lang['AUTHOR'] = 'skrywer';
 $lang['TIME'] = 'tyd';
 $lang['MESSAGE'] = 'Boodskap';
 $lang['TORRENT'] = 'torrent';
-$lang['PERMISSIONS'] = 'permissions';
+$lang['PERMISSIONS'] = 'Magtigings';
 $lang['TYPE'] = 'tipe';
 $lang['SEEDER'] = 'seeder';
 $lang['LEECHER'] = 'leecher';
-$lang['RELEASER'] = 'Releaser';
+$lang['RELEASER'] = 'Vrylater';
 
 $lang['1_DAY'] = '1 dag';
 $lang['7_DAYS'] = '7 dae';
@@ -54,12 +54,12 @@ $lang['PREVIEW'] = 'voorskou';
 $lang['AJAX_PREVIEW'] = 'Vinnige vertoning';
 $lang['CONFIRM'] = 'bevestig';
 $lang['YES'] = 'Ja';
-$lang['NO'] = 'Geen';
-$lang['ENABLED'] = 'enabled';
-$lang['DISABLED'] = 'gestremde';
+$lang['NO'] = 'Nee';
+$lang['ENABLED'] = 'Aangeskakel';
+$lang['DISABLED'] = ' Gestremd';
 $lang['ERROR'] = 'fout';
 $lang['SELECT_ACTION'] = 'Kies aksie';
-$lang['CLEAR'] = 'Verwyder';
+$lang['CLEAR'] = 'Maak skoon';
 $lang['MOVE_TO_TOP'] = 'Skuif na bo';
 $lang['UNKNOWN'] = 'onbekend';
 $lang['COPY_TO_CLIPBOARD'] = 'Kopieer na klembord';
@@ -70,20 +70,20 @@ $lang['NEXT_PAGE'] = 'volgende';
 $lang['PREVIOUS_PAGE'] = 'vorige';
 $lang['SHORT_PAGE'] = 'bladsy';
 $lang['GOTO_PAGE'] = 'Gaan na bladsy';
-$lang['GOTO_SHORT'] = 'Page';
+$lang['GOTO_SHORT'] = 'Bladsy';
 $lang['JOINED'] = 'Aangesluit';
 $lang['LONGEVITY'] = 'geregistreer';
 $lang['IP_ADDRESS'] = 'IP adres';
 
 $lang['SELECT_FORUM'] = 'Kies forum';
 $lang['VIEW_LATEST_POST'] = 'Kyk na die jongste pos';
-$lang['VIEW_NEWEST_POST'] = 'Bekyk nuutste boodskap';
+$lang['VIEW_NEWEST_POST'] = 'Bekyk nuutste pos';
 $lang['PAGE_OF'] = 'Bladsy <b>%d</b> van <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Jy het \'n ongeldige X (Twitter) inskrywing ingevoer';
 
-$lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
+$lang['FORUM_INDEX'] = '%s Forum-indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
 $lang['POST_NEW_TOPIC'] = 'Plaas nuwe onderwerp';
 $lang['POST_NEW_RELEASE'] = 'Plaas nuwe uitgawe';
@@ -105,10 +105,10 @@ $lang['ADMIN_DISABLE_CRON'] = 'Forum gesluit deur die cron taak. Jy kan die slui
 $lang['ADMIN_DISABLE_TITLE'] = 'Die forum is gedeaktiveer';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum is af vir onderhoud';
 $lang['ADMIN_UNLOCK'] = 'Aktiveer forum';
-$lang['ADMIN_UNLOCKED'] = 'oopgesluit';
+$lang['ADMIN_UNLOCKED'] = 'ontgrendel';
 $lang['ADMIN_UNLOCK_CRON'] = 'Verwyder slot';
 
-$lang['LOADING'] = 'Laai ...';
+$lang['LOADING'] = 'Besig om te laai... ';
 $lang['JUMPBOX_TITLE'] = 'Kies forum';
 $lang['DISPLAYING_OPTIONS'] = 'Wys opsies';
 
@@ -147,15 +147,15 @@ $lang['TERMS'] = 'terme';
 $lang['NOTHING_HAS_CHANGED'] = 'Niks is verander nie';
 
 // Stats block text
-$lang['POSTED_TOPICS_TOTAL'] = 'Ons gebruikers het altesaam <b>%s</b> onderwerpe opgelaai.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Ons gebruikers het altesaam <b>%s</b> artikels opgelaai.'; // Number of posts
+$lang['POSTED_TOPICS_TOTAL'] = 'Ons gebruikers het altesaam <b>%s</b> onderwerpe geplaas'; // Number of topics
+$lang['POSTED_ARTICLES_TOTAL'] = 'Ons gebruikers het altesaam <b>%s</b> poste geplaas'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Ons het <b>%s</b> geregistreerde gebruikers'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Seuns: <b>%d</b>, Meisies: <b>%d</b>, Ander: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Die nuutste geregistreerde gebruiker is <b>%s</b>'; // a href, username, /a
 
 // Tracker stats
 $lang['TORRENTS_STAT'] = 'Torrents: <b style="color: blue;">%s</b>,&nbsp; Totale grootte: <b>%s</b>'; // first %s = number of torrents, second %s is the total size.
-$lang['PEERS_STAT'] = 'Peers: <b>%s</b>,&nbsp; Saadjies: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
+$lang['PEERS_STAT'] = 'Peers: <b>%s</b>,&nbsp; Seeders: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Totale spoed: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Geen nuwe poste';
@@ -176,9 +176,9 @@ $lang['REMEMBER'] = 'onthou';
 $lang['USER_WELCOME'] = 'Welkom,';
 
 // Index page
-$lang['HOME'] = 'huis';
+$lang['HOME'] = 'Tuisblad';
 $lang['NO_POSTS'] = 'Geen plasings nie';
-$lang['NO_FORUMS'] = 'Hierdie raad het geen forums nie';
+$lang['NO_FORUMS'] = 'Hierdie paneel het geen forums nie';
 
 $lang['PRIVATE_MESSAGE'] = 'Private boodskap';
 $lang['PRIVATE_MESSAGES'] = 'Privaat Boodskappe';
@@ -191,7 +191,7 @@ $lang['NETWORK_NEWS'] = 'Netwerknuus';
 $lang['SUBFORUMS'] = 'Subforums';
 
 // Viewforum
-$lang['VIEW_FORUM'] = 'View Forum';
+$lang['VIEW_FORUM'] = 'Bekyk Forum';
 
 $lang['FORUM_NOT_EXIST'] = 'Die forum wat u gekies het bestaan ​​nie.';
 $lang['ERROR_PORNO_FORUM'] = 'Hierdie tipe forums (18+) is deur u in u profiel versteek';
@@ -202,23 +202,23 @@ $lang['MODERATE_FORUM'] = 'Matig hierdie forum';
 $lang['TITLE_SEARCH_HINT'] = 'Soek titel ...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = 'aankondiging:';
-$lang['TOPIC_MOVED'] = 'wankel';
-$lang['TOPIC_POLL'] = '[Poll]';
+$lang['TOPIC_MOVED'] = 'Geskuif:';
+$lang['TOPIC_POLL'] = '[ Peiling ]';
 
-$lang['MARK_TOPICS_READ'] = 'Merk alle onderwerpe wat gelees word';
-$lang['TOPICS_MARKED_READ'] = 'Die onderwerpe vir hierdie forum is pas gemerk gelees';
+$lang['MARK_TOPICS_READ'] = 'Merk alle onderwerpe as gelees';
+$lang['TOPICS_MARKED_READ'] = 'Die onderwerpe vir hierdie forum is pas as gelees gemerk';
 
-$lang['RULES_POST_CAN'] = 'Jy <b>can</b> Plaas nuwe onderwerpe in hierdie forum';
-$lang['RULES_POST_CANNOT'] = 'Jy <b>cannot</b> Plaas nuwe onderwerpe in hierdie forum';
-$lang['RULES_REPLY_CAN'] = 'Jy <b>can</b> beantwoord onderwerpe in hierdie forum';
-$lang['RULES_REPLY_CANNOT'] = 'Jy <b>cannot</b> beantwoord onderwerpe in hierdie forum';
-$lang['RULES_EDIT_CAN'] = 'Jy <b>can</b> wysig jou plasings in hierdie forum';
-$lang['RULES_EDIT_CANNOT'] = 'Jy <b>cannot</b> wysig jou plasings in hierdie forum';
-$lang['RULES_DELETE_CAN'] = 'Jy <b>can</b> verwyder jou plasings in hierdie forum';
-$lang['RULES_DELETE_CANNOT'] = 'Jy <b>cannot</b> verwyder jou plasings in hierdie forum';
-$lang['RULES_VOTE_CAN'] = 'Jy <b>can</b> stem in stembusse in hierdie forum';
-$lang['RULES_VOTE_CANNOT'] = 'Jy <b>cannot</b> stem in stembusse in hierdie forum';
-$lang['RULES_MODERATE'] = 'Jy <b>can</b> modereer hierdie forum';
+$lang['RULES_POST_CAN'] = 'Jy <b>kan</b> Plaas nuwe onderwerpe in hierdie forum';
+$lang['RULES_POST_CANNOT'] = 'Jy <b>kan nie</b> Plaas nuwe onderwerpe in hierdie forum';
+$lang['RULES_REPLY_CAN'] = 'Jy <b>kan</b> beantwoord onderwerpe in hierdie forum';
+$lang['RULES_REPLY_CANNOT'] = 'Jy <b>kan nie</b> beantwoord onderwerpe in hierdie forum';
+$lang['RULES_EDIT_CAN'] = 'Jy <b>kan</b> wysig jou plasings in hierdie forum';
+$lang['RULES_EDIT_CANNOT'] = 'Jy <b>kan nie</b> wysig jou plasings in hierdie forum';
+$lang['RULES_DELETE_CAN'] = 'Jy <b>kan</b> verwyder jou plasings in hierdie forum';
+$lang['RULES_DELETE_CANNOT'] = 'Jy <b>kan nie</b> verwyder jou plasings in hierdie forum';
+$lang['RULES_VOTE_CAN'] = 'Jy <b>kan</b> stem in stembusse in hierdie forum';
+$lang['RULES_VOTE_CANNOT'] = 'Jy <b>kan nie</b> stem in stembusse in hierdie forum';
+$lang['RULES_MODERATE'] = 'Jy <b>kan</b> modereer hierdie forum';
 
 $lang['NO_TOPICS_POST_ONE'] = '';
 $lang['NO_RELEASES_POST_ONE'] = 'Daar is nog geen vrystellings in hierdie forum nie<br />Klik op die <b>Nuwe Vrystelling</b> ikoon, en jou vrystelling sal die eerste wees.';
@@ -226,7 +226,7 @@ $lang['NO_RELEASES_POST_ONE'] = 'Daar is nog geen vrystellings in hierdie forum 
 // Viewtopic
 $lang['VIEW_TOPIC'] = 'Bekyk onderwerp';
 
-$lang['GUEST'] = 'gaste';
+$lang['GUEST'] = 'Gas';
 $lang['POST_SUBJECT'] = 'Pos onderwerp';
 $lang['SUBMIT_VOTE'] = 'Dien stem in';
 
@@ -247,10 +247,10 @@ $lang['WROTE'] = 'geskryf'; // proceeds the username and is followed by the quot
 $lang['QUOTE'] = 'Kwotasie'; // comes before bbcode quote output
 $lang['CODE'] = 'kode'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'Verborge teks';
-$lang['SPOILER_CLOSE'] = 'draai';
+$lang['SPOILER_CLOSE'] = 'Skakel om te sien';
 $lang['PLAY_ON_CURPAGE'] = 'Begin speel op die huidige bladsy';
 
-$lang['EDITED_TIME_TOTAL'] = 'Laas geredigeer deur <b>%s</b> op %s; in totaal %d tyd geredigeer'; // Last edited by me on 12 Oct 2001; edited 1 time in total
+$lang['EDITED_TIME_TOTAL'] = 'Laas geredigeer deur <b>%s</b> op %s; in totaal %d keer geredigeer'; // Last edited by me on 12 Oct 2001; edited 1 time in total
 $lang['EDITED_TIMES_TOTAL'] = 'Laas geredigeer deur <b>%s</b> op %s; geredigeer %d keer in totaal'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Sluit die onderwerp';
@@ -265,7 +265,7 @@ $lang['NO_LONGER_WATCHING'] = 'U volg hierdie onderwerp nie meer nie';
 $lang['YOU_ARE_WATCHING'] = 'U volg hierdie onderwerp nou';
 
 $lang['SEARCH_IN_TOPIC'] = 'Soek in die onderwerp ...';
-$lang['HIDE_IN_TOPIC'] = 'Steek';
+$lang['HIDE_IN_TOPIC'] = 'Steek weg';
 
 $lang['SHOW'] = 'Wys';
 $lang['AVATARS'] = 'avatars';
@@ -300,7 +300,7 @@ $lang['NOT_EDIT_TOR_STATUS'] = 'U kan nie vrystelling met die status wysig nie';
 $lang['OPTIONS'] = 'opsies';
 
 $lang['POST_ANNOUNCEMENT'] = 'aankondiging';
-$lang['POST_STICKY'] = 'Sticky';
+$lang['POST_STICKY'] = 'Plak';
 $lang['POST_NORMAL'] = 'Normaal';
 $lang['POST_DOWNLOAD'] = 'Aflaai';
 
@@ -309,8 +309,8 @@ $lang['PRINT_PAGE'] = 'Druk bladsy';
 $lang['CONFIRM_DELETE'] = 'Is jy seker jy wil hierdie plasing uitvee?';
 $lang['CONFIRM_DELETE_POLL'] = 'Is jy seker jy wil hierdie poll uitvee?';
 
-$lang['FLOOD_ERROR'] = 'Jy kan nie so gou na jou laaste \'n ander pos maak nie; Probeer asseblief weer \'n kort rukkie';
-$lang['EMPTY_SUBJECT'] = 'U moet \'n vak spesifiseer';
+$lang['FLOOD_ERROR'] = 'Jy kan nie so gou na jou laaste \'n ander pos plaas nie; probeer asseblief weer oor \'n kort rukkie.';
+$lang['EMPTY_SUBJECT'] = 'U moet \'n onderwerp spesifiseer';
 $lang['EMPTY_MESSAGE'] = 'Jy moet \'n boodskap invoer';
 $lang['FORUM_LOCKED'] = 'Hierdie forum is gesluit';
 $lang['TOPIC_LOCKED'] = 'Hierdie onderwerp is gesluit';
@@ -338,7 +338,7 @@ $lang['DELETE_POLL'] = 'Verwyder poll';
 $lang['MAX_SMILIES_PER_POST'] = 'Emoticons limiet van %s emoticons oorskry.';
 
 $lang['NOTIFY'] = 'Stel my in kennis oor antwoorde';
-$lang['ALLOW_ROBOTS_INDEXING'] = 'Staak robots om hierdie onderwerp te indekseer';
+$lang['ALLOW_ROBOTS_INDEXING'] = 'Laat robots toe om hierdie onderwerp te indekseer';
 
 $lang['STORED'] = 'Jou boodskap is suksesvol ingevoer.';
 $lang['EDITED'] = 'Die boodskap is verander';
@@ -351,10 +351,10 @@ $lang['MORE_EMOTICONS'] = 'Wys meer Emoticons';
 
 $lang['COLOR_DARK_RED'] = 'Donker rooi';
 $lang['COLOR_RED'] = 'rooi';
-$lang['COLOR_ORANGE'] = 'Orange';
-$lang['COLOR_BROWN'] = 'Brown';
+$lang['COLOR_ORANGE'] = 'Oranje';
+$lang['COLOR_BROWN'] = 'Bruin';
 $lang['COLOR_GREEN'] = 'groen';
-$lang['COLOR_OLIVE'] = 'Olive';
+$lang['COLOR_OLIVE'] = 'Olyf';
 $lang['COLOR_BLUE'] = 'Blou';
 $lang['COLOR_DARK_BLUE'] = 'Donkerblou';
 $lang['COLOR_INDIGO'] = 'Indigo';
@@ -365,10 +365,10 @@ $lang['FONT_NORMAL'] = 'Normaal';
 $lang['FONT_LARGE'] = 'groot';
 $lang['FONT_HUGE'] = 'Groot';
 
-$lang['NEW_POSTS_PREVIEW'] = 'Onderwerp het nuwe, gewysigde of ongeleerde plasings';
+$lang['NEW_POSTS_PREVIEW'] = 'Onderwerp het nuwe, gewysigde of ongeleesde plasings';
 
 // Private Messaging
-$lang['PRIVATE_MESSAGING'] = 'Privaat Boodskap';
+$lang['PRIVATE_MESSAGING'] = 'Privaat Boodskappe';
 
 $lang['NO_NEW_PM'] = 'Geen nuwe boodskappe nie';
 
@@ -387,16 +387,16 @@ $lang['POST_REPLY_PM'] = 'Antwoord op boodskap';
 $lang['POST_QUOTE_PM'] = 'Kwotasie boodskap';
 $lang['EDIT_PM'] = 'Wysig boodskap';
 
-$lang['INBOX'] = 'posbus';
-$lang['OUTBOX'] = 'outbox';
-$lang['SAVEBOX'] = 'Savebox';
-$lang['SENTBOX'] = 'venster gestuur';
+$lang['INBOX'] = 'In-boks';
+$lang['OUTBOX'] = 'Gestuurde items';
+$lang['SAVEBOX'] = 'Bewaarboks';
+$lang['SENTBOX'] = 'Gestuurde items';
 $lang['FLAG'] = 'vlag';
 $lang['SUBJECT'] = 'Onderwerp';
 $lang['FROM'] = 'Van';
-$lang['TO'] = 'om';
+$lang['TO'] = 'Aan';
 $lang['DATE'] = 'datum';
-$lang['MARK'] = 'Mark';
+$lang['MARK'] = 'Merk';
 $lang['SENT'] = 'gestuur';
 $lang['SAVED'] = 'gered';
 $lang['DELETE_MARKED'] = 'Verwyder gemerk';
@@ -435,7 +435,7 @@ $lang['NO_PM_ID'] = 'Spesifiseer asseblief pos ID';
 $lang['NO_SUCH_FOLDER'] = 'Vouer word nie gevind nie';
 
 $lang['MARK_ALL'] = 'Merk alles';
-$lang['UNMARK_ALL'] = 'Verwyder almal';
+$lang['UNMARK_ALL'] = 'Maak onmerkbaar';
 
 $lang['CONFIRM_DELETE_PM'] = 'Is jy seker jy wil hierdie boodskap uitvee?';
 $lang['CONFIRM_DELETE_PMS'] = 'Is jy seker jy wil hierdie boodskappe uitvee?';
@@ -466,9 +466,9 @@ $lang['EMAIL_ADDRESS'] = 'E-pos adres';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Stuur privaat boodskap';
 $lang['INTERESTS'] = 'Belange';
 $lang['OCCUPATION'] = 'Beroep';
-$lang['POSTER_RANK'] = 'Plakkaatranglys';
-$lang['AWARDED_RANK'] = 'Bekroonde rang';
-$lang['SHOT_RANK'] = 'Shot rang';
+$lang['POSTER_RANK'] = 'Plakkaatrang';
+$lang['AWARDED_RANK'] = 'Toegeken rang';
+$lang['SHOT_RANK'] = 'Skiet rang';
 
 $lang['TOTAL_POSTS'] = 'Totale plasings';
 $lang['SEARCH_USER_POSTS'] = 'Soek plasings'; // Find all posts by username
@@ -518,21 +518,21 @@ $lang['PUBLIC_VIEW_EMAIL'] = 'Wys e-pos adres in my profiel';
 
 $lang['EMAIL_EXPLAIN'] = 'By hierdie adres sal u gestuur word om die registrasie te voltooi';
 
-$lang['CURRENT_PASSWORD'] = 'Huidige Sleutelwoord';
-$lang['NEW_PASSWORD'] = 'Nuwe Wagwoord';
-$lang['CONFIRM_PASSWORD'] = 'Bevestig Wagwoord';
+$lang['CURRENT_PASSWORD'] = 'Huidige wagwoord';
+$lang['NEW_PASSWORD'] = 'Nuwe wagwoord';
+$lang['CONFIRM_PASSWORD'] = 'Bevestig wagwoord';
 $lang['CONFIRM_PASSWORD_EXPLAIN'] = 'U moet u huidige wagwoord bevestig as u dit wil verander of u e-posadres verander';
 $lang['PASSWORD_IF_CHANGED'] = 'U hoef net \'n wagwoord te verskaf as u dit wil verander';
 $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'U moet slegs u wagwoord bevestig as u dit hierbo verander het';
 
-$lang['AUTOLOGIN'] = 'Outo';
+$lang['AUTOLOGIN'] = 'Outomatiese aanmelding';
 $lang['RESET_AUTOLOGIN'] = 'Herstel outologin sleutel';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'Insluitend al die plekke waar jy die forum besoek het, het outomaties inskakel';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'insluitend al die plekke wat jy besoek het waar die forum outomatiese aanmelding geaktiveer was';
 
-$lang['AVATAR'] = 'op die regte pad';
+$lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Wys \'n klein grafiese prentjie onder jou besonderhede in plasings. Slegs een prent kan op \'n slag vertoon word, die breedte daarvan kan nie groter wees as %d pixels nie, die hoogte nie groter as %d pixels nie, en die lêergrootte nie meer as %s nie.';
 $lang['AVATAR_DELETE'] = 'Vee avatar uit';
-$lang['AVATAR_DISABLE'] = 'Avatar beheer opsie gedeaktiveer vir oortreding <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Avatar beheer opsie gedeaktiveer weens oortreding van die <a href="%s"><b>forumreëls</b></a> ';
 $lang['UPLOAD_AVATAR_FILE'] = 'Laai avatar op';
 $lang['RETURN_PROFILE'] = 'Terug na profiel';
 $lang['DELETE_IMAGE'] = 'Verwyder prent';
@@ -1558,7 +1558,7 @@ $lang['AUTH_POST'] = $lang['POST'] = 'Post';
 $lang['AUTH_REPLY'] = $lang['REPLY'] = 'antwoord';
 $lang['AUTH_EDIT'] = $lang['EDIT'] = 'wysig';
 $lang['AUTH_DELETE'] = $lang['DELETE'] = 'verwyder';
-$lang['AUTH_STICKY'] = $lang['STICKY'] = 'Sticky';
+$lang['AUTH_STICKY'] = $lang['STICKY'] = 'Plak';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'kondig';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'stem';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Poll skep';
