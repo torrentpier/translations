@@ -1855,7 +1855,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. Lengte van die nuus';
-$lang['NEWS_COUNT'] = 'Hoeveel nuus items om te wys';
+$lang['NEWS_COUNT'] = 'Hoeveel nuusitems om te wys';
 $lang['NEWS_FORUM_ID'] = 'Van watter forums om te vertoon <br /> <h6>Vir verskeie forums, spesifiseer ID\'s geskei deur kommas. Voorbeeld: 1,2,3</h6>';
 $lang['TRACKER_STATS'] = 'Statistiek op die spoorsnyer';
 $lang['WHOIS_INFO'] = 'Inligting oor IP-adres';
@@ -1881,7 +1881,7 @@ $lang['SPECIAL_CATEGORIES'] = 'Spesiale Kategorieë';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Aanhegsel-instellings';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Hier kan u die hoofinstellings vir die aanhangselmodus instel. As jy op die toetsinstellingsknoppie druk, doen die Attachment Mod \'n paar stelseltoetse om seker te maak dat die Mod behoorlik werk. As jy probleme ondervind met die oplaai van lêers, voer asseblief hierdie toets uit om \'n gedetailleerde foutboodskap te kry.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Aanhegsel lêer grootte instellings';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Aanhegsel-lêergrootte-instellings';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Aanhegselnommer-instellings';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Aanhegsel opsies';
 
@@ -1933,7 +1933,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Die uitbreidingsgroep %s bestaan ​​reeds';
 $lang['MANAGE_CATEGORIES'] = 'Bestuur spesiale kategorieë';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Hier kan u die spesiale kategorieë instel. U kan spesiale parameters en voorwaardes opstel vir die spesiale kategorieë wat aan \'n uitbreidingsgroep toegeken word.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Stellings vir spesiale kategorie: prente';
-$lang['DISPLAY_INLINED'] = 'Vertoon prente geïllustreer';
+$lang['DISPLAY_INLINED'] = 'Vertoon prente inlyn';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Kies of beelde direk in die pos vertoon moet word (ja) of om beelde as \'n skakel te vertoon?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum beeldafmetings';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Hier kan u die maksimum toelaatbare beelddimensie wat aangeheg moet word, definieer. (Breedte x Hoogte in pixels) .<br />Indien dit op 0x0 gestel is, is hierdie kenmerk gedeaktiveer. Met sommige prente sal hierdie funksie nie werk as gevolg van beperkings in PHP nie.';
@@ -1942,11 +1942,11 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'As hierdie gedefinieerde dimensie van \'n pr
 $lang['ASSIGNED_GROUP'] = 'Toegewysde Groep';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Skep duimnaelskets';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Duimnaelskets lêergrootte';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'As \'n beeld kleiner is as hierdie gedefinieerde lêergrootte, sal geen Duimnaelskets geskep word nie, want dit is klein genoeg.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum miniatuurlêergrootte';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'As \'n beeld kleiner is as hierdie gedefinieerde lêergrootte, sal geen miniatuur geskep word nie, omdat dit klein genoeg is.';
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Uitbreidingsgroepmagtigings -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Magtigings van die uitbreidingsgroep → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Hier kan u die geselekteerde Uitbreidingsgroep beperk tot u keuse-forums (gedefinieer in die toegelate forums). Die standaard is om uitbreidingsgroepe toe te laat aan alle forums waarmee die gebruiker lêers kan aanheg (die normale manier waarop die aanhangselmod dit vanaf die begin gedoen het). Voeg net die forums by wat jy wil hê dat die uitbreidingsgroep (die uitbreidings binne hierdie groep) daar toegelaat word, die standaard ALLE FORUMS sal verdwyn wanneer jy Forums by die lys voeg. U kan ALLE FORUMS op enige gegewe tyd weer byvoeg. As u \'n Forum by u Raad voeg en die Toestemming op ALLE FORUMS gestel word, sal niks verander nie. Maar as jy die toegang tot sekere forums verander en beperk het, moet jy weer hierheen kyk om jou nuutgeskepte Forum by te voeg. Dit is maklik om dit outomaties te doen, maar dit sal jou dwing om \'n klomp lêers te wysig. Daarom het ek gekies hoe dit nou is. Hou asseblief in gedagte dat al u forums hier gelys sal word.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'LET WEL: <br />Met die onderstaande gelyste forums word u gebruikers gewoonlik toegelaat om lêers te heg, maar aangesien geen uitbreidingsgroep daaraan geheg kan word nie, kan u gebruikers niks aanheg nie. As hulle probeer, sal hulle fout boodskappe ontvang. Miskien wil jy die Toestemming \'Poslêers\' stel by ADMIN by hierdie forums. <br /><br />';
 $lang['ADD_FORUMS'] = 'Voeg forums by';
@@ -1968,7 +1968,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Geen bylae het jou soekkriteria voldoen nie';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Aantal bylaes';
-$lang['TOTAL_FILESIZE'] = 'Totale lêer grootte';
+$lang['TOTAL_FILESIZE'] = 'Totale lêergrootte';
 $lang['NUMBER_POSTS_ATTACH'] = 'Aantal poste met aanhangsels';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Aantal onderwerpe met aanhangsels';
 $lang['NUMBER_USERS_ATTACH'] = 'Onafhanklike Gebruikers Geplaas Aanhegsels';
@@ -2014,7 +2014,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'Hou <i>Ctrl</i> vas terwyl jy verskeie forums 
 $lang['REG_TORRENTS'] = 'Teken torrents';
 $lang['DISALLOWED'] = 'verbode';
 $lang['ALLOW_REG_TRACKER'] = 'Toegelate forums vir die registrasie van .torrents on tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Toegelaat om inhoud 18+ te plaas';
+$lang['ALLOW_PORNO_TOPIC'] = 'Toegestaan om 18+ inhoud te plaas';
 $lang['SELF_MODERATED'] = 'Gebruikers kan <b>move</b> hul onderwerpe na \'n ander forum';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Verkondig URL';
@@ -2057,9 +2057,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'sleutel';
 $lang['BT_ADD_AUTH_KEY'] = 'Aktiveer paspoort by die torrent-lêers voordat u dit aflaai';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent-blaaier (spoorsnyer)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-blaaier (tracker.php) is slegs toeganklik vir aangemeld gebruikers';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-blaaier (tracker.php) is slegs toeganklik vir aangemelde gebruikers';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Laat Boolean-voltekssoektogte toe';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Gebruik *, +, -, .. in soektogte';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Gebruik *, +, - in soektogte';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "diverse";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Wys gebruikers UL/DL statistieke in die boonste deel van die forum se hoofblad";
@@ -2162,7 +2162,7 @@ $lang['REFRESH_RATE'] = 'Refresh rate';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Hoeveel tyd (sekondes) bly inactief voordat jy na die volgende verwerkingsiklus beweeg<br />Een jy hoef dit nie te verander nie.';
 
 $lang['TIME_LIMIT'] = 'Tydsbeperking';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Hoeveel tyd (sekondes) na verwerking kan duur voordat u na die volgende siklus beweeg';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Hoeveel tyd (sekondes) mag posverwerking duur voordat dit na die volgende siklus oorgaan';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Jou webbediener het \'n time-out van %s sekondes gekonfigureer, bly dus onder hierdie waarde</i>';
 
 $lang['DISABLE_BOARD'] = 'Deaktiveerbord';
@@ -2177,7 +2177,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Jy het die verwerking suksesvol afgehan
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Herstel soek vordering';
 
-$lang['PROCESSED_POST_IDS'] = 'Verwerkte pos ids: %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Verwerkte pos-ID\'s : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Timer het verval op %s sekondes.';
 $lang['CLEARED_SEARCH_TABLES'] = 'Gesoekte tabelle skoongemaak.';
 $lang['DELETED_POSTS'] = '%s boodskap (s) is tydens u verwerking deur u gebruikers verwyder.';
@@ -2363,7 +2363,7 @@ $lang['EQUALS'] = 'Gelykes';
 $lang['GREATER_THAN'] = 'Groter as';
 $lang['LESS_THAN'] = 'Minder as';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Jy kan soek vir gebruikers op grond van die plasingtellingwaarde. Jy kan óf soek volgens \'n spesifieke waarde, groter as of kleiner as \'n waarde of tussen twee waardes. Om die reekssoektog te doen, kies "Gelyk aan" en plaas dan die begin- en eindwaardes van die reeks geskei deur \'n streep (-), bv. 10-15';
-$lang['USERFIELD'] = 'Gebruikersvlakke';
+$lang['USERFIELD'] = 'Gebruikersveld';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Soek vir gebruikers gebaseer op verskillende profiel velde. Wildcards word ondersteun deur \'n asterix (*) te gebruik.';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'U kan op soek na gebruikers op grond van hul laaste inskrywing datum soek deur hierdie soektog te gebruik';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Dit sal gebruikers vertoon wat \'n spesifieke taal in hul profiel gekies het';
