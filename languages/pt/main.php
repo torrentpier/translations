@@ -1346,7 +1346,7 @@ $lang['SUBSCRIPT'] = 'Texto subscrito: [sub]texto[/sub]';
 $lang['QUOTE_TITLE'] = 'Citação de texto: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Inserir imagem: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'URL';
-$lang['URL_TITLE'] = 'Inserir URL: [url]https://url[/url] ou [url=https://url]URL text[/url] (Ctrl+W)';
+$lang['URL_TITLE'] = 'Inserir imagem: [img]https://image_url[/img] (Ctrl+R)';
 $lang['CODE_TITLE'] = 'Código de exibição: [code]code[/code] (Ctrl+K)';
 $lang['LIST'] = 'Lista';
 $lang['LIST_TITLE'] = 'Lista: [list]text[/list] (Ctrl+l)';
@@ -1360,28 +1360,28 @@ $lang['NEW'] = 'Novo';
 $lang['NEWEST'] = 'Mais recentes';
 $lang['LATEST'] = 'Mais recentes';
 $lang['POST'] = 'Postar';
-$lang['OLD'] = 'Idade';
+$lang['OLD'] = 'Antigo';
 
 // DL-List
 $lang['DL_USER'] = 'Nome de usuário';
-$lang['DL_PERCENT'] = 'Completa por cento';
+$lang['DL_PERCENT'] = 'Percentual concluído';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL';
-$lang['DL_UL_SPEED'] = 'UL velocidade';
-$lang['DL_DL_SPEED'] = 'DL velocidade';
+$lang['DL_UL_SPEED'] = 'Velocidade de upload';
+$lang['DL_DL_SPEED'] = 'Velocidade de download';
 $lang['DL_PORT'] = 'Porta';
 $lang['DL_CLIENT'] = 'cliente BitTorrent';
 $lang['DL_FORMULA'] = 'Fórmula: Uploaded/TorrentSize';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'parado';
 $lang['DL_UPD'] = 'tempo de atualização: ';
-$lang['DL_INFO'] = 'mostra dados <i><b>only para o atual session</b></i>';
+$lang['DL_INFO'] = 'mostra dados <i><b>apenas para a sessão atual</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Ocultar meu nome de cliente BitTorrent na lista de pares';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Ocultar meu nome de país na lista de pares';
 $lang['HIDE_PEER_USERNAME'] = 'Ocultar meu nome de usuário na lista de pares';
 
 // Post PIN
-$lang['POST_PIN'] = 'Pin primeiro post';
+$lang['POST_PIN'] = 'Fixar primeiro post';
 $lang['POST_UNPIN'] = 'Desafixar primeiro post';
 $lang['POST_PINNED'] = 'Primeiro post fixado';
 $lang['POST_UNPINNED'] = 'Primeiro post removido';
@@ -1395,14 +1395,14 @@ $lang['SELECT_INVERT'] = 'selecione / inverter';
 $lang['RESTORE_ALL_POSTS'] = 'Restauração de todas as postagens';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Excluir o tópico selecionado da lista';
 $lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Após a remoção de até atualizar o <b>entire list</b> pode ser apresentado já eliminado threads';
-$lang['DEL_LIST_INFO'] = 'Para excluir um fim na lista, clique no ícone à esquerda do nome de alguma seção';
+$lang['DEL_LIST_INFO'] = 'Para excluir um item da lista, clique no ícone à esquerda do nome de qualquer seção';
 
 // Watched topics
-$lang['WATCHED_TOPICS'] = 'Assisti tópicos';
-$lang['NO_WATCHED_TOPICS'] = 'Não assistindo a nenhum tópico';
+$lang['WATCHED_TOPICS'] = 'Tópicos acompanhados';
+$lang['NO_WATCHED_TOPICS'] = 'Nenhum tópico sendo acompanhado';
 
 // set_die_append_msg
-$lang['INDEX_RETURN'] = 'Volta para página inicial';
+$lang['INDEX_RETURN'] = 'Voltar à página inicial';
 $lang['FORUM_RETURN'] = 'De volta ao fórum';
 $lang['TOPIC_RETURN'] = 'Voltar ao tópico';
 $lang['POST_RETURN'] = 'Acesse o post';
@@ -1410,7 +1410,7 @@ $lang['PROFILE_EDIT_RETURN'] = 'Voltar à edição';
 $lang['PROFILE_RETURN'] = 'Vá para o perfil';
 
 $lang['WARNING'] = 'Aviso';
-$lang['INDEXER'] = 'Reindexar de pesquisa';
+$lang['INDEXER'] = 'Reindexar a pesquisa';
 $lang['INDEXER_SUCCESS'] = 'Índice de busca atualizado com sucesso';
 
 $lang['FORUM_STYLE'] = 'Estilo do fórum';
@@ -1438,7 +1438,7 @@ $lang['ADD_NEW'] = 'Adicionar';
 $lang['CRON'] = 'Agendador de tarefas (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Reconstrução de índice de pesquisa';
 $lang['FORUM_CONFIG'] = 'Fórum de configurações';
-$lang['ACTIONS_LOG'] = 'Relatório sobre as medidas';
+$lang['ACTIONS_LOG'] = 'Relatório de ações';
 
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'Status de Migração do Banco de Dados';
@@ -1476,9 +1476,9 @@ $lang['TP_VERSION'] = 'TorrentPier versão';
 $lang['TP_RELEASE_DATE'] = 'Data de lançamento';
 $lang['PHP_INFO'] = 'Informações sobre o PHP';
 
-$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Clique %sHere%s para retornar para o Índice de Admin';
+$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Clique %sAqui%s para retornar ao Índice de Administração';
 
-$lang['NUMBER_POSTS'] = 'Número de postos de trabalho';
+$lang['NUMBER_POSTS'] = 'Número de mensagens';
 $lang['POSTS_PER_DAY'] = 'Posts por dia';
 $lang['NUMBER_TOPICS'] = 'Número de tópicos';
 $lang['TOPICS_PER_DAY'] = 'Tópicos por dia';
@@ -1574,9 +1574,9 @@ $lang['AUTH_UPDATED'] = 'As permissões foram actualizadas';
 $lang['AUTH_GENERAL_ERROR'] = 'Não foi possível atualizar o status de administrador';
 $lang['AUTH_SELF_ERROR'] = 'Não foi possível mudar você de administrador para usuário';
 $lang['NO_FORUMS_AVAILABLE'] = 'Nenhum fórum disponível. Crie fóruns primeiro para gerenciar permissões.';
-$lang['CLICK_RETURN_USERAUTH'] = 'Clique %sHere%s para retornar ao Permissões de Usuário';
-$lang['CLICK_RETURN_GROUPAUTH'] = 'Clique %sHere%s para retornar ao Grupo de Permissões';
-$lang['CLICK_RETURN_FORUMAUTH'] = 'Clique %sHere%s para retornar ao Fórum Permissões';
+$lang['CLICK_RETURN_USERAUTH'] = 'Clique %sAqui%s para retornar às Permissões de Usuário';
+$lang['CLICK_RETURN_GROUPAUTH'] = 'Clique %sAqui%s para retornar às Permissões de Grupo';
+$lang['CLICK_RETURN_FORUMAUTH'] = 'Clique %sAqui%s para retornar às Permissões do Fórum';
 
 // Banning
 $lang['BAN_CONTROL'] = 'Proibição De Controle';
@@ -1587,7 +1587,7 @@ $lang['UNBAN_USERNAME'] = 'Desbanir um ou mais usuários específicos';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Você pode unban vários usuários de uma só vez usando a combinação de mouse e teclado para o seu computador e navegador';
 $lang['NO_BANNED_USERS'] = 'Não banido nomes de usuários';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'Banlist foi atualizado com sucesso';
-$lang['CLICK_RETURN_BANADMIN'] = 'Clique %sHere%s para retornar à Proibição de Controle';
+$lang['CLICK_RETURN_BANADMIN'] = 'Clique %sAqui%s para retornar ao Controle de Proibição';
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Configuração Geral';
@@ -1596,7 +1596,7 @@ $lang['CONFIG_EXPLAIN'] = 'O formulário abaixo permitirá que você customize t
 $lang['CONFIG_MODS'] = 'Alterações de configuração';
 $lang['MODS_EXPLAIN'] = 'Este formulário permite que você ajuste as modificações';
 
-$lang['CLICK_RETURN_CONFIG'] = '%sClick Aqui para retornar ao Geral Configuration%s';
+$lang['CLICK_RETURN_CONFIG'] = '%sClique Aqui%s para retornar à Configuração Geral';
 $lang['CLICK_RETURN_CONFIG_MODS'] = '%sBack para as configurações modifications%s';
 
 $lang['GENERAL_SETTINGS'] = 'Junta Geral Configurações';
@@ -1646,7 +1646,7 @@ $lang['MOVE_UP'] = 'Mover para cima';
 $lang['MOVE_DOWN'] = 'Mover para baixo';
 $lang['RESYNC'] = 'Re-sincronizar';
 $lang['NO_MODE'] = 'Nenhum modo foi definido';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'O formulário abaixo permitirá que você customize todas as opções gerais do conselho. Para configurações de Usuário e Fórum, use os links relacionados na lateral esquerda';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'O formulário abaixo permite personalizar todas as opções gerais do fórum. Para configurações de usuário e de fórum, use os links relacionados na coluna à esquerda';
 
 $lang['MOVE_CONTENTS'] = 'Mover todo o conteúdo';
 $lang['FORUM_DELETE'] = 'Excluir Do Fórum';

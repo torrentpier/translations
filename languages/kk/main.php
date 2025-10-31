@@ -8,7 +8,7 @@
  */
 
 // Common, these terms are used extensively on several pages
-$lang['ADMIN'] = 'басқару басқармасы';
+$lang['ADMIN'] = 'Басқарма';
 $lang['FORUM'] = 'Форум';
 $lang['CATEGORY'] = 'санат';
 $lang['HIDE_CAT'] = 'санаттарын жасыру';
@@ -1658,7 +1658,7 @@ $lang['STATUS_LOCKED'] = 'Жабық';
 $lang['STATUS_UNLOCKED'] = 'құлпы ашық болып табылатын.';
 $lang['FORUM_SETTINGS'] = 'Жалпы форум параметрлері';
 $lang['FORUM_NAME'] = 'Форум атауы';
-$lang['FORUM_DESC'] = 'сипаттамасы';
+$lang['FORUM_DESC'] = 'Сипаттамасы';
 $lang['FORUM_STATUS'] = 'форум мәртебесі.';
 $lang['FORUM_PRUNING'] = 'авто-прованция.';
 
@@ -1991,7 +1991,7 @@ $lang['SORT_DOWNLOADS'] = 'Жүктеулер';
 $lang['SORT_POSTTIME'] = 'Post Time';
 
 // View Types
-$lang['VIEW_STATISTIC'] = 'статистика';
+$lang['VIEW_STATISTIC'] = 'Статистика';
 $lang['VIEW_SEARCH'] = 'іздеу';
 
 // Successfully updated
@@ -2264,7 +2264,7 @@ $lang['ACTS_LOG_LOGS_FROM'] = 'журналдар';
 $lang['ACTS_LOG_FIRST'] = 'басталатын';
 $lang['ACTS_LOG_DAYS_BACK'] = 'күндей';
 $lang['ACTS_LOG_TOPIC_MATCH'] = 'Тақырып атауы бойынша сәйкестіктер';
-$lang['ACTS_LOG_SORT_BY'] = 'Бойынша сұрыптау';
+$lang['ACTS_LOG_SORT_BY'] = 'Сұрыптау түрі';
 $lang['ACTS_LOG_LOGS_ACTION'] = 'Іс-шаралар';
 $lang['ACTS_LOG_USERNAME'] = 'Пайдаланушы аты';
 $lang['ACTS_LOG_TIME'] = 'уақыт';

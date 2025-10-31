@@ -1558,7 +1558,7 @@ $lang['AUTH_POST'] = $lang['POST'] = 'Post';
 $lang['AUTH_REPLY'] = $lang['REPLY'] = 'ҷавоб';
 $lang['AUTH_EDIT'] = $lang['EDIT'] = 'Таҳрир кардани ...';
 $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Нобуд кардан';
-$lang['AUTH_STICKY'] = $lang['STICKY'] = 'часпонак';
+$lang['AUTH_STICKY'] = $lang['STICKY'] = 'Часпонак';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'хабар';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'овоз';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Назарпурсӣ эҷод';
@@ -1566,7 +1566,7 @@ $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Файлҳоро бор ка
 $lang['AUTH_DOWNLOAD'] = 'Download Files';
 
 $lang['USER_LEVEL'] = 'сатҳи корбар';
-$lang['AUTH_USER'] = 'истифода';
+$lang['AUTH_USER'] = 'Истифода';
 $lang['AUTH_ADMIN'] = 'маъмур';
 $lang['FORUM_AUTH_UPDATED'] = 'Иҷозатҳои Форуми нав карда шудаанд.';
 

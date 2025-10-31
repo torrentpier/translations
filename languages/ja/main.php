@@ -2014,7 +2014,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = '押<i>Ctrl</i>を複数選択するフォー�
 $lang['REG_TORRENTS'] = '登録納入';
 $lang['DISALLOWED'] = '禁止';
 $lang['ALLOW_REG_TRACKER'] = 'せフォーラムに登録します。納入るトラッカー';
-$lang['ALLOW_PORNO_TOPIC'] = '18歳以上のコンテンツの投稿を許可する';
+$lang['ALLOW_PORNO_TOPIC'] = '18歳以上向けコンテンツの投稿を許可する';
 $lang['SELF_MODERATED'] = 'ユーザー<b>move</b>が自身の研究テーマを他のフォーラム';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = '発表すURL';
