@@ -9,7 +9,7 @@
 
 // Common, these terms are used extensively on several pages
 $lang['ADMIN'] = 'Hallinto';
-$lang['FORUM'] = 'Forum';
+$lang['FORUM'] = 'Foorumi';
 $lang['CATEGORY'] = 'Luokka';
 $lang['HIDE_CAT'] = 'Piilota luokat';
 $lang['HIDE_CAT_MESS'] = 'Jotkut luokat on piilotettu mukautetuilla näyttövaihtoehdoilla';
@@ -48,7 +48,7 @@ $lang['1_YEAR'] = '1 Vuosi';
 
 $lang['GO'] = 'Mene';
 $lang['SUBMIT'] = 'Lähetä';
-$lang['RESET'] = 'Reset';
+$lang['RESET'] = 'Nollaa';
 $lang['CANCEL'] = 'Peruuta';
 $lang['PREVIEW'] = 'Esikatselu';
 $lang['AJAX_PREVIEW'] = 'Quick View';
@@ -78,21 +78,21 @@ $lang['IP_ADDRESS'] = 'IP-Osoite';
 $lang['SELECT_FORUM'] = 'Valitse foorumi';
 $lang['VIEW_LATEST_POST'] = 'Näytä viimeisin viesti';
 $lang['VIEW_NEWEST_POST'] = 'Näytä uusin viesti';
-$lang['PAGE_OF'] = 'Sivu <b>%d</b> ja <b>%s</b>';
+$lang['PAGE_OF'] = 'Sivu <b>%d</b> / <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Olet antanut epäkelvon Twitter kirjautuminen';
 
-$lang['FORUM_INDEX'] = '%s Forum-Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
+$lang['FORUM_INDEX'] = '%s foorumin indeksi'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
 $lang['POST_NEW_TOPIC'] = 'Lähetä uusi aihe';
-$lang['POST_NEW_RELEASE'] = 'Post uusi julkaisu';
+$lang['POST_NEW_RELEASE'] = 'Lähetä uusi julkaisu';
 $lang['REPLY_TO_TOPIC'] = 'Vastaus aiheesta';
 
-$lang['CLICK_RETURN_TOPIC'] = 'Klikkaa %sHere%s palata aiheeseen'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_FORUM'] = 'Klikkaa %sHere%s palata forum';
-$lang['CLICK_RETURN_MODCP'] = 'Klikkaa %sHere%s palata Moderaattori Ohjauspaneeli';
-$lang['CLICK_RETURN_GROUP'] = 'Klikkaa %sHere%s palata ryhmän tiedot';
+$lang['CLICK_RETURN_TOPIC'] = 'Klikkaa %sTäältä%s palataksesi aiheeseen'; // %s's here are for uris, do not remove!
+$lang['CLICK_RETURN_FORUM'] = 'Klikkaa %sTäältä%s palataksesi foorumille';
+$lang['CLICK_RETURN_MODCP'] = 'Klikkaa %sTäältä%s palataksesi moderaattorin ohjauspaneeliin';
+$lang['CLICK_RETURN_GROUP'] = 'Klikkaa %sTäältä%s palataksesi ryhmän tietoihin';
 
 $lang['ADMIN_PANEL'] = 'Mene hallintapaneeliin';
 $lang['ALL_CACHE_CLEARED'] = 'Välimuisti on tyhjennetty';
@@ -104,11 +104,11 @@ $lang['ADMIN_DISABLE'] = 'Foorumi on poistettu käytöstä järjestelmänvalvoja
 $lang['ADMIN_DISABLE_CRON'] = 'Foorumi lukittu ajastetun tehtävän vuoksi. Voit poistaa lukituksen milloin tahansa';
 $lang['ADMIN_DISABLE_TITLE'] = 'Foorumi on poistettu käytöstä';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foorumi on suljettu huollon';
-$lang['ADMIN_UNLOCK'] = 'Jotta forum';
+$lang['ADMIN_UNLOCK'] = 'Ota foorumi käyttöön';
 $lang['ADMIN_UNLOCKED'] = 'Auki';
 $lang['ADMIN_UNLOCK_CRON'] = 'Poista lukitus';
 
-$lang['LOADING'] = 'Loading...';
+$lang['LOADING'] = 'Ladataan...';
 $lang['JUMPBOX_TITLE'] = 'Valitse foorumi';
 $lang['DISPLAYING_OPTIONS'] = 'Näyttää vaihtoehtoja';
 
@@ -127,7 +127,7 @@ $lang['CANT_EDIT_IN_DEMO_MODE'] = 'Tätä toimintoa ei voi suorittaa demo-tilass
 $lang['CURRENT_TIME'] = 'Nykyinen aika on: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Näytä uusimmat viestit';
-$lang['SEARCH_SELF'] = 'Minun virkaa';
+$lang['SEARCH_SELF'] = 'Omat viestini';
 $lang['SEARCH_SELF_BY_LAST'] = 'viimeinen viesti aika';
 $lang['SEARCH_SELF_BY_MY'] = 'minun post aikaa';
 $lang['SEARCH_UNANSWERED'] = 'Näytä vastaamattomat viestit';
@@ -155,8 +155,8 @@ $lang['NEWEST_USER'] = 'Uusin rekisteröitynyt käyttäjä on <b>%s</b>'; // a h
 
 // Tracker stats
 $lang['TORRENTS_STAT'] = 'Torrentit: <b style="color: blue;">%s</b>,&nbsp; Yhteensä koko: <b>%s</b>'; // first %s = number of torrents, second %s is the total size.
-$lang['PEERS_STAT'] = 'Ikäisensä: <b>%s</b>,&nbsp; Kylvökoneet: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
-$lang['SPEED_STAT'] = 'Yhteensä nopeus: <b>%s</b>&nbsp;'; // %s = total speed.
+$lang['PEERS_STAT'] = 'Vertaiset: <b>%s</b>,&nbsp; Siementäjät: <b class="seedmed">%s</b>,&nbsp; Leecherit: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
+$lang['SPEED_STAT'] = 'Kokonaisnopeus: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Ei uusia viestejä';
 $lang['NEW_POSTS'] = 'Uusia viestejä';
@@ -304,7 +304,7 @@ $lang['POST_STICKY'] = 'Tahmea';
 $lang['POST_NORMAL'] = 'Normaali';
 $lang['POST_DOWNLOAD'] = 'Lataa';
 
-$lang['PRINT_PAGE'] = 'Print page';
+$lang['PRINT_PAGE'] = 'Tulosta sivu';
 
 $lang['CONFIRM_DELETE'] = 'Oletko varma, että haluat poistaa tämän postin?';
 $lang['CONFIRM_DELETE_POLL'] = 'Oletko varma, että haluat poistaa tämän kyselyn?';
@@ -1021,7 +1021,7 @@ $lang['BT_ONLY_MY'] = 'Minun tiedotteet';
 $lang['BT_SEED_EXIST'] = 'Kylvää olemassa';
 $lang['BT_ONLY_NEW'] = 'Uutta viime käyntisi';
 $lang['BT_SHOW_CAT'] = 'Luokka';
-$lang['BT_SHOW_FORUM'] = 'Forum';
+$lang['BT_SHOW_FORUM'] = 'Foorumi';
 $lang['BT_SHOW_AUTHOR'] = 'Kirjoittaja';
 $lang['BT_SHOW_SPEED'] = 'Nopeus';
 $lang['SEED_NOT_SEEN'] = 'Seeder ole nähnyt';
@@ -1646,7 +1646,7 @@ $lang['MOVE_UP'] = 'Siirrä ylös';
 $lang['MOVE_DOWN'] = 'Siirrä alas';
 $lang['RESYNC'] = 'Uudelleen synkronointi';
 $lang['NO_MODE'] = 'Ei tilassa oli asetettu';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Alla olevan lomakkeen avulla voit muokata kaikkia hallintoneuvoston valinnat. Käyttäjän ja Forum kokoonpanoissa käytä linkkejä vasemmalla puolella';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Alla oleva lomake antaa sinun muokata kaikkia yleisiä foorumin asetuksia. Käyttäjä- ja foorumiasetuksiin käytä vasemmalla olevia linkkejä.';
 
 $lang['MOVE_CONTENTS'] = 'Siirtää kaikki sisältö';
 $lang['FORUM_DELETE'] = 'Poista Forum';
@@ -1855,7 +1855,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. pituus uutiset';
-$lang['NEWS_COUNT'] = 'Kuinka monet uutiset osoittavat';
+$lang['NEWS_COUNT'] = 'Kuinka monta uutisartikkelia näytetään';
 $lang['NEWS_FORUM_ID'] = 'Mistä foorumeista näytetään<br /> <h6>Useista foorumeista, käytä ID:itä, jotka on erotettu pilkuilla. Esimerkki: 1,2,3</h6>';
 $lang['TRACKER_STATS'] = 'Tilastot tracker';
 $lang['WHOIS_INFO'] = 'Tietoa IP-osoite';
@@ -1881,7 +1881,7 @@ $lang['SPECIAL_CATEGORIES'] = 'Erityistä Luokat';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Kiinnitys Asetukset';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Täällä voit määrittää Tärkeimmät Asetukset Liite Mod. Jos painat Testin Asetukset-Painiketta, Kiinnitys Mod ei muutaman Järjestelmä Testit, voit olla varma, että Mod toimii oikein. Jos sinulla on ongelmia lataamalla Tiedostoja, suorita tämä Testi, saada yksityiskohtaista error-viesti.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Kiinnitys Filesize Asetukset';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Liitteiden tiedostokoon asetukset';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Liite Numero Asetukset';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Kiinnitys Vaihtoehtoja';
 
@@ -1933,7 +1933,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Laajennus Ryhmä %s jo olemassa'; // replace %
 $lang['MANAGE_CATEGORIES'] = 'Hallitse Erityistä Luokat';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Täällä voit konfiguroida Erityiset Luokat. Voit asettaa Erityiset Parametrit ja Ehdot Erityisille Luokille, jotka on liitetty Laajennusryhmään.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Asetukset Special Luokka: Kuvat';
-$lang['DISPLAY_INLINED'] = 'Näyttää Kuvien Sisältöön';
+$lang['DISPLAY_INLINED'] = 'Näytä kuvat suoraan viestissä';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Valitse näytetäänkö kuvia suoraan sisällä postitse (kyllä) tai voit näyttää kuvat linkkinä ?';
 $lang['MAX_IMAGE_SIZE'] = 'Suurin Kuvan Mitat';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Täällä voit määrittää suurin sallittu Kuvan Dimensio on liitteenä (Leveys x Korkeus kuvapisteinä).<br />If se on asetettu 0x0, tämä ominaisuus on poistettu käytöstä. Joitakin Kuvia, tämä Ominaisuus ei toimi, koska rajoitukset in PHP.';
@@ -1942,8 +1942,8 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Jos tämä on määritelty Ulottuvuus Kuva o
 $lang['ASSIGNED_GROUP'] = 'Valittu Ryhmä';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Luo Thumbnail';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Pienin Pikkukuva Tiedostokoko';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jos Kuva on pienempi kuin tämä on määritelty Tiedostokoko, ei Thumbnail luodaan, koska se on tarpeeksi pieni.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Pienin pikkukuvan tiedostokoko';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jos kuva on pienempi kuin määritelty tiedostokoko, pikkukuvaa ei luoda, koska kuva on riittävän pieni.';
 
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Laajennus-Ryhmän Käyttöoikeudet -> \'%s\''; // Replace %s with the Groups Name
@@ -1968,7 +1968,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ei Liitteitä tavannut hakuehdot';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Liitteiden määrä';
-$lang['TOTAL_FILESIZE'] = 'Yhteensä Filesize';
+$lang['TOTAL_FILESIZE'] = 'Tiedostojen kokonaiskoko';
 $lang['NUMBER_POSTS_ATTACH'] = 'Useita Viestit, joissa on Liitteitä';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Useita Aiheita, joissa on Liitteitä';
 $lang['NUMBER_USERS_ATTACH'] = 'Riippumattomien Käyttäjien Lähetetty Liitteet';
@@ -2014,7 +2014,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'pitämällä <i>Ctrl</i>, kun valitset useita 
 $lang['REG_TORRENTS'] = 'Rekisteröidy torrentit';
 $lang['DISALLOWED'] = 'Kielletty';
 $lang['ALLOW_REG_TRACKER'] = 'Saa foorumeita rekisteröitymättä .torrent tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Saa lähettää sisältöä 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Sallittu 18+ -sisältö';
 $lang['SELF_MODERATED'] = 'Käyttäjät voivat <b>move</b> niiden aiheita toisella foorumilla';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Ilmoittaa URL-osoitteen';
@@ -2057,9 +2057,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Salasana';
 $lang['BT_ADD_AUTH_KEY'] = 'Mahdollistaa lisäämällä salasana torrent-tiedostoja ennen lataamista';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent-selain (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-selain (tracker.php) pääsee vain kirjautuneet käyttäjät';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-selain (tracker.php) on käytettävissä vain kirjautuneille käyttäjille';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Anna boolean full-text-haut';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'käyttö *, +, -,.. haut';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Käytä *, + ja - hauissa';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Sekalainen";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Näytä käyttäjän UL/DL tilastot foorumin pääsivun yläosassa";
@@ -2162,7 +2162,7 @@ $lang['REFRESH_RATE'] = 'Virkistystaajuus';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Kuinka paljon aikaa (sekuntia) pysyä tyhjäkäynnillä ennen siirtymistä seuraavaan käsittelyyn cycle<br />Usually sinun ei tarvitse muuttaa tätä';
 
 $lang['TIME_LIMIT'] = 'Määräaika';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Kuinka paljon aikaa (sekuntia) viesti käsittely voi kestää, ennen kuin siirrytään seuraavan jakson';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Kuinka paljon aikaa (sekunteina) viestien jälkikäsittely voi kestää ennen siirtymistä seuraavaan jaksoon';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver on timeout %s sekuntia määritetty, joten pysyä alle tämän value</i>';
 
 $lang['DISABLE_BOARD'] = 'Poistaa aluksella';
@@ -2177,7 +2177,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Olet onnistuneesti päättynyt käsitte
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Rakentaa Etsimään Edistystä';
 
-$lang['PROCESSED_POST_IDS'] = 'Käsitelty post tunnukset : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Käsiteltyjen viestien tunnukset: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Ajastin on päättynyt %s sekuntia. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Selvitetty haku taulukoita. ';
 $lang['DELETED_POSTS'] = '%s post(s) oli poistettu käyttäjät käsittelyn aikana. ';
@@ -2257,7 +2257,7 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Kaikki toimet';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Toimet Log: Etsi vaihtoehtoja';
-$lang['ACTS_LOG_FORUM'] = 'Forum';
+$lang['ACTS_LOG_FORUM'] = 'Foorumi';
 $lang['ACTS_LOG_ACTION'] = 'Toiminta';
 $lang['ACTS_LOG_USER'] = 'Käyttäjä';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Lokit ';
@@ -2285,7 +2285,7 @@ $lang['ALL'] = 'Kaikki';
 
 $lang['TPL_EMPTY_FIELD'] = 'Sinun täytyy täyttää kentän <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Sinun täytyy valita <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Ei num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Ei numero';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Täytyy olla https:// URL-osoite';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Täytyy olla https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'otetaan aihe';
@@ -2332,7 +2332,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Etsivät käyttäjät, joilla on post co
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Etsivät käyttäjät, joilla on post count välillä %d ja %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Etsivät käyttäjät, joilla on post count-arvo %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Etsivät käyttäjät, joilla on Twitter-matching %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Etsivät käyttäjät, joilla on Sivuston matching %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Etsitään käyttäjiä, joiden verkkosivu vastaa %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Etsimällä käyttäjille Sijainti matching %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Etsiminen käyttäjien kanssa heidän Etujaan alalla matching %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Etsiä käyttäjiä heidän Ammatti-kentän vastaavia %s';
@@ -2363,7 +2363,7 @@ $lang['EQUALS'] = 'Vastaa';
 $lang['GREATER_THAN'] = 'Suurempi kuin';
 $lang['LESS_THAN'] = 'Alle';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Voit etsiä käyttäjiä viestimäärän arvon perusteella. Voit etsiä joko tietyn arvon perusteella, joka on suurempi tai pienempi kuin arvo tai kahden arvon välillä. Suorittaaksesi alueen haun, valitse "Yhtä kuin" ja kirjoita alueen alku- ja loppuarvot erotettuina väliviivalla (-), esim. 10-15';
-$lang['USERFIELD'] = 'Käyttäjän tasolla';
+$lang['USERFIELD'] = 'Käyttäjäkenttä';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Hae käyttäjille perustuu eri profiilin kentät. Jäkerimerkit tuetaan käyttämällä an asterix (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Voit etsiä käyttäjiä jotka perustuvat niiden viimeksi kirjautuminen päivämäärä käyttämällä tämä haku vaihtoehto';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Tämä näyttää käyttäjät, joille on valittu tiettyä kieltä niiden Profiilia';
