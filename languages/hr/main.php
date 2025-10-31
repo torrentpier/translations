@@ -2162,7 +2162,7 @@ $lang['REFRESH_RATE'] = 'Učestalost ažuriranja';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Koliko vremena (sec) miruje, prije nego što premjestiti na sljedeću obradu cycle<br />Usually ne morate da se to promijeni';
 
 $lang['TIME_LIMIT'] = 'Ograničenje vremena';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Koliko može trajati post-procesiranja (sekundi) prije nego se pređe na sljedeći ciklus';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Koliko vremena (sekundi) može trajati post-procesiranje prije prelaska na sljedeći ciklus';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your вебсервер je isteklo vrijeme %s sekundi podešava, tako da ostanu pod ovom value</i>';
 
 $lang['DISABLE_BOARD'] = 'Isključiti Vijeća';
