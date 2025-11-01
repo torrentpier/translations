@@ -1646,7 +1646,7 @@ $lang['MOVE_UP'] = 'Mou amunt';
 $lang['MOVE_DOWN'] = 'Mou avall';
 $lang['RESYNC'] = 'Torna a sincronitzar';
 $lang['NO_MODE'] = 'Cap mode, es va establir';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'El següent formulari us permet personalitzar totes la direccio general de les opcions. Per a l\'Usuari i Fòrum configuracions utilitzar els enllaços relacionats a la banda esquerra';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'El formulari següent us permet personalitzar totes les opcions generals del tauler. Per a les configuracions d\'usuari i de fòrum, utilitzeu els enllaços relacionats a la banda esquerra.';
 
 $lang['MOVE_CONTENTS'] = 'Moure tots els continguts';
 $lang['FORUM_DELETE'] = 'Esborrar Fòrum';
@@ -1881,7 +1881,7 @@ $lang['SPECIAL_CATEGORIES'] = 'Categories Especials';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Fitxer Adjunt De Configuració';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Aquí podeu configurar les opcions Principals per a l\'Adjunt Mod. Si premeu la Prova Botó Configuració, l\'Adjunt Mod fa uns Sistema de Proves per assegurar-nos que el ministeri de defensa funcionarà correctament. Si teniu problemes amb carregar els Fitxers, si us plau, executeu aquesta Prova, per obtenir una detallada error-missatge.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Adjunt Tamany Configuració';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Configuració de la mida dels fitxers adjunts';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Adjunt Nombre De Paràmetres';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Adjunt Opcions';
 
@@ -1933,7 +1933,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'L\'Extensió Grup %s ja existeixen'; // replac
 $lang['MANAGE_CATEGORIES'] = 'Gestionar Categories Especials';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aquí podeu configurar les Categories Especials. Podeu configurar Paràmetres i Condicions Especials per a les Categories Especials assignades a un Grup d\'Extensió.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Paràmetres per a la Categoria Especial: les Imatges';
-$lang['DISPLAY_INLINED'] = 'Mostrar Les Imatges Inclinada';
+$lang['DISPLAY_INLINED'] = 'Mostrar les imatges en línia';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Trieu si voleu mostrar les imatges directament a l\'entrada (sí) o per mostrar imatges com un enllaç ?';
 $lang['MAX_IMAGE_SIZE'] = 'Màxim Imatge Dimensions';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Aquí podeu definir la mida màxima permesa de la Imatge Dimensió que cal adjuntar (Amplada x Alçada en píxels).<br />If s\'estableix a 0x0, aquesta funció està desactivada. Amb algunes Imatges d\'aquesta Característica no funciona degut a les limitacions en PHP.';
@@ -1942,11 +1942,11 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Si aquesta definir la Dimensió d\'una Imatg
 $lang['ASSIGNED_GROUP'] = 'Assignat Grup';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Crear Una Miniatura';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Mínim Tamany Miniatura';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Si una Imatge és més petit que aquest defineix Tamany, sense Miniatura serà creat, perquè és prou petit.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Mida mínima del fitxer de la miniatura';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Si una imatge és més petita que la mida de fitxer definida, no es crearà cap miniatura, perquè ja és prou petita.';
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extensió Grup Permisos -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Permisos del grup d\'extensions → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aquí podreu restringir l\'seleccionat Extensió Grup de Fòrums de la seva elecció (definida a la Admesos Fòrums Quadre). El valor Predeterminat és que per permetre l\'Extensió de Grups a tots els Fòrums de l\'Usuari és capaç d\'Adjuntar Fitxers en (la manera normal de l\'Adjunt Mod ho va fer des de l\'inici). Només afegir els Fòrums voleu que l\'Extensió Grup (les Extensions dins d\'aquest Grup) per a ser admesos hi ha, el valor per defecte TOTS els FÒRUMS desapareix quan es afegir Fòrums de la Llista. Ets capaç de tornar-la a afegir TOTS els FÒRUMS en qualsevol Moment. Si afegiu un Fòrum per el seu Consell i el Permís s\'estableix a TOTS els FÒRUMS res no canviarà. Però si heu canviat i restringit l\'accés a determinats Fòrums, vostè ha de comprovar de nou aquí per afegir la vostra recentment creat Fòrum. És fàcil fer-ho automàticament, però això obligarà a editar una sèrie de Fitxers, per tant, jo he triat el camí és ara. Si us plau, tingueu en compte, que tots els Fòrums s\'enumeren aquí.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'NOTA:<br />Within a continuació s\'enumeren els Fòrums els Usuaris són normalment permet adjuntar fitxers, però ja que no hi ha Extensió del Grup és permès de connectar-hi, els Usuaris són incapaç de subjectar alguna cosa. Si ho proveu, rebran els Missatges d\'Error. Potser vostè vol establir el Permís \'Post Fitxers\' per ADMIN a aquests Fòrums.<br /><br />';
 $lang['ADD_FORUMS'] = 'Afegir Fòrums';
@@ -1968,7 +1968,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'No hi ha arxius Adjunts conèixer els seus cr
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Nombre de fitxers Adjunts';
-$lang['TOTAL_FILESIZE'] = 'Total Filesize';
+$lang['TOTAL_FILESIZE'] = 'Mida total dels fitxers';
 $lang['NUMBER_POSTS_ATTACH'] = 'Nombre de Missatges amb fitxers Adjunts';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Nombre de Temes amb els arxius Adjunts';
 $lang['NUMBER_USERS_ATTACH'] = 'Usuaris Independents Publicat Adjunts';
@@ -2014,7 +2014,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'manteniu premuda la tecla <i>Ctrl</i> mentre s
 $lang['REG_TORRENTS'] = 'Registre torrents';
 $lang['DISALLOWED'] = 'Prohibit';
 $lang['ALLOW_REG_TRACKER'] = 'Admesos fòrums per a registrar-se .torrents en tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Admesos per publicar contingut 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Permetre publicar contingut per a majors de 18 anys';
 $lang['SELF_MODERATED'] = 'Els usuaris poden <b>move</b> seus temes d\'un altre fòrum';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Anunciar URL';
@@ -2057,9 +2057,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Passkey';
 $lang['BT_ADD_AUTH_KEY'] = 'Permeten afegir passkey torrent-abans de descarregar arxius';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent del navegador (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent del navegador (tracker.php) accessible només per a usuaris registrats';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Navegador de torrents (tracker.php) accessible només per a usuaris registrats';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Permet boolean text complet de les cerques';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'ús *, +, -,.. a les cerques';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Utilitzeu *, +, - a les cerques';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Miscel·lània";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Mostra estadístiques UL/DL de l'usuari a la part superior de la pàgina principal del fòrum";
@@ -2177,7 +2177,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Heu acabat amb èxit el tractament a ge
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Reconstruir La Cerca De Progrés';
 
-$lang['PROCESSED_POST_IDS'] = 'Processat post identificadors : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Identificadors de publicacions processades: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Timer expired a %s segs. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Aclarit cerca les taules. ';
 $lang['DELETED_POSTS'] = '%s post(s) van ser esborrats per als seus usuaris durant el processament. ';
@@ -2285,7 +2285,7 @@ $lang['ALL'] = 'Tot';
 
 $lang['TPL_EMPTY_FIELD'] = 'Heu d\'omplir el camp <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Heu de seleccionar com <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - No una num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - No és un nombre';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Ha de ser https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Ha de ser https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'posar en el tema';
@@ -2332,7 +2332,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Buscant per als usuaris amb un post comt
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Buscant per als usuaris amb un post comptar entre %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Buscant per als usuaris amb un post comte valor de %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Buscant per als usuaris amb un Twitter coincidents %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Recerca per a usuaris amb una pàgina Web coincidents %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Cercant usuaris amb una pàgina web que coincideixi amb %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Recerca per a usuaris amb una Ubicació coincidents %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Buscant per als usuaris amb els seus Interessos camp de concordança %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Buscant per als usuaris amb la seva Ocupació camp de concordança %s';
@@ -2363,7 +2363,7 @@ $lang['EQUALS'] = 'És igual';
 $lang['GREATER_THAN'] = 'Superior';
 $lang['LESS_THAN'] = 'Menys de';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Podeu cercar usuaris segons el valor del recompte de publicacions. Podeu cercar per un valor específic, major o menor que un valor o entre dos valors. Per fer la cerca d\'interval, seleccioneu "Igual" i després poseu els valors inicial i final de l\'interval separats per un guió (-), per exemple, 10-15';
-$lang['USERFIELD'] = 'Nivells d\'usuari';
+$lang['USERFIELD'] = 'Camp d\'usuari';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Cerca per als usuaris en funció de diferents perfil camps. Els comodins són compatibles amb un astèrix (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Podeu cercar usuaris basats en la seva última data d\'inici de sessió utilitzant aquesta opció de cerca';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Aquesta mostrarà els usuaris a qui heu seleccionat un idioma concret en el seu Perfil';

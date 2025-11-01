@@ -19,13 +19,13 @@ $lang['TOPICS'] = 'Emner';
 $lang['TOPICS_SHORT'] = 'Emner';
 $lang['REPLIES'] = 'Svar';
 $lang['REPLIES_SHORT'] = 'Svar';
-$lang['VIEWS'] = 'Udsigt';
-$lang['POSTS'] = 'Stillinger';
-$lang['POSTS_SHORT'] = 'Stillinger';
+$lang['VIEWS'] = 'Visninger';
+$lang['POSTS'] = 'Indlæg';
+$lang['POSTS_SHORT'] = 'Indlæg';
 $lang['POSTED'] = 'Udgivet';
 $lang['USERNAME'] = 'Brugernavn';
-$lang['PASSWORD'] = 'Password';
-$lang['PASSWORD_SHOW_BTN'] = 'Vis adgangskode';
+$lang['PASSWORD'] = 'Adgangskode';
+$lang['PASSWORD_SHOW_BTN'] = 'Adgangskode';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Forfatter';
@@ -48,15 +48,15 @@ $lang['1_YEAR'] = '1 År';
 
 $lang['GO'] = 'Gå til';
 $lang['SUBMIT'] = 'Send';
-$lang['RESET'] = 'Reset';
+$lang['RESET'] = 'Nulstil';
 $lang['CANCEL'] = 'Annuller';
-$lang['PREVIEW'] = 'Uddrag';
+$lang['PREVIEW'] = 'Forhåndsvisning';
 $lang['AJAX_PREVIEW'] = 'Hurtigt Overblik';
-$lang['CONFIRM'] = 'Bekræfte';
+$lang['CONFIRM'] = 'Bekræft';
 $lang['YES'] = 'Ja';
-$lang['NO'] = 'Ingen';
+$lang['NO'] = 'Nej';
 $lang['ENABLED'] = 'Aktiveret';
-$lang['DISABLED'] = 'Handicappede';
+$lang['DISABLED'] = 'Deaktiveret';
 $lang['ERROR'] = 'Fejl';
 $lang['SELECT_ACTION'] = 'Vælg handling';
 $lang['CLEAR'] = 'Ryd';
@@ -71,9 +71,9 @@ $lang['PREVIOUS_PAGE'] = 'Tidligere';
 $lang['SHORT_PAGE'] = 'side';
 $lang['GOTO_PAGE'] = 'Gå til side';
 $lang['GOTO_SHORT'] = 'Side';
-$lang['JOINED'] = 'Sluttede';
+$lang['JOINED'] = 'Tilmeldt';
 $lang['LONGEVITY'] = 'Registreret';
-$lang['IP_ADDRESS'] = 'IP-Adresse';
+$lang['IP_ADDRESS'] = 'IP-adresse';
 
 $lang['SELECT_FORUM'] = 'Vælg forum';
 $lang['VIEW_LATEST_POST'] = 'Se seneste indlæg';
@@ -86,29 +86,29 @@ $lang['TWITTER_ERROR'] = 'Du har indtastet en ugyldig Twitter-login';
 $lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
 $lang['POST_NEW_TOPIC'] = 'Skriv nyt emne';
-$lang['POST_NEW_RELEASE'] = 'Indlæg nye udgivelse';
+$lang['POST_NEW_RELEASE'] = 'Opret ny udgivelse';
 $lang['REPLY_TO_TOPIC'] = 'Svar til emnet';
 
-$lang['CLICK_RETURN_TOPIC'] = 'Klik på %sHere%s for at vende tilbage til emnet'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_FORUM'] = 'Klik på %sHere%s for at vende tilbage til forum';
-$lang['CLICK_RETURN_MODCP'] = 'Klik på %sHere%s for at vende tilbage til Moderator Kontrolpanel';
-$lang['CLICK_RETURN_GROUP'] = 'Klik på %sHere%s for at vende tilbage til gruppen oplysninger';
+$lang['CLICK_RETURN_TOPIC'] = 'Klik på %sher%s for at vende tilbage til emnet'; // %s's here are for uris, do not remove!
+$lang['CLICK_RETURN_FORUM'] = 'Klik på %sher%s for at vende tilbage til forumet';
+$lang['CLICK_RETURN_MODCP'] = 'Klik på %sher%s for at vende tilbage til moderatorens kontrolpanel';
+$lang['CLICK_RETURN_GROUP'] = 'Klik på %sher%s for at vende tilbage til gruppeoplysningerne';
 
-$lang['ADMIN_PANEL'] = 'Gå til Administration Panel';
+$lang['ADMIN_PANEL'] = 'Gå til administrationspanelet';
 $lang['ALL_CACHE_CLEARED'] = 'Cache er blevet ryddet';
 $lang['ALL_TEMPLATE_CLEARED'] = 'Skabelon cache er blevet ryddet';
 $lang['DATASTORE_CLEARED'] = 'Datalager har været ryddet';
-$lang['BOARD_DISABLE'] = 'Beklager, men dette forum er deaktiveret. Prøv at komme tilbage senere';
+$lang['BOARD_DISABLE'] = 'Datalageret er blevet ryddet';
 $lang['BOARD_DISABLE_CRON'] = 'Forum er nede for vedligeholdelse. Prøv at komme tilbage senere';
 $lang['ADMIN_DISABLE'] = 'Forummet er deaktiveret af administratoren. Du kan aktivere det når som helst';
 $lang['ADMIN_DISABLE_CRON'] = 'Forum låst af cron-job-trigger. Du kan fjerne låsen når som helst';
-$lang['ADMIN_DISABLE_TITLE'] = 'Den er deaktiveret forum';
+$lang['ADMIN_DISABLE_TITLE'] = 'Forumet er deaktiveret';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum er nede for vedligeholdelse';
 $lang['ADMIN_UNLOCK'] = 'Aktiver forum';
 $lang['ADMIN_UNLOCKED'] = 'Ulåst';
 $lang['ADMIN_UNLOCK_CRON'] = 'Fjern lås';
 
-$lang['LOADING'] = 'Loading...';
+$lang['LOADING'] = 'Indlæser...';
 $lang['JUMPBOX_TITLE'] = 'Vælg forum';
 $lang['DISPLAYING_OPTIONS'] = 'Viser indstillinger';
 
@@ -120,7 +120,7 @@ $lang['RECORD_ONLINE_USERS'] = 'Flest brugere nogensinde online var <b>%s</b> p�
 
 $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
-$lang['ONLINE_GROUP_MEMBER'] = 'Et medlem af gruppen';
+$lang['ONLINE_GROUP_MEMBER'] = 'Gruppemedlem';
 
 $lang['CANT_EDIT_IN_DEMO_MODE'] = 'Denne handling kan ikke udføres i demotilstand!';
 
@@ -128,8 +128,8 @@ $lang['CURRENT_TIME'] = 'Nuværende tidspunkt er: <span class="tz_time">%s</span
 
 $lang['SEARCH_NEW'] = 'Se nyeste indlæg';
 $lang['SEARCH_SELF'] = 'Mine indlæg';
-$lang['SEARCH_SELF_BY_LAST'] = 'sidste post gang';
-$lang['SEARCH_SELF_BY_MY'] = 'min post gang';
+$lang['SEARCH_SELF_BY_LAST'] = 'sidste indlægstidspunkt';
+$lang['SEARCH_SELF_BY_MY'] = 'mit indlægstidspunkt';
 $lang['SEARCH_UNANSWERED'] = 'Vis ubesvarede indlæg';
 $lang['SEARCH_LATEST'] = 'Seneste emner';
 $lang['LATEST_RELEASES'] = 'Seneste udgivelser';
@@ -138,7 +138,7 @@ $lang['REGISTER'] = 'Registrer dig';
 $lang['PROFILE'] = 'Profil';
 $lang['EDIT_PROFILE'] = 'Rediger profil';
 $lang['SEARCH'] = 'Søg';
-$lang['MEMBERLIST'] = 'Memberlist';
+$lang['MEMBERLIST'] = 'Medlemsliste';
 $lang['USERGROUPS'] = 'Bruger grupper';
 $lang['LASTPOST'] = 'Sidste Indlæg';
 $lang['MODERATOR'] = 'Moderator';
@@ -155,12 +155,12 @@ $lang['NEWEST_USER'] = 'De nyeste registrerede bruger er <b>%s</b>'; // a href, 
 
 // Tracker stats
 $lang['TORRENTS_STAT'] = 'Torrents: <b style="color: blue;">%s</b>,&nbsp; Samlede størrelse: <b>%s</b>'; // first %s = number of torrents, second %s is the total size.
-$lang['PEERS_STAT'] = 'Peers: <b>%s</b>,&nbsp; Såmaskiner: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
+$lang['PEERS_STAT'] = 'Peers: <b>%s</b>,&nbsp; Seedere: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Total hastighed: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Ingen nye indlæg';
 $lang['NEW_POSTS'] = 'Nye indlæg';
-$lang['NEW_POST'] = 'Nye indlæg';
+$lang['NEW_POST'] = 'Nyt indlæg';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum er låst';
 
 // Login
@@ -177,10 +177,10 @@ $lang['USER_WELCOME'] = 'Velkommen,';
 
 // Index page
 $lang['HOME'] = 'Hjem';
-$lang['NO_POSTS'] = 'Ingen stillinger';
-$lang['NO_FORUMS'] = 'Dette board er ingen forummer';
+$lang['NO_POSTS'] = 'Ingen indlæg';
+$lang['NO_FORUMS'] = 'Dette board har ingen fora';
 
-$lang['PRIVATE_MESSAGE'] = 'Privat Besked';
+$lang['PRIVATE_MESSAGE'] = 'Dette board har ingen forummer';
 $lang['PRIVATE_MESSAGES'] = 'Private Beskeder';
 $lang['WHOSONLINE'] = 'Hvem er online';
 
@@ -188,7 +188,7 @@ $lang['MARK_ALL_FORUMS_READ'] = 'Marker alle fora som læst';
 
 $lang['LATEST_NEWS'] = 'Seneste nyheder';
 $lang['NETWORK_NEWS'] = 'Netværk nyheder';
-$lang['SUBFORUMS'] = 'Subforums';
+$lang['SUBFORUMS'] = 'Underfora';
 
 // Viewforum
 $lang['VIEW_FORUM'] = 'Se Forum';
@@ -196,7 +196,7 @@ $lang['VIEW_FORUM'] = 'Se Forum';
 $lang['FORUM_NOT_EXIST'] = 'Forum du valgte ikke eksisterer.';
 $lang['ERROR_PORNO_FORUM'] = 'Denne type af fora (18+) var skjult i din profil ved at du';
 
-$lang['DISPLAY_TOPICS'] = 'Display emner';
+$lang['DISPLAY_TOPICS'] = 'Vis emner';
 $lang['ALL_TOPICS'] = 'Alle Emner';
 $lang['MODERATE_FORUM'] = 'Moderat dette forum';
 $lang['TITLE_SEARCH_HINT'] = 'søg efter titel...';
@@ -205,20 +205,20 @@ $lang['TOPIC_ANNOUNCEMENT'] = 'Meddelelse:';
 $lang['TOPIC_MOVED'] = 'Flyttet:';
 $lang['TOPIC_POLL'] = '[ Poll ]';
 
-$lang['MARK_TOPICS_READ'] = 'Markere alle emner læse';
-$lang['TOPICS_MARKED_READ'] = 'Emner i dette forum har bare været præget læse';
+$lang['MARK_TOPICS_READ'] = 'Marker alle emner som læst';
+$lang['TOPICS_MARKED_READ'] = 'Emnerne i dette forum er netop blevet markeret som læst';
 
-$lang['RULES_POST_CAN'] = 'Du <b>can</b> skrive nye emner i dette forum';
-$lang['RULES_POST_CANNOT'] = 'Du <b>cannot</b> skrive nye emner i dette forum';
-$lang['RULES_REPLY_CAN'] = 'Du <b>can</b> besvare emner i dette forum';
-$lang['RULES_REPLY_CANNOT'] = 'Du <b>cannot</b> besvare emner i dette forum';
-$lang['RULES_EDIT_CAN'] = 'Du <b>can</b> redigere dine indlæg i dette forum';
-$lang['RULES_EDIT_CANNOT'] = 'Du <b>cannot</b> redigere dine indlæg i dette forum';
-$lang['RULES_DELETE_CAN'] = 'Du <b>can</b> slette dine indlæg i dette forum';
-$lang['RULES_DELETE_CANNOT'] = 'Du <b>cannot</b> slette dine indlæg i dette forum';
-$lang['RULES_VOTE_CAN'] = 'Du <b>can</b> stemme på afstemninger i dette forum';
-$lang['RULES_VOTE_CANNOT'] = 'Du <b>cannot</b> stemme på afstemninger i dette forum';
-$lang['RULES_MODERATE'] = 'Du <b>can</b> moderat dette forum';
+$lang['RULES_POST_CAN'] = 'Du <b>kan</b> oprette nye emner i dette forum';
+$lang['RULES_POST_CANNOT'] = 'Du <b>kan ikke</b> oprette nye emner i dette forum';
+$lang['RULES_REPLY_CAN'] = 'Du <b>kan</b> besvare emner i dette forum';
+$lang['RULES_REPLY_CANNOT'] = 'Du <b>kan ikke</b> besvare emner i dette forum';
+$lang['RULES_EDIT_CAN'] = 'Du <b>kan</b> redigere dine indlæg i dette forum';
+$lang['RULES_EDIT_CANNOT'] = 'Du <b>kan ikke</b> redigere dine indlæg i dette forum';
+$lang['RULES_DELETE_CAN'] = 'Du <b>kan</b> slette dine indlæg i dette forum';
+$lang['RULES_DELETE_CANNOT'] = 'Du <b>kan ikke</b> slette dine indlæg i dette forum';
+$lang['RULES_VOTE_CAN'] = 'Du <b>kan</b> stemme i afstemninger i dette forum';
+$lang['RULES_VOTE_CANNOT'] = 'Du <b>kan ikke</b> stemme i afstemninger i dette forum';
+$lang['RULES_MODERATE'] = 'Du <b>kan</b> moderere dette forum';
 
 $lang['NO_TOPICS_POST_ONE'] = 'Der er endnu ingen indlæg i dette forum<br />Klik på <b>Ny Topic</b> ikonet, og dit indlæg vil være det første.';
 $lang['NO_RELEASES_POST_ONE'] = 'Der er endnu ingen udgivelser i dette forum<br />Klik på <b>Ny Udgivelse</b> ikonet, og din udgivelse vil være den første.';
@@ -227,7 +227,7 @@ $lang['NO_RELEASES_POST_ONE'] = 'Der er endnu ingen udgivelser i dette forum<br 
 $lang['VIEW_TOPIC'] = 'Vis emne';
 
 $lang['GUEST'] = 'Gæst';
-$lang['POST_SUBJECT'] = 'Post subject';
+$lang['POST_SUBJECT'] = 'Indlægsemne';
 $lang['SUBMIT_VOTE'] = 'Send afstemning';
 
 $lang['NO_NEWER_TOPICS'] = 'Der er ingen nyere emner i dette forum';
@@ -241,27 +241,27 @@ $lang['NEWEST_FIRST'] = 'Nyeste Først';
 $lang['OLDEST_FIRST'] = 'Ældste Først';
 
 $lang['READ_PROFILE'] = 'Se brugerens profil';
-$lang['DELETE_POST'] = 'Slette dette indlæg';
+$lang['DELETE_POST'] = 'Slet dette indlæg';
 
 $lang['WROTE'] = 'skrev'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Citat'; // comes before bbcode quote output
 $lang['CODE'] = 'Kode'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'skjult tekst';
-$lang['SPOILER_CLOSE'] = 'igen';
+$lang['SPOILER_CLOSE'] = 'Luk';
 $lang['PLAY_ON_CURPAGE'] = 'Start med at spille på den aktuelle side';
 
 $lang['EDITED_TIME_TOTAL'] = 'Sidst redigeret af <b>%s</b> den %s; redigeret %d gang i alt'; // Last edited by me on 12 Oct 2001; edited 1 time in total
 $lang['EDITED_TIMES_TOTAL'] = 'Sidst redigeret af <b>%s</b> den %s; redigeret %d gange i alt'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
-$lang['LOCK_TOPIC'] = 'Låse emne';
-$lang['UNLOCK_TOPIC'] = 'Låse emne';
+$lang['LOCK_TOPIC'] = 'Lås emnet';
+$lang['UNLOCK_TOPIC'] = 'Lås emnet op';
 $lang['MOVE_TOPIC'] = 'Flytte emnet';
 $lang['DELETE_TOPIC'] = 'Slette emnet';
 $lang['SPLIT_TOPIC'] = 'Split emnet';
 
 $lang['STOP_WATCHING_TOPIC'] = 'Stop efter emne';
 $lang['START_WATCHING_TOPIC'] = 'Følg emne for svar';
-$lang['NO_LONGER_WATCHING'] = 'Du er ikke længere følger dette emne';
+$lang['NO_LONGER_WATCHING'] = 'Du følger ikke længere dette emne.';
 $lang['YOU_ARE_WATCHING'] = 'Du følger dette emne nu';
 
 $lang['SEARCH_IN_TOPIC'] = 'søg i emne...';
@@ -290,12 +290,12 @@ $lang['POST_TOPIC_AS'] = 'Indlæg emne som';
 $lang['EDIT_POST'] = 'Rediger indlæg';
 $lang['EDIT_TOPIC_TITLE'] = 'Rediger emne titel';
 
-$lang['DONT_MESSAGE_TITLE'] = 'Du skal angive titel besked';
+$lang['DONT_MESSAGE_TITLE'] = 'Du skal angive en titel til beskeden';
 $lang['INVALID_TOPIC_ID'] = 'Emne Fraværende!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Emne ikke findes i databasen!';
 
 $lang['NOT_POST'] = 'Fraværende Besked';
-$lang['NOT_EDIT_TOR_STATUS'] = 'Du kan ikke redigere udgivelse med status';
+$lang['NOT_EDIT_TOR_STATUS'] = 'Du kan ikke redigere en udgivelse med denne status';
 
 $lang['OPTIONS'] = 'Valg';
 
@@ -309,7 +309,7 @@ $lang['PRINT_PAGE'] = 'Print page';
 $lang['CONFIRM_DELETE'] = 'Er du sikker på du vil slette dette indlæg?';
 $lang['CONFIRM_DELETE_POLL'] = 'Er du sikker på du ønsker at slette denne afstemning?';
 
-$lang['FLOOD_ERROR'] = 'Du kan ikke gøre andet indlæg så hurtigt efter din sidste; prøv venligst igen om kort tid';
+$lang['FLOOD_ERROR'] = 'Du kan ikke oprette et nyt indlæg så kort efter dit sidste; prøv igen om lidt';
 $lang['EMPTY_SUBJECT'] = 'Du skal angive et emne';
 $lang['EMPTY_MESSAGE'] = 'Du skal indtaste en besked';
 $lang['FORUM_LOCKED'] = 'Forum er låst';
@@ -326,7 +326,7 @@ $lang['CANNOT_DELETE_POLL'] = 'Undskyld, men du kan ikke slette en aktiv menings
 $lang['EMPTY_POLL_TITLE'] = 'Du skal indtaste en titel til din afstemning';
 $lang['POST_HAS_NO_POLL'] = 'Dette indlæg har ingen meningsmåling';
 $lang['ALREADY_VOTED'] = 'Du har allerede stemt i denne afstemning';
-$lang['NO_VOTE_OPTION'] = 'Du skal angive en mulighed, når afstemningen';
+$lang['NO_VOTE_OPTION'] = 'Du skal angive en mulighed, når du stemmer';
 $lang['LOCKED_WARN'] = 'Du har indsendt i låst emne!';
 
 $lang['ADD_POLL'] = 'Tilføj en afstemning';
@@ -335,7 +335,7 @@ $lang['UPDATE'] = 'Opdatering';
 $lang['DAYS'] = 'Dage';
 $lang['DELETE_POLL'] = 'Slet meningsmåling';
 
-$lang['MAX_SMILIES_PER_POST'] = 'Humørikoner grænse for %s humørikoner overskredet.';
+$lang['MAX_SMILIES_PER_POST'] = 'Grænsen på %s humørikoner er overskredet.';
 
 $lang['NOTIFY'] = 'Giv mig besked om svar';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Tillad robotter at indeksere dette emne';
@@ -356,14 +356,14 @@ $lang['COLOR_BROWN'] = 'Brun';
 $lang['COLOR_GREEN'] = 'Grøn';
 $lang['COLOR_OLIVE'] = 'Olive';
 $lang['COLOR_BLUE'] = 'Blå';
-$lang['COLOR_DARK_BLUE'] = 'Mørke Blå';
+$lang['COLOR_DARK_BLUE'] = 'Mørkeblå';
 $lang['COLOR_INDIGO'] = 'Indigo';
 $lang['COLOR_VIOLET'] = 'Violet';
 
 $lang['FONT_SMALL'] = 'Lille';
 $lang['FONT_NORMAL'] = 'Normal';
-$lang['FONT_LARGE'] = 'Store';
-$lang['FONT_HUGE'] = 'Stort';
+$lang['FONT_LARGE'] = 'Stor';
+$lang['FONT_HUGE'] = 'Meget stor';
 
 $lang['NEW_POSTS_PREVIEW'] = 'Emnet er ny, redigeret eller ulæste indlæg';
 
@@ -401,7 +401,7 @@ $lang['SENT'] = 'Sendt';
 $lang['SAVED'] = 'Gemt';
 $lang['DELETE_MARKED'] = 'Slet Markerede';
 $lang['DELETE_ALL'] = 'Slet Alle';
-$lang['SAVE_MARKED'] = 'Spar Mærket';
+$lang['SAVE_MARKED'] = 'Gem markerede';
 $lang['SAVE_MESSAGE'] = 'Gem Besked';
 $lang['DELETE_MESSAGE'] = 'Slet Besked';
 
@@ -414,13 +414,13 @@ $lang['CANNOT_SEND_PRIVMSG'] = 'Undskyld, men administratoren har forhindret dig
 $lang['NO_TO_USER'] = 'Du skal angive et brugernavn til hvem du skal sende denne besked.';
 $lang['NO_SUCH_USER'] = 'Undskyld, men ingen bruger eksisterer.';
 
-$lang['MESSAGE_SENT'] = '<b>Your besked er blevet sendt.</b>';
+$lang['MESSAGE_SENT'] = '<b>Din besked er blevet sendt.</b>';
 
-$lang['CLICK_RETURN_INBOX'] = 'Vende tilbage til din:<br /><br /> %s<b>Inbox</b>%s';
+$lang['CLICK_RETURN_INBOX'] = 'Vend tilbage til din:<br /><br /> %s<b>Indbakke</b>%s';
 $lang['CLICK_RETURN_SENTBOX'] = '&nbsp;&nbsp; %s<b>Sentbox</b>%s';
 $lang['CLICK_RETURN_OUTBOX'] = '&nbsp;&nbsp; %s<b>Outbox</b>%s';
 $lang['CLICK_RETURN_SAVEBOX'] = '&nbsp;&nbsp; %s<b>Savebox</b>%s';
-$lang['CLICK_RETURN_INDEX'] = '%sReturn til Index%s';
+$lang['CLICK_RETURN_INDEX'] = '%sGå tilbage til Indeks%s';
 
 $lang['SEND_A_NEW_MESSAGE'] = 'Send en privat besked';
 $lang['SEND_A_REPLY'] = 'Besvare en privat besked';
@@ -435,20 +435,20 @@ $lang['NO_PM_ID'] = 'Angiv venligst post-ID';
 $lang['NO_SUCH_FOLDER'] = 'Mappen er ikke fundet';
 
 $lang['MARK_ALL'] = 'Marker alle';
-$lang['UNMARK_ALL'] = 'Fjern markering af alle for';
+$lang['UNMARK_ALL'] = 'Fjern markering af alle';
 
 $lang['CONFIRM_DELETE_PM'] = 'Er du sikker på du ønsker at slette denne meddelelse?';
 $lang['CONFIRM_DELETE_PMS'] = 'Er du sikker på du ønsker at slette disse beskeder?';
 
-$lang['INBOX_SIZE'] = 'Din Indbakke is<br /><b>%d%%</b> fuld'; // e.g. Your Inbox is 50% full
-$lang['SENTBOX_SIZE'] = 'Din Sentbox is<br /><b>%d%%</b> fuld';
-$lang['SAVEBOX_SIZE'] = 'Din Savebox is<br /><b>%d%%</b> fuld';
+$lang['INBOX_SIZE'] = 'Din indbakke er<br /><b>%d%%</b> fuld'; // e.g. Your Inbox is 50% full
+$lang['SENTBOX_SIZE'] = 'Din Sentbox er<br /><b>%d%%</b> fuld';
+$lang['SAVEBOX_SIZE'] = 'Din Savebox er<br /><b>%d%%</b> fuld';
 
 $lang['OUTBOX_EXPL'] = '';
 
 // Profiles/Registration
 $lang['VIEWING_USER_PROFILE'] = 'Se-profil :: %s';
-$lang['VIEWING_MY_PROFILE'] = 'Min profil [ <a href="%s">Settings / Ændre profile</a> ]';
+$lang['VIEWING_MY_PROFILE'] = 'Min profil [ <a href="%s">Indstillinger / Rediger profil</a> ]';
 
 $lang['DISABLED_USER'] = 'Konto deaktiveret';
 $lang['MANAGE_USER'] = 'Administration';
@@ -466,7 +466,7 @@ $lang['EMAIL_ADDRESS'] = 'E-mail-adresse';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Send privat besked';
 $lang['INTERESTS'] = 'Interesser';
 $lang['OCCUPATION'] = 'Erhverv';
-$lang['POSTER_RANK'] = 'Plakat rang';
+$lang['POSTER_RANK'] = 'Indlægsrang';
 $lang['AWARDED_RANK'] = 'Tildelt rang';
 $lang['SHOT_RANK'] = 'Skudt rang';
 
@@ -475,16 +475,16 @@ $lang['SEARCH_USER_POSTS'] = 'Finde indlæg'; // Find all posts by username
 $lang['SEARCH_USER_POSTS_SHORT'] = 'Finder brugeren indlæg';
 $lang['SEARCH_USER_TOPICS'] = 'Finder brugeren emner'; // Find all topics by username
 
-$lang['NO_USER_ID_SPECIFIED'] = 'Undskyld, men at brugeren ikke eksisterer.';
-$lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Undskyld, men dit password, kan ikke hentes, fordi din konto er i øjeblikket inaktiv';
+$lang['NO_USER_ID_SPECIFIED'] = 'Undskyld, men den bruger eksisterer ikke.';
+$lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Undskyld, men din adgangskode kan ikke hentes, fordi din konto i øjeblikket er inaktiv.';
 $lang['NO_SEND_ACCOUNT'] = 'Undskyld, men dit password, kan ikke hentes. Bedes du kontakte forum-administratoren for at få flere oplysninger';
 
 $lang['HIDE_PORN_FORUMS'] = 'Skjul indhold 18+';
 $lang['ADD_RETRACKER'] = 'Tilføj retracker i torrent filer';
-$lang['ALWAYS_NOTIFY'] = 'Altid give mig svar';
-$lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Sender en e-mail når nogen svarer til et emne du har postet i. Dette kan ændres når du skriver.';
+$lang['ALWAYS_NOTIFY'] = 'Giv mig altid besked om svar';
+$lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Sender en e-mail, når nogen svarer på et emne, du har deltaget i. Dette kan ændres, når du skriver.';
 
-$lang['BOARD_LANG'] = 'Bestyrelsen sprog';
+$lang['BOARD_LANG'] = 'Forumets sprog';
 $lang['GENDER'] = 'Køn';
 $lang['GENDER_SELECT'] = [
     0 => 'Ukendt',
@@ -512,7 +512,7 @@ $lang['YEARS'] = 'År';
 $lang['TIMEZONE'] = 'Tidszone';
 $lang['DATE_FORMAT_EXPLAIN'] = 'De brugte syntaks er identisk med PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> funktion.';
 $lang['SIGNATURE'] = 'Signatur';
-$lang['SIGNATURE_EXPLAIN'] = 'Dette er en blok af tekst, der kan tilføjes til et indlæg, du laver. Der er en %d tegngrænsen';
+$lang['SIGNATURE_EXPLAIN'] = 'Dette er en blok tekst, der kan tilføjes til dine indlæg. Der er en grænse på %d tegn';
 $lang['SIGNATURE_DISABLE'] = 'Underskrevet for overtrædelse af forum-reglerne';
 $lang['PUBLIC_VIEW_EMAIL'] = 'Vis e-mail-adresse under min profil';
 
@@ -526,32 +526,32 @@ $lang['PASSWORD_IF_CHANGED'] = 'Du behøver kun at angive en adgangskode, hvis d
 $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Du behøver kun at bekræfte din adgangskode, hvis du har ændret det ovenfor';
 
 $lang['AUTOLOGIN'] = 'Autologin';
-$lang['RESET_AUTOLOGIN'] = 'Nulstille login-tasten';
+$lang['RESET_AUTOLOGIN'] = 'Nulstil autologin-nøglen';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'herunder alle de steder, du har besøgt forummet aktiveret auto-login';
 
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Viser et lille grafisk billede nedenfor dine oplysninger i indlæg. Kun ét billede kan vises ad gangen, dets bredde må ikke være større end %d pixels, højden må ikke være større end %d pixels, og filstørrelsen må ikke overstige %s.';
 $lang['AVATAR_DELETE'] = 'Slet avatar';
-$lang['AVATAR_DISABLE'] = 'Avatar kontrol indstilling deaktiveret for overtrædelse <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Avatar-kontrolindstilling deaktiveret for overtrædelse af <a href="%s"><b>forumregler</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Upload avatar';
 $lang['RETURN_PROFILE'] = 'Tilbage til profil';
 $lang['DELETE_IMAGE'] = 'Slet billede';
 $lang['SET_MONSTERID_AVATAR'] = 'Indstil MonsterID avatar';
 
-$lang['NOTIFY_ON_PRIVMSG'] = 'Besked om ny privat besked';
+$lang['NOTIFY_ON_PRIVMSG'] = 'Giv besked ved ny privat besked';
 $lang['HIDE_USER'] = 'Skjul din online status';
 $lang['HIDDEN_USER'] = 'Skjult bruger';
 
 $lang['PROFILE_UPDATED'] = 'Din profil er blevet opdateret';
-$lang['PROFILE_UPDATED_INACTIVE'] = 'Din profil er blevet opdateret. Du har dog ændret sig afgørende detaljer, således at din konto er inaktiv nu. Tjek din e-mail for at finde ud af, hvordan du genaktiverer din konto, eller hvis admin aktivering er påkrævet, skal du vente til administrator genaktivere det.';
+$lang['PROFILE_UPDATED_INACTIVE'] = 'Din profil er blevet opdateret. Du har ændret væsentlige oplysninger, og din konto er nu inaktiv. Tjek din e-mail for at få oplysninger om, hvordan du genaktiverer din konto, eller hvis admin-aktivering er påkrævet, vent på, at administratoren genaktiverer den.';
 
 $lang['PASSWORD_LONG'] = 'Din adgangskode må ikke være længere end %d tegn og ikke kortere end %d tegn.';
 $lang['USERNAME_TAKEN'] = 'Undskyld, men dette brugernavn er allerede blevet taget.';
-$lang['USERNAME_INVALID'] = 'Undskyld, men det indeholder et ugyldigt tegn';
-$lang['USERNAME_DISALLOWED'] = 'Undskyld, men dette brugernavn er blevet deaktiveret.';
+$lang['USERNAME_INVALID'] = 'Undskyld, men dette brugernavn indeholder et ugyldigt tegn';
+$lang['USERNAME_DISALLOWED'] = 'Undskyld, men dette brugernavn er ikke tilladt.';
 $lang['USERNAME_TOO_LONG'] = 'Dit navn er for langt.';
 $lang['USERNAME_TOO_SMALL'] = 'Dit navn er for lille.';
-$lang['EMAIL_TAKEN'] = 'Undskyld, men at e-mail adressen er allerede registreret til en bruger.';
+$lang['EMAIL_TAKEN'] = 'Undskyld, men denne e-mailadresse er allerede registreret til en bruger.';
 $lang['EMAIL_INVALID'] = 'Beklager, men denne e-mail adresse er ugyldig.';
 $lang['EMAIL_TOO_LONG'] = 'Din e-mail er for lang.';
 $lang['SIGNATURE_TOO_LONG'] = 'Din signatur er for lang.';
@@ -574,27 +574,27 @@ $lang['NO_EMAIL_MATCH'] = 'E-mail-adresse, du har angivet, ikke svarer til den, 
 $lang['PASSWORD_ACTIVATED'] = 'Din konto er blevet genaktiveret. For at logge ind, skal du bruge den adgangskode, som leveres i den e-mail du har modtaget.';
 
 $lang['SEND_EMAIL_MSG'] = 'Send en e-mail';
-$lang['NO_USER_SPECIFIED'] = 'Ikke angivet';
+$lang['NO_USER_SPECIFIED'] = 'Ingen bruger angivet';
 $lang['USER_NOT_EXIST'] = 'At brugeren eksisterer ikke';
-$lang['EMAIL_MESSAGE_DESC'] = 'Denne besked vil blive sendt som almindelig tekst, så du skal ikke medtage alle de HTML eller Bbkoder. Afsenderadressen for denne meddelelse vil blive sat til din e-mail-adresse.';
+$lang['EMAIL_MESSAGE_DESC'] = 'Denne besked vil blive sendt som almindelig tekst, så medtag ikke HTML eller BBCode. Afsenderadressen for denne besked bliver sat til din e-mail-adresse.';
 $lang['RECIPIENT'] = 'Modtageren';
 $lang['EMAIL_SENT'] = 'E-mail er blevet sendt.';
 $lang['SEND_EMAIL'] = 'Send e-mail';
 $lang['EMPTY_SUBJECT_EMAIL'] = 'Du skal angive et emne for e-mail.';
-$lang['EMPTY_MESSAGE_EMAIL'] = 'Du skal indtaste en besked for at blive e-mailes.';
+$lang['EMPTY_MESSAGE_EMAIL'] = 'Du skal indtaste en besked, der skal sendes via e-mail.';
 
-$lang['USER_AGREEMENT'] = 'Bruger aftalen';
+$lang['USER_AGREEMENT'] = 'Brugeraftale';
 $lang['USER_AGREEMENT_HEAD'] = 'For at fortsætte, skal du acceptere følgende regler';
 $lang['USER_AGREEMENT_AGREE'] = 'Jeg har læst og accepterer brugeraftalen ovenfor';
 
 $lang['COPYRIGHT_HOLDERS'] = 'For indehavere af ophavsret';
-$lang['ADVERT'] = 'Annoncere på denne hjemmeside';
+$lang['ADVERT'] = 'Annoncer på denne hjemmeside';
 $lang['NOT_FOUND'] = 'Fil ikke fundet';
 
 // Memberslist
-$lang['SORT'] = 'Form';
-$lang['SORT_TOP_TEN'] = 'Top Ti Plakater';
-$lang['SORT_JOINED'] = 'Sluttede Dato';
+$lang['SORT'] = 'Sorter';
+$lang['SORT_TOP_TEN'] = 'Top ti forfattere';
+$lang['SORT_JOINED'] = 'Tilsluttet dato';
 $lang['SORT_USERNAME'] = 'Brugernavn';
 $lang['SORT_LOCATION'] = 'Beliggenhed';
 $lang['SORT_POSTS'] = 'Total indlæg';
@@ -602,7 +602,7 @@ $lang['SORT_EMAIL'] = 'E-mail';
 $lang['SORT_WEBSITE'] = 'Hjemmeside';
 $lang['ASC'] = 'Stigende';
 $lang['DESC'] = 'Faldende';
-$lang['ORDER'] = 'For';
+$lang['ORDER'] = 'Rækkefølge';
 
 // Thanks
 $lang['THANK_TOPIC'] = 'Stem på dette emne';
@@ -613,7 +613,7 @@ $lang['NO_LIKES'] = 'Ingen har givet en stemme endnu';
 $lang['LIKE_ALREADY'] = 'Du har allerede stemt på dette emne';
 
 // Invites
-$lang['INVITE_CODE'] = 'Inviter kode';
+$lang['INVITE_CODE'] = 'Invitérkode';
 $lang['INCORRECT_INVITE'] = 'Inviter ikke fundet';
 $lang['INVITE_EXPIRED'] = 'Inviter er udløbet';
 
@@ -1332,27 +1332,27 @@ $lang['RIGHT'] = 'Til højre';
 $lang['CENTER'] = 'Centreret';
 $lang['JUSTIFY'] = 'Tilpas til bredden';
 $lang['HOR_LINE'] = 'Vandret linje (Ctrl+8)';
-$lang['NEW_LINE'] = 'New line';
+$lang['NEW_LINE'] = 'Ny linje';
 $lang['BOLD'] = 'Fed tekst: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'Kursiv tekst: [i]text[/i] (Ctrl+I)';
 $lang['UNDERLINE'] = 'Understreget tekst: [u]text[/u] (Ctrl+U)';
-$lang['STRIKEOUT'] = 'Overstrege tekst: [s]text[/s] (Ctrl+S)';
+$lang['STRIKEOUT'] = 'Gennemstreget tekst: [s]text[/s] (Ctrl+S)';
 $lang['BOX_TAG'] = 'Ramme omkring tekst: [box]text[/box] eller [box=#333,#888]text[/box]';
 $lang['INDENT_TAG'] = 'Indsæt indryk: [indent]text[/indent]';
-$lang['PRE_TAG'] = 'Forformat tekst: [pre]text[/pre]';
+$lang['PRE_TAG'] = 'Forformateret tekst: [pre]text[/pre]';
 $lang['NFO_TAG'] = 'NFO: [nfo]text[/nfo]';
 $lang['SUPERSCRIPT'] = 'Superscript tekst: [sup]text[/sup]';
 $lang['SUBSCRIPT'] = 'Subscript tekst: [sub]text[/sub]';
-$lang['QUOTE_TITLE'] = 'Citat af tekst: [quote]text[/quote] (Ctrl+Q)';
+$lang['QUOTE_TITLE'] = 'Citer tekst: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Indsæt billede: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Indsæt URL: [url]https://url[/url] eller [url=https://url]URL-tekst[/url] (Ctrl+W)';
-$lang['CODE_TITLE'] = 'Kode display: [code]code[/code] (Ctrl+K)';
-$lang['LIST'] = 'Listen';
+$lang['CODE_TITLE'] = 'Kodevisning: [code]code[/code] (Ctrl+K)';
+$lang['LIST'] = 'Liste';
 $lang['LIST_TITLE'] = 'Liste: [list]text[/list] (Ctrl+l)';
-$lang['LIST_ITEM'] = 'Liste: [list=]text[/list] (Ctrl+O)';
+$lang['LIST_ITEM'] = 'Nummereret liste: [list=]text[/list] (Ctrl+O)';
 $lang['ACRONYM'] = 'Akronym';
-$lang['ACRONYM_TITLE'] = 'Akronym: [acronym=Fuldt tekst]Kort tekst[/acronym]';
+$lang['ACRONYM_TITLE'] = 'Akronym: [acronym=Fuld tekst]Kort tekst[/acronym]';
 $lang['QUOTE_SEL'] = 'Udvalgt citat';
 $lang['JAVASCRIPT_ON'] = 'JavaScript skal være aktiveret for at sende beskeder';
 
@@ -1371,20 +1371,20 @@ $lang['DL_UL_SPEED'] = 'UL hastighed';
 $lang['DL_DL_SPEED'] = 'DL hastighed';
 $lang['DL_PORT'] = 'Port';
 $lang['DL_CLIENT'] = 'BitTorrent klient';
-$lang['DL_FORMULA'] = 'Formel: Uploades/TorrentSize';
+$lang['DL_FORMULA'] = 'Formel: Uploadet/Torrentstørrelse';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'stoppet';
 $lang['DL_UPD'] = 'opdatere post gang: ';
-$lang['DL_INFO'] = 'viser data <i><b>only for den aktuelle session</b></i>';
+$lang['DL_INFO'] = 'viser data <i><b>kun for den aktuelle session</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Skjul mit BitTorrent klient navn i peer liste';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Skjul mit lands navn i peer liste';
 $lang['HIDE_PEER_USERNAME'] = 'Skjul mit brugernavn i peer liste';
 
 // Post PIN
-$lang['POST_PIN'] = 'Pin-kode første indlæg';
-$lang['POST_UNPIN'] = 'Frigør første indlæg';
-$lang['POST_PINNED'] = 'Første indlæg i klemme';
-$lang['POST_UNPINNED'] = 'Første indlæg unpinned';
+$lang['POST_PIN'] = 'Fastgør første indlæg';
+$lang['POST_UNPIN'] = 'Fjern fastgørelse af første indlæg';
+$lang['POST_PINNED'] = 'Første indlæg fastgjort';
+$lang['POST_UNPINNED'] = 'Første indlæg affastgjort';
 
 // Management of my messages
 $lang['GOTO_MY_MESSAGE'] = 'Luk og vend tilbage til listen "Mine Beskeder"';
@@ -1394,12 +1394,12 @@ $lang['EDIT_MY_MESSAGE_LIST'] = 'rediger liste';
 $lang['SELECT_INVERT'] = 'vælg / inverter';
 $lang['RESTORE_ALL_POSTS'] = 'Gendan alle indlæg';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Slet det valgte emne fra listen';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Efter fjernelse af op til at opdatere <b>entire list</b> det kan påvises allerede slettet tråde';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Efter fjernelse og opdatering af <b>hele listen</b> kan allerede slettede tråde blive vist.';
 $lang['DEL_LIST_INFO'] = 'For at slette en ordre fra listen, skal du klikke på ikonet til venstre for navnene på alle afsnit';
 
 // Watched topics
-$lang['WATCHED_TOPICS'] = 'Så emner';
-$lang['NO_WATCHED_TOPICS'] = 'Ingen overvågnings emner';
+$lang['WATCHED_TOPICS'] = 'Overvågede emner';
+$lang['NO_WATCHED_TOPICS'] = 'Ingen overvågede emner';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Tilbage til startsiden';
@@ -1418,20 +1418,20 @@ $lang['FORUM_STYLE'] = 'Forum stil';
 $lang['LINKS_ARE_FORBIDDEN'] = 'Links er forbudt';
 
 $lang['GENERAL'] = 'Generelt Admin';
-$lang['USERS'] = 'Brugeren Admin';
-$lang['GROUPS'] = 'Gruppen Admin';
-$lang['FORUMS'] = 'Forum Admin';
+$lang['USERS'] = 'Brugeradministration';
+$lang['GROUPS'] = 'Gruppeadministration';
+$lang['FORUMS'] = 'Forumadministration';
 $lang['MODS'] = 'Ændringer';
 
 $lang['CONFIGURATION'] = 'Konfiguration';
-$lang['MANAGE'] = 'Ledelse';
+$lang['MANAGE'] = 'Administration';
 $lang['DISALLOW'] = 'Tillad ikke navne';
 $lang['PRUNE'] = 'Beskæring';
 $lang['MASS_EMAIL'] = 'Masse-E-Mail';
-$lang['RANKS'] = 'Rækker';
+$lang['RANKS'] = 'Rangtitler';
 $lang['SMILIES'] = 'Smilies';
-$lang['BAN_MANAGEMENT'] = 'Forbud, Kontrol';
-$lang['WORD_CENSOR'] = 'Ordet Censorer';
+$lang['BAN_MANAGEMENT'] = 'Banningskontrol';
+$lang['WORD_CENSOR'] = 'Ordcensur';
 $lang['EXPORT'] = 'Eksport';
 $lang['CREATE_NEW'] = 'Opret';
 $lang['ADD_NEW'] = 'Tilføj';
@@ -1478,7 +1478,7 @@ $lang['PHP_INFO'] = 'Information om PHP';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'Klik på %sHere%s for at vende tilbage til Admin Indeks';
 
-$lang['NUMBER_POSTS'] = 'Antallet af stillinger';
+$lang['NUMBER_POSTS'] = 'Klik %sher%s for at vende tilbage til Admin-indeks';
 $lang['POSTS_PER_DAY'] = 'Indlæg per dag';
 $lang['NUMBER_TOPICS'] = 'Antallet af emner';
 $lang['TOPICS_PER_DAY'] = 'Emner per dag';
@@ -1498,7 +1498,7 @@ $lang['ADMIN_SYSTEM_DATABASE_VER'] = 'Database:';
 $lang['ADMIN_SYSTEM_PHP_MEM_LIMIT'] = 'Hukommelsesgrænse:';
 $lang['ADMIN_SYSTEM_DISK_SPACE_INFO_TITLE'] = 'Diskplads info:';
 $lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (brugte: %s | gratis: %s)';
-$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Maks udførelsestid:';
+$lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = '%s (brugt: %s | ledig: %s)';
 
 // Clear Cache
 $lang['DATASTORE'] = 'Datastore';
@@ -1596,8 +1596,8 @@ $lang['CONFIG_EXPLAIN'] = 'Skemaet nedenfor giver dig mulighed for at tilpasse a
 $lang['CONFIG_MODS'] = 'Konfiguration ændringer';
 $lang['MODS_EXPLAIN'] = 'Denne form giver dig mulighed for at justere ændringer';
 
-$lang['CLICK_RETURN_CONFIG'] = '%sClick Her for at vende tilbage til Generelt Configuration%s';
-$lang['CLICK_RETURN_CONFIG_MODS'] = '%sBack til indstillinger modifications%s';
+$lang['CLICK_RETURN_CONFIG'] = '%sKlik her%s for at vende tilbage til Generel konfiguration';
+$lang['CLICK_RETURN_CONFIG_MODS'] = '%sTilbage til indstillingsændringerne%s';
 
 $lang['GENERAL_SETTINGS'] = 'Generelle Råd Indstillinger';
 $lang['SITE_NAME'] = 'Navn på websted';
@@ -1646,7 +1646,7 @@ $lang['MOVE_UP'] = 'Flytte op';
 $lang['MOVE_DOWN'] = 'Flyt ned';
 $lang['RESYNC'] = 'Re-synkroniser';
 $lang['NO_MODE'] = 'Ingen tilstand blev sat';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Skemaet nedenfor giver dig mulighed for at tilpasse alle generalforsamlingen valg. For Brugeren og Forum konfigurationer brug den relaterede links i venstre side';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Skemaet nedenfor giver dig mulighed for at tilpasse alle de generelle forumindstillinger. Til bruger- og forumkonfigurationer skal du bruge de relevante links i venstre side';
 
 $lang['MOVE_CONTENTS'] = 'Flytte alt indhold';
 $lang['FORUM_DELETE'] = 'Slet Forum';
@@ -1677,7 +1677,7 @@ $lang['FORUMS_UPDATED'] = 'Forum og Kategori oplysninger opdateret';
 
 $lang['MUST_DELETE_FORUMS'] = 'Du er nødt til at slette alle fora før du kan slette denne kategori';
 
-$lang['CLICK_RETURN_FORUMADMIN'] = 'Klik på %sHere%s for at vende tilbage til Forum-Administrationen';
+$lang['CLICK_RETURN_FORUMADMIN'] = 'Klik %sher%s for at vende tilbage til Forum-administrationen';
 
 $lang['SHOW_ALL_FORUMS_ON_ONE_PAGE'] = 'Vis alle fora på én side';
 
@@ -1709,7 +1709,7 @@ $lang['EXPORT_SMILES'] = 'For at oprette en smiley-pack fra dine installerede sm
 $lang['SMILEY_ADD_SUCCESS'] = 'Smiley er blevet tilføjet';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Smiley er blevet opdateret';
 $lang['SMILEY_IMPORT_SUCCESS'] = 'Smiley-pakken er blevet importeret!';
-$lang['SMILEY_DEL_SUCCESS'] = 'Smiley er blevet fjernet med succes';
+$lang['SMILEY_DEL_SUCCESS'] = '%sKlik her%s for at vende tilbage til Smiley-administrationen';
 $lang['CLICK_RETURN_SMILEADMIN'] = 'Klik på %sHere%s for at vende tilbage til Smiley Administration';
 
 // User Management
@@ -1733,7 +1733,7 @@ $lang['NO_GROUP_MODE'] = 'Du skal angive en tilstand for denne gruppe, åbne ell
 $lang['NO_GROUP_ACTION'] = 'Ingen handling specificeret';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Slet den gamle gruppe moderator?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Hvis du \' re changing the group moderator, marker dette afkrydsningsfelt for at fjerne den gamle moderator fra gruppen. Ellers ikke kontrollere det, og brugeren vil blive en fast medlem af gruppen.';
-$lang['CLICK_RETURN_GROUPSADMIN'] = 'Klik på %sHere%s for at vende tilbage til Gruppen Administration.';
+$lang['CLICK_RETURN_GROUPSADMIN'] = '%sKlik her%s for at vende tilbage til Gruppeadministrationen.';
 $lang['SELECT_GROUP'] = 'Vælg en gruppe';
 $lang['LOOK_UP_GROUP'] = 'Se op-gruppen';
 
@@ -1855,7 +1855,7 @@ $lang['SYNC'] = 'Sync';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. længden af nyheder';
-$lang['NEWS_COUNT'] = 'Hvor mange nyheder at vise';
+$lang['NEWS_COUNT'] = 'Hvor mange nyhedsindlæg der skal vises';
 $lang['NEWS_FORUM_ID'] = 'Fra hvilke fora skal vises<br /> <h6>For flere fora skal du angive ID\'er adskilt af kommaer. Eksempel: 1,2,3</h6>';
 $lang['TRACKER_STATS'] = 'Statistik på tracker';
 $lang['WHOIS_INFO'] = 'Oplysninger om IP-adresse';
@@ -1881,7 +1881,7 @@ $lang['SPECIAL_CATEGORIES'] = 'Særlige Kategorier';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Indstillinger For Vedhæftede';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Her kan du konfigurere de Vigtigste Indstillinger for Vedhæftede Mod. Hvis du trykker på den Test-Indstillinger-Knappen, Udlæg Mod er et par System-Tests for at være sikker på, at det Mod vil arbejde ordentligt. Hvis du har problemer med at uploade Filer, skal du køre denne Test, for at få en detaljeret fejlmeddelelse.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Vedhæftede Fil Størrelse Indstillinger';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Indstillinger for vedhæftede filstørrelse';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Vedhæftede Antal Indstillinger';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Vedhæftede Muligheder';
 
@@ -1933,7 +1933,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Udvidelse Gruppe %s, findes allerede'; // repl
 $lang['MANAGE_CATEGORIES'] = 'Håndtere Specielle Kategorier';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Her kan du konfigurere de Særlige Kategorier. Du kan oprette Særlige Parametre og Vilkår for de Særlige Kategorier, der er tildelt til en Udvidelse Gruppe.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Indstillinger for Særlige Kategori: Billeder';
-$lang['DISPLAY_INLINED'] = 'Vis Billeder Inlined';
+$lang['DISPLAY_INLINED'] = 'Vis billeder inline';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Vælg, om du vil vise billeder direkte i posten (ja) eller til at vise billeder som et link ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimal Billede Dimensioner';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Her kan du angive den maksimalt tilladte Billede Dimension til at være tilsluttet (Bredde x Højde i pixels).<br />If det er indstillet til 0x0, denne funktion er deaktiveret. Med nogle Billeder med denne Funktion vil ikke arbejde på grund af begrænsninger i PHP.';
@@ -1942,11 +1942,11 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Hvis dette er defineret Dimension af et Bill
 $lang['ASSIGNED_GROUP'] = 'Tildelte Gruppe';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Opret Miniaturebilleder';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Thumbnail Fil Størrelse';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Hvis et Billede er mindre end den definerede Fil Størrelse, vil ingen Miniature blive oprettet, fordi det er lille nok.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Mindste filstørrelse for miniaturebillede';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Hvis et billede er mindre end denne angivne filstørrelse, oprettes der ikke noget miniaturebillede, da det er lille nok.';
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Udvidelse Gruppe Tilladelser -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Tilladelser for udvidelsesgruppen → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Her du er i stand til at begrænse den valgte Udvidelse Gruppe til Fora (defineret i Lov Fora Boks). Standard er at tillade en Udvidelse Grupper til alle Fora, Brugeren er i stand til at Vedhæfte Filer i (normal måde Udlæg Mod gjorde det siden begyndelsen). Blot tilføje de Fora, du ønsker Udvidelse Gruppe (Udvidelser inden for denne Gruppe) til at være tilladt der, standard ALLE FORA, vil forsvinde, når du tilføjer Fora til Listen. Du er i stand til at re-tilføje ALLE FORA på ethvert givet Tidspunkt. Hvis du tilføje et Forum, til dit Bord og Tilladelse er indstillet til ALLE FORA, vil intet ændre sig. Men hvis du har ændret og begrænset adgang til visse Fora, er du nødt til at tjekke tilbage her for at tilføje din nyoprettede Forum. Det er let at gøre dette automatisk, men dette vil tvinge dig til at redigere en masse Filer, derfor jeg har valgt den måde, det er nu. Husk, at alle dine Fora, vil være listet her.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'BEMÆRK:<br />Within de nedenfor anførte Fora, som dine Brugere er normalt tilladt at vedhæfte filer, men da ingen Udvidelse Gruppe lov til at være vedlagte der, som dine Brugere er i stand til at knytte noget. Hvis de prøver, de modtager fejlmeddelelser. Måske du ønsker at indstille Tilladelse \'Post-Filer" til ADMIN på disse Fora.<br /><br />';
 $lang['ADD_FORUMS'] = 'Tilføj Fora';
@@ -2014,7 +2014,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'hold <i>Ctrl</i>, mens du markerer flere fora'
 $lang['REG_TORRENTS'] = 'Registrer torrents';
 $lang['DISALLOWED'] = 'Forbudt';
 $lang['ALLOW_REG_TRACKER'] = 'Tilladt fora for registrering .torrents på tracker';
-$lang['ALLOW_PORNO_TOPIC'] = 'Tilladelse til at poste indhold, der er 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Tilladelse til at poste 18+ indhold';
 $lang['SELF_MODERATED'] = 'Brugere kan <b>move</b> deres emner til et andet forum';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Announce URL';
@@ -2057,9 +2057,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Adgangsnøglen';
 $lang['BT_ADD_AUTH_KEY'] = 'Gøre det muligt at tilføje adgangsnøgle til torrent-filer, før du henter';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent browser (tracker)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent browser (tracker.php), er kun tilgængelige for brugere som er logget ind';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-browseren (tracker.php) er kun tilgængelig for brugere, der er logget ind';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Tillader, boolean fuld-tekst søgning';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'brug *, +, -,.. søgninger';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'brug *, +, - i søgninger';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diverse";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Vis bruger UL/DL-statistikker øverst på forumets hovedside";
@@ -2162,7 +2162,7 @@ $lang['REFRESH_RATE'] = 'Opdateringshastighed';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Hvor meget tid (sek) til at bo i tomgang, før du flytter til næste behandling cycle<br />Usually du behøver ikke at ændre denne';
 
 $lang['TIME_LIMIT'] = 'Frist';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Hvor meget tid (sek) efterbehandling kan vare, før du flytter til næste cyklus';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Hvor lang tid (sek.) efterbehandling kan vare, før den går videre til næste cyklus';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver har en timeout af %s sek konfigureret, så bo under dette value</i>';
 
 $lang['DISABLE_BOARD'] = 'Deaktiver bestyrelsen';
@@ -2177,7 +2177,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Du er blevet færdig med behandlingen p
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Genopbygge Søg Fremskridt';
 
-$lang['PROCESSED_POST_IDS'] = 'Forarbejdet indlæg ids : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Behandlede indlægs-ID\'er: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Af udløbet af en Timer på %s sek. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Ryddet søg borde. ';
 $lang['DELETED_POSTS'] = '%s post(s) blev slettet af dine brugere i behandling. ';
@@ -2332,7 +2332,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'At søge efter brugere med et indlæg t�
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'At søge efter brugere med et indlæg tæller mellem %d og %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'At søge efter brugere med et indlæg tæller værdi af %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'At søge efter brugere med en Twitter matchende %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'At søge efter brugere med en Hjemmeside matchende %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Søger efter brugere med en hjemmeside, der matcher %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'At søge efter brugere med en Placering matchende %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'At søge efter brugere med deres Interesser felt matchende %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'At søge efter brugere med deres Erhverv felt matchende %s';

@@ -1933,7 +1933,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Zgjerimi i Grupit të %s tashmë ekzistojnë';
 $lang['MANAGE_CATEGORIES'] = 'Menaxhuar Kategori Të Veçanta';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Këtu mund të konfiguroni Kategoritë e Veçanta. Mund të vendosni Parametra dhe Kushtet e Veçanta për Kategoritë e Veçanta të caktuar për një Grup Zgjatjeje.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Cilësimet për Kategori të Veçantë: Imazhe';
-$lang['DISPLAY_INLINED'] = 'Shfaq Imazhet Inline';
+$lang['DISPLAY_INLINED'] = 'Shfaq imazhet në linjë';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Zgjidhni nëse për të shfaqur imazhe drejtpërdrejt brenda post (po) ose për të shfaqur imazhe si një lidhje ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimum Imazhin Përmasat';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Këtu ju mund të përcaktojë maksimale të lejuara Imazhin Dimension të jetë e bashkangjitur (Gjerësi x Lartësi në pixels).<br />If ajo është e cilësuar për 0x0, ky tipar është i aktivizuar. Me disa Imazhe këtë Funksion nuk do të funksionojë për shkak të kufizimeve në PHP.';
@@ -1943,7 +1943,7 @@ $lang['ASSIGNED_GROUP'] = 'Të Caktuar E Grupit';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Të Krijuar Tablo';
 $lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Madhësia minimale e skedarit miniaturë';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Nëse një imazh është më i vogël se kjo madhësi e përcaktuar e skedarit, nuk do të krijohet një miniaturë, sepse është mjaft e vogël.';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Nëse një imazh është më i vogël se kjo madhësi e përcaktuar e skedarit, nuk do të krijohet një miniaturë, sepse është mjaft i vogël.';
 
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Lejet e Grupit të Zgjatimeve → \'%s\''; // Replace %s with the Groups Name
@@ -2059,7 +2059,7 @@ $lang['BT_ADD_AUTH_KEY'] = 'Të mundësojë duke shtuar passkey me torrent-fotog
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent shfletuesit (tracker)';
 $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Shfletuesi i torrenteve (tracker.php) i arritshëm vetëm për përdoruesit e regjistruar';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Të lejojë boolean plotë-tekst kërkimit';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'përdorni *, +, - në kërkesa';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'përdorni *, +, - në kërkime';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Të ndryshme";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Trego statistikat UL/DL të përdoruesit në krye të faqes kryesore të forumit";

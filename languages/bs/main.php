@@ -1646,7 +1646,7 @@ $lang['MOVE_UP'] = 'Pomaknuti';
 $lang['MOVE_DOWN'] = 'Pomerite';
 $lang['RESYNC'] = 'Re-sinkroniziraj';
 $lang['NO_MODE'] = 'Ne modu je postavio';
-$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formi ispod će ti omogućiti da se prilagoditi sve general odbor opcije. Za Korisnika i Forum konfiguracije koristiti vezane veze na lijevoj strani';
+$lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formular u nastavku će vam omogućiti da prilagodite sve opće opcije foruma. Za konfiguracije korisnika i foruma koristite odgovarajuće veze na lijevoj strani';
 
 $lang['MOVE_CONTENTS'] = 'Mrdaj sve sadržaj';
 $lang['FORUM_DELETE'] = 'Obriši Forum';
@@ -1855,7 +1855,7 @@ $lang['SYNC'] = 'Prevod';
 
 // Mods
 $lang['MAX_NEWS_TITLE'] = 'Max. dužina vijest';
-$lang['NEWS_COUNT'] = 'Koliko vijesti pokaži';
+$lang['NEWS_COUNT'] = 'Koliko vijesti prikazati';
 $lang['NEWS_FORUM_ID'] = 'Iz kojih foruma prikazati <br /> <h6>Za više foruma, navedite ID-ove odvojene zarezom. Primer: 1,2,3</h6>';
 $lang['TRACKER_STATS'] = 'Statistiku o tragač';
 $lang['WHOIS_INFO'] = 'Informacije o IP adrese';
@@ -1881,7 +1881,7 @@ $lang['SPECIAL_CATEGORIES'] = 'Specijalni Kategorije';
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Prilog Postavke';
 $lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Ovdje možeš podesite Glavni Podešavanja za Prilog Odbrane. Ako pritisneš Test Postavke Dugme, Prilog Mo da li nekoliko Sistema Testove da bih bio siguran da ministarstva Odbrane će raditi kako treba. Ako imaš problema sa šaljem Podatke, molim te vodim ovaj Test, da se detaljan greška-poruku.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Prilog Filesize Postavke';
+$lang['ATTACH_FILESIZE_SETTINGS'] = 'Postavke veličine privitaka';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Prilog Broj Postavke';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Prilog Opcije';
 
@@ -1933,7 +1933,7 @@ $lang['EXTENSION_GROUP_EXIST'] = 'Produžni Grupa %s već postoje'; // replace %
 $lang['MANAGE_CATEGORIES'] = 'Snaći Poseban Kategorije';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ovdje možete konfigurirati posebne kategorije. Možete postaviti posebne parametre i uslove za posebne kategorije dodijeljene proširenju grupe.';
 $lang['SETTINGS_CAT_IMAGES'] = 'Postavke za Posebne Kategorija: Slike';
-$lang['DISPLAY_INLINED'] = 'Prikaži Slike Inlined';
+$lang['DISPLAY_INLINED'] = 'Prikaži slike u liniji';
 $lang['DISPLAY_INLINED_EXPLAIN'] = 'Biram da li prikazati slike direktno u post (da) ili za prikaz slika kao veza ?';
 $lang['MAX_IMAGE_SIZE'] = 'Maksimalna Sliku Dimenzije';
 $lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Ovdje možete utvrditi maksimalnu dozvoljeno Sliku Dimenziju biti zakaceno (Širina x Visine u piksela).<br />If to je postavljen na 0x0, ovaj članak je onemogućeno. Sa neke Slike film neće uspeti zbog ograničenja u PHP.';
@@ -1942,11 +1942,11 @@ $lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Ako je ovo definisana Dimenziju Slika je dos
 $lang['ASSIGNED_GROUP'] = 'Dodijeljen Grupi';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Nema Stvoriti';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Nema Filesize';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ako Slika je manji od ovo definisana Filesize, ne Nema će biti stvorena, jer to je dovoljno mala.';
+$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimalna veličina datoteke za sličicu';
+$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ako je slika manja od ove definirane veličine datoteke, sličica neće biti kreirana, jer je dovoljno mala.';
 
 // Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Produženje Grupa Dozvole -> \'%s\''; // Replace %s with the Groups Name
+$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Dozvole grupe ekstenzija → \'%s\''; // Replace %s with the Groups Name
 $lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Ovdje ste u mogućnosti da ograničiti odabrane Produženje Grupa da Forumima tvoj izbor (definisana u Dozvoljeno Forumima Kutiju). Uobičajena je da omogući Nastavak Grupe sve Forumima Korisnik može da Pričvrsti Fajlove u (na normalan način Prilog Mo to uradio od početka). Samo dodati te Forumima želiš Nastavak Grupa (Ekstenzije u ovoj Grupi) biti dozvoljeno tamo, uobičajeni SVE FORUMIMA će nestati kada dodaš Forumima na Listu. Ti si u stanju da ponovo dodati SVE FORUMIMA u bilo koje Vreme. Ako dodaš Forum da tvoj Odbor i Dozvolu je namjestio da SVI FORUMIMA ništa se neće promijeniti. Ali ako je promenio si i zabranjen pristup određene Forumima, moraš da se vrati ovdje i dodajte tvoj novostvoreni Forum. To je lako, to je automatski, ali ovo će te natjerati da uredi gomilu Dosijea, stoga sam izabrao tako. Molim vas imajte u vidu da je tvoj Forumima će biti u imeniku.';
 $lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'NAPOMENA:<br />Within je ispod naveo Forumima tvoj Korisnici su obično dozvoljeno da prikaci dokumente, ali pošto ne Produženje Grupa je dozvoljeno da bude vezana je tamo, tvoj Korisnici ne mogu da prikaci ... ništa. Ako pokušaju, oni će dobiti Greška Poruke. Možda želiš da se postavi Dozvolu \'Post Datoteke\' da ADMIN na ovim Forumima.<br /><br />';
 $lang['ADD_FORUMS'] = 'Dodaj Forumima';
@@ -1968,7 +1968,7 @@ $lang['NO_ATTACH_SEARCH_MATCH'] = 'Nema Zbližavanja upoznao vašu kriterijumima
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Broj Prilozi';
-$lang['TOTAL_FILESIZE'] = 'Ukupno Filesize';
+$lang['TOTAL_FILESIZE'] = 'Ukupna veličina datoteke';
 $lang['NUMBER_POSTS_ATTACH'] = 'Broj Mjesta sa Prilozi';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Broj Teme sa Prilozi';
 $lang['NUMBER_USERS_ATTACH'] = 'Nezavisni Korisnici Postavio Prilozi';
@@ -2014,7 +2014,7 @@ $lang['BT_SELECT_FORUMS_EXPL'] = 'drži dolje <i>Ctrl</i> dok odabir više forum
 $lang['REG_TORRENTS'] = 'Registar bujica';
 $lang['DISALLOWED'] = 'Zabranjeno';
 $lang['ALLOW_REG_TRACKER'] = 'Dozvoljeno forumima za registraciju .bujica na tragač';
-$lang['ALLOW_PORNO_TOPIC'] = 'Dozvoljeno da post sadržaja 18+';
+$lang['ALLOW_PORNO_TOPIC'] = 'Dozvoljeno objavljivanje sadržaja 18+';
 $lang['SELF_MODERATED'] = 'Korisnici mogu <b>move</b> svoje teme da još forum';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Objaviti URL';
@@ -2057,9 +2057,9 @@ $lang['BT_ADD_AUTH_KEY_HEAD'] = 'S ključem';
 $lang['BT_ADD_AUTH_KEY'] = 'Omogućiti dodajući ključ za tim bujicama-dokumente prije nego što skidanje';
 
 $lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Bujicama preglednik (tragač)';
-$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Bujicama preglednik (tracker.php) dostupna samo za prijavili u korisnike';
+$lang['BT_TOR_BROWSE_ONLY_REG'] = 'Preglednik torrenta (tracker.php) dostupan samo prijavljenim korisnicima';
 $lang['BT_SEARCH_BOOL_MODE'] = 'Dozvoliti logičke punog teksta pretrage';
-$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'koristi *, +, ne, ... u potragu';
+$lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Koristite *, +, - u pretragama';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Razna";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Prikaži UL/DL statistike korisnika na vrhu glavne strane foruma";
@@ -2162,7 +2162,7 @@ $lang['REFRESH_RATE'] = 'Frekvenciju osvježavanja';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Koliko vremena (sekunde) ostati prazna prije preseliti u slijedeći obradu cycle<br />Usually ne moraš da se ovo promijeniti';
 
 $lang['TIME_LIMIT'] = 'Vremenskog ograničenja';
-$lang['TIME_LIMIT_EXPLAIN'] = 'Koliko vremena (sekunde) post obradu može trajati prije preseliti u slijedeći ciklus';
+$lang['TIME_LIMIT_EXPLAIN'] = 'Koliko vremena (u sekundama) obrada postova može trajati prije prelaska na sljedeći ciklus';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webserver je odmor od %s sekunde konfiguriran, tako da ostaneš ispod ovo value</i>';
 
 $lang['DISABLE_BOARD'] = 'Onesposobite odbor';
@@ -2177,7 +2177,7 @@ $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Uspešno si završio obrada na post_id 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Obnove Potragu Napredak';
 
-$lang['PROCESSED_POST_IDS'] = 'Obradio post lične karte : %s - %s';
+$lang['PROCESSED_POST_IDS'] = 'Obrađeni ID-ovi postova : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Tajmer istekao na %s sekunde. ';
 $lang['CLEARED_SEARCH_TABLES'] = 'Očistili potragu stolove. ';
 $lang['DELETED_POSTS'] = '%s post(s) su izbrisane po vašim korisnicima tokom obrade. ';
@@ -2285,7 +2285,7 @@ $lang['ALL'] = 'Sve';
 
 $lang['TPL_EMPTY_FIELD'] = 'Moraš ispuniti terenu <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Moraš izabrati <b>%s</b>';
-$lang['TPL_NOT_NUM'] = '<b>%s</b> - Ne num';
+$lang['TPL_NOT_NUM'] = '<b>%s</b> - Nije broj';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Mora biti https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Mora biti https:// IMG_URL';
 $lang['TPL_PUT_INTO_SUBJECT'] = 'stavio u temu';
@@ -2332,7 +2332,7 @@ $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Potrazi za korisnike s post računati ma
 $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Potrazi za korisnike s post računati između %d i %d';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Potrazi za korisnike s post računati vrijednost %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Potrazi za korisnike sa Twitter odgovara %s';
-$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Potrazi za korisnike sa Web stranice koje odgovara %s';
+$lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Traženje korisnika sa web-stranicom koja odgovara %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Potrazi za korisnike sa Lokaciju odgovara %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Potrazi za korisnike sa njihove Interese polje odgovara %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Potrazi za korisnike sa svojim Zanimanje polje odgovara %s';
@@ -2363,7 +2363,7 @@ $lang['EQUALS'] = 'Jednako';
 $lang['GREATER_THAN'] = 'Veće nego';
 $lang['LESS_THAN'] = 'Manje od';
 $lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Možete tražiti korisnike na osnovu vrijednosti broja postova. Možete pretraživati po određenoj vrijednosti, većoj ili manjoj od vrijednosti ili između dvije vrijednosti. Da biste izvršili pretragu raspona, odaberite "Jednako", a zatim stavite početnu i završnu vrijednost raspona odvojene crticom (-), npr. 10-15';
-$lang['USERFIELD'] = 'Korisnik nivoima';
+$lang['USERFIELD'] = 'Korisničko polje';
 $lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Potraga za korisnike zasnovan na razlicitim profil oblasti. Džoker učesnika su podržali koristiš asteriks (*).';
 $lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Možeš potrazi za korisnike na osnovu njihovih zadnjih prijavu sudar koristeći ovu pretragu opcija';
 $lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Ovo će prikazati korisnika kojeg izabrao određeni jezik u svom Profilu';
