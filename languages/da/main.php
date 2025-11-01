@@ -194,12 +194,12 @@ $lang['SUBFORUMS'] = 'Underfora';
 $lang['VIEW_FORUM'] = 'Se Forum';
 
 $lang['FORUM_NOT_EXIST'] = 'Forum du valgte ikke eksisterer.';
-$lang['ERROR_PORNO_FORUM'] = 'Denne type af fora (18+) var skjult i din profil ved at du';
+$lang['ERROR_PORNO_FORUM'] = 'Denne type af fora (18+) blev skjult i din profil.';
 
 $lang['DISPLAY_TOPICS'] = 'Vis emner';
-$lang['ALL_TOPICS'] = 'Alle Emner';
-$lang['MODERATE_FORUM'] = 'Moderat dette forum';
-$lang['TITLE_SEARCH_HINT'] = 'søg efter titel...';
+$lang['ALL_TOPICS'] = 'Alle emner.';
+$lang['MODERATE_FORUM'] = 'Moderér dette forum.';
+$lang['TITLE_SEARCH_HINT'] = 'Søg efter titel...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = 'Meddelelse:';
 $lang['TOPIC_MOVED'] = 'Flyttet:';
