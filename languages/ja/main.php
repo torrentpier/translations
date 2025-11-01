@@ -15,13 +15,13 @@ $lang['HIDE_CAT'] = '隠しカテゴリ';
 $lang['HIDE_CAT_MESS'] = '一部のカテゴリは、カスタマイズされた表示オプションによって非表示になっています';
 $lang['SHOW_ALL'] = 'すべて表示する';
 $lang['TOPIC'] = '話題';
-$lang['TOPICS'] = 'Topics';
-$lang['TOPICS_SHORT'] = 'Topics';
+$lang['TOPICS'] = 'トピック';
+$lang['TOPICS_SHORT'] = 'トピック';
 $lang['REPLIES'] = '回答';
 $lang['REPLIES_SHORT'] = '回答';
-$lang['VIEWS'] = '眺望';
-$lang['POSTS'] = 'ポス';
-$lang['POSTS_SHORT'] = 'ポス';
+$lang['VIEWS'] = 'ビュー';
+$lang['POSTS'] = '投稿';
+$lang['POSTS_SHORT'] = '投稿';
 $lang['POSTED'] = '掲載';
 $lang['USERNAME'] = 'ユーザー名';
 $lang['PASSWORD'] = 'パスワード';
@@ -35,8 +35,8 @@ $lang['TORRENT'] = '急流';
 $lang['PERMISSIONS'] = 'アクセス権';
 $lang['TYPE'] = 'タイプ';
 $lang['SEEDER'] = '播種装置';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
+$lang['LEECHER'] = 'リーチャー';
+$lang['RELEASER'] = 'リリース';
 
 $lang['1_DAY'] = '1日';
 $lang['7_DAYS'] = '7日';
@@ -49,16 +49,16 @@ $lang['1_YEAR'] = '1年';
 $lang['GO'] = 'へ';
 $lang['SUBMIT'] = '提出';
 $lang['RESET'] = 'リセット';
-$lang['CANCEL'] = '消';
+$lang['CANCEL'] = 'キャンセル';
 $lang['PREVIEW'] = 'プレビュー';
 $lang['AJAX_PREVIEW'] = '早見';
 $lang['CONFIRM'] = '確認';
-$lang['YES'] = 'あり';
-$lang['NO'] = 'No';
-$lang['ENABLED'] = '有効な';
-$lang['DISABLED'] = '障害者';
+$lang['YES'] = 'はい';
+$lang['NO'] = 'いいえ';
+$lang['ENABLED'] = '有効';
+$lang['DISABLED'] = '無効';
 $lang['ERROR'] = 'エラー';
-$lang['SELECT_ACTION'] = '選択行動';
+$lang['SELECT_ACTION'] = 'アクションを選択する';
 $lang['CLEAR'] = 'クリア';
 $lang['MOVE_TO_TOP'] = '上部に移動';
 $lang['UNKNOWN'] = '不明';
@@ -67,46 +67,46 @@ $lang['NO_ITEMS'] = 'ここにはデータがないようです...';
 $lang['PLEASE_TRY_AGAIN'] = '数秒後にもう一度お試しください...';
 
 $lang['NEXT_PAGE'] = '次へ';
-$lang['PREVIOUS_PAGE'] = '前';
+$lang['PREVIOUS_PAGE'] = '前へ';
 $lang['SHORT_PAGE'] = 'ページ';
-$lang['GOTO_PAGE'] = 'くページ';
+$lang['GOTO_PAGE'] = 'ページ';
 $lang['GOTO_SHORT'] = 'ページ';
-$lang['JOINED'] = '入';
+$lang['JOINED'] = '参加した';
 $lang['LONGEVITY'] = '登録';
 $lang['IP_ADDRESS'] = 'IPアドレス';
 
 $lang['SELECT_FORUM'] = '選択フォーラム';
-$lang['VIEW_LATEST_POST'] = 'ビューの最新の募';
-$lang['VIEW_NEWEST_POST'] = 'ビューの最新ポスト';
+$lang['VIEW_LATEST_POST'] = '最新の投稿を見る';
+$lang['VIEW_NEWEST_POST'] = '新しい投稿を表示';
 $lang['PAGE_OF'] = 'ページ<b>%d</b>の<b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = '無効なX (Twitter) ログインが入力されました';
 
-$lang['FORUM_INDEX'] = '%sフォーラム指数'; // e.g. sitename Forum Index, %s can be removed if you prefer
+$lang['FORUM_INDEX'] = '%sフォーラムインデックス'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
-$lang['POST_NEW_TOPIC'] = '後の新たな課題';
-$lang['POST_NEW_RELEASE'] = 'ポスト新発売';
-$lang['REPLY_TO_TOPIC'] = '回答題';
+$lang['POST_NEW_TOPIC'] = '新しいトピックを投稿する';
+$lang['POST_NEW_RELEASE'] = '新着を投稿';
+$lang['REPLY_TO_TOPIC'] = 'トピックに返信';
 
-$lang['CLICK_RETURN_TOPIC'] = 'をクリックし%sHere%sの話題'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_FORUM'] = 'をクリックし%sHere%sのフォーラム';
-$lang['CLICK_RETURN_MODCP'] = 'をクリックし%sHere%s帰モデレーター制御パネル';
-$lang['CLICK_RETURN_GROUP'] = 'をクリックし%sHere%s戻グループ情報';
+$lang['CLICK_RETURN_TOPIC'] = 'トピックに戻るには%sここ%sをクリックしてください'; // %s's here are for uris, do not remove!
+$lang['CLICK_RETURN_FORUM'] = 'フォーラムに戻るには%sここ%sをクリックしてください';
+$lang['CLICK_RETURN_MODCP'] = 'モデレーター制御パネルに戻るには%sここ%sをクリックしてください';
+$lang['CLICK_RETURN_GROUP'] = 'グループ情報に戻るには%sここ%sをクリックしてください';
 
-$lang['ADMIN_PANEL'] = 'く管理パネル';
-$lang['ALL_CACHE_CLEARED'] = 'キャッシュはクリアされてい';
-$lang['ALL_TEMPLATE_CLEARED'] = 'テンプレートキャッシュはクリアされてい';
-$lang['DATASTORE_CLEARED'] = 'Datastoreてクリア';
-$lang['BOARD_DISABLE'] = 'このフォーラムが無効になっています。 てみても、後';
-$lang['BOARD_DISABLE_CRON'] = 'フォースを実現します。 てみても、後';
+$lang['ADMIN_PANEL'] = '管理パネルに移動';
+$lang['ALL_CACHE_CLEARED'] = 'キャッシュがクリアされました';
+$lang['ALL_TEMPLATE_CLEARED'] = 'テンプレートキャッシュがクリアされました';
+$lang['DATASTORE_CLEARED'] = 'データストアがクリアされました';
+$lang['BOARD_DISABLE'] = '申し訳ありませんが、このフォーラムは無効です。後で戻ってみてください';
+$lang['BOARD_DISABLE_CRON'] = 'フォーラムはメンテナンスのため停止中です。後で戻ってみてください';
 $lang['ADMIN_DISABLE'] = '管理者によってフォーラムが無効になっています。いつでも有効化できます';
 $lang['ADMIN_DISABLE_CRON'] = 'Cronジョブトリガーによってフォーラムがロックされました。いつでもロックを解除できます';
-$lang['ADMIN_DISABLE_TITLE'] = 'このフォーラムは無効に';
-$lang['ADMIN_DISABLE_CRON_TITLE'] = 'フォーラムカンドステ';
-$lang['ADMIN_UNLOCK'] = 'するフォーラム';
+$lang['ADMIN_DISABLE_TITLE'] = 'フォーラムは無効です';
+$lang['ADMIN_DISABLE_CRON_TITLE'] = 'フォーラムはメンテナンスのため停止中です';
+$lang['ADMIN_UNLOCK'] = 'フォーラムを有効にする';
 $lang['ADMIN_UNLOCKED'] = '解除';
-$lang['ADMIN_UNLOCK_CRON'] = 'ロック削除';
+$lang['ADMIN_UNLOCK_CRON'] = 'ロック解除';
 
 $lang['LOADING'] = '読み込み中...';
 $lang['JUMPBOX_TITLE'] = '選択フォーラム';
@@ -115,8 +115,8 @@ $lang['DISPLAYING_OPTIONS'] = '表示オプション';
 // Global Header strings
 $lang['REGISTERED_USERS'] = '登録利用者:';
 $lang['BROWSING_FORUM'] = '閲覧ユーザーのこのフォーラム:';
-$lang['ONLINE_USERS'] = '合計が<b>%1$d</b>ユーザーのオンライン:%2$d登録%3$d客';
-$lang['RECORD_ONLINE_USERS'] = '最もユーザーもオンラインでした<b>%s</b>に%s'; // first %s = number of users, second %s is the date.
+$lang['ONLINE_USERS'] = '合計<b>%1$d</b>オンラインユーザー:%2$d登録ユーザーおよび%3$dゲスト';
+$lang['RECORD_ONLINE_USERS'] = 'オンラインのユーザーは<b>%s</b>でした。%sで'; // first %s = number of users, second %s is the date.
 
 $lang['ONLINE_ADMIN'] = '管理者';
 $lang['ONLINE_MOD'] = 'モデレーター';
@@ -126,11 +126,11 @@ $lang['CANT_EDIT_IN_DEMO_MODE'] = 'この操作はデモモードでは実行で
 
 $lang['CURRENT_TIME'] = '現在の時間は<span class="tz_time">%s</span>';
 
-$lang['SEARCH_NEW'] = 'ビューの最新の投稿';
+$lang['SEARCH_NEW'] = '最新の投稿を表示';
 $lang['SEARCH_SELF'] = '私の投稿';
 $lang['SEARCH_SELF_BY_LAST'] = '前回の投稿時間';
-$lang['SEARCH_SELF_BY_MY'] = '私のポスト時間';
-$lang['SEARCH_UNANSWERED'] = 'ビュー答の投稿';
+$lang['SEARCH_SELF_BY_MY'] = '私の投稿時間';
+$lang['SEARCH_UNANSWERED'] = '未answered投稿を表示';
 $lang['SEARCH_LATEST'] = '最新のトピックス';
 $lang['LATEST_RELEASES'] = '最新のリリース';
 
@@ -138,8 +138,8 @@ $lang['REGISTER'] = '登録';
 $lang['PROFILE'] = '概要';
 $lang['EDIT_PROFILE'] = 'プロファイルの編集';
 $lang['SEARCH'] = '検索';
-$lang['MEMBERLIST'] = 'Memberlist';
-$lang['USERGROUPS'] = 'Usergroups';
+$lang['MEMBERLIST'] = 'メンバーリスト';
+$lang['USERGROUPS'] = 'ユーザーグループ';
 $lang['LASTPOST'] = '前回の投稿';
 $lang['MODERATOR'] = 'モデレーター';
 $lang['MODERATORS'] = 'モデレーター';
@@ -147,155 +147,155 @@ $lang['TERMS'] = '条件';
 $lang['NOTHING_HAS_CHANGED'] = '何も変わっていない';
 
 // Stats block text
-$lang['POSTED_TOPICS_TOTAL'] = 'ユーザーを掲載して計<b>%s</b>題'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'ユーザーを掲載して計<b>%s</b>記事'; // Number of posts
-$lang['REGISTERED_USERS_TOTAL'] = 'ま<b>%s</b>登録ユーザー'; // # registered users
+$lang['POSTED_TOPICS_TOTAL'] = 'ユーザーが合計<b>%s</b>トピックを貼り付けました'; // Number of topics
+$lang['POSTED_ARTICLES_TOTAL'] = 'ユーザーが合計<b>%s</b>の記事を投稿しました'; // Number of posts
+$lang['REGISTERED_USERS_TOTAL'] = '私たちは<b>%s</b>登録ユーザーを持っています'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = '男子:<b>%d</b>、女子：<b>%d</b>その他：<b>%d</b>';
 $lang['NEWEST_USER'] = '最新の登録ユーザーは<b>%s</b>'; // a href, username, /a
 
 // Tracker stats
-$lang['TORRENTS_STAT'] = '納入:<b style="color: blue;">%s</b>,&nbsp;の合計サイズ:<b>%s</b>'; // first %s = number of torrents, second %s is the total size.
-$lang['PEERS_STAT'] = '仲間:<b>%s</b>,&nbsp;Seeders:<b class="seedmed">%s</b>,&nbsp;Leechers:<b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
+$lang['TORRENTS_STAT'] = 'トレント: <b style="color: blue;">%s</b>,&nbsp; 合計サイズ: <b>%s</b>'; // first %s = number of torrents, second %s is the total size.
+$lang['PEERS_STAT'] = 'ピア: <b>%s</b>,&nbsp; シーダー: <b class="seedmed">%s</b>,&nbsp; リーチャー: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = '合計速度:<b>%s</b>&nbsp;'; // %s = total speed.
 
-$lang['NO_NEW_POSTS'] = '新しい投稿';
+$lang['NO_NEW_POSTS'] = '新しい投稿はありません';
 $lang['NEW_POSTS'] = '新規投稿';
 $lang['NEW_POST'] = '新しい投稿';
-$lang['FORUM_LOCKED_MAIN'] = 'フォーラムがロックされ';
+$lang['FORUM_LOCKED_MAIN'] = 'フォーラムはロックされています';
 
 // Login
 $lang['ENTER_PASSWORD'] = 'ログインするにはユーザー名とパスワードを入力してください。';
 $lang['LOGIN'] = 'ログイン';
 $lang['LOGOUT'] = 'ログアウト';
-$lang['CONFIRM_LOGOUT'] = 'Are you sure you wantへのログアウトす。';
+$lang['CONFIRM_LOGOUT'] = 'ログアウトしてよろしいですか？';
 
 $lang['FORGOTTEN_PASSWORD'] = 'パスワードを忘れた?';
-$lang['AUTO_LOGIN'] = 'ログって自動的に';
-$lang['ERROR_LOGIN'] = 'ユーザ名をお出しになられた方が不正または無効、またはパスワード情報を取り出すことができます。';
+$lang['AUTO_LOGIN'] = '自動的にログインします';
+$lang['ERROR_LOGIN'] = '提出されたユーザー名は不正または無効、またはパスワードが無効です。';
 $lang['REMEMBER'] = '記憶';
 $lang['USER_WELCOME'] = 'ようこそ、';
 
 // Index page
 $lang['HOME'] = 'ホーム';
-$lang['NO_POSTS'] = '無職';
-$lang['NO_FORUMS'] = 'この盤はフォーラム';
+$lang['NO_POSTS'] = '投稿はありません';
+$lang['NO_FORUMS'] = 'このボードにフォーラムはありません';
 
 $lang['PRIVATE_MESSAGE'] = 'プライベートメッセージ';
 $lang['PRIVATE_MESSAGES'] = 'プライベートメッセージ';
-$lang['WHOSONLINE'] = '人は、オンライン';
+$lang['WHOSONLINE'] = 'オンラインの人は';
 
-$lang['MARK_ALL_FORUMS_READ'] = 'フラグを、すべてのフォーラムとして読み';
+$lang['MARK_ALL_FORUMS_READ'] = 'すべてのフォーラムを読み込む';
 
 $lang['LATEST_NEWS'] = '最新ニュース';
 $lang['NETWORK_NEWS'] = 'ネットワークのニュース';
-$lang['SUBFORUMS'] = 'Subforums';
+$lang['SUBFORUMS'] = 'サブフォーラム';
 
 // Viewforum
-$lang['VIEW_FORUM'] = 'ビューフォーラム';
+$lang['VIEW_FORUM'] = 'フォーラムを表示';
 
-$lang['FORUM_NOT_EXIST'] = 'このフォーラムを選択したは存在しない。';
-$lang['ERROR_PORNO_FORUM'] = 'このタイプのフォーラム(18+)に、隠されたプロフィールす';
+$lang['FORUM_NOT_EXIST'] = '選択したフォーラムは存在しません。';
+$lang['ERROR_PORNO_FORUM'] = 'このタイプのフォーラム(18+)はあなたのプロファイルで隠されています';
 
-$lang['DISPLAY_TOPICS'] = '表示題';
-$lang['ALL_TOPICS'] = '全てのトピックス';
-$lang['MODERATE_FORUM'] = '緩やかなこのフォーラム';
-$lang['TITLE_SEARCH_HINT'] = '検索タイトルは---';
+$lang['DISPLAY_TOPICS'] = 'トピックを表示';
+$lang['ALL_TOPICS'] = 'すべてのトピック';
+$lang['MODERATE_FORUM'] = 'このフォーラムをモデレートする';
+$lang['TITLE_SEARCH_HINT'] = '検索タイトル...';
 
 $lang['TOPIC_ANNOUNCEMENT'] = '発表：';
 $lang['TOPIC_MOVED'] = '移動:';
 $lang['TOPIC_POLL'] = '[調査]';
 
-$lang['MARK_TOPICS_READ'] = 'マークテストを読み';
-$lang['TOPICS_MARKED_READ'] = 'のためこのフォーラムでした読み';
+$lang['MARK_TOPICS_READ'] = 'すべてのトピックを読み込む';
+$lang['TOPICS_MARKED_READ'] = 'このフォーラムのトピックはすでに読み込まれています';
 
-$lang['RULES_POST_CAN'] = 'ま<b>can</b>後の新たなテーマにこのフォーラム';
-$lang['RULES_POST_CANNOT'] = 'ま<b>cannot</b>後の新たなテーマにこのフォーラム';
-$lang['RULES_REPLY_CAN'] = 'ま<b>can</b>回答に欠くことのフォーラム';
-$lang['RULES_REPLY_CANNOT'] = 'ま<b>cannot</b>回答に欠くことのフォーラム';
-$lang['RULES_EDIT_CAN'] = 'ま<b>can</b>編集の龍踊りの"龍"に車輪がこのフォーラム';
-$lang['RULES_EDIT_CANNOT'] = 'ま<b>cannot</b>編集の龍踊りの"龍"に車輪がこのフォーラム';
-$lang['RULES_DELETE_CAN'] = 'ま<b>can</b>削除の龍踊りの"龍"に車輪がこのフォーラム';
-$lang['RULES_DELETE_CANNOT'] = 'ま<b>cannot</b>削除の龍踊りの"龍"に車輪がこのフォーラム';
-$lang['RULES_VOTE_CAN'] = 'ま<b>can</b>投票の投票にこのフォーラム';
-$lang['RULES_VOTE_CANNOT'] = 'ま<b>cannot</b>投票の投票にこのフォーラム';
-$lang['RULES_MODERATE'] = 'ま<b>can</b>緩やかなこのフォーラム';
+$lang['RULES_POST_CAN'] = 'このフォーラムに新しいトピックを投稿できます';
+$lang['RULES_POST_CANNOT'] = 'このフォーラムに新しいトピックは投稿できません';
+$lang['RULES_REPLY_CAN'] = 'このフォーラムのトピックに返答できます';
+$lang['RULES_REPLY_CANNOT'] = 'このフォーラムのトピックには返答できません';
+$lang['RULES_EDIT_CAN'] = 'このフォーラムの投稿を編集できます';
+$lang['RULES_EDIT_CANNOT'] = 'このフォーラムの投稿を編集できません';
+$lang['RULES_DELETE_CAN'] = 'このフォーラムで投稿を削除できます';
+$lang['RULES_DELETE_CANNOT'] = 'このフォーラムで投稿を削除できません';
+$lang['RULES_VOTE_CAN'] = 'このフォーラムで投票できます';
+$lang['RULES_VOTE_CANNOT'] = 'このフォーラムで投票できません';
+$lang['RULES_MODERATE'] = 'このフォーラムをモデレートできます';
 
 $lang['NO_TOPICS_POST_ONE'] = 'このフォーラムにはまだ投稿がありません<br /><b>新しいトピック</b>アイコンをクリックすると、あなたの投稿が最初の投稿になります。';
 $lang['NO_RELEASES_POST_ONE'] = 'このフォーラムにはまだリリースがありません<br />クリックして<b>新しいリリース</b>アイコンをクリックすると、あなたのリリースが最初の投稿になります。';
 
 // Viewtopic
-$lang['VIEW_TOPIC'] = '話題を見';
+$lang['VIEW_TOPIC'] = 'トピックを表示';
 
-$lang['GUEST'] = '客';
-$lang['POST_SUBJECT'] = 'ポスト対象';
-$lang['SUBMIT_VOTE'] = '提出票';
+$lang['GUEST'] = 'ゲスト';
+$lang['POST_SUBJECT'] = '投稿の主題';
+$lang['SUBMIT_VOTE'] = '投票の提出';
 
-$lang['NO_NEWER_TOPICS'] = 'ありませんより新しいテーマフォーラム';
-$lang['NO_OLDER_TOPICS'] = 'ありません以上に欠くことのフォーラム';
-$lang['TOPIC_POST_NOT_EXIST'] = '話題の投稿のご依頼が存在しない';
-$lang['NO_POSTS_TOPIC'] = 'ありませんポストにこのトピック';
+$lang['NO_NEWER_TOPICS'] = 'このフォーラムでは新しいトピックはありません';
+$lang['NO_OLDER_TOPICS'] = 'このフォーラムには古いトピックはありません';
+$lang['TOPIC_POST_NOT_EXIST'] = 'リクエストしたトピックまたは投稿は存在しません';
+$lang['NO_POSTS_TOPIC'] = 'このトピックには投稿がありません';
 
-$lang['DISPLAY_POSTS'] = '表示投稿';
+$lang['DISPLAY_POSTS'] = '投稿を表示';
 $lang['ALL_POSTS'] = 'すべての投稿';
-$lang['NEWEST_FIRST'] = '最初の';
-$lang['OLDEST_FIRST'] = '日時の古い';
+$lang['NEWEST_FIRST'] = '最新順';
+$lang['OLDEST_FIRST'] = '最も古い順';
 
-$lang['READ_PROFILE'] = 'ユーザのプロフィール';
-$lang['DELETE_POST'] = 'この投稿を削除し';
+$lang['READ_PROFILE'] = 'ユーザーのプロフィールを表示';
+$lang['DELETE_POST'] = 'この投稿を削除';
 
-$lang['WROTE'] = '書'; // proceeds the username and is followed by the quoted text
-$lang['QUOTE'] = '見積もり'; // comes before bbcode quote output
+$lang['WROTE'] = '書きました'; // proceeds the username and is followed by the quoted text
+$lang['QUOTE'] = '引用'; // comes before bbcode quote output
 $lang['CODE'] = 'コード'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = '隠しテキスト';
-$lang['SPOILER_CLOSE'] = '番';
-$lang['PLAY_ON_CURPAGE'] = 'ちを、現在のページ';
+$lang['SPOILER_CLOSE'] = 'ターン';
+$lang['PLAY_ON_CURPAGE'] = '現在のページで再生開始';
 
 $lang['EDITED_TIME_TOTAL'] = '最終編集: <b>%s</b> %s に; 合計で %d 回編集した'; // Last edited by me on 12 Oct 2001; edited 1 time in total
 $lang['EDITED_TIMES_TOTAL'] = '最終編集: <b>%s</b> %s に; 合計で %d 回編集した'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
-$lang['LOCK_TOPIC'] = 'ロックの話題';
-$lang['UNLOCK_TOPIC'] = '話題の解除';
-$lang['MOVE_TOPIC'] = '移動の課題';
-$lang['DELETE_TOPIC'] = '削除の話題';
-$lang['SPLIT_TOPIC'] = '分割の話題';
+$lang['LOCK_TOPIC'] = 'トピックのロック';
+$lang['UNLOCK_TOPIC'] = 'トピックの解除';
+$lang['MOVE_TOPIC'] = 'トピックを移動';
+$lang['DELETE_TOPIC'] = 'トピックを削除';
+$lang['SPLIT_TOPIC'] = 'トピックを分割';
 
-$lang['STOP_WATCHING_TOPIC'] = '停止後の課題';
-$lang['START_WATCHING_TOPIC'] = 'に従って課題回答';
-$lang['NO_LONGER_WATCHING'] = 'なくなった後この話題';
-$lang['YOU_ARE_WATCHING'] = '上記のこの今話題';
+$lang['STOP_WATCHING_TOPIC'] = 'トピックのフォローを停止';
+$lang['START_WATCHING_TOPIC'] = '返信のトピックをフォローする';
+$lang['NO_LONGER_WATCHING'] = 'このトピックのフォローをやめた';
+$lang['YOU_ARE_WATCHING'] = 'このトピックを今フォローしている';
 
-$lang['SEARCH_IN_TOPIC'] = '検索トピックス...';
+$lang['SEARCH_IN_TOPIC'] = 'トピックを検索...';
 $lang['HIDE_IN_TOPIC'] = '隠す';
 
-$lang['SHOW'] = 'ショー';
-$lang['AVATARS'] = 'カスタマイズアイテム';
+$lang['SHOW'] = '表示する';
+$lang['AVATARS'] = 'アバター';
 $lang['RANK_IMAGES'] = 'ランク画像';
 $lang['POST_IMAGES'] = '投稿画像';
 $lang['SIGNATURES'] = '署名';
-$lang['SPOILER'] = 'アンダースポイラー';
-$lang['SHOW_OPENED'] = 'ショーを開設';
-$lang['DOWNLOAD_PIC'] = '写真ダウンロード';
+$lang['SPOILER'] = 'スポイラー';
+$lang['SHOW_OPENED'] = 'オープンしたショー';
+$lang['DOWNLOAD_PIC'] = 'ダウンロード可能な画像';
 
-$lang['MODERATE_TOPIC'] = '緩やかにこのテーマ';
-$lang['SELECT_POSTS_PER_PAGE'] = '投稿ページあたりの';
+$lang['MODERATE_TOPIC'] = 'このトピックをモデレートする';
+$lang['SELECT_POSTS_PER_PAGE'] = 'ページあたりの投稿';
 
 // Posting/Replying (Not private messaging!)
-$lang['TOPIC_REVIEW'] = '話題の検討';
+$lang['TOPIC_REVIEW'] = 'トピックレビュー';
 
-$lang['NO_POST_MODE'] = 'ポリマーのマトリックスモードの選択'; // If posting.php is called without a mode (newtopic/reply/delete/etc., shouldn't be shown normally)
+$lang['NO_POST_MODE'] = '投稿モードが選択されていません'; // If posting.php is called without a mode (newtopic/reply/delete/etc., shouldn't be shown normally)
 
-$lang['POST_A_NEW_TOPIC'] = '後の新たな課題';
-$lang['POST_A_REPLY'] = '新規投稿に返信';
-$lang['POST_TOPIC_AS'] = 'ポストとして話題';
-$lang['EDIT_POST'] = '編集後';
-$lang['EDIT_TOPIC_TITLE'] = '編集話題のタイトル';
+$lang['POST_A_NEW_TOPIC'] = '新しいトピックを投稿';
+$lang['POST_A_REPLY'] = '返信を投稿';
+$lang['POST_TOPIC_AS'] = 'トピックとして投稿';
+$lang['EDIT_POST'] = '投稿を編集';
+$lang['EDIT_TOPIC_TITLE'] = 'トピックタイトルを編集';
 
-$lang['DONT_MESSAGE_TITLE'] = 'を指定してくださいメッセージタイトル';
-$lang['INVALID_TOPIC_ID'] = '話題の欠席です！';
-$lang['INVALID_TOPIC_ID_DB'] = '話題が存在しないデータベースです！';
+$lang['DONT_MESSAGE_TITLE'] = 'メッセージタイトルを指定してください';
+$lang['INVALID_TOPIC_ID'] = 'トピックが存在しません！';
+$lang['INVALID_TOPIC_ID_DB'] = 'トピックはデータベースに存在しません！';
 
-$lang['NOT_POST'] = '欠席のメッセージ';
-$lang['NOT_EDIT_TOR_STATUS'] = '画面の操作ができなくなりコーポレートコミュニケーションの状況';
+$lang['NOT_POST'] = '欠席メッセージ';
+$lang['NOT_EDIT_TOR_STATUS'] = 'リリースの状態で編集できません';
 
 $lang['OPTIONS'] = 'オプション';
 
@@ -304,50 +304,50 @@ $lang['POST_STICKY'] = '粘着';
 $lang['POST_NORMAL'] = '通常の';
 $lang['POST_DOWNLOAD'] = 'ダウンロード';
 
-$lang['PRINT_PAGE'] = 'Print page';
+$lang['PRINT_PAGE'] = '印刷ページ';
 
-$lang['CONFIRM_DELETE'] = 'まず削除したいことです。';
-$lang['CONFIRM_DELETE_POLL'] = 'Are you sure you want to deleteこの世論調査ですか？';
+$lang['CONFIRM_DELETE'] = 'この投稿を削除してもよろしいですか？';
+$lang['CONFIRM_DELETE_POLL'] = 'この世論調査を削除してもよろしいですか？';
 
-$lang['FLOOD_ERROR'] = 'はできません別のポストですぐにごした後は、再度お試しください。を';
-$lang['EMPTY_SUBJECT'] = 'を指定する必要があります。対象';
-$lang['EMPTY_MESSAGE'] = '必ず入力してくださいメッセージ';
+$lang['FLOOD_ERROR'] = '前回の投稿の後、再度投稿することはできません。しばらくしてから再試行してください。';
+$lang['EMPTY_SUBJECT'] = '件名を指定する必要があります。';
+$lang['EMPTY_MESSAGE'] = 'メッセージを入力する必要があります。';
 $lang['FORUM_LOCKED'] = 'フォーラムがロックされました';
 $lang['TOPIC_LOCKED'] = '話題がロックされました';
 $lang['TOPIC_LOCKED_SHORT'] = '話題のロック';
-$lang['NO_POST_ID'] = 'を選択してくださいポストの編集';
-$lang['NO_TOPIC_ID'] = 'を選択してください課題への回答';
-$lang['NO_VALID_MODE'] = 'まだ投稿は、返信、編集、または引用したメッセージです。 ご返却くださいしてから、再度挿入してください';
-$lang['NO_SUCH_POST'] = 'などはありません。 ご返却くださいしてから、再度挿入してください';
-$lang['EDIT_OWN_POSTS'] = '申し訳ございません、あなただけの編集ご自分の投稿';
-$lang['DELETE_OWN_POSTS'] = '申し訳ございません、あなただけの削除は自分の投稿';
-$lang['CANNOT_DELETE_REPLIED'] = '申し訳ございません、あなたを削除しないにかかって返';
-$lang['CANNOT_DELETE_POLL'] = '申し訳ございません、あなたを削除することはできません積極的調査';
-$lang['EMPTY_POLL_TITLE'] = '必ず入力してくださいタイトルがpoll';
-$lang['POST_HAS_NO_POLL'] = 'このポストがない調査';
-$lang['ALREADY_VOTED'] = 'いて投票をこの世論調査';
-$lang['NO_VOTE_OPTION'] = 'を指定する必要があります。オプションが決';
-$lang['LOCKED_WARN'] = 'ご投稿にロックされ話題に！';
+$lang['NO_POST_ID'] = '編集する投稿を選択してください。';
+$lang['NO_TOPIC_ID'] = '返信するトピックを選択してください。';
+$lang['NO_VALID_MODE'] = '投稿、返信、編集、または引用メッセージのみが可能です。戻って再試行してください。';
+$lang['NO_SUCH_POST'] = 'そのような投稿はありません。戻って再試行してください。';
+$lang['EDIT_OWN_POSTS'] = '申し訳ありませんが、自分の投稿のみを編集できます。';
+$lang['DELETE_OWN_POSTS'] = '申し訳ありませんが、自分の投稿のみを削除できます。';
+$lang['CANNOT_DELETE_REPLIED'] = '申し訳ありませんが、返信された投稿を削除することはできません。';
+$lang['CANNOT_DELETE_POLL'] = '申し訳ありませんが、アクティブな投票を削除することはできません。';
+$lang['EMPTY_POLL_TITLE'] = '投票のタイトルを入力してください。';
+$lang['POST_HAS_NO_POLL'] = 'この投稿には投票がありません。';
+$lang['ALREADY_VOTED'] = 'この投票には既に投票済みです。';
+$lang['NO_VOTE_OPTION'] = '投票するときはオプションを指定する必要があります。';
+$lang['LOCKED_WARN'] = 'ロックされたトピックに投稿しました！';
 
-$lang['ADD_POLL'] = '追加の投票';
-$lang['POLL_OPTION'] = 'Pollのオプション';
+$lang['ADD_POLL'] = '投票を追加する';
+$lang['POLL_OPTION'] = '投票オプション';
 $lang['UPDATE'] = '更新';
 $lang['DAYS'] = '日';
-$lang['DELETE_POLL'] = '削除のpoll';
+$lang['DELETE_POLL'] = '投票を削除する';
 
 $lang['MAX_SMILIES_PER_POST'] = '絵文字制限の%s絵文字を超えます。';
 
 $lang['NOTIFY'] = '返信の通知を受け取る';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'このトピックのインデックス作成をロボットに許可';
 
-$lang['STORED'] = 'メッセージを入力します。';
-$lang['EDITED'] = 'メッセージが変更され';
-$lang['DELETED'] = 'メッセージが削除されています。';
-$lang['POLL_DELETE'] = 'ご投票が削除されています。';
-$lang['VOTE_CAST'] = 'あなたの投票をしています。';
+$lang['STORED'] = 'メッセージは正常に入力されました。';
+$lang['EDITED'] = 'メッセージが変更されました。';
+$lang['DELETED'] = 'メッセージは正常に削除されました。';
+$lang['POLL_DELETE'] = '投票は正常に削除されました。';
+$lang['VOTE_CAST'] = 'あなたの投票が行われました。';
 
 $lang['EMOTICONS'] = '絵文字';
-$lang['MORE_EMOTICONS'] = 'ありが絵文字';
+$lang['MORE_EMOTICONS'] = '更なる絵文字を表示する';
 
 $lang['COLOR_DARK_RED'] = '暗赤色';
 $lang['COLOR_RED'] = '赤';
@@ -365,12 +365,12 @@ $lang['FONT_NORMAL'] = '通常の';
 $lang['FONT_LARGE'] = '大';
 $lang['FONT_HUGE'] = '巨大';
 
-$lang['NEW_POSTS_PREVIEW'] = '話題は、編集または未読の投稿';
+$lang['NEW_POSTS_PREVIEW'] = 'トピックには新しい、編集、または未読の投稿があります。';
 
 // Private Messaging
 $lang['PRIVATE_MESSAGING'] = '個人メール';
 
-$lang['NO_NEW_PM'] = '新しいメッセージ';
+$lang['NO_NEW_PM'] = '新しいメッセージはありません。';
 
 $lang['NEW_PMS_FORMAT'] = '<b>%1$s</b> %2$s'; // 1 new message
 $lang['NEW_PMS_DECLENSION'] = ['新しいメッセージ', '新しいメッセージ'];
@@ -379,82 +379,82 @@ $lang['UNREAD_PMS_FORMAT'] = '<b>%1$s</b> %2$s'; // 1 new message
 $lang['UNREAD_PMS_DECLENSION'] = ['未読', '未読'];
 
 $lang['UNREAD_MESSAGE'] = '未読メッセージ';
-$lang['READ_MESSAGE'] = '読メッセージ';
+$lang['READ_MESSAGE'] = '読まれたメッセージ。';
 
-$lang['READ_PM'] = '読メッセージ';
-$lang['POST_NEW_PM'] = 'ポストメッセージ';
-$lang['POST_REPLY_PM'] = '返信メッセージ';
-$lang['POST_QUOTE_PM'] = '見積もりメッセージ';
-$lang['EDIT_PM'] = 'メッセージ編集';
+$lang['READ_PM'] = '読まれたメッセージ。';
+$lang['POST_NEW_PM'] = '投稿メッセージ。';
+$lang['POST_REPLY_PM'] = 'メッセージに返信。';
+$lang['POST_QUOTE_PM'] = 'メッセージを見積もる。';
+$lang['EDIT_PM'] = 'メッセージを編集します。';
 
 $lang['INBOX'] = '受信トレイ';
 $lang['OUTBOX'] = '送信トレイ';
-$lang['SAVEBOX'] = 'Savebox';
-$lang['SENTBOX'] = 'Sentbox';
+$lang['SAVEBOX'] = '保存ボックス。';
+$lang['SENTBOX'] = '送信箱。';
 $lang['FLAG'] = '旗';
-$lang['SUBJECT'] = '対象';
-$lang['FROM'] = 'から';
-$lang['TO'] = 'へ';
-$lang['DATE'] = '日';
-$lang['MARK'] = 'マーク';
-$lang['SENT'] = '送信';
-$lang['SAVED'] = '保存';
-$lang['DELETE_MARKED'] = '削除マー';
-$lang['DELETE_ALL'] = 'べて削除する';
-$lang['SAVE_MARKED'] = '保存著';
-$lang['SAVE_MESSAGE'] = '保存のメッセージ';
-$lang['DELETE_MESSAGE'] = '削除メッセージ';
+$lang['SUBJECT'] = '件名。';
+$lang['FROM'] = 'から。';
+$lang['TO'] = 'へ。';
+$lang['DATE'] = '日。';
+$lang['MARK'] = 'マーク。';
+$lang['SENT'] = '送信。';
+$lang['SAVED'] = '保存。';
+$lang['DELETE_MARKED'] = 'マークを削除。';
+$lang['DELETE_ALL'] = 'すべて削除。';
+$lang['SAVE_MARKED'] = 'マークを保存。';
+$lang['SAVE_MESSAGE'] = 'メッセージを保存。';
+$lang['DELETE_MESSAGE'] = 'メッセージを削除。';
 
-$lang['DISPLAY_MESSAGES'] = '表示メッセージ'; // Followed by number of days/weeks/months
+$lang['DISPLAY_MESSAGES'] = 'メッセージを表示。'; // Followed by number of days/weeks/months
 
-$lang['NO_MESSAGES_FOLDER'] = 'ありませんメッセージをこのフォルダ';
+$lang['NO_MESSAGES_FOLDER'] = 'このフォルダにはメッセージがありません。';
 
-$lang['PM_DISABLED'] = '個人メールで使用できなくなっている。';
-$lang['CANNOT_SEND_PRIVMSG'] = '申し訳ございません、あなたの管理者がお送りするプライベートメッセージです。';
-$lang['NO_TO_USER'] = 'を指定しなければなりませんのユーザー名者は、このメッセージです。';
-$lang['NO_SUCH_USER'] = '申し訳ございません、あなたのメールが存在します。';
+$lang['PM_DISABLED'] = 'このボードにはプライベートメッセージが無効になっています。';
+$lang['CANNOT_SEND_PRIVMSG'] = '申し訳ありませんが、管理者によってプライベートメッセージを送信することができません。';
+$lang['NO_TO_USER'] = 'このメッセージを送信するユーザー名を指定する必要があります。';
+$lang['NO_SUCH_USER'] = '申し訳ありませんが、そのようなユーザーは存在しません。';
 
-$lang['MESSAGE_SENT'] = '<b>Yourい合わせ内容を送信しました。</b>';
+$lang['MESSAGE_SENT'] = '<b>あなたのメッセージは送信されました。</b>';
 
-$lang['CLICK_RETURN_INBOX'] = '帰:<br /><br /> %s<b>Inbox</b>%s';
-$lang['CLICK_RETURN_SENTBOX'] = '&nbsp;&nbsp; %s<b>Sentbox</b>%s';
-$lang['CLICK_RETURN_OUTBOX'] = '&nbsp;&nbsp; %s<b>Outbox</b>%s';
-$lang['CLICK_RETURN_SAVEBOX'] = '&nbsp;&nbsp; %s<b>Savebox</b>%s';
-$lang['CLICK_RETURN_INDEX'] = '%sReturnのIndex%s';
+$lang['CLICK_RETURN_INBOX'] = '戻る：<br /><br /> %s<b>受信トレイ</b>%s';
+$lang['CLICK_RETURN_SENTBOX'] = '&nbsp;&nbsp; %s<b>送信ボックス</b>%s';
+$lang['CLICK_RETURN_OUTBOX'] = '&nbsp;&nbsp; %s<b>送信箱</b>%s';
+$lang['CLICK_RETURN_SAVEBOX'] = '&nbsp;&nbsp; %s<b>保存ボックス</b>%s';
+$lang['CLICK_RETURN_INDEX'] = '%sインデックスに戻る%s';
 
-$lang['SEND_A_NEW_MESSAGE'] = '送付の新プライベートメッセージ';
-$lang['SEND_A_REPLY'] = '返信メッセージ';
-$lang['EDIT_MESSAGE'] = '編集プライベートメッセージ';
+$lang['SEND_A_NEW_MESSAGE'] = '新しいプライベートメッセージを送信する';
+$lang['SEND_A_REPLY'] = 'プライベートメッセージに返信する';
+$lang['EDIT_MESSAGE'] = 'プライベートメッセージを編集する';
 
-$lang['FIND_USERNAME'] = 'くのユーザー名';
-$lang['SELECT_USERNAME'] = '選択ユーザーネーム';
-$lang['FIND'] = '見';
-$lang['NO_MATCH'] = '不一致するデータは見つかります。';
+$lang['FIND_USERNAME'] = 'ユーザー名を見つける';
+$lang['SELECT_USERNAME'] = 'ユーザー名を選択する';
+$lang['FIND'] = '見つける';
+$lang['NO_MATCH'] = '一致するデータは見つかりません。';
 
-$lang['NO_PM_ID'] = 'を指定してくださいポストID';
-$lang['NO_SUCH_FOLDER'] = 'フォルダが見つからなかった';
+$lang['NO_PM_ID'] = 'ポストIDを指定してください。';
+$lang['NO_SUCH_FOLDER'] = 'フォルダが見つかりません。';
 
-$lang['MARK_ALL'] = 'すべてのマーク';
-$lang['UNMARK_ALL'] = 'すべてのマーク解除';
+$lang['MARK_ALL'] = 'すべてのマーク。';
+$lang['UNMARK_ALL'] = 'マークを解除。';
 
-$lang['CONFIRM_DELETE_PM'] = 'Are you sure you want to deleteこのメッセージは？';
-$lang['CONFIRM_DELETE_PMS'] = 'Are you sure you want to deleteこれらのメッセージです。';
+$lang['CONFIRM_DELETE_PM'] = 'このメッセージを削除してもよろしいですか？';
+$lang['CONFIRM_DELETE_PMS'] = 'これらのメッセージを削除してもよろしいですか？';
 
-$lang['INBOX_SIZE'] = 'メールの受信をごis<br /><b>%d%%</b>フル'; // e.g. Your Inbox is 50% full
-$lang['SENTBOX_SIZE'] = 'おSentbox is<br /><b>%d%%</b>フル';
-$lang['SAVEBOX_SIZE'] = 'おSavebox is<br /><b>%d%%</b>フル';
+$lang['INBOX_SIZE'] = '受信トレイは<br /><b>%d%%</b>いっぱいです。'; // e.g. Your Inbox is 50% full
+$lang['SENTBOX_SIZE'] = '送信ボックスは<br /><b>%d%%</b>いっぱいです。';
+$lang['SAVEBOX_SIZE'] = 'あなたのセーブボックスは<br /><b>%d%%</b>満杯です';
 
 $lang['OUTBOX_EXPL'] = '';
 
 // Profiles/Registration
-$lang['VIEWING_USER_PROFILE'] = '視プロフィール::%s';
-$lang['VIEWING_MY_PROFILE'] = 'マイプロフィール[<a href="%s">Settings/変更profile</a>]';
+$lang['VIEWING_USER_PROFILE'] = 'プロフィールの閲覧 :: %s';
+$lang['VIEWING_MY_PROFILE'] = '私のプロフィール [<a href="%s">設定 / プロフィール変更</a>]';
 
-$lang['DISABLED_USER'] = '障害者口座';
+$lang['DISABLED_USER'] = 'アカウントが無効になりました';
 $lang['MANAGE_USER'] = '管理';
 
 $lang['PREFERENCES'] = '設定';
-$lang['ITEMS_REQUIRED'] = '達成できなかった項目は、必要な下記にお問い合わせ下さい。';
+$lang['ITEMS_REQUIRED'] = '項目に*がついているものは、特に記載がない限り必須です。';
 $lang['REGISTRATION_INFO'] = '登録情報';
 $lang['PROFILE_INFO'] = 'プロフィール情報';
 $lang['AVATAR_PANEL'] = 'アバターの制御パネル';
@@ -462,27 +462,27 @@ $lang['AVATAR_PANEL'] = 'アバターの制御パネル';
 $lang['WEBSITE'] = 'Webサイト';
 $lang['LOCATION'] = '所在地';
 $lang['CONTACT'] = '連絡先';
-$lang['EMAIL_ADDRESS'] = 'Eメールアドレス';
-$lang['SEND_PRIVATE_MESSAGE'] = '送信メッセージ';
-$lang['INTERESTS'] = '利益';
+$lang['EMAIL_ADDRESS'] = '電子メールアドレス';
+$lang['SEND_PRIVATE_MESSAGE'] = 'プライベートメッセージを送信';
+$lang['INTERESTS'] = '興味';
 $lang['OCCUPATION'] = '職業';
 $lang['POSTER_RANK'] = 'ポスターのランク';
-$lang['AWARDED_RANK'] = 'ランクを受賞';
-$lang['SHOT_RANK'] = 'ショットランク';
+$lang['AWARDED_RANK'] = '与えられたランク';
+$lang['SHOT_RANK'] = 'ショットのランク';
 
-$lang['TOTAL_POSTS'] = '総合職';
-$lang['SEARCH_USER_POSTS'] = '見投稿'; // Find all posts by username
-$lang['SEARCH_USER_POSTS_SHORT'] = '見つユーザーの投稿';
-$lang['SEARCH_USER_TOPICS'] = '見つユーザー課題'; // Find all topics by username
+$lang['TOTAL_POSTS'] = '総投稿数';
+$lang['SEARCH_USER_POSTS'] = '投稿を探す'; // Find all posts by username
+$lang['SEARCH_USER_POSTS_SHORT'] = 'ユーザーの投稿を探す';
+$lang['SEARCH_USER_TOPICS'] = 'ユーザーのトピックを見つける'; // Find all topics by username
 
-$lang['NO_USER_ID_SPECIFIED'] = '申し訳ございません、あなたのユーザーは存在しない。';
-$lang['NO_SEND_ACCOUNT_INACTIVE'] = '申し訳ございません、あなたのパスワードは復元することはできませんのでお客様の口座は、現在休止';
-$lang['NO_SEND_ACCOUNT'] = '申し訳ございません、あなたのパスワードを検索できない。 下のフォーラム管理者情報';
+$lang['NO_USER_ID_SPECIFIED'] = '申し訳ありませんが、そのユーザーは存在しません。';
+$lang['NO_SEND_ACCOUNT_INACTIVE'] = '申し訳ありませんが、アカウントが現在非アクティブのため、パスワードを取得できません。';
+$lang['NO_SEND_ACCOUNT'] = '申し訳ございませんが、パスワードを見つけることはできません。フォーラム管理者にお問い合わせください。';
 
-$lang['HIDE_PORN_FORUMS'] = '非表示コンテンツ18+';
-$lang['ADD_RETRACKER'] = '追加retracker急流にもまれのファイル';
-$lang['ALWAYS_NOTIFY'] = '通知の私の回答';
-$lang['ALWAYS_NOTIFY_EXPLAIN'] = '送信メールはこの人の回答のマーまで投稿しています。 この変更ができます。';
+$lang['HIDE_PORN_FORUMS'] = '18歳以上のコンテンツを非表示にする';
+$lang['ADD_RETRACKER'] = 'トレントファイルにリトラッカーを追加する';
+$lang['ALWAYS_NOTIFY'] = '常に通知を受け取る';
+$lang['ALWAYS_NOTIFY_EXPLAIN'] = '誰かがあなたの投稿に返信したときにメールが送信されます。';
 
 $lang['BOARD_LANG'] = 'ボードの言語';
 $lang['GENDER'] = '男女別';
@@ -491,42 +491,42 @@ $lang['GENDER_SELECT'] = [
     1 => '男性',
     2 => '女性'
 ];
-$lang['MODULE_OFF'] = 'モジュールを無効にす！';
+$lang['MODULE_OFF'] = 'モジュールが無効です！';
 
 $lang['BIRTHDAY'] = '誕生日';
-$lang['HAPPY_BIRTHDAY'] = 'お誕生日おめです！';
-$lang['WRONG_BIRTHDAY_FORMAT'] = 'の誕生日の形式で入力されたが間違っています。';
+$lang['HAPPY_BIRTHDAY'] = '誕生日おめでとうございます！';
+$lang['WRONG_BIRTHDAY_FORMAT'] = '誕生日の形式が間違って入力されました。';
 $lang['AGE'] = '年齢';
 $lang['BIRTHDAY_TO_HIGH'] = '申し訳ありませんが、このサイトは%d歳以上のユーザーを受け入れていません';
 $lang['BIRTHDAY_TO_LOW'] = '申し訳ありませんが、このサイトは%d歳未満のユーザーを受け入れていません';
-$lang['BIRTHDAY_TODAY'] = 'ユーザーの誕生日現在 ';
-$lang['BIRTHDAY_WEEK'] = 'ユーザーの誕生日に%d日:%s';
-$lang['NOBIRTHDAY_WEEK'] = 'ないユーザーの誕生日の%d日'; // %d is substituted with the number of days
-$lang['NOBIRTHDAY_TODAY'] = 'ないユーザーの誕生日現在';
-$lang['BIRTHDAY_ENABLE'] = 'より誕生日';
-$lang['BIRTHDAY_MAX_AGE'] = 'Max年齢';
-$lang['BIRTHDAY_MIN_AGE'] = '分の年齢';
+$lang['BIRTHDAY_TODAY'] = '今日誕生日のユーザー: ';
+$lang['BIRTHDAY_WEEK'] = '今後%d日以内に誕生日を迎えるユーザー: %s';
+$lang['NOBIRTHDAY_WEEK'] = '今後%d日間、誕生日のユーザーはいません。'; // %d is substituted with the number of days
+$lang['NOBIRTHDAY_TODAY'] = '今日誕生日のユーザーはいません。';
+$lang['BIRTHDAY_ENABLE'] = '誕生日を有効にする';
+$lang['BIRTHDAY_MAX_AGE'] = '最大年齢';
+$lang['BIRTHDAY_MIN_AGE'] = '最小年齢';
 $lang['BIRTHDAY_CHECK_DAY'] = '今後の誕生日を確認する日数';
 $lang['YEARS'] = '年';
 
 $lang['TIMEZONE'] = 'タイムゾーン';
-$lang['DATE_FORMAT_EXPLAIN'] = '構文の使用と同一であPHP<a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a>機能します。';
+$lang['DATE_FORMAT_EXPLAIN'] = '使用されている構文はPHPの<a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a>関数と同一である。';
 $lang['SIGNATURE'] = '署名';
-$lang['SIGNATURE_EXPLAIN'] = 'このブロックのテキストを追加することがで投稿することができます。 あ%d文字制限';
-$lang['SIGNATURE_DISABLE'] = '締切違反のフォーラムの規則';
-$lang['PUBLIC_VIEW_EMAIL'] = 'ショー e-mailアドレスプロフィール';
+$lang['SIGNATURE_EXPLAIN'] = 'このテキストのブロックを投稿に追加することができます。%d文字の制限があります。';
+$lang['SIGNATURE_DISABLE'] = 'フォーラム規則に違反して署名が無効にされました';
+$lang['PUBLIC_VIEW_EMAIL'] = 'プロフィールにEメールアドレスを表示する';
 
-$lang['EMAIL_EXPLAIN'] = 'この住所に送付いたしますので、登録';
+$lang['EMAIL_EXPLAIN'] = '登録を完了するためにこの住所に送信されます。';
 
 $lang['CURRENT_PASSWORD'] = '現在のパスワード';
 $lang['NEW_PASSWORD'] = '新しいパスワード';
 $lang['CONFIRM_PASSWORD'] = 'パスワードを確認する';
-$lang['CONFIRM_PASSWORD_EXPLAIN'] = '確認してください現在のパスワード変更をご希望される場合または変更メールアドレス';
-$lang['PASSWORD_IF_CHANGED'] = 'するために必要な供給のパスワードを変更したい場合はで';
-$lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'するために必要なパスワードをご確認下さい。変更された場合、それぞれで、上記';
+$lang['CONFIRM_PASSWORD_EXPLAIN'] = '現在のパスワードを確認してください。 パスワードやメールアドレスを変更したい場合。';
+$lang['PASSWORD_IF_CHANGED'] = '変更したい場合のみパスワードを提供する必要があります。';
+$lang['PASSWORD_CONFIRM_IF_CHANGED'] = '変更された場合のみ、パスワードを確認する必要があります。';
 
-$lang['AUTOLOGIN'] = 'Autologin';
-$lang['RESET_AUTOLOGIN'] = 'リセットautologinキー';
+$lang['AUTOLOGIN'] = '自動ログイン';
+$lang['RESET_AUTOLOGIN'] = '自動ログインキーをリセット';
 $lang['RESET_AUTOLOGIN_EXPL'] = 'を含むすべての場所だ訪れたこのフォーラムは有効な自動ログイン';
 
 $lang['AVATAR'] = 'アバター';
@@ -573,7 +573,7 @@ $lang['PASSWORD_UPDATED'] = '新しいパスワードが作成されると、ご
 $lang['NO_EMAIL_MATCH'] = 'Eメールアドレスのご提供と一致しないにしては、該当するユーザ名です。';
 $lang['PASSWORD_ACTIVATED'] = '自分のアカウントが再起動します。 ログインをご利用くださいパスワードを提供されるすべてのメールを頂きます。';
 
-$lang['SEND_EMAIL_MSG'] = 'メールメッセージ';
+$lang['SEND_EMAIL_MSG'] = 'メールを送信します。';
 $lang['NO_USER_SPECIFIED'] = 'ないユーザ指定された';
 $lang['USER_NOT_EXIST'] = 'ユーザーが存在しない';
 $lang['EMAIL_MESSAGE_DESC'] = 'このメッセージを送信するテキスト形式で含んでいないモジュール\'をクリックしまBBCodeます。 戻りアドレスはこのメッセージが設定されますお客様のeメールアドレスにお送りします。';
@@ -1156,7 +1156,7 @@ $lang['NO_POSTS_REMOVED'] = '削除された投稿はありません。';
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = '発表';
 $lang['TOPICS_STICKY'] = 'Stickies';
-$lang['TOPICS_NORMAL'] = 'Topics';
+$lang['TOPICS_NORMAL'] = 'トピック';
 
 //dpc
 $lang['DOUBLE_POST_ERROR'] = 'はできません別のポストと同じテキストとしております。';
