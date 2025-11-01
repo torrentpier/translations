@@ -47,7 +47,7 @@ $lang['6_MONTHS'] = '6 maande';
 $lang['1_YEAR'] = '1 jaar';
 
 $lang['GO'] = 'Gaan na';
-$lang['SUBMIT'] = 'Indien';
+$lang['SUBMIT'] = 'Indien.';
 $lang['RESET'] = 'herstel';
 $lang['CANCEL'] = 'kanselleer';
 $lang['PREVIEW'] = 'voorskou';
@@ -664,36 +664,36 @@ $lang['ALREADY_MEMBER_GROUP'] = 'Jy is reeds \'n lid van hierdie groep';
 $lang['USER_IS_MEMBER_GROUP'] = '%s is reeds \'n lid van hierdie groep';
 $lang['USER_IS_MOD_GROUP'] = '%s is \'n moderator van hierdie groep';
 $lang['EFFECTIVE_DATE'] = 'Effektiewe datum';
-$lang['COULD_NOT_ADD_USER'] = 'Die gebruiker wat u gekies het bestaan ​​nie.';
+$lang['COULD_NOT_ADD_USER'] = 'Die gebruiker wat u gekies het bestaan nie.';
 $lang['UNSUB_SUCCESS'] = 'U is ingeteken van hierdie groep.';
 
-$lang['APPROVE_SELECTED'] = 'Goedkeuring gekies';
-$lang['DENY_SELECTED'] = 'Ontken geselekteerde';
-$lang['REMOVE_SELECTED'] = 'Verwyder geselekteerde';
+$lang['APPROVE_SELECTED'] = 'Geselecteerde goedkeur.';
+$lang['DENY_SELECTED'] = 'Geselecteerde ontken.';
+$lang['REMOVE_SELECTED'] = 'Geselekteerde verwyder.';
 $lang['ADD_MEMBER'] = 'Voeg lid by';
 $lang['NOT_GROUP_MODERATOR'] = 'Jy is nie hierdie groep se moderator nie, daarom kan jy nie daardie aksie uitvoer nie.';
 
-$lang['LOGIN_TO_JOIN'] = 'Teken in om lidmaatskap van lidmaatskap by te voeg of te bestuur';
+$lang['LOGIN_TO_JOIN'] = 'Teken in om lidmaatskap by te voeg of te bestuur.';
 $lang['THIS_OPEN_GROUP'] = 'Dit is \'n oop groep: klik om lidmaatskap te versoek';
 $lang['THIS_CLOSED_GROUP'] = 'Dit is \'n geslote groep: geen meer gebruikers word aanvaar nie';
 $lang['THIS_HIDDEN_GROUP'] = 'Dit is \'n versteekte groep: outomatiese toevoeging van gebruikers is nie toegelaat nie';
 $lang['MEMBER_THIS_GROUP'] = 'Jy is \'n lid van hierdie groep';
-$lang['PENDING_THIS_GROUP'] = 'U lidmaatskap van hierdie groep is hangende';
+$lang['PENDING_THIS_GROUP'] = 'U lidmaatskap van hierdie groep is hangende.';
 $lang['ARE_GROUP_MODERATOR'] = 'Jy is die groep moderator';
 $lang['NONE'] = 'Geen';
 
-$lang['SUBSCRIBE'] = 'Betaal';
-$lang['UNSUBSCRIBE_GROUP'] = 'bedank';
+$lang['SUBSCRIBE'] = 'Betaal.';
+$lang['UNSUBSCRIBE_GROUP'] = 'Onthou.';
 $lang['MEMBERS_IN_GROUP'] = 'Lede in groep';
 
 // Release Groups
-$lang['POST_RELEASE_FROM_GROUP'] = 'Posuitreiking van groep';
-$lang['CHOOSE_RELEASE_GROUP'] = 'Nie gekies nie';
-$lang['ATTACH_RG_SIG'] = 'Heg vryskrifgroephandtekening aan';
-$lang['RELEASE_FROM_RG'] = 'Vrystelling is voorberei deur';
-$lang['GROUPS_RELEASES'] = 'Groep se vrystellings';
-$lang['MORE_RELEASES'] = 'Vind alle uitgawes van die groep';
-$lang['NOT_A_RELEASE_GROUP'] = 'Hierdie groep is nie \'n vrystelgroep nie';
+$lang['POST_RELEASE_FROM_GROUP'] = 'Pos-uitreiking van die groep.';
+$lang['CHOOSE_RELEASE_GROUP'] = 'Nie gekies nie.';
+$lang['ATTACH_RG_SIG'] = 'Heg vryskrifgroep-handtekening aan.';
+$lang['RELEASE_FROM_RG'] = 'Vrystelling is voorberei deur.';
+$lang['GROUPS_RELEASES'] = 'Groep se vrystellings.';
+$lang['MORE_RELEASES'] = 'Vind alle uitgawes van die groep.';
+$lang['NOT_A_RELEASE_GROUP'] = 'Hierdie groep is nie \'n vrystelgroep nie.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Soekhulp';
@@ -701,14 +701,14 @@ $lang['SEARCH_QUERY'] = 'Soek navraag';
 $lang['SEARCH_OPTIONS'] = 'Soekopsies';
 
 $lang['SEARCH_WORDS'] = 'Soek vir sleutelwoorde';
-$lang['SEARCH_WORDS_EXPL'] = 'U kan <b> + </b> gebruik om woorde wat in die resultate moet wees en <b>-</b> te definieer om woorde wat nie in die resultaat moet wees nie (bv: "+ word1 -woord2") te definieer. Gebruik * as \'n wildkaart vir gedeeltelike wedstryde';
+$lang['SEARCH_WORDS_EXPL'] = 'U kan <b> + </b> gebruik.';
 $lang['SEARCH_AUTHOR'] = 'Soek vir outeur';
 $lang['SEARCH_AUTHOR_EXPL'] = 'Gebruik * as \'n wildkaart vir gedeeltelike wedstryde';
 
-$lang['SEARCH_TITLES_ONLY'] = 'Soek slegs titel titels';
-$lang['SEARCH_ALL_WORDS'] = 'Alle woorde';
-$lang['IN_MY_POSTS'] = 'In my poste';
-$lang['SEARCH_MY_TOPICS'] = 'In my onderwerpe';
+$lang['SEARCH_TITLES_ONLY'] = 'Soek slegs titel titels.';
+$lang['SEARCH_ALL_WORDS'] = 'Alle woorde.';
+$lang['IN_MY_POSTS'] = 'In my poste.';
+$lang['SEARCH_MY_TOPICS'] = 'In my onderwerpe.';
 $lang['NEW_TOPICS'] = 'Nuwe onderwerpe';
 
 $lang['SEARCH_PREVIOUS'] = 'Soek vorige';
@@ -718,17 +718,17 @@ $lang['SORT_TIME'] = 'Pos Tyd';
 $lang['SORT_TOPIC_TITLE'] = 'Onderwerp Titel';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Wys resultate as';
-$lang['ALL_AVAILABLE'] = 'Almal beskikbaar';
-$lang['BRIEFLY'] = 'kortliks';
+$lang['ALL_AVAILABLE'] = 'Almal beskikbaar.';
+$lang['BRIEFLY'] = 'kortliks.';
 $lang['NO_SEARCHABLE_FORUMS'] = 'Jy het nie toestemming om enige forum op hierdie werf te soek nie.';
 
-$lang['NO_SEARCH_MATCH'] = 'Geen onderwerpe of plasings met jou soekkriteria nie';
-$lang['FOUND_SEARCH_MATCH'] = 'Soek gevind %d wedstryd'; // e.g. Search found 1 match
-$lang['FOUND_SEARCH_MATCHES'] = 'Soektog het %d vuurhoutjies gevind'; // e.g. Search found 24 matches
+$lang['NO_SEARCH_MATCH'] = 'Geen onderwerpe of plasings met jou soekkriteria nie.';
+$lang['FOUND_SEARCH_MATCH'] = 'Soek gevind %d wedstryd.'; // e.g. Search found 1 match
+$lang['FOUND_SEARCH_MATCHES'] = 'Soek gevind %d wedstryde.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Maak toe die venster';
-$lang['CLOSE'] = 'naby';
-$lang['HIDE'] = 'verberg';
+$lang['CLOSE'] = 'Naby.';
+$lang['HIDE'] = 'Verberg.';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
@@ -739,16 +739,16 @@ $lang['SORRY_AUTH_EDIT'] = 'Jammer, maar net %s kan plasings in hierdie forum wy
 $lang['SORRY_AUTH_DELETE'] = 'Jammer, maar net %s kan plasings in hierdie forum verwyder.';
 
 // These replace the %s in the above strings
-$lang['AUTH_ANONYMOUS_USERS'] = '<b> anonieme gebruikers</b>';
-$lang['AUTH_REGISTERED_USERS'] = '<b>geregistreerde gebruikers</b>';
-$lang['AUTH_USERS_GRANTED_ACCESS'] = '<b>users het spesiale toegang verleen</b>';
+$lang['AUTH_ANONYMOUS_USERS'] = '<b> anonieme gebruikers</b>.';
+$lang['AUTH_REGISTERED_USERS'] = '<b>geregistreerde gebruikers</b>.';
+$lang['AUTH_USERS_GRANTED_ACCESS'] = '<b>gebruikers het spesiale toegang verleen</b>.';
 $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Jy is nie \'n moderator van hierdie forum nie.';
 $lang['NOT_AUTHORISED'] = 'Nie gemagtig nie';
 
-$lang['YOU_BEEN_BANNED'] = 'U is verban uit hierdie forum. Kontak asseblief die bestuurder vir meer inligting.';
+$lang['YOU_BEEN_BANNED'] = 'U is verban uit hierdie forum.';
 
 // Viewonline
 $lang['ONLINE_EXPLAIN'] = 'Gebruikers wat die afgelope vyf minute aktief was';
@@ -769,15 +769,15 @@ $lang['TOPICS_MOVED'] = 'Die geselekteerde onderwerpe is verskuif.';
 $lang['TOPICS_UNLOCKED'] = 'Die geselekteerde onderwerpe is ontsluit.';
 $lang['NO_TOPICS_MOVED'] = 'Geen onderwerpe is verskuif nie.';
 
-$lang['CONFIRM_DELETE_TOPIC'] = 'Is jy seker jy wil die gekose onderwerp / s verwyder?';
-$lang['CONFIRM_MOVE_TOPIC'] = 'Is jy seker jy wil die geselekteerde onderwerp / s beweeg?';
+$lang['CONFIRM_DELETE_TOPIC'] = 'Is jy seker jy wil die gekose onderwerp/s verwyder?';
+$lang['CONFIRM_MOVE_TOPIC'] = 'Is jy seker jy wil die geselekteerde onderwerp/s beweeg?';
 
-$lang['MOVE_TO_FORUM'] = 'Skuif na forum';
+$lang['MOVE_TO_FORUM'] = 'Skuif na forum?';
 $lang['LEAVE_SHADOW_TOPIC'] = 'Laat skaduwee onderwerp in ou forum.';
 
-$lang['SPLIT_TOPIC_EXPLAIN'] = 'Met behulp van die vorm hieronder kan jy \'n onderwerp in twee verdeel, óf deur die poste individueel te kies of deur \'n geselekteerde plasing te verdeel';
-$lang['NEW_TOPIC_TITLE'] = 'Nuwe onderwerp titel';
-$lang['FORUM_FOR_NEW_TOPIC'] = 'Forum vir nuwe onderwerp';
+$lang['SPLIT_TOPIC_EXPLAIN'] = 'Met behulp van die vorm hieronder kan jy \'n onderwerp in twee verdeel.';
+$lang['NEW_TOPIC_TITLE'] = 'Nuwe onderwerp titel.';
+$lang['FORUM_FOR_NEW_TOPIC'] = 'Forum vir nuwe onderwerp.';
 $lang['SPLIT_POSTS'] = 'Verdeel geselekteerde plasings';
 $lang['SPLIT_AFTER'] = 'Verdeel uit geselekteerde pos';
 $lang['TOPIC_SPLIT'] = 'Die gekose onderwerp is suksesvol geskei';
@@ -897,8 +897,8 @@ $lang['BT_REG_NO'] = 'Nie geregistreer nie';
 $lang['BT_REG_ON_TRACKER'] = 'Registreer op spoorsnyer';
 $lang['BT_REG_FAIL'] = 'Kon nie torrent op spoorsnoer registreer nie';
 $lang['BT_REG_FAIL_SAME_HASH'] = 'Nog \'n stroom met dieselfde info_hash al <a href="%s"><b>registered</b></a>';
-$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-slegs torrents is tans deur die admin gedek aktiveer, toegelaat: v2 en hibrides';
-$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-slegs torrents is tans deur die admin gedek aktiveer, toegelaat: v1 en hibrides';
+$lang['BT_V1_ONLY_DISALLOWED'] = 'v1-slegs torrents is tans deur die administrateur deaktiveer, toegelaat: v2 en hibrides';
+$lang['BT_V2_ONLY_DISALLOWED'] = 'v2-slegs torrents is tans deur die administrateur deaktiveer, toegelaat: v1 en hibrides';
 $lang['BT_FLIST'] = 'Lêerlys';
 $lang['BT_FLIST_LIMIT'] = 'Tracker instellings laat nie verwerkingslyste toe met meer as %d lêers nie. Huidige aantal is: %d';
 $lang['BT_FLIST_BTMR_HASH'] = 'BTMR Hash';
@@ -908,7 +908,7 @@ $lang['BT_IS_PRIVATE'] = 'Private torrent';
 $lang['BT_FLIST_FILE_PATH'] = 'Pad (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'Lêer hashes | .torrent meta-inligting';
 $lang['BT_UNREG_FROM_TRACKER'] = 'Verwyder van spoorsnyer';
-$lang['BT_UNREGISTERED'] = 'Torrent ongeregistreerde';
+$lang['BT_UNREGISTERED'] = 'Torrent is ongeregistreer';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrent is reeds ongeregistreer';
 $lang['BT_REGISTERED'] = 'Torrent geregistreer op tracker<br /><br /> Nou moet jy <a href="%s"><b>download jou torrent</b></a> en hardloop dit met jou BitTorrent-kliënt om die gids te kies met die oorspronklike lêers wat jy deel as die aflaaipad';
 $lang['INVALID_ANN_URL'] = 'Ongeldige aanmelding URL [%s]<br /><br /> moet wees <b>%s</b>';
@@ -1298,7 +1298,7 @@ $lang['EMAILER_DISABLED'] = 'Jammer, hierdie funksie werk tydelik nie';
 $lang['REGISTERED_IN_TIME'] = "Registrasie is tans gesluit<br /><br />Registrasie is beskikbaar gedurende: %s<br />Huidige bediener tyd: %s<br /><br />Ons vra om verskoning vir die ongerief";
 $lang['AUTOCOMPLETE'] = 'Genereer wagwoord';
 $lang['YOUR_NEW_PASSWORD'] = 'U is \'n nuwe wagwoord:';
-$lang['REGENERATE'] = 'regenereer';
+$lang['REGENERATE'] = 'hergenerer';
 
 // Debug
 $lang['EXECUTION_TIME'] = 'Uitvoeringstyd:';
@@ -1318,11 +1318,11 @@ $lang['HOW_TO_DOWNLOAD'] = 'Hoe om af te laai?';
 $lang['WHAT_IS_A_TORRENT'] = 'Wat is \'n torrent?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Graderings en beperkings';
 
-$lang['SCREENSHOTS_RULES'] = 'Lees die reëls wat skermkiekies uitgelê het!';
+$lang['SCREENSHOTS_RULES'] = 'Read the rules specified in the screenshots!';
 $lang['AJAX_EDIT_OPEN'] = 'Het jy al een vinnige redigering oopgemaak!';
 $lang['GO_TO_PAGE'] = 'Gaan na bladsy ...';
 $lang['EDIT'] = 'wysig';
-$lang['SAVE'] = 'Save';
+$lang['SAVE'] = 'Stoor';
 $lang['NEW_WINDOW'] = 'In \'n nuwe venster';
 
 // BB Code
