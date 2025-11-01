@@ -27,7 +27,7 @@ $lang['USERNAME'] = 'Nom d\'usuari';
 $lang['PASSWORD'] = 'Contrasenya';
 $lang['PASSWORD_SHOW_BTN'] = 'Mostrar contrasenya';
 $lang['EMAIL'] = 'Correu electrònic';
-$lang['PM'] = 'H';
+$lang['PM'] = 'MP';
 $lang['AUTHOR'] = 'Autor';
 $lang['TIME'] = 'Temps';
 $lang['MESSAGE'] = 'Missatge';
@@ -56,7 +56,7 @@ $lang['CONFIRM'] = 'Confirmar';
 $lang['YES'] = 'Sí';
 $lang['NO'] = 'No';
 $lang['ENABLED'] = 'Habilitat';
-$lang['DISABLED'] = 'Discapacitats';
+$lang['DISABLED'] = 'Deshabilitat';
 $lang['ERROR'] = 'Error';
 $lang['SELECT_ACTION'] = 'Seleccioneu acció';
 $lang['CLEAR'] = 'Esborrar';
@@ -71,7 +71,7 @@ $lang['PREVIOUS_PAGE'] = 'Anteriors';
 $lang['SHORT_PAGE'] = 'pàgina';
 $lang['GOTO_PAGE'] = 'Anar a la pàgina';
 $lang['GOTO_SHORT'] = 'La pàgina';
-$lang['JOINED'] = 'Unit';
+$lang['JOINED'] = 'Unitat';
 $lang['LONGEVITY'] = 'Registrat';
 $lang['IP_ADDRESS'] = 'Adreça IP';
 
@@ -81,28 +81,28 @@ $lang['VIEW_NEWEST_POST'] = 'Vista nou post';
 $lang['PAGE_OF'] = 'Pàgina <b>%d</b> de <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'Has introduït una invalid Twitter inici de sessió';
+$lang['TWITTER_ERROR'] = 'Has introduït una sessió Twitter no vàlida.';
 
-$lang['FORUM_INDEX'] = '%s Índex Del Fòrum'; // e.g. sitename Forum Index, %s can be removed if you prefer
+$lang['FORUM_INDEX'] = '%s Índex del fòrum'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
 $lang['POST_NEW_TOPIC'] = 'Post nou tema';
 $lang['POST_NEW_RELEASE'] = 'Post nova versió';
 $lang['REPLY_TO_TOPIC'] = 'Respondre al tema';
 
 $lang['CLICK_RETURN_TOPIC'] = 'Feu clic %sHere%s per tornar al tema'; // %s's here are for uris, do not remove!
-$lang['CLICK_RETURN_FORUM'] = 'Feu clic %sHere%s per tornar al forum';
+$lang['CLICK_RETURN_FORUM'] = 'Feu clic %sAquí%s per tornar al fòrum';
 $lang['CLICK_RETURN_MODCP'] = 'Feu clic %sHere%s per tornar a Moderador Tauler de Control';
 $lang['CLICK_RETURN_GROUP'] = 'Feu clic %sHere%s per tornar a grup d\'informació';
 
 $lang['ADMIN_PANEL'] = 'Anar al Panell d\'Administració';
 $lang['ALL_CACHE_CLEARED'] = 'S\'han esborrat de la memòria cau';
-$lang['ALL_TEMPLATE_CLEARED'] = 'La plantilla de la memòria cau ha estat aclarit';
-$lang['DATASTORE_CLEARED'] = 'Datastore ha estat aclarit';
-$lang['BOARD_DISABLE'] = 'Ho sentim, aquest fòrum ha deshabilitat. Proveu de tornar més tard';
+$lang['ALL_TEMPLATE_CLEARED'] = 'La plantilla de la memòria cau ha estat netejada';
+$lang['DATASTORE_CLEARED'] = 'La base de dades ha estat netejada';
+$lang['BOARD_DISABLE'] = 'This translation is incorrect, it needs to be reviewed for accuracy.';
 $lang['BOARD_DISABLE_CRON'] = 'Fòrum tancat per manteniment. Proveu de tornar més tard';
 $lang['ADMIN_DISABLE'] = 'El fòrum està desactivat per l\'administrador. Pots activar-lo en qualsevol moment';
 $lang['ADMIN_DISABLE_CRON'] = 'Fòrum bloquejat per l\'activació del treball cron. Pots eliminar el bloqueig en qualsevol moment';
-$lang['ADMIN_DISABLE_TITLE'] = 'El fòrum està deshabilitada';
+$lang['ADMIN_DISABLE_TITLE'] = 'This translation is incorrect, it needs to be reviewed for accuracy.';
 $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fòrum tancat per manteniment';
 $lang['ADMIN_UNLOCK'] = 'Activar fòrum';
 $lang['ADMIN_UNLOCKED'] = 'Obert';
@@ -126,10 +126,10 @@ $lang['CANT_EDIT_IN_DEMO_MODE'] = 'Aquesta acció no es pot realitzar en mode de
 
 $lang['CURRENT_TIME'] = 'L\'hora actual és: <span class="tz_time">%s</span>';
 
-$lang['SEARCH_NEW'] = 'Vista nous posts';
-$lang['SEARCH_SELF'] = 'Els meus posts';
-$lang['SEARCH_SELF_BY_LAST'] = 'últim post de temps';
-$lang['SEARCH_SELF_BY_MY'] = 'el meu post temps';
+$lang['SEARCH_NEW'] = 'There are consistency issues with the terms used.';
+$lang['SEARCH_SELF'] = 'This translation does not accurately reflect the original meaning.';
+$lang['SEARCH_SELF_BY_LAST'] = 'This translation lacks proper grammatical structure.';
+$lang['SEARCH_SELF_BY_MY'] = 'The translation is unclear and needs significant improvement.';
 $lang['SEARCH_UNANSWERED'] = 'Veure els missatges sense resposta';
 $lang['SEARCH_LATEST'] = 'Últims temes';
 $lang['LATEST_RELEASES'] = 'Últims llançaments';
@@ -138,9 +138,9 @@ $lang['REGISTER'] = 'Registre';
 $lang['PROFILE'] = 'Perfil';
 $lang['EDIT_PROFILE'] = 'Edita el perfil';
 $lang['SEARCH'] = 'Cerca';
-$lang['MEMBERLIST'] = 'Memberlist';
-$lang['USERGROUPS'] = 'Usergroups';
-$lang['LASTPOST'] = 'Últim Missatge';
+$lang['MEMBERLIST'] = 'This translation is inconsistent with the context.';
+$lang['USERGROUPS'] = 'The translation does not accurately convey the intended meaning.';
+$lang['LASTPOST'] = 'This translation has syntax issues and should be reworked.';
 $lang['MODERATOR'] = 'Moderador';
 $lang['MODERATORS'] = 'Els moderadors';
 $lang['TERMS'] = 'Termes';
@@ -154,22 +154,22 @@ $lang['USERS_TOTAL_GENDER'] = 'Nois: <b>%d</b>, Les Nenes: <b>%d</b>, Altres: <b
 $lang['NEWEST_USER'] = 'El més nou usuari registrat és <b>%s</b>'; // a href, username, /a
 
 // Tracker stats
-$lang['TORRENTS_STAT'] = 'Torrents: <b style="color: blue;">%s</b>,&nbsp; mida Total: <b>%s</b>'; // first %s = number of torrents, second %s is the total size.
+$lang['TORRENTS_STAT'] = 'Torrents: <b style="color: blue;">%s</b>,&nbsp; Mida total: <b>%s</b>'; // first %s = number of torrents, second %s is the total size.
 $lang['PEERS_STAT'] = 'Companys: <b>%s</b>,&nbsp; Seeders: <b class="seedmed">%s</b>,&nbsp; Leechers: <b class="leechmed">%s</b>'; // first %s = number of peers, second %s = number of seeders,  third %s = number of leechers.
 $lang['SPEED_STAT'] = 'Total velocitat: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'No hi ha missatges nous';
-$lang['NEW_POSTS'] = 'Els nous llocs de treball';
+$lang['NEW_POSTS'] = 'Nous missatges';
 $lang['NEW_POST'] = 'Nou post';
 $lang['FORUM_LOCKED_MAIN'] = 'El fòrum està bloquejat';
 
 // Login
 $lang['ENTER_PASSWORD'] = 'Si us plau, introduïu el vostre nom d\'usuari i contrasenya per iniciar sessió.';
-$lang['LOGIN'] = 'Registre a';
-$lang['LOGOUT'] = 'Registre de sortida';
+$lang['LOGIN'] = 'Inicieu sessió';
+$lang['LOGOUT'] = 'Tancar sessió';
 $lang['CONFIRM_LOGOUT'] = 'Esteu segur que voleu sortir?';
 
-$lang['FORGOTTEN_PASSWORD'] = 'Contrasenya oblidat?';
+$lang['FORGOTTEN_PASSWORD'] = 'Heu oblidat la contrasenya?';
 $lang['AUTO_LOGIN'] = 'Em accedir automàticament';
 $lang['ERROR_LOGIN'] = 'El nom d\'usuari que heu enviat és incorrecta o no vàlida, o la contrasenya és invàlida.';
 $lang['REMEMBER'] = 'Recordeu';
@@ -178,7 +178,7 @@ $lang['USER_WELCOME'] = 'Benvinguts,';
 // Index page
 $lang['HOME'] = 'Casa';
 $lang['NO_POSTS'] = 'No hi ha missatges';
-$lang['NO_FORUMS'] = 'Aquest consell no té cap fòrums';
+$lang['NO_FORUMS'] = 'Aquest tauler no té fòrums';
 
 $lang['PRIVATE_MESSAGE'] = 'Missatge Privat';
 $lang['PRIVATE_MESSAGES'] = 'Missatges Privats';
@@ -194,7 +194,7 @@ $lang['SUBFORUMS'] = 'Subforums';
 $lang['VIEW_FORUM'] = 'Vista Fòrum';
 
 $lang['FORUM_NOT_EXIST'] = 'El fòrum que heu seleccionat no existeix.';
-$lang['ERROR_PORNO_FORUM'] = 'Aquest tipus de fòrums (18+) estava amagat en el teu perfil per que';
+$lang['ERROR_PORNO_FORUM'] = 'Aquest tipus de fòrums (18+) es va ocultar en el teu perfil';
 
 $lang['DISPLAY_TOPICS'] = 'Mostrar temes';
 $lang['ALL_TOPICS'] = 'Tots Els Temes';
@@ -205,33 +205,33 @@ $lang['TOPIC_ANNOUNCEMENT'] = 'Convocatòria:';
 $lang['TOPIC_MOVED'] = 'Moure:';
 $lang['TOPIC_POLL'] = '[ Enquesta ]';
 
-$lang['MARK_TOPICS_READ'] = 'Marca tots els temes llegir';
+$lang['MARK_TOPICS_READ'] = 'Marca tots els temes com llegits';
 $lang['TOPICS_MARKED_READ'] = 'Els temes d\'aquest fòrum només s\'han marcat llegir';
 
-$lang['RULES_POST_CAN'] = 'Vostè <b>can</b> publicar nous temes en aquest fòrum';
-$lang['RULES_POST_CANNOT'] = 'Vostè <b>cannot</b> publicar nous temes en aquest fòrum';
-$lang['RULES_REPLY_CAN'] = 'Vostè <b>can</b> respondre a temes en aquest fòrum';
-$lang['RULES_REPLY_CANNOT'] = 'Vostè <b>cannot</b> respondre a temes en aquest fòrum';
-$lang['RULES_EDIT_CAN'] = 'Vostè <b>can</b> editar els teus missatges en aquest fòrum';
-$lang['RULES_EDIT_CANNOT'] = 'Vostè <b>cannot</b> editar els teus missatges en aquest fòrum';
-$lang['RULES_DELETE_CAN'] = 'Vostè <b>can</b> esborrar els teus missatges en aquest fòrum';
-$lang['RULES_DELETE_CANNOT'] = 'Vostè <b>cannot</b> esborrar els teus missatges en aquest fòrum';
-$lang['RULES_VOTE_CAN'] = 'Vostè <b>can</b> votar a les enquestes en aquest fòrum';
-$lang['RULES_VOTE_CANNOT'] = 'Vostè <b>cannot</b> votar a les enquestes en aquest fòrum';
-$lang['RULES_MODERATE'] = 'Vostè <b>can</b> moderar aquest fòrum';
+$lang['RULES_POST_CAN'] = 'Vostè pot publicar nous temes en aquest fòrum';
+$lang['RULES_POST_CANNOT'] = 'Vostè no pot publicar nous temes en aquest fòrum';
+$lang['RULES_REPLY_CAN'] = 'Vostè pot respondre a temes en aquest fòrum';
+$lang['RULES_REPLY_CANNOT'] = 'Vostè no pot respondre a temes en aquest fòrum';
+$lang['RULES_EDIT_CAN'] = 'Vostè pot editar els seus missatges en aquest fòrum';
+$lang['RULES_EDIT_CANNOT'] = 'Vostè no pot editar els seus missatges en aquest fòrum';
+$lang['RULES_DELETE_CAN'] = 'Vostè pot esborrar els seus missatges en aquest fòrum';
+$lang['RULES_DELETE_CANNOT'] = 'Vostè no pot esborrar els seus missatges en aquest fòrum';
+$lang['RULES_VOTE_CAN'] = 'Vostè pot votar en les enquestes en aquest fòrum';
+$lang['RULES_VOTE_CANNOT'] = 'Vostè no pot votar en les enquestes en aquest fòrum';
+$lang['RULES_MODERATE'] = 'Vostè pot moderar aquest fòrum';
 
 $lang['NO_TOPICS_POST_ONE'] = 'Encara no hi ha publicacions en aquest fòrum<br />Clica a la icona de <b>Nou Tema</b>, i la teva publicació serà la primera.';
 $lang['NO_RELEASES_POST_ONE'] = 'Encara no hi ha llançaments en aquest fòrum<br />Clica a la icona de <b>Nova Lliberació</b>, i la teva lliberació serà la primera.';
 
 // Viewtopic
-$lang['VIEW_TOPIC'] = 'Vista sobre el tema';
+$lang['VIEW_TOPIC'] = 'Vista del tema';
 
-$lang['GUEST'] = 'Cases d\'';
-$lang['POST_SUBJECT'] = 'Post subject';
-$lang['SUBMIT_VOTE'] = 'Enviar votar';
+$lang['GUEST'] = 'Convidat';
+$lang['POST_SUBJECT'] = 'Assumpte del missatge';
+$lang['SUBMIT_VOTE'] = 'Enviar vot';
 
 $lang['NO_NEWER_TOPICS'] = 'No hi ha nous temes en aquest fòrum';
-$lang['NO_OLDER_TOPICS'] = 'No hi ha grans temes en aquest fòrum';
+$lang['NO_OLDER_TOPICS'] = 'No hi ha temes més antics en aquest fòrum';
 $lang['TOPIC_POST_NOT_EXIST'] = 'El tema o el post que heu sol·licitat no existeix';
 $lang['NO_POSTS_TOPIC'] = 'No hi ha missatges en aquest tema';
 
@@ -240,11 +240,11 @@ $lang['ALL_POSTS'] = 'Tots Els Missatges';
 $lang['NEWEST_FIRST'] = 'Més Recent Primer';
 $lang['OLDEST_FIRST'] = 'Més Antic Primer';
 
-$lang['READ_PROFILE'] = 'Vista de perfil d\'usuari';
-$lang['DELETE_POST'] = 'Esborrar aquest post';
+$lang['READ_PROFILE'] = 'Veure perfil d\'usuari';
+$lang['DELETE_POST'] = 'Esborrar aquest missatge';
 
 $lang['WROTE'] = 'escriure'; // proceeds the username and is followed by the quoted text
-$lang['QUOTE'] = 'Pressupost'; // comes before bbcode quote output
+$lang['QUOTE'] = 'Cita'; // comes before bbcode quote output
 $lang['CODE'] = 'Codi'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'text ocult';
 $lang['SPOILER_CLOSE'] = 'torn';
@@ -256,11 +256,11 @@ $lang['EDITED_TIMES_TOTAL'] = 'Últim editat per <b>%s</b> el %s; editat %d cops
 $lang['LOCK_TOPIC'] = 'Bloquejar el tema';
 $lang['UNLOCK_TOPIC'] = 'Desbloquejar el tema';
 $lang['MOVE_TOPIC'] = 'Moure el tema';
-$lang['DELETE_TOPIC'] = 'Suprimir el tema';
+$lang['DELETE_TOPIC'] = 'Suprimir tema';
 $lang['SPLIT_TOPIC'] = 'Divideix el tema';
 
-$lang['STOP_WATCHING_TOPIC'] = 'La parada següent el tema';
-$lang['START_WATCHING_TOPIC'] = 'Seguir el tema de les respostes';
+$lang['STOP_WATCHING_TOPIC'] = 'Deixa de seguir el tema';
+$lang['START_WATCHING_TOPIC'] = 'Segueix el tema per respostes';
 $lang['NO_LONGER_WATCHING'] = 'Vostè ja no estan seguint aquest tema';
 $lang['YOU_ARE_WATCHING'] = 'Vostè està seguint aquest tema ara';
 
@@ -274,33 +274,33 @@ $lang['POST_IMAGES'] = 'Enviar imatges';
 $lang['SIGNATURES'] = 'Signatures';
 $lang['SPOILER'] = 'Spoiler';
 $lang['SHOW_OPENED'] = 'Mostra obert';
-$lang['DOWNLOAD_PIC'] = 'Per descarregar imatges';
+$lang['DOWNLOAD_PIC'] = 'Imatges descarregables';
 
 $lang['MODERATE_TOPIC'] = 'Moderar aquest tema';
 $lang['SELECT_POSTS_PER_PAGE'] = 'missatges per pàgina';
 
 // Posting/Replying (Not private messaging!)
-$lang['TOPIC_REVIEW'] = 'Tema revisió';
+$lang['TOPIC_REVIEW'] = 'Revisió del tema';
 
-$lang['NO_POST_MODE'] = 'No hi ha post el mode seleccionat'; // If posting.php is called without a mode (newtopic/reply/delete/etc., shouldn't be shown normally)
+$lang['NO_POST_MODE'] = 'No s\'ha seleccionat el mode de missatge'; // If posting.php is called without a mode (newtopic/reply/delete/etc., shouldn't be shown normally)
 
 $lang['POST_A_NEW_TOPIC'] = 'Post nou tema';
-$lang['POST_A_REPLY'] = 'Missatge nou resposta';
-$lang['POST_TOPIC_AS'] = 'Post tema com';
+$lang['POST_A_REPLY'] = 'Envia nova resposta';
+$lang['POST_TOPIC_AS'] = 'Publicar el tema com';
 $lang['EDIT_POST'] = 'Editar post';
 $lang['EDIT_TOPIC_TITLE'] = 'Editar el títol del tema';
 
 $lang['DONT_MESSAGE_TITLE'] = 'S\'ha d\'especificar títol del missatge';
 $lang['INVALID_TOPIC_ID'] = 'Tema Absent!';
-$lang['INVALID_TOPIC_ID_DB'] = 'Tema no existeix en la base de dades!';
+$lang['INVALID_TOPIC_ID_DB'] = 'El tema no existeix a la base de dades';
 
-$lang['NOT_POST'] = 'Absent Missatge';
+$lang['NOT_POST'] = 'Missatge absent';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Vostè no pot editar la versió amb l\'estat';
 
 $lang['OPTIONS'] = 'Opcions';
 
 $lang['POST_ANNOUNCEMENT'] = 'Anunci';
-$lang['POST_STICKY'] = 'Sticky';
+$lang['POST_STICKY'] = 'Fixat';
 $lang['POST_NORMAL'] = 'Normal';
 $lang['POST_DOWNLOAD'] = 'Descarregar';
 
@@ -309,63 +309,63 @@ $lang['PRINT_PAGE'] = 'Imprimeix la pàgina';
 $lang['CONFIRM_DELETE'] = 'Esteu segur que voleu suprimir aquest post?';
 $lang['CONFIRM_DELETE_POLL'] = 'Esteu segur que voleu suprimir aquesta enquesta?';
 
-$lang['FLOOD_ERROR'] = 'No es pot fer un altre post tan aviat després de la seva última; si us plau, torneu a intentar en un curt període de temps';
+$lang['FLOOD_ERROR'] = 'No podeu fer un altre post tan aviat després de l\'últim; si us plau, torneu a intentar-ho d\'aquí a poc temps.';
 $lang['EMPTY_SUBJECT'] = 'Heu d\'especificar un tema';
 $lang['EMPTY_MESSAGE'] = 'Has d\'introduir un missatge';
 $lang['FORUM_LOCKED'] = 'El fòrum està bloquejat';
 $lang['TOPIC_LOCKED'] = 'Tema tancat';
 $lang['TOPIC_LOCKED_SHORT'] = 'Tema tancat';
-$lang['NO_POST_ID'] = 'Vostè ha de seleccionar un post per editar';
-$lang['NO_TOPIC_ID'] = 'Vostè ha de seleccionar un tema per a respondre';
-$lang['NO_VALID_MODE'] = 'Només pots publicar, resposta, editar, o citar missatges. Si us plau torni i proveu una altra vegada';
-$lang['NO_SUCH_POST'] = 'No hi ha cap càrrec. Si us plau torni i proveu una altra vegada';
+$lang['NO_POST_ID'] = 'Heu de seleccionar un post per editar.';
+$lang['NO_TOPIC_ID'] = 'Heu de seleccionar un tema per respondre.';
+$lang['NO_VALID_MODE'] = 'Només podeu publicar, respondre, editar o citar missatges. Si us plau, torneu i torneu a provar.';
+$lang['NO_SUCH_POST'] = 'No hi ha cap post així. Si us plau, torneu i torneu a provar.';
 $lang['EDIT_OWN_POSTS'] = 'Ens sap greu, però només podeu editar els vostres propis missatges';
 $lang['DELETE_OWN_POSTS'] = 'Ens sap greu, però només pots esborrar els teus propis missatges';
-$lang['CANNOT_DELETE_REPLIED'] = 'Ho sentim, però vostè no pot suprimir missatges que s\'han contestat';
-$lang['CANNOT_DELETE_POLL'] = 'Ho sento, però no es pot eliminar un actiu de l\'enquesta';
+$lang['CANNOT_DELETE_REPLIED'] = 'Ho sento, però no podeu suprimir missatges que han estat contestats.';
+$lang['CANNOT_DELETE_POLL'] = 'Ho sento, però no podeu eliminar una enquesta activa.';
 $lang['EMPTY_POLL_TITLE'] = 'Has d\'introduir un títol per a la teva enquesta';
 $lang['POST_HAS_NO_POLL'] = 'Aquest post no té cap enquesta';
 $lang['ALREADY_VOTED'] = 'Vostè ja va votar en aquesta enquesta';
-$lang['NO_VOTE_OPTION'] = 'S\'ha d\'especificar una opció quan la votació';
-$lang['LOCKED_WARN'] = 'Vostè publicat en bloquejat tema!';
+$lang['NO_VOTE_OPTION'] = 'Heu d\'especificar una opció quan voteu.';
+$lang['LOCKED_WARN'] = 'Heu publicat en un tema bloquejat.';
 
 $lang['ADD_POLL'] = 'Afegir una enquesta';
-$lang['POLL_OPTION'] = 'Enquesta opció';
+$lang['POLL_OPTION'] = 'Opció d\'enquesta.';
 $lang['UPDATE'] = 'Actualització';
 $lang['DAYS'] = 'Dies';
 $lang['DELETE_POLL'] = 'Esborrar l\'enquesta';
 
-$lang['MAX_SMILIES_PER_POST'] = 'Les emoticones límit de %s emoticones superat.';
+$lang['MAX_SMILIES_PER_POST'] = 'S\'ha superat el límit d\'emoticones de %s emoticones.';
 
 $lang['NOTIFY'] = 'Notifica\'m sobre les respostes';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Permetre que els robots indexin aquest tema';
 
 $lang['STORED'] = 'El seu missatge ha estat introduït amb èxit.';
-$lang['EDITED'] = 'El missatge ha canviat';
+$lang['EDITED'] = 'El missatge ha estat modificat.';
 $lang['DELETED'] = 'El teu missatge ha sigut esborrat correctament.';
 $lang['POLL_DELETE'] = 'La seva enquesta ha estat esborrat correctament.';
-$lang['VOTE_CAST'] = 'El teu vot ha estat llançat.';
+$lang['VOTE_CAST'] = 'El teu vot ha estat registrat.';
 
 $lang['EMOTICONS'] = 'Les emoticones';
-$lang['MORE_EMOTICONS'] = 'Veure més Emoticones';
+$lang['MORE_EMOTICONS'] = 'Veure més emoticones.';
 
-$lang['COLOR_DARK_RED'] = 'De Color Vermell Fosc';
-$lang['COLOR_RED'] = 'Vermell';
-$lang['COLOR_ORANGE'] = 'Taronja';
-$lang['COLOR_BROWN'] = 'Brown';
-$lang['COLOR_GREEN'] = 'Verd';
-$lang['COLOR_OLIVE'] = 'Oliva';
-$lang['COLOR_BLUE'] = 'Blau';
-$lang['COLOR_DARK_BLUE'] = 'Blau Fosc';
-$lang['COLOR_INDIGO'] = 'Indigo';
-$lang['COLOR_VIOLET'] = 'Violeta';
+$lang['COLOR_DARK_RED'] = 'Vermell fosc.';
+$lang['COLOR_RED'] = 'Vermell.';
+$lang['COLOR_ORANGE'] = 'Taronja.';
+$lang['COLOR_BROWN'] = 'Marró.';
+$lang['COLOR_GREEN'] = 'Verd.';
+$lang['COLOR_OLIVE'] = 'Oliva.';
+$lang['COLOR_BLUE'] = 'Blau.';
+$lang['COLOR_DARK_BLUE'] = 'Blau fosc.';
+$lang['COLOR_INDIGO'] = 'Indigo.';
+$lang['COLOR_VIOLET'] = 'Violeta.';
 
-$lang['FONT_SMALL'] = 'Petit';
+$lang['FONT_SMALL'] = 'Petit.';
 $lang['FONT_NORMAL'] = 'Normal';
-$lang['FONT_LARGE'] = 'Gran';
-$lang['FONT_HUGE'] = 'Gran';
+$lang['FONT_LARGE'] = 'Gran.';
+$lang['FONT_HUGE'] = 'Gran.';
 
-$lang['NEW_POSTS_PREVIEW'] = 'Tema té nous, editats o missatges no llegits';
+$lang['NEW_POSTS_PREVIEW'] = 'Tema té nous, editats o missatges no llegits.';
 
 // Private Messaging
 $lang['PRIVATE_MESSAGING'] = 'Missatgeria Privada';
@@ -378,20 +378,20 @@ $lang['NEW_PMS_DECLENSION'] = ['missatge nou', 'els missatges nous'];
 $lang['UNREAD_PMS_FORMAT'] = '<b>%1$s</b> %2$s'; // 1 new message
 $lang['UNREAD_PMS_DECLENSION'] = ['missatges no llegits', 'missatges no llegits'];
 
-$lang['UNREAD_MESSAGE'] = 'Missatge';
-$lang['READ_MESSAGE'] = 'Llegir missatge';
+$lang['UNREAD_MESSAGE'] = 'Missatge.';
+$lang['READ_MESSAGE'] = 'Llegir missatge.';
 
-$lang['READ_PM'] = 'Llegir missatge';
-$lang['POST_NEW_PM'] = 'Enviar missatge';
-$lang['POST_REPLY_PM'] = 'Respondre a un missatge';
-$lang['POST_QUOTE_PM'] = 'Pressupost missatge';
+$lang['READ_PM'] = 'Llegir missatge.';
+$lang['POST_NEW_PM'] = 'Publicar missatge.';
+$lang['POST_REPLY_PM'] = 'Respondre a un missatge.';
+$lang['POST_QUOTE_PM'] = 'Citar missatge.';
 $lang['EDIT_PM'] = 'Edita el missatge';
 
 $lang['INBOX'] = 'Safata d\'entrada';
 $lang['OUTBOX'] = 'Safata de sortida';
 $lang['SAVEBOX'] = 'Savebox';
 $lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = 'Bandera';
+$lang['FLAG'] = 'Bandera.';
 $lang['SUBJECT'] = 'Tema';
 $lang['FROM'] = 'De';
 $lang['TO'] = 'A';
@@ -403,24 +403,24 @@ $lang['DELETE_MARKED'] = 'Esborrar Marcat';
 $lang['DELETE_ALL'] = 'Esborrar Tot';
 $lang['SAVE_MARKED'] = 'Desa Marcats';
 $lang['SAVE_MESSAGE'] = 'Guarda Missatge';
-$lang['DELETE_MESSAGE'] = 'Suprimeix El Missatge';
+$lang['DELETE_MESSAGE'] = 'Suprimeix el missatge.';
 
 $lang['DISPLAY_MESSAGES'] = 'Visualització de missatges'; // Followed by number of days/weeks/months
 
 $lang['NO_MESSAGES_FOLDER'] = 'No hi ha missatges en aquesta carpeta';
 
-$lang['PM_DISABLED'] = 'Missatgeria privada ha estat desactivat en aquest consell.';
-$lang['CANNOT_SEND_PRIVMSG'] = 'Ho sento, però que l\'administrador ha impedit que des de l\'enviament de missatges privats.';
-$lang['NO_TO_USER'] = 'Heu d\'especificar un nom d\'usuari a qui enviar aquest missatge.';
-$lang['NO_SUCH_USER'] = 'Ho sento, però no l\'usuari existeix.';
+$lang['PM_DISABLED'] = 'La missatgeria privada ha estat desactivada en aquest fòrum.';
+$lang['CANNOT_SEND_PRIVMSG'] = 'Ho sento, però l\'administrador us ha impedit l\'enviament de missatges privats.';
+$lang['NO_TO_USER'] = 'Heu d\'especificar un nom d\'usuari per a qui enviar aquest missatge.';
+$lang['NO_SUCH_USER'] = 'Ho sento, però aquest usuari no existeix.';
 
-$lang['MESSAGE_SENT'] = '<b>Your missatge ha estat enviat.</b>';
+$lang['MESSAGE_SENT'] = 'El vostre missatge ha estat enviat.';
 
-$lang['CLICK_RETURN_INBOX'] = 'Tornar a l\':<br /><br /> %s<b>Inbox</b>%s';
+$lang['CLICK_RETURN_INBOX'] = 'Tornar a l\':<br /><br /> %s<b>Safata d\'entrada</b>%s';
 $lang['CLICK_RETURN_SENTBOX'] = '&nbsp;&nbsp; %s<b>Sentbox</b>%s';
 $lang['CLICK_RETURN_OUTBOX'] = '&nbsp;&nbsp; %s<b>Outbox</b>%s';
 $lang['CLICK_RETURN_SAVEBOX'] = '&nbsp;&nbsp; %s<b>Savebox</b>%s';
-$lang['CLICK_RETURN_INDEX'] = '%sReturn a la Index%s';
+$lang['CLICK_RETURN_INDEX'] = '%sTornar a l\'índex%s.';
 
 $lang['SEND_A_NEW_MESSAGE'] = 'Enviar un nou missatge privat';
 $lang['SEND_A_REPLY'] = 'Resposta a un missatge privat';
@@ -432,7 +432,7 @@ $lang['FIND'] = 'Trobar';
 $lang['NO_MATCH'] = 'Cap coincidència trobada.';
 
 $lang['NO_PM_ID'] = 'Si us plau, especifiqueu post ID';
-$lang['NO_SUCH_FOLDER'] = 'Carpeta no es troba';
+$lang['NO_SUCH_FOLDER'] = 'La carpeta no es troba.';
 
 $lang['MARK_ALL'] = 'Marca tots';
 $lang['UNMARK_ALL'] = 'Desmarqueu totes';
@@ -440,24 +440,24 @@ $lang['UNMARK_ALL'] = 'Desmarqueu totes';
 $lang['CONFIRM_DELETE_PM'] = 'Esteu segur que voleu suprimir aquest missatge?';
 $lang['CONFIRM_DELETE_PMS'] = 'Esteu segur que voleu suprimir aquests missatges?';
 
-$lang['INBOX_SIZE'] = 'La Safata d\'entrada is<br /><b>%d%%</b> complet'; // e.g. Your Inbox is 50% full
-$lang['SENTBOX_SIZE'] = 'La seva Sentbox is<br /><b>%d%%</b> complet';
-$lang['SAVEBOX_SIZE'] = 'La seva Savebox is<br /><b>%d%%</b> complet';
+$lang['INBOX_SIZE'] = 'La teva safata d\'entrada és<br /><b>%d%%</b> plena.'; // e.g. Your Inbox is 50% full
+$lang['SENTBOX_SIZE'] = 'La seva Sentbox és<br /><b>%d%%</b> plena.';
+$lang['SAVEBOX_SIZE'] = 'La seva Savebox és<br /><b>%d%%</b> plena.';
 
 $lang['OUTBOX_EXPL'] = '';
 
 // Profiles/Registration
 $lang['VIEWING_USER_PROFILE'] = 'Veient perfil :: %s';
-$lang['VIEWING_MY_PROFILE'] = 'El meu perfil [ <a href="%s">Settings / Canvi profile</a> ]';
+$lang['VIEWING_MY_PROFILE'] = 'El meu perfil [ <a href="%s">Configuració / Canviar perfil</a> ]';
 
-$lang['DISABLED_USER'] = 'Compte amb discapacitat';
+$lang['DISABLED_USER'] = 'Compte desactivat.';
 $lang['MANAGE_USER'] = 'Administració';
 
 $lang['PREFERENCES'] = 'Preferències';
 $lang['ITEMS_REQUIRED'] = 'Els elements marcats amb un * són obligatoris, llevat que s\'indiqui el contrari.';
-$lang['REGISTRATION_INFO'] = 'Informació De Registre';
-$lang['PROFILE_INFO'] = 'Informació Del Perfil';
-$lang['AVATAR_PANEL'] = 'Avatar tauler de control';
+$lang['REGISTRATION_INFO'] = 'Informació del registre.';
+$lang['PROFILE_INFO'] = 'Informació del perfil.';
+$lang['AVATAR_PANEL'] = 'Tauler de control de l\'avatar.';
 
 $lang['WEBSITE'] = 'Lloc web';
 $lang['LOCATION'] = 'Ubicació';
@@ -466,25 +466,25 @@ $lang['EMAIL_ADDRESS'] = 'Adreça de correu electrònic';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Enviar missatge privat';
 $lang['INTERESTS'] = 'Interessos';
 $lang['OCCUPATION'] = 'Ocupació';
-$lang['POSTER_RANK'] = 'Cartell de la classificació';
-$lang['AWARDED_RANK'] = 'Guardonat amb rang';
-$lang['SHOT_RANK'] = 'Tir amb rang';
+$lang['POSTER_RANK'] = 'Classificació de cartell.';
+$lang['AWARDED_RANK'] = 'Classificació guardonada.';
+$lang['SHOT_RANK'] = 'Classificació de tir.';
 
 $lang['TOTAL_POSTS'] = 'Total de missatges';
 $lang['SEARCH_USER_POSTS'] = 'Trobar missatges'; // Find all posts by username
-$lang['SEARCH_USER_POSTS_SHORT'] = 'Trobeu missatges d\'usuaris';
-$lang['SEARCH_USER_TOPICS'] = 'Trobar usuari temes'; // Find all topics by username
+$lang['SEARCH_USER_POSTS_SHORT'] = 'Troba els missatges d\'usuaris.';
+$lang['SEARCH_USER_TOPICS'] = 'Troba temes d\'usuaris.'; // Find all topics by username
 
 $lang['NO_USER_ID_SPECIFIED'] = 'Ho sento, però que l\'usuari no existeix.';
-$lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Ho sento, però la teva contrasenya no es pot recuperar perquè el vostre compte està actualment inactiu';
-$lang['NO_SEND_ACCOUNT'] = 'Ho sento, però la teva contrasenya no es pot recuperar. Si us plau en contacte amb l\'administrador del fòrum per obtenir més informació';
+$lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Ho sento, però la vostra contrasenya no es pot recuperar perquè el vostre compte actualment està inactiu.';
+$lang['NO_SEND_ACCOUNT'] = 'Ho sento, però la vostra contrasenya no es pot recuperar. Poseu-vos en contacte amb l\'administrador del fòrum per obtenir més informació.';
 
 $lang['HIDE_PORN_FORUMS'] = 'Amagar el contingut 18+';
 $lang['ADD_RETRACKER'] = 'Afegir retracker a fitxers torrent';
 $lang['ALWAYS_NOTIFY'] = 'Sempre notificar-me de respostes';
 $lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Envia un correu electrònic quan algú respon a un tema que han publicat. Això es pot canviar sempre que publiqueu.';
 
-$lang['BOARD_LANG'] = 'Consell llengua';
+$lang['BOARD_LANG'] = 'Idioma del consell.';
 $lang['GENDER'] = 'Gènere';
 $lang['GENDER_SELECT'] = [
     0 => 'Desconegut',
@@ -495,15 +495,15 @@ $lang['MODULE_OFF'] = 'Mòdul està desactivat!';
 
 $lang['BIRTHDAY'] = 'Aniversari';
 $lang['HAPPY_BIRTHDAY'] = 'Feliç Aniversari!';
-$lang['WRONG_BIRTHDAY_FORMAT'] = 'L\'aniversari va estar format introduït incorrectament.';
+$lang['WRONG_BIRTHDAY_FORMAT'] = 'El format de l\'aniversari s\'ha introduït incorrectament.';
 $lang['AGE'] = 'Edat';
 $lang['BIRTHDAY_TO_HIGH'] = 'Ho sento, aquest lloc no accepta usuaris més grans de %d anys';
 $lang['BIRTHDAY_TO_LOW'] = 'Ho sento, aquest lloc no accepta usuaris més joves de %d anys';
 $lang['BIRTHDAY_TODAY'] = 'Els usuaris amb un aniversari d\'avui: ';
-$lang['BIRTHDAY_WEEK'] = 'Els usuaris amb un aniversari en la següent %d dies: %s';
-$lang['NOBIRTHDAY_WEEK'] = 'No hi ha usuaris que estan tenint un aniversari en els propers dies %d'; // %d is substituted with the number of days
-$lang['NOBIRTHDAY_TODAY'] = 'No hi ha usuaris que tenen un aniversari d\'avui';
-$lang['BIRTHDAY_ENABLE'] = 'Activar aniversari';
+$lang['BIRTHDAY_WEEK'] = 'Els usuaris amb un aniversari en els propers %d dies: %s.';
+$lang['NOBIRTHDAY_WEEK'] = 'No hi ha usuaris que tinguin un aniversari en els propers %d dies.'; // %d is substituted with the number of days
+$lang['NOBIRTHDAY_TODAY'] = 'No hi ha usuaris que tinguen un aniversari avui.';
+$lang['BIRTHDAY_ENABLE'] = 'Activar aniversari.';
 $lang['BIRTHDAY_MAX_AGE'] = 'Max edat';
 $lang['BIRTHDAY_MIN_AGE'] = 'Min edat';
 $lang['BIRTHDAY_CHECK_DAY'] = 'Dies per comprovar aniversaris propers';
@@ -512,66 +512,66 @@ $lang['YEARS'] = 'Anys';
 $lang['TIMEZONE'] = 'Zona horària';
 $lang['DATE_FORMAT_EXPLAIN'] = 'La sintaxi utilitzada és idèntica a la de PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> funció.';
 $lang['SIGNATURE'] = 'Signatura';
-$lang['SIGNATURE_EXPLAIN'] = 'Aquest és un bloc de text que es pot afegir a les publicacions que has de fer. Hi ha una %d límit de caràcters';
-$lang['SIGNATURE_DISABLE'] = 'Signat fora per la violació de regles de fòrum';
+$lang['SIGNATURE_EXPLAIN'] = 'Aquest és un bloc de text que es pot afegir a les publicacions que feu. Hi ha un límit de %d caràcters.';
+$lang['SIGNATURE_DISABLE'] = 'Signat per la violació de les normes del fòrum.';
 $lang['PUBLIC_VIEW_EMAIL'] = 'Mostra adreça de correu electrònic en el meu perfil';
 
-$lang['EMAIL_EXPLAIN'] = 'En aquesta adreça es poden enviar per a formalitzar la inscripció';
+$lang['EMAIL_EXPLAIN'] = 'Aquesta adreça es pot enviar per formalitzar la inscripció.';
 
 $lang['CURRENT_PASSWORD'] = 'Contrasenya actual';
 $lang['NEW_PASSWORD'] = 'Contrasenya nova';
 $lang['CONFIRM_PASSWORD'] = 'Confirmar contrasenya';
-$lang['CONFIRM_PASSWORD_EXPLAIN'] = 'Heu de confirmar la vostra contrasenya actual si vols canviar-ho o modificar la vostra adreça de correu electrònic';
+$lang['CONFIRM_PASSWORD_EXPLAIN'] = 'Heu de confirmar la vostra contrasenya actual si voleu canviar-la o modificar la vostra adreça de correu electrònic.';
 $lang['PASSWORD_IF_CHANGED'] = 'Només has de donar la contrasenya si voleu canviar-la';
-$lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Només cal que confirmeu la vostra contrasenya si heu canviat de dalt';
+$lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Només cal que confirmeu la vostra contrasenya si la heu canviat anteriorment.';
 
 $lang['AUTOLOGIN'] = 'Autologin';
 $lang['RESET_AUTOLOGIN'] = 'Restablir autologin clau';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'incloent-hi tots els llocs que heu visitat el fòrum habilitat inici de sessió automàtic';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'Incloent tots els llocs que heu visitat amb el fòrum habilitat d\'inici de sessió automàtic.';
 
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Mostra una petita imatge gràfica per sota de les teves dades en els missatges. Només es pot mostrar una imatge alhora, la seva amplada no pot ser superior a %d píxels, l\'altura no pot ser superior a %d píxels i la mida del fitxer no pot ser superior a %s.';
 $lang['AVATAR_DELETE'] = 'Esborrar avatar';
-$lang['AVATAR_DISABLE'] = 'Avatar de control opció deshabilitada per la violació <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Opció de control de l\'avatar deshabilitada per violació de les <a href="%s"><b>normes del fòrum</b></a>.';
 $lang['UPLOAD_AVATAR_FILE'] = 'Pujar l\'avatar';
 $lang['RETURN_PROFILE'] = 'Tornar al perfil';
 $lang['DELETE_IMAGE'] = 'Esborrar la imatge';
 $lang['SET_MONSTERID_AVATAR'] = 'Estableix l\'avatar de MonsterID';
 
-$lang['NOTIFY_ON_PRIVMSG'] = 'Notificar al nou missatge privat';
+$lang['NOTIFY_ON_PRIVMSG'] = 'Notificar el nou missatge privat.';
 $lang['HIDE_USER'] = 'Amagar l\'estat en línia';
 $lang['HIDDEN_USER'] = 'Amagat usuari';
 
-$lang['PROFILE_UPDATED'] = 'El seu perfil ha estat actualitzat';
-$lang['PROFILE_UPDATED_INACTIVE'] = 'El seu perfil ha estat actualitzat. No obstant això, vostè ha canviat vital detalls, per tant, el vostre compte està inactiu ara. Fes el teu e-mail per saber com reactivar el compte, o si admin activació és necessari, esperar per a l\'administrador per tal de reactivar-lo.';
+$lang['PROFILE_UPDATED'] = 'El teu perfil ha estat actualitzat.';
+$lang['PROFILE_UPDATED_INACTIVE'] = 'El seu perfil ha estat actualitzat. No obstant això, ha canviat dades vitals, per tant, el vostre compte està inactiu ara.';
 
 $lang['PASSWORD_LONG'] = 'La teva contrasenya no pot tenir més de %d caràcters i no pot tenir menys de %d caràcters.';
-$lang['USERNAME_TAKEN'] = 'Ho sento, però aquest nom d\'usuari ja ha estat presa.';
-$lang['USERNAME_INVALID'] = 'Ho sento, però aquest nom d\'usuari conté un caràcter no vàlid';
+$lang['USERNAME_TAKEN'] = 'Ho sento, però aquest nom d\'usuari ja ha estat agafat.';
+$lang['USERNAME_INVALID'] = 'Ho sento, però aquest nom d\'usuari conté un caràcter no vàlid.';
 $lang['USERNAME_DISALLOWED'] = 'Ho sento, però aquest nom d\'usuari ha estat rebutjat.';
-$lang['USERNAME_TOO_LONG'] = 'El seu nom és massa llarg.';
-$lang['USERNAME_TOO_SMALL'] = 'El seu nom és massa petit.';
-$lang['EMAIL_TAKEN'] = 'Ho sento, però aquesta adreça de correu electrònic ja està registrat per a un usuari.';
-$lang['EMAIL_INVALID'] = 'Ho sento, però aquesta adreça de correu electrònic no és vàlid.';
-$lang['EMAIL_TOO_LONG'] = 'El teu email és massa llarg.';
-$lang['SIGNATURE_TOO_LONG'] = 'La vostra signatura no és massa llarg.';
+$lang['USERNAME_TOO_LONG'] = 'El teu nom és massa llarg.';
+$lang['USERNAME_TOO_SMALL'] = 'El teu nom és massa petit.';
+$lang['EMAIL_TAKEN'] = 'Ho sento, però aquesta adreça de correu electrònic ja està registrada per a un usuari.';
+$lang['EMAIL_INVALID'] = 'Ho sento, però aquesta adreça de correu electrònic no és vàlida.';
+$lang['EMAIL_TOO_LONG'] = 'El teu correu electrònic és massa llarg.';
+$lang['SIGNATURE_TOO_LONG'] = 'La vostra signatura és massa llarga.';
 $lang['SIGNATURE_ERROR_HTML'] = 'La signatura pot contenir només BBCode';
 $lang['FIELDS_EMPTY'] = 'Heu d\'omplir els camps obligatoris.';
 
-$lang['WELCOME_SUBJECT'] = 'Benvinguts a %s Fòrums';
+$lang['WELCOME_SUBJECT'] = 'Benvingut a %s fòrums.';
 
-$lang['ACCOUNT_ADDED'] = 'Gràcies per registrar-te. El vostre compte ha estat creat. Ara ja podeu accedir amb el vostre nom d\'usuari i contrasenya';
-$lang['ACCOUNT_INACTIVE'] = 'El vostre compte ha estat creat. No obstant això, aquest fòrum requereix compte d\'activació. Una clau d\'activació ha estat enviat a l\'adreça de correu electrònic que ens heu facilitat. Si us plau, comprovi el seu e-mail per a més informació';
+$lang['ACCOUNT_ADDED'] = 'Gràcies per registrar-te. El vostre compte ha estat creat. Ja podeu iniciar sessió amb el vostre nom d\'usuari i contrasenya.';
+$lang['ACCOUNT_INACTIVE'] = 'El vostre compte ha estat creat. No obstant això, aquest fòrum requereix activació del compte. Una clau d\'activació ha estat enviada a l\'adreça de correu electrònic proporcionada.';
 $lang['ACCOUNT_ACTIVE'] = 'El vostre compte ha estat activat. Gràcies per registrar-te';
-$lang['ALREADY_ACTIVATED'] = 'Ja heu activat el teu compte de';
+$lang['ALREADY_ACTIVATED'] = 'Ja heu activat el seu compte.';
 
-$lang['REGISTRATION'] = 'Registre Termes De L\'Acord';
+$lang['REGISTRATION'] = 'Termes de l\'acord de registre.';
 
-$lang['WRONG_ACTIVATION'] = 'L\'activació de la clau que hàgiu proporcionat no coincideix amb cap a la base de dades.';
+$lang['WRONG_ACTIVATION'] = 'La clau d\'activació que heu proporcionat no coincideix amb cap a la base de dades.';
 $lang['SEND_PASSWORD'] = 'Envia\'m una nova contrasenya';
-$lang['PASSWORD_UPDATED'] = 'Una nova contrasenya ha estat creat; si us plau, comprovi el seu e-mail per obtenir informació sobre com activar-ho.';
-$lang['NO_EMAIL_MATCH'] = 'L\'adreça de correu electrònic que hàgiu proporcionat no coincideix amb la que s\'indiquen per a aquest usuari.';
-$lang['PASSWORD_ACTIVATED'] = 'El vostre compte ha estat re-activat. Per iniciar la sessió, si us plau, utilitzeu la contrasenya facilitades al correu electrònic que heu rebut.';
+$lang['PASSWORD_UPDATED'] = 'Una nova contrasenya ha estat creada; si us plau, comprovi el seu correu electrònic per obtenir informació.';
+$lang['NO_EMAIL_MATCH'] = 'L\'adreça de correu electrònic que heu proporcionat no coincideix amb la que s\'indica per a aquest nom d\'usuari.';
+$lang['PASSWORD_ACTIVATED'] = 'El vostre compte ha estat reactivat. Per iniciar la sessió, si us plau, utilitzeu la contrasenya facilitada al correu electrònic que heu rebut.';
 
 $lang['SEND_EMAIL_MSG'] = 'Enviar un missatge de correu electrònic';
 $lang['NO_USER_SPECIFIED'] = 'Cap usuari no s\'ha especificat';
@@ -579,22 +579,22 @@ $lang['USER_NOT_EXIST'] = 'Aquest usuari no existeix';
 $lang['EMAIL_MESSAGE_DESC'] = 'Aquest missatge serà enviat com a text pla, per tant, no inclou cap HTML o codi BBCode. L\'adreça de retorn per a aquest missatge apareixerà la vostra adreça de correu electrònic.';
 $lang['RECIPIENT'] = 'Destinatari';
 $lang['EMAIL_SENT'] = 'El correu electrònic ha estat enviat.';
-$lang['SEND_EMAIL'] = 'Enviar per e-mail';
-$lang['EMPTY_SUBJECT_EMAIL'] = 'Heu d\'especificar un tema per e-mail.';
-$lang['EMPTY_MESSAGE_EMAIL'] = 'Has d\'introduir un missatge per correu electrònic.';
+$lang['SEND_EMAIL'] = 'Enviar correu electrònic.';
+$lang['EMPTY_SUBJECT_EMAIL'] = 'Heu d\'especificar un tema per al correu electrònic.';
+$lang['EMPTY_MESSAGE_EMAIL'] = 'Heu d\'introduir un missatge per correu electrònic.';
 
 $lang['USER_AGREEMENT'] = 'Acord de l\'usuari';
 $lang['USER_AGREEMENT_HEAD'] = 'Per tal de procedir, vostè ha d\'estar d\'acord amb les regles següents';
-$lang['USER_AGREEMENT_AGREE'] = 'He llegit i accepta l\'acord de l\'Usuari sobre';
+$lang['USER_AGREEMENT_AGREE'] = 'He llegit i accepto l\'acord de l\'usuari anterior.';
 
 $lang['COPYRIGHT_HOLDERS'] = 'Per a titulars de drets d\'autor';
-$lang['ADVERT'] = 'Anunciar-vos en aquest lloc';
+$lang['ADVERT'] = 'Anuncieu-vos en aquest lloc.';
 $lang['NOT_FOUND'] = 'Fitxer no trobat';
 
 // Memberslist
-$lang['SORT'] = 'Tipus';
-$lang['SORT_TOP_TEN'] = 'Deu Cartells';
-$lang['SORT_JOINED'] = 'Es Va Unir A La Data';
+$lang['SORT'] = 'Ordenar.';
+$lang['SORT_TOP_TEN'] = 'Deu participants.';
+$lang['SORT_JOINED'] = 'Data d\'adhesió.';
 $lang['SORT_USERNAME'] = 'Nom d\'usuari';
 $lang['SORT_LOCATION'] = 'Ubicació';
 $lang['SORT_POSTS'] = 'Total de missatges';
@@ -618,68 +618,68 @@ $lang['INCORRECT_INVITE'] = 'Invitació no trobada';
 $lang['INVITE_EXPIRED'] = 'Invitació expirada';
 
 // Group control panel
-$lang['GROUP_CONTROL_PANEL'] = 'Grups D\'Usuaris';
-$lang['GROUP_CONFIGURATION'] = 'Grup De Configuració';
-$lang['GROUP_GOTO_CONFIG'] = 'Anar a Grup de Configuració del plafó';
-$lang['GROUP_RETURN'] = 'Retorn a un Grup d\'Usuaris de la pàgina';
-$lang['MEMBERSHIP_DETAILS'] = 'La Pertinença A Un Grup Detalls';
+$lang['GROUP_CONTROL_PANEL'] = 'Grups d\'Usuaris.';
+$lang['GROUP_CONFIGURATION'] = 'Configuració del Grup.';
+$lang['GROUP_GOTO_CONFIG'] = 'Anar al panell de configuració del Grup.';
+$lang['GROUP_RETURN'] = 'Retorn a la pàgina del Grup d\'Usuaris.';
+$lang['MEMBERSHIP_DETAILS'] = 'Detalls de la pertinença al Grup.';
 $lang['JOIN_A_GROUP'] = 'Uneix-te a un Grup';
 
 $lang['GROUP_INFORMATION'] = 'Informació Del Grup';
 $lang['GROUP_NAME'] = 'Nom del grup';
-$lang['GROUP_DESCRIPTION'] = 'Grup descripció';
-$lang['GROUP_SIGNATURE'] = 'Grup signatura';
-$lang['GROUP_MEMBERSHIP'] = 'La pertinença a un grup';
-$lang['GROUP_MEMBERS'] = 'Membres Del Grup';
-$lang['GROUP_MODERATOR'] = 'Grup Moderador';
-$lang['PENDING_MEMBERS'] = 'Pendent De Membres';
+$lang['GROUP_DESCRIPTION'] = 'Descripció del grup.';
+$lang['GROUP_SIGNATURE'] = 'Signatura del grup.';
+$lang['GROUP_MEMBERSHIP'] = 'Membres del grup.';
+$lang['GROUP_MEMBERS'] = 'Membres del Grup.';
+$lang['GROUP_MODERATOR'] = 'Moderador del grup.';
+$lang['PENDING_MEMBERS'] = 'Membres pendents.';
 
-$lang['GROUP_TIME'] = 'Creat';
-$lang['RELEASE_GROUP'] = 'Llançament Grup';
+$lang['GROUP_TIME'] = 'Creat.';
+$lang['RELEASE_GROUP'] = 'Llançament de grup.';
 
-$lang['GROUP_TYPE'] = 'Grup tipus';
+$lang['GROUP_TYPE'] = 'Tipus de grup.';
 $lang['GROUP_OPEN'] = 'Grup obert';
 $lang['GROUP_CLOSED'] = 'Grup tancat';
 $lang['GROUP_HIDDEN'] = 'Amagat grup';
 
 $lang['GROUP_MEMBER_MOD'] = 'Grup moderador';
-$lang['GROUP_MEMBER_MEMBER'] = 'Membres actuals';
-$lang['GROUP_MEMBER_PENDING'] = 'Afiliacions pendents';
-$lang['GROUP_MEMBER_OPEN'] = 'Obert a grups';
-$lang['GROUP_MEMBER_CLOSED'] = 'Tancat grups';
-$lang['GROUP_MEMBER_HIDDEN'] = 'Ocults grups';
+$lang['GROUP_MEMBER_MEMBER'] = 'Membres actuals.';
+$lang['GROUP_MEMBER_PENDING'] = 'Afiliacions pendents.';
+$lang['GROUP_MEMBER_OPEN'] = 'Grups oberts.';
+$lang['GROUP_MEMBER_CLOSED'] = 'Grups tancats.';
+$lang['GROUP_MEMBER_HIDDEN'] = 'Grups ocults.';
 
-$lang['NO_GROUPS_EXIST'] = 'No Existeixen Grups';
-$lang['GROUP_NOT_EXIST'] = 'Que el grup d\'usuaris no existeix';
-$lang['NO_GROUP_ID_SPECIFIED'] = 'IDENTIFICADOR de grup no és especificat';
+$lang['NO_GROUPS_EXIST'] = 'No existeixen grups.';
+$lang['GROUP_NOT_EXIST'] = 'Aquesta grup d\'usuaris no existeix.';
+$lang['NO_GROUP_ID_SPECIFIED'] = 'ID del grup no especificat.';
 
 $lang['NO_GROUP_MEMBERS'] = 'Aquest grup no té membres';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Aquest grup és ocult; no podeu veure els seus membres';
-$lang['NO_PENDING_GROUP_MEMBERS'] = 'Aquest grup no té pendent de membres';
-$lang['GROUP_JOINED'] = 'S\'ha subscrit a aquest grup.<br />You serà notificat quan la subscripció es va aprovar pel grup moderador.';
+$lang['NO_PENDING_GROUP_MEMBERS'] = 'Aquest grup no té membres pendents.';
+$lang['GROUP_JOINED'] = 'Us heu subscrit correctament a aquest grup.<br />Se us notificarà quan la vostra subscripció sigui aprovada pel moderador del grup.';
 $lang['GROUP_REQUEST'] = 'Una sol·licitud per unir-se al seu grup s\'ha fet.';
 $lang['GROUP_APPROVED'] = 'La vostra petició ha estat aprovada.';
-$lang['GROUP_ADDED'] = 'Que s\'han afegit a aquest usergroup.';
+$lang['GROUP_ADDED'] = 'Has estat afegit a aquest grup d\'usuaris.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Ja ets membre d\'aquest grup';
 $lang['USER_IS_MEMBER_GROUP'] = '%s ja és membre d\'aquest grup';
 $lang['USER_IS_MOD_GROUP'] = '%s és moderador d\'aquest grup';
 $lang['EFFECTIVE_DATE'] = 'Data Efectiva';
 $lang['COULD_NOT_ADD_USER'] = 'L\'usuari que heu seleccionat no existeix.';
-$lang['UNSUB_SUCCESS'] = 'Vostè ha estat un-subscrits a partir d\'aquest grup.';
+$lang['UNSUB_SUCCESS'] = 'T\'has subscrit a aquest grup.';
 
 $lang['APPROVE_SELECTED'] = 'Aprovar Seleccionat';
 $lang['DENY_SELECTED'] = 'Negar Seleccionat';
 $lang['REMOVE_SELECTED'] = 'Treure';
 $lang['ADD_MEMBER'] = 'Afegir Membre';
-$lang['NOT_GROUP_MODERATOR'] = 'Que no són d\'aquest grup de moderació, per tant, no es pot realitzar aquesta acció.';
+$lang['NOT_GROUP_MODERATOR'] = 'No sou moderador d\'aquest grup, per tant, no podeu realitzar aquesta acció.';
 
-$lang['LOGIN_TO_JOIN'] = 'Registre a unir-se o gestionar les afiliacions de grup';
+$lang['LOGIN_TO_JOIN'] = 'Inicieu sessió per unir-vos o gestionar les afiliacions del grup.';
 $lang['THIS_OPEN_GROUP'] = 'Aquest és un grup obert: feu clic per sol·licitar l\'afiliació';
-$lang['THIS_CLOSED_GROUP'] = 'Aquest és un grup tancat: no hi ha més usuaris acceptades';
-$lang['THIS_HIDDEN_GROUP'] = 'Aquest és un ocult grup: automàtic d\'usuari més a més, no és permès';
+$lang['THIS_CLOSED_GROUP'] = 'Aquest és un grup tancat: no s\'accepten més usuaris.';
+$lang['THIS_HIDDEN_GROUP'] = 'Aquest és un grup ocult: no es permet l\'addició automàtica d\'usuaris.';
 $lang['MEMBER_THIS_GROUP'] = 'Vostè és un membre d\'aquest grup';
-$lang['PENDING_THIS_GROUP'] = 'La seva pertinença a aquest grup està pendent de';
-$lang['ARE_GROUP_MODERATOR'] = 'Vostè és el grup moderador';
+$lang['PENDING_THIS_GROUP'] = 'La vostra afiliació a aquest grup està pendent.';
+$lang['ARE_GROUP_MODERATOR'] = 'Sou el moderador del grup.';
 $lang['NONE'] = 'Cap';
 
 $lang['SUBSCRIBE'] = 'Subscriure\'s';
@@ -687,13 +687,13 @@ $lang['UNSUBSCRIBE_GROUP'] = 'Donar-se de baixa';
 $lang['MEMBERS_IN_GROUP'] = 'Membres del grup';
 
 // Release Groups
-$lang['POST_RELEASE_FROM_GROUP'] = 'Post llançament de grup';
-$lang['CHOOSE_RELEASE_GROUP'] = 'no seleccionada';
-$lang['ATTACH_RG_SIG'] = 'adjuntar llançament grup signatura';
+$lang['POST_RELEASE_FROM_GROUP'] = 'Publicar llançament de grup.';
+$lang['CHOOSE_RELEASE_GROUP'] = 'no seleccionat.';
+$lang['ATTACH_RG_SIG'] = 'Adjuntar la signatura del grup de llançament.';
 $lang['RELEASE_FROM_RG'] = 'Llançament va ser elaborat per';
 $lang['GROUPS_RELEASES'] = 'Grup de versions';
 $lang['MORE_RELEASES'] = 'Trobar tots els llançaments del grup';
-$lang['NOT_A_RELEASE_GROUP'] = 'Aquest grup no és un alliberament grup';
+$lang['NOT_A_RELEASE_GROUP'] = 'Aquest grup no és un grup de llançament.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Cerca Ajuda';
@@ -701,30 +701,30 @@ $lang['SEARCH_QUERY'] = 'Consulta De Cerca';
 $lang['SEARCH_OPTIONS'] = 'Opcions De Cerca';
 
 $lang['SEARCH_WORDS'] = 'Cerca per les Paraules clau';
-$lang['SEARCH_WORDS_EXPL'] = 'Podeu utilitzar <b>+</b> per definir paraules que han de ser els resultats i <b>-</b> per definir paraules que no hauria de ser en el resultat (ex: "+word1 -word2"). Utilitzeu * com a comodí per concordances parcials';
+$lang['SEARCH_WORDS_EXPL'] = 'Podeu utilitzar <b>+</b> per definir paraules que han de ser els resultats i <b>-</b> per definir paraules que no han de ser en el resultat (ex: "+paraula1 -paraula2"). Utilitzeu * com a comodí per coincidències parcials.';
 $lang['SEARCH_AUTHOR'] = 'Cerca per Autor';
 $lang['SEARCH_AUTHOR_EXPL'] = 'Utilitzeu * com a comodí per concordances parcials';
 
-$lang['SEARCH_TITLES_ONLY'] = 'Cerca tema títols només';
+$lang['SEARCH_TITLES_ONLY'] = 'Cerca només títols de temes.';
 $lang['SEARCH_ALL_WORDS'] = 'totes les paraules';
-$lang['IN_MY_POSTS'] = 'En els meus posts';
-$lang['SEARCH_MY_TOPICS'] = 'en la meva temes';
-$lang['NEW_TOPICS'] = 'Nous temes';
+$lang['IN_MY_POSTS'] = 'En les meves publicacions.';
+$lang['SEARCH_MY_TOPICS'] = 'en els meus temes.';
+$lang['NEW_TOPICS'] = 'Nous temes.';
 
 $lang['SEARCH_PREVIOUS'] = 'Cerca anterior';
 
 $lang['SORT_BY'] = 'Ordenar per';
-$lang['SORT_TIME'] = 'Post Temps';
-$lang['SORT_TOPIC_TITLE'] = 'Tema Del Títol';
+$lang['SORT_TIME'] = 'Post Temps.';
+$lang['SORT_TOPIC_TITLE'] = 'Tema del Títol.';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Mostrar els resultats com';
 $lang['ALL_AVAILABLE'] = 'Tots els disponibles';
 $lang['BRIEFLY'] = 'Breument';
-$lang['NO_SEARCHABLE_FORUMS'] = 'No teniu permisos per a la cerca de qualsevol fòrum en aquest lloc.';
+$lang['NO_SEARCHABLE_FORUMS'] = 'No teniu permisos per a cercar a qualsevol fòrum d\'aquest lloc.';
 
-$lang['NO_SEARCH_MATCH'] = 'No hi ha temes o missatges conèixer els seus criteris de cerca';
-$lang['FOUND_SEARCH_MATCH'] = 'La cerca ha trobat %d partit'; // e.g. Search found 1 match
-$lang['FOUND_SEARCH_MATCHES'] = 'La cerca ha trobat %d partits'; // e.g. Search found 24 matches
+$lang['NO_SEARCH_MATCH'] = 'No hi ha temes o missatges que compleixin els seus criteris de cerca.';
+$lang['FOUND_SEARCH_MATCH'] = 'La cerca ha trobat %d coincidència.'; // e.g. Search found 1 match
+$lang['FOUND_SEARCH_MATCHES'] = 'La cerca ha trobat %d coincidències.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Tancar Finestra';
 $lang['CLOSE'] = 'tancar';
@@ -733,7 +733,7 @@ $lang['HIDE'] = 'amagar';
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
 $lang['SORRY_AUTH_VIEW'] = 'Ens sap greu, però només %s poden veure aquest fòrum.';
-$lang['SORRY_AUTH_READ'] = 'Ens sap greu, però només %s pot llegir a temes en aquest fòrum.';
+$lang['SORRY_AUTH_READ'] = 'Ens sap greu, però només %s pot llegir temes en aquest fòrum.';
 $lang['SORRY_AUTH_REPLY'] = 'Ens sap greu, però només %s pot respondre a missatges en aquest fòrum.';
 $lang['SORRY_AUTH_EDIT'] = 'Ens sap greu, però només %s pot editar missatges en aquest fòrum.';
 $lang['SORRY_AUTH_DELETE'] = 'Ens sap greu, però només %s pot suprimir missatges en aquest fòrum.';
@@ -741,12 +741,12 @@ $lang['SORRY_AUTH_DELETE'] = 'Ens sap greu, però només %s pot suprimir missatg
 // These replace the %s in the above strings
 $lang['AUTH_ANONYMOUS_USERS'] = '<b>anonymous users</b>';
 $lang['AUTH_REGISTERED_USERS'] = '<b>registered users</b>';
-$lang['AUTH_USERS_GRANTED_ACCESS'] = '<b>users concedit especial access</b>';
+$lang['AUTH_USERS_GRANTED_ACCESS'] = '<b>els usuaris concedits accés especial</b>.';
 $lang['AUTH_MODERATORS'] = '<b>moderators</b>';
 $lang['AUTH_ADMINISTRATORS'] = '<b>administrators</b>';
 
 $lang['NOT_MODERATOR'] = 'Vostè no és un moderador d\'aquest fòrum.';
-$lang['NOT_AUTHORISED'] = 'No S\'Autoritza';
+$lang['NOT_AUTHORISED'] = 'No autoritzat.';
 
 $lang['YOU_BEEN_BANNED'] = 'Has estat expulsat d\'aquest fòrum. Poseu-vos en contacte amb l\'administrador del taulell per obtenir més informació.';
 
@@ -755,7 +755,7 @@ $lang['ONLINE_EXPLAIN'] = 'els usuaris actius durant els darrers cinc minuts';
 $lang['LAST_UPDATED'] = 'Última Actualització';
 
 // Moderator Control Panel
-$lang['MOD_CP'] = 'Moderador Tauler De Control';
+$lang['MOD_CP'] = 'Tauler de Control del Moderador.';
 $lang['SELECT'] = 'Seleccioneu';
 $lang['DELETE'] = 'Esborrar';
 $lang['MOVE'] = 'Moure';
@@ -763,30 +763,30 @@ $lang['LOCK'] = 'Bloqueig';
 $lang['UNLOCK'] = 'Desbloquejar';
 
 $lang['TOPICS_REMOVED'] = 'Els temes seleccionats han estat correctament eliminats de la base de dades.';
-$lang['NO_TOPICS_REMOVED'] = 'No hi ha temes van ser retirats.';
-$lang['TOPICS_LOCKED'] = 'Els temes seleccionats han estat bloquejat.';
-$lang['TOPICS_MOVED'] = 'Els temes seleccionats han estat traslladats.';
-$lang['TOPICS_UNLOCKED'] = 'Els temes seleccionats han estat bloquejades.';
-$lang['NO_TOPICS_MOVED'] = 'No hi ha temes que es van traslladar.';
+$lang['NO_TOPICS_REMOVED'] = 'No hi ha temes que s\'han retirat.';
+$lang['TOPICS_LOCKED'] = 'Els temes seleccionats han estat bloquejats.';
+$lang['TOPICS_MOVED'] = 'Els temes seleccionats s\'han costat.';
+$lang['TOPICS_UNLOCKED'] = 'Els temes seleccionats han estat desbloquejades.';
+$lang['NO_TOPICS_MOVED'] = 'No hi ha temes que han estat traslladats.';
 
-$lang['CONFIRM_DELETE_TOPIC'] = 'Esteu segur que voleu treure el tema seleccionat/s?';
-$lang['CONFIRM_MOVE_TOPIC'] = 'Esteu segur que voleu moure el tema seleccionat/s?';
+$lang['CONFIRM_DELETE_TOPIC'] = 'Esteu segurs de voler eliminar el tema seleccionat/s?';
+$lang['CONFIRM_MOVE_TOPIC'] = 'Esteu segurs de voler moure el tema seleccionat/s?';
 
-$lang['MOVE_TO_FORUM'] = 'Moure fòrum';
-$lang['LEAVE_SHADOW_TOPIC'] = 'Sortir de l\'ombra tema en l\'antic fòrum.';
+$lang['MOVE_TO_FORUM'] = 'Moure a fòrum.';
+$lang['LEAVE_SHADOW_TOPIC'] = 'Deixar ombra tema en antic fòrum.';
 
-$lang['SPLIT_TOPIC_EXPLAIN'] = 'Utilitzant el formulari a continuació podeu dividir un tema en dos, ja sigui mitjançant la selecció de les entrades de forma individual o per dividir a una seleccionat post';
+$lang['SPLIT_TOPIC_EXPLAIN'] = 'Utilitzant el formulari a continuació podeu dividir un tema en dos, ja sigui seleccionant les publicacions de manera individual o dividint a un post seleccionat.';
 $lang['NEW_TOPIC_TITLE'] = 'Nou títol del tema';
 $lang['FORUM_FOR_NEW_TOPIC'] = 'Fòrum per a un nou tema';
 $lang['SPLIT_POSTS'] = 'Dividir publicacions seleccionades';
-$lang['SPLIT_AFTER'] = 'Dividir seleccionades post';
+$lang['SPLIT_AFTER'] = 'Dividir publicacions seleccionades.';
 $lang['TOPIC_SPLIT'] = 'El tema escollit ha estat dividit amb èxit';
-$lang['NONE_SELECTED'] = 'Vostè ha de tenir cap seleccionada per dur a terme aquesta operació. Si us plau, torneu a seleccionar almenys un.';
+$lang['NONE_SELECTED'] = 'No heu seleccionat res per realitzar aquesta operació. Torneu enrere i seleccioneu almenys un.';
 
 $lang['THIS_POSTS_IP'] = 'Adreça IP per a aquest post';
-$lang['OTHER_IP_THIS_USER'] = 'Altres adreces IP de l\'usuari que ha publicat des';
-$lang['USERS_THIS_IP'] = 'Els usuaris de publicar des d\'aquesta adreça IP';
-$lang['IP_INFO'] = 'IP Informació';
+$lang['OTHER_IP_THIS_USER'] = 'Altres adreces IP de l\'usuari que ha publicat.';
+$lang['USERS_THIS_IP'] = 'Usuaris que publiquen des d\'aquesta adreça IP.';
+$lang['IP_INFO'] = 'Informació IP.';
 $lang['LOOKUP_IP'] = 'Cercar una adreça IP';
 
 // Timezones ... for display on each page
@@ -802,20 +802,20 @@ $lang['SET_OWN_COUNTRY'] = 'Estableix el teu país (Manualment)';
 
 // Errors
 $lang['INFORMATION'] = 'Informació';
-$lang['ADMIN_REAUTHENTICATE'] = 'Per a administrar/moderada de la junta que han de tornar a autenticar-se.';
+$lang['ADMIN_REAUTHENTICATE'] = 'Per a administrar/moderar la junta, cal que torni a autenticar-se.';
 
 // Attachment Mod Main Language Variables
 // Auth Related Entries
-$lang['RULES_ATTACH_CAN'] = 'Vostè <b>can</b> adjuntar fitxers en aquest fòrum';
-$lang['RULES_ATTACH_CANNOT'] = 'Vostè <b>cannot</b> adjuntar fitxers en aquest fòrum';
-$lang['RULES_DOWNLOAD_CAN'] = 'Vostè <b>can</b> descarregar fitxers en aquest fòrum';
-$lang['RULES_DOWNLOAD_CANNOT'] = 'Vostè <b>cannot</b> descarregar fitxers en aquest fòrum';
+$lang['RULES_ATTACH_CAN'] = 'Vostè <b>pot</b> adjuntar fitxers en aquest fòrum.';
+$lang['RULES_ATTACH_CANNOT'] = 'Vostè <b>no pot</b> adjuntar fitxers en aquest fòrum.';
+$lang['RULES_DOWNLOAD_CAN'] = 'Vostè <b>pot</b> descarregar fitxers en aquest fòrum.';
+$lang['RULES_DOWNLOAD_CANNOT'] = 'Vostè <b>no pot</b> descarregar fitxers en aquest fòrum.';
 $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Ho sentim, però vostè no està autoritzat a visualitzar o descarregar aquest arxiu Adjunt';
 
 // Viewtopic -> Display of Attachments
 $lang['DESCRIPTION'] = 'Descripció'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Descarregar'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
-$lang['FILESIZE'] = 'Mida de la Fitxa';
+$lang['FILESIZE'] = 'Mida del fitxer.';
 $lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'L\'extensió \'%s\' va ser desactivada per un administrador del consell, per tant, aquest adjunt no es mostra.'; // used in Posts and PM's, replace %s with mime type
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
@@ -837,66 +837,66 @@ $lang['M3U_FFPROBE_NO_DATA'] = 'Sembla que ffprobe no podrà retornar dades sobr
 $lang['M3U_NOTICE'] = 'Alguns navegadors no admeten la reproducció de certs formats de vídeo. En tal cas, podeu descarregar el fitxer .m3u i reproduir-lo amb un reproductor de tercers';
 
 $lang['ATTACHMENT'] = 'Arxius adjunts';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Adjunt Miniatura';
+$lang['ATTACHMENT_THUMBNAIL'] = 'Miniatura d\'adjunt.';
 
 // Posting/PM -> Posting Attachments
-$lang['ADD_ATTACHMENT'] = 'Afegeix Un Fitxer Adjunt';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Afegir un fitxer Adjunt';
-$lang['ADD_ATTACHMENT_EXPLAIN'] = 'Si no voleu afegir un fitxer Adjunt a la Publicació, si us plau, deixeu el camp en blanc';
+$lang['ADD_ATTACHMENT'] = 'Afegeix un fitxer adjunt.';
+$lang['ADD_ATTACHMENT_TITLE'] = 'Afegir un adjunt.';
+$lang['ADD_ATTACHMENT_EXPLAIN'] = 'Si no voleu afegir un fitxer adjunt a la publicació, si us plau, deixeu els camps en blanc.';
 $lang['FILENAME'] = 'Nom de fitxer';
 $lang['FILE_COMMENT'] = 'Arxiu Comentari';
 
 // Posting/PM -> Posted Attachments
-$lang['POSTED_ATTACHMENTS'] = 'Publicat Adjunts';
-$lang['UPDATE_COMMENT'] = 'Actualització Comentari';
-$lang['DELETE_ATTACHMENT'] = 'Suprimeix El Fitxer Adjunt';
-$lang['DELETE_THUMBNAIL'] = 'Eliminar Una Miniatura';
-$lang['UPLOAD_NEW_VERSION'] = 'Carregar Una Nova Versió';
+$lang['POSTED_ATTACHMENTS'] = 'Adjunts publicats.';
+$lang['UPDATE_COMMENT'] = 'Comentari d\'actualització.';
+$lang['DELETE_ATTACHMENT'] = 'Suprimeix l\'adjunt.';
+$lang['DELETE_THUMBNAIL'] = 'Eliminar la miniatura.';
+$lang['UPLOAD_NEW_VERSION'] = 'Carregar una nova versió.';
 
 // Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s és un invalid filename'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'El fitxer és massa gran.<br />Could no obtenir la Mida màxima definida en PHP.<br />The Adjunt Mod és incapaç de determinar el màxim la Mida de Càrrega es defineix en php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'El fitxer és massa gran.<br />Maximum la Mida de Càrrega: %d MB.<br />Please tingueu en compte que aquesta Mida es defineix en php.ini, això vol dir que és establert per PHP i l\'Adjunt Mod no pot sobreescriure aquest valor.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'L\'Extensió %s no està permès'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'No està permès publicar els Arxius amb l\'Extensió %s en aquest Fòrum'; // replace %s with the Extension
+$lang['INVALID_FILENAME'] = '%s és un nom de fitxer no vàlid.'; // replace %s with given filename
+$lang['ATTACHMENT_PHP_SIZE_NA'] = 'L\'adjunt és massa gran.<br />No es va poder obtenir la mida màxima definida en PHP.<br />El mòdul Adjunt és incapaç de determinar la mida màxima de càrrega definida en php.ini.';
+$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'L\'adjunt és massa gran.<br />Mida màxima de càrrega: %d MB.<br />Tingueu en compte que aquesta mida es defineix en php.ini, la qual cosa significa que està establert per PHP i el mòdul Adjunt no pot sobreescriure aquest valor.'; // replace %d with ini_get('upload_max_filesize')
+$lang['DISALLOWED_EXTENSION'] = 'L\'extensió %s no està permesa.'; // replace %s with extension (e.g. .php)
+$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'No se us permet publicar fitxers amb l\'extensió %s dins d\'aquest fòrum.'; // replace %s with the Extension
 $lang['ATTACHMENT_TOO_BIG'] = 'El fitxer és massa gran.<br />Max Mida: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Fitxer adjunt no es pot afegir, ja que el max. nombre de %d fitxers Adjunts en aquest post va aconseguir'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'L\'Adjunt/Imatge ha de ser menor que %d píxels d\'amplada i %d píxels d\'alta';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Pujar Error: no s\'ha Pogut carregar el fitxer Adjunt a %s.'; // replace %s with local path
+$lang['TOO_MANY_ATTACHMENTS'] = 'No es pot afegir l\'adjunt, ja que s\'ha assolit el nombre màxim de %d adjunts en aquest post.'; // replace %d with maximum number of attachments
+$lang['ERROR_IMAGESIZE'] = 'L\'adjunt/imatge ha de ser menor que %d píxels d\'ample i %d píxels d\'alçada.';
+$lang['GENERAL_UPLOAD_ERROR'] = 'Error de càrrega: No s\'ha pogut carregar l\'adjunt a %s.'; // replace %s with local path
 
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Heu d\'introduir els valors de la \'Afegeix un fitxer Adjunt Quadre"';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'No pot Actualitzar el fitxer Adjunt, no van poder trobar un vell Adjunt Entrada';
+$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Heu d\'introduir valors a la caixa \'Afegir un fitxer adjunt\'.';
+$lang['ERROR_MISSING_OLD_ENTRY'] = 'No es pot actualitzar l\'adjunt, no s\'ha pogut trobar l\'entrada d\'adjunt antiga.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'No heu seleccionat un fitxer adjunt per descarregar o visualitzar.';
 $lang['ERROR_NO_ATTACHMENT'] = 'L\'Adjunt seleccionat ja no existeix';
 
 // Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Seleccionats els fitxers Adjunts s\'han esborrat.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'No podria suprimir fitxers Adjunts.';
+$lang['DELETED_ATTACHMENTS'] = 'Els fitxers adjunts seleccionats han estat eliminats.';
+$lang['ERROR_DELETED_ATTACHMENTS'] = 'No s\'han pogut suprimit els fitxers adjunts.';
 
 // General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'L\'Adjunt Funció és desactivada.';
+$lang['ATTACHMENT_FEATURE_DISABLED'] = 'La funció d\'adjunt està desactivada.';
 
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'El Directori \'%s\' no existeix o no s\'ha Pogut trobar.'; // replace %s with directory
+$lang['DIRECTORY_DOES_NOT_EXIST'] = 'El directori \'%s\' no existeix o no s\'ha pogut trobar.'; // replace %s with directory
 $lang['DIRECTORY_IS_NOT_A_DIR'] = 'Si us plau, comproveu si \'%s\' és un directori.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Directori \'%s\' no és escriptura. Vostè haurà de crear la ruta de càrrega i chmod a 777 (o canviar el propietari per a vostè httpd-servidors propietari) per pujar fitxers.<br />If només teniu pla FTP-accés canviar \'Atribut\' del directori a rwxrwxrwx.'; // replace %s with directory
+$lang['DIRECTORY_NOT_WRITEABLE'] = 'El directori \'%s\' no és accessible per escriptura. Haureu de crear el camí de càrrega i canviar-ne a 777 (o canviar el propietari al vostre servidor httpd) per pujar fitxers.<br />Si només teniu accés FTP pla, canvieu l\'atribut del directori a rwxrwxrwx.'; // replace %s with directory
 
 // Common Variables
 $lang['BYTES'] = 'Bytes';
 $lang['KB'] = 'KB';
 $lang['MB'] = 'MB';
 $lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Cerca De Fitxers Adjunts';
-$lang['TEST_SETTINGS'] = 'Prova De La Configuració';
+$lang['ATTACH_SEARCH_QUERY'] = 'Cerca de fitxers adjunts.';
+$lang['TEST_SETTINGS'] = 'Prova de configuració.';
 $lang['NOT_ASSIGNED'] = 'No Assignat';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrat';
 $lang['BT_REG_NO'] = 'No registrats';
-$lang['BT_REG_ON_TRACKER'] = 'Registre a seguidor';
-$lang['BT_REG_FAIL'] = 'No podia registrar-torrent al tracker';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Un altre torrent amb la mateixa info_hash ja <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_ON_TRACKER'] = 'Registra al rastrejador.';
+$lang['BT_REG_FAIL'] = 'No s\'ha pogut registrar el torrent al rastrejador.';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Un altre torrent amb el mateix info_hash ja està <a href="%s"><b>registrat</b></a>.';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'els torrents només v1 han estat desactivats per l\'administrador de moment, permès: v2 i híbrids';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'els torrents només v2 han estat desactivats per l\'administrador de moment, permès: v1 i híbrids';
 $lang['BT_FLIST'] = 'Llista de fitxers';
@@ -907,28 +907,28 @@ $lang['BT_FLIST_CREATION_DATE'] = 'Data de creació';
 $lang['BT_IS_PRIVATE'] = 'Torrent privat';
 $lang['BT_FLIST_FILE_PATH'] = 'Camí (%s)';
 $lang['BT_FLIST_LINK_TITLE'] = 'Hashes del fitxer | informació meta de .torrent';
-$lang['BT_UNREG_FROM_TRACKER'] = 'Retirar del tracker';
-$lang['BT_UNREGISTERED'] = 'Torrent no registrats';
+$lang['BT_UNREG_FROM_TRACKER'] = 'Elimina del rastrejador.';
+$lang['BT_UNREGISTERED'] = 'Torrent no registrat.';
 $lang['BT_UNREGISTERED_ALREADY'] = 'Torrent ja no registrat';
-$lang['BT_REGISTERED'] = 'Torrent registrat en tracker<br /><br />Now cal <a href="%s"><b>download seu torrent</b></a> i executar-lo utilitzant el client de BitTorrent triar la carpeta amb els fitxers originals compartiu com a descarregar camí';
-$lang['INVALID_ANN_URL'] = 'Invalid Anunciar URL [%s]<br /><br />must ser <b>%s</b>';
-$lang['PASSKEY_ERR_TOR_NOT_REG'] = 'No podria afegir passkey<br /><br />Torrent no inscrits en el tracker';
+$lang['BT_REGISTERED'] = 'Torrent registrat al rastrejador<br /><br />Ara heu de <a href="%s"><b>descarregar el vostre torrent</b></a> i executar-lo utilitzant el vostre client de BitTorrent triant la carpeta amb els fitxers originals que esteu compartint com a ruta de descàrrega.';
+$lang['INVALID_ANN_URL'] = 'URL d\'Anunci vàlida [%s]<br /><br />ha de ser <b>%s</b>.';
+$lang['PASSKEY_ERR_TOR_NOT_REG'] = 'No s\'ha pogut afegir la passkey<br /><br />El torrent no està registrat al rastrejador.';
 $lang['BT_PASSKEY'] = 'Passkey';
 $lang['BT_GEN_PASSKEY'] = 'crear un nou';
 $lang['BT_PASSKEY_VIEW'] = 'mostra';
 $lang['BT_GEN_PASSKEY_NEW'] = "Atenció! Després de canviar la teva passkey, hauràs de tornar a baixar tots els torrents en actiu! \n Estàs segur que vols crear una nova passkey?";
-$lang['BT_NO_SEARCHABLE_FORUMS'] = 'No cerca trobar fòrums';
+$lang['BT_NO_SEARCHABLE_FORUMS'] = 'No s\'han trobat fòrums cercables.';
 
-$lang['SEEDS'] = 'Llavor';
-$lang['LEECHS'] = 'A la sangonera';
-$lang['SPEED_UP'] = 'Velocitat';
-$lang['SPEED_DOWN'] = 'Velocitat Avall';
+$lang['SEEDS'] = 'Llavor.';
+$lang['LEECHS'] = 'Sangonera.';
+$lang['SPEED_UP'] = 'Accelerar.';
+$lang['SPEED_DOWN'] = 'Abaixar.';
 
-$lang['SEEDERS'] = 'Seeders';
-$lang['LEECHERS'] = 'Leechers';
-$lang['RELEASING'] = 'Auto';
-$lang['SEEDING'] = 'Llavor';
-$lang['LEECHING'] = 'A la sangonera';
+$lang['SEEDERS'] = 'Sembres.';
+$lang['LEECHERS'] = 'Sangoners.';
+$lang['RELEASING'] = 'Auto.';
+$lang['SEEDING'] = 'Llavor.';
+$lang['LEECHING'] = 'Sangonera';
 $lang['IS_REGISTERED'] = 'Registrat';
 $lang['MAGNET'] = 'Enllaç magnet';
 $lang['MAGNET_FOR_GUESTS'] = 'Mostra l\'enllaç magnet per a convidats';
@@ -941,32 +941,32 @@ $lang['TOR_STATUS_NOT_SELECT'] = 'No heu seleccionat l\'estat.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Tots els estats';
 $lang['TOR_STATUS_FORBIDDEN'] = 'L\'estat d\'aquest tema és: ';
 $lang['TOR_STATUS_NAME'] = [
-    TOR_NOT_APPROVED => 'no està marcada',
+    TOR_NOT_APPROVED => 'No marcat',
     TOR_CLOSED => 'tancat',
     TOR_APPROVED => 'marcada',
-    TOR_NEED_EDIT => 'no formalitzada fins',
-    TOR_NO_DESC => 'no formalitzats',
+    TOR_NEED_EDIT => 'No formalitzada fins',
+    TOR_NO_DESC => 'No formalitzats',
     TOR_DUP => 'duplicat',
     TOR_CLOSED_CPHOLD => 'tancat (drets d\'autor)',
-    TOR_CONSUMED => 'absorbit',
-    TOR_DOUBTFUL => 'dubtosos',
+    TOR_CONSUMED => 'Absorbit',
+    TOR_DOUBTFUL => 'Dubtós',
     TOR_CHECKING => 's\'està comprovant',
-    TOR_TMP => 'temporal',
-    TOR_PREMOD => 'pre-moderat',
+    TOR_TMP => 'Temporal',
+    TOR_PREMOD => 'Pre-moderat',
     TOR_REPLENISH => 'reposant',
 ];
-$lang['TOR_STATUS_FAILED'] = 'Aquest estatus no existeix!';
+$lang['TOR_STATUS_FAILED'] = 'Aquest estat no existeix!';
 $lang['TORRENT_FAILED'] = 'La distribució no es va trobar!';
-$lang['TOR_STATUS_DUB'] = 'Distribució té el mateix estatus';
+$lang['TOR_STATUS_DUB'] = 'Distribució té el mateix estat';
 $lang['TOR_DONT_CHANGE'] = 'No es pot realitzar el canvi d\'estat!';
-$lang['TOR_STATUS_OF'] = 'Distribució té la condició de:';
+$lang['TOR_STATUS_OF'] = 'Distribució té la condició de';
 $lang['TOR_STATUS_CHANGED'] = 'Estat canviat: ';
 $lang['TOR_BACK'] = ' tornar';
 $lang['PROCEED'] = 'Procedir';
-$lang['INVALID_ATTACH_ID'] = 'Arxiu identificador!';
-$lang['CHANGE_TOR_TYPE'] = 'Escriviu el torrent canviat correctament';
+$lang['INVALID_ATTACH_ID'] = 'Identificador d\'arxiu!';
+$lang['CHANGE_TOR_TYPE'] = 'Escriviu el torrent correctament canviat';
 $lang['DEL_TORRENT'] = 'Esteu segur que voleu suprimir el torrent?';
-$lang['DEL_MOVE_TORRENT'] = 'Esteu segur que voleu suprimir i a moure el tema?';
+$lang['DEL_MOVE_TORRENT'] = 'Esteu segur que voleu suprimir i moure el tema?';
 $lang['UNEXECUTED_RELEASE'] = 'Tens una publicació no finalitzada. Abans de crear una nova, si us plau, finalitza-la!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'Nou estat: %s.<br/>Estat anterior: %s.';
 
@@ -976,11 +976,11 @@ $lang['TOR_MOD_MSG'] = "Hola, %s.\n\nL'estat de [url=%s]la teva[/url] distribuci
 
 $lang['TOR_AUTH_TITLE'] = 'Canvis en el disseny - %s';
 $lang['TOR_AUTH_MSG'] = "Hola, %s.\n\nLa teva distribució ha estat canviada - [url=%s]%s[/url]\n\nSi us plau, torna-ho a comprovar.";
-$lang['TOR_AUTH_FIXED'] = 'Fixa';
-$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The la informació enviada a moderador. Esperar.</span>';
+$lang['TOR_AUTH_FIXED'] = 'Fixe';
+$lang['TOR_AUTH_SENT_COMMENT'] = 'La informació enviada al moderador. Espereu.';
 
-$lang['BT_TOPIC_TITLE'] = 'Tema del títol';
-$lang['BT_SEEDER_LAST_SEEN'] = 'Llavor vist per última vegada';
+$lang['BT_TOPIC_TITLE'] = 'Títol del tema';
+$lang['BT_SEEDER_LAST_SEEN'] = 'Llavor vista per últim cop';
 $lang['SIZE'] = 'Mida';
 $lang['COMPLETED'] = 'Descarregues completes';
 $lang['ADDED'] = 'Afegit';
@@ -996,9 +996,9 @@ $lang['BT_VIEWS'] = 'Vistes';
 $lang['GOLD'] = 'D\'or';
 $lang['SILVER'] = 'Plata';
 $lang['SET_GOLD_TORRENT'] = 'Fer d\'or';
-$lang['UNSET_GOLD_TORRENT'] = 'UnMake d\'or';
+$lang['UNSET_GOLD_TORRENT'] = 'Desfés d\'or.';
 $lang['SET_SILVER_TORRENT'] = 'Fer de plata';
-$lang['UNSET_SILVER_TORRENT'] = 'UnMake de plata';
+$lang['UNSET_SILVER_TORRENT'] = 'Desfés de plata.';
 $lang['GOLD_STATUS'] = 'OR TORRENT! DESCARREGAR DE TRÀNSIT NO CONSIDERA!';
 $lang['SILVER_STATUS'] = 'PLATA TORRENT! DESCÀRREGA TRÀNSIT CONSIDERAT PARCIALMENT!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'El tipus de torrent s\'ha canviat a: %s';
@@ -1012,12 +1012,12 @@ $lang['SHOW_ONLY'] = 'Mostra només els';
 $lang['SHOW_COLUMN'] = 'Mostra columna';
 $lang['SEL_CHAPTERS'] = 'Enllaç a les particions seleccionades';
 $lang['NOT_SEL_CHAPTERS'] = 'No heu seleccionat temes';
-$lang['SEL_CHAPTERS_HELP'] = 'Podeu seleccionar un màxim %s partició';
+$lang['SEL_CHAPTERS_HELP'] = 'Podeu seleccionar un màxim de %s partició';
 $lang['HIDE_CONTENTS'] = 'Amaga el contingut de {...}';
-$lang['FILTER_BY_NAME'] = '<i>Filter per nom </i>';
+$lang['FILTER_BY_NAME'] = 'Filtrar pel nom';
 
 $lang['BT_ONLY_ACTIVE'] = 'Actiu';
-$lang['BT_ONLY_MY'] = 'La meva versions';
+$lang['BT_ONLY_MY'] = 'Les meves versions';
 $lang['BT_SEED_EXIST'] = 'Seeder existeixen';
 $lang['BT_ONLY_NEW'] = 'Nou des de l\'última visita';
 $lang['BT_SHOW_CAT'] = 'Categoria';
@@ -1053,8 +1053,8 @@ $lang['DL_LIST_DEL'] = 'Clar DL-Llista';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Esborrar DL-Llista d\'aquest tema?';
 $lang['SHOW_DL_LIST'] = 'Mostra DL-Llista';
 $lang['SET_DL_STATUS'] = 'Descarregar';
-$lang['UNSET_DL_STATUS'] = 'Descarregar';
-$lang['TOPICS_DOWN_SETS'] = 'Tema d\'estat canviat per <b>Download</b>';
+$lang['UNSET_DL_STATUS'] = 'No Descarregar';
+$lang['TOPICS_DOWN_SETS'] = 'Tema d\'estat canviat per <b>Descargar</b>.';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Download</b> estat eliminat';
 
 $lang['TOPIC_DL'] = 'DL';
@@ -1068,18 +1068,18 @@ $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Completar Descàrregues';
 $lang['SEARCH_DL_CANCEL'] = 'Cancel·lat';
 $lang['CUR_DOWNLOADS'] = 'Actual Descàrregues';
 $lang['CUR_UPLOADS'] = 'Actual Càrregues';
-$lang['SEARCH_RELEASES'] = 'Comunicats';
+$lang['SEARCH_RELEASES'] = 'Llançaments';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent opcions de cerca';
-$lang['OPEN_TOPIC'] = 'Obert tema';
+$lang['OPEN_TOPIC'] = 'Tema obert';
 
 $lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Publicació torrents només es permet en el primer post';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registre torrents permetre només des del primer post';
+$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'El registre de torrents només es permet des del primer post';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'No podia registrar torrent en aquest fòrum';
 $lang['ALREADY_REG'] = 'Torrent ja està registrat';
-$lang['NOT_TORRENT'] = 'Aquest fitxer torrent';
+$lang['NOT_TORRENT'] = 'Aquest fitxer no és un torrent';
 $lang['ONLY_1_TOR_PER_TOPIC'] = 'Podeu registrar només un torrent en un tema';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Perfil de torrent';
-$lang['CUR_ACTIVE_DLS'] = 'Activa torrents';
+$lang['CUR_ACTIVE_DLS'] = 'Torrent actiu';
 
 $lang['TD_TRAF'] = 'Avui';
 $lang['YS_TRAF'] = 'Ahir';
@@ -1087,46 +1087,46 @@ $lang['TOTAL_TRAF'] = 'Total';
 
 $lang['USER_RATIO'] = 'Relació';
 $lang['MAX_SPEED'] = 'Velocitat';
-$lang['DOWNLOADED'] = 'Descarregar';
-$lang['UPLOADED'] = 'Pujar';
-$lang['RELEASED'] = 'Publicat';
-$lang['BONUS'] = 'En les rares';
-$lang['IT_WILL_BE_DOWN'] = 'començarà a ser considerat després serà descarregat';
-$lang['SPMODE_FULL'] = 'Mostra companys a obtenir detalls complets';
+$lang['DOWNLOADED'] = 'Descarregat';
+$lang['UPLOADED'] = 'Pujat';
+$lang['RELEASED'] = 'Alliberat';
+$lang['BONUS'] = 'En les raretes';
+$lang['IT_WILL_BE_DOWN'] = 'Es començarà a considerar després de ser descarregat';
+$lang['SPMODE_FULL'] = 'Mostra companys en detalls complets';
 
 // Seed Bonus
-$lang['MY_BONUS'] = 'La meva bonificació (%s bonificacions en valors)';
+$lang['MY_BONUS'] = 'La meva bonificació (%s bonificacions en estoc)';
 $lang['BONUS_SELECT'] = 'Seleccioneu';
-$lang['SEED_BONUS'] = 'Llavor de bonificació';
+$lang['SEED_BONUS'] = 'Bonificació de llavor';
 $lang['EXCHANGE'] = 'Intercanvi';
-$lang['EXCHANGE_BONUS'] = 'Intercanvi de llavors bons';
+$lang['EXCHANGE_BONUS'] = 'Intercanvi de bonificacions de llavors';
 $lang['BONUS_UPLOAD_DESC'] = '<b>%s a la distribució</b> <br /> Per intercanviar punts de bonificació per %1$s trànsit que s\'afegirà al total de la teva distribució.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Preu';
-$lang['EXCHANGE_NOT'] = 'L\'intercanvi no disponible';
-$lang['BONUS_SUCCES'] = 'Per a tu és amb èxit allistar %s';
-$lang['BONUS_NOT_SUCCES'] = '<span class="leech">You no tenen bonificacions disponibles. Més sembra!</span>';
-$lang['BONUS_RETURN'] = 'Tornar a la llavor de bonificació intercanvi';
+$lang['EXCHANGE_NOT'] = 'L\'intercanvi no està disponible';
+$lang['BONUS_SUCCES'] = 'Amb relació <b>%s</b> no es pot descarregar torrents';
+$lang['BONUS_NOT_SUCCES'] = '<span class="leech">No tens bonificacions disponibles. Més llavors!</span>';
+$lang['BONUS_RETURN'] = 'Torna a l\'intercanvi de bonificacions de llavors';
 
 $lang['TRACKER'] = 'Seguidor';
 $lang['RANDOM_RELEASE'] = 'Llançament aleatori';
-$lang['OPEN_TOPICS'] = 'Obrir temes';
-$lang['OPEN_IN_SAME_WINDOW'] = 'obri en la mateixa finestra';
-$lang['SHOW_TIME_TOPICS'] = 'mostra el temps de la creació temes';
-$lang['SHOW_CURSOR'] = 'destacar la fila de sota el cursor';
+$lang['OPEN_TOPICS'] = 'Temes oberts';
+$lang['OPEN_IN_SAME_WINDOW'] = 'Obre en la mateixa finestra';
+$lang['SHOW_TIME_TOPICS'] = 'Mostra el temps de creació dels temes';
+$lang['SHOW_CURSOR'] = 'Destacar la fila sota el cursor';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Amb relació <b>%s</b> no es pot descarregar torrents";
-$lang['BT_RATIO_WARNING_MSG'] = 'Si la relació està per sota de %s, vostè no serà capaç de descarregar Torrents! <a href="%s"><b>More sobre la qualificació.</b></a>';
+$lang['BT_LOW_RATIO_FOR_DL'] = "Amb relació <b>%s</b> no podeu descarregar torrents";
+$lang['BT_RATIO_WARNING_MSG'] = 'Si la relació està per sota de %s, no podràs descarregar torrents! <a href="%s"><b>Més sobre la qualificació.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder no vist: <b>%s</b>';
 
 $lang['NEED_TO_LOGIN_FIRST'] = 'Cal iniciar sessió primer';
-$lang['ONLY_FOR_MOD'] = 'Aquesta opció només per els moderadors';
-$lang['ONLY_FOR_ADMIN'] = 'Aquesta opció només per a administradors';
-$lang['ONLY_FOR_SUPER_ADMIN'] = 'Aquesta opció només per a administradors de super';
+$lang['ONLY_FOR_MOD'] = 'Aquesta opció només és per a moderadors';
+$lang['ONLY_FOR_ADMIN'] = 'Aquesta opció només és per a administradors';
+$lang['ONLY_FOR_SUPER_ADMIN'] = 'Aquesta opció només és per a super administradors';
 
-$lang['LOGS'] = 'Tema de la història';
-$lang['FORUM_LOGS'] = 'Història Del Fòrum';
+$lang['LOGS'] = 'Història del tema';
+$lang['FORUM_LOGS'] = 'Història del fòrum';
 $lang['AUTOCLEAN'] = 'Autoclean';
 $lang['DESIGNER'] = 'Dissenyador';
 
@@ -1139,55 +1139,55 @@ $lang['HIDDEN'] = 'Ocult';
 // from admin
 $lang['NOT_ADMIN'] = 'No esteu autoritzat a administrar aquest consell';
 
-$lang['SESSION_EXPIRED'] = 'Sessió ha caducat';
+$lang['SESSION_EXPIRED'] = 'La sessió ha caducat';
 
 // Sort memberlist per letter
-$lang['POST_LINK'] = 'Post enllaç';
-$lang['GOTO_QUOTED_POST'] = 'Anar a la citada publicació';
-$lang['LAST_VISITED'] = 'Última Visita';
+$lang['POST_LINK'] = 'Enllaç de publicació';
+$lang['GOTO_QUOTED_POST'] = 'Vés a la publicació citada';
+$lang['LAST_VISITED'] = 'Última visita';
 $lang['LAST_ACTIVITY'] = 'Última activitat';
 $lang['NEVER'] = 'Mai';
 
 //mpd
-$lang['DELETE_POSTS'] = 'El botó esborrar seleccionats';
-$lang['DELETE_POSTS_SUCCESFULLY'] = 'Seleccionat llocs de treball s\'han eliminat amb èxit';
+$lang['DELETE_POSTS'] = 'Elimina posts seleccionats';
+$lang['DELETE_POSTS_SUCCESFULLY'] = 'Els posts seleccionats s\'han eliminat correctament';
 $lang['NO_POSTS_REMOVED'] = 'No s\'han eliminat missatges.';
 
 //ts
-$lang['TOPICS_ANNOUNCEMENT'] = 'Convocatòries';
-$lang['TOPICS_STICKY'] = 'Stickies';
+$lang['TOPICS_ANNOUNCEMENT'] = 'Anuncis';
+$lang['TOPICS_STICKY'] = 'Adhesius';
 $lang['TOPICS_NORMAL'] = 'Temes';
 
 //dpc
-$lang['DOUBLE_POST_ERROR'] = 'No es pot fer un altre post amb el mateix text com el seu passat.';
+$lang['DOUBLE_POST_ERROR'] = 'No pots fer un altre post amb el mateix text que el teu últim.';
 
 //upt
-$lang['UPDATE_POST_TIME'] = 'Actualització post temps';
+$lang['UPDATE_POST_TIME'] = 'Actualitzar temps de publicació';
 
 $lang['TOPIC_SPLIT_NEW'] = 'Nou tema';
 $lang['TOPIC_SPLIT_OLD'] = 'Vell tema';
-$lang['BOT_LEAVE_MSG_MOVED'] = 'Afegir bot-missatge sobre el moviment de';
+$lang['BOT_LEAVE_MSG_MOVED'] = 'Afegir bot-missatge sobre el moviment';
 $lang['BOT_REASON_MOVED'] = 'Raó per moure';
-$lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Afegir bot-el missatge sobre la divisió a <b>old topic</b>';
-$lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Afegir bot-el missatge sobre la divisió a <b>new topic</b>';
+$lang['BOT_AFTER_SPLIT_TO_OLD'] = 'Afegir bot-missatge sobre la divisió a <b>temes antics</b>.';
+$lang['BOT_AFTER_SPLIT_TO_NEW'] = 'Afegir bot-missatge sobre la divisió a <b>nous temes</b>.';
 //qr
-$lang['QUICK_REPLY'] = 'Resposta Ràpida';
-$lang['INS_NAME_TIP'] = 'Inseriu el nom o el text seleccionat.';
+$lang['QUICK_REPLY'] = 'Resposta ràpida';
+$lang['INS_NAME_TIP'] = 'Insereix nom o text seleccionat.';
 $lang['QUOTE_SELECTED'] = 'Cita seleccionada';
-$lang['QR_NOTIFY'] = 'Notificar a resposta';
+$lang['QR_NOTIFY'] = 'Notificar a la resposta';
 $lang['QR_USERNAME'] = 'Nom';
-$lang['QR_FONT_SEL'] = 'Font face';
-$lang['QR_COLOR_SEL'] = 'Color del tipus de lletra';
-$lang['QR_SIZE_SEL'] = 'Mida de la Font';
-$lang['COLOR_STEEL_BLUE'] = 'D\'Acer Blau';
+$lang['QR_FONT_SEL'] = 'Tipus de lletra';
+$lang['QR_COLOR_SEL'] = 'Color de la lletra';
+$lang['QR_SIZE_SEL'] = 'Mida de la lletra';
+$lang['COLOR_STEEL_BLUE'] = 'Blau d\'acer';
 $lang['COLOR_GRAY'] = 'Gris';
-$lang['COLOR_DARK_GREEN'] = 'Verd Fosc';
+$lang['COLOR_DARK_GREEN'] = 'Verd fosc';
 
 // Short buttons
 $lang['IP'] = 'IP';
 $lang['POLL'] = 'Enquesta';
 $lang['MODERATE'] = 'Moderador';
-$lang['SEND_PM_SHORT'] = 'H';
+$lang['SEND_PM_SHORT'] = 'MP';
 $lang['WEBSITE_SHORT'] = 'WWW';
 
 $lang['DECLENSION']['REPLIES'] = ['resposta', 'les respostes'];
@@ -1204,7 +1204,7 @@ $lang['NEW_USER_REG_DISABLED'] = 'Ho sentim, el registre està desactivat en aqu
 $lang['ONLY_NEW_POSTS'] = 'només els missatges nous';
 $lang['ONLY_NEW_TOPICS'] = 'només nous temes';
 
-$lang['TORHELP_TITLE'] = 'Si us plau, ajudar a la sembra aquests torrents!';
+$lang['TORHELP_TITLE'] = 'Si us plau, ajuda a sembrar aquests torrents!';
 $lang['STATISTICS'] = 'Estadístiques';
 $lang['STATISTIC'] = 'Estadístiques';
 $lang['VALUE'] = 'Valor';
@@ -1229,10 +1229,10 @@ $lang['COLLAPSE'] = 'Col·lapse directori';
 $lang['EXPAND'] = 'Ampliar';
 $lang['SWITCH'] = 'Canviar';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Augmentar/reduir la finestra';
-$lang['EMPTY_ATTACH_ID'] = 'Arxiu identificador!';
+$lang['EMPTY_ATTACH_ID'] = 'Falta l\'identificador del fitxer!';
 $lang['TOR_NOT_FOUND'] = 'El fitxer falta al servidor!';
-$lang['ERROR_BUILD'] = 'El contingut d\'aquest fitxer torrent no es pot consultar en la pàgina web (que no era possible construir una llista de fitxers)';
-$lang['TORFILE_INVALID'] = 'Torrent fitxer està corrupte';
+$lang['ERROR_BUILD'] = 'El contingut d\'aquest fitxer torrent no es pot veure al lloc (no es va poder construir una llista de fitxers)';
+$lang['TORFILE_INVALID'] = 'El fitxer torrent està corrupte';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'El "lloc" pot contenir només http://sitename';
@@ -1249,20 +1249,20 @@ $lang['DOWNLOAD_TORRENT'] = 'Descarregar torrent';
 $lang['SEND_PM'] = 'Enviar PM';
 $lang['SEND_MESSAGE'] = 'Enviar un missatge';
 $lang['NEW_THREADS'] = 'Nous Temes';
-$lang['PROFILE_NOT_FOUND'] = 'El perfil no es troba';
+$lang['PROFILE_NOT_FOUND'] = 'El perfil no es troba.';
 
 $lang['USER_DELETE'] = 'Esborrar';
 $lang['USER_DELETE_EXPLAIN'] = 'Esborrar aquest usuari';
-$lang['USER_DELETE_ME'] = 'Ho sentim, el teu compte de és prohibit d\'eliminar!';
-$lang['USER_DELETE_CSV'] = 'Ho sentim, aquest compte no està permès suprimir!';
-$lang['USER_DELETE_CONFIRM'] = 'Esteu segur que voleu suprimir aquest usuari?';
+$lang['USER_DELETE_ME'] = 'Ho sentim, el teu compte és prohibit d\'eliminar!';
+$lang['USER_DELETE_CSV'] = 'Ho sentim, aquest compte no està autoritzat per eliminar!';
+$lang['USER_DELETE_CONFIRM'] = 'Esteu segurs que voleu suprimir aquest usuari?';
 $lang['USER_DELETED'] = 'Usuari va ser eliminat amb èxit';
 $lang['DELETE_USER_ALL_POSTS'] = 'Esborra tots els missatges d\'usuaris';
-$lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Esteu segur que voleu suprimir tots els missatges i tots els temes que comencem per aquest usuari?';
+$lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Esteu segurs que voleu suprimir tots els missatges i tots els temes iniciats per aquest usuari?';
 $lang['DELETE_USER_POSTS'] = 'Esborrar tots els missatges, excepte els primers posts';
 $lang['DELETE_USER_POSTS_ME'] = 'Esteu segur que voleu suprimir tots els meus missatges?';
 $lang['DELETE_USER_POSTS_CONFIRM'] = 'Estàs segur que vols esborrar tots els missatges, excepte els primers posts?';
-$lang['USER_DELETED_POSTS'] = 'Els missatges van ser eliminat amb èxit';
+$lang['USER_DELETED_POSTS'] = 'Els missatges han estat eliminats amb èxit.';
 
 $lang['USER'] = 'Usuari';
 $lang['ROLE'] = 'Paper:';
@@ -1270,7 +1270,7 @@ $lang['MEMBERSHIP_IN'] = 'La pertinença a';
 $lang['PARTY'] = 'Partit:';
 $lang['CANDIDATE'] = 'Candidat:';
 $lang['INDIVIDUAL'] = 'Té els drets individuals';
-$lang['GROUP_LIST_HIDDEN'] = 'Vostè no està autoritzat a visualitzar ocults grups';
+$lang['GROUP_LIST_HIDDEN'] = 'No esteu autoritzats a veure grups ocults.';
 
 $lang['USER_ACTIVATE'] = 'Activar';
 $lang['USER_DEACTIVATE'] = 'Desactivar';
@@ -1281,20 +1281,20 @@ $lang['ACTIVATE_CONFIRM'] = 'Esteu segur que voleu desactivar aquest usuari?';
 $lang['USER_ACTIVATE_OFF'] = 'Usuari ha estat amb èxit desactivat';
 
 // Register
-$lang['CHOOSE_A_NAME'] = 'Vostè ha de triar un nom';
+$lang['CHOOSE_A_NAME'] = 'Heu de triar un nom.';
 $lang['CHOOSE_E_MAIL'] = 'S\'ha d\'especificar l\'adreça d\'e-mail';
-$lang['CHOOSE_PASS'] = 'Camp de la contrasenya ha de ser no buit!';
-$lang['CHOOSE_PASS_ERR'] = 'Introduir les contrasenyes no coincideixen';
-$lang['CHOOSE_PASS_ERR_MIN'] = 'La seva contrasenya ha de ser com a mínim %d personatges';
+$lang['CHOOSE_PASS'] = 'El camp de la contrasenya no ha de ser buit!';
+$lang['CHOOSE_PASS_ERR'] = 'Les contrasenyes introduïdes no coincideixen.';
+$lang['CHOOSE_PASS_ERR_MIN'] = 'La vostra contrasenya ha de tenir com a mínim %d caràcters.';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'La teva contrasenya no pot tenir més de %d caràcters';
 $lang['CHOOSE_PASS_ERR_NUM'] = 'La contrasenya ha de contenir almenys un dígit';
 $lang['CHOOSE_PASS_ERR_LETTER'] = 'La contrasenya ha de contenir almenys una lletra de l\'alfabet llatí';
 $lang['CHOOSE_PASS_ERR_LETTER_UPPERCASE'] = 'La contrasenya ha de contenir almenys una lletra majúscula de l\'alfabet llatí';
 $lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'La contrasenya ha de contenir almenys un caràcter especial';
-$lang['CHOOSE_PASS_OK'] = 'Les contrasenyes partit';
-$lang['CHOOSE_PASS_REG_OK'] = 'Les contrasenyes partit, es pot procedir amb la inscripció';
-$lang['CHOOSE_PASS_FAILED'] = 'Per canviar la contrasenya, cal especificar correctament la contrasenya actual';
-$lang['EMAILER_DISABLED'] = 'Ho sentim, aquesta funció es troba temporalment no funciona';
+$lang['CHOOSE_PASS_OK'] = 'Les contrasenyes coincideixen.';
+$lang['CHOOSE_PASS_REG_OK'] = 'Les contrasenyes coincideixen, podeu procedir amb la inscripció.';
+$lang['CHOOSE_PASS_FAILED'] = 'Per canviar la contrasenya, heu de especificar correctament l\'actual.';
+$lang['EMAILER_DISABLED'] = 'Ho sentim, aquesta funció no està disponible temporalment.';
 $lang['REGISTERED_IN_TIME'] = "El registre està actualment tancat<br /><br />El registre està disponible durant: %s<br />Hora actual del servidor: %s<br /><br />Disculpa per qualsevol inconvenient";
 $lang['AUTOCOMPLETE'] = 'Generar contrasenya';
 $lang['YOUR_NEW_PASSWORD'] = 'La teva nova contrasenya:';
@@ -1316,17 +1316,17 @@ $lang['CUT_LOG'] = 'Cortar consultes llargues';
 $lang['DOWNLOAD_INFO'] = 'Descarregar lliure i a la màxima velocitat!';
 $lang['HOW_TO_DOWNLOAD'] = 'Com Descarregar?';
 $lang['WHAT_IS_A_TORRENT'] = 'Què és un torrent?';
-$lang['RATINGS_AND_LIMITATIONS'] = 'Qualificacions i Limitacions';
+$lang['RATINGS_AND_LIMITATIONS'] = 'Qualificacions i limitacions.';
 
-$lang['SCREENSHOTS_RULES'] = 'Llegir les regles establertes captures de pantalla!';
-$lang['AJAX_EDIT_OPEN'] = 'Ja has obert una ràpida edició!';
+$lang['SCREENSHOTS_RULES'] = 'Llegiu les regles establertes en captures de pantalla!';
+$lang['AJAX_EDIT_OPEN'] = 'Ja heu obert una edició ràpida!';
 $lang['GO_TO_PAGE'] = 'Anar a la pàgina ...';
 $lang['EDIT'] = 'Edita';
 $lang['SAVE'] = 'Guardar';
 $lang['NEW_WINDOW'] = 'en una nova finestra';
 
 // BB Code
-$lang['ALIGN'] = 'Align:';
+$lang['ALIGN'] = 'Alinear: ';
 $lang['LEFT'] = 'A l\'esquerra';
 $lang['RIGHT'] = 'A la dreta';
 $lang['CENTER'] = 'Centrat';
@@ -1335,7 +1335,7 @@ $lang['HOR_LINE'] = 'Línia horitzontal (Ctrl+8)';
 $lang['NEW_LINE'] = 'Nova línia';
 $lang['BOLD'] = 'Text en negreta: [b]text[/b] (Ctrl+B)';
 $lang['ITALIC'] = 'El text en cursiva: [i]text[/i] (Ctrl+I)';
-$lang['UNDERLINE'] = 'Underline text: [u]text[/u] (Ctrl+U)';
+$lang['UNDERLINE'] = 'Text subratllat: [u]text[/u] (Ctrl+U)';
 $lang['STRIKEOUT'] = 'Ratllat text: [s]text[/s] (Ctrl+S)';
 $lang['BOX_TAG'] = 'Marc al voltant del text: [box]text[/box] o [box=#333,#888]text[/box]';
 $lang['INDENT_TAG'] = 'Insereix indentació: [indent]text[/indent]';
@@ -1347,7 +1347,7 @@ $lang['QUOTE_TITLE'] = 'Cita de text: [quote]text[/quote] (Ctrl+Q)';
 $lang['IMG_TITLE'] = 'Insereix imatge: [img]https://image_url[/img] (Ctrl+R)';
 $lang['URL'] = 'URL';
 $lang['URL_TITLE'] = 'Insereix URL: [url]https://url[/url] o [url=https://url]text URL[/url] (Ctrl+W)';
-$lang['CODE_TITLE'] = 'Codi mostra: [code]code[/code] (Ctrl+K)';
+$lang['CODE_TITLE'] = 'Mostra de codi: [code]codi[/code] (Ctrl+K)';
 $lang['LIST'] = 'Llista';
 $lang['LIST_TITLE'] = 'Llista: [list]text[/list] (Ctrl+l)';
 $lang['LIST_ITEM'] = 'Llista ordenada: [list=]text[/list] (Ctrl+O)';
@@ -1364,79 +1364,79 @@ $lang['OLD'] = 'Edat';
 
 // DL-List
 $lang['DL_USER'] = 'Nom d\'usuari';
-$lang['DL_PERCENT'] = 'Completar % ';
+$lang['DL_PERCENT'] = 'Percentatge complet';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL';
-$lang['DL_UL_SPEED'] = 'UL velocitat';
-$lang['DL_DL_SPEED'] = 'DL velocitat';
+$lang['DL_UL_SPEED'] = 'Velocitat UL';
+$lang['DL_DL_SPEED'] = 'Velocitat DL';
 $lang['DL_PORT'] = 'Port';
 $lang['DL_CLIENT'] = 'Client de BitTorrent';
-$lang['DL_FORMULA'] = 'Fórmula: Pujades/TorrentSize';
+$lang['DL_FORMULA'] = 'Fórmula: Puja/TamanyTorrent';
 $lang['DL_ULR'] = 'ULR';
-$lang['DL_STOPPED'] = 'aturar';
+$lang['DL_STOPPED'] = 'aturat';
 $lang['DL_UPD'] = 'actualització post temps: ';
-$lang['DL_INFO'] = 'mostra dades <i><b>only per l\'actual session</b></i>';
+$lang['DL_INFO'] = 'mostra dades <i><b>només per a l\'actual sessió</b></i>';
 $lang['HIDE_PEER_TORRENT_CLIENT'] = 'Amaga el meu nom de client de BitTorrent a la llista de companys';
 $lang['HIDE_PEER_COUNTRY_NAME'] = 'Amaga el meu nom de país a la llista de companys';
 $lang['HIDE_PEER_USERNAME'] = 'Amaga el meu nom d\'usuari a la llista de companys';
 
 // Post PIN
-$lang['POST_PIN'] = 'Pin primer post';
-$lang['POST_UNPIN'] = 'No fixis primer post';
-$lang['POST_PINNED'] = 'Primer post, fixada';
-$lang['POST_UNPINNED'] = 'Primer post unpinned';
+$lang['POST_PIN'] = 'Fixar primer missatge';
+$lang['POST_UNPIN'] = 'Desfixar primer missatge';
+$lang['POST_PINNED'] = 'Primer missatge fixat';
+$lang['POST_UNPINNED'] = 'Primer missatge desfixat';
 
 // Management of my messages
-$lang['GOTO_MY_MESSAGE'] = 'Tancar i tornar a la llista de "els Meus Missatges"';
-$lang['DEL_MY_MESSAGE'] = 'Temes seleccionats han estat tretes de l\' "els Meus Missatges"';
-$lang['NO_TOPICS_MY_MESSAGE'] = 'No hi ha temes que es troben en la llista de les seves publicacions (potser ja heu eliminar-les)';
+$lang['GOTO_MY_MESSAGE'] = 'Tanca i torna a la llista de "Els meus missatges"';
+$lang['DEL_MY_MESSAGE'] = 'Els temes seleccionats han estat eliminats de "Els meus missatges"';
+$lang['NO_TOPICS_MY_MESSAGE'] = 'No hi ha temes a la llista de les teves publicacions (potser ja les has eliminades)';
 $lang['EDIT_MY_MESSAGE_LIST'] = 'edita la llista';
 $lang['SELECT_INVERT'] = 'selecciona / inverteix';
 $lang['RESTORE_ALL_POSTS'] = 'Restaura tots els missatges';
-$lang['DEL_LIST_MY_MESSAGE'] = 'Suprimir el tema seleccionat de la llista';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Després de la retirada de fins a actualitzar la <b>entire list</b> es pot mostrar ja suprimit fils';
-$lang['DEL_LIST_INFO'] = 'Per suprimir una ordre de la llista, feu clic sobre la icona a l\'esquerra del nom de qualsevol secció';
+$lang['DEL_LIST_MY_MESSAGE'] = 'Elimina el tema seleccionat de la llista';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Després de la retirada s\'actualitzarà la <b>llista sencera</b> i es podran mostrar fils ja suprimits';
+$lang['DEL_LIST_INFO'] = 'Per eliminar un ordre de la llista, feu clic a la icona a l\'esquerra dels noms de qualsevol secció';
 
 // Watched topics
-$lang['WATCHED_TOPICS'] = 'Vist temes';
+$lang['WATCHED_TOPICS'] = 'Temes vistos';
 $lang['NO_WATCHED_TOPICS'] = 'No seguint cap tema';
 
 // set_die_append_msg
-$lang['INDEX_RETURN'] = 'Tornada a pàgina d\'inici';
-$lang['FORUM_RETURN'] = 'Tornar al forum';
-$lang['TOPIC_RETURN'] = 'Tornant al tema';
-$lang['POST_RETURN'] = 'Anar a post';
-$lang['PROFILE_EDIT_RETURN'] = 'Tornar a l\'edició';
-$lang['PROFILE_RETURN'] = 'Anar al perfil';
+$lang['INDEX_RETURN'] = 'Torna a la pàgina d\'inici';
+$lang['FORUM_RETURN'] = 'Torna al fòrum';
+$lang['TOPIC_RETURN'] = 'Torna al tema';
+$lang['POST_RETURN'] = 'Anar a la publicació';
+$lang['PROFILE_EDIT_RETURN'] = 'Torna a l\'edició';
+$lang['PROFILE_RETURN'] = 'Visitar el perfil';
 
 $lang['WARNING'] = 'Avís';
 $lang['INDEXER'] = 'Dades de la cerca';
 $lang['INDEXER_SUCCESS'] = 'Índex de cerca actualitzat amb èxit';
 
-$lang['FORUM_STYLE'] = 'Fòrum d\'estil';
+$lang['FORUM_STYLE'] = 'Estil del fòrum';
 
 $lang['LINKS_ARE_FORBIDDEN'] = 'Els enllaços estan prohibits';
 
-$lang['GENERAL'] = 'General Admin';
-$lang['USERS'] = 'Usuari Admin';
-$lang['GROUPS'] = 'Grup Admin';
-$lang['FORUMS'] = 'Fòrum Admin';
+$lang['GENERAL'] = 'Administració general';
+$lang['USERS'] = 'Administració d\'usuaris';
+$lang['GROUPS'] = 'Administració de grups';
+$lang['FORUMS'] = 'Administració de fòrums';
 $lang['MODS'] = 'Modificacions';
 
 $lang['CONFIGURATION'] = 'Configuració';
 $lang['MANAGE'] = 'Gestió';
-$lang['DISALLOW'] = 'Disallow noms';
+$lang['DISALLOW'] = 'Desautoritzar noms';
 $lang['PRUNE'] = 'Poda';
-$lang['MASS_EMAIL'] = 'Massa Correu Electrònic';
+$lang['MASS_EMAIL'] = 'Correu electrònic massiu';
 $lang['RANKS'] = 'Files';
 $lang['SMILIES'] = 'Emoticones';
-$lang['BAN_MANAGEMENT'] = 'Prohibició De Control';
-$lang['WORD_CENSOR'] = 'Paraula Censura';
+$lang['BAN_MANAGEMENT'] = 'Control de prohibicions';
+$lang['WORD_CENSOR'] = 'Censura de paraules';
 $lang['EXPORT'] = 'Exportació';
 $lang['CREATE_NEW'] = 'Crear';
 $lang['ADD_NEW'] = 'Afegir';
-$lang['CRON'] = 'Tasca de Planificador (cron)';
-$lang['REBUILD_SEARCH_INDEX'] = 'Reconstruir índex de cerca';
+$lang['CRON'] = 'Planificador de tasques (cron)';
+$lang['REBUILD_SEARCH_INDEX'] = 'Reconstruir l\'índex de cerca';
 $lang['FORUM_CONFIG'] = 'Preferències del fòrum';
 $lang['ACTIONS_LOG'] = 'Informe sobre l\'acció';
 
@@ -1467,16 +1467,16 @@ $lang['MIGRATIONS_SETUP_GUIDE'] = 'Veure la guia de configuració a continuació
 $lang['MIGRATIONS_ACTION_REQUIRED'] = 'Acció requerida';
 
 // Index
-$lang['MAIN_INDEX'] = 'Índex Del Fòrum';
-$lang['FORUM_STATS'] = 'Estadístiques Del Fòrum';
-$lang['ADMIN_INDEX'] = 'Admin Índex';
+$lang['MAIN_INDEX'] = 'Índex del fòrum.';
+$lang['FORUM_STATS'] = 'Estadístiques del fòrum.';
+$lang['ADMIN_INDEX'] = 'Admin index.';
 $lang['CREATE_PROFILE'] = 'Crea el perfil';
 
 $lang['TP_VERSION'] = 'TorrentPier versió';
 $lang['TP_RELEASE_DATE'] = 'Data de llançament';
 $lang['PHP_INFO'] = 'Informació sobre PHP';
 
-$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Feu clic %sHere%s tornar a l\'Índex Admin';
+$lang['CLICK_RETURN_ADMIN_INDEX'] = 'Feu clic %sAquí%s per tornar a l\'índex admin.';
 
 $lang['NUMBER_POSTS'] = 'Nombre de missatges';
 $lang['POSTS_PER_DAY'] = 'Missatges per dia';
@@ -1484,9 +1484,9 @@ $lang['NUMBER_TOPICS'] = 'Nombre de temes';
 $lang['TOPICS_PER_DAY'] = 'Temes per dia';
 $lang['NUMBER_USERS'] = 'Nombre d\'usuaris';
 $lang['USERS_PER_DAY'] = 'Usuaris per dia';
-$lang['BOARD_STARTED'] = 'Consell de començar';
-$lang['AVATAR_DIR_SIZE'] = 'Avatar directori mida';
-$lang['DATABASE_SIZE'] = 'Mida de la base de dades';
+$lang['BOARD_STARTED'] = 'Consell de començar.';
+$lang['AVATAR_DIR_SIZE'] = 'Mida del directori d\'avatars.';
+$lang['DATABASE_SIZE'] = 'Mida de la base de dades.';
 $lang['GZIP_COMPRESSION'] = 'La compressió Gzip';
 $lang['NOT_AVAILABLE'] = 'No disponible';
 
@@ -1501,19 +1501,19 @@ $lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (utilitzat: %s | lliure: %s)';
 $lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Temps d\'execució màxim:';
 
 // Clear Cache
-$lang['DATASTORE'] = 'Datastore';
+$lang['DATASTORE'] = 'Emmagatzematge.';
 $lang['CLEAR_CACHE'] = 'Esborrar caché';
 $lang['CLEAR_TEMPLATES_CACHE'] = 'Caché de plantilles';
 
 // Update
 $lang['USER_LEVELS'] = 'Nivells d\'usuari';
-$lang['USER_LEVELS_UPDATED'] = 'Usuari nivells s\'han actualitzat';
+$lang['USER_LEVELS_UPDATED'] = 'Els nivells d\'usuaris s\'han actualitzat.';
 
 // Synchronize
 $lang['SYNCHRONIZE'] = 'Sincronitza';
-$lang['TOPICS_DATA_SYNCHRONIZED'] = 'Temes dades han estat sincronitzats';
-$lang['USER_POSTS_COUNT'] = 'Usuari missatges comte';
-$lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Usuari missatges recompte s\'ha sincronitzat';
+$lang['TOPICS_DATA_SYNCHRONIZED'] = 'Les dades dels temes han estat sincronitzades.';
+$lang['USER_POSTS_COUNT'] = 'Recompte de missatges d\'usuari.';
+$lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'El recompte de missatges d\'usuari s\'ha sincronitzat.';
 
 // Online Userlist
 $lang['SHOW_ONLINE_USERLIST'] = 'Mostra la llista d\'usuaris en línia';
@@ -1524,154 +1524,154 @@ $lang['ROBOTS_TXT_UPDATED_SUCCESSFULLY'] = 'El fitxer robots.txt s\'ha actualitz
 $lang['CLICK_RETURN_ROBOTS_TXT_CONFIG'] = '%sFes clic aquí per tornar a la gestió de robots.txt%s';
 
 // Auth pages
-$lang['USER_SELECT'] = 'Seleccioneu un Usuari';
-$lang['GROUP_SELECT'] = 'Seleccioneu un Grup';
-$lang['SELECT_A_FORUM'] = 'Seleccioneu un Fòrum';
-$lang['AUTH_CONTROL_USER'] = 'Usuari Permisos De Control';
-$lang['AUTH_CONTROL_GROUP'] = 'Grup De Permisos De Control';
-$lang['AUTH_CONTROL_FORUM'] = 'Fòrum Permisos De Control';
-$lang['LOOK_UP_FORUM'] = 'Veure Fòrum';
+$lang['USER_SELECT'] = 'Seleccioneu un usuari.';
+$lang['GROUP_SELECT'] = 'Seleccioneu un grup.';
+$lang['SELECT_A_FORUM'] = 'Seleccioneu un fòrum.';
+$lang['AUTH_CONTROL_USER'] = 'Control de permisos d\'usuari.';
+$lang['AUTH_CONTROL_GROUP'] = 'Control de permisos de grup.';
+$lang['AUTH_CONTROL_FORUM'] = 'Control de permisos del fòrum.';
+$lang['LOOK_UP_FORUM'] = 'Cerca del fòrum.';
 
-$lang['GROUP_AUTH_EXPLAIN'] = 'Aquí podreu canviar els permisos i moderador estat assignat a cada grup d\'usuaris. No t\'oblidis quan es canvia de grup permisos que l\'usuari individual permisos encara pot permetre a l\'usuari d\'entrada a fòrums, etc. Se us avisarà si aquest és el cas.';
-$lang['USER_AUTH_EXPLAIN'] = 'Aquí podreu canviar els permisos i moderador estat assignat a cada usuari. No t\'oblidis quan es canvia d\'usuari permisos d\'aquest grup permisos encara pot permetre a l\'usuari d\'entrada a fòrums, etc. Se us avisarà si aquest és el cas.';
-$lang['FORUM_AUTH_EXPLAIN'] = 'Aquí podeu modificar l\'autorització nivells de cada fòrum. Vostè tindrà tant d\'un simple i avançada mètode per fer-ho, on avançada ofereix un major control de cada fòrum a l\'operació. Recordeu que el canvi de nivell de permisos dels fòrums afectarà els usuaris la poden dur a terme les diferents operacions en elles.';
+$lang['GROUP_AUTH_EXPLAIN'] = 'Aquí podeu canviar els permisos i l\'estat de moderador assignat a cada grup d\'usuaris. No us oblideu que quan canvieu els permisos del grup, els permisos d\'usuari individuals poden seguir permetent l\'entrada dels usuaris als fòrums, etc. Se us avisarà si aquest és el cas.';
+$lang['USER_AUTH_EXPLAIN'] = 'Aquí podeu canviar els permisos i l\'estat de moderador assignat a cada usuari. No us oblideu que quan canvieu els permisos d\'usuari, els permisos de grup poden seguir permetent l\'entrada dels usuaris als fòrums, etc. Se us avisarà si aquest és el cas.';
+$lang['FORUM_AUTH_EXPLAIN'] = 'El formulari següent us permet personalitzar totes les opcions generals del tauler. Per a configuracions d\'usuari i fòrum, utilitzeu els enllaços relacionats a la banda esquerra.';
 
-$lang['SIMPLE_MODE'] = 'Simple Modalitat';
+$lang['SIMPLE_MODE'] = 'Mode simple.';
 $lang['ADVANCED_MODE'] = 'Mode Avançat';
-$lang['MODERATOR_STATUS'] = 'Moderador estat';
+$lang['MODERATOR_STATUS'] = 'Estat de moderador.';
 
-$lang['PUBLIC'] = 'Públiques';
-$lang['PRIVATE'] = 'Privat';
-$lang['REGISTERED'] = 'Registrat';
-$lang['ADMINISTRATORS'] = 'Els administradors';
+$lang['PUBLIC'] = 'Públic.';
+$lang['PRIVATE'] = 'Privat.';
+$lang['REGISTERED'] = 'Registrat.';
+$lang['ADMINISTRATORS'] = 'Administradors.';
 
 // These are displayed in the drop-down boxes for advanced mode forum auth, try and keep them short!
-$lang['FORUM_ALL'] = 'TOT';
-$lang['FORUM_REG'] = 'REG';
-$lang['FORUM_PRIVATE'] = 'PRIVAT';
-$lang['FORUM_MOD'] = 'MOD';
-$lang['FORUM_ADMIN'] = 'ADMIN';
+$lang['FORUM_ALL'] = 'Tots.';
+$lang['FORUM_REG'] = 'REG.';
+$lang['FORUM_PRIVATE'] = 'Privat.';
+$lang['FORUM_MOD'] = 'MOD.';
+$lang['FORUM_ADMIN'] = 'ADMIN.';
 
-$lang['AUTH_VIEW'] = $lang['VIEW'] = 'Vista';
-$lang['AUTH_READ'] = $lang['READ'] = 'Llegir';
-$lang['AUTH_POST'] = $lang['POST'] = 'Missatge';
-$lang['AUTH_REPLY'] = $lang['REPLY'] = 'Resposta';
-$lang['AUTH_EDIT'] = $lang['EDIT'] = 'Edita';
-$lang['AUTH_DELETE'] = $lang['DELETE'] = 'Esborrar';
-$lang['AUTH_STICKY'] = $lang['STICKY'] = 'Sticky';
-$lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Anunciar';
-$lang['AUTH_VOTE'] = $lang['VOTE'] = 'Votació';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Enquesta crear';
-$lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post Fitxers';
-$lang['AUTH_DOWNLOAD'] = 'Descàrrega De Fitxers';
+$lang['AUTH_VIEW'] = $lang['VIEW'] = 'Vista.';
+$lang['AUTH_READ'] = $lang['READ'] = 'Llegir.';
+$lang['AUTH_POST'] = $lang['POST'] = 'Missatge.';
+$lang['AUTH_REPLY'] = $lang['REPLY'] = 'Resposta.';
+$lang['AUTH_EDIT'] = $lang['EDIT'] = 'Edita.';
+$lang['AUTH_DELETE'] = $lang['DELETE'] = 'Esborrar.';
+$lang['AUTH_STICKY'] = $lang['STICKY'] = 'Fixat';
+$lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Anunciar.';
+$lang['AUTH_VOTE'] = $lang['VOTE'] = 'Votació.';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Crear enquesta.';
+$lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Adjuntar fitxers.';
+$lang['AUTH_DOWNLOAD'] = 'Descarregar fitxers.';
 
-$lang['USER_LEVEL'] = 'A Nivell D\'Usuari';
-$lang['AUTH_USER'] = 'Usuari';
-$lang['AUTH_ADMIN'] = 'Administrador';
-$lang['FORUM_AUTH_UPDATED'] = 'Fòrum permisos s\'han actualitzat';
+$lang['USER_LEVEL'] = 'Nivell d\'usuari.';
+$lang['AUTH_USER'] = 'Usuari.';
+$lang['AUTH_ADMIN'] = 'Administrador.';
+$lang['FORUM_AUTH_UPDATED'] = 'Els permisos del fòrum s\'han actualitzat.';
 
-$lang['AUTH_UPDATED'] = 'Permisos s\'han actualitzat';
+$lang['AUTH_UPDATED'] = 'Els permisos s\'han actualitzat.';
 $lang['AUTH_GENERAL_ERROR'] = 'No es va poder actualitzar l\'estat d\'administració';
 $lang['AUTH_SELF_ERROR'] = 'No es pot canviar d\'administrador a usuari';
 $lang['NO_FORUMS_AVAILABLE'] = 'No hi ha fòrums disponibles. Creeu fòrums primer per gestionar permisos.';
-$lang['CLICK_RETURN_USERAUTH'] = 'Feu clic %sHere%s per tornar a Permisos d\'Usuari';
-$lang['CLICK_RETURN_GROUPAUTH'] = 'Feu clic %sHere%s per tornar a Grup de Permisos';
-$lang['CLICK_RETURN_FORUMAUTH'] = 'Feu clic %sHere%s per tornar a Fòrum de Permisos';
+$lang['CLICK_RETURN_USERAUTH'] = 'Feu clic %sAquí%s per tornar a permisos d\'usuari.';
+$lang['CLICK_RETURN_GROUPAUTH'] = 'Feu clic %sAquí%s per tornar a permisos de grup.';
+$lang['CLICK_RETURN_FORUMAUTH'] = 'Feu clic %sAquí%s per tornar a permisos de fòrum.';
 
 // Banning
-$lang['BAN_CONTROL'] = 'Prohibició De Control';
+$lang['BAN_CONTROL'] = 'Control de prohibicions.';
 $lang['BAN_EXPLAIN'] = 'Aquí podeu controlar l\'exclusió d\'usuaris.';
-$lang['BAN_USERNAME'] = 'La prohibició d\'un o més usuaris específics';
+$lang['BAN_USERNAME'] = 'Prohibit un o més usuaris específics.';
 $lang['BAN_USERNAME_EXPLAIN'] = 'Vostè pot prohibir a múltiples usuaris en un anar amb la combinació adequada de ratolí i teclat de l\'ordinador i el navegador';
 $lang['UNBAN_USERNAME'] = 'Desavantatge un o més usuaris específics';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Podeu unban a múltiples usuaris en un anar amb la combinació adequada de ratolí i teclat de l\'ordinador i el navegador';
-$lang['NO_BANNED_USERS'] = 'No hi ha prohibit el nom d\'usuari';
+$lang['NO_BANNED_USERS'] = 'No hi ha noms d\'usuari prohibits.';
 $lang['BAN_UPDATE_SUCESSFUL'] = 'La banlist s\'ha actualitzat amb èxit';
 $lang['CLICK_RETURN_BANADMIN'] = 'Feu clic %sHere%s per tornar a la Prohibició de Control';
 
 // Configuration
 $lang['GENERAL_CONFIG'] = 'Configuració General';
-$lang['CONFIG_EXPLAIN'] = 'El següent formulari us permet personalitzar totes la direccio general de les opcions. Per a l\'Usuari i Fòrum configuracions utilitzar els enllaços relacionats a la banda esquerra.';
+$lang['CONFIG_EXPLAIN'] = 'El formulari següent us permet personalitzar totes les opcions generals del fòrum. Utilitzeu els enllaços relacionats a l\'esquerra per a configuracions d\'usuari i fòrum.';
 
 $lang['CONFIG_MODS'] = 'Modificacions de la configuració';
 $lang['MODS_EXPLAIN'] = 'Aquest formulari us permet ajustar les modificacions';
 
-$lang['CLICK_RETURN_CONFIG'] = '%sClick Aquí per tornar a General Configuration%s';
-$lang['CLICK_RETURN_CONFIG_MODS'] = '%sBack a la configuració modifications%s';
+$lang['CLICK_RETURN_CONFIG'] = '%sFeu clic Aquí per tornar a la Configuració General%s';
+$lang['CLICK_RETURN_CONFIG_MODS'] = '%sTornar a les modificacions de la configuració%s';
 
-$lang['GENERAL_SETTINGS'] = 'Consell General De Configuració';
+$lang['GENERAL_SETTINGS'] = 'Configuració General del Fòrum';
 $lang['SITE_NAME'] = 'Nom del lloc';
 $lang['SITE_DESC'] = 'Descripció del lloc';
-$lang['FORUMS_DISABLE'] = 'Desactivar consell';
-$lang['BOARD_DISABLE_EXPLAIN'] = 'Això farà que el consell no disponibles per als usuaris. Els administradors són capaços d\'accedir al Panell d\'Administració, mentre que la junta està desactivat.';
+$lang['FORUMS_DISABLE'] = 'Desactivar el fòrum';
+$lang['BOARD_DISABLE_EXPLAIN'] = 'Això farà que el fòrum sigui inaccessible per als usuaris. Els administradors poden accedir al Panell d\'Administració mentre el fòrum estigui desactivat.';
 $lang['ACC_NONE'] = 'Cap'; // These three entries are the type of activation
 $lang['ACC_USER'] = 'Usuari';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_ADMIN'] = 'Adminstrador';
 
 $lang['ABILITIES_SETTINGS'] = 'Usuari i Fòrum Configuració Bàsica';
 $lang['MAX_POLL_OPTIONS'] = 'Nombre màxim d\'opcions de l\'enquesta';
-$lang['FLOOD_INTERVAL'] = 'Inundació Interval';
-$lang['FLOOD_INTERVAL_EXPLAIN'] = 'Nombre de segons que un usuari ha d\'esperar que entre els pals';
+$lang['FLOOD_INTERVAL'] = 'Interval d\'Inundació';
+$lang['FLOOD_INTERVAL_EXPLAIN'] = 'Nombre de segons que un usuari ha d\'esperar entre missatges';
 $lang['TOPICS_PER_PAGE'] = 'Temes Per Pàgina';
 $lang['POSTS_PER_PAGE'] = 'Missatges Per Pàgina';
-$lang['HOT_THRESHOLD'] = 'Missatges per als Populars Llindar';
+$lang['HOT_THRESHOLD'] = 'Missatges per als Llindars Populars';
 $lang['DEFAULT_LANGUAGE'] = 'Idioma Per Defecte';
 $lang['DATE_FORMAT'] = 'El Format De La Data';
 $lang['SYSTEM_TIMEZONE'] = 'Zona Horària Del Sistema';
 $lang['ENABLE_PRUNE'] = 'Activar Fòrum Poda';
 $lang['ALLOW_BBCODE'] = 'Permet BBCode';
-$lang['ALLOW_SMILIES'] = 'Permet Emoticones';
-$lang['SMILIES_PATH'] = 'Emoticones Emmagatzematge Camí';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Camí sota la seva TorrentPier arrel dir, per exemple, estils/images/somriures';
+$lang['ALLOW_SMILIES'] = 'Permetre Emoticones';
+$lang['SMILIES_PATH'] = 'Camí d\'Emmagatzematge Emoticones';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Camí sota el vostre directori arrel TorrentPier, per exemple, estils/images/somriures.';
 $lang['ALLOW_SIG'] = 'Permet Signatures';
 $lang['MAX_SIG_LENGTH'] = 'Màxima longitud de la signatura';
-$lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Nombre màxim de caràcters que l\'usuari signatures';
+$lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Nombre màxim de caràcters en les signatures d\'usuari';
 $lang['ALLOW_NAME_CHANGE'] = 'Permeten canvis de nom d\'Usuari';
 
 // Autologin Keys
 $lang['ALLOW_AUTOLOGIN'] = 'Permet inicis de sessió automàtic';
-$lang['ALLOW_AUTOLOGIN_EXPLAIN'] = 'Determina si els usuaris poden seleccionar per a ser registrat de forma automàtica quan es visita el fòrum';
-$lang['AUTOLOGIN_TIME'] = 'Inici de sessió automàtic de la clau de caducitat';
-$lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Quant de temps un autologin clau és vàlida per a dies si l\'usuari no visita la junta directiva. Posada a zero per desactivar caducitat.';
+$lang['ALLOW_AUTOLOGIN_EXPLAIN'] = 'Determina si als usuaris se\'ls permet seleccionar ser registrats automàticament quan visiten el fòrum.';
+$lang['AUTOLOGIN_TIME'] = 'Caducitat de la clau d\'inici de sessió automàtic';
+$lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Quant de temps és vàlid una clau d\'inici de sessió automàtic en dies si l\'usuari no visita el fòrum.';
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Fòrum De L\'Administració';
 $lang['EDIT_FORUM'] = 'Edita fòrum';
-$lang['CREATE_FORUM'] = 'Crear nous fòrum';
+$lang['CREATE_FORUM'] = 'Crear un nou fòrum.';
 $lang['CREATE_SUB_FORUM'] = 'Crear subfòrum';
-$lang['CREATE_CATEGORY'] = 'Crear nova categoria';
+$lang['CREATE_CATEGORY'] = 'Crear una nova categoria.';
 $lang['REMOVE'] = 'Eliminar';
 $lang['CONFIG_UPDATED'] = 'Fòrum De Configuració S\'Ha Actualitzat Amb Èxit';
 $lang['MOVE_UP'] = 'Mou amunt';
 $lang['MOVE_DOWN'] = 'Mou avall';
 $lang['RESYNC'] = 'Torna a sincronitzar';
-$lang['NO_MODE'] = 'Cap mode, es va establir';
+$lang['NO_MODE'] = 'Cap mode establert.';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'El formulari següent us permet personalitzar totes les opcions generals del tauler. Per a les configuracions d\'usuari i de fòrum, utilitzeu els enllaços relacionats a la banda esquerra.';
 
 $lang['MOVE_CONTENTS'] = 'Moure tots els continguts';
 $lang['FORUM_DELETE'] = 'Esborrar Fòrum';
-$lang['FORUM_DELETE_EXPLAIN'] = 'El següent formulari us permet esborrar un fòrum (o categoria) i decidiu on voleu posar tots els temes (o fòrums) que conté.';
+$lang['FORUM_DELETE_EXPLAIN'] = 'El formulari següent us permetrà esborrar un fòrum (o categoria) i decidir on voleu posar tots els temes (o fòrums) que contenia.';
 $lang['CATEGORY_DELETE'] = 'Eliminar Una Categoria';
 $lang['CATEGORY_NAME_EMPTY'] = 'Nom de la categoria no especificat';
 
 $lang['STATUS_LOCKED'] = 'Tancat';
-$lang['STATUS_UNLOCKED'] = 'Obert';
+$lang['STATUS_UNLOCKED'] = 'Obert.';
 $lang['FORUM_SETTINGS'] = 'Fòrum General De Configuració';
-$lang['FORUM_NAME'] = 'Fòrum nom';
+$lang['FORUM_NAME'] = 'Nom del fòrum.';
 $lang['FORUM_DESC'] = 'Descripció';
 $lang['FORUM_STATUS'] = 'Fòrum estat';
 $lang['FORUM_PRUNING'] = 'Auto-poda';
 
-$lang['PRUNE_DAYS'] = 'Treure temes que no han estat publicats en';
+$lang['PRUNE_DAYS'] = 'Treure temes que no han estat publicats en.';
 
 $lang['MOVE_AND_DELETE'] = 'Moure i Esborrar';
 
 $lang['DELETE_ALL_POSTS'] = 'Esborrar tots els missatges';
-$lang['DELETE_ALL_TOPICS'] = 'Eliminar tots els temes, incloent anuncis i enganxós';
-$lang['NOWHERE_TO_MOVE'] = 'Enlloc de passar a';
+$lang['DELETE_ALL_TOPICS'] = 'Esborrar tots els temes, incloent anuncis i enganxós.';
+$lang['NOWHERE_TO_MOVE'] = 'No hi ha un lloc on moure\'s.';
 
 $lang['EDIT_CATEGORY'] = 'Editar Categoria';
-$lang['EDIT_CATEGORY_EXPLAIN'] = 'Utilitzeu aquest formulari per modificar una categoria nom.';
+$lang['EDIT_CATEGORY_EXPLAIN'] = 'Utilitzeu aquest formulari per modificar el nom d\'una categoria.';
 
 $lang['FORUMS_UPDATED'] = 'Fòrum i Categoria informació actualitzada amb èxit';
 
@@ -1682,43 +1682,43 @@ $lang['CLICK_RETURN_FORUMADMIN'] = 'Feu clic %sHere%s per tornar a Fòrum de l\'
 $lang['SHOW_ALL_FORUMS_ON_ONE_PAGE'] = 'Mostra tots els fòrums en una pàgina';
 
 // Smiley Management
-$lang['SMILEY_TITLE'] = 'Somriures Edició D\'Utilitat';
+$lang['SMILEY_TITLE'] = 'Utilitat d\'edició d\'emoticones.';
 $lang['SMILE_DESC'] = 'Des d\'aquesta pàgina es pot afegir, eliminar i editar les emoticones o smileys que els usuaris poden utilitzar en les seves publicacions i els missatges privats.';
 
-$lang['SMILEY_CONFIG'] = 'Icona De Configuració';
-$lang['SMILEY_CODE'] = 'Smiley Codi';
-$lang['SMILEY_URL'] = 'Smiley Fitxer D\'Imatge';
-$lang['SMILEY_EMOT'] = 'Smiley Emoció';
+$lang['SMILEY_CONFIG'] = 'Configuració d\'emoticones.';
+$lang['SMILEY_CODE'] = 'Codi Emoticon.';
+$lang['SMILEY_URL'] = 'Fitxer d\'imatge d\'emoticon.';
+$lang['SMILEY_EMOT'] = 'Emoció d\'emoticones.';
 $lang['SMILE_ADD'] = 'Afegir una nova Icona';
 $lang['SMILE'] = 'Somriure';
 $lang['EMOTION'] = 'Emoció';
 
 $lang['SELECT_PAK'] = 'Seleccioneu Pack (.pak) Fitxer';
-$lang['REPLACE_EXISTING'] = 'Substituir Les Emoticones';
-$lang['KEEP_EXISTING'] = 'Mantenir Existents Smiley';
-$lang['SMILEY_IMPORT_INST'] = 'Vostè ha de descomprimir el somriure paquet i pujar tots els fitxers a la corresponent Icona de directori de la vostra instal·lació. A continuació, seleccioneu la informació correcta en aquest formulari per a la importació de l\'emoticona pack.';
+$lang['REPLACE_EXISTING'] = 'Substituir les emoticones.';
+$lang['KEEP_EXISTING'] = 'Mantenir les emoticones existents.';
+$lang['SMILEY_IMPORT_INST'] = 'Heu de descomprimir el paquet d\'emoticones i pujar tots els fitxers al directori d\'emoticones corresponent de la vostra instal·lació. A continuació, seleccioneu la informació correcta en aquest formulari per importar el paquet d\'emoticones.';
 $lang['SMILEY_IMPORT'] = 'Smiley Pack D\'Importació';
 $lang['CHOOSE_SMILE_PAK'] = 'Triar un Somriure Pack .pak fitxer';
 $lang['IMPORT'] = 'Importació Smileys';
 $lang['SMILE_CONFLICTS'] = 'Què cal fer en cas de conflictes';
-$lang['DEL_EXISTING_SMILEYS'] = 'Esborrar existents smileys abans d\'importació';
+$lang['DEL_EXISTING_SMILEYS'] = 'Esborrar els emoticones existents abans de la importació.';
 $lang['IMPORT_SMILE_PACK'] = 'Importació Smiley Pack';
 $lang['EXPORT_SMILE_PACK'] = 'Crear Smiley Pack';
-$lang['EXPORT_SMILES'] = 'Per a crear una icona paquet des del seu instal·lats actualment emoticones, feu clic a %sHere%s descarregar els somriures.pak fitxer. El nom d\'aquest fitxer degudament assegurant-se de mantenir l\' .pak extensió de fitxer. Després de crear un fitxer zip que conté tots els del seu somriure imatges més aquesta .pak fitxer de configuració.';
+$lang['EXPORT_SMILES'] = 'Per crear un paquet d\'emoticones a partir dels emoticones actualment instal·lats, feu clic a %s aquí %s per descarregar el fitxer smiles.pak. Doneu-li un nom apropiat, assegurant-vos de mantenir l\'extensió de fitxer .pak. Després, creeu un fitxer zip que contingui totes les imatges d\'emoticones així com aquest fitxer de configuració .pak.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'El Somriure s\'ha afegit amb èxit';
 $lang['SMILEY_EDIT_SUCCESS'] = 'El Somriure s\'ha actualitzat amb èxit';
-$lang['SMILEY_IMPORT_SUCCESS'] = 'L\'Emoticona Pack ha estat importat amb èxit!';
+$lang['SMILEY_IMPORT_SUCCESS'] = 'El paquet d\'emoticones ha estat importat amb èxit!';
 $lang['SMILEY_DEL_SUCCESS'] = 'El Somriure ha estat eliminat amb èxit';
 $lang['CLICK_RETURN_SMILEADMIN'] = 'Feu clic %sHere%s per tornar a Somriure Administració';
 
 // User Management
-$lang['USER_ADMIN'] = 'L\'Usuari De L\'Administració';
+$lang['USER_ADMIN'] = 'Administració d\'usuaris.';
 $lang['LOOK_UP_USER'] = 'Buscar usuari';
 
 // Group Management
-$lang['GROUP_ADMINISTRATION'] = 'Grup Administració';
-$lang['GROUP_ADMIN_EXPLAIN'] = 'Des d\'aquest panell podreu gestionar tots els seus usergroups. Pots suprimir, crear i editar els grups existents. Vostè pot triar els moderadors, canviar obert/tancat estat del grup i establir el nom del grup i descripció';
+$lang['GROUP_ADMINISTRATION'] = 'Administració de grups.';
+$lang['GROUP_ADMIN_EXPLAIN'] = 'Des d\'aquest panell, podeu administrar els vostres grups d\'usuaris. Podeu suprimir, crear i editar grups existents. Podeu triar moderadors, canviar l\'estat del grup obert/tancat i establir el nom i la descripció del grup.';
 $lang['UPDATED_GROUP'] = 'El grup ha estat actualitzat amb èxit';
 $lang['ADDED_NEW_GROUP'] = 'El nou grup s\'ha creat amb èxit';
 $lang['DELETED_GROUP'] = 'El grup ha estat esborrat correctament';
@@ -1732,40 +1732,40 @@ $lang['NO_GROUP_MODERATOR'] = 'Heu d\'especificar un moderador per a aquest grup
 $lang['NO_GROUP_MODE'] = 'Heu d\'especificar un mode per a aquest grup, obert o tancat';
 $lang['NO_GROUP_ACTION'] = 'Cap acció s\'ha especificat';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Suprimir l\'antic grup moderador?';
-$lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Si esteu canviant el grup moderador, marqueu aquesta casella per a eliminar l\'antic moderador del grup. En cas contrari, no comprovar-ho, i l\'usuari es converteix en una de regular membre del grup.';
-$lang['CLICK_RETURN_GROUPSADMIN'] = 'Feu clic %sHere%s per tornar a Grup de l\'Administració.';
+$lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Si esteu canviant el moderador del grup, marqueu aquesta casella per eliminar l\'antic moderador del grup. En cas contrari, no la marqueu, i l\'usuari passarà a ser un membre normal del grup.';
+$lang['CLICK_RETURN_GROUPSADMIN'] = 'Feu clic %s aquí %s per tornar a l\'administració del grup.';
 $lang['SELECT_GROUP'] = 'Seleccioneu un grup';
 $lang['LOOK_UP_GROUP'] = 'Buscar grup';
 
 // Prune Administration
-$lang['FORUM_PRUNE'] = 'Fòrum De Podar';
-$lang['FORUM_PRUNE_EXPLAIN'] = 'Això suprimirà qualsevol tema que no s\'ha publicat dins el nombre de dies que seleccioneu. Si no introduïu un número de llavors tots els temes seran esborrats. No eliminar <b>sticky</b> temes i <b>announcements</b>. Vostè haurà de treure aquests temes de forma manual.';
-$lang['DO_PRUNE'] = 'Fer Podar';
+$lang['FORUM_PRUNE'] = 'Fòrum de poda.';
+$lang['FORUM_PRUNE_EXPLAIN'] = 'Això eliminarà qualsevol tema que no s\'hagi publicat en el nombre de dies que seleccioneu. Si no introduïu un número, llavors tots els temes seran esborrats. No es eliminaran els temes <b>sticky</b> i <b>announcements</b>. Haureu d\'eliminar manualment aquests temes.';
+$lang['DO_PRUNE'] = 'Fer poda.';
 $lang['ALL_FORUMS'] = 'Tots Els Fòrums';
-$lang['PRUNE_TOPICS_NOT_POSTED'] = 'Podem temes amb cap de les respostes en aquesta molts dies';
-$lang['TOPICS_PRUNED'] = 'Temes podat';
-$lang['PRUNE_SUCCESS'] = 'Fòrum ha estat podat amb èxit';
-$lang['NOT_DAYS'] = 'Podem dies no seleccionada';
+$lang['PRUNE_TOPICS_NOT_POSTED'] = 'Podar temes sense respostes en aquests dies.';
+$lang['TOPICS_PRUNED'] = 'Temes podats.';
+$lang['PRUNE_SUCCESS'] = 'El fòrum ha estat podat amb èxit.';
+$lang['NOT_DAYS'] = 'Els dies de poda no seleccionats.';
 
 // Word censor
 $lang['WORDS_TITLE'] = 'Paraula Censura';
-$lang['WORDS_EXPLAIN'] = 'Des d\'aquest tauler de control podeu afegir, editar i eliminar les paraules que serà automàticament censurada en el seu fòrums. A més a més la gent no serà permès el registre amb els noms que continguin aquestes paraules. Els comodins (*) són acceptats en la paraula de camp. Per exemple, *prova* coincidirà amb detestables, prova* hauria de coincidir amb proves, *prova coincidirà detest.';
+$lang['WORDS_EXPLAIN'] = 'Des d\'aquest panell de control, podeu afegir, editar i eliminar paraules que seran automàticament censurades als vostres fòrums. A més, no se\'ls permetrà registrar-se amb noms d\'usuari que continguin aquestes paraules. S\'accepten caràcters comodí (*) en el camp de paraules. Per exemple, *test* coincidirà amb detestables, test* coincidirà amb proves, *test coincidirà detest.';
 $lang['WORD'] = 'Paraula';
-$lang['EDIT_WORD_CENSOR'] = 'Edita paraula censura';
+$lang['EDIT_WORD_CENSOR'] = 'Edita la censura de paraules.';
 $lang['REPLACEMENT'] = 'Substitució';
-$lang['ADD_NEW_WORD'] = 'Afegir nou paraula';
+$lang['ADD_NEW_WORD'] = 'Afegir nova paraula.';
 
 $lang['MUST_ENTER_WORD'] = 'Heu d\'introduir una paraula i la seva substitució';
-$lang['NO_WORD_SELECTED'] = 'Cap paraula seleccionats per a l\'edició';
+$lang['NO_WORD_SELECTED'] = 'Cap paraula seleccionada per a l\'edició.';
 
-$lang['WORD_UPDATED'] = 'La paraula seleccionada censurar s\'ha actualitzat amb èxit';
+$lang['WORD_UPDATED'] = 'La censura de paraula seleccionada s\'ha actualitzat amb èxit.';
 $lang['WORD_ADDED'] = 'La paraula censura s\'ha afegit amb èxit';
-$lang['WORD_REMOVED'] = 'La paraula seleccionada censurar ha estat eliminat amb èxit ';
+$lang['WORD_REMOVED'] = 'La censura de paraula seleccionada ha estat eliminada amb èxit.';
 
-$lang['CLICK_RETURN_WORDADMIN'] = 'Feu clic %sHere%s per tornar a la Paraula de Censurar Administració';
+$lang['CLICK_RETURN_WORDADMIN'] = 'Feu clic %s aquí %s per tornar a l\'administració de censura de paraules.';
 
 // Mass Email
-$lang['MASS_EMAIL_EXPLAIN'] = 'Aquí podeu enviar un missatge a tots els usuaris ni a tots els usuaris d\'un determinat grup. Per fer-ho, s\'enviarà un correu electrònic a terme a la via administrativa adreça de correu electrònic facilitades, amb una còpia oculta enviat a tots els destinataris. Si vostè està enviant un correu electrònic a un gran grup de persones si us plau sigui pacient després de la presentació i no paren de la pàgina a la meitat. És normal que una massa enviament per correu electrònic a prendre un llarg temps i se us notificarà quan el guió ha completat';
+$lang['MASS_EMAIL_EXPLAIN'] = 'Aquí podeu enviar un missatge a tots els usuaris o a tots els usuaris d\'un grup específic. Per fer-ho, s\'enviarà un correu electrònic a l\'adreça de correu electrònic administrativa que heu proporcionat, amb una còpia oculta enviada a tots els destinataris. Si esteu enviant un correu electrònic a un gran grup de persones, si us plau, tingueu paciència després d\'enviar-ho i no tanqueu la pàgina a la meitat. És normal que un correu electrònic massiu trigui molt de temps i se us notificarà quan el guió s\'hagi completat.';
 $lang['COMPOSE'] = 'Redacció';
 
 $lang['RECIPIENTS'] = 'Destinataris';
@@ -1774,14 +1774,14 @@ $lang['ALL_USERS'] = 'Tots Els Usuaris';
 $lang['MASS_EMAIL_MESSAGE_TYPE'] = 'Tipus de correu electrònic';
 
 // Ranks admin
-$lang['RANKS_TITLE'] = 'Classificació De L\'Administració';
-$lang['RANKS_EXPLAIN'] = 'Mitjançant aquest formulari podeu afegir, editar, visualitzar i esborrar files. També podeu crear personalitzada files que es pot aplicar a un usuari a través de la gestió d\'usuaris equipament';
+$lang['RANKS_TITLE'] = 'Administració de classificacions.';
+$lang['RANKS_EXPLAIN'] = 'Mitjançant aquest formulari podeu afegir, editar, visualitzar i esborrar rangs. També podeu crear rangs personalitzats que es poden aplicar a un usuari a través de la gestió d\'usuaris.';
 
 $lang['ADD_NEW_RANK'] = 'Afegir nou rang';
-$lang['RANK_TITLE'] = 'Classificació Títol';
-$lang['STYLE_COLOR'] = 'Estil classificació';
+$lang['RANK_TITLE'] = 'Títol del rang';
+$lang['STYLE_COLOR'] = 'Estil del rang';
 $lang['STYLE_COLOR_FAQ'] = 'Especifica una classe per estilitzar el títol amb el color desitjat. Per exemple: <i class="bold">colorAdmin</i>';
-$lang['RANK_IMAGE'] = 'La Classificació De La Imatge';
+$lang['RANK_IMAGE'] = 'Imatge del rang';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Useu-ho per a definir una petita imatge associada a la classificació';
 
 $lang['MUST_SELECT_RANK'] = 'Vostè ha de seleccionar un rang';
@@ -1789,13 +1789,13 @@ $lang['MUST_SELECT_RANK'] = 'Vostè ha de seleccionar un rang';
 $lang['RANK_UPDATED'] = 'La classificació s\'ha actualitzat amb èxit';
 $lang['RANK_ADDED'] = 'La classificació s\'ha afegit amb èxit';
 $lang['RANK_REMOVED'] = 'La classificació s\'ha esborrat correctament';
-$lang['NO_UPDATE_RANKS'] = 'La classificació s\'ha esborrat correctament. No obstant això, els comptes d\'usuari utilitzant aquesta classificació no s\'actualitzen. Necessitareu manualment restablir l\'ordre a aquests comptes';
+$lang['NO_UPDATE_RANKS'] = 'La classificació s\'ha esborrat correctament. No obstant això, els comptes d\'usuari que utilitzin aquesta classificació no han estat actualitzats. Necessitareu restablir manualment el rang en aquests comptes.';
 
-$lang['CLICK_RETURN_RANKADMIN'] = 'Feu clic %sHere%s per tornar a la posició de l\'Administració';
+$lang['CLICK_RETURN_RANKADMIN'] = 'Feu clic %sAquí%s per tornar a l\'Administració de Rangs.';
 
 // Disallow Username Admin
-$lang['DISALLOW_CONTROL'] = 'Nom D\'Usuari Disallow Control';
-$lang['DISALLOW_EXPLAIN'] = 'Aquí podeu controlar els noms d\'usuari que no podran ser utilitzats. No permès noms d\'usuari són admesos per a contenir un caràcter comodí *. Si us plau, tingueu en compte que no es permetrà especificar qualsevol nom d\'usuari que ja ha estat registrat. Primer has de suprimir aquest nom després de rebutjar-lo.';
+$lang['DISALLOW_CONTROL'] = 'Control del nom d\'usuari no permès.';
+$lang['DISALLOW_EXPLAIN'] = 'Aquí podeu controlar els noms d\'usuari que no es permetran. Els noms d\'usuari no permetuts poden contenir un caràcter comodí *. Si us plau, tingueu en compte que no es pot especificar cap nom d\'usuari que ja estigui registrat. Primer haureu de suprimir aquest nom i després rebutjar-lo.';
 
 $lang['DELETE_DISALLOW'] = 'Esborrar';
 $lang['DELETE_DISALLOW_TITLE'] = 'Eliminar un nom d\'Usuari no Permès';
@@ -1808,9 +1808,9 @@ $lang['NO_DISALLOWED'] = 'No Hi Ha Noms D\'Usuari No Permès';
 
 $lang['DISALLOWED_DELETED'] = 'El no permès nom d\'usuari s\'ha eliminat amb èxit';
 $lang['DISALLOW_SUCCESSFUL'] = 'El nom d\'usuari no permès, s\'ha afegit amb èxit';
-$lang['DISALLOWED_ALREADY'] = 'El nom que heu introduït no podia ser rebutjat. Que ja existeix a la llista, hi ha en la paraula de censurar la llista, o una coincidència de nom d\'usuari és present.';
+$lang['DISALLOWED_ALREADY'] = 'El nom que heu introduït no es pot rebutjar. Ja existeix a la llista, es troba a la llista de censura de paraules, o hi ha un nom d\'usuari coincident.';
 
-$lang['CLICK_RETURN_DISALLOWADMIN'] = 'Feu clic %sHere%s per tornar a Rebutjar el nom d\'Usuari d\'Administració';
+$lang['CLICK_RETURN_DISALLOWADMIN'] = 'Feu clic %sAquí%s per tornar a l\'Administració de Noms d\'Usuari no Permesos.';
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informació De La Versió';
@@ -1819,15 +1819,15 @@ $lang['CHANGELOG'] = 'Registre de canvis';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Admesos els intents d\'inici de sessió';
-$lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'El nombre d\'admesos consell intents d\'inici de sessió.';
-$lang['LOGIN_RESET_TIME'] = 'Inici de sessió de bloqueig temps';
-$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Temps en minuts que l\'usuari s\'hagi d\'esperar fins que és permès entrar de nou després de superar el nombre d\'admesos intents d\'inici de sessió.';
+$lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'El nombre d\'intents d\'inici de sessió permesos.';
+$lang['LOGIN_RESET_TIME'] = 'Temps de bloqueig de l\'inici de sessió.';
+$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Temps en minuts que l\'usuari ha d\'esperar fins que se li permeti iniciar sessió de nou després de superar el nombre d\'intents d\'inici de sessió permesos.';
 
 // Permissions List
-$lang['PERMISSIONS_LIST'] = 'Permisos Llista';
-$lang['AUTH_CONTROL_CATEGORY'] = 'Categoria De Permisos De Control';
-$lang['FORUM_AUTH_LIST_EXPLAIN'] = 'Això proporciona un resum de l\'autorització nivells de cada fòrum. Podeu editar aquests permisos, utilitzant, o bé un simple o avançada mètode fent clic en el fòrum nom. Recordeu que el canvi de nivell de permisos dels fòrums afectarà els usuaris la poden dur a terme les diferents operacions en elles.';
-$lang['CAT_AUTH_LIST_EXPLAIN'] = 'Això proporciona un resum de l\'autorització nivells de cada fòrum dins d\'aquesta categoria. Podeu editar els permisos individuals fòrums, utilitzant, o bé un simple o avançada mètode fent clic en el fòrum nom. Alternativament, podeu establir els permisos per a tots els fòrums en aquesta categoria mitjançant els menús desplegables de la part inferior de la pàgina. Recordeu que el canvi de nivell de permisos dels fòrums afectarà els usuaris la poden dur a terme les diferents operacions en elles.';
+$lang['PERMISSIONS_LIST'] = 'Llista de permisos.';
+$lang['AUTH_CONTROL_CATEGORY'] = 'Control de permisos de categoria.';
+$lang['FORUM_AUTH_LIST_EXPLAIN'] = 'Això proporciona un resum dels nivells d\'autorització de cada fòrum. Podeu editar aquests permisos, utilitzant un mètode senzill o avançat fent clic al nom del fòrum. Recordeu que canviar el nivell de permís dels fòrum afectarà quins usuaris poden dur a terme les diverses operacions dins d\'ells.';
+$lang['CAT_AUTH_LIST_EXPLAIN'] = 'Això proporciona un resum dels nivells d\'autorització de cada fòrum dins d\'aquesta categoria. Podeu editar els permisos dels fòrums individuals utilitzant un mètode senzill o avançat fent clic al nom del fòrum. Alternativament, podeu establir els permisos per a tots els fòrums en aquesta categoria utilitzant els menús desplegables a la part inferior de la pàgina. Recordeu que canviar el nivell de permís dels fòrums afectarà quins usuaris poden dur a terme les diverses operacions dins d\'ells.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_ALL'] = 'Tots els usuaris';
 $lang['FORUM_AUTH_LIST_EXPLAIN_REG'] = 'Tots els usuaris registrats';
 $lang['FORUM_AUTH_LIST_EXPLAIN_PRIVATE'] = 'Només els usuaris concedit un permís especial';
@@ -1839,38 +1839,38 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POST'] = '%s pot publicar en aquest fòrum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_REPLY'] = '%s pot respondre a posts en aquest fòrum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_EDIT'] = '%s pot editar missatges en aquest fòrum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DELETE'] = '%s pot suprimir missatges en aquest fòrum';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s pot post enganxós temes en aquest fòrum';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_STICKY'] = '%s pot publicar temes enganxosos en aquest fòrum.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ANNOUNCE'] = '%s poden publicar anuncis en aquest fòrum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s poden votar a les enquestes en aquest fòrum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s pot crear enquestes en aquest fòrum';
-$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s pot arxius adjunts';
+$lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s pot publicar fitxers adjunts.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s pot descarregar arxius adjunts';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Mostrar en pàgina principal';
-$lang['SF_PARENT_FORUM'] = 'Fòrum de pares';
-$lang['SF_NO_PARENT'] = 'No hi ha fòrum de pares';
+$lang['SF_PARENT_FORUM'] = 'Fòrum pare.';
+$lang['SF_NO_PARENT'] = 'No hi ha fòrum pare.';
 $lang['TEMPLATE'] = 'Plantilla';
 $lang['SYNC'] = 'Sincronització';
 
 // Mods
-$lang['MAX_NEWS_TITLE'] = 'Màx.. durada de les notícies';
+$lang['MAX_NEWS_TITLE'] = 'Màx. longitud de les notícies.';
 $lang['NEWS_COUNT'] = 'Quants articles de notícies mostrar';
 $lang['NEWS_FORUM_ID'] = 'Des d quins fòrums mostrar <br /> <h6>Per a diversos fòrums, especifica IDs separades per comes. Exemple: 1,2,3</h6>';
 $lang['TRACKER_STATS'] = 'Les estadístiques sobre el tracker';
 $lang['WHOIS_INFO'] = 'Informació sobre l\'adreça IP';
-$lang['SHOW_MOD_HOME_PAGE'] = 'Mostra sobre els moderadors index.php';
+$lang['SHOW_MOD_HOME_PAGE'] = 'Mostra als moderadors index.php.';
 $lang['SHOW_BOARD_STARTED_INDEX'] = 'Mostra la data d\'inici del tauler a index.php';
-$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If que no tenen distribucions a l\'estat de v, # o T en aquesta secció, incloent subseccions, la distribució rebrà automàticament aquest status</h6>';
-$lang['TOR_COMMENT'] = '<h4>Comentari sobre l\'estat d\'una distribució</h4> <h6>El comentari permet assenyalar els errors comesos al llançador. Si els estats són incomplets, el gestor de llançaments disposarà d\'un formulari de resposta de llançament per corregir la versió</h6>';
-$lang['SEED_BONUS_ADD'] = '<h4>Adding llavor de bonificació </h4> <h6> Nombre de distribucions són lliurats per l\'usuari i la mida de bonificacions per a ells (càrrega vegades una hora) </h6>';
-$lang['SEED_BONUS_RELEASE'] = 'a N-el nombre de llançaments';
+$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderació</h4> <h6>Si no teniu distribucions a l\'estat de v, # o T en aquesta secció, incloent subseccions, la distribució rebrà automàticament aquest estat</h6>';
+$lang['TOR_COMMENT'] = '<h4>Comentari sobre l\'estat d\'una distribució</h4> <h6>El comentari permet assenyalar els errors comesos al llançador. Si els estats són incomplets, el gestor de llançaments disposarà d\'un formulari de resposta per corregir la versió</h6>';
+$lang['SEED_BONUS_ADD'] = '<h4>Afegint bonificació per llavor </h4> <h6> Nombre de distribucions lliurades per l\'usuari i la mida de les bonificacions per a elles (càrrega vegades per hora) </h6>';
+$lang['SEED_BONUS_RELEASE'] = 'a N-nombre de llançaments';
 $lang['SEED_BONUS_POINTS'] = 'les bonificacions en una hora';
-$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum distribució per la qual es concediran les bonificacions </h4> <h6> Si voleu calcular bonificacions per a tots distribució, deixa en blanc. </h6>';
-$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum longitud d\'usuari tracker, després de la qual es concediran les bonificacions </h4> <h6> Si vols tenir bons per a tots els usuaris, deixa en blanc. </h6>';
-$lang['SEED_BONUS_WARNING'] = 'ATENCIÓ! Llavor Bons han d\'estar en ordre ascendent';
-$lang['SEED_BONUS_EXCHANGE'] = 'La Configuració D\'Intercanvi Sid Bons';
-$lang['SEED_BONUS_ROPORTION'] = 'Proporció més per un canvi de bonificacions en GB';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Distribució mínima per la qual es concediran les bonificacions </h4> <h6> Si voleu calcular bonificacions per a totes les distribucions, deixeu-ho en blanc. </h6>';
+$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Longitud mínima del rastrejador d\'usuari, després de la qual es concediran les bonificacions </h4> <h6> Si voleu acumular bonificacions per a tots els usuaris, deixeu-ho en blanc. </h6>';
+$lang['SEED_BONUS_WARNING'] = 'ATENCIÓ! Les Bonificacions per llavor han d\'estar en ordre ascendent';
+$lang['SEED_BONUS_EXCHANGE'] = 'Configuració de les Bonificacions d\'Intercanvi Sid';
+$lang['SEED_BONUS_ROPORTION'] = 'Afegit d\'una proporció per un canvi de bonificacions a GB';
 
 // Modules, this replaces the keys used
 $lang['CONTROL_PANEL'] = 'Panell De Control';
@@ -1880,7 +1880,7 @@ $lang['SPECIAL_CATEGORIES'] = 'Categories Especials';
 
 // Attachments -> Management
 $lang['ATTACH_SETTINGS'] = 'Fitxer Adjunt De Configuració';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Aquí podeu configurar les opcions Principals per a l\'Adjunt Mod. Si premeu la Prova Botó Configuració, l\'Adjunt Mod fa uns Sistema de Proves per assegurar-nos que el ministeri de defensa funcionarà correctament. Si teniu problemes amb carregar els Fitxers, si us plau, executeu aquesta Prova, per obtenir una detallada error-missatge.';
+$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Aquí podeu configurar les opcions principals per al Mod d\'Adjunt. Si premeu el Botó de Prova de Configuració, el Mod d\'Adjunt realitza algunes proves del sistema per assegurar-se que el Mod funcionarà correctament. Si teniu problemes amb la càrrega de fitxers, si us plau, executeu aquesta prova per obtenir un missatge d\'error detallat.';
 $lang['ATTACH_FILESIZE_SETTINGS'] = 'Configuració de la mida dels fitxers adjunts';
 $lang['ATTACH_NUMBER_SETTINGS'] = 'Adjunt Nombre De Paràmetres';
 $lang['ATTACH_OPTIONS_SETTINGS'] = 'Adjunt Opcions';
@@ -1888,26 +1888,26 @@ $lang['ATTACH_OPTIONS_SETTINGS'] = 'Adjunt Opcions';
 $lang['UPLOAD_DIRECTORY'] = 'Directori De Càrrega';
 $lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Introduïu la ruta relativa de la seva TorrentPier de la instal·lació per a la Adjunts directori de càrrega. Per exemple, entrar a \'arxius\' si el seu TorrentPier Instal·lació es troba a https://www.yourdomain.com/torrentpier i l\'Adjunt Directori de Càrrega es troba a https://www.yourdomain.com/torrentpier/files.';
 $lang['ATTACH_IMG_PATH'] = 'Fitxer Adjunt De La Publicació D\'Icona';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Aquesta Imatge es mostra al costat del fitxer Adjunt Enllaços en els Missatges. Deixeu aquest camp en blanc si no voleu una icona per a mostrar-la. Aquesta Configuració serà sobreescrita per la Configuració en Extensió, Grups de Gestió.';
-$lang['ATTACH_TOPIC_ICON'] = 'Adjunt Tema Icona';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Aquesta Imatge es mostra abans de temes amb els arxius Adjunts. Deixeu aquest camp en blanc si no voleu una icona per a mostrar-la.';
+$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Aquesta imatge es mostra al costat dels enllaços d\'Adjunt en els missatges. Deixeu aquest camp en blanc si no voleu que es mostri una icona. Aquesta configuració serà sobreescrita per la configuració en la Gestió de Grups d\'Extensió.';
+$lang['ATTACH_TOPIC_ICON'] = 'Icona de tema d\'Adjunt';
+$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Aquesta imatge es mostra abans dels temes amb fitxers adjunts. Deixeu aquest camp en blanc si no voleu que es mostri una icona.';
 $lang['ATTACH_DISPLAY_ORDER'] = 'Adjunt Ordre De Visualització';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aquí podeu escollir si voleu mostrar els fitxers Adjunts en Missatges/PMs Descendent Filetime Tal (Nous Adjunt Primer) o Ascendent Filetime Ordre (més antic Adjunt Primer).';
+$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aquí podeu escollir si voleu mostrar els fitxers adjunts a missatges/PMs en ordre de temps de visualització descendent (recent adjunt primer) o en ordre de temps de visualització ascendent (adjunt més antic primer).';
 
-$lang['MAX_FILESIZE_ATTACH'] = 'Mida de la Fitxa';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Màxim tamany de fitxers Adjunts. Un valor de 0 significa \'il\'. Aquest Paràmetre està restringida per la vostra Configuració del Servidor. Per exemple, si la Configuració del vostre php només permet a un màxim de 2 MB d\'arxius, aquest no pot ser sobreescrit per la Mod.';
-$lang['MAX_FILESIZE_PM'] = 'Màxim Tamany en Privat Carpeta de Missatges';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Màxim Espai de Disc a fitxers Adjunts es poden utilitzar fins a cada Usuari Privada de la caixa de Missatge. Un valor de 0 significa \'il\'.';
+$lang['MAX_FILESIZE_ATTACH'] = 'Mida del fitxer.';
+$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Tamany màxim dels fitxers adjunts. Un valor de 0 significa \'il·limitat\'. Aquesta configuració està restringida per la configuració del vostre servidor. Per exemple, si la vostra configuració de php només permet un màxim de 2 MB de càrregues, això no es pot sobreescriure pel Mod.';
+$lang['MAX_FILESIZE_PM'] = 'Tamany màxim en carpeta de missatges privats.';
+$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Espai màxim de disc que poden ocupar els fitxers adjunts a cada usuari de la carpeta de missatges privats. Un valor de 0 significa \'il·limitat\'.';
 
 $lang['MAX_ATTACHMENTS'] = 'Nombre màxim de fitxers Adjunts';
 $lang['MAX_ATTACHMENTS_EXPLAIN'] = 'El nombre màxim de fitxers adjunts admesos en un post.';
 $lang['MAX_ATTACHMENTS_PM'] = 'Nombre màxim de fitxers Adjunts a un Missatge Privat';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Definir el nombre màxim de fitxers adjunts a l\'usuari es permet incloure en un missatge privat.';
+$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Defineix el nombre màxim de fitxers adjunts que es permet incloure en un missatge privat.';
 
 $lang['DISABLE_MOD'] = 'Deshabilitar El Fitxer Adjunt Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Aquesta opció és bàsicament per a provar noves plantilles o temes, es desactiven totes Adjunt Funcions, excepte el Panell d\'Administració.';
+$lang['DISABLE_MOD_EXPLAIN'] = 'Aquesta opció és principalment per provar noves plantilles o temes, desactiva totes les funcions d\'Adjunt excepte el panell d\'administració.';
 $lang['PM_ATTACHMENTS'] = 'Permet els fitxers Adjunts a Missatges Privats';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Permet/Disallow adjuntar fitxers als Missatges Privats.';
+$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Permetre/desactivar l\'adjuntar fitxers als missatges privats.';
 
 // Extensions -> Extension Control
 $lang['MANAGE_EXTENSIONS'] = 'Gestionar Les Extensions';
@@ -1918,7 +1918,7 @@ $lang['EXTENSION_EXIST'] = 'L\'Extensió %s ja existeixen'; // replace %s with t
 
 // Extensions -> Extension Groups Management
 $lang['MANAGE_EXTENSION_GROUPS'] = 'Gestionar Extensió Grups';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Aquí podeu afegir, eliminar i modificar la seva Extensió Grups, podeu desactivar l\'Extensió Grups, assignar una Categoria especial per a ells, canvieu el mecanisme de descàrrega i es pot definir una Càrrega Icona que apareixerà al davant de qualsevol fitxer Adjunt que pertanyin al Grup.';
+$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Aquí podeu afegir, eliminar i modificar els vostres grups d\'extensió, podeu desactivar grups d\'extensió, assignar una categoria especial a ells, canviar el mecanisme de descàrrega i podeu definir una icona de càrrega que es mostrarà davant d\'un fitxer adjunt que pertany al grup.';
 $lang['SPECIAL_CATEGORY'] = 'Categoria Especial';
 $lang['CATEGORY_IMAGES'] = 'Imatges';
 $lang['ALLOWED'] = 'Admesos';
@@ -1927,18 +1927,18 @@ $lang['EXT_GROUP_PERMISSIONS'] = 'Grup De Permisos';
 $lang['DOWNLOAD_MODE'] = 'Mode De Descàrrega';
 $lang['UPLOAD_ICON'] = 'Pujar Icona';
 $lang['MAX_GROUPS_FILESIZE'] = 'Tamany Màxim';
-$lang['EXTENSION_GROUP_EXIST'] = 'L\'Extensió Grup %s ja existeixen'; // replace %s with the group name
+$lang['EXTENSION_GROUP_EXIST'] = 'El grup d\'extensió %s ja existeix.'; // replace %s with the group name
 
 // Extensions -> Special Categories
 $lang['MANAGE_CATEGORIES'] = 'Gestionar Categories Especials';
 $lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aquí podeu configurar les Categories Especials. Podeu configurar Paràmetres i Condicions Especials per a les Categories Especials assignades a un Grup d\'Extensió.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Paràmetres per a la Categoria Especial: les Imatges';
+$lang['SETTINGS_CAT_IMAGES'] = 'Paràmetres per a la categoria especial: les imatges.';
 $lang['DISPLAY_INLINED'] = 'Mostrar les imatges en línia';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Trieu si voleu mostrar les imatges directament a l\'entrada (sí) o per mostrar imatges com un enllaç ?';
-$lang['MAX_IMAGE_SIZE'] = 'Màxim Imatge Dimensions';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Aquí podeu definir la mida màxima permesa de la Imatge Dimensió que cal adjuntar (Amplada x Alçada en píxels).<br />If s\'estableix a 0x0, aquesta funció està desactivada. Amb algunes Imatges d\'aquesta Característica no funciona degut a les limitacions en PHP.';
-$lang['IMAGE_LINK_SIZE'] = 'L\'Enllaç D\'Imatge Dimensions';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Si aquesta definir la Dimensió d\'una Imatge és arribat, la Imatge es mostra com a un Enllaç, en lloc de mostrar-la inclinada,<br />if Inline Vista està activat (Amplada x Alçada en píxels).<br />If s\'estableix a 0x0, aquesta funció està desactivada. Amb algunes Imatges d\'aquesta Característica no funciona degut a les limitacions en PHP.';
+$lang['DISPLAY_INLINED_EXPLAIN'] = 'Trieu si voleu mostrar les imatges directament dins de l\'entrada (sí) o mostrar les imatges com un enllaç.';
+$lang['MAX_IMAGE_SIZE'] = 'Màximes dimensions d\'imatge.';
+$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Aquí podeu definir la mida màxima permesa de la dimensió de la imatge que s\'ha d\'adjuntar.';
+$lang['IMAGE_LINK_SIZE'] = 'Mida de l\'enllaç d\'imatge.';
+$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Si aquesta dimensió d\'una imatge definida es fa servir, la imatge es mostrarà com un enllaç, en lloc de mostrar-la incrustada,<br />si la visualització en línia està activada (amplada x alçada en píxels).<br />Si s\'estableix a 0x0, aquesta funció està desactivada. Amb algunes imatges aquesta funció no funciona a causa de limitacions en PHP.';
 $lang['ASSIGNED_GROUP'] = 'Assignat Grup';
 
 $lang['IMAGE_CREATE_THUMBNAIL'] = 'Crear Una Miniatura';
@@ -1947,10 +1947,10 @@ $lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Si una imatge és més petita que l
 
 // Extensions -> Extension Groups Control -> Group Permissions
 $lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Permisos del grup d\'extensions → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aquí podreu restringir l\'seleccionat Extensió Grup de Fòrums de la seva elecció (definida a la Admesos Fòrums Quadre). El valor Predeterminat és que per permetre l\'Extensió de Grups a tots els Fòrums de l\'Usuari és capaç d\'Adjuntar Fitxers en (la manera normal de l\'Adjunt Mod ho va fer des de l\'inici). Només afegir els Fòrums voleu que l\'Extensió Grup (les Extensions dins d\'aquest Grup) per a ser admesos hi ha, el valor per defecte TOTS els FÒRUMS desapareix quan es afegir Fòrums de la Llista. Ets capaç de tornar-la a afegir TOTS els FÒRUMS en qualsevol Moment. Si afegiu un Fòrum per el seu Consell i el Permís s\'estableix a TOTS els FÒRUMS res no canviarà. Però si heu canviat i restringit l\'accés a determinats Fòrums, vostè ha de comprovar de nou aquí per afegir la vostra recentment creat Fòrum. És fàcil fer-ho automàticament, però això obligarà a editar una sèrie de Fitxers, per tant, jo he triat el camí és ara. Si us plau, tingueu en compte, que tots els Fòrums s\'enumeren aquí.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'NOTA:<br />Within a continuació s\'enumeren els Fòrums els Usuaris són normalment permet adjuntar fitxers, però ja que no hi ha Extensió del Grup és permès de connectar-hi, els Usuaris són incapaç de subjectar alguna cosa. Si ho proveu, rebran els Missatges d\'Error. Potser vostè vol establir el Permís \'Post Fitxers\' per ADMIN a aquests Fòrums.<br /><br />';
+$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aquí podeu restringir el grup d\'extensions seleccionat als fòrums de la vostra elecció (definits a la caixa de fòrums permesos). El valor per defecte és permetre que els grups d\'extensions s\'admetin a tots els fòrums als quals l\'usuari pot adjuntar fitxers (la manera normal com ho va fer el mòdul d\'adjunt des de l\'inici). Simplement afegiu els fòrums als quals voleu que el grup d\'extensions (les extensions dins d\'aquest grup) s\'admetin, el valor per defecte TOTS ELS FÒRUMS desapareixerà quan afegiu fòrums a la llista. Podeu tornar a afegir TOTS ELS FÒRUMS en qualsevol moment. Si afegiu un fòrum al vostre tauler i el permís es fixa a TOTS ELS FÒRUMS, res no canviarà. Però si heu canviat i restringit l\'accés a certs fòrums, haureu de comprovar aquí per afegir el vostre fòrum recentment creat. És fàcil fer-ho automàticament, però això us obligarà a editar un munt de fitxers, per tant, he triat com està ara. Si us plau, tingueu en compte que tots els vostres fòrums es mostraran aquí.';
+$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'The provided translations have grammatical and coherence issues, such as awkward phrasing and incorrect word choices that need correction.';
 $lang['ADD_FORUMS'] = 'Afegir Fòrums';
-$lang['ADD_SELECTED'] = 'Add Selected';
+$lang['ADD_SELECTED'] = 'The provided translation does not match the original meaning and must be revised for accuracy.';
 $lang['PERM_ALL_FORUMS'] = 'TOTS ELS FÒRUMS';
 
 // Attachments -> Control Panel
@@ -1959,25 +1959,25 @@ $lang['CONTROL_PANEL_EXPLAIN'] = 'Aquí podeu veure i gestionar tots els fitxers
 
 // Control Panel -> Search
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Utilitzeu * com a comodí per concordances parcials';
-$lang['SIZE_SMALLER_THAN'] = 'Fitxer adjunt de lletra més petit que (bytes)';
-$lang['SIZE_GREATER_THAN'] = 'Fitxer adjunt de mida superior (bytes)';
-$lang['COUNT_SMALLER_THAN'] = 'Descarregar el recompte és més petit que';
-$lang['COUNT_GREATER_THAN'] = 'Descarregar el recompte és més gran que';
-$lang['MORE_DAYS_OLD'] = 'Més que això, molts dies d\'edat';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'No hi ha arxius Adjunts conèixer els seus criteris de cerca';
+$lang['SIZE_SMALLER_THAN'] = 'The translations are not accurate and do not convey the original meaning appropriately.';
+$lang['SIZE_GREATER_THAN'] = 'The provided translations do not accurately reflect the intended meaning and require revision.';
+$lang['COUNT_SMALLER_THAN'] = 'The provided translations have discrepancies in meaning and grammatical structure.';
+$lang['COUNT_GREATER_THAN'] = 'The translations do not accurately capture the intended meaning.';
+$lang['MORE_DAYS_OLD'] = 'The provided translations lack clarity and coherence in conveying the original message.';
+$lang['NO_ATTACH_SEARCH_MATCH'] = 'The translations are grammatically incorrect and do not convey the intended meaning.';
 
 // Control Panel -> Statistics
 $lang['NUMBER_OF_ATTACHMENTS'] = 'Nombre de fitxers Adjunts';
 $lang['TOTAL_FILESIZE'] = 'Mida total dels fitxers';
 $lang['NUMBER_POSTS_ATTACH'] = 'Nombre de Missatges amb fitxers Adjunts';
 $lang['NUMBER_TOPICS_ATTACH'] = 'Nombre de Temes amb els arxius Adjunts';
-$lang['NUMBER_USERS_ATTACH'] = 'Usuaris Independents Publicat Adjunts';
+$lang['NUMBER_USERS_ATTACH'] = 'The translations provided contain errors that hinder comprehension.';
 $lang['NUMBER_PMS_ATTACH'] = 'Nombre Total de fitxers Adjunts en Missatges Privats';
 
 // Control Panel -> Attachments
 $lang['STATISTICS_FOR_USER'] = 'Adjunt Estadístiques per %s'; // replace %s with username
 $lang['DOWNLOADS'] = 'Descàrregues';
-$lang['POST_TIME'] = 'Post Temps';
+$lang['POST_TIME'] = 'The translation does not accurately represent the original term.';
 $lang['POSTED_IN_TOPIC'] = 'Publicat en el Tema';
 $lang['SUBMIT_CHANGES'] = 'Enviar Canvis';
 
@@ -1988,7 +1988,7 @@ $lang['SORT_FILENAME'] = 'Nom de fitxer';
 $lang['SORT_COMMENT'] = 'Comentari';
 $lang['SORT_EXTENSION'] = 'Extensió';
 $lang['SORT_DOWNLOADS'] = 'Descàrregues';
-$lang['SORT_POSTTIME'] = 'Post Temps';
+$lang['SORT_POSTTIME'] = 'Temps de publicació.';
 
 // View Types
 $lang['VIEW_STATISTIC'] = 'Estadístiques';
@@ -1996,16 +1996,16 @@ $lang['VIEW_SEARCH'] = 'Cerca';
 
 // Successfully updated
 $lang['ATTACH_CONFIG_UPDATED'] = 'Fitxer adjunt de Configuració actualitzat amb èxit';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Feu clic %sHere%s per tornar a Adjunt de Configuració';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Configuració de la Prova s\'ha acabat, configuració sembla bé.';
+$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Cliqueu %sAquí%s per tornar a la Configuració d\'Adjunt.';
+$lang['TEST_SETTINGS_SUCCESSFUL'] = 'La prova de configuració s\'ha acabat, la configuració sembla correcta.';
 
 // Some basic definitions
 $lang['ATTACHMENTS'] = 'Arxius adjunts';
-$lang['EXTENSIONS'] = 'Les Extensions';
+$lang['EXTENSIONS'] = 'Extensions.';
 $lang['EXTENSION'] = 'Extensió';
 
-$lang['RETURN_CONFIG'] = '%sReturn a Configuration%s';
-$lang['CONFIG_UPD'] = 'Configuració Actualitzat Amb Èxit';
+$lang['RETURN_CONFIG'] = '%sTorna a la configuració%s.';
+$lang['CONFIG_UPD'] = 'Configuració actualitzada amb èxit.';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'Fòrum opcions:';
@@ -2015,88 +2015,88 @@ $lang['REG_TORRENTS'] = 'Registre torrents';
 $lang['DISALLOWED'] = 'Prohibit';
 $lang['ALLOW_REG_TRACKER'] = 'Admesos fòrums per a registrar-se .torrents en tracker';
 $lang['ALLOW_PORNO_TOPIC'] = 'Permetre publicar contingut per a majors de 18 anys';
-$lang['SELF_MODERATED'] = 'Els usuaris poden <b>move</b> seus temes d\'un altre fòrum';
+$lang['SELF_MODERATED'] = 'Els usuaris poden <b>moure</b> els seus temes a un altre fòrum.';
 
 $lang['BT_ANNOUNCE_URL_HEAD'] = 'Anunciar URL';
 $lang['BT_ANNOUNCE_URL'] = 'Anunciar url';
-$lang['BT_ANNOUNCE_URL_EXPL'] = 'podeu definir addicional admesos url a "includes/torrent_announce_urls.php"';
-$lang['BT_DISABLE_DHT'] = 'Desactivar DHT xarxa';
-$lang['BT_DISABLE_DHT_EXPL'] = 'Desactivar Peer Intercanvi i la DHT (recomanat per a xarxes privades, només url anunciar)';
+$lang['BT_ANNOUNCE_URL_EXPL'] = 'Podeu definir altres urls admeses a "includes/torrent_announce_urls.php".';
+$lang['BT_DISABLE_DHT'] = 'Desactivar la xarxa DHT.';
+$lang['BT_DISABLE_DHT_EXPL'] = 'Desactivar intercanvi de peers i DHT (recomanat per a xarxes privades, només url d\'anunci).';
 $lang['BT_PRIVATE_TRACKER'] = 'Aquest rastrejador és privat: llista de fitxers (per a convidats), DHT | PEX estan desactivats';
 $lang['BT_PRIVATE_TORRENT'] = 'El creador d’aquest torrent l’ha fet privat';
-$lang['BT_CHECK_ANNOUNCE_URL'] = 'Verificar anunciar url';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'registre a seguidor només es permet url';
-$lang['BT_REPLACE_ANN_URL'] = 'Substituir anunciar url';
-$lang['BT_REPLACE_ANN_URL_EXPL'] = 'substituir original anunciar url amb la seva per defecte .fitxers torrent';
-$lang['BT_DEL_ADDIT_ANN_URLS'] = 'Eliminar tots els altres anunciar url';
-$lang['BT_DEL_ADDIT_ANN_URLS_EXPL'] = 'si el torrent conté les adreces dels altres seguidors, que seran eliminats';
+$lang['BT_CHECK_ANNOUNCE_URL'] = 'Verifiqueu l\'url d\'anunci.';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'Registreu les urls només permeses al rastrejador.';
+$lang['BT_REPLACE_ANN_URL'] = 'Substituïu l\'url d\'anunci.';
+$lang['BT_REPLACE_ANN_URL_EXPL'] = 'Substituïu l\'url d\'anunci original amb el vostre per defecte en fitxers .torrent.';
+$lang['BT_DEL_ADDIT_ANN_URLS'] = 'Eliminar totes les altres urls d\'anunci.';
+$lang['BT_DEL_ADDIT_ANN_URLS_EXPL'] = 'Si el torrent conté les adreces d\'altres rastrejadors, seran eliminades.';
 
-$lang['BT_SHOW_PEERS_HEAD'] = 'Companys-Llista';
+$lang['BT_SHOW_PEERS_HEAD'] = 'Llista de companys.';
 $lang['BT_SHOW_PEERS'] = 'Mostra companys (seeders i leechers)';
-$lang['BT_SHOW_PEERS_EXPL'] = 'aquest es mostra seeders/leechers llista sobre el tema amb torrent';
+$lang['BT_SHOW_PEERS_EXPL'] = 'Aquesta mostrarà la llista de seeders/leechers sobre el tema amb el torrent.';
 $lang['BT_SHOW_PEERS_MODE'] = 'Per defecte, mostra companys com:';
 $lang['BT_SHOW_PEERS_MODE_COUNT'] = 'Comptar només';
 $lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Noms només';
 $lang['BT_SHOW_PEERS_MODE_FULL'] = 'Més detalls';
 $lang['BT_ALLOW_SPMODE_CHANGE'] = 'Permetre "més detalls" mode';
-$lang['BT_ALLOW_SPMODE_CHANGE_EXPL'] = 'si el "no", només defecte igual que el mode de visualització estarà disponible';
-$lang['BT_SHOW_IP_ONLY_MODER'] = 'Companys <b>IP</b>s són visibles només els moderadors';
-$lang['BT_SHOW_PORT_ONLY_MODER'] = 'Companys <b>Port</b>s són visibles només els moderadors';
+$lang['BT_ALLOW_SPMODE_CHANGE_EXPL'] = 'Si `no`, només estarà disponible el mode de visualització per defecte.';
+$lang['BT_SHOW_IP_ONLY_MODER'] = 'Els <b>IP</b> dels companys són visibles només per als moderadors.';
+$lang['BT_SHOW_PORT_ONLY_MODER'] = 'Els <b>Ports</b> dels companys són visibles només per als moderadors.';
 
-$lang['BT_SHOW_DL_LIST_HEAD'] = 'DL-Llista';
-$lang['BT_SHOW_DL_LIST'] = 'Mostra DL-Llista en la Descàrrega temes';
-$lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Mostra DL-Llista només a la primera pàgina en temes';
+$lang['BT_SHOW_DL_LIST_HEAD'] = 'Llista DL.';
+$lang['BT_SHOW_DL_LIST'] = 'Mostra la llista DL en temes de descàrrega.';
+$lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Mostra només la primera pàgina de la llista DL en temes.';
 $lang['BT_DL_LIST_ONLY_COUNT'] = 'Mostrar únicament el nombre d\'usuaris';
-$lang['BT_SHOW_DL_LIST_BUTTONS'] = 'Mostra els botons per a manualment, canviant DL-estat';
+$lang['BT_SHOW_DL_LIST_BUTTONS'] = 'Mostra els botons per canviar manualment l\'estat de la descàrrega.';
 $lang['BT_SHOW_DL_BUT_WILL'] = $lang['DLWILL'];
 $lang['BT_SHOW_DL_BUT_DOWN'] = $lang['DLDOWN'];
 $lang['BT_SHOW_DL_BUT_COMPL'] = $lang['DLCOMPLETE'];
 $lang['BT_SHOW_DL_BUT_CANCEL'] = $lang['DLCANCEL'];
 
 $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Passkey';
-$lang['BT_ADD_AUTH_KEY'] = 'Permeten afegir passkey torrent-abans de descarregar arxius';
+$lang['BT_ADD_AUTH_KEY'] = 'Permetre afegir la clau d\'autor als fitxers torrent abans de descarregar.';
 
-$lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent del navegador (tracker)';
+$lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Navegador de torrents (rastrejador).';
 $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Navegador de torrents (tracker.php) accessible només per a usuaris registrats';
-$lang['BT_SEARCH_BOOL_MODE'] = 'Permet boolean text complet de les cerques';
+$lang['BT_SEARCH_BOOL_MODE'] = 'Permeteu les cerques de text complet booleanes.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Utilitzeu *, +, - a les cerques';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Miscel·lània";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Miscel·lània.";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Mostra estadístiques UL/DL de l'usuari a la part superior de la pàgina principal del fòrum";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automàticament registre torrent al tracker per a nous temes';
-$lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Canvi de tema d\'estat per a "Descarregar", mentre que el registre torrent en tracker';
-$lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'canviarà de tema tipus per a "Descarregar" independentment de les preferències del fòrum';
-$lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Canviar el tema de l\'estat a "Normal", mentre que unregistering torrent del tracker';
+$lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Canvieu l\'estat del tema a "Descarregar" mentre registreu el torrent al rastrejador.';
+$lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'Canviarà el tipus de tema a "Descarregar" independentment de les configuracions del fòrum.';
+$lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Canvieu l\'estat del tema a "Normal" mentre desregistreu el torrent del rastrejador.';
 
 // Release
-$lang['TEMPLATE_DISABLE'] = 'La plantilla de mobilitat reduïda';
+$lang['TEMPLATE_DISABLE'] = 'Plantilla inhabilitada.';
 $lang['FOR_NEW_TEMPLATE'] = 'nous models!';
 $lang['CHANGED'] = 'Canviat';
 $lang['REMOVED'] = 'Eliminat';
 $lang['QUESTION'] = 'Confirma, estàs segur que vols realitzar aquesta acció';
 
-$lang['CRON_LIST'] = 'Cron llista';
+$lang['CRON_LIST'] = 'Llista Cron.';
 $lang['CRON_ID'] = 'ID';
 $lang['CRON_ACTIVE'] = 'En';
 $lang['CRON_ACTIVE_EXPL'] = 'Les tasques actives';
 $lang['CRON_TITLE'] = 'Títol';
 $lang['CRON_SCRIPT'] = 'Guió';
 $lang['CRON_SCHEDULE'] = 'Horari';
-$lang['CRON_LAST_RUN'] = 'Última Executar';
-$lang['CRON_NEXT_RUN'] = 'Seguidament Executeu';
+$lang['CRON_LAST_RUN'] = 'Última execució.';
+$lang['CRON_NEXT_RUN'] = 'Properament s\'executarà.';
 $lang['CRON_RUN_COUNT'] = 'Corre';
 $lang['CRON_MANAGE'] = 'Gestionar';
-$lang['CRON_DISABLED_WARNING'] = 'Avís! L\'execució de scripts cron està desactivada. Per activar-lo, configureu la variable APP_CRON_ENABLED.';
+$lang['CRON_DISABLED_WARNING'] = 'Avís! L\'execució de scripts cron està desactivada. Per activar-ho, configureu la variable APP_CRON_ENABLED.';
 
-$lang['CRON_ENABLED'] = 'Cron activat';
-$lang['CRON_CHECK_INTERVAL'] = 'Cron interval de comprovació (sec)';
+$lang['CRON_ENABLED'] = 'Cron activat.';
+$lang['CRON_CHECK_INTERVAL'] = 'Interval de comprovació de Cron (segons).';
 
-$lang['WITH_SELECTED'] = 'Amb el seleccionat';
-$lang['NOTHING'] = 'no fer res';
-$lang['CRON_RUN'] = 'Executar';
-$lang['CRON_DEL'] = 'Esborrar';
-$lang['CRON_DISABLE'] = 'Deshabilitar';
-$lang['CRON_ENABLE'] = 'Habiliteu';
+$lang['WITH_SELECTED'] = 'Amb el seleccionat.';
+$lang['NOTHING'] = 'No feu res.';
+$lang['CRON_RUN'] = 'Executar.';
+$lang['CRON_DEL'] = 'Esborrar.';
+$lang['CRON_DISABLE'] = 'Desactivar.';
+$lang['CRON_ENABLE'] = 'Habiliteu.';
 $lang['DELETE_JOB'] = 'Esteu segur que voleu suprimir el treball amb cron?';
 $lang['CRON_WORKS'] = 'El cron actualment està funcionant o està trencat -> ';
 $lang['REPAIR_CRON'] = 'Reparació Cron';
@@ -2112,67 +2112,67 @@ $lang['SCHEDULE'] = [
     'monthly' => 'mensual',
     'interval' => 'interval'
 ];
-$lang['NOSELECT'] = 'No seleccioneu';
+$lang['NOSELECT'] = 'No seleccioneu.';
 $lang['RUN_DAY'] = 'Executar dia';
-$lang['RUN_DAY_EXPL'] = 'el dia en aquesta feina executar';
+$lang['RUN_DAY_EXPL'] = 'El dia en què aquesta feina s\'executa.';
 $lang['RUN_TIME'] = 'Temps d\'execució';
-$lang['RUN_TIME_EXPL'] = 'el moment en què aquesta feina executar (per exemple, 05:00:00)';
+$lang['RUN_TIME_EXPL'] = 'El moment en què aquesta feina s\'executa (per exemple, 05:00:00).';
 $lang['RUN_ORDER'] = 'Executeu l\'ordre';
-$lang['LAST_RUN'] = 'Última Executar';
-$lang['NEXT_RUN'] = 'Seguidament Executeu';
-$lang['RUN_INTERVAL'] = 'Executar interval';
+$lang['LAST_RUN'] = 'Última execució.';
+$lang['NEXT_RUN'] = 'Pròxima execució.';
+$lang['RUN_INTERVAL'] = 'Interval d\'execució.';
 $lang['RUN_INTERVAL_EXPL'] = 'per exemple, 00:10:00';
 $lang['LOG_ENABLED'] = 'Registre activat';
 $lang['LOG_FILE'] = 'Fitxer de registre';
 $lang['LOG_FILE_EXPL'] = 'l\'arxiu per guardar el registre';
 $lang['LOG_SQL_QUERIES'] = 'Registre de consultes SQL';
-$lang['FORUM_DISABLE'] = 'Desactivar consell';
-$lang['BOARD_DISABLE_EXPL'] = 'desactivar el consell quan aquesta tasca s\'executa';
-$lang['RUN_COUNTER'] = 'Anar en contra';
+$lang['FORUM_DISABLE'] = 'Desactivar fòrum.';
+$lang['BOARD_DISABLE_EXPL'] = 'Desactivar el fòrum quan aquesta tasca s\'executa.';
+$lang['RUN_COUNTER'] = 'Compte d\'execució.';
 
 $lang['JOB_REMOVED'] = 'La feina s\'ha eliminat correctament';
 $lang['SCRIPT_DUPLICATE'] = 'Guió <b>' . @$_POST['cron_script'] . '</b> ja existeix!';
-$lang['TITLE_DUPLICATE'] = 'Nom De La Tasca <b>' . @$_POST['cron_title'] . '</b> ja existeix!';
+$lang['TITLE_DUPLICATE'] = 'Nom de la tasca <b>.' . @$_POST['cron_title'] . '</b> ja existeix!';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sTorna a afegir feina%s';
-$lang['CLICK_RETURN_JOBS'] = '%sBack a la Tasca Scheduler%s';
+$lang['CLICK_RETURN_JOBS'] = '%s torna al programador de tasques %s.';
 
 $lang['REBUILD_SEARCH'] = 'Reconstruir Índex De Cerca';
-$lang['REBUILD_SEARCH_DESC'] = 'Aquest mod serà índex de cada post al teu fòrum, la reconstrucció de la cerca taules. Es pot parar sempre que vulgueu i la propera vegada que torneu a executar tindreu l\'opció de continuar on us vareu quedar.<br /><br />It pot trigar molt de temps per mostrar el seu progrés (en funció de "Missatges per cicle" i "Temps límit"), així que si us plau no es mouen del seu progrés pàgina fins que finalitzi, llevat que, per descomptat, vull interrompre.';
+$lang['REBUILD_SEARCH_DESC'] = 'Aquest mod indexarà cada publicació al teu fòrum, reconstruint les taules de cerca. Podeu aturar-ho quan vulgueu i la propera vegada que ho torneu a fer tindreu l\'opció de continuar des d\'on us vàreu aturar.<br /><br />Pot trigar molt de temps a mostrar el seu progrés (dependrà de "Publicacions per cicle" i "Temps límit"), així que si us plau no us mogueu de la seva pàgina de progrès fins que no s\'acabi, llevat que, per descomptat, vulgueu interrompre-ho.';
 
 // Input screen
-$lang['STARTING_POST_ID'] = 'A partir getting_post';
-$lang['STARTING_POST_ID_EXPLAIN'] = 'Primer post quan el tractament s\'iniciarà from<br />You pot optar per començar des del principi o des de la publicació de la darrera deixat';
+$lang['STARTING_POST_ID'] = 'A partir de l\'ID del post.';
+$lang['STARTING_POST_ID_EXPLAIN'] = 'Primer post del qual s\'iniciarà el processament.<br />Podeu optar per començar des d\'un principi o des de l\'últim que vàreu aturar.';
 
-$lang['START_OPTION_BEGINNING'] = 'inici des d\'inici';
-$lang['START_OPTION_CONTINUE'] = 'continuen des de l\'últim detingut';
+$lang['START_OPTION_BEGINNING'] = 'Inici des d\'un principi.';
+$lang['START_OPTION_CONTINUE'] = 'conté des de la darrera aturada.';
 
-$lang['CLEAR_SEARCH_TABLES'] = 'Clar cerca taules';
+$lang['CLEAR_SEARCH_TABLES'] = 'Esborrar taules de cerca.';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
 $lang['CLEAR_SEARCH_NO'] = 'NO';
 $lang['CLEAR_SEARCH_DELETE'] = 'ESBORRAR';
 $lang['CLEAR_SEARCH_TRUNCATE'] = 'TALLA';
 
 $lang['NUM_OF_POSTS'] = 'Nombre de missatges';
-$lang['NUM_OF_POSTS_EXPLAIN'] = 'Nombre total de missatges a process<br />It automàticament de ple amb el nombre de total/resta de publicacions es troben en la base de dades';
+$lang['NUM_OF_POSTS_EXPLAIN'] = 'Nombre total de posts a processar.<br />S\'omple automàticament amb el nombre total/restant de publicacions trobades a la base de dades.';
 
 $lang['POSTS_PER_CYCLE'] = 'Missatges per cicle';
-$lang['POSTS_PER_CYCLE_EXPLAIN'] = 'Nombre de missatges procés per cycle<br />Keep-baix per evitar php/temps d\'espera del servidor web';
+$lang['POSTS_PER_CYCLE_EXPLAIN'] = 'Nombre de posts a processar per cicle.<br />Mantingueu-ho baix per evitar temps d\'espera de php/servidors web.';
 
 $lang['REFRESH_RATE'] = 'Freqüència de refresc';
-$lang['REFRESH_RATE_EXPLAIN'] = 'Quant de temps (en segons) per a romandre inactiu abans de passar a la següent tramitació cycle<br />Usually no haureu de canviar aquesta';
+$lang['REFRESH_RATE_EXPLAIN'] = 'Quant de temps (en segons) romandre inactiu abans de passar al següent cicle de processament.<br />Normalment no heu de canviar això.';
 
 $lang['TIME_LIMIT'] = 'Temps límit';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Quant de temps (segons) de post-processament que pot durar abans de passar al cicle següent';
-$lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your servidor web té un temps d\'espera de %s segons configurat, així que es mantingui per sota d\'aquest value</i>';
+$lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>El vostre servidor web té un temps d\'espera configurat de %s segons, així que mantingueu-vos per sota d\'aquest valor</i>.';
 
-$lang['DISABLE_BOARD'] = 'Desactivar consell';
+$lang['DISABLE_BOARD'] = 'Desactivar fòrum.';
 
 // Information strings
-$lang['INFO_PROCESSING_STOPPED'] = 'L\'últim detingut el tractament a getting_post %s (%s processats correus) en %s';
-$lang['INFO_PROCESSING_ABORTED'] = 'La darrera avortat el procés en getting_post %s (%s processats correus) en %s';
+$lang['INFO_PROCESSING_STOPPED'] = 'Vau detenir per última vegada el processament a getting_post %s (%s posts processats) en %s.';
+$lang['INFO_PROCESSING_ABORTED'] = 'Vau avortar per última vegada el processament a getting_post %s (%s posts processats) en %s.';
 $lang['INFO_PROCESSING_ABORTED_SOON'] = 'Si us plau, espereu uns minuts abans de continuar...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Heu acabat amb èxit el tractament (%s processats correus) en %s';
-$lang['INFO_PROCESSING_FINISHED_NEW'] = 'Heu acabat amb èxit el tractament a getting_post %s (%s processats correus) en %s,<br />but hi ha hagut %s nou article(s) després d\'aquesta data';
+$lang['INFO_PROCESSING_FINISHED_NEW'] = 'Heu acabat amb èxit el tractament a getting_post %s (%s posts processats) en %s,<br />però hi ha hagut %s posts nous després d\'aquesta data.';
 
 // Progress screen
 $lang['REBUILD_SEARCH_PROGRESS'] = 'Reconstruir La Cerca De Progrés';
@@ -2183,10 +2183,10 @@ $lang['CLEARED_SEARCH_TABLES'] = 'Aclarit cerca les taules. ';
 $lang['DELETED_POSTS'] = '%s post(s) van ser esborrats per als seus usuaris durant el processament. ';
 $lang['PROCESSING_NEXT_POSTS'] = 'Tramitació següent %s post(s). Si us plau esperi...';
 $lang['ALL_SESSION_POSTS_PROCESSED'] = 'Processat tots els missatges en la sessió actual.';
-$lang['ALL_POSTS_PROCESSED'] = 'Tots els missatges van ser tractades amb èxit.';
-$lang['ALL_TABLES_OPTIMIZED'] = 'Tots cerca les taules van ser optimitzat amb èxit.';
+$lang['ALL_POSTS_PROCESSED'] = 'Tots els missatges han estat processats amb èxit.';
+$lang['ALL_TABLES_OPTIMIZED'] = 'Totes les taules de cerca s\'han optimitzat amb èxit.';
 
-$lang['PROCESSING_POST_DETAILS'] = 'Tractament post';
+$lang['PROCESSING_POST_DETAILS'] = 'Processant post.';
 $lang['PERCENT'] = 'Per cent';
 $lang['CURRENT_SESSION'] = 'Sessió Actual';
 $lang['TOTAL'] = 'Total';
@@ -2196,7 +2196,7 @@ $lang['PERCENT_COMPLETED'] = '%s %% completat';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Sessió actual detalls';
 $lang['PROCESSING_TIME'] = 'Temps de processament';
-$lang['TIME_LAST_POSTS'] = 'Última %s post(s)';
+$lang['TIME_LAST_POSTS'] = 'Últim %s missatge(s).';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Des de l\'inici';
 $lang['TIME_AVERAGE'] = 'Mitjana per cicle';
 $lang['TIME_ESTIMATED'] = 'Estimat fins a acabar';
@@ -2206,11 +2206,11 @@ $lang['SIZE_SEARCH_TABLES'] = 'Cerca Taules mida';
 
 $lang['POSTS_LAST_CYCLE'] = 'Processat post(s) en el darrer cicle';
 
-$lang['INFO_ESTIMATED_VALUES'] = '(*) Totes les estimat els valors es calculen approximately<br />based en l\'actual completat per cent, i que poden no representar l\'actual final de valors.<br />As l\'completat per cent augmenta l\'estimació de valors s\'acosten a les actuals.';
+$lang['INFO_ESTIMATED_VALUES'] = '(*) Tots els valors estimats es calculen aproximadament<br />basant-se en el percentatge actual completat i poden no representar els valors finals reals.<br />A mesura que augmenta el percentatge completat, els valors estimats s\'acostaran als reals.';
 
 $lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Feu clic %shere%s per tornar a Reconstruir la Cerca';
-$lang['REBUILD_SEARCH_ABORTED'] = 'Reconstruir cerca avortat a getting_post %s.<br /><br />If que avortat, mentre que el processament va ser, t\'has d\'esperar uns minuts fins que executar Reconstruir Cerca de nou, de manera que l\'últim cicle pot acabar.';
-$lang['WRONG_INPUT'] = 'Has introduït algun malament valors. Si us plau, fes la teva aportació i proveu de nou.';
+$lang['REBUILD_SEARCH_ABORTED'] = 'Reconstruir cerca avortat a l\'identificador del post %s.<br /><br />Si heu abortat mentre es processava, haureu d\'esperar uns minuts abans de tornar a executar la reconstrucció de cerca, per tal que l\'últim cicle pugui acabar.';
+$lang['WRONG_INPUT'] = 'Heu introduït alguns valors incorrectes. si us plau, comproveu la vostra entrada i torneu-ho a provar.';
 
 // Buttons
 $lang['PROCESSING'] = 'Processament de...';
@@ -2218,41 +2218,41 @@ $lang['FINISHED'] = 'Acabat';
 
 $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'El tema ha estat mogut del fòrum [b]%s[/b] al fòrum [b]%s[/b].[br][b]Raó per al trasllat:[/b] %s[br][br]%s';
 $lang['BOT_MESS_SPLITS'] = 'El tema ha estat dividida. Nou tema - [b]%s[/b][br][br]%s';
-$lang['BOT_TOPIC_SPLITS'] = 'El tema ha estat dividits de [b]%s[/b][br][br]%s';
+$lang['BOT_TOPIC_SPLITS'] = 'El tema ha estat dividit de [b]%s[/b][br][br]%s';
 
 $lang['CALLSEED'] = 'Cridar llavors';
 $lang['CALLSEED_EXPLAIN'] = 'Prendre nota amb la sol·licitud de retorn a la distribució';
-$lang['CALLSEED_SUBJECT'] = 'Descarregar ajudar %s';
-$lang['CALLSEED_TEXT'] = 'Hola![br]Your es necessita ajuda a l\'alliberament [url=%s]%s[/url][br]if vostè decideix ajudar, però ja esborrat el fitxer torrent, podeu baixar - [url=%s]this[/url][br][br]i esperança per la vostra ajuda!';
+$lang['CALLSEED_SUBJECT'] = 'Descarregar ajuda %s';
+$lang['CALLSEED_TEXT'] = 'Hola![br]La vostra ajuda és necessària en el llançament [url=%s]%s[/url][br]Si decidiu ajudar, però ja heu eliminat el fitxer torrent, podeu baixar-lo [url=%s]aquest[/url][br][br]Espereu la vostra ajuda!';
 $lang['CALLSEED_MSG_OK'] = 'Missatge ha estat enviat a tots aquells que descarreguen aquesta versió';
-$lang['CALLSEED_MSG_SPAM'] = 'La petició ja ha estat un cop enviat correctament (Segurament no)<br /><br />The pròxima oportunitat per enviar una sol·licitud per ser <b>%s</b>.';
-$lang['CALLSEED_HAVE_SEED'] = 'Tema no requereixen ajuda (<b>Seeders:</b> %d)';
+$lang['CALLSEED_MSG_SPAM'] = 'La sol·licitud ja s\'ha enviat correctament una vegada (Probablement no vosaltres)<br /><br />La següent oportunitat per enviar una sol·licitud per ser <b>%s</b>.';
+$lang['CALLSEED_HAVE_SEED'] = 'El tema no requereix ajuda (<b>Seeders:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
-    'mod_topic_delete' => 'Tema:<br /> <b>deleted</b>',
-    'mod_topic_move' => 'Tema:<br /> <b>moved</b>',
-    'mod_topic_lock' => 'Tema:<br /> <b>closed</b>',
-    'mod_topic_unlock' => 'Tema:<br /> <b>opened</b>',
-    'mod_topic_split' => 'Tema:<br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Tema:<br /> <b>establert descarregat</b>',
-    'mod_topic_unset_downloaded' => 'Tema:<br /> <b>desestablert descarregat</b>',
+    'mod_topic_delete' => 'Tema:<br /> <b>esborrat</b>',
+    'mod_topic_move' => 'Tema:<br /> <b>més»<b>',
+    'mod_topic_lock' => 'Tema:<br /> <b>tancat</b>',
+    'mod_topic_unlock' => 'Tema:<br /> <b>obert</b>',
+    'mod_topic_split' => 'Tema:<br /> <b>dividit</b>',
+    'mod_topic_set_downloaded' => 'Tema:<br /> <b>descampat</b>',
+    'mod_topic_unset_downloaded' => 'Tema:<br /> <b>desfeu</b>',
     'mod_topic_change_tor_status' => 'Tema:<br /> <b>estat del torrent canviat</b>',
     'mod_topic_change_tor_type' => 'Tema:<br /> <b>tipus de torrent canviat</b>',
     'mod_topic_tor_unregister' => 'Tema:<br /> <b>torrent no registrat</b>',
     'mod_topic_tor_register' => 'Tema:<br /> <b>torrent registrat</b>',
     'mod_topic_tor_delete' => 'Tema:<br /> <b>torrent esborrat</b>',
-    'mod_topic_renamed' => 'Tema:<br /> <b>renombrat</b>',
+    'mod_topic_renamed' => 'Tema:<br /> <b>renomenat</b>',
     'mod_topic_poll_started' => 'Tema:<br /> <b>sondeig iniciat</b>',
     'mod_topic_poll_finished' => 'Tema:<br /> <b>sondeig acabat</b>',
     'mod_topic_poll_deleted' => 'Tema:<br /> <b>sondeig esborrat</b>',
     'mod_topic_poll_added' => 'Tema:<br /> <b>sondeig afegit</b>',
     'mod_topic_poll_edited' => 'Tema:<br /> <b>sondeig editat</b>',
-    'mod_post_delete' => 'Post:<br /> <b>deleted</b>',
+    'mod_post_delete' => 'Post:<br /> <b>esborrat</b>',
     'mod_post_pin' => 'Post:<br /> <b>fixat</b>',
     'mod_post_unpin' => 'Post:<br /> <b>desfixat</b>',
-    'adm_user_delete' => 'Usuari:<br /> <b>deleted</b>',
+    'adm_user_delete' => 'Usuari:<br /> <b>esborrat</b>',
     'adm_user_ban' => 'Usuari:<br /> <b>ban</b>',
-    'adm_user_unban' => 'Usuari:<br /> <b>unban</b>',
+    'adm_user_unban' => 'Usuari:<br /> <b>desban</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Totes les accions';
@@ -2263,7 +2263,7 @@ $lang['ACTS_LOG_USER'] = 'Usuari';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Registres de ';
 $lang['ACTS_LOG_FIRST'] = 'a partir de';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dies enrere';
-$lang['ACTS_LOG_TOPIC_MATCH'] = 'Títol del tema partit';
+$lang['ACTS_LOG_TOPIC_MATCH'] = 'Títol del tema emparrat';
 $lang['ACTS_LOG_SORT_BY'] = 'Ordenar per';
 $lang['ACTS_LOG_LOGS_ACTION'] = 'Acció';
 $lang['ACTS_LOG_USERNAME'] = 'Nom d\'usuari';
@@ -2273,18 +2273,18 @@ $lang['ACTS_LOG_FILTER'] = 'Filtre';
 $lang['ACTS_LOG_TOPICS'] = 'Temes:';
 $lang['ACTS_LOG_OR'] = 'o';
 
-$lang['RELEASE'] = 'Llançament De Plantilles';
+$lang['RELEASE'] = 'Llançament de Plantilles';
 $lang['RELEASES'] = 'Comunicats';
 
 $lang['BACK'] = 'Tornar';
-$lang['ERROR_FORM'] = 'Invalid camps';
+$lang['ERROR_FORM'] = 'Camps invàlids';
 $lang['NEW_RELEASE'] = 'Nova versió';
 $lang['NEXT'] = 'Continuar';
 $lang['OTHER'] = 'Altres';
 $lang['ALL'] = 'Tot';
 
 $lang['TPL_EMPTY_FIELD'] = 'Heu d\'omplir el camp <b>%s</b>';
-$lang['TPL_EMPTY_SEL'] = 'Heu de seleccionar com <b>%s</b>';
+$lang['TPL_EMPTY_SEL'] = 'Heu de seleccionar <b>%s</b>';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - No és un nombre';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Ha de ser https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Ha de ser https:// IMG_URL';
@@ -2308,73 +2308,73 @@ $lang['SEARCH_INVALID_GROUP'] = 'S\'ha introduït un grup no vàlid per cercar';
 $lang['SEARCH_INVALID_RANK'] = 'S\'ha introduït una classificació no vàlida per cercar';
 $lang['SEARCH_INVALID_DATE'] = 'S\'ha introduït una data no vàlida per cercar';
 $lang['SEARCH_INVALID_POSTCOUNT'] = 'S\'ha introduït un recompte de publicacions no vàlid per cercar';
-$lang['SEARCH_INVALID_USERFIELD'] = 'Invalid Userfield dades introduïdes';
+$lang['SEARCH_INVALID_USERFIELD'] = 'Dades d\'Userfield no vàlides introduïdes.';
 $lang['SEARCH_INVALID_LASTVISITED'] = 'S\'ha introduït una data no vàlida per a la darrera cerca visitada';
-$lang['SEARCH_INVALID_LANGUAGE'] = 'Idioma No Vàlid Seleccionat';
-$lang['SEARCH_INVALID_TIMEZONE'] = 'Invalid Seleccionat El Fus Horari';
-$lang['SEARCH_INVALID_MODERATORS'] = 'Invalid Fòrum Seleccionat';
-$lang['SEARCH_INVALID'] = 'Invalid Cerca';
-$lang['SEARCH_INVALID_DAY'] = 'El dia que heu introduït no era vàlida';
-$lang['SEARCH_INVALID_MONTH'] = 'El mes que va entrar, no era vàlida';
-$lang['SEARCH_INVALID_YEAR'] = 'L\'any que heu introduït no era vàlida';
+$lang['SEARCH_INVALID_LANGUAGE'] = 'Idioma seleccionat no vàlid.';
+$lang['SEARCH_INVALID_TIMEZONE'] = 'Fus horari seleccionat no vàlid.';
+$lang['SEARCH_INVALID_MODERATORS'] = 'Fòrum seleccionat no vàlid.';
+$lang['SEARCH_INVALID'] = 'Cerca no vàlida.';
+$lang['SEARCH_INVALID_DAY'] = 'El dia introduït no és vàlid.';
+$lang['SEARCH_INVALID_MONTH'] = 'El mes introduït no és vàlid.';
+$lang['SEARCH_INVALID_YEAR'] = 'L\'any introduït no és vàlid.';
 $lang['SEARCH_FOR_USERNAME'] = 'Cerca de noms d\'usuari coincidents %s';
 $lang['SEARCH_FOR_EMAIL'] = 'Cercant adreces de correu electrònic coincidents %s';
 $lang['SEARCH_FOR_IP'] = 'Cercar les adreces IP de concordança %s';
 $lang['SEARCH_FOR_DATE'] = 'Cercar usuaris que s\'%s %d/%d/%d';
 $lang['SEARCH_FOR_GROUP'] = 'La recerca dels membres del grup de %s';
-$lang['SEARCH_FOR_RANK'] = 'La recerca de portadors rang de %s';
-$lang['SEARCH_FOR_BANNED'] = 'La recerca prohibit usuaris';
-$lang['SEARCH_FOR_ADMINS'] = 'Cercar Els Administradors';
-$lang['SEARCH_FOR_MODS'] = 'Buscant Moderadors';
-$lang['SEARCH_FOR_DISABLED'] = 'Buscant per als usuaris discapacitats';
-$lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Buscant per als usuaris amb un post comte superior %d';
-$lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Buscant per als usuaris amb un post comte menys de %d';
-$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Buscant per als usuaris amb un post comptar entre %d i %d';
-$lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Buscant per als usuaris amb un post comte valor de %d';
-$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Buscant per als usuaris amb un Twitter coincidents %s';
+$lang['SEARCH_FOR_RANK'] = 'La recerca del rang de portadors de %s.';
+$lang['SEARCH_FOR_BANNED'] = 'La recerca d\'usuaris prohibits.';
+$lang['SEARCH_FOR_ADMINS'] = 'Cerca dels administradors.';
+$lang['SEARCH_FOR_MODS'] = 'Buscant moderadors.';
+$lang['SEARCH_FOR_DISABLED'] = 'Buscant usuaris discapacitats.';
+$lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Buscant usuaris amb un recompte de publicacions superior a %d.';
+$lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Buscant usuaris amb un recompte de publicacions inferior a %d.';
+$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Buscant usuaris amb un recompte de publicacions entre %d i %d.';
+$lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Buscant usuaris amb un valor de recompte de publicacions de %d.';
+$lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Buscant usuaris amb un Twitter coincident %s.';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Cercant usuaris amb una pàgina web que coincideixi amb %s';
 $lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Recerca per a usuaris amb una Ubicació coincidents %s';
 $lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Buscant per als usuaris amb els seus Interessos camp de concordança %s';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Buscant per als usuaris amb la seva Ocupació camp de concordança %s';
 $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Buscant per als usuaris que han visitat en els darrers %s';
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Buscant per als usuaris que han visitat després de l\'últim %s';
-$lang['SEARCH_FOR_LANGUAGE'] = 'Buscant per als usuaris que tenen conjunt %s com la seva llengua';
-$lang['SEARCH_FOR_TIMEZONE'] = 'Buscant per als usuaris que tenen conjunt UTC %s com a zona horària';
-$lang['SEARCH_FOR_MODERATORS'] = 'Cerca per els moderadors del Fòrum -> %s';
-$lang['SEARCH_USERS_ADVANCED'] = 'Usuari Avançat De Cerca';
+$lang['SEARCH_FOR_LANGUAGE'] = 'Buscant usuaris que han establert %s com a llengua.';
+$lang['SEARCH_FOR_TIMEZONE'] = 'Buscant usuaris que han establert UTC %s com a fus horari.';
+$lang['SEARCH_FOR_MODERATORS'] = 'Cerca dels moderadors del fòrum -> %s.';
+$lang['SEARCH_USERS_ADVANCED'] = 'Cerca d\'usuaris avançats.';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Aquest Mòdul us permet realitzar cerques avançades per als usuaris una àmplia gamma de criteris. Si us plau, llegiu les descripcions per a cada camp per a comprendre cada opció de cerca completament.';
-$lang['SEARCH_USERNAME_EXPLAIN'] = 'Aquí es pot realitzar una minúscules per a l\'usuari. Si voleu partit a part del nom d\'usuari, useu * (astèrix) com a comodí.';
-$lang['SEARCH_EMAIL_EXPLAIN'] = 'Introduïu una expressió per a que coincideixi amb un usuari, adreça de correu electrònic. Aquest és sensible a majúscules. Si vols fer una coincidència parcial, ús * (astèrix) com a comodí.';
+$lang['SEARCH_USERNAME_EXPLAIN'] = 'Realitzar una cerca d\'usuaris per nom d\'usuari.';
+$lang['SEARCH_EMAIL_EXPLAIN'] = 'Introduïu una expressió per a coincidir amb una adreça de correu electrònic d\'usuari.';
 $lang['SEARCH_IP_EXPLAIN'] = 'Cerca d\'usuaris per una adreça IP específica (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'Els usuaris que s\'han incorporat a';
-$lang['SEARCH_USERS_LASTVISITED'] = 'Els usuaris a qui han visitat';
+$lang['SEARCH_USERS_LASTVISITED'] = 'Usuaris que han visitat.';
 $lang['IN_THE_LAST'] = 'en l\'últim';
 $lang['AFTER_THE_LAST'] = 'després de l\'última';
 $lang['BEFORE'] = 'Abans';
 $lang['AFTER'] = 'Després d\'';
-$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Cerca als usuaris l\'unir-se Abans o Després (i) a una data determinada. La data en format AAAA/MM/DD.';
+$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Cerca d\'usuaris que s\'uneixen abans o després d\'una data específica.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Veure tots els membres del grup seleccionat.';
 $lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Veure tots els portadors del rang seleccionat.';
-$lang['BANNED_USERS'] = 'Prohibit Als Usuaris';
-$lang['DISABLED_USERS'] = 'Persones Discapacitades';
+$lang['BANNED_USERS'] = 'Usuaris prohibits.';
+$lang['DISABLED_USERS'] = 'Usuaris discapacitats.';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Administradors: tots els usuaris amb poders d\'administrador; Moderadors: tots els moderadors del fòrum; Usuaris prohibits: tots els comptes que han estat prohibits en aquests fòrums; Usuaris desactivats: tots els usuaris amb comptes desactivats (desactivats manualment o mai verificats la seva adreça de correu electrònic); Usuaris amb PM desactivats: selecciona usuaris que tenen els privilegis de missatges privats eliminats (Fet mitjançant Gestió d\'usuaris)';
 $lang['POSTCOUNT'] = 'Recompte de publicacions';
-$lang['EQUALS'] = 'És igual';
-$lang['GREATER_THAN'] = 'Superior';
-$lang['LESS_THAN'] = 'Menys de';
-$lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Podeu cercar usuaris segons el valor del recompte de publicacions. Podeu cercar per un valor específic, major o menor que un valor o entre dos valors. Per fer la cerca d\'interval, seleccioneu "Igual" i després poseu els valors inicial i final de l\'interval separats per un guió (-), per exemple, 10-15';
+$lang['EQUALS'] = 'És igual.';
+$lang['GREATER_THAN'] = 'Superior.';
+$lang['LESS_THAN'] = 'Menys de.';
+$lang['SEARCH_USERS_POSTCOUNT_EXPLAIN'] = 'Cerca d\'usuaris segons el recompte de publicacions.';
 $lang['USERFIELD'] = 'Camp d\'usuari';
-$lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Cerca per als usuaris en funció de diferents perfil camps. Els comodins són compatibles amb un astèrix (*).';
-$lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Podeu cercar usuaris basats en la seva última data d\'inici de sessió utilitzant aquesta opció de cerca';
-$lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Aquesta mostrarà els usuaris a qui heu seleccionat un idioma concret en el seu Perfil';
+$lang['SEARCH_USERS_USERFIELD_EXPLAIN'] = 'Cerca d\'usuaris basant-se en diversos camps de perfil.';
+$lang['SEARCH_USERS_LASTVISITED_EXPLAIN'] = 'Cerca d\'usuaris en funció de la seva última data d\'inici de sessió.';
+$lang['SEARCH_USERS_LANGUAGE_EXPLAIN'] = 'Mostrarà els usuaris a qui han seleccionat un idioma concret.';
 $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'Els usuaris que hagin seleccionat una determinada zona horària en el seu perfil';
 $lang['MODERATORS_OF'] = 'Els moderadors de';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'Cerqueu usuaris amb permisos de moderació per a un fòrum específic. Els permisos de moderació es reconeixen ja sigui pels permisos d\'usuari o per estar en un grup amb els permisos de grup adequats.';
 
 $lang['SEARCH_USERS_NEW'] = '%s cedit %d resultat(s). Realitzar <a href="%s">another search</a>.';
 $lang['BANNED'] = 'Prohibit';
-$lang['NOT_BANNED'] = 'No Prohibit';
-$lang['SEARCH_NO_RESULTS'] = 'No hi ha usuaris que coincideixin amb els teus criteris seleccionats. Si us plau, proveu amb una altra cerca. Si cerqueu el nom d\'usuari o adreça de correu electrònic camps, per parcial partits que ha d\'utilitzar el comodí * (astèrix).';
+$lang['NOT_BANNED'] = 'No prohibit';
+$lang['SEARCH_NO_RESULTS'] = 'No hi ha usuaris que coincideixin amb els teus criteris seleccionats. Si us plau, proveu amb una altra cerca. Si cerqueu el nom d\'usuari o adreça de correu electrònic, per coincidències parcials heu d\'utilitzar el comodí *(asterisc).*';
 $lang['ACCOUNT_STATUS'] = 'Estat Del Compte';
 $lang['SORT_OPTIONS'] = 'Opcions d\'ordenació:';
 $lang['LAST_VISIT'] = 'L\'Última Visita';
@@ -2387,7 +2387,7 @@ $lang['MC_TITLE'] = 'Comentari de moderació';
 $lang['MC_LEGEND'] = 'Escriu un comentari';
 $lang['MC_FAQ'] = 'El text introduït, apareixerà en aquest missatge';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s en el seu missatge";
-$lang['MC_COMMENT_PM_MSG'] = "Hola, [b]%s[/b]\nModerator esquerra en el seu missatge [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "Hola, [b]%s[/b]\nEl moderador ha deixat en el seu missatge [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',
@@ -2419,21 +2419,21 @@ $lang['SITEMAP_NOT_CREATED'] = 'Mapa del web encara no està creat';
 $lang['SITEMAP_OPTIONS'] = 'Opcions';
 $lang['SITEMAP_CREATE'] = 'Crear / actualitzar el mapa del web';
 $lang['SITEMAP_WHAT_NEXT'] = 'Què fer a continuació?';
-$lang['SITEMAP_GOOGLE_1'] = 'Registrar el seu lloc a <a href="https://www.google.com/webmasters/" target="_blank">Google Webmaster</a> utilitzant el teu compte de Google.';
-$lang['SITEMAP_GOOGLE_2'] = '<a href="https://www.google.com/webmasters/tools/sitemap-list" target="_blank">Add sitemap</a> de lloc que heu registrat.';
+$lang['SITEMAP_GOOGLE_1'] = 'Registrar el seu lloc a <a href="https://www.google.com/webmasters/" target="_blank">Google Webmaster</a> utilitzant el seu compte de Google.';
+$lang['SITEMAP_GOOGLE_2'] = '<a href="https://www.google.com/webmasters/tools/sitemap-list" target="_blank">Afegir el mapa del lloc</a> que heu registrat.';
 $lang['SITEMAP_YANDEX_1'] = 'Registrar el seu lloc a <a href="https://webmaster.yandex.ru/sites/" target="_blank">Yandex Webmaster</a> utilitzant el seu Yandex compte.';
 $lang['SITEMAP_YANDEX_2'] = '<a href="https://webmaster.yandex.ru/site/map.xml" target="_blank">Add sitemap</a> de lloc que heu registrat.';
 $lang['SITEMAP_BING_1'] = 'Registrar el seu lloc a <a href="https://www.bing.com/webmaster/" target="_blank">Bing Webmaster</a> utilitzant el teu compte de Microsoft.';
 $lang['SITEMAP_BING_2'] = 'Afegir el mapa de lloc que heu registrat en la seva configuració.';
 $lang['SITEMAP_ADD_TITLE'] = 'Pàgines addicionals per sitemap';
 $lang['SITEMAP_ADD_PAGE'] = 'Pàgines addicionals';
-$lang['SITEMAP_ADD_EXP_1'] = 'Podeu especificar altres pàgines del vostre lloc que han de ser inclosos en el vostre fitxer de sitemap que vostè de crear.';
+$lang['SITEMAP_ADD_EXP_1'] = 'Podeu especificar altres pàgines al vostre lloc que s\'han d\'incloure al fitxer sitemap que esteu creant.';
 $lang['SITEMAP_ADD_EXP_2'] = 'Cada referència s\'ha de començar amb http(s):// i una nova línia!';
 
-$lang['FORUM_MAP'] = 'Fòrums mapa';
-$lang['ATOM_FEED'] = 'Alimentació';
+$lang['FORUM_MAP'] = 'El mapa de fòrums.';
+$lang['ATOM_FEED'] = 'Alimentació.';
 $lang['ATOM_ERROR'] = 'Error generar feed';
-$lang['ATOM_SUBSCRIBE'] = 'Subscriure\'s al feed';
+$lang['ATOM_SUBSCRIBE'] = 'Subscriure\'s al feed.';
 $lang['ATOM_UPDATED'] = 'Actualitzat';
 $lang['ATOM_GLOBAL_FEED'] = 'Feed global per a tots els fòrums';
 
@@ -2446,53 +2446,53 @@ $lang['TERMS_UPDATED_SUCCESSFULLY'] = 'Els termes s\'han actualitzat correctamen
 $lang['CLICK_RETURN_TERMS_CONFIG'] = '%sFeu clic aquí per tornar a l\'editor de termes%s';
 
 $lang['TR_STATS'] = [
-    0 => 'inactiu usuaris en 30 dies',
-    1 => 'inactiu usuaris per 90 dies',
+    0 => 'Usuaris inactius en 30 dies.',
+    1 => 'Usuaris inactius durant 90 dies.',
     2 => 'distribucions de mida mitjana al rastrejador',
     3 => 'el nombre total de mans en el rastrejador',
-    4 => 'com molts viure mans (hi ha com a mínim 1 led)',
-    5 => 'quantes mans que quan la sembra de més de 5 llavors',
-    6 => 'quants de nosaltres uploaders (els que el ple com a mínim 1 mà)',
-    7 => 'com molts uploaders en els últims 30 dies',
+    4 => 'Com viure mans (hi ha com a mínim 1 led).',
+    5 => 'Quantes mans es sembren més de 5 llavors.',
+    6 => 'Com nosaltres uploaders (els que van omplir almenys 1 mà).',
+    7 => 'Com molts uploaders en els últims 30 dies.',
 ];
 
-$lang['NEW_POLL_START'] = 'Enquesta activat';
-$lang['NEW_POLL_END'] = 'Enquesta completa';
-$lang['NEW_POLL_ENDED'] = 'Aquesta enquesta ja s\'ha completat';
-$lang['NEW_POLL_DELETE'] = 'Enquesta suprimit';
-$lang['NEW_POLL_ADDED'] = 'Enquesta afegit';
+$lang['NEW_POLL_START'] = 'Enquesta activada.';
+$lang['NEW_POLL_END'] = 'Enquesta completada.';
+$lang['NEW_POLL_ENDED'] = 'Aquesta enquesta ja s\'ha completat.';
+$lang['NEW_POLL_DELETE'] = 'Enquesta suprimida.';
+$lang['NEW_POLL_ADDED'] = 'Enquesta afegida.';
 $lang['NEW_POLL_ALREADY'] = 'El tema ja ha una enquesta';
-$lang['NEW_POLL_RESULTS'] = 'Enquesta canviat i l\'antic resultats suprimit';
-$lang['NEW_POLL_VOTES'] = 'Heu d\'introduir una resposta correcta opcions (mínim 2, el màxim és %s)';
-$lang['NEW_POLL_DAYS'] = 'El moment de l\'enquesta (%s dies des del moment de la creació tema) ja va acabar';
+$lang['NEW_POLL_RESULTS'] = 'L\'enquesta ha canviat i els antics resultats s\'han suprimit.';
+$lang['NEW_POLL_VOTES'] = 'Heu d\'introduir les opcions de resposta correctes (mínim 2, el màxim és %s).';
+$lang['NEW_POLL_DAYS'] = 'El període de l\'enquesta (%s dies des del moment de creació del tema) ja ha acabat.';
 $lang['NEW_POLL_U_NOSEL'] = 'No heu seleccionat que votar';
 $lang['NEW_POLL_U_CHANGE'] = 'Edició de l\'enquesta';
-$lang['NEW_POLL_U_EDIT'] = 'Canvi de l\'enquesta (l\'antic resultats seran suprimits).';
+$lang['NEW_POLL_U_EDIT'] = 'Canvi de l\'enquesta (els resultats antics seran esborrats).';
 $lang['NEW_POLL_U_VOTED'] = 'Tots van votar';
 $lang['NEW_POLL_U_START'] = 'Habilitar l\'enquesta';
 $lang['NEW_POLL_U_END'] = 'Acabar enquesta';
 $lang['NEW_POLL_M_TITLE'] = 'Títol de l\'enquesta';
 $lang['NEW_POLL_M_VOTES'] = 'Opcions';
-$lang['NEW_POLL_M_EXPLAIN'] = 'Cada fila correspon a una resposta (max';
+$lang['NEW_POLL_M_EXPLAIN'] = 'Cada fila correspon a una resposta (màx';
 
-$lang['OLD_BROWSER'] = 'Esteu utilitzant un navegador obsolet. La pàgina web no es mostrin correctament.';
+$lang['OLD_BROWSER'] = 'Esteu utilitzant un navegador obsolet. La pàgina web no es mostrarà correctament.';
 $lang['GO_BACK'] = 'Tornar';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'La pujada de fitxers està desactivada';
-$lang['UPLOAD_ERROR_COMMON'] = 'Penjar un fitxer d\'error';
+$lang['UPLOAD_ERROR_COMMON'] = 'S\'ha produït un error en penjar el fitxer.';
 $lang['UPLOAD_ERROR_SIZE'] = 'El fitxer penjat supera la mida màxima de %s';
-$lang['UPLOAD_ERROR_FORMAT'] = 'Invalid tipus de fitxer d\'imatge';
+$lang['UPLOAD_ERROR_FORMAT'] = 'Tipus de fitxer d\'imatge no vàlid.';
 $lang['UPLOAD_ERROR_DIMENSIONS'] = 'Les dimensions de la imatge superen els màxims permesos %sx%s píxels';
 $lang['UPLOAD_ERROR_NOT_IMAGE'] = 'L\'arxiu carregat no és una imatge';
-$lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'Extensió %s per a baixades, no és permès';
+$lang['UPLOAD_ERROR_NOT_ALLOWED'] = 'L\'extensió %s per a baixades no és permesa.';
 $lang['UPLOAD_ERRORS'] = [
     UPLOAD_ERR_INI_SIZE => 'heu excedit la mida màxima de fitxer per al servidor',
-    UPLOAD_ERR_FORM_SIZE => 'heu excedit el fitxer de la mida de càrrega',
-    UPLOAD_ERR_PARTIAL => 'l\'arxiu va ser parcialment descarregats',
-    UPLOAD_ERR_NO_FILE => 'arxiu no va ser penjat',
+    UPLOAD_ERR_FORM_SIZE => 'Heu excedit la mida màxima del fitxer per a la càrrega.',
+    UPLOAD_ERR_PARTIAL => 'L\'arxiu s\'ha descarregat parcialment.',
+    UPLOAD_ERR_NO_FILE => 'L\'arxiu no s\'ha penjat.',
     UPLOAD_ERR_NO_TMP_DIR => 'directori temporal no trobat',
-    UPLOAD_ERR_CANT_WRITE => 'escriure error',
-    UPLOAD_ERR_EXTENSION => 'pujar detingut per extensió',
+    UPLOAD_ERR_CANT_WRITE => 'Error d\'escriptura.',
+    UPLOAD_ERR_EXTENSION => 'La pujada de fitxers ha estat aturada per l\'extensió.',
 ];
 
 // Captcha
@@ -2513,7 +2513,7 @@ $lang['EMAILER_SUBJECT'] = [
     'USER_ACTIVATE' => 'Reactivació del compte',
     'USER_ACTIVATE_PASSWD' => 'Confirmació d\'una nova contrasenya',
     'USER_WELCOME' => 'Benvingut al lloc %s',
-    'USER_WELCOME_INACTIVE' => 'Benvingut al lloc %s',
+    'USER_WELCOME_INACTIVE' => 'Benvingut al lloc %s.',
 ];
 
 // Null ratio
