@@ -892,7 +892,7 @@ $lang['TEST_SETTINGS'] = 'Toetsinstellings';
 $lang['NOT_ASSIGNED'] = 'Nie toegeken nie';
 
 //bt
-$lang['BT_REG_YES'] = 'geregistreer';
+$lang['BT_REG_YES'] = 'Geregistreer';
 $lang['BT_REG_NO'] = 'Nie geregistreer nie';
 $lang['BT_REG_ON_TRACKER'] = 'Registreer op spoorsnyer';
 $lang['BT_REG_FAIL'] = 'Kon nie torrent op spoorsnoer registreer nie';
@@ -929,7 +929,7 @@ $lang['LEECHERS'] = 'Leechers';
 $lang['RELEASING'] = 'Self';
 $lang['SEEDING'] = 'saad';
 $lang['LEECHING'] = 'Leech';
-$lang['IS_REGISTERED'] = 'geregistreer';
+$lang['IS_REGISTERED'] = 'Geregistreer';
 $lang['MAGNET'] = 'Magnet-skakel';
 $lang['MAGNET_FOR_GUESTS'] = 'Wys magnet-skakel vir gaste';
 $lang['MAGNET_v2'] = 'Magnet-skakel (BitTorrent v2 ondersteun)';
@@ -989,8 +989,8 @@ $lang['DELETE_MOVE_TORRENT'] = 'Verwyder en skuif onderwerp';
 $lang['DL_TORRENT'] = 'Aflaai .torrent';
 $lang['BT_LAST_POST'] = 'Laaste pos';
 $lang['BT_CREATED'] = 'Onderwerp gepos';
-$lang['BT_REPLIES'] = 'antwoorde';
-$lang['BT_VIEWS'] = 'views';
+$lang['BT_REPLIES'] = 'Antwoorde';
+$lang['BT_VIEWS'] = 'Views';
 
 // Gold/Silver releases
 $lang['GOLD'] = 'Goud';
@@ -1020,9 +1020,9 @@ $lang['BT_ONLY_ACTIVE'] = 'aktiewe';
 $lang['BT_ONLY_MY'] = 'My uitgawes';
 $lang['BT_SEED_EXIST'] = 'Saaier bestaan';
 $lang['BT_ONLY_NEW'] = 'Nuut vanaf laaste besoek';
-$lang['BT_SHOW_CAT'] = 'kategorie';
+$lang['BT_SHOW_CAT'] = 'Kategorie';
 $lang['BT_SHOW_FORUM'] = 'Forum';
-$lang['BT_SHOW_AUTHOR'] = 'skrywer';
+$lang['BT_SHOW_AUTHOR'] = 'Skrywer';
 $lang['BT_SHOW_SPEED'] = 'spoed';
 $lang['SEED_NOT_SEEN'] = 'Saaier nie gesien nie';
 $lang['TITLE_MATCH'] = 'Titel wedstryd';
@@ -1047,7 +1047,7 @@ $lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'DL-Lys en Torrent aktiwiteit';
 $lang['DLWILL'] = 'Sal aflaai';
 $lang['DLDOWN'] = 'aflaai';
 $lang['DLCOMPLETE'] = 'volledige';
-$lang['DLCANCEL'] = 'kanselleer';
+$lang['DLCANCEL'] = 'Kanselleer';
 
 $lang['DL_LIST_DEL'] = 'Duidelike DL-lys';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Verwyder DL-lys vir hierdie onderwerp?';
@@ -1156,7 +1156,7 @@ $lang['NO_POSTS_REMOVED'] = 'Geen plasings is verwyder nie.';
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'aankondigings';
 $lang['TOPICS_STICKY'] = 'Plakbriefjes';
-$lang['TOPICS_NORMAL'] = 'onderwerpe';
+$lang['TOPICS_NORMAL'] = 'Onderwerpe';
 
 //dpc
 $lang['DOUBLE_POST_ERROR'] = 'Jy kan nie \'n ander pos met presies dieselfde teks as jou laaste maak nie.';
@@ -1542,7 +1542,7 @@ $lang['MODERATOR_STATUS'] = 'Moderatorstatus';
 
 $lang['PUBLIC'] = 'Publiek';
 $lang['PRIVATE'] = 'Privaat';
-$lang['REGISTERED'] = 'geregistreer';
+$lang['REGISTERED'] = 'Geregistreer';
 $lang['ADMINISTRATORS'] = 'Administrateurs';
 
 // These are displayed in the drop-down boxes for advanced mode forum auth, try and keep them short!
@@ -1556,8 +1556,8 @@ $lang['AUTH_VIEW'] = $lang['VIEW'] = 'Beskou';
 $lang['AUTH_READ'] = $lang['READ'] = 'Lees';
 $lang['AUTH_POST'] = $lang['POST'] = 'Post';
 $lang['AUTH_REPLY'] = $lang['REPLY'] = 'antwoord';
-$lang['AUTH_EDIT'] = $lang['EDIT'] = 'wysig';
-$lang['AUTH_DELETE'] = $lang['DELETE'] = 'verwyder';
+$lang['AUTH_EDIT'] = $lang['EDIT'] = 'Wysig';
+$lang['AUTH_DELETE'] = $lang['DELETE'] = 'Verwyder';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Plak';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'kondig';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'stem';
@@ -1566,8 +1566,8 @@ $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Plaas lêers';
 $lang['AUTH_DOWNLOAD'] = 'Laai lêers af';
 
 $lang['USER_LEVEL'] = 'Gebruikersvlak';
-$lang['AUTH_USER'] = 'gebruiker';
-$lang['AUTH_ADMIN'] = 'administrateur';
+$lang['AUTH_USER'] = 'Gebruiker';
+$lang['AUTH_ADMIN'] = 'Administrateur';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum toestemmings is opgedateer';
 
 $lang['AUTH_UPDATED'] = 'Magtigings is opgedateer';
@@ -1655,7 +1655,7 @@ $lang['CATEGORY_DELETE'] = 'Vee kategorie uit.';
 $lang['CATEGORY_NAME_EMPTY'] = 'Kategorienaam nie gespesifiseer nie';
 
 $lang['STATUS_LOCKED'] = 'gesluit';
-$lang['STATUS_UNLOCKED'] = 'oopgesluit';
+$lang['STATUS_UNLOCKED'] = 'Oopgesluit';
 $lang['FORUM_SETTINGS'] = 'Algemene forum instellings';
 $lang['FORUM_NAME'] = 'Forum naam';
 $lang['FORUM_DESC'] = 'Beskrivelse.';
@@ -1682,7 +1682,7 @@ $lang['CLICK_RETURN_FORUMADMIN'] = 'Klik %sHere%s om terug te gaan na Forumadmin
 $lang['SHOW_ALL_FORUMS_ON_ONE_PAGE'] = 'Wys alle forums op een bladsy';
 
 // Smiley Management
-$lang['SMILEY_TITLE'] = 'Smile Editing Utility';
+$lang['SMILEY_TITLE'] = 'Smileys-bewerkingshulpmiddel';
 $lang['SMILE_DESC'] = 'Vanuit hierdie bladsy kan jy die emoticons of smileys wat jou gebruikers in hul plasings en privaat boodskappe kan gebruik, byvoeg, verwyder en redigeer.';
 
 $lang['SMILEY_CONFIG'] = 'Smiley Konfigurasie';
@@ -1690,7 +1690,7 @@ $lang['SMILEY_CODE'] = 'Smiley Kode';
 $lang['SMILEY_URL'] = 'Smile Image File';
 $lang['SMILEY_EMOT'] = 'Smile Emotion';
 $lang['SMILE_ADD'] = 'Voeg \'n nuwe Smiley by';
-$lang['SMILE'] = 'Smile';
+$lang['SMILE'] = 'Glimlag';
 $lang['EMOTION'] = 'emosie';
 
 $lang['SELECT_PAK'] = 'Kies Pack (. Pak) Lêer';
@@ -2189,7 +2189,7 @@ $lang['ALL_TABLES_OPTIMIZED'] = 'Alle soektabelle is suksesvol geoptimaliseer.';
 $lang['PROCESSING_POST_DETAILS'] = 'Verwerking pos';
 $lang['PERCENT'] = 'persent';
 $lang['CURRENT_SESSION'] = 'Huidige sessie';
-$lang['TOTAL'] = 'totale';
+$lang['TOTAL'] = 'Totale';
 
 $lang['PROCESS_DETAILS'] = 'Vanaf <b>%s</b> tot <b>%s</b> (uit totaal <b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %% voltooi';
@@ -2267,7 +2267,7 @@ $lang['ACTS_LOG_TOPIC_MATCH'] = 'Onderwerp titel wedstryd';
 $lang['ACTS_LOG_SORT_BY'] = 'Sorteer Volgens';
 $lang['ACTS_LOG_LOGS_ACTION'] = 'aksie';
 $lang['ACTS_LOG_USERNAME'] = 'Gebruikersnaam';
-$lang['ACTS_LOG_TIME'] = 'tyd';
+$lang['ACTS_LOG_TIME'] = 'Tyd';
 $lang['ACTS_LOG_INFO'] = 'info';
 $lang['ACTS_LOG_FILTER'] = 'filter';
 $lang['ACTS_LOG_TOPICS'] = 'onderwerpe:';
@@ -2416,7 +2416,7 @@ $lang['SITEMAP_ADMIN'] = 'Bestuur sitemap';
 $lang['SITEMAP_CREATED'] = 'Sitemap geskep';
 $lang['SITEMAP_AVAILABLE'] = 'En is beskikbaar by';
 $lang['SITEMAP_NOT_CREATED'] = 'Sitemap is nog nie geskep nie';
-$lang['SITEMAP_OPTIONS'] = 'opsies';
+$lang['SITEMAP_OPTIONS'] = 'Opsies';
 $lang['SITEMAP_CREATE'] = 'Skep / werk die sitemap op';
 $lang['SITEMAP_WHAT_NEXT'] = 'Wat om volgende te doen?';
 $lang['SITEMAP_GOOGLE_1'] = 'Registreer jou werf by <a href="https://www.google.com/webmasters/" target="_blank">Google Webmaster</a> met jou Google-rekening.';
@@ -2472,7 +2472,7 @@ $lang['NEW_POLL_U_VOTED'] = 'Almal het gestem';
 $lang['NEW_POLL_U_START'] = 'Aktiveer peiling';
 $lang['NEW_POLL_U_END'] = 'Voltooi poll';
 $lang['NEW_POLL_M_TITLE'] = 'Titel van die peiling';
-$lang['NEW_POLL_M_VOTES'] = 'opsies';
+$lang['NEW_POLL_M_VOTES'] = 'Opsies';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Elke ry moet ooreenstem met een antwoord (maks.';
 
 $lang['OLD_BROWSER'] = 'U gebruik \'n verouderde blaaier. Die webwerf sal nie korrek vertoon word nie.';
