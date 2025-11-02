@@ -205,20 +205,20 @@ $lang['TOPIC_ANNOUNCEMENT'] = 'Oglas:';
 $lang['TOPIC_MOVED'] = 'Prenesen:';
 $lang['TOPIC_POLL'] = '[ Anketa ]';
 
-$lang['MARK_TOPICS_READ'] = 'Označi sve teme прочитанными';
-$lang['TOPICS_MARKED_READ'] = 'Teme na ovom forumu su označena pročitati';
+$lang['MARK_TOPICS_READ'] = 'Označi sve teme pročitane';
+$lang['TOPICS_MARKED_READ'] = 'Teme na ovom forumu su označene kao pročitane';
 
-$lang['RULES_POST_CAN'] = 'Vi ste <b>can</b> stvarati nove teme u ovom forumu';
-$lang['RULES_POST_CANNOT'] = 'Vi ste <b>cannot</b> stvarati nove teme u ovom forumu';
-$lang['RULES_REPLY_CAN'] = 'Vi ste <b>can</b> odgovarati na teme u ovom forumu';
-$lang['RULES_REPLY_CANNOT'] = 'Vi ste <b>cannot</b> odgovarati na teme u ovom forumu';
-$lang['RULES_EDIT_CAN'] = 'Vi ste <b>can</b> urediti Svoje poruke u ovom forumu';
-$lang['RULES_EDIT_CANNOT'] = 'Vi ste <b>cannot</b> urediti Svoje poruke u ovom forumu';
-$lang['RULES_DELETE_CAN'] = 'Vi ste <b>can</b> brisati Vaše poruke u ovom forumu';
-$lang['RULES_DELETE_CANNOT'] = 'Vi ste <b>cannot</b> brisati Vaše poruke u ovom forumu';
-$lang['RULES_VOTE_CAN'] = 'Vi ste <b>can</b> glasati u ovom forumu';
-$lang['RULES_VOTE_CANNOT'] = 'Vi ste <b>cannot</b> glasovati u anketama na ovom forumu';
-$lang['RULES_MODERATE'] = 'Vi ste <b>can</b> ublažiti ovaj forum';
+$lang['RULES_POST_CAN'] = 'Možete <b>stvarati</b> nove teme u ovom forumu';
+$lang['RULES_POST_CANNOT'] = 'Ne možete <b>stvarati</b> nove teme u ovom forumu';
+$lang['RULES_REPLY_CAN'] = 'Možete <b>odgovarati</b> na teme u ovom forumu';
+$lang['RULES_REPLY_CANNOT'] = 'Ne možete <b>odgovarati</b> na teme u ovom forumu';
+$lang['RULES_EDIT_CAN'] = 'Možete <b>urediti</b> svoje poruke u ovom forumu';
+$lang['RULES_EDIT_CANNOT'] = 'Ne možete <b>urediti</b> svoje poruke u ovom forumu';
+$lang['RULES_DELETE_CAN'] = 'Možete <b>brisati</b> svoje poruke u ovom forumu';
+$lang['RULES_DELETE_CANNOT'] = 'Ne možete <b>brisati</b> svoje poruke u ovom forumu';
+$lang['RULES_VOTE_CAN'] = 'Možete <b>glasati</b> u ovom forumu';
+$lang['RULES_VOTE_CANNOT'] = 'Ne možete <b>glasati</b> u anketama u ovom forumu';
+$lang['RULES_MODERATE'] = 'Možete <b>moderirati</b> ovaj forum';
 
 $lang['NO_TOPICS_POST_ONE'] = 'U ovom forumu još nema postova<br />Kliknite na ikonu <b>Nova Tema</b>, a vaš post će biti prvi.';
 $lang['NO_RELEASES_POST_ONE'] = 'U ovom forumu još nema izdanja<br />Kliknite na ikonu <b>Nova Izdanja</b>, a vaše izdanje će biti prvo.';
@@ -232,13 +232,13 @@ $lang['SUBMIT_VOTE'] = 'Podnijeti glas';
 
 $lang['NO_NEWER_TOPICS'] = 'Nema novijih tema u ovom forumu';
 $lang['NO_OLDER_TOPICS'] = 'Nema starijih tema u ovom forumu';
-$lang['TOPIC_POST_NOT_EXIST'] = 'Temu ili post ste tražili ne postoji';
+$lang['TOPIC_POST_NOT_EXIST'] = 'Tema ili post koji ste tražili ne postoji';
 $lang['NO_POSTS_TOPIC'] = 'Nema ni jedne poruke u ovoj temi';
 
 $lang['DISPLAY_POSTS'] = 'Prikaži poruke';
-$lang['ALL_POSTS'] = 'Sve Postove';
-$lang['NEWEST_FIRST'] = 'Prvo Novi';
-$lang['OLDEST_FIRST'] = 'Stare Prvi';
+$lang['ALL_POSTS'] = 'Svi postovi';
+$lang['NEWEST_FIRST'] = 'Novi Prvi';
+$lang['OLDEST_FIRST'] = 'Najstariji Prvi';
 
 $lang['READ_PROFILE'] = 'Pogledaj profil korisnika';
 $lang['DELETE_POST'] = 'Izbriši ovaj post';
@@ -247,22 +247,22 @@ $lang['WROTE'] = 'napisao'; // proceeds the username and is followed by the quot
 $lang['QUOTE'] = 'Citat'; // comes before bbcode quote output
 $lang['CODE'] = 'Kod'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'skriveni tekst';
-$lang['SPOILER_CLOSE'] = 'zaokret';
-$lang['PLAY_ON_CURPAGE'] = 'Početi igrati na trenutnu stranicu';
+$lang['SPOILER_CLOSE'] = 'okret';
+$lang['PLAY_ON_CURPAGE'] = 'Početi igrati na trenutnoj stranici';
 
 $lang['EDITED_TIME_TOTAL'] = 'Posljednji put uredio <b>%s</b> na %s; uređeno %d put u ukupnom'; // Last edited by me on 12 Oct 2001; edited 1 time in total
 $lang['EDITED_TIMES_TOTAL'] = 'Posljednji put uredio <b>%s</b> na %s; uređeno %d puta u ukupnom'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
 $lang['LOCK_TOPIC'] = 'Zatvori temu';
-$lang['UNLOCK_TOPIC'] = 'Otvarajte temu';
-$lang['MOVE_TOPIC'] = 'Prenijeti temu';
+$lang['UNLOCK_TOPIC'] = 'Otvorite temu';
+$lang['MOVE_TOPIC'] = 'Premjestiti temu';
 $lang['DELETE_TOPIC'] = 'Izbrišite temu';
-$lang['SPLIT_TOPIC'] = 'Podijeliti temu';
+$lang['SPLIT_TOPIC'] = 'Podijelite temu';
 
-$lang['STOP_WATCHING_TOPIC'] = 'Stanica Sljedeća tema';
-$lang['START_WATCHING_TOPIC'] = 'Pratite tema odgovore';
-$lang['NO_LONGER_WATCHING'] = 'Više ne slijedeći ovu temu';
-$lang['YOU_ARE_WATCHING'] = 'Vi ste pratili ovu temu sada';
+$lang['STOP_WATCHING_TOPIC'] = 'Prestani pratiti temu';
+$lang['START_WATCHING_TOPIC'] = 'Pratite temu zbog odgovora';
+$lang['NO_LONGER_WATCHING'] = 'Više ne pratite ovu temu';
+$lang['YOU_ARE_WATCHING'] = 'Trenutno pratite ovu temu';
 
 $lang['SEARCH_IN_TOPIC'] = 'traži u temi...';
 $lang['HIDE_IN_TOPIC'] = 'Sakriti';
@@ -273,28 +273,28 @@ $lang['RANK_IMAGES'] = 'Rang slika';
 $lang['POST_IMAGES'] = 'Post slike';
 $lang['SIGNATURES'] = 'Potpis';
 $lang['SPOILER'] = 'Spojler';
-$lang['SHOW_OPENED'] = 'Show je otvorio';
-$lang['DOWNLOAD_PIC'] = 'Nove slike';
+$lang['SHOW_OPENED'] = 'Prikaz otvoreno';
+$lang['DOWNLOAD_PIC'] = 'Preuzimljive slike';
 
-$lang['MODERATE_TOPIC'] = 'Moderiranje ovu temu';
+$lang['MODERATE_TOPIC'] = 'Moderiranje ove teme';
 $lang['SELECT_POSTS_PER_PAGE'] = 'poruka na stranici';
 
 // Posting/Replying (Not private messaging!)
-$lang['TOPIC_REVIEW'] = 'Tema pregleda';
+$lang['TOPIC_REVIEW'] = 'Pregled teme';
 
 $lang['NO_POST_MODE'] = 'Ne postoji način post izabran'; // If posting.php is called without a mode (newtopic/reply/delete/etc., shouldn't be shown normally)
 
 $lang['POST_A_NEW_TOPIC'] = 'Post nove teme';
 $lang['POST_A_REPLY'] = 'Post novi odgovor';
 $lang['POST_TOPIC_AS'] = 'Post teme';
-$lang['EDIT_POST'] = 'Edit post';
-$lang['EDIT_TOPIC_TITLE'] = 'Mijenjati naziv teme';
+$lang['EDIT_POST'] = 'Uredi post';
+$lang['EDIT_TOPIC_TITLE'] = 'Uredi naziv teme';
 
-$lang['DONT_MESSAGE_TITLE'] = 'Morate navesti Naslov poruke';
-$lang['INVALID_TOPIC_ID'] = 'Tema Na Upit!';
-$lang['INVALID_TOPIC_ID_DB'] = 'Temu ne postoji u bazi podataka!';
+$lang['DONT_MESSAGE_TITLE'] = 'Morate navesti naslov poruke';
+$lang['INVALID_TOPIC_ID'] = 'Tema ne postoji!';
+$lang['INVALID_TOPIC_ID_DB'] = 'Tema ne postoji u bazi podataka!';
 
-$lang['NOT_POST'] = 'Obavijest O Nedostatku';
+$lang['NOT_POST'] = 'Obavijest o nedostatku';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Vi ne možete urediti izdanje sa statusom';
 
 $lang['OPTIONS'] = 'Mogućnosti';
@@ -455,7 +455,7 @@ $lang['MANAGE_USER'] = 'Uprava';
 
 $lang['PREFERENCES'] = 'Preferencije';
 $lang['ITEMS_REQUIRED'] = 'Stavke označene * su obavezna, osim ako nije drugačije određeno.';
-$lang['REGISTRATION_INFO'] = 'Za Registraciju';
+$lang['REGISTRATION_INFO'] = 'Informacije o registraciji';
 $lang['PROFILE_INFO'] = 'Informacije o profilu';
 $lang['AVATAR_PANEL'] = 'Kontrolna ploča avatar';
 
@@ -471,7 +471,7 @@ $lang['AWARDED_RANK'] = 'Dodijeljena rang';
 $lang['SHOT_RANK'] = 'Rang pogodak';
 
 $lang['TOTAL_POSTS'] = 'Ukupno poruka';
-$lang['SEARCH_USER_POSTS'] = 'Pronaći poruku'; // Find all posts by username
+$lang['SEARCH_USER_POSTS'] = 'Pronađi postove'; // Find all posts by username
 $lang['SEARCH_USER_POSTS_SHORT'] = 'Pronaći poruke korisnika';
 $lang['SEARCH_USER_TOPICS'] = 'Pronaći teme korisnika'; // Find all topics by username
 
@@ -532,7 +532,7 @@ $lang['RESET_AUTOLOGIN_EXPL'] = 'uključujući sva mjesta na kojima ste bili pri
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Prikazuje mali grafički prikaz ispod vaših podataka u postovima. Samo jedna slika može biti prikazana u isto vrijeme, njena širina ne može biti veća od %d piksela, visina ne može biti veća od %d piksela, a veličina datoteke ne smije biti veća od %s.';
 $lang['AVATAR_DELETE'] = 'Izbriši avatar.';
-$lang['AVATAR_DISABLE'] = 'Mogućnost upravljanja avatar je isključen zbog kršenja <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Opcija upravljanja avatarom isključena zbog kršenja <a href="%s"><b>pravila foruma</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Učitaj avatar.';
 $lang['RETURN_PROFILE'] = 'Vrati se na profil.';
 $lang['DELETE_IMAGE'] = 'Izbriši sliku.';
@@ -896,7 +896,7 @@ $lang['BT_REG_YES'] = 'Registriran od';
 $lang['BT_REG_NO'] = 'Nije registriran';
 $lang['BT_REG_ON_TRACKER'] = 'Prijavite se na adresi';
 $lang['BT_REG_FAIL'] = 'Nije moguće registrirati torrent na adresi';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Drugi torrent sa istim info_hash već <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Drugi torrent s istim info_hash već <a href="%s"><b>registriran</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-samo torrenti su trenutno onemogućeni od strane administratora, dozvoljeno: v2 i hibridi';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-samo torrenti su trenutno onemogućeni od strane administratora, dozvoljeno: v1 i hibridi';
 $lang['BT_FLIST'] = 'Lista datoteka';
@@ -983,7 +983,7 @@ $lang['BT_TOPIC_TITLE'] = 'Naziv teme';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Zadnji put viđeni';
 $lang['SIZE'] = 'Veličina';
 $lang['COMPLETED'] = 'Dovršeni preuzimanja';
-$lang['ADDED'] = 'Objavljeno';
+$lang['ADDED'] = 'Dodano';
 $lang['DELETE_TORRENT'] = 'Uklonite torrent';
 $lang['DELETE_MOVE_TORRENT'] = 'Uklonite i premjestite temu';
 $lang['DL_TORRENT'] = 'Preuzmi .torrent';
@@ -999,8 +999,8 @@ $lang['SET_GOLD_TORRENT'] = 'Napravite zlato';
 $lang['UNSET_GOLD_TORRENT'] = 'Poništi zlato';
 $lang['SET_SILVER_TORRENT'] = 'Napraviti srebro';
 $lang['UNSET_SILVER_TORRENT'] = 'Poništi srebro';
-$lang['GOLD_STATUS'] = 'ZLATNI TORRENT! PREUZIMANJE PROMET NE VJERUJE!';
-$lang['SILVER_STATUS'] = 'SILVER TORRENT! PREUZIMANJE PROMETA DJELOMIČNO OBUHVAĆENO!';
+$lang['GOLD_STATUS'] = 'ZLATNI TORRENT! PREUZIMANJE PROMET NE RAČUNA!';
+$lang['SILVER_STATUS'] = 'SREBRNI TORRENT! PREUZIMANJE PROMET DJELOMIČNO RAČUNATO!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Tip torenta promenjen na: %s';
 
 $lang['TORRENT_STATUS'] = 'Pretraži po statusu izdanja';
@@ -1044,23 +1044,23 @@ $lang['BT_2_WEEKS'] = '2 tjedna';
 $lang['BT_1_MONTH'] = 'mjesec';
 
 $lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'Popis DL i aktivnost torrenta';
-$lang['DLWILL'] = 'Preuzimanje';
+$lang['DLWILL'] = 'Bit će preuzeto';
 $lang['DLDOWN'] = 'Preuzimanje';
-$lang['DLCOMPLETE'] = 'Potpuni';
+$lang['DLCOMPLETE'] = 'Dovršeno';
 $lang['DLCANCEL'] = 'Poništi';
 
 $lang['DL_LIST_DEL'] = 'Očisti DL-listu';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Da li ukloniti DL-listu za ovu temu?';
 $lang['SHOW_DL_LIST'] = 'Prikazuje DL-listu';
 $lang['SET_DL_STATUS'] = 'Preuzimanje';
-$lang['UNSET_DL_STATUS'] = 'Ne Download';
+$lang['UNSET_DL_STATUS'] = 'Ne preuzimanje';
 $lang['TOPICS_DOWN_SETS'] = 'Status teme promijenjen na <b>Preuzimanje</b>';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Preuzimanje</b> status uklonjen';
 
 $lang['TOPIC_DL'] = 'DL';
 
 $lang['MY_DOWNLOADS'] = 'Moji preuzimanja';
-$lang['SEARCH_DL_WILL'] = 'Planira';
+$lang['SEARCH_DL_WILL'] = 'Planirano';
 $lang['SEARCH_DL_WILL_DOWNLOADS'] = 'Planirana preuzimanja';
 $lang['SEARCH_DL_DOWN'] = 'Trenutna';
 $lang['SEARCH_DL_COMPLETE'] = 'Završeno';
@@ -1085,7 +1085,7 @@ $lang['TD_TRAF'] = 'Danas';
 $lang['YS_TRAF'] = 'Jučer';
 $lang['TOTAL_TRAF'] = 'Ukupno';
 
-$lang['USER_RATIO'] = 'Vrijednost';
+$lang['USER_RATIO'] = 'Omjer';
 $lang['MAX_SPEED'] = 'Brzina';
 $lang['DOWNLOADED'] = 'Preuzete';
 $lang['UPLOADED'] = 'Preneseno';
@@ -1111,7 +1111,7 @@ $lang['BONUS_RETURN'] = 'Povratak na razmjenu bonusa sjemena';
 $lang['TRACKER'] = 'Tracker';
 $lang['RANDOM_RELEASE'] = 'Nasumično izdanje';
 $lang['OPEN_TOPICS'] = 'Otvaranje teme';
-$lang['OPEN_IN_SAME_WINDOW'] = 'otvaranje u istom prozoru';
+$lang['OPEN_IN_SAME_WINDOW'] = 'Otvori u istom prozoru';
 $lang['SHOW_TIME_TOPICS'] = 'prikazati vrijeme stvaranja tema';
 $lang['SHOW_CURSOR'] = 'istaknite red ispod kursora';
 

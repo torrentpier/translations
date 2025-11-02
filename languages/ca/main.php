@@ -2220,7 +2220,7 @@ $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'El tema ha estat mogut del fòrum [b]%s[/b] 
 $lang['BOT_MESS_SPLITS'] = 'El tema ha estat dividida. Nou tema - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'El tema ha estat dividit de [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Cridar llavors';
+$lang['CALLSEED'] = 'Cridar les llavors';
 $lang['CALLSEED_EXPLAIN'] = 'Prendre nota amb la sol·licitud de retorn a la distribució';
 $lang['CALLSEED_SUBJECT'] = 'Descarregar ajuda %s';
 $lang['CALLSEED_TEXT'] = 'Hola![br]La vostra ajuda és necessària en el llançament [url=%s]%s[/url][br]Si decidiu ajudar, però ja heu eliminat el fitxer torrent, podeu baixar-lo [url=%s]aquest[/url][br][br]Espereu la vostra ajuda!';
