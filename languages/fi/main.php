@@ -247,7 +247,7 @@ $lang['WROTE'] = 'kirjoitti'; // proceeds the username and is followed by the qu
 $lang['QUOTE'] = 'Lainaus'; // comes before bbcode quote output
 $lang['CODE'] = 'Koodi'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'piilotettu teksti';
-$lang['SPOILER_CLOSE'] = 'käännä';
+$lang['SPOILER_CLOSE'] = 'Sulje';
 $lang['PLAY_ON_CURPAGE'] = 'Aloita pelaaminen nykyisellä sivulla';
 
 $lang['EDITED_TIME_TOTAL'] = 'Viimeksi muokannut <b>%s</b> %s; muokattu %d kertaa yhteensä'; // Last edited by me on 12 Oct 2001; edited 1 time in total
@@ -394,7 +394,7 @@ $lang['SENTBOX'] = 'Sentbox';
 $lang['FLAG'] = 'Lippu';
 $lang['SUBJECT'] = 'Aihe';
 $lang['FROM'] = 'Alkaen';
-$lang['TO'] = 'Voit';
+$lang['TO'] = 'Vastaanottaja';
 $lang['DATE'] = 'Päivämäärä';
 $lang['MARK'] = 'Mark';
 $lang['SENT'] = 'Lähettänyt';
@@ -999,7 +999,7 @@ $lang['SET_GOLD_TORRENT'] = 'Tee kultaa.';
 $lang['UNSET_GOLD_TORRENT'] = 'Poista kultatila.';
 $lang['SET_SILVER_TORRENT'] = 'Tee hopea.';
 $lang['UNSET_SILVER_TORRENT'] = 'Poista hopeatila.';
-$lang['GOLD_STATUS'] = 'KULTA TORRENT! LATAA LIIKENNE EI PIDÄ!';
+$lang['GOLD_STATUS'] = 'Kultainen torrent! Latauksia ei lasketa liikenteeseen!';
 $lang['SILVER_STATUS'] = 'HOPEA TORRENT! LATAA LIIKENNE OSITTAIN PIDÄ!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent-tyyppi muuttui: %s';
 
@@ -1963,7 +1963,7 @@ $lang['SIZE_SMALLER_THAN'] = 'Liitetiedoston koko on pienempi kuin (tavua)';
 $lang['SIZE_GREATER_THAN'] = 'Liitetiedoston koko on suurempi kuin (tavua)';
 $lang['COUNT_SMALLER_THAN'] = 'Latausmäärä on pienempi kuin';
 $lang['COUNT_GREATER_THAN'] = 'Latausmäärä on suurempi kuin';
-$lang['MORE_DAYS_OLD'] = 'Enemmän kuin tämä, monta päivää vanha';
+$lang['MORE_DAYS_OLD'] = 'Yli tämän verran päiviä vanha';
 $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ei liitteitä tavannut hakuehdot';
 
 // Control Panel -> Statistics
