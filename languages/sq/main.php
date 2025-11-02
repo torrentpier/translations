@@ -253,7 +253,7 @@ $lang['PLAY_ON_CURPAGE'] = 'Filloni të luani në faqen aktuale';
 $lang['EDITED_TIME_TOTAL'] = 'E fundit e redaktuar nga <b>%s</b> në %s; redaktuar %d herë gjithsej'; // Last edited by me on 12 Oct 2001; edited 1 time in total
 $lang['EDITED_TIMES_TOTAL'] = 'E fundit e redaktuar nga <b>%s</b> në %s; redaktuar %d herë gjithsej'; // Last edited by me on 12 Oct 2001; edited 2 times in total
 
-$lang['LOCK_TOPIC'] = 'Bllokoni temë';
+$lang['LOCK_TOPIC'] = 'Blloko temën';
 $lang['UNLOCK_TOPIC'] = 'Hape temën';
 $lang['MOVE_TOPIC'] = 'Lëvizni temë';
 $lang['DELETE_TOPIC'] = 'Fshini këtë temë';
@@ -265,7 +265,7 @@ $lang['NO_LONGER_WATCHING'] = 'Nuk jeni më duke ndjekur këtë temë';
 $lang['YOU_ARE_WATCHING'] = 'Tani po ndiqni këtë temë';
 
 $lang['SEARCH_IN_TOPIC'] = 'Kërkoni në temë...';
-$lang['HIDE_IN_TOPIC'] = 'Fshehur';
+$lang['HIDE_IN_TOPIC'] = 'Fshihe';
 
 $lang['SHOW'] = 'Tregoni';
 $lang['AVATARS'] = 'Avatars';
@@ -363,12 +363,12 @@ $lang['COLOR_VIOLET'] = 'Vjollcë';
 $lang['FONT_SMALL'] = 'Të Shakespeare';
 $lang['FONT_NORMAL'] = 'Normale';
 $lang['FONT_LARGE'] = 'Të Mëdha';
-$lang['FONT_HUGE'] = 'Madh';
+$lang['FONT_HUGE'] = 'Shumë';
 
 $lang['NEW_POSTS_PREVIEW'] = 'Tema ka postime të reja, të redaktuara ose të palexuara';
 
 // Private Messaging
-$lang['PRIVATE_MESSAGING'] = 'Të Mesazheve Private';
+$lang['PRIVATE_MESSAGING'] = 'Mesazhe Private';
 
 $lang['NO_NEW_PM'] = 'nuk ka mesazhe të reja';
 
@@ -717,17 +717,17 @@ $lang['SORT_BY'] = 'Lloji nga';
 $lang['SORT_TIME'] = 'Pas kohës';
 $lang['SORT_TOPIC_TITLE'] = 'Titulli i temës';
 
-$lang['DISPLAY_RESULTS_AS'] = 'Të shfaqin rezultatet si';
+$lang['DISPLAY_RESULTS_AS'] = 'Trego rezultatet si';
 $lang['ALL_AVAILABLE'] = 'Të gjitha në dispozicion';
 $lang['BRIEFLY'] = 'Shkurtimisht';
 $lang['NO_SEARCHABLE_FORUMS'] = 'Ju nuk keni leje për të kërkuar ndonjë forum në këtë faqe interneti.';
 
 $lang['NO_SEARCH_MATCH'] = 'Nuk ka tema apo postime përmbushën kriteret e kërkimit tuaj';
-$lang['FOUND_SEARCH_MATCH'] = 'Kërkim gjetur %d ndeshje'; // e.g. Search found 1 match
+$lang['FOUND_SEARCH_MATCH'] = 'Këmbëngul gjetjen %d ndeshje'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Kërkim gjetur %d ndeshje'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Afër Dritares';
-$lang['CLOSE'] = 'afër';
+$lang['CLOSE'] = 'Mbylle';
 $lang['HIDE'] = 'fshih';
 
 // Auth related entries
@@ -758,7 +758,7 @@ $lang['LAST_UPDATED'] = 'Modifikimi i fundit';
 $lang['MOD_CP'] = 'Paneli i Kontrollit dhe Moderatori';
 $lang['SELECT'] = 'Zgjidhni';
 $lang['DELETE'] = 'Fshini';
-$lang['MOVE'] = 'Të lëvizur';
+$lang['MOVE'] = 'Lëvizi';
 $lang['LOCK'] = 'Bllokim';
 $lang['UNLOCK'] = 'Hap';
 
@@ -949,10 +949,10 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_DUP => 'duplikat',
     TOR_CLOSED_CPHOLD => 'i mbyllur (të drejtat e autorit)',
     TOR_CONSUMED => 'thithet',
-    TOR_DOUBTFUL => 'të dyshimta',
+    TOR_DOUBTFUL => 'Të dyshimta',
     TOR_CHECKING => 'po kontrollohet',
-    TOR_TMP => 'të përkohshme',
-    TOR_PREMOD => 'para-moderim',
+    TOR_TMP => 'Të përkohshme',
+    TOR_PREMOD => 'Para-moderim',
     TOR_REPLENISH => 'po plotësohet',
 ];
 $lang['TOR_STATUS_FAILED'] = 'Kjo status nuk ekziston!';
@@ -961,7 +961,7 @@ $lang['TOR_STATUS_DUB'] = 'Distribucioni ka të njëjtin status.';
 $lang['TOR_DONT_CHANGE'] = 'Ndryshimi i statusit nuk mund të bëhet!';
 $lang['TOR_STATUS_OF'] = 'Distribucioni ka statusin e:';
 $lang['TOR_STATUS_CHANGED'] = 'Statusi i ndryshuar:';
-$lang['TOR_BACK'] = ' prapa';
+$lang['TOR_BACK'] = 'Prapa';
 $lang['PROCEED'] = 'Vazhdo';
 $lang['INVALID_ATTACH_ID'] = 'Mungon identifikuesi i dosjes!';
 $lang['CHANGE_TOR_TYPE'] = 'Lloji i torrentit u ndryshua me sukses.';
@@ -985,7 +985,7 @@ $lang['SIZE'] = 'Madhësia';
 $lang['COMPLETED'] = 'Shkarkimet e përfunduara';
 $lang['ADDED'] = 'Shtuar';
 $lang['DELETE_TORRENT'] = 'Fshini torrent';
-$lang['DELETE_MOVE_TORRENT'] = 'Fshini dhe për të shkuar temë';
+$lang['DELETE_MOVE_TORRENT'] = 'Fshij dhe lëviz temën';
 $lang['DL_TORRENT'] = 'Shkarko .torrent';
 $lang['BT_LAST_POST'] = 'Postimi i fundit';
 $lang['BT_CREATED'] = 'Postuar temë';
@@ -997,10 +997,10 @@ $lang['GOLD'] = 'Ari';
 $lang['SILVER'] = 'Argjendi';
 $lang['SET_GOLD_TORRENT'] = 'Bëni ari';
 $lang['UNSET_GOLD_TORRENT'] = 'Anulo arin';
-$lang['SET_SILVER_TORRENT'] = 'Bëni argjendi';
+$lang['SET_SILVER_TORRENT'] = 'Bëni argjend';
 $lang['UNSET_SILVER_TORRENT'] = 'Anulo argjendin';
 $lang['GOLD_STATUS'] = 'ARI TORRENT! SHKARKO TRAFIKUT NUK E KONSIDEROJNË!';
-$lang['SILVER_STATUS'] = 'SILVER PËRRUA! SHKARKO TRAFIKUT PJESËRISHT KONSIDEROHET!';
+$lang['SILVER_STATUS'] = 'SILVER TORRENT! SHKARKO TRAFIKUT PJESËRISHT KONSIDEROHET!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Tipo i torrentit e ndërrua në: %s';
 
 $lang['TORRENT_STATUS'] = 'Kërko sipas statusit të publikimit';
@@ -1142,7 +1142,7 @@ $lang['NOT_ADMIN'] = 'Ju nuk jeni i autorizuar për të administruar këtë bord
 $lang['SESSION_EXPIRED'] = 'Sesioni i skaduar';
 
 // Sort memberlist per letter
-$lang['POST_LINK'] = 'Pas lidhje';
+$lang['POST_LINK'] = 'Postoni lidhjen';
 $lang['GOTO_QUOTED_POST'] = 'Shko në postimin e cituar';
 $lang['LAST_VISITED'] = 'Vizita e fundit';
 $lang['LAST_ACTIVITY'] = 'Aktiviteti i fundit';
@@ -1301,7 +1301,7 @@ $lang['YOUR_NEW_PASSWORD'] = 'Fjalëkalimi juaj i ri:';
 $lang['REGENERATE'] = 'Rilind';
 
 // Debug
-$lang['EXECUTION_TIME'] = 'Ekzekutimi kohë:';
+$lang['EXECUTION_TIME'] = 'Koha e ekzekutimit:';
 $lang['SEC'] = 'sec';
 $lang['ON'] = 'në';
 $lang['OFF'] = 'off';
@@ -1510,7 +1510,7 @@ $lang['USER_LEVELS'] = 'Nivelet e Përdoruesit';
 $lang['USER_LEVELS_UPDATED'] = 'Nivelet e Përdoruesve janë përditësuar';
 
 // Synchronize
-$lang['SYNCHRONIZE'] = 'Sinkronizuar';
+$lang['SYNCHRONIZE'] = 'Sinkronizoni';
 $lang['TOPICS_DATA_SYNCHRONIZED'] = 'Të dhënat e Temave janë sinkronizuar';
 $lang['USER_POSTS_COUNT'] = 'Numri i Postimeve të Përdoruesve';
 $lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Numri i Postimeve të Përdoruesve ka qenë i sinkronizuar';
@@ -1530,7 +1530,7 @@ $lang['SELECT_A_FORUM'] = 'Zgjidhni një Forumi';
 $lang['AUTH_CONTROL_USER'] = 'Kontrolli i Lejeve të Përdoruesve';
 $lang['AUTH_CONTROL_GROUP'] = 'Kontrolli i Lejeve të Grupi';
 $lang['AUTH_CONTROL_FORUM'] = 'Kontrolli i Lejeve të Forumit';
-$lang['LOOK_UP_FORUM'] = 'Shiko Forumin';
+$lang['LOOK_UP_FORUM'] = 'Shikoni Forumin';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Këtu ju mund të ndryshoni lejet dhe statusin e moderatorëve të caktuar për çdo grup përdoruesish. Mos harroni se kur ndryshoni lejet e grupit, lejet e përdoruesit individual mund të lejojnë ende përdoruesit të hyjnë në forume, etj. Ju do të jeni të paralajmëruar nëse është ky rasti.';
 $lang['USER_AUTH_EXPLAIN'] = 'Këtu ju mund të ndryshoni lejet dhe statusin e moderatorëve të caktuar për çdo përdorues individual. Mos harroni se kur ndryshoni lejet e përdoruesve, lejet e grupit mund të lejojnë ende përdoruesin të hyjë në forume, etj. Ju do të jeni të paralajmëruar nëse është ky rasti.';
@@ -1552,14 +1552,14 @@ $lang['FORUM_PRIVATE'] = 'PRIVATE';
 $lang['FORUM_MOD'] = 'MOD';
 $lang['FORUM_ADMIN'] = 'ADMIN';
 
-$lang['AUTH_VIEW'] = $lang['VIEW'] = 'Pamje';
+$lang['AUTH_VIEW'] = $lang['VIEW'] = 'Shfaqja';
 $lang['AUTH_READ'] = $lang['READ'] = 'Lexoni';
 $lang['AUTH_POST'] = $lang['POST'] = 'Post';
 $lang['AUTH_REPLY'] = $lang['REPLY'] = 'Përgjigje';
 $lang['AUTH_EDIT'] = $lang['EDIT'] = 'Redakto';
 $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Fshini';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Ngjitet';
-$lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Të njoftuar';
+$lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Njoftoni';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Votoni';
 $lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Krijoni Opinionin';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Postoni Skedarë';
@@ -1699,14 +1699,14 @@ $lang['KEEP_EXISTING'] = 'Mbani Smiley Ekzistuese';
 $lang['SMILEY_IMPORT_INST'] = 'Duhet të zgjidhni paketën e buzëqeshjeve dhe ngarkoni të gjitha skedarët në katalogun e duhur të Smiley për instalimin tuaj.';
 $lang['SMILEY_IMPORT'] = 'Import Smiley Pack';
 $lang['CHOOSE_SMILE_PAK'] = 'Zgjidhni një skedë Smiley Pack .pak';
-$lang['IMPORT'] = 'Import Buzëqeshje';
+$lang['IMPORT'] = 'Importoni Buzëqeshjet';
 $lang['SMILE_CONFLICTS'] = 'Çfarë duhet të bëni në rast konflikti';
 $lang['DEL_EXISTING_SMILEYS'] = 'Fshini buzëqeshjet ekzistuese para të importit';
 $lang['IMPORT_SMILE_PACK'] = 'Import Smiley Pack';
 $lang['EXPORT_SMILE_PACK'] = 'Krijoni Smiley Pack';
 $lang['EXPORT_SMILES'] = 'Për të krijuar një buzëqeshje paketë nga buzëqeshjet tuaja të instaluara aktualisht, klikoni %sKëtu%s për të shkarkuar skedarin smiles.pak. Emri këtij skedari duhet të jetë i saktë sigurohuni që të mbani zgjedhjen për skedarin .pak. Pastaj krijoni një skedhë zip që përmban të gjitha imazhet e buzëqeshjeve dhe këtë skedhë të konfigurimit .pak.';
 
-$lang['SMILEY_ADD_SUCCESS'] = 'E Smiley është shtuar me sukses';
+$lang['SMILEY_ADD_SUCCESS'] = 'Buzëqeshja është shtuar me sukses';
 $lang['SMILEY_EDIT_SUCCESS'] = 'E Buzëqeshjes është përditësuar me sukses';
 $lang['SMILEY_IMPORT_SUCCESS'] = 'Buzëqeshja Pack është importuar me sukses!';
 $lang['SMILEY_DEL_SUCCESS'] = 'Buzëqeshja është hequr me sukses';
@@ -2017,8 +2017,8 @@ $lang['ALLOW_REG_TRACKER'] = 'Forume të lejuara për regjistrimin e .torrents n
 $lang['ALLOW_PORNO_TOPIC'] = 'Lejohet të postoni përmbajtje 18+';
 $lang['SELF_MODERATED'] = 'Përdoruesit mund të <b>shkaktojnë</b> temat e tyre në një forum tjetër';
 
-$lang['BT_ANNOUNCE_URL_HEAD'] = 'Të njoftuar URL';
-$lang['BT_ANNOUNCE_URL'] = 'Të njoftuar url';
+$lang['BT_ANNOUNCE_URL_HEAD'] = 'Njoftoni URL';
+$lang['BT_ANNOUNCE_URL'] = 'Njoftoni url';
 $lang['BT_ANNOUNCE_URL_EXPL'] = 'mund të përcaktoni URL të tjera të lejuara në "includes/torrent_announce_urls.php"';
 $lang['BT_DISABLE_DHT'] = 'Çaktivizoni DHT në rrjet';
 $lang['BT_DISABLE_DHT_EXPL'] = 'Çaktivizoni Peer Exchange dhe DHT (të rekomanduara për rrjetet private, vetëm URL të njoftuara)';
@@ -2036,7 +2036,7 @@ $lang['BT_SHOW_PEERS'] = 'Tregojnë kolegët (seeders dhe leechers)';
 $lang['BT_SHOW_PEERS_EXPL'] = 'kjo do të tregojë listën e seeders/leechers mbi temën me torrent';
 $lang['BT_SHOW_PEERS_MODE'] = 'Nga default, tregojnë kolegët si: ';
 $lang['BT_SHOW_PEERS_MODE_COUNT'] = 'Numërimi vetëm';
-$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Emrat e vetëm';
+$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'emrat vetëm';
 $lang['BT_SHOW_PEERS_MODE_FULL'] = 'Detajet e plota';
 $lang['BT_ALLOW_SPMODE_CHANGE'] = 'Lejo "Modi i Detajeve të Plota"';
 $lang['BT_ALLOW_SPMODE_CHANGE_EXPL'] = 'nëse "jo", vetëm mënyra e shfaqjes së kolegëve do të jetë në dispozicion';
@@ -2045,7 +2045,7 @@ $lang['BT_SHOW_PORT_ONLY_MODER'] = 'Kolegët\' <b>Port</b>s janë të dukshme p�
 
 $lang['BT_SHOW_DL_LIST_HEAD'] = 'DL-Lista';
 $lang['BT_SHOW_DL_LIST'] = 'Tregojnë DL-Listë në temat e Shkarkimit';
-$lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Tregojnë DL-Listë vetëm në faqen e parë në temat';
+$lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Trego vetëm DL-Lista';
 $lang['BT_DL_LIST_ONLY_COUNT'] = 'Tregojnë vetëm numrin e përdoruesve';
 $lang['BT_SHOW_DL_LIST_BUTTONS'] = 'Shfaq butonat për të ndryshuar manualisht DL-statusin';
 $lang['BT_SHOW_DL_BUT_WILL'] = $lang['DLWILL'];
@@ -2069,7 +2069,7 @@ $lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'do të ndryshojë temën në llojin "S
 $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Ndryshoni statusin e temës në "Normal" ndërsa regjistroni torrentin nga ndiqësi';
 
 // Release
-$lang['TEMPLATE_DISABLE'] = 'Template me aftësi të kufizuara';
+$lang['TEMPLATE_DISABLE'] = 'Template i çaktivizuar';
 $lang['FOR_NEW_TEMPLATE'] = 'për modelet e reja!';
 $lang['CHANGED'] = 'Ndryshuar';
 $lang['REMOVED'] = 'Hiqen';
@@ -2085,10 +2085,10 @@ $lang['CRON_SCHEDULE'] = 'Orari';
 $lang['CRON_LAST_RUN'] = 'I fundit i drejtuar';
 $lang['CRON_NEXT_RUN'] = 'Drejtimi i ardhshëm';
 $lang['CRON_RUN_COUNT'] = 'Shkuan';
-$lang['CRON_MANAGE'] = 'Menaxhuar';
+$lang['CRON_MANAGE'] = 'Menaxho';
 $lang['CRON_DISABLED_WARNING'] = 'Paralajmërim! Ekzekutimi i skripteve cron është i çaktivizuar. Për ta aktivizuar, vendosni ndryshoren APP_CRON_ENABLED.';
 
-$lang['CRON_ENABLED'] = 'Cron të aktivizuara';
+$lang['CRON_ENABLED'] = 'Cron i aktivizuar';
 $lang['CRON_CHECK_INTERVAL'] = 'Kontrolloni intervalin e cron (sek)';
 
 $lang['WITH_SELECTED'] = 'Me të zgjedhura';
@@ -2113,7 +2113,7 @@ $lang['SCHEDULE'] = [
     'interval' => 'intervali'
 ];
 $lang['NOSELECT'] = 'Nuk ka zgjedhje';
-$lang['RUN_DAY'] = 'Drejtuar ditës';
+$lang['RUN_DAY'] = 'Dita e drejtuar';
 $lang['RUN_DAY_EXPL'] = 'dita kur kjo punë drejtohet';
 $lang['RUN_TIME'] = 'Koha e drejtuar';
 $lang['RUN_TIME_EXPL'] = 'koha kur kjo punë drejtohet (p.sh. 05:00:00)';
@@ -2123,7 +2123,7 @@ $lang['NEXT_RUN'] = 'Drejtimi i Ardhshëm';
 $lang['RUN_INTERVAL'] = 'Drejtuar intervali';
 $lang['RUN_INTERVAL_EXPL'] = 'p.sh. 00:10:00';
 $lang['LOG_ENABLED'] = 'Ditari i aktivizuar';
-$lang['LOG_FILE'] = 'Log file';
+$lang['LOG_FILE'] = 'Skedari i Log-ut';
 $lang['LOG_FILE_EXPL'] = 'file për të ruajtur logun';
 $lang['LOG_SQL_QUERIES'] = 'Log të pyetjeve SQL';
 $lang['FORUM_DISABLE'] = 'Çaktivizoni bordit';
@@ -2221,7 +2221,7 @@ $lang['BOT_MESS_SPLITS'] = 'Temë ka qenë e ndarë. Temë të re - [b]%s[/b][br
 $lang['BOT_TOPIC_SPLITS'] = 'Temë ka qenë e ndarë nga [b]%s[/b][br][br]%s';
 
 $lang['CALLSEED'] = 'Thirrje për semaforë';
-$lang['CALLSEED_EXPLAIN'] = 'Vërej me një kërkesë për kthim të shpërndarjes';
+$lang['CALLSEED_EXPLAIN'] = 'Merrni parasysh me një kërkesë për kthim në shpërndarje.';
 $lang['CALLSEED_SUBJECT'] = 'Shkarko ndihmën %s';
 $lang['CALLSEED_TEXT'] = 'Përshëndetje![br]Ndihma juaj është e nevojshme në lirimin [url=%s]%s[/url][br]Nëse vendosni të ndihmoni, por tashmë fshini skedarin torrent, mund ta shkarkoni [url=%s]këtë[/url][br][br]Shpresoj për ndihmën tuaj!';
 $lang['CALLSEED_MSG_OK'] = 'Mesazhi është dërguar për të gjithë ata që shkarkuar këtë version';
@@ -2315,26 +2315,26 @@ $lang['SEARCH_INVALID_TIMEZONE'] = 'Të pavlefshme Brezin E Zgjedhur';
 $lang['SEARCH_INVALID_MODERATORS'] = 'Të pavlefshme Forum Të Zgjedhura';
 $lang['SEARCH_INVALID'] = 'Të pavlefshme, Kërko';
 $lang['SEARCH_INVALID_DAY'] = 'Ditën që futët ishte e pavlefshme';
-$lang['SEARCH_INVALID_MONTH'] = 'Muajin e keni futur ishte e pavlefshme';
-$lang['SEARCH_INVALID_YEAR'] = 'Vitin që futët është e pavlefshme';
+$lang['SEARCH_INVALID_MONTH'] = 'Muaji që keni futur ishte e pavlefshme.';
+$lang['SEARCH_INVALID_YEAR'] = 'Viti që keni futur është i pavlefshëm.';
 $lang['SEARCH_FOR_USERNAME'] = 'Kërkim të përdoruesve përputhen %s';
-$lang['SEARCH_FOR_EMAIL'] = 'Kërkim adresat e-mail përputhen %s';
-$lang['SEARCH_FOR_IP'] = 'Kërkim IP adresave që përputhen %s';
-$lang['SEARCH_FOR_DATE'] = 'Kërkim përdoruesit të cilët u bashkuan %s %d/%d/%d';
+$lang['SEARCH_FOR_EMAIL'] = 'Kërkoni adresat e-mail që përputhen me %s.';
+$lang['SEARCH_FOR_IP'] = 'Kërkoni adresat IP që përputhen me %s.';
+$lang['SEARCH_FOR_DATE'] = 'Kërkimi për përdoruesit që u bashkuan %s më %d/%d/%d.';
 $lang['SEARCH_FOR_GROUP'] = 'Kërkimi për anëtarët e grupit të %s';
 $lang['SEARCH_FOR_RANK'] = 'Kërkimi për transportuesin rangun e %s';
 $lang['SEARCH_FOR_BANNED'] = 'Kërkim të ndaluar përdoruesit';
-$lang['SEARCH_FOR_ADMINS'] = 'Kërkim Administratorët';
+$lang['SEARCH_FOR_ADMINS'] = 'Kërkimi për Administratorët.';
 $lang['SEARCH_FOR_MODS'] = 'Kërkimi Moderatorët';
-$lang['SEARCH_FOR_DISABLED'] = 'Kërkimi për përdoruesit me aftësi të kufizuara';
-$lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Kërkimi për përdoruesit me një postin më të madh se %d';
-$lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Kërkimi për përdoruesit me një postin më pak se %d';
-$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Kërkimi për përdoruesit me një post të numëronte %d dhe %d';
+$lang['SEARCH_FOR_DISABLED'] = 'Kërkimi për përdoruesit e shuar.';
+$lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Kërkimi për përdoruesit me një numër postimesh më të madh se %d.';
+$lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Kërkimi për përdoruesit me një numër postimesh më pak se %d.';
+$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Kërkimi për përdoruesit me një numër postimesh midis %d dhe %d.';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Kërkim për përdoruesit me një post të llogarisin vlerën e %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Kërkimi për përdoruesit me një X (Twitter) që përputhen %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Kërkimi për përdoruesit me një faqe interneti që përputhet me %s';
-$lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kërkimi për përdoruesit me një Vend përputhen %s';
-$lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kërkimi për përdoruesit me Interesat e tyre në terren përputhen %s';
+$lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Kërkimi për përdoruesit me Një Vend që përputhet me %s.';
+$lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Kërkimi për përdoruesit me Interesat e tyre që përputhen me %s.';
 $lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Kërkimi për përdoruesit me profesionin e tyre përputhës %s';
 $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Kërkimi për përdoruesit që kanë vizituar në %s e fundit';
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Kërkimi për përdoruesit që kanë vizituar pas %s të fundit';
