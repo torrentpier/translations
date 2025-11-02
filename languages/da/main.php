@@ -257,7 +257,7 @@ $lang['LOCK_TOPIC'] = 'Lås emnet';
 $lang['UNLOCK_TOPIC'] = 'Lås emnet op';
 $lang['MOVE_TOPIC'] = 'Flyt emnet';
 $lang['DELETE_TOPIC'] = 'Slet emnet';
-$lang['SPLIT_TOPIC'] = 'Split emnet';
+$lang['SPLIT_TOPIC'] = 'Opdel emnet';
 
 $lang['STOP_WATCHING_TOPIC'] = 'Stop med at følge emnet';
 $lang['START_WATCHING_TOPIC'] = 'Følg emne for svar';
@@ -286,7 +286,7 @@ $lang['NO_POST_MODE'] = 'Ingen valgt post tilstand'; // If posting.php is called
 
 $lang['POST_A_NEW_TOPIC'] = 'Skriv nyt emne';
 $lang['POST_A_REPLY'] = 'Skriv nyt svar';
-$lang['POST_TOPIC_AS'] = 'Indlæg emne som';
+$lang['POST_TOPIC_AS'] = 'Post emnet som';
 $lang['EDIT_POST'] = 'Rediger indlæg';
 $lang['EDIT_TOPIC_TITLE'] = 'Rediger emne titel';
 
@@ -715,7 +715,7 @@ $lang['SEARCH_PREVIOUS'] = 'Søg forrige';
 
 $lang['SORT_BY'] = 'Sortér efter';
 $lang['SORT_TIME'] = 'Posttid';
-$lang['SORT_TOPIC_TITLE'] = 'Emne Titel';
+$lang['SORT_TOPIC_TITLE'] = 'Emnetitel';
 
 $lang['DISPLAY_RESULTS_AS'] = 'Vise resultater som';
 $lang['ALL_AVAILABLE'] = 'Alle tilbud';
@@ -1029,7 +1029,7 @@ $lang['TITLE_MATCH'] = 'Titel kamp';
 $lang['BT_USER_NOT_FOUND'] = 'ikke fundet';
 $lang['DL_SPEED'] = 'Overordnet downloadhastighed';
 
-$lang['BT_DISREGARD'] = 'ses bort fra';
+$lang['BT_DISREGARD'] = 'uden hensyntagen';
 $lang['BT_NEVER'] = 'aldrig';
 $lang['BT_ALL_DAYS_FOR'] = 'hele tiden';
 $lang['BT_1_DAY_FOR'] = 'sidste dag';
@@ -1059,7 +1059,7 @@ $lang['TOPICS_DOWN_UNSETS'] = '<b>Download</b> status fjernet';
 
 $lang['TOPIC_DL'] = 'DL';
 
-$lang['MY_DOWNLOADS'] = 'Mine Downloads';
+$lang['MY_DOWNLOADS'] = 'Mine downloads';
 $lang['SEARCH_DL_WILL'] = 'Planlagt';
 $lang['SEARCH_DL_WILL_DOWNLOADS'] = 'Planlagte downloads';
 $lang['SEARCH_DL_DOWN'] = 'Nuværende';
@@ -1225,7 +1225,7 @@ $lang['NOTICE'] = '!OPMÆRKSOMHED!';
 $lang['COPY'] = 'Webstedet leverer ikke elektroniske versioner af produkter og beskæftiger sig kun med at indsamle og katalogisere de referencer, der er sendt og offentliggjort på forummet af vores læsere. Hvis du er den lovlige ejer af noget fremlagt materiale og ikke ønsker, at referencen til det skal være i vores katalog, bedes du kontakte os, og vi fjerner det straks. Filer til udveksling på tracker tilbydes af brugere af webstedet, og administrationen påtager sig ikke ansvar for deres indhold. Venligst upload ikke filer, der er beskyttet af ophavsret, eller filer med ulovligt indhold!';
 
 // FILELIST
-$lang['COLLAPSE'] = 'Sammenbrud bibliotek';
+$lang['COLLAPSE'] = 'Sammenklap bibliotek';
 $lang['EXPAND'] = 'Udvid';
 $lang['SWITCH'] = 'Skift';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Forøg/nedsæt vinduet';
@@ -1593,7 +1593,7 @@ $lang['CLICK_RETURN_BANADMIN'] = 'Klik %sHere%s for at vende tilbage til ban kon
 $lang['GENERAL_CONFIG'] = 'Generel Konfiguration';
 $lang['CONFIG_EXPLAIN'] = 'Skemaet nedenfor giver dig mulighed for at tilpasse alle generalforsamlingen valg. For Brugeren og Forum konfigurationer bruge den relaterede links i venstre side.';
 
-$lang['CONFIG_MODS'] = 'Konfiguration ændringer';
+$lang['CONFIG_MODS'] = 'Konfigurationsændringer';
 $lang['MODS_EXPLAIN'] = 'Denne formular giver dig mulighed for at justere ændringer';
 
 $lang['CLICK_RETURN_CONFIG'] = '%sKlik her%s for at vende tilbage til Generel konfiguration';
