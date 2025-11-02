@@ -115,8 +115,8 @@ $lang['DISPLAYING_OPTIONS'] = 'Mostra opcions';
 // Global Header strings
 $lang['REGISTERED_USERS'] = 'Usuaris Registrats:';
 $lang['BROWSING_FORUM'] = 'Usuaris navegant en aquest fòrum:';
-$lang['ONLINE_USERS'] = 'En total hi ha <b>%1$d</b> els usuaris en línia: %2$d registrat i %3$d clients';
-$lang['RECORD_ONLINE_USERS'] = 'La majoria dels usuaris mai en línia va ser <b>%s</b> en %s'; // first %s = number of users, second %s is the date.
+$lang['ONLINE_USERS'] = 'En total hi ha <b>%1$d</b> usuaris en línia: %2$d registrats i %3$d clients.';
+$lang['RECORD_ONLINE_USERS'] = 'El nombre més elevat d\'usuaris en línia va ser <b>%s</b> el %s.'; // first %s = number of users, second %s is the date.
 
 $lang['ONLINE_ADMIN'] = 'Administrador';
 $lang['ONLINE_MOD'] = 'Moderador';
@@ -150,7 +150,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Res ha canviat';
 $lang['POSTED_TOPICS_TOTAL'] = 'Els nostres usuaris han publicat un total de temes <b>%s</b>'; // Number of topics
 $lang['POSTED_ARTICLES_TOTAL'] = 'Els nostres usuaris han publicat un total de <b>%s</b> articles'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Hem <b>%s</b> usuaris registrats'; // # registered users
-$lang['USERS_TOTAL_GENDER'] = 'Nois: <b>%d</b>, Les Nenes: <b>%d</b>, Altres: <b>%d</b>';
+$lang['USERS_TOTAL_GENDER'] = 'Nois: <b>%d</b>, noies: <b>%d</b>, altres: <b>%d</b>.';
 $lang['NEWEST_USER'] = 'El més nou usuari registrat és <b>%s</b>'; // a href, username, /a
 
 // Tracker stats
@@ -732,7 +732,7 @@ $lang['HIDE'] = 'amagar';
 
 // Auth related entries
 // Note the %s will be replaced with one of the following 'user' arrays
-$lang['SORRY_AUTH_VIEW'] = 'Ens sap greu, però només %s poden veure aquest fòrum.';
+$lang['SORRY_AUTH_VIEW'] = 'Ens sap greu, però només %s pot veure aquest fòrum.';
 $lang['SORRY_AUTH_READ'] = 'Ens sap greu, però només %s pot llegir temes en aquest fòrum.';
 $lang['SORRY_AUTH_REPLY'] = 'Ens sap greu, però només %s pot respondre a missatges en aquest fòrum.';
 $lang['SORRY_AUTH_EDIT'] = 'Ens sap greu, però només %s pot editar missatges en aquest fòrum.';
@@ -999,15 +999,15 @@ $lang['SET_GOLD_TORRENT'] = 'Fer d\'or';
 $lang['UNSET_GOLD_TORRENT'] = 'Desfés d\'or.';
 $lang['SET_SILVER_TORRENT'] = 'Fer de plata';
 $lang['UNSET_SILVER_TORRENT'] = 'Desfés de plata.';
-$lang['GOLD_STATUS'] = 'OR TORRENT! DESCARREGAR DE TRÀNSIT NO CONSIDERA!';
-$lang['SILVER_STATUS'] = 'PLATA TORRENT! DESCÀRREGA TRÀNSIT CONSIDERAT PARCIALMENT!';
+$lang['GOLD_STATUS'] = 'TORRENT D\'OR! LA DESCÀRREGA DE TRÀNSIT NO ÉS CONSIDERADA!';
+$lang['SILVER_STATUS'] = 'TORRENT DE PLATA! LA DESCÀRREGA TRÀNSIT ÉS CONSIDERADA PARCIALMENT!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'El tipus de torrent s\'ha canviat a: %s';
 
 $lang['TORRENT_STATUS'] = 'Cerca per estat de publicació';
 $lang['SEARCH_IN_FORUMS'] = 'Cerca als Fòrums';
 $lang['SELECT_CAT'] = 'Seleccioneu la categoria';
 $lang['GO_TO_SECTION'] = 'Vés a la secció';
-$lang['TORRENTS_FROM'] = 'Publicacions';
+$lang['TORRENTS_FROM'] = 'Publicacions de';
 $lang['SHOW_ONLY'] = 'Mostra només els';
 $lang['SHOW_COLUMN'] = 'Mostra columna';
 $lang['SEL_CHAPTERS'] = 'Enllaç a les particions seleccionades';
@@ -1018,7 +1018,7 @@ $lang['FILTER_BY_NAME'] = 'Filtrar pel nom';
 
 $lang['BT_ONLY_ACTIVE'] = 'Actiu';
 $lang['BT_ONLY_MY'] = 'Les meves versions';
-$lang['BT_SEED_EXIST'] = 'Seeder existeixen';
+$lang['BT_SEED_EXIST'] = 'Dos o més seeder existents';
 $lang['BT_ONLY_NEW'] = 'Nou des de l\'última visita';
 $lang['BT_SHOW_CAT'] = 'Categoria';
 $lang['BT_SHOW_FORUM'] = 'Fòrum';
@@ -1036,14 +1036,14 @@ $lang['BT_1_DAY_FOR'] = 'últim dia';
 $lang['BT_3_DAY_FOR'] = 'últims tres dies';
 $lang['BT_7_DAYS_FOR'] = 'la setmana passada';
 $lang['BT_2_WEEKS_FOR'] = 'dues últimes setmanes';
-$lang['BT_1_MONTH_FOR'] = 'el passat mes de';
+$lang['BT_1_MONTH_FOR'] = 'El passat mes de ';
 $lang['BT_1_DAY'] = '1 dia';
 $lang['BT_3_DAYS'] = '3 dies';
 $lang['BT_7_DAYS'] = 'setmana';
 $lang['BT_2_WEEKS'] = '2 setmanes';
 $lang['BT_1_MONTH'] = 'mes';
 
-$lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'DL-Llista i el Torrent de l\'activitat';
+$lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'DL-Llista i activitat de torrents';
 $lang['DLWILL'] = 'Descarregarà';
 $lang['DLDOWN'] = 'Descàrrega';
 $lang['DLCOMPLETE'] = 'Completa';
@@ -1055,7 +1055,7 @@ $lang['SHOW_DL_LIST'] = 'Mostra DL-Llista';
 $lang['SET_DL_STATUS'] = 'Descarregar';
 $lang['UNSET_DL_STATUS'] = 'No Descarregar';
 $lang['TOPICS_DOWN_SETS'] = 'Tema d\'estat canviat per <b>Descargar</b>.';
-$lang['TOPICS_DOWN_UNSETS'] = '<b>Download</b> estat eliminat';
+$lang['TOPICS_DOWN_UNSETS'] = 'L\'estat de <b>descàrrega</b> eliminat';
 
 $lang['TOPIC_DL'] = 'DL';
 
@@ -1360,7 +1360,7 @@ $lang['NEW'] = 'Nous';
 $lang['NEWEST'] = 'Nous';
 $lang['LATEST'] = 'Última';
 $lang['POST'] = 'Missatge';
-$lang['OLD'] = 'Edat';
+$lang['OLD'] = 'Antiguitat';
 
 // DL-List
 $lang['DL_USER'] = 'Nom d\'usuari';
@@ -2251,7 +2251,7 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_post_pin' => 'Post:<br /> <b>fixat</b>',
     'mod_post_unpin' => 'Post:<br /> <b>desfixat</b>',
     'adm_user_delete' => 'Usuari:<br /> <b>esborrat</b>',
-    'adm_user_ban' => 'Usuari:<br /> <b>ban</b>',
+    'adm_user_ban' => 'Usuari:<br /> <b>exclusió</b>',
     'adm_user_unban' => 'Usuari:<br /> <b>desban</b>',
 ];
 
@@ -2288,7 +2288,7 @@ $lang['TPL_EMPTY_SEL'] = 'Heu de seleccionar <b>%s</b>';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - No és un nombre';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Ha de ser https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - Ha de ser https:// IMG_URL';
-$lang['TPL_PUT_INTO_SUBJECT'] = 'posar en el tema';
+$lang['TPL_PUT_INTO_SUBJECT'] = 'posar al tema';
 $lang['TPL_POSTER'] = 'cartell';
 $lang['TPL_REQ_FILLING'] = 'requereix omplir';
 $lang['TPL_NEW_LINE'] = 'nova línia';
@@ -2333,9 +2333,9 @@ $lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Buscant usuaris amb un recompte de public
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Buscant usuaris amb un valor de recompte de publicacions de %d.';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Buscant usuaris amb un Twitter coincident %s.';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Cercant usuaris amb una pàgina web que coincideixi amb %s';
-$lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Recerca per a usuaris amb una Ubicació coincidents %s';
-$lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Buscant per als usuaris amb els seus Interessos camp de concordança %s';
-$lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Buscant per als usuaris amb la seva Ocupació camp de concordança %s';
+$lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'Buscant usuaris amb una ubicació que coincideixi amb %s';
+$lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'Buscant usuaris amb el seu camp d\'interessos coincidents %s';
+$lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Buscant usuaris amb el seu camp de ocupació coincidents %s';
 $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Buscant per als usuaris que han visitat en els darrers %s';
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Buscant per als usuaris que han visitat després de l\'últim %s';
 $lang['SEARCH_FOR_LANGUAGE'] = 'Buscant usuaris que han establert %s com a llengua.';
