@@ -188,7 +188,7 @@ $lang['MARK_ALL_FORUMS_READ'] = 'Označi sve forume kao pročitane';
 
 $lang['LATEST_NEWS'] = 'Najnovije vijesti';
 $lang['NETWORK_NEWS'] = 'Mreža vijesti';
-$lang['SUBFORUMS'] = 'Подфорумы';
+$lang['SUBFORUMS'] = 'Podforumi';
 
 // Viewforum
 $lang['VIEW_FORUM'] = 'Pogledaj forum';
@@ -1501,7 +1501,7 @@ $lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (iskorišćeno: %s | slobodno: %s)';
 $lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Maksimalno vreme izvršavanja:';
 
 // Clear Cache
-$lang['DATASTORE'] = 'Skladištenje podataka';
+$lang['DATASTORE'] = 'Baza podataka';
 $lang['CLEAR_CACHE'] = 'Obriši keš';
 $lang['CLEAR_TEMPLATES_CACHE'] = 'Keš predložaka';
 
@@ -1530,7 +1530,7 @@ $lang['SELECT_A_FORUM'] = 'Odaberite forum';
 $lang['AUTH_CONTROL_USER'] = 'Kontrola prava pristupa korisnika';
 $lang['AUTH_CONTROL_GROUP'] = 'Kontrola prava grupe';
 $lang['AUTH_CONTROL_FORUM'] = 'Kontrola prava foruma';
-$lang['LOOK_UP_FORUM'] = 'Pogledajte forum';
+$lang['LOOK_UP_FORUM'] = 'Pogled forum';
 
 $lang['GROUP_AUTH_EXPLAIN'] = 'Ovdje možete promijeniti prava i status moderatora dodijeljenog svakoj grupi korisnika. Ne zaboravite pri promjeni grupnih prava da pojedinačna prava pristupa ipak mogu odobriti korisniku ulaz u forume, itd. Bit ćete upozoreni ako je to slučaj.';
 $lang['USER_AUTH_EXPLAIN'] = 'Ovdje možete promijeniti prava i status moderatora dodijeljenog svakom pojedinačnom korisniku. Ne zaboravite pri promjeni prava korisnika da grupna prava mogu i dalje odobriti korisniku ulaz u forume, itd. Bit ćete upozoreni ako je to slučaj.';
@@ -1738,7 +1738,7 @@ $lang['SELECT_GROUP'] = 'Odaberite grupu';
 $lang['LOOK_UP_GROUP'] = 'Pronađite grupu';
 
 // Prune Administration
-$lang['FORUM_PRUNE'] = 'Forum Šljive';
+$lang['FORUM_PRUNE'] = 'Označi forum';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Ovo će izbrisati sve teme koje nisu imale odgovora u broju dana koji odaberete. Ako ne unesete broj, sve teme će biti izbrisane. To neće ukloniti <b>sticky</b> teme i <b>oglase</b>. Morat ćete ručno ukloniti te teme.';
 $lang['DO_PRUNE'] = 'Izvrši rezanje';
 $lang['ALL_FORUMS'] = 'Svi Forumi';
@@ -1779,7 +1779,7 @@ $lang['RANKS_EXPLAIN'] = 'Pomoću ovog obrasca možete dodavati, uređivati, pre
 
 $lang['ADD_NEW_RANK'] = 'Dodaj novi poredak';
 $lang['RANK_TITLE'] = 'Naziv Ranga';
-$lang['STYLE_COLOR'] = 'Rang stil';
+$lang['STYLE_COLOR'] = 'Rang stila';
 $lang['STYLE_COLOR_FAQ'] = 'Odredite klasu za stiliziranje naslova željenom bojom. Na primjer: <i class="bold">colorAdmin</i>';
 $lang['RANK_IMAGE'] = 'Rang Slika';
 $lang['RANK_IMAGE_EXPLAIN'] = 'Koristite ovo da biste odredili malu sliku povezanu s rangom.';
@@ -2353,7 +2353,7 @@ $lang['AFTER_THE_LAST'] = 'nakon posljednjeg';
 $lang['BEFORE'] = 'Prije';
 $lang['AFTER'] = 'Nakon';
 $lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Traži korisnike koji su se pridružili prije ili poslije (i) određenog datuma. Format datuma je GGGG/MM/DD.';
-$lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Pogledajte sve članove odabrane skupine.';
+$lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Pogledajte sve članove odabrane grupe.';
 $lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Pogledajte sve nositelje odabrane vrijednosti.';
 $lang['BANNED_USERS'] = 'Zabranjeni korisnici';
 $lang['DISABLED_USERS'] = 'Onemogućeni korisnici';
