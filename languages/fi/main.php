@@ -1097,7 +1097,7 @@ $lang['SPMODE_FULL'] = 'Näytä vertaisryhmät täydellisissä suunnitelmissa';
 // Seed Bonus
 $lang['MY_BONUS'] = 'Minun bonukseni (%s bonuksia varastossa)';
 $lang['BONUS_SELECT'] = 'Valitse';
-$lang['SEED_BONUS'] = 'Siemen bonus';
+$lang['SEED_BONUS'] = 'Siemenbonus';
 $lang['EXCHANGE'] = 'Vaihto';
 $lang['EXCHANGE_BONUS'] = 'Siemenbonusten vaihto.';
 $lang['BONUS_UPLOAD_DESC'] = '<b>%s jakeluun</b> <br /> Vaihda bonuspisteet %1$s liikenteeseen, joka lisätään jakelusi kokonaissummaan.';
@@ -1125,7 +1125,7 @@ $lang['ONLY_FOR_MOD'] = 'Tämä vaihtoehto on vain moderaattoreille.';
 $lang['ONLY_FOR_ADMIN'] = 'Tämä vaihtoehto on vain ylläpitäjille.';
 $lang['ONLY_FOR_SUPER_ADMIN'] = 'Tämä vaihtoehto on vain superylläpitäjille.';
 
-$lang['LOGS'] = 'Aihe historia';
+$lang['LOGS'] = 'Aihehistoria';
 $lang['FORUM_LOGS'] = 'Historiafoorumi.';
 $lang['AUTOCLEAN'] = 'Autoclean';
 $lang['DESIGNER'] = 'Suunnittelija';
@@ -1961,8 +1961,8 @@ $lang['CONTROL_PANEL_EXPLAIN'] = 'Täällä voit tarkastella ja hallita kaikkia 
 $lang['SEARCH_WILDCARD_EXPLAIN'] = 'Käytä * -merkkiä osittaisille otteluille';
 $lang['SIZE_SMALLER_THAN'] = 'Liitetiedoston koko on pienempi kuin (tavua)';
 $lang['SIZE_GREATER_THAN'] = 'Liitetiedoston koko on suurempi kuin (tavua)';
-$lang['COUNT_SMALLER_THAN'] = 'Lataa määrä on pienempi kuin';
-$lang['COUNT_GREATER_THAN'] = 'Lataa määrä on suurempi kuin';
+$lang['COUNT_SMALLER_THAN'] = 'Latausmäärä on pienempi kuin';
+$lang['COUNT_GREATER_THAN'] = 'Latausmäärä on suurempi kuin';
 $lang['MORE_DAYS_OLD'] = 'Enemmän kuin tämä, monta päivää vanha';
 $lang['NO_ATTACH_SEARCH_MATCH'] = 'Ei liitteitä tavannut hakuehdot';
 
@@ -2004,61 +2004,61 @@ $lang['ATTACHMENTS'] = 'Liitteet';
 $lang['EXTENSIONS'] = 'Laajennukset';
 $lang['EXTENSION'] = 'Laajennus';
 
-$lang['RETURN_CONFIG'] = '%sReturn että Configuration%s';
+$lang['RETURN_CONFIG'] = '%sPalauta kokoonpano%s';
 $lang['CONFIG_UPD'] = 'Kokoonpano päivitetty onnistuneesti';
 
 // Forum config
 $lang['BT_SELECT_FORUMS'] = 'Foorumivaihtoehdot:';
 $lang['BT_SELECT_FORUMS_EXPL'] = 'pitämällä <i>Ctrl</i>, kun valitset useita foorumeita';
 
-$lang['REG_TORRENTS'] = 'Rekisteröidy torrentit';
+$lang['REG_TORRENTS'] = 'Rekisteröi torrentit';
 $lang['DISALLOWED'] = 'Kielletty';
-$lang['ALLOW_REG_TRACKER'] = 'Saa foorumeita rekisteröitymättä .torrent tracker';
+$lang['ALLOW_REG_TRACKER'] = 'Salli foorumeita rekisteröitymättä .torrent tracker';
 $lang['ALLOW_PORNO_TOPIC'] = 'Sallittu 18+ -sisältö';
-$lang['SELF_MODERATED'] = 'Käyttäjät voivat <b>move</b> niiden aiheita toisella foorumilla';
+$lang['SELF_MODERATED'] = 'Käyttäjät voivat <b>siirtää</b> niiden aiheita toiselle foorumille';
 
-$lang['BT_ANNOUNCE_URL_HEAD'] = 'Ilmoittaa URL-osoitteen';
-$lang['BT_ANNOUNCE_URL'] = 'Ilmoittaa url-osoitteen';
-$lang['BT_ANNOUNCE_URL_EXPL'] = 'voit määrittää tiedostojen sallittu url-osoitteita "includes/torrent_announce_urls.php"';
-$lang['BT_DISABLE_DHT'] = 'Poistaa DHT-verkko';
-$lang['BT_DISABLE_DHT_EXPL'] = 'Poistaa Peer Vaihtoa ja DHT (suositellaan yksityisiä verkkoja, vain url-osoite ilmoittaa)';
+$lang['BT_ANNOUNCE_URL_HEAD'] = 'Ilmoita URL-osoitteesta';
+$lang['BT_ANNOUNCE_URL'] = 'Ilmoita url-osoitteesta';
+$lang['BT_ANNOUNCE_URL_EXPL'] = 'Voit määrittää sallitut url-osoitteita "includes/torrent_announce_urls.php"';
+$lang['BT_DISABLE_DHT'] = 'Poista DHT-verkko';
+$lang['BT_DISABLE_DHT_EXPL'] = 'Poista Peer-vaihto ja DHT (suositeltu yksityisille verkoille, vain url-ilmoitus)';
 $lang['BT_PRIVATE_TRACKER'] = 'Tämä tracker on suljettu: tiedostoluettelo (vieraileville), DHT | PEX on pois käytöstä';
 $lang['BT_PRIVATE_TORRENT'] = 'Tämän torrentin luoja teki siitä yksityisen';
-$lang['BT_CHECK_ANNOUNCE_URL'] = 'Varmista, ilmoittaa url-osoitteen';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'rekisteröityä tracker sallittu vain url-osoitteita';
-$lang['BT_REPLACE_ANN_URL'] = 'Vaihda ilmoittaa url-osoitteen';
+$lang['BT_CHECK_ANNOUNCE_URL'] = 'Vahvista ilmoitus-URL.';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'rekisteröityä vain sallituille tracker-URL-osoitteille.';
+$lang['BT_REPLACE_ANN_URL'] = 'Korvaa ilmoitus-URL.';
 $lang['BT_REPLACE_ANN_URL_EXPL'] = 'korvata alkuperäisen ilmoittaa url-osoite oletuksena .torrent-tiedostoja';
-$lang['BT_DEL_ADDIT_ANN_URLS'] = 'Poista kaikki ylimääräiset ilmoittaa url-osoitteita';
-$lang['BT_DEL_ADDIT_ANN_URLS_EXPL'] = 'jos torrent-sisältää osoitteet muita seurantoja, ne poistetaan';
+$lang['BT_DEL_ADDIT_ANN_URLS'] = 'Poista kaikki ylimääräiset ilmoitus-URL-osoitteet.';
+$lang['BT_DEL_ADDIT_ANN_URLS_EXPL'] = 'Jos torrent sisältää muiden trackerien osoitteet, ne poistetaan.';
 
-$lang['BT_SHOW_PEERS_HEAD'] = 'Ikäisensä-Lista';
-$lang['BT_SHOW_PEERS'] = 'Näyttää ikäisensä (kylvökoneet ja leechers)';
-$lang['BT_SHOW_PEERS_EXPL'] = 'tämä näyttää kylvökoneet/leechers luettelo edellä aiheen kanssa torrent';
-$lang['BT_SHOW_PEERS_MODE'] = 'Oletuksena näyttää ikäisensä, kuten:';
-$lang['BT_SHOW_PEERS_MODE_COUNT'] = 'Laskea vain';
-$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Nimiä vain';
-$lang['BT_SHOW_PEERS_MODE_FULL'] = 'Täydelliset tiedot';
-$lang['BT_ALLOW_SPMODE_CHANGE'] = 'Salli "Full details" - tilassa';
-$lang['BT_ALLOW_SPMODE_CHANGE_EXPL'] = 'jos "ei", vain oletus peer-näyttö-tila ei ole käytettävissä';
-$lang['BT_SHOW_IP_ONLY_MODER'] = 'Vertaistensa <b>IP</b>s ovat näkyvissä vain moderaattorit';
-$lang['BT_SHOW_PORT_ONLY_MODER'] = 'Vertaistensa <b>Port</b>s ovat näkyvissä vain moderaattorit';
+$lang['BT_SHOW_PEERS_HEAD'] = 'Vertaiset-lista.';
+$lang['BT_SHOW_PEERS'] = 'Näytä vertaiset (kylvökoneet ja lataajat).';
+$lang['BT_SHOW_PEERS_EXPL'] = 'tämä näyttää kylvökoneet/lataajat listana aiheen yläpuolella torrentin kanssa.';
+$lang['BT_SHOW_PEERS_MODE'] = 'Oletuksena näyttää vertaiset seuraavasti:';
+$lang['BT_SHOW_PEERS_MODE_COUNT'] = 'Laskee vain.';
+$lang['BT_SHOW_PEERS_MODE_NAMES'] = 'Nimiä vain.';
+$lang['BT_SHOW_PEERS_MODE_FULL'] = 'Täydelliset tiedot.';
+$lang['BT_ALLOW_SPMODE_CHANGE'] = 'Salli "Täydelliset tiedot" -tila.';
+$lang['BT_ALLOW_SPMODE_CHANGE_EXPL'] = 'jos "ei", vain oletus vertaisnäyttötila on käytettävissä.';
+$lang['BT_SHOW_IP_ONLY_MODER'] = 'Vertaiset\' <b>IP</b>-osoitteet ovat näkyvissä vain moderaattoreille.';
+$lang['BT_SHOW_PORT_ONLY_MODER'] = 'Vertaiset\' <b>Port</b>-osoitteet ovat näkyvissä vain moderaattoreille.';
 
-$lang['BT_SHOW_DL_LIST_HEAD'] = 'DL-Lista';
-$lang['BT_SHOW_DL_LIST'] = 'Näytä DL-Luettelosta Lataa aiheita';
-$lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Näytä DL-Listalla vain ensimmäisen sivun aiheita';
-$lang['BT_DL_LIST_ONLY_COUNT'] = 'Näytä vain määrä käyttäjiä';
-$lang['BT_SHOW_DL_LIST_BUTTONS'] = 'Näytä painikkeet manuaalisesti muuttamalla DL-asema';
+$lang['BT_SHOW_DL_LIST_HEAD'] = 'DL-lista.';
+$lang['BT_SHOW_DL_LIST'] = 'Näytä DL-lista latausaiheissa.';
+$lang['BT_DL_LIST_ONLY_1ST_PAGE'] = 'Näytä DL-lista vain ensimmäisellä sivulla aiheissa.';
+$lang['BT_DL_LIST_ONLY_COUNT'] = 'Näytä vain käyttäjien määrä.';
+$lang['BT_SHOW_DL_LIST_BUTTONS'] = 'Näytä painikkeet DL-tilan manuaaliseksi muuttamiseksi.';
 $lang['BT_SHOW_DL_BUT_WILL'] = $lang['DLWILL'];
 $lang['BT_SHOW_DL_BUT_DOWN'] = $lang['DLDOWN'];
 $lang['BT_SHOW_DL_BUT_COMPL'] = $lang['DLCOMPLETE'];
 $lang['BT_SHOW_DL_BUT_CANCEL'] = $lang['DLCANCEL'];
 
 $lang['BT_ADD_AUTH_KEY_HEAD'] = 'Salasana';
-$lang['BT_ADD_AUTH_KEY'] = 'Mahdollistaa lisäämällä salasana torrent-tiedostoja ennen lataamista';
+$lang['BT_ADD_AUTH_KEY'] = 'Salli lisätä salasana torrent-tiedostoihin ennen lataamista.';
 
-$lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent-selain (tracker)';
+$lang['BT_TOR_BROWSE_ONLY_REG_HEAD'] = 'Torrent-selain (tracker).';
 $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-selain (tracker.php) on käytettävissä vain kirjautuneille käyttäjille';
-$lang['BT_SEARCH_BOOL_MODE'] = 'Anna boolean full-text-haut';
+$lang['BT_SEARCH_BOOL_MODE'] = 'Salli boolean full-text-haut.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Käytä *, + ja - hauissa';
 
 $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Sekalainen";
@@ -2120,7 +2120,7 @@ $lang['RUN_TIME_EXPL'] = 'aika, jolloin tätä työtä suoritetaan (esim. 05:00:
 $lang['RUN_ORDER'] = 'Suorita järjestys';
 $lang['LAST_RUN'] = 'Viimeinen suoritus';
 $lang['NEXT_RUN'] = 'Seuraava suoritus';
-$lang['RUN_INTERVAL'] = 'Suorita väli';
+$lang['RUN_INTERVAL'] = 'Suorita väli.';
 $lang['RUN_INTERVAL_EXPL'] = 'esim. 00:10:00';
 $lang['LOG_ENABLED'] = 'Log käytössä';
 $lang['LOG_FILE'] = 'Lokitiedosto';
@@ -2131,8 +2131,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'poistaa foorumilta, kun tämä työ suoritetaan';
 $lang['RUN_COUNTER'] = 'Laskuri';
 
 $lang['JOB_REMOVED'] = 'Tehtävä on poistettu onnistuneesti';
-$lang['SCRIPT_DUPLICATE'] = 'Käsikirjoitus <b>' . @$_POST['cron_script'] . '</b> on jo olemassa!';
-$lang['TITLE_DUPLICATE'] = 'Tehtävän Nimi <b>' . @$_POST['cron_title'] . '</b> on jo olemassa!';
+$lang['SCRIPT_DUPLICATE'] = 'Käsikirjoitus <b>.' . @$_POST['cron_script'] . '</b> on jo olemassa!';
+$lang['TITLE_DUPLICATE'] = 'Tehtävän nimi <b>.' . @$_POST['cron_title'] . '</b> on jo olemassa!';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sPalaa lisää työpaikkaa%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTakaisin Tehtävään Aikatauluttaja%s';
 
@@ -2150,7 +2150,7 @@ $lang['CLEAR_SEARCH_TABLES'] = 'Tyhjennä hakutaulukot';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
 $lang['CLEAR_SEARCH_NO'] = 'EI';
 $lang['CLEAR_SEARCH_DELETE'] = 'POISTA';
-$lang['CLEAR_SEARCH_TRUNCATE'] = 'TRUNCATE';
+$lang['CLEAR_SEARCH_TRUNCATE'] = 'TRUNCATE.';
 
 $lang['NUM_OF_POSTS'] = 'Viestien määrä';
 $lang['NUM_OF_POSTS_EXPLAIN'] = 'Viestien kokonaismäärä prosessissa<br />Se on automaattisesti täytetty yhteensä/jäljellä olevien viestien lukumäärällä, joka löytyy db:stä';
@@ -2158,7 +2158,7 @@ $lang['NUM_OF_POSTS_EXPLAIN'] = 'Viestien kokonaismäärä prosessissa<br />Se o
 $lang['POSTS_PER_CYCLE'] = 'Viestejä kierrossa';
 $lang['POSTS_PER_CYCLE_EXPLAIN'] = 'Prosessoi viestit kierrossa<br />Pidä se alhaalla, jotta vältät php/web-palvelimen aikakatkaisut';
 
-$lang['REFRESH_RATE'] = 'Virkistystaajuus';
+$lang['REFRESH_RATE'] = 'Virkistystaajuus.';
 $lang['REFRESH_RATE_EXPLAIN'] = 'Kuinka paljon aikaa (sekuntia) pysyä tyhjäkäynnillä ennen siirtymistä seuraavaan käsittelysikeliin<br />Yleensä sinun ei tarvitse muuttaa tätä';
 
 $lang['TIME_LIMIT'] = 'Aikaraja';
@@ -2175,7 +2175,7 @@ $lang['INFO_PROCESSING_FINISHED'] = 'Olet onnistuneesti päättynyt käsittely (
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Olet onnistuneesti päättänyt käsittelyn post_id %s (%s käsiteltyä viestiä) %s,<br />mutta on ollut %s uutta viestiä(t) kyseisen päivämäärän jälkeen';
 
 // Progress screen
-$lang['REBUILD_SEARCH_PROGRESS'] = 'Rakentaa Etsimään Edistystä';
+$lang['REBUILD_SEARCH_PROGRESS'] = 'Uudelleenrakentaa hakuprosessia.';
 
 $lang['PROCESSED_POST_IDS'] = 'Käsiteltyjen viestien tunnukset: %s - %s';
 $lang['TIMER_EXPIRED'] = 'Ajastin on päättynyt %s sekuntia. ';
@@ -2192,10 +2192,10 @@ $lang['CURRENT_SESSION'] = 'Nykyinen istunto';
 $lang['TOTAL'] = 'Yhteensä';
 
 $lang['PROCESS_DETAILS'] = '<b>%s</b> - <b>%s</b> (yhteensä <b>%s</b>)';
-$lang['PERCENT_COMPLETED'] = '%s %% valmistunut';
+$lang['PERCENT_COMPLETED'] = '%s %% valmiina.';
 
-$lang['PROCESSING_TIME_DETAILS'] = 'Nykyisen istunnon tiedot';
-$lang['PROCESSING_TIME'] = 'Käsittelyaika';
+$lang['PROCESSING_TIME_DETAILS'] = 'Nykyisen istunnon tiedot.';
+$lang['PROCESSING_TIME'] = 'Käsittelyaika.';
 $lang['TIME_LAST_POSTS'] = 'Viime %s post(s)';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Alusta';
 $lang['TIME_AVERAGE'] = 'Keskimäärin per jakso';
@@ -2235,7 +2235,7 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_unlock' => 'Aihe:<br /> <b>opened</b>',
     'mod_topic_split' => 'Aihe:<br /> <b>split</b>',
     'mod_topic_set_downloaded' => 'Aihe:<br /> <b>asetettu ladatuksi</b>',
-    'mod_topic_unset_downloaded' => 'Aihe:<br /> <b>poistettu ladatuksi</b>',
+    'mod_topic_unset_downloaded' => 'Aihe:<br /> <b>ladattu poistettu</b>.',
     'mod_topic_change_tor_status' => 'Aihe:<br /> <b>torrentin tila muutettu</b>',
     'mod_topic_change_tor_type' => 'Aihe:<br /> <b>torrentin tyyppi muutettu</b>',
     'mod_topic_tor_unregister' => 'Aihe:<br /> <b>torrenttia ei rekisteröity</b>',
@@ -2292,7 +2292,7 @@ $lang['TPL_PUT_INTO_SUBJECT'] = 'otetaan aiheeseen';
 $lang['TPL_POSTER'] = 'julisteita';
 $lang['TPL_REQ_FILLING'] = 'vaatii täyttämistä';
 $lang['TPL_NEW_LINE'] = 'uusi rivi';
-$lang['TPL_NEW_LINE_AFTER'] = 'uusi rivi otsikon jälkeen';
+$lang['TPL_NEW_LINE_AFTER'] = 'uusi rivi otsikon jälkeen.';
 $lang['TPL_NUM'] = 'numero';
 $lang['TPL_URL'] = 'URL';
 $lang['TPL_IMG'] = 'kuva';
@@ -2329,7 +2329,7 @@ $lang['SEARCH_FOR_MODS'] = 'Etsitään moderaattoreita.';
 $lang['SEARCH_FOR_DISABLED'] = 'Etsitään vammaisia käyttäjiä.';
 $lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'Etsitään käyttäjiä, joilla on postituslaskuri suurempi kuin %d.';
 $lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'Etsitään käyttäjiä, joilla on postituslaskuri pienempi kuin %d.';
-$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Etsivät käyttäjät, joilla on post count välillä %d ja %d';
+$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'Etsii käyttäjiä, joilla on viestiluku välillä %d ja %d.';
 $lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'Etsitään käyttäjiä, joilla on post count -arvo %d';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'Etsitään käyttäjiä, joilla on Twitter-aineisto %s';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Etsitään käyttäjiä, joiden verkkosivu vastaa %s';

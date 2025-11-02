@@ -1155,7 +1155,7 @@ $lang['NO_POSTS_REMOVED'] = 'Nenhum post foi removido.';
 
 //ts
 $lang['TOPICS_ANNOUNCEMENT'] = 'Anúncios';
-$lang['TOPICS_STICKY'] = 'Adesivos';
+$lang['TOPICS_STICKY'] = 'Fixos';
 $lang['TOPICS_NORMAL'] = 'Tópicos';
 
 //dpc
@@ -1179,7 +1179,7 @@ $lang['QR_USERNAME'] = 'Nome';
 $lang['QR_FONT_SEL'] = 'Face da fonte';
 $lang['QR_COLOR_SEL'] = 'Cor da fonte';
 $lang['QR_SIZE_SEL'] = 'Tamanho da fonte';
-$lang['COLOR_STEEL_BLUE'] = 'Aço Azul';
+$lang['COLOR_STEEL_BLUE'] = 'Azul Aço';
 $lang['COLOR_GRAY'] = 'Cinza';
 $lang['COLOR_DARK_GREEN'] = 'Verde Escuro';
 
@@ -1418,7 +1418,7 @@ $lang['FORUM_STYLE'] = 'Estilo do fórum';
 $lang['LINKS_ARE_FORBIDDEN'] = 'Links são proibidos';
 
 $lang['GENERAL'] = 'Administrador Geral';
-$lang['USERS'] = 'Utilizador Admin';
+$lang['USERS'] = 'Usuário Admin';
 $lang['GROUPS'] = 'Grupo Admin';
 $lang['FORUMS'] = 'Fórum De Admin';
 $lang['MODS'] = 'Modificações';
@@ -2322,25 +2322,25 @@ $lang['SEARCH_FOR_EMAIL'] = 'Procura de endereços de e-mail correspondente %s';
 $lang['SEARCH_FOR_IP'] = 'A procura de endereços de IP correspondente %s';
 $lang['SEARCH_FOR_DATE'] = 'Pesquisar os usuários que se juntaram %s %d/%d/%d';
 $lang['SEARCH_FOR_GROUP'] = 'Procurar membros do grupo de %s';
-$lang['SEARCH_FOR_RANK'] = 'A pesquisa de portadores de classificação de %s';
+$lang['SEARCH_FOR_RANK'] = 'A pesquisa sobre a classificação dos portadores de %s.';
 $lang['SEARCH_FOR_BANNED'] = 'A pesquisa de usuários banidos';
 $lang['SEARCH_FOR_ADMINS'] = 'A Procura De Administradores';
 $lang['SEARCH_FOR_MODS'] = 'Procurando Moderadores';
 $lang['SEARCH_FOR_DISABLED'] = 'Procurando por usuários portadores de deficiência';
-$lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'A pesquisa para os usuários com um post a contar maior que %d';
-$lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'A pesquisa para os usuários com um post a contar menos de %d';
-$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'A pesquisa para os usuários com um post a contar entre %d e %d';
-$lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'A pesquisa para os usuários com um post do valor de contagem de %d';
+$lang['SEARCH_FOR_POSTCOUNT_GREATER'] = 'A pesquisa para usuários com uma contagem de postagens maior que %d.';
+$lang['SEARCH_FOR_POSTCOUNT_LESSER'] = 'A pesquisa para usuários com uma contagem de postagens menor que %d.';
+$lang['SEARCH_FOR_POSTCOUNT_RANGE'] = 'A pesquisa para usuários com uma contagem de postagens entre %d e %d.';
+$lang['SEARCH_FOR_POSTCOUNT_EQUALS'] = 'A pesquisa para usuários com uma contagem de postagens de valor %d.';
 $lang['SEARCH_FOR_USERFIELD_TWITTER'] = 'A pesquisa para usuários com um Twitter correspondente %s.';
 $lang['SEARCH_FOR_USERFIELD_WEBSITE'] = 'Procurando usuários com um Website correspondente a %s';
-$lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'A pesquisa para os usuários com uma Localização correspondente %s';
-$lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'A pesquisa para os usuários, com seus Interesses campo correspondente %s';
-$lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'Procurar usuários com sua Ocupação campo correspondente %s';
+$lang['SEARCH_FOR_USERFIELD_LOCATION'] = 'A pesquisa para usuários com uma localização correspondente a %s.';
+$lang['SEARCH_FOR_USERFIELD_INTERESTS'] = 'A pesquisa para usuários, com o campo Interesses correspondente a %s.';
+$lang['SEARCH_FOR_USERFIELD_OCCUPATION'] = 'A pesquisa para usuários com o campo Ocupação correspondente a %s.';
 $lang['SEARCH_FOR_LASTVISITED_INTHELAST'] = 'Procurando por usuários que visitaram na última %s';
 $lang['SEARCH_FOR_LASTVISITED_AFTERTHELAST'] = 'Procurando por usuários que visitaram após a última %s';
-$lang['SEARCH_FOR_LANGUAGE'] = 'A pesquisa para os usuários que têm definido %s como a sua língua';
-$lang['SEARCH_FOR_TIMEZONE'] = 'A pesquisa para os usuários que têm definido UTC %s como o seu fuso horário';
-$lang['SEARCH_FOR_MODERATORS'] = 'Pesquisa para os moderadores do Fórum -> %s';
+$lang['SEARCH_FOR_LANGUAGE'] = 'A pesquisa para usuários que tenham definido %s como sua língua.';
+$lang['SEARCH_FOR_TIMEZONE'] = 'A pesquisa para usuários que tenham definido UTC %s como seu fuso horário.';
+$lang['SEARCH_FOR_MODERATORS'] = 'Pesquise pelos moderadores do Fórum -> %s.';
 $lang['SEARCH_USERS_ADVANCED'] = 'A tradução pode melhorar em clareza e fluência.';
 $lang['SEARCH_USERS_EXPLAIN'] = 'Este Módulo permite executar pesquisas avançadas para os usuários em uma ampla gama de critérios. Por favor, leia as descrições de cada campo para compreender cada opção de busca completamente.';
 $lang['SEARCH_USERNAME_EXPLAIN'] = 'Aqui você pode realizar uma pesquisa não diferencia maiúsculas de minúsculas para nomes de usuário. Se você gostaria de corresponder parte do utilizador, utilize * (asterisco) como um caractere curinga.';
@@ -2371,7 +2371,7 @@ $lang['SEARCH_USERS_TIMEZONE_EXPLAIN'] = 'A estrutura da frase deve ser revisada
 $lang['MODERATORS_OF'] = 'Revise a construção da frase para a clareza.';
 $lang['SEARCH_USERS_MODERATORS_EXPLAIN'] = 'A estrutura da frase deve ser revisada.';
 
-$lang['SEARCH_USERS_NEW'] = '%s rendeu %d resultado(s). Executar <a href="%s">another search</a>.';
+$lang['SEARCH_USERS_NEW'] = '%s gerou %d resultado(s). Realize <a href="%s">outra pesquisa</a>.';
 $lang['BANNED'] = 'Banido';
 $lang['NOT_BANNED'] = 'Não Banido';
 $lang['SEARCH_NO_RESULTS'] = 'A estrutura da frase deve ser revisada.';
@@ -2387,7 +2387,7 @@ $lang['MC_TITLE'] = 'Comentário de moderação';
 $lang['MC_LEGEND'] = 'Revise a estrutura da frase para maior clareza.';
 $lang['MC_FAQ'] = 'A clareza da frase precisa de revisão.';
 $lang['MC_COMMENT_PM_SUBJECT'] = "%s em sua mensagem";
-$lang['MC_COMMENT_PM_MSG'] = "Olá, [b]%s[/b]\nModerator esquerda em sua mensagem [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "Olá, [b]%s[/b]\nO moderador deixou em sua mensagem [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',

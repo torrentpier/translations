@@ -702,7 +702,7 @@ $lang['SEARCH_OPTIONS'] = 'Opsi Pencarian';
 
 $lang['SEARCH_WORDS'] = 'Mencari Kata Kunci';
 $lang['SEARCH_WORDS_EXPL'] = 'Anda dapat menggunakan <b>+</b> untuk mendefinisikan kata-kata yang harus di hasil dan <b>-</b> untuk mendefinisikan kata-kata yang tidak boleh di hasil (ex: "+word1 -word2"). Gunakan * sebagai wildcard untuk pertandingan parsial';
-$lang['SEARCH_AUTHOR'] = 'Pencarian untuk Penulis';
+$lang['SEARCH_AUTHOR'] = 'Pencarian Penulis';
 $lang['SEARCH_AUTHOR_EXPL'] = 'Gunakan * sebagai wildcard untuk pertandingan parsial';
 
 $lang['SEARCH_TITLES_ONLY'] = 'Cari hanya judul topik';
@@ -1415,7 +1415,7 @@ $lang['INDEXER_SUCCESS'] = 'Indeks pencarian diperbarui dengan sukses';
 
 $lang['FORUM_STYLE'] = 'Gaya Forum';
 
-$lang['LINKS_ARE_FORBIDDEN'] = 'Link yang dilarang';
+$lang['LINKS_ARE_FORBIDDEN'] = 'Tautan dilarang';
 
 $lang['GENERAL'] = 'Admin Umum';
 $lang['USERS'] = 'Admin Pengguna';
@@ -1632,7 +1632,7 @@ $lang['ALLOW_NAME_CHANGE'] = 'Memungkinkan perubahan nama Pengguna.';
 $lang['ALLOW_AUTOLOGIN'] = 'Memungkinkan otomatis login.';
 $lang['ALLOW_AUTOLOGIN_EXPLAIN'] = 'Menentukan apakah pengguna diizinkan untuk memilih untuk secara otomatis login ketika mengunjungi forum.';
 $lang['AUTOLOGIN_TIME'] = 'Login otomatis kunci kadaluwarsa.';
-$lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Berapa lama autologin kunci ini berlaku untuk di hari jika pengguna tidak mengunjungi dewan. Set ke nol untuk menonaktifkan kadaluwarsa.';
+$lang['AUTOLOGIN_TIME_EXPLAIN'] = 'Kunci autologin ini berlaku selama berapa hari jika pengguna tidak mengunjungi papan. Setel ke nol untuk menonaktifkan kadaluwarsa.';
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'Forum Administrasi';
@@ -2091,7 +2091,7 @@ $lang['CRON_DISABLED_WARNING'] = 'Peringatan! Menjalankan skrip cron dinonaktifk
 $lang['CRON_ENABLED'] = 'Cron diaktifkan';
 $lang['CRON_CHECK_INTERVAL'] = 'Interval pemeriksaan cron (detik)';
 
-$lang['WITH_SELECTED'] = 'Dengan dipilih';
+$lang['WITH_SELECTED'] = 'Dengan yang dipilih';
 $lang['NOTHING'] = 'tidak melakukan apa-apa';
 $lang['CRON_RUN'] = 'Menjalankan';
 $lang['CRON_DEL'] = 'Hapus';
@@ -2112,7 +2112,7 @@ $lang['SCHEDULE'] = [
     'monthly' => 'bulanan',
     'interval' => 'interval'
 ];
-$lang['NOSELECT'] = 'Tidak ada pilih';
+$lang['NOSELECT'] = 'Tidak ada yang dipilih';
 $lang['RUN_DAY'] = 'Berjalan hari';
 $lang['RUN_DAY_EXPL'] = 'hari ketika pekerjaan ini berjalan';
 $lang['RUN_TIME'] = 'Waktu berjalan';
@@ -2120,7 +2120,7 @@ $lang['RUN_TIME_EXPL'] = 'waktu saat pekerjaan ini berjalan (misalnya 05:00:00)'
 $lang['RUN_ORDER'] = 'Jalankan urutan';
 $lang['LAST_RUN'] = 'Lalu Jalankan';
 $lang['NEXT_RUN'] = 'Berikutnya Jalankan';
-$lang['RUN_INTERVAL'] = 'Lari interval';
+$lang['RUN_INTERVAL'] = 'Interval berjalan';
 $lang['RUN_INTERVAL_EXPL'] = 'misalnya 00:10:00';
 $lang['LOG_ENABLED'] = 'Log diaktifkan';
 $lang['LOG_FILE'] = 'Log file';
@@ -2144,13 +2144,13 @@ $lang['STARTING_POST_ID'] = 'Posting mulai';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'Posting pertama di mana pemrosesan akan dimulai<br />Anda dapat memilih untuk memulai dari awal atau dari posting terakhir yang Anda berhenti';
 
 $lang['START_OPTION_BEGINNING'] = 'mulai dari awal';
-$lang['START_OPTION_CONTINUE'] = 'melanjutkan dari terakhir berhenti';
+$lang['START_OPTION_CONTINUE'] = 'melanjutkan dari terakhir yang berhenti';
 
 $lang['CLEAR_SEARCH_TABLES'] = 'Bersihkan tabel pencarian';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
 $lang['CLEAR_SEARCH_NO'] = 'TIDAK';
 $lang['CLEAR_SEARCH_DELETE'] = 'HAPUS';
-$lang['CLEAR_SEARCH_TRUNCATE'] = 'TRUNCATE';
+$lang['CLEAR_SEARCH_TRUNCATE'] = 'HAPUS';
 
 $lang['NUM_OF_POSTS'] = 'Jumlah posting';
 $lang['NUM_OF_POSTS_EXPLAIN'] = 'Jumlah total posting untuk diproses<br />Ini secara otomatis diisi dengan jumlah total/tersisa posting yang ditemukan di db';
@@ -2206,7 +2206,7 @@ $lang['SIZE_SEARCH_TABLES'] = 'Ukuran Tabel Pencarian';
 
 $lang['POSTS_LAST_CYCLE'] = 'Diproses post(s) pada siklus terakhir';
 
-$lang['INFO_ESTIMATED_VALUES'] = '(*) Semua perkiraan nilai-nilai yang dihitung approximately<br />based pada saat ini melengkapi verifikasi identitas persen dan mungkin tidak mewakili sebenarnya nilai akhir.<br />As selesai % meningkatkan nilai estimasi akan datang lebih dekat ke orang-orang yang sebenarnya.';
+$lang['INFO_ESTIMATED_VALUES'] = '(*) Semua nilai yang diperkirakan dihitung secara perkiraan<br />berdasarkan persentase selesai saat ini dan mungkin tidak mewakili nilai akhir yang sebenarnya.<br />Seiring dengan meningkatnya persentase yang selesai, nilai perkiraan akan semakin mendekati nilai yang sebenarnya.';
 
 $lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Klik %shere%s untuk kembali untuk Membangun kembali Pencarian';
 $lang['REBUILD_SEARCH_ABORTED'] = 'Membangun kembali pencarian dibatalkan di post_id %s.<br /><br />Jika Anda membatalkan ketika pemrosesan berlangsung, Anda harus menunggu beberapa menit hingga Anda menjalankan Membangun Kembali Pencarian lagi, agar siklus terakhir bisa selesai.';
@@ -2263,7 +2263,7 @@ $lang['ACTS_LOG_USER'] = 'Pengguna';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Log dari ';
 $lang['ACTS_LOG_FIRST'] = 'dimulai dengan';
 $lang['ACTS_LOG_DAYS_BACK'] = 'hari-hari kembali';
-$lang['ACTS_LOG_TOPIC_MATCH'] = 'Judul topik pertandingan';
+$lang['ACTS_LOG_TOPIC_MATCH'] = 'Kecocokan judul topik';
 $lang['ACTS_LOG_SORT_BY'] = 'Urutkan berdasarkan';
 $lang['ACTS_LOG_LOGS_ACTION'] = 'Aksi';
 $lang['ACTS_LOG_USERNAME'] = 'Username';
@@ -2530,4 +2530,4 @@ $lang['RELEASER_STAT'] = 'Statistik releaser:';
 $lang['RELEASER_STAT_SHOW'] = 'Tampilkan statistik';
 
 // Dark mode
-$lang['DARK_MODE_TOGGLE'] = 'Toggel mode gelap';
+$lang['DARK_MODE_TOGGLE'] = 'Alihkan mode gelap';

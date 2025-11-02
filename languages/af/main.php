@@ -1443,10 +1443,10 @@ $lang['ACTIONS_LOG'] = 'Verslag oor aksie';
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'Databasis Migrasie Status';
 $lang['MIGRATIONS_DATABASE_NAME'] = 'Databasis Naam';
-$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Totale Tabel';
+$lang['MIGRATIONS_DATABASE_TOTAL'] = 'Totale Tabels';
 $lang['MIGRATIONS_DATABASE_SIZE'] = 'Databasis Grootte';
 $lang['MIGRATIONS_DATABASE_INFO'] = 'Databasis Inligting';
-$lang['MIGRATIONS_SYSTEM'] = 'Migrasi Stelsel';
+$lang['MIGRATIONS_SYSTEM'] = 'Migrasiebestuurstelsel';
 $lang['MIGRATIONS_NEEDS_SETUP'] = 'Benodig Instelling';
 $lang['MIGRATIONS_ACTIVE'] = 'aktiewe';
 $lang['MIGRATIONS_NOT_INITIALIZED'] = 'Nie Geïnisialiseer nie';
@@ -1460,7 +1460,7 @@ $lang['MIGRATIONS_FILE'] = 'Migrasie Lêer';
 $lang['MIGRATIONS_APPLIED_AT'] = 'Toegepaste Op';
 $lang['MIGRATIONS_COMPLETED_AT'] = 'Voltooi op';
 $lang['MIGRATIONS_CURRENT_VERSION'] = 'Huidige Weergawe';
-$lang['MIGRATIONS_NOT_APPLIED'] = 'Geen migrasies toegepass nie';
+$lang['MIGRATIONS_NOT_APPLIED'] = 'Geen migrasies toegepas nie';
 $lang['MIGRATIONS_INSTRUCTIONS'] = 'Instruksies';
 $lang['MIGRATIONS_SETUP_STATUS'] = 'Instelling Status';
 $lang['MIGRATIONS_SETUP_GUIDE'] = 'Sien instellingsgids hieronder';
@@ -1485,8 +1485,8 @@ $lang['TOPICS_PER_DAY'] = 'Onderwerpe per dag';
 $lang['NUMBER_USERS'] = 'Aantal gebruikers';
 $lang['USERS_PER_DAY'] = 'Gebruikers per dag';
 $lang['BOARD_STARTED'] = 'Raad begin';
-$lang['AVATAR_DIR_SIZE'] = 'Avatar directory grootte';
-$lang['DATABASE_SIZE'] = 'Databasis grootte';
+$lang['AVATAR_DIR_SIZE'] = 'Grootte van avatar-gids';
+$lang['DATABASE_SIZE'] = 'Grootte van databasis';
 $lang['GZIP_COMPRESSION'] = 'Gzip kompressie';
 $lang['NOT_AVAILABLE'] = 'Nie beskikbaar nie';
 
@@ -1501,7 +1501,7 @@ $lang['ADMIN_SYSTEM_DISK_SPACE_INFO'] = '%s (gebruik: %s | vry: %s)';
 $lang['ADMIN_SYSTEM_PHP_MAX_EXECUTION_TIME'] = 'Max uitvoering tyd:';
 
 // Clear Cache
-$lang['DATASTORE'] = 'datastore';
+$lang['DATASTORE'] = 'Gegewenswinkel';
 $lang['CLEAR_CACHE'] = 'Cache';
 $lang['CLEAR_TEMPLATES_CACHE'] = 'Templates cache';
 
@@ -1510,10 +1510,10 @@ $lang['USER_LEVELS'] = 'Gebruikersvlakke';
 $lang['USER_LEVELS_UPDATED'] = 'Gebruikersvlakke is opgedateer';
 
 // Synchronize
-$lang['SYNCHRONIZE'] = 'sinchroniseer';
+$lang['SYNCHRONIZE'] = 'Sinkroniseer';
 $lang['TOPICS_DATA_SYNCHRONIZED'] = 'Onderwerpe data is gesinkroniseer';
-$lang['USER_POSTS_COUNT'] = 'Gebruikerposte tel';
-$lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Die telling van gebruikersposte is gesinkroniseer';
+$lang['USER_POSTS_COUNT'] = 'Aantal gebruikerposte';
+$lang['USER_POSTS_COUNT_SYNCHRONIZED'] = 'Die telling van gebruikerposte is gesinkroniseer';
 
 // Online Userlist
 $lang['SHOW_ONLINE_USERLIST'] = 'Wys die lys van aanlyngebruikers';
@@ -1536,14 +1536,14 @@ $lang['GROUP_AUTH_EXPLAIN'] = 'Hier kan u die toestemmings en moderatorstatus wa
 $lang['USER_AUTH_EXPLAIN'] = 'Hier kan u die toestemmings en moderatorstatus wat aan elke individuele gebruiker toegewys is, verander. Moenie vergeet wanneer gebruikerstoestemmings verander word nie, aangesien groeptoestemmings die gebruiker toelaat om toegang tot forums, ens. Te kry. U sal gewaarsku word as dit die geval is.';
 $lang['FORUM_AUTH_EXPLAIN'] = 'Hier kan jy die magtigingsvlakke van elke forum verander. U sal beide \'n eenvoudige en gevorderde metode hê om dit te doen, waar gevorderde meer beheer bied oor elke forumoperasie. Onthou dat die verandering van die toestemmingsvlak van forums sal beïnvloed watter gebruikers die verskillende bedrywighede binne hulle kan uitvoer.';
 
-$lang['SIMPLE_MODE'] = 'Eenvoudige af';
-$lang['ADVANCED_MODE'] = 'Gevorderde af';
-$lang['MODERATOR_STATUS'] = 'Moderator status';
+$lang['SIMPLE_MODE'] = 'Eenvoudige Modus';
+$lang['ADVANCED_MODE'] = 'Gevorderde Modus';
+$lang['MODERATOR_STATUS'] = 'Moderatorstatus';
 
-$lang['PUBLIC'] = 'openbare';
+$lang['PUBLIC'] = 'Publiek';
 $lang['PRIVATE'] = 'Privaat';
 $lang['REGISTERED'] = 'geregistreer';
-$lang['ADMINISTRATORS'] = 'administrateurs';
+$lang['ADMINISTRATORS'] = 'Administrateurs';
 
 // These are displayed in the drop-down boxes for advanced mode forum auth, try and keep them short!
 $lang['FORUM_ALL'] = 'ALMAL';
@@ -1687,8 +1687,8 @@ $lang['SMILE_DESC'] = 'Vanuit hierdie bladsy kan jy die emoticons of smileys wat
 
 $lang['SMILEY_CONFIG'] = 'Smiley Konfigurasie';
 $lang['SMILEY_CODE'] = 'Smiley Kode';
-$lang['SMILEY_URL'] = 'Smiley Image File';
-$lang['SMILEY_EMOT'] = 'Smiley Emotion';
+$lang['SMILEY_URL'] = 'Smile Image File';
+$lang['SMILEY_EMOT'] = 'Smile Emotion';
 $lang['SMILE_ADD'] = 'Voeg \'n nuwe Smiley by';
 $lang['SMILE'] = 'Smile';
 $lang['EMOTION'] = 'emosie';
@@ -2001,7 +2001,7 @@ $lang['TEST_SETTINGS_SUCCESSFUL'] = 'Instellings toets is klaar, opset lyk goed.
 
 // Some basic definitions
 $lang['ATTACHMENTS'] = 'aanhegsels';
-$lang['EXTENSIONS'] = 'uitbreidings';
+$lang['EXTENSIONS'] = 'Uitbreidings';
 $lang['EXTENSION'] = 'Uitbreiding';
 
 $lang['RETURN_CONFIG'] = '%sTerug na Configuration%s';
@@ -2065,7 +2065,7 @@ $lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Divers";
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Wys gebruikers UL/DL statistieke in die boonste deel van die forum se hoofblad";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Outomaties registreer torrent op spoorsnyer vir nuwe onderwerpe';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Verander onderwerpstatus na "Download" terwyl jy torrent op spoorsnyer registreer';
-$lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'Sal onderwerp tipe verander om te laai, ongeag forum instellings';
+$lang['BT_SET_DLTYPE_ON_TOR_REG_EXPL'] = 'Sal onderwerp tipe verander na "Laai" ongeag forum instellings';
 $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Verander onderwerpstatus na "Normale" terwyl u torrent van spoorsnyer registreer';
 
 // Release
@@ -2083,7 +2083,7 @@ $lang['CRON_TITLE'] = 'Titel';
 $lang['CRON_SCRIPT'] = 'script';
 $lang['CRON_SCHEDULE'] = 'skedule';
 $lang['CRON_LAST_RUN'] = 'Laaste uitvoering';
-$lang['CRON_NEXT_RUN'] = 'Volgende Begin';
+$lang['CRON_NEXT_RUN'] = 'Volgende Uitvoering';
 $lang['CRON_RUN_COUNT'] = 'Lopies';
 $lang['CRON_MANAGE'] = 'bestuur';
 $lang['CRON_DISABLED_WARNING'] = 'Waarskuwing! Die uitvoer van cron-skrifte is gedeaktiveer. Om dit te aktiveer, stel die APP_CRON_ENABLED veranderlike.';
@@ -2097,13 +2097,13 @@ $lang['CRON_RUN'] = 'Doen niks';
 $lang['CRON_DEL'] = 'Verwyder';
 $lang['CRON_DISABLE'] = 'Afskakel';
 $lang['CRON_ENABLE'] = 'In staat te stel';
-$lang['DELETE_JOB'] = 'Is jy seker jy wil cron-werk verwyder?';
+$lang['DELETE_JOB'] = 'Is u seker dat u die cron taak wil verwyder?';
 $lang['CRON_WORKS'] = 'Cron werk tans of is gebroke -> ';
 $lang['REPAIR_CRON'] = 'Herstel Cron';
 
 $lang['CRON_EDIT_HEAD_EDIT'] = 'Redigeer werk';
 $lang['CRON_EDIT_HEAD_ADD'] = 'Voeg werk by';
-$lang['CRON_SCRIPT_EXPL'] = 'Naam van die script uit "includes / cron / jobs /"';
+$lang['CRON_SCRIPT_EXPL'] = 'Naam van die script van "includes/cron/jobs/"';
 $lang['SCHEDULE'] = [
     'select' => '&raquo; Kies begin',
     'hourly' => 'uurlikse',
@@ -2179,7 +2179,7 @@ $lang['REBUILD_SEARCH_PROGRESS'] = 'Herstel soek vordering';
 
 $lang['PROCESSED_POST_IDS'] = 'Verwerkte pos-ID\'s : %s - %s';
 $lang['TIMER_EXPIRED'] = 'Timer het verval op %s sekondes.';
-$lang['CLEARED_SEARCH_TABLES'] = 'Gesoekte tabelle skoongemaak.';
+$lang['CLEARED_SEARCH_TABLES'] = 'Geskilde soektabelle.';
 $lang['DELETED_POSTS'] = '%s boodskap (s) is tydens u verwerking deur u gebruikers verwyder.';
 $lang['PROCESSING_NEXT_POSTS'] = 'Die verwerking van volgende %s boodskap (s). Wag asseblief...';
 $lang['ALL_SESSION_POSTS_PROCESSED'] = 'Alle plasings in huidige sessie verwerk.';
@@ -2234,8 +2234,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_lock' => 'Onderwerp: <br /> <b>closed</b>',
     'mod_topic_unlock' => 'Onderwerp: <br /> <b>opened</b>',
     'mod_topic_split' => 'Onderwerp: <br /> <b>split</b>',
-    'mod_topic_set_downloaded' => 'Onderwerp:<br /> <b>gestel afgelaai</b>',
-    'mod_topic_unset_downloaded' => 'Onderwerp:<br /> <b>nie afgelaai nie</b>',
+    'mod_topic_set_downloaded' => 'Onderwerp:<br /> <b>stel afgelaai</b>',
+    'mod_topic_unset_downloaded' => 'Onderwerp:<br /> <b>stel nie afgelaai nie</b>',
     'mod_topic_change_tor_status' => 'Onderwerp:<br /> <b>verander torrent status</b>',
     'mod_topic_change_tor_type' => 'Onderwerp:<br /> <b>verander torrent tipe</b>',
     'mod_topic_tor_unregister' => 'Onderwerp:<br /> <b>torrent gederegistreer</b>',

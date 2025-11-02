@@ -35,7 +35,7 @@ $lang['TORRENT'] = 'סיקור';
 $lang['PERMISSIONS'] = 'הרשאות';
 $lang['TYPE'] = 'סוג';
 $lang['SEEDER'] = 'שSeeder';
-$lang['LEECHER'] = 'Leecher';
+$lang['LEECHER'] = 'שודד';
 $lang['RELEASER'] = 'משחרר';
 
 $lang['1_DAY'] = 'יום 1';
@@ -89,7 +89,7 @@ $lang['POST_NEW_TOPIC'] = 'פוסט חדש בנושא';
 $lang['POST_NEW_RELEASE'] = 'פוסט חדש שחרור';
 $lang['REPLY_TO_TOPIC'] = 'תגובה לנושא';
 
-$lang['CLICK_RETURN_TOPIC'] = 'לחץ על %sHere%s לחזור לנושא'; // %s's here are for uris, do not remove!
+$lang['CLICK_RETURN_TOPIC'] = 'לחץ %sכאן%s לחזור לנושא'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'לחץ על %sHere%s לחזור לפורום';
 $lang['CLICK_RETURN_MODCP'] = 'לחץ על %sHere%s לחזור לפאנל בקרה של מנחה';
 $lang['CLICK_RETURN_GROUP'] = 'לחץ על %sHere%s לחזור למידע קבוצתי';
@@ -138,7 +138,7 @@ $lang['REGISTER'] = 'הרשמה';
 $lang['PROFILE'] = 'פרופיל';
 $lang['EDIT_PROFILE'] = 'עריכת פרופיל';
 $lang['SEARCH'] = 'חיפוש';
-$lang['MEMBERLIST'] = 'Memberlist';
+$lang['MEMBERLIST'] = 'רשימת חברים';
 $lang['USERGROUPS'] = 'קבוצות משתמשים';
 $lang['LASTPOST'] = 'הודעה אחרונה';
 $lang['MODERATOR'] = 'מנחה';
@@ -896,7 +896,7 @@ $lang['BT_REG_YES'] = 'רשום';
 $lang['BT_REG_NO'] = 'לא רשום';
 $lang['BT_REG_ON_TRACKER'] = 'לא ניתן לרשום את הטורנט על הטרקר.';
 $lang['BT_REG_FAIL'] = 'לא ניתן לרשום את הטורנט על הטרקר.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'עוד סיקור עם אותו info_hash כבר <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'עוד סיקור עם אותו info_hash כבר <a href="%s"><b>נרשם</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'טורנטים רק עבור v1 הושבתו על ידי המנהל במדויק, המותר: v2 והיברידים';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'טורנטים רק עבור v2 הושבתו על ידי המנהל במדויק, המותר: v1 והיברידים';
 $lang['BT_FLIST'] = 'רשימת קבצים';
@@ -910,11 +910,11 @@ $lang['BT_FLIST_LINK_TITLE'] = 'hashים של קובץ | מידע מטה של .t
 $lang['BT_UNREG_FROM_TRACKER'] = 'הסר מהטרקר.';
 $lang['BT_UNREGISTERED'] = 'הטורנט לא נרשם.';
 $lang['BT_UNREGISTERED_ALREADY'] = 'הטורנט כבר לא נרשם';
-$lang['BT_REGISTERED'] = 'סיקור רשום על tracker<br /><br />Now אתה צריך <a href="%s"><b>download שלך torrent</b></a> ולהפעיל אותו באמצעות ביטורנט שלך הלקוח בוחר את התיקייה עם הקבצים המקוריים את שיתוף כמו בנתיב ההורדה';
-$lang['INVALID_ANN_URL'] = 'חוקי להכריז URL [%s]<br /><br />must להיות <b>%s</b>';
+$lang['BT_REGISTERED'] = 'סיקור נרשם על ה-tracker<br /><br />עכשיו אתה צריך <a href="%s"><b>להוריד את הסיקור שלך</b></a> ולהריץ אותו באמצעות לקוח ביטורנט שלך בבחירת התיקייה שבה נמצאים הקבצים המקוריים שאתה משתף כנתיב הורדה.';
+$lang['INVALID_ANN_URL'] = 'כתובת URL לא חוקית [%s]<br /><br />חובה להיות <b>%s</b>.';
 $lang['PASSKEY_ERR_TOR_NOT_REG'] = 'לא ניתן להוסיף passkey; הטורנט לא נרשם על הטרקר.';
 $lang['BT_PASSKEY'] = 'passkey.';
-$lang['BT_GEN_PASSKEY'] = 'ליצור חדש.';
+$lang['BT_GEN_PASSKEY'] = 'צור חדש.';
 $lang['BT_PASSKEY_VIEW'] = 'להראות.';
 $lang['BT_GEN_PASSKEY_NEW'] = "שימו לב! לאחר שינוי המפתח שלך, תצטרך להוריד מחדש את כל הטורנטים הפעילים! \n האם אתה בטוח שאתה רוצה ליצור מפתח חדש?";
 $lang['BT_NO_SEARCHABLE_FORUMS'] = 'לא נמצאו פורומים ניתנים לחיפוש.';
@@ -952,7 +952,7 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_DOUBTFUL => 'אני בספק',
     TOR_CHECKING => 'נבדק',
     TOR_TMP => 'זמני',
-    TOR_PREMOD => 'מראש מתינות',
+    TOR_PREMOD => 'המתנה לפני מתינות.',
     TOR_REPLENISH => 'להתחדש',
 ];
 $lang['TOR_STATUS_FAILED'] = 'מעמד כזה לא קיים!';
@@ -1024,7 +1024,7 @@ $lang['BT_SHOW_CAT'] = 'קטגוריה';
 $lang['BT_SHOW_FORUM'] = 'פורום';
 $lang['BT_SHOW_AUTHOR'] = 'מחבר תגובה';
 $lang['BT_SHOW_SPEED'] = 'מהירות';
-$lang['SEED_NOT_SEEN'] = 'Seeder לא ראיתי.';
+$lang['SEED_NOT_SEEN'] = 'מניח לא נראה.';
 $lang['TITLE_MATCH'] = 'התואר.';
 $lang['BT_USER_NOT_FOUND'] = 'לא מצאתי.';
 $lang['DL_SPEED'] = 'בסך הכל מהירות הורדה.';
@@ -1050,7 +1050,7 @@ $lang['DLCOMPLETE'] = 'להשלים.';
 $lang['DLCANCEL'] = 'לבטל.';
 
 $lang['DL_LIST_DEL'] = 'ברור DL-רשימה.';
-$lang['DL_LIST_DEL_CONFIRM'] = 'למחוק DL-רשימה על הנושא הזה?';
+$lang['DL_LIST_DEL_CONFIRM'] = 'האם למחוק את רשימת ההורדה עבור נושא זה?';
 $lang['SHOW_DL_LIST'] = 'להראות DL-רשימת.';
 $lang['SET_DL_STATUS'] = 'הורד.';
 $lang['UNSET_DL_STATUS'] = 'לא להורדה.';
@@ -1090,7 +1090,7 @@ $lang['MAX_SPEED'] = 'מהירות';
 $lang['DOWNLOADED'] = 'הורדתי';
 $lang['UPLOADED'] = 'נטען';
 $lang['RELEASED'] = 'שוחרר';
-$lang['BONUS'] = 'על נדיר';
+$lang['BONUS'] = 'באופן נדיר.';
 $lang['IT_WILL_BE_DOWN'] = 'זה יתחיל להיחשב לאחר שיפורסם';
 $lang['SPMODE_FULL'] = 'הצגת חברים בפרטים מלאים';
 
@@ -1139,12 +1139,12 @@ $lang['HIDDEN'] = 'מוסתר';
 // from admin
 $lang['NOT_ADMIN'] = 'אתה לא מוסמך לנהל את הלוח הזה.';
 
-$lang['SESSION_EXPIRED'] = 'הפעלה שפג תוקפם';
+$lang['SESSION_EXPIRED'] = 'הפעלה פג תוקפם.';
 
 // Sort memberlist per letter
 $lang['POST_LINK'] = 'לפרסם קישור';
 $lang['GOTO_QUOTED_POST'] = 'ללכת לפוסט המצוטט';
-$lang['LAST_VISITED'] = 'אתמול ביקר';
+$lang['LAST_VISITED'] = 'ביקור אחרון.';
 $lang['LAST_ACTIVITY'] = 'הפעילות האחרונה';
 $lang['NEVER'] = 'אף פעם לא';
 
@@ -1162,7 +1162,7 @@ $lang['TOPICS_NORMAL'] = 'נושאים';
 $lang['DOUBLE_POST_ERROR'] = 'אתה לא יכול לבצע פוסט נוסף עם בדיוק את אותו טקסט כמו האחרון שלך.';
 
 //upt
-$lang['UPDATE_POST_TIME'] = 'עדכון פוסט הזמן';
+$lang['UPDATE_POST_TIME'] = 'עדכן את זמן הפוסט.';
 
 $lang['TOPIC_SPLIT_NEW'] = 'נושא חדש';
 $lang['TOPIC_SPLIT_OLD'] = 'נושא ישן';
@@ -1472,7 +1472,7 @@ $lang['FORUM_STATS'] = 'סטטיסטיקות פורום';
 $lang['ADMIN_INDEX'] = 'Admin אינדקס';
 $lang['CREATE_PROFILE'] = 'צור פרופיל';
 
-$lang['TP_VERSION'] = 'TorrentPier גרסה';
+$lang['TP_VERSION'] = 'גרסה של TorrentPier.';
 $lang['TP_RELEASE_DATE'] = 'תאריך שחרור';
 $lang['PHP_INFO'] = 'מידע על PHP';
 
@@ -1484,8 +1484,8 @@ $lang['NUMBER_TOPICS'] = 'מספר נושאים';
 $lang['TOPICS_PER_DAY'] = 'נושאים ביום';
 $lang['NUMBER_USERS'] = 'מספר של משתמשים';
 $lang['USERS_PER_DAY'] = 'משתמשים ביום';
-$lang['BOARD_STARTED'] = 'לוח התחיל';
-$lang['AVATAR_DIR_SIZE'] = 'אווטאר ספריית גודל';
+$lang['BOARD_STARTED'] = 'הלוח התחיל.';
+$lang['AVATAR_DIR_SIZE'] = 'גודל ספריית אווטאר.';
 $lang['DATABASE_SIZE'] = 'גודל מסד הנתונים';
 $lang['GZIP_COMPRESSION'] = 'דחיסת Gzip';
 $lang['NOT_AVAILABLE'] = 'לא זמין';
@@ -1632,7 +1632,7 @@ $lang['ALLOW_NAME_CHANGE'] = 'לאפשר שינויי שם משתמש.';
 $lang['ALLOW_AUTOLOGIN'] = 'לאפשר אוטומטית כניסות.';
 $lang['ALLOW_AUTOLOGIN_EXPLAIN'] = 'קובע אם משתמשים רשאים לבחור להיות באופן אוטומטי מחובר בעת ביקור הפורום.';
 $lang['AUTOLOGIN_TIME'] = 'אוטומטי כניסת המפתח תפוגה.';
-$lang['AUTOLOGIN_TIME_EXPLAIN'] = 'כמה זמן של כניסה אוטומטית המפתח תקף למשך כמה ימים אם המשתמש אינה לבקר את ההנהלה. לאפס כדי לנטרל את התוקף.';
+$lang['AUTOLOGIN_TIME_EXPLAIN'] = 'כמה זמן מפתח ההתחברות האוטומטית תקף.';
 
 // Forum Management
 $lang['FORUM_ADMIN_MAIN'] = 'פורום ניהול.';
@@ -2288,8 +2288,8 @@ $lang['TPL_EMPTY_SEL'] = 'עליך לבחור <b>%s</b>.';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - לא מספר';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - חייב להיות https:// URL';
 $lang['TPL_NOT_IMG_URL'] = '<b>%s</b> - חייב להיות https:// IMG_URL';
-$lang['TPL_PUT_INTO_SUBJECT'] = 'להכניס את הנושא';
-$lang['TPL_POSTER'] = 'פוסטר';
+$lang['TPL_PUT_INTO_SUBJECT'] = 'להכניס לתוך הנושא.';
+$lang['TPL_POSTER'] = 'מפרסם.';
 $lang['TPL_REQ_FILLING'] = 'דורש מילוי';
 $lang['TPL_NEW_LINE'] = 'הקו החדש.';
 $lang['TPL_NEW_LINE_AFTER'] = 'הקו החדש אחרי הכותרת';
@@ -2349,7 +2349,7 @@ $lang['SEARCH_IP_EXPLAIN'] = 'חיפוש משתמשים לפי כתובת IP ס�
 $lang['SEARCH_USERS_JOINED'] = 'משתמשים שהצטרפו';
 $lang['SEARCH_USERS_LASTVISITED'] = 'משתמשים שביקרו.';
 $lang['IN_THE_LAST'] = 'בזמן האחרון';
-$lang['AFTER_THE_LAST'] = 'אחרי האחרון.';
+$lang['AFTER_THE_LAST'] = 'לאחר האחרון.';
 $lang['BEFORE'] = 'לפני';
 $lang['AFTER'] = 'אחרי';
 $lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'חיפוש משתמשים שהצטרפו לפני או אחרי (כולל) תאריך מסוים.';

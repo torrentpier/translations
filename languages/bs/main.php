@@ -149,7 +149,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Da ništa nije promijenjeno';
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Naši korisnici su postavili ukupno <b>%s</b> teme'; // Number of topics
 $lang['POSTED_ARTICLES_TOTAL'] = 'Naši korisnici su postavili ukupno <b>%s</b> članke'; // Number of posts
-$lang['REGISTERED_USERS_TOTAL'] = 'Imamo <b>%s</b> registrovana korisnici'; // # registered users
+$lang['REGISTERED_USERS_TOTAL'] = 'Imamo <b>%s</b> registrovanih korisnika'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Momci: <b>%d</b>, Devojke: <b>%d</b>, Drugi: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Najnoviji registrovani korisnik je <b>%s</b>'; // a href, username, /a
 
@@ -504,8 +504,8 @@ $lang['BIRTHDAY_WEEK'] = 'Korisnici sa rođendanom u narednih %d dana: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Nema korisnika koji imaju rođendan u narednih %d dana.'; // %d is substituted with the number of days
 $lang['NOBIRTHDAY_TODAY'] = 'Nema korisnika koji imaju rođendan danas.';
 $lang['BIRTHDAY_ENABLE'] = 'Omogućite rođendan';
-$lang['BIRTHDAY_MAX_AGE'] = 'Max godina';
-$lang['BIRTHDAY_MIN_AGE'] = 'Min godina';
+$lang['BIRTHDAY_MAX_AGE'] = 'Maksimalna starost';
+$lang['BIRTHDAY_MIN_AGE'] = 'Minimalna starost';
 $lang['BIRTHDAY_CHECK_DAY'] = 'Dani za provjeru predstojećih rođendana';
 $lang['YEARS'] = 'Godina';
 
@@ -1097,9 +1097,9 @@ $lang['SPMODE_FULL'] = 'Pokaži kolege u svim detaljima';
 // Seed Bonus
 $lang['MY_BONUS'] = 'Moj bonus (%s bonusa na raspolaganju)';
 $lang['BONUS_SELECT'] = 'Odaberite';
-$lang['SEED_BONUS'] = 'Seme bonus';
+$lang['SEED_BONUS'] = 'Bonus za sjeme';
 $lang['EXCHANGE'] = 'Zamjena';
-$lang['EXCHANGE_BONUS'] = 'Razmjena seme bonusa';
+$lang['EXCHANGE_BONUS'] = 'Razmjena bonusa za sjeme';
 $lang['BONUS_UPLOAD_DESC'] = '<b>%s za distribuciju</b> <br /> Da biste razmenili bonus poene za %1$s saobraćaj koji će biti dodat vašoj ukupnoj distribuciji.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Cijena';
@@ -1360,7 +1360,7 @@ $lang['NEW'] = 'Nova';
 $lang['NEWEST'] = 'Najnoviji';
 $lang['LATEST'] = 'Najnovije';
 $lang['POST'] = 'Post';
-$lang['OLD'] = 'Stara';
+$lang['OLD'] = 'Staro';
 
 // DL-List
 $lang['DL_USER'] = 'Korisničko ime';
@@ -1371,7 +1371,7 @@ $lang['DL_UL_SPEED'] = 'UL brzina';
 $lang['DL_DL_SPEED'] = 'DL brzina';
 $lang['DL_PORT'] = 'Luke';
 $lang['DL_CLIENT'] = 'BitTorrent klijent';
-$lang['DL_FORMULA'] = 'Formulu: Postavio/TorrentSize';
+$lang['DL_FORMULA'] = 'Formula: Postavio/Veličina torrenta';
 $lang['DL_ULR'] = 'ULR';
 $lang['DL_STOPPED'] = 'prestao';
 $lang['DL_UPD'] = 'vrijeme ažuriranja: ';
@@ -1391,7 +1391,7 @@ $lang['GOTO_MY_MESSAGE'] = 'Blizu i vratiti se na listu "Moje poruke"';
 $lang['DEL_MY_MESSAGE'] = 'Odabrano teme su uklonjene iz "Moje poruke"';
 $lang['NO_TOPICS_MY_MESSAGE'] = 'Nema tema na listi vaših postova (možda ste ih već uklonili).';
 $lang['EDIT_MY_MESSAGE_LIST'] = 'uredi liste';
-$lang['SELECT_INVERT'] = 'odaberite / preokrenes';
+$lang['SELECT_INVERT'] = 'odaberite / inverzija';
 $lang['RESTORE_ALL_POSTS'] = 'Obnovi sve postove';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Obriši odabranu temu sa liste';
 $lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Nakon uklanjanja, ažurirajte <b>cijelu listu</b> kako bi se mogle prikazati već izbrisane niti.';
@@ -1488,7 +1488,7 @@ $lang['BOARD_STARTED'] = 'Odbor je počeo';
 $lang['AVATAR_DIR_SIZE'] = 'Veličina direktorija avatara';
 $lang['DATABASE_SIZE'] = 'Veličina baze podataka';
 $lang['GZIP_COMPRESSION'] = 'Gzip kompresije';
-$lang['NOT_AVAILABLE'] = 'Nisu dostupni';
+$lang['NOT_AVAILABLE'] = 'Nije dostupno';
 
 // System information
 $lang['ADMIN_SYSTEM_INFORMATION'] = 'Informacije o sistemu';

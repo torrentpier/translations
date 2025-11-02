@@ -594,7 +594,7 @@ $lang['NOT_FOUND'] = 'ファイルが見つかりません';
 // Memberslist
 $lang['SORT'] = 'ソート';
 $lang['SORT_TOP_TEN'] = 'ハイポスター';
-$lang['SORT_JOINED'] = '参加日程';
+$lang['SORT_JOINED'] = '参加日';
 $lang['SORT_USERNAME'] = 'ユーザー名';
 $lang['SORT_LOCATION'] = '所在地';
 $lang['SORT_POSTS'] = '合計の投稿';
@@ -602,7 +602,7 @@ $lang['SORT_EMAIL'] = 'メール';
 $lang['SORT_WEBSITE'] = 'ウェブサイト';
 $lang['ASC'] = '昇順';
 $lang['DESC'] = '降順';
-$lang['ORDER'] = '注文';
+$lang['ORDER'] = '順序';
 
 // Thanks
 $lang['THANK_TOPIC'] = 'このトピックに投票する';
@@ -995,9 +995,9 @@ $lang['BT_VIEWS'] = 'ビュース';
 // Gold/Silver releases
 $lang['GOLD'] = '金';
 $lang['SILVER'] = '銀';
-$lang['SET_GOLD_TORRENT'] = 'う金';
+$lang['SET_GOLD_TORRENT'] = 'ゴールドにする';
 $lang['UNSET_GOLD_TORRENT'] = '金を無効にする';
-$lang['SET_SILVER_TORRENT'] = '作銀';
+$lang['SET_SILVER_TORRENT'] = 'シルバーにする';
 $lang['UNSET_SILVER_TORRENT'] = '銀を無効にする';
 $lang['GOLD_STATUS'] = '金トレントです！ダウンロードの交通は考えません！';
 $lang['SILVER_STATUS'] = '銀トレント！ダウンロードの交通は部分的に考慮されます！';
@@ -1009,7 +1009,7 @@ $lang['SELECT_CAT'] = 'カテゴリを選択';
 $lang['GO_TO_SECTION'] = 'セクションに移動';
 $lang['TORRENTS_FROM'] = 'からの投稿';
 $lang['SHOW_ONLY'] = 'のみを表示';
-$lang['SHOW_COLUMN'] = 'ショーカラム';
+$lang['SHOW_COLUMN'] = 'カラムを表示';
 $lang['SEL_CHAPTERS'] = '選択した間仕切りへのリンク';
 $lang['NOT_SEL_CHAPTERS'] = 'トピックを選択していません。';
 $lang['SEL_CHAPTERS_HELP'] = '最大%s仕切りを選択できます。';
@@ -1104,7 +1104,7 @@ $lang['BONUS_UPLOAD_DESC'] = '<b>%sの配布</b> <br /> ボーナスポイント
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = '価格';
 $lang['EXCHANGE_NOT'] = '交換不可';
-$lang['BONUS_SUCCES'] = 'すでに成功し隊%s';
+$lang['BONUS_SUCCES'] = 'あなたはすでに成功し、隊%sに登録されました';
 $lang['BONUS_NOT_SUCCES'] = 'ボーナスが利用できません。より多くのシーディングを行ってください！';
 $lang['BONUS_RETURN'] = '種ボーナス交換に戻る';
 
@@ -1597,7 +1597,7 @@ $lang['CONFIG_MODS'] = '設定変更';
 $lang['MODS_EXPLAIN'] = 'このフォームを使用して変更調整可能です';
 
 $lang['CLICK_RETURN_CONFIG'] = '%sここをクリックして、一般設定に戻る%s';
-$lang['CLICK_RETURN_CONFIG_MODS'] = '%sBackを設定し、設定modifications%s';
+$lang['CLICK_RETURN_CONFIG_MODS'] = '%s設定に戻り、設定の変更を%s';
 
 $lang['GENERAL_SETTINGS'] = '一般ボード設定';
 $lang['SITE_NAME'] = 'サイト名';
@@ -1624,7 +1624,7 @@ $lang['ALLOW_SMILIES'] = 'スマイリーを許可する';
 $lang['SMILIES_PATH'] = 'スマイリーのストレージパス';
 $lang['SMILIES_PATH_EXPLAIN'] = 'あなたのTorrentPierルートディレクトリの下のパス、例：styles/images/smiles';
 $lang['ALLOW_SIG'] = '署名を許可する';
-$lang['MAX_SIG_LENGTH'] = '最大の署名の長さ';
+$lang['MAX_SIG_LENGTH'] = '署名の最大長さ';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'ユーザーの署名における最大文字数';
 $lang['ALLOW_NAME_CHANGE'] = 'ユーザー名の変更を許可する';
 
@@ -1677,7 +1677,7 @@ $lang['FORUMS_UPDATED'] = 'フォーラムとカテゴリの情報が正常に�
 
 $lang['MUST_DELETE_FORUMS'] = 'このカテゴリを削除する前に、すべてのフォーラムを削除する必要があります';
 
-$lang['CLICK_RETURN_FORUMADMIN'] = 'をクリックし%sHere%sに戻すフォーラム管理';
+$lang['CLICK_RETURN_FORUMADMIN'] = '%sここをクリック%sしてフォーラム管理に戻ります';
 
 $lang['SHOW_ALL_FORUMS_ON_ONE_PAGE'] = 'すべてのフォーラムを1ページで表示';
 
@@ -1794,7 +1794,7 @@ $lang['NO_UPDATE_RANKS'] = 'ランクが正常に削除されましたが、こ�
 $lang['CLICK_RETURN_RANKADMIN'] = '%s （%s ）をクリックして、ランク管理に戻る';
 
 // Disallow Username Admin
-$lang['DISALLOW_CONTROL'] = 'ユーザー名を許可制御';
+$lang['DISALLOW_CONTROL'] = 'ユーザー名の制御を禁止する';
 $lang['DISALLOW_EXPLAIN'] = 'ここでは使用できないユーザー名を制御できます。無許可のユーザー名にはワイルドカード文字 * を含めることができます。すでに登録されているユーザー名を指定することはできませんのでご注意ください。最初にその名前を削除してから、その名前を許可する必要があります。';
 
 $lang['DELETE_DISALLOW'] = '削除';
@@ -2198,7 +2198,7 @@ $lang['PROCESSING_TIME_DETAILS'] = '現在のセッションの詳細';
 $lang['PROCESSING_TIME'] = '処理時間';
 $lang['TIME_LAST_POSTS'] = '最後の %s 投稿(s)';
 $lang['TIME_FROM_THE_BEGINNING'] = '最初から';
-$lang['TIME_AVERAGE'] = '平均サイクル';
+$lang['TIME_AVERAGE'] = 'サイクルあたりの平均';
 $lang['TIME_ESTIMATED'] = '推定完了まで';
 
 $lang['SIZE_ESTIMATED'] = '推定終了後';
@@ -2208,7 +2208,7 @@ $lang['POSTS_LAST_CYCLE'] = '最終サイクルの処理済みポスト';
 
 $lang['INFO_ESTIMATED_VALUES'] = '(*)すべての推定値は概算で算出されます<br />現在の完成%に基づいており、実際の最終値を表していない場合があります。<br />完了%が増加すると、推定値は実際の値に近づきます。';
 
-$lang['CLICK_RETURN_REBUILD_SEARCH'] = 'をクリックし%shere%s返し再構築を検索';
+$lang['CLICK_RETURN_REBUILD_SEARCH'] = '検索を再構築するには、%shere%sをクリックしてください';
 $lang['REBUILD_SEARCH_ABORTED'] = 'ポスト_id %sで再構築検索中止されました。<br /><br />処理中に中止した場合は、再検索を再実行するまで数分待つ必要があります。最終サイクルが完了するまで。';
 $lang['WRONG_INPUT'] = 'いくつかの間違った値が入力されました。 入力を確認して再試行してください。';
 
@@ -2222,7 +2222,7 @@ $lang['BOT_TOPIC_SPLITS'] = 'トピックは[b]%s[/b][br][br]%sから分割さ�
 
 $lang['CALLSEED'] = 'シードを呼び出す';
 $lang['CALLSEED_EXPLAIN'] = '注意: 配布に戻るリクエスト';
-$lang['CALLSEED_SUBJECT'] = 'ダウンロードヘ%s';
+$lang['CALLSEED_SUBJECT'] = 'ヘルプを%sダウンロード';
 $lang['CALLSEED_TEXT'] = 'こんにちは！[br]リリースされたお手伝いが必要です[url=%s]%s[/url][br]助けることに決めたが、すでにトレントファイルを削除した場合、[url=%s]これ[/url]をダウンロードできます。[br][br]私はあなたの助けを期待しています!';
 $lang['CALLSEED_MSG_OK'] = 'メッセージが送信されました。すべての人がこのリリースをダウンロードする';
 $lang['CALLSEED_MSG_SPAM'] = '要求はすでに1回正常に送信されています（おそらくあなたではありません)<br /><br />次の機会は<b>%s</b>です。';
@@ -2348,7 +2348,7 @@ $lang['SEARCH_EMAIL_EXPLAIN'] = 'ユーザーのメールアドレスを一致�
 $lang['SEARCH_IP_EXPLAIN'] = '特定のIPアドレス(xxx.xxx.xxx.xxx)でユーザーを検索します。';
 $lang['SEARCH_USERS_JOINED'] = '参加したユーザー';
 $lang['SEARCH_USERS_LASTVISITED'] = '訪問者ユーザー';
-$lang['IN_THE_LAST'] = '最後の';
+$lang['IN_THE_LAST'] = '最後のの中で';
 $lang['AFTER_THE_LAST'] = '次';
 $lang['BEFORE'] = 'の前に';
 $lang['AFTER'] = 'の後に';
@@ -2387,7 +2387,7 @@ $lang['MC_TITLE'] = 'モデレーションコメント';
 $lang['MC_LEGEND'] = 'コメントを入力してください。';
 $lang['MC_FAQ'] = '入力されたテキストは、このメッセージの下に表示されます。';
 $lang['MC_COMMENT_PM_SUBJECT'] = "メッセージの%s。";
-$lang['MC_COMMENT_PM_MSG'] = "こんにちは、[b]%s[/b]りnModerator左にメッセージ[url=%s][b]%s[/b][/url][quote]りn%sりn[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "こんにちは、[b]%s[/b]\nModeratorはあなたのメッセージに左を残しました[url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',

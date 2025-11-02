@@ -291,7 +291,7 @@ $lang['EDIT_POST'] = 'Επεξεργαστείτε την ανάρτηση.';
 $lang['EDIT_TOPIC_TITLE'] = 'Επεξεργαστείτε τον τίτλο του θέματος.';
 
 $lang['DONT_MESSAGE_TITLE'] = 'Πρέπει να καθορίσετε έναν τίτλο μηνύματος.';
-$lang['INVALID_TOPIC_ID'] = 'Θέμα Απούσα!';
+$lang['INVALID_TOPIC_ID'] = 'Θέμα Απούσας!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Το θέμα δεν υπάρχει στη βάση δεδομένων!';
 
 $lang['NOT_POST'] = 'Απών Μήνυμα.';
@@ -999,8 +999,8 @@ $lang['SET_GOLD_TORRENT'] = 'Κάντε χρυσό';
 $lang['UNSET_GOLD_TORRENT'] = 'Ακύρωσε το χρυσό.';
 $lang['SET_SILVER_TORRENT'] = 'Κάντε το ασημένιο';
 $lang['UNSET_SILVER_TORRENT'] = 'Ακύρωσε το ασημένιο.';
-$lang['GOLD_STATUS'] = 'ΧΡΥΣΌ TORRENT! ΚΑΤΕΒΆΣΤΕ ΚΥΚΛΟΦΟΡΊΑΣ ΔΕΝ ΛΑΜΒΆΝΕΙ ΥΠΌΨΗ!';
-$lang['SILVER_STATUS'] = 'ΑΣΗΜΈΝΙΟ TORRENT! ΚΑΤΕΒΆΣΤΕ ΚΥΚΛΟΦΟΡΊΑΣ ΕΝ ΜΈΡΕΙ ΝΑ ΘΕΩΡΗΘΕΊ!';
+$lang['GOLD_STATUS'] = 'ΧΡΥΣΌ TORRENT! Η ΛΗΨΗ ΚΥΚΛΟΦΟΡΊΑΣ ΔΕΝ ΛΑΜΒΆΝΕΙ ΥΠΌΨΗ!';
+$lang['SILVER_STATUS'] = 'ΑΣΗΜΈΝΙΟ TORRENT! Η ΛΗΨΗ ΚΥΚΛΟΦΟΡΊΑΣ ΕΝ ΜΈΡΕΙ ΘΕΩΡΕΊΤΑΙ!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Ο τύπος torrent άλλαξε σε: %s';
 
 $lang['TORRENT_STATUS'] = 'Αναζήτηση κατά κατάσταση κυκλοφορίας';
@@ -1012,20 +1012,20 @@ $lang['SHOW_ONLY'] = 'Εμφάνιση μόνο';
 $lang['SHOW_COLUMN'] = 'Εμφάνιση στήλης';
 $lang['SEL_CHAPTERS'] = 'Σύνδεσμος σε επιλεγμένες κατατμήσεις';
 $lang['NOT_SEL_CHAPTERS'] = 'Δεν έχετε επιλεγμένα θέματα';
-$lang['SEL_CHAPTERS_HELP'] = 'Μπορείτε να επιλέξετε μια μέγιστη %s διαμέρισμα';
+$lang['SEL_CHAPTERS_HELP'] = 'Μπορείτε να επιλέξετε το μέγιστο %s διαμέρισμα.';
 $lang['HIDE_CONTENTS'] = 'Να αποκρύψετε το περιεχόμενο του {...}';
 $lang['FILTER_BY_NAME'] = '<i>Φίλτρο με το όνομα </i>';
 
 $lang['BT_ONLY_ACTIVE'] = 'Ενεργό';
-$lang['BT_ONLY_MY'] = 'Μου κυκλοφορίες';
-$lang['BT_SEED_EXIST'] = 'Seeder υπάρχουν';
+$lang['BT_ONLY_MY'] = 'Οι κυκλοφορίες μου.';
+$lang['BT_SEED_EXIST'] = 'Υπάρχει Seeder.';
 $lang['BT_ONLY_NEW'] = 'Νέα από την τελευταία επίσκεψη';
 $lang['BT_SHOW_CAT'] = 'Κατηγορία';
 $lang['BT_SHOW_FORUM'] = 'Φόρουμ';
 $lang['BT_SHOW_AUTHOR'] = 'Συγγραφέας';
 $lang['BT_SHOW_SPEED'] = 'Ταχύτητα';
-$lang['SEED_NOT_SEEN'] = 'Seeder δεν δει';
-$lang['TITLE_MATCH'] = 'Η μάχη για τον τίτλο';
+$lang['SEED_NOT_SEEN'] = 'Seeder δεν έχει δει.';
+$lang['TITLE_MATCH'] = 'Η αντιστοιχία του τίτλου.';
 $lang['BT_USER_NOT_FOUND'] = 'δεν βρέθηκε';
 $lang['DL_SPEED'] = 'Συνολική ταχύτητα download';
 
@@ -1043,34 +1043,34 @@ $lang['BT_7_DAYS'] = 'εβδομάδα';
 $lang['BT_2_WEEKS'] = '2 εβδομάδες';
 $lang['BT_1_MONTH'] = 'μήνα';
 
-$lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'DL-List και Torrent δραστηριότητα';
+$lang['DL_LIST_AND_TORRENT_ACTIVITY'] = 'DL-Λίστα και δραστηριότητα Torrent.';
 $lang['DLWILL'] = 'Θα κατεβάσετε';
 $lang['DLDOWN'] = 'Λήψη';
 $lang['DLCOMPLETE'] = 'Πλήρης';
 $lang['DLCANCEL'] = 'Ακύρωση';
 
-$lang['DL_LIST_DEL'] = 'Σαφές DL-List';
-$lang['DL_LIST_DEL_CONFIRM'] = 'Διαγραφή DL-Κατάλογος για αυτό το θέμα;';
-$lang['SHOW_DL_LIST'] = 'Εμφάνιση DL-List';
+$lang['DL_LIST_DEL'] = 'Καθαρές DL-Λίστες.';
+$lang['DL_LIST_DEL_CONFIRM'] = 'Diγραφεί DL-Λίστα για αυτό το θέμα;';
+$lang['SHOW_DL_LIST'] = 'Εμφάνιση DL-Λίστας.';
 $lang['SET_DL_STATUS'] = 'Κατεβάστε το';
-$lang['UNSET_DL_STATUS'] = 'Μην Το Κατεβάσετε';
+$lang['UNSET_DL_STATUS'] = 'Μην το κατεβάσετε.';
 $lang['TOPICS_DOWN_SETS'] = 'Θέμα καθεστώς άλλαξε σε <b>Download</b>.';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Download</b> κατάσταση αφαιρεθεί.';
 
-$lang['TOPIC_DL'] = 'DL';
+$lang['TOPIC_DL'] = 'Λήψη.';
 
 $lang['MY_DOWNLOADS'] = 'Λήψεις Μου';
-$lang['SEARCH_DL_WILL'] = 'Προγραμματισμένη';
-$lang['SEARCH_DL_WILL_DOWNLOADS'] = 'Προγραμματισμένες Λήψεις';
+$lang['SEARCH_DL_WILL'] = 'Προγραμματισμένος.';
+$lang['SEARCH_DL_WILL_DOWNLOADS'] = 'Προγραμματισμένες λήψεις.';
 $lang['SEARCH_DL_DOWN'] = 'Τρέχουσα';
 $lang['SEARCH_DL_COMPLETE'] = 'Ολοκληρώθηκε';
-$lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Λήψεις Που Έχουν Ολοκληρωθεί';
+$lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Λήψεις που έχουν ολοκληρωθεί.';
 $lang['SEARCH_DL_CANCEL'] = 'Ακυρώθηκε';
 $lang['CUR_DOWNLOADS'] = 'Τρέχουσα Δημοτικότητα';
 $lang['CUR_UPLOADS'] = 'Τρέχουσα Προσθήκες';
 $lang['SEARCH_RELEASES'] = 'Κυκλοφορίες';
-$lang['TOR_SEARCH_TITLE'] = 'Torrent επιλογές αναζήτησης';
-$lang['OPEN_TOPIC'] = 'Ανοιχτό θέμα';
+$lang['TOR_SEARCH_TITLE'] = 'Επιλογές αναζήτησης Torrent.';
+$lang['OPEN_TOPIC'] = 'Θέμα Ανοιχτό.';
 
 $lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Απόσπαση torrents επιτρέπεται μόνο στο πρώτο post.';
 $lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Εγγραφή torrents επιτρέπεται μόνο από το πρώτο post.';
@@ -1366,7 +1366,7 @@ $lang['OLD'] = 'Παλιά';
 $lang['DL_USER'] = 'Όνομα χρήστη';
 $lang['DL_PERCENT'] = 'Ποσοστό πλήρωσης';
 $lang['DL_UL'] = 'UL';
-$lang['DL_DL'] = 'DL';
+$lang['DL_DL'] = 'Λήψη.';
 $lang['DL_UL_SPEED'] = 'Ταχύτητα UL';
 $lang['DL_DL_SPEED'] = 'Ταχύτητα DL';
 $lang['DL_PORT'] = 'Θαλάσσα';
@@ -1704,7 +1704,7 @@ $lang['SMILE_CONFLICTS'] = 'Τι πρέπει να γίνει σε περίπτ�
 $lang['DEL_EXISTING_SMILEYS'] = 'Διαγραφή υπαρχόντων χαμόγελων πριν από την εισαγωγή.';
 $lang['IMPORT_SMILE_PACK'] = 'Εισαγωγή του πακέτου χαμόγελων.';
 $lang['EXPORT_SMILE_PACK'] = 'Δημιουργία πακέτου χαμόγελων.';
-$lang['EXPORT_SMILES'] = 'Για να δημιουργήσετε ένα smiley pack από την τρέχουσα εγκατεστημένη smileys, κάντε κλικ στο κουμπί %sHere%s να κατεβάσετε τα χαμόγελα.pak αρχείο. Το όνομα αυτού του αρχείου κατάλληλα φροντίζοντας να κρατήσει το .pak αρχείο με επέκταση. Στη συνέχεια, δημιουργήστε ένα αρχείο zip που περιέχει όλα τα smiley εικόνες συν .pak αρχείο ρύθμισης παραμέτρων.';
+$lang['EXPORT_SMILES'] = 'Για να δημιουργήσετε ένα πακέτο smiley από τα τρέχοντα εγκατεστημένα smileys, κάντε κλικ %sΕδώ%s για να κατεβάσετε το smiles.pak αρχείο.';
 
 $lang['SMILEY_ADD_SUCCESS'] = 'Το χαμόγελο προστέθηκε με επιτυχία.';
 $lang['SMILEY_EDIT_SUCCESS'] = 'Το χαμόγελο ενημερώθηκε με επιτυχία.';
@@ -2206,7 +2206,7 @@ $lang['SIZE_SEARCH_TABLES'] = 'Μέγεθος πινάκων αναζήτηση�
 
 $lang['POSTS_LAST_CYCLE'] = 'Επεξεργασμένα δημοσιεύσεις την τελευταία ανακύκλωση';
 
-$lang['INFO_ESTIMATED_VALUES'] = '(*) Όλες οι εκτιμώμενες τιμές υπολογίζονται approximately<br />based σχετικά με την τρέχουσα ολοκληρωθεί τοις εκατό και μπορεί να μην αντιπροσωπεύει τις πραγματικές τελικές τιμές.<br />As το συμπληρωμένο % αυξάνει τις εκτιμώμενες τιμές, θα έρθει πιο κοντά στην πραγματικότητα.';
+$lang['INFO_ESTIMATED_VALUES'] = '(*) Όλες οι εκτιμώμενες τιμές υπολογίζονται περίπου<br />βάσει του ποσοστού που έχει ολοκληρωθεί και ίσως να μην αντιπροσωπεύουν τις πραγματικές τελικές τιμές.<br />Καθώς το ποσοστό ολοκλήρωσης αυξάνεται, οι εκτιμώμενες τιμές θα πλησιάσουν στις πραγματικές.';
 
 $lang['CLICK_RETURN_REBUILD_SEARCH'] = 'Κάντε κλικ %shere%s για να επιστρέψετε στη ξαναδόμηση αναζήτησης';
 $lang['REBUILD_SEARCH_ABORTED'] = 'Η αναδόμηση της αναζήτησης ματαιώθηκε στο post_id %s.<br /><br />Εάν ματαιώσατε ενώ η επεξεργασία ήταν ενεργή, πρέπει να περιμένετε λίγα λεπτά μέχρι να μπορέσετε να εκτελέσετε ξανά την αναδόμηση αναζήτησης.';
@@ -2225,7 +2225,7 @@ $lang['CALLSEED_EXPLAIN'] = 'Λάβετε υπόψη σας με μια αίτη
 $lang['CALLSEED_SUBJECT'] = 'Κατεβάστε βοήθεια %s';
 $lang['CALLSEED_TEXT'] = 'Γεια σας![br]Η βοήθειά σας είναι απαραίτητη στο αποδεσμευμένο [url=%s]%s[/url][br]Εάν αποφασίσετε να βοηθήσετε, αλλά έχετε ήδη διαγράψει το αρχείο torrent, μπορείτε να το κατεβάσετε [url=%s]αυτό[/url][br][br]ελπίζω για τη βοήθειά σας!';
 $lang['CALLSEED_MSG_OK'] = 'Το μήνυμα έχει σταλεί σε όλους τους χρήστες που έχουν κατεβάσει αυτή την έκδοση';
-$lang['CALLSEED_MSG_SPAM'] = 'Το αίτημα έχει ήδη μια φορά σταλεί με επιτυχία (Ίσως όχι εσείς)<br /><br />The επόμενη ευκαιρία για να στείλετε μια αίτηση για να <b>%s</b>.';
+$lang['CALLSEED_MSG_SPAM'] = 'Το αίτημα έχει ήδη σταλεί με επιτυχία μια φορά (Ίσως όχι εσείς)<br /><br />Η επόμενη ευκαιρία να στείλετε μια αίτηση για να είναι <b>%s</b>.';
 $lang['CALLSEED_HAVE_SEED'] = 'Το θέμα δεν απαιτεί βοήθεια (<b>Seeders:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
@@ -2247,23 +2247,23 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_topic_poll_deleted' => 'Θέμα:<br /> <b>η ψηφοφορία διαγράφηκε</b>',
     'mod_topic_poll_added' => 'Θέμα:<br /> <b>η ψηφοφορία προστέθηκε</b>',
     'mod_topic_poll_edited' => 'Θέμα:<br /> <b>η ψηφοφορία επεξεργάστηκε</b>',
-    'mod_post_delete' => 'Post:<br /> <b>deleted</b>',
+    'mod_post_delete' => 'Δημοσίευση:<br /> <b>αφαιρεθεί</b>.',
     'mod_post_pin' => 'Post:<br /> <b>καρφιτσωμένο</b>',
     'mod_post_unpin' => 'Post:<br /> <b>ξεκαρφιτσώθηκε</b>',
-    'adm_user_delete' => 'Χρήστης:<br /> <b>deleted</b>',
-    'adm_user_ban' => 'Χρήστης:<br /> <b>ban</b>',
-    'adm_user_unban' => 'Χρήστης:<br /> <b>unban</b>',
+    'adm_user_delete' => 'Χρήστης:<br /> <b>διαγράφηκε</b>.',
+    'adm_user_ban' => 'Χρήστης:<br /> <b>απαγορέψει</b>.',
+    'adm_user_unban' => 'Χρήστης:<br /> <b>διευθύνω</b>.',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Όλες οι δράσεις';
-$lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Δράσεις Καταγραφής: επιλογές Αναζήτησης';
+$lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Καταγραφές δράσεων: Επιλογές αναζήτησης.';
 $lang['ACTS_LOG_FORUM'] = 'Φόρουμ';
 $lang['ACTS_LOG_ACTION'] = 'Δράση';
 $lang['ACTS_LOG_USER'] = 'Χρήστη';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Τα αρχεία καταγραφής από ';
 $lang['ACTS_LOG_FIRST'] = 'αρχή με';
 $lang['ACTS_LOG_DAYS_BACK'] = 'ημέρες πίσω';
-$lang['ACTS_LOG_TOPIC_MATCH'] = 'Θέμα αντιστοιχία τίτλου';
+$lang['ACTS_LOG_TOPIC_MATCH'] = 'Ταυτοποίηση θέματος τίτλου.';
 $lang['ACTS_LOG_SORT_BY'] = 'Ταξινόμηση κατά';
 $lang['ACTS_LOG_LOGS_ACTION'] = 'Δράση';
 $lang['ACTS_LOG_USERNAME'] = 'Όνομα χρήστη';
@@ -2273,7 +2273,7 @@ $lang['ACTS_LOG_FILTER'] = 'Φίλτρο';
 $lang['ACTS_LOG_TOPICS'] = 'Θέματα:';
 $lang['ACTS_LOG_OR'] = 'ή';
 
-$lang['RELEASE'] = 'Απελευθέρωση Πρότυπα';
+$lang['RELEASE'] = 'Πρότυπα απελευθέρωσης.';
 $lang['RELEASES'] = 'Κυκλοφορίες';
 
 $lang['BACK'] = 'Πίσω';

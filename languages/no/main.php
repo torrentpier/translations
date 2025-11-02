@@ -466,7 +466,7 @@ $lang['EMAIL_ADDRESS'] = 'E-postadresse';
 $lang['SEND_PRIVATE_MESSAGE'] = 'Send privat melding';
 $lang['INTERESTS'] = 'Interesser';
 $lang['OCCUPATION'] = 'Yrke';
-$lang['POSTER_RANK'] = 'Plakat rangering';
+$lang['POSTER_RANK'] = 'Plakat rang';
 $lang['AWARDED_RANK'] = 'Tildelt rang';
 $lang['SHOT_RANK'] = 'Skudd rangering';
 
@@ -999,8 +999,8 @@ $lang['SET_GOLD_TORRENT'] = 'Lage gull';
 $lang['UNSET_GOLD_TORRENT'] = 'Ta bort gull';
 $lang['SET_SILVER_TORRENT'] = 'Lage sølv';
 $lang['UNSET_SILVER_TORRENT'] = 'Fjern sølv';
-$lang['GOLD_STATUS'] = 'GULL TORRENT! LAST NED TRAFIKKEN IKKE TENK!';
-$lang['SILVER_STATUS'] = 'SØLV TORRENT! LAST NED TRAFIKKEN DELVIS VURDERT!';
+$lang['GOLD_STATUS'] = 'GULL TORRENT! NEDLASTINGSTRAFIKK REGNES IKKE!';
+$lang['SILVER_STATUS'] = 'SØLV TORRENT! NEDLASTINGSTRAFIKK DELVIS REGNES!},{';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrenttype endret til: %s';
 
 $lang['TORRENT_STATUS'] = 'Søk etter status for utgivelse';
