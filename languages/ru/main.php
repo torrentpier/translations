@@ -81,7 +81,7 @@ $lang['VIEW_NEWEST_POST'] = 'Перейти к первому непрочита
 $lang['PAGE_OF'] = 'Страница <b>%d</b> из <b>%s</b>';
 
 $lang['TWITTER'] = 'X (Twitter)';
-$lang['TWITTER_ERROR'] = 'Вы ввели некорректный логин Twitter';
+$lang['TWITTER_ERROR'] = 'Вы ввели некорректный логин X (Twitter)';
 
 $lang['FORUM_INDEX'] = 'Список форумов %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
 
