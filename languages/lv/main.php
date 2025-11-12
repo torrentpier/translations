@@ -2090,6 +2090,7 @@ $lang['CRON_SCHEDULE'] = 'Grafiks';
 $lang['CRON_LAST_RUN'] = 'Pēdējā darbība.';
 $lang['CRON_NEXT_RUN'] = 'Nākamajā darbinā.';
 $lang['CRON_RUN_COUNT'] = 'Izpildes.';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Pārvaldīt.';
 $lang['CRON_DISABLED_WARNING'] = 'Brīdinājums! Cron skriptu palaišana ir atspējota. Lai to iespējotu, iestatiet mainīgo APP_CRON_ENABLED.';
 
