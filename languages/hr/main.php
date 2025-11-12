@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Raspored';
 $lang['CRON_LAST_RUN'] = 'Posljednje pokretanje.';
 $lang['CRON_NEXT_RUN'] = 'Sljedeće pokretanje.';
 $lang['CRON_RUN_COUNT'] = 'Izvršava.';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Upravljanje';
 $lang['CRON_DISABLED_WARNING'] = 'Upozorenje! Pokretanje cron skripti je onemogućeno. Da biste ga omogućili, postavite varijablu APP_CRON_ENABLED.';
 
