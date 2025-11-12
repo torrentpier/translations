@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Πρόγραμμα';
 $lang['CRON_LAST_RUN'] = 'Την Τελευταία Εκτέλεση';
 $lang['CRON_NEXT_RUN'] = 'Την Επόμενη Εκτέλεση';
 $lang['CRON_RUN_COUNT'] = 'Εκτελεί.';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Διαχείριση';
 $lang['CRON_DISABLED_WARNING'] = 'Προειδοποίηση! Η εκτέλεση σεναρίων cron είναι απενεργοποιημένη. Για να το ενεργοποιήσετε, ορίστε τη μεταβλητή APP_CRON_ENABLED.';
 
