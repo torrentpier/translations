@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = '日程安排';
 $lang['CRON_LAST_RUN'] = '最后运行';
 $lang['CRON_NEXT_RUN'] = '下运行';
 $lang['CRON_RUN_COUNT'] = '运行';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = '管理';
 $lang['CRON_DISABLED_WARNING'] = '警告！啟動 cron 腳本已被禁用，要啟用請設置 APP_CRON_ENABLED 變量。';
 
