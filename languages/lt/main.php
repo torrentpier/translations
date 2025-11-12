@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Tvarkaraštis';
 $lang['CRON_LAST_RUN'] = 'Paskutinio paleidimo';
 $lang['CRON_NEXT_RUN'] = 'Kitas Paleidimas';
 $lang['CRON_RUN_COUNT'] = 'Paleidimai';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Vykdymo laikas';
 $lang['CRON_MANAGE'] = 'Valdyti';
 $lang['CRON_DISABLED_WARNING'] = 'Įspėjimas! Vykdydamas cron scenarijus išjungtas. Norėdami įjungti, nustatykite kintamąjį APP_CRON_ENABLED.';
 
