@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Schema';
 $lang['CRON_LAST_RUN'] = 'Sista Körningen';
 $lang['CRON_NEXT_RUN'] = 'Nästa Körning';
 $lang['CRON_RUN_COUNT'] = 'Går';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Hantera';
 $lang['CRON_DISABLED_WARNING'] = 'Varning! Att köra cron-skript är inaktiverat. För att aktivera, ställ in variabeln APP_CRON_ENABLED.';
 
