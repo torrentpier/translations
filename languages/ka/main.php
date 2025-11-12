@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'განრიგი.';
 $lang['CRON_LAST_RUN'] = 'ბოლო პერსპექტივაში.';
 $lang['CRON_NEXT_RUN'] = 'შემდეგი აწარმოებს.';
 $lang['CRON_RUN_COUNT'] = 'გადის.';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'შესრულების დრო';
 $lang['CRON_MANAGE'] = 'მართვა.';
 $lang['CRON_DISABLED_WARNING'] = 'გაფრთხილება! cron სკრიპტების გაშვება გამორთულია. მის გასააქტიურებლად დააყენეთ APP_CRON_ENABLED ცვლადი.';
 
