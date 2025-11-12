@@ -2087,6 +2087,7 @@ $lang['CRON_SCHEDULE'] = 'Zamanlama';
 $lang['CRON_LAST_RUN'] = 'Son Çalışma';
 $lang['CRON_NEXT_RUN'] = 'Sonraki Çalışma';
 $lang['CRON_RUN_COUNT'] = 'Çalışır';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Yönetmek';
 $lang['CRON_DISABLED_WARNING'] = 'Uyarı! Cron betiklerinin çalıştırılması devre dışı bırakıldı. Etkinleştirmek için APP_CRON_ENABLED değişkenini ayarlayın.';
 
