@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'График';
 $lang['CRON_LAST_RUN'] = 'Последно Стартиране';
 $lang['CRON_NEXT_RUN'] = 'Следващо стартиране.';
 $lang['CRON_RUN_COUNT'] = 'Работи';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Управлява';
 $lang['CRON_DISABLED_WARNING'] = 'Внимание! Изпълнението на cron скриптове е деактивирано. За да го активирате, задайте променливата APP_CRON_ENABLED.';
 
