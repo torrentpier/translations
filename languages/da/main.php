@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Tidsplan';
 $lang['CRON_LAST_RUN'] = 'Sidste Løb';
 $lang['CRON_NEXT_RUN'] = 'Næste Løb';
 $lang['CRON_RUN_COUNT'] = 'Kører';
-$lang['CRON_EXECUTION_TIME'] = 'Tid';
+$lang['CRON_EXECUTION_TIME'] = 'Udførelsestid';
 $lang['CRON_MANAGE'] = 'Styre';
 $lang['CRON_DISABLED_WARNING'] = 'Advarsel! Kørsel af cron-scripts er deaktiveret. For at aktivere den skal du indstille variablen APP_CRON_ENABLED.';
 
