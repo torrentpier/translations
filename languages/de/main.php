@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Zeitplan';
 $lang['CRON_LAST_RUN'] = 'Letzte Ausführung';
 $lang['CRON_NEXT_RUN'] = 'Nächster Lauf.';
 $lang['CRON_RUN_COUNT'] = 'Läuft';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Verwalten';
 $lang['CRON_DISABLED_WARNING'] = 'Warnung! Das Ausführen von Cron-Skripten ist deaktiviert. Um es zu aktivieren, setzen Sie die Variable APP_CRON_ENABLED.';
 
