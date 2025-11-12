@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = '일정';
 $lang['CRON_LAST_RUN'] = '마지막으로 실행';
 $lang['CRON_NEXT_RUN'] = '다음 실행';
 $lang['CRON_RUN_COUNT'] = '실행';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = '실행 시간';
 $lang['CRON_MANAGE'] = '관리하다.';
 $lang['CRON_DISABLED_WARNING'] = '경고! cron 스크립트 실행이 비활성화됩니다. 활성화하려면 APP_CRON_ENABLED 변수를 설정합니다.';
 
