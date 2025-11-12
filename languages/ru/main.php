@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Запуск';
 $lang['CRON_LAST_RUN'] = 'Посл. запуск';
 $lang['CRON_NEXT_RUN'] = 'След. запуск';
 $lang['CRON_RUN_COUNT'] = 'Запусков';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Время выполнения';
 $lang['CRON_MANAGE'] = 'Управление';
 $lang['CRON_DISABLED_WARNING'] = 'Предупреждение! Запуск скриптов cron отключен. Чтобы включить его, установите переменную APP_CRON_ENABLED.';
 
