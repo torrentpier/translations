@@ -2086,7 +2086,7 @@ $lang['CRON_SCHEDULE'] = 'Menetrend';
 $lang['CRON_LAST_RUN'] = 'Utolsó Futás';
 $lang['CRON_NEXT_RUN'] = 'Következő Futam';
 $lang['CRON_RUN_COUNT'] = 'Fut';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Végrehajtási idő';
 $lang['CRON_MANAGE'] = 'Kezelése';
 $lang['CRON_DISABLED_WARNING'] = 'Figyelem! A cron szkriptek futtatása le van tiltva. Az engedélyezéséhez állítsa be az APP_CRON_ENABLED változót.';
 
