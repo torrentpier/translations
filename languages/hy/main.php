@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Ժամանակացույց';
 $lang['CRON_LAST_RUN'] = 'Վերջին Մեկնարկը';
 $lang['CRON_NEXT_RUN'] = 'Հաջորդ Մեկնարկը';
 $lang['CRON_RUN_COUNT'] = 'Ընթացնում է';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Կատարման ժամանակ';
 $lang['CRON_MANAGE'] = 'Կառավարել';
 $lang['CRON_DISABLED_WARNING'] = 'Զգուշացում. Cron սկրիպտների գործարկումն անջատված է: Այն միացնելու համար սահմանեք APP_CRON_ENABLED փոփոխականը:';
 
