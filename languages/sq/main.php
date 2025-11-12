@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Orari';
 $lang['CRON_LAST_RUN'] = 'I fundit i drejtuar';
 $lang['CRON_NEXT_RUN'] = 'Drejtimi i ardhshëm';
 $lang['CRON_RUN_COUNT'] = 'Shkuan';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Menaxho';
 $lang['CRON_DISABLED_WARNING'] = 'Paralajmërim! Ekzekutimi i skripteve cron është i çaktivizuar. Për ta aktivizuar, vendosni ndryshoren APP_CRON_ENABLED.';
 
