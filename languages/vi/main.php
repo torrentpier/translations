@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Lịch trình';
 $lang['CRON_LAST_RUN'] = 'Chạy Cuối Cùng';
 $lang['CRON_NEXT_RUN'] = 'Chạy Tiếp Theo';
 $lang['CRON_RUN_COUNT'] = 'Chạy';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Thời gian thực hiện';
 $lang['CRON_MANAGE'] = 'Quản lý';
 $lang['CRON_DISABLED_WARNING'] = 'Cảnh báo! Chạy tập lệnh cron bị vô hiệu hóa. Để bật nó, hãy đặt biến APP_CRON_ENABLED.';
 
