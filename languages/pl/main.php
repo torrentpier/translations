@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Harmonogram';
 $lang['CRON_LAST_RUN'] = 'Ostatni bieg';
 $lang['CRON_NEXT_RUN'] = 'Następny Start';
 $lang['CRON_RUN_COUNT'] = 'Uruchamia';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Zarządzanie';
 $lang['CRON_DISABLED_WARNING'] = 'Ostrzeżenie! Uruchamianie skryptów cron jest wyłączone. Aby ją włączyć, ustaw zmienną APP_CRON_ENABLED.';
 
