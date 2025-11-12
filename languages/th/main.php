@@ -2086,6 +2086,7 @@ $lang['CRON_SCHEDULE'] = 'ตารางเวลา';
 $lang['CRON_LAST_RUN'] = 'ครั้งล่าสุดที่ทำงาน';
 $lang['CRON_NEXT_RUN'] = 'รันครั้งต่อไป';
 $lang['CRON_RUN_COUNT'] = 'Runs';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'จัดการ';
 $lang['CRON_DISABLED_WARNING'] = 'คำเตือน! การเรียกใช้สคริปต์ cron ถูกปิดใช้งาน หากต้องการเปิดใช้งาน ให้ตั้งค่าตัวแปร APP_CRON_ENABLED';
 
