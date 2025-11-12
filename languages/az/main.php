@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Cədvəlin.';
 $lang['CRON_LAST_RUN'] = 'Son iş.';
 $lang['CRON_NEXT_RUN'] = 'Növbəti iş.';
 $lang['CRON_RUN_COUNT'] = 'İşlər.';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Yerinə yetirilməsi vaxtı';
 $lang['CRON_MANAGE'] = 'İdarə.';
 $lang['CRON_DISABLED_WARNING'] = 'Xəbərdarlıq! Cron skriptlərinin işləməsi qeyri-aktivdir. Onu aktivləşdirmək üçün APP_CRON_ENABLED dəyişənini təyin edin.';
 
