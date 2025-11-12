@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Распоред.';
 $lang['CRON_LAST_RUN'] = 'Последњи покретање.';
 $lang['CRON_NEXT_RUN'] = 'Следећи покретање.';
 $lang['CRON_RUN_COUNT'] = 'Ради.';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Време извршења';
 $lang['CRON_MANAGE'] = 'Управљање.';
 $lang['CRON_DISABLED_WARNING'] = 'Упозорење! Покретање црон скрипти је онемогућено. Да бисте то омогућили, подесите променљиву АПП_ЦРОН_ЕНАБЛЕД.';
 
