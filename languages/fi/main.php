@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Aikataulu';
 $lang['CRON_LAST_RUN'] = 'Viimeinen ajo';
 $lang['CRON_NEXT_RUN'] = 'Seuraava ajo';
 $lang['CRON_RUN_COUNT'] = 'Suorittaa';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Hallita';
 $lang['CRON_DISABLED_WARNING'] = 'Varoitus! cron-skriptien suorittaminen on poistettu käytöstä. Ota se käyttöön asettamalla muuttuja APP_CRON_ENABLED.';
 
