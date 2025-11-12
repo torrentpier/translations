@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Ajakava';
 $lang['CRON_LAST_RUN'] = 'Viimane käivitamine';
 $lang['CRON_NEXT_RUN'] = 'Järgmine käivitamine';
 $lang['CRON_RUN_COUNT'] = 'Käivitused';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'Hallata';
 $lang['CRON_DISABLED_WARNING'] = 'Hoiatus! Cron-skriptide käitamine on keelatud. Selle lubamiseks määrake muutuja APP_CRON_ENABLED.';
 
