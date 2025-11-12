@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Harmonogram';
 $lang['CRON_LAST_RUN'] = 'Naposledy spustené';
 $lang['CRON_NEXT_RUN'] = 'Ďalší beh';
 $lang['CRON_RUN_COUNT'] = 'Spustenia';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'Čas vykonania';
 $lang['CRON_MANAGE'] = 'Spravovať';
 $lang['CRON_DISABLED_WARNING'] = 'POZOR! Spúšťanie cron skriptov je zakázané. Ak ho chcete povoliť, nastavte premennú APP_CRON_ENABLED.';
 
