@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = '日程';
 $lang['CRON_LAST_RUN'] = '最終実行';
 $lang['CRON_NEXT_RUN'] = '次の実行';
 $lang['CRON_RUN_COUNT'] = '実行回数';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = '管理';
 $lang['CRON_DISABLED_WARNING'] = '警告！ cron スクリプトの実行は無効になっています。有効にするには、APP_CRON_ENABLED 変数を設定します。';
 
