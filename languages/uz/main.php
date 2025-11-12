@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'jadval.';
 $lang['CRON_LAST_RUN'] = 'oxirgi ishga tushirish.';
 $lang['CRON_NEXT_RUN'] = 'keyingi ish.';
 $lang['CRON_RUN_COUNT'] = 'ishlaydi.';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'boshqarish.';
 $lang['CRON_DISABLED_WARNING'] = 'Ogohlantirish! Cron skriptlarini ishga tushirish o\'chirilgan. Uni yoqish uchun APP_CRON_ENABLED o‘zgaruvchisini o‘rnating.';
 
