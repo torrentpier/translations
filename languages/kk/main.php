@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'кесте';
 $lang['CRON_LAST_RUN'] = 'өткен Run.';
 $lang['CRON_NEXT_RUN'] = 'келесі Run.';
 $lang['CRON_RUN_COUNT'] = 'Жүгірулер';
+$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
 $lang['CRON_MANAGE'] = 'басқару';
 $lang['CRON_DISABLED_WARNING'] = 'Ескерту! Cron сценарийлерін іске қосу өшірілген. Оны қосу үшін APP_CRON_ENABLED айнымалы мәнін орнатыңыз.';
 
