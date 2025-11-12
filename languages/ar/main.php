@@ -2085,7 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'جدول';
 $lang['CRON_LAST_RUN'] = 'تشغيل المقبل.';
 $lang['CRON_NEXT_RUN'] = 'يعمل.';
 $lang['CRON_RUN_COUNT'] = 'إدارة.';
-$lang['CRON_EXECUTION_TIME'] = 'Execution Time';
+$lang['CRON_EXECUTION_TIME'] = 'وقت التنفيذ';
 $lang['CRON_MANAGE'] = 'تحذير! التشغيل مهمة cron تم تعطيله.';
 $lang['CRON_DISABLED_WARNING'] = 'هل أنت متأكد أنك تريد حذف عمل كرون؟.';
 
