@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Plán';
 $lang['CRON_LAST_RUN'] = 'Poslední Běh';
 $lang['CRON_NEXT_RUN'] = 'Další Běh';
 $lang['CRON_RUN_COUNT'] = 'Běží';
+$lang['CRON_EXECUTION_TIME'] = 'Čas spuštění';
 $lang['CRON_MANAGE'] = 'Spravovat';
 $lang['CRON_DISABLED_WARNING'] = 'Warning! Running cron scripts is disabled. To enable it, set the APP_CRON_ENABLED variable.';
 

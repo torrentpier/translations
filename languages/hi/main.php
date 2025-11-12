@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'अनुसूची';
 $lang['CRON_LAST_RUN'] = 'आखरी बार';
 $lang['CRON_NEXT_RUN'] = 'अगला भागो';
 $lang['CRON_RUN_COUNT'] = 'रन';
+$lang['CRON_EXECUTION_TIME'] = 'निष्पादन समय';
 $lang['CRON_MANAGE'] = 'प्रबंधित';
 $lang['CRON_DISABLED_WARNING'] = 'चेतावनी! क्रॉन स्क्रिप्ट चलाना अक्षम है। इसे सक्षम करने के लिए, APP_CRON_ENABLED वैरिएबल सेट करें।';
 

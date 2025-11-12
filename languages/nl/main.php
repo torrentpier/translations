@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Plannen';
 $lang['CRON_LAST_RUN'] = 'Laatste Run';
 $lang['CRON_NEXT_RUN'] = 'Volgende';
 $lang['CRON_RUN_COUNT'] = 'Loopt';
+$lang['CRON_EXECUTION_TIME'] = 'Uitvoeringstijd';
 $lang['CRON_MANAGE'] = 'Beheren';
 $lang['CRON_DISABLED_WARNING'] = 'Waarschuwing! Het uitvoeren van cron-scripts is uitgeschakeld. Stel de variabele APP_CRON_ENABLED in om deze in te schakelen.';
 

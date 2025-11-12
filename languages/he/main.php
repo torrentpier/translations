@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'לוח הזמנים';
 $lang['CRON_LAST_RUN'] = 'הריצה האחרונה';
 $lang['CRON_NEXT_RUN'] = 'הריצה הבאה';
 $lang['CRON_RUN_COUNT'] = 'הריצות';
+$lang['CRON_EXECUTION_TIME'] = 'זמן ביצוע';
 $lang['CRON_MANAGE'] = 'ניהול';
 $lang['CRON_DISABLED_WARNING'] = 'אַזהָרָה! הפעלת סקריפטים של cron מושבתת. כדי להפעיל אותו, הגדר את המשתנה APP_CRON_ENABLED.';
 

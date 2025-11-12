@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Барнома';
 $lang['CRON_LAST_RUN'] = 'Санҷишкардексз.';
 $lang['CRON_NEXT_RUN'] = 'Иҷроиши.';
 $lang['CRON_RUN_COUNT'] = 'Медавад.';
+$lang['CRON_EXECUTION_TIME'] = 'Вақти иҷро';
 $lang['CRON_MANAGE'] = 'идора кардан';
 $lang['CRON_DISABLED_WARNING'] = 'Огоҳӣ! Иҷрои скриптҳои cron ғайрифаъол аст.';
 

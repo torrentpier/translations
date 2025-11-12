@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'L\'annexe.';
 $lang['CRON_LAST_RUN'] = 'La dernière exécution.';
 $lang['CRON_NEXT_RUN'] = 'Prochaine course.';
 $lang['CRON_RUN_COUNT'] = 'Fonctionne.';
+$lang['CRON_EXECUTION_TIME'] = 'Temps d\'exécution';
 $lang['CRON_MANAGE'] = 'Gérer';
 $lang['CRON_DISABLED_WARNING'] = 'Avertissement! L\'exécution de scripts cron est désactivée. Pour l\'activer, définissez la variable APP_CRON_ENABLED.';
 

@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Расклад';
 $lang['CRON_LAST_RUN'] = 'Апошні Запуск';
 $lang['CRON_NEXT_RUN'] = 'Наступны Запуск';
 $lang['CRON_RUN_COUNT'] = 'Працуе';
+$lang['CRON_EXECUTION_TIME'] = 'Час выканання';
 $lang['CRON_MANAGE'] = 'Кіраваць';
 $lang['CRON_DISABLED_WARNING'] = 'Папярэджанне! Запуск сцэнарыяў cron адключаны. Каб уключыць яго, усталюйце зменную APP_CRON_ENABLED.';
 

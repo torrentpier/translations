@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Jadwal';
 $lang['CRON_LAST_RUN'] = 'Lalu Jalankan';
 $lang['CRON_NEXT_RUN'] = 'Berikutnya Jalankan';
 $lang['CRON_RUN_COUNT'] = 'Berjalan';
+$lang['CRON_EXECUTION_TIME'] = 'Waktu pelaksanaan';
 $lang['CRON_MANAGE'] = 'Kelola';
 $lang['CRON_DISABLED_WARNING'] = 'Peringatan! Menjalankan skrip cron dinonaktifkan. Untuk mengaktifkannya, atur variabel APP_CRON_ENABLED.';
 

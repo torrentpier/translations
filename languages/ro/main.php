@@ -2085,6 +2085,7 @@ $lang['CRON_SCHEDULE'] = 'Programul.';
 $lang['CRON_LAST_RUN'] = 'Ultimul termen.';
 $lang['CRON_NEXT_RUN'] = 'Următoarea cursă.';
 $lang['CRON_RUN_COUNT'] = 'Rulează.';
+$lang['CRON_EXECUTION_TIME'] = 'Timp de execuție';
 $lang['CRON_MANAGE'] = 'Gestiona.';
 $lang['CRON_DISABLED_WARNING'] = 'Avertisment! Rularea scripturilor cron este dezactivată. Pentru a activa, setați variabila APP_CRON_ENABLED.';
 
