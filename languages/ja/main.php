@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'ユーザーレベル';
 $lang['AUTH_USER'] = 'ユーザー';
 $lang['AUTH_ADMIN'] = '管理者';
 $lang['FORUM_AUTH_UPDATED'] = 'フォーラムのアクセス権が更新されました';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = '権限が更新されました';
 $lang['AUTH_GENERAL_ERROR'] = '管理者ステータスを更新できませんでした。';
