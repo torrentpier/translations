@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = '사용자 레벨';
 $lang['AUTH_USER'] = '사용자';
 $lang['AUTH_ADMIN'] = '관리자';
 $lang['FORUM_AUTH_UPDATED'] = '포럼 권한이 업데이트되었습니다.';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = '권한이 업데이트되었습니다.';
 $lang['AUTH_GENERAL_ERROR'] = '관리자 상태를 업데이트할 수 없습니다';

@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'उपयोगकर्ता स्तर';
 $lang['AUTH_USER'] = 'उपयोगकर्ता';
 $lang['AUTH_ADMIN'] = 'प्रशासक';
 $lang['FORUM_AUTH_UPDATED'] = 'फोरम अनुमतियों को अपडेट किया गया है';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'अनुमतियों को अद्यतन किया गया है';
 $lang['AUTH_GENERAL_ERROR'] = 'व्यवस्थापक स्थिति अपडेट नहीं कर सका';

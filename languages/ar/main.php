@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'مستوى المستخدم';
 $lang['AUTH_USER'] = 'المستخدم';
 $lang['AUTH_ADMIN'] = 'مسؤول';
 $lang['FORUM_AUTH_UPDATED'] = 'تم تحديث أذونات المنتدى.';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'أذونات تم تحديث';
 $lang['AUTH_GENERAL_ERROR'] = 'لم يكن ممكنًا تحديث حالة المسؤول';

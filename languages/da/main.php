@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Bruger niveau';
 $lang['AUTH_USER'] = 'Bruger';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum tilladelser er blevet opdateret';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Tilladelser er blevet opdateret';
 $lang['AUTH_GENERAL_ERROR'] = 'Kunne ikke opdatere administratorstatus';

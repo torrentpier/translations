@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Foydalanuvchi darajasi';
 $lang['AUTH_USER'] = 'Foydalanuvchi';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum ruxsatlari yangilandi';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'O\'zgartirishlar yangilandi';
 $lang['AUTH_GENERAL_ERROR'] = 'Boshqaruv maqomini yangilash mumkin emas';

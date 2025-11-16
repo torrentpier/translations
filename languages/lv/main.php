@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Lietotāja līmenis.';
 $lang['AUTH_USER'] = 'Lietotājs.';
 $lang['AUTH_ADMIN'] = 'Administrators.';
 $lang['FORUM_AUTH_UPDATED'] = 'Foruma atļaujas ir atjaunināti.';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Atļaujas ir atjaunināti.';
 $lang['AUTH_GENERAL_ERROR'] = 'Nevarēja atjaunot administratora statusu';

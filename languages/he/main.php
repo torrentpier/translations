@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'ברמת המשתמש';
 $lang['AUTH_USER'] = 'המשתמש';
 $lang['AUTH_ADMIN'] = 'מנהל';
 $lang['FORUM_AUTH_UPDATED'] = 'פורום הרשאות עודכנו';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'הרשאות עודכנו';
 $lang['AUTH_GENERAL_ERROR'] = 'לא ניתן לעדכן את הסטטוס של המנהל';

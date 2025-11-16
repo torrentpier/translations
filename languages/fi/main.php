@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Käyttäjän tason';
 $lang['AUTH_USER'] = 'Käyttäjä';
 $lang['AUTH_ADMIN'] = 'Ylläpitäjä';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum käyttöoikeudet on päivitetty';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Käyttöoikeudet on päivitetty';
 $lang['AUTH_GENERAL_ERROR'] = 'Hallinta-asentoa ei voitu päivittää';

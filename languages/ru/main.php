@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Статус пользователя';
 $lang['AUTH_USER'] = 'Пользователь';
 $lang['AUTH_ADMIN'] = 'Администратор';
 $lang['FORUM_AUTH_UPDATED'] = 'Права доступа к форуму изменены';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Права доступа изменены';
 $lang['AUTH_GENERAL_ERROR'] = 'Не удалось обновить статус администратора';

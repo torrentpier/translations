@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = '用戶級別';
 $lang['AUTH_USER'] = '用戶';
 $lang['AUTH_ADMIN'] = '管理員';
 $lang['FORUM_AUTH_UPDATED'] = '論壇的權限已經更新，';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = '權限已更新';
 $lang['AUTH_GENERAL_ERROR'] = '無法更新管理員狀態';

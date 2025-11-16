@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Gebruiker Niveau';
 $lang['AUTH_USER'] = 'Gebruiker';
 $lang['AUTH_ADMIN'] = 'Beheerder';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum permissies zijn bijgewerkt';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Machtigingen zijn bijgewerkt';
 $lang['AUTH_GENERAL_ERROR'] = 'Kon admin-status niet bijwerken';

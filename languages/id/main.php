@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Tingkat Pengguna';
 $lang['AUTH_USER'] = 'Pengguna';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum izin telah diperbarui';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Izin telah diperbarui';
 $lang['AUTH_GENERAL_ERROR'] = 'Tidak dapat memperbarui status admin';

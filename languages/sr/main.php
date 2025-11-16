@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Нивоу Корисника';
 $lang['AUTH_USER'] = 'Корисник';
 $lang['AUTH_ADMIN'] = 'Администратор';
 $lang['FORUM_AUTH_UPDATED'] = 'Дозволе форуму су ажурирани';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Дозволе су ажурирани';
 $lang['AUTH_GENERAL_ERROR'] = 'Није било могуће променити статус администратора';

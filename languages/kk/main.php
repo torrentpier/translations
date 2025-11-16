@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Пайдаланушы деңгейі';
 $lang['AUTH_USER'] = 'Пайдаланушы';
 $lang['AUTH_ADMIN'] = 'Әкімші';
 $lang['FORUM_AUTH_UPDATED'] = 'Форум рұқсаттары жаңартылды';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Рұқсаттар жаңартылды';
 $lang['AUTH_GENERAL_ERROR'] = 'Әкімші мәртебесін жаңарта алмады';

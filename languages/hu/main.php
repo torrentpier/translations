@@ -1570,6 +1570,7 @@ $lang['USER_LEVEL'] = 'Felhasználói Szintű';
 $lang['AUTH_USER'] = 'Felhasználó';
 $lang['AUTH_ADMIN'] = 'Adminisztrátor';
 $lang['FORUM_AUTH_UPDATED'] = 'Fórum jogosultságok lettek frissítve';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Engedélyek frissültek';
 $lang['AUTH_GENERAL_ERROR'] = 'Nem lehet frissíteni az adminisztrátor státuszát';

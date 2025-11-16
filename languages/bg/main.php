@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Ниво на потребителя';
 $lang['AUTH_USER'] = 'Потребител';
 $lang['AUTH_ADMIN'] = 'Администратор';
 $lang['FORUM_AUTH_UPDATED'] = 'Разрешение на форума са били обновени';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Разрешения са били актуализирани';
 $lang['AUTH_GENERAL_ERROR'] = 'Не е възможно да се актуализира статусът на администратора';
