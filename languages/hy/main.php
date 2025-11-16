@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Մակարդակով Օգտագործողի';
 $lang['AUTH_USER'] = 'Օգտագործողը';
 $lang['AUTH_ADMIN'] = 'Ադմինիստրատոր';
 $lang['FORUM_AUTH_UPDATED'] = 'Թույլտվությունները թարմացվել են։';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Թույլտվությունները թարմացվել են։';
 $lang['AUTH_GENERAL_ERROR'] = 'Չկարողացան թարմացնել ադմինին կարգավիճակ';
