@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Poziom użytkownika.';
 $lang['AUTH_USER'] = 'Użytkownik';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Uprawnienia forum zostały zaktualizowane';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Uprawnienia zostały zaktualizowane';
 $lang['AUTH_GENERAL_ERROR'] = 'Nie można zaktualizować statusu administratora';
