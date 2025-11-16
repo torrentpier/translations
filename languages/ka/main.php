@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'მომხმარებლის დონე.';
 $lang['AUTH_USER'] = 'მომხმარებელი';
 $lang['AUTH_ADMIN'] = 'ადმინისტრატორი';
 $lang['FORUM_AUTH_UPDATED'] = 'ფორუმი ნებართვები უკვე განახლებულია';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'უფლებები უკვე განახლებულია';
 $lang['AUTH_GENERAL_ERROR'] = 'არ შეიძლება განვაახლოს ადმინისტრაციის სტატუსი';
