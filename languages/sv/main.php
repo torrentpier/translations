@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Användar nivå.';
 $lang['AUTH_USER'] = 'Användare.';
 $lang['AUTH_ADMIN'] = 'Administratör.';
 $lang['FORUM_AUTH_UPDATED'] = 'Forumbehörigheter har uppdaterats.';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Behörigheter har uppdaterats.';
 $lang['AUTH_GENERAL_ERROR'] = 'Kunde inte uppdatera administrationsstatus';
