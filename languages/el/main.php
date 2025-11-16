@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Επίπεδο Χρήστη.';
 $lang['AUTH_USER'] = 'Χρήστη.';
 $lang['AUTH_ADMIN'] = 'Διαχειριστής.';
 $lang['FORUM_AUTH_UPDATED'] = 'Τα δικαιώματα του φόρουμ έχουν ενημερωθεί.';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Τα δικαιώματα έχουν ενημερωθεί.';
 $lang['AUTH_GENERAL_ERROR'] = 'Δεν ήταν δυνατή η ενημέρωση της κατάστασης διαχειριστή';
