@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Vartotojo lygis';
 $lang['AUTH_USER'] = 'Vartotojas';
 $lang['AUTH_ADMIN'] = 'Administratorius';
 $lang['FORUM_AUTH_UPDATED'] = 'Forumo teisės buvo atnaujintos';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Leidimai buvo atnaujinti';
 $lang['AUTH_GENERAL_ERROR'] = 'Nepavyko atnaujinti administratoriaus statuso';
