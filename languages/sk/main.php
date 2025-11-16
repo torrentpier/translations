@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Úroveň užívateľa';
 $lang['AUTH_USER'] = 'Používateľ';
 $lang['AUTH_ADMIN'] = 'Administrátor';
 $lang['FORUM_AUTH_UPDATED'] = 'Fórum povolenia boli aktualizované';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Povolenia boli aktualizované';
 $lang['AUTH_GENERAL_ERROR'] = 'Nepodarilo sa aktualizovať stav administrátora';
