@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Ўзроўні Карыстальніка';
 $lang['AUTH_USER'] = 'Карыстальнік';
 $lang['AUTH_ADMIN'] = 'Адміністратар';
 $lang['FORUM_AUTH_UPDATED'] = 'Дазволы форуму былі абноўлены';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Дазволы былі абноўлены';
 $lang['AUTH_GENERAL_ERROR'] = 'Не ўдалося абнавіць статус адміністратара';
