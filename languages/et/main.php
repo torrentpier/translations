@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Kasutaja tase';
 $lang['AUTH_USER'] = 'Kasutaja';
 $lang['AUTH_ADMIN'] = 'Administraator';
 $lang['FORUM_AUTH_UPDATED'] = 'Foorumi õigused on uuendatud';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Õigused on uuendatud';
 $lang['AUTH_GENERAL_ERROR'] = 'Administraatori staatust ei saanud uuendada';
