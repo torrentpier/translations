@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Käyttäjän tason';
 $lang['AUTH_USER'] = 'Käyttäjä';
 $lang['AUTH_ADMIN'] = 'Ylläpitäjä';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum käyttöoikeudet on päivitetty';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Käytä alakeskusteluissa';
 
 $lang['AUTH_UPDATED'] = 'Käyttöoikeudet on päivitetty';
 $lang['AUTH_GENERAL_ERROR'] = 'Hallinta-asentoa ei voitu päivittää';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Kuinka monta lähettäjää viimeisten 30 päivän aikana.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent-tilastot';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker-tilastot';
+$lang['TORRENTS'] = 'Torrentit';
+$lang['PEERS'] = 'Vertaiset';
+$lang['CLIENTS'] = 'Käyttäjät';
 
 $lang['NEW_POLL_START'] = 'Kysely käytössä';
 $lang['NEW_POLL_END'] = 'Kysely täytetty';
