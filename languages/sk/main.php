@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'koľko uploaders za posledných 30 dní.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Anketa je povolené.';
 $lang['NEW_POLL_END'] = 'Hlasovanie ukončené.';
 $lang['NEW_POLL_ENDED'] = 'Toto hlasovanie už bolo ukončené.';
