@@ -2459,6 +2459,12 @@ $lang['TR_STATS'] = [
     7 => 'hány feltöltő az elmúlt 30 napban',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Közvélemény-kutatás engedélyezett';
 $lang['NEW_POLL_END'] = 'Közvélemény-kutatás befejeződött';
 $lang['NEW_POLL_ENDED'] = 'Ez a felmérés már befejeződött';
