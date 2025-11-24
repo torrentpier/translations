@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'berapa banyak pengunggah dalam 30 hari terakhir',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Jajak pendapat diaktifkan';
 $lang['NEW_POLL_END'] = 'Jajak pendapat selesai';
 $lang['NEW_POLL_ENDED'] = 'Jajak pendapat ini telah selesai';
