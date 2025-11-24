@@ -2463,6 +2463,12 @@ $lang['TR_STATS'] = [
     7 => 'cik daudz augšupielādētāju pēdējo 30 dienu laikā',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Aptauja iespējots';
 $lang['NEW_POLL_END'] = 'Aptauja pabeigta';
 $lang['NEW_POLL_ENDED'] = 'Šī aptauja jau ir pabeigta';
