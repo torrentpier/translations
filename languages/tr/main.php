@@ -1570,7 +1570,7 @@ $lang['USER_LEVEL'] = 'Kullanıcı seviyesi';
 $lang['AUTH_USER'] = 'Kullanıcı';
 $lang['AUTH_ADMIN'] = 'Yönetici';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum izinleri güncellendi';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Alt forumlara uygula';
 
 $lang['AUTH_UPDATED'] = 'İzinler güncellendi';
 $lang['AUTH_GENERAL_ERROR'] = 'Yönetici durumu güncellenemedi';
@@ -2460,11 +2460,11 @@ $lang['TR_STATS'] = [
     7 => 'son 30 gün içinde yükleyiciler.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent İstatistikleri';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker İstatistikleri';
+$lang['TORRENTS'] = 'Torrentler';
+$lang['PEERS'] = 'Eşler';
+$lang['CLIENTS'] = 'İstemciler';
 
 $lang['NEW_POLL_START'] = 'Anket etkin';
 $lang['NEW_POLL_END'] = 'Anket tamamlandı';
