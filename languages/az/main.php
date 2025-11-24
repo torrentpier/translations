@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'Son 30 gün ərzində uploaders',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Sorğu aktivdir';
 $lang['NEW_POLL_END'] = 'Sorğu başa çatıb';
 $lang['NEW_POLL_ENDED'] = 'Bu sorğu başa çatıb';
