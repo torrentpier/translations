@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Lietotāja līmenis.';
 $lang['AUTH_USER'] = 'Lietotājs.';
 $lang['AUTH_ADMIN'] = 'Administrators.';
 $lang['FORUM_AUTH_UPDATED'] = 'Foruma atļaujas ir atjaunināti.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Lietot apakšforumiem';
 
 $lang['AUTH_UPDATED'] = 'Atļaujas ir atjaunināti.';
 $lang['AUTH_GENERAL_ERROR'] = 'Nevarēja atjaunot administratora statusu';
@@ -2463,11 +2463,11 @@ $lang['TR_STATS'] = [
     7 => 'cik daudz augšupielādētāju pēdējo 30 dienu laikā',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent statistika';
+$lang['TRACKER_STATS_TITLE'] = 'Sekotāja statistika';
+$lang['TORRENTS'] = 'Torrenti';
+$lang['PEERS'] = 'Dalībnieki';
+$lang['CLIENTS'] = 'Klienti';
 
 $lang['NEW_POLL_START'] = 'Aptauja iespējots';
 $lang['NEW_POLL_END'] = 'Aptauja pabeigta';
