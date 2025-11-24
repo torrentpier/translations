@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'kui palju tõstukid viimase 30 päeva jooksul.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Küsitlus võimaldab.';
 $lang['NEW_POLL_END'] = 'Küsitlus on lõppenud.';
 $lang['NEW_POLL_ENDED'] = 'See küsitlus on juba lõpetatud.';

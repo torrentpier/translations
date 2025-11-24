@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => '過去30天有多少上傳者',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = '调查启用';
 $lang['NEW_POLL_END'] = '调查完成';
 $lang['NEW_POLL_ENDED'] = '这个调查已经完成了';

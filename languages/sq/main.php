@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'sa uploaders gjatë 30 ditëve të fundit.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Sondazhi i aktivizuar.';
 $lang['NEW_POLL_END'] = 'Sondazhi i përfunduar.';
 $lang['NEW_POLL_ENDED'] = 'Kjo anketë është përfunduar tashmë.';

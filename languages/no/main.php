@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'hvor mange uploaders i løpet av de siste 30 dager',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Avstemning aktivert';
 $lang['NEW_POLL_END'] = 'Avstemning fullført';
 $lang['NEW_POLL_ENDED'] = 'Denne avstemningen har allerede blitt fullført.';

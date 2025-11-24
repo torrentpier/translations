@@ -2460,6 +2460,12 @@ $lang['TR_STATS'] = [
     7 => 'son 30 gün içinde yükleyiciler.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Anket etkin';
 $lang['NEW_POLL_END'] = 'Anket tamamlandı';
 $lang['NEW_POLL_ENDED'] = 'Bu anket tamamlanmıştır';

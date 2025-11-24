@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'koliko je najviše od nas je uploadera (za one koji su se išli barem 1 ruku).',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Anketa je uključena.';
 $lang['NEW_POLL_END'] = 'Anketa je završila.';
 $lang['NEW_POLL_ENDED'] = 'Ova anketa je već završila.';

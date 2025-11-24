@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'колькі аплоадеров за апошнія 30 дзён',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Апытанне уключаны';
 $lang['NEW_POLL_END'] = 'Апытанне завершаны';
 $lang['NEW_POLL_ENDED'] = 'Гэты апытанне ўжо завершаны.';

@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'Kuinka monta lähettäjää viimeisten 30 päivän aikana.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Kysely käytössä';
 $lang['NEW_POLL_END'] = 'Kysely täytetty';
 $lang['NEW_POLL_ENDED'] = 'Tämä kysely on jo saatu päätökseen';

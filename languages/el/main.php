@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'Πόσοι μεταφορτωτές τις τελευταίες 30 ημέρες.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Δημοσκόπηση ενεργοποιημένη';
 $lang['NEW_POLL_END'] = 'Δημοσκόπηση ολοκληρώθηκε';
 $lang['NEW_POLL_ENDED'] = 'Αυτή η δημοσκόπηση έχει ήδη ολοκληρωθεί';

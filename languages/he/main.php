@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'כמה טוענים במהלך 30 הימים האחרונים',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'הסקר זמין';
 $lang['NEW_POLL_END'] = 'הסקר הושלם';
 $lang['NEW_POLL_ENDED'] = 'סקר זה כבר הושלם.';

@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => '過去30日間のアップローダーの数はどうなりますか。',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = '調査可能';
 $lang['NEW_POLL_END'] = '調査完了';
 $lang['NEW_POLL_ENDED'] = 'この調査はすでに完了しています。';

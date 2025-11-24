@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'Քանի բեռնողներ կան վերջին 30 օրերի ընթացքում.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Հարցումը ներառված է';
 $lang['NEW_POLL_END'] = 'Հարցումն ավարտված է';
 $lang['NEW_POLL_ENDED'] = 'Այս հարցում արդեն ավարտված է';

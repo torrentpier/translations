@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'combien de téléchargeurs au cours des 30 derniers jours',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Sondage activé';
 $lang['NEW_POLL_END'] = 'Sondage terminé';
 $lang['NEW_POLL_ENDED'] = 'Ce sondage a déjà été complété';

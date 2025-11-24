@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'koliko naložnikov v zadnjih 30 dneh.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Anketa omogočeno';
 $lang['NEW_POLL_END'] = 'Anketa končana';
 $lang['NEW_POLL_ENDED'] = 'Ta raziskava je že končana.';

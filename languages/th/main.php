@@ -2459,6 +2459,12 @@ $lang['TR_STATS'] = [
     7 => 'ผู้ทำการอัพโหลดกี่คนในช่วง 30 วันที่ผ่านมา?',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'เปิดใช้งานการตรวจสอบ';
 $lang['NEW_POLL_END'] = 'การตรวจสอบเสร็จสมบูรณ์';
 $lang['NEW_POLL_ENDED'] = 'การตรวจสอบนี้ได้ถูกเสร็จสมบูรณ์แล้ว';
