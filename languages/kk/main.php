@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Пайдаланушы деңгейі';
 $lang['AUTH_USER'] = 'Пайдаланушы';
 $lang['AUTH_ADMIN'] = 'Әкімші';
 $lang['FORUM_AUTH_UPDATED'] = 'Форум рұқсаттары жаңартылды';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Сабфорумдарға қолдану';
 
 $lang['AUTH_UPDATED'] = 'Рұқсаттар жаңартылды';
 $lang['AUTH_GENERAL_ERROR'] = 'Әкімші мәртебесін жаңарта алмады';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'соңғы 30 күнде жүктеушілер.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Торрент статистикасы';
+$lang['TRACKER_STATS_TITLE'] = 'Трекер статистикасы';
+$lang['TORRENTS'] = 'Торренттер';
+$lang['PEERS'] = 'Пирлер';
+$lang['CLIENTS'] = 'Клиенттер';
 
 $lang['NEW_POLL_START'] = 'Сауалнама қосылған.';
 $lang['NEW_POLL_END'] = 'Сауалнама аяқталды.';

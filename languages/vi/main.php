@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Cấp độ người dùng';
 $lang['AUTH_USER'] = 'Người dùng';
 $lang['AUTH_ADMIN'] = 'Quản trị viên';
 $lang['FORUM_AUTH_UPDATED'] = 'Diễn đàn đã được cập nhật quyền';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Áp dụng cho các diễn đàn con';
 
 $lang['AUTH_UPDATED'] = 'Quyền đã được cập nhật';
 $lang['AUTH_GENERAL_ERROR'] = 'Không thể cập nhật trạng thái quản trị viên';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'bao nhiêu người dùng đã tải lên trong vòng 30 ngày',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Thống kê Torrent';
+$lang['TRACKER_STATS_TITLE'] = 'Thống kê Tracker';
+$lang['TORRENTS'] = 'Các Torrent';
+$lang['PEERS'] = 'Người tham gia';
+$lang['CLIENTS'] = 'Các client';
 
 $lang['NEW_POLL_START'] = 'Thăm dò được kích hoạt';
 $lang['NEW_POLL_END'] = 'Thăm dò hoàn thành';

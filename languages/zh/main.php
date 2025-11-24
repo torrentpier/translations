@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = '用戶級別';
 $lang['AUTH_USER'] = '用戶';
 $lang['AUTH_ADMIN'] = '管理員';
 $lang['FORUM_AUTH_UPDATED'] = '論壇的權限已經更新，';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = '套用至子論壇';
 
 $lang['AUTH_UPDATED'] = '權限已更新';
 $lang['AUTH_GENERAL_ERROR'] = '無法更新管理員狀態';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => '過去30天有多少上傳者',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = '種子統計';
+$lang['TRACKER_STATS_TITLE'] = '追蹤器統計';
+$lang['TORRENTS'] = '種子';
+$lang['PEERS'] = '節點';
+$lang['CLIENTS'] = '用戶端';
 
 $lang['NEW_POLL_START'] = '调查启用';
 $lang['NEW_POLL_END'] = '调查完成';

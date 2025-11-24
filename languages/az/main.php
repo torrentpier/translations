@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'İstifadəçi səviyyəsi';
 $lang['AUTH_USER'] = 'İstifadəçi';
 $lang['AUTH_ADMIN'] = 'İdarəçi';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum icazələri yeniləndi';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Alt forumlara tətbiq et';
 
 $lang['AUTH_UPDATED'] = 'İcazələr yeniləndi';
 $lang['AUTH_GENERAL_ERROR'] = 'İdarəçi statusunu güncəlləmək mümkün olmadı';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Son 30 gün ərzində uploaders',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistikası';
+$lang['TRACKER_STATS_TITLE'] = 'Treker Statistikası';
+$lang['TORRENTS'] = 'Torrentlər';
+$lang['PEERS'] = 'İştirakçılar';
+$lang['CLIENTS'] = 'Klientlər';
 
 $lang['NEW_POLL_START'] = 'Sorğu aktivdir';
 $lang['NEW_POLL_END'] = 'Sorğu başa çatıb';

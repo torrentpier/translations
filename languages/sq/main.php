@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Përdoruesi i Nivelit';
 $lang['AUTH_USER'] = 'Përdorues';
 $lang['AUTH_ADMIN'] = 'Administratori';
 $lang['FORUM_AUTH_UPDATED'] = 'Lejet e Forumit janë përditësuar';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apliko te nënforume';
 
 $lang['AUTH_UPDATED'] = 'Lejet kanë qenë të përditësuara';
 $lang['AUTH_GENERAL_ERROR'] = 'Nuk mund të përditësohet statusi i administratorit';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'sa uploaders gjatë 30 ditëve të fundit.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Statistikat e Torrentit';
+$lang['TRACKER_STATS_TITLE'] = 'Statistikat e Tracker-it';
 $lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['PEERS'] = 'Përdorues';
+$lang['CLIENTS'] = 'Klientët';
 
 $lang['NEW_POLL_START'] = 'Sondazhi i aktivizuar.';
 $lang['NEW_POLL_END'] = 'Sondazhi i përfunduar.';

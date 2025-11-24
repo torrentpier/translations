@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Ўзроўні Карыстальніка';
 $lang['AUTH_USER'] = 'Карыстальнік';
 $lang['AUTH_ADMIN'] = 'Адміністратар';
 $lang['FORUM_AUTH_UPDATED'] = 'Дазволы форуму былі абноўлены';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Ужыць да падфорумам';
 
 $lang['AUTH_UPDATED'] = 'Дазволы былі абноўлены';
 $lang['AUTH_GENERAL_ERROR'] = 'Не ўдалося абнавіць статус адміністратара';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'колькі аплоадеров за апошнія 30 дзён',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Статыстыка торэнтаў';
+$lang['TRACKER_STATS_TITLE'] = 'Статыстыка тракера';
+$lang['TORRENTS'] = 'Торэнты';
+$lang['PEERS'] = 'Пірсы';
+$lang['CLIENTS'] = 'Кліенты';
 
 $lang['NEW_POLL_START'] = 'Апытанне уключаны';
 $lang['NEW_POLL_END'] = 'Апытанне завершаны';

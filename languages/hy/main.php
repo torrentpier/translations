@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Մակարդակով Օգտագործողի';
 $lang['AUTH_USER'] = 'Օգտագործողը';
 $lang['AUTH_ADMIN'] = 'Ադմինիստրատոր';
 $lang['FORUM_AUTH_UPDATED'] = 'Թույլտվությունները թարմացվել են։';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Դիմել ենթաֆորումներին';
 
 $lang['AUTH_UPDATED'] = 'Թույլտվությունները թարմացվել են։';
 $lang['AUTH_GENERAL_ERROR'] = 'Չկարողացան թարմացնել ադմինին կարգավիճակ';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Քանի բեռնողներ կան վերջին 30 օրերի ընթացքում.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Հոսքի վիճակագրություն';
+$lang['TRACKER_STATS_TITLE'] = 'Տրեքերի վիճակագրություն';
+$lang['TORRENTS'] = 'Հոսքներ';
+$lang['PEERS'] = 'Մասնակիցներ';
+$lang['CLIENTS'] = 'Հաճախորդներ';
 
 $lang['NEW_POLL_START'] = 'Հարցումը ներառված է';
 $lang['NEW_POLL_END'] = 'Հարցումն ավարտված է';

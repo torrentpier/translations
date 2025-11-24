@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Livello utente';
 $lang['AUTH_USER'] = 'Utente';
 $lang['AUTH_ADMIN'] = 'Amministratore';
 $lang['FORUM_AUTH_UPDATED'] = 'Le autorizzazioni del forum sono state aggiornate';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Applica ai sottosezioni';
 
 $lang['AUTH_UPDATED'] = 'Le autorizzazioni sono state aggiornate';
 $lang['AUTH_GENERAL_ERROR'] = 'Impossibile aggiornare lo stato dell\'amministratore';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'quanti uploader negli ultimi 30 giorni.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Statistiche Torrent';
+$lang['TRACKER_STATS_TITLE'] = 'Statistiche Tracker';
 $lang['TORRENTS'] = 'Torrents';
 $lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['CLIENTS'] = 'Clienti';
 
 $lang['NEW_POLL_START'] = 'Sondaggio attivato';
 $lang['NEW_POLL_END'] = 'Sondaggio completato';

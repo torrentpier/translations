@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Nível do usuário.';
 $lang['AUTH_USER'] = 'Utilizador.';
 $lang['AUTH_ADMIN'] = 'Administrador.';
 $lang['FORUM_AUTH_UPDATED'] = 'As permissões do fórum foram atualizadas.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Aplicar aos subfóruns';
 
 $lang['AUTH_UPDATED'] = 'As permissões foram atualizadas.';
 $lang['AUTH_GENERAL_ERROR'] = 'Não foi possível atualizar o status de administrador';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'quantos uploaders nos últimos 30 dias.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Estatísticas de Torrent';
+$lang['TRACKER_STATS_TITLE'] = 'Estatísticas do Tracker';
 $lang['TORRENTS'] = 'Torrents';
 $lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['CLIENTS'] = 'Clientes';
 
 $lang['NEW_POLL_START'] = 'Enquete habilitado';
 $lang['NEW_POLL_END'] = 'Enquete concluída';

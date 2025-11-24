@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Úroveň užívateľa';
 $lang['AUTH_USER'] = 'Používateľ';
 $lang['AUTH_ADMIN'] = 'Administrátor';
 $lang['FORUM_AUTH_UPDATED'] = 'Fórum povolenia boli aktualizované';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Použiť na podfóra';
 
 $lang['AUTH_UPDATED'] = 'Povolenia boli aktualizované';
 $lang['AUTH_GENERAL_ERROR'] = 'Nepodarilo sa aktualizovať stav administrátora';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'koľko uploaders za posledných 30 dní.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Štatistiky torrentov';
+$lang['TRACKER_STATS_TITLE'] = 'Štatistiky trackera';
+$lang['TORRENTS'] = 'Torrenty';
+$lang['PEERS'] = 'Peerov';
+$lang['CLIENTS'] = 'Klientov';
 
 $lang['NEW_POLL_START'] = 'Anketa je povolené.';
 $lang['NEW_POLL_END'] = 'Hlasovanie ukončené.';

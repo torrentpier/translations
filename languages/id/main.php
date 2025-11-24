@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Tingkat Pengguna';
 $lang['AUTH_USER'] = 'Pengguna';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum izin telah diperbarui';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Terapkan ke subforum';
 
 $lang['AUTH_UPDATED'] = 'Izin telah diperbarui';
 $lang['AUTH_GENERAL_ERROR'] = 'Tidak dapat memperbarui status admin';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'berapa banyak pengunggah dalam 30 hari terakhir',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Statistik Torrent';
+$lang['TRACKER_STATS_TITLE'] = 'Statistik Tracker';
+$lang['TORRENTS'] = 'Torrent';
+$lang['PEERS'] = 'Peer';
+$lang['CLIENTS'] = 'Klien';
 
 $lang['NEW_POLL_START'] = 'Jajak pendapat diaktifkan';
 $lang['NEW_POLL_END'] = 'Jajak pendapat selesai';

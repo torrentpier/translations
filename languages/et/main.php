@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Kasutaja tase';
 $lang['AUTH_USER'] = 'Kasutaja';
 $lang['AUTH_ADMIN'] = 'Administraator';
 $lang['FORUM_AUTH_UPDATED'] = 'Foorumi õigused on uuendatud';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Rakenda allfoorumitele';
 
 $lang['AUTH_UPDATED'] = 'Õigused on uuendatud';
 $lang['AUTH_GENERAL_ERROR'] = 'Administraatori staatust ei saanud uuendada';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'kui palju tõstukid viimase 30 päeva jooksul.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrentide statistika';
+$lang['TRACKER_STATS_TITLE'] = 'Jälgija statistika';
+$lang['TORRENTS'] = 'Torrentid';
+$lang['PEERS'] = 'Osalejad';
+$lang['CLIENTS'] = 'Kliendid';
 
 $lang['NEW_POLL_START'] = 'Küsitlus võimaldab.';
 $lang['NEW_POLL_END'] = 'Küsitlus on lõppenud.';

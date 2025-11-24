@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Uživatelská úroveň';
 $lang['AUTH_USER'] = 'Uživatel';
 $lang['AUTH_ADMIN'] = 'Správce';
 $lang['FORUM_AUTH_UPDATED'] = 'Oprávnění fóra byly aktualizovány';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Použít na podfóra';
 
 $lang['AUTH_UPDATED'] = 'Oprávnění byla aktualizována';
 $lang['AUTH_GENERAL_ERROR'] = 'Nelze aktualizovat status administrátora';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'kolik nahráli za posledních 30 dní',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Statistiky torrentů';
+$lang['TRACKER_STATS_TITLE'] = 'Statistiky trackeru';
+$lang['TORRENTS'] = 'Torrenty';
+$lang['PEERS'] = 'Peerů';
+$lang['CLIENTS'] = 'Klientů';
 
 $lang['NEW_POLL_START'] = 'Hlasování povoleno';
 $lang['NEW_POLL_END'] = 'Průzkum dokončen';

@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Poziom użytkownika.';
 $lang['AUTH_USER'] = 'Użytkownik';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Uprawnienia forum zostały zaktualizowane';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Zastosuj do podfora';
 
 $lang['AUTH_UPDATED'] = 'Uprawnienia zostały zaktualizowane';
 $lang['AUTH_GENERAL_ERROR'] = 'Nie można zaktualizować statusu administratora';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Ile uploaders w ciągu ostatnich 30 dni.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Statystyki torrentów';
+$lang['TRACKER_STATS_TITLE'] = 'Statystyki trackera';
+$lang['TORRENTS'] = 'Torrenty';
+$lang['PEERS'] = 'Uczestnicy';
+$lang['CLIENTS'] = 'Klienci';
 
 $lang['NEW_POLL_START'] = 'Ankieta jest włączona.';
 $lang['NEW_POLL_END'] = 'Ankieta zakończona.';

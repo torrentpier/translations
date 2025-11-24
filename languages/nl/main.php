@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Gebruiker Niveau';
 $lang['AUTH_USER'] = 'Gebruiker';
 $lang['AUTH_ADMIN'] = 'Beheerder';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum permissies zijn bijgewerkt';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Toepassen op subforums';
 
 $lang['AUTH_UPDATED'] = 'Machtigingen zijn bijgewerkt';
 $lang['AUTH_GENERAL_ERROR'] = 'Kon admin-status niet bijwerken';
@@ -2458,8 +2458,8 @@ $lang['TR_STATS'] = [
     7 => 'How many uploaders over the last 30 days.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Torrentstatistieken';
+$lang['TRACKER_STATS_TITLE'] = 'Trackerstatistieken';
 $lang['TORRENTS'] = 'Torrents';
 $lang['PEERS'] = 'Peers';
 $lang['CLIENTS'] = 'Clients';

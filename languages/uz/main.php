@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Foydalanuvchi darajasi';
 $lang['AUTH_USER'] = 'Foydalanuvchi';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum ruxsatlari yangilandi';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Subforumlarga qo\'llash';
 
 $lang['AUTH_UPDATED'] = 'O\'zgartirishlar yangilandi';
 $lang['AUTH_GENERAL_ERROR'] = 'Boshqaruv maqomini yangilash mumkin emas';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Oxirgi 30 kun ichida qancha yuklovchilar.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent statistikasi';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker statistikasi';
+$lang['TORRENTS'] = 'Torrentlar';
+$lang['PEERS'] = 'Ishtirokchilar';
+$lang['CLIENTS'] = 'Mijozlar';
 
 $lang['NEW_POLL_START'] = 'Ovoz yoqilgan.';
 $lang['NEW_POLL_END'] = 'Ovoz yakunlandi.';

@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'ברמת המשתמש';
 $lang['AUTH_USER'] = 'המשתמש';
 $lang['AUTH_ADMIN'] = 'מנהל';
 $lang['FORUM_AUTH_UPDATED'] = 'פורום הרשאות עודכנו';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'החל על פורומים משניים';
 
 $lang['AUTH_UPDATED'] = 'הרשאות עודכנו';
 $lang['AUTH_GENERAL_ERROR'] = 'לא ניתן לעדכן את הסטטוס של המנהל';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'כמה טוענים במהלך 30 הימים האחרונים',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'סטטיסטיקת סיקורים';
+$lang['TRACKER_STATS_TITLE'] = 'סטטיסטיקת מעקב';
+$lang['TORRENTS'] = 'סיקורים';
+$lang['PEERS'] = 'עמיתים';
+$lang['CLIENTS'] = 'לקוחות';
 
 $lang['NEW_POLL_START'] = 'הסקר זמין';
 $lang['NEW_POLL_END'] = 'הסקר הושלם';

@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Vartotojo lygis';
 $lang['AUTH_USER'] = 'Vartotojas';
 $lang['AUTH_ADMIN'] = 'Administratorius';
 $lang['FORUM_AUTH_UPDATED'] = 'Forumo teisės buvo atnaujintos';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Taikyti pogrupiams';
 
 $lang['AUTH_UPDATED'] = 'Leidimai buvo atnaujinti';
 $lang['AUTH_GENERAL_ERROR'] = 'Nepavyko atnaujinti administratoriaus statuso';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'kiek vartotojų per paskutines 30 dienų.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrentų statistika';
+$lang['TRACKER_STATS_TITLE'] = 'Seklio statistika';
+$lang['TORRENTS'] = 'Torrentai';
+$lang['PEERS'] = 'Tinklo bendrininkai';
+$lang['CLIENTS'] = 'Klientai';
 
 $lang['NEW_POLL_START'] = 'Apklausa leista.';
 $lang['NEW_POLL_END'] = 'Apklausa baigta.';

@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Ниво на потребителя';
 $lang['AUTH_USER'] = 'Потребител';
 $lang['AUTH_ADMIN'] = 'Администратор';
 $lang['FORUM_AUTH_UPDATED'] = 'Разрешение на форума са били обновени';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Приложи към подфоруми';
 
 $lang['AUTH_UPDATED'] = 'Разрешения са били актуализирани';
 $lang['AUTH_GENERAL_ERROR'] = 'Не е възможно да се актуализира статусът на администратора';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'колко аплоадеров за последните 30 дни',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Статистика за торенти';
+$lang['TRACKER_STATS_TITLE'] = 'Статистика на тракера';
+$lang['TORRENTS'] = 'Торенти';
+$lang['PEERS'] = 'Пиъри';
+$lang['CLIENTS'] = 'Клиенти';
 
 $lang['NEW_POLL_START'] = 'Проучването е активирано.';
 $lang['NEW_POLL_END'] = 'Анкета приключи';

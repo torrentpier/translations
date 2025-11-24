@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Korisnički nivo';
 $lang['AUTH_USER'] = 'Korisnik';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Dozvole foruma su ažurirane';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Primijeni na podforume';
 
 $lang['AUTH_UPDATED'] = 'Dozvole su ažurirane';
 $lang['AUTH_GENERAL_ERROR'] = 'Nije moguće ažurirati status administratora';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'koliko uploaders nad zadnjih 30 dana.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Statistika bujica';
+$lang['TRACKER_STATS_TITLE'] = 'Statistika trackera';
+$lang['TORRENTS'] = 'Bujice';
+$lang['PEERS'] = 'Čvorovi';
+$lang['CLIENTS'] = 'Klijenti';
 
 $lang['NEW_POLL_START'] = 'Anketa je omogućila.';
 $lang['NEW_POLL_END'] = 'Anketu završiti.';

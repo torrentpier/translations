@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Niveau d\'utilisateur.';
 $lang['AUTH_USER'] = 'Utilisateur.';
 $lang['AUTH_ADMIN'] = 'Administrateur.';
 $lang['FORUM_AUTH_UPDATED'] = 'Les autorisations du forum ont été mises à jour.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Appliquer aux sous-forums';
 
 $lang['AUTH_UPDATED'] = 'Les autorisations ont été mises à jour.';
 $lang['AUTH_GENERAL_ERROR'] = 'Impossible de mettre à jour le statut admin';
@@ -2458,10 +2458,10 @@ $lang['TR_STATS'] = [
     7 => 'combien de téléchargeurs au cours des 30 derniers jours',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Statistiques des torrents';
+$lang['TRACKER_STATS_TITLE'] = 'Statistiques du tracker';
 $lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
+$lang['PEERS'] = 'Pairs';
 $lang['CLIENTS'] = 'Clients';
 
 $lang['NEW_POLL_START'] = 'Sondage activé';

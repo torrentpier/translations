@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Uporabniški nivo.';
 $lang['AUTH_USER'] = 'Uporabnik.';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum dovoljenja so bila posodobljena.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Uporabi za podforume';
 
 $lang['AUTH_UPDATED'] = 'Dovoljenja so bila posodobljena.';
 $lang['AUTH_GENERAL_ERROR'] = 'Ni bilo mogoče posodobiti statusa skrbnika';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'koliko naložnikov v zadnjih 30 dneh.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Statistika torrentov';
+$lang['TRACKER_STATS_TITLE'] = 'Statistika trackerja';
+$lang['TORRENTS'] = 'Torrenti';
+$lang['PEERS'] = 'Sodelujoči';
+$lang['CLIENTS'] = 'Odjemalci';
 
 $lang['NEW_POLL_START'] = 'Anketa omogočeno';
 $lang['NEW_POLL_END'] = 'Anketa končana';

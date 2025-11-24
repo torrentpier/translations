@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'مستوى المستخدم';
 $lang['AUTH_USER'] = 'المستخدم';
 $lang['AUTH_ADMIN'] = 'مسؤول';
 $lang['FORUM_AUTH_UPDATED'] = 'تم تحديث أذونات المنتدى.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'تطبيق على المنتديات الفرعية';
 
 $lang['AUTH_UPDATED'] = 'أذونات تم تحديث';
 $lang['AUTH_GENERAL_ERROR'] = 'لم يكن ممكنًا تحديث حالة المسؤول';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'كم من ناشري خلال آخر 30 يومًا؟',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'إحصائيات التورنت';
+$lang['TRACKER_STATS_TITLE'] = 'إحصائيات المتتبع';
+$lang['TORRENTS'] = 'التورنت';
+$lang['PEERS'] = 'الأقران';
+$lang['CLIENTS'] = 'العملاء';
 
 $lang['NEW_POLL_START'] = 'استطلاع تمكين';
 $lang['NEW_POLL_END'] = 'استطلاع انتهى';
