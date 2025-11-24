@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Επίπεδο Χρήστη.';
 $lang['AUTH_USER'] = 'Χρήστη.';
 $lang['AUTH_ADMIN'] = 'Διαχειριστής.';
 $lang['FORUM_AUTH_UPDATED'] = 'Τα δικαιώματα του φόρουμ έχουν ενημερωθεί.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Εφαρμογή στα υποφόρουμς';
 
 $lang['AUTH_UPDATED'] = 'Τα δικαιώματα έχουν ενημερωθεί.';
 $lang['AUTH_GENERAL_ERROR'] = 'Δεν ήταν δυνατή η ενημέρωση της κατάστασης διαχειριστή';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Πόσοι μεταφορτωτές τις τελευταίες 30 ημέρες.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Στατιστικά Torrent';
+$lang['TRACKER_STATS_TITLE'] = 'Στατιστικά Tracker';
 $lang['TORRENTS'] = 'Torrents';
 $lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['CLIENTS'] = 'Πελάτες';
 
 $lang['NEW_POLL_START'] = 'Δημοσκόπηση ενεργοποιημένη';
 $lang['NEW_POLL_END'] = 'Δημοσκόπηση ολοκληρώθηκε';
