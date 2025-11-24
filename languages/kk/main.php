@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'соңғы 30 күнде жүктеушілер.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Сауалнама қосылған.';
 $lang['NEW_POLL_END'] = 'Сауалнама аяқталды.';
 $lang['NEW_POLL_ENDED'] = 'Бұл сауалнама аяқталды.';
