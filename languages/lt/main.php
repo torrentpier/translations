@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'kiek vartotojų per paskutines 30 dienų.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Apklausa leista.';
 $lang['NEW_POLL_END'] = 'Apklausa baigta.';
 $lang['NEW_POLL_ENDED'] = 'Ši apklausa jau atlikta.';
