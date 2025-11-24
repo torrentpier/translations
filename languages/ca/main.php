@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Nivell d\'usuari.';
 $lang['AUTH_USER'] = 'Usuari.';
 $lang['AUTH_ADMIN'] = 'Administrador.';
 $lang['FORUM_AUTH_UPDATED'] = 'Els permisos del fòrum s\'han actualitzat.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Aplica als subfòrums';
 
 $lang['AUTH_UPDATED'] = 'Els permisos s\'han actualitzat.';
 $lang['AUTH_GENERAL_ERROR'] = 'No es va poder actualitzar l\'estat d\'administració';
@@ -2458,10 +2458,10 @@ $lang['TR_STATS'] = [
     7 => 'Com molts uploaders en els últims 30 dies.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Estadístiques de torrents';
+$lang['TRACKER_STATS_TITLE'] = 'Estadístiques del tracker';
 $lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
+$lang['PEERS'] = 'Punts';
 $lang['CLIENTS'] = 'Clients';
 
 $lang['NEW_POLL_START'] = 'Enquesta activada.';
