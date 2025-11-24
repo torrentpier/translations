@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'La nivel de utilizator';
 $lang['AUTH_USER'] = 'Utilizator';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Permisiunile forumului au fost actualizate';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Aplică pentru subforumuri';
 
 $lang['AUTH_UPDATED'] = 'Permisiunile au fost actualizate';
 $lang['AUTH_GENERAL_ERROR'] = 'Nu s-a putut actualiza statutul administratorului';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Câte uploaders în ultimele 30 de zile.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Statistici Torrent';
+$lang['TRACKER_STATS_TITLE'] = 'Statistici Tracker';
+$lang['TORRENTS'] = 'Torrente';
+$lang['PEERS'] = 'Utilizatori conectați';
+$lang['CLIENTS'] = 'Clienți';
 
 $lang['NEW_POLL_START'] = 'Sondaj activat';
 $lang['NEW_POLL_END'] = 'Sondaj completat';
