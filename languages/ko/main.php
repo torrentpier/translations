@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = '사용자 레벨';
 $lang['AUTH_USER'] = '사용자';
 $lang['AUTH_ADMIN'] = '관리자';
 $lang['FORUM_AUTH_UPDATED'] = '포럼 권한이 업데이트되었습니다.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = '하위포럼에 적용하기';
 
 $lang['AUTH_UPDATED'] = '권한이 업데이트되었습니다.';
 $lang['AUTH_GENERAL_ERROR'] = '관리자 상태를 업데이트할 수 없습니다';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => '지난 30일 동안의 업로더 수.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = '토렌트 통계';
+$lang['TRACKER_STATS_TITLE'] = '트래커 통계';
+$lang['TORRENTS'] = '토렌트';
+$lang['PEERS'] = '피어';
+$lang['CLIENTS'] = '클라이언트';
 
 $lang['NEW_POLL_START'] = '폴이 사용 중입니다.';
 $lang['NEW_POLL_END'] = '폴이 완료되었습니다.';
