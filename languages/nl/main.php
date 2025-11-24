@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'How many uploaders over the last 30 days.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Poll ingeschakeld';
 $lang['NEW_POLL_END'] = 'Poll ingevuld';
 $lang['NEW_POLL_ENDED'] = 'Deze poll is reeds afgerond';
