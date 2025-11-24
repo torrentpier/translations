@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'hur många uppladdare under den senaste 30 dagar.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Enkät aktiverad';
 $lang['NEW_POLL_END'] = 'Omröstning avslutad';
 $lang['NEW_POLL_ENDED'] = 'Denna enkät har redan avslutats';
