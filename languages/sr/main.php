@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Нивоу Корисника';
 $lang['AUTH_USER'] = 'Корисник';
 $lang['AUTH_ADMIN'] = 'Администратор';
 $lang['FORUM_AUTH_UPDATED'] = 'Дозволе форуму су ажурирани';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Примени на подфоруме';
 
 $lang['AUTH_UPDATED'] = 'Дозволе су ажурирани';
 $lang['AUTH_GENERAL_ERROR'] = 'Није било могуће променити статус администратора';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'колико аплаудера у последњих 30 дана.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Статистика торената';
+$lang['TRACKER_STATS_TITLE'] = 'Статистика трекера';
+$lang['TORRENTS'] = 'Торенти';
+$lang['PEERS'] = 'Учесници';
+$lang['CLIENTS'] = 'Клијенти';
 
 $lang['NEW_POLL_START'] = 'Анкета је укључена.';
 $lang['NEW_POLL_END'] = 'Анкета је завршена.';
