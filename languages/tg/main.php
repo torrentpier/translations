@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'сатҳи корбар';
 $lang['AUTH_USER'] = 'Истифода';
 $lang['AUTH_ADMIN'] = 'маъмур';
 $lang['FORUM_AUTH_UPDATED'] = 'Иҷозатҳои Форуми нав карда шудаанд.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Барои зерфорумҳо татбиқ кунед';
 
 $lang['AUTH_UPDATED'] = 'Рухсат даркор кардан.';
 $lang['AUTH_GENERAL_ERROR'] = 'Барои нав кардани статуси администратор, муваффақ нашуд.';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Чанд uploaders ки дар 30 рӯзи охир.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Оморҳои ҷӯйе';
+$lang['TRACKER_STATS_TITLE'] = 'Оморҳои трекер';
+$lang['TORRENTS'] = 'Ҷӯйҳо';
+$lang['PEERS'] = 'Ҳампайвандҳо';
+$lang['CLIENTS'] = 'Муштариён';
 
 $lang['NEW_POLL_START'] = 'Назарпурсӣ фаъол';
 $lang['NEW_POLL_END'] = 'Назарпурсӣ анҷом';
