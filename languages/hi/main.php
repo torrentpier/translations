@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'उपयोगकर्ता स्तर';
 $lang['AUTH_USER'] = 'उपयोगकर्ता';
 $lang['AUTH_ADMIN'] = 'प्रशासक';
 $lang['FORUM_AUTH_UPDATED'] = 'फोरम अनुमतियों को अपडेट किया गया है';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'उपफोरमों पर लागू करें';
 
 $lang['AUTH_UPDATED'] = 'अनुमतियों को अद्यतन किया गया है';
 $lang['AUTH_GENERAL_ERROR'] = 'व्यवस्थापक स्थिति अपडेट नहीं कर सका';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'पिछले 30 दिनों में कितने अपलोडर',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'टॉरेन्ट सांख्यिकी';
+$lang['TRACKER_STATS_TITLE'] = 'ट्रैकर सांख्यिकी';
+$lang['TORRENTS'] = 'टॉरेन्ट्स';
+$lang['PEERS'] = 'पीयर्स';
+$lang['CLIENTS'] = 'क्लाइंट';
 
 $lang['NEW_POLL_START'] = 'मतदान सक्षम';
 $lang['NEW_POLL_END'] = 'मतदान सक्रिय किया गया।';
