@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'पिछले 30 दिनों में कितने अपलोडर',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'मतदान सक्षम';
 $lang['NEW_POLL_END'] = 'मतदान सक्रिय किया गया।';
 $lang['NEW_POLL_ENDED'] = 'यह मतदान पहले से ही पूरा हो चुका है।';
