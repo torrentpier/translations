@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'ユーザーレベル';
 $lang['AUTH_USER'] = 'ユーザー';
 $lang['AUTH_ADMIN'] = '管理者';
 $lang['FORUM_AUTH_UPDATED'] = 'フォーラムのアクセス権が更新されました';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'サブフォーラムに適用する';
 
 $lang['AUTH_UPDATED'] = '権限が更新されました';
 $lang['AUTH_GENERAL_ERROR'] = '管理者ステータスを更新できませんでした。';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => '過去30日間のアップローダーの数はどうなりますか。',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'トレント統計';
+$lang['TRACKER_STATS_TITLE'] = 'トラッカー統計';
+$lang['TORRENTS'] = 'トレント';
+$lang['PEERS'] = 'ピア';
+$lang['CLIENTS'] = 'クライアント';
 
 $lang['NEW_POLL_START'] = '調査可能';
 $lang['NEW_POLL_END'] = '調査完了';
