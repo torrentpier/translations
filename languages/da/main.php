@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Bruger niveau';
 $lang['AUTH_USER'] = 'Bruger';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum tilladelser er blevet opdateret';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Anvend på underfora';
 
 $lang['AUTH_UPDATED'] = 'Tilladelser er blevet opdateret';
 $lang['AUTH_GENERAL_ERROR'] = 'Kunne ikke opdatere administratorstatus';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'hvor mange uploadere i løbet af de sidste 30 dage',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
+$lang['TORRENT_STATS_TITLE'] = 'Torrentstatistik';
+$lang['TRACKER_STATS_TITLE'] = 'Trackerstatistik';
+$lang['TORRENTS'] = 'Torrenter';
 $lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['CLIENTS'] = 'Klienter';
 
 $lang['NEW_POLL_START'] = 'Meningsmåling aktiveret';
 $lang['NEW_POLL_END'] = 'Afstemning afsluttet';
