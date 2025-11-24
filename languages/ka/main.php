@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'მომხმარებლის დონე.';
 $lang['AUTH_USER'] = 'მომხმარებელი';
 $lang['AUTH_ADMIN'] = 'ადმინისტრატორი';
 $lang['FORUM_AUTH_UPDATED'] = 'ფორუმი ნებართვები უკვე განახლებულია';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'გამოყენება ქვედასახებლებში';
 
 $lang['AUTH_UPDATED'] = 'უფლებები უკვე განახლებულია';
 $lang['AUTH_GENERAL_ERROR'] = 'არ შეიძლება განვაახლოს ადმინისტრაციის სტატუსი';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'რამდენი მართლა ღმერთი ბოლო 30 დღის განმავლობაში?',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent-ის სტატისტიკა';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker-ის სტატისტიკა';
+$lang['TORRENTS'] = 'ტორენტები';
+$lang['PEERS'] = 'მონაწილეები';
+$lang['CLIENTS'] = 'კლაიენტები';
 
 $lang['NEW_POLL_START'] = 'გამოკითხვა ჩართულია';
 $lang['NEW_POLL_END'] = 'გამოკითხვა დასრულდა';
