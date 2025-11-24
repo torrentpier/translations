@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Benutzerebene';
 $lang['AUTH_USER'] = 'Benutzer';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forums-Berechtigungen wurden aktualisiert';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Auf Unterforen anwenden';
 
 $lang['AUTH_UPDATED'] = 'Berechtigungen wurden aktualisiert';
 $lang['AUTH_GENERAL_ERROR'] = 'Konnte den Administrationsstatus nicht aktualisieren';
@@ -2458,8 +2458,8 @@ $lang['TR_STATS'] = [
     7 => 'wie viele Uploader in den letzten 30 Tagen',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent-Statistiken';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker-Statistiken';
 $lang['TORRENTS'] = 'Torrents';
 $lang['PEERS'] = 'Peers';
 $lang['CLIENTS'] = 'Clients';
