@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'Ile uploaders w ciągu ostatnich 30 dni.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Ankieta jest włączona.';
 $lang['NEW_POLL_END'] = 'Ankieta zakończona.';
 $lang['NEW_POLL_ENDED'] = 'Ta ankieta została już zakończona.';
