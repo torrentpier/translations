@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'İstifadəçi səviyyəsi';
 $lang['AUTH_USER'] = 'İstifadəçi';
 $lang['AUTH_ADMIN'] = 'İdarəçi';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum icazələri yeniləndi';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'İcazələr yeniləndi';
 $lang['AUTH_GENERAL_ERROR'] = 'İdarəçi statusunu güncəlləmək mümkün olmadı';

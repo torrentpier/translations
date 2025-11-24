@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Uporabniški nivo.';
 $lang['AUTH_USER'] = 'Uporabnik.';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum dovoljenja so bila posodobljena.';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Dovoljenja so bila posodobljena.';
 $lang['AUTH_GENERAL_ERROR'] = 'Ni bilo mogoče posodobiti statusa skrbnika';

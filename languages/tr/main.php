@@ -1570,6 +1570,7 @@ $lang['USER_LEVEL'] = 'Kullanıcı seviyesi';
 $lang['AUTH_USER'] = 'Kullanıcı';
 $lang['AUTH_ADMIN'] = 'Yönetici';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum izinleri güncellendi';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'İzinler güncellendi';
 $lang['AUTH_GENERAL_ERROR'] = 'Yönetici durumu güncellenemedi';

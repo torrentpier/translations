@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Përdoruesi i Nivelit';
 $lang['AUTH_USER'] = 'Përdorues';
 $lang['AUTH_ADMIN'] = 'Administratori';
 $lang['FORUM_AUTH_UPDATED'] = 'Lejet e Forumit janë përditësuar';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Lejet kanë qenë të përditësuara';
 $lang['AUTH_GENERAL_ERROR'] = 'Nuk mund të përditësohet statusi i administratorit';

@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Cấp độ người dùng';
 $lang['AUTH_USER'] = 'Người dùng';
 $lang['AUTH_ADMIN'] = 'Quản trị viên';
 $lang['FORUM_AUTH_UPDATED'] = 'Diễn đàn đã được cập nhật quyền';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Quyền đã được cập nhật';
 $lang['AUTH_GENERAL_ERROR'] = 'Không thể cập nhật trạng thái quản trị viên';

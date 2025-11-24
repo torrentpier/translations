@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Korisnički nivo';
 $lang['AUTH_USER'] = 'Korisnik';
 $lang['AUTH_ADMIN'] = 'Administrator';
 $lang['FORUM_AUTH_UPDATED'] = 'Dozvole foruma su ažurirane';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Dozvole su ažurirane';
 $lang['AUTH_GENERAL_ERROR'] = 'Nije moguće ažurirati status administratora';

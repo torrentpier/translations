@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Gebruikersvlak';
 $lang['AUTH_USER'] = 'Gebruiker';
 $lang['AUTH_ADMIN'] = 'Administrateur';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum toestemmings is opgedateer';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Magtigings is opgedateer';
 $lang['AUTH_GENERAL_ERROR'] = 'Kon nie admin status opdateer nie';

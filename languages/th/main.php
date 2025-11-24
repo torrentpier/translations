@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'ระดับผู้ใช้';
 $lang['AUTH_USER'] = 'ผู้ใช้';
 $lang['AUTH_ADMIN'] = 'ผู้ดูแลระบบ';
 $lang['FORUM_AUTH_UPDATED'] = 'ฟอรัมมีการปรับปรุงสิทธิ์แล้ว';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'สิทธิ์ได้รับการปรับปรุงแล้ว';
 $lang['AUTH_GENERAL_ERROR'] = 'ไม่สามารถอัปเดตสถานะผู้ดูแลระบบ';

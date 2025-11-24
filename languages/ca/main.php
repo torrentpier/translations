@@ -1569,6 +1569,7 @@ $lang['USER_LEVEL'] = 'Nivell d\'usuari.';
 $lang['AUTH_USER'] = 'Usuari.';
 $lang['AUTH_ADMIN'] = 'Administrador.';
 $lang['FORUM_AUTH_UPDATED'] = 'Els permisos del fòrum s\'han actualitzat.';
+$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
 
 $lang['AUTH_UPDATED'] = 'Els permisos s\'han actualitzat.';
 $lang['AUTH_GENERAL_ERROR'] = 'No es va poder actualitzar l\'estat d\'administració';
