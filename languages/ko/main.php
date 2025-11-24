@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => '지난 30일 동안의 업로더 수.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = '폴이 사용 중입니다.';
 $lang['NEW_POLL_END'] = '폴이 완료되었습니다.';
 $lang['NEW_POLL_ENDED'] = '이 투표는 이미 완료되었습니다.';
