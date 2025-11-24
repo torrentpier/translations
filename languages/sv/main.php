@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Användar nivå.';
 $lang['AUTH_USER'] = 'Användare.';
 $lang['AUTH_ADMIN'] = 'Administratör.';
 $lang['FORUM_AUTH_UPDATED'] = 'Forumbehörigheter har uppdaterats.';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Tillämpa på underforum';
 
 $lang['AUTH_UPDATED'] = 'Behörigheter har uppdaterats.';
 $lang['AUTH_GENERAL_ERROR'] = 'Kunde inte uppdatera administrationsstatus';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'hur många uppladdare under den senaste 30 dagar.',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'Torrentstatistik';
+$lang['TRACKER_STATS_TITLE'] = 'Trackerstatistik';
+$lang['TORRENTS'] = 'Torrenter';
+$lang['PEERS'] = 'Peerar';
+$lang['CLIENTS'] = 'Klienter';
 
 $lang['NEW_POLL_START'] = 'Enkät aktiverad';
 $lang['NEW_POLL_END'] = 'Omröstning avslutad';
