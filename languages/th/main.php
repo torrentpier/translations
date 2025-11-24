@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'ระดับผู้ใช้';
 $lang['AUTH_USER'] = 'ผู้ใช้';
 $lang['AUTH_ADMIN'] = 'ผู้ดูแลระบบ';
 $lang['FORUM_AUTH_UPDATED'] = 'ฟอรัมมีการปรับปรุงสิทธิ์แล้ว';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'ใช้กับซับฟอรั่ม';
 
 $lang['AUTH_UPDATED'] = 'สิทธิ์ได้รับการปรับปรุงแล้ว';
 $lang['AUTH_GENERAL_ERROR'] = 'ไม่สามารถอัปเดตสถานะผู้ดูแลระบบ';
@@ -2459,11 +2459,11 @@ $lang['TR_STATS'] = [
     7 => 'ผู้ทำการอัพโหลดกี่คนในช่วง 30 วันที่ผ่านมา?',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['TORRENT_STATS_TITLE'] = 'สถิติทอร์เรนต์';
+$lang['TRACKER_STATS_TITLE'] = 'สถิติแทรคเกอร์';
+$lang['TORRENTS'] = 'ทอร์เรนต์';
+$lang['PEERS'] = 'เพียร์';
+$lang['CLIENTS'] = 'ไคลเอนต์';
 
 $lang['NEW_POLL_START'] = 'เปิดใช้งานการตรวจสอบ';
 $lang['NEW_POLL_END'] = 'การตรวจสอบเสร็จสมบูรณ์';
