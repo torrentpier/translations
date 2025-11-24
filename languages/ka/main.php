@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'რამდენი მართლა ღმერთი ბოლო 30 დღის განმავლობაში?',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'გამოკითხვა ჩართულია';
 $lang['NEW_POLL_END'] = 'გამოკითხვა დასრულდა';
 $lang['NEW_POLL_ENDED'] = 'ამ გამოკითხვაში უკვე დასრულებულია';
