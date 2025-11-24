@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'bao nhiêu người dùng đã tải lên trong vòng 30 ngày',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Thăm dò được kích hoạt';
 $lang['NEW_POLL_END'] = 'Thăm dò hoàn thành';
 $lang['NEW_POLL_ENDED'] = 'Thăm dò ý kiến này đã được hoàn thành';
