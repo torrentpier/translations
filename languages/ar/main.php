@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'كم من ناشري خلال آخر 30 يومًا؟',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'استطلاع تمكين';
 $lang['NEW_POLL_END'] = 'استطلاع انتهى';
 $lang['NEW_POLL_ENDED'] = 'هذا الاستطلاع قد انتهى بالفعل';
