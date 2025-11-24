@@ -1569,7 +1569,7 @@ $lang['USER_LEVEL'] = 'Gebruikersvlak';
 $lang['AUTH_USER'] = 'Gebruiker';
 $lang['AUTH_ADMIN'] = 'Administrateur';
 $lang['FORUM_AUTH_UPDATED'] = 'Forum toestemmings is opgedateer';
-$lang['APPLY_TO_SUBFORUMS'] = 'Apply to subforums';
+$lang['APPLY_TO_SUBFORUMS'] = 'Pas toe op subforums';
 
 $lang['AUTH_UPDATED'] = 'Magtigings is opgedateer';
 $lang['AUTH_GENERAL_ERROR'] = 'Kon nie admin status opdateer nie';
@@ -2458,11 +2458,11 @@ $lang['TR_STATS'] = [
     7 => 'Hoeveel uploaders die afgelope 30 dae',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
-$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
-$lang['TORRENTS'] = 'Torrents';
+$lang['TORRENT_STATS_TITLE'] = 'Torrent-statistiek';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker-statistiek';
+$lang['TORRENTS'] = 'Torrente';
 $lang['PEERS'] = 'Peers';
-$lang['CLIENTS'] = 'Clients';
+$lang['CLIENTS'] = 'Kliënte';
 
 $lang['NEW_POLL_START'] = 'Poll aangeskakel';
 $lang['NEW_POLL_END'] = 'Poll voltooi';
