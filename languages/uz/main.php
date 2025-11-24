@@ -2458,6 +2458,12 @@ $lang['TR_STATS'] = [
     7 => 'Oxirgi 30 kun ichida qancha yuklovchilar.',
 ];
 
+$lang['TORRENT_STATS_TITLE'] = 'Torrent Statistics';
+$lang['TRACKER_STATS_TITLE'] = 'Tracker Statistics';
+$lang['TORRENTS'] = 'Torrents';
+$lang['PEERS'] = 'Peers';
+$lang['CLIENTS'] = 'Clients';
+
 $lang['NEW_POLL_START'] = 'Ovoz yoqilgan.';
 $lang['NEW_POLL_END'] = 'Ovoz yakunlandi.';
 $lang['NEW_POLL_ENDED'] = 'Bu so\'rov allaqachon yakunlandi';
