@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = '申し訳ありませんが、このアタッ
 $lang['DESCRIPTION'] = '説明'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'ダウンロード'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'ファイルサイズ';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = '最大ファイルサイズ';
+$lang['ALLOWED_EXTENSIONS'] = '許可された拡張子';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'ストリーム';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'ストリームリンクをクリップボードに
 $lang['M3U_NOT_SUPPORTED'] = 'このファイルはブラウザで再生できません...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'ffprobeはこのコーデックについてのデータを返すことができないようです...';
 $lang['M3U_NOTICE'] = '一部のブラウザは特定のビデオフォーマットの再生をサポートしていません。この場合、.m3uファイルをダウンロードし、サードパーティ製のプレーヤーを使用して再生できます。';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServerは利用できません';
+$lang['TORRSERVER_INVALID_REQUEST'] = '無効なリクエストパラメータ';
 
 $lang['ATTACHMENT'] = '添付';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = '添付ファイルを追加';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = '添付ファイルを投稿に追加したくない場合は、フィールドを空白のままにしてください。';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = '添付ファイルを更新';
 $lang['FILENAME'] = 'ファイル名';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = '削除';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'ダウンロードまたは表示するための添付ファイルを選択していません。';
 $lang['ERROR_NO_ATTACHMENT'] = '選択した添付ファイルは、もはや存在しません。';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = '1日のダウンロード制限を超えました。明日もう一度お試しください。';
 
 //bt
 $lang['BT_REG_YES'] = '登録されました。';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'ディレクトリの崩壊';
 $lang['EXPAND'] = '展開';
 $lang['SWITCH'] = 'スイッチ';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'ウィンドウのサイズを増減する';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'トピック識別子がありません';
+$lang['TOR_NOT_FOUND'] = 'サーバーにファイルがありません';
 $lang['ERROR_BUILD'] = 'このtorrentファイルの内容はサイト上で表示できません（ファイルのリストを構築できませんでした）';
 $lang['TORFILE_INVALID'] = 'Torrentファイルが破損しました';
 

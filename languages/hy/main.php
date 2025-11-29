@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'You have used an incorrect structure for your
 $lang['DESCRIPTION'] = 'Նկարագրություն'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Ներբեռնել'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Ֆայլի չափը';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Ֆայլի առավելագույն չափը';
+$lang['ALLOWED_EXTENSIONS'] = 'Թույլատրուած ընդարձակումներ';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Աղմուկ';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Պտտել թողարկված բազմապիսի հ
 $lang['M3U_NOT_SUPPORTED'] = 'Այս ֆայլը չի կարող խաղացվել բրաուզերում...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Հանդես է գալիս, որ ffprobe-ը չի կարող վերադարձնել տվյալ այս կոդեկի մասին...';
 $lang['M3U_NOTICE'] = 'Մի շարք բրաուզերներ չեն աջակցում որոշ տեսահոլովակների ձևաչափերի խաղարկման։ Այս դեպքում կարող եք ստանալ.m3u ֆայլը և նվագել այն երրորդ կողմի խաղացողով';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer-ը հասանելի չէ';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Հարցման անհամապատասխան պարամետրեր';
 
 $lang['ATTACHMENT'] = 'Ներդրումները';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'You have used an incorrect structure for your translation, please check the grammar and fluency.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'You have used an incorrect structure for your translation, please check the grammar and fluency.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Թարմացնել կցումը';
 $lang['FILENAME'] = 'You have used an incorrect structure for your translation, please check the grammar and fluency.';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'You have used an incorrect structure for your tran
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Դուք չեք ընտրել հավելված բեռնելու կամ դիտելու համար։';
 $lang['ERROR_NO_ATTACHMENT'] = 'Ընտրված ներդրումն այլևս գոյություն չունի։';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Ամսական ներբեռնումների սահմանը հաղթահարված է։ Խնդրում ենք փորձել վաղը։';
 
 //bt
 $lang['BT_REG_YES'] = 'Գրանցված է';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Կատալոգը փլուզել';
 $lang['EXPAND'] = 'Ծավալել';
 $lang['SWITCH'] = 'Switch-ը';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Ավելացնել/պակասեցնել պատուհանը';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Առանց թեմայի նույնականի';
+$lang['TOR_NOT_FOUND'] = 'Ֆայլը բացակայում է սերվերից';
 $lang['ERROR_BUILD'] = 'Այս torrent-ֆայլի բովանդակությունը չի կարող դիտվել կայքում (ֆայլերի ցանկը կազմելու հնարավորություն չկա)';
 $lang['TORFILE_INVALID'] = 'Torrent ֆայլը վնասված է';
 

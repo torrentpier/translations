@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Кешіріңіз, бірақ Сіз осы 
 $lang['DESCRIPTION'] = 'сипаттамасы'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'жүктеу'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Файл өлшемі';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Максималды файл өлшемі';
+$lang['ALLOWED_EXTENSIONS'] = 'Рұқсат етілген кеңейтімдер';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Ағын';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Ағын сілтемесін клипбордқа 
 $lang['M3U_NOT_SUPPORTED'] = 'Бұл файл браузерде ойнатылмайды...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'ffprobe бұл кодек туралы деректерді қайтаруға тапшылық болуы мүмкін...';
 $lang['M3U_NOTICE'] = 'Кейбір браузерлер белгілі бір бейне форматтарын ойнатуды қолдамайды. Мұндай жағдайда, сіз .m3u файлды жүктеп, үшінші тарап плеерін пайдаланып ойната аласыз';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer қолжетімсіз';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Сұраныс параметрлері жарамсыз';
 
 $lang['ATTACHMENT'] = 'Тіркемелер';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Тіркемені қосу';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Егер сіз постқа тіркемені қосқыңыз келмесе, өрістерді бос қалдырыңыз.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Тіркемені жаңарту';
 $lang['FILENAME'] = 'Файл атауы';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Тіркемені жою.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Сіз жүктеу немесе көру үшін тіркемені таңдамадыңыз.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Таңдалған тіркеме енді жоқ.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Күнделікті жүктеу лимиті асып кетті. Таңертең қайта көріңіз.';
 
 //bt
 $lang['BT_REG_YES'] = 'тіркелген';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Collapse каталогы';
 $lang['EXPAND'] = 'кеңейту';
 $lang['SWITCH'] = 'қосқыш';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Терезені ұлғайту/азайту';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Тақырып идентификаторы жетіспейді';
+$lang['TOR_NOT_FOUND'] = 'Файл серверде жоқ';
 $lang['ERROR_BUILD'] = 'Бұл торрент файл мазмұны сайтында көру мүмкін емес (ол файлдар тізімін салу мүмкін емес еді)';
 $lang['TORFILE_INVALID'] = 'Torrent файл бүлінген';
 

@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Üzgünüm ama bu eklentiyi görüntülemek v
 $lang['DESCRIPTION'] = 'Açıklama'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'İndir'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Dosya boyutu';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maksimum dosya boyutu';
+$lang['ALLOWED_EXTENSIONS'] = 'İzin verilen uzantılar';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Akış';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Akış bağlantısını panoya kopyala';
 $lang['M3U_NOT_SUPPORTED'] = 'Bu dosya tarayıcıda oynatılamaz...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Görünüşe göre ffprobe bu kodek hakkında veri döndüremeyecek...';
 $lang['M3U_NOTICE'] = 'Bazı tarayıcılar belirli video formatlarının oynatılmasını desteklememektedir. Bu durumda, .m3u dosyasını indirip üçüncü parti bir oynatıcıda oynatabilirsiniz';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer kullanılamıyor';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Geçersiz istek parametreleri';
 
 $lang['ATTACHMENT'] = 'Ekler';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Ek Ekleme';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Eğer Yazınıza Eki eklemek istemiyorsanız, lütfen bu alanları boş bırakın.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Eki Güncelle';
 $lang['FILENAME'] = 'Dosya Adı';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Eki Sil.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'İndirmek veya görüntülemek için bir ek seçilmedi.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Seçilen eklenti artık mevcut değil.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Günlük indirme limiti aşıldı. Lütfen yarın tekrar deneyin.';
 
 //bt
 $lang['BT_REG_YES'] = 'Kayıtlı.';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Dizinini daralt.';
 $lang['EXPAND'] = 'Genişlet.';
 $lang['SWITCH'] = 'Anahtarı.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Pencereyi artırın/azaltın';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Konunun tanımlayıcısı eksik';
+$lang['TOR_NOT_FOUND'] = 'Dosya sunucuda yok';
 $lang['ERROR_BUILD'] = 'Bu torrent dosyasının içeriğini görülemez.';
 $lang['TORFILE_INVALID'] = 'Torrent dosyası bozuk';
 

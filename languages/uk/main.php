@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Вибачте, але Ви не автори
 $lang['DESCRIPTION'] = 'Опис'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Завантажити'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Розмір файлу';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Максимальний розмір файлу';
+$lang['ALLOWED_EXTENSIONS'] = 'Дозволені розширення';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Потік';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Скопіювати посилання на пот
 $lang['M3U_NOT_SUPPORTED'] = 'Цей файл не може відтворюватися у браузері...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Здається, що ffprobe не зможе повернути дані про цей кодек...';
 $lang['M3U_NOTICE'] = 'Деякі браузери не підтримують відтворення певних відеоформатів. У такому випадку ви можете завантажити файл .m3u і відтворити його за допомогою стороннього плеєра';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer недоступний';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Невірні параметри запиту';
 
 $lang['ATTACHMENT'] = 'Вкладення';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Прикріпити файл';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Якщо Ви не хочете прикріплювати файл до повідомлення, залиште це поле пустим';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Оновити вкладення';
 $lang['FILENAME'] = 'Ім\'я файлу';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Видалити вкладення';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Ви не вибрали вкладення для завантаження або перегляду.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Виділених вкладень більше не існує';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Перевищено щоденний ліміт завантажень. Будь ласка, спробуйте знову завтра.';
 
 //bt
 $lang['BT_REG_YES'] = 'Зареєстрований';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Згорнути теку';
 $lang['EXPAND'] = 'Розгорнути';
 $lang['SWITCH'] = 'Перейти';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Збільшення/зменшення вікна';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Відсутній ідентифікатор теми';
+$lang['TOR_NOT_FOUND'] = 'Файл відсутній на сервері';
 $lang['ERROR_BUILD'] = 'Вміст даного торрент-файлу не може бути переглянуто на сайті (не вдалося вибудувати список файлів)';
 $lang['TORFILE_INVALID'] = 'Торрент-файл пошкоджений';
 

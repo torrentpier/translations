@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Desculpe, mas você não está autorizado a v
 $lang['DESCRIPTION'] = 'Descrição'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Baixar'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Tamanho do arquivo';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Tamanho máximo do arquivo';
+$lang['ALLOWED_EXTENSIONS'] = 'Extensões permitidas';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Copiar link da stream para a área de transferênci
 $lang['M3U_NOT_SUPPORTED'] = 'Este arquivo não pode ser reproduzido no navegador...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Parece que o ffprobe não será capaz de retornar dados sobre este codec...';
 $lang['M3U_NOTICE'] = 'Alguns navegadores não suportam a reprodução de certos formatos de vídeo. Nesse caso, você pode baixar o arquivo .m3u e reproduzi-lo usando um player de terceiros';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer está indisponível';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Parâmetros de solicitação inválidos';
 
 $lang['ATTACHMENT'] = 'Anexos';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Adicionar Anexo';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Se você não quiser adicionar um Anexo ao Post, por favor, deixe os Campos em branco';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Atualizar anexo';
 $lang['FILENAME'] = 'Nome de ficheiro';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Apagar Anexo';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Você ainda não selecionou um anexo para fazer o download ou visualizar.';
 $lang['ERROR_NO_ATTACHMENT'] = 'O Anexo seleccionado não existe mais';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Limite diário de download excedido. Por favor, tente novamente amanhã.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrado';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Colapsar diretório';
 $lang['EXPAND'] = 'Expandir';
 $lang['SWITCH'] = 'Trocar';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Aumentar/diminuir a janela';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Identificador do tópico ausente';
+$lang['TOR_NOT_FOUND'] = 'Arquivo está faltando no servidor';
 $lang['ERROR_BUILD'] = 'O conteúdo deste arquivo torrent não pode ser visto no site (não foi possível construir uma lista de arquivos)';
 $lang['TORFILE_INVALID'] = 'O arquivo torrent está corrompido';
 

@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Ho sentim, però vostè no està autoritzat a
 $lang['DESCRIPTION'] = 'Descripció'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Descarregar'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Mida del fitxer.';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Mida màxima del fitxer';
+$lang['ALLOWED_EXTENSIONS'] = 'Extensions permeses';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Flux';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Copia l\'enllaç del flux al porta-retalls';
 $lang['M3U_NOT_SUPPORTED'] = 'Aquest fitxer no es pot reproduir al navegador...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Sembla que ffprobe no podrà retornar dades sobre aquest còdec...';
 $lang['M3U_NOTICE'] = 'Alguns navegadors no admeten la reproducció de certs formats de vídeo. En tal cas, podeu descarregar el fitxer .m3u i reproduir-lo amb un reproductor de tercers';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer no està disponible';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Paràmetres de la sol·licitud no vàlids';
 
 $lang['ATTACHMENT'] = 'Arxius adjunts';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Afegeix un fitxer adjunt.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Si no voleu afegir un fitxer adjunt a la publicació, si us plau, deixeu els camps en blanc.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Actualitza l\'adjunt';
 $lang['FILENAME'] = 'Nom de fitxer';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Suprimeix l\'adjunt.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'No heu seleccionat un fitxer adjunt per descarregar o visualitzar.';
 $lang['ERROR_NO_ATTACHMENT'] = 'L\'Adjunt seleccionat ja no existeix';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'S\'ha superat el límit de descàrrega diari. Torna-ho a provar demà.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrat';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Col·lapse directori';
 $lang['EXPAND'] = 'Ampliar';
 $lang['SWITCH'] = 'Canviar';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Augmentar/reduir la finestra';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Falta l\'identificador del tema';
+$lang['TOR_NOT_FOUND'] = 'El fitxer no es troba al servidor';
 $lang['ERROR_BUILD'] = 'El contingut d\'aquest fitxer torrent no es pot veure al lloc (no es va poder construir una llista de fitxers)';
 $lang['TORFILE_INVALID'] = 'El fitxer torrent està corrupte';
 

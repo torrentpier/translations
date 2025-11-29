@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'آسف ولكن لا يحق لك عرض أو 
 $lang['DESCRIPTION'] = 'الوصف'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'تحميل'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'حجم الملف';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'أقصى حجم للملف';
+$lang['ALLOWED_EXTENSIONS'] = 'الامتدادات المسموحة';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'بث';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'نسخ رابط البث إلى الحافظة';
 $lang['M3U_NOT_SUPPORTED'] = 'لا يمكن تشغيل هذا الملف في المتصفح...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'يبدو أن ffprobe لن يتمكن من إرجاع بيانات عن هذا الترميز...';
 $lang['M3U_NOTICE'] = 'بعض المتصفحات لا تدعم تشغيل بعض تنسيقات الفيديو. في هذه الحالة، يمكنك تنزيل ملف .m3u وتشغيله باستخدام مشغل طرف ثالث';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'تور سيرفر غير متوفر';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'معلمات الطلب غير صالحة';
 
 $lang['ATTACHMENT'] = 'المرفقات';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'إضافة المرفقات';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'إذا كنت لا ترغب في إضافة مرفق إلى منشورك، يرجى ترك الحقول فارغة.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'تحديث المرفق';
 $lang['FILENAME'] = 'اسم الملف';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'حذف مرفق.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'لم يتم اختيار مرفق للتحميل أو العرض.';
 $lang['ERROR_NO_ATTACHMENT'] = 'المرفق المحدد غير موجود بعد الآن';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'تم تجاوز الحد اليومي للتحميل. يرجى المحاولة مرة أخرى غدًا.';
 
 //bt
 $lang['BT_REG_YES'] = 'مسجلة';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'انهيار الدليل';
 $lang['EXPAND'] = 'توسيع';
 $lang['SWITCH'] = 'التبديل';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'زيادة/إنقاص النافذة';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'معرف الموضوع مفقود';
+$lang['TOR_NOT_FOUND'] = 'الملف مفقود من الخادم';
 $lang['ERROR_BUILD'] = 'محتوى هذا الملف التورنت لا يمكن أن يُنظر إليه على الموقع (لم يكن بالإمكان بناء قائمة الملفات) ';
 $lang['TORFILE_INVALID'] = 'ملف التورنت تالف.';
 

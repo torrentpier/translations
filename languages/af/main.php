@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Jammer, maar jy is nie gemagtig om hierdie aa
 $lang['DESCRIPTION'] = 'beskrywing'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Aflaai'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Lêergrootte';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maksimale lêergrootte';
+$lang['ALLOWED_EXTENSIONS'] = 'Toegelate uitbreidings';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stroom';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopieer stroomskakel na klembord';
 $lang['M3U_NOT_SUPPORTED'] = 'Hierdie lêer kan nie in die leser gespeel word nie...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Dit blyk dat ffprobe nie data oor hierdie kodek sal kan teruggee nie...';
 $lang['M3U_NOTICE'] = 'Party blaaiers ondersteun nie die weergave van sekere video-formate nie. In so \'n geval kan jy die .m3u-lêer aflaai en dit met \'n derdeparty-spelers speel';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is onbeskikbaar';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Ongeldige versoekparameters';
 
 $lang['ATTACHMENT'] = 'aanhegsels';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Voeg bylae by';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'As u nie \'n aanhangsel by u pos wil voeg nie, laat asseblief die velde leeg';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Werk aanhangsel by';
 $lang['FILENAME'] = 'Lêernaam';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Verwyder aanhangsel';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jy het nie \'n aanhangsel gekies om af te laai of te sien nie.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Die geselekteerde aanhangsel bestaan ​​nie meer nie';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daaglikse aflaai limiet oorskry. Probeer asseblief weer môre.';
 
 //bt
 $lang['BT_REG_YES'] = 'Geregistreer';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Vou gids in';
 $lang['EXPAND'] = 'uitbrei.';
 $lang['SWITCH'] = 'skakelaar';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Verhoog/verlaag die venster';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Ontbrekende onderwerp identifiseerder';
+$lang['TOR_NOT_FOUND'] = 'Lêer ontbreek op die bediener';
 $lang['ERROR_BUILD'] = 'Die inhoud van hierdie torrent lêer kan nie op die webwerf besigtig word nie (dit was nie moontlik om \'n lys lêers op te bou nie)';
 $lang['TORFILE_INVALID'] = 'Torrent-lêer is korrup';
 

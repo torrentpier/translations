@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = '對不起，但您無權查看或下載該附
 $lang['DESCRIPTION'] = '描述。'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = '下载'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = '文件大小';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = '最大檔案大小';
+$lang['ALLOWED_EXTENSIONS'] = '允許的副檔名';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = '串流';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = '將串流連結複製到剪貼簿';
 $lang['M3U_NOT_SUPPORTED'] = '此檔案無法在瀏覽器中播放...';
 $lang['M3U_FFPROBE_NO_DATA'] = '似乎 ffprobe 無法返回有關此編解碼器的數據...';
 $lang['M3U_NOTICE'] = '某些瀏覽器不支持播放某些視頻格式。在這種情況下，您可以下載 .m3u 檔案，並使用第三方播放器播放它';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer 無法使用';
+$lang['TORRSERVER_INVALID_REQUEST'] = '無效的請求參數';
 
 $lang['ATTACHMENT'] = '附件';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = '添加附件';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = '如果您不想為您的帖子添加附件，請將欄位留空。';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = '更新附件';
 $lang['FILENAME'] = '文件名';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = '刪除附件。';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = '您尚未選擇要下載或查看的附件。';
 $lang['ERROR_NO_ATTACHMENT'] = '選定的附件不再存在。';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = '每日下載限制已達。請明天再試。';
 
 //bt
 $lang['BT_REG_YES'] = '注册';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = '崩潰的目錄';
 $lang['EXPAND'] = '擴大';
 $lang['SWITCH'] = '開關';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = '增加/減少視窗';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = '遺失主題識別碼';
+$lang['TOR_NOT_FOUND'] = '伺服器上缺少檔案';
 $lang['ERROR_BUILD'] = '無法在網站上查看此種子文件的內容（無法生成文件列表）';
 $lang['TORFILE_INVALID'] = 'Torrent文件損壞';
 

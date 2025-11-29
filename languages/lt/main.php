@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Atsiprašome, bet jūs neturite leidimo perž
 $lang['DESCRIPTION'] = 'Aprašymas'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Atsisiųsti'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Failo dydis';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maksimalus failo dydis';
+$lang['ALLOWED_EXTENSIONS'] = 'Leidžiami plėtiniai';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Srautas';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopijuoti srauto nuorodą į iškarpinę';
 $lang['M3U_NOT_SUPPORTED'] = 'Šio failo negalima leisti naršyklėje...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Atrodo, kad ffprobe negalės grąžinti duomenų apie šį kodeką...';
 $lang['M3U_NOTICE'] = 'Kai kurios naršyklės nepalaiko tam tikrų vaizdo formatų atkūrimo. Tuo atveju galite atsisiųsti .m3u failą ir leisti jį naudodami trečiosios šalies grotuvą';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer nėra pasiekiamas';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Neteisingi užklausos parametrai';
 
 $lang['ATTACHMENT'] = 'Priedai';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Pridėti priedą';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Jei nenorite pridėti priedo prie jūsų pranešimo, prašome palikti laukelius tuščius.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Atnaujinti priedą';
 $lang['FILENAME'] = 'Failo pavadinimas';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Ištrinti priedą.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Jūs neturite pasirinkto priedo atsisiųsti arba peržiūrėti.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Pasirinktas priedas nebegalioja.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Dienos atsisiuntimų limitas viršytas. Bandykite dar kartą rytoj.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registruotas';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Sutraukti katalogą';
 $lang['EXPAND'] = 'Išplėskite';
 $lang['SWITCH'] = 'Jungiklis';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Padidinti/sumažinti langą';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Trūksta temos identifikatoriaus';
+$lang['TOR_NOT_FOUND'] = 'Failas serveryje nerastas';
 $lang['ERROR_BUILD'] = 'Šio torrent failo turinio negalima peržiūrėti svetainėje (nebuvo galima sukurti failų sąrašo)!';
 $lang['TORFILE_INVALID'] = 'Torrent failas yra sugadintas';
 

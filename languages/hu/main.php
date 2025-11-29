@@ -783,8 +783,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sajnálom, de Ön nem jogosult megnézni vagy
 $lang['DESCRIPTION'] = 'Leírás'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Letöltés'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fájlméret';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maximális fájlméret';
+$lang['ALLOWED_EXTENSIONS'] = 'Engedélyezett kiterjesztések';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -803,15 +803,15 @@ $lang['COPY_STREAM_LINK'] = 'Stream link másolása a vágólapra';
 $lang['M3U_NOT_SUPPORTED'] = 'Ez a fájl nem játszható le a böngészőben...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Úgy tűnik, hogy az ffprobe nem képes adatokat visszaadni erről a kodekről...';
 $lang['M3U_NOTICE'] = 'Néhány böngésző nem támogatja bizonyos videóformátumok lejátszását. Ilyen esetben letöltheti a .m3u fájlt, és egy harmadik féltől származó lejátszóval játszhatja le';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'A TorrServer nem elérhető';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Érvénytelen kérés paraméterei';
 
 $lang['ATTACHMENT'] = 'Mellékletek.';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Melléklet hozzáadása.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Ha nem szeretné, hogy mellékleteket csatoljon a Posztjához, kérem, hagyja üresen a mezőket.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Melléklet frissítése';
 $lang['FILENAME'] = 'Fájlneve.';
 
 // Posting -> Posted Attachments
@@ -821,7 +821,7 @@ $lang['DELETE_ATTACHMENT'] = 'Melléklet törlése.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Még nem választott ki mellékletet letöltéshez vagy megtekintéshez.';
 $lang['ERROR_NO_ATTACHMENT'] = 'A kijelölt Melléklet nem létezik többé';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Napi letöltési korlát túllépve. Kérjük, próbálkozzon holnap újra.';
 
 //bt
 $lang['BT_REG_YES'] = 'Regisztrált';
@@ -1153,8 +1153,8 @@ $lang['COLLAPSE'] = 'Könyvtár összeomlása';
 $lang['EXPAND'] = 'Bővít';
 $lang['SWITCH'] = 'Kapcsolás';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Ablak méretének növelése/csökkentése';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Hiányzó témaazonosító';
+$lang['TOR_NOT_FOUND'] = 'A fájl hiányzik a szerverről';
 $lang['ERROR_BUILD'] = 'A torrent fájl tartalma nem tekinthető meg az oldalon (nem lehetett fájlok listáját készíteni)';
 $lang['TORFILE_INVALID'] = 'Torrent fájl sérült';
 

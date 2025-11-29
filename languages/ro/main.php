@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Ne pare rău, dar nu ești autorizat să vizu
 $lang['DESCRIPTION'] = 'Descriere'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Descarcă'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Dimensiunea fișierului';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Dimensiunea maximă a fișierului';
+$lang['ALLOWED_EXTENSIONS'] = 'Extensii permise';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Flux';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Copiați linkul fluxului în clipboard';
 $lang['M3U_NOT_SUPPORTED'] = 'Acest fișier nu poate fi redat în browser...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Se pare că ffprobe nu va putea returna date despre acest codec...';
 $lang['M3U_NOTICE'] = 'Unele browsere nu acceptă redarea anumitor formate video. În acest caz, puteți descărca fișierul .m3u și îl puteți reda folosind un player terț';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer nu este disponibil';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Parametri de cerere invalizi';
 
 $lang['ATTACHMENT'] = 'Atașamente';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Adaugă Atașament';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Dacă nu doriți să adăugați un atașament la postarea dvs., vă rugăm să lăsați câmpurile goale.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Actualizează atașamentul';
 $lang['FILENAME'] = 'Nume fișier';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Șterge Atașamentul';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nu ați selectat un atașament pentru a descărca sau vizualiza.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Atașamentul selectat nu mai există.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Limita zilnică de descărcare a fost depășită. Vă rugăm să încercați din nou mâine.';
 
 //bt
 $lang['BT_REG_YES'] = 'Înregistrați';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Collapse director.';
 $lang['EXPAND'] = 'Extinde';
 $lang['SWITCH'] = 'Comutator.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Crește/scade fereastra';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Lipsește identificatorul subiectului';
+$lang['TOR_NOT_FOUND'] = 'Fișierul lipsește de pe server';
 $lang['ERROR_BUILD'] = 'Conținutul acestui fișier torrent nu poate fi vizualizat pe site (nu a fost posibil de a construi o listă de fișiere).';
 $lang['TORFILE_INVALID'] = 'Fișierul torrent este corupt.';
 

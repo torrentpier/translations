@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Xin lỗi nhưng bạn không được phép 
 $lang['DESCRIPTION'] = 'Mô tả'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Tải về'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Kích thước tệp';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Kích thước tệp tối đa';
+$lang['ALLOWED_EXTENSIONS'] = 'Phần mở rộng được phép';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Luồng';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Sao chép liên kết luồng vào bảng tạm';
 $lang['M3U_NOT_SUPPORTED'] = 'Tệp này không thể phát trong trình duyệt...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Có vẻ như ffprobe sẽ không thể trả về dữ liệu về codec này...';
 $lang['M3U_NOTICE'] = 'Một số trình duyệt không hỗ trợ phát lại các định dạng video nhất định. Trong trường hợp đó, bạn có thể tải xuống tệp .m3u và phát nó bằng cách sử dụng trình phát của bên thứ ba';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer không khả dụng';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Tham số yêu cầu không hợp lệ';
 
 $lang['ATTACHMENT'] = 'Đính kèm';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Thêm đính kèm.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Nếu bạn không muốn thêm một đính kèm vào bài viết của mình, xin vui lòng để trống các trường.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Cập nhật tập tin đính kèm';
 $lang['FILENAME'] = 'Tên tệp.';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Xóa đính kèm.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Bạn chưa chọn một đính kèm để tải xuống hoặc xem.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Đính kèm đã chọn không còn tồn tại.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Giới hạn tải xuống hàng ngày đã vượt quá. Vui lòng thử lại vào ngày mai.';
 
 //bt
 $lang['BT_REG_YES'] = 'Đăng ký';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Thu Gọn Danh Mục';
 $lang['EXPAND'] = 'Mở rộng';
 $lang['SWITCH'] = 'Chuyển';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Tăng/giảm kích thước cửa sổ';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Thiếu định danh chủ đề';
+$lang['TOR_NOT_FOUND'] = 'Tệp không có trên máy chủ';
 $lang['ERROR_BUILD'] = 'Nội Dung Của Tập Tin Torrent Này Không Thể Xem Trên Trang (Không Thể Xây Dựng Danh Sách Các Tập Tin)';
 $lang['TORFILE_INVALID'] = 'Tập tin Torrent bị hỏng';
 

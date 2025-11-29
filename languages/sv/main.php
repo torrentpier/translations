@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Tyvärr har du inte behörighet att visa elle
 $lang['DESCRIPTION'] = 'Beskrivning'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Ladda ner'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filstorlek';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Max filstorlek';
+$lang['ALLOWED_EXTENSIONS'] = 'Tillåtna filändelser';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Ström';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopiera strömmen länk till urklipp';
 $lang['M3U_NOT_SUPPORTED'] = 'Denna fil kan inte spelas i webbläsaren...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Det verkar som att ffprobe inte kommer kunna returnera data om denna codec...';
 $lang['M3U_NOTICE'] = 'Vissa webbläsare stöder inte uppspelning av vissa videoformat. I sådana fall kan du ladda ner .m3u-filen och spela den med en tredjeparts spelare';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer är otillgänglig';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Ogiltiga förfrågningsparametrar';
 
 $lang['ATTACHMENT'] = 'Bifogade filer';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Lägg till bilaga.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Om du inte vill lägga till en bifogad fil till ditt inlägg, vänligen lämna fälten tomma.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Uppdatera bilaga';
 $lang['FILENAME'] = 'Filnamn.';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Ta bort bifogad fil.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Du har inte valt en bifogad fil för att hämta eller visa.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Den markerade Bilagan finns inte längre';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daglig nedladdningsgräns överskriden. Var vänlig försök igen i morgon.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrerade';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Kollaps katalog';
 $lang['EXPAND'] = 'Expandera';
 $lang['SWITCH'] = 'Byt.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Öka/minska fönstret';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Saknar ämnesidentifierare';
+$lang['TOR_NOT_FOUND'] = 'Fil saknas på servern';
 $lang['ERROR_BUILD'] = 'Innehållet i denna torrent-fil kan inte visas på sajten (det var inte möjligt att bygga en lista av filer)';
 $lang['TORFILE_INVALID'] = 'Torrent-filen är skadad';
 

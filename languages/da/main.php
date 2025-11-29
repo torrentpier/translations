@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Beklager, men du har ikke tilladelse til at s
 $lang['DESCRIPTION'] = 'Beskrivelse'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fil størrelse';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maksimal filstørrelse';
+$lang['ALLOWED_EXTENSIONS'] = 'Tilladte filtypenavne';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopier stream link til udklipsholder';
 $lang['M3U_NOT_SUPPORTED'] = 'Denne fil kan ikke afspilles i browseren...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Det ser ud til at ffprobe ikke kan returnere data om denne codec...';
 $lang['M3U_NOTICE'] = 'Nogle browsere understøtter ikke afspilning af visse videoformater. I så fald kan du downloade .m3u filen og afspille den med en tredjeparts afspiller';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer er utilgængelig';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Ugyldige anmodningsparametre';
 
 $lang['ATTACHMENT'] = 'Vedhæftede filer';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Tilføj vedhæftet fil.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Hvis du ikke ønsker at tilføje en vedhæftet fil til din post, skal du lade felterne stå tomme.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Opdater vedhæftning';
 $lang['FILENAME'] = 'Filnavn';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Slet vedhæftning.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Du har ikke valgt en vedhæftet fil til download eller visning.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Den valgte vedhæftede fil eksisterer ikke længere.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Den daglige downloadgrænse er overskredet. Prøv igen i morgen.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registreret';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Sammenklap bibliotek';
 $lang['EXPAND'] = 'Udvid';
 $lang['SWITCH'] = 'Skift';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Forøg/nedsæt vinduet';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Manglende emneidentifikator';
+$lang['TOR_NOT_FOUND'] = 'Filen mangler på serveren';
 $lang['ERROR_BUILD'] = 'Indholdet af denne torrent-fil kan ikke ses på hjemmesiden (det var ikke muligt at opbygge en liste af filer)';
 $lang['TORFILE_INVALID'] = 'Torrentfilen er ødelagt';
 

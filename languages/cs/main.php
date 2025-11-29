@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Omlouváme se, ale nemáte oprávnění k pro
 $lang['DESCRIPTION'] = 'Popis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Ke stažení'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Velikost souboru';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maximální velikost souboru';
+$lang['ALLOWED_EXTENSIONS'] = 'Povolené přípony';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopírovat odkaz na stream do schránky';
 $lang['M3U_NOT_SUPPORTED'] = 'Tento soubor nelze přehrát v prohlížeči...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Zdá se, že ffprobe nebude schopen vrátit údaje o tomto codec...';
 $lang['M3U_NOTICE'] = 'Některé prohlížeče nepodporují přehrávání určitých video formátů. V takovém případě můžete stáhnout soubor .m3u a přehrát ho pomocí třetího strany.';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer není k dispozici';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Neplatné parametry požadavku';
 
 $lang['ATTACHMENT'] = 'Přílohy';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Přidat přílohu.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Pokud nechcete přidat přílohu k vašemu příspěvku, prosím, nechte pole prázdné.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Aktualizovat přílohu';
 $lang['FILENAME'] = 'Název souboru.';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Odstranit přílohu.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nemáte vybranou přílohu ke stažení nebo prohlížení.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Vybraná Příloha už neexistuje';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Denní limit stahování byl překročen. Zkuste to prosím zítra znovu.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrován';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Kolaps adresář';
 $lang['EXPAND'] = 'Rozšířit';
 $lang['SWITCH'] = 'Přepnout';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Zvyšte/snižte velikost okna';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Chybí identifikátor tématu';
+$lang['TOR_NOT_FOUND'] = 'Soubor na serveru chybí';
 $lang['ERROR_BUILD'] = 'Obsah tohoto torrentového souboru nelze zobrazit na stránce (nebylo možné sestavit seznam souborů)';
 $lang['TORFILE_INVALID'] = 'Torrent soubor je poškozen';
 

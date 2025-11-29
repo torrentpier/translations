@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sorry, maar u bent niet gemachtigd om te beki
 $lang['DESCRIPTION'] = 'Beschrijving'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Downloaden'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Bestandsgrootte';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maximale bestandsgrootte';
+$lang['ALLOWED_EXTENSIONS'] = 'Toegestane extensies';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stroom.';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopieer streamlink naar klembord';
 $lang['M3U_NOT_SUPPORTED'] = 'Dit bestand kan niet in de browser worden afgespeeld...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Het lijkt erop dat ffprobe geen gegevens over deze codec kan retourneren...';
 $lang['M3U_NOTICE'] = 'Sommige browsers ondersteunen geen afspelen van bepaalde videoformaten. In dat geval kunt u het .m3u-bestand downloaden en het afspelen met een externe speler';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is niet beschikbaar';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Ongeldige aanvraagparameters';
 
 $lang['ATTACHMENT'] = 'Bijlagen';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Bijlage toevoegen.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Als u geen bijlage wilt toevoegen aan uw bericht, laat dan de velden leeg.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Bijlage bijwerken';
 $lang['FILENAME'] = 'Bestandsnaam';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Bijlage verwijderen.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'U hebt geen bijlage geselecteerd om te downloaden of te bekijken.';
 $lang['ERROR_NO_ATTACHMENT'] = 'De geselecteerde bijlage bestaat niet meer.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Dagelijkse downloadlimiet overschreden. Probeer het morgen opnieuw.';
 
 //bt
 $lang['BT_REG_YES'] = 'Geregistreerd.';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Vouw directory in.';
 $lang['EXPAND'] = 'Uitbreiden';
 $lang['SWITCH'] = 'Schakel over.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Vergroot/verklein het venster';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Ontbrekend topic-ID';
+$lang['TOR_NOT_FOUND'] = 'Bestand ontbreekt op de server';
 $lang['ERROR_BUILD'] = 'De inhoud van dit torrent bestand kan niet worden weergegeven op de site (het was niet mogelijk om een lijst te maken van bestanden)';
 $lang['TORFILE_INVALID'] = 'Torrent bestand is beschadigd';
 

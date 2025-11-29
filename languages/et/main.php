@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Vabandust, aga sul ei ole lubatud vaadata võ
 $lang['DESCRIPTION'] = 'Kirjeldus'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Lae alla'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Faili suurus';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Maksimaalne faili suurus';
+$lang['ALLOWED_EXTENSIONS'] = 'Lubatud laiendid';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Voog';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopeeri voog lingi põhjal';
 $lang['M3U_NOT_SUPPORTED'] = 'Seda faili ei saa brauseris esitada...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Paistab, et ffprobe ei suuda seda koodekit andmeid tagastada...';
 $lang['M3U_NOTICE'] = 'Mõned brauserid ei toeta teatud videovormingute esitamise. Nendel juhtudel võite alla laadida .m3u faili ning esitada seda kolmanda osapoole mängija abil';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer ei ole saadaval';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Vigased päringu parameetrid';
 
 $lang['ATTACHMENT'] = 'Manuseid.';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Lisa manuse.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Kui te ei soovi oma postitusele manust lisada, palun jätke väljad tühjaks.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Uuenda manust';
 $lang['FILENAME'] = 'Failinimi';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Kustuta Manus';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Te ei ole valinud manust, et alla laadida või vaadata.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Valitud manus ei eksisteeri enam.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Päevane allalaadimise limiit on ületatud. Palun proovi homme uuesti.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registreeritud';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Kollapsi katalooge.';
 $lang['EXPAND'] = 'Laienge.';
 $lang['SWITCH'] = 'Lülitama.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Suurenda/vähenda akent';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Teema identifikaator puudub';
+$lang['TOR_NOT_FOUND'] = 'Fail puudub serverist';
 $lang['ERROR_BUILD'] = 'See torrent faili sisu ei saa vaadelda saidil (ei olnud võimalik luua failide loendit).';
 $lang['TORFILE_INVALID'] = 'Torrent-fail on rikutud.';
 
