@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Näita parooli';
 $lang['EMAIL'] = 'E-posti';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
-$lang['TIME'] = 'Aeg';
 $lang['MESSAGE'] = 'Sõnum';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Õigused';
 $lang['TYPE'] = 'Tüüp';
-$lang['SEEDER'] = 'Seeder';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Päev';
 $lang['7_DAYS'] = '7 Päeva';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Vasta teemale';
 $lang['CLICK_RETURN_TOPIC'] = 'Klõpsake %sHere%s, et naasta teema juurde.'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Klõpsake %sHere%s, et naasta foorum.';
 $lang['CLICK_RETURN_MODCP'] = 'Klõpsake %sHere%s tagasi Moderaatorite juhtpaneelile.';
-$lang['CLICK_RETURN_GROUP'] = 'Klõpsake %sHere%s tagasi grupi info';
 
 $lang['ADMIN_PANEL'] = 'Mine Administratsiooni Paneeli';
 $lang['ALL_CACHE_CLEARED'] = 'Vahemälu on kustutatud';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Valige foorumil';
 $lang['DISPLAYING_OPTIONS'] = 'Kuvamine valikud.';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Registreeritud Kasutajaid:';
 $lang['BROWSING_FORUM'] = 'Kasutajad sirvivad seda foorumit:';
 $lang['ONLINE_USERS'] = 'Kokku on <b>%1$d</b> kasutajad online: %2$d registreeritud ja %3$d külalist';
 $lang['RECORD_ONLINE_USERS'] = 'Kõige rohkem kasutajaid oli kunagi online <b>%s</b> kohta %s.'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Vaata uusimaid postitusi.';
 $lang['SEARCH_SELF'] = 'Mu postitused';
 $lang['SEARCH_SELF_BY_LAST'] = 'Viimase postituse aega.';
 $lang['SEARCH_SELF_BY_MY'] = 'Minu postituse ajal.';
-$lang['SEARCH_UNANSWERED'] = 'Vaata vastamata postitusi';
 $lang['SEARCH_LATEST'] = 'Hiljutised teemad';
 $lang['LATEST_RELEASES'] = 'Viimased väljaanded.';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Kokku kiirus: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Ei ole uusi postitusi';
 $lang['NEW_POSTS'] = 'Uued postitused';
-$lang['NEW_POST'] = 'Uus postitus';
 $lang['FORUM_LOCKED_MAIN'] = 'Foorum on lukus';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Viimased uudised';
 $lang['NETWORK_NEWS'] = 'Võrgustiku uudised';
 $lang['SUBFORUMS'] = 'Subforums';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Vaadata Foorum';
-
 $lang['FORUM_NOT_EXIST'] = 'Valitud foorum ei eksisteeri.';
 $lang['ERROR_PORNO_FORUM'] = 'Seda tüüpi foorumid (18+) on peidetud teie profiilis.';
 
 $lang['DISPLAY_TOPICS'] = 'Ekraan teemasid';
-$lang['ALL_TOPICS'] = 'Kõik Teemad';
 $lang['MODERATE_FORUM'] = 'Modereerige seda foorumit.';
 $lang['TITLE_SEARCH_HINT'] = 'Otsi pealkirja...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Sa saad modereerida seda foorumit.';
 $lang['NO_TOPICS_POST_ONE'] = 'Selles foorumis pole veel postitusi<br />Kliki <b>Uuel Teemal</b> ikoonil ja sinu postitus saab olema esimene.';
 $lang['NO_RELEASES_POST_ONE'] = 'Selles foorumis pole veel väljalaseid<br />Kliki <b>Uue Väljalaske</b> ikoonil ja sinu väljalase saab olema esimene.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Vaadata teemat';
-
 $lang['GUEST'] = 'Külaline';
-$lang['POST_SUBJECT'] = 'Postituse teema';
 $lang['SUBMIT_VOTE'] = 'Esitada hääletus';
 
 $lang['NO_NEWER_TOPICS'] = 'Selles foorumis ei ole uuemaid teemasid.';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Uuemad Ees';
 $lang['OLDEST_FIRST'] = 'Vanimad Ees.';
 
 $lang['READ_PROFILE'] = 'Vaadata kasutaja profiili';
-$lang['DELETE_POST'] = 'Kustuta see postitus';
 
 $lang['WROTE'] = 'kirjutas'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Tsitaat'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Pealkiri sõnumi täpsustama.';
 $lang['INVALID_TOPIC_ID'] = 'Teema puudub!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Teema ei ole olemas andmebaasis!';
 
-$lang['NOT_POST'] = 'Sõnum Puudub';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Te ei saa muuta pressiteate staatust.';
 
 $lang['OPTIONS'] = 'Valikud';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Peate valima valiku, kui hääletate.';
 $lang['LOCKED_WARN'] = 'Sa postitasid lukustatud teemas!';
 
 $lang['ADD_POLL'] = 'Lisa küsitlus';
-$lang['POLL_OPTION'] = 'Küsitluse valik.';
 $lang['UPDATE'] = 'Uuendus';
 $lang['DAYS'] = 'Päev.';
 $lang['DELETE_POLL'] = 'Kustutada küsitlus';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Luba robotitel selle teema indekseerimist';
 $lang['STORED'] = 'Teie sõnum on edukalt sisestatud.';
 $lang['EDITED'] = 'Teade on muudetud';
 $lang['DELETED'] = 'Teie sõnum on edukalt kustutatud.';
-$lang['POLL_DELETE'] = 'Sinu küsitlus on edukalt kustutatud.';
 $lang['VOTE_CAST'] = 'Sinu hääl on antud.';
 
 $lang['EMOTICONS'] = 'Emotikone';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Saabunud';
 $lang['OUTBOX'] = 'Saatmiseks';
 $lang['SAVEBOX'] = 'Savebox';
 $lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = 'Lipp.';
 $lang['SUBJECT'] = 'Teema';
 $lang['FROM'] = 'Alates.';
 $lang['TO'] = 'Et.';
 $lang['DATE'] = 'Kuupäev.';
-$lang['MARK'] = 'Kaubamärk.';
 $lang['SENT'] = 'Saadetud.';
 $lang['SAVED'] = 'Salvestatud.';
 $lang['DELETE_MARKED'] = 'Kustuta märgitud.';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Ekraanile ilmuvad teated'; // Followed by number of
 
 $lang['NO_MESSAGES_FOLDER'] = 'Selles kaustas ei ole sõnumeid.';
 
-$lang['PM_DISABLED'] = 'Privaatsõnumid on keeldunud sellel foorumil.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Vabandust, kuid administraator on takistanud sul privaatsõnumite saatmise.';
 $lang['NO_TO_USER'] = 'Peate määrama kasutajanime, kellele saadate selle sõnumi.';
 $lang['NO_SUCH_USER'] = 'Vabandust, aga sellist kasutajat ei eksisteeri.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Muuda privaatsõnum.';
 
 $lang['FIND_USERNAME'] = 'Leida kasutajanimi.';
 $lang['SELECT_USERNAME'] = 'Valige kasutajanimi.';
-$lang['FIND'] = 'Otsi.';
 $lang['NO_MATCH'] = 'Ühtegi vastet ei leitud.';
 
 $lang['NO_PM_ID'] = 'Palun määrake postituse ID.';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Teie konto on loodud. Siiski nõuab see foorum kont
 $lang['ACCOUNT_ACTIVE'] = 'Teie konto on just aktiveeritud. Täname registreerimise eest.';
 $lang['ALREADY_ACTIVATED'] = 'Olete juba aktiveeritud konto.';
 
-$lang['REGISTRATION'] = 'Registreerimise lepingutingimused.';
 
 $lang['WRONG_ACTIVATION'] = 'Teie antud aktiveerimise võti ei kattu andmebaasis ühegi olemasoleva võtmega.';
-$lang['SEND_PASSWORD'] = 'Saatke mulle uus parool';
 $lang['PASSWORD_UPDATED'] = 'Uus parool on loodud, palun kontrollige oma e-posti andmed selle kohta, kuidas aktiveerida.';
 $lang['NO_EMAIL_MATCH'] = 'E-posti aadress, mida tarnitakse, ei sobi selle kasutajanime jaoks.';
 $lang['PASSWORD_ACTIVATED'] = 'Teie konto on taas aktiveeritud. Sisselogimiseks palun kasutage e-kirjas saadud parooli.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Reklaami sellel saidil';
 $lang['NOT_FOUND'] = 'Faili ei leitud.';
 
 // Memberslist
-$lang['SORT'] = 'Sorteerida';
 $lang['SORT_TOP_TEN'] = 'Kümme parimat postitajat.';
 $lang['SORT_JOINED'] = 'Liitumise kuupäev.';
 $lang['SORT_USERNAME'] = 'Kasutajanimi';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Selles grupis ei ole liikmeid';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'See grupp on peidetud; te ei saa vaadata selle liikmeid.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Selles grupis ei ole ootel liikmeid.';
 $lang['GROUP_JOINED'] = 'Olete edukalt liitunud sellesse gruppi.<br />Teid teavitatakse, kui grupi moderaator on teie tellimuse heaks kiitnud.';
-$lang['GROUP_REQUEST'] = 'Taotluse liituda teie grupiga on tehtud.';
-$lang['GROUP_APPROVED'] = 'Teie taotlus on heaks kiidetud.';
-$lang['GROUP_ADDED'] = 'Olete lisatud kasutajagruppi.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Sa oled juba selle grupi liige';
 $lang['USER_IS_MEMBER_GROUP'] = '%s on juba selle grupi liige';
 $lang['USER_IS_MOD_GROUP'] = '%s on selle grupi moderaator';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Teie liikmelisus selles grupis on ootel.';
 $lang['ARE_GROUP_MODERATOR'] = 'Sa oled grupi moderaator';
 $lang['NONE'] = 'Puudub';
 
-$lang['SUBSCRIBE'] = 'Telli';
 $lang['UNSUBSCRIBE_GROUP'] = 'Lõpeta tellimine';
 $lang['MEMBERS_IN_GROUP'] = 'Grupi liikmed';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'See grupp ei ole vabastamise grupp.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Otsi Abi';
-$lang['SEARCH_QUERY'] = 'Otsingupäring.';
 $lang['SEARCH_OPTIONS'] = 'Otsingu Valikud';
 
 $lang['SEARCH_WORDS'] = 'Otsingu jaoks märksõnad.';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Teema Pealkiri';
 $lang['DISPLAY_RESULTS_AS'] = 'Väljapaneku tulemused';
 $lang['ALL_AVAILABLE'] = 'Kõik olemas';
 $lang['BRIEFLY'] = 'Lühidalt';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Sul ei ole õigusi sellel saidil üheski foorumis otsimiseks.';
 
 $lang['NO_SEARCH_MATCH'] = 'Teemad või postitused ei vastanud teie otsingukriteeriumidele.';
 $lang['FOUND_SEARCH_MATCH'] = 'Otsing leidis %d vaste'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Otsing leidis %d vastet.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Sulge Aken';
-$lang['CLOSE'] = 'Sulge.';
 $lang['HIDE'] = 'Peida.';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Vabandust, aga sul ei ole lubatud vaadata võ
 $lang['DESCRIPTION'] = 'Kirjeldus'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Lae alla'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Faili suurus';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Laiend \'%s\' on deaktiveeritud juhatuse admini poolt, seetõttu seda lisandit ei kuvata.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Voog';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Kopeeri voog lingi põhjal';
 $lang['M3U_NOT_SUPPORTED'] = 'Seda faili ei saa brauseris esitada...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Paistab, et ffprobe ei suuda seda koodekit andmeid tagastada...';
 $lang['M3U_NOTICE'] = 'Mõned brauserid ei toeta teatud videovormingute esitamise. Nendel juhtudel võite alla laadida .m3u faili ning esitada seda kolmanda osapoole mängija abil';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Manuseid.';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Manuse pisipilt.';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Lisa manuse.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Manuse lisamine';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Kui te ei soovi oma postitusele manust lisada, palun jätke väljad tühjaks.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Failinimi';
-$lang['FILE_COMMENT'] = 'Faili kommentaar.';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Postitatud manused.';
-$lang['UPDATE_COMMENT'] = 'Uuenda kommentaar.';
 $lang['DELETE_ATTACHMENT'] = 'Kustuta Manus';
-$lang['DELETE_THUMBNAIL'] = 'Kustuta pisipilt.';
-$lang['UPLOAD_NEW_VERSION'] = 'Lae üles uus versioon.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s on kehtetu failinimi.'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Manus on liiga suur.<br />Ei suuda leida maksimaalset suurust, mis on määratud PHP.<br />Manuse mod ei suuda määrata maksimaalset üleslaadimise suurust, mis on määratud php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Manus on liiga suur.<br />Maksimaalne üleslaadimise suurus: %d MB.<br />Palun pange tähele, et see suurus on määratud php.ini-s, see tähendab, et see on seatud PHP poolt ja manuse mod ei saa seda väärtust kõrvaldada.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Laiend %s ei ole lubatud.'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Sa ei saa postitada faile laiendiga %s sellel foorumil.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Manus on liiga suur.<br />Maksimaalne suurus: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Manust ei saa lisada, kuna postituses on saavutatud max %d manust.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Manus/pilt peab olema väiksem kui %d pikslit lai ja %d pikslit kõrge.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Üleslaadimise viga: ei suutnud manust üles laadida %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Peate väärtused sisestama "Lisa manus" kastis.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Ei suuda manust uuendada, ei leidnud vana manuse kanne.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Te ei ole valinud manust, et alla laadida või vaadata.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Valitud manus ei eksisteeri enam.';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Valitud manused on kustutatud.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Ei saa manuseid kustutada.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Manuse funktsioon on keelatud.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Kataloog \'%s\' ei ole olemas või ei suuda leida.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Palun kontrollige, kas \'%s\' on kataloog.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Kataloog \'%s\' ei ole kirjutatav. Peate looma üleslaadimise tee ja seadistama selle õigused 777 (või muutma omaniku teie httpd-serveri omanikuks), et faile üles laadida.<br />Kui teil on ainult tavaline FTP-ligipääs, muutke katalooge "Atribuut" rwxrwxrwx-ks.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Baiti';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Otsing manuseid.';
-$lang['TEST_SETTINGS'] = 'Testi Seaded';
-$lang['NOT_ASSIGNED'] = 'Ei Ole Määratud';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registreeritud';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'jaotuse olek:';
 $lang['TOR_STATUS_CHANGED'] = 'Staatus on muutunud: ';
 $lang['TOR_BACK'] = ' tagasi';
 $lang['PROCEED'] = 'Edasi';
-$lang['INVALID_ATTACH_ID'] = 'Puuduva faili identifikaator.';
 $lang['CHANGE_TOR_TYPE'] = 'Tüüp torrent edukalt muudetud.';
 $lang['DEL_TORRENT'] = 'Olete kindel, et soovite kustutada torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Olete kindel, et soovite kustutada ja liigutada teema?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Praegune';
 $lang['SEARCH_DL_COMPLETE'] = 'Lõpetanud';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Lõpetatud Allalaadimiste';
 $lang['SEARCH_DL_CANCEL'] = 'Tühistatud';
-$lang['CUR_DOWNLOADS'] = 'Praegused allalaadimised';
 $lang['CUR_UPLOADS'] = 'Praegused üleslaadimised';
 $lang['SEARCH_RELEASES'] = 'Väljaanded';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent otsingu valikud';
 $lang['OPEN_TOPIC'] = 'Avatud teema';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Torrentide saatmine lubatud ainult esimeses postituses';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Torrentide registreerimine lubatud ainult esimeses postituses';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Ei saanud registreerida torrent selles foorumis';
 $lang['ALREADY_REG'] = 'Torrent on juba registreeritud';
 $lang['NOT_TORRENT'] = 'See fail ei ole torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Sa saad registreerida ainult ühe torenti ühes teemas.';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profiil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktiivsed torrentid';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'vaid uusi teemasid';
 
 $lang['TORHELP_TITLE'] = 'Palun aidake külvi need torrentid!';
 $lang['STATISTICS'] = 'Statistika.';
-$lang['STATISTIC'] = 'Statistika';
-$lang['VALUE'] = 'Väärtus';
 $lang['STATUS'] = 'Staatus';
-$lang['CHANGES'] = 'Muudatused';
 $lang['ACTION'] = 'Tegevus';
 $lang['REASON'] = 'Põhjus';
 $lang['COMMENT'] = 'Kommentaar';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Kollapsi katalooge.';
 $lang['EXPAND'] = 'Laienge.';
 $lang['SWITCH'] = 'Lülitama.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Suurenda/vähenda akent';
-$lang['EMPTY_ATTACH_ID'] = 'Puuduv faili identifikaatori!';
-$lang['TOR_NOT_FOUND'] = 'Fail on serverist puuduv!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'See torrent faili sisu ei saa vaadelda saidil (ei olnud võimalik luua failide loendit).';
 $lang['TORFILE_INVALID'] = 'Torrent-fail on rikutud.';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Sait" võib sisaldada ainult http://sitename';
-$lang['INVALID_DATE'] = 'Kehtetu kuupäev';
 $lang['PROFILE_USER'] = 'Profiili vaatamine';
 $lang['GOOD_UPDATE'] = 'oli edukalt muutunud';
 $lang['UCP_DOWNLOADS'] = 'Allalaid';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Saada sõnum';
 $lang['NEW_THREADS'] = 'Uued teemad';
 $lang['PROFILE_NOT_FOUND'] = 'Profiili ei leitud';
 
-$lang['USER_DELETE'] = 'Kustuta';
 $lang['USER_DELETE_EXPLAIN'] = 'Kustuta see kasutaja';
 $lang['USER_DELETE_ME'] = 'Vabandust, teie konto on keelatud eemaldada!';
 $lang['USER_DELETE_CSV'] = 'Vabandust, see konto ei ole lubatud kustutada!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'kohta';
 $lang['OFF'] = 'maha';
 $lang['MEMORY'] = 'Mälu: ';
 $lang['QUERIES'] = 'päringud';
-$lang['LIMIT'] = 'Limiit:';
 $lang['SHOW_LOG'] = 'Kuva logi';
 $lang['EXPLAINED_LOG'] = 'Selgitatud logi';
 $lang['CUT_LOG'] = 'Lõika pikki päringuid';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Ava postitus';
 $lang['PROFILE_EDIT_RETURN'] = 'Tagasi toimetamiseks.';
 $lang['PROFILE_RETURN'] = 'Mine profiili.';
 
-$lang['WARNING'] = 'Hoiatus';
 $lang['INDEXER'] = 'Reindex otsing';
 $lang['INDEXER_SUCCESS'] = 'Otsingu indeks uuendati edukalt';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Kohal';
 $lang['SMILIES'] = 'Emotikoni';
 $lang['BAN_MANAGEMENT'] = 'Ban Kontrolli';
 $lang['WORD_CENSOR'] = 'Sõnade kontrollimine';
-$lang['EXPORT'] = 'Eksport';
-$lang['CREATE_NEW'] = 'Luua';
-$lang['ADD_NEW'] = 'Lisa';
 $lang['CRON'] = 'Task Scheduler (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Otsingu indeks';
 $lang['FORUM_CONFIG'] = 'Foorumi seaded';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Kasutajate arv';
 $lang['USERS_PER_DAY'] = 'Kasutajad päevas';
 $lang['BOARD_STARTED'] = 'Juhatuse algus';
 $lang['AVATAR_DIR_SIZE'] = 'Avatari kausta suurus';
-$lang['DATABASE_SIZE'] = 'Andmebaasi suurus';
 $lang['GZIP_COMPRESSION'] = 'GZIP-i tihendamine';
 $lang['NOT_AVAILABLE'] = 'Ei ole kättesaadav';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Klõpsake %sSiin%s, et naasta foorumi õigust
 $lang['BAN_CONTROL'] = 'Kehv Kontroll';
 $lang['BAN_EXPLAIN'] = 'Siin saate kontrollida kasutajate keelamise võimalusi.';
 $lang['BAN_USERNAME'] = 'Ban ühe või mitme konkreetse kasutaja';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Saate keelata mitu kasutajat korraga, kasutades hiirt ja klaviatuuri sobivat kombinatsiooni.';
 $lang['UNBAN_USERNAME'] = 'Tühista ühe või mitme konkreetse kasutaja blokeering';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Saate tühistada mitme kasutaja keelamise korraga, kasutades hiirt ja klaviatuuri sobivat kombinatsiooni.';
 $lang['NO_BANNED_USERS'] = 'Ei ole keelatud kasutajanimedel';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Saidi nimi';
 $lang['SITE_DESC'] = 'Saidi kirjeldus';
 $lang['FORUMS_DISABLE'] = 'Keela juhatus';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'See muudab juhatuse kasutajatele kättesaamatuks.';
-$lang['ACC_NONE'] = 'Puudub'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Kasutaja';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Puudub';
 
 $lang['ABILITIES_SETTINGS'] = 'Kasutaja ja Foorumi Põhilised Seaded';
 $lang['MAX_POLL_OPTIONS'] = 'Küsitluse valikute maksimaalne arv.';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Eemalda';
 $lang['CONFIG_UPDATED'] = 'Foorumi Konfiguratsioon On Edukalt Uuendatud';
 $lang['MOVE_UP'] = 'Nihuta üles';
 $lang['MOVE_DOWN'] = 'Liiguta alla';
-$lang['RESYNC'] = 'Uuesti sünkroonida';
 $lang['NO_MODE'] = 'Ükski režiim ei olnud seatud.';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Allolev vorm võimaldab teil kohandada kõiki haldusnõukogu valikuid. Kasutaja ja foorumi konfiguratsioonide jaoks kasutage vasakul asuvaid seotud linke.';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Kustuta grupp.';
 $lang['GROUP_DELETE_CHECK'] = 'Kustuta see grupp.';
 $lang['NO_GROUP_NAME'] = 'Teil tuleb määrata nimi, rühm.';
 $lang['NO_GROUP_MODERATOR'] = 'Peate määrama moderaatori selle rühma jaoks.';
-$lang['NO_GROUP_MODE'] = 'Peate määrama režiim selle nimel.';
 $lang['NO_GROUP_ACTION'] = 'Ei mingit tegevust ei olnud määratud.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Kustuta vana grupi moderaator?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Kui muudad grupi moderaator.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Otsida grupp.';
 $lang['FORUM_PRUNE'] = 'Foorumi kärpimine';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'See kustutab kõik teemad, mis ei ole olnud postitatud valitud päevade arvu jooksul. Kui te ei sisesta numbrit, kustutatakse kõik teemad. See ei eemalda kleepuvaid teemasid ja teadandeid. Need tuleb eemaldada käsitsi.';
 $lang['DO_PRUNE'] = 'Kas kärpimine?';
-$lang['ALL_FORUMS'] = 'Kõik Foorumid';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Kärbi teemasid, millel ei ole vastuseid nii palju päeva.';
 $lang['TOPICS_PRUNED'] = 'Teemad on kärbitud.';
 $lang['PRUNE_SUCCESS'] = 'Foorum on edukalt kärbitud.';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Klõpsake %sHere%s tagasi auaste haldusesse.'
 $lang['DISALLOW_CONTROL'] = 'Kasutajanimi ei ole lubatud.';
 $lang['DISALLOW_EXPLAIN'] = 'Siin saad juhtida kasutajanimesid, mida ei tohi lubada. Kelmike kasutajanimed on lubatud sisaldavad metaseemnet tähte *. Palun pange tähele, et sa ei tohi määrata ühtegi kasutajanime, mis on juba registreeritud.';
 
-$lang['DELETE_DISALLOW'] = 'Kustuta';
 $lang['DELETE_DISALLOW_TITLE'] = 'Eemaldamine keelatud kasutajanime.';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Võite eemaldada keelatud kasutajanime valides nimekirjast kasutajanime ja klõpsates esitada.';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s saab alla laadida manuseid.
 $lang['SF_SHOW_ON_INDEX'] = 'Näita peal.';
 $lang['SF_PARENT_FORUM'] = 'Vanem foorum.';
 $lang['SF_NO_PARENT'] = 'Nr vanem foorum.';
-$lang['TEMPLATE'] = 'Mall.';
 $lang['SYNC'] = 'Sync.';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'TÄHELEPANU! Seemne boonused peaksid olema kasvav
 $lang['SEED_BONUS_EXCHANGE'] = 'Seadistamine vahetada Sid boonuseid.';
 $lang['SEED_BONUS_ROPORTION'] = 'Osa vahetada boonuseid GB.';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Juhtpaneel';
-$lang['EXTENSION_CONTROL'] = 'Laienduse kontroll.';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Laienduse Gruppide kontroll.';
-$lang['SPECIAL_CATEGORIES'] = 'Eri Kategooriad';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Manus Seaded';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Siin saate seadistada Peamised seaded manusmodifikatsiooni jaoks. Kui vajutate test seaded nuppu, manusmodifikatsioon teeb mõned süsteemitestid, et olla kindel, et mod töötab õigesti. Kui teil on probleeme failide üleslaadimisega, palun käivitage see test, et saada üksikasjalik veateade.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Manuse failisuuruse seaded.';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Manuse arvu seaded.';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Manus Valikud';
-
-$lang['UPLOAD_DIRECTORY'] = 'Üleslaadimise Kataloog';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Sisestage suhteline tee oma TorrentPier paigaldus Manuste üleslaadimise kataloog. Näiteks, märkida "failid", kui teie TorrentPier Paigaldus asub https://www.yourdomain.com/torrentpier ja Manus üles Laadida Kataloogi asukoht https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Manuse postitamise ikoon.';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'See pilt kuvatakse manuse linkide kõrval üksikutes postitustes. Jäta see väli tühjaks, kui sa ei taha ikooni kuvada; see seadistus kirjutatakse üle laienduse gruppide seadistustega.';
-$lang['ATTACH_TOPIC_ICON'] = 'Manuse teema ikoon.';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'See pilt kuvatakse teemade ees, kus on manused. Jäta see väli tühjaks, kui sa ei taha, et ikoon kuvatakse.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Manuse kuvamise järjestus.';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Siin saate valida, kas kuvada manuseid ametikohtades/PM-des kahanevas failiaja järjekorras või kasvavas failiaja järjekorras.';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Faili suurus';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimaalne failisuurus manuste jaoks. Väärtus 0 tähendab "piiramatu". See seadistus on piiratud teie serveri konfiguratsiooniga.';
-$lang['MAX_FILESIZE_PM'] = 'Maksimaalne failisuurus era-sõnumite kaustas.';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimaalne kettaruum, mida manused saavad kasutada igas kasutaja privaatse postkasti.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maksimaalne Arv Manuseid';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimaalne arv manuseid lubatud ühes postituses.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maksimaalne arv manuseid ühes privaatsõnumis.';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Määrake maksimaalne arv manuseid, mille kasutaja on lubatud lisada privaatsõnumisse.';
-
-$lang['DISABLE_MOD'] = 'Keelata Attachment Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'See võimalus on mõeldud peamiselt uute mallide või teemade katsetamiseks, keelates kõik manusefunktsioonid, välja arvatud admin paneeli.';
-$lang['PM_ATTACHMENTS'] = 'Võimaldab Manuseid privaatsed Sõnumid';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Lubada/Keelata manuste lisamine privaatsõnumitesse.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Halda Laiendusi';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Siin saate hallata oma faililaiendeid. Kui soovite lubada/keelata laiendust üles laadida, palun kasutage laiendi gruppide haldamise võimalusi.';
-$lang['EXPLANATION'] = 'Selgitus';
-$lang['EXTENSION_GROUP'] = 'Laienduse grupp.';
-$lang['EXTENSION_EXIST'] = 'Laiendamine %s juba olemas'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Halda Laiendamine Rühmad';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Siin saad sa lisada, kustutada ja muuta oma Laiendamine Rühmad, saate keelata Laiendamine Rühmad, määrata spetsiaalse Kategooria neile, muuta laadida mehhanism ja saab määrata Laadida Ikooni, mis kuvatakse ees Manuse samasse Kontserni.';
-$lang['SPECIAL_CATEGORY'] = 'Eriline kategooria.';
-$lang['CATEGORY_IMAGES'] = 'Pildid';
 $lang['ALLOWED'] = 'Lubatud';
-$lang['ALLOWED_FORUMS'] = 'Lubatud Foorumid';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Rühma Õigused';
-$lang['DOWNLOAD_MODE'] = 'Download Mode';
-$lang['UPLOAD_ICON'] = 'Laadida Ikooni';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maksimaalne Filesize';
-$lang['EXTENSION_GROUP_EXIST'] = 'Laiendamine Rühma %s juba olemas'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Hallata Eri Kategooriad';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Siin saate konfigureerida spetsiaalseid kategooriaid. Saate seadistada spetsiaalseid parameetreid ja tingimusi spetsiaalsete kategooriate jaoks, mis on määratud laiendusrühmale.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Seaded erilise kategooria jaoks: pildid.';
-$lang['DISPLAY_INLINED'] = 'Piltide Kuvamine Inline';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Valige, kas kuvada pilte otse postituses (jah) või kuvada pilte linkina?';
-$lang['MAX_IMAGE_SIZE'] = 'Maksimaalsed Pildi Mõõtmed';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Siin saate määrata maksimaalse lubatud pildi mõõdu, mida on võimalik lisada (laius x kõrgus pikslites).<br />Kui see on seatud 0x0, siis see funktsioon on keelatud. Mõne pildi puhul see funktsioon ei toimi, kuna PHP-s on piiranguid.';
-$lang['IMAGE_LINK_SIZE'] = 'Kui see määratletud mõõt ületatakse, kuvatakse pilt lingina, selle asemel et kuvada inline,<br />kui inline vaatamine on lubatud (laius x kõrgus pikslites).<br />Kui see on seadistatud 0x0, siis see funktsioon on keelatud. Mõned pildid ei tööta selle funktsiooni tõttu, kuna on PHP piirangud.';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Juhitud pildi suurused.';
-$lang['ASSIGNED_GROUP'] = 'Määratud grupp.';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Loo Pisipilt';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimaalne pisipildi failisuurus.';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Kui pilt on väiksem kui määratud failisuurus, ei luleta pisipildile, sest see on piisavalt väike.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Laiendamine Rühma Õigused -> \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Siin on võimalus piirata valitud laienduse rühma foorumeid teie valiku järgi (mille määratlete lubatud foorumite kastis). Vaikimisi lubatakse laienduse rühmadel lisada faile kõikidesse foorumitesse, kuhu kasutaja saab faile lisada.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'MÄRKUS:<br />Allpool loetletud foorumites on teie kasutajatel tavaliselt lubatud faile lisada, kuid kuna ei ole lubatud ühtegi laiendust, ei saa teie kasutajad midagi manustada.';
-$lang['ADD_FORUMS'] = 'Lisada Foorumid';
-$lang['ADD_SELECTED'] = 'Lisada Valitud';
-$lang['PERM_ALL_FORUMS'] = 'KÕIK FOORUMID';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Manusfaili Juhtpaneel';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Siin saate vaadata ja hallata kõiki manuseid, mis põhinevad kasutajatel, manustel, vaatamiste arvu jne.';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Kasuta * metamärgina osalisi vasteid';
-$lang['SIZE_SMALLER_THAN'] = 'Manuse suurus on väiksem kui (baiti)';
-$lang['SIZE_GREATER_THAN'] = 'Manuse suurus on suurem kui (baiti)';
-$lang['COUNT_SMALLER_THAN'] = 'Lae arv on väiksem kui';
-$lang['COUNT_GREATER_THAN'] = 'Lae arv on suurem kui';
-$lang['MORE_DAYS_OLD'] = 'Rohkem kui see, mitu päeva vana';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Nr Manuseid täidetud teie otsingu kriteeriumitele';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Arv Manuseid';
-$lang['TOTAL_FILESIZE'] = 'Kokku failisuurus.';
-$lang['NUMBER_POSTS_ATTACH'] = 'Ametikohtade arv Manuseid';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Number Teemasid Manuseid';
-$lang['NUMBER_USERS_ATTACH'] = 'Sõltumatu Kasutajad Postitatud Manuseid';
-$lang['NUMBER_PMS_ATTACH'] = 'Kokku Arv Manuseid privaatsed Sõnumid';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Manus Statistika %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Allalaadimised';
-$lang['POST_TIME'] = 'Postituse Aeg';
-$lang['POSTED_IN_TOPIC'] = 'Postitatud Teema';
-$lang['SUBMIT_CHANGES'] = 'Esita muudatused';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Manuseid';
-$lang['SORT_SIZE'] = 'Suurus';
-$lang['SORT_FILENAME'] = 'Failinimi';
-$lang['SORT_COMMENT'] = 'Kommentaar';
-$lang['SORT_EXTENSION'] = 'Pikendused';
-$lang['SORT_DOWNLOADS'] = 'Allalaadimised';
-$lang['SORT_POSTTIME'] = 'Postituse Aeg';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistika';
-$lang['VIEW_SEARCH'] = 'Otsing';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Manus Konfiguratsiooni edukalt uuendatud';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Klõpsake %s siin %s, et naasta manus konfigruatsiooni juurde';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Seadete test on lõpetatud, konfiguratsioon tundub olevat korrektne.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Manuseid';
-$lang['EXTENSIONS'] = 'Laiendid';
-$lang['EXTENSION'] = 'Pikendused';
-
 $lang['RETURN_CONFIG'] = '%sTagasi konfiguratsiooni%s';
 $lang['CONFIG_UPD'] = 'Konfiguratsiooni Edukalt Uuendatud';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Muuda teema staatust "Normaalne" torren
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Mall keelatud';
 $lang['FOR_NEW_TEMPLATE'] = 'uued mustrid!';
-$lang['CHANGED'] = 'Muudetud';
-$lang['REMOVED'] = 'Eemaldatud';
 $lang['QUESTION'] = 'Kinnitage, kas olete kindel, et soovite seda toimingut sooritada';
 
 $lang['CRON_LIST'] = 'Cron nimekiri';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Tähtaeg';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Kui palju aega (sek) postituste töötlemine võib kesta enne järgmisse tsüklisse liikumist.';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Teie veebiserveril on seadistatud aegumise aeg %s sek, seega jääge alla selle väärtuse</i>';
 
-$lang['DISABLE_BOARD'] = 'Keela foorum';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Viimati peatunud töötlemine post_id %s (%s töödeldud postitust) %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Viimati katkestatud töötlemine post_id %s (%s töödeldud postitust) %s';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Kõik postitused on edukalt töödeldud.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Kõik otsingu tabelid on edukalt optimeeritud.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Töötlemise postitus.';
-$lang['PERCENT'] = 'Protsent.';
 $lang['CURRENT_SESSION'] = 'Praegune Seanss.';
 $lang['TOTAL'] = 'Kokku.';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'alates <b>%s</b> kuni <b>%s</b> (kokku <b>%s</b> koh
 $lang['PERCENT_COMPLETED'] = '%s %% lõppenud.';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Praeguse seansi andmed.';
-$lang['PROCESSING_TIME'] = 'Töötlemise aeg.';
 $lang['TIME_LAST_POSTS'] = 'Viimased %s postitust.';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Algusest peale.';
 $lang['TIME_AVERAGE'] = 'Keskmine tsükli kohta.';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Kõik tegevused';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Tegevuste logi: Otsingu valikud';
 $lang['ACTS_LOG_FORUM'] = 'Foorum';
 $lang['ACTS_LOG_ACTION'] = 'Tegevus';
-$lang['ACTS_LOG_USER'] = 'Kasutaja';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Logid ';
 $lang['ACTS_LOG_FIRST'] = 'algusest';
 $lang['ACTS_LOG_DAYS_BACK'] = 'päevi tagasi';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Pressiteemad';
 $lang['RELEASES'] = 'Pressiteated';
 
 $lang['BACK'] = 'Tagasi';
-$lang['ERROR_FORM'] = 'Kehtetu väljad';
 $lang['NEW_RELEASE'] = 'Uus pressiteade';
 $lang['NEXT'] = 'Jätka';
-$lang['OTHER'] = 'Muud';
 $lang['ALL'] = 'Kõik';
 
 $lang['TPL_EMPTY_FIELD'] = 'Tuleb täita väli <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Valikud';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Iga rida vastab ühele vastus (max.';
 
 $lang['OLD_BROWSER'] = 'Teie kasutate aegunud brauserit. Veebisait ei kuvata õigesti.';
-$lang['GO_BACK'] = 'Mine tagasi';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Failide üleslaadimine keelatud';
 $lang['UPLOAD_ERROR_COMMON'] = 'Faili üleslaadimise viga';
