@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Şifrəni göstər';
 $lang['EMAIL'] = 'E-poçt';
 $lang['PM'] = 'Xəbərdarlıq';
 $lang['AUTHOR'] = 'Müəllif';
-$lang['TIME'] = 'Vaxt';
 $lang['MESSAGE'] = 'Mesaj';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'İcazə';
 $lang['TYPE'] = 'Növ';
-$lang['SEEDER'] = 'Seeder';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 gün';
 $lang['7_DAYS'] = '7 gün';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Mövzuda cavab';
 $lang['CLICK_RETURN_TOPIC'] = 'Klikləyin %sBurada%s mövzusuna qayıtmaq üçün'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Basın %sHere%s forumuna qayıtmaq';
 $lang['CLICK_RETURN_MODCP'] = 'Basın %sHere%s Moderasiya Panelinə qayıtmaq';
-$lang['CLICK_RETURN_GROUP'] = 'Basın %sHere%s qrup məlumatlarına qayıtmaq';
 
 $lang['ADMIN_PANEL'] = 'İdarəetmə Panelinə gedin';
 $lang['ALL_CACHE_CLEARED'] = 'Cache temizlendi';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Seçin forum';
 $lang['DISPLAYING_OPTIONS'] = 'Göstərmə parametrləri';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Qeydiyyata Alınmış İstifadəçilər:';
 $lang['BROWSING_FORUM'] = 'İstifadəçilər bu forumu izləyir:';
 $lang['ONLINE_USERS'] = 'Cəmi var <b>%1$d</b> online istifadəçi: %2$d qeydiyyatdan keçmiş və %3$d qonaq';
 $lang['RECORD_ONLINE_USERS'] = 'Ən çox online olan istifadəçi <b>%s</b> idi %s tarixində.'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Yeni vəzifəni izləmək üçün';
 $lang['SEARCH_SELF'] = 'Mənim yazılarım';
 $lang['SEARCH_SELF_BY_LAST'] = 'Son post vaxt';
 $lang['SEARCH_SELF_BY_MY'] = 'mənim post vaxt';
-$lang['SEARCH_UNANSWERED'] = 'Cavabsız ismarıclar';
 $lang['SEARCH_LATEST'] = 'Son mövzular';
 $lang['LATEST_RELEASES'] = 'Son relizlər';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Ümumi sürəti: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Yeni ismarıc yoxdur';
 $lang['NEW_POSTS'] = 'Yeni ismarıc';
-$lang['NEW_POST'] = 'Yeni post';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum bağlanıb.';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Son xəbərlər';
 $lang['NETWORK_NEWS'] = 'Şəbəkə xəbərləri.';
 $lang['SUBFORUMS'] = 'Altforumlar.';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Forum';
-
 $lang['FORUM_NOT_EXIST'] = 'Seçdiyiniz forum mövcud deyil.';
 $lang['ERROR_PORNO_FORUM'] = 'Bu cür forumlar (18+) siz tərəfindən profilinizdə gizlədilmişdir.';
 
 $lang['DISPLAY_TOPICS'] = 'Mövzuları göstər.';
-$lang['ALL_TOPICS'] = 'Bütün Mövzular';
 $lang['MODERATE_FORUM'] = 'Bu forumu müvəqqəti olaraq idarə et.';
 $lang['TITLE_SEARCH_HINT'] = 'Başlığı axtarış...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Siz <b>bu forumu</b> idarə edə bilərsiniz.';
 $lang['NO_TOPICS_POST_ONE'] = 'Bu forumda hələ heç bir mövzu yoxdur<br /><b>Yeni Mövzu</b> ikonuna klikləyin və sizin mövzunuz birinci olacaq.';
 $lang['NO_RELEASES_POST_ONE'] = 'Bu forumda hələ heç bir buraxılış yoxdur<br /><b>Yeni Buraxılış</b> ikonuna klikləyin və sizin buraxılışınız birinci olacaq.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Mövzuların baxışında hələ Heç bir mesaj yoxdur.';
-
 $lang['GUEST'] = 'Qonaq';
-$lang['POST_SUBJECT'] = 'Mövzu başlığı';
 $lang['SUBMIT_VOTE'] = 'Səs vermək';
 
 $lang['NO_NEWER_TOPICS'] = 'Bu forumda daha yeni mövzular yoxdur.';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Yeni İlk';
 $lang['OLDEST_FIRST'] = 'Köhnə ən əvvəl';
 
 $lang['READ_PROFILE'] = 'İstifadəçi profilini göstər.';
-$lang['DELETE_POST'] = 'Bu posta sil.';
 
 $lang['WROTE'] = 'yazdı'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Sitat'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Mesajın başlığını daxil etməlisiniz';
 $lang['INVALID_TOPIC_ID'] = 'Mövzu İtkin!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Mövzu bazada yoxdur!';
 
-$lang['NOT_POST'] = 'Mesaj yoxdur';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Siz azad statusu ilə redaktə edə bilməzsiniz';
 
 $lang['OPTIONS'] = 'Variantlar';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Səsvermədə variant göstərmək lazımdır';
 $lang['LOCKED_WARN'] = 'Siz kilidli mövzuda post etdiniz!';
 
 $lang['ADD_POLL'] = 'Sorğu əlavə et';
-$lang['POLL_OPTION'] = 'Sorğu variantı';
 $lang['UPDATE'] = 'Yeniləyin';
 $lang['DAYS'] = 'Gün';
 $lang['DELETE_POLL'] = 'Sorğunu sil';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Robotların bu mövzunu indeksləməsinə icaz
 $lang['STORED'] = 'Mesaj uğurla yazıldı.';
 $lang['EDITED'] = 'Mesaj dəyişdirilib';
 $lang['DELETED'] = 'Sizin mesajınız uğurla silinib.';
-$lang['POLL_DELETE'] = 'Sizin sorğu uğurla silindi.';
 $lang['VOTE_CAST'] = 'Səs verilib.';
 
 $lang['EMOTICONS'] = 'İfadələr';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Gələn qutu';
 $lang['OUTBOX'] = 'Geden';
 $lang['SAVEBOX'] = 'Qeydlər';
 $lang['SENTBOX'] = 'Göndərilmiş';
-$lang['FLAG'] = 'Bayraq';
 $lang['SUBJECT'] = 'Mövzu';
 $lang['FROM'] = 'Kimdən';
 $lang['TO'] = 'Üçün';
 $lang['DATE'] = 'Tarix';
-$lang['MARK'] = 'Mark';
 $lang['SENT'] = 'Göndərildi';
 $lang['SAVED'] = 'Saxlanıldı';
 $lang['DELETE_MARKED'] = 'Seçilmişləri sil';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Mesajlar göstərilir'; // Followed by number of da
 
 $lang['NO_MESSAGES_FOLDER'] = 'Bu qovluqda heç bir mesaj yoxdur';
 
-$lang['PM_DISABLED'] = 'Şəxsi mesajlaşma bu taxtada deaktiv edilib.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Üzr istəyirəm, amma administrator sizi şəxsi mesaj göndərməkdən məhrum edib.';
 $lang['NO_TO_USER'] = 'Bu mesajı göndərmək üçün bir istifadəçi adı göstərməlisiniz.';
 $lang['NO_SUCH_USER'] = 'Bağışlayın, amma belə bir istifadəçi yoxdur.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Şəxsi mesajı redaktə et';
 
 $lang['FIND_USERNAME'] = 'İstifadəçi adını tapın';
 $lang['SELECT_USERNAME'] = 'İstifadəçi adını seçin';
-$lang['FIND'] = 'Tap';
 $lang['NO_MATCH'] = 'Təsadüflər tapılmadı.';
 
 $lang['NO_PM_ID'] = 'Zəhmət olmasa, yazı ID-ni göstərin';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Hesabınız yaradıldı. Lakin, bu forum aktiv hesa
 $lang['ACCOUNT_ACTIVE'] = 'Sizin hesab aktiv edilmişdir. Təşəkkür edirik.';
 $lang['ALREADY_ACTIVATED'] = 'Siz artıq hesabınızı aktiv etmisiniz.';
 
-$lang['REGISTRATION'] = 'Qeydiyyat Müqaviləsinin Şərtləri';
 
 $lang['WRONG_ACTIVATION'] = 'Təqdim etdiyiniz aktivasiya açarı verilənlər bazasında heç biri ilə üst-üstə düşmür.';
-$lang['SEND_PASSWORD'] = 'Göndər mənə yeni parol';
 $lang['PASSWORD_UPDATED'] = 'Yeni parol yaradılıb; aktivləşdirmək üçün dəqiq məlumat üçün e-poçtunuzu yoxlayın.';
 $lang['NO_EMAIL_MATCH'] = 'Təqdim etdiyiniz e-poçt ünvanı həmin istifadəçi adı ilə qeyd olunan ünvanla üst-üstə düşmür.';
 $lang['PASSWORD_ACTIVATED'] = 'Sizin hesabınız yenidən aktivləşdirilib. Daxil olmaq üçün, aldığınız e-poçtda verilən parolu istifadə edin.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Bu saytda reklam edin.';
 $lang['NOT_FOUND'] = 'Fayl tapılmadı';
 
 // Memberslist
-$lang['SORT'] = 'Sort';
 $lang['SORT_TOP_TEN'] = 'On Plakatlar';
 $lang['SORT_JOINED'] = 'Qeydiyyat tarixi.';
 $lang['SORT_USERNAME'] = 'İstifadəçi adı';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Bu qrupda üzv yoxdur.';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Bu qrup gizli; onun üzvlüyünü görə bilməzsiniz.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Bu qrupda gözləyən üzv yoxdur.';
 $lang['GROUP_JOINED'] = 'Siz bu qrupa müvəffəqiyyətlə qoşuldu. Abunə planınız qrup moderatoru tərəfindən təsdiq olunduqda, sizə xəbər veriləcək.';
-$lang['GROUP_REQUEST'] = 'Sizin qrupa qoşulma xahişiniz edildi.';
-$lang['GROUP_APPROVED'] = 'Sizin istəyiniz təsdiq edildi.';
-$lang['GROUP_ADDED'] = 'Siz bu qrupa əlavə edildiniz.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Siz artıq bu qrupun üzvüsünüz.';
 $lang['USER_IS_MEMBER_GROUP'] = '%s artıq bu qrupun üzvüdür';
 $lang['USER_IS_MOD_GROUP'] = '%s bu qrupun moderatorudur';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Sizin qrupda olan üzvlüyünüz gözləmə vəzi
 $lang['ARE_GROUP_MODERATOR'] = 'Siz qrupun moderatorusunuz.';
 $lang['NONE'] = 'Heç kim';
 
-$lang['SUBSCRIBE'] = 'Abunə olun';
 $lang['UNSUBSCRIBE_GROUP'] = 'Çıxarmaq.';
 $lang['MEMBERS_IN_GROUP'] = 'İştirakçı qrup';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Bu qrup azad-qrup deyil';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Axtarış';
-$lang['SEARCH_QUERY'] = 'Axtarış Sorğu';
 $lang['SEARCH_OPTIONS'] = 'Axtarış Variantları';
 
 $lang['SEARCH_WORDS'] = 'Açar sözlər üçün axtarış';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Mövzu başlığı';
 $lang['DISPLAY_RESULTS_AS'] = 'Nəticələri kimi göstər';
 $lang['ALL_AVAILABLE'] = 'Bütün mövcud';
 $lang['BRIEFLY'] = 'Qısaca';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Bu saytda hər hansı bir forumda axtarış etmək hüququnuz yoxdur.';
 
 $lang['NO_SEARCH_MATCH'] = 'Heç bir mövzu və ya post axtardığınız kriteriyə uyğun gəlmir.';
 $lang['FOUND_SEARCH_MATCH'] = 'Axtarış %d arasında baş verdi.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Axtarışda %d təkrar oldu.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Pəncərəni bağlayın.';
-$lang['CLOSE'] = 'Bağlamaq.';
 $lang['HIDE'] = 'Gizlədin.';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Bağışlayın, amma siz bu əlavələri gör
 $lang['DESCRIPTION'] = 'Təsvir'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Yüklə'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fayl ölçüsü';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '\'%s\' uzantısı bir administrator tərəfindən deaktiv edilmişdir, buna görə bu əlavələr göstərilmir.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Axın';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Axın bağlantısını klipbordda kopyalayın';
 $lang['M3U_NOT_SUPPORTED'] = 'Bu fayl brauzerdə oynadıla bilmir...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Görünür ki, ffprobe bu kodek haqqında məlumat qaytara bilməyəcək...';
 $lang['M3U_NOTICE'] = 'Bəzi brauzerlər müəyyən video formatlarını oynatmağı dəstəkləmir. Bu halda, .m3u faylını yükləyə və üçüncü tərəf oynatıcısı ilə oynaya bilərsiniz';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Əlavələr';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Təsvir paylamaq';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Qoşma əlavə edin.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Qoşma əlavə et.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Əgər mesajınıza əlavə etmək istəmirsinizsə, sahələri boş saxlayın.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Fayl adı';
-$lang['FILE_COMMENT'] = 'Fayl Şərhi';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Dərc olunmuş əlavələr.';
-$lang['UPDATE_COMMENT'] = 'Yeniləmə şərhi.';
 $lang['DELETE_ATTACHMENT'] = 'Silin';
-$lang['DELETE_THUMBNAIL'] = 'Kiçik Şəkili Sil';
-$lang['UPLOAD_NEW_VERSION'] = 'Yeni Versiyanı Yükləyin';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s yalnış fayl adıdır'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Eklenti çox böyükdür.<br />PHP-də müəyyən edilmiş maksimum ölçüyü əldə edə bilmir.<br />Eklenti Modu php.ini-də müəyyən edilmiş maksimum Yükləmə Ölçüsünü təyin edə bilmir.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Eklenti çox böyükdür.<br />Maksimum Yükləmə Ölçüsü: %d MB.<br />Diqqət, bu ölçü php.ini-də müəyyən edilir, yəni PHP tərəfindən təyin edilib və Eklenti Modu bu dəyəri dəyişdirə bilmir.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Genişləndirilməsi %s yol verilmir'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Bu Forumda %s genişləndirməsi ilə faylları yerləşdirmək üçün icazəniz yoxdur.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Qoyuluş çox böyükdür.<br />Maksimum Ölçü: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Eklenti əlavə oluna bilmir, çünki bu mesajdakı maksimum %d Eklentinin sayı çatmışdır.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Ekalti/Şəkil %d piksel enində və %d piksel hündürlüyündə olmalıdır.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Yükleme xətası: Eklenti %s-yə yükləyə bilmir.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = '\'Eklenti Əlavə Et\' qutusu daxilində dəyərləri daxil etməlisiniz.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Eklenti yenilənə bilmir, çünki köhnə Eklenti qeydi tapılmadı.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Siz yükləmək və ya baxmaq üçün bir eklenti seçməmisiniz.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Seçdiyiniz Eklenti artıq mövcud deyil.';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Seçilmiş Eklentilər silindi.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Eklentilər silinə bilmir.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Sənəd əlavə etmə funksiyası deaktivdir.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Kataloq \'%s\' mövcud deyil, yaxud tapıla bilməz.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Lütfən yoxlayın və əmin olun ki, \'%s\' bir kataloqdur.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Kataloq \'%s\' yazıla bilmir. Yükleme yolu yaratmalı və chmod onu 777-ə dəyişdirməlisiniz (ya da sahibini httpd-server sahibinizə dəyişdirməlisiniz) faylları yükləmək üçün.<br />Əgər yalnız sadə FTP girişi varsa, kataloqun \'Atributunu\' rwxrwxrwx dəyişin.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Byte';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Faylları Axtar';
-$lang['TEST_SETTINGS'] = 'Test Parametrləri';
-$lang['NOT_ASSIGNED'] = 'Deyil Təyin Edilir';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Qeydiyyatdan keçdi.';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'Paylanmasının statusu:';
 $lang['TOR_STATUS_CHANGED'] = 'Statusu dəyişdi: ';
 $lang['TOR_BACK'] = ' geri';
 $lang['PROCEED'] = 'Davam';
-$lang['INVALID_ATTACH_ID'] = 'İtkin fayl identificatoru!';
 $lang['CHANGE_TOR_TYPE'] = 'Növü torrent uğurla dəyişdirildi.';
 $lang['DEL_TORRENT'] = 'Siz əmin deyilsinizsə, torrentin aradan qaldırılmasını istəyirsiniz?.';
 $lang['DEL_MOVE_TORRENT'] = 'Siz əmin deyilsinizsə, aradan qaldırmaq və mövzunu hərəkət etdirmək istəyirsiniz?.';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Cari';
 $lang['SEARCH_DL_COMPLETE'] = 'Tamamlanmışdır';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Tamamlanmış yükləmələr';
 $lang['SEARCH_DL_CANCEL'] = 'Ləğv';
-$lang['CUR_DOWNLOADS'] = 'Cari yükləmələr';
 $lang['CUR_UPLOADS'] = 'Cari yükləmələr';
 $lang['SEARCH_RELEASES'] = 'Relizlər';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent axtarış variantları';
 $lang['OPEN_TOPIC'] = 'Mövzu aç';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Yalnız birinci yazıda yerləşdirmək icazə verilir.';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Qeydiyyat yalnız birinci yazıdan icazə verilir.';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Bu forumda torrent qeydiyyatı mümkün olmadı.';
 $lang['ALREADY_REG'] = 'Torrent artıq qeydə alınıb.';
 $lang['NOT_TORRENT'] = 'Bu fayl torrent deyil.';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Siz yalnız bir torrent qeyd edə bilərsiniz.';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torent-profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktiv torrent';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'yalnız yeni mövzular';
 
 $lang['TORHELP_TITLE'] = 'Kömək edin torrentləri paylaşmağa!';
 $lang['STATISTICS'] = 'Statistika';
-$lang['STATISTIC'] = 'Statistik';
-$lang['VALUE'] = 'Dəyəri';
 $lang['STATUS'] = 'Statusu';
-$lang['CHANGES'] = 'Dəyişikliklər';
 $lang['ACTION'] = 'Fəaliyyət';
 $lang['REASON'] = 'Səbəbi';
 $lang['COMMENT'] = 'Şərh';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Kataloqu dağılmasından/sıxılma.';
 $lang['EXPAND'] = 'Genişlənmək.';
 $lang['SWITCH'] = 'Dönmək.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Pəncərəni artırın/azaldın';
-$lang['EMPTY_ATTACH_ID'] = 'ITKIN fayl ıd!';
-$lang['TOR_NOT_FOUND'] = 'Serverdən fayl yoxdur!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'Bu torrent-faylın məzmunu saytda görünə bilmir (faylların siyahısını qurmaq mümkün olmadı.)';
 $lang['TORFILE_INVALID'] = 'Torrent faylı zədələnib.';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Sayt" yalnız http://sitename ola bilər.';
-$lang['INVALID_DATE'] = 'Yanlış tarix';
 $lang['PROFILE_USER'] = 'Profilin görünməsi.';
 $lang['GOOD_UPDATE'] = 'uğurla dəyişdirilib.';
 $lang['UCP_DOWNLOADS'] = 'Yükləmələr.';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Mesaj göndər';
 $lang['NEW_THREADS'] = 'Yeni Mövzular';
 $lang['PROFILE_NOT_FOUND'] = 'Profil tapılmadı';
 
-$lang['USER_DELETE'] = 'Sil';
 $lang['USER_DELETE_EXPLAIN'] = 'Sil bu istifadəçi';
 $lang['USER_DELETE_ME'] = 'Təəssüf ki, sizin hesabınız silinməsi üçün icazə verilmir!';
 $lang['USER_DELETE_CSV'] = 'Təəssüf ki, bu hesab silinməsi icazə verilmir!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 's';
 $lang['OFF'] = 'off';
 $lang['MEMORY'] = 'Yaddaş: ';
 $lang['QUERIES'] = 'sorğu';
-$lang['LIMIT'] = 'Məhdudiyyətlər:';
 $lang['SHOW_LOG'] = 'Görüntüləmə qeydi';
 $lang['EXPLAINED_LOG'] = 'Açıqlanmış qeyd';
 $lang['CUT_LOG'] = 'Uzun sualları kəsin';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Postda getmək';
 $lang['PROFILE_EDIT_RETURN'] = 'Redaktə etməyə geri dön';
 $lang['PROFILE_RETURN'] = 'Profilə getmək';
 
-$lang['WARNING'] = 'Xəbərdarlıq';
 $lang['INDEXER'] = 'Axtarış переиндексация';
 $lang['INDEXER_SUCCESS'] = 'Axtarış indeksi uğurla yeniləndi';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Sıralar';
 $lang['SMILIES'] = 'Smaillər';
 $lang['BAN_MANAGEMENT'] = 'Qadağa Nəzarəti';
 $lang['WORD_CENSOR'] = 'Söz Senzurası';
-$lang['EXPORT'] = 'İxrac';
-$lang['CREATE_NEW'] = 'Yarat';
-$lang['ADD_NEW'] = 'Əlavə etmək';
 $lang['CRON'] = 'İş planlayıcısı (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Yenidən axtarış indeksini hazırlayın.';
 $lang['FORUM_CONFIG'] = 'Forum parametrləri';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'İstifadəçilərin sayı';
 $lang['USERS_PER_DAY'] = 'Gündə istifadəçilər';
 $lang['BOARD_STARTED'] = 'Board başladı';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar qovluğunun böyüklüyü';
-$lang['DATABASE_SIZE'] = 'Veritabanının böyüklüyü';
 $lang['GZIP_COMPRESSION'] = 'GZIP sıxılması';
 $lang['NOT_AVAILABLE'] = 'Mövcud deyil';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Basın %sBuraya%s geri qayıtmaq üçün Foru
 $lang['BAN_CONTROL'] = 'Qadağa Nəzarəti';
 $lang['BAN_EXPLAIN'] = 'Burada istifadəçilərin qadağan edilməsini idarə edə bilərsiniz.';
 $lang['BAN_USERNAME'] = 'Bir və ya bir neçə konkret istifadəçini qadağan edin.';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Müvafiq siçan və klaviatura birləşməsi ilə bir anda bir neçə istifadəçini qadağan edə bilərsiniz.';
 $lang['UNBAN_USERNAME'] = 'Bir və ya daha çox konkret istifadəçini unblock edin';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Müvafiq siçan və klaviatura birləşməsi ilə bir anda bir neçə istifadəçini qadağadan azad edə bilərsiniz.';
 $lang['NO_BANNED_USERS'] = 'Qadağan edilmiş istifadəçi yoxdur.';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Saytın adı';
 $lang['SITE_DESC'] = 'Saytın təsviri';
 $lang['FORUMS_DISABLE'] = 'Forumu deaktiv et';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Bu istifadəçilər üçün əlçatmaz edəcək. Administratorlar, forum deaktiv olduğu zaman İdarəetmə Panelinə daxil ola bilərlər.';
-$lang['ACC_NONE'] = 'Heç kim'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'İstifadəçi';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Heç kim';
 
 $lang['ABILITIES_SETTINGS'] = 'İstifadəçi və Forumun Əsas Parametrləri';
 $lang['MAX_POLL_OPTIONS'] = 'Seçim variantlarının maksimum sayı';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Sil';
 $lang['CONFIG_UPDATED'] = 'Konfiqurasiya Forum Uğurla Yenilənib';
 $lang['MOVE_UP'] = 'Yuxarı doğru hərəkət.';
 $lang['MOVE_DOWN'] = 'Aşağı doğru hərəkət.';
-$lang['RESYNC'] = 'Yenidən sinxronizasiya';
 $lang['NO_MODE'] = 'Heç bir rejim təyin edilməmişdir.';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Aşağıdakı forma yazı taxtasının bütün əsas seçimini dəyişdirmək imkanı verir. İstifadəçi və Forum konfiqurasiyaları üçün sol tərəfdəki əlaqəli bağlantılardan istifadə edin.';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Qrup sil.';
 $lang['GROUP_DELETE_CHECK'] = 'Bu qrupu sil.';
 $lang['NO_GROUP_NAME'] = 'Bu qrup üçün ad daxil etməlisiniz.';
 $lang['NO_GROUP_MODERATOR'] = 'Bu qrup üçün bir moderator göstərməlisiniz.';
-$lang['NO_GROUP_MODE'] = 'Bu qrup üçün, açıq və ya qapalı iş rejimi göstərməlisiniz.';
 $lang['NO_GROUP_ACTION'] = 'Heç bir hərəkət göstərilmədi.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Köhnə qrup moderatorunu silmək?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Əgər siz qrup moderatorunu dəyişirsinizsə, bu qutunu işarələyin ki, köhnə moderatoru qrupdan siləsiniz. Əks halda, yoxlayın və istifadəçi qrupa adi üzv olacaq.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Qrup axtar.';
 $lang['FORUM_PRUNE'] = 'Forum Budav.';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Bu, sayı günlərin ərzində yerləşdirilməmiş mövzu aradan qaldırmağa imkan verəcək.';
 $lang['DO_PRUNE'] = 'Nə Buda.';
-$lang['ALL_FORUMS'] = 'Bütün Forumlar';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Cavabsız mövzuları budağın bu qədər gündə.';
 $lang['TOPICS_PRUNED'] = 'Mövzular budanır.';
 $lang['PRUNE_SUCCESS'] = 'Forum uğurla budandı.';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Basın %sHere%s geri dərəcə admin.';
 $lang['DISALLOW_CONTROL'] = 'İstifadəçi adı qadağan sürəti.';
 $lang['DISALLOW_EXPLAIN'] = 'Burada siz istifadəçi adını nəzarət edə bilərsiniz.';
 
-$lang['DELETE_DISALLOW'] = 'Sil.';
 $lang['DELETE_DISALLOW_TITLE'] = 'Dözülməz istifadəçi adını silmək';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Dözülməz istifadəçi adını bu siyahıdan seçərək, təqdim düyməsinə klikləyərək silə bilərsiniz.';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s faylları yükləyə bilər
 $lang['SF_SHOW_ON_INDEX'] = 'Ana səhifədə göstər.';
 $lang['SF_PARENT_FORUM'] = 'Valideyn forum.';
 $lang['SF_NO_PARENT'] = 'Heç bir valideyn forum.';
-$lang['TEMPLATE'] = 'Şablon';
 $lang['SYNC'] = 'Sinxronizasiya';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'Diqqət! Toxum bonuslar artan qaydada olmalıdır
 $lang['SEED_BONUS_EXCHANGE'] = 'Mübadilə Сид Bonuslar quraşdırılması.';
 $lang['SEED_BONUS_ROPORTION'] = 'Mütənasib əlavə mübadiləsi üçün bonuslar azn GB.';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Control Panel';
-$lang['EXTENSION_CONTROL'] = 'Nəzarət Genişləndirilməsi.';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Ğenişləndirmə qrupunun nəzarəti.';
-$lang['SPECIAL_CATEGORIES'] = 'Xüsusi Bir Kateqoriya.';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Konfiqurasiya faylları.';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Burada siz əlavə mod üçün əsas parametrləri konfiqurasiya edə bilərsiniz.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Əlavə Fayl Ölçüsü Parametrləri.';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Sayı üçün əlavə parametrləri.';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Variantları Əlavə.';
-
-$lang['UPLOAD_DIRECTORY'] = 'Yükləmə kataloqu.';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Yazın nisbi yol quraşdırılması site torrentpier üçün sərmayə qoyuluşuna kataloq upload.';
-$lang['ATTACH_IMG_PATH'] = 'İkon Qoyuluşu Poçt.';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Bu şəkil göstərilir yanında qoyuluşu bir ayrı-ayrı Постингах.';
-$lang['ATTACH_TOPIC_ICON'] = 'İcon Mövzusu.';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Bu şəkil göstərilir qədər mövzu ilə faylları.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Proqramın keçirilmə qaydası.';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Burada siz əlavə vəzifələrdə/PMS qaydada azalan filetime və bundan sonra.';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Fayl ölçüsü';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimum fayl ölçüsü qoyuluşu üçün.';
-$lang['MAX_FILESIZE_PM'] = 'Şəxsi Mesajlar Qovluğunda Maksimum Fayl Ölçüsü';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimum Disk Alanı Hər Bir İstifadəçinin Şəxsi Mesaj Qutusu tərkibində istifadə edə biləcəyi Əlavələr. 0 dəyəri "limitsiz" deməkdir.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maksimum Əlavələrin Sayı';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Bir postda icazə verilən maksimum əlavə sayı.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maksimum şəxsi mesajda əlavə sayı';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'İstifadəçinin şəxsi mesajda daxil etməyə icazə verildiyi maksimum əlavə sayını müəyyən edin.';
-
-$lang['DISABLE_MOD'] = 'Əlavə Modunu deaktiv edin';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Bu variant əsasən yeni şablonları və ya mövzuları sınaqdan keçirmək üçündür, o bütün əlavə funksiyalarını Admin Paneli istisna olmaqla deaktiv edir.';
-$lang['PM_ATTACHMENTS'] = 'Şəxsi mesajlarda əlavələrə icazə verin';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Şəxsi mesajlara fayl əlavə etməyə imkan verin/inkar edin.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Genişləndirmələri idarə et';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Burada fayl genişləndirmələrinizi idarə edə bilərsiniz. Əgər bir genişlətməyə yükləməyə icazə vermək/verməmək istəyirsinizsə, zəhmət olmasa Genişləndirmə Qruplarının İdarəetməsindən istifadə edin.';
-$lang['EXPLANATION'] = 'İzahı';
-$lang['EXTENSION_GROUP'] = 'Genişləndirilməsi Qrupu';
-$lang['EXTENSION_EXIST'] = 'Genişləndirilməsi %s artıq mövcuddur'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Qrup İdarə Genişləndirilməsi';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Burada siz Genişləndirmə Qruplarınızı əlavə edə, silə və dəyişdirə bilərsiniz, genişləndirmə qruplarını deaktiv edə, onlara xüsusi bir Kateqoriya təyin edə, yükləmə mexanizmini dəyişə və qrup aid olan əlavənin qarşısında göstəriləcək Yükləmə İkonunu müəyyən edə bilərsiniz.';
-$lang['SPECIAL_CATEGORY'] = 'Xüsusi Bir Kateqoriya';
-$lang['CATEGORY_IMAGES'] = 'Şəkillər';
 $lang['ALLOWED'] = 'İcazə';
-$lang['ALLOWED_FORUMS'] = 'İcazə verilmiş Forumlar';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Qrup İcazələri';
-$lang['DOWNLOAD_MODE'] = 'Yükləmə Rejimi';
-$lang['UPLOAD_ICON'] = 'Yükləmə İkonu';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maksimal Ölçüsü';
-$lang['EXTENSION_GROUP_EXIST'] = 'Qrupu genişləndirilməsi %s artıq mövcuddur'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'İdarəetmə Xüsusi Kateqoriyaları';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Burada Siz Xüsusi Kateqoriyaları tənzimləyə bilərsiniz. Siz Uzadılmış Qruplara təyin edilmiş Xüsusi Kateqoriyalar üçün Xüsusi Parametrlər və Şərtlər müəyyən edə bilərsiniz.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Xüsusi kateqoriya üçün parametrlər: şəkillər';
-$lang['DISPLAY_INLINED'] = 'Şəkilləri inline formatında göstərin';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Şəkilləri birbaşa yazıda göstərmək (bəli) və ya link şəklində göstərmək üçün seçin?';
-$lang['MAX_IMAGE_SIZE'] = 'Maksimum Şəkil Ölçüləri';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Burada siz əlavə edilə biləcək maksimum icazə verilən Şəkil Ölçüsünü müəyyən edə bilərsiniz (eni x hündürlüyü piksel ilə).<br />Əgər 0x0 qəbul edilərsə, bu xüsusiyyət deaktiv olacaq. Bəzi Şəkillər bu xüsusiyyət PHP limitlərinə görə işləmir.';
-$lang['IMAGE_LINK_SIZE'] = 'Şəkil Link Ölçüləri';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Əgər bu müəyyən Şəkil Ölçüsü əldə olunursa, Şəkil inline göstərildiyi halda, bir Link kimi göstəriləcək,<br />əgər İnline Görünüş aktivdirsə (eni x hündürlüyü piksel ilə).<br />Əgər 0x0 qəbul edilərsə, bu xüsusiyyət deaktiv olacaq. Bəzi Şəkillər bu xüsusiyyət PHP limitlərinə görə işləmir.';
-$lang['ASSIGNED_GROUP'] = 'Sonrakı Qrup';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Eskiz yaradın';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Eskiz Fayl Ölçüsü';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Əgər şəkil bu müəyyən Həcmdən kiçikdirsə, heç bir Eskiz yaradılmayacaq, çünki o kiçikdir.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Qrup İcazələri - > \'%s\'.'; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Burada siz seçilmiş Genişlənmə Qrupunu seçdiyiniz Forumlara məhdudlaşdıra bilərsiniz (İcaza verilən Forumlar Qutusunda müəyyən olunub). Default olaraq istifadə qulluqçulara Fayl əlavə etmək üçün İcazə verilir (forumlar əlavə feted basis theremin). Sadəcə olaraq, icazə verilən Forumları bu Forumların siyahısına qatın, default HƏR FORUMDA göründüyü zaman silinecəkdir. Hər hansı bir anda BÜTÜN FORUMLARI yenidən əlavə etmək mümkündür.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'Qeyd:<br />Aşağıda göstərilən Forumlarda İstifadəçiləriniz adətən faylları əlavə etməyə icazə verilir, lakin heç bir Qrup Genişlətmələrinə icazə yoxdur, buna görə də İstifadəçiləriniz heç nə əlavə edə bilməz. Əgər bu cəhətləri yanlış edəcəkssiniz, səhv mesajları alacaqsınız. Bəlkə də siz bu Forumlarda \'Faylları Yüklə\' icazəsini ADMIN edilməsi lazım olacaqdır.<br /><br />';
-$lang['ADD_FORUMS'] = 'Forumları əlavə et';
-$lang['ADD_SELECTED'] = 'Seçilmişlərin əlavə edilməsi';
-$lang['PERM_ALL_FORUMS'] = 'BÜTÜN FORUMLAR';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Fayl Əlavə İdarəetməsi Paneli';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Burada siz bütün əlavələri istifadəçilərə, fayl, baxış və s. ilə idarə edə bilərsiniz....';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Qismən üst-üstə düşmələr üçün * işarəsini istifadə edin.';
-$lang['SIZE_SMALLER_THAN'] = 'Eleman ölçüsü daha azdır (baytları)';
-$lang['SIZE_GREATER_THAN'] = 'Eleman ölçüsü daha çoxdur (baytları)';
-$lang['COUNT_SMALLER_THAN'] = 'Yükdaşıdakı say daha azdır';
-$lang['COUNT_GREATER_THAN'] = 'Yükdaşıdakı say daha çoxdur';
-$lang['MORE_DAYS_OLD'] = 'Daha sonra gün daha çox';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Axtarış meyarlarınıza uyğun heç bir əlavə yoxdur';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Qayda sayı';
-$lang['TOTAL_FILESIZE'] = 'Cəmi fayl ölçüsü';
-$lang['NUMBER_POSTS_ATTACH'] = 'Fayllar əlavə edilmiş vəzifələr sayı';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Fayllar əlavə edilmiş mövzular sayıdır.';
-$lang['NUMBER_USERS_ATTACH'] = 'Müstəqil İstifadəçilər Fayl Qoymaları Qoymaları';
-$lang['NUMBER_PMS_ATTACH'] = 'Şəxsi İsmarlaclarda Cəmi Əlavələrin sayı';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = '%s üçün əlavə statistikası'; // replace %s with username
-$lang['DOWNLOADS'] = 'Yükləmələr.';
-$lang['POST_TIME'] = 'Post vaxtı';
-$lang['POSTED_IN_TOPIC'] = 'Mövzuda dərc edilib';
-$lang['SUBMIT_CHANGES'] = 'Dəyişiklikləri təqdim et';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Əlavələr';
-$lang['SORT_SIZE'] = 'Ölçü';
-$lang['SORT_FILENAME'] = 'Fayl adı';
-$lang['SORT_COMMENT'] = 'Şərh';
-$lang['SORT_EXTENSION'] = 'Genişləndirmə';
-$lang['SORT_DOWNLOADS'] = 'Yükləmələr.';
-$lang['SORT_POSTTIME'] = 'Post vaxtı';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistika';
-$lang['VIEW_SEARCH'] = 'Axtarış';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Parametrlər proqram uğurla yenilənib';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = '%sBuraya%s qayıtmaq üçün basın';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Ayarlar testi başa çatdı, konfiqurasiya normal görünür.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Əlavələr';
-$lang['EXTENSIONS'] = 'Genişləndirilməsi';
-$lang['EXTENSION'] = 'Genişləndirilməsi';
-
 $lang['RETURN_CONFIG'] = '%sBuraya qaytar%s';
 $lang['CONFIG_UPD'] = 'Konfiqurasiya Uğurla Yenilənib';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Torrent tracker-dan qeydiyyatdan çıxa
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Şablon deaktivdir.';
 $lang['FOR_NEW_TEMPLATE'] = 'Yeni şablonlar üçün!';
-$lang['CHANGED'] = 'Dəyişiklik.';
-$lang['REMOVED'] = 'Silinib.';
 $lang['QUESTION'] = 'Təstiq edin, bu hərəkəti həyata keçirmək istəyirsiniz?';
 
 $lang['CRON_LIST'] = 'Хрониш.';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Zaman limiti';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Nə qədər vaxt (saniyə) post emalı irəliləyə bilər.';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Sizin veb serveriniz %s saniyəlik vaxt bitməyi qurulmuşdur, ona görə də bu dəyərdən aşağıda qalın</i>.';
 
-$lang['DISABLE_BOARD'] = 'Aradan Şurasının';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Siz sonuncu dəfə emalı post_id %s (%s emal edilən postlar) %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Siz sonuncu dəfə emalı abort etdiniz post_id %s (%s emal edilən ismarıclar) %s';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Bütün postlar uğurla emal edilmişdir.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Bütün axtarış cədvəlləri uğurla optimize edilmişdir.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Post emal.';
-$lang['PERCENT'] = 'Faiz';
 $lang['CURRENT_SESSION'] = 'Sessiya';
 $lang['TOTAL'] = 'Ümumi';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = '<b>%s</b> <b>%s</b> arasında (ümumi <b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %% başa çatıb';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Cari sessiya ətraflı.';
-$lang['PROCESSING_TIME'] = 'Emal müddəti.';
 $lang['TIME_LAST_POSTS'] = 'Son %s post(s)';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Başlanğıcdan.';
 $lang['TIME_AVERAGE'] = 'Orta dövr.';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Bütün hərəkətləri';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Fəaliyyət Jurnalı: Axtarış variantları';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Fəaliyyət';
-$lang['ACTS_LOG_USER'] = 'İstifadəçi';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Jurnallar: ';
 $lang['ACTS_LOG_FIRST'] = 'ilə başlayan';
 $lang['ACTS_LOG_DAYS_BACK'] = 'gün əvvəl';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Buraxılış şablonları';
 $lang['RELEASES'] = 'Buraxılışlar';
 
 $lang['BACK'] = 'Geri';
-$lang['ERROR_FORM'] = 'Düzgün sahələr';
 $lang['NEW_RELEASE'] = 'Yeni nəşr';
 $lang['NEXT'] = 'Davam';
-$lang['OTHER'] = 'Digər';
 $lang['ALL'] = 'Bütün';
 
 $lang['TPL_EMPTY_FIELD'] = 'Siz <b>%s</b> sahəsini doldurmalısınız.';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Seçimlər.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Hər sıra bir cavaba uyğun gəlir (max.';
 
 $lang['OLD_BROWSER'] = 'İstifadə etdiyiniz köhnəlmiş brauzer. Veb sayt düzgün görünmür.';
-$lang['GO_BACK'] = 'Geri qayıt.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Fayl yüklənməsi deaktivdir';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fayl yükləmə səhvi.';
