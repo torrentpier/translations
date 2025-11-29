@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Maaf, tetapi Anda tidak diizinkan untuk melih
 $lang['DESCRIPTION'] = 'Deskripsi'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Ukuran File';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Ukuran file maksimal';
+$lang['ALLOWED_EXTENSIONS'] = 'Ekstensi yang diizinkan';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Aliran';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Salin tautan aliran ke clipboard';
 $lang['M3U_NOT_SUPPORTED'] = 'File ini tidak dapat diputar di browser...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Sepertinya ffprobe tidak dapat mengembalikan data tentang codec ini...';
 $lang['M3U_NOTICE'] = 'Beberapa browser tidak mendukung pemutaran format video tertentu. Dalam kasus seperti itu, Anda dapat mengunduh file .m3u dan memutarnya dengan pemutar pihak ketiga';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer tidak tersedia';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Parameter permintaan tidak valid';
 
 $lang['ATTACHMENT'] = 'Lampiran';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Tambahkan Lampiran';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Jika Anda tidak ingin menambahkan Lampiran ke Posting Anda, silakan tinggalkan Bidang kosong.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Perbarui Lampiran';
 $lang['FILENAME'] = 'Nama berkas';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Menghapus Lampiran';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Anda belum memilih lampiran untuk men-download atau lihat.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Lampiran yang dipilih tidak ada lagi';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Batas unduhan harian telah terlampaui. Silakan coba lagi besok.';
 
 //bt
 $lang['BT_REG_YES'] = 'Terdaftar';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Direktori runtuh.';
 $lang['EXPAND'] = 'Memperluas';
 $lang['SWITCH'] = 'Beralih';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Tingkatkan/kurangi jendela';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Pengidentifikasi topik hilang';
+$lang['TOR_NOT_FOUND'] = 'File hilang dari server';
 $lang['ERROR_BUILD'] = 'Konten dari file torrent ini tidak dapat dilihat di situs (tidak mungkin untuk membuat daftar file).';
 $lang['TORFILE_INVALID'] = 'File torrent korup.';
 
