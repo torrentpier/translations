@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Mostrar senha';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
-$lang['TIME'] = 'Tempo';
 $lang['MESSAGE'] = 'Mensagem';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Permissões';
 $lang['TYPE'] = 'Tipo';
-$lang['SEEDER'] = 'Um Seed.';
-$lang['LEECHER'] = 'Leechers';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Dia';
 $lang['7_DAYS'] = '7 Dias';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Responder ao tópico';
 $lang['CLICK_RETURN_TOPIC'] = 'Clique %sHere%s para voltar ao tópico'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Clique %sHere%s para voltar ao fórum';
 $lang['CLICK_RETURN_MODCP'] = 'Clique %sHere%s para retornar ao Moderador do Painel de Controle';
-$lang['CLICK_RETURN_GROUP'] = 'Clique %sAqui%s para retornar às informações do grupo.';
 
 $lang['ADMIN_PANEL'] = 'Vá para Painel de Administração';
 $lang['ALL_CACHE_CLEARED'] = 'Cache tem sido desmarcada';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Forum';
 $lang['DISPLAYING_OPTIONS'] = 'Exibir opções';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Os usuários registrados:';
 $lang['BROWSING_FORUM'] = 'Usuários navegando neste fórum:';
 $lang['ONLINE_USERS'] = 'No total, existem <b>%1$d</b> usuários online: %2$d Registrados e %3$d visitantes.';
 $lang['RECORD_ONLINE_USERS'] = 'O recorde de usuários online foi de <b>%s</b> no %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Visualizar as postagens mais recentes.';
 $lang['SEARCH_SELF'] = 'Meus Posts.';
 $lang['SEARCH_SELF_BY_LAST'] = 'Último horário de postagem.';
 $lang['SEARCH_SELF_BY_MY'] = 'Meu horário de postagem.';
-$lang['SEARCH_UNANSWERED'] = 'Visualizar postagens não respondidas.';
 $lang['SEARCH_LATEST'] = 'Tópicos recentes';
 $lang['LATEST_RELEASES'] = 'Últimos lançamentos';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Velocidade Total: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Não há novos posts';
 $lang['NEW_POSTS'] = 'Novos posts';
-$lang['NEW_POST'] = 'Novo post';
 $lang['FORUM_LOCKED_MAIN'] = 'Fórum bloqueado';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Últimas notícias';
 $lang['NETWORK_NEWS'] = 'A rede de notícias';
 $lang['SUBFORUMS'] = 'Subforums';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Ver Fórum';
-
 $lang['FORUM_NOT_EXIST'] = 'O fórum que você selecionou não existe.';
 $lang['ERROR_PORNO_FORUM'] = 'Este tipo de fóruns (18+) que estava escondido no seu perfil por você';
 
 $lang['DISPLAY_TOPICS'] = 'Exibição de tópicos';
-$lang['ALL_TOPICS'] = 'Todos os Tópicos';
 $lang['MODERATE_FORUM'] = 'Moderar este fórum';
 $lang['TITLE_SEARCH_HINT'] = 'pesquisar título...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Você <b>pode</b> moderar este fórum.';
 $lang['NO_TOPICS_POST_ONE'] = 'Ainda não há posts neste fórum<br />Clique no ícone <b>Novo Tópico</b>, e seu post será o primeiro.';
 $lang['NO_RELEASES_POST_ONE'] = 'Ainda não há lançamentos neste fórum<br />Clique no ícone <b>Nova Versão</b>, e seu lançamento será o primeiro.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Ver tópico';
-
 $lang['GUEST'] = 'Convidado';
-$lang['POST_SUBJECT'] = 'Assunto da postagem.';
 $lang['SUBMIT_VOTE'] = 'Enviar voto';
 
 $lang['NO_NEWER_TOPICS'] = 'Não existem novos tópicos neste fórum.';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Mais Recentes Primeiro';
 $lang['OLDEST_FIRST'] = 'Mais Antigos Primeiro';
 
 $lang['READ_PROFILE'] = 'Ver perfil do usuário';
-$lang['DELETE_POST'] = 'Excluir este post';
 
 $lang['WROTE'] = 'escreveu'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Citar'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Você deve especificar um título para a mensagem
 $lang['INVALID_TOPIC_ID'] = 'Tópico Ausente!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Tópico não existe no banco de dados!';
 
-$lang['NOT_POST'] = 'Mensagem ausente.';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Você não pode editar lançamentos com o status.';
 
 $lang['OPTIONS'] = 'Opções';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Você deve especificar uma opção de voto';
 $lang['LOCKED_WARN'] = 'Você postou no tópico bloqueado!';
 
 $lang['ADD_POLL'] = 'Adicionar uma enquete';
-$lang['POLL_OPTION'] = 'Opção de enquete';
 $lang['UPDATE'] = 'Atualização';
 $lang['DAYS'] = 'Dias';
 $lang['DELETE_POLL'] = 'Excluir enquete';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Permitir que robôs indexem este tópico';
 $lang['STORED'] = 'Sua mensagem foi inserida com sucesso.';
 $lang['EDITED'] = 'A mensagem foi alterada';
 $lang['DELETED'] = 'Sua mensagem foi excluída com sucesso.';
-$lang['POLL_DELETE'] = 'A sua enquete foi excluída com êxito.';
 $lang['VOTE_CAST'] = 'Seu voto foi computado.';
 
 $lang['EMOTICONS'] = 'Emoticons';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Entrada';
 $lang['OUTBOX'] = 'Enviar';
 $lang['SAVEBOX'] = 'Savebox';
 $lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = 'Bandeira';
 $lang['SUBJECT'] = 'Assunto';
 $lang['FROM'] = 'A partir de';
 $lang['TO'] = 'Para';
 $lang['DATE'] = 'Data';
-$lang['MARK'] = 'Marca';
 $lang['SENT'] = 'Enviado';
 $lang['SAVED'] = 'Salvo';
 $lang['DELETE_MARKED'] = 'Excluir Marcados';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Mostrar mensagens'; // Followed by number of days/w
 
 $lang['NO_MESSAGES_FOLDER'] = 'Não há mensagens nesta pasta';
 
-$lang['PM_DISABLED'] = 'O envio de mensagens privadas foi desativado neste fórum.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Desculpe, mas o administrador impediu você de enviar mensagens privadas.';
 $lang['NO_TO_USER'] = 'Você deve especificar um nome de utilizador para quem enviar esta mensagem.';
 $lang['NO_SUCH_USER'] = 'Desculpe, mas não existe tal usuário.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Editar mensagem privada';
 
 $lang['FIND_USERNAME'] = 'Encontrar um nome de usuário';
 $lang['SELECT_USERNAME'] = 'Escolha um nome de usuário';
-$lang['FIND'] = 'Encontrado';
 $lang['NO_MATCH'] = 'Nenhum resultado encontrado.';
 
 $lang['NO_PM_ID'] = 'Por favor, especifique o ID do post';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Sua conta foi criada. No entanto, este fórum reque
 $lang['ACCOUNT_ACTIVE'] = 'Sua conta foi ativada. Obrigado por se registar';
 $lang['ALREADY_ACTIVATED'] = 'Você já ativou sua conta';
 
-$lang['REGISTRATION'] = 'Os termos do contrato de registro.';
 
 $lang['WRONG_ACTIVATION'] = 'A chave de ativação que você forneceu não corresponde a nenhuma no banco de dados.';
-$lang['SEND_PASSWORD'] = 'Enviar-me uma nova senha.';
 $lang['PASSWORD_UPDATED'] = 'Uma nova senha foi criada; por favor, verifique seu e-mail para obter detalhes sobre como ativá-la.';
 $lang['NO_EMAIL_MATCH'] = 'O e-mail que você forneceu não corresponde ao que está listado para esse nome de usuário.';
 $lang['PASSWORD_ACTIVATED'] = 'Sua conta foi reativada. Para fazer login, por favor, use a senha fornecida no e-mail que você recebeu.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Anuncie neste site';
 $lang['NOT_FOUND'] = 'Arquivo não encontrado';
 
 // Memberslist
-$lang['SORT'] = 'Ordenar';
 $lang['SORT_TOP_TEN'] = 'Top 10 Cartazes';
 $lang['SORT_JOINED'] = 'Data de Adesão';
 $lang['SORT_USERNAME'] = 'Nome de usuário';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Este grupo não possui membros';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Este grupo está escondido, você não pode exibir seus membros';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Este grupo não possui membros pendentes';
 $lang['GROUP_JOINED'] = 'Você se inscreveu com sucesso neste grupo.<br />Você será notificado quando sua inscrição for aprovada pelo moderador do grupo.';
-$lang['GROUP_REQUEST'] = 'Um pedido para se juntar a seu grupo tem sido feito.';
-$lang['GROUP_APPROVED'] = 'O seu pedido foi aprovado.';
-$lang['GROUP_ADDED'] = 'Você tem sido adicionado a esse grupo.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Você já é um membro deste grupo';
 $lang['USER_IS_MEMBER_GROUP'] = '%s já é membro deste grupo';
 $lang['USER_IS_MOD_GROUP'] = '%s é moderador deste grupo';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Sua associação a este grupo está pendente.';
 $lang['ARE_GROUP_MODERATOR'] = 'Você é o moderador do grupo';
 $lang['NONE'] = 'Nenhum';
 
-$lang['SUBSCRIBE'] = 'Assinar';
 $lang['UNSUBSCRIBE_GROUP'] = 'Cancelar inscrição';
 $lang['MEMBERS_IN_GROUP'] = 'Membros do grupo';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Este grupo não é um grupo de lançamento';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Procurar Ajuda';
-$lang['SEARCH_QUERY'] = 'Consulta De Pesquisa';
 $lang['SEARCH_OPTIONS'] = 'Opções De Pesquisa';
 
 $lang['SEARCH_WORDS'] = 'Pesquisar por Palavras-chave';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Título Do Tópico';
 $lang['DISPLAY_RESULTS_AS'] = 'Mostrar resultados como';
 $lang['ALL_AVAILABLE'] = 'Todos disponíveis';
 $lang['BRIEFLY'] = 'Brevemente';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Você não tem permissões para procurar qualquer fórum no site.';
 
 $lang['NO_SEARCH_MATCH'] = 'Não há tópicos ou posts que atendam aos seus critérios de pesquisa.';
 $lang['FOUND_SEARCH_MATCH'] = 'Pesquisa encontrou %d correspondência.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Pesquisa encontrou %d partidas.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Fechar Janela';
-$lang['CLOSE'] = 'fechar';
 $lang['HIDE'] = 'esconder';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Desculpe, mas você não está autorizado a v
 $lang['DESCRIPTION'] = 'Descrição'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Baixar'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Tamanho do arquivo';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'A extensão \'%s\' foi desativada por um administrador, portanto este anexo não é exibido.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Copiar link da stream para a área de transferênci
 $lang['M3U_NOT_SUPPORTED'] = 'Este arquivo não pode ser reproduzido no navegador...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Parece que o ffprobe não será capaz de retornar dados sobre este codec...';
 $lang['M3U_NOTICE'] = 'Alguns navegadores não suportam a reprodução de certos formatos de vídeo. Nesse caso, você pode baixar o arquivo .m3u e reproduzi-lo usando um player de terceiros';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Anexos';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Miniatura do Anexo';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Adicionar Anexo';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Adicionar um Anexo';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Se você não quiser adicionar um Anexo ao Post, por favor, deixe os Campos em branco';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Nome de ficheiro';
-$lang['FILE_COMMENT'] = 'Comentário do arquivo';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Anexos postados';
-$lang['UPDATE_COMMENT'] = 'Comentário de atualização';
 $lang['DELETE_ATTACHMENT'] = 'Apagar Anexo';
-$lang['DELETE_THUMBNAIL'] = 'Excluir Miniatura';
-$lang['UPLOAD_NEW_VERSION'] = 'Carregar Nova Versão';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s é um nome de arquivo inválido'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'O anexo é muito grande.<br />Não foi possível obter o tamanho máximo definido no PHP.<br />O Mod de Anexos não consegue determinar o tamanho máximo de upload definido no php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'O anexo é muito grande.<br />Tamanho máximo de upload: %d MB.<br />Observe que esse tamanho é definido no php.ini, isto significa que é definido pelo PHP e o Mod de Anexos não pode sobrescrever este valor.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'A extensão %s não é permitida.'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Você não tem permissão para postar arquivos com a extensão %s neste fórum.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'O Anexo é muito grande.<br />Tamanho Máx: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'O anexo não pode ser adicionado, pois o número máximo de %d anexos neste post foi alcançado.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'O anexo/imagem deve ter menos de %d pixels de largura e %d pixels de altura.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Erro de Upload: não foi possível enviar o anexo para %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Você deve inserir valores na caixa \'Adicionar um Anexo\'.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Não foi possível atualizar o anexo, não foi possível encontrar a entrada antiga.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Você ainda não selecionou um anexo para fazer o download ou visualizar.';
 $lang['ERROR_NO_ATTACHMENT'] = 'O Anexo seleccionado não existe mais';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Os Anexos selecionados foram excluídos.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Não poderia excluir Anexos.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'A funcionalidade de anexos está desativada.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'O diretório \'%s\' não existe ou não pôde ser encontrado.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Por favor, verifique se \'%s\' é um diretório.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Diretório \'%s\' não é gravável. Você terá que criar o caminho de upload e chmod para 777 (ou alterar o proprietário para ser o dono do seu servidor http) para fazer upload de arquivos.<br />Se você tem apenas acesso FTP simples, mude o \'Atributo\' do diretório para rwxrwxrwx.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Bytes';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Pesquisar Anexos';
-$lang['TEST_SETTINGS'] = 'Configurações De Teste';
-$lang['NOT_ASSIGNED'] = 'Não Atribuído';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrado';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'A distribuição tem o status de:';
 $lang['TOR_STATUS_CHANGED'] = 'Status alterado: ';
 $lang['TOR_BACK'] = ' de volta';
 $lang['PROCEED'] = 'Continuar';
-$lang['INVALID_ATTACH_ID'] = 'Falta de identificador de arquivo!';
 $lang['CHANGE_TOR_TYPE'] = 'Digite o torrent alterado com sucesso';
 $lang['DEL_TORRENT'] = 'Tem certeza de que deseja excluir o torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Tem certeza de que deseja excluir e mover o tópico?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Atual.';
 $lang['SEARCH_DL_COMPLETE'] = 'Concluído';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Downloads completos.';
 $lang['SEARCH_DL_CANCEL'] = 'Cancelado.';
-$lang['CUR_DOWNLOADS'] = 'Downloads atuais.';
 $lang['CUR_UPLOADS'] = 'Uploads atuais.';
 $lang['SEARCH_RELEASES'] = 'Lançamentos.';
 $lang['TOR_SEARCH_TITLE'] = 'Opções de pesquisa de torrent.';
 $lang['OPEN_TOPIC'] = 'Abrir tópico';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Postar torrents permitidos somente no primeiro post';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registar torrents permitida somente a partir do primeiro post';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Não foi possível registrar torrent neste fórum';
 $lang['ALREADY_REG'] = 'Torrent já registrado';
 $lang['NOT_TORRENT'] = 'Este arquivo não é torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Você pode registrar apenas um torrent em um tópico';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Perfil de torrent';
 $lang['CUR_ACTIVE_DLS'] = 'Torrents ativos';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'apenas novos tópicos';
 
 $lang['TORHELP_TITLE'] = 'Por favor, ajude a compartilhar esses torrents!';
 $lang['STATISTICS'] = 'Estatísticas';
-$lang['STATISTIC'] = 'Estatística';
-$lang['VALUE'] = 'Valor';
 $lang['STATUS'] = 'Estado';
-$lang['CHANGES'] = 'Alterações';
 $lang['ACTION'] = 'Ação';
 $lang['REASON'] = 'Motivo';
 $lang['COMMENT'] = 'Comentário';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Colapsar diretório';
 $lang['EXPAND'] = 'Expandir';
 $lang['SWITCH'] = 'Trocar';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Aumentar/diminuir a janela';
-$lang['EMPTY_ATTACH_ID'] = 'Falta identificador de arquivo!';
-$lang['TOR_NOT_FOUND'] = 'O arquivo está faltando no servidor!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'O conteúdo deste arquivo torrent não pode ser visto no site (não foi possível construir uma lista de arquivos)';
 $lang['TORFILE_INVALID'] = 'O arquivo torrent está corrompido';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'O "site" pode conter apenas http://sitename';
-$lang['INVALID_DATE'] = 'Data inválida';
 $lang['PROFILE_USER'] = 'Visualizando perfil';
 $lang['GOOD_UPDATE'] = 'foi mudada com sucesso';
 $lang['UCP_DOWNLOADS'] = 'Downloads';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Enviar mensagem';
 $lang['NEW_THREADS'] = 'Novos Tópicos';
 $lang['PROFILE_NOT_FOUND'] = 'Perfil não encontrado';
 
-$lang['USER_DELETE'] = 'Apagar';
 $lang['USER_DELETE_EXPLAIN'] = 'Excluir este usuário';
 $lang['USER_DELETE_ME'] = 'Desculpe, sua conta não pode ser removida!';
 $lang['USER_DELETE_CSV'] = 'Desculpe, esta conta não tem permissão para excluir!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'Desativado.';
 $lang['OFF'] = 'Desligado.';
 $lang['MEMORY'] = 'Memória: ';
 $lang['QUERIES'] = 'consultas';
-$lang['LIMIT'] = 'Limite:';
 $lang['SHOW_LOG'] = 'Mostrar log';
 $lang['EXPLAINED_LOG'] = 'Log explicado';
 $lang['CUT_LOG'] = 'Cortar consultas longas';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Acesse o post';
 $lang['PROFILE_EDIT_RETURN'] = 'Voltar à edição';
 $lang['PROFILE_RETURN'] = 'Vá para o perfil';
 
-$lang['WARNING'] = 'Aviso';
 $lang['INDEXER'] = 'Reindexar a pesquisa';
 $lang['INDEXER_SUCCESS'] = 'Índice de busca atualizado com sucesso';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Fileiras';
 $lang['SMILIES'] = 'Smilies';
 $lang['BAN_MANAGEMENT'] = 'Proibição De Controle';
 $lang['WORD_CENSOR'] = 'Palavra Censura';
-$lang['EXPORT'] = 'Exportar';
-$lang['CREATE_NEW'] = 'Criar';
-$lang['ADD_NEW'] = 'Adicionar';
 $lang['CRON'] = 'Agendador de tarefas (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Reconstrução de índice de pesquisa';
 $lang['FORUM_CONFIG'] = 'Configurações do fórum.';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Número de usuários.';
 $lang['USERS_PER_DAY'] = 'Usuários por dia.';
 $lang['BOARD_STARTED'] = 'Fórum começou.';
 $lang['AVATAR_DIR_SIZE'] = 'Tamanho do diretório do avatar.';
-$lang['DATABASE_SIZE'] = 'Tamanho do banco de dados';
 $lang['GZIP_COMPRESSION'] = 'Compactação GZIP';
 $lang['NOT_AVAILABLE'] = 'Não disponível';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Clique %sAqui%s para retornar às Permissões
 $lang['BAN_CONTROL'] = 'Controle de proibição.';
 $lang['BAN_EXPLAIN'] = 'Aqui você pode controlar a proibição de usuários.';
 $lang['BAN_USERNAME'] = 'Você pode proibir um ou mais usuários específicos.';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Você pode proibir vários usuários de uma só vez utilizando a combinação apropriada de mouse e teclado para seu computador e navegador.';
 $lang['UNBAN_USERNAME'] = 'Desbanir um ou mais usuários específicos';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Você pode desbanir vários usuários de uma só vez utilizando a combinação apropriada de mouse e teclado para seu computador e navegador.';
 $lang['NO_BANNED_USERS'] = 'Não há usuários banidos.';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Nome do site.';
 $lang['SITE_DESC'] = 'Descrição do site.';
 $lang['FORUMS_DISABLE'] = 'Desativar fórum.';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Isso tornará o fórum indisponível para os usuários. Administradores poderão acessar o Painel de Administração enquanto o fórum estiver desativado.';
-$lang['ACC_NONE'] = 'Nenhum.'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Usuário.';
-$lang['ACC_ADMIN'] = 'Administrador.';
+$lang['ACC_NONE'] = 'Nenhum.';
 
 $lang['ABILITIES_SETTINGS'] = 'Configurações Básicas do Usuário e do Fórum.';
 $lang['MAX_POLL_OPTIONS'] = 'Máximo número de opções de votação.';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Remover';
 $lang['CONFIG_UPDATED'] = 'Fórum De Configuração Foi Atualizado Com Sucesso';
 $lang['MOVE_UP'] = 'Mover para cima';
 $lang['MOVE_DOWN'] = 'Mover para baixo';
-$lang['RESYNC'] = 'Re-sincronizar';
 $lang['NO_MODE'] = 'Nenhum modo foi definido';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'O formulário abaixo permite personalizar todas as opções gerais do fórum. Para configurações de usuário e de fórum, use os links relacionados na coluna à esquerda';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Excluir grupo';
 $lang['GROUP_DELETE_CHECK'] = 'Excluir este grupo';
 $lang['NO_GROUP_NAME'] = 'Você deve especificar um nome para este grupo';
 $lang['NO_GROUP_MODERATOR'] = 'Você deve especificar um moderador para este grupo';
-$lang['NO_GROUP_MODE'] = 'Você deve especificar um modo para este grupo, aberto ou fechado';
 $lang['NO_GROUP_ACTION'] = 'Nenhuma ação foi especificada.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Excluir o antigo moderador de grupo?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Se você estiver alterando o moderador do grupo, verifique esta caixa para remover o antigo moderador do grupo. Caso contrário, não marque, e o usuário se tornará um membro regular do grupo.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Procurar';
 $lang['FORUM_PRUNE'] = 'Fórum Prune.';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Isto irá excluir quaisquer tópicos que não tenham sido postados dentro do número de dias que você selecionar. Se você não inserir um número, todos os tópicos serão excluídos. Não removerá tópicos <b>fixos</b> e <b>anúncios</b>. Você precisará remover esses tópicos manualmente.';
 $lang['DO_PRUNE'] = 'Fazer a poda.';
-$lang['ALL_FORUMS'] = 'Todos Os Fóruns';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Podar tópicos sem respostas por este número de dias.';
 $lang['TOPICS_PRUNED'] = 'Tópicos podados.';
 $lang['PRUNE_SUCCESS'] = 'O fórum foi podado com sucesso.';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Clique %sAqui%s para retornar à Administraç
 $lang['DISALLOW_CONTROL'] = 'Controle de Nomes de Usuário Não Permitidos.';
 $lang['DISALLOW_EXPLAIN'] = 'Aqui você pode controlar os nomes de usuários que não serão permitidos. Nomes de usuários não permitidos podem conter um caractere curinga de *. Por favor, note que você não poderá especificar nenhum nome de usuário que já tenha sido registrado. Você deve primeiro excluir esse nome e, em seguida, não permiti-lo.';
 
-$lang['DELETE_DISALLOW'] = 'Apagar';
 $lang['DELETE_DISALLOW_TITLE'] = 'Remover um Nome de Usuário Não Permitido.';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Você pode remover um nome de usuário não permitido selecionando o nome de usuário da lista e clicando em enviar';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s pode baixar anexos.';
 $lang['SF_SHOW_ON_INDEX'] = 'Mostrar na página principal';
 $lang['SF_PARENT_FORUM'] = 'Fórum Pai.';
 $lang['SF_NO_PARENT'] = 'Nenhum fórum pai.';
-$lang['TEMPLATE'] = 'Modelo';
 $lang['SYNC'] = 'Sincronizar';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'ATENÇÃO! Bônus de sementes devem estar em orde
 $lang['SEED_BONUS_EXCHANGE'] = 'Configurando O Exchange Sid Bônus.';
 $lang['SEED_BONUS_ROPORTION'] = 'Proporção, além de uma troca bônus no GB.';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Painel De Controlo';
-$lang['EXTENSION_CONTROL'] = 'Extensão De Controle';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Controle de Grupos de Extensão.';
-$lang['SPECIAL_CATEGORIES'] = 'Categorias Especiais';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Configurações De Anexo';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Aqui você pode configurar as Definições Principais para o Anexo Mod. Se você pressionar o Botão Configurações de Teste, o Anexo Mod faz alguns Testes do Sistema para ter certeza de que o Mod funcione corretamente. Se você tiver problemas com o carregamento de Arquivos, execute este Teste, para obter informações detalhadas de mensagem de erro.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Configurações de Tamanho do Arquivo do Anexo';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Configurações de Número de Anexos.';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Opções de Anexo.';
-
-$lang['UPLOAD_DIRECTORY'] = 'Diretório De Upload';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Digite o caminho relativo a partir do seu TorrentPier de instalação para o acessório diretório de upload. Por exemplo, digite \'arquivos\' se o seu TorrentPier Instalação está localizada em https://www.yourdomain.com/torrentpier e o Anexo Diretório de Upload está localizado em https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Ícone de Lançamento de Anexo.';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Esta Imagem é apresentada ao lado dos Links de Anexo em Postagens individuais. Deixe este campo em branco se você não quiser que um ícone seja exibido. Esta Definição será sobrescrita pelas Configurações na Gestão de Grupos de Extensão.';
-$lang['ATTACH_TOPIC_ICON'] = 'Ícone de Tópico de Anexo.';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Esta Imagem é exibida antes de tópicos com Anexos. Deixe este campo em branco se você não quiser que um ícone seja exibido.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Ordem de Exibição de Anexo.';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Aqui você pode escolher se deseja exibir os Anexos em mensagens/PMs, em ordem decrescente de Filetime (anexo mais recente primeiro) ou ordem ascendente de Filetime (anexo mais antigo primeiro).';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Tamanho do arquivo';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Tamanho máximo do arquivo para anexos. Um valor de 0 significa "ilimitado". Esta configuração é restrita pela configuração do seu servidor. Por exemplo, se sua configuração PHP só permite uploads de no máximo 2 MB, isso não poderá ser substituído pelo Mod.';
-$lang['MAX_FILESIZE_PM'] = 'Máximo Tamanho do arquivo na Pasta de Mensagens Privadas';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Espaço em disco máximo que os anexos podem usar na caixa de mensagem privada de cada usuário. Um valor de 0 significa "ilimitado".';
-
-$lang['MAX_ATTACHMENTS'] = 'Número máximo de Anexos';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'O número máximo de anexos permitidos em um post.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Número máximo de Anexos em uma Mensagem Privada';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Defina o número máximo de anexos que o usuário está autorizado a incluir em uma mensagem privada.';
-
-$lang['DISABLE_MOD'] = 'Desativar Anexo Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Esta opção é principalmente para testar novos modelos ou temas; ela desativa todas as funções de anexo, exceto o painel de administração.';
-$lang['PM_ATTACHMENTS'] = 'Permitir anexos em mensagens privadas.';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Permitir/não permitir anexar arquivos a mensagens privadas.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Gerenciar Extensões';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Aqui você pode gerenciar suas extensões de arquivo. Se você deseja permitir ou não, por favor, use a gestão de grupos de extensão.';
-$lang['EXPLANATION'] = 'Explicação';
-$lang['EXTENSION_GROUP'] = 'Grupo De Extensão';
-$lang['EXTENSION_EXIST'] = 'A Extensão %s já existe'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Gerenciar Grupos De Extensão';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Aqui você pode adicionar, excluir e modificar seus grupos de extensão, você pode desativar grupos de extensão, atribuir uma categoria especial a eles, mudar o mecanismo de download e definir um ícone de upload que será exibido na frente de um anexo pertencente ao grupo.';
-$lang['SPECIAL_CATEGORY'] = 'Categoria Especial';
-$lang['CATEGORY_IMAGES'] = 'Imagens';
 $lang['ALLOWED'] = 'Permitidos';
-$lang['ALLOWED_FORUMS'] = 'Fóruns permitidos.';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Permissões Do Grupo';
-$lang['DOWNLOAD_MODE'] = 'Modo De Download';
-$lang['UPLOAD_ICON'] = 'Ícone Upload';
-$lang['MAX_GROUPS_FILESIZE'] = 'Tamanho máximo do arquivo.';
-$lang['EXTENSION_GROUP_EXIST'] = 'O Grupo de Extensão %s já existe'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Gerenciar Categorias Especiais';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Aqui você pode configurar as Categorias Especiais. Você pode definir Parâmetros e Condições Especiais para as Categorias Especiais atribuídas a um Grupo de Extensão.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Definições para a categoria especial: Imagens.';
-$lang['DISPLAY_INLINED'] = 'Exibir Imagens Inline';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Escolha se deseja exibir imagens diretamente dentro do post (sim) ou apresentá-las como um link?';
-$lang['MAX_IMAGE_SIZE'] = 'Dimensões máximas da imagem.';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Aqui você pode definir a dimensão máxima permitida da imagem a ser anexada (largura x altura em pixels).<br />Se for definido como 0x0, esse recurso será desativado. Com algumas imagens, esse recurso pode não funcionar devido a limitações no PHP.';
-$lang['IMAGE_LINK_SIZE'] = 'Dimensões do link da imagem.';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Se esta dimensão definida de uma imagem for atingida, a imagem será exibida como um link, em vez de ser exibida inline,<br />se a visualização inline estiver habilitada (largura x altura em pixels).<br />Se for definido como 0x0, esse recurso estará desativado. Com algumas imagens, esse recurso pode não funcionar devido a limitações no PHP.';
-$lang['ASSIGNED_GROUP'] = 'Grupo Atribuído';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Criar Miniatura';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Tamanho Mínimo do Arquivo da Miniatura';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Se uma imagem for menor do que este tamanho de arquivo definido, nenhuma miniatura será criada, pois é pequena o suficiente.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Permissões do Grupo de Extensão → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Aqui você pode restringir o grupo de extensões selecionado a fóruns de sua escolha (definidos na caixa de fóruns permitidos). O padrão é permitir grupos de extensões para todos os fóruns em que o usuário pode anexar arquivos (o modo normal como o mod de anexos fez isso desde o início). Basta adicionar os fóruns que você deseja que o grupo de extensões (as extensões dentro deste grupo) sejam permitidos. O padrão de todos os fóruns desaparecerá quando você adicionar fóruns à lista. Você poderá re-adicionar todos os fóruns a qualquer momento.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'NOTA:<br />Nos fóruns listados abaixo, seus usuários normalmente podem anexar arquivos, mas como nenhum grupo de extensão é permitido para ser anexado lá, seus usuários não podem anexar nada. Se eles tentarem, receberão mensagens de erro. Talvez você queira definir a permissão \'enviar arquivos\' para \'admin\' nesses fóruns.<br /><br />';
-$lang['ADD_FORUMS'] = 'Adicionar Fóruns';
-$lang['ADD_SELECTED'] = 'Adicionar Selecionados';
-$lang['PERM_ALL_FORUMS'] = 'TODOS OS FÓRUNS';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Painel de controle de anexos de arquivo.';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Aqui você pode visualizar e gerenciar todos os anexos com base em usuários, anexos, visualizações etc...';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Utilize * como um caractere curinga para correspondências parciais';
-$lang['SIZE_SMALLER_THAN'] = 'Tamanho do anexo menor que (bytes).';
-$lang['SIZE_GREATER_THAN'] = 'Tamanho do anexo maior que (bytes).';
-$lang['COUNT_SMALLER_THAN'] = 'Contagem de downloads é menor que.';
-$lang['COUNT_GREATER_THAN'] = 'Contagem de downloads é maior que.';
-$lang['MORE_DAYS_OLD'] = 'Mais de tantos dias antigos.';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Nenhum anexo que atendam aos seus critérios de busca.';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Número de Anexos';
-$lang['TOTAL_FILESIZE'] = 'Tamanho Total do Arquivo';
-$lang['NUMBER_POSTS_ATTACH'] = 'Número de mensagens com Anexos';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Número de Tópicos com Anexos';
-$lang['NUMBER_USERS_ATTACH'] = 'Usuários independentes postaram anexos.';
-$lang['NUMBER_PMS_ATTACH'] = 'Total de anexos em mensagens privadas.';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Estatísticas de Anexo para %s.'; // replace %s with username
-$lang['DOWNLOADS'] = 'Transferências.';
-$lang['POST_TIME'] = 'O tempo de post.';
-$lang['POSTED_IN_TOPIC'] = 'Postado no Tópico.';
-$lang['SUBMIT_CHANGES'] = 'Enviar Alterações.';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Anexos.';
-$lang['SORT_SIZE'] = 'Tamanho.';
-$lang['SORT_FILENAME'] = 'Nome do arquivo.';
-$lang['SORT_COMMENT'] = 'Comentário.';
-$lang['SORT_EXTENSION'] = 'Extensão.';
-$lang['SORT_DOWNLOADS'] = 'Transferências';
-$lang['SORT_POSTTIME'] = 'O Tempo de Postagem';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Estatísticas';
-$lang['VIEW_SEARCH'] = 'Buscar';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Configuração de Anexo atualizada com sucesso.';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Clique %sAqui%s para retornar à Configuração de Anexo.';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'O teste de configurações foi concluído, a configuração parece estar boa.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Anexos';
-$lang['EXTENSIONS'] = 'Extensões';
-$lang['EXTENSION'] = 'Extensão';
-
 $lang['RETURN_CONFIG'] = '%sRetornar à Configuração%s';
 $lang['CONFIG_UPD'] = 'Configuração atualizada com sucesso.';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Mudar o status do tópico para "Normal"
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Modelo desativado.';
 $lang['FOR_NEW_TEMPLATE'] = 'para novos modelos!';
-$lang['CHANGED'] = 'Alterado.';
-$lang['REMOVED'] = 'Removido.';
 $lang['QUESTION'] = 'Confirma: você tem certeza de que deseja realizar esta ação';
 
 $lang['CRON_LIST'] = 'Lista de Cron.';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Limite de tempo';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Quanto tempo (seg) o pós-processamento pode durar antes de passar para o próximo ciclo';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Seu servidor web tem um tempo limite de %s segundos configurado, portanto, fique abaixo deste valor.</i>';
 
-$lang['DISABLE_BOARD'] = 'Desativar painel.';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Você parou o processamento no post_id %s (%s posts processados) em %s.';
 $lang['INFO_PROCESSING_ABORTED'] = 'Você abortou o processamento no post_id %s (%s posts processados) em %s.';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Todas as postagens foram processadas com sucesso
 $lang['ALL_TABLES_OPTIMIZED'] = 'Todas as tabelas foram otimizadas com sucesso.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Processando post.';
-$lang['PERCENT'] = 'Por cento';
 $lang['CURRENT_SESSION'] = 'Sessão Atual';
 $lang['TOTAL'] = 'Total';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'a partir de <b>%s</b> para <b>%s</b> (de um total de
 $lang['PERCENT_COMPLETED'] = '%s %% concluído.';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Sessão atual detalhes';
-$lang['PROCESSING_TIME'] = 'Tempo de processamento';
 $lang['TIME_LAST_POSTS'] = 'Últimos %s post(s).';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Desde o início';
 $lang['TIME_AVERAGE'] = 'Média por ciclo';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Todas as ações';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Registro de ações: opções de pesquisa.';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Ação';
-$lang['ACTS_LOG_USER'] = 'Usuário.';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Logs de.';
 $lang['ACTS_LOG_FIRST'] = 'a começar com';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dias atrás';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Modelos de lançamento.';
 $lang['RELEASES'] = 'Lançamentos.';
 
 $lang['BACK'] = 'De volta.';
-$lang['ERROR_FORM'] = 'Campos inválidos';
 $lang['NEW_RELEASE'] = 'Nova versão';
 $lang['NEXT'] = 'Continuar';
-$lang['OTHER'] = 'Outros';
 $lang['ALL'] = 'Todos';
 
 $lang['TPL_EMPTY_FIELD'] = 'Você deve preencher o campo <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Opções';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Cada linha corresponde a uma resposta (máx.';
 
 $lang['OLD_BROWSER'] = 'Você está usando um navegador desatualizado. O site não será exibido corretamente.';
-$lang['GO_BACK'] = 'Voltar';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Upload de arquivo desativado';
 $lang['UPLOAD_ERROR_COMMON'] = 'Erro no upload do arquivo.';
