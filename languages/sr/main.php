@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Жао ми је, али нисте овла�
 $lang['DESCRIPTION'] = 'Опис'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Преузми.'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Величина датотеке';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Максимална величина датотеке';
+$lang['ALLOWED_EXTENSIONS'] = 'Дозвољене екстензије';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Стрим';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Копирај линк потока у клипб�
 $lang['M3U_NOT_SUPPORTED'] = 'Овај фајл не може да се репродукује у прегледачу...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Чини се да ffprobe неће моћи да врати податке о овом кодеку...';
 $lang['M3U_NOTICE'] = 'Неки прегледачи не подржавају репродукцију одређених видео формата. У таквом случају, можете преузети .m3u фајл и репродуковати га користећи трећу страну плејер';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'ТоррСервер није доступан';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Параметри захтева нису валидни';
 
 $lang['ATTACHMENT'] = 'Прилог';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Додајте прилог.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Ако не желите да додате прилог у поруку, оставите поље празно';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Ажурирај прилог';
 $lang['FILENAME'] = 'Име фајла.';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Обриши прилог.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Нисте изабрали прилог да преузмете и видите.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Изабрани прилог више не постоји.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Дневни лимит за преузимање је премашен. Покушајте поново сутра.';
 
 //bt
 $lang['BT_REG_YES'] = 'Регистрован.';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Смањите каталог';
 $lang['EXPAND'] = 'Растегните';
 $lang['SWITCH'] = 'Прекидач';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Повећајте/смањите прозор';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Недостаје идентификатор теме';
+$lang['TOR_NOT_FOUND'] = 'Датотека недостаје на серверу';
 $lang['ERROR_BUILD'] = 'Садржај ове торрент датотеке не можете видети на сајту (није могуће направити списак фајлова)';
 $lang['TORFILE_INVALID'] = 'Торрент датотека је оштећена';
 
