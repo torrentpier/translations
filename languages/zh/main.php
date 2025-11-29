@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = '顯示密碼';
 $lang['EMAIL'] = '邮箱';
 $lang['PM'] = '私信';
 $lang['AUTHOR'] = '作者';
-$lang['TIME'] = '时间';
 $lang['MESSAGE'] = '信息';
 $lang['TORRENT'] = '种子';
 $lang['PERMISSIONS'] = '权限';
 $lang['TYPE'] = '类型';
-$lang['SEEDER'] = '上传者';
-$lang['LEECHER'] = '下载者';
-$lang['RELEASER'] = '发布者';
 
 $lang['1_DAY'] = '1 天';
 $lang['7_DAYS'] = '7 天';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = '回复主题';
 $lang['CLICK_RETURN_TOPIC'] = '点击%sHere%s返回到主题'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = '单击 %sHere%s 返回到论坛';
 $lang['CLICK_RETURN_MODCP'] = '单击 %sHere%s 返回到版主控制面板';
-$lang['CLICK_RETURN_GROUP'] = '单击 %sHere%s 返回小组信息';
 
 $lang['ADMIN_PANEL'] = '转到管理面板';
 $lang['ALL_CACHE_CLEARED'] = '缓存已被清除';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = '论坛选择';
 $lang['DISPLAYING_OPTIONS'] = '显示选项';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = '注册的用户︰';
 $lang['BROWSING_FORUM'] = '正在浏览论坛的用户：';
 $lang['ONLINE_USERS'] = '总共有 <b>%1$d</b> 位用户在线︰ %2$d 位注册用户和 %3$d 位访客';
 $lang['RECORD_ONLINE_USERS'] = '最多同时在线用户数：<b>%s</b>，在%s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = '查看最新帖子';
 $lang['SEARCH_SELF'] = '我的帖子';
 $lang['SEARCH_SELF_BY_LAST'] = '最后发布时间';
 $lang['SEARCH_SELF_BY_MY'] = '我的发布时间';
-$lang['SEARCH_UNANSWERED'] = '查看未回复的帖子';
 $lang['SEARCH_LATEST'] = '最新主题';
 $lang['LATEST_RELEASES'] = '最新版本';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = '总速度︰ <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = '没有新回复';
 $lang['NEW_POSTS'] = '新回复';
-$lang['NEW_POST'] = '新回复';
 $lang['FORUM_LOCKED_MAIN'] = '论坛已锁定';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = '最新新闻';
 $lang['NETWORK_NEWS'] = '网络新闻';
 $lang['SUBFORUMS'] = '子论坛';
 
-// Viewforum
-$lang['VIEW_FORUM'] = '查看论坛';
-
 $lang['FORUM_NOT_EXIST'] = '你所选择的论坛不存在。';
 $lang['ERROR_PORNO_FORUM'] = '根据您的个人资料设定，成人论坛已被隐藏';
 
 $lang['DISPLAY_TOPICS'] = '显示主题';
-$lang['ALL_TOPICS'] = '全部主题';
 $lang['MODERATE_FORUM'] = '請修改此論壇。';
 $lang['TITLE_SEARCH_HINT'] = '搜索标题...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = '你 <b>可以</b> 管理这个论坛';
 $lang['NO_TOPICS_POST_ONE'] = '這個論壇中還沒有帖子<br />單擊 <b>新增主題</b> 圖示，您的帖子將是第一個。';
 $lang['NO_RELEASES_POST_ONE'] = '這個論壇中還沒有發佈<br />單擊 <b>新增發佈</b> 圖示，您的發佈將是第一個。';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = '查看主题';
-
 $lang['GUEST'] = '访客';
-$lang['POST_SUBJECT'] = '发表主题';
 $lang['SUBMIT_VOTE'] = '提交投票';
 
 $lang['NO_NEWER_TOPICS'] = '論壇上沒有新的帖子。';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = '按照时间先后降序排序';
 $lang['OLDEST_FIRST'] = '按照时间先后升序排序';
 
 $lang['READ_PROFILE'] = '查看用户的个人资料';
-$lang['DELETE_POST'] = '刪除這個帖子。';
 
 $lang['WROTE'] = '写了'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = '報價。'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = '你应该指定信息标题';
 $lang['INVALID_TOPIC_ID'] = '主题不存在的！';
 $lang['INVALID_TOPIC_ID_DB'] = '該主題在數據庫中不存在！';
 
-$lang['NOT_POST'] = '不存在的消息';
 $lang['NOT_EDIT_TOR_STATUS'] = '您無法編輯版本具有狀態';
 
 $lang['OPTIONS'] = '选项';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = '投票时，您必须指定一个选项';
 $lang['LOCKED_WARN'] = '你回复到锁定的主题 ！';
 
 $lang['ADD_POLL'] = '添加投票';
-$lang['POLL_OPTION'] = '投票观点';
 $lang['UPDATE'] = '更新';
 $lang['DAYS'] = '天';
 $lang['DELETE_POLL'] = '删除投票';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = '允許機器人索引此主題';
 $lang['STORED'] = '您的信息已成功輸入。';
 $lang['EDITED'] = '信息已被更改';
 $lang['DELETED'] = '您的信息已成功刪除。';
-$lang['POLL_DELETE'] = '您的投票已被刪除。';
 $lang['VOTE_CAST'] = '你已經投下了票。';
 
 $lang['EMOTICONS'] = '表情';
@@ -391,12 +371,10 @@ $lang['INBOX'] = '电子邮件收件箱';
 $lang['OUTBOX'] = '發件箱';
 $lang['SAVEBOX'] = '保存箱';
 $lang['SENTBOX'] = '已發箱';
-$lang['FLAG'] = '標誌';
 $lang['SUBJECT'] = '主旨';
 $lang['FROM'] = '从';
 $lang['TO'] = '至';
 $lang['DATE'] = '日期';
-$lang['MARK'] = '标记';
 $lang['SENT'] = '发送';
 $lang['SAVED'] = '保存';
 $lang['DELETE_MARKED'] = '删除标记';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = '顯示的消息'; // Followed by number of days/wee
 
 $lang['NO_MESSAGES_FOLDER'] = '此文件夾中沒有消息';
 
-$lang['PM_DISABLED'] = '私人消息在此版塊已被禁用。';
 $lang['CANNOT_SEND_PRIVMSG'] = '對不起，但管理員阻止你發送私人消息。';
 $lang['NO_TO_USER'] = '你必須指定一個用戶名以便發送這條消息。';
 $lang['NO_SUCH_USER'] = '對不起，但沒有這樣的用戶存在。';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = '編輯私人消息';
 
 $lang['FIND_USERNAME'] = '找到一个用户名';
 $lang['SELECT_USERNAME'] = '选择一个用户名';
-$lang['FIND'] = '找到';
 $lang['NO_MATCH'] = '沒有找到匹配項。';
 
 $lang['NO_PM_ID'] = '請指定帖子ID';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = '您的帳戶已建立。然而，該論壇需要帳
 $lang['ACCOUNT_ACTIVE'] = '您的帳戶已被激活。謝謝您註冊。';
 $lang['ALREADY_ACTIVATED'] = '您已經激活了您的帳戶。';
 
-$lang['REGISTRATION'] = '註冊協議條款';
 
 $lang['WRONG_ACTIVATION'] = '您提供的激活金鑰與數據庫中的任何內容均不匹配。';
-$lang['SEND_PASSWORD'] = '给我一个新的密码';
 $lang['PASSWORD_UPDATED'] = '一個新的密碼已創建；請檢查您的電子郵件以獲取激活的詳細信息。';
 $lang['NO_EMAIL_MATCH'] = '您提供的電子郵件地址與該用戶名中列出的不匹配。';
 $lang['PASSWORD_ACTIVATED'] = '您的帳戶已重新激活。要登錄，請使用您收到的電子郵件中提供的密碼。';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = '在此網站上廣告';
 $lang['NOT_FOUND'] = '找不到的文件';
 
 // Memberslist
-$lang['SORT'] = '排序';
 $lang['SORT_TOP_TEN'] = '十大海報';
 $lang['SORT_JOINED'] = '加入日期';
 $lang['SORT_USERNAME'] = '用户名';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = '这个小组没有任何成员';
 $lang['HIDDEN_GROUP_MEMBERS'] = '該群組是隱藏的；您無法查看其成員身份';
 $lang['NO_PENDING_GROUP_MEMBERS'] = '該群組沒有待處理成員';
 $lang['GROUP_JOINED'] = '您已成功訂閱此群組。<br />當您的訂閱獲得群組管理員批准時，您將收到通知。';
-$lang['GROUP_REQUEST'] = '已提出加入您群組的請求。';
-$lang['GROUP_APPROVED'] = '你的请求已获批准。';
-$lang['GROUP_ADDED'] = '你已被添加到这个用户组。';
 $lang['ALREADY_MEMBER_GROUP'] = '您已經是這個小組的成員';
 $lang['USER_IS_MEMBER_GROUP'] = '%s 已經是此小組的成員';
 $lang['USER_IS_MOD_GROUP'] = '%s 是此小組的版主';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = '您在該組的會員資格仍在審核中';
 $lang['ARE_GROUP_MODERATOR'] = '你是该组的主持人';
 $lang['NONE'] = '没有';
 
-$lang['SUBSCRIBE'] = '订阅';
 $lang['UNSUBSCRIBE_GROUP'] = '取消订阅';
 $lang['MEMBERS_IN_GROUP'] = '群組中的成員';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = '这个小组不是一个释放组';
 
 // Search
 $lang['SEARCH_HELP_URL'] = '搜索的帮助';
-$lang['SEARCH_QUERY'] = '搜索查询';
 $lang['SEARCH_OPTIONS'] = '搜索选项';
 
 $lang['SEARCH_WORDS'] = '搜索关键词';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = '主题标题';
 $lang['DISPLAY_RESULTS_AS'] = '显示结果';
 $lang['ALL_AVAILABLE'] = '所有可用的';
 $lang['BRIEFLY'] = '简要地说';
-$lang['NO_SEARCHABLE_FORUMS'] = '您沒有權限搜索此網站上的任何論壇。';
 
 $lang['NO_SEARCH_MATCH'] = '沒有主題或帖子符合你的搜索標準';
 $lang['FOUND_SEARCH_MATCH'] = '搜索发现%d匹配'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = '搜索发现%d匹配'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = '關閉窗口';
-$lang['CLOSE'] = '關閉';
 $lang['HIDE'] = '隐藏';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = '對不起，但您無權查看或下載該附
 $lang['DESCRIPTION'] = '描述。'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = '下载'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = '文件大小';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '擴展 \'%s\' 已被板管理員禁用，因此此附件不顯示。'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = '串流';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = '將串流連結複製到剪貼簿';
 $lang['M3U_NOT_SUPPORTED'] = '此檔案無法在瀏覽器中播放...';
 $lang['M3U_FFPROBE_NO_DATA'] = '似乎 ffprobe 無法返回有關此編解碼器的數據...';
 $lang['M3U_NOTICE'] = '某些瀏覽器不支持播放某些視頻格式。在這種情況下，您可以下載 .m3u 檔案，並使用第三方播放器播放它';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = '附件';
-$lang['ATTACHMENT_THUMBNAIL'] = '附加縮略。';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = '添加附件';
-$lang['ADD_ATTACHMENT_TITLE'] = '添加附件';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = '如果您不想為您的帖子添加附件，請將欄位留空。';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = '文件名';
-$lang['FILE_COMMENT'] = '文件評論。';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = '公布的附件';
-$lang['UPDATE_COMMENT'] = '更新評論。';
 $lang['DELETE_ATTACHMENT'] = '刪除附件。';
-$lang['DELETE_THUMBNAIL'] = '刪除縮略圖。';
-$lang['UPLOAD_NEW_VERSION'] = '上傳新版本。';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s是無效的文件名。'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = '附件太大。<br />無法在PHP中獲取最大大小。<br />附件Mod無法確定在php.ini中定義的最大上傳大小。';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '附件太大。<br />最大上傳大小：%d MB.<br />請注意，這個大小在php.ini中定義，這意味著它是由PHP設置的，而附件Mod無法覆蓋此值。'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = '擴展名%s是不允許的。'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = '你不允許在此論壇中發布擴展名為%s的文件。'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = '附件太大。<br />最大尺寸：%s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = '無法添加附件，因為此帖中的附件數量%d已達到最大值。'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = '附件/圖像必須小於%d像素寬和%d像素高。';
-$lang['GENERAL_UPLOAD_ERROR'] = '上傳錯誤：無法將附件上傳至%s。'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = '您必須在‘添加附件’框中輸入值。';
-$lang['ERROR_MISSING_OLD_ENTRY'] = '無法更新附件，找不到舊附件條目。';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = '您尚未選擇要下載或查看的附件。';
 $lang['ERROR_NO_ATTACHMENT'] = '選定的附件不再存在。';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = '所選附件已刪除。';
-$lang['ERROR_DELETED_ATTACHMENTS'] = '不能删除附件。';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = '附件功能已被禁用。';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = '目錄\'%s\'不存在或找不到。'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = '請檢查\'%s\'是否為目錄。'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = '目錄\'%s\'不可寫。您必須創建上傳路徑並將其權限設置為777（或將所有者更改為您httpd伺服器的所有者）才能上傳文件。<br />如果您僅能使用普通FTP訪問，請將目錄的“屬性”更改為rwxrwxrwx。'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = '字节';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = '搜索附件';
-$lang['TEST_SETTINGS'] = '測試設置';
-$lang['NOT_ASSIGNED'] = '没有分配';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = '注册';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = '分配的狀態：';
 $lang['TOR_STATUS_CHANGED'] = '狀態已更改：';
 $lang['TOR_BACK'] = ' 回';
 $lang['PROCEED'] = '繼續進行';
-$lang['INVALID_ATTACH_ID'] = '缺少文件標識！';
 $lang['CHANGE_TOR_TYPE'] = '類型的洪流成功更改';
 $lang['DEL_TORRENT'] = '您確定要刪除洪流？';
 $lang['DEL_MOVE_TORRENT'] = '您確定要刪除並移動主題？';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = '电流';
 $lang['SEARCH_DL_COMPLETE'] = '完成';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = '已完成的下载';
 $lang['SEARCH_DL_CANCEL'] = '被取消';
-$lang['CUR_DOWNLOADS'] = '当前下载';
 $lang['CUR_UPLOADS'] = '当前上传';
 $lang['SEARCH_RELEASES'] = '释放';
 $lang['TOR_SEARCH_TITLE'] = '洪流的搜索选项';
 $lang['OPEN_TOPIC'] = '打开主题';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = '张贴torrent仅允许在第一篇帖子中';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = '注册torrent只允许从第一个帖子开始';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = '无法在该论坛中注册torrent';
 $lang['ALREADY_REG'] = 'torrent已注册';
 $lang['NOT_TORRENT'] = '该文件不是torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = '在一个主题中您只能注册一个torrent';
 $lang['VIEWING_USER_BT_PROFILE'] = '種子檔案';
 $lang['CUR_ACTIVE_DLS'] = '活动的种子';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = '只有新的主題';
 
 $lang['TORHELP_TITLE'] = '請幫助播種這些種子！';
 $lang['STATISTICS'] = '統計信息';
-$lang['STATISTIC'] = '統計數據';
-$lang['VALUE'] = '值';
 $lang['STATUS'] = '状态';
-$lang['CHANGES'] = '變化';
 $lang['ACTION'] = '動作';
 $lang['REASON'] = '原因';
 $lang['COMMENT'] = '評論';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = '崩潰的目錄';
 $lang['EXPAND'] = '擴大';
 $lang['SWITCH'] = '開關';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = '增加/減少視窗';
-$lang['EMPTY_ATTACH_ID'] = '缺少的文件標識！';
-$lang['TOR_NOT_FOUND'] = '服務器上缺少文件！';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = '無法在網站上查看此種子文件的內容（無法生成文件列表）';
 $lang['TORFILE_INVALID'] = 'Torrent文件損壞';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '此“網站”只能包含http://sitename';
-$lang['INVALID_DATE'] = '無效的日期';
 $lang['PROFILE_USER'] = '查看個人資料';
 $lang['GOOD_UPDATE'] = '成功更改';
 $lang['UCP_DOWNLOADS'] = '下載';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = '發送消息';
 $lang['NEW_THREADS'] = '新的線';
 $lang['PROFILE_NOT_FOUND'] = '配置文件找不到';
 
-$lang['USER_DELETE'] = '删除';
 $lang['USER_DELETE_EXPLAIN'] = '刪除此用戶';
 $lang['USER_DELETE_ME'] = '抱歉，您的帳戶禁止刪除！';
 $lang['USER_DELETE_CSV'] = '抱歉，該帳戶不允許刪除！';
@@ -1307,7 +1228,6 @@ $lang['ON'] = '開啟';
 $lang['OFF'] = '關閉';
 $lang['MEMORY'] = '記憶：';
 $lang['QUERIES'] = '查询';
-$lang['LIMIT'] = '限制：';
 $lang['SHOW_LOG'] = '顯示日誌';
 $lang['EXPLAINED_LOG'] = '解釋日誌';
 $lang['CUT_LOG'] = '剪切長查詢';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = '去后';
 $lang['PROFILE_EDIT_RETURN'] = '回到编辑';
 $lang['PROFILE_RETURN'] = '去档案';
 
-$lang['WARNING'] = '警告';
 $lang['INDEXER'] = '重新编制索引搜索';
 $lang['INDEXER_SUCCESS'] = '搜索索引已成功更新';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = '等級';
 $lang['SMILIES'] = '表情符號';
 $lang['BAN_MANAGEMENT'] = '禁止管理';
 $lang['WORD_CENSOR'] = '字詞審查';
-$lang['EXPORT'] = '匯出';
-$lang['CREATE_NEW'] = '創建新項目';
-$lang['ADD_NEW'] = '添加新項目';
 $lang['CRON'] = '排程任務(cron)';
 $lang['REBUILD_SEARCH_INDEX'] = '重建搜索索引';
 $lang['FORUM_CONFIG'] = '論壇設定';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = '用戶數量';
 $lang['USERS_PER_DAY'] = '每日用戶數';
 $lang['BOARD_STARTED'] = '論壇開始';
 $lang['AVATAR_DIR_SIZE'] = '頭像目錄大小';
-$lang['DATABASE_SIZE'] = '數據庫大小';
 $lang['GZIP_COMPRESSION'] = 'Gzip 壓縮';
 $lang['NOT_AVAILABLE'] = '不提供';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = '點擊 %s這裡%s 返回論壇的權限';
 $lang['BAN_CONTROL'] = '禁止控制';
 $lang['BAN_EXPLAIN'] = '在這裡您可以控制用戶的禁令。';
 $lang['BAN_USERNAME'] = '禁止一個或多個特定的用戶。';
-$lang['BAN_USERNAME_EXPLAIN'] = '您可以使用適當的滑鼠和鍵盤組合在一次性禁用多個用戶。';
 $lang['UNBAN_USERNAME'] = '解除對一個或多個特定用戶的禁止';
 $lang['UNBAN_USERNAME_EXPLAIN'] = '您可以使用適當的滑鼠和鍵盤組合在一次性取消禁用多個用戶。';
 $lang['NO_BANNED_USERS'] = '沒有被禁止的用戶名稱。';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = '網站名稱。';
 $lang['SITE_DESC'] = '網站描述。';
 $lang['FORUMS_DISABLE'] = '禁用論壇。';
 $lang['BOARD_DISABLE_EXPLAIN'] = '這將使論壇對用戶不可用。管理員可以在論壇被禁用的情況下訪問管理面板。';
-$lang['ACC_NONE'] = '没有'; // These three entries are the type of activation
-$lang['ACC_USER'] = '用户';
-$lang['ACC_ADMIN'] = '管理员';
+$lang['ACC_NONE'] = '没有';
 
 $lang['ABILITIES_SETTINGS'] = '用户与论坛的基本设置';
 $lang['MAX_POLL_OPTIONS'] = '最大民意投票選項數。';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = '删除';
 $lang['CONFIG_UPDATED'] = '論壇配置已成功更新。';
 $lang['MOVE_UP'] = '向上移動。';
 $lang['MOVE_DOWN'] = '向下移動。';
-$lang['RESYNC'] = '重新同步';
 $lang['NO_MODE'] = '未設置模式。';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = '下面的表單將允許您自定義所有一般論壇選項。對於用戶和論壇的配置，請使用左側的相關鏈接。';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = '删除组';
 $lang['GROUP_DELETE_CHECK'] = '删除这一组';
 $lang['NO_GROUP_NAME'] = '您必須為此群組指定一個名稱。';
 $lang['NO_GROUP_MODERATOR'] = '您必須為此群組指定一名管理員。';
-$lang['NO_GROUP_MODE'] = '您必須為此群組指定一種模式：開放或關閉。';
 $lang['NO_GROUP_ACTION'] = '未指定任何操作。';
 $lang['DELETE_OLD_GROUP_MOD'] = '是否刪除舊的群組管理員？';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = '如果您正在更改群組管理員，請勾選此框以刪除舊的管理員。否則，請勿勾選，該用戶將成為群組的普通成員。';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = '查找群組。';
 $lang['FORUM_PRUNE'] = '论坛修剪';
 $lang['FORUM_PRUNE_EXPLAIN'] = '這將刪除在您選定的天數內沒有發表的任何主題。如果不輸入數字，則所有主題將被刪除。它將不移除<b>置頂</b>主題和<b>公告</b>。您需要手動刪除這些主題。';
 $lang['DO_PRUNE'] = '執行修剪。';
-$lang['ALL_FORUMS'] = '所有论坛';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = '在這麼多天內修剪沒有回覆的主題。';
 $lang['TOPICS_PRUNED'] = '修剪的主題。';
 $lang['PRUNE_SUCCESS'] = '論壇已成功修剪。';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = '點擊%s此處%s返回等級管理。';
 $lang['DISALLOW_CONTROL'] = '用戶名禁止控制。';
 $lang['DISALLOW_EXPLAIN'] = '在這裡，您可以控制不允許使用的用戶名。 不允許的用戶名可以包含通配符字符*。 請注意，您不允許指定已經註冊的用戶名。 您必須先刪除該名稱然後才能禁止它。';
 
-$lang['DELETE_DISALLOW'] = '删除';
 $lang['DELETE_DISALLOW_TITLE'] = '刪除一個不允許的用戶名。';
 $lang['DELETE_DISALLOW_EXPLAIN'] = '要通過從此列表中選擇用戶名並單擊提交來刪除不允許的用戶名。';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s可以下載附件';
 $lang['SF_SHOW_ON_INDEX'] = '显示在主页';
 $lang['SF_PARENT_FORUM'] = '父论坛';
 $lang['SF_NO_PARENT'] = '没有父论坛';
-$lang['TEMPLATE'] = '模板';
 $lang['SYNC'] = '同步';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = '注意！種子獎金應按升序排列';
 $lang['SEED_BONUS_EXCHANGE'] = '配置交換種子獎金';
 $lang['SEED_BONUS_ROPORTION'] = '為 GB 交換獎金的比例';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = '控制面板';
-$lang['EXTENSION_CONTROL'] = '扩展控制';
-$lang['EXTENSION_GROUP_MANAGE'] = '扩展团体控制的';
-$lang['SPECIAL_CATEGORIES'] = '特殊类别';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = '附件设置';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = '在這裡您可以為附件模塊配置主設置。如果您按下測試設置按鈕，附件模塊將進行一些系統測試，以確保模塊能正常運行。如果您在上傳文件時遇到問題，請運行此測試以獲取詳細錯誤消息。';
-$lang['ATTACH_FILESIZE_SETTINGS'] = '附件文件大小設置';
-$lang['ATTACH_NUMBER_SETTINGS'] = '附件數量設置';
-$lang['ATTACH_OPTIONS_SETTINGS'] = '附件選項';
-
-$lang['UPLOAD_DIRECTORY'] = '上传目录';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = '进入相对路径从你的TorrentPier安装的附件载录。 例如，该文件如果你TorrentPier安装位于https://www.yourdomain.com/torrentpier 并附上目录是位于https://www.yourdomain.com/torrentpier/files中。';
-$lang['ATTACH_IMG_PATH'] = '附件發表圖標';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = '附件主題圖標';
-$lang['ATTACH_TOPIC_ICON'] = '附件主題圖標。';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = '這個圖像在附件的主題之前顯示。如果你不想顯示圖標，請留空這個字段。';
-$lang['ATTACH_DISPLAY_ORDER'] = '附件顯示順序';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = '在這裡您可以選擇是否以降序或升序顯示帖子/私信中的附件。';
-
-$lang['MAX_FILESIZE_ATTACH'] = '文件大小';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = '附件的最大文件大小。值為0表示“無限制”。此設置受您的服務器配置限制。例如，如果您的 PHP 配置僅允許最大 2MB 的上傳，則無法通過模塊覆蓋此設置。';
-$lang['MAX_FILESIZE_PM'] = '私人消息文件夾的最大文件大小';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = '每個用戶的私人郵件盒中附件可以使用的最大磁碟空間。值為 0 表示“無限制”。';
-
-$lang['MAX_ATTACHMENTS'] = '最大数量的附件';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = '允許在一則帖子中附加的最大附件數量。';
-$lang['MAX_ATTACHMENTS_PM'] = '每則私人消息中允許的最大附件數量。';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = '定義用戶在私人消息中允許包含的最大附件數量。';
-
-$lang['DISABLE_MOD'] = '禁用附件Mod。';
-$lang['DISABLE_MOD_EXPLAIN'] = '此選項主要用於測試新的模板或主題，它禁用除管理面板之外的所有附件功能。';
-$lang['PM_ATTACHMENTS'] = '允許私人消息中的附件.';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = '允許/不允許將文件附加到私人消息。';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = '管理扩展';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = '在此您可以管理文件擴展名。如果您希望允許/不允許上傳擴展名，請使用擴展組管理。';
-$lang['EXPLANATION'] = '解释';
-$lang['EXTENSION_GROUP'] = '扩展组';
-$lang['EXTENSION_EXIST'] = '扩展%s已经存在'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = '管理擴展群體。';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = '在這裡，您可以添加、刪除和修改擴展組，您可以禁用擴展組、分配特殊類別、更改下載機制，並定義將顯示在所屬附件前的上傳圖標。';
-$lang['SPECIAL_CATEGORY'] = '特殊類別。';
-$lang['CATEGORY_IMAGES'] = '图像';
 $lang['ALLOWED'] = '允许';
-$lang['ALLOWED_FORUMS'] = '允许论坛';
-$lang['EXT_GROUP_PERMISSIONS'] = '群組的權限。';
-$lang['DOWNLOAD_MODE'] = '下載模式。';
-$lang['UPLOAD_ICON'] = '上傳的圖標.';
-$lang['MAX_GROUPS_FILESIZE'] = '最大Filesize.';
-$lang['EXTENSION_GROUP_EXIST'] = '扩展组%s已经存在'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = '管理特殊類別';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = '在這裡您可以配置特殊類別。您可以為指派給擴展組的特殊類別設置特殊參數和條件。';
-$lang['SETTINGS_CAT_IMAGES'] = '特殊類別的設定：圖像';
-$lang['DISPLAY_INLINED'] = '顯示內嵌圖像';
-$lang['DISPLAY_INLINED_EXPLAIN'] = '選擇是否直接在帖子中顯示圖片（是）或將圖片顯示為鏈接？';
-$lang['MAX_IMAGE_SIZE'] = '最大圖像尺寸';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = '在這裡您可以定義可以附加的最大圖像尺寸（寬 x 高，單位為像素）。<br />如果設置為 0x0，則禁用此功能。對於某些圖像，此功能將無法使用，因為 PHP 的限制。';
-$lang['IMAGE_LINK_SIZE'] = '图像链接的尺寸';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = '如果達到這個定義的圖像尺寸，則圖像將顯示為鏈接，而不是內嵌顯示，<br />如果啟用內嵌視圖（寬 x 高，單位為像素）。<br />如果設置為 0x0，則禁用此功能。對於某些圖像，此功能將無法使用，因為 PHP 的限制。';
-$lang['ASSIGNED_GROUP'] = '分配组';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = '創建縮略圖';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = '最小縮略圖檔案大小';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = '如果圖像小於此定義的檔案大小，則不會創建縮略圖，因為它已經足夠小。';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = '擴展組權限 -> \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = '在這裡，您能夠限制所選擴展組訪問您選擇的論壇（在允許的論壇框中定義）。默認情況下，允許擴展組訪問所有用戶可以附加文件的論壇（這是附件模組自開始以來的常規方式）。只需添加您希望擴展組（該組內的擴展名）被允許的論壇，當您將論壇添加到列表時，默認的所有論壇將消失。您可以在任何時候重新添加所有論壇。如果您向您的論壇添加一個論壇，並將權限設置為所有論壇，則不會有任何變更。但如果您修改並限制了對某些論壇的訪問，則必須在此重新添加您新創建的論壇。自動完成此操作是很容易的，但這會迫使您編輯許多文件，因此我選擇了目前的方式。請記住，您的所有論壇將在此列出。';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = '注意：<br />在下列論壇中，您的用戶通常允許附加文件，但由於沒有擴展組被允許附加，因此您的用戶無法附加任何內容。如果他們嘗試，他們將收到錯誤消息。也許您想將這些論壇上的“發佈文件”權限設置為管理員。<br /><br />';
-$lang['ADD_FORUMS'] = '添加論壇';
-$lang['ADD_SELECTED'] = '添加選定項';
-$lang['PERM_ALL_FORUMS'] = '所有论坛';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = '文件附件控制面板';
-$lang['CONTROL_PANEL_EXPLAIN'] = '在這裡，您可以根據用戶、附件、查看等查看和管理所有附件。';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = '使用 * 作為部分匹配的通配符';
-$lang['SIZE_SMALLER_THAN'] = '附件大小小於（字節）';
-$lang['SIZE_GREATER_THAN'] = '附件大小大於（字節）';
-$lang['COUNT_SMALLER_THAN'] = '下載次數少於';
-$lang['COUNT_GREATER_THAN'] = '下載次數大於';
-$lang['MORE_DAYS_OLD'] = '比這多的天數';
-$lang['NO_ATTACH_SEARCH_MATCH'] = '沒有附件符合您的搜索標準';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = '附件數量';
-$lang['TOTAL_FILESIZE'] = '總文件大小';
-$lang['NUMBER_POSTS_ATTACH'] = '帶附件的帖子數量';
-$lang['NUMBER_TOPICS_ATTACH'] = '帶附件的主題數量';
-$lang['NUMBER_USERS_ATTACH'] = '發布附件的獨立用戶';
-$lang['NUMBER_PMS_ATTACH'] = '私人消息中的附件總數';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = '附件統計數據%s'; // replace %s with username
-$lang['DOWNLOADS'] = '下载';
-$lang['POST_TIME'] = '發表時間';
-$lang['POSTED_IN_TOPIC'] = '张贴在主题';
-$lang['SUBMIT_CHANGES'] = '提交更改';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = '附件';
-$lang['SORT_SIZE'] = '尺寸';
-$lang['SORT_FILENAME'] = '文件名';
-$lang['SORT_COMMENT'] = '评论';
-$lang['SORT_EXTENSION'] = '擴展';
-$lang['SORT_DOWNLOADS'] = '下载';
-$lang['SORT_POSTTIME'] = '發表時間';
-
-// View Types
-$lang['VIEW_STATISTIC'] = '统计数据';
-$lang['VIEW_SEARCH'] = '搜索';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = '附件配置成功更新';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = '點擊%s此處%s返回附件配置';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = '配置似乎正常';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = '附件';
-$lang['EXTENSIONS'] = '扩展';
-$lang['EXTENSION'] = '擴展';
-
 $lang['RETURN_CONFIG'] = '%s返回到配置%s';
 $lang['CONFIG_UPD'] = '配置更新成功';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = '在從跟蹤器上註銷種子時，將
 // Release
 $lang['TEMPLATE_DISABLE'] = '模板已禁用.';
 $lang['FOR_NEW_TEMPLATE'] = '用於新模板！.';
-$lang['CHANGED'] = '改变了';
-$lang['REMOVED'] = '已刪除.';
 $lang['QUESTION'] = '確認您確定要執行此操作';
 
 $lang['CRON_LIST'] = 'Cron任務列表.';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = '时间限制';
 $lang['TIME_LIMIT_EXPLAIN'] = '多少時間（秒）處理可以持續，然後移動到下一個循環';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>您的網絡伺服器已配置超時%s秒，因此請保持在此值以下</i>';
 
-$lang['DISABLE_BOARD'] = '禁用論壇';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = '您最後一次在%s處停止的處理在post_id %s（處理的帖子%s）';
 $lang['INFO_PROCESSING_ABORTED'] = '最後您在post_id%s（%s處理的帖子）停止了處理，例如%s';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = '所有的员额都成功处理。';
 $lang['ALL_TABLES_OPTIMIZED'] = '所有搜索表格进行了优化成功。';
 
 $lang['PROCESSING_POST_DETAILS'] = '處理後文章';
-$lang['PERCENT'] = '百分比';
 $lang['CURRENT_SESSION'] = '当前的届会';
 $lang['TOTAL'] = '总';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = '從<b>%s</b>到<b>%s</b>(總計<b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %%完成';
 
 $lang['PROCESSING_TIME_DETAILS'] = '当前会议的细节';
-$lang['PROCESSING_TIME'] = '处理时间';
 $lang['TIME_LAST_POSTS'] = '最近的%s後(s)';
 $lang['TIME_FROM_THE_BEGINNING'] = '从一开始';
 $lang['TIME_AVERAGE'] = '平均每个周期';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = '所有行動';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = '動作日誌： 搜索選項';
 $lang['ACTS_LOG_FORUM'] = '論壇';
 $lang['ACTS_LOG_ACTION'] = '動作';
-$lang['ACTS_LOG_USER'] = '用戶';
 $lang['ACTS_LOG_LOGS_FROM'] = '來自';
 $lang['ACTS_LOG_FIRST'] = '开始于';
 $lang['ACTS_LOG_DAYS_BACK'] = '天前';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = '释放模板';
 $lang['RELEASES'] = '释放';
 
 $lang['BACK'] = '回';
-$lang['ERROR_FORM'] = '無效的欄位';
 $lang['NEW_RELEASE'] = '新的版本';
 $lang['NEXT'] = '继续';
-$lang['OTHER'] = '其他';
 $lang['ALL'] = '全部';
 
 $lang['TPL_EMPTY_FIELD'] = '你必須填寫的欄位<b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = '选项';
 $lang['NEW_POLL_M_EXPLAIN'] = '每行對應一個答案（最大像素';
 
 $lang['OLD_BROWSER'] = '您使用的是过时的浏览器。 该网站将不会显示正确的。';
-$lang['GO_BACK'] = '上一页';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = '文件上傳已禁用';
 $lang['UPLOAD_ERROR_COMMON'] = '文件上传错误';

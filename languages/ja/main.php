@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'パスワードを表示';
 $lang['EMAIL'] = 'メール';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = '著者';
-$lang['TIME'] = '時間';
 $lang['MESSAGE'] = 'メッセージ';
 $lang['TORRENT'] = '急流';
 $lang['PERMISSIONS'] = 'アクセス権';
 $lang['TYPE'] = 'タイプ';
-$lang['SEEDER'] = '播種装置';
-$lang['LEECHER'] = 'リーチャー';
-$lang['RELEASER'] = 'リリース';
 
 $lang['1_DAY'] = '1日';
 $lang['7_DAYS'] = '7日';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'トピックに返信';
 $lang['CLICK_RETURN_TOPIC'] = 'トピックに戻るには%sここ%sをクリックしてください'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'フォーラムに戻るには%sここ%sをクリックしてください';
 $lang['CLICK_RETURN_MODCP'] = 'モデレーター制御パネルに戻るには%sここ%sをクリックしてください';
-$lang['CLICK_RETURN_GROUP'] = 'グループ情報に戻るには%sここ%sをクリックしてください';
 
 $lang['ADMIN_PANEL'] = '管理パネルに移動';
 $lang['ALL_CACHE_CLEARED'] = 'キャッシュがクリアされました';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = '選択フォーラム';
 $lang['DISPLAYING_OPTIONS'] = '表示オプション';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = '登録利用者:';
 $lang['BROWSING_FORUM'] = '閲覧ユーザーのこのフォーラム:';
 $lang['ONLINE_USERS'] = '合計<b>%1$d</b>オンラインユーザー:%2$d登録ユーザーおよび%3$dゲスト';
 $lang['RECORD_ONLINE_USERS'] = 'オンラインのユーザーは<b>%s</b>でした。%sで'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = '最新の投稿を表示';
 $lang['SEARCH_SELF'] = '私の投稿';
 $lang['SEARCH_SELF_BY_LAST'] = '前回の投稿時間';
 $lang['SEARCH_SELF_BY_MY'] = '私の投稿時間';
-$lang['SEARCH_UNANSWERED'] = '未answered投稿を表示';
 $lang['SEARCH_LATEST'] = '最新のトピックス';
 $lang['LATEST_RELEASES'] = '最新のリリース';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = '合計速度:<b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = '新しい投稿はありません';
 $lang['NEW_POSTS'] = '新規投稿';
-$lang['NEW_POST'] = '新しい投稿';
 $lang['FORUM_LOCKED_MAIN'] = 'フォーラムはロックされています';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = '最新ニュース';
 $lang['NETWORK_NEWS'] = 'ネットワークのニュース';
 $lang['SUBFORUMS'] = 'サブフォーラム';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'フォーラムを表示';
-
 $lang['FORUM_NOT_EXIST'] = '選択したフォーラムは存在しません。';
 $lang['ERROR_PORNO_FORUM'] = 'このタイプのフォーラム(18+)はあなたのプロファイルで隠されています';
 
 $lang['DISPLAY_TOPICS'] = 'トピックを表示';
-$lang['ALL_TOPICS'] = 'すべてのトピック';
 $lang['MODERATE_FORUM'] = 'このフォーラムをモデレートする';
 $lang['TITLE_SEARCH_HINT'] = '検索タイトル...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'このフォーラムをモデレートできます';
 $lang['NO_TOPICS_POST_ONE'] = 'このフォーラムにはまだ投稿がありません<br /><b>新しいトピック</b>アイコンをクリックすると、あなたの投稿が最初の投稿になります。';
 $lang['NO_RELEASES_POST_ONE'] = 'このフォーラムにはまだリリースがありません<br />クリックして<b>新しいリリース</b>アイコンをクリックすると、あなたのリリースが最初の投稿になります。';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'トピックを表示';
-
 $lang['GUEST'] = 'ゲスト';
-$lang['POST_SUBJECT'] = '投稿の主題';
 $lang['SUBMIT_VOTE'] = '投票の提出';
 
 $lang['NO_NEWER_TOPICS'] = 'このフォーラムでは新しいトピックはありません';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = '最新順';
 $lang['OLDEST_FIRST'] = '最も古い順';
 
 $lang['READ_PROFILE'] = 'ユーザーのプロフィールを表示';
-$lang['DELETE_POST'] = 'この投稿を削除';
 
 $lang['WROTE'] = '書きました'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = '引用'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'メッセージタイトルを指定してくだ�
 $lang['INVALID_TOPIC_ID'] = 'トピックが存在しません！';
 $lang['INVALID_TOPIC_ID_DB'] = 'トピックはデータベースに存在しません！';
 
-$lang['NOT_POST'] = '欠席メッセージ';
 $lang['NOT_EDIT_TOR_STATUS'] = 'リリースの状態で編集できません';
 
 $lang['OPTIONS'] = 'オプション';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = '投票するときはオプションを指定する�
 $lang['LOCKED_WARN'] = 'ロックされたトピックに投稿しました！';
 
 $lang['ADD_POLL'] = '投票を追加する';
-$lang['POLL_OPTION'] = '投票オプション';
 $lang['UPDATE'] = '更新';
 $lang['DAYS'] = '日';
 $lang['DELETE_POLL'] = '投票を削除する';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'このトピックのインデックス作成�
 $lang['STORED'] = 'メッセージは正常に入力されました。';
 $lang['EDITED'] = 'メッセージが変更されました。';
 $lang['DELETED'] = 'メッセージは正常に削除されました。';
-$lang['POLL_DELETE'] = '投票は正常に削除されました。';
 $lang['VOTE_CAST'] = 'あなたの投票が行われました。';
 
 $lang['EMOTICONS'] = '絵文字';
@@ -391,12 +371,10 @@ $lang['INBOX'] = '受信トレイ';
 $lang['OUTBOX'] = '送信トレイ';
 $lang['SAVEBOX'] = '保存ボックス。';
 $lang['SENTBOX'] = '送信箱。';
-$lang['FLAG'] = '旗';
 $lang['SUBJECT'] = '件名。';
 $lang['FROM'] = 'から。';
 $lang['TO'] = 'へ。';
 $lang['DATE'] = '日。';
-$lang['MARK'] = 'マーク。';
 $lang['SENT'] = '送信。';
 $lang['SAVED'] = '保存。';
 $lang['DELETE_MARKED'] = 'マークを削除。';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'メッセージを表示。'; // Followed by number
 
 $lang['NO_MESSAGES_FOLDER'] = 'このフォルダにはメッセージがありません。';
 
-$lang['PM_DISABLED'] = 'このボードにはプライベートメッセージが無効になっています。';
 $lang['CANNOT_SEND_PRIVMSG'] = '申し訳ありませんが、管理者によってプライベートメッセージを送信することができません。';
 $lang['NO_TO_USER'] = 'このメッセージを送信するユーザー名を指定する必要があります。';
 $lang['NO_SUCH_USER'] = '申し訳ありませんが、そのようなユーザーは存在しません。';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'プライベートメッセージを編集する';
 
 $lang['FIND_USERNAME'] = 'ユーザー名を見つける';
 $lang['SELECT_USERNAME'] = 'ユーザー名を選択する';
-$lang['FIND'] = '見つける';
 $lang['NO_MATCH'] = '一致するデータは見つかりません。';
 
 $lang['NO_PM_ID'] = 'ポストIDを指定してください。';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'アカウントが作成されました。ただし
 $lang['ACCOUNT_ACTIVE'] = 'アカウントがアクティブになりました。ご登録ありがとうございます。';
 $lang['ALREADY_ACTIVATED'] = 'アカウントはすでに有効化されています。';
 
-$lang['REGISTRATION'] = '登録契約条件';
 
 $lang['WRONG_ACTIVATION'] = '提供されたアクティベーションキーは、データベース内のいずれとも一致しません。';
-$lang['SEND_PASSWORD'] = '新しいパスワードを送信してください。';
 $lang['PASSWORD_UPDATED'] = '新しいパスワードが作成されました。詳細を確認するには、受信した電子メールを確認してください。';
 $lang['NO_EMAIL_MATCH'] = 'あなたが提供した電子メールアドレスは、そのユーザー名のリストにあるものと一致しません。';
 $lang['PASSWORD_ACTIVATED'] = 'あなたのアカウントが再アクティブ化されました。ログインするには、受信した電子メールに提供されたパスワードをご利用ください。';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'このサイトで広告を出す';
 $lang['NOT_FOUND'] = 'ファイルが見つかりません';
 
 // Memberslist
-$lang['SORT'] = 'ソート';
 $lang['SORT_TOP_TEN'] = 'ハイポスター';
 $lang['SORT_JOINED'] = '参加日';
 $lang['SORT_USERNAME'] = 'ユーザー名';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'このグループにはメンバーがいません
 $lang['HIDDEN_GROUP_MEMBERS'] = 'このグループは隠されています; そのメンバーシップを表示することはできません。';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'このグループには保留中のメンバーはいません。';
 $lang['GROUP_JOINED'] = 'このグループに正常に参加しました。<br />グループのモデレーターから承認された場合は通知されます。';
-$lang['GROUP_REQUEST'] = 'あなたのグループに参加するリクエストが送信されました。';
-$lang['GROUP_APPROVED'] = 'ご要請が承認されています。';
-$lang['GROUP_ADDED'] = 'あなたはこのユーザーグループに追加されました。';
 $lang['ALREADY_MEMBER_GROUP'] = 'あなたはこのグループのメンバーです。';
 $lang['USER_IS_MEMBER_GROUP'] = '%s はこのグループのメンバーです';
 $lang['USER_IS_MOD_GROUP'] = '%s はこのグループのモデレーターです';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'あなたのこのグループのメンバーシ�
 $lang['ARE_GROUP_MODERATOR'] = 'あなたはグループのモデレーターです';
 $lang['NONE'] = 'なし';
 
-$lang['SUBSCRIBE'] = '購読';
 $lang['UNSUBSCRIBE_GROUP'] = '登録解除';
 $lang['MEMBERS_IN_GROUP'] = 'グループのメンバー';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'このグループはリリースグループで
 
 // Search
 $lang['SEARCH_HELP_URL'] = '検索ヘルプ';
-$lang['SEARCH_QUERY'] = '検索クエリ';
 $lang['SEARCH_OPTIONS'] = '検索オプション';
 
 $lang['SEARCH_WORDS'] = '検索キーワード';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = '話題のタイトル';
 $lang['DISPLAY_RESULTS_AS'] = '結果を表示する';
 $lang['ALL_AVAILABLE'] = 'すべて利用可能';
 $lang['BRIEFLY'] = '簡単に';
-$lang['NO_SEARCHABLE_FORUMS'] = 'このサイトのフォーラムを検索するための権限がありません。';
 
 $lang['NO_SEARCH_MATCH'] = '検索条件を満たすトピックや投稿はありませんでした';
 $lang['FOUND_SEARCH_MATCH'] = '検索した%d合'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = '検索した%d合'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'ウィンドウを閉じる';
-$lang['CLOSE'] = '閉じる';
 $lang['HIDE'] = '隠す';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = '申し訳ありませんが、このアタッ
 $lang['DESCRIPTION'] = '説明'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'ダウンロード'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'ファイルサイズ';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = '拡張子 \'%s\' はボード管理者によって無効にされたため、この添付ファイルは表示されません。'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'ストリーム';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'ストリームリンクをクリップボードに
 $lang['M3U_NOT_SUPPORTED'] = 'このファイルはブラウザで再生できません...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'ffprobeはこのコーデックについてのデータを返すことができないようです...';
 $lang['M3U_NOTICE'] = '一部のブラウザは特定のビデオフォーマットの再生をサポートしていません。この場合、.m3uファイルをダウンロードし、サードパーティ製のプレーヤーを使用して再生できます。';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = '添付';
-$lang['ATTACHMENT_THUMBNAIL'] = '添付ファイルのサムネイル';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = '添付ファイルを追加';
-$lang['ADD_ATTACHMENT_TITLE'] = '添付ファイルを追加';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = '添付ファイルを投稿に追加したくない場合は、フィールドを空白のままにしてください。';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'ファイル名';
-$lang['FILE_COMMENT'] = 'ファイルのコメント';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = '投稿された添付ファイル';
-$lang['UPDATE_COMMENT'] = 'コメントを更新';
 $lang['DELETE_ATTACHMENT'] = '削除';
-$lang['DELETE_THUMBNAIL'] = 'サムネイルの削除';
-$lang['UPLOAD_NEW_VERSION'] = '新しいバージョンをアップロード';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%sが無効なファイル名'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = '添付ファイルが大きすぎます。<br />最大サイズを取得できませんでした。<br />添付モッドは、php.iniで定義された最大のアップロードサイズを判定できません。';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = '添付ファイルが大きすぎます。<br />最大アップロードサイズ：%d MB。<br />このサイズがphp.iniで定義されていることに注意してください。これはPHPによって設定されているため、添付モッドはこの値を上書きできません。'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = '拡張子%sは許可されていません。'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'このフォーラム内で拡張子%sを持つファイルを投稿することはできません。'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = '添付ファイルは大きすぎます。<br />最大サイズ：%s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'この投稿には%d個の添付ファイルの最大数に達しているため、添付ファイルを追加できません。'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = '添付ファイル/画像の幅が%dピクセル、高さが%dピクセルより大きいです。';
-$lang['GENERAL_UPLOAD_ERROR'] = 'アップロードエラー：添付ファイル%sをアップロードできませんでした。'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = '「添付ファイルを追加」ボックスに値を入力してください。';
-$lang['ERROR_MISSING_OLD_ENTRY'] = '添付ファイルを更新できません。古い添付ファイルエントリが見つかりませんでした。';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'ダウンロードまたは表示するための添付ファイルを選択していません。';
 $lang['ERROR_NO_ATTACHMENT'] = '選択した添付ファイルは、もはや存在しません。';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = '選択された添付ファイルは削除されました。';
-$lang['ERROR_DELETED_ATTACHMENTS'] = '添付ファイルを削除できません。';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'の添付機能が無効になっています。';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'ディレクトリ\'%s\'が存在しない又は見つかりませんでした。'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = '\'%s\'がディレクトリかどうか確認してください。'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'ディレクトリ\'%s\'は書き込み可能ではありません。アップロードパスを作成し、777にchmodするか（または所有者をhttpdサーバーの所有者に変更する）してファイルをアップロードする必要があります。<br />プレーンFTPアクセスしかない場合は、ディレクトリの「属性」をrwxrwxrwxに変更してください。'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'バイト';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = '添付ファイルを検索';
-$lang['TEST_SETTINGS'] = '設定をテストする';
-$lang['NOT_ASSIGNED'] = '割り当てられていません。';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = '登録されました。';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = '配布の状況:';
 $lang['TOR_STATUS_CHANGED'] = 'ステータスが変更されました: ';
 $lang['TOR_BACK'] = '戻る';
 $lang['PROCEED'] = '続行する';
-$lang['INVALID_ATTACH_ID'] = 'ファイル識別子が足りません！';
 $lang['CHANGE_TOR_TYPE'] = 'タイプは、トレントが正常に変更されました';
 $lang['DEL_TORRENT'] = 'トレントを削除してもよろしいですか？';
 $lang['DEL_MOVE_TORRENT'] = 'トレントを削除して移動してもよろしいですか？';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = '現在の';
 $lang['SEARCH_DL_COMPLETE'] = '完了';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'ダウンロード完了';
 $lang['SEARCH_DL_CANCEL'] = 'キャンセル済み';
-$lang['CUR_DOWNLOADS'] = '現在のダウンロード';
 $lang['CUR_UPLOADS'] = '現在の投稿';
 $lang['SEARCH_RELEASES'] = 'リリース';
 $lang['TOR_SEARCH_TITLE'] = '激流検索オプション';
 $lang['OPEN_TOPIC'] = 'トピックを開く';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = '最初の投稿のみでトレントを投稿できます';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = '最初の投稿のみからトレントの登録が許可されています';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'このフォーラムではトレントを登録できません';
 $lang['ALREADY_REG'] = 'このトレントは既に登録されています';
 $lang['NOT_TORRENT'] = 'このファイルはトレントではありません';
-$lang['ONLY_1_TOR_PER_TOPIC'] = '1つのトピックに対して1つのトレントのみ登録できます';
 $lang['VIEWING_USER_BT_PROFILE'] = 'トレントプロファイル';
 $lang['CUR_ACTIVE_DLS'] = 'アクティブなトレント';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = '新しいトピックのみ';
 
 $lang['TORHELP_TITLE'] = 'これらのトレントをシードするのを手伝ってください！';
 $lang['STATISTICS'] = '統計';
-$lang['STATISTIC'] = '統計';
-$lang['VALUE'] = '値';
 $lang['STATUS'] = '状況';
-$lang['CHANGES'] = '変更';
 $lang['ACTION'] = 'アクション';
 $lang['REASON'] = '理由';
 $lang['COMMENT'] = 'コメント';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'ディレクトリの崩壊';
 $lang['EXPAND'] = '展開';
 $lang['SWITCH'] = 'スイッチ';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'ウィンドウのサイズを増減する';
-$lang['EMPTY_ATTACH_ID'] = 'ファイル識別子がありません！';
-$lang['TOR_NOT_FOUND'] = 'サーバーにファイルがありません！';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'このtorrentファイルの内容はサイト上で表示できません（ファイルのリストを構築できませんでした）';
 $lang['TORFILE_INVALID'] = 'Torrentファイルが破損しました';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"サイト"はのみhttp://sitenameを含むことができます';
-$lang['INVALID_DATE'] = '無効な日付';
 $lang['PROFILE_USER'] = 'プロファイルの表示';
 $lang['GOOD_UPDATE'] = '正常に変更されました';
 $lang['UCP_DOWNLOADS'] = 'ダウンロード';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'メッセージを送信';
 $lang['NEW_THREADS'] = '新規スレッド';
 $lang['PROFILE_NOT_FOUND'] = 'プロフィールが見つかりません';
 
-$lang['USER_DELETE'] = '削除';
 $lang['USER_DELETE_EXPLAIN'] = 'このユーザーを削除';
 $lang['USER_DELETE_ME'] = '申し訳ありませんが、あなたのアカウントは削除できません！';
 $lang['USER_DELETE_CSV'] = 'このアカウントが削除不可です！';
@@ -1307,7 +1228,6 @@ $lang['ON'] = '月';
 $lang['OFF'] = 'off';
 $lang['MEMORY'] = 'メモリ：';
 $lang['QUERIES'] = 'クエリ';
-$lang['LIMIT'] = '制限：';
 $lang['SHOW_LOG'] = 'ログを表示';
 $lang['EXPLAINED_LOG'] = '説明されたログ';
 $lang['CUT_LOG'] = '長いクエリを切り取る';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = '投稿に戻る';
 $lang['PROFILE_EDIT_RETURN'] = '戻って編集';
 $lang['PROFILE_RETURN'] = 'プロフィールに戻る';
 
-$lang['WARNING'] = '警告';
 $lang['INDEXER'] = 'Reindex検索';
 $lang['INDEXER_SUCCESS'] = '検索インデックスは正常に更新されました。';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'ランク';
 $lang['SMILIES'] = 'スマイリー';
 $lang['BAN_MANAGEMENT'] = '禁止管理';
 $lang['WORD_CENSOR'] = '単語検閲';
-$lang['EXPORT'] = 'エクスポート';
-$lang['CREATE_NEW'] = '作成する';
-$lang['ADD_NEW'] = '追加する';
 $lang['CRON'] = 'タスクスケジューラー (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = '再検索インデックス';
 $lang['FORUM_CONFIG'] = 'フォーラムの設定';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'ユーザー数';
 $lang['USERS_PER_DAY'] = '1日のユーザー数';
 $lang['BOARD_STARTED'] = 'ボードが開始されました';
 $lang['AVATAR_DIR_SIZE'] = 'アバターのディレクトリサイズ';
-$lang['DATABASE_SIZE'] = 'データベースサイズ';
 $lang['GZIP_COMPRESSION'] = 'GZIP圧縮';
 $lang['NOT_AVAILABLE'] = '利用できません';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'クリック%sここ%sに戻すフォーラ�
 $lang['BAN_CONTROL'] = '禁止制御';
 $lang['BAN_EXPLAIN'] = 'ここではユーザーの禁止を管理できます。';
 $lang['BAN_USERNAME'] = '一又は複数のユーザーを禁止します';
-$lang['BAN_USERNAME_EXPLAIN'] = '適切なマウスとキーボードの組み合わせを使用して、複数のユーザーを一度に禁止できます。';
 $lang['UNBAN_USERNAME'] = '特定のユーザーを1人以上禁止する';
 $lang['UNBAN_USERNAME_EXPLAIN'] = '適切なマウスとキーボードの組み合わせを使用して、複数のユーザーを一度に禁止できます。';
 $lang['NO_BANNED_USERS'] = '禁ユーザ名';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'サイト名';
 $lang['SITE_DESC'] = 'サイト説明';
 $lang['FORUMS_DISABLE'] = 'ボード無効化';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'このボードはユーザーが利用できません。';
-$lang['ACC_NONE'] = 'なし'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'ユーザー';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'なし';
 
 $lang['ABILITIES_SETTINGS'] = 'ユーザーフォーラムの基本設定';
 $lang['MAX_POLL_OPTIONS'] = '最大の投票オプションの数';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = '削除';
 $lang['CONFIG_UPDATED'] = 'フォーラム設定を更新しました';
 $lang['MOVE_UP'] = '移動する';
 $lang['MOVE_DOWN'] = '下方に移動する';
-$lang['RESYNC'] = '再同期';
 $lang['NO_MODE'] = 'モードが設定されていません';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = '以下のフォームを使用すると、すべての一般的なボードオプションをカスタマイズできます。ユーザーおよびフォーラムの設定には、左側にある関連リンクを使用してください。';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'グループを削除します';
 $lang['GROUP_DELETE_CHECK'] = 'このグループを削除します';
 $lang['NO_GROUP_NAME'] = 'このグループの名前を指定する必要があります';
 $lang['NO_GROUP_MODERATOR'] = 'このグループのモデレーターを指定する必要があります';
-$lang['NO_GROUP_MODE'] = 'このグループのモード（オープンまたはクローズ）を指定する必要があります';
 $lang['NO_GROUP_ACTION'] = 'アクションが指定されていません';
 $lang['DELETE_OLD_GROUP_MOD'] = '古いグループのモデレーターを削除しますか？';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'グループモデレーターを変更する場合は、このボックスをチェックして、古いモデレーターをグループから削除します。そうでなければ、チェックを外し、そのユーザーがグループの通常のメンバーになります。';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'グループを検索';
 $lang['FORUM_PRUNE'] = 'フォーラムプルーン';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'この削除は、投稿が行われていない日数に基づいてトピックを削除します。数値を入力しない場合、すべてのトピックが削除されます。<b>スティッキー</b>なトピックや<b>アナウンスメント</b>は削除されませんので、手動でこれらのトピックを削除する必要があります。';
 $lang['DO_PRUNE'] = 'プルーンする';
-$lang['ALL_FORUMS'] = '全てのフォーラム';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'この日数以内に回答のないトピックをプルーンします';
 $lang['TOPICS_PRUNED'] = '刈り込まれたトピック';
 $lang['PRUNE_SUCCESS'] = 'フォーラムが成功裏に刈り込まれました';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = '%s （%s ）をクリックして、ランク
 $lang['DISALLOW_CONTROL'] = 'ユーザー名の制御を禁止する';
 $lang['DISALLOW_EXPLAIN'] = 'ここでは使用できないユーザー名を制御できます。無許可のユーザー名にはワイルドカード文字 * を含めることができます。すでに登録されているユーザー名を指定することはできませんのでご注意ください。最初にその名前を削除してから、その名前を許可する必要があります。';
 
-$lang['DELETE_DISALLOW'] = '削除';
 $lang['DELETE_DISALLOW_TITLE'] = '許可しないユーザー名を削除する';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'このリストからユーザー名を選択し、送信をクリックすることにより、無許可のユーザー名を削除できます。';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%sは添付ファイルをダ�
 $lang['SF_SHOW_ON_INDEX'] = 'メインページに表示する';
 $lang['SF_PARENT_FORUM'] = '親フォーラム';
 $lang['SF_NO_PARENT'] = '親フォーラムはありません';
-$lang['TEMPLATE'] = 'テンプレート';
 $lang['SYNC'] = '同期';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = '注意！ シードボーナスは昇順でなけ
 $lang['SEED_BONUS_EXCHANGE'] = '交換シードボーナスの設定';
 $lang['SEED_BONUS_ROPORTION'] = 'ボーナスの交換の割合をGBに追加';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = '制御パネル';
-$lang['EXTENSION_CONTROL'] = '延長制御';
-$lang['EXTENSION_GROUP_MANAGE'] = '拡張グループの管理';
-$lang['SPECIAL_CATEGORIES'] = '特別なカテゴリ';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = '添付の設定';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'ここで、添付Modのメイン設定を構成できます。テスト設定ボタンを押すと、添付Modがいくつかのシステムテストを行い、正常に動作することを確認します。ファイルのアップロードに問題がある場合は、このテストを実行して、詳細なエラーメッセージを得てください。';
-$lang['ATTACH_FILESIZE_SETTINGS'] = '添付ファイルサイズ設定';
-$lang['ATTACH_NUMBER_SETTINGS'] = '添付番号の設定';
-$lang['ATTACH_OPTIONS_SETTINGS'] = '添付オプション';
-
-$lang['UPLOAD_DIRECTORY'] = 'アップロードディレクトリ';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'あなたのTorrentPierの設置から添付ファイルのアップロードディレクトリへの相対パスを入力してください。例えば、あなたのTorrentPierの設置がhttps://www.yourdomain.com/torrentpierにあり、添付ファイルのアップロードディレクトリがhttps://www.yourdomain.com/torrentpier/filesにある場合は、「ファイル」と入力してください。';
-$lang['ATTACH_IMG_PATH'] = '添付ファイルの投稿アイコン';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'この画像は、個々の投稿の添付リンクの横に表示されます。アイコンを表示したくない場合は、このフィールドを空白にしてください。この設定は拡張グループ管理の設定によって上書きされます。';
-$lang['ATTACH_TOPIC_ICON'] = '添付トピックアイコン';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'この画像は、添付ファイルのあるトピックの前に表示されます。アイコンを表示したくない場合は、このフィールドを空白のままにしてください。';
-$lang['ATTACH_DISPLAY_ORDER'] = '添付の表示順';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'ここで、投稿/PM内での添付ファイルの表示オーダーを、降順（最新の添付ファイルが最初）または昇順（最も古い添付ファイルが最初）に表示するかどうかを選択できます。';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'ファイルサイズ';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = '最大添付ファイルのファイルサイズ。0の値は「無制限」を意味します。この設定は、サーバの設定によって制限されます。たとえば、php設定で最大2MBのアップロードが許可されている場合、この制限をModによって上書きすることはできません。';
-$lang['MAX_FILESIZE_PM'] = 'プライベートメッセージフォルダの最大ファイルサイズ';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = '各ユーザーのプライベートメッセージボックスに添付できる最大ディスクスペース。0の値は「無制限」を意味します。';
-
-$lang['MAX_ATTACHMENTS'] = '最大添付ファイルの数';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = '投稿内で許可される最大の添付ファイルの数。';
-$lang['MAX_ATTACHMENTS_PM'] = '1つのプライベートメッセージ内の最大添付ファイル数';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'ユーザーがプライベートメッセージに含めることが許可されている最大添付ファイル数を定義します。';
-
-$lang['DISABLE_MOD'] = '添付Modを無効にする';
-$lang['DISABLE_MOD_EXPLAIN'] = 'このオプションは、新しいテンプレートやテーマのテスト専用です。管理パネルを除いて、すべての添付機能を無効にします。';
-$lang['PM_ATTACHMENTS'] = 'プライベートメッセージ内での添付ファイルを許可します。';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'プライベートメッセージへのファイルの添付を許可する/許可しない。';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = '管理の拡張子';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'ここでファイルの拡張子を管理できます。拡張子のアップロードを許可/拒否したい場合は、拡張グループ管理を使用してください。';
-$lang['EXPLANATION'] = '説明';
-$lang['EXTENSION_GROUP'] = '拡張グループ';
-$lang['EXTENSION_EXIST'] = '拡張 %s は既に存在します'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = '拡張グループを管理します。';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'ここで拡張グループを追加、削除、および修正できます。拡張グループを無効にしたり、特別カテゴリを割り当てたり、ダウンロード機構を変更したり、グループに属する添付ファイルの前に表示されるアップロードアイコンを定義することができます。';
-$lang['SPECIAL_CATEGORY'] = '特別なカテゴリ';
-$lang['CATEGORY_IMAGES'] = '画像';
 $lang['ALLOWED'] = '可';
-$lang['ALLOWED_FORUMS'] = '許可されたフォーラム';
-$lang['EXT_GROUP_PERMISSIONS'] = 'グループの権限';
-$lang['DOWNLOAD_MODE'] = 'ダウンロードモード';
-$lang['UPLOAD_ICON'] = 'アップロードアイコン';
-$lang['MAX_GROUPS_FILESIZE'] = '最大Filesize';
-$lang['EXTENSION_GROUP_EXIST'] = '拡張グループ %s は既に存在します'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = '特別なカテゴリを管理します。';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'ここでは特別なカテゴリを設定できます。拡張グループに割り当てられた特別なカテゴリのための特別なパラメータと条件を設定できます。';
-$lang['SETTINGS_CAT_IMAGES'] = '設定のための特別なカテゴリ：画像';
-$lang['DISPLAY_INLINED'] = '画像をインラインで表示';
-$lang['DISPLAY_INLINED_EXPLAIN'] = '投稿内で画像を直接表示するか（はい）、リンクとして表示するかを選択しますか？';
-$lang['MAX_IMAGE_SIZE'] = '最大画像寸法';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = '添付の最大許可画像サイズを定義します。';
-$lang['IMAGE_LINK_SIZE'] = '画像リンク寸法';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = '画像の定義された寸法に達した場合、画像はインラインで表示されるのではなく、リンクとして表示され、インラインビューが有効になっている場合（幅 × 高さ（ピクセル））です。';
-$lang['ASSIGNED_GROUP'] = '割り当てられたグループ';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'サムネイルを作成する';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = '最小サムネイルファイルサイズ';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'この定義されたファイルサイズより小さい画像の場合、サムネイルは作成されません。なぜなら、十分に小さいからです。';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = '拡張グループの権限 → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'ここで選択した拡張グループをご希望のフォーラムに制限できます（許可されたフォーラムボックスで定義されます）。デフォルトは、ユーザーがファイルを添付できるすべてのフォーラムに拡張グループを許可します（添付ファイルのModが開始以来行ってきた通常の方法）。';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = '注意:<br />以下のフォーラム内では、ユーザーは通常ファイルを添付できますが、拡張グループが許可されていないため、ユーザーは何も添付できません。試みるとエラーメッセージが表示されます。これらのフォーラムで\'ファイルの投稿\'の権限をADMINに設定したいかもしれません。<br /><br />';
-$lang['ADD_FORUMS'] = '追加のフォーラム';
-$lang['ADD_SELECTED'] = '追加選択';
-$lang['PERM_ALL_FORUMS'] = '全てのフォーラム';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = '添付ファイルの制御パネル';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'ここでは、ユーザー、添付ファイル、表示回数などに基づいてすべての添付ファイルを表示および管理できます。';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = '部分一致にワイルドカード * を使用します';
-$lang['SIZE_SMALLER_THAN'] = '添付ファイルのサイズは（バイト）未満';
-$lang['SIZE_GREATER_THAN'] = '添付ファイルのサイズは（バイト）以上';
-$lang['COUNT_SMALLER_THAN'] = 'ダウンロード数は（バイト）より小さい';
-$lang['COUNT_GREATER_THAN'] = 'ダウンロード数は（バイト）以上';
-$lang['MORE_DAYS_OLD'] = 'より多くの日以上';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'あなたの検索条件に一致する添付ファイルはありません';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = '添付ファイルの数';
-$lang['TOTAL_FILESIZE'] = '総ファイルサイズ';
-$lang['NUMBER_POSTS_ATTACH'] = '添付ファイル付きの投稿数';
-$lang['NUMBER_TOPICS_ATTACH'] = '添付ファイル付きのトピック数';
-$lang['NUMBER_USERS_ATTACH'] = '独立ユーザーが投稿した添付ファイル';
-$lang['NUMBER_PMS_ATTACH'] = 'プライベートメッセージに添付されたファイルの総数';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = '添付統計量%s'; // replace %s with username
-$lang['DOWNLOADS'] = 'ダウンロード';
-$lang['POST_TIME'] = '投稿時間';
-$lang['POSTED_IN_TOPIC'] = 'トピックに投稿';
-$lang['SUBMIT_CHANGES'] = '変更を提出';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = '添付';
-$lang['SORT_SIZE'] = 'サイズ';
-$lang['SORT_FILENAME'] = 'ファイル名';
-$lang['SORT_COMMENT'] = 'コメント';
-$lang['SORT_EXTENSION'] = '拡張子';
-$lang['SORT_DOWNLOADS'] = 'ダウンロード';
-$lang['SORT_POSTTIME'] = '投稿時間';
-
-// View Types
-$lang['VIEW_STATISTIC'] = '統計';
-$lang['VIEW_SEARCH'] = '検索';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = '添付ファイル設定が成功しました';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = '%sここを%sクリックして添付ファイル設定に戻ります';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = '設定テストが終了しました。設定は問題なさそうです。';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = '添付';
-$lang['EXTENSIONS'] = '拡張子';
-$lang['EXTENSION'] = '拡張子';
-
 $lang['RETURN_CONFIG'] = '%s設定に戻る%s';
 $lang['CONFIG_UPD'] = '構成に成功しました';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'トピックの状態を「通常」に
 // Release
 $lang['TEMPLATE_DISABLE'] = 'テンプレートを無効';
 $lang['FOR_NEW_TEMPLATE'] = '新しいパターンです！';
-$lang['CHANGED'] = '変更';
-$lang['REMOVED'] = '削除されました';
 $lang['QUESTION'] = 'このアクションを実行してもよろしいですか？';
 
 $lang['CRON_LIST'] = 'Cronのリスト';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = '制限時間';
 $lang['TIME_LIMIT_EXPLAIN'] = '次のサイクルに移る前に、ポストプロセッシングが続けられる時間（秒）';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>ウェブサーバには設定されたタイムアウトが %s 秒なので、この値を下回るようにしてください。</i>';
 
-$lang['DISABLE_BOARD'] = 'ボードの無効化';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = '前回の処理は、%s の投稿IDで停止した (%s 処理した投稿) の %s です。';
 $lang['INFO_PROCESSING_ABORTED'] = '前回の処理が %s の投稿IDで中断されました (%s 処理した投稿) %s において。';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'すべての投稿処理が成功しました。
 $lang['ALL_TABLES_OPTIMIZED'] = 'すべての検索テーブルが正常に最適化されました。';
 
 $lang['PROCESSING_POST_DETAILS'] = '処理する投稿。';
-$lang['PERCENT'] = '％';
 $lang['CURRENT_SESSION'] = '現在のセッション';
 $lang['TOTAL'] = '合計';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'から <b>%s</b> まで <b>%s</b> （合計 <b>%s</b
 $lang['PERCENT_COMPLETED'] = '%s %% 完了';
 
 $lang['PROCESSING_TIME_DETAILS'] = '現在のセッションの詳細';
-$lang['PROCESSING_TIME'] = '処理時間';
 $lang['TIME_LAST_POSTS'] = '最後の %s 投稿(s)';
 $lang['TIME_FROM_THE_BEGINNING'] = '最初から';
 $lang['TIME_AVERAGE'] = 'サイクルあたりの平均';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'すべてのアクション';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'アクションログ: 検索オプション';
 $lang['ACTS_LOG_FORUM'] = 'フォーラム';
 $lang['ACTS_LOG_ACTION'] = '行動';
-$lang['ACTS_LOG_USER'] = 'ユーザー';
 $lang['ACTS_LOG_LOGS_FROM'] = 'ログから ';
 $lang['ACTS_LOG_FIRST'] = 'はじめ';
 $lang['ACTS_LOG_DAYS_BACK'] = '日数';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'リリーステンプレート';
 $lang['RELEASES'] = 'リリース';
 
 $lang['BACK'] = '戻る';
-$lang['ERROR_FORM'] = '無効なフィールド';
 $lang['NEW_RELEASE'] = '新しいリリース';
 $lang['NEXT'] = '続き';
-$lang['OTHER'] = 'その他';
 $lang['ALL'] = 'すべて';
 
 $lang['TPL_EMPTY_FIELD'] = 'フィールド<b>%s</b>を必ず記入してください';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'オプション';
 $lang['NEW_POLL_M_EXPLAIN'] = '各行は1つの回答に対応しています（最長';
 
 $lang['OLD_BROWSER'] = '古いブラウザを使用しています。ウェブサイトは正しく表示されません。';
-$lang['GO_BACK'] = '戻る';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'ファイルアップロードが無効です';
 $lang['UPLOAD_ERROR_COMMON'] = 'ファイルのアップロードエラー';

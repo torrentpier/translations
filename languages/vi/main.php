@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Hiển thị mật khẩu';
 $lang['EMAIL'] = 'Email';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Tác giả';
-$lang['TIME'] = 'Thời gian';
 $lang['MESSAGE'] = 'Tin nhắn';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Quyền';
 $lang['TYPE'] = 'Loại';
-$lang['SEEDER'] = 'Seeder';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Ngày';
 $lang['7_DAYS'] = '7 Ngày';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Trả lời chủ đề';
 $lang['CLICK_RETURN_TOPIC'] = 'Nhấn %s đây%s để trở lại chủ đề'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Nhấn %s đây%s để trở về diễn đàn';
 $lang['CLICK_RETURN_MODCP'] = 'Nhấn %s đây%s để trở về Bảng điều khiển của người quản lý';
-$lang['CLICK_RETURN_GROUP'] = 'Nhấn %s đây%s để trở về thông tin nhóm';
 
 $lang['ADMIN_PANEL'] = 'Đi đến Bảng điều khiển Quản trị';
 $lang['ALL_CACHE_CLEARED'] = 'Nhớ tạm đã được xóa';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Chọn diễn đàn';
 $lang['DISPLAYING_OPTIONS'] = 'Hiển thị các lựa chọn';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Người Đã Đăng Ký:';
 $lang['BROWSING_FORUM'] = 'Người dùng đang duyệt diễn đàn này:';
 $lang['ONLINE_USERS'] = 'Tổng cộng có <b>%1$d</b> dùng trực tuyến: %2$d đăng ký và %3$d khách';
 $lang['RECORD_ONLINE_USERS'] = 'Số người dùng đông nhất từng trực tuyến là <b>%s</b> vào %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Xem bài viết mới nhất';
 $lang['SEARCH_SELF'] = 'Bài viết của tôi';
 $lang['SEARCH_SELF_BY_LAST'] = 'thời gian bài cuối.';
 $lang['SEARCH_SELF_BY_MY'] = 'thời gian bài viết của tôi.';
-$lang['SEARCH_UNANSWERED'] = 'Xem bài chưa có ai trả lời.';
 $lang['SEARCH_LATEST'] = 'Chủ đề mới nhất';
 $lang['LATEST_RELEASES'] = 'Phiên bản mới nhất';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Tổng tốc độ: <b>%s</b>&nbsp;'; // %s = total speed
 
 $lang['NO_NEW_POSTS'] = 'Không có bài viết mới';
 $lang['NEW_POSTS'] = 'Bài viết mới';
-$lang['NEW_POST'] = 'Bài mới';
 $lang['FORUM_LOCKED_MAIN'] = 'Diễn đàn đang bị khóa';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Tin tức mới nhất';
 $lang['NETWORK_NEWS'] = 'Tin tức của mạng.';
 $lang['SUBFORUMS'] = 'Các diễn đàn con.';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Xem Diễn Đàn';
-
 $lang['FORUM_NOT_EXIST'] = 'Các diễn đàn bạn lựa chọn không tồn tại.';
 $lang['ERROR_PORNO_FORUM'] = 'Loại diễn đàn này (18+) đã bị ẩn trong hồ sơ của bạn.';
 
 $lang['DISPLAY_TOPICS'] = 'Hiển thị các chủ đề';
-$lang['ALL_TOPICS'] = 'Tất cả các chủ đề.';
 $lang['MODERATE_FORUM'] = 'Quản lý diễn đàn này.';
 $lang['TITLE_SEARCH_HINT'] = 'tìm tiêu đề...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Bạn <b>có thể</b> quản lý diễn đàn này.'
 $lang['NO_TOPICS_POST_ONE'] = 'Chưa có bài viết nào trong diễn đàn này<br />Nhấn vào biểu tượng <b>Chủ đề Mới</b>, và bài viết của bạn sẽ là bài đầu tiên.';
 $lang['NO_RELEASES_POST_ONE'] = 'Chưa có bản phát hành nào trong diễn đàn này<br />Nhấn vào biểu tượng <b>Phát Hành Mới</b>, và bản phát hành của bạn sẽ là bản đầu tiên.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Xem chủ đề';
-
 $lang['GUEST'] = 'Khách';
-$lang['POST_SUBJECT'] = 'Chủ đề bài viết';
 $lang['SUBMIT_VOTE'] = 'Gửi phiếu bầu';
 
 $lang['NO_NEWER_TOPICS'] = 'Không có các chủ đề mới hơn trong diễn đàn này.';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Mới Nhất.';
 $lang['OLDEST_FIRST'] = 'Cũ Nhất.';
 
 $lang['READ_PROFILE'] = 'Xem hồ sơ người dùng.';
-$lang['DELETE_POST'] = 'Xóa bài viết này.';
 
 $lang['WROTE'] = 'viết.'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Trích dẫn.'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Bạn nên xác định tiêu đề tin nhắn';
 $lang['INVALID_TOPIC_ID'] = 'Chủ Đề Vắng Mặt!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Chủ đề không tồn tại trong những cơ sở dữ liệu!';
 
-$lang['NOT_POST'] = 'Vắng Mặt Tin Nhắn';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Bạn không thể sửa tình trạng phát hành.';
 
 $lang['OPTIONS'] = 'Lựa chọn';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Bạn phải xác định một lựa chọn khi bỏ
 $lang['LOCKED_WARN'] = 'Bạn đã đăng vào chủ đề bị khóa!';
 
 $lang['ADD_POLL'] = 'Thêm một phiếu bầu';
-$lang['POLL_OPTION'] = 'Phiếu bầu chọn';
 $lang['UPDATE'] = 'Cập nhật';
 $lang['DAYS'] = 'Ngày';
 $lang['DELETE_POLL'] = 'Xóa cuộc thăm dò.';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Cho phép robot chỉ mục chủ đề này';
 $lang['STORED'] = 'Tin nhắn của bạn đã được nhập vào thành công.';
 $lang['EDITED'] = 'Tin nhắn đã được thay đổi.';
 $lang['DELETED'] = 'Tin nhắn của bạn đã bị xóa thành công.';
-$lang['POLL_DELETE'] = 'Cuộc thăm dò của bạn đã bị xóa thành công.';
 $lang['VOTE_CAST'] = 'Phiếu của bạn đã được thực hiện.';
 
 $lang['EMOTICONS'] = 'Biểu tượng cảm xúc';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Hộp thư';
 $lang['OUTBOX'] = 'Hộp thư đi';
 $lang['SAVEBOX'] = 'Hộp Lưu.';
 $lang['SENTBOX'] = 'Hộp Gửi.';
-$lang['FLAG'] = 'Cờ';
 $lang['SUBJECT'] = 'Chủ đề';
 $lang['FROM'] = 'Từ';
 $lang['TO'] = 'Đến';
 $lang['DATE'] = 'Ngày';
-$lang['MARK'] = 'Mark';
 $lang['SENT'] = 'Gửi';
 $lang['SAVED'] = 'Đã lưu.';
 $lang['DELETE_MARKED'] = 'Xóa Đánh Dấu.';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Hiển thị các tin nhắn.'; // Followed by numb
 
 $lang['NO_MESSAGES_FOLDER'] = 'Không có tin nhắn trong thư mục này.';
 
-$lang['PM_DISABLED'] = 'Tin nhắn cá nhân đã bị tắt trên diễn đàn này.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Xin lỗi, nhưng quản trị viên đã ngăn bạn gửi tin nhắn cá nhân.';
 $lang['NO_TO_USER'] = 'Bạn phải xác định một tên người dùng để gửi tin nhắn này.';
 $lang['NO_SUCH_USER'] = 'Xin lỗi, nhưng không có người dùng như vậy tồn tại.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Chỉnh sửa tin nhắn';
 
 $lang['FIND_USERNAME'] = 'Tìm một tên';
 $lang['SELECT_USERNAME'] = 'Chọn một tên người dùng';
-$lang['FIND'] = 'Tìm thấy';
 $lang['NO_MATCH'] = 'Không tìm thấy.';
 
 $lang['NO_PM_ID'] = 'Hãy chỉ định ID bài đăng';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Tài khoản của bạn đã được tạo ra. Tu
 $lang['ACCOUNT_ACTIVE'] = 'Tài khoản của bạn vừa được kích hoạt. Cảm ơn bạn đã đăng ký.';
 $lang['ALREADY_ACTIVATED'] = 'Bạn đã kích hoạt tài khoản của mình.';
 
-$lang['REGISTRATION'] = 'Điều khoản thỏa thuận đăng ký.';
 
 $lang['WRONG_ACTIVATION'] = 'Khóa kích hoạt bạn cung cấp không khớp với bất kỳ khóa nào trong cơ sở dữ liệu.';
-$lang['SEND_PASSWORD'] = 'Gửi cho tôi một mật khẩu mới';
 $lang['PASSWORD_UPDATED'] = 'Một mật khẩu mới đã được tạo; vui lòng kiểm tra e-mail của bạn để biết thêm thông tin về cách kích hoạt.';
 $lang['NO_EMAIL_MATCH'] = 'Địa chỉ e-mail bạn cung cấp không khớp với địa chỉ được liệt kê cho tên người dùng đó.';
 $lang['PASSWORD_ACTIVATED'] = 'Tài khoản của bạn đã được kích hoạt lại. Để nhập, xin vui lòng sử dụng mật khẩu cung cấp trong e-mail bạn nhận được.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Quảng cáo trên trang web này';
 $lang['NOT_FOUND'] = 'Không tìm thấy tệp.';
 
 // Memberslist
-$lang['SORT'] = 'Sắp xếp';
 $lang['SORT_TOP_TEN'] = 'Mười người đăng bài hàng đầu.';
 $lang['SORT_JOINED'] = 'Tham Gia Ngày';
 $lang['SORT_USERNAME'] = 'Tên người dùng.';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Nhóm này không có thành viên';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Nhóm này được ẩn, bạn không thể xem các thành viên của nó';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Nhóm này không có thành viên nào đang chờ.';
 $lang['GROUP_JOINED'] = 'Bạn đã đăng ký thành công nhóm này.<br />Bạn sẽ được thông báo khi yêu cầu đăng ký của bạn được phê duyệt bởi người điều hành nhóm.';
-$lang['GROUP_REQUEST'] = 'Một yêu cầu phải tham gia nhóm của bạn đã được thực hiện.';
-$lang['GROUP_APPROVED'] = 'Yêu cầu được chấp thuận.';
-$lang['GROUP_ADDED'] = 'Bạn đã được thêm vào nhóm làm việc này.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Bạn đã là một thành viên của nhóm này';
 $lang['USER_IS_MEMBER_GROUP'] = '%s đã là một thành viên của nhóm này';
 $lang['USER_IS_MOD_GROUP'] = '%s là một người kiểm duyệt của nhóm này';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Thành viên của bạn trong nhóm này đang c
 $lang['ARE_GROUP_MODERATOR'] = 'Bạn là người điều hành của nhóm.';
 $lang['NONE'] = 'Không có';
 
-$lang['SUBSCRIBE'] = 'Đăng ký';
 $lang['UNSUBSCRIBE_GROUP'] = 'Hủy đăng ký.';
 $lang['MEMBERS_IN_GROUP'] = 'Các thành viên trong nhóm';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Nhóm này không phải là một nhóm phát h
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Tìm Giúp Đỡ';
-$lang['SEARCH_QUERY'] = 'Tìm Kiếm';
 $lang['SEARCH_OPTIONS'] = 'Tùy chọn tìm kiếm.';
 
 $lang['SEARCH_WORDS'] = 'Tìm kiếm từ khóa.';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Tiêu đề chủ đề.';
 $lang['DISPLAY_RESULTS_AS'] = 'Hiển thị kết quả như.';
 $lang['ALL_AVAILABLE'] = 'Tất cả có sẵn.';
 $lang['BRIEFLY'] = 'Một cách ngắn gọn.';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Bạn không có quyền tìm kiếm trong bất kỳ diễn đàn nào trên trang này.';
 
 $lang['NO_SEARCH_MATCH'] = 'Không có chủ đề hoặc bài viết nào phù hợp với tiêu chí tìm kiếm của bạn.';
 $lang['FOUND_SEARCH_MATCH'] = 'Tìm thấy %d kết quả.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Tìm thấy %d kết quả.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Đóng Cửa Sổ';
-$lang['CLOSE'] = 'đóng.';
 $lang['HIDE'] = 'Ẩn.';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Xin lỗi nhưng bạn không được phép 
 $lang['DESCRIPTION'] = 'Mô tả'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Tải về'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Kích thước tệp';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Mở rộng \'%s\' đã bị vô hiệu hóa bởi quản trị viên, do đó phần đính kèm này không được hiển thị.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Luồng';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Sao chép liên kết luồng vào bảng tạm';
 $lang['M3U_NOT_SUPPORTED'] = 'Tệp này không thể phát trong trình duyệt...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Có vẻ như ffprobe sẽ không thể trả về dữ liệu về codec này...';
 $lang['M3U_NOTICE'] = 'Một số trình duyệt không hỗ trợ phát lại các định dạng video nhất định. Trong trường hợp đó, bạn có thể tải xuống tệp .m3u và phát nó bằng cách sử dụng trình phát của bên thứ ba';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Đính kèm';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Hình thu nhỏ của đính kèm.';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Thêm đính kèm.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Thêm một đính kèm.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Nếu bạn không muốn thêm một đính kèm vào bài viết của mình, xin vui lòng để trống các trường.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Tên tệp.';
-$lang['FILE_COMMENT'] = 'Bình luận về tệp.';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Đính kèm đã đăng.';
-$lang['UPDATE_COMMENT'] = 'Cập nhật bình luận.';
 $lang['DELETE_ATTACHMENT'] = 'Xóa đính kèm.';
-$lang['DELETE_THUMBNAIL'] = 'Xóa hình thu nhỏ.';
-$lang['UPLOAD_NEW_VERSION'] = 'Tải lên phiên bản mới.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s là tên tệp không hợp lệ.'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Đính kèm quá lớn. <br /> Không thể lấy kích thước tối đa được xác định trong PHP. <br /> Phần đính kèm không thể xác định được kích thước tải lên tối đa được xác định trong php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Đính kèm quá lớn. <br /> Kích thước tải lên tối đa: %d MB. <br /> Vui lòng lưu ý rằng kích thước này được xác định trong php.ini, nghĩa là nó được PHP thiết lập và phần đính kèm không thể ghi đè giá trị này.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Các phần mở rộng %s không được phép.'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Bạn không được phép đăng tệp với phần mở rộng %s trong diễn đàn này.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Phần đính kèm quá lớn.<br />Kích thước tối đa: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Không thể thêm đính kèm, vì đã đạt số lượng tối đa %d đính kèm trong bài viết này.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Đính kèm/hình ảnh phải có độ rộng nhỏ hơn %d pixel và chiều cao nhỏ hơn %d pixel.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Lỗi tải lên: không thể tải lên đính kèm vào %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Bạn phải nhập giá trị trong hộp \'Thêm một đính kèm\'.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Không thể cập nhật đính kèm, không tìm thấy mục đính kèm cũ.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Bạn chưa chọn một đính kèm để tải xuống hoặc xem.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Đính kèm đã chọn không còn tồn tại.';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Các đính kèm đã chọn đã bị xóa.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Không thể xóa đính kèm.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Tính năng đính kèm đã bị vô hiệu hóa.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Thư mục \'%s\' không tồn tại hoặc không thể tìm thấy.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Vui lòng kiểm tra xem \'%s\' có phải là một thư mục không.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Thư mục \'%s\' không có quyền ghi. Bạn sẽ phải tạo đường dẫn tải lên và chỉnh sửa nó để là 777 (hoặc thay đổi chủ sở hữu thành chủ sở hữu máy chủ httpd của bạn) để tải tệp lên.<br />Nếu bạn chỉ có quyền truy cập FTP đơn giản thì hãy thay đổi \'Thuộc tính\' của thư mục thành rwxrwxrwx.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Byte.';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Tìm Kiếm Đính Kèm';
-$lang['TEST_SETTINGS'] = 'Kiểm Tra Thiết Lập';
-$lang['NOT_ASSIGNED'] = 'Không Được Giao';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Đăng ký';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'Phân phối có tình trạng:';
 $lang['TOR_STATUS_CHANGED'] = 'Tình trạng thay đổi: ';
 $lang['TOR_BACK'] = ' trở lại';
 $lang['PROCEED'] = 'Tiến hành';
-$lang['INVALID_ATTACH_ID'] = 'Tập tin không có nhận dạng.';
 $lang['CHANGE_TOR_TYPE'] = 'Loại torrent thay đổi thành công';
 $lang['DEL_TORRENT'] = 'Bạn có chắc chắn muốn xóa torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Bạn có chắc chắn muốn xóa và di chuyển chủ đề?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Hiện tại.';
 $lang['SEARCH_DL_COMPLETE'] = 'Hoàn thành.';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Hoàn Thành Tải.';
 $lang['SEARCH_DL_CANCEL'] = 'Hủy.';
-$lang['CUR_DOWNLOADS'] = 'Tải Về Hiện Tại';
 $lang['CUR_UPLOADS'] = 'Tải Lên Hiện Tại';
 $lang['SEARCH_RELEASES'] = 'Phát hành';
 $lang['TOR_SEARCH_TITLE'] = 'Tùy Chọn Tìm Kiếm Torrent';
 $lang['OPEN_TOPIC'] = 'Mở chủ đề';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Đăng torrent được phép chỉ có trong bài đầu tiên';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Đăng ký torrent được phép chỉ từ bài đầu tiên';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Không thể đăng ký torrent trong diễn đàn này';
 $lang['ALREADY_REG'] = 'Torrent đã đăng ký';
 $lang['NOT_TORRENT'] = 'Tập Tin Này Không Phải Là Torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Bạn chỉ có thể đăng ký một torrent trong một chủ đề';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Hồ sơ torrent';
 $lang['CUR_ACTIVE_DLS'] = 'Hoạt động torrent';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'chỉ Các Chủ Đề Mới';
 
 $lang['TORHELP_TITLE'] = 'Xin vui lòng giúp giống những torrent này!';
 $lang['STATISTICS'] = 'Thống Kê';
-$lang['STATISTIC'] = 'Số Liệu Thống Kê';
-$lang['VALUE'] = 'Giá Trị';
 $lang['STATUS'] = 'Tình trạng';
-$lang['CHANGES'] = 'Thay đổi';
 $lang['ACTION'] = 'Hành động';
 $lang['REASON'] = 'Lý do';
 $lang['COMMENT'] = 'Bình Luận';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Thu Gọn Danh Mục';
 $lang['EXPAND'] = 'Mở rộng';
 $lang['SWITCH'] = 'Chuyển';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Tăng/giảm kích thước cửa sổ';
-$lang['EMPTY_ATTACH_ID'] = 'Thiếu Nhận Dạng Tập Tin!';
-$lang['TOR_NOT_FOUND'] = 'Tệp không có trên máy chủ!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'Nội Dung Của Tập Tin Torrent Này Không Thể Xem Trên Trang (Không Thể Xây Dựng Danh Sách Các Tập Tin)';
 $lang['TORFILE_INVALID'] = 'Tập tin Torrent bị hỏng';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Trang web" chỉ có thể chứa http://sitename';
-$lang['INVALID_DATE'] = 'Ngày không hợp lệ';
 $lang['PROFILE_USER'] = 'Xem hồ sơ';
 $lang['GOOD_UPDATE'] = 'Công việc đã được thay đổi.';
 $lang['UCP_DOWNLOADS'] = 'Tải xuống.';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Gửi tin nhắn';
 $lang['NEW_THREADS'] = 'Chủ Đề Mới';
 $lang['PROFILE_NOT_FOUND'] = 'Hồ sơ không tìm thấy';
 
-$lang['USER_DELETE'] = 'Xóa';
 $lang['USER_DELETE_EXPLAIN'] = 'Xóa người dùng này.';
 $lang['USER_DELETE_ME'] = 'Xin lỗi, tài khoản của bạn không thể bị xóa!';
 $lang['USER_DELETE_CSV'] = 'Xin lỗi, tài khoản này không được phép xóa!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'trên';
 $lang['OFF'] = 'tắt';
 $lang['MEMORY'] = 'Bộ nhớ: ';
 $lang['QUERIES'] = 'thắc mắc';
-$lang['LIMIT'] = 'Giới hạn:';
 $lang['SHOW_LOG'] = 'Hiển thị nhật ký';
 $lang['EXPLAINED_LOG'] = 'Nhật ký giải thích';
 $lang['CUT_LOG'] = 'Cắt các truy vấn dài';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Đi đến bài viết.';
 $lang['PROFILE_EDIT_RETURN'] = 'Quay lại chỉnh sửa.';
 $lang['PROFILE_RETURN'] = 'Đi đến hồ sơ.';
 
-$lang['WARNING'] = 'Cảnh báo.';
 $lang['INDEXER'] = 'Lập chỉ mục lại tìm kiếm';
 $lang['INDEXER_SUCCESS'] = 'Chỉ mục đã được cập nhật thành công';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Cấp bậc.';
 $lang['SMILIES'] = 'Mặt cười.';
 $lang['BAN_MANAGEMENT'] = 'Quản lý cấm.';
 $lang['WORD_CENSOR'] = 'Kiểm duyệt từ.';
-$lang['EXPORT'] = 'Xuất khẩu.';
-$lang['CREATE_NEW'] = 'Tạo mới.';
-$lang['ADD_NEW'] = 'Thêm.';
 $lang['CRON'] = 'Lịch trình nhiệm vụ.';
 $lang['REBUILD_SEARCH_INDEX'] = 'Xây dựng lại chỉ mục tìm kiếm.';
 $lang['FORUM_CONFIG'] = 'Cài đặt diễn đàn.';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Số người dùng';
 $lang['USERS_PER_DAY'] = 'Số người sử dụng mỗi ngày';
 $lang['BOARD_STARTED'] = 'Diễn đàn bắt đầu';
 $lang['AVATAR_DIR_SIZE'] = 'Kích thước thư mục Avatar';
-$lang['DATABASE_SIZE'] = 'Kích thước cơ sở dữ liệu';
 $lang['GZIP_COMPRESSION'] = 'Nén GZIP';
 $lang['NOT_AVAILABLE'] = 'Không khả dụng';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Nhấn vào %s đây%s để quay lại quy�
 $lang['BAN_CONTROL'] = 'Điều khiển cấm';
 $lang['BAN_EXPLAIN'] = 'Ở đây bạn có thể kiểm soát việc cấm người dùng.';
 $lang['BAN_USERNAME'] = 'Cấm một hoặc nhiều người dùng cụ thể';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Bạn có thể cấm nhiều người dùng bằng cách sử dụng sự kết hợp phù hợp của chuột và bàn phím cho máy tính và trình duyệt của bạn';
 $lang['UNBAN_USERNAME'] = 'Bỏ cấm một hoặc nhiều người dùng cụ thể';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Bạn có thể bỏ cấm nhiều người dùng bằng cách sử dụng sự kết hợp phù hợp của chuột và bàn phím cho máy tính và trình duyệt của bạn';
 $lang['NO_BANNED_USERS'] = 'Không có người dùng bị cấm';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Tên trang web';
 $lang['SITE_DESC'] = 'Mô tả trang web';
 $lang['FORUMS_DISABLE'] = 'Vô hiệu hóa diễn đàn';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Điều này sẽ làm cho bảng không khả dụng đối với người dùng. Các quản trị viên có thể truy cập vào Bảng điều khiển Quản lý trong khi bảng bị vô hiệu hóa.';
-$lang['ACC_NONE'] = 'Không có'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Người dùng';
-$lang['ACC_ADMIN'] = 'Quản trị';
+$lang['ACC_NONE'] = 'Không có';
 
 $lang['ABILITIES_SETTINGS'] = 'Cài đặt cơ bản của người dùng và diễn đàn';
 $lang['MAX_POLL_OPTIONS'] = 'Tối đa số phiếu bầu chọn';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Bỏ';
 $lang['CONFIG_UPDATED'] = 'Diễn Đàn Cấu Hình Có Được Cập Nhật Thành Công';
 $lang['MOVE_UP'] = 'Di chuyển lên';
 $lang['MOVE_DOWN'] = 'Di chuyển xuống';
-$lang['RESYNC'] = 'Tái đồng bộ';
 $lang['NO_MODE'] = 'Không có chế độ đã được thiết lập';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Biểu mẫu dưới đây sẽ cho phép bạn tùy chỉnh tất cả các tùy chọn diễn đàn chung. Để cấu hình Người dùng và Diễn đàn, hãy sử dụng các liên kết liên quan ở bên trái.';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Xóa nhóm.';
 $lang['GROUP_DELETE_CHECK'] = 'Xóa nhóm này.';
 $lang['NO_GROUP_NAME'] = 'Bạn phải chỉ định một tên cho nhóm này.';
 $lang['NO_GROUP_MODERATOR'] = 'Bạn phải chỉ định một điều phối viên cho nhóm này.';
-$lang['NO_GROUP_MODE'] = 'Bạn phải chỉ định một chế độ cho nhóm này, mở hay đóng.';
 $lang['NO_GROUP_ACTION'] = 'Không có hành động nào được chỉ định.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Xóa các điều hành cũ của nhóm?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Nếu bạn đang thay đổi điều phối viên nhóm, hãy đánh dấu vào hộp này để xóa điều phối viên cũ ra khỏi nhóm. Nếu không, hãy để trống, và người dùng sẽ trở thành một thành viên bình thường của nhóm.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Tìm kiếm nhóm';
 $lang['FORUM_PRUNE'] = 'Diễn Đàn Tỉa';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Điều này sẽ xóa bất kỳ chủ đề nào chưa được đăng trong số ngày bạn đã chọn. Nếu bạn không nhập số, tất cả các chủ đề sẽ bị xóa. Nó sẽ không xóa các chủ đề <b>gắn chặt</b> và <b>thông báo</b>. Bạn sẽ cần phải xóa những chủ đề đó bằng tay.';
 $lang['DO_PRUNE'] = 'Làm Tỉa';
-$lang['ALL_FORUMS'] = 'Tất Cả Các Diễn Đàn';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Tỉa các chủ đề không có câu trả lời trong số ngày này';
 $lang['TOPICS_PRUNED'] = 'Chủ đề đã được tỉa';
 $lang['PRUNE_SUCCESS'] = 'Đàn đã được tỉa thành công';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Nhấn vào %sHere%s để trở về Quản 
 $lang['DISALLOW_CONTROL'] = 'Tên Không Cho Phép Kiểm Soát';
 $lang['DISALLOW_EXPLAIN'] = 'Ở đây bạn có thể quản lý những tên người dùng mà sẽ không được phép sử dụng. Những tên người dùng không được phép có thể chứa một ký tự đại diện. Xin lưu ý rằng bạn sẽ không được phép chỉ định bất kỳ tên người dùng nào đã được đăng ký. Bạn phải xóa tên đó trước khi không cho phép nó.';
 
-$lang['DELETE_DISALLOW'] = 'Xóa';
 $lang['DELETE_DISALLOW_TITLE'] = 'Bỏ một Tên không được Phép';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Bạn có thể xóa một tên không được phép bằng cách chọn tên từ danh sách này và nhấn gửi.';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s có thể tải các tệp 
 $lang['SF_SHOW_ON_INDEX'] = 'Hiển thị trên trang chính.';
 $lang['SF_PARENT_FORUM'] = 'Diễn đàn phụ.';
 $lang['SF_NO_PARENT'] = 'Không có diễn đàn phụ.';
-$lang['TEMPLATE'] = 'Mẫu';
 $lang['SYNC'] = 'Sync';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'Chú Ý! Tiền Thưởng Giống nên được s
 $lang['SEED_BONUS_EXCHANGE'] = 'Cấu hình đổi thưởng Sid';
 $lang['SEED_BONUS_ROPORTION'] = 'Tỷ lệ cộng cho một cuộc trao đổi tiền thưởng trên GB';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Bảng Điều Khiển';
-$lang['EXTENSION_CONTROL'] = 'Mở Rộng Kiểm Soát';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Mở Rộng Các Nhóm Kiểm Soát';
-$lang['SPECIAL_CATEGORIES'] = 'Loại Đặc Biệt';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Đính Kèm Cài Đặt';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Ở đây bạn có thể cấu hình cài đặt chính cho Mod Đính Kèm. Nếu bạn nhấn nút Kiểm tra cài đặt, Mod Đính Kèm sẽ thực hiện một số kiểm tra hệ thống để đảm bảo rằng Mod sẽ hoạt động đúng cách. Nếu bạn gặp vấn đề khi tải tệp, xin vui lòng chạy bài kiểm tra này, để có thông tin lỗi chi tiết.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Đính Kèm Kích Cỡ Cài Đặt';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Đính Kèm Số Cài Đặt';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Đính Kèm Lựa Chọn';
-
-$lang['UPLOAD_DIRECTORY'] = 'Thư Mục Tải Lên';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Nhập đường dẫn tương đối từ cài đặt TorrentPier của bạn đến thư mục tải lên đính kèm. Ví dụ, nhập "files" nếu cài đặt TorrentPier của bạn nằm tại https://www.yourdomain.com/torrentpier và thư mục tải lên đính kèm nằm tại https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Biểu Tượng Gửi Đính Kèm';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Hình ảnh này được hiển thị bên cạnh các liên kết đính kèm trong các bài đăng riêng lẻ. Để trường này trống nếu bạn không muốn hiển thị biểu tượng.';
-$lang['ATTACH_TOPIC_ICON'] = 'Biểu Tượng Chủ Đề Đính Kèm';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Hình ảnh này được hiển thị trước các chủ đề có đính kèm. Để trường này trống nếu bạn không muốn hiển thị biểu tượng.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Trật tự hiển thị đính kèm';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Ở đây anh có thể chọn hiển thị các đính kèm trong bài/PMs theo thứ tự giảm dần theo thời gian tập tin (Đính kèm mới nhất trước) hoặc theo thứ tự tăng dần theo thời gian tập tin (Đính kèm cũ nhất trước).';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Kích thước tệp';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Kích thước tối đa cho đính kèm. Một giá trị là 0 có nghĩa là "không giới hạn". Thiết lập này bị hạn chế bởi cấu hình máy chủ của bạn.';
-$lang['MAX_FILESIZE_PM'] = 'Kích thước tối đa trong hộp tin nhắn riêng.';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Tối đa không gian đĩa mà đính kèm có thể sử dụng trong hộp tin nhắn riêng của mỗi người dùng.';
-
-$lang['MAX_ATTACHMENTS'] = 'Tối đa số đính kèm';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Tối đa số đính kèm được phép trong một bài.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Số đính kèm tối đa trong một tin nhắn riêng.';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Xác định số lượng đính kèm tối đa mà người dùng được phép bao gồm trong một tin nhắn riêng.';
-
-$lang['DISABLE_MOD'] = 'Vô Hiệu Hóa Đính Kèm Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Tùy chọn này chủ yếu dùng để thử nghiệm các mẫu hoặc chủ đề mới, nó vô hiệu hóa tất cả các chức năng đính kèm ngoại trừ Bảng quản trị.';
-$lang['PM_ATTACHMENTS'] = 'Cho phép đính Kèm trong tin Nhắn';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Cho phép/Không cho phép gán các tệp vào tin nhắn.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Quản Lý Mở Rộng';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Ở đây bạn có thể quản lý các tập tin mở rộng. Nếu bạn muốn cho phép/không cho phép một mở rộng được tải lên, vui lòng sử dụng Quản lý Nhóm Mở Rộng.';
-$lang['EXPLANATION'] = 'Lời giải thích';
-$lang['EXTENSION_GROUP'] = 'Mở rộng,';
-$lang['EXTENSION_EXIST'] = 'Mở Rộng %s đã tồn tại'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Quản Lý Mở Rộng Nhóm';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Ở đây bạn có thể thêm, xóa và sửa đổi Nhóm Mở Rộng, bạn có thể vô hiệu hóa Nhóm Mở Rộng, chỉ định một Danh mục đặc biệt cho chúng, thay đổi cơ chế tải xuống và bạn có thể xác định một Biểu tượng Tải lên sẽ được hiển thị trước một đính kèm thuộc về Nhóm.';
-$lang['SPECIAL_CATEGORY'] = 'Thể Loại Đặc Biệt';
-$lang['CATEGORY_IMAGES'] = 'Hình ảnh';
 $lang['ALLOWED'] = 'Cho phép';
-$lang['ALLOWED_FORUMS'] = 'Cho Phép Forums';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Nhóm Quyền';
-$lang['DOWNLOAD_MODE'] = 'Tải Về Chế Độ';
-$lang['UPLOAD_ICON'] = 'Biểu Tượng Tải Lên';
-$lang['MAX_GROUPS_FILESIZE'] = 'Kích thước tối đa.';
-$lang['EXTENSION_GROUP_EXIST'] = 'Nhóm mở rộng %s đã tồn tại.'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Quản Lý Loại Đặc Biệt';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ở đây bạn có thể cấu hình các Danh mục Đặc biệt. Bạn có thể thiết lập Tham số và Điều kiện Đặc biệt cho các Danh mục Đặc biệt được chỉ định cho Nhóm Mở rộng.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Cài đặt cho Nhóm Đặc Biệt: Hình Ảnh';
-$lang['DISPLAY_INLINED'] = 'Hiển thị ảnh theo hàng.';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Chọn hiển thị hình ảnh trực tiếp trong bài (có) hay để hiển thị hình ảnh như một liên kết?';
-$lang['MAX_IMAGE_SIZE'] = 'Kích thước tối đa hình ảnh.';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Ở đây bạn có thể xác định kích thước hình ảnh tối đa cho phép để đính kèm (Chiều rộng x Chiều cao trong pixel). Nếu nó được thiết lập là 0x0, tính năng này sẽ bị vô hiệu hóa. Với một số hình ảnh, tính năng này sẽ không hoạt động do các hạn chế trong PHP.';
-$lang['IMAGE_LINK_SIZE'] = 'Kích thước liên kết hình ảnh.';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Nếu kích thước đã xác định của hình ảnh này được đạt đến, hình ảnh sẽ được hiển thị như một liên kết, thay vì hiển thị nó trong dòng, nếu chế độ xem nội tuyến được bật (Chiều rộng x Chiều cao trong pixel). Nếu nó được thiết lập là 0x0, tính năng này sẽ bị vô hiệu hóa. Với một số hình ảnh, tính năng này sẽ không hoạt động do các hạn chế trong PHP.';
-$lang['ASSIGNED_GROUP'] = 'Nhóm giao.';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Tạo hình thu nhỏ.';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Tối Thiểu Thu Nhỏ Kích Cỡ';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Nếu một hình ảnh nhỏ hơn kích thước tệp đã định, sẽ không có thu nhỏ nào được tạo ra vì nó đủ nhỏ.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Mở Rộng Quyền Nhóm -> \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Ở đây bạn có thể giới hạn Nhóm Mở Rộng được chọn cho các Diễn Đàn mà bạn chọn (được xác định trong Hộp Diễn Đàn Được Cho Phép). Mặc định là cho phép Nhóm Mở Rộng vào tất cả Diễn Đàn mà Người sử dụng có thể Đính kèm Tệp vào (cách thông thường mà Mod Đính Kèm đã làm từ trước đến nay).';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'LƯU Ý:<br />Trong những Diễn Đàn dưới đây, Người sử dụng của bạn thông thường được phép đính kèm tệp, nhưng do không có Nhóm Mở Rộng nào được phép đính kèm ở đó, Người sử dụng của bạn không thể đính kèm bất cứ thứ gì.';
-$lang['ADD_FORUMS'] = 'Thêm Diễn Đàn.';
-$lang['ADD_SELECTED'] = 'Thêm Được Lựa Chọn.';
-$lang['PERM_ALL_FORUMS'] = 'TẤT CẢ CÁC DIỄN ĐÀN.';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Tập Tin Đính Kèm Bảng Điều Khiển';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Ở đây bạn có thể xem và quản lý tất cả các đính kèm dựa trên Người dùng, Đính kèm, Lượt xem, v.v.';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Sử dụng * như một ký tự đại diện cho các kết quả phù hợp phần.';
-$lang['SIZE_SMALLER_THAN'] = 'Kích thước đính kèm nhỏ hơn (bytes).';
-$lang['SIZE_GREATER_THAN'] = 'Kích thước đính kèm lớn hơn (bytes).';
-$lang['COUNT_SMALLER_THAN'] = 'Số lượng tải xuống nhỏ hơn.';
-$lang['COUNT_GREATER_THAN'] = 'Số lượng tải xuống lớn hơn.';
-$lang['MORE_DAYS_OLD'] = 'Nhiều hơn số ngày này';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Không có đính kèm nào đáp ứng tiêu chí tìm kiếm của bạn';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Số lượng đính kèm';
-$lang['TOTAL_FILESIZE'] = 'Tổng Kích Cỡ';
-$lang['NUMBER_POSTS_ATTACH'] = 'Số Bài với đính Kèm';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Số lượng chủ đề có đính kèm';
-$lang['NUMBER_USERS_ATTACH'] = 'Người dùng độc lập đã đăng đính kèm';
-$lang['NUMBER_PMS_ATTACH'] = 'Tổng số đính kèm trong tin nhắn riêng tư';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Thống kê đính kèm cho %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Tải xuống';
-$lang['POST_TIME'] = 'Thời gian đăng bài';
-$lang['POSTED_IN_TOPIC'] = 'Đã đăng trong chủ đề';
-$lang['SUBMIT_CHANGES'] = 'Gửi thay đổi';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Đính kèm';
-$lang['SORT_SIZE'] = 'Kích thước';
-$lang['SORT_FILENAME'] = 'Tên';
-$lang['SORT_COMMENT'] = 'Bình luận';
-$lang['SORT_EXTENSION'] = 'Mở rộng';
-$lang['SORT_DOWNLOADS'] = 'Tải về';
-$lang['SORT_POSTTIME'] = 'Thời gian đăng';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Số liệu thống kê';
-$lang['VIEW_SEARCH'] = 'Tìm kiếm';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Cập nhật cấu hình đính kèm thành công';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Nhấn %sHere%s để quay lại cấu hình đính kèm';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Kiểm tra cài đặt thành công, cấu hình dường như ổn.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Đính kèm';
-$lang['EXTENSIONS'] = 'Mở rộng';
-$lang['EXTENSION'] = 'Mở rộng';
-
 $lang['RETURN_CONFIG'] = '%sTrở lại cấu hình%s';
 $lang['CONFIG_UPD'] = 'Cấu Hình Cập Nhật Thành Công';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Thay đổi trạng thái chủ đề t
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Mẫu vô hiệu hóa';
 $lang['FOR_NEW_TEMPLATE'] = 'cho mô hình mới!';
-$lang['CHANGED'] = 'Thay đổi';
-$lang['REMOVED'] = 'Bỏ';
 $lang['QUESTION'] = 'Xác nhận bạn chắc chắn muốn thực hiện hành động này';
 
 $lang['CRON_LIST'] = 'Danh sách Định kỳ';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Giới hạn thời gian';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Thời gian (giây) xử lý bài có thể diễn ra trước khi chuyển sang chu kỳ tiếp theo là bao nhiêu?';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Máy chủ web của bạn đã cấu hình thời gian chờ là %s giây, vì vậy hãy giữ ở dưới giá trị này</i>';
 
-$lang['DISABLE_BOARD'] = 'Vô hiệu hóa hội đồng quản trị';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Bạn dừng lại cuối cùng xử lý tại post_id %s (%s xử lý bài) trên %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Bạn cuối cùng bị hủy bỏ việc xử lý tại post_id %s (%s xử lý bài) trên %s';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Tất cả các bài viết đã được xử l
 $lang['ALL_TABLES_OPTIMIZED'] = 'Tất cả các bảng tìm kiếm đã được tối ưu hóa thành công.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Đang xử lý bài viết.';
-$lang['PERCENT'] = 'Phần trăm.';
 $lang['CURRENT_SESSION'] = 'Phiên hiện tại.';
 $lang['TOTAL'] = 'Tổng.';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'từ <b>%s</b> đến <b>%s</b> (trong tổng số <
 $lang['PERCENT_COMPLETED'] = '%s %% đã hoàn thành.';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Chi tiết phiên hiện tại.';
-$lang['PROCESSING_TIME'] = 'Thời gian xử lý.';
 $lang['TIME_LAST_POSTS'] = 'Cuối cùng %s bài viết.';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Từ đầu.';
 $lang['TIME_AVERAGE'] = 'Trung bình theo chu kỳ.';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Tất cả các hành động';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Nhật ký hành động: Tùy chọn tìm kiếm';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Hành động';
-$lang['ACTS_LOG_USER'] = 'Người Dùng';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Bản ghi từ ';
 $lang['ACTS_LOG_FIRST'] = 'bắt đầu với';
 $lang['ACTS_LOG_DAYS_BACK'] = 'ngày quay lại';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Bản mẫu';
 $lang['RELEASES'] = 'Phát hành';
 
 $lang['BACK'] = 'Quay lại';
-$lang['ERROR_FORM'] = 'Các lĩnh vực không hợp lệ';
 $lang['NEW_RELEASE'] = 'Bản phát hành mới';
 $lang['NEXT'] = 'Tiếp tục';
-$lang['OTHER'] = 'Khác';
 $lang['ALL'] = 'Tất cả';
 
 $lang['TPL_EMPTY_FIELD'] = 'Bạn phải điền vào trường <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Lựa chọn';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Mỗi hàng tương ứng với một câu trả lời (tối đa';
 
 $lang['OLD_BROWSER'] = 'Bạn đang sử dụng một trình duyệt lỗi thời. Website sẽ không hiện thị chính xác';
-$lang['GO_BACK'] = 'Quay trở lại';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Lỗi tải tệp bị vô hiệu hóa';
 $lang['UPLOAD_ERROR_COMMON'] = 'Lỗi tải tập tin';

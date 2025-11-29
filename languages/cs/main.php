@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Zobrazit heslo';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
-$lang['TIME'] = 'Čas';
 $lang['MESSAGE'] = 'Zpráva';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Oprávnění';
 $lang['TYPE'] = 'Typ';
-$lang['SEEDER'] = 'Seedér';
-$lang['LEECHER'] = 'Stahovač';
-$lang['RELEASER'] = 'Vydavatel';
 
 $lang['1_DAY'] = '1 Den';
 $lang['7_DAYS'] = '7 Dní';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Odpověď na téma';
 $lang['CLICK_RETURN_TOPIC'] = 'Klikněte %s Zde %s k návratu k tématu'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Klikněte %s Zde %s vrátit do fóra';
 $lang['CLICK_RETURN_MODCP'] = 'Klikněte %s Zde %s k návratu do ovládacího panelu moderátora';
-$lang['CLICK_RETURN_GROUP'] = 'Klikněte %s Zde %s pro návrat do skupiny informace';
 
 $lang['ADMIN_PANEL'] = 'Jít do Ovládacího panelu administrátorů';
 $lang['ALL_CACHE_CLEARED'] = 'Cache byla vymazána';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Vyberte fórum';
 $lang['DISPLAYING_OPTIONS'] = 'Možnosti zobrazení';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Registrovaní uživatelé:';
 $lang['BROWSING_FORUM'] = 'Uživatelé procházející toto fórum:';
 $lang['ONLINE_USERS'] = 'Celkem <b>%1$d</b> uživatelů online: %2$d registrované a %3$d hosté';
 $lang['RECORD_ONLINE_USERS'] = 'Většina uživatelů kdy online bylo <b>%s</b> na %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Zobrazit nejnovější příspěvky';
 $lang['SEARCH_SELF'] = 'Mé příspěvky';
 $lang['SEARCH_SELF_BY_LAST'] = 'čas posledního příspěvku';
 $lang['SEARCH_SELF_BY_MY'] = 'čas mého příspěvku';
-$lang['SEARCH_UNANSWERED'] = 'Zobrazit nezodpovězené příspěvky';
 $lang['SEARCH_LATEST'] = 'Nejnovější témata';
 $lang['LATEST_RELEASES'] = 'Nejnovější vydání';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Celková rychlost: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Žádné nové příspěvky';
 $lang['NEW_POSTS'] = 'Nové příspěvky';
-$lang['NEW_POST'] = 'Nový příspěvek';
 $lang['FORUM_LOCKED_MAIN'] = 'Fórum je zamknuté';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Poslední novinky';
 $lang['NETWORK_NEWS'] = 'Síťové novinky';
 $lang['SUBFORUMS'] = 'Subfóra';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Zobrazit Fórum';
-
 $lang['FORUM_NOT_EXIST'] = 'Fórum, které jste zvolili, neexistuje.';
 $lang['ERROR_PORNO_FORUM'] = 'Tento typ fóra (18+) byl skryt ve vašem profilu.';
 
 $lang['DISPLAY_TOPICS'] = 'Zobrazení témat';
-$lang['ALL_TOPICS'] = 'Všechna Témata';
 $lang['MODERATE_FORUM'] = 'Moderovat toto fórum';
 $lang['TITLE_SEARCH_HINT'] = 'vyhledávejte název...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Můžete moderovat toto fórum.';
 $lang['NO_TOPICS_POST_ONE'] = 'V tomto fóru zatím nejsou žádné příspěvky<br />Klikněte na ikonu <b>Nové téma</b> a váš příspěvek bude první.';
 $lang['NO_RELEASES_POST_ONE'] = 'V tomto fóru zatím nejsou žádné vydání<br />Klikněte na ikonu <b>Nové vydání</b> a vaše vydání bude první.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Zobrazit téma';
-
 $lang['GUEST'] = 'Host';
-$lang['POST_SUBJECT'] = 'Předmět příspěvku';
 $lang['SUBMIT_VOTE'] = 'Odeslat hlas';
 
 $lang['NO_NEWER_TOPICS'] = 'Neexistují žádná novější témata v tomto fóru';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Nejnovější První';
 $lang['OLDEST_FIRST'] = 'Nejstarší První';
 
 $lang['READ_PROFILE'] = 'Zobrazení profilu uživatele';
-$lang['DELETE_POST'] = 'Smazat tento příspěvek';
 
 $lang['WROTE'] = 'napsal'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Citát'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Měli byste zadat název zprávy.';
 $lang['INVALID_TOPIC_ID'] = 'Téma Chybí!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Téma neexistuje v databázi!';
 
-$lang['NOT_POST'] = 'Chybí zpráva.';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Nemůžete upravovat propuštění se stavem.';
 
 $lang['OPTIONS'] = 'Možnosti';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Musíte zadat možnost při hlasování';
 $lang['LOCKED_WARN'] = 'Odeslali jste příspěvek do zamčeného tématu!';
 
 $lang['ADD_POLL'] = 'Přidat anketu';
-$lang['POLL_OPTION'] = 'Možnost ankety.';
 $lang['UPDATE'] = 'Aktualizace';
 $lang['DAYS'] = 'Dny';
 $lang['DELETE_POLL'] = 'Odstranit anketu.';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Povolit robotům indexaci tohoto tématu';
 $lang['STORED'] = 'Vaše zpráva byla úspěšně odeslána.';
 $lang['EDITED'] = 'Zpráva byla změněna';
 $lang['DELETED'] = 'Vaše zpráva byla úspěšně odstraněna.';
-$lang['POLL_DELETE'] = 'Vaše anketa byla úspěšně odstraněna.';
 $lang['VOTE_CAST'] = 'Váš hlas byl obsazen.';
 
 $lang['EMOTICONS'] = 'Emotikony';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Doručená pošta';
 $lang['OUTBOX'] = 'K odeslání';
 $lang['SAVEBOX'] = 'Savebox';
 $lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = 'Vlajka';
 $lang['SUBJECT'] = 'Předmět';
 $lang['FROM'] = 'Z';
 $lang['TO'] = 'K';
 $lang['DATE'] = 'Datum';
-$lang['MARK'] = 'Mark';
 $lang['SENT'] = 'Poslal';
 $lang['SAVED'] = 'Zachránil';
 $lang['DELETE_MARKED'] = 'Smazat Označené';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Zobrazení zprávy'; // Followed by number of days/
 
 $lang['NO_MESSAGES_FOLDER'] = 'Neexistují žádné zprávy v této složce';
 
-$lang['PM_DISABLED'] = 'Soukromé zprávy byl zakázán na této desce.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Promiňte, ale administrátor má zabránit v odesílání soukromých zpráv.';
 $lang['NO_TO_USER'] = 'Musíte zadat uživatelské jméno, kterému chcete zprávu odeslat.';
 $lang['NO_SUCH_USER'] = 'Promiň, ale žádný takový uživatel existuje.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Upravit soukromou zprávu.';
 
 $lang['FIND_USERNAME'] = 'Najít uživatelské jméno.';
 $lang['SELECT_USERNAME'] = 'Vyberte uživatelské jméno.';
-$lang['FIND'] = 'Najít.';
 $lang['NO_MATCH'] = 'Nenalezena žádná shoda.';
 
 $lang['NO_PM_ID'] = 'Prosím, zadejte ID příspěvku.';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Váš účet byl vytvořen. Nicméně, toto fórum 
 $lang['ACCOUNT_ACTIVE'] = 'Váš účet byl aktivován. Děkujeme vám za registraci';
 $lang['ALREADY_ACTIVATED'] = 'Již jste aktivovali svůj účet.';
 
-$lang['REGISTRATION'] = 'Registrační Podmínky';
 
 $lang['WRONG_ACTIVATION'] = 'Aktivační klíč, který jste zadali neodpovídá žádnému v databázi.';
-$lang['SEND_PASSWORD'] = 'Pošlete mi nové heslo';
 $lang['PASSWORD_UPDATED'] = 'Nové heslo bylo vytvořeno, prosím, zkontrolujte svůj e-mail pro podrobnosti o tom, jak ji aktivovat.';
 $lang['NO_EMAIL_MATCH'] = 'E-mailová adresa, kterou jste zadali, neodpovídá uvedené pro dané uživatelské jméno.';
 $lang['PASSWORD_ACTIVATED'] = 'Váš účet byl znovu aktivován. Pro přihlášení, prosím, použijte heslo, které bylo dodáno v e-mailu, který jste obdrželi.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Inzerovat na tomto webu';
 $lang['NOT_FOUND'] = 'Soubor nebyl nalezen';
 
 // Memberslist
-$lang['SORT'] = 'Třída.';
 $lang['SORT_TOP_TEN'] = 'Deset nejlepších posterů.';
 $lang['SORT_JOINED'] = 'Datum připojení.';
 $lang['SORT_USERNAME'] = 'Uživatelské jméno';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Tato skupina nemá žádné členy';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Tato skupina je skrytá; nelze zobrazit její členství.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Tato skupina nemá žádné čekající členy';
 $lang['GROUP_JOINED'] = 'Úspěšně jste se přihlásili k této skupině.<br />Budete informováni, když váš příspěvek bude schválen moderátorem skupiny.';
-$lang['GROUP_REQUEST'] = 'Žádost o připojení k vaší skupině byla odeslána.';
-$lang['GROUP_APPROVED'] = 'Vaše žádost byla schválena.';
-$lang['GROUP_ADDED'] = 'Byli jste přidáni do této uživatelské skupiny.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Jste již členem této skupiny';
 $lang['USER_IS_MEMBER_GROUP'] = '%s je již členem této skupiny';
 $lang['USER_IS_MOD_GROUP'] = '%s je moderátor této skupiny';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Vaše členství v této skupině je v procesu.';
 $lang['ARE_GROUP_MODERATOR'] = 'Jste moderátor skupiny.';
 $lang['NONE'] = 'Nic';
 
-$lang['SUBSCRIBE'] = 'Přihlásit.';
 $lang['UNSUBSCRIBE_GROUP'] = 'Odhlásit.';
 $lang['MEMBERS_IN_GROUP'] = 'Členové ve skupině.';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Tato skupina není release group.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Vyhledávací nápověda.';
-$lang['SEARCH_QUERY'] = 'Vyhledávací dotaz.';
 $lang['SEARCH_OPTIONS'] = 'Možnosti hledání.';
 
 $lang['SEARCH_WORDS'] = 'Hledat klíčová slova.';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Téma název.';
 $lang['DISPLAY_RESULTS_AS'] = 'Zobrazit výsledky jako.';
 $lang['ALL_AVAILABLE'] = 'Všechny k dispozici.';
 $lang['BRIEFLY'] = 'Krátce.';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Nemáte oprávnění vyhledávat fórum na tomto webu.';
 
 $lang['NO_SEARCH_MATCH'] = 'Žádná témata nebo příspěvky nesplňují kritéria vyhledávání.';
 $lang['FOUND_SEARCH_MATCH'] = 'Hledání našel %d zápas.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Hledání našel %d zápasy.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Zavřít okno.';
-$lang['CLOSE'] = 'blízko.';
 $lang['HIDE'] = 'skrýt.';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Omlouváme se, ale nemáte oprávnění k pro
 $lang['DESCRIPTION'] = 'Popis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Ke stažení'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Velikost souboru';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Rozšíření \'%s\' bylo deaktivováno administrátorem, proto tato příloha není zobrazená.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Kopírovat odkaz na stream do schránky';
 $lang['M3U_NOT_SUPPORTED'] = 'Tento soubor nelze přehrát v prohlížeči...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Zdá se, že ffprobe nebude schopen vrátit údaje o tomto codec...';
 $lang['M3U_NOTICE'] = 'Některé prohlížeče nepodporují přehrávání určitých video formátů. V takovém případě můžete stáhnout soubor .m3u a přehrát ho pomocí třetího strany.';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Přílohy';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Miniatura Přílohy.';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Přidat přílohu.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Přidat přílohu.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Pokud nechcete přidat přílohu k vašemu příspěvku, prosím, nechte pole prázdné.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Název souboru.';
-$lang['FILE_COMMENT'] = 'Komentář souboru.';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Připojené přílohy.';
-$lang['UPDATE_COMMENT'] = 'Aktualizace komentáře.';
 $lang['DELETE_ATTACHMENT'] = 'Odstranit přílohu.';
-$lang['DELETE_THUMBNAIL'] = 'Odstranit miniaturu.';
-$lang['UPLOAD_NEW_VERSION'] = 'Nahrát novou verzi.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s je neplatný název souboru.'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Příloha je příliš velká.<br />Nelze zjistit maximální velikost definovanou v PHP.<br />Modul příloh není schopen určit maximální velikost nahrávání definovanou v php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Příloha je příliš velká.<br />Maximální velikost nahrávání: %d MB.<br />Mějte prosím na paměti, že tato velikost je definována v php.ini, což znamená, že ji nastavuje PHP a modul příloh ji nemůže přepsat.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Rozšíření %s není povoleno.'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Není dovoleno publikovat soubory s příponou %s v tomto fóru.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Příloha je příliš velká.<br />Max Velikost: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Příloha nemůže být přidána, protože byl dosažen maximální počet %d příloh v tomto příspěvku.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Příloha/Obrázek musí být menší než %d pixelů široký a %d pixelů vysoký.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Chyba nahrávání: Nelze nahrát přílohu do %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Musíte zadat hodnoty do pole \'Přidat přílohu\'.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Nelze aktualizovat přílohu, nelze najít starý záznam přílohy.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nemáte vybranou přílohu ke stažení nebo prohlížení.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Vybraná Příloha už neexistuje';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Vybrané Přílohy byly odstraněny.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Není možné smazat Přílohy.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Funkce příloh je zakázána.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Adresář \'%s\' neexistuje nebo nemůže být nalezen.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Prosím, zkontrolujte, zda \'%s\' je adresář.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Adresář \'%s\' není zapisovatelný. Budete muset vytvořit cestu pro nahrávání a nastavit oprávnění na 777 (nebo změnit vlastníka na vlastníka httpd servery) pro nahrávání souborů.<br />Pokud máte pouze běžný FTP přístup, změňte \'atribut\' adresáře na rwxrwxrwx.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Bajtů';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Prohledat Přílohy';
-$lang['TEST_SETTINGS'] = 'Testování nastavení.';
-$lang['NOT_ASSIGNED'] = 'Nepřiřazeno';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrován';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'Distribuce má status:';
 $lang['TOR_STATUS_CHANGED'] = 'Stav změnil na:';
 $lang['TOR_BACK'] = ' zpět';
 $lang['PROCEED'] = 'Pokračovat';
-$lang['INVALID_ATTACH_ID'] = 'Chybějící identifikátor souboru!';
 $lang['CHANGE_TOR_TYPE'] = 'Zadejte torrent úspěšně změněno.';
 $lang['DEL_TORRENT'] = 'Jste si jisti, že chcete smazat torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Jste si jisti, že chcete smazat a přesunout téma?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Aktuální';
 $lang['SEARCH_DL_COMPLETE'] = 'Dokončeno';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Dokončené stahování';
 $lang['SEARCH_DL_CANCEL'] = 'Zrušen';
-$lang['CUR_DOWNLOADS'] = 'Aktuální Soubory ke stažení';
 $lang['CUR_UPLOADS'] = 'Aktuální Nahrávky';
 $lang['SEARCH_RELEASES'] = 'Aktuální Uvolnění';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent možnosti vyhledávání';
 $lang['OPEN_TOPIC'] = 'Otevřené téma';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Připojení torrenty povoleny pouze v prvním příspěvku.';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registrace torrentů povolena pouze z prvního příspěvku.';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Nemohl zaregistrovat torrent v tomto fóru';
 $lang['ALREADY_REG'] = 'Torrent již registrován';
 $lang['NOT_TORRENT'] = 'Tento soubor není torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Můžete se zaregistrovat pouze jeden torrent v jednom tématu';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrentový profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktivní torrenty';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'Only new topics.';
 
 $lang['TORHELP_TITLE'] = 'Prosím, pomozte se sdílením těchto torrentů!';
 $lang['STATISTICS'] = 'Statistiky';
-$lang['STATISTIC'] = 'Statistika';
-$lang['VALUE'] = 'Hodnota';
 $lang['STATUS'] = 'Stav';
-$lang['CHANGES'] = 'Změny';
 $lang['ACTION'] = 'Akce';
 $lang['REASON'] = 'Důvod';
 $lang['COMMENT'] = 'Komentář';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Kolaps adresář';
 $lang['EXPAND'] = 'Rozšířit';
 $lang['SWITCH'] = 'Přepnout';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Zvyšte/snižte velikost okna';
-$lang['EMPTY_ATTACH_ID'] = 'Chybějící identifikátor souboru!';
-$lang['TOR_NOT_FOUND'] = 'Soubor chybí na serveru!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'Obsah tohoto torrentového souboru nelze zobrazit na stránce (nebylo možné sestavit seznam souborů)';
 $lang['TORFILE_INVALID'] = 'Torrent soubor je poškozen';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Stránka" může obsahovat pouze http://sitename.';
-$lang['INVALID_DATE'] = 'Neplatné datum';
 $lang['PROFILE_USER'] = 'Prohlížení profilu.';
 $lang['GOOD_UPDATE'] = 'byl úspěšně změněn.';
 $lang['UCP_DOWNLOADS'] = 'Ke stažení.';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Poslat zprávu.';
 $lang['NEW_THREADS'] = 'Nové Témata.';
 $lang['PROFILE_NOT_FOUND'] = 'Profil nebyl nalezen.';
 
-$lang['USER_DELETE'] = 'Odstranit.';
 $lang['USER_DELETE_EXPLAIN'] = 'Odstranit tohoto uživatele.';
 $lang['USER_DELETE_ME'] = 'Omlouváme se, váš účet je zakázáno odstraňovat.';
 $lang['USER_DELETE_CSV'] = 'Omlouváme se, tento účet není povolen k odstranění.';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'na.';
 $lang['OFF'] = 'z.';
 $lang['MEMORY'] = 'Paměť: ';
 $lang['QUERIES'] = 'dotazy.';
-$lang['LIMIT'] = 'Limit:';
 $lang['SHOW_LOG'] = 'Zobrazit protokol';
 $lang['EXPLAINED_LOG'] = 'Vysvětlený protokol';
 $lang['CUT_LOG'] = 'Zkrátit dlouhé dotazy';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Přejít na příspěvek';
 $lang['PROFILE_EDIT_RETURN'] = 'Návrat k editaci';
 $lang['PROFILE_RETURN'] = 'Přejděte na profil';
 
-$lang['WARNING'] = 'Varování';
 $lang['INDEXER'] = 'Reindex vyhledávání';
 $lang['INDEXER_SUCCESS'] = 'Indexace byla úspěšně aktualizována';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Hodnosti';
 $lang['SMILIES'] = 'Smajlíci';
 $lang['BAN_MANAGEMENT'] = 'Řízení zákazu';
 $lang['WORD_CENSOR'] = 'Cenzurují slova';
-$lang['EXPORT'] = 'Export';
-$lang['CREATE_NEW'] = 'Vytvoření';
-$lang['ADD_NEW'] = 'Přidání';
 $lang['CRON'] = 'Plánovač úlohy (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Znovu vybudovat vyhledávací index';
 $lang['FORUM_CONFIG'] = 'Nastavení fóra';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Počet uživatelů';
 $lang['USERS_PER_DAY'] = 'Uživatelů za den';
 $lang['BOARD_STARTED'] = 'Rada byla spuštěna';
 $lang['AVATAR_DIR_SIZE'] = 'Velikost adresáře avataru';
-$lang['DATABASE_SIZE'] = 'Velikost databáze';
 $lang['GZIP_COMPRESSION'] = 'Gzip komprese';
 $lang['NOT_AVAILABLE'] = 'Není k dispozici';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Klikněte %sHere%s k návratu k oprávnění 
 $lang['BAN_CONTROL'] = 'Zákaz řízení';
 $lang['BAN_EXPLAIN'] = 'Zde můžete ovládat zákaz uživatelů.';
 $lang['BAN_USERNAME'] = 'Zakázat jednoho nebo více konkrétních uživatelů';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Můžete zakázat více uživatelů najednou pomocí vhodné kombinace myši a klávesnice pro váš počítač a prohlížeč.';
 $lang['UNBAN_USERNAME'] = 'Zrušit zákaz jednoho nebo více konkrétních uživatelů';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Můžete unban více uživatelů najednou pomocí vhodné kombinace myši a klávesnice pro váš počítač a prohlížeč.';
 $lang['NO_BANNED_USERS'] = 'Žádná zakázaná uživatelská jména';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Název webu.';
 $lang['SITE_DESC'] = 'Popis místa.';
 $lang['FORUMS_DISABLE'] = 'Zakázat rady.';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'To bude deska nedostupná pro uživatele. Administrátoři mají přístup do administračního panelu, zatímco je deska vypnuta.';
-$lang['ACC_NONE'] = 'Nic'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Uživatel';
-$lang['ACC_ADMIN'] = 'Správce';
+$lang['ACC_NONE'] = 'Nic';
 
 $lang['ABILITIES_SETTINGS'] = 'Nastavení uživatelských a základních nastavení fóra';
 $lang['MAX_POLL_OPTIONS'] = 'Max. počet možností pro hlasování';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Odstranit';
 $lang['CONFIG_UPDATED'] = 'Konfigurace fóra byla úspěšně aktualizována.';
 $lang['MOVE_UP'] = 'Posunout nahoru';
 $lang['MOVE_DOWN'] = 'Přesunout dolů';
-$lang['RESYNC'] = 'Znovu synchronizovat';
 $lang['NO_MODE'] = 'Žádný režim byl nastaven';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formulář níže vám umožní přizpůsobit všechny obecné možnosti fóra. Pro konfigurace uživatelů a fór použijte související odkazy na levé straně';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Smazat skupinu.';
 $lang['GROUP_DELETE_CHECK'] = 'Smazat tuto skupinu.';
 $lang['NO_GROUP_NAME'] = 'Musíte zadat název pro tuto skupinu.';
 $lang['NO_GROUP_MODERATOR'] = 'Musíte zadat moderátora pro tuto skupinu.';
-$lang['NO_GROUP_MODE'] = 'Musíte definovat režim pro tuto skupinu.';
 $lang['NO_GROUP_ACTION'] = 'Žádná akce nebyla zadána.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Chcete odstranit starého moderátora skupiny?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Pokud měníte moderátora skupiny, zaškrtněte toto políčko, abyste odstranili starého moderátora ze skupiny. Jinak ho nezaškrtávejte a uživatel se stane běžným členem skupiny.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Podívejte se na skupinu.';
 $lang['FORUM_PRUNE'] = 'Fórum prořezávání.';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Toto odstraní jakékoli téma, které nebylo publikováno v počtu dní, které vyberete. Pokud nezadáte číslo, budou všechna témata smazána. Nebudou odstraněna <b>sticky</b> témata a <b>oznámení</b>. Tyto témata budete muset odstranit ručně.';
 $lang['DO_PRUNE'] = 'Vyřadit';
-$lang['ALL_FORUMS'] = 'Všechna Fóra';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Prořezávat témata bez odpovědí po tomto počtu dnů.';
 $lang['TOPICS_PRUNED'] = 'Témata prořezaná.';
 $lang['PRUNE_SUCCESS'] = 'Fórum bylo úspěšně prořezáno.';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Klikněte %s zde %s pro návrat do správy ho
 $lang['DISALLOW_CONTROL'] = 'Omezení uživatelského jména.';
 $lang['DISALLOW_EXPLAIN'] = 'Zde můžete ovládat uživatelská jména, která nebudou povolena. Zakázaná uživatelská jména mohou obsahovat zástupce *. Vezměte prosím na vědomí, že vám nebude dovoleno uvést jakékoli uživatelské jméno, které již bylo registrováno. Nejprve musíte toto jméno odstranit, a poté ho zakázat.';
 
-$lang['DELETE_DISALLOW'] = 'Odstranit';
 $lang['DELETE_DISALLOW_TITLE'] = 'Odstranit zakázané uživatelské jméno.';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Můžete odstranit zakázané uživatelské jméno výběrem uživatelského jména z tohoto seznamu a kliknutím na odeslat.';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s může stáhnout přílohy.
 $lang['SF_SHOW_ON_INDEX'] = 'Zobrazit na hlavní stránce.';
 $lang['SF_PARENT_FORUM'] = 'Mateřské fórum.';
 $lang['SF_NO_PARENT'] = 'Žádné mateřské fórum.';
-$lang['TEMPLATE'] = 'Šablona.';
 $lang['SYNC'] = 'Synchronizace.';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'POZOR! Bonusy za seed by měly být ve vzestupné
 $lang['SEED_BONUS_EXCHANGE'] = 'Konfigurace výměny bonusů za seed Sid.';
 $lang['SEED_BONUS_ROPORTION'] = 'Podíl doplňku pro výměnu bonusů na GB.';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Ovládací Panel';
-$lang['EXTENSION_CONTROL'] = 'Řízení rozšíření.';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Kontrola skupin rozšíření.';
-$lang['SPECIAL_CATEGORIES'] = 'Speciální kategorie.';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Nastavení přílohy.';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Zde si můžete nastavit hlavní nastavení pro Modifikaci příloh. Pokud stisknete tlačítko Test nastavení, Modifikace příloh provede několik systémových testů, aby se ujistil, že modifikace bude fungovat správně. Pokud máte problémy s nahráváním souborů, spusťte tento test, abyste získali podrobnou chybovou zprávu.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Nastavení velikosti souboru příloh';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Nastavení příloh číslo.';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Možnosti Připevnění';
-
-$lang['UPLOAD_DIRECTORY'] = 'Nahrát Adresář';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Zadejte relativní cestu z vašeho TorrentPier instalace do Přílohy nahrát adresář. Například, zadejte "soubory", pokud vaše TorrentPier Instalace se nachází na https://www.yourdomain.com/torrentpier a Přílohu Nahrajte Adresář se nachází na https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Ikona pro přílohy. ';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Tento obrázek se zobrazuje vedle odkazů na přílohy ve jednotlivých příspěvcích. Nechte toto pole prázdné, pokud nechcete zobrazit ikonu. Toto nastavení bude přepsáno nastaveními v řízení skupin rozšíření.';
-$lang['ATTACH_TOPIC_ICON'] = 'Ikona tématu přílohy.';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Tento obrázek se zobrazuje před tématy s přílohami. Nechte toto pole prázdné, pokud nechcete, aby byla ikonka zobrazena.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Řád zobrazení příloh.';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Zde si můžete vybrat, zda chcete zobrazit přílohy v příspěvcích/PMs ve sestupném pořadí (nejnovější příloha jako první) nebo ve vzestupném pořadí (nejstarší příloha jako první).';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Velikost souboru';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maximální velikost souboru pro přílohy. Hodnota 0 znamená "neomezené". Toto nastavení je omezeno nastaveními vašeho serveru. Například, pokud vaše php nastavení povoluje maximálně 2 MB pro nahrávání, toto nemůže být přepsáno.';
-$lang['MAX_FILESIZE_PM'] = 'Maximální velikost souboru v soukromé zprávě.';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximální diskový prostor, který mohou přílohy využít v každé soukromé zprávě uživatele.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maximální Počet Příloh';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maximální počet příloh povolených v jednom příspěvku.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maximální počet příloh v jednom soukromé zprávě.';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Definujte maximální počet příloh, které může uživatel zahrnout do soukromé zprávy.';
-
-$lang['DISABLE_MOD'] = 'Zakázat Attachment Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Tato možnost je převážně určena pro testování nových šablon nebo témat, zakáže všechny funkce příloh kromě administrátorského panelu.';
-$lang['PM_ATTACHMENTS'] = 'Povolit Přílohy v Soukromých Zprávách';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Povolit/Zakázat připojování souborů do Soukromé Zprávy.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Správa Rozšíření';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Zde můžete spravovat své souborové rozšíření.';
-$lang['EXPLANATION'] = 'Vysvětlení';
-$lang['EXTENSION_GROUP'] = 'Rozšíření Skupiny';
-$lang['EXTENSION_EXIST'] = 'Rozšíření %s již existují'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Spravovat Rozšíření Skupin';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Zde můžete přidávat, mazat a upravovat skupiny rozšíření, můžete zakázat rozšíření skupin, přiřadit jim speciální kategorie, změnit mechanismy stahování a můžete definovat ikonu pro nahrávání, která se zobrazí v přední části přílohy, která patří do skupiny.';
-$lang['SPECIAL_CATEGORY'] = 'Speciální Kategorie';
-$lang['CATEGORY_IMAGES'] = 'Obrázky';
 $lang['ALLOWED'] = 'Povoleno';
-$lang['ALLOWED_FORUMS'] = 'Povoleno Fóra';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Oprávnění Skupiny';
-$lang['DOWNLOAD_MODE'] = 'Režim Stahování';
-$lang['UPLOAD_ICON'] = 'Nahrát Ikonu';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maximální Velikost Souboru';
-$lang['EXTENSION_GROUP_EXIST'] = 'Rozšíření Skupiny %s již existují'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Správa Zvláštní Kategorie';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Zde si můžete nastavit Zvláštní Kategorie. Můžete nastavit Speciální Parametry a Podmínky pro Speciální Kategorie přidělené k Rozšíření Skupiny.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Nastavení pro Speciální Kategorie: Obrázky';
-$lang['DISPLAY_INLINED'] = 'Zobrazit obrázky inline';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Vyberte, zda chcete obrázky zobrazit přímo v příspěvku (ano) nebo jako odkaz?';
-$lang['MAX_IMAGE_SIZE'] = 'Maximální Rozměry Obrázku';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Zde můžete definovat maximální povolené rozměry obrázku, které mají být připojeny (šířka x výška v pixelech). Pokud je nastavena na hodnotu 0x0, je tato funkce deaktivována.';
-$lang['IMAGE_LINK_SIZE'] = 'Rozměry odkazu na obrázek.';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Pokud je tento definovaný rozměr obrázku dosažen, obrázek se zobrazí jako odkaz namísto zobrazení inline, pokud je povoleno zobrazení inline.';
-$lang['ASSIGNED_GROUP'] = 'Přiřazené Skupiny';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Vytvořit Miniaturu';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimální velikost náhledu souboru';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Pokud je obrázek menší než definovaná velikost souboru, nebude vytvořena žádná miniatura, protože je dostatečně malý.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Oprávnění skupiny rozšíření → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Zde můžete omezit vybranou Skupinu Rozšíření na Fóra podle vašeho výběru (definované v Poli Povolené Fóra). Výchozí nastavení je umožnit Skupinám Rozšíření přístup do všech Fór, do kterých může Uživatel připojit Soubory (což bylo normální způsob, jakým Příloha Mod fungoval od začátku). Stačí přidat ta Fóra, do kterých chcete, aby Skupina Rozšíření (rozšíření v této Skupině) měla přístup, výchozí VŠECHNA FÓRA zmizí při přidání Fóra do Seznamu. Můžete znovu přidat VŠECHNA FÓRA kdykoliv. Pokud přidáte Fórum do vaší Desky a Oprávnění je nastavena na VŠECHNA FÓRA, nic se nezmění. Ale pokud jste změnili a omezili přístup do určitých Fór, musíte se sem vrátit a přidat vaše nově vytvořené Fórum. Je snadné to udělat automaticky, ale to vás nutí upravit několik Souborů, proto jsem zvolil způsob, jak to je nyní. Prosím, mějte na paměti, že všechna vaše Fóra budou zde uvedena.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'POZNÁMKA:<br />Ve vyjmenovaných Fórech jsou vaši Uživatelé obvykle oprávněni připojit soubory, ale protože žádné Rozšíření Skupiny není povoleno být zde připojeno, vaši Uživatelé nemohou nic připojit. Pokud se pokusí, obdrží Chybové zprávy. Možná budete chtít nastavit Oprávnění \'Připojit soubory\' na ADMIN v těchto Fórech.<br /><br />';
-$lang['ADD_FORUMS'] = 'Přidat Fóra';
-$lang['ADD_SELECTED'] = 'Přidat Vybrané';
-$lang['PERM_ALL_FORUMS'] = 'VŠECHNA FÓRA';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Ovládací Panel Příloh';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Zde můžete zobrazit a spravovat všechny přílohy založené na Uživatelích, Přílohách, Názorech atd...';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Použít zástupný znak * pro částečné shody';
-$lang['SIZE_SMALLER_THAN'] = 'Velikost přílohy menší než (bajtů)';
-$lang['SIZE_GREATER_THAN'] = 'Velikost přílohy je větší než (bajtů)';
-$lang['COUNT_SMALLER_THAN'] = 'Počet stažení je menší než';
-$lang['COUNT_GREATER_THAN'] = 'Počet stažení je větší než';
-$lang['MORE_DAYS_OLD'] = 'Starší než tolik dní';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Žádné přílohy nevyhovují vašim kritériím vyhledávání';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Počet Příloh';
-$lang['TOTAL_FILESIZE'] = 'Celková velikost souboru';
-$lang['NUMBER_POSTS_ATTACH'] = 'Počet Míst s Přílohami';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Počet Témat s Přílohami';
-$lang['NUMBER_USERS_ATTACH'] = 'Nezávislí uživatelé zaslali přílohy';
-$lang['NUMBER_PMS_ATTACH'] = 'Celkový Počet Příloh v Soukromých Zprávách';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Příloha Statistiky pro %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Ke stažení';
-$lang['POST_TIME'] = 'Doba příspěvku';
-$lang['POSTED_IN_TOPIC'] = 'Publikováno v Tématu';
-$lang['SUBMIT_CHANGES'] = 'Odeslat Změny';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Přílohy';
-$lang['SORT_SIZE'] = 'Velikost';
-$lang['SORT_FILENAME'] = 'Název souboru';
-$lang['SORT_COMMENT'] = 'Komentář';
-$lang['SORT_EXTENSION'] = 'Rozšíření';
-$lang['SORT_DOWNLOADS'] = 'Ke stažení';
-$lang['SORT_POSTTIME'] = 'Počásí';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistiky';
-$lang['VIEW_SEARCH'] = 'Hledat';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Konfigurace příloh byla úspěšně aktualizována.';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Klikněte %sTady%s pro návrat k konfiguraci příloh.';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Nastavení Testu byla dokončena, konfigurace se zdá být v pořádku.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Přílohy';
-$lang['EXTENSIONS'] = 'Rozšíření';
-$lang['EXTENSION'] = 'Rozšíření';
-
 $lang['RETURN_CONFIG'] = '%sNávrat k konfiguraci%s';
 $lang['CONFIG_UPD'] = 'Konfigurace byla úspěšně aktualizována.';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Změnit stav tématu na "Normální" p�
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Šablona zakázána.';
 $lang['FOR_NEW_TEMPLATE'] = 'pro nové vzory!';
-$lang['CHANGED'] = 'Změnil(a).';
-$lang['REMOVED'] = 'Odstraněny.';
 $lang['QUESTION'] = 'Potvrďte, jste si jisti, že chcete provést tuto akci';
 
 $lang['CRON_LIST'] = 'Cron seznam';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Lhůta';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Jak dlouho (v sekundách) může trvat post-processing, než se přesune na další cyklus';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Váš webserver má nastavený časový limit na %s sekund, takže zůstaňte pod tuto hodnotu</i>';
 
-$lang['DISABLE_BOARD'] = ' Zakázat fórum';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Jste naposledy zastavili zpracování na post_id %s (%s zpracované příspěvky) na %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Zpracování jste naposledy přerušili na post_id %s (%s zpracovaných příspěvků) dne %s';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Všechny příspěvky byly úspěšně zpracová
 $lang['ALL_TABLES_OPTIMIZED'] = 'Všechny vyhledávací tabulky byly optimalizovány úspěšně.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Zpracování příspěvku';
-$lang['PERCENT'] = 'Procenta';
 $lang['CURRENT_SESSION'] = 'Aktuální Relace';
 $lang['TOTAL'] = 'Celkem';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'z <b>%s</b> na <b>%s</b> (z celkem <b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %% dokončeno';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Aktuální relace podrobností.';
-$lang['PROCESSING_TIME'] = 'Doba zpracování';
 $lang['TIME_LAST_POSTS'] = 'Poslední %s post(s)';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Od začátku';
 $lang['TIME_AVERAGE'] = 'Průměr za cyklus';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Všechny akce';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Log akcí: Možnosti vyhledávání';
 $lang['ACTS_LOG_FORUM'] = 'Fórum';
 $lang['ACTS_LOG_ACTION'] = 'Akce';
-$lang['ACTS_LOG_USER'] = 'Uživatel';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Protokoly z ';
 $lang['ACTS_LOG_FIRST'] = 'začátek s';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dny zpět';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Šablony uvolnění';
 $lang['RELEASES'] = 'Vydání';
 
 $lang['BACK'] = 'Zpět';
-$lang['ERROR_FORM'] = 'Neplatná pole';
 $lang['NEW_RELEASE'] = 'Nové vydání';
 $lang['NEXT'] = 'Pokračovat';
-$lang['OTHER'] = 'Další';
 $lang['ALL'] = 'Všechny';
 
 $lang['TPL_EMPTY_FIELD'] = 'Musíte vyplnit pole <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Možnosti';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Každý řádek odpovídá jedné odpovědi (max.';
 
 $lang['OLD_BROWSER'] = 'Používáte zastaralý prohlížeč. Na webové stránky se nebudou zobrazovat správně.';
-$lang['GO_BACK'] = 'Vrátit';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Nahrávání souborů zakázáno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Nahrání souboru se nezdařilo.';

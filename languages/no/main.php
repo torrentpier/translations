@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Vis passord';
 $lang['EMAIL'] = 'E-post';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Forfatter';
-$lang['TIME'] = 'Tid';
 $lang['MESSAGE'] = 'Melding';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Tillatelser';
 $lang['TYPE'] = 'Type';
-$lang['SEEDER'] = 'Seeder';
-$lang['LEECHER'] = 'Snylte';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Dag';
 $lang['7_DAYS'] = '7 Dager';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Svar på dette emnet';
 $lang['CLICK_RETURN_TOPIC'] = 'Klikk %sHere%s for å gå tilbake til emnet'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Klikk %sHere%s for å gå tilbake til forumet';
 $lang['CLICK_RETURN_MODCP'] = 'Klikk %sHere%s for å gå tilbake til Moderator Kontrollpanel';
-$lang['CLICK_RETURN_GROUP'] = 'Klikk %sHere%s for å gå tilbake til informasjon om gruppen';
 
 $lang['ADMIN_PANEL'] = 'Gå til administrasjonspanelet';
 $lang['ALL_CACHE_CLEARED'] = 'Cache har blitt fjernet';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Velg forum';
 $lang['DISPLAYING_OPTIONS'] = 'Vise valg';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Registrerte Brukere:';
 $lang['BROWSING_FORUM'] = 'Brukere som leser i dette forumet:';
 $lang['ONLINE_USERS'] = 'Totalt er det <b>%1$d</b> brukere online: %2$d registrert og %3$d gjester';
 $lang['RECORD_ONLINE_USERS'] = 'De fleste brukere noensinne var online <b>%s</b> på %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Vis nyeste innlegg';
 $lang['SEARCH_SELF'] = 'Mine innlegg';
 $lang['SEARCH_SELF_BY_LAST'] = 'tid for siste innlegg';
 $lang['SEARCH_SELF_BY_MY'] = 'tid for mitt innlegg';
-$lang['SEARCH_UNANSWERED'] = 'Vis ubesvarte innlegg';
 $lang['SEARCH_LATEST'] = 'Siste emner';
 $lang['LATEST_RELEASES'] = 'Siste utgivelser';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Total hastighet: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Ingen nye innlegg';
 $lang['NEW_POSTS'] = 'Nye innlegg';
-$lang['NEW_POST'] = 'Nytt innlegg';
 $lang['FORUM_LOCKED_MAIN'] = 'Forumet er låst';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Siste nytt';
 $lang['NETWORK_NEWS'] = 'Nettverksnyheter';
 $lang['SUBFORUMS'] = 'Subforums';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Se Forumet';
-
 $lang['FORUM_NOT_EXIST'] = 'Forumet du valgte eksisterer ikke.';
 $lang['ERROR_PORNO_FORUM'] = 'Denne typen fora (18+) ble skjult i din profil av deg';
 
 $lang['DISPLAY_TOPICS'] = 'Vise emner';
-$lang['ALL_TOPICS'] = 'Alle Emner';
 $lang['MODERATE_FORUM'] = 'Moderate dette forumet';
 $lang['TITLE_SEARCH_HINT'] = 'søk tittelen...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Du <b>can</b> moderate dette forumet';
 $lang['NO_TOPICS_POST_ONE'] = 'Det er ingen innlegg i dette forumet ennå<br />Klikk på <b>Nytt emne</b>-ikonet, så blir innlegget ditt det første.';
 $lang['NO_RELEASES_POST_ONE'] = 'Det er ingen utgivelser i dette forumet ennå<br />Klikk på <b>Ny utgivelse</b>-ikonet, så blir utgivelsen din den første.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Se emnet';
-
 $lang['GUEST'] = 'Gjest';
-$lang['POST_SUBJECT'] = 'Innlegg tema';
 $lang['SUBMIT_VOTE'] = 'Send stemme';
 
 $lang['NO_NEWER_TOPICS'] = 'Det er ingen nye emner i dette forumet';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Nyeste Først';
 $lang['OLDEST_FIRST'] = 'Eldste Først';
 
 $lang['READ_PROFILE'] = 'Se brukerens profil';
-$lang['DELETE_POST'] = 'Slett dette innlegget';
 
 $lang['WROTE'] = 'skrev'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Sitat'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Du må angi meldingstittel';
 $lang['INVALID_TOPIC_ID'] = 'Emnet er fraværende!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Emnet finnes ikke i databasen!';
 
-$lang['NOT_POST'] = 'Fraværende melding';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Du kan ikke redigere utgivelse med status';
 
 $lang['OPTIONS'] = 'Valg';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Du må angi et alternativ når du stemmer.';
 $lang['LOCKED_WARN'] = 'Du la inn i et låst emne!';
 
 $lang['ADD_POLL'] = 'Legg til en avstemning';
-$lang['POLL_OPTION'] = 'Alternativ for avstemning';
 $lang['UPDATE'] = 'Oppdatering';
 $lang['DAYS'] = 'Dager';
 $lang['DELETE_POLL'] = 'Slette avstemningen';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Tillat robotene å indeksere dette emnet';
 $lang['STORED'] = 'Din melding har blitt sendt.';
 $lang['EDITED'] = 'Meldingen har blitt endret';
 $lang['DELETED'] = 'Din melding har blitt slettet.';
-$lang['POLL_DELETE'] = 'Din meningsmåling har blitt slettet.';
 $lang['VOTE_CAST'] = 'Din stemme har blitt kastet.';
 
 $lang['EMOTICONS'] = 'Uttrykksikoner';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Innboks';
 $lang['OUTBOX'] = 'Utboks';
 $lang['SAVEBOX'] = 'Lagra melding';
 $lang['SENTBOX'] = 'Utkast';
-$lang['FLAG'] = 'Flagg';
 $lang['SUBJECT'] = 'Emnet';
 $lang['FROM'] = 'Fra';
 $lang['TO'] = 'For å';
 $lang['DATE'] = 'Dato';
-$lang['MARK'] = 'Merke';
 $lang['SENT'] = 'Sendt';
 $lang['SAVED'] = 'Reddet';
 $lang['DELETE_MARKED'] = 'Slett Merket (E)';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Vise meldinger'; // Followed by number of days/week
 
 $lang['NO_MESSAGES_FOLDER'] = 'Det er ingen meldinger i denne mappen';
 
-$lang['PM_DISABLED'] = 'Private meldinger har blitt deaktivert på dette forumet.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Beklager, men administratoren har stoppet deg fra å sende private meldinger.';
 $lang['NO_TO_USER'] = 'Du må angi et brukernavn å sende denne meldingen.';
 $lang['NO_SUCH_USER'] = 'Beklager, men ingen bruker finnes.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Rediger privat melding';
 
 $lang['FIND_USERNAME'] = 'Finn et brukernavn';
 $lang['SELECT_USERNAME'] = 'Velg et Brukernavn';
-$lang['FIND'] = 'Finn';
 $lang['NO_MATCH'] = 'Ingen treff.';
 
 $lang['NO_PM_ID'] = 'Vennligst oppgi meldings-ID.';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Din konto har blitt opprettet. Imidlertid, dette fo
 $lang['ACCOUNT_ACTIVE'] = 'Kontoen din har nettopp blitt aktivert. Takk for at du registrerte deg.';
 $lang['ALREADY_ACTIVATED'] = 'Du har allerede aktivert kontoen din.';
 
-$lang['REGISTRATION'] = 'Registreringsavtalevilkår.';
 
 $lang['WRONG_ACTIVATION'] = 'Aktiveringsnøkkelen du har oppgitt, stemmer ikke overens med noen i databasen.';
-$lang['SEND_PASSWORD'] = 'Send meg nytt passord';
 $lang['PASSWORD_UPDATED'] = 'Et nytt passord er opprettet; vennligst sjekk e-posten din for detaljer om hvordan du aktiverer det.';
 $lang['NO_EMAIL_MATCH'] = 'E-postadressen du har oppgitt, samsvarer ikke med den som er oppført for det brukernavnet.';
 $lang['PASSWORD_ACTIVATED'] = 'Din konto har blitt re-aktivert. For å logge deg på, kan du bruke passordet som følger med i e-posten du fikk.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Annonsere på dette nettstedet';
 $lang['NOT_FOUND'] = 'Finner ikke filen';
 
 // Memberslist
-$lang['SORT'] = 'Sortere';
 $lang['SORT_TOP_TEN'] = 'Topp Ti Plasseringer';
 $lang['SORT_JOINED'] = 'Dato for registrering';
 $lang['SORT_USERNAME'] = 'Brukernavn';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Denne gruppen har ingen medlemmer';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Denne gruppen er skjult, og du kan ikke vise sitt medlemskap';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Denne gruppen har ingen ventende medlemmer';
 $lang['GROUP_JOINED'] = 'Du har nå meldt deg på denne gruppen.<br />Du vil bli varslet når abonnementet blir godkjent av gruppeadministrator.';
-$lang['GROUP_REQUEST'] = 'En forespørsel om å bli med i gruppen din har blitt gjort.';
-$lang['GROUP_APPROVED'] = 'Din forespørsel har blitt godkjent.';
-$lang['GROUP_ADDED'] = 'Du har blitt lagt til i denne brukergruppen.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Du er allerede et medlem av denne gruppen';
 $lang['USER_IS_MEMBER_GROUP'] = '%s er allerede medlem av denne gruppen';
 $lang['USER_IS_MOD_GROUP'] = '%s er moderator av denne gruppen';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Ditt medlemskap i denne gruppen er til behandling
 $lang['ARE_GROUP_MODERATOR'] = 'Du er gruppeadministrator.';
 $lang['NONE'] = 'Ingen';
 
-$lang['SUBSCRIBE'] = 'Abonner';
 $lang['UNSUBSCRIBE_GROUP'] = 'Avslutt abonnement';
 $lang['MEMBERS_IN_GROUP'] = 'Medlemmer i gruppen';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Denne gruppen er ikke en utgivelsesgruppe.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Søk Hjelp';
-$lang['SEARCH_QUERY'] = 'Søk';
 $lang['SEARCH_OPTIONS'] = 'Søk etter Alternativer';
 
 $lang['SEARCH_WORDS'] = 'Søk etter nøkkelord.';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Emnetittel';
 $lang['DISPLAY_RESULTS_AS'] = 'Vis resultater som.';
 $lang['ALL_AVAILABLE'] = 'Alle tilgjengelige';
 $lang['BRIEFLY'] = 'Kort';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Du har ikke tilgang til å søke i forumet på denne siden.';
 
 $lang['NO_SEARCH_MATCH'] = 'Ingen emner eller innlegg møtte dine søkekriterier.';
 $lang['FOUND_SEARCH_MATCH'] = 'Søk finner %d treff.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Søk finner %d matcher.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Lukk Vindu';
-$lang['CLOSE'] = 'lukk';
 $lang['HIDE'] = 'skjul';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Beklager, men du er ikke autorisert til å se
 $lang['DESCRIPTION'] = 'Beskrivelse'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Last ned'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filstørrelse';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Utvidelsen \'%s\' ble deaktivert av en administrator, derfor vises ikke dette vedlegget.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Strøm';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Kopier strømmelenke til utklippstavle';
 $lang['M3U_NOT_SUPPORTED'] = 'Denne filen kan ikke spilles i nettleseren...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Det ser ut som ffprobe ikke kan returnere data om denne kodeken...';
 $lang['M3U_NOTICE'] = 'Noen nettlesere støtter ikke avspilling av visse videoformater. I så tilfelle kan du laste ned .m3u-filen og spille den av ved hjelp av en tredjeparts spiller';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Vedlegg';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Vedlegg Miniatyrbilde';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Legg til vedlegg.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Legg til et vedlegg.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Hvis du ikke ønsker å legge til et vedlegg i innlegget ditt, kan du la feltene stå tomme.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Filnavn';
-$lang['FILE_COMMENT'] = 'Fil Kommentar';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Postet Vedlegg';
-$lang['UPDATE_COMMENT'] = 'Oppdater kommentar.';
 $lang['DELETE_ATTACHMENT'] = 'Slette vedlegg.';
-$lang['DELETE_THUMBNAIL'] = 'Slett miniaturbilde.';
-$lang['UPLOAD_NEW_VERSION'] = 'Last opp ny versjon.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s er et ugyldig filnavn.'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Vedlegget er for stort.<br />Kunne ikke få maksimal størrelse definert i PHP.<br />Vedleggsmodulen er ikke i stand til å bestemme maksimal opplastingsstørrelse definert i php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Vedlegget er for stort.<br />Maksimal opplastingsstørrelse: %d MB.<br />Vennligst merk at denne størrelsen er definert i php.ini, dette betyr at den er satt av PHP, og vedleggsmodulen kan ikke overstyre denne verdien.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Utvidelsen %s er ikke tillatt'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Du har ikke lov til å legge ut filer med filtypen %s i dette forumet.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Vedlegget er for stort.<br />Maksimal størrelse: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Vedlegg kan ikke legges til, siden maks. antall %d vedlegg i dette innlegget ble oppnådd.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Vedlegg/Bilde må være mindre enn %d piksler bredt og %d piksler høyt.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Opplastingsfeil: Kunne ikke laste opp vedlegget til %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Du må skrive inn verdier i \'Legg til vedlegg\'-boksen.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Kunne ikke oppdatere vedlegget, fant ikke gammel vedleggsoppføring.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Du har ikke valgt et vedlegg for å laste ned eller se på.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Det valgte Vedlegget eksisterer ikke lenger';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'De valgte vedleggene er blitt slettet.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Kan ikke slette Vedlegg.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Vedleggsfunksjonen er deaktivert.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Katalogen \'%s\' eksisterer ikke eller kunne ikke bli funnet.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Vennligst sjekk om \'%s\' er en katalog.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalog \'%s\' er ikke skrivbar. Du må opprette opplastingsstien og endre tillatelsene til 777 (eller endre eieren til din httpd-server eier) for å laste opp filer.<br />Hvis du bare har vanlig FTP-tilgang, endre \'attributtet\' av katalogen til rwxrwxrwx.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Byte';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Søk vedlegg.';
-$lang['TEST_SETTINGS'] = 'Test innstillinger.';
-$lang['NOT_ASSIGNED'] = 'Ikke Tildelt';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrert';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'Distribusjon har status:';
 $lang['TOR_STATUS_CHANGED'] = 'Status endret: ';
 $lang['TOR_BACK'] = ' tilbake';
 $lang['PROCEED'] = 'Fortsett';
-$lang['INVALID_ATTACH_ID'] = 'Manglende filidentifikator!';
 $lang['CHANGE_TOR_TYPE'] = 'Skriv inn torrent som er vellykket endret';
 $lang['DEL_TORRENT'] = 'Er du sikker på at du vil slette torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Er du sikker på at du vil slette og flytte emnet?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Nåværende.';
 $lang['SEARCH_DL_COMPLETE'] = 'Fullført.';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Fullførte nedlastinger.';
 $lang['SEARCH_DL_CANCEL'] = 'Avlyst.';
-$lang['CUR_DOWNLOADS'] = 'Gjeldende nedlastinger.';
 $lang['CUR_UPLOADS'] = 'Gjeldende opplastinger.';
 $lang['SEARCH_RELEASES'] = 'Utgivelser.';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent-søkealternativer.';
 $lang['OPEN_TOPIC'] = 'Åpne emnet';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Innlegg torrents tillatt bare i første post';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registrering av torrents er kun tillatt fra første innlegg.';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Kunne ikke registrere torrent i dette forumet';
 $lang['ALREADY_REG'] = 'Torrent allerede er registrert';
 $lang['NOT_TORRENT'] = 'Denne filen er ikke torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Du kan bare registrere en torrent i ett emne';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktive torrenter';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'bare nye emner';
 
 $lang['TORHELP_TITLE'] = 'Vennligst hjelp til med å seed disse torrentene!';
 $lang['STATISTICS'] = 'Statistikk';
-$lang['STATISTIC'] = 'Statistikk';
-$lang['VALUE'] = 'Verdi';
 $lang['STATUS'] = 'Status';
-$lang['CHANGES'] = 'Endringer';
 $lang['ACTION'] = 'Handling';
 $lang['REASON'] = 'Årsak';
 $lang['COMMENT'] = 'Kommentar';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Kollaps katalog';
 $lang['EXPAND'] = 'Utvid';
 $lang['SWITCH'] = 'Bryter';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Øk/reduser vinduet';
-$lang['EMPTY_ATTACH_ID'] = 'Mangel på filidentifikator!';
-$lang['TOR_NOT_FOUND'] = 'Fil mangler på serveren!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'Innholdet i denne torrentfilen kan ikke vises på nettstedet (det var ikke mulig å bygge en liste over filer).';
 $lang['TORFILE_INVALID'] = 'Torrent-filen er skadet';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Nettstedet" kan inneholde bare http://sitename';
-$lang['INVALID_DATE'] = 'Ugyldig dato';
 $lang['PROFILE_USER'] = 'Viser profil.';
 $lang['GOOD_UPDATE'] = 'ble vellykket endret';
 $lang['UCP_DOWNLOADS'] = 'Nedlastinger';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Send melding';
 $lang['NEW_THREADS'] = 'Nye Tråder';
 $lang['PROFILE_NOT_FOUND'] = 'Profilen ikke funnet';
 
-$lang['USER_DELETE'] = 'Slett';
 $lang['USER_DELETE_EXPLAIN'] = 'Slett denne brukeren';
 $lang['USER_DELETE_ME'] = 'Beklager, kontoen din er forbudt å fjerne!';
 $lang['USER_DELETE_CSV'] = 'Beklager, denne kontoen er ikke tillatt å slette!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'på';
 $lang['OFF'] = 'av';
 $lang['MEMORY'] = 'Minne: ';
 $lang['QUERIES'] = 'søk';
-$lang['LIMIT'] = 'Grensen:';
 $lang['SHOW_LOG'] = 'Vis logg';
 $lang['EXPLAINED_LOG'] = 'Forklarte logg';
 $lang['CUT_LOG'] = 'Kutt lange spørringer';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Gå til innlegg';
 $lang['PROFILE_EDIT_RETURN'] = 'Gå tilbake til redigering';
 $lang['PROFILE_RETURN'] = 'Gå til profil';
 
-$lang['WARNING'] = 'Advarsel';
 $lang['INDEXER'] = 'Reindex søk';
 $lang['INDEXER_SUCCESS'] = 'Søkeindeks oppdatert vellykket';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Rekker';
 $lang['SMILIES'] = 'Smilier';
 $lang['BAN_MANAGEMENT'] = 'Forbudet Kontroll';
 $lang['WORD_CENSOR'] = 'Ordet Sensur';
-$lang['EXPORT'] = 'Eksport';
-$lang['CREATE_NEW'] = 'Lage';
-$lang['ADD_NEW'] = 'Legg til';
 $lang['CRON'] = 'Oppgaveplanlegging (cron -)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Gjenoppbygge søk indeks';
 $lang['FORUM_CONFIG'] = 'Forum innstillinger';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Antall brukere';
 $lang['USERS_PER_DAY'] = 'Brukere per dag';
 $lang['BOARD_STARTED'] = 'Styret i gang';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar katalog størrelse';
-$lang['DATABASE_SIZE'] = 'Størrelsen på databasen';
 $lang['GZIP_COMPRESSION'] = 'Gzip-komprimering';
 $lang['NOT_AVAILABLE'] = 'Ikke tilgjengelig';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Klikk %sHer%s for å gå tilbake til forumtil
 $lang['BAN_CONTROL'] = 'Forbudet Kontroll';
 $lang['BAN_EXPLAIN'] = 'Her kan du kontrollere utestengelsen av brukere.';
 $lang['BAN_USERNAME'] = 'Forbudet én eller flere bestemte brukere';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Du kan stenge ute flere brukere på en gang ved å bruke den riktige kombinasjon av mus og tastatur til din datamaskin og nettleser';
 $lang['UNBAN_USERNAME'] = 'Opphev banning av én eller flere spesifikke brukere';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Du kan unban flere brukere på en gang ved å bruke den riktige kombinasjon av mus og tastatur til din datamaskin og nettleser';
 $lang['NO_BANNED_USERS'] = 'Ingen utestengt brukernavn';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Navn på nettsted';
 $lang['SITE_DESC'] = 'Område beskrivelse';
 $lang['FORUMS_DISABLE'] = 'Deaktiver styret';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Dette vil gjøre styret utilgjengelige for brukerne. Administratorer er i stand til å få tilgang til Administrasjon Panel mens styret er deaktivert.';
-$lang['ACC_NONE'] = 'Ingen'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Bruker';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Ingen';
 
 $lang['ABILITIES_SETTINGS'] = 'Bruker-og Forum Grunnleggende Innstillinger';
 $lang['MAX_POLL_OPTIONS'] = 'Maks antall meningsmåling valg';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Fjern';
 $lang['CONFIG_UPDATED'] = 'Forum Konfigurasjonen Har Blitt Fullført';
 $lang['MOVE_UP'] = 'Flytt opp';
 $lang['MOVE_DOWN'] = 'Flytt ned';
-$lang['RESYNC'] = 'Re-synkroniser';
 $lang['NO_MODE'] = 'Ingen modusen ble satt';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Skjemaet nedenfor vil tillate deg å tilpasse alle de generelle forumalternativene. For bruker- og forumkonfigurasjoner, bruk de relaterte lenkene på venstre side.';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Slett gruppe';
 $lang['GROUP_DELETE_CHECK'] = 'Slett denne gruppen';
 $lang['NO_GROUP_NAME'] = 'Du må angi et navn for denne gruppen';
 $lang['NO_GROUP_MODERATOR'] = 'Du må angi en moderator for denne gruppen';
-$lang['NO_GROUP_MODE'] = 'Du må angi en modus for denne gruppen, åpne eller lukket';
 $lang['NO_GROUP_ACTION'] = 'Ingen tiltak ble angitt';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Slett den gamle gruppe moderator?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Hvis du endrer gruppe moderator, sjekk denne boksen for å fjerne den gamle moderator fra gruppen. Ellers, ikke merker det, og brukeren vil bli et fast medlem av gruppen.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Se opp gruppe';
 $lang['FORUM_PRUNE'] = 'Forum Sviske';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Dette vil slette alle tema som ikke har blitt lagt til i antallet dager du velger. Hvis du ikke skriver inn et tall, så alle emner vil bli slettet. Det vil ikke fjerne <b>sticky</b> emner og <b>announcements</b>. Trenger du å fjerne disse emnene manuelt.';
 $lang['DO_PRUNE'] = 'Gjør Sviske';
-$lang['ALL_FORUMS'] = 'Alle Forumene';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Sviske emner med ingen svar på dette i mange dager';
 $lang['TOPICS_PRUNED'] = 'Emner beskåret';
 $lang['PRUNE_SUCCESS'] = 'Forumet har blitt beskåret vellykket';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Klikk %sHere%s for å gå tilbake til Rang Ad
 $lang['DISALLOW_CONTROL'] = 'Brukernavn Disallow Kontroll';
 $lang['DISALLOW_EXPLAIN'] = 'Her kan du styre brukernavn som ikke vil være tillatt å være brukt. Forbudt brukernavn er lov til å inneholde jokertegn av *. Vær oppmerksom på at du ikke vil være tillatt å angi et brukernavn som allerede har blitt registrert. Du må først slette det navnet da ikke tillate det.';
 
-$lang['DELETE_DISALLOW'] = 'Slett';
 $lang['DELETE_DISALLOW_TITLE'] = 'Fjerne en Forbudt Brukernavn';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Du kan fjerne en forbudt brukernavn ved å velge brukernavnet ditt fra listen, og klikker på send';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan laste ned vedlegg';
 $lang['SF_SHOW_ON_INDEX'] = 'Vis på hovedsiden';
 $lang['SF_PARENT_FORUM'] = 'Foreldreforumet';
 $lang['SF_NO_PARENT'] = 'Ingen overordnede forumet';
-$lang['TEMPLATE'] = 'Mal';
 $lang['SYNC'] = 'Synkronisere';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'OPPMERKSOMHET! Frø Bonuser skal være i stigende
 $lang['SEED_BONUS_EXCHANGE'] = 'Konfigurere Exchange Sid Bonuser';
 $lang['SEED_BONUS_ROPORTION'] = 'Andel tillegg for utveksling av bonuser på GB';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Kontroll Panel';
-$lang['EXTENSION_CONTROL'] = 'Extension Kontroll';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Extension Grupper Kontroll';
-$lang['SPECIAL_CATEGORIES'] = 'Spesielle Kategorier';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Vedlegg Innstillinger';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Her kan du konfigurere de Viktigste Innstillingene for Vedlegg Mod. Hvis du trykk Test-Knappen Innstillinger, Vedlegg Mod et par System Tester for å være sikker på at Mod vil fungere på riktig måte. Hvis du har problemer med opplasting av Filer, kan du kjøre denne Testen, for å få en detaljert error-melding.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Innstillinger for vedleggsstørrelse';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Vedlegg Antall Innstillinger';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Vedlegg Valg';
-
-$lang['UPLOAD_DIRECTORY'] = 'Laste Opp Katalogen';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Angi den relative banen fra TorrentPier installasjon til Vedlegg last opp katalog. For eksempel, skriv inn \'filer\' hvis din TorrentPier Installasjonen er plassert på https://www.yourdomain.com/torrentpier og Vedlegget Laste opp Katalogen ligger på https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Vedlegg Innlegg Ikonet';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Dette Bildet vises ved siden av Vedlegg Lenker i individuelle Innlegg. Lar dette feltet stå tomt hvis du ikke vil på et ikon for å bli vist. Denne Innstillingen vil bli overskrevet av Innstillingene i Extension Grupper Management.';
-$lang['ATTACH_TOPIC_ICON'] = 'Vedlegg Emnet-Ikonet';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Dette Bildet vises før emner med Vedlegg. Lar dette feltet stå tomt hvis du ikke vil på et ikon for å bli vist.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Vedlegg Visningsrekkefølgen';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Her kan du velge om du vil vise Vedleggene i Innlegg/PMs i Synkende Filetime Rekkefølge (det Nyeste Vedlegg Første) eller Stigende Filetime For (Eldste Vedlegg Første).';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Filstørrelse';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimal filstørrelse for Vedlegg. En verdi på 0 betyr \'ubegrenset\'. Denne Innstillingen er begrenset av din Server Konfigurasjon. For eksempel, hvis din php-Konfigurasjon bare tillater en maks 2 MB opplasting, dette kan ikke overskrives av Mod.';
-$lang['MAX_FILESIZE_PM'] = 'Maksimal Filstørrelse i Private Meldinger-Mappen';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimal Diskplass Vedlegg kan bruke opp i hver enkelt brukers Egen meldingsboks. En verdi på 0 betyr \'ubegrenset\'.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maksimum Antall Vedlegg';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimalt antall vedlegg som er tillatt i ett innlegg.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maksimum antall Vedlegg i en Privat Melding';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Angi maksimalt antall vedlegg brukeren er tillatt å ta med i en privat melding.';
-
-$lang['DISABLE_MOD'] = 'Deaktiver Vedlegg Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Dette alternativet er først og fremst for å teste nye maler eller temaer, det deaktiverer alle Vedlegg Funksjoner bortsett fra Admin-Panelet.';
-$lang['PM_ATTACHMENTS'] = 'Tillat Vedlegg i Private Meldinger';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Tillate/Nekte å legge ved filer til Private Meldinger.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Administrere Utvidelser';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Her kan du administrere din Filtyper. Hvis du ønsker å tillate/ikke tillate en Utvidelse til å bli lastet opp, kan du bruke Extension Grupper Management.';
-$lang['EXPLANATION'] = 'Forklaring';
-$lang['EXTENSION_GROUP'] = 'Extension Gruppe';
-$lang['EXTENSION_EXIST'] = 'Utvidelsen %s finnes allerede'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Administrere Extension Grupper';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Her kan du legge til, slette og endre din Extension Grupper, kan du deaktivere Extension Grupper, tilordne en spesiell Kategori for dem, endre laste ned mekanisme, og du kan definere en Laste-Ikonet som vises i front av et Vedlegg som tilhører Gruppen.';
-$lang['SPECIAL_CATEGORY'] = 'Spesialtilbud På Hoteller I Kategorien';
-$lang['CATEGORY_IMAGES'] = 'Bilder';
 $lang['ALLOWED'] = 'Tillatt';
-$lang['ALLOWED_FORUMS'] = 'Tillatt Fora';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Gruppe Tillatelser';
-$lang['DOWNLOAD_MODE'] = 'Last Ned Modus';
-$lang['UPLOAD_ICON'] = 'Laste Opp Ikonet';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maksimal Filstørrelse';
-$lang['EXTENSION_GROUP_EXIST'] = 'Utvidelsen Gruppe %s finnes allerede'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Behandle Spesielle Kategorier';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Her kan du konfigurere de Spesielle Kategoriene. Du kan sette opp Spesielle Parametere og Forhold for de Spesielle Kategoriene tildelt en Utvidelsesgruppe.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Innstillinger for spesialkategori: Bilder';
-$lang['DISPLAY_INLINED'] = 'Vis bilder inline';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Velg om du vil vise bilder direkte i innlegg (ja) eller for å vise bilder som en link ?';
-$lang['MAX_IMAGE_SIZE'] = 'Maksimal Bilde Dimensjoner';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Her kan du angi maksimal tillatt Bilde Dimensjon skal være vedlagt (Bredde x Høyde i piksler).<br />If det er satt til 0x0, er denne funksjonen deaktivert. Med noen Bilder denne Funksjonen vil ikke fungere på grunn av begrensninger i PHP.';
-$lang['IMAGE_LINK_SIZE'] = 'Bildet Link Dimensjoner';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Hvis dette er definert Dimensjon av et Bilde er nådd, vil Bildet vises som en Link, i stedet for å vise det inlined,<br />if Inline Visningen er aktivert (Bredde x Høyde i piksler).<br />If det er satt til 0x0, er denne funksjonen deaktivert. Med noen Bilder denne Funksjonen vil ikke fungere på grunn av begrensninger i PHP.';
-$lang['ASSIGNED_GROUP'] = 'Tildelt Gruppe';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Opprette Miniatyrbilder';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum filstørrelse for miniatyrbilder';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Hvis et bilde er mindre enn denne angitte filstørrelsen, opprettes det ikke noe miniatyrbilde, fordi bildet er lite nok.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Tillatelser for utvidelsesgrupper → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Her du er i stand til å begrense den valgte Filtypen Gruppe til Fora av ditt valg (definert i Lov Fora Boks). Standard er å tillate Utvidelse Grupper til alle Fora, Brukeren er i stand til å Legge ved Filer i (vanlig måte Vedlegget Mod gjorde det siden begynnelsen). Bare legge til disse Fora du vil Utvidelsen Gruppe (Utvidelser innenfor denne Gruppen) til å være tillatt det, standard ALLE FORA vil forsvinne når du legger til Forum til Listen. Du er i stand til å legge ALLE FORA til enhver Tid. Hvis du vil legge til en Forumet til ditt Bord og Tillatelse er satt til ALLE FORA ingenting vil endre seg. Men hvis du har endret og begrenset tilgang til visse Fora, må du sjekke innom her for å legge til den nyopprettede Forum. Det er enkelt å gjøre dette automatisk, men dette vil tvinge deg til å redigere en haug av Filer, derfor har jeg valgt slik det er nå. Vær oppmerksom på at alle Fora vil bli listet opp her.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'MERK:<br />Within de nedenfor nevnte Fora Brukerne er normalt lov til å legge ved filer, men siden ingen Extension Gruppen er lov til å være festet der, Brukerne er i stand til å feste noe. Hvis de prøver, vil de motta Feilmeldinger. Kanskje du ønsker å sette Tillatelse " Post-Filer til ADMIN på disse Fora.<br /><br />';
-$lang['ADD_FORUMS'] = 'Legg Til Forumene';
-$lang['ADD_SELECTED'] = 'Legg Til Valgt';
-$lang['PERM_ALL_FORUMS'] = 'ALLE FORUMENE';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'File Attachment Control Panel';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Her kan du vise og administrere alle vedlegg er basert på Brukere, Vedlegg, Utsikt etc...';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Bruke * som jokertegn for delvise treff';
-$lang['SIZE_SMALLER_THAN'] = 'Vedlegg størrelse mindre enn (bytes)';
-$lang['SIZE_GREATER_THAN'] = 'Vedlegg størrelse større enn (bytes)';
-$lang['COUNT_SMALLER_THAN'] = 'Last ned antallet er mindre enn';
-$lang['COUNT_GREATER_THAN'] = 'Last ned ant er større enn';
-$lang['MORE_DAYS_OLD'] = 'Mer enn dette i mange dager gamle';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Ingen Vedlegg møtt dine søkekriterier';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Antall Vedlegg';
-$lang['TOTAL_FILESIZE'] = 'Total filstørrelse';
-$lang['NUMBER_POSTS_ATTACH'] = 'Antall Innlegg med Vedlegg';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Antall Emner med Vedlegg';
-$lang['NUMBER_USERS_ATTACH'] = 'Uavhengig Brukere Postet Vedlegg';
-$lang['NUMBER_PMS_ATTACH'] = 'Totalt Antall Vedlegg i Private Meldinger';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Vedlegg Statistikk for %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Nedlastinger';
-$lang['POST_TIME'] = 'Innlegget Tid';
-$lang['POSTED_IN_TOPIC'] = 'Postet i Emnet';
-$lang['SUBMIT_CHANGES'] = 'Send Endring';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Vedlegg';
-$lang['SORT_SIZE'] = 'Størrelse';
-$lang['SORT_FILENAME'] = 'Filnavn';
-$lang['SORT_COMMENT'] = 'Kommentar';
-$lang['SORT_EXTENSION'] = 'Utvidelse';
-$lang['SORT_DOWNLOADS'] = 'Nedlastinger';
-$lang['SORT_POSTTIME'] = 'Innleggstid';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistikk';
-$lang['VIEW_SEARCH'] = 'Søk';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Vedlegg Konfigurasjon fullført';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Klikk %sHere%s for å gå tilbake til Vedlegg Konfigurasjon';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Innstillinger Testen er ferdig, konfigurasjon ser ut til å være fine.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Vedlegg';
-$lang['EXTENSIONS'] = 'Utvidelser';
-$lang['EXTENSION'] = 'Utvidelse';
-
 $lang['RETURN_CONFIG'] = '%sReturn å Configuration%s';
 $lang['CONFIG_UPD'] = 'Konfigurasjon Fullført';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Endre emnet status til "Normal" mens de
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Mal er deaktivert';
 $lang['FOR_NEW_TEMPLATE'] = 'for nye mønstre!';
-$lang['CHANGED'] = 'Endret';
-$lang['REMOVED'] = 'Fjernet';
 $lang['QUESTION'] = 'Bekreft er du sikker på at du vil utføre denne handlingen';
 
 $lang['CRON_LIST'] = 'Cron-liste';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Tidsgrense';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Hvor mye tid (sekunder) etterbehandling kan vare før det går videre til neste syklus';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Webserveren din har et tidsavbrudd på %s sekunder konfigurert, så hold deg under denne verdien.</i>';
 
-$lang['DISABLE_BOARD'] = 'Deaktiver styret';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Du sist stoppet behandlingen på post_id %s (%s behandlet innlegg) på %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Du sist avbrøt behandlingen på post_id %s (%s behandlet innlegg) den %s.';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Alle innlegg ble behandlet med suksess.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Alle søkebordene er optimalisert vellykket.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Behandling post';
-$lang['PERCENT'] = 'Prosent';
 $lang['CURRENT_SESSION'] = 'Dagens økt.';
 $lang['TOTAL'] = 'Total';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'fra <b>%s</b> til <b>%s</b> (av totalt <b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %% fullført.';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Dagens økt detaljer';
-$lang['PROCESSING_TIME'] = 'Saksbehandlingstid';
 $lang['TIME_LAST_POSTS'] = 'Siste %s innlegg.';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Fra begynnelsen';
 $lang['TIME_AVERAGE'] = 'Gjennomsnitt pr. syklus';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Alle handlinger';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Handlinger Logg: søkealternativer';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Handling';
-$lang['ACTS_LOG_USER'] = 'Bruker';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Logger fra ';
 $lang['ACTS_LOG_FIRST'] = 'begynner med';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dager tilbake';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Slipp Maler';
 $lang['RELEASES'] = 'Utgivelser';
 
 $lang['BACK'] = 'Tilbake';
-$lang['ERROR_FORM'] = 'Ugyldig felt';
 $lang['NEW_RELEASE'] = 'Ny utgivelse';
 $lang['NEXT'] = 'Fortsett';
-$lang['OTHER'] = 'Andre';
 $lang['ALL'] = 'Alle';
 
 $lang['TPL_EMPTY_FIELD'] = 'Du må fylle ut feltet <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Valg';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Hver rad tilsvarer ett svar (maks.';
 
 $lang['OLD_BROWSER'] = 'Du bruker en utdatert nettleser. Nettstedet vil ikke vises på riktig måte.';
-$lang['GO_BACK'] = 'Gå tilbake';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filopplasting deaktivert';
 $lang['UPLOAD_ERROR_COMMON'] = 'Feil ved opplasting av fil.';

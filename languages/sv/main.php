@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Visa lösenord';
 $lang['EMAIL'] = 'E-post';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Författare';
-$lang['TIME'] = 'Tid';
 $lang['MESSAGE'] = 'Meddelande';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Behörigheter';
 $lang['TYPE'] = 'Typ';
-$lang['SEEDER'] = 'Seeder';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Dag';
 $lang['7_DAYS'] = '7 Dagar';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Svara på ämnet';
 $lang['CLICK_RETURN_TOPIC'] = 'Klicka %sHär%s för att återgå till ämnet'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Klicka %sHär%s för att återgå till forumet';
 $lang['CLICK_RETURN_MODCP'] = 'Klicka %sHär%s för att återgå till Moderator kontrollpanelen';
-$lang['CLICK_RETURN_GROUP'] = 'Klicka %sHär%s för att återgå till gruppinformationen';
 
 $lang['ADMIN_PANEL'] = 'Gå till Administration Panel';
 $lang['ALL_CACHE_CLEARED'] = 'Cache-minnet har raderats';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Välj forum';
 $lang['DISPLAYING_OPTIONS'] = 'Visa alternativ';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Registrerade användare:';
 $lang['BROWSING_FORUM'] = 'Användare som besöker detta forum:';
 $lang['ONLINE_USERS'] = 'Totalt finns det <b>%1$d</b> användare online: %2$d registrerade och %3$d gäster';
 $lang['RECORD_ONLINE_USERS'] = 'Flest användare online någonsin var <b>%s</b> på %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Visa senaste inlägg';
 $lang['SEARCH_SELF'] = 'Mina inlägg';
 $lang['SEARCH_SELF_BY_LAST'] = 'senaste inlägg';
 $lang['SEARCH_SELF_BY_MY'] = 'mina inlägg';
-$lang['SEARCH_UNANSWERED'] = 'Visa obesvarade inlägg';
 $lang['SEARCH_LATEST'] = 'Senaste ämnen';
 $lang['LATEST_RELEASES'] = 'Senaste nyheterna';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Total hastighet: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Inga nya inlägg';
 $lang['NEW_POSTS'] = 'Nya inlägg';
-$lang['NEW_POST'] = 'Nytt inlägg';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum är låst';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Senaste nyheterna';
 $lang['NETWORK_NEWS'] = 'Nätverksnyheter';
 $lang['SUBFORUMS'] = 'Underforum';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Visa Forum';
-
 $lang['FORUM_NOT_EXIST'] = 'Det forum som du valt inte finns.';
 $lang['ERROR_PORNO_FORUM'] = 'Denna typ av forum (18+) har gömts i din profil av dig.';
 
 $lang['DISPLAY_TOPICS'] = 'Visa ämnen';
-$lang['ALL_TOPICS'] = 'Alla Ämnen';
 $lang['MODERATE_FORUM'] = 'Moderera detta forum';
 $lang['TITLE_SEARCH_HINT'] = 'sök titel...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Du <b>kan</b> moderera detta forum.';
 $lang['NO_TOPICS_POST_ONE'] = 'Du följer inte detta ämne längre.';
 $lang['NO_RELEASES_POST_ONE'] = 'Det finns inga utgåvor i detta forum än<br />Klicka på <b>Ny utgåva</b> ikonen så blir din utgåva den första.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Visa ämnet.';
-
 $lang['GUEST'] = 'Gäst';
-$lang['POST_SUBJECT'] = 'Inläggets ämne';
 $lang['SUBMIT_VOTE'] = 'Skicka omröstning';
 
 $lang['NO_NEWER_TOPICS'] = 'Det finns inga nyare ämnen i det här forumet';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Nyaste Först';
 $lang['OLDEST_FIRST'] = 'Äldst Först';
 
 $lang['READ_PROFILE'] = 'Visa användarens profil';
-$lang['DELETE_POST'] = 'Ta bort detta inlägg';
 
 $lang['WROTE'] = 'skrev'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Citat'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Titel för meddelande bör anges';
 $lang['INVALID_TOPIC_ID'] = 'Ämnet är frånvarande!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Ämnet finns inte i databasen!';
 
-$lang['NOT_POST'] = 'Frånvaro meddelande';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Du kan inte redigera utgåvan när status';
 
 $lang['OPTIONS'] = 'Alternativ';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Du måste ange ett alternativ när du röstar.';
 $lang['LOCKED_WARN'] = 'Du har postat i låst ämne!';
 
 $lang['ADD_POLL'] = 'Lägga till en omröstning';
-$lang['POLL_OPTION'] = 'Pollalternativ.';
 $lang['UPDATE'] = 'Uppdatering';
 $lang['DAYS'] = 'Dagar';
 $lang['DELETE_POLL'] = 'Ta bort enkät';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Tillåt att robotar indexerar detta ämne';
 $lang['STORED'] = 'Ditt meddelande har införts med framgång.';
 $lang['EDITED'] = 'Meddelandet har ändrats';
 $lang['DELETED'] = 'Ditt meddelande har tagits bort.';
-$lang['POLL_DELETE'] = 'Din enkät har tagits bort.';
 $lang['VOTE_CAST'] = 'Din röst har registrerats.';
 
 $lang['EMOTICONS'] = 'Emoticons';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Inkorg';
 $lang['OUTBOX'] = 'Utkorg';
 $lang['SAVEBOX'] = 'Säkerhetsbox';
 $lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = 'Flagga';
 $lang['SUBJECT'] = 'Ämne';
 $lang['FROM'] = 'Från';
 $lang['TO'] = 'Till';
 $lang['DATE'] = 'Datum';
-$lang['MARK'] = 'Mark';
 $lang['SENT'] = 'Skickat';
 $lang['SAVED'] = 'Sparade';
 $lang['DELETE_MARKED'] = 'Ta Bort Markerade';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Visa meddelanden'; // Followed by number of days/we
 
 $lang['NO_MESSAGES_FOLDER'] = 'Det finns inga meddelanden i denna mapp.';
 
-$lang['PM_DISABLED'] = 'Privata meddelanden har inaktiverats på detta forum.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Ledsen, men administratören har förhindrat dig från att skicka privata meddelanden.';
 $lang['NO_TO_USER'] = 'Du måste ange ett användarnamn som du vill skicka detta meddelande.';
 $lang['NO_SUCH_USER'] = 'Ledsen, men ingen sådan användare finns.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Redigera privat meddelande';
 
 $lang['FIND_USERNAME'] = 'Hitta ett användarnamn';
 $lang['SELECT_USERNAME'] = 'Välj ett Användarnamn';
-$lang['FIND'] = 'Hitta';
 $lang['NO_MATCH'] = 'Inga träffar.';
 
 $lang['NO_PM_ID'] = 'Vänligen ange inläggets ID';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Ditt konto har skapats. Men detta forum kräver kon
 $lang['ACCOUNT_ACTIVE'] = 'Ditt konto har just aktiverats. Tack för din registrering.';
 $lang['ALREADY_ACTIVATED'] = 'Du har redan aktiverat ditt konto';
 
-$lang['REGISTRATION'] = 'Registreringsavtalsvillkor.';
 
 $lang['WRONG_ACTIVATION'] = 'Den aktiveringsnyckel du angav matchar inte något i databasen.';
-$lang['SEND_PASSWORD'] = 'Skicka mig ett nytt lösenord';
 $lang['PASSWORD_UPDATED'] = 'Ett nytt lösenord har skapats; vänligen kontrollera din e-post för detaljer om hur du aktiverar det.';
 $lang['NO_EMAIL_MATCH'] = 'Den e-postadress du angav matchar inte det som anges för det användarnamnet.';
 $lang['PASSWORD_ACTIVATED'] = 'Ditt konto har återaktiverats. För att logga in, vänligen använd lösenordet som skickades i e-postmeddelandet du fick.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Annonsera på denna webbplats';
 $lang['NOT_FOUND'] = 'Filen kunde inte hittas';
 
 // Memberslist
-$lang['SORT'] = 'Sortera';
 $lang['SORT_TOP_TEN'] = 'Topp tio inlägg.';
 $lang['SORT_JOINED'] = 'Gick med datum.';
 $lang['SORT_USERNAME'] = 'Användarnamn';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Den här gruppen har inga medlemmar';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Denna grupp är dold, du kan inte visa sitt medlemskap';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Den här gruppen har inga väntande medlemmar';
 $lang['GROUP_JOINED'] = 'Du har framgångsrikt prenumererat på denna grupp.<br />Du kommer att meddelas när din prenumeration godkänns av gruppens moderator.';
-$lang['GROUP_REQUEST'] = 'En begäran att ansluta sig till din grupp har gjorts.';
-$lang['GROUP_APPROVED'] = 'Din begäran har godkänts.';
-$lang['GROUP_ADDED'] = 'Du har lagts till denna användargrupp.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Du är redan medlem i denna grupp.';
 $lang['USER_IS_MEMBER_GROUP'] = '%s är redan medlem i denna grupp';
 $lang['USER_IS_MOD_GROUP'] = '%s är moderator i denna grupp';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Ditt medlemskap i denna grupp är under behandlin
 $lang['ARE_GROUP_MODERATOR'] = 'Du är moderator för gruppen.';
 $lang['NONE'] = 'Ingen';
 
-$lang['SUBSCRIBE'] = 'Prenumerera';
 $lang['UNSUBSCRIBE_GROUP'] = 'Avsluta prenumerationen';
 $lang['MEMBERS_IN_GROUP'] = 'Medlemmar i gruppen';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Denna grupp är inte en publiceringsgrupp.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Sök Hjälp';
-$lang['SEARCH_QUERY'] = 'Sökfråga.';
 $lang['SEARCH_OPTIONS'] = 'Sök Alternativ';
 
 $lang['SEARCH_WORDS'] = 'Sök efter Nyckelord';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Ämnesrubrik.';
 $lang['DISPLAY_RESULTS_AS'] = 'Visa resultat som.';
 $lang['ALL_AVAILABLE'] = 'Alla tillgängliga';
 $lang['BRIEFLY'] = 'Kortfattat';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Du har inte behörighet att söka i något forum på denna webbplats.';
 
 $lang['NO_SEARCH_MATCH'] = 'Inga trådar eller inlägg uppfyllde dina sökkriterier.';
 $lang['FOUND_SEARCH_MATCH'] = 'Sökning hittade %d match'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Sökning hittade %d matcher'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Stäng Fönstret';
-$lang['CLOSE'] = 'stäng';
 $lang['HIDE'] = 'dölja';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Tyvärr har du inte behörighet att visa elle
 $lang['DESCRIPTION'] = 'Beskrivning'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Ladda ner'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Filstorlek';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Tillägget \'%s\' har inaktiverats av en styrelsens administratör, därför visas inte denna bilaga.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Ström';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Kopiera strömmen länk till urklipp';
 $lang['M3U_NOT_SUPPORTED'] = 'Denna fil kan inte spelas i webbläsaren...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Det verkar som att ffprobe inte kommer kunna returnera data om denna codec...';
 $lang['M3U_NOTICE'] = 'Vissa webbläsare stöder inte uppspelning av vissa videoformat. I sådana fall kan du ladda ner .m3u-filen och spela den med en tredjeparts spelare';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Bifogade filer';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Bilaga miniatyr.';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Lägg till bilaga.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Lägg till en bifogad fil.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Om du inte vill lägga till en bifogad fil till ditt inlägg, vänligen lämna fälten tomma.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Filnamn.';
-$lang['FILE_COMMENT'] = 'Filkommentar.';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Postade bifogade filer.';
-$lang['UPDATE_COMMENT'] = 'Uppdatera kommentar.';
 $lang['DELETE_ATTACHMENT'] = 'Ta bort bifogad fil.';
-$lang['DELETE_THUMBNAIL'] = 'Ta bort miniatyrbild.';
-$lang['UPLOAD_NEW_VERSION'] = 'Ladda upp ny version.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s är ett ogiltigt filnamn.'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Den bifogade filen är för stor.<br />Det gick inte att få den maximala storleken definierad i PHP.<br />Bilagemodulen kan inte bestämma den maximala uppladdningsstorleken definierad i php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Den bifogade filen är för stor.<br />Maximal uppladdningsstorlek: %d MB.<br />Observera att denna storlek definieras i php.ini, vilket betyder att den sätts av PHP och bilagans modul inte kan åsidosätta detta värde.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Filändelse %s är inte tillåten.'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Du är inte tillåten att publicera filer med filändelsen %s inom detta forum.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Den bifogade filen är för stor.<br />Max Storlek: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Bifogad fil kan inte läggas till eftersom max. antal %d bifogade filer i detta inlägg har uppnåtts.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Den bifogade filen/bilden måste vara mindre än %d pixlar bred och %d pixlar hög.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Uppladdning fel: Kunde inte ladda upp bifogad fil till %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Du måste ange värden i "Lägg till en bifogad fil"-rutan.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Det går inte att uppdatera bifogad fil; kunde inte hitta gammal bifogad fil.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Du har inte valt en bifogad fil för att hämta eller visa.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Den markerade Bilagan finns inte längre';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Den valda Bilagor har tagits bort.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Kunde inte ta bort Bilagor.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Bifogningsfunktionen är avaktiverad.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Katalogen \'%s\' finns inte eller kunde inte hittas.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Kontrollera att \'%s\' är en katalog.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Katalog \'%s\' är inte skrivbar. Du måste skapa uppladdningsvägen och ändra rättigheter till 777 (eller ändra ägaren till din httpd-server ägare) för att ladda upp filer.<br />Om du endast har vanlig FTP-åtkomst, ändra \'Attribut\' för katalogen till rwxrwxrwx.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Byte.';
-$lang['KB'] = 'KB.';
-$lang['MB'] = 'MB.';
-$lang['GB'] = 'GB.';
-$lang['ATTACH_SEARCH_QUERY'] = 'Sök bifogade filer.';
-$lang['TEST_SETTINGS'] = 'Inställningar för test.';
-$lang['NOT_ASSIGNED'] = 'Inte tilldelat.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registrerade';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'The distribution has the status of:';
 $lang['TOR_STATUS_CHANGED'] = 'Status changed: ';
 $lang['TOR_BACK'] = ' tillbaka';
 $lang['PROCEED'] = 'Gå vidare';
-$lang['INVALID_ATTACH_ID'] = 'Missing file identifier!';
 $lang['CHANGE_TOR_TYPE'] = 'Type of torrent successfully changed.';
 $lang['DEL_TORRENT'] = 'Är du säker på att du vill ta bort torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Are you sure you want to delete the torrent and move the topic?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Current.';
 $lang['SEARCH_DL_COMPLETE'] = 'Completed.';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Completed Downloads.';
 $lang['SEARCH_DL_CANCEL'] = 'Canceled.';
-$lang['CUR_DOWNLOADS'] = 'Current Downloads.';
 $lang['CUR_UPLOADS'] = 'Current Uploads.';
 $lang['SEARCH_RELEASES'] = 'Releases.';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent search options.';
 $lang['OPEN_TOPIC'] = 'Öppet ämne';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Posta torrents accepteras endast i första inlägget';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registrera torrents är endast tillåtet från första inlägget. ';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Kunde inte registrera torrent i detta forum.';
 $lang['ALREADY_REG'] = 'Torrent som redan är registrerat';
 $lang['NOT_TORRENT'] = 'Den här filen är inte torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Du kan endast registrera en torrent i ett ämne';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktiva torrents';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'bara nya ämnen';
 
 $lang['TORHELP_TITLE'] = 'Vänligen hjälp till att seeda dessa torrents!';
 $lang['STATISTICS'] = 'Statistik';
-$lang['STATISTIC'] = 'Statistik';
-$lang['VALUE'] = 'Värde';
 $lang['STATUS'] = 'Status';
-$lang['CHANGES'] = 'Förändringar';
 $lang['ACTION'] = 'Åtgärd';
 $lang['REASON'] = 'Skäl';
 $lang['COMMENT'] = 'Kommentar';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Kollaps katalog';
 $lang['EXPAND'] = 'Expandera';
 $lang['SWITCH'] = 'Byt.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Öka/minska fönstret';
-$lang['EMPTY_ATTACH_ID'] = 'Saknas filidentifierare!';
-$lang['TOR_NOT_FOUND'] = 'Fil saknas på servern!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'Innehållet i denna torrent-fil kan inte visas på sajten (det var inte möjligt att bygga en lista av filer)';
 $lang['TORFILE_INVALID'] = 'Torrent-filen är skadad';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Site" får endast innehålla http://sitename';
-$lang['INVALID_DATE'] = 'Ogiltigt datum';
 $lang['PROFILE_USER'] = 'Visa profil';
 $lang['GOOD_UPDATE'] = 'Ändrat.';
 $lang['UCP_DOWNLOADS'] = 'Nedladdningar';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Skicka meddelande';
 $lang['NEW_THREADS'] = 'Nya Trådar';
 $lang['PROFILE_NOT_FOUND'] = 'Profilen hittades inte.';
 
-$lang['USER_DELETE'] = 'Ta bort';
 $lang['USER_DELETE_EXPLAIN'] = 'Ta bort den här användaren';
 $lang['USER_DELETE_ME'] = 'Tyvärr är ditt konto förbjudet från att tas bort!';
 $lang['USER_DELETE_CSV'] = 'Tyvärr, detta konto får inte tas bort!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'på';
 $lang['OFF'] = 'Avstängd.';
 $lang['MEMORY'] = 'Minne: ';
 $lang['QUERIES'] = 'frågor';
-$lang['LIMIT'] = 'Gräns:';
 $lang['SHOW_LOG'] = 'Visa logg';
 $lang['EXPLAINED_LOG'] = 'Förklarad logg';
 $lang['CUT_LOG'] = 'Klipp långa frågor';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Gå till inlägget';
 $lang['PROFILE_EDIT_RETURN'] = 'Återgå till redigering';
 $lang['PROFILE_RETURN'] = 'Gå till profil';
 
-$lang['WARNING'] = 'Varning';
 $lang['INDEXER'] = 'Reindex sök';
 $lang['INDEXER_SUCCESS'] = 'Sökindex uppdaterades framgångsrikt';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Rangordningar';
 $lang['SMILIES'] = 'Smilys';
 $lang['BAN_MANAGEMENT'] = 'Förbudskontroll';
 $lang['WORD_CENSOR'] = 'Ordcensur';
-$lang['EXPORT'] = 'Exportera';
-$lang['CREATE_NEW'] = 'Skapa';
-$lang['ADD_NEW'] = 'Lägg till';
 $lang['CRON'] = 'Uppdragsplanerare (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Återskapa sökindex';
 $lang['FORUM_CONFIG'] = 'Foruminställningar';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Antal användare';
 $lang['USERS_PER_DAY'] = 'Användare per dag';
 $lang['BOARD_STARTED'] = 'Styrelsen startad';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar-katalogstorlek';
-$lang['DATABASE_SIZE'] = 'Databasens storlek';
 $lang['GZIP_COMPRESSION'] = 'Gzip-komprimering';
 $lang['NOT_AVAILABLE'] = 'Inte tillgänglig';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Klicka %sHär%s för att återvända till for
 $lang['BAN_CONTROL'] = 'Förbud-kontroll.';
 $lang['BAN_EXPLAIN'] = 'Här kan du kontrollera bannlysningsprocessen för användare.';
 $lang['BAN_USERNAME'] = 'Förbjuda en eller flera specifika användare.';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Du kan stänga av flera användare på en gång genom att använda lämplig kombination av mus och tangentbord till din dator och webbläsare.';
 $lang['UNBAN_USERNAME'] = 'Avblockera en eller flera specifika användare';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Du kan återställa flera användare på en gång genom att använda lämplig kombination av mus och tangentbord till din dator och webbläsare.';
 $lang['NO_BANNED_USERS'] = 'Inga bannlysta användarnamn.';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Webbplatsens namn.';
 $lang['SITE_DESC'] = 'Webbplats beskrivning.';
 $lang['FORUMS_DISABLE'] = 'Inaktivera styrelsen.';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Detta kommer att göra att styrelsen inte är tillgänglig för användare. Administratörer har åtkomst till administration panel medan styrelsen är inaktiverad.';
-$lang['ACC_NONE'] = 'Ingen.'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Användare.';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Ingen.';
 
 $lang['ABILITIES_SETTINGS'] = 'Användarens och Forum Grundläggande Inställningar';
 $lang['MAX_POLL_OPTIONS'] = 'Max antal omröstningsalternativ';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Ta bort';
 $lang['CONFIG_UPDATED'] = 'Forumkonfiguration har uppdaterats.';
 $lang['MOVE_UP'] = 'Flytta upp';
 $lang['MOVE_DOWN'] = 'Flytta ned';
-$lang['RESYNC'] = 'Synkronisera om';
 $lang['NO_MODE'] = 'Inget läge var inställt.';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formuläret nedan gör att du kan anpassa alla allmänna styrelsealternativ. För användar- och forumkonfigurationer använd de relaterade länkarna till vänster.';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Ta bort grupp.';
 $lang['GROUP_DELETE_CHECK'] = 'Ta bort den här gruppen.';
 $lang['NO_GROUP_NAME'] = 'Du måste ange ett namn för denna grupp';
 $lang['NO_GROUP_MODERATOR'] = 'Du måste ange en moderator för denna grupp';
-$lang['NO_GROUP_MODE'] = 'Du måste ange ett läge för denna grupp, som öppet eller stängt';
 $lang['NO_GROUP_ACTION'] = 'Ingen åtgärd angavs.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Ta bort den gamla gruppen moderator?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Om du ändrar gruppens moderator.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Leta upp gruppen';
 $lang['FORUM_PRUNE'] = 'Forum-beskärning.';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Detta kommer att ta bort alla ämnen som inte har varit inlagda under det antal dagar du väljer. Om du inte anger ett nummer kommer alla ämnen att tas bort. Det kommer inte att ta bort <b>klistrade</b> ämnen och <b>meddelanden</b>. Du kommer att behöva ta bort dessa ämnen manuellt.';
 $lang['DO_PRUNE'] = 'Gör Beskär';
-$lang['ALL_FORUMS'] = 'Alla Forum';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Beskär ämnen som inte har några svar under de angivna dagarna';
 $lang['TOPICS_PRUNED'] = 'Ämnen har beskärts';
 $lang['PRUNE_SUCCESS'] = 'Forumet har beskärts framgångsrikt';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Klicka %sHär%s för att återgå till Rankad
 $lang['DISALLOW_CONTROL'] = 'Kontroll av förbjudna användarnamn.';
 $lang['DISALLOW_EXPLAIN'] = 'Här kan du kontrollera användarnamn som inte får användas. Förbjudna användarnamn får innehålla jokertecknet *. Observera att du inte får ange något användarnamn som redan har registrerats. Du måste först ta bort det namnet och sedan förbjuda det.';
 
-$lang['DELETE_DISALLOW'] = 'Ta bort.';
 $lang['DELETE_DISALLOW_TITLE'] = 'Ta bort ett förbjudet användarnamn.';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Du kan ta bort ett förbjudet användarnamn genom att välja användarnamnet från denna lista och klicka på skicka.';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan ladda ner bilagor.';
 $lang['SF_SHOW_ON_INDEX'] = 'Visa på huvudsidan.';
 $lang['SF_PARENT_FORUM'] = 'Huvudforum.';
 $lang['SF_NO_PARENT'] = 'Inget föräldraforum.';
-$lang['TEMPLATE'] = 'Mall.';
 $lang['SYNC'] = 'Synk.';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'UPPMÄRKSAMHET! Frö Bonusar bör vara i stigande
 $lang['SEED_BONUS_EXCHANGE'] = 'Konfigurera Exchange Sid Bonusar';
 $lang['SEED_BONUS_ROPORTION'] = 'Andelen tillägg för utbyte av bonusar på GB';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Kontrollpanelen';
-$lang['EXTENSION_CONTROL'] = 'Förlängningskontroll';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Kontroll av förlängningsgrupper';
-$lang['SPECIAL_CATEGORIES'] = 'Särskilda Kategorier';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Bilaga Inställningar';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Här kan du konfigurera de Viktigaste Inställningarna för Fastsättning Mod. Om du trycker på Test-Knappen Inställningar, Kvarstad Mod gör några System Tester för att vara säker på att Mod kommer att fungera ordentligt. Om du har problem med att ladda upp Filer kan du köra det här Testet för att få en detaljerad fel-meddelande.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Inställningar för bilagans filstorlek';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Bilaga Antalet Inställningar';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Bilaga Alternativ';
-
-$lang['UPLOAD_DIRECTORY'] = 'Ladda Upp Katalogen';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Ange en relativ sökväg från din TorrentPier installation till Bilagor upload katalogen. Ange till exempel "filer" om din TorrentPier Installation ligger på https://www.yourdomain.com/torrentpier och den Bifogade filen Upload Katalogen ligger på https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Ikon för bilagor';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Denna Bild visas bredvid Bifogade Länkar i enskilda Inlägg. Lämna det här fältet tomt om du inte vill att en ikon ska visas. Denna Inställning kommer att skrivas över av de Inställningar som i Förlängningen Grupper Förvaltning.';
-$lang['ATTACH_TOPIC_ICON'] = 'Ikon för bilagans ämne';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Denna Bild visas innan ämnen med Bilagor. Lämna det här fältet tomt om du inte vill att en ikon ska visas.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Bifogad Fil Visas';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Här kan du välja om du vill visa bilagor i inlägg/privata meddelanden i fallande filtid ordning (nyaste bilaga först) eller i stigande filtid ordning (äldsta bilaga först).';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Filstorlek';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maximal filstorlek för Bifogade filer. Ett värde på 0 innebär "obegränsad". Denna Inställning är begränsad av din Server-Konfiguration. Till exempel, om din php-Konfiguration tillåter bara max 2 MB uppladdning, detta kan inte skrivas över av Mod.';
-$lang['MAX_FILESIZE_PM'] = 'Maximal Filstorlek i Privata Meddelanden-Mappen';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximala Utrymme som Bilagor kan använda upp i varje Användares Privata Meddelande-rutan. Ett värde på 0 innebär "obegränsad".';
-
-$lang['MAX_ATTACHMENTS'] = 'Maximalt Antal Bilagor';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Det maximala antalet bilagor accepteras i ett inlägg.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maximalt antal Bilagor i ett Privat Meddelande';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Definiera det maximala antalet bilagor som användaren får inkludera i ett privat meddelande.';
-
-$lang['DISABLE_MOD'] = 'Inaktivera Bilaga Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Detta alternativ är främst för att testa nya mallar eller teman; det inaktiverar alla bilagor funktioner förutom administratörspanelen.';
-$lang['PM_ATTACHMENTS'] = 'Tillåt bilagor i privata meddelanden';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Tillåt/tillåt inte bifoga filer i Privata Meddelanden.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Hantera Tillägg';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Här kan du hantera dina Filändelser. Om du vill tillåta/inte tillåta en Förlängning för att laddas upp, vänligen använd Förlängning Grupper Förvaltning.';
-$lang['EXPLANATION'] = 'Förklaring';
-$lang['EXTENSION_GROUP'] = 'Förlängning Grupp';
-$lang['EXTENSION_EXIST'] = 'Förlängning %s redan finns'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Hantera förlängningsgrupper';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Här kan du lägga till, ta bort och ändra din Förlängning Grupper, kan du inaktivera Tillägget Grupper, tilldela en särskild Kategori för dem, ändra ladda ner mekanism och du kan definiera Ladda upp en Ikon som kommer att visas framför en Bilaga som hör till Gruppen.';
-$lang['SPECIAL_CATEGORY'] = 'Särskild Kategori';
-$lang['CATEGORY_IMAGES'] = 'Bilder';
 $lang['ALLOWED'] = 'Tillåtna';
-$lang['ALLOWED_FORUMS'] = 'Tillåtna Forum';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Grupp Behörigheter';
-$lang['DOWNLOAD_MODE'] = 'Ladda Ner-Läge';
-$lang['UPLOAD_ICON'] = 'Ladda Upp Ikonen';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maximal Filstorlek';
-$lang['EXTENSION_GROUP_EXIST'] = 'Förlängning Grupp %s redan finns'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Hantera Speciella Kategorier';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Här kan du konfigurera de Särskilda Kategorierna. Du kan ställa in Särskilda Parametrar och Villkor för de Särskilda Kategorier som tilldelats en Förlängningsgrupp.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Inställningar för särskilda kategorier: Bilder';
-$lang['DISPLAY_INLINED'] = 'Visa bilder inline';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Välj om du vill visa bilder direkt i inlägg (ja), eller att visa bilder som en länk ?';
-$lang['MAX_IMAGE_SIZE'] = 'Maximal Bild Dimensioner';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Om den definierade dimensionen av en bild nås, kommer bilden att visas som en länk snarare än att visas inlined.';
-$lang['IMAGE_LINK_SIZE'] = 'Dimension för länkade bilder';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Om den definierade dimensionen för en bild nås, kommer bilden att visas som länk snarare än att visas inlined.';
-$lang['ASSIGNED_GROUP'] = 'Tilldelad grupp';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Skapa miniatyrbilder';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minsta filstorlek för miniatyrbild';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Om en bild är mindre än denna definierade filstorlek, kommer ingen förhandsvisning att skapas, eftersom den är tillräckligt liten.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Behörigheter för förlängningsgrupp → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Här har du möjlighet att begränsa den valda förlängningsgrupp till forum av ditt val (definierade i den tillåtna forumrutan). Standardinställningen är att tillåta förlängningsgrupper i alla forum som användaren kan bifoga filer i (det normala sättet bilagorna har fungerat sedan början).';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'OBS:<br />Inom det nedan listade forumet är dina användare normalt tillåtna att bifoga filer, men eftersom ingen förlängningsgrupp är tillåten där, kan dina användare inte bifoga något. Om de försöker kommer de att få felmeddelanden.';
-$lang['ADD_FORUMS'] = 'Lägg Till Forum';
-$lang['ADD_SELECTED'] = 'Lägg Till Markerade';
-$lang['PERM_ALL_FORUMS'] = 'ALLA FORUM';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Bifogad Fil Kontrollpanelen';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Här kan du se och hantera alla bifogade filer baserat på Användare, Bilagor, Åsikter osv...';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Använd * som jokertecken för partiella matchningar';
-$lang['SIZE_SMALLER_THAN'] = 'Bifogad fil storlek mindre än (byte)';
-$lang['SIZE_GREATER_THAN'] = 'Bifogad fil storlek större än (byte)';
-$lang['COUNT_SMALLER_THAN'] = 'Ladda ner antalet är mindre än';
-$lang['COUNT_GREATER_THAN'] = 'Ladda ner antalet är större än';
-$lang['MORE_DAYS_OLD'] = 'Mer än så här många dagar gammal';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Inga bifogade filer träffade dina sökkriterier';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Antal Bifogade filer';
-$lang['TOTAL_FILESIZE'] = 'Total filstorlek';
-$lang['NUMBER_POSTS_ATTACH'] = 'Antal Inlägg med Bilagor';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Antal Ämnen med Bilagor';
-$lang['NUMBER_USERS_ATTACH'] = 'Oberoende användare postar bifogade filer';
-$lang['NUMBER_PMS_ATTACH'] = 'Totalt Antal Bifogade filer i Privata Meddelanden';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Bilaga Statistik för %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Nedladdningar';
-$lang['POST_TIME'] = 'Inläggstid';
-$lang['POSTED_IN_TOPIC'] = 'Publicerat i Ämnet';
-$lang['SUBMIT_CHANGES'] = 'Skicka In Förändringar';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Bifogade filer';
-$lang['SORT_SIZE'] = 'Storlek';
-$lang['SORT_FILENAME'] = 'Filnamn';
-$lang['SORT_COMMENT'] = 'Kommentar';
-$lang['SORT_EXTENSION'] = 'Förlängning';
-$lang['SORT_DOWNLOADS'] = 'Nedladdningar';
-$lang['SORT_POSTTIME'] = 'Inläggstid';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistik';
-$lang['VIEW_SEARCH'] = 'Sök';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Bilaga konfiguration har uppdaterats.';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Klicka %sHär%s för att återgå till Bilaga konfiguration';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Inställningstestet är klart, konfigurationen verkar vara bra.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Bifogade filer';
-$lang['EXTENSIONS'] = 'Tillägg';
-$lang['EXTENSION'] = 'Förlängning';
-
 $lang['RETURN_CONFIG'] = '%sÅtergå till Konfiguration%s';
 $lang['CONFIG_UPD'] = 'Konfiguration Uppdaterats';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Ändra ämnesstatus till "Normal" medan
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Mall inaktiverad.';
 $lang['FOR_NEW_TEMPLATE'] = 'för nya mönster!';
-$lang['CHANGED'] = 'Ändrat';
-$lang['REMOVED'] = 'Bort';
 $lang['QUESTION'] = 'Bekräfta, är du säker på att du vill utföra denna åtgärd';
 
 $lang['CRON_LIST'] = 'Cron-lista.';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Tid';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Hur mycket tid (sekunder) efterbehandling kan pågå innan de går vidare till nästa cykel';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Din webbserver har en timeout på %s sekunder konfigurerad, så håll dig under detta värde</i>';
 
-$lang['DISABLE_BOARD'] = 'Inaktivera styrelsen';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Du senast avbröt behandlingen på post_id %s (%s bearbetade inlägg) på %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Du senast avbröt behandlingen på post_id %s (%s bearbetade inlägg) på %s';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Alla inlägg behandlades framgångsrikt.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Alla söktabeller har optimerats framgångsrikt.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Bearbetning inlägg';
-$lang['PERCENT'] = 'Procent';
 $lang['CURRENT_SESSION'] = 'Aktuell session';
 $lang['TOTAL'] = 'Totalt';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'från <b>%s</b> till <b>%s</b> (av totalt <b>%s</b>)
 $lang['PERCENT_COMPLETED'] = '%s % klar';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Detaljer om aktuell session';
-$lang['PROCESSING_TIME'] = 'Handläggningstiden';
 $lang['TIME_LAST_POSTS'] = 'Senaste %s inlägg';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Från början';
 $lang['TIME_AVERAGE'] = 'Snitt per cykel';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Alla åtgärder';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Åtgärdslogg: Sökalternativ';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Åtgärd';
-$lang['ACTS_LOG_USER'] = 'Användare';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Loggar från ';
 $lang['ACTS_LOG_FIRST'] = 'börjar med';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dagar tillbaka';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Släpp Mallar';
 $lang['RELEASES'] = 'Släpper';
 
 $lang['BACK'] = 'Tillbaka';
-$lang['ERROR_FORM'] = 'Ogiltigt fält';
 $lang['NEW_RELEASE'] = 'Ny utgåva';
 $lang['NEXT'] = 'Fortsätt';
-$lang['OTHER'] = 'Andra';
 $lang['ALL'] = 'Alla';
 
 $lang['TPL_EMPTY_FIELD'] = 'Du måste fylla i fältet <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Alternativ';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Varje rad motsvarar ett svar (max';
 
 $lang['OLD_BROWSER'] = 'Du använder en för gammal webbläsare. Webbplatsen kommer inte att visas korrekt.';
-$lang['GO_BACK'] = 'Gå tillbaka';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filuppladdning inaktiverad';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fel vid filuppladdning';

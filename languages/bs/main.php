@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Prikaži lozinku';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Autor';
-$lang['TIME'] = 'Vrijeme';
 $lang['MESSAGE'] = 'Poruka';
 $lang['TORRENT'] = 'Bujice';
 $lang['PERMISSIONS'] = 'Dozvole';
 $lang['TYPE'] = 'Tip';
-$lang['SEEDER'] = 'Seeder';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Dan';
 $lang['7_DAYS'] = '7 Dana';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Odgovori na temu';
 $lang['CLICK_RETURN_TOPIC'] = 'Klik %sOvde%s da se vrati na temu'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Klik %sOvde%s da se vrati u forum';
 $lang['CLICK_RETURN_MODCP'] = 'Klik %sOvde%s da se vrati u Moderator Kontrolnu Ploču';
-$lang['CLICK_RETURN_GROUP'] = 'Klik %sOvde%s da se vrati u grupu informacijama';
 
 $lang['ADMIN_PANEL'] = 'Idem u Administrativni Panel';
 $lang['ALL_CACHE_CLEARED'] = 'Keš je oslobođen';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Odaberite forum';
 $lang['DISPLAYING_OPTIONS'] = 'Opcije prikazivanja';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Registrirani korisnici:';
 $lang['BROWSING_FORUM'] = 'Korisnici koji pregledavaju ovaj forum:';
 $lang['ONLINE_USERS'] = 'U ukupno ima <b>%1$d</b> korisnici online: %2$d registrovani i %3$d gosti';
 $lang['RECORD_ONLINE_USERS'] = 'Najviše korisnika ikada online bilo je <b>%s</b> na %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Pogled na najnovije objave';
 $lang['SEARCH_SELF'] = 'Moje objave';
 $lang['SEARCH_SELF_BY_LAST'] = 'vrijeme poslednjeg objave';
 $lang['SEARCH_SELF_BY_MY'] = 'moje vreme postavljanja';
-$lang['SEARCH_UNANSWERED'] = 'Pogledaj neodgovorene objave';
 $lang['SEARCH_LATEST'] = 'Najnovije teme';
 $lang['LATEST_RELEASES'] = 'Najnovija izdanja';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Ukupna brzina: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Nema novih postova';
 $lang['NEW_POSTS'] = 'Novi postovi';
-$lang['NEW_POST'] = 'Novi post.';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum je zaključan';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Najnovije vijesti';
 $lang['NETWORK_NEWS'] = 'Mrežne vijesti';
 $lang['SUBFORUMS'] = 'Subforums';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Pogledaj forum';
-
 $lang['FORUM_NOT_EXIST'] = 'Odabrani forum ne postoji.';
 $lang['ERROR_PORNO_FORUM'] = 'Ova vrsta foruma (18+) je skrivena u vašem profilu.';
 
 $lang['DISPLAY_TOPICS'] = 'Prikaži teme';
-$lang['ALL_TOPICS'] = 'Sve Teme';
 $lang['MODERATE_FORUM'] = 'Moderiraj ovaj forum';
 $lang['TITLE_SEARCH_HINT'] = 'Potrazi naslov...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Možeš <b>moderirati</b> ovaj forum.';
 $lang['NO_TOPICS_POST_ONE'] = 'U ovom forumu još nema postova<br />Kliknite na <b>Nova Tema</b> ikonu, i vaš post će biti prvi.';
 $lang['NO_RELEASES_POST_ONE'] = 'U ovom forumu još nema izdanja<br />Kliknite na <b>Nova Izdanje</b> ikonu, i vaše izdanje će biti prvo.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Pogled temu';
-
 $lang['GUEST'] = 'Gost';
-$lang['POST_SUBJECT'] = 'Post temu';
 $lang['SUBMIT_VOTE'] = 'Dostavi glas.';
 
 $lang['NO_NEWER_TOPICS'] = 'Nema novijih tema u ovom forumu.';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Najnovije prvo.';
 $lang['OLDEST_FIRST'] = 'Najstarija prvo.';
 
 $lang['READ_PROFILE'] = 'Pogled na korisnikov profil.';
-$lang['DELETE_POST'] = 'Izbriši ovaj post.';
 
 $lang['WROTE'] = 'napisao'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Citat.'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Trebate odrediti naziv poruke.';
 $lang['INVALID_TOPIC_ID'] = 'Tema izostavljena!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Tema ne postoji u bazi podataka!';
 
-$lang['NOT_POST'] = 'Izostala poruka.';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Ne možete uređivati izdanja sa statusom.';
 
 $lang['OPTIONS'] = 'Opcije.';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Moraš navesti opciju kada glasaš.';
 $lang['LOCKED_WARN'] = 'Objavio si u zaključanoj temi!';
 
 $lang['ADD_POLL'] = 'Dodaj anketu';
-$lang['POLL_OPTION'] = 'Opcija ankete.';
 $lang['UPDATE'] = 'Ažurirati';
 $lang['DAYS'] = 'Dana';
 $lang['DELETE_POLL'] = 'Obriši anketu';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Dozvolite robotima indeksiranje ove teme';
 $lang['STORED'] = 'Tvoja poruka je uspješno unesena.';
 $lang['EDITED'] = 'Poruka je izmijenjena.';
 $lang['DELETED'] = 'Tvoja poruka je uspješno obrisana.';
-$lang['POLL_DELETE'] = 'Tvoja anketa je uspješno obrisana.';
 $lang['VOTE_CAST'] = 'Tvoj glas je bačen.';
 
 $lang['EMOTICONS'] = 'Emotikon.';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Inbox';
 $lang['OUTBOX'] = 'Izlazna pošta.';
 $lang['SAVEBOX'] = 'Spremi kutiju.';
 $lang['SENTBOX'] = 'Sent box.';
-$lang['FLAG'] = 'Zastava.';
 $lang['SUBJECT'] = 'Tema.';
 $lang['FROM'] = 'Od.';
 $lang['TO'] = 'Da.';
 $lang['DATE'] = 'Datum.';
-$lang['MARK'] = 'Znamka.';
 $lang['SENT'] = 'Poslano.';
 $lang['SAVED'] = 'Spasio.';
 $lang['DELETE_MARKED'] = 'Obriši označeno.';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Prikaži poruke.'; // Followed by number of days/we
 
 $lang['NO_MESSAGES_FOLDER'] = 'Nema poruka u ovom direktoriju.';
 
-$lang['PM_DISABLED'] = 'Privatne poruke su onemogućene na ovom forumu.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Žao mi je, ali administrator vam je zabranio slanje privatnih poruka.';
 $lang['NO_TO_USER'] = 'Moraš navesti korisničko ime kome da pošaljem ovu poruku.';
 $lang['NO_SUCH_USER'] = 'Žao mi je, ali takav korisnik ne postoji.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Uredi privatnu poruku.';
 
 $lang['FIND_USERNAME'] = 'Naći korisničko ime.';
 $lang['SELECT_USERNAME'] = 'Izaberi korisničko ime.';
-$lang['FIND'] = 'Naći.';
 $lang['NO_MATCH'] = 'Nema pronađenih podudaranja.';
 
 $lang['NO_PM_ID'] = 'Molimo navedite ID posta.';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Vaš račun je kreiran. Međutim, ovaj forum zahtev
 $lang['ACCOUNT_ACTIVE'] = 'Vaš račun je upravo aktiviran. Hvala vam na registraciji.';
 $lang['ALREADY_ACTIVATED'] = 'Već ste aktivirali svoj račun.';
 
-$lang['REGISTRATION'] = 'Uslovi registra.';
 
 $lang['WRONG_ACTIVATION'] = 'Aktivacioni ključ koji ste naveli ne odgovara nijednom u bazi podataka.';
-$lang['SEND_PASSWORD'] = 'Pošalji mi novu lozinku.';
 $lang['PASSWORD_UPDATED'] = 'Nova lozinka je kreirana; molimo vas da proverite svoju e-mail adresu za detalje kako da je aktivirate.';
 $lang['NO_EMAIL_MATCH'] = 'E-mail adresa koju ste uneli ne odgovara onoj koja je navedena za to korisničko ime.';
 $lang['PASSWORD_ACTIVATED'] = 'Vaš račun je ponovo aktiviran. Da biste se prijavili, koristite lozinku navedenu u e-mailu koji ste primili.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Oglasite se na ovoj stranici.';
 $lang['NOT_FOUND'] = 'Datoteka nije pronađena.';
 
 // Memberslist
-$lang['SORT'] = 'Sortiraj.';
 $lang['SORT_TOP_TEN'] = 'Deset najboljih poster.';
 $lang['SORT_JOINED'] = 'Datum pridruživanja.';
 $lang['SORT_USERNAME'] = 'Korisničko ime';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Ovoj grupi nema članova';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Ova grupa je sakrivena; ne možete vidjeti njeno članstvo.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Ovoj grupi nema članova na čekanju.';
 $lang['GROUP_JOINED'] = 'Uspješno ste se prijavili za ovu grupu.<br />Obavijestit ćete kada vaša prijava bude odobrena od strane moderatora grupe.';
-$lang['GROUP_REQUEST'] = 'Zahtjev za pridruživanje vašoj grupi je poslan.';
-$lang['GROUP_APPROVED'] = 'Vaš zahtjev je prihvaćen.';
-$lang['GROUP_ADDED'] = 'Bili ste dodati u ovu korisničku grupu.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Već si član ove grupe';
 $lang['USER_IS_MEMBER_GROUP'] = '%s je već član ove grupe';
 $lang['USER_IS_MOD_GROUP'] = '%s je moderator ove grupe';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Vaše članstvo u ovoj grupi je na čekanju.';
 $lang['ARE_GROUP_MODERATOR'] = 'Ti si moderator ove grupe.';
 $lang['NONE'] = 'Niko';
 
-$lang['SUBSCRIBE'] = 'Pretplatite se.';
 $lang['UNSUBSCRIBE_GROUP'] = 'Odjavite se.';
 $lang['MEMBERS_IN_GROUP'] = 'Članovi u grupi';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Ova grupa nije oslobodi grupi.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Potraži pomoć.';
-$lang['SEARCH_QUERY'] = 'Potraži upit.';
 $lang['SEARCH_OPTIONS'] = 'Potraži opcije.';
 
 $lang['SEARCH_WORDS'] = 'Potražite ključne riječi.';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Tema Titulu.';
 $lang['DISPLAY_RESULTS_AS'] = 'Prikaži rezultate kao.';
 $lang['ALL_AVAILABLE'] = 'Sve raspoložive';
 $lang['BRIEFLY'] = 'Kratko';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Nemate dozvolu za pretraživanje foruma na ovoj stranici.';
 
 $lang['NO_SEARCH_MATCH'] = 'Ne teme ni postovi nisu zadovoljili vaše kriterije pretrage.';
 $lang['FOUND_SEARCH_MATCH'] = 'Pretraživanje je našlo %d meč.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Pretraživanje je našlo %d odgovara.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Blizu prozora.';
-$lang['CLOSE'] = 'blizu';
 $lang['HIDE'] = 'sakrij';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Žao nam je, ali nisi ovlašten da pregledaš
 $lang['DESCRIPTION'] = 'Opis'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Preuzimanje'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Veličina datoteke';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Ekstenzija \'%s\' je deaktivirana od strane admina, stoga ovaj prilog nije prikazan.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Kopiraj link streama u clipboard';
 $lang['M3U_NOT_SUPPORTED'] = 'Ova datoteka se ne može reprodukovati u pretraživaču...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Izgleda da ffprobe neće moći da vrati podatke o ovom codec-u...';
 $lang['M3U_NOTICE'] = 'Neki pretraživači ne podržavaju reprodukciju određenih video formata. U takvim slučajevima možete preuzeti .m3u datoteku i reprodukovati je koristeći player treće strane';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Prilozi';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Nema privitka.';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Dodaj Prilog';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Dodaj privitak.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Ako ne želiš dodati privitak u tvoj post, molim te ostavi polja prazna.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Naziv datoteke.';
-$lang['FILE_COMMENT'] = 'Komentar o datoteci.';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Objavljeni prilozi.';
-$lang['UPDATE_COMMENT'] = 'Komentar o ažuriranju.';
 $lang['DELETE_ATTACHMENT'] = 'Obriši Prilog';
-$lang['DELETE_THUMBNAIL'] = 'Nema minijature za brisanje.';
-$lang['UPLOAD_NEW_VERSION'] = 'Učitaj novu verziju.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s je nevažeći naziv datoteke.'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Privitak je prevelik.<br />Nije moguće dobiti maksimalnu veličinu definiranu u PHP.<br />Modifikacija privitka nije u mogućnosti odrediti maksimalnu veličinu učitavanja definiranu u php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Privitak je prevelik.<br />Maksimalna veličina učitavanja: %d MB.<br />Imajte na umu da je ova veličina definirana u php.ini, što znači da je postavljena od strane PHP-a i modifikacija privitka ne može nadmašiti ovu vrijednost.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Produžni %s nije dozvoljen.'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nije ti dozvoljeno da postaviš datoteke sa nastavkom %s unutar ovog foruma.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Prilog je prevelik.<br />Maksimalna veličina: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Privitak se ne može dodati, budući da je dostignut maksimalni broj %d privitaka u ovom postu.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Privitak/slika mora biti manja od %d piksela širine i %d piksela visine.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Greška pri učitavanju: Nije moguće učitati privitak za %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Moraš unijeti vrijednosti u \'Dodaj privitak\' kutiji.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Nije moguće ažurirati privitak, nije moguće pronaći stari unos za privitak.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Nisi odabrao privitak za preuzimanje ili pregled.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Izabrani privitak više ne postoji.';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Izabrani dodaci su izbrisani.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Nije moguće izbrisati privitke.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Funkcija privitka je onemogućena.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Direktorij \'%s\' ne postoji ili ne može biti pronađen.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Molim te provjeri da li je \'%s\' direktorij.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Direktorij \'%s\' nije zapisiv'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Bajtova';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Pretraži priloge.';
-$lang['TEST_SETTINGS'] = 'Testiraj postavke.';
-$lang['NOT_ASSIGNED'] = 'Nije dodijeljeno.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Registriran.';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'Distribucija ima status:';
 $lang['TOR_STATUS_CHANGED'] = 'Status promijenjen: ';
 $lang['TOR_BACK'] = 'nazad';
 $lang['PROCEED'] = 'Nastavite';
-$lang['INVALID_ATTACH_ID'] = 'Nedostaje identifikator datoteke!';
 $lang['CHANGE_TOR_TYPE'] = 'Tip torrenta uspješno promijenjen.';
 $lang['DEL_TORRENT'] = 'Da li ste sigurni da želite obrisati torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Da li ste sigurni da želite obrisati i premjestiti temu?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Trenutni.';
 $lang['SEARCH_DL_COMPLETE'] = 'Završeni.';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Završeni preuzimanja.';
 $lang['SEARCH_DL_CANCEL'] = 'Otkaženo.';
-$lang['CUR_DOWNLOADS'] = 'Trenutni preuzimanja.';
 $lang['CUR_UPLOADS'] = 'Trenutni Uplati';
 $lang['SEARCH_RELEASES'] = 'Izdavanja';
 $lang['TOR_SEARCH_TITLE'] = 'Opcije pretrage bujica';
 $lang['OPEN_TOPIC'] = 'Otvorena tema';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Postavljanje bujice dozvoljeno samo u prvoj objavi';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Registracija bujica dozvoljena samo iz prve objave';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Nije moguće registrovati bujicu na ovom forumu';
 $lang['ALREADY_REG'] = 'Bujica je već registrovana';
 $lang['NOT_TORRENT'] = 'Ova datoteka nije bujica';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Možete registrovati samo jednu bujicu u jednoj temi';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktivne bujice';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'samo nove teme';
 
 $lang['TORHELP_TITLE'] = 'Molim te, pomozi s ovim torrentima!';
 $lang['STATISTICS'] = 'Statistika';
-$lang['STATISTIC'] = 'Statistika';
-$lang['VALUE'] = 'Vrijednost';
 $lang['STATUS'] = 'Status';
-$lang['CHANGES'] = 'Promjene';
 $lang['ACTION'] = 'Akcija';
 $lang['REASON'] = 'Razlog';
 $lang['COMMENT'] = 'Komentar';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Smanji direktorij';
 $lang['EXPAND'] = 'Proširi';
 $lang['SWITCH'] = 'Prekidač';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Povećaj/smanji prozor';
-$lang['EMPTY_ATTACH_ID'] = 'Nedostaje identifikator datoteke!';
-$lang['TOR_NOT_FOUND'] = 'Datoteka nedostaje sa servera!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'Sadržaj ovog torrent datoteka se ne može vidjeti na sajtu (nije moguće sastaviti listu datoteka)';
 $lang['TORFILE_INVALID'] = 'Torrent datoteka je oštećena';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"sajt" može sadržavati samo http://sitename';
-$lang['INVALID_DATE'] = 'Nevažeći datum';
 $lang['PROFILE_USER'] = 'Pregled profila';
 $lang['GOOD_UPDATE'] = 'uspješno je promijenio';
 $lang['UCP_DOWNLOADS'] = 'Preuzimanja';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Pošalji poruku';
 $lang['NEW_THREADS'] = 'Nove teme.';
 $lang['PROFILE_NOT_FOUND'] = 'Profil nije pronađen.';
 
-$lang['USER_DELETE'] = 'Obriši';
 $lang['USER_DELETE_EXPLAIN'] = 'Izbriši ovog korisnika.';
 $lang['USER_DELETE_ME'] = 'Žao mi je, vaš račun ne može biti uklonjen.';
 $lang['USER_DELETE_CSV'] = 'Žao mi je, ovaj račun ne može da bude obrisan.';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'na';
 $lang['OFF'] = 'isključeno';
 $lang['MEMORY'] = 'Memorija: ';
 $lang['QUERIES'] = 'upita';
-$lang['LIMIT'] = 'Limit:';
 $lang['SHOW_LOG'] = 'Prikaži log';
 $lang['EXPLAINED_LOG'] = 'Objašnjeni log';
 $lang['CUT_LOG'] = 'Skraćeni dugi upiti';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Idi na poštu.';
 $lang['PROFILE_EDIT_RETURN'] = 'Povratak na uređivanje.';
 $lang['PROFILE_RETURN'] = 'Idi na profil.';
 
-$lang['WARNING'] = 'Upozorenje';
 $lang['INDEXER'] = 'Reindex potragu';
 $lang['INDEXER_SUCCESS'] = 'Indeks pretraživača uspešno ažuriran';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Rangiranje.';
 $lang['SMILIES'] = 'Smajliji.';
 $lang['BAN_MANAGEMENT'] = 'Zabrana kontrole.';
 $lang['WORD_CENSOR'] = 'Cenzura reči.';
-$lang['EXPORT'] = 'Izvoz';
-$lang['CREATE_NEW'] = 'Stvoriti.';
-$lang['ADD_NEW'] = 'Dodaj';
 $lang['CRON'] = 'Zadaci Sekretaricu (cron).';
 $lang['REBUILD_SEARCH_INDEX'] = 'Obnova indeksa potrage.';
 $lang['FORUM_CONFIG'] = 'Forum postavke.';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Broj korisnika';
 $lang['USERS_PER_DAY'] = 'Korisnici po danu';
 $lang['BOARD_STARTED'] = 'Odbor je počeo';
 $lang['AVATAR_DIR_SIZE'] = 'Veličina direktorija avatara';
-$lang['DATABASE_SIZE'] = 'Veličina baze podataka';
 $lang['GZIP_COMPRESSION'] = 'Gzip kompresije';
 $lang['NOT_AVAILABLE'] = 'Nije dostupno';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Kliknite %sOvdje%s da se vratite u dozvole fo
 $lang['BAN_CONTROL'] = 'Kontrola zabrane';
 $lang['BAN_EXPLAIN'] = 'Ovdje možete kontrolirati zabranu korisnika.';
 $lang['BAN_USERNAME'] = 'Zabranite jednog ili više određenih korisnika';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Možete zabraniti više korisnika u isto vrijeme koristeći odgovarajuću kombinaciju miša i tastature za vaš računar i preglednik';
 $lang['UNBAN_USERNAME'] = 'Ukloni zabranu za jednog ili više specifičnih korisnika';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Možete ukloniti zabranu više korisnika u isto vrijeme koristeći odgovarajuću kombinaciju miša i tastature za vaš računar i preglednik';
 $lang['NO_BANNED_USERS'] = 'Nema zabranjenih korisničkih imena';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Naziv stranice';
 $lang['SITE_DESC'] = 'Opis stranice';
 $lang['FORUMS_DISABLE'] = 'Onemogući forum';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Ovo će forum učiniti nedostupnim korisnicima. Administratorima je omogućeno pristup upravljačkoj ploči dok je forum onemogućen.';
-$lang['ACC_NONE'] = 'Nema'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Korisnik';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Nema';
 
 $lang['ABILITIES_SETTINGS'] = 'Korisnika i Forum Osnovne Postavke';
 $lang['MAX_POLL_OPTIONS'] = 'Maksimalan broj opcija za anketu.';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Ukloni';
 $lang['CONFIG_UPDATED'] = 'Podešavanja foruma su uspešno ažurirana.';
 $lang['MOVE_UP'] = 'Pomeri nagore.';
 $lang['MOVE_DOWN'] = 'Pomeri nagore.';
-$lang['RESYNC'] = 'Re-sinkroniziraj';
 $lang['NO_MODE'] = 'Nije postavljen način.';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formular u nastavku će vam omogućiti da prilagodite sve opće opcije foruma. Za konfiguracije korisnika i foruma koristite odgovarajuće veze na lijevoj strani';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Obriši grupu.';
 $lang['GROUP_DELETE_CHECK'] = 'Obriši ovu grupu.';
 $lang['NO_GROUP_NAME'] = 'Moraš navesti ime za ovu grupu';
 $lang['NO_GROUP_MODERATOR'] = 'Moraš navesti moderator za ovu grupu';
-$lang['NO_GROUP_MODE'] = 'Moraš navesti modu za ovu grupu, otvoreno ili zatvoreno';
 $lang['NO_GROUP_ACTION'] = 'Nije postavljena nijedna akcija.';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Da li obrisati starog moderatora grupe?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Ako menjate moderatora grupe, čekirajte ovu kutiju da uklonite starog moderatora iz grupe.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Pogledaj grupu.';
 $lang['FORUM_PRUNE'] = 'Forum Prune';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Ovo će izbrisati bilo koju temu koja nije postavljena u broj dana koji odaberete. Ako ne unesete broj, sve teme će biti obrisane. To neće ukloniti <b>ljepljive</b> teme i <b>najave</b>. Trebat će da ih ručno uklonite.';
 $lang['DO_PRUNE'] = 'Izvrši Prune';
-$lang['ALL_FORUMS'] = 'Svi Forumi';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Prune teme bez odgovora u ovom broju dana';
 $lang['TOPICS_PRUNED'] = 'Teme su pročišćene';
 $lang['PRUNE_SUCCESS'] = 'Forum je uspješno očišćen';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Klik %sOvdje%s da se vratite u Administraciju
 $lang['DISALLOW_CONTROL'] = 'Kontrola zabranjenih korisničkih imena';
 $lang['DISALLOW_EXPLAIN'] = 'Ovdje možete kontrolirati korisnička imena koja neće biti dopuštena. Zabranjena korisnička imena mogu sadržavati džoker znak *. Imajte na umu da nećete moći navesti nijedno korisničko ime koje je već registrovano. Prvo morate obrisati to ime, a zatim ga zabraniti.';
 
-$lang['DELETE_DISALLOW'] = 'Obriši';
 $lang['DELETE_DISALLOW_TITLE'] = 'Ukloni zabranjeno korisničko ime';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Možete ukloniti zabranjeno korisničko ime odabirom korisničkog imena sa ove liste i klikom na pošaljite';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s može preuzeti priloge';
 $lang['SF_SHOW_ON_INDEX'] = 'Prikaži na glavnoj stranici';
 $lang['SF_PARENT_FORUM'] = 'Roditeljski forum';
 $lang['SF_NO_PARENT'] = 'Nema roditeljskog foruma';
-$lang['TEMPLATE'] = 'Šablon';
 $lang['SYNC'] = 'Sinhronizacija';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'PAŽNJA! Bonusi za seme trebaju biti u uzlaznom r
 $lang['SEED_BONUS_EXCHANGE'] = 'Konfigurišući zamjenu sid bonusa';
 $lang['SEED_BONUS_ROPORTION'] = 'Proporcionalno dodavanje za razmenu bonusa na GB';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Kontrolna Tabla';
-$lang['EXTENSION_CONTROL'] = 'Kontrola produžetka';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Kontrola grupa produžetaka';
-$lang['SPECIAL_CATEGORIES'] = 'Specijalni Kategorije';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Prilog Postavke';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Ovdje možete konfigurišete glavna podešavanja za modul priloga. Ako pritisnete dugme za testiranje podešavanja, modul priloga izvršava nekoliko sistemskih testova kako bi se osiguralo da modul funkcioniše ispravno. Ako imate problema sa slanjem datoteka, molim vas pokrenite ovaj test kako biste dobili detaljnu poruku o grešci.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Postavke veličine privitaka';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Prilog Broj Postavke';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Prilog Opcije';
-
-$lang['UPLOAD_DIRECTORY'] = 'Postavi Direktorij';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Unesite u odnosu put od svoje TorrentPier instalaciju u Prilozi ubaciti direktorij. Na primjer, ući \'datoteke\' ako ti TorrentPier Instalaciju se nalazi u https://www.yourdomain.com/torrentpier i Prilog Postavi se nalazi u Imenik https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Ikona za prikazivanje priloga';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Ova slika se prikazuje pored veza za priloge u pojedinačnim objavama. Ostavite ovo polje prazno ako ne želite da se ikona prikazuje. Ova postavka će biti prepisana postavkama u upravljanju grupama produžetaka.';
-$lang['ATTACH_TOPIC_ICON'] = 'Ikona teme priloga';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Ova slika se prikazuje pre tema sa prilozima. Ostavite ovo polje prazno ako ne želite da se ikona prikazuje.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Redoslijed prikazivanja priloga';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Ovde možete izabrati da li da prikazujete priloge u postovima/privatnim porukama u silaznom redoslijedu datoteke (najnoviji prilog prvi) ili uzlaznom redoslijedu datoteke (najstariji prilog prvi).';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Veličina datoteke';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimalna veličina datoteke za priloge. Vrijednost 0 znači \'neograničeno\'. Ova postavka je ograničena vašom konfiguracijom servera. Na primjer, ako vaša PHP konfiguracija dozvoljava samo maksimalne 2 MB za učitavanje, ovo se ne može prepisati.';
-$lang['MAX_FILESIZE_PM'] = 'Maksimalna veličina datoteke u direktorijumu privatnih poruka';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimalna diskovna prostor koju prilozima mogu zauzeti u privatnoj poruci svakog korisnika. Vrijednost 0 znači \'neograničeno\'.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maksimalni Broj Prilozi';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimalni broj priloga dozvoljenih u jednom postu.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maksimalni broj priloga u jednoj privatnoj poruci.';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Definišite maksimalni broj priloga koje korisnik može uključiti u privatnu poruku.';
-
-$lang['DISABLE_MOD'] = 'Onesposobite Prilog Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Ova opcija je uglavnom za testiranje novih predložaka ili tema, isključuje sve funkcije priloga osim administratorske ploče.';
-$lang['PM_ATTACHMENTS'] = 'Dozvoliti priloge u privatnim porukama.';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Dozvoliti/Onemogućiti dodavanje datoteka u privatne poruke.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Snaći Ekstenzije';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Ovde možete upravljati svojim ekstenzijama datoteka. Ako želite da dozvolite/onemogućite ekstenziju za učitavanje, molimo vas da koristite upravljanje grupama ekstenzija.';
-$lang['EXPLANATION'] = 'Objašnjenje';
-$lang['EXTENSION_GROUP'] = 'Grupa produžetaka';
-$lang['EXTENSION_EXIST'] = 'Produžetak %s već postoji.'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Upravljanje grupama produžetaka';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Ovde možete dodati, obrisati i izmeniti svoje grupe produžetaka, možete onemogućiti grupe produžetaka, dodeliti im posebnu kategoriju, promeniti mehanizam preuzimanja i možete definisati ikonu za učitavanje koja će biti prikazana ispred priloga koji pripada grupi.';
-$lang['SPECIAL_CATEGORY'] = 'Specijalni Kategorija';
-$lang['CATEGORY_IMAGES'] = 'Slike';
 $lang['ALLOWED'] = 'Dopušteno';
-$lang['ALLOWED_FORUMS'] = 'Dozvoljeno Forumima';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Grupa Dozvole';
-$lang['DOWNLOAD_MODE'] = 'Način preuzimanja.';
-$lang['UPLOAD_ICON'] = 'Ikona za učitavanje';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maksimalna veličina.';
-$lang['EXTENSION_GROUP_EXIST'] = 'Grupa produžetak %s već postoji.'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Upravljanje posebnim kategorijama.';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Ovdje možete konfigurirati posebne kategorije. Možete postaviti posebne parametre i uslove za posebne kategorije dodijeljene proširenju grupe.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Postavke za posebne kategorije: slike.';
-$lang['DISPLAY_INLINED'] = 'Prikaži slike u liniji';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Izaberi da li da se slike prikazuju direktno u postu (da) ili da se slike prikazuju kao veza?';
-$lang['MAX_IMAGE_SIZE'] = 'Maksimalne dimenzije slika.';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Ovdje možete definirati maksimalne dozvoljene dimenzije slike koja se može priložiti (širina x visina u pikselima). Ako je postavljeno na 0x0, ova funkcija je onemogućena. Sa nekim slikama ova funkcija neće raditi zbog ograničenja u PHP-u.';
-$lang['IMAGE_LINK_SIZE'] = 'Dimenzije veze slike.';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Ako se dostigne ova definisana dimenzija slike, slika će se prikazati kao veza, umesto da se prikaže direktno, ako je omogućeno prikazivanje (širina x visina u pikselima). Ako je postavljeno na 0x0, ova funkcija je onemogućena. Sa nekim slikama ova funkcija neće raditi zbog ograničenja u PHP-u.';
-$lang['ASSIGNED_GROUP'] = 'Dodijeljena grupa.';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Stvoriti sličicu.';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimalna veličina datoteke za sličicu';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ako je slika manja od ove definirane veličine datoteke, sličica neće biti kreirana, jer je dovoljno mala.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Dozvole grupe ekstenzija → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Ovde možete ograničiti izabranu grupu produžetaka na forume vašeg izbora (definisane u kutiji Dozvoljeni forumi). Podrazumevana je da se grupama produžetaka dozvoli rad u svim forumima u koje korisnik može da priključi datoteke (na normalan način na koji je to mod priloga radio od početka). Samo dodajte forume koje želite da grupa produžetaka (ekstenzije unutar ove grupe) bude dozvoljena, a podrazumevani SVI FORUMI će nestati kada dodate forume na listu. U bilo kojem trenutku možete ponovo dodati SVE FORUMIMA. Ako dodate forum u vašu grupu i dozvola je postavljena na SVE FORUMIMA, ništa se neće promeniti. Ali ako ste promenili i ograničili pristup određenim forumima, morate se ovde vratiti i dodati svoj novostvoreni forum. Ovo je lako automatski učiniti, ali će vas primorati da izmenite gomilu datoteka, zato sam odabrao ovako. Molim vas, imajte na umu da će svi vaši forumi biti ovde navedeni.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'NAPOMENA:<br />U okviru foruma navedenih ispod, vaši korisnici obično mogu da prilažu datoteke, ali pošto nijedna grupa ekstenzija nije dozvoljena da se prikači, vaši korisnici ne mogu priložiti ništa. Ako pokušaju, dobiće poruke o grešci. Možda želite da postavite dozvolu \'Postavite datoteke\' na ADMIN na ovim forumima.<br /><br />';
-$lang['ADD_FORUMS'] = 'Dodaj forume.';
-$lang['ADD_SELECTED'] = 'Dodaj odabrane.';
-$lang['PERM_ALL_FORUMS'] = 'SVE FORUMIMA';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Kontrolna tabla za povezivanje.';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Ovde možete pregledati i upravljati svim prilozima na osnovu korisnika, priloga, pregleda itd... ';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Koristite * kao zamenu za delimične podudarnosti.';
-$lang['SIZE_SMALLER_THAN'] = 'Veličina priloga manja od (bajtova).';
-$lang['SIZE_GREATER_THAN'] = 'Veličina priloga veća od (bajtova).';
-$lang['COUNT_SMALLER_THAN'] = 'Broj preuzimanja manji od.';
-$lang['COUNT_GREATER_THAN'] = 'Broj preuzimanja veći od.';
-$lang['MORE_DAYS_OLD'] = 'Stariji od ovog broja dana.';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Nema priloga koji zadovoljavaju vaše kriterije pretrage.';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Broj priloga.';
-$lang['TOTAL_FILESIZE'] = 'Ukupna veličina datoteke';
-$lang['NUMBER_POSTS_ATTACH'] = 'Broj postova sa prilozima.';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Broj tema sa prilozima.';
-$lang['NUMBER_USERS_ATTACH'] = 'Nezavisni korisnici koji su postavili priloge.';
-$lang['NUMBER_PMS_ATTACH'] = 'Ukupan broj priloga u privatnim porukama';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Prilog Statistike za %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Skidanja';
-$lang['POST_TIME'] = 'Vrijeme objave';
-$lang['POSTED_IN_TOPIC'] = 'Postavio u Temu';
-$lang['SUBMIT_CHANGES'] = 'Sačuvaj promjene';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Prilozi';
-$lang['SORT_SIZE'] = 'Veličina';
-$lang['SORT_FILENAME'] = 'Naziv datoteke';
-$lang['SORT_COMMENT'] = 'Komentar';
-$lang['SORT_EXTENSION'] = 'Produžetak';
-$lang['SORT_DOWNLOADS'] = 'Preuzimanja';
-$lang['SORT_POSTTIME'] = 'Vrijeme objave';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistika';
-$lang['VIEW_SEARCH'] = 'Pretraži';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Podešavanje priloga je uspješno ažurirano.';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Kliknite %sOvde%s da se vratite na podešavanje priloga.';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Testiranje postavki je završeno, konfiguracija izgleda u redu.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Prilozi';
-$lang['EXTENSIONS'] = 'Ekstenzije';
-$lang['EXTENSION'] = 'Produžetak';
-
 $lang['RETURN_CONFIG'] = '%sVratite se na podešavanje%s';
 $lang['CONFIG_UPD'] = 'Konfiguracija je uspješno ažurirana.';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Promijeni status teme u "Normalno" pril
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Šablon onemogućen.';
 $lang['FOR_NEW_TEMPLATE'] = 'Za nove uzorke!';
-$lang['CHANGED'] = 'Promijenjeno.';
-$lang['REMOVED'] = 'Uklonjeno.';
 $lang['QUESTION'] = 'Potvrdi, jesi li siguran da želiš izvršiti ovu radnju';
 
 $lang['CRON_LIST'] = 'Cron lista.';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Vremenskog ograničenja';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Koliko vremena (u sekundama) obrada postova može trajati prije prelaska na sljedeći ciklus';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Vaš web server ima timeout od %s sekundi konfigurisan, pa ostanite ispod ove vrednosti</i>';
 
-$lang['DISABLE_BOARD'] = 'Onesposobite odbor';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Poslednji put ste zaustavili obradu na post_id %s (%s obrađenih postova) na %s.';
 $lang['INFO_PROCESSING_ABORTED'] = 'Poslednji put ste prekinuli obradu na post_id %s (%s obrađenih postova) na %s.';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Svi postovi su uspešno obrađeni.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Sve pretraživačke tabele su uspešno optimizovane.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Obradu post';
-$lang['PERCENT'] = 'Posto';
 $lang['CURRENT_SESSION'] = 'Trenutna Sesija';
 $lang['TOTAL'] = 'Ukupno';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'od <b>%s</b> da <b>%s</b> (od ukupnog <b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %% završeno';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Detalji trenutne sesije';
-$lang['PROCESSING_TIME'] = 'Vreme obrade';
 $lang['TIME_LAST_POSTS'] = 'Poslednjih %s postova';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Od početka';
 $lang['TIME_AVERAGE'] = 'Prosečan po ciklusu';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Sve akcije';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Akcije Dnevnik: Opcije pretrage';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Akciju';
-$lang['ACTS_LOG_USER'] = 'Korisnik';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Logove sa ';
 $lang['ACTS_LOG_FIRST'] = 'počinju sa';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dana';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Šabloni za oslobađanje';
 $lang['RELEASES'] = 'Oslobađanja';
 
 $lang['BACK'] = 'Nazad';
-$lang['ERROR_FORM'] = 'Nevažeća polja';
 $lang['NEW_RELEASE'] = 'Novo izdanje';
 $lang['NEXT'] = 'Nastavi';
-$lang['OTHER'] = 'Drugi';
 $lang['ALL'] = 'Sve';
 
 $lang['TPL_EMPTY_FIELD'] = 'Moraš ispuniti polje <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Opcije.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Svaki red odgovara jednom odgovoru (max.';
 
 $lang['OLD_BROWSER'] = 'Koristite zastarjelu preglednik. Web stranica se neće ispravno prikazati.';
-$lang['GO_BACK'] = 'Idite nazad.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Učitavanje datoteka onemogućeno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Greška prilikom učitavanja datoteke.';

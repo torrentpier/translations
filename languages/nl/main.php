@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Toon wachtwoord';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Auteur';
-$lang['TIME'] = 'Tijd';
 $lang['MESSAGE'] = 'Bericht';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Machtigingen';
 $lang['TYPE'] = 'Type';
-$lang['SEEDER'] = 'Zaaimachine';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Dag';
 $lang['7_DAYS'] = '7 Dagen';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Reageer op dit onderwerp';
 $lang['CLICK_RETURN_TOPIC'] = 'Klik op %sHere%s om terug te keren naar het onderwerp'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Klik op %sHere%s om terug te keren naar het forum';
 $lang['CLICK_RETURN_MODCP'] = 'Klik op %sHere%s om terug te keren naar Moderator Controle Paneel';
-$lang['CLICK_RETURN_GROUP'] = 'Klik op %sHere%s om terug te keren naar groep informatie';
 
 $lang['ADMIN_PANEL'] = 'Ga naar het Administratie Paneel';
 $lang['ALL_CACHE_CLEARED'] = 'De cache is gewist.';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Selecteer forum';
 $lang['DISPLAYING_OPTIONS'] = 'Weergave opties';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Geregistreerde Gebruikers:';
 $lang['BROWSING_FORUM'] = 'Gebruikers op dit forum:';
 $lang['ONLINE_USERS'] = 'In totaal zijn er <b>%1$d</b> gebruikers online: %2$d geregistreerd en %3$d gasten';
 $lang['RECORD_ONLINE_USERS'] = 'De meeste gebruikers ooit online was <b>%s</b> op %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Bekijk de nieuwste berichten';
 $lang['SEARCH_SELF'] = 'Mijn berichten';
 $lang['SEARCH_SELF_BY_LAST'] = 'Laatste bericht tijd.';
 $lang['SEARCH_SELF_BY_MY'] = 'Mijn post tijd.';
-$lang['SEARCH_UNANSWERED'] = 'Bekijk onbeantwoorde berichten';
 $lang['SEARCH_LATEST'] = 'Laatste onderwerpen';
 $lang['LATEST_RELEASES'] = 'Nieuwste releases';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Totale snelheid: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Geen nieuwe posts';
 $lang['NEW_POSTS'] = 'Nieuwe berichten';
-$lang['NEW_POST'] = 'Nieuwe post';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum is gesloten';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Laatste nieuws';
 $lang['NETWORK_NEWS'] = 'Netwerk-nieuws';
 $lang['SUBFORUMS'] = 'Subforums';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Bekijk Forum';
-
 $lang['FORUM_NOT_EXIST'] = 'Het forum dat u hebt geselecteerd bestaat niet.';
 $lang['ERROR_PORNO_FORUM'] = 'Dit type forum (18+) is door u verborgen in uw profiel.';
 
 $lang['DISPLAY_TOPICS'] = 'Onderwerpen weergeven.';
-$lang['ALL_TOPICS'] = 'Alle Onderwerpen';
 $lang['MODERATE_FORUM'] = 'Matige dit forum';
 $lang['TITLE_SEARCH_HINT'] = 'zoeken op titel...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'U <b>can</b> matige dit forum';
 $lang['NO_TOPICS_POST_ONE'] = 'Er zijn nog geen berichten in dit forum<br />Klik op het <b>Nieuw Onderwerp</b> pictogram, en je post zal de eerste zijn.';
 $lang['NO_RELEASES_POST_ONE'] = 'Er zijn nog geen releases in dit forum<br />Klik op het <b>Nieuwe Release</b> pictogram, en je release zal de eerste zijn.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Bekijk onderwerp';
-
 $lang['GUEST'] = 'Gast';
-$lang['POST_SUBJECT'] = 'Bericht onderwerp.';
 $lang['SUBMIT_VOTE'] = 'Stem indienen.';
 
 $lang['NO_NEWER_TOPICS'] = 'Er zijn geen nieuwere topics in dit forum';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Nieuwste eerst.';
 $lang['OLDEST_FIRST'] = 'Oudste eerst.';
 
 $lang['READ_PROFILE'] = 'Bekijk het profiel van de gebruiker.';
-$lang['DELETE_POST'] = 'Verwijder deze post';
 
 $lang['WROTE'] = 'schreef'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Quote'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'U moet opgeven berichttitel.';
 $lang['INVALID_TOPIC_ID'] = 'Onderwerp Afwezig!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Onderwerp bestaat niet in de database!';
 
-$lang['NOT_POST'] = 'Afwezig Bericht.';
 $lang['NOT_EDIT_TOR_STATUS'] = 'U kunt niet bewerk release met de status.';
 
 $lang['OPTIONS'] = 'Opties';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'U moet een optie opgeven bij het stemmen.';
 $lang['LOCKED_WARN'] = 'U heeft gepost in een gesloten onderwerp!';
 
 $lang['ADD_POLL'] = 'Een poll toevoegen';
-$lang['POLL_OPTION'] = 'Poll optie';
 $lang['UPDATE'] = 'Update';
 $lang['DAYS'] = 'Dagen';
 $lang['DELETE_POLL'] = 'Poll verwijderen';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Sta robots toe deze discussie te indexeren';
 $lang['STORED'] = 'Uw bericht werd met succes ingevoerd.';
 $lang['EDITED'] = 'Het bericht is gewijzigd';
 $lang['DELETED'] = 'Uw bericht is succesvol verwijderd.';
-$lang['POLL_DELETE'] = 'Uw poll is met succes verwijderd.';
 $lang['VOTE_CAST'] = 'Uw stem is uitgebracht.';
 
 $lang['EMOTICONS'] = 'Emoticons';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Postvak in';
 $lang['OUTBOX'] = 'Outbox';
 $lang['SAVEBOX'] = 'Savebox';
 $lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = 'Vlag';
 $lang['SUBJECT'] = 'Onderwerp';
 $lang['FROM'] = 'Van';
 $lang['TO'] = 'Naar';
 $lang['DATE'] = 'Datum';
-$lang['MARK'] = 'Mark';
 $lang['SENT'] = 'Verzonden';
 $lang['SAVED'] = 'Opgeslagen';
 $lang['DELETE_MARKED'] = 'Gemarkeerde verwijderen.';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Berichten weergeven (display messages).'; // Follow
 
 $lang['NO_MESSAGES_FOLDER'] = 'Er zijn geen berichten in deze map';
 
-$lang['PM_DISABLED'] = 'Privé berichten is uitgeschakeld op dit forum.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Sorry, maar de beheerder heeft u verhinderd van het versturen van privé-berichten.';
 $lang['NO_TO_USER'] = 'U moet een gebruikersnaam opgeven aan wie dit bericht te verzenden.';
 $lang['NO_SUCH_USER'] = 'Sorry, maar de gebruiker bestaat niet.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Bewerk privé-bericht.';
 
 $lang['FIND_USERNAME'] = 'Zoek een gebruikersnaam.';
 $lang['SELECT_USERNAME'] = 'Selecteer een gebruikersnaam.';
-$lang['FIND'] = 'Zoeken';
 $lang['NO_MATCH'] = 'Geen overeenkomsten gevonden.';
 
 $lang['NO_PM_ID'] = 'Geef een bericht-ID op.';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Uw account is aangemaakt. Dit forum vereist echter 
 $lang['ACCOUNT_ACTIVE'] = 'Uw account is net geactiveerd. Bedankt voor je registratie';
 $lang['ALREADY_ACTIVATED'] = 'U hebt uw account al geactiveerd.';
 
-$lang['REGISTRATION'] = 'Registratie Voorwaarden';
 
 $lang['WRONG_ACTIVATION'] = 'De door u opgegeven activeringssleutel komt niet overeen met die in de database.';
-$lang['SEND_PASSWORD'] = 'Stuur mij een nieuw wachtwoord';
 $lang['PASSWORD_UPDATED'] = 'Een nieuw wachtwoord is aangemaakt; controleer uw e-mail voor details over hoe u het kunt activeren.';
 $lang['NO_EMAIL_MATCH'] = 'Het e-mailadres dat u hebt opgegeven, komt niet overeen met die van de betreffende gebruikersnaam.';
 $lang['PASSWORD_ACTIVATED'] = 'Uw account werd opnieuw geactiveerd. Om in te loggen, gebruik dan het wachtwoord in de e-mail die u hebt ontvangen.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Adverteren op deze site';
 $lang['NOT_FOUND'] = 'Bestand niet gevonden';
 
 // Memberslist
-$lang['SORT'] = 'Sorteren';
 $lang['SORT_TOP_TEN'] = 'Top Tien Posters';
 $lang['SORT_JOINED'] = 'Datum van toetreding';
 $lang['SORT_USERNAME'] = 'Gebruikersnaam';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Deze groep heeft geen leden';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Deze groep is verborgen; je kunt niet de leden bekijken.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Deze groep heeft geen openstaande leden.';
 $lang['GROUP_JOINED'] = 'U bent succesvol aangemeld voor deze groep.<br />U wordt op de hoogte gesteld wanneer uw aanmelding is goedgekeurd door de groepsmoderator.';
-$lang['GROUP_REQUEST'] = 'Er is een verzoek ingediend om lid te worden van uw groep.';
-$lang['GROUP_APPROVED'] = 'Uw aanvraag is goedgekeurd.';
-$lang['GROUP_ADDED'] = 'Je bent toegevoegd aan deze gebruikersgroep.';
 $lang['ALREADY_MEMBER_GROUP'] = 'U bent al lid van deze groep.';
 $lang['USER_IS_MEMBER_GROUP'] = '%s is al lid van deze groep';
 $lang['USER_IS_MOD_GROUP'] = '%s is een moderator van deze groep';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Uw lidmaatschap van deze groep is in behandeling.
 $lang['ARE_GROUP_MODERATOR'] = 'Bent u de moderator van de groep?';
 $lang['NONE'] = 'Geen';
 
-$lang['SUBSCRIBE'] = 'Inschrijven.';
 $lang['UNSUBSCRIBE_GROUP'] = 'Uitschrijven';
 $lang['MEMBERS_IN_GROUP'] = 'Leden in de groep';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Deze groep is geen releasegroep.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Zoek Hulp';
-$lang['SEARCH_QUERY'] = 'Zoekopdracht.';
 $lang['SEARCH_OPTIONS'] = 'Zoekopties.';
 
 $lang['SEARCH_WORDS'] = 'Zoeken op trefwoorden.';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Onderwerp Titel.';
 $lang['DISPLAY_RESULTS_AS'] = 'Toon resultaten als.';
 $lang['ALL_AVAILABLE'] = 'Alle beschikbare.';
 $lang['BRIEFLY'] = 'In het kort.';
-$lang['NO_SEARCHABLE_FORUMS'] = 'U hebt geen machtigingen om te zoeken in het forum op deze site.';
 
 $lang['NO_SEARCH_MATCH'] = 'Geen onderwerpen of berichten voldaan aan uw zoekcriteria.';
 $lang['FOUND_SEARCH_MATCH'] = 'Zoekopdracht gevonden %d match.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Zoekopdracht gevonden %d wedstrijden.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Venster sluiten.';
-$lang['CLOSE'] = 'sluiten.';
 $lang['HIDE'] = 'verbergen.';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sorry, maar u bent niet gemachtigd om te beki
 $lang['DESCRIPTION'] = 'Beschrijving'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Downloaden'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Bestandsgrootte';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'De extensie \'%s\' is gedeactiveerd door een board-admin, daarom wordt deze bijlage niet weergegeven.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stroom.';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Kopieer streamlink naar klembord';
 $lang['M3U_NOT_SUPPORTED'] = 'Dit bestand kan niet in de browser worden afgespeeld...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Het lijkt erop dat ffprobe geen gegevens over deze codec kan retourneren...';
 $lang['M3U_NOTICE'] = 'Sommige browsers ondersteunen geen afspelen van bepaalde videoformaten. In dat geval kunt u het .m3u-bestand downloaden en het afspelen met een externe speler';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Bijlagen';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Bijlagen miniatuur.';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Bijlage toevoegen.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Een bijlage toevoegen.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Als u geen bijlage wilt toevoegen aan uw bericht, laat dan de velden leeg.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Bestandsnaam';
-$lang['FILE_COMMENT'] = 'Bestandsopmerking.';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Geplaatste bijlagen.';
-$lang['UPDATE_COMMENT'] = 'Update opmerking.';
 $lang['DELETE_ATTACHMENT'] = 'Bijlage verwijderen.';
-$lang['DELETE_THUMBNAIL'] = 'Verwijder miniatuur.';
-$lang['UPLOAD_NEW_VERSION'] = 'Nieuwe versie uploaden.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s is een ongeldige bestandsnaam'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'De bijlage is te groot.<br />De maximale grootte gedefinieerd in PHP kon niet worden verkregen.<br />De bijlagen-mod kan de maximale uploadgrootte die in de php.ini is gedefinieerd, niet bepalen.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'De bijlage is te groot.<br />Maximale uploadgrootte: %d MB.<br />Houd er rekening mee dat deze grootte is gedefinieerd in php.ini, dit betekent dat het door PHP is ingesteld en de bijlagen-mod deze waarde niet kan overschrijven.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'De extensie %s is niet toegestaan.'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'U mag geen bestanden met de extensie %s in dit forum posten.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'De Bijlage is te groot.<br />Max Grootte: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Bijlage kan niet worden toegevoegd, aangezien het maximale aantal van %d bijlagen in deze post is bereikt.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'De bijlage/afbeelding moet kleiner zijn dan %d pixels breed en %d pixels hoog.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Uploadfout: kan bijlage niet uploaden naar %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'U moet waarden invoeren in de \'Voeg een bijlage toe\' box.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Kon bijlage niet bijwerken, kon de oude bijlage-invoer niet vinden.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'U hebt geen bijlage geselecteerd om te downloaden of te bekijken.';
 $lang['ERROR_NO_ATTACHMENT'] = 'De geselecteerde bijlage bestaat niet meer.';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'De geselecteerde Bijlagen zijn verwijderd.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Kon bijlagen niet verwijderen.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'De Bijlage Functie is uitgeschakeld.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'De Directory \'%s\' bestaat niet of Kan niet worden gevonden.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Gelieve te controleren of \'%s\' een directory is.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'De map \'%s\' is niet schrijfbaar. U moet het uploadpad aanmaken en de rechten wijzigen naar 777 (of de eigenaar wijzigen naar de eigenaar van uw httpd-server) om bestanden te uploaden.<br />Als u alleen eenvoudige FTP-toegang hebt, wijzigt u het \'Attribuut\' van de directory in rwxrwxrwx.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Bytes';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Zoek Bijlagen';
-$lang['TEST_SETTINGS'] = 'Instellingen Testen';
-$lang['NOT_ASSIGNED'] = 'Niet Toegewezen';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Geregistreerd.';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'De distributie heeft de status van:';
 $lang['TOR_STATUS_CHANGED'] = 'De status is veranderd: ';
 $lang['TOR_BACK'] = ' terug';
 $lang['PROCEED'] = 'Ga verder';
-$lang['INVALID_ATTACH_ID'] = 'Ontbrekende bestandsnaam!';
 $lang['CHANGE_TOR_TYPE'] = 'Typ de torrent succesvol gewijzigd.';
 $lang['DEL_TORRENT'] = 'Weet u zeker dat u de torrent wilt verwijderen?';
 $lang['DEL_MOVE_TORRENT'] = 'Weet u zeker dat u wilt verwijderen en het onderwerp verplaatsen?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Huidige.';
 $lang['SEARCH_DL_COMPLETE'] = 'Voltooid.';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Voltooid Downloads.';
 $lang['SEARCH_DL_CANCEL'] = 'Geannuleerd.';
-$lang['CUR_DOWNLOADS'] = 'De Huidige Downloads.';
 $lang['CUR_UPLOADS'] = 'Huidige Uploads.';
 $lang['SEARCH_RELEASES'] = 'Persberichten.';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent zoek opties.';
 $lang['OPEN_TOPIC'] = 'Open onderwerp.';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Het plaatsen van torrents alleen toegestaan in de eerste post';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Het registreren van torrents alleen toegestaan vanaf de eerste post';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Kan deze torrent niet registreren in dit forum.';
 $lang['ALREADY_REG'] = 'Torrent al geregistreerd';
 $lang['NOT_TORRENT'] = 'Dit bestand is niet torrent';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'U kunt slechts één torrent registreren in één onderwerp.';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profiel';
 $lang['CUR_ACTIVE_DLS'] = 'Actieve torrents';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'alleen nieuwe onderwerpen';
 
 $lang['TORHELP_TITLE'] = 'Gelieve te helpen zaaien deze torrents!';
 $lang['STATISTICS'] = 'Statistieken';
-$lang['STATISTIC'] = 'Statistiek';
-$lang['VALUE'] = 'Waarde';
 $lang['STATUS'] = 'Status.';
-$lang['CHANGES'] = 'Wijzigingen';
 $lang['ACTION'] = 'Actie';
 $lang['REASON'] = 'Reden';
 $lang['COMMENT'] = 'Reactie';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Vouw directory in.';
 $lang['EXPAND'] = 'Uitbreiden';
 $lang['SWITCH'] = 'Schakel over.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Vergroot/verklein het venster';
-$lang['EMPTY_ATTACH_ID'] = 'Ontbrekend bestand identificatie.';
-$lang['TOR_NOT_FOUND'] = 'Bestand ontbreekt op de server!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'De inhoud van dit torrent bestand kan niet worden weergegeven op de site (het was niet mogelijk om een lijst te maken van bestanden)';
 $lang['TORFILE_INVALID'] = 'Torrent bestand is beschadigd';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'De "website" kan alleen http://sitename bevatten.';
-$lang['INVALID_DATE'] = 'Ongeldige datum';
 $lang['PROFILE_USER'] = 'Profiel bekijken';
 $lang['GOOD_UPDATE'] = 'is met succes gewijzigd.';
 $lang['UCP_DOWNLOADS'] = 'Downloads';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Bericht verzenden';
 $lang['NEW_THREADS'] = 'Nieuwe Threads';
 $lang['PROFILE_NOT_FOUND'] = 'Profiel niet gevonden';
 
-$lang['USER_DELETE'] = 'Verwijderen';
 $lang['USER_DELETE_EXPLAIN'] = 'Verwijder deze gebruiker';
 $lang['USER_DELETE_ME'] = 'Sorry, uw account mag niet worden verwijderd!';
 $lang['USER_DELETE_CSV'] = 'Sorry, dit account mag niet worden verwijderd!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'op';
 $lang['OFF'] = 'uit';
 $lang['MEMORY'] = 'Geheugen: ';
 $lang['QUERIES'] = 'query\'s.';
-$lang['LIMIT'] = 'Limiet:';
 $lang['SHOW_LOG'] = 'Toon logboek';
 $lang['EXPLAINED_LOG'] = 'Uitleg logboek';
 $lang['CUT_LOG'] = 'Snijd lange queries af';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Ga naar de post';
 $lang['PROFILE_EDIT_RETURN'] = 'Terug naar bewerken';
 $lang['PROFILE_RETURN'] = 'Ga naar het profiel';
 
-$lang['WARNING'] = 'Waarschuwing';
 $lang['INDEXER'] = 'Index zoeken';
 $lang['INDEXER_SUCCESS'] = 'Zoekindex succesvol bijgewerkt';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Rangen';
 $lang['SMILIES'] = 'Smilies';
 $lang['BAN_MANAGEMENT'] = 'Verbod controle.';
 $lang['WORD_CENSOR'] = 'Woorden censuur.';
-$lang['EXPORT'] = 'Export';
-$lang['CREATE_NEW'] = 'Maken';
-$lang['ADD_NEW'] = 'Toevoegen';
 $lang['CRON'] = 'Taakplanner (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Herbouw de zoekindex.';
 $lang['FORUM_CONFIG'] = 'Forum instellingen';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Aantal gebruikers';
 $lang['USERS_PER_DAY'] = 'Gebruikers per dag';
 $lang['BOARD_STARTED'] = 'Raad van bestuur is gestart.';
 $lang['AVATAR_DIR_SIZE'] = 'Grootte van de avatardirectory.';
-$lang['DATABASE_SIZE'] = 'Grootte van de database.';
 $lang['GZIP_COMPRESSION'] = 'Gzip compressie';
 $lang['NOT_AVAILABLE'] = 'Niet beschikbaar';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Klik op %sHier%s om terug te keren naar forum
 $lang['BAN_CONTROL'] = 'Controle van verbod.';
 $lang['BAN_EXPLAIN'] = 'Hier kun je de ban van gebruikers beheren.';
 $lang['BAN_USERNAME'] = 'Een verbod op een of meer specifieke gebruikers.';
-$lang['BAN_USERNAME_EXPLAIN'] = 'U kunt meerdere gebruikers in één keer verbannen met behulp van de juiste combinatie van muis en toetsenbord voor uw computer en browser.';
 $lang['UNBAN_USERNAME'] = 'Deactiveer een of meer specifieke gebruikers';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'U kunt meerdere gebruikers in één keer onverbannen met behulp van de juiste combinatie van muis en toetsenbord voor uw computer en browser.';
 $lang['NO_BANNED_USERS'] = 'Geen verbannen gebruikersnamen.';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Naam van de website.';
 $lang['SITE_DESC'] = 'Beschrijving van de site.';
 $lang['FORUMS_DISABLE'] = 'Uitschakelen van het bestuur.';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Dit zorgt ervoor dat het bestuur niet beschikbaar is voor gebruikers. Beheerders kunnen toegang krijgen tot het Administratiepaneel terwijl het bestuur is uitgeschakeld.';
-$lang['ACC_NONE'] = 'Geen'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Gebruiker';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Geen';
 
 $lang['ABILITIES_SETTINGS'] = 'Gebruikers en Forum Basis Instellingen';
 $lang['MAX_POLL_OPTIONS'] = 'Maximaal aantal poll opties.';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Verwijderen';
 $lang['CONFIG_UPDATED'] = 'Forumconfiguratie met succes bijgewerkt.';
 $lang['MOVE_UP'] = 'Omhoog';
 $lang['MOVE_DOWN'] = 'Omlaag verplaatsen.';
-$lang['RESYNC'] = 'Her-synchroniseren';
 $lang['NO_MODE'] = 'Geen modus is ingesteld';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Het onderstaande formulier stelt u in staat om alle algemene boardopties aan te passen. Voor de configuraties van Gebruiker en Forum gebruikt u de gerelateerde links aan de linkerkant.';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Groep verwijderen';
 $lang['GROUP_DELETE_CHECK'] = 'Deze groep verwijderen';
 $lang['NO_GROUP_NAME'] = 'U moet een naam opgeven voor deze groep';
 $lang['NO_GROUP_MODERATOR'] = 'U moet een moderator voor deze groep';
-$lang['NO_GROUP_MODE'] = 'U moet een modus voor deze groep opgeven, open of gesloten.';
 $lang['NO_GROUP_ACTION'] = 'Geen actie werd opgegeven';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Verwijder de oude groep moderator?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Als je het veranderen van de groep moderator.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Groep opzoeken.';
 $lang['FORUM_PRUNE'] = 'Forum Snoeien';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Dit zal elk onderwerp verwijderen dat niet is geplaatst.';
 $lang['DO_PRUNE'] = 'Doe Snoeien.';
-$lang['ALL_FORUMS'] = 'Alle Fora';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Het snoeien van onderwerpen met geen antwoorden in dit aantal dagen.';
 $lang['TOPICS_PRUNED'] = 'Onderwerpen gesnoeid';
 $lang['PRUNE_SUCCESS'] = 'Forum is succesvol gesnoeid.';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Klik %sHier%s om terug te keren naar de Rang 
 $lang['DISALLOW_CONTROL'] = 'Gebruikersnaam Verbieden Controle';
 $lang['DISALLOW_EXPLAIN'] = 'Hier kunt u gebruikersnamen controleren die niet mogen worden gebruikt. Niet-toegestane gebruikersnamen mogen wel een jokerteken (*) bevatten. Houd er rekening mee dat u geen gebruikersnaam kunt opgeven die al is geregistreerd. U moet deze naam eerst verwijderen en daarna verbieden.';
 
-$lang['DELETE_DISALLOW'] = 'Verwijderen';
 $lang['DELETE_DISALLOW_TITLE'] = 'Verwijder een niet-toegestane gebruikersnaam.';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'U kunt een niet-toegestane gebruikersnaam verwijderen door de gebruikersnaam uit deze lijst te selecteren en op verzenden te klikken.';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan bijlagen downloaden.';
 $lang['SF_SHOW_ON_INDEX'] = 'Toon op de hoofdpagina.';
 $lang['SF_PARENT_FORUM'] = 'Ouder forum';
 $lang['SF_NO_PARENT'] = 'Geen ouder forum.';
-$lang['TEMPLATE'] = 'Sjabloon';
 $lang['SYNC'] = 'Sync';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'Let op! Zaad Bonussen moeten worden in oplopende 
 $lang['SEED_BONUS_EXCHANGE'] = 'Configureren Van Exchange Sid Bonussen';
 $lang['SEED_BONUS_ROPORTION'] = 'Percentage toevoeging voor een uitwisseling van bonussen op GB';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Control Panel';
-$lang['EXTENSION_CONTROL'] = 'Uitbreiding Controle';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Beheer van Breidingsgroepen';
-$lang['SPECIAL_CATEGORIES'] = 'Speciale Categorieën';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Bijlage Instellingen';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Hier kunt u de belangrijkste instellingen voor de Bijlage-mod configureren. Als u op de knop \'Instellingen testen\' drukt, voert de Bijlage-mod een paar systeemtesten uit om te controleren of de mod goed zal functioneren. Als u problemen ondervindt bij het uploaden van bestanden, voer dan deze test uit voor een gedetailleerd foutbericht.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Bijlage Bestandsgrootte Instellingen';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Bijlage Aantal Instellingen';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Bijlage Opties';
-
-$lang['UPLOAD_DIRECTORY'] = 'Uploadmap';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Voer het relatieve pad in van uw TorrentPier-installatie naar de uploadmap voor bijlagen. Voer bijvoorbeeld \'bestanden\' in als uw TorrentPier-installatie zich bevindt op https://www.yourdomain.com/torrentpier en de uploadmap voor bijlagen zich bevindt op https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Bijlage Posten Pictogram';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Deze afbeelding wordt weergegeven naast de bijlagen in individuele berichten. Laat dit veld leeg als u geen pictogram wilt weergeven. Deze instelling wordt overschreven door de instellingen in de beheer van uitgroepen.';
-$lang['ATTACH_TOPIC_ICON'] = 'Bijlage Onderwerp Pictogram';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Deze afbeelding wordt weergegeven voor onderwerpen met bijlagen. Laat dit veld leeg als u geen pictogram wilt weergeven.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Bijlage Display Om';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Hier kunt u kiezen of u de bijlagen in berichten/PM\'s in aflopende of oplopende volgorde wilt weergeven.';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Bestandsgrootte';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'De maximale bestandsgrootte voor Bijlagen. Een waarde van 0 betekent \'onbeperkt\'. Deze Instelling wordt beperkt door de Configuratie van uw Server. Bijvoorbeeld, als uw php Configuratie staat slechts een maximum van 2 MB upload, dit niet kan worden overschreven door de Mod.';
-$lang['MAX_FILESIZE_PM'] = 'Maximale Bestandsgrootte in Eigen Berichten Map';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximale schijfruimte die bijlagen in de persoonlijke berichten inbox van elke gebruiker kunnen gebruiken. Een waarde van 0 betekent \'onbeperkt\'.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maximum Aantal Bijlagen';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Het maximale aantal bijlagen dat in één bericht is toegestaan.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maximum aantal Bijlagen in een Privé-Bericht';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Definieert het maximum aantal bijlagen dat de gebruiker is toegestaan om in een privé-bericht op te nemen.';
-
-$lang['DISABLE_MOD'] = 'Uitschakelen Attachment Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Deze optie is voornamelijk bedoeld voor het testen van nieuwe sjablonen of thema\'s, en schakelt alle bijlagenfunctionaliteiten uit, behalve het adminpaneel.';
-$lang['PM_ATTACHMENTS'] = 'Bijlagen toestaan in Prive Berichten';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Toestaan/niet toestaan van het bijvoegen van bestanden aan privé-berichten.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Het Beheer Van Extensies';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Hier kunt u uw bestandsextensies beheren. Als u een extensie wilt toestaan of niet toestaan om te worden geüpload, gebruik dan het beheer van extensiegroepen.';
-$lang['EXPLANATION'] = 'Uitleg';
-$lang['EXTENSION_GROUP'] = 'Uitbreidingsgroep';
-$lang['EXTENSION_EXIST'] = 'De Uitbreiding %s al bestaan'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Beheren Uitbreiding Groepen';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Hier kunt u uw extensiegroepen toevoegen, verwijderen en wijzigen, extensiegroepen uitschakelen, een speciale categorie toewijzen, het downloadmechanisme wijzigen en een uploadicoon definiëren dat voor de bijlage van de groep wordt weergegeven.';
-$lang['SPECIAL_CATEGORY'] = 'Speciale Categorie';
-$lang['CATEGORY_IMAGES'] = 'Beelden';
 $lang['ALLOWED'] = 'Toegestaan';
-$lang['ALLOWED_FORUMS'] = 'Toegestaan Forums';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Groep Rechten';
-$lang['DOWNLOAD_MODE'] = 'Download Modus';
-$lang['UPLOAD_ICON'] = 'Upload Icoontje';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maximale Bestandsgrootte';
-$lang['EXTENSION_GROUP_EXIST'] = 'De extensiegroep %s bestaat al.'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Het Beheren Van Speciale Categorieën';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Hier kun je de Speciale Categorieën configureren. Je kunt Speciale Parameters en Voorwaarden instellen voor de Speciale Categorieën die zijn toegewezen aan een Uitbreidingsgroep.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Instellingen voor Speciale Categorie: Beelden';
-$lang['DISPLAY_INLINED'] = 'Afbeeldingen inline weergeven';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Kies of u de beelden rechtstreeks in de post wilt weergeven (ja) of wilt dat deze als een link worden weergegeven?';
-$lang['MAX_IMAGE_SIZE'] = 'Maximale Afmetingen Van Het Beeld';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Hier kunt u de maximaal toegestane afbeeldingsafmetingen die kunnen worden bijgevoegd (breedte x hoogte in pixels) definiëren. Als deze is ingesteld op 0x0, is deze functie uitgeschakeld.';
-$lang['IMAGE_LINK_SIZE'] = 'Image Link Afmetingen';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Als deze gedefinieerde afmeting van een afbeelding is bereikt, wordt de afbeelding als een link weergegeven in plaats van inline, als de inline-weergave is ingeschakeld (breedte x hoogte in pixels). Als deze is ingesteld op 0x0, is deze functie uitgeschakeld.';
-$lang['ASSIGNED_GROUP'] = 'Toegewezen Groep';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Het Maken Van Miniatuur';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimum Miniatuur Bestandsgrootte';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Als een afbeelding kleiner is dan deze gedefinieerde bestandsgrootte, wordt er geen miniatuur gemaakt omdat deze klein genoeg is.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Extension Groep Machtigingen → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Hier kunt u de geselecteerde extensiegroep beperken tot de forums van uw keuze (gedefinieerd in het vak Toegestane forums). Standaard kunnen extensiegroepen in alle forums worden gebruikt.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'OPMERKING:<br />Binnen de onderstaande forums zijn uw gebruikers meestal toegestaan om bestanden bij te voegen, maar aangezien er geen extensiegroep is toegestaan om bij te voegen, kunnen uw gebruikers niets bevestigen.';
-$lang['ADD_FORUMS'] = 'Toevoegen Forums';
-$lang['ADD_SELECTED'] = 'Voeg Geselecteerde';
-$lang['PERM_ALL_FORUMS'] = 'ALLE FORA';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Bediening Paneel voor Bestand Bijlagen.';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Hier kunt u alle bijlagen beheren en bekijken op basis van gebruikers, bijlagen, weergaven etc.';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Gebruik * als jokerteken voor gedeeltelijke overeenkomsten';
-$lang['SIZE_SMALLER_THAN'] = 'Bijlage-grootte is kleiner dan (bytes).';
-$lang['SIZE_GREATER_THAN'] = 'Bijlage-grootte groter dan (bytes).';
-$lang['COUNT_SMALLER_THAN'] = 'Downloadteller is kleiner dan.';
-$lang['COUNT_GREATER_THAN'] = 'Downloadteller is groter dan.';
-$lang['MORE_DAYS_OLD'] = 'Meer dan dit aantal dagen oud.';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Geen bijlagen voldoen aan uw zoekcriteria.';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Aantal Bijlagen';
-$lang['TOTAL_FILESIZE'] = 'De Totale Bestandsgrootte';
-$lang['NUMBER_POSTS_ATTACH'] = 'Aantal Berichten met Bijlagen';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Aantal Onderwerpen met Bijlagen';
-$lang['NUMBER_USERS_ATTACH'] = 'Onafhankelijke Gebruikers Geplaatst Bijlagen';
-$lang['NUMBER_PMS_ATTACH'] = 'Totaal Aantal Bijlagen in Prive Berichten';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Bijlage Statistieken voor %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Downloads';
-$lang['POST_TIME'] = 'Post Tijd';
-$lang['POSTED_IN_TOPIC'] = 'Geplaatst op Onderwerp';
-$lang['SUBMIT_CHANGES'] = 'Wijzigingen Indienen';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Bijlagen';
-$lang['SORT_SIZE'] = 'Grootte';
-$lang['SORT_FILENAME'] = 'Bestandsnaam';
-$lang['SORT_COMMENT'] = 'Reactie';
-$lang['SORT_EXTENSION'] = 'Extensie.';
-$lang['SORT_DOWNLOADS'] = 'Downloads';
-$lang['SORT_POSTTIME'] = 'Post Tijd';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistieken';
-$lang['VIEW_SEARCH'] = 'Zoeken';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Bijlage Configuratie bijgewerkt';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Klik op %sHere%s om terug te keren naar Bijlage Configuratie';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Instellingen van de Test zijn voltooid, de configuratie lijkt in orde te zijn.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Bijlagen';
-$lang['EXTENSIONS'] = 'Extensies';
-$lang['EXTENSION'] = 'Extensie.';
-
 $lang['RETURN_CONFIG'] = '%sKeer terug naar Configuratie%s.';
 $lang['CONFIG_UPD'] = 'Configuratie Met Succes Bijgewerkt';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Wijzig onderwerpstatus in "Normaal" ter
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Sjabloon uitgeschakeld';
 $lang['FOR_NEW_TEMPLATE'] = 'voor nieuwe patronen!';
-$lang['CHANGED'] = 'Gewijzigd';
-$lang['REMOVED'] = 'Verwijderd';
 $lang['QUESTION'] = 'Bevestigen: weet u zeker dat u deze actie wilt uitvoeren?';
 
 $lang['CRON_LIST'] = 'Cron lijst';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Termijn';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Hoeveel tijd (seconden) kan de nabewerking duren voordat deze naar de volgende cyclus gaat';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Je webserver heeft een timeout van %s seconden geconfigureerd, dus blijf onder deze waarde.</i>';
 
-$lang['DISABLE_BOARD'] = 'Uitschakelen van bestuur';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Je laatste stopte de verwerking op post_id %s (%s verwerkt berichten) op %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Je hebt de verwerking laatst afgebroken op post_id %s (%s verwerkte berichten) op %s.';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Alle berichten zijn verwerkt.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Alle zoektabellen zijn succesvol geoptimaliseerd.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Verwerking van de post.';
-$lang['PERCENT'] = 'Procent';
 $lang['CURRENT_SESSION'] = 'Huidige Sessie';
 $lang['TOTAL'] = 'Totaal';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'van <b>%s</b> naar <b>%s</b> (van totaal <b>%s</b>)'
 $lang['PERCENT_COMPLETED'] = '%s %% voltooid';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Huidige sessie details';
-$lang['PROCESSING_TIME'] = 'Verwerking tijd.';
 $lang['TIME_LAST_POSTS'] = 'Laatste %s post(s)';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Vanaf het begin';
 $lang['TIME_AVERAGE'] = 'Gemiddelde per cyclus';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Alle acties';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Actieslogboek: zoekopties';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Actie';
-$lang['ACTS_LOG_USER'] = 'Gebruiker';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Logs van ';
 $lang['ACTS_LOG_FIRST'] = 'begint met';
 $lang['ACTS_LOG_DAYS_BACK'] = 'dagen terug';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Release Sjablonen';
 $lang['RELEASES'] = 'Persberichten';
 
 $lang['BACK'] = 'Terug';
-$lang['ERROR_FORM'] = 'Ongeldige velden';
 $lang['NEW_RELEASE'] = 'Nieuwe release';
 $lang['NEXT'] = 'Doorgaan';
-$lang['OTHER'] = 'Andere';
 $lang['ALL'] = 'Alle';
 
 $lang['TPL_EMPTY_FIELD'] = 'U moet het veld <b>%s</b> invullen';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Options.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Each row corresponds to one answer (max.';
 
 $lang['OLD_BROWSER'] = 'U gebruikt een verouderde browser. De website wordt niet goed weergegeven.';
-$lang['GO_BACK'] = 'Ga terug';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Bestand uploaden is uitgeschakeld';
 $lang['UPLOAD_ERROR_COMMON'] = 'File upload error.';

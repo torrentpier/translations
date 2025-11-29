@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Tampilkan kata sandi';
 $lang['EMAIL'] = 'Email';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Penulis';
-$lang['TIME'] = 'Waktu';
 $lang['MESSAGE'] = 'Pesan';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Izin';
 $lang['TYPE'] = 'Jenis';
-$lang['SEEDER'] = 'Seeder';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Hari';
 $lang['7_DAYS'] = '7 Hari';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Balas pada topik';
 $lang['CLICK_RETURN_TOPIC'] = 'Klik %sHere%s untuk kembali ke topik'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Klik %sHere%s untuk kembali ke forum';
 $lang['CLICK_RETURN_MODCP'] = 'Klik %sHere%s untuk kembali ke Moderator Panel Kontrol';
-$lang['CLICK_RETURN_GROUP'] = 'Klik %sHere%s untuk kembali ke informasi grup';
 
 $lang['ADMIN_PANEL'] = 'Pergi ke Panel Administrasi';
 $lang['ALL_CACHE_CLEARED'] = 'Cache yang telah dibersihkan';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Pilih forum';
 $lang['DISPLAYING_OPTIONS'] = 'Menampilkan pilihan';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Pengguna Terdaftar:';
 $lang['BROWSING_FORUM'] = 'Pengguna menelusuri forum ini:';
 $lang['ONLINE_USERS'] = 'Total ada <b>%1$d</b> pengguna online: %2$d terdaftar dan %3$d tamu';
 $lang['RECORD_ONLINE_USERS'] = 'Sebagian besar pengguna online terbanyak adalah <b>%s</b> pada %s'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Lihat posting terbaru';
 $lang['SEARCH_SELF'] = 'Posting saya';
 $lang['SEARCH_SELF_BY_LAST'] = 'waktu posting terakhir';
 $lang['SEARCH_SELF_BY_MY'] = 'waktu posting saya';
-$lang['SEARCH_UNANSWERED'] = 'Melihat posting yang belum terjawab';
 $lang['SEARCH_LATEST'] = 'Topik terbaru';
 $lang['LATEST_RELEASES'] = 'Rilis terbaru';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Total kecepatan: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Tidak ada posting baru';
 $lang['NEW_POSTS'] = 'Posting baru';
-$lang['NEW_POST'] = 'Posting baru';
 $lang['FORUM_LOCKED_MAIN'] = 'Forum terkunci';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Berita terbaru';
 $lang['NETWORK_NEWS'] = 'Berita Jaringan';
 $lang['SUBFORUMS'] = 'Subforum';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Lihat Forum';
-
 $lang['FORUM_NOT_EXIST'] = 'Forum yang anda pilih tidak ada.';
 $lang['ERROR_PORNO_FORUM'] = 'Jenis forum (18+) ini disembunyikan di profil Anda.';
 
 $lang['DISPLAY_TOPICS'] = 'Menampilkan topik';
-$lang['ALL_TOPICS'] = 'Semua Topik';
 $lang['MODERATE_FORUM'] = 'Moderat forum ini';
 $lang['TITLE_SEARCH_HINT'] = 'pencarian judul...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Anda <b>dapat</b> memoderasi forum ini';
 $lang['NO_TOPICS_POST_ONE'] = 'Belum ada pos di forum ini<br />Klik ikon <b>Topik Baru</b>, dan pos Anda akan menjadi yang pertama.';
 $lang['NO_RELEASES_POST_ONE'] = 'Belum ada rilis di forum ini<br />Klik ikon <b>Rilis Baru</b>, dan rilis Anda akan menjadi yang pertama.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Lihat topik';
-
 $lang['GUEST'] = 'Tamu';
-$lang['POST_SUBJECT'] = 'Subjek Posting';
 $lang['SUBMIT_VOTE'] = 'Kirim suara';
 
 $lang['NO_NEWER_TOPICS'] = 'Tidak ada topik baru di forum ini';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Terbaru Pertama';
 $lang['OLDEST_FIRST'] = 'Tua Pertama';
 
 $lang['READ_PROFILE'] = 'Lihat profil pengguna';
-$lang['DELETE_POST'] = 'Hapus posting ini';
 
 $lang['WROTE'] = 'menulis'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Quote'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Anda harus menentukan judul pesan';
 $lang['INVALID_TOPIC_ID'] = 'Topik Absen!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Topik tidak ada dalam database!';
 
-$lang['NOT_POST'] = 'Tidak Ada Pesan';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Anda tidak dapat mengedit rilis dengan status';
 
 $lang['OPTIONS'] = 'Pilihan';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Anda harus menentukan pilihan ketika mengikuti jajak 
 $lang['LOCKED_WARN'] = 'Anda telah diposting ke topik yang terkunci!';
 
 $lang['ADD_POLL'] = 'Tambahkan sebuah jajak pendapat';
-$lang['POLL_OPTION'] = 'Jajak pendapat pilihan';
 $lang['UPDATE'] = 'Update';
 $lang['DAYS'] = 'Hari';
 $lang['DELETE_POLL'] = 'Menghapus jajak pendapat';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Izinkan robot mengindeks topik ini';
 $lang['STORED'] = 'Pesan anda telah berhasil masuk.';
 $lang['EDITED'] = 'Pesan telah diedit.';
 $lang['DELETED'] = 'Pesan anda telah berhasil dihapus.';
-$lang['POLL_DELETE'] = 'Jajak pendapat telah berhasil dihapus.';
 $lang['VOTE_CAST'] = 'Suara anda telah dicast.';
 
 $lang['EMOTICONS'] = 'Emoticon';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Inbox';
 $lang['OUTBOX'] = 'Kotak';
 $lang['SAVEBOX'] = 'Savebox';
 $lang['SENTBOX'] = 'Sentbox';
-$lang['FLAG'] = 'Bendera';
 $lang['SUBJECT'] = 'Subjek';
 $lang['FROM'] = 'Dari';
 $lang['TO'] = 'Untuk';
 $lang['DATE'] = 'Tanggal';
-$lang['MARK'] = 'Mark';
 $lang['SENT'] = 'Dikirim';
 $lang['SAVED'] = 'Disimpan';
 $lang['DELETE_MARKED'] = 'Hapus Yang Ditandai';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Tampilan pesan'; // Followed by number of days/week
 
 $lang['NO_MESSAGES_FOLDER'] = 'Tidak ada pesan di dalam folder ini';
 
-$lang['PM_DISABLED'] = 'Pesan pribadi telah dinonaktifkan pada board ini.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Maaf, tapi administrator telah mencegah anda mengirim pesan pribadi.';
 $lang['NO_TO_USER'] = 'Anda harus menentukan nama pengguna untuk mengirim pesan ini.';
 $lang['NO_SUCH_USER'] = 'Maaf, tidak ada pengguna yang ada.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Mengedit pesan pribadi';
 
 $lang['FIND_USERNAME'] = 'Menemukan nama pengguna.';
 $lang['SELECT_USERNAME'] = 'Pilih Username';
-$lang['FIND'] = 'Menemukan';
 $lang['NO_MATCH'] = 'Tidak ada yang cocok.';
 
 $lang['NO_PM_ID'] = 'Silakan tentukan posting ID';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'Akun anda telah dibuat. Namun, forum ini memerlukan
 $lang['ACCOUNT_ACTIVE'] = 'Akun anda telah diaktifkan. Terima kasih telah mendaftar';
 $lang['ALREADY_ACTIVATED'] = 'Anda sudah mengaktifkan akun anda';
 
-$lang['REGISTRATION'] = 'Ketentuan Perjanjian Pendaftaran.';
 
 $lang['WRONG_ACTIVATION'] = 'Aktivasi kunci yang anda masukkan tidak dapat ditemukan di database.';
-$lang['SEND_PASSWORD'] = 'Kirimkan saya kata sandi baru.';
 $lang['PASSWORD_UPDATED'] = 'Kata sandi baru telah dibuat; harap periksa email Anda untuk detail lebih lanjut tentang cara mengaktifkannya.';
 $lang['NO_EMAIL_MATCH'] = 'Alamat e-mail yang anda berikan tidak sesuai dengan yang tercantum untuk username itu.';
 $lang['PASSWORD_ACTIVATED'] = 'Akun anda telah diaktifkan kembali. Untuk login, silahkan gunakan password yang disertakan dalam e-mail yang anda terima.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Beriklan di situs ini';
 $lang['NOT_FOUND'] = 'File tidak ditemukan';
 
 // Memberslist
-$lang['SORT'] = 'Urutkan.';
 $lang['SORT_TOP_TEN'] = 'Sepuluh Poster';
 $lang['SORT_JOINED'] = 'Tanggal Bergabung.';
 $lang['SORT_USERNAME'] = 'Username';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Kelompok ini tidak memiliki anggota';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Kelompok ini tersembunyi; anda tidak dapat melihat keanggotaannya';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Kelompok ini tidak memiliki anggota tertunda.';
 $lang['GROUP_JOINED'] = 'Anda telah berhasil berlangganan ke grup ini.<br />Anda akan diberitahu ketika langganan Anda disetujui oleh moderator grup.';
-$lang['GROUP_REQUEST'] = 'Permintaan untuk bergabung dengan grup anda telah dibuat.';
-$lang['GROUP_APPROVED'] = 'Permintaan anda telah disetujui.';
-$lang['GROUP_ADDED'] = 'Anda telah ditambahkan ke grup.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Anda sudah menjadi anggota grup ini';
 $lang['USER_IS_MEMBER_GROUP'] = '%s sudah menjadi anggota grup ini';
 $lang['USER_IS_MOD_GROUP'] = '%s adalah moderator grup ini';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'Keanggotaan Anda dalam grup ini sedang dalam pros
 $lang['ARE_GROUP_MODERATOR'] = 'Anda adalah moderator grup';
 $lang['NONE'] = 'Tidak ada';
 
-$lang['SUBSCRIBE'] = 'Berlangganan';
 $lang['UNSUBSCRIBE_GROUP'] = 'Berhenti berlangganan';
 $lang['MEMBERS_IN_GROUP'] = 'Anggota dalam kelompok';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Grup ini bukan grup rilis';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Bantuan Pencarian';
-$lang['SEARCH_QUERY'] = 'Kueri Pencarian';
 $lang['SEARCH_OPTIONS'] = 'Opsi Pencarian';
 
 $lang['SEARCH_WORDS'] = 'Mencari Kata Kunci';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Judul Topik';
 $lang['DISPLAY_RESULTS_AS'] = 'Tampilkan hasil sebagai';
 $lang['ALL_AVAILABLE'] = 'Semua yang tersedia';
 $lang['BRIEFLY'] = 'Secara singkat';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Anda tidak memiliki izin untuk mencari di forum ini.';
 
 $lang['NO_SEARCH_MATCH'] = 'Tidak ada topik atau pesan yang memenuhi kriteria pencarian Anda.';
 $lang['FOUND_SEARCH_MATCH'] = 'Pencarian ditemukan %d kecocokan.'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Pencarian ditemukan %d kecocokan.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Tutup Jendela';
-$lang['CLOSE'] = 'Tutup';
 $lang['HIDE'] = 'sembunyikan';
 
 // Auth related entries
@@ -816,7 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Maaf, tetapi Anda tidak diizinkan untuk melih
 $lang['DESCRIPTION'] = 'Deskripsi'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Ukuran File';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'Ekstensi \'%s\' dinonaktifkan oleh admin papan, oleh karena itu lampiran ini tidak ditampilkan.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Aliran';
@@ -835,61 +802,25 @@ $lang['COPY_STREAM_LINK'] = 'Salin tautan aliran ke clipboard';
 $lang['M3U_NOT_SUPPORTED'] = 'File ini tidak dapat diputar di browser...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Sepertinya ffprobe tidak dapat mengembalikan data tentang codec ini...';
 $lang['M3U_NOTICE'] = 'Beberapa browser tidak mendukung pemutaran format video tertentu. Dalam kasus seperti itu, Anda dapat mengunduh file .m3u dan memutarnya dengan pemutar pihak ketiga';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Lampiran';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Lampiran Thumbnail';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Tambahkan Lampiran';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Menambahkan Lampiran';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Jika Anda tidak ingin menambahkan Lampiran ke Posting Anda, silakan tinggalkan Bidang kosong.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Nama berkas';
-$lang['FILE_COMMENT'] = 'Komentar File';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Diposting Lampiran';
-$lang['UPDATE_COMMENT'] = 'Update Komentar';
 $lang['DELETE_ATTACHMENT'] = 'Menghapus Lampiran';
-$lang['DELETE_THUMBNAIL'] = 'Menghapus Thumbnail';
-$lang['UPLOAD_NEW_VERSION'] = 'Unggah Versi Baru';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s adalah nama berkas tidak valid'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'Lampiran terlalu besar.<br />Tidak bisa mendapatkan Ukuran maksimum yang ditentukan dalam PHP.<br />Lampiran Mod tidak dapat menentukan Ukuran Unggah maksimum yang ditentukan dalam php.ini.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'Lampiran terlalu besar.<br />Ukuran Unggah Maksimum: %d MB.<br />Harap perhatikan bahwa Ukuran ini didefinisikan dalam php.ini, ini berarti itu ditetapkan oleh PHP dan Lampiran Mod tidak dapat mengesampingkan nilai ini.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'Perpanjangan %s tidak diperbolehkan'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Anda tidak diperbolehkan untuk mengirim File dengan Ekstensi %s dalam Forum ini'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'Lampiran terlalu besar.<br />Max Ukuran: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'Lampiran tidak dapat ditambahkan, sejak max. jumlah %d Lampiran dalam posting ini dicapai'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'Lampiran/Gambar harus kurang dari %d piksel lebar dan %d piksel tinggi';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Kesalahan: Tidak bisa mengunggah Lampiran ke %s.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Anda harus memasukkan nilai-nilai dalam \'Menambahkan Lampiran\' Box';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Tidak dapat Memperbarui Lampiran, tidak bisa menemukan Entri Lampiran lama.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Anda belum memilih lampiran untuk men-download atau lihat.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Lampiran yang dipilih tidak ada lagi';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'Lampiran yang dipilih telah dihapus.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Tidak bisa menghapus Lampiran.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'Lampiran Fitur dinonaktifkan.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'Direktori \'%s\' tidak ada atau tidak dapat ditemukan.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Silakan periksa jika \'%s\' adalah sebuah direktori.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'Direktori \'%s\' tidak dapat ditulisi. Anda harus membuat jalur unggah dan mengubah izin menjadi 777 (atau mengganti pemilik menjadi pemilik server httpd Anda) untuk mengunggah file.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Byte';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Pencarian Lampiran';
-$lang['TEST_SETTINGS'] = 'Menguji Pengaturan';
-$lang['NOT_ASSIGNED'] = 'Tidak Ditugaskan';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Terdaftar';
@@ -963,7 +894,6 @@ $lang['TOR_STATUS_OF'] = 'Distribusi status:';
 $lang['TOR_STATUS_CHANGED'] = 'Status diubah: ';
 $lang['TOR_BACK'] = ' kembali';
 $lang['PROCEED'] = 'Lanjutkan';
-$lang['INVALID_ATTACH_ID'] = 'Pengidentifikasi file hilang!';
 $lang['CHANGE_TOR_TYPE'] = 'Jenis torrent berhasil diubah';
 $lang['DEL_TORRENT'] = 'Apakah anda yakin anda ingin menghapus torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Apakah anda yakin anda ingin menghapus dan memindahkan topik?';
@@ -1066,18 +996,14 @@ $lang['SEARCH_DL_DOWN'] = 'Saat ini';
 $lang['SEARCH_DL_COMPLETE'] = 'Selesai';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'Unduhan yang selesai.';
 $lang['SEARCH_DL_CANCEL'] = 'Dibatalkan';
-$lang['CUR_DOWNLOADS'] = 'Saat Ini Popularitas';
 $lang['CUR_UPLOADS'] = 'Saat Ini Upload';
 $lang['SEARCH_RELEASES'] = 'Rilis';
 $lang['TOR_SEARCH_TITLE'] = 'Pencarian Torrent pilihan';
 $lang['OPEN_TOPIC'] = 'Membuka topik';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Posting torrents diperbolehkan hanya di post pertama';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Mendaftar torrents diperbolehkan hanya dari post pertama';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Tidak bisa mendaftar torrent di forum ini';
 $lang['ALREADY_REG'] = 'Torrent sudah terdaftar';
 $lang['NOT_TORRENT'] = 'File ini bukan torrent.';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Anda dapat mendaftar hanya satu torrent dalam satu topik';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Profil torrent';
 $lang['CUR_ACTIVE_DLS'] = 'Active torrents';
 
@@ -1206,10 +1132,7 @@ $lang['ONLY_NEW_TOPICS'] = 'hanya topik-topik baru';
 
 $lang['TORHELP_TITLE'] = 'Silakan bantu untuk menyebarkan torrent ini!';
 $lang['STATISTICS'] = 'Statistik';
-$lang['STATISTIC'] = 'Statistik';
-$lang['VALUE'] = 'Nilai';
 $lang['STATUS'] = 'Status';
-$lang['CHANGES'] = 'Perubahan';
 $lang['ACTION'] = 'Aksi';
 $lang['REASON'] = 'Alasan';
 $lang['COMMENT'] = 'Komentar';
@@ -1229,14 +1152,13 @@ $lang['COLLAPSE'] = 'Direktori runtuh.';
 $lang['EXPAND'] = 'Memperluas';
 $lang['SWITCH'] = 'Beralih';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Tingkatkan/kurangi jendela';
-$lang['EMPTY_ATTACH_ID'] = 'Pengidentifikasi file hilang!';
-$lang['TOR_NOT_FOUND'] = 'File hilang dari server!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'Konten dari file torrent ini tidak dapat dilihat di situs (tidak mungkin untuk membuat daftar file).';
 $lang['TORFILE_INVALID'] = 'File torrent korup.';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Situs" mungkin hanya mengandung http://sitename.';
-$lang['INVALID_DATE'] = 'Tanggal tidak valid';
 $lang['PROFILE_USER'] = 'Melihat profil';
 $lang['GOOD_UPDATE'] = 'berhasil diubah';
 $lang['UCP_DOWNLOADS'] = 'Download';
@@ -1251,7 +1173,6 @@ $lang['SEND_MESSAGE'] = 'Kirim pesan';
 $lang['NEW_THREADS'] = 'Thread Baru';
 $lang['PROFILE_NOT_FOUND'] = 'Profil tidak ditemukan';
 
-$lang['USER_DELETE'] = 'Menghapus';
 $lang['USER_DELETE_EXPLAIN'] = 'Menghapus pengguna ini';
 $lang['USER_DELETE_ME'] = 'Maaf, akun anda dilarang untuk menghapus!';
 $lang['USER_DELETE_CSV'] = 'Maaf, akun ini tidak diperbolehkan untuk menghapus!';
@@ -1307,7 +1228,6 @@ $lang['ON'] = 'pada';
 $lang['OFF'] = 'off';
 $lang['MEMORY'] = 'Memori: ';
 $lang['QUERIES'] = 'query';
-$lang['LIMIT'] = 'Batas:';
 $lang['SHOW_LOG'] = 'Tampilkan log';
 $lang['EXPLAINED_LOG'] = 'Log yang dijelaskan';
 $lang['CUT_LOG'] = 'Potong kueri panjang';
@@ -1409,7 +1329,6 @@ $lang['POST_RETURN'] = 'Pergi ke pos';
 $lang['PROFILE_EDIT_RETURN'] = 'Kembali ke pengeditan';
 $lang['PROFILE_RETURN'] = 'Pergi ke profil';
 
-$lang['WARNING'] = 'Peringatan';
 $lang['INDEXER'] = 'Reindex pencarian';
 $lang['INDEXER_SUCCESS'] = 'Indeks pencarian diperbarui dengan sukses';
 
@@ -1432,9 +1351,6 @@ $lang['RANKS'] = 'Peringkat';
 $lang['SMILIES'] = 'Smiley';
 $lang['BAN_MANAGEMENT'] = 'Kontrol Larangan';
 $lang['WORD_CENSOR'] = 'Sensor Kata';
-$lang['EXPORT'] = 'Ekspor';
-$lang['CREATE_NEW'] = 'Buat';
-$lang['ADD_NEW'] = 'Tambahkan';
 $lang['CRON'] = 'Penjadwal Tugas (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Membangun indeks pencarian';
 $lang['FORUM_CONFIG'] = 'Pengaturan Forum';
@@ -1486,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Jumlah pengguna';
 $lang['USERS_PER_DAY'] = 'Pengguna per hari';
 $lang['BOARD_STARTED'] = 'Papan mulai';
 $lang['AVATAR_DIR_SIZE'] = 'Ukuran direktori avatar';
-$lang['DATABASE_SIZE'] = 'Ukuran database';
 $lang['GZIP_COMPRESSION'] = 'Gzip compression';
 $lang['NOT_AVAILABLE'] = 'Tidak tersedia';
 
@@ -1583,7 +1498,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Klik %sDi Sini%s untuk kembali ke Izin Forum.
 $lang['BAN_CONTROL'] = 'Kontrol Larangan.';
 $lang['BAN_EXPLAIN'] = 'Di sini Anda dapat mengontrol larangan pengguna.';
 $lang['BAN_USERNAME'] = 'Larangan satu atau lebih pengguna tertentu.';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Anda dapat melarang beberapa pengguna dalam satu proses menggunakan kombinasi yang tepat dari mouse dan keyboard untuk komputer dan browser Anda.';
 $lang['UNBAN_USERNAME'] = 'Bebaskan satu atau lebih pengguna tertentu';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Anda dapat meng-unban beberapa pengguna dalam satu proses menggunakan kombinasi yang tepat dari mouse dan keyboard untuk komputer dan browser Anda.';
 $lang['NO_BANNED_USERS'] = 'Tidak ada pengguna yang dilarang.';
@@ -1605,9 +1519,7 @@ $lang['SITE_NAME'] = 'Nama situs.';
 $lang['SITE_DESC'] = 'Deskripsi situs.';
 $lang['FORUMS_DISABLE'] = 'Menonaktifkan papan.';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Ini akan membuat papan tidak tersedia untuk pengguna. Administrator dapat mengakses Panel Administrasi saat papan dinonaktifkan.';
-$lang['ACC_NONE'] = 'Tidak ada'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Pengguna';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Tidak ada';
 
 $lang['ABILITIES_SETTINGS'] = 'Pengaturan Dasar Pengguna dan Forum.';
 $lang['MAX_POLL_OPTIONS'] = 'Jumlah maksimal opsi polling.';
@@ -1645,7 +1557,6 @@ $lang['REMOVE'] = 'Menghapus';
 $lang['CONFIG_UPDATED'] = 'Konfigurasi forum telah diperbarui dengan sukses.';
 $lang['MOVE_UP'] = 'Bergerak ke atas.';
 $lang['MOVE_DOWN'] = 'Bergerak turun';
-$lang['RESYNC'] = 'Sinkronisasi ulang.';
 $lang['NO_MODE'] = 'Tidak ada mode set';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Formulir di bawah ini akan memungkinkan Anda menyesuaikan semua opsi umum papan. Untuk konfigurasi Pengguna dan Forum, gunakan tautan terkait di sisi kiri';
 
@@ -1730,7 +1641,6 @@ $lang['GROUP_DELETE'] = 'Menghapus grup';
 $lang['GROUP_DELETE_CHECK'] = 'Menghapus kelompok ini';
 $lang['NO_GROUP_NAME'] = 'Anda harus menentukan nama untuk kelompok ini';
 $lang['NO_GROUP_MODERATOR'] = 'Anda harus menentukan moderator untuk kelompok ini';
-$lang['NO_GROUP_MODE'] = 'Anda harus menentukan mode untuk kelompok ini, terbuka atau tertutup';
 $lang['NO_GROUP_ACTION'] = 'Tidak ada tindakan yang ditentukan';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Apakah Anda ingin menghapus moderator grup yang lama?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Jika Anda mengubah moderator grup, centang kotak ini untuk menghapus moderator lama dari kelompok. Jika tidak, jangan centang, dan pengguna akan menjadi anggota biasa kelompok.';
@@ -1742,7 +1652,6 @@ $lang['LOOK_UP_GROUP'] = 'Mencari group';
 $lang['FORUM_PRUNE'] = 'Forum Prune';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Ini akan menghapus setiap topik yang telah diposting ke dalam jumlah hari yang anda pilih. Jika anda tidak memasukkan nomor maka semua topik akan dihapus. Ini tidak akan menghapus <b>sticky</b> topik dan <b>announcements</b>. Anda akan perlu untuk menghapus topik tersebut secara manual.';
 $lang['DO_PRUNE'] = 'Jangan Prune';
-$lang['ALL_FORUMS'] = 'Semua Forum';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Topik tanpa balasan dalam beberapa hari';
 $lang['TOPICS_PRUNED'] = 'Topik dipangkas';
 $lang['PRUNE_SUCCESS'] = 'Forum telah berhasil dipangkas';
@@ -1798,7 +1707,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Klik %sHere%s untuk kembali ke Peringkat Admi
 $lang['DISALLOW_CONTROL'] = 'Nama pengguna tidak diizinkan untuk mengontrol.';
 $lang['DISALLOW_EXPLAIN'] = 'Di sini Anda dapat mengontrol nama pengguna yang tidak akan diizinkan digunakan. Nama pengguna yang tidak diizinkan boleh mengandung karakter wildcard *. Harap diperhatikan bahwa Anda tidak akan diizinkan untuk menentukan nama pengguna yang telah terdaftar. Anda harus terlebih dahulu menghapus nama itu dan kemudian melarangnya.';
 
-$lang['DELETE_DISALLOW'] = 'Menghapus';
 $lang['DELETE_DISALLOW_TITLE'] = 'Menghapus Batasan Username';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Anda dapat menghapus batasan username dengan memilih nama dari daftar ini dan mengklik submit';
 
@@ -1851,7 +1759,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s dapat men-download lampiran
 $lang['SF_SHOW_ON_INDEX'] = 'Tampilkan pada halaman utama';
 $lang['SF_PARENT_FORUM'] = 'Forum induk.';
 $lang['SF_NO_PARENT'] = 'Tidak ada forum induk.';
-$lang['TEMPLATE'] = 'Template';
 $lang['SYNC'] = 'Sync';
 
 // Mods
@@ -1873,138 +1780,7 @@ $lang['SEED_BONUS_WARNING'] = 'PERHATIAN! Benih Bonus harus dalam urutan menaik'
 $lang['SEED_BONUS_EXCHANGE'] = 'Mengkonfigurasi Bonus Sid.';
 $lang['SEED_BONUS_ROPORTION'] = 'Proporsi tambahan untuk pertukaran bonus.';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Control Panel';
-$lang['EXTENSION_CONTROL'] = 'Ekstensi Kontrol';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Ekstensi Kelompok Kontrol';
-$lang['SPECIAL_CATEGORIES'] = 'Khusus Kategori';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Lampiran Pengaturan';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Di sini Anda dapat mengonfigurasi Pengaturan Utama untuk Mod Lampiran.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Pengaturan Ukuran File Lampiran';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Setelan Nomor Lampiran.';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Opsi Lampiran.';
-
-$lang['UPLOAD_DIRECTORY'] = 'Direktori Unggah.';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Masukkan jalur relatif dari instalasi TorrentPier Anda.';
-$lang['ATTACH_IMG_PATH'] = 'Ikon Posting Lampiran.';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Ikon Topik Lampiran.';
-$lang['ATTACH_TOPIC_ICON'] = 'Urutan Tampilan Lampiran.';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Gambar ini ditampilkan sebelum topik dengan Lampiran. Biarkan bidang ini kosong jika anda tidak ingin ikon yang akan ditampilkan.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Urutan Tampilan Lampiran.';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Disini Anda dapat memilih...';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Ukuran File';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'Maksimum ukuran file Lampiran. Nilai 0 berarti \'tak terbatas\'. Pengaturan ini dibatasi dengan Konfigurasi Server anda. Misalnya, jika Konfigurasi php anda hanya memungkinkan maksimal 2 MB yang di upload, ini tidak akan ditimpa oleh Mod.';
-$lang['MAX_FILESIZE_PM'] = 'Maksimum Ukuran file dalam Folder Pesan Pribadi';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maksimum Ruang Disk Lampiran dapat digunakan di masing-masing Pengguna kotak Pesan Pribadi. Nilai 0 berarti \'tak terbatas\'.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maksimum Jumlah Lampiran';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'Maksimum jumlah lampiran yang diperbolehkan dalam satu posting.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Jumlah maksimum Lampiran dalam satu Pesan Pribadi';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Tentukan jumlah maksimum lampiran pengguna diizinkan untuk disertakan dalam pesan pribadi.';
-
-$lang['DISABLE_MOD'] = 'Menonaktifkan Mod Lampiran';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Pilihan ini terutama untuk pengujian baru template atau tema, menonaktifkan semua Lampiran Fungsi kecuali Admin Panel.';
-$lang['PM_ATTACHMENTS'] = 'Memungkinkan Lampiran dalam Pesan Pribadi';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Izinkan/Tidak Mengizinkan melampirkan file ke Pesan Pribadi.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Mengelola Ekstensi';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Di sini Anda dapat mengelola Ekstensi File. Jika Anda ingin mengizinkan/tidak mengizinkan Ekstensi untuk diunggah, silakan gunakan Manajemen Grup Ekstensi.';
-$lang['EXPLANATION'] = 'Penjelasan';
-$lang['EXTENSION_GROUP'] = 'Ekstensi Kelompok';
-$lang['EXTENSION_EXIST'] = 'Perpanjangan %s sudah ada'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Mengelola Ekstensi Kelompok';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Di sini Anda dapat menambah, menghapus, dan memodifikasi Grup Ekstensi, serta menonaktifkan Grup Ekstensi, menetapkan Kategori khusus, mengubah mekanisme unduhan, dan menentukan Ikon Unggah yang akan ditampilkan di depan Lampiran yang termasuk dalam Grup.';
-$lang['SPECIAL_CATEGORY'] = 'Kategori Khusus';
-$lang['CATEGORY_IMAGES'] = 'Gambar';
 $lang['ALLOWED'] = 'Diperbolehkan';
-$lang['ALLOWED_FORUMS'] = 'Forum Diperbolehkan';
-$lang['EXT_GROUP_PERMISSIONS'] = 'Izin Grup';
-$lang['DOWNLOAD_MODE'] = 'Mode Unduh';
-$lang['UPLOAD_ICON'] = 'Ikon Unggah';
-$lang['MAX_GROUPS_FILESIZE'] = 'Maksimum Ukuran File';
-$lang['EXTENSION_GROUP_EXIST'] = 'Ekstensi Kelompok %s sudah ada'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Mengelola Kategori Khusus';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Di sini Anda dapat mengonfigurasi Kategori Khusus. Anda dapat mengatur Parameter Khusus dan Ketentuan untuk Kategori Khusus yang ditugaskan kepada Grup Ekstensi.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Pengaturan untuk Kategori Khusus: Gambar';
-$lang['DISPLAY_INLINED'] = 'Tampilkan gambar secara inline';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Pilih apakah akan menampilkan gambar secara langsung dalam posting (ya) atau untuk menampilkan gambar sebagai link ?';
-$lang['MAX_IMAGE_SIZE'] = 'Dimensi Maksimum Gambar';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Di sini Anda dapat menentukan dimensi gambar maksimum yang diizinkan untuk dilampirkan (Lebar x Tinggi dalam piksel). Jika diatur ke 0x0, fitur ini dinonaktifkan. Dengan beberapa gambar, fitur ini mungkin tidak berfungsi karena batasan dalam PHP.';
-$lang['IMAGE_LINK_SIZE'] = 'Dimensi Link Gambar';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Jika dimensi yang ditentukan dari gambar tercapai, gambar akan ditampilkan sebagai tautan, bukan ditampilkan di dalam posting, jika tampilan dalam diaktifkan (Lebar x Tinggi dalam piksel). Jika diatur ke 0x0, fitur ini dinonaktifkan. Beberapa gambar mungkin tidak berfungsi dengan fitur ini karena batasan dalam PHP.';
-$lang['ASSIGNED_GROUP'] = 'Grup yang Ditugaskan';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Membuat Thumbnail';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Ukuran File Minimum untuk Thumbnail';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Jika sebuah gambar lebih kecil dari ukuran file yang ditentukan ini, tidak akan dibuat thumbnail karena ukurannya sudah cukup kecil.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Izin Grup Ekstensi → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Di sini Anda dapat membatasi Grup Ekstensi yang dipilih ke Forum pilihan Anda (didefinisikan dalam Kotak Forum yang Diizinkan). Defaultnya adalah untuk mengizinkan Grup Ekstensi ke semua Forum di mana Pengguna dapat Melampirkan File. Dengan cara normal yang dilakukan oleh Mod Lampiran sejak awal, hanya tambahkan Forum yang Anda ingin Grup Ekstensi diizinkan, default SEMUA FORUM akan hilang ketika Anda menambahkan Forum ke Daftar. Anda dapat menambahkan SEMUA FORUM di waktu tertentu. Jika Anda menambahkan sebuah Forum ke papan Anda dan izin diatur ke SEMUA FORUM, tidak akan ada perubahan. Tetapi jika Anda telah mengubah dan membatasi akses ke Forum tertentu, Anda perlu memeriksa kembali untuk menambahkan Forum baru Anda. Ini mudah dilakukan secara otomatis, tetapi ini akan memaksa Anda untuk mengedit sejumlah File, jadi saya memilih cara ini sekarang. Harap diingat, bahwa semua Forum Anda akan tercantum di sini.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'CATATAN:<br />Dalam forum yang tercantum di bawah ini, pengguna Anda biasanya diizinkan untuk melampirkan file, tetapi karena tidak ada grup ekstensi yang diizinkan di sana, pengguna Anda tidak dapat melampirkan apapun. Jika mereka mencoba, mereka akan menerima pesan kesalahan. Mungkin Anda ingin mengatur izin \'Post Files\' kepada ADMIN di forum ini.<br /><br />';
-$lang['ADD_FORUMS'] = 'Menambahkan Forum';
-$lang['ADD_SELECTED'] = 'Tambahkan Dipilih';
-$lang['PERM_ALL_FORUMS'] = 'SEMUA FORUM';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'Lampiran File Control Panel';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Di sini anda dapat melihat dan mengelola semua lampiran berdasarkan Pengguna, Lampiran, Pemandangan dll...';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Gunakan * sebagai wildcard untuk pertandingan parsial';
-$lang['SIZE_SMALLER_THAN'] = 'Ukuran Lampiran lebih kecil dari (byte)';
-$lang['SIZE_GREATER_THAN'] = 'Ukuran Lampiran lebih besar dari (byte)';
-$lang['COUNT_SMALLER_THAN'] = 'Jumlah unduhan lebih kecil dari';
-$lang['COUNT_GREATER_THAN'] = 'Download hitung lebih besar dari';
-$lang['MORE_DAYS_OLD'] = 'Lebih dari ini banyak hari yang lalu';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'Tidak ada Lampiran yang memenuhi kriteria pencarian anda';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Jumlah Lampiran';
-$lang['TOTAL_FILESIZE'] = 'Total Ukuran File';
-$lang['NUMBER_POSTS_ATTACH'] = 'Jumlah Posting dengan Lampiran';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Jumlah Topik dengan Lampiran';
-$lang['NUMBER_USERS_ATTACH'] = 'Pengguna Independen Mengunggah Lampiran';
-$lang['NUMBER_PMS_ATTACH'] = 'Total Jumlah Lampiran dalam Pesan Pribadi';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Lampiran Statistik untuk %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Download';
-$lang['POST_TIME'] = 'Waktu Posting';
-$lang['POSTED_IN_TOPIC'] = 'Diposting di Topik';
-$lang['SUBMIT_CHANGES'] = 'Menyerahkan Perubahan';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Lampiran';
-$lang['SORT_SIZE'] = 'Ukuran';
-$lang['SORT_FILENAME'] = 'Nama berkas';
-$lang['SORT_COMMENT'] = 'Komentar';
-$lang['SORT_EXTENSION'] = 'Ekstensi';
-$lang['SORT_DOWNLOADS'] = 'Download';
-$lang['SORT_POSTTIME'] = 'Waktu Posting';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statistik';
-$lang['VIEW_SEARCH'] = 'Pencarian';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Lampiran Konfigurasi berhasil diperbarui';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Klik %sHere%s untuk kembali ke Lampiran Konfigurasi';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Pengaturan Tes telah selesai, konfigurasi tampaknya baik-baik saja.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Lampiran';
-$lang['EXTENSIONS'] = 'Ekstensi';
-$lang['EXTENSION'] = 'Ekstensi';
-
 $lang['RETURN_CONFIG'] = '%sKembali ke Konfigurasi%s';
 $lang['CONFIG_UPD'] = 'Konfigurasi Berhasil Diperbarui';
 
@@ -2072,8 +1848,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Ubah status topik menjadi "Normal" saat
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Template dinonaktifkan';
 $lang['FOR_NEW_TEMPLATE'] = 'untuk pola-pola baru!';
-$lang['CHANGED'] = 'Berubah';
-$lang['REMOVED'] = 'Dihapus';
 $lang['QUESTION'] = 'Konfirmasi apakah Anda yakin ingin melakukan aksi ini';
 
 $lang['CRON_LIST'] = 'Daftar Cron';
@@ -2167,8 +1941,6 @@ $lang['TIME_LIMIT'] = 'Batas waktu';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Berapa lama (detik) pemrosesan posting dapat berlangsung sebelum berpindah ke siklus berikutnya';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Webserver Anda memiliki batas waktu yang dikonfigurasi selama %s detik, jadi tetap di bawah nilai ini</i>';
 
-$lang['DISABLE_BOARD'] = 'Menonaktifkan papan';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Anda terakhir berhenti pengolahan di post_id %s (%s diproses posting) pada %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Anda terakhir membatalkan pemrosesan di post_id %s (%s posting diproses) pada %s';
@@ -2189,7 +1961,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Semua posting yang berhasil diproses.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Semua tabel pencarian telah dioptimalkan dengan sukses.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Pengolahan posting';
-$lang['PERCENT'] = 'Persen';
 $lang['CURRENT_SESSION'] = 'Sesi saat ini';
 $lang['TOTAL'] = 'Total';
 
@@ -2197,7 +1968,6 @@ $lang['PROCESS_DETAILS'] = 'dari <b>%s</b> untuk <b>%s</b> (dari total <b>%s</b>
 $lang['PERCENT_COMPLETED'] = '%s % selesai';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Saat ini rincian sesi';
-$lang['PROCESSING_TIME'] = 'Waktu pemrosesan';
 $lang['TIME_LAST_POSTS'] = '%s posting terakhir';
 $lang['TIME_FROM_THE_BEGINNING'] = 'Dari awal';
 $lang['TIME_AVERAGE'] = 'Rata-rata per siklus';
@@ -2261,7 +2031,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Semua tindakan';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Log Tindakan: opsi pencarian';
 $lang['ACTS_LOG_FORUM'] = 'Forum';
 $lang['ACTS_LOG_ACTION'] = 'Aksi';
-$lang['ACTS_LOG_USER'] = 'Pengguna';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Log dari ';
 $lang['ACTS_LOG_FIRST'] = 'dimulai dengan';
 $lang['ACTS_LOG_DAYS_BACK'] = 'hari-hari kembali';
@@ -2279,10 +2048,8 @@ $lang['RELEASE'] = 'Rilis Template';
 $lang['RELEASES'] = 'Rilis';
 
 $lang['BACK'] = 'Kembali';
-$lang['ERROR_FORM'] = 'Bidang tidak valid';
 $lang['NEW_RELEASE'] = 'Rilis baru';
 $lang['NEXT'] = 'Terus';
-$lang['OTHER'] = 'Lainnya';
 $lang['ALL'] = 'Semua';
 
 $lang['TPL_EMPTY_FIELD'] = 'Anda harus mengisi bidang <b>%s</b>';
@@ -2484,7 +2251,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Pilihan';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Setiap baris sesuai satu jawaban (max';
 
 $lang['OLD_BROWSER'] = 'Anda menggunakan browser usang. Website tidak akan ditampilkan dengan benar.';
-$lang['GO_BACK'] = 'Kembali';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Upload file dinonaktifkan';
 $lang['UPLOAD_ERROR_COMMON'] = 'Kesalahan unggah file';
