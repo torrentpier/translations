@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Na vjen keq, por ju nuk jeni të autorizuar p
 $lang['DESCRIPTION'] = 'Përshkrimi'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Shkarkuar'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Madhësia e skedarit';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Madhësia maksimale e skedarit';
+$lang['ALLOWED_EXTENSIONS'] = 'Zgjerimet e lejuara';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Kopjo lidhjen e stream në clipboard';
 $lang['M3U_NOT_SUPPORTED'] = 'Ky skedar nuk mund të luhet në shfletues ...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Duket se ffprobe nuk do të jetë në gjendje të kthejë të dhëna rreth këtij kodeku ...';
 $lang['M3U_NOTICE'] = 'Disa shfletues nuk mbështesin luajtjen e formateve të video të caktuara. Në rastin e tillë, ju mund të shkarkoni skedarin .m3u dhe ta luani duke përdorur një lojtar të palës së tretë';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer nuk është në dispozicion';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Parametrat e kërkesës janë të pavlefshëm';
 
 $lang['ATTACHMENT'] = 'Shtojcat';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Shtoni një Bashkëngjitje';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Nëse nuk dëshironi të shtoni një Bashkëngjitje në postin tuaj, lutemi lini fushat bosh.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Përditëso Bashkëngjitjen';
 $lang['FILENAME'] = 'Emri i skedarit';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Fshij Bashkëngjitjen.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Ju nuk e keni zgjedhur një shtojcë për të shkarkuar ose të parë.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Shtojca e zgjedhur nuk ekziston më.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Kufiri ditor i shkarkimeve është kapur. Ju lutemi provoni përsëri nesër.';
 
 //bt
 $lang['BT_REG_YES'] = 'Regjistruar';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'Kolapso directory';
 $lang['EXPAND'] = 'Zgjerohet';
 $lang['SWITCH'] = 'Ndrysho';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Rrit/ul dritaren';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Mungon identifikuesi i temës';
+$lang['TOR_NOT_FOUND'] = 'Skedari mungon në server';
 $lang['ERROR_BUILD'] = 'Përmbajtja e këtij torrent file nuk mund të shihet në faqen e internetit (kjo nuk ishte e mundur për të ndërtuar një listë e dosjeve)';
 $lang['TORFILE_INVALID'] = 'Torrent file është korruptuar';
 
