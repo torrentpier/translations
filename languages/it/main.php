@@ -1153,7 +1153,7 @@ $lang['EXPAND'] = 'Espandi';
 $lang['SWITCH'] = 'Cambia';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Aumenta/diminuisci la finestra';
 $lang['EMPTY_TOPIC_ID'] = 'Identificatore del topic mancante';
-$lang['TOR_NOT_FOUND'] = 'Il file è mancante dal server';
+$lang['TOR_NOT_FOUND'] = 'Il file non si trova sul server';
 $lang['ERROR_BUILD'] = 'Il contenuto di questo file torrent non può essere visualizzato sul sito (non è stato possibile creare un elenco di file)';
 $lang['TORFILE_INVALID'] = 'Il file torrent è corrotto';
 
