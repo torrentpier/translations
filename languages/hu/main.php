@@ -29,14 +29,10 @@ $lang['PASSWORD_SHOW_BTN'] = 'Jelszó megjelenítése';
 $lang['EMAIL'] = 'E-mail';
 $lang['PM'] = 'PM';
 $lang['AUTHOR'] = 'Szerző';
-$lang['TIME'] = 'Idő';
 $lang['MESSAGE'] = 'Üzenet';
 $lang['TORRENT'] = 'Torrent';
 $lang['PERMISSIONS'] = 'Engedélyek';
 $lang['TYPE'] = 'Típus';
-$lang['SEEDER'] = 'Vetőgép';
-$lang['LEECHER'] = 'Leecher';
-$lang['RELEASER'] = 'Releaser';
 
 $lang['1_DAY'] = '1 Nap';
 $lang['7_DAYS'] = '7 Nap';
@@ -92,7 +88,6 @@ $lang['REPLY_TO_TOPIC'] = 'Válasz a téma';
 $lang['CLICK_RETURN_TOPIC'] = 'Kattintson %side%s, hogy visszatérjen a témához'; // %s's here are for uris, do not remove!
 $lang['CLICK_RETURN_FORUM'] = 'Kattintson %side%s, hogy visszatérjen a fórumra';
 $lang['CLICK_RETURN_MODCP'] = 'Kattintson %sHere%s vissza Moderátor Vezérlőpult';
-$lang['CLICK_RETURN_GROUP'] = 'Kattintson %sHere%s vissza csoport információk';
 
 $lang['ADMIN_PANEL'] = 'Ugrás az adminisztrációs panelre';
 $lang['ALL_CACHE_CLEARED'] = 'A gyorsítótár kiürítve';
@@ -113,7 +108,6 @@ $lang['JUMPBOX_TITLE'] = 'Fórum kiválasztása';
 $lang['DISPLAYING_OPTIONS'] = 'Opciók megjelenítése';
 
 // Global Header strings
-$lang['REGISTERED_USERS'] = 'Regisztrált Felhasználók:';
 $lang['BROWSING_FORUM'] = 'A fórumot böngészők:';
 $lang['ONLINE_USERS'] = 'Összesen <b>%1$d</b> felhasználó van online: %2$d regisztrált és %3$d vendég';
 $lang['RECORD_ONLINE_USERS'] = 'A legtöbb felhasználó egyszerre online: <b>%s</b> (%s)'; // first %s = number of users, second %s is the date.
@@ -130,7 +124,6 @@ $lang['SEARCH_NEW'] = 'Legújabb hozzászólások megtekintése';
 $lang['SEARCH_SELF'] = 'Saját hozzászólásaim';
 $lang['SEARCH_SELF_BY_LAST'] = 'utolsó hozzászólás ideje';
 $lang['SEARCH_SELF_BY_MY'] = 'Saját hozzászólás ideje';
-$lang['SEARCH_UNANSWERED'] = 'Nézze meg a megválaszolatlan hozzászólásokat.';
 $lang['SEARCH_LATEST'] = 'Legfrissebb témák';
 $lang['LATEST_RELEASES'] = 'Legújabb kiadások';
 
@@ -160,7 +153,6 @@ $lang['SPEED_STAT'] = 'Teljes sebesség: <b>%s</b>&nbsp;'; // %s = total speed.
 
 $lang['NO_NEW_POSTS'] = 'Nincs új hozzászólás';
 $lang['NEW_POSTS'] = 'Új hozzászólás';
-$lang['NEW_POST'] = 'Új hozzászólás';
 $lang['FORUM_LOCKED_MAIN'] = 'Fórum le van zárva';
 
 // Login
@@ -190,14 +182,10 @@ $lang['LATEST_NEWS'] = 'Legfrissebb hírek';
 $lang['NETWORK_NEWS'] = 'Hálózati hírek';
 $lang['SUBFORUMS'] = 'Alfórumok';
 
-// Viewforum
-$lang['VIEW_FORUM'] = 'Nézet Fórum';
-
 $lang['FORUM_NOT_EXIST'] = 'A kiválasztott fórum nem létezik.';
 $lang['ERROR_PORNO_FORUM'] = 'Ez a típusú fórum (18+) el van rejtve az ön profiljában.';
 
 $lang['DISPLAY_TOPICS'] = 'Témák megjelenítése.';
-$lang['ALL_TOPICS'] = 'Összes téma.';
 $lang['MODERATE_FORUM'] = 'Mérsékelje ezt a fórumot.';
 $lang['TITLE_SEARCH_HINT'] = 'Cím keresése...';
 
@@ -223,11 +211,7 @@ $lang['RULES_MODERATE'] = 'Te <b>lehet</b> moderálni ezt a fórumot.';
 $lang['NO_TOPICS_POST_ONE'] = 'Még nincsenek bejegyzések ezen a fórumon<br />Kattintson a <b>Új Téma</b> ikonra, és a bejegyzése lesz az első.';
 $lang['NO_RELEASES_POST_ONE'] = 'Még nincsenek kiadások ezen a fórumon<br />Kattintson a <b>Új Kiadás</b> ikonra, és a kiadása lesz az első.';
 
-// Viewtopic
-$lang['VIEW_TOPIC'] = 'Téma megtekintése';
-
 $lang['GUEST'] = 'Vendég';
-$lang['POST_SUBJECT'] = 'Poszt tárgy.';
 $lang['SUBMIT_VOTE'] = 'Szavazás benyújtása.';
 
 $lang['NO_NEWER_TOPICS'] = 'Nincsenek új témák ebben a fórumban.';
@@ -241,7 +225,6 @@ $lang['NEWEST_FIRST'] = 'Legújabb Első';
 $lang['OLDEST_FIRST'] = 'Legrégebbi Első';
 
 $lang['READ_PROFILE'] = 'Felhasználói profil megtekintése';
-$lang['DELETE_POST'] = 'Törölje ezt a bejegyzést';
 
 $lang['WROTE'] = 'írta'; // proceeds the username and is followed by the quoted text
 $lang['QUOTE'] = 'Idézet'; // comes before bbcode quote output
@@ -294,7 +277,6 @@ $lang['DONT_MESSAGE_TITLE'] = 'Adja meg az üzenet címét';
 $lang['INVALID_TOPIC_ID'] = 'Téma Hiányzik!';
 $lang['INVALID_TOPIC_ID_DB'] = 'A téma nem létezik az adatbázisban!';
 
-$lang['NOT_POST'] = 'Hiányzó üzenet';
 $lang['NOT_EDIT_TOR_STATUS'] = 'Nem szerkesztheti a kiadás állapotát';
 
 $lang['OPTIONS'] = 'Lehetőségek';
@@ -330,7 +312,6 @@ $lang['NO_VOTE_OPTION'] = 'Meg kell adnia egy opciót a szavazás során.';
 $lang['LOCKED_WARN'] = 'Zárva lévő témába posztolt.';
 
 $lang['ADD_POLL'] = 'Adjunk hozzá egy közvélemény-kutatást.';
-$lang['POLL_OPTION'] = 'Szavazási lehetőség.';
 $lang['UPDATE'] = 'Frissítés';
 $lang['DAYS'] = 'Nap';
 $lang['DELETE_POLL'] = 'Szavazás törlése';
@@ -343,7 +324,6 @@ $lang['ALLOW_ROBOTS_INDEXING'] = 'Engedélyezze a robotok számára a téma inde
 $lang['STORED'] = 'Az üzenet sikeresen be van jelentve.';
 $lang['EDITED'] = 'Az üzenet megváltozott';
 $lang['DELETED'] = 'Az üzenetet sikeresen törölve.';
-$lang['POLL_DELETE'] = 'A szavazás sikeresen törölve.';
 $lang['VOTE_CAST'] = 'A szavazást már leadták.';
 
 $lang['EMOTICONS'] = 'Hangulatjelek';
@@ -391,12 +371,10 @@ $lang['INBOX'] = 'Bejövő';
 $lang['OUTBOX'] = 'Kimenő';
 $lang['SAVEBOX'] = 'Mentődoboz';
 $lang['SENTBOX'] = 'Elküldő doboz';
-$lang['FLAG'] = 'Zászló';
 $lang['SUBJECT'] = 'Tárgy';
 $lang['FROM'] = 'A';
 $lang['TO'] = 'Hogy';
 $lang['DATE'] = 'Időpont';
-$lang['MARK'] = 'Megjelöl';
 $lang['SENT'] = 'Küldött';
 $lang['SAVED'] = 'Mentett';
 $lang['DELETE_MARKED'] = 'Kijelöltek Törlése';
@@ -409,7 +387,6 @@ $lang['DISPLAY_MESSAGES'] = 'Üzenetek megjelenítése'; // Followed by number o
 
 $lang['NO_MESSAGES_FOLDER'] = 'No messages found in this folder.';
 
-$lang['PM_DISABLED'] = 'Privát üzenetek le van tiltva ezen a fórumon.';
 $lang['CANNOT_SEND_PRIVMSG'] = 'Sorry, the administrator has restricted you from sending private messages.';
 $lang['NO_TO_USER'] = 'Meg kell adnod egy felhasználónevet, hogy kit küld el ezt az üzenetet.';
 $lang['NO_SUCH_USER'] = 'Sorry, but no such user exists.';
@@ -428,7 +405,6 @@ $lang['EDIT_MESSAGE'] = 'Szerkesztés privát üzenet.';
 
 $lang['FIND_USERNAME'] = 'Találni egy felhasználónevet';
 $lang['SELECT_USERNAME'] = 'Válasszon egy Felhasználónevet';
-$lang['FIND'] = 'Keresés.';
 $lang['NO_MATCH'] = 'Nincs találat.';
 
 $lang['NO_PM_ID'] = 'Kérjük, adja meg a poszt azonosítóját.';
@@ -565,10 +541,8 @@ $lang['ACCOUNT_INACTIVE'] = 'A fiókja létrejött. Azonban ennek a fórumnak ak
 $lang['ACCOUNT_ACTIVE'] = 'A fiók most aktív. Köszönöm a regisztrációt.';
 $lang['ALREADY_ACTIVATED'] = 'Már aktiválta a fiókját.';
 
-$lang['REGISTRATION'] = 'Regisztrációs Megállapodás Feltételek.';
 
 $lang['WRONG_ACTIVATION'] = 'Az aktiválási kulcs, amelyet megadott, nem felel meg a tartalomnak az adatbázisban.';
-$lang['SEND_PASSWORD'] = 'Küldjön egy új jelszó.';
 $lang['PASSWORD_UPDATED'] = 'Az új jelszó elkészült; kérjük, ellenőrizze az e-mailt a részletekhez, hogy miként aktiválja.';
 $lang['NO_EMAIL_MATCH'] = 'Az Ön által megadott e-mail cím nem felel meg a felhasználónévhez tartozó címnek.';
 $lang['PASSWORD_ACTIVATED'] = 'A fiókját újra aktiválták. A bejelentkezéshez kérjük, használja a jelszót, amelyet az e-mailben elküldtek Önnek.';
@@ -592,7 +566,6 @@ $lang['ADVERT'] = 'Hirdessen ezen az oldalon';
 $lang['NOT_FOUND'] = 'A fájl nem található';
 
 // Memberslist
-$lang['SORT'] = 'Rendezés';
 $lang['SORT_TOP_TEN'] = 'Top Tíz Posztoló.';
 $lang['SORT_JOINED'] = 'Csatlakozási Dátum.';
 $lang['SORT_USERNAME'] = 'Felhasználónév';
@@ -657,9 +630,6 @@ $lang['NO_GROUP_MEMBERS'] = 'Ez a csoportnak nincsenek tagjai.';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Ez a csoport rejtett; nem látható a tagság.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Ez a csoportnak nincsenek folyamatban lévő tagjai.';
 $lang['GROUP_JOINED'] = 'Sikeresen feliratkozott a csoporthoz.<br />Értesítést kap, ha az előfizetése a csoport moderátor által jóváhagyásra kerül.';
-$lang['GROUP_REQUEST'] = 'Egy kérvényt nyújtottak be, hogy csatlakozzon a csoporthoz.';
-$lang['GROUP_APPROVED'] = 'A kérelmet jóváhagyták.';
-$lang['GROUP_ADDED'] = 'Ön már tagja ennek a felhasználói csoportnak.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Már tagja ennek a csoportnak.';
 $lang['USER_IS_MEMBER_GROUP'] = '%s már tagja ennek a csoportnak';
 $lang['USER_IS_MOD_GROUP'] = '%s ennek a csoportnak a moderátora';
@@ -682,7 +652,6 @@ $lang['PENDING_THIS_GROUP'] = 'A tagsága ennek a csoportnak függőben van.';
 $lang['ARE_GROUP_MODERATOR'] = 'Ön a csoport moderátora.';
 $lang['NONE'] = 'Egyik sem';
 
-$lang['SUBSCRIBE'] = 'Feliratkozás';
 $lang['UNSUBSCRIBE_GROUP'] = 'Leiratkozás';
 $lang['MEMBERS_IN_GROUP'] = 'A tagok a csoportban.';
 
@@ -697,7 +666,6 @@ $lang['NOT_A_RELEASE_GROUP'] = 'Ez a csoport nem egy kiadás csoport.';
 
 // Search
 $lang['SEARCH_HELP_URL'] = 'Keresés Segítség.';
-$lang['SEARCH_QUERY'] = 'Keresési Lekérdezés.';
 $lang['SEARCH_OPTIONS'] = 'Keresési Opciók.';
 
 $lang['SEARCH_WORDS'] = 'Keresési Kulcsszavak.';
@@ -720,14 +688,12 @@ $lang['SORT_TOPIC_TITLE'] = 'Téma Címe';
 $lang['DISPLAY_RESULTS_AS'] = 'Eredmények megjelenítése mint';
 $lang['ALL_AVAILABLE'] = 'Minden elérhető';
 $lang['BRIEFLY'] = 'Röviden';
-$lang['NO_SEARCHABLE_FORUMS'] = 'Nincs jogosultsága, hogy fórumot keressen ezen az oldalon.';
 
 $lang['NO_SEARCH_MATCH'] = 'Nincsenek olyan témák vagy hozzászólások, amelyek megfelelnek a keresési feltételeinek.';
 $lang['FOUND_SEARCH_MATCH'] = 'Keresés talált %d mérkőzés'; // e.g. Search found 1 match
 $lang['FOUND_SEARCH_MATCHES'] = 'Keresés talált %d mérkőzést.'; // e.g. Search found 24 matches
 
 $lang['CLOSE_WINDOW'] = 'Ablak Bezárása';
-$lang['CLOSE'] = 'közel.';
 $lang['HIDE'] = 'elrejtése';
 
 // Auth related entries
@@ -817,7 +783,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sajnálom, de Ön nem jogosult megnézni vagy
 $lang['DESCRIPTION'] = 'Leírás'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Letöltés'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fájlméret';
-$lang['EXTENSION_DISABLED_AFTER_POSTING'] = 'A \'%s\' kiterjesztést letiltották a fórum adminisztrátor általi, ezért ez a melléklet nem jelenik meg.'; // used in Posts and PM's, replace %s with mime type
+$lang['MAX_FILE_SIZE'] = 'Max file size';
+$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -836,61 +803,25 @@ $lang['COPY_STREAM_LINK'] = 'Stream link másolása a vágólapra';
 $lang['M3U_NOT_SUPPORTED'] = 'Ez a fájl nem játszható le a böngészőben...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Úgy tűnik, hogy az ffprobe nem képes adatokat visszaadni erről a kodekről...';
 $lang['M3U_NOTICE'] = 'Néhány böngésző nem támogatja bizonyos videóformátumok lejátszását. Ilyen esetben letöltheti a .m3u fájlt, és egy harmadik féltől származó lejátszóval játszhatja le';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
 
 $lang['ATTACHMENT'] = 'Mellékletek.';
-$lang['ATTACHMENT_THUMBNAIL'] = 'Melléklet Thumbnail.';
 
-// Posting/PM -> Posting Attachments
+// Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Melléklet hozzáadása.';
-$lang['ADD_ATTACHMENT_TITLE'] = 'Melléklet csatolása.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Ha nem szeretné, hogy mellékleteket csatoljon a Posztjához, kérem, hagyja üresen a mezőket.';
+$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
 $lang['FILENAME'] = 'Fájlneve.';
-$lang['FILE_COMMENT'] = 'Fájl hozzászólás.';
 
-// Posting/PM -> Posted Attachments
+// Posting -> Posted Attachments
 $lang['POSTED_ATTACHMENTS'] = 'Közzétett mellékletek.';
-$lang['UPDATE_COMMENT'] = 'Frissítési hozzászólás.';
 $lang['DELETE_ATTACHMENT'] = 'Melléklet törlése.';
-$lang['DELETE_THUMBNAIL'] = 'Indexkép törlése.';
-$lang['UPLOAD_NEW_VERSION'] = 'Új verzió feltöltése.';
-
-// Errors -> Posting Attachments
-$lang['INVALID_FILENAME'] = '%s érvénytelen fájlnév.'; // replace %s with given filename
-$lang['ATTACHMENT_PHP_SIZE_NA'] = 'A melléklet túl nagy.<br />Nem tudta megkapni a maximális méretet, amit a PHP megadott.<br />A mellékletmod nem tudja meghatározni a maximális feltöltési méretet, amit a php.ini-ben határoztak meg.';
-$lang['ATTACHMENT_PHP_SIZE_OVERRUN'] = 'A melléklet túl nagy.<br />A maximális feltöltési méret: %d MB.<br />Kérjük, vegye figyelembe, hogy ezt a méretet a php.ini határozza meg, ami azt jelenti, hogy ez PHP által beállított érték, és a melléklet-mod nem tudja felülbírálni ezt az értéket.'; // replace %d with ini_get('upload_max_filesize')
-$lang['DISALLOWED_EXTENSION'] = 'A Kiterjesztés %s nem engedélyezett'; // replace %s with extension (e.g. .php)
-$lang['DISALLOWED_EXTENSION_WITHIN_FORUM'] = 'Nem engedélyezett a(z) %s kiterjesztésű fájlok közzététele ebben a fórumban.'; // replace %s with the Extension
-$lang['ATTACHMENT_TOO_BIG'] = 'A Melléklet túl nagy volt.<br />Max Méret: %s'; // replace %d with maximum file size, %s with size var
-$lang['TOO_MANY_ATTACHMENTS'] = 'A melléklet nem adható hozzá, mivel a maximális számú %d mellékletet ebben a bejegyzésben elérték.'; // replace %d with maximum number of attachments
-$lang['ERROR_IMAGESIZE'] = 'A melléklet/kép szélessége nem haladhatja meg a %d pixelt, és a magassága nem haladhatja meg a %d pixelt.';
-$lang['GENERAL_UPLOAD_ERROR'] = 'Feltöltési hiba: nem sikerült a mellékletet feltölteni a %s helyre.'; // replace %s with local path
-
-$lang['ERROR_EMPTY_ADD_ATTACHBOX'] = 'Meg kell adnia az értékeket az \'Melléklet hozzáadása\' dobozban.';
-$lang['ERROR_MISSING_OLD_ENTRY'] = 'Nem sikerült frissíteni a mellékletet, nem található a régi mellékletbejegyzés.';
 
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Még nem választott ki mellékletet letöltéshez vagy megtekintéshez.';
 $lang['ERROR_NO_ATTACHMENT'] = 'A kijelölt Melléklet nem létezik többé';
-
-// Delete Attachments
-$lang['DELETED_ATTACHMENTS'] = 'A kijelölt Mellékletek törölték.';
-$lang['ERROR_DELETED_ATTACHMENTS'] = 'Nem tudta törölni Mellékleteket.';
-
-// General Error Messages
-$lang['ATTACHMENT_FEATURE_DISABLED'] = 'A melléklet funkció le van tiltva.';
-
-$lang['DIRECTORY_DOES_NOT_EXIST'] = 'A Könyvtár \'%s\' nem létezik, vagy nem található.'; // replace %s with directory
-$lang['DIRECTORY_IS_NOT_A_DIR'] = 'Kérjük, ellenőrizze, hogy \'%s\' egy könyvtár.'; // replace %s with directory
-$lang['DIRECTORY_NOT_WRITEABLE'] = 'A \'%s\' könyvtár nem írható. Létre kell hoznia a feltöltési útvonalat és chmod-büszkét 777-re kell állítania (vagy a tulajdonost kell módosítani, hogy a httpd-szerver tulajdonosa legyen), hogy fájlokat tudjon feltölteni. Ha csak sima FTP-hozzáféréssel rendelkezik, változtassa meg a könyvtár \'Attribútumát\' rwxrwxrwx-re.'; // replace %s with directory
-
-// Common Variables
-$lang['BYTES'] = 'Bájt';
-$lang['KB'] = 'KB';
-$lang['MB'] = 'MB';
-$lang['GB'] = 'GB';
-$lang['ATTACH_SEARCH_QUERY'] = 'Keresés Mellékletek';
-$lang['TEST_SETTINGS'] = 'Beállítások vizsgálata.';
-$lang['NOT_ASSIGNED'] = 'Nem Rendelhető';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
 
 //bt
 $lang['BT_REG_YES'] = 'Regisztrált';
@@ -964,7 +895,6 @@ $lang['TOR_STATUS_OF'] = 'Az engedély állapota:';
 $lang['TOR_STATUS_CHANGED'] = 'Az állapot megváltozott:';
 $lang['TOR_BACK'] = ' vissza';
 $lang['PROCEED'] = 'Folytatás.';
-$lang['INVALID_ATTACH_ID'] = 'Hiányzó fájl azonosító!';
 $lang['CHANGE_TOR_TYPE'] = 'A torrent típusa sikeresen megváltozott.';
 $lang['DEL_TORRENT'] = 'Biztos, hogy törölni szeretné a torrente? ';
 $lang['DEL_MOVE_TORRENT'] = 'Biztos, hogy törölni akarja, majd mozgassa a témát?';
@@ -1067,18 +997,14 @@ $lang['SEARCH_DL_DOWN'] = 'Aktuális.';
 $lang['SEARCH_DL_COMPLETE'] = 'Befejezett.';
 $lang['SEARCH_DL_COMPLETE_DOWNLOADS'] = 'A Befejezett Letöltések.';
 $lang['SEARCH_DL_CANCEL'] = 'Elmarad.';
-$lang['CUR_DOWNLOADS'] = 'Aktuális Letöltések.';
 $lang['CUR_UPLOADS'] = 'Jelenlegi Feltöltések.';
 $lang['SEARCH_RELEASES'] = 'Kiadások.';
 $lang['TOR_SEARCH_TITLE'] = 'Torrent keresési opciók';
 $lang['OPEN_TOPIC'] = 'Nyitott téma.';
 
-$lang['ALLOWED_ONLY_1ST_POST_ATTACH'] = 'Kiküldés torrent csak engedélyezett az első post.';
-$lang['ALLOWED_ONLY_1ST_POST_REG'] = 'Regisztrálás torrent csak engedélyezett az első post.';
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Torrent nem lehet regisztrálni, ebben a fórumban.';
 $lang['ALREADY_REG'] = 'Torrent már regisztrálva.';
 $lang['NOT_TORRENT'] = 'Ez a fájl nem torrent.';
-$lang['ONLY_1_TOR_PER_TOPIC'] = 'Csak egy torrent regisztrálható egy témában.';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profil';
 $lang['CUR_ACTIVE_DLS'] = 'Aktív torrentek.';
 
@@ -1207,10 +1133,7 @@ $lang['ONLY_NEW_TOPICS'] = 'csak új témák.';
 
 $lang['TORHELP_TITLE'] = 'Kérlek, segíts a torrentek elültetésében!';
 $lang['STATISTICS'] = 'Statisztika.';
-$lang['STATISTIC'] = 'Statisztika.';
-$lang['VALUE'] = 'Érték.';
 $lang['STATUS'] = 'Állapot.';
-$lang['CHANGES'] = 'Változások';
 $lang['ACTION'] = 'Akció';
 $lang['REASON'] = 'Ok';
 $lang['COMMENT'] = 'Hozzászólás';
@@ -1230,14 +1153,13 @@ $lang['COLLAPSE'] = 'Könyvtár összeomlása';
 $lang['EXPAND'] = 'Bővít';
 $lang['SWITCH'] = 'Kapcsolás';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Ablak méretének növelése/csökkentése';
-$lang['EMPTY_ATTACH_ID'] = 'Hiányzó fájl azonosító!';
-$lang['TOR_NOT_FOUND'] = 'A fájl hiányzik a szerverről!';
+$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
+$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
 $lang['ERROR_BUILD'] = 'A torrent fájl tartalma nem tekinthető meg az oldalon (nem lehetett fájlok listáját készíteni)';
 $lang['TORFILE_INVALID'] = 'Torrent fájl sérült';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'A "helyszínen" csak a következő tartalmak szerepelhetnek: http://sitename';
-$lang['INVALID_DATE'] = 'Érvénytelen dátum';
 $lang['PROFILE_USER'] = 'Profil megtekintése';
 $lang['GOOD_UPDATE'] = 'sikeresen megváltozott';
 $lang['UCP_DOWNLOADS'] = 'Letöltések';
@@ -1252,7 +1174,6 @@ $lang['SEND_MESSAGE'] = 'Üzenet küldése';
 $lang['NEW_THREADS'] = 'Új Szálak';
 $lang['PROFILE_NOT_FOUND'] = 'Profil nem található';
 
-$lang['USER_DELETE'] = 'Törlés';
 $lang['USER_DELETE_EXPLAIN'] = 'Ezen felhasználó törlése';
 $lang['USER_DELETE_ME'] = 'Sajnáljuk, a fiókját nem lehet eltávolítani!';
 $lang['USER_DELETE_CSV'] = 'Sajnáljuk, ezt a fiókot nem lehet törölni!';
@@ -1308,7 +1229,6 @@ $lang['ON'] = 'a';
 $lang['OFF'] = 'le';
 $lang['MEMORY'] = 'Memória: ';
 $lang['QUERIES'] = 'lekérdezések';
-$lang['LIMIT'] = 'Korlát:';
 $lang['SHOW_LOG'] = 'Napló megjelenítése';
 $lang['EXPLAINED_LOG'] = 'Kibővített napló';
 $lang['CUT_LOG'] = 'Hosszú lekérdezések vágása';
@@ -1410,7 +1330,6 @@ $lang['POST_RETURN'] = 'Ugrás a bejegyzéshez';
 $lang['PROFILE_EDIT_RETURN'] = 'Vissza a szerkesztéshez';
 $lang['PROFILE_RETURN'] = 'Ugrás a profilhoz';
 
-$lang['WARNING'] = 'Figyelmeztetés';
 $lang['INDEXER'] = 'Keresés újraindexelése';
 $lang['INDEXER_SUCCESS'] = 'A keresési indexet sikeresen frissítették';
 
@@ -1433,9 +1352,6 @@ $lang['RANKS'] = 'Rangok';
 $lang['SMILIES'] = 'Smileyik';
 $lang['BAN_MANAGEMENT'] = 'Tilos ellenőrzés';
 $lang['WORD_CENSOR'] = 'Szó cenzúrázása';
-$lang['EXPORT'] = 'Export';
-$lang['CREATE_NEW'] = 'Létrehozás';
-$lang['ADD_NEW'] = 'Add';
 $lang['CRON'] = 'A Feladatütemező (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Újra építeni a keresési indexet';
 $lang['FORUM_CONFIG'] = 'Fórum beállítások';
@@ -1487,7 +1403,6 @@ $lang['NUMBER_USERS'] = 'Felhasználók száma.';
 $lang['USERS_PER_DAY'] = 'Felhasználók naponta.';
 $lang['BOARD_STARTED'] = 'Lefedettek Board.';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar könyvtár mérete';
-$lang['DATABASE_SIZE'] = 'Adatbázis méret';
 $lang['GZIP_COMPRESSION'] = 'Gzip tömörítés';
 $lang['NOT_AVAILABLE'] = 'Nem elérhető';
 
@@ -1584,7 +1499,6 @@ $lang['CLICK_RETURN_FORUMAUTH'] = 'Kattintson %sHere%s vissza Fórum Jogosultsá
 $lang['BAN_CONTROL'] = 'Tilalom Ellenőrzése';
 $lang['BAN_EXPLAIN'] = 'Itt szabályozhatja a felhasználók kitiltását.';
 $lang['BAN_USERNAME'] = 'Tilalmát egy vagy több meghatározott felhasználók';
-$lang['BAN_USERNAME_EXPLAIN'] = 'Lehet tilalom több felhasználó egyszerre használja a megfelelő kombinációja, az egér, a billentyűzet a számítógép, illetve böngésző';
 $lang['UNBAN_USERNAME'] = 'Tilos egy vagy több konkrét felhasználót azonnali hatállyal.';
 $lang['UNBAN_USERNAME_EXPLAIN'] = 'Lehet unban több felhasználó egyszerre használja a megfelelő kombinációja, az egér, a billentyűzet a számítógép, illetve böngésző';
 $lang['NO_BANNED_USERS'] = 'Nem tiltott felhasználónevek';
@@ -1606,9 +1520,7 @@ $lang['SITE_NAME'] = 'Oldal neve';
 $lang['SITE_DESC'] = 'Oldal leírása';
 $lang['FORUMS_DISABLE'] = 'Tiltsa le igazgatóság';
 $lang['BOARD_DISABLE_EXPLAIN'] = 'Ez biztosítja, hogy a testület nem elérhető a felhasználók számára. A rendszergazdák képesek hozzáférést az Adminisztrációs Panel, míg a fórumon le van tiltva.';
-$lang['ACC_NONE'] = 'Egyik sem'; // These three entries are the type of activation
-$lang['ACC_USER'] = 'Felhasználó';
-$lang['ACC_ADMIN'] = 'Admin';
+$lang['ACC_NONE'] = 'Egyik sem';
 
 $lang['ABILITIES_SETTINGS'] = 'A felhasználói, mind a Fórum az Alapvető Beállítások';
 $lang['MAX_POLL_OPTIONS'] = 'Max számú lekérdezési lehetőségek';
@@ -1646,7 +1558,6 @@ $lang['REMOVE'] = 'Eltávolítani';
 $lang['CONFIG_UPDATED'] = 'Fórum Konfigurációs Frissült Sikeresen';
 $lang['MOVE_UP'] = 'Mozgás';
 $lang['MOVE_DOWN'] = 'Lejjebb';
-$lang['RESYNC'] = 'Újraszinkronizálás';
 $lang['NO_MODE'] = 'Nem üzemmódban';
 $lang['FORUM_EDIT_DELETE_EXPLAIN'] = 'Az alábbi űrlap lehetővé teszi az összes általános fórumbeállítás testreszabását. A felhasználói és fórumkonfigurációkhoz használja a bal oldalon található kapcsolódó linkeket.';
 
@@ -1731,7 +1642,6 @@ $lang['GROUP_DELETE'] = 'Csoport törlése';
 $lang['GROUP_DELETE_CHECK'] = 'Törlés a csoport';
 $lang['NO_GROUP_NAME'] = 'Meg kell adnia nevét, e-csoport';
 $lang['NO_GROUP_MODERATOR'] = 'Meg kell adnia egy moderátor a csoport';
-$lang['NO_GROUP_MODE'] = 'Meg kell adnia egy mód ez a csoport, nyitott vagy zárt';
 $lang['NO_GROUP_ACTION'] = 'Nem történt intézkedés meghatározott';
 $lang['DELETE_OLD_GROUP_MOD'] = 'Törölje a régi csoport moderátor?';
 $lang['DELETE_OLD_GROUP_MOD_EXPL'] = 'Ha változik a csoport moderátor, jelölje be ezt a jelölőnégyzetet, hogy távolítsa el a régi moderátor a csoportból. Különben nem ellenőrzi, hogy a felhasználó lesz egy állandó tagja a csapatnak.';
@@ -1743,7 +1653,6 @@ $lang['LOOK_UP_GROUP'] = 'Nézd csoport';
 $lang['FORUM_PRUNE'] = 'Fórum Szilva';
 $lang['FORUM_PRUNE_EXPLAIN'] = 'Ez fog törölni minden olyan téma, amely nem írt belül a napok számát válassza ki. Ha nem adja meg a számot, akkor minden témák törölve lesz. Nem fogja megszüntetni <b>sticky</b> témák, <b>announcements</b>. Meg kell, hogy távolítsa el azokat a témaköröket, kézzel.';
 $lang['DO_PRUNE'] = 'Tedd Szilva';
-$lang['ALL_FORUMS'] = 'Minden Fórumok';
 $lang['PRUNE_TOPICS_NOT_POSTED'] = 'Szilva témákat nem érkezett válasz az, hogy ez hány nap';
 $lang['TOPICS_PRUNED'] = 'Témák metszeni';
 $lang['PRUNE_SUCCESS'] = 'Fórum már metszeni, sikeresen';
@@ -1799,7 +1708,6 @@ $lang['CLICK_RETURN_RANKADMIN'] = 'Kattintson %sHere%s vissza Rank Adminisztrác
 $lang['DISALLOW_CONTROL'] = 'Felhasználónév Letiltja Ellenőrzés';
 $lang['DISALLOW_EXPLAIN'] = 'Itt tudod irányítani felhasználónevek, amelyek nem használhatók. A gól nem érvényes felhasználónevet tartalmazhat egy helyettesítő karakter a *. Kérjük, vegye figyelembe, hogy nem szabad megengedni, hogy végezze el a felhasználónév már regisztrált. Először törölni kell ezt a nevet akkor letiltja.';
 
-$lang['DELETE_DISALLOW'] = 'Törlés';
 $lang['DELETE_DISALLOW_TITLE'] = 'Távolítsa el a nem Engedélyezett Felhasználónév';
 $lang['DELETE_DISALLOW_EXPLAIN'] = 'Eltávolíthatja a nem engedélyezett felhasználónév kiválasztásával a felhasználó nevét a listából, majd kattintson a submit';
 
@@ -1852,7 +1760,6 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s letölthető mellékletek';
 $lang['SF_SHOW_ON_INDEX'] = 'Show-fő oldal';
 $lang['SF_PARENT_FORUM'] = 'Szülői fórum';
 $lang['SF_NO_PARENT'] = 'Nem szülő fórum';
-$lang['TEMPLATE'] = 'Sablon';
 $lang['SYNC'] = 'Fordította:';
 
 // Mods
@@ -1874,138 +1781,7 @@ $lang['SEED_BONUS_WARNING'] = 'FIGYELEM! Seed Bónuszok kell növekvő sorrendbe
 $lang['SEED_BONUS_EXCHANGE'] = 'Beállítása Az Exchange Sid Bónuszok';
 $lang['SEED_BONUS_ROPORTION'] = 'Aránya, továbbá egy csere a bónuszokat GB';
 
-// Modules, this replaces the keys used
-$lang['CONTROL_PANEL'] = 'Vezérlőpult';
-$lang['EXTENSION_CONTROL'] = 'Kiterjesztés Ellenőrzés';
-$lang['EXTENSION_GROUP_MANAGE'] = 'Kiterjesztés Csoportok Kontroll';
-$lang['SPECIAL_CATEGORIES'] = 'Különleges Kategóriák';
-
-// Attachments -> Management
-$lang['ATTACH_SETTINGS'] = 'Rögzítési Beállítások';
-$lang['MANAGE_ATTACHMENTS_EXPLAIN'] = 'Itt beállíthatja, hogy a Fő Beállítások a Mellékletet Mod. Ha akkor nyomja meg a Vizsgálati Beállítások Gombra, a Mellékletet Mod van egy pár Rendszer Vizsgálatot, hogy biztos legyen, hogy a Mod megfelelően fog működni. Ha problémái vannak a Fájlok feltöltése, kérjük, hogy a vizsgálatra, hogy egy részletes hiba-üzenet.';
-$lang['ATTACH_FILESIZE_SETTINGS'] = 'Csatolmányok fájlméret-beállításai';
-$lang['ATTACH_NUMBER_SETTINGS'] = 'Melléklet Száma Beállítások';
-$lang['ATTACH_OPTIONS_SETTINGS'] = 'Csatlakoztatási Lehetőségek';
-
-$lang['UPLOAD_DIRECTORY'] = 'Feltöltés Könyvtár';
-$lang['UPLOAD_DIRECTORY_EXPLAIN'] = 'Adja meg a relatív elérési utat a TorrentPier telepítés a Mellékletek feltöltési könyvtár. Például írja be a fájlok\', ha a TorrentPier Létesítmény található https://www.yourdomain.com/torrentpier a Melléklet Feltöltése Könyvtárban található https://www.yourdomain.com/torrentpier/files.';
-$lang['ATTACH_IMG_PATH'] = 'Melléklet Kiküldetés Ikonra';
-$lang['ATTACH_IMG_PATH_EXPLAIN'] = 'Ez a Kép jelenik meg a következő Mellékletet Linkek az egyes Hozzászólásokat. Ezt a mezőt hagyja üresen, ha nem akarod, egy ikon jelenik meg. Ez a Beállítás felülírja a Beállítások Kiterjesztését Csoportok Kezelése.';
-$lang['ATTACH_TOPIC_ICON'] = 'Melléklet Téma Ikonra';
-$lang['ATTACH_TOPIC_ICON_EXPLAIN'] = 'Ez a Kép jelenik meg, mielőtt témákat Mellékleteket. Ezt a mezőt hagyja üresen, ha nem akarod, egy ikon jelenik meg.';
-$lang['ATTACH_DISPLAY_ORDER'] = 'Melléklet Megjelenítési Sorrend';
-$lang['ATTACH_DISPLAY_ORDER_EXPLAIN'] = 'Itt választhatja ki, hogy megjelenjen-e a Mellékleteket Hozzászólás/PMs Csökkenő Filetime Érdekében (Legújabb Mellékletet Első), vagy Növekvő Filetime Érdekében (Legrégebbi Mellékletet Első).';
-
-$lang['MAX_FILESIZE_ATTACH'] = 'Fájlméret';
-$lang['MAX_FILESIZE_ATTACH_EXPLAIN'] = 'A maximális fájlméretet a Mellékleteket. A 0 érték azt jelenti, hogy \'korlátlan\'. Ez a Beállítás korlátozza a Szerver Konfigurációját. Például, ha a php Konfigurációs csak lehetővé teszi, hogy maximum 2 MB feltöltések, ez nem írja felül a Mod.';
-$lang['MAX_FILESIZE_PM'] = 'A maximális Fájlméretet, a Privát Üzenetek Mappa';
-$lang['MAX_FILESIZE_PM_EXPLAIN'] = 'Maximális Merevlemez-terület Mellékletek használhatja fel az egyes Felhasználói személyes Üzenet mezőbe. A 0 érték azt jelenti, hogy \'korlátlan\'.';
-
-$lang['MAX_ATTACHMENTS'] = 'Maximális Számú Mellékletek';
-$lang['MAX_ATTACHMENTS_EXPLAIN'] = 'A maximális számú mellékletek engedélyezett egy post.';
-$lang['MAX_ATTACHMENTS_PM'] = 'Maximális számú Mellékletek egy Privát Üzenet';
-$lang['MAX_ATTACHMENTS_PM_EXPLAIN'] = 'Határozza meg a maximális számú mellékletek a felhasználó szabad közé tartozik egy privát üzenetet.';
-
-$lang['DISABLE_MOD'] = 'Tiltsa Le Mellékletet Mod';
-$lang['DISABLE_MOD_EXPLAIN'] = 'Ez a lehetőség elsősorban a vizsgálati új sablonok, vagy témák, letiltja az összes Mellékletet Funkciók kivéve az Admin Panel.';
-$lang['PM_ATTACHMENTS'] = 'Lehetővé Mellékletek a Privát Üzenetek';
-$lang['PM_ATTACHMENTS_EXPLAIN'] = 'Engedélyezi/Letiltja a fájlok csatolása, hogy Privát Üzenetet.';
-
-// Extensions -> Extension Control
-$lang['MANAGE_EXTENSIONS'] = 'Kezelése Fájlokat';
-$lang['MANAGE_EXTENSIONS_EXPLAIN'] = 'Itt kezelhetjük a Fájlokat. Ha engedélyezi/letiltja a Kiterjesztés feltöltött, kérjük, használja a Kiterjesztés Csoportok Kezelése.';
-$lang['EXPLANATION'] = 'Magyarázat';
-$lang['EXTENSION_GROUP'] = 'Kiterjesztés Csoport';
-$lang['EXTENSION_EXIST'] = 'A Kiterjesztés %s már létezik'; // replace %s with the Extension
-
-// Extensions -> Extension Groups Management
-$lang['MANAGE_EXTENSION_GROUPS'] = 'Kezelése Kiterjesztését Csoportok';
-$lang['MANAGE_EXTENSION_GROUPS_EXPLAIN'] = 'Itt hozzáadhat, törölhet, illetve módosítsa a Kiterjesztést Csoportok, letilthatja a Kiterjesztés Csoportok hozzárendelése egy külön Kategória számukra, módosítsa a letöltés mechanizmus, valamint megadhatjuk a Feltöltés Ikon, amely megjelenik szeme előtt egy Mellékletet tartozó Csoport.';
-$lang['SPECIAL_CATEGORY'] = 'Különleges Kategória';
-$lang['CATEGORY_IMAGES'] = 'Képek';
 $lang['ALLOWED'] = 'Megengedett';
-$lang['ALLOWED_FORUMS'] = 'Engedélyezett Fórumok';
-$lang['EXT_GROUP_PERMISSIONS'] = 'A Csoport Jogosultságait';
-$lang['DOWNLOAD_MODE'] = 'Download Mód';
-$lang['UPLOAD_ICON'] = 'Feltöltés Ikonra';
-$lang['MAX_GROUPS_FILESIZE'] = 'A Maximális Fájlméretet';
-$lang['EXTENSION_GROUP_EXIST'] = 'A Kiterjesztés Csoport %s már létezik'; // replace %s with the group name
-
-// Extensions -> Special Categories
-$lang['MANAGE_CATEGORIES'] = 'Kezelése Speciális Kategóriák';
-$lang['MANAGE_CATEGORIES_EXPLAIN'] = 'Itt konfigurálhatja a Különleges Kategóriákat. Beállíthatja a Különleges Paramétereket és Feltételeket a Különleges Kategóriákhoz, amelyek hozzárendelve vannak egy Kiterjesztési Csoporthoz.';
-$lang['SETTINGS_CAT_IMAGES'] = 'Különleges kategória beállításai: Képek';
-$lang['DISPLAY_INLINED'] = 'Képek beágyazott megjelenítése';
-$lang['DISPLAY_INLINED_EXPLAIN'] = 'Válassza ki, hogy megjelenjen-e a képeket közvetlenül belül a post (igen) vagy a képek megjelenítése, mint egy linket ?';
-$lang['MAX_IMAGE_SIZE'] = 'Maximális Képméretet';
-$lang['MAX_IMAGE_SIZE_EXPLAIN'] = 'Itt megadhatja a maximális megengedett Kép Dimenziót kell csatolni (Szélesség x Magasság, pixelben).<br />If úgy van beállítva, hogy 0x0, ez a funkció le van tiltva. Néhány Kép, hogy ez a Funkció nem fog működni korlátozások miatt a PHP.';
-$lang['IMAGE_LINK_SIZE'] = 'Kép Link Méretek';
-$lang['IMAGE_LINK_SIZE_EXPLAIN'] = 'Ha ez meghatározott Dimenzió a Kép eléri a Kép jelenik meg, mint egy Linket, ahelyett, hogy megjelenítésével inlined,<br />if Inline Megtekintése engedélyezve van (Szélesség x Magasság, pixelben).<br />If úgy van beállítva, hogy 0x0, ez a funkció le van tiltva. Néhány Kép, hogy ez a Funkció nem fog működni korlátozások miatt a PHP.';
-$lang['ASSIGNED_GROUP'] = 'Hozzárendelt Csoport';
-
-$lang['IMAGE_CREATE_THUMBNAIL'] = 'Hozzon Létre Bélyegkép';
-$lang['IMAGE_MIN_THUMB_FILESIZE'] = 'Minimális bélyegkép fájlméret';
-$lang['IMAGE_MIN_THUMB_FILESIZE_EXPLAIN'] = 'Ha egy kép kisebb a megadott fájlméretnél, nem készül belőle bélyegkép, mert elég kicsi.';
-
-// Extensions -> Extension Groups Control -> Group Permissions
-$lang['GROUP_PERMISSIONS_TITLE_ADMIN'] = 'Kiterjesztés-csoport jogosultságai → \'%s\''; // Replace %s with the Groups Name
-$lang['GROUP_PERMISSIONS_EXPLAIN'] = 'Itt ön tudja, hogy korlátozza a kiválasztott Kiterjesztését Csoport Fórumokon a választás (meghatározott a Megengedett Fórumok Doboz). Az Alapértelmezett Kiterjesztés lehetővé teszi, Csoportok, hogy az összes Fórumon a Felhasználó képes a Fájlok Csatolása a (a szokásos módon a Mellékletet Mod volt a kezdetek óta). Csak hozzá azok a Fórumok azt akarod, hogy a Kiterjesztés Csoport (a Z e Csoporton belül) engedélyezett, az alapértelmezett az ÖSSZES FÓRUMOK eltűnik, ha hozzá Fórumokon, hogy a Listán. Ön tudja, hogy újra hozzá MINDEN FÓRUMON, minden pillanatban. Ha új Fórum a Fedélzeten, illetve az Engedély beállítása az ÖSSZES FÓRUMOK, semmi sem fog változni. De ha megváltoztak, illetve korlátozott a hozzáférés, bizonyos Fórumokon, hogy nézzen vissza ide, hogy add hozzá az újonnan létrehozott Fórum. Könnyű ezt automatikusan megteszi, de ezt fogja kényszeríteni, hogy a szerkesztés egy csomó kép, ezért úgy döntöttem, ahogy most van. Kérjük, ne feledje, hogy az összes Fórumon megtalálható itt.';
-$lang['NOTE_ADMIN_EMPTY_GROUP_PERMISSIONS'] = 'MEGJEGYZÉS:<br />Within az alábbiakban felsorolt Fórumokon a Felhasználók általában megengedett, hogy a fájlok csatolása, de mivel nem Kiterjesztését Csoport engedélyezett kell csatolni, a Felhasználók nem tudják, hogy csatolja semmit. Ha meg is próbálják, kap Hibaüzenetet. Talán azt szeretné, hogy állítsa meg az Engedélyt, \'Post Fájlok\' ADMIN ezeken a Fórumokon.<br /><br />';
-$lang['ADD_FORUMS'] = 'Add Fórumok';
-$lang['ADD_SELECTED'] = 'Hozzáadás A Kiválasztott';
-$lang['PERM_ALL_FORUMS'] = 'MINDEN FÓRUMOK';
-
-// Attachments -> Control Panel
-$lang['CONTROL_PANEL_TITLE'] = 'A Csatolt Fájl Vezérlőpult';
-$lang['CONTROL_PANEL_EXPLAIN'] = 'Itt megtekintheti, valamint kezelheti az összes mellékletek alapján a Felhasználók, Mellékletek, Kilátás, stb...';
-
-// Control Panel -> Search
-$lang['SEARCH_WILDCARD_EXPLAIN'] = 'Használja a * helyettesítő karaktert, a részleges mérkőzések';
-$lang['SIZE_SMALLER_THAN'] = 'Csatolmány méret kisebb, mint (bájt)';
-$lang['SIZE_GREATER_THAN'] = 'Csatolmány méret nagyobb, mint a (bájt)';
-$lang['COUNT_SMALLER_THAN'] = 'Letöltések száma kisebb, mint';
-$lang['COUNT_GREATER_THAN'] = 'Letöltések száma nagyobb, mint';
-$lang['MORE_DAYS_OLD'] = 'Több, mint ezt a sok napos';
-$lang['NO_ATTACH_SEARCH_MATCH'] = 'A Mellékletek nem találkoztam a keresési feltételeket';
-
-// Control Panel -> Statistics
-$lang['NUMBER_OF_ATTACHMENTS'] = 'Számú Mellékletek';
-$lang['TOTAL_FILESIZE'] = 'Teljes fájlméret';
-$lang['NUMBER_POSTS_ATTACH'] = 'Álláshelyek száma Mellékleteket';
-$lang['NUMBER_TOPICS_ATTACH'] = 'Témakörök száma Mellékleteket';
-$lang['NUMBER_USERS_ATTACH'] = 'Független Felhasználók Írt Mellékletek';
-$lang['NUMBER_PMS_ATTACH'] = 'Teljes Számú Mellékletek Privát Üzenetek';
-
-// Control Panel -> Attachments
-$lang['STATISTICS_FOR_USER'] = 'Melléklet Statisztikák %s'; // replace %s with username
-$lang['DOWNLOADS'] = 'Letöltések';
-$lang['POST_TIME'] = 'Post Idő';
-$lang['POSTED_IN_TOPIC'] = 'Írt a Témában';
-$lang['SUBMIT_CHANGES'] = 'Küldje Változások';
-
-// Sort Types
-$lang['SORT_ATTACHMENTS'] = 'Mellékletek';
-$lang['SORT_SIZE'] = 'Méret';
-$lang['SORT_FILENAME'] = 'Fájlneve.';
-$lang['SORT_COMMENT'] = 'Hozzászólás';
-$lang['SORT_EXTENSION'] = 'Kiterjesztés';
-$lang['SORT_DOWNLOADS'] = 'Letöltések';
-$lang['SORT_POSTTIME'] = 'Post Idő';
-
-// View Types
-$lang['VIEW_STATISTIC'] = 'Statisztikák';
-$lang['VIEW_SEARCH'] = 'Keresés';
-
-// Successfully updated
-$lang['ATTACH_CONFIG_UPDATED'] = 'Melléklet Konfigurációs sikeresen frissítve';
-$lang['CLICK_RETURN_ATTACH_CONFIG'] = 'Kattintson %sHere%s vissza Mellékletet Konfiguráció';
-$lang['TEST_SETTINGS_SUCCESSFUL'] = 'Beállítások Vizsgálat befejeződött, konfigurációs úgy tűnik, rendben van.';
-
-// Some basic definitions
-$lang['ATTACHMENTS'] = 'Mellékletek';
-$lang['EXTENSIONS'] = 'Fájlokat';
-$lang['EXTENSION'] = 'Kiterjesztés';
-
 $lang['RETURN_CONFIG'] = '%sReturn, hogy Configuration%s';
 $lang['CONFIG_UPD'] = 'Konfigurációs Sikeresen Frissítve';
 
@@ -2073,8 +1849,6 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Változás téma állapota, hogy "Norm�
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Sablon tiltva';
 $lang['FOR_NEW_TEMPLATE'] = 'az új minták!';
-$lang['CHANGED'] = 'Megváltozott';
-$lang['REMOVED'] = 'Eltávolítani';
 $lang['QUESTION'] = 'Megerősítés: Biztosan el akarja végezni ezt a műveletet?';
 
 $lang['CRON_LIST'] = 'Cron lista';
@@ -2168,8 +1942,6 @@ $lang['TIME_LIMIT'] = 'Határidő';
 $lang['TIME_LIMIT_EXPLAIN'] = 'Mennyi ideig (mp) tarthat az utófeldolgozás, mielőtt a következő ciklusra lép.';
 $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Your webszerver egy timeout a %s mp beállítva, így marad ez alatt value</i>';
 
-$lang['DISABLE_BOARD'] = 'Tiltsa le igazgatóság';
-
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Tegnap megállt a feldolgozás a post_id %s (%s feldolgozott hozzászólás) %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Utoljára megszakította a feldolgozást a post_id %s-nél (%s feldolgozott hozzászólás) ekkor: %s';
@@ -2190,7 +1962,6 @@ $lang['ALL_POSTS_PROCESSED'] = 'Minden hozzászólást sikeresen feldolgoztak.';
 $lang['ALL_TABLES_OPTIMIZED'] = 'Minden keresési táblát sikeresen optimalizáltunk.';
 
 $lang['PROCESSING_POST_DETAILS'] = 'Bejegyzés feldolgozása';
-$lang['PERCENT'] = 'Százalék';
 $lang['CURRENT_SESSION'] = 'Aktuális Munkamenet';
 $lang['TOTAL'] = 'Összesen';
 
@@ -2198,7 +1969,6 @@ $lang['PROCESS_DETAILS'] = '<b>%s</b>-től <b>%s</b>-ig (összesen: <b>%s</b>)';
 $lang['PERCENT_COMPLETED'] = '%s %% befejezve';
 
 $lang['PROCESSING_TIME_DETAILS'] = 'Aktuális munkamenet részletek';
-$lang['PROCESSING_TIME'] = 'Feldolgozási idő';
 $lang['TIME_LAST_POSTS'] = 'Utolsó %s poszt(ok)';
 $lang['TIME_FROM_THE_BEGINNING'] = 'A kezdetektől';
 $lang['TIME_AVERAGE'] = 'Átlagos ciklusonként';
@@ -2262,7 +2032,6 @@ $lang['ACTS_LOG_ALL_ACTIONS'] = 'Minden cselekvés';
 $lang['ACTS_LOG_SEARCH_OPTIONS'] = 'Akciók napló: keresési opciók';
 $lang['ACTS_LOG_FORUM'] = 'Fórum';
 $lang['ACTS_LOG_ACTION'] = 'Akció';
-$lang['ACTS_LOG_USER'] = 'Felhasználó';
 $lang['ACTS_LOG_LOGS_FROM'] = 'Naplók ';
 $lang['ACTS_LOG_FIRST'] = 'kezdve';
 $lang['ACTS_LOG_DAYS_BACK'] = 'nap közelében';
@@ -2280,10 +2049,8 @@ $lang['RELEASE'] = 'Kiadás sablonok';
 $lang['RELEASES'] = 'Kiadások';
 
 $lang['BACK'] = 'Vissza';
-$lang['ERROR_FORM'] = 'Érvénytelen mező';
 $lang['NEW_RELEASE'] = 'Új kiadás';
 $lang['NEXT'] = 'Tovább';
-$lang['OTHER'] = 'Egyéb';
 $lang['ALL'] = 'Összes';
 
 $lang['TPL_EMPTY_FIELD'] = 'Töltse ki a mezőt <b>%s</b>';
@@ -2485,7 +2252,6 @@ $lang['NEW_POLL_M_VOTES'] = 'Lehetőségek';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Minden sor egy válaszra vonatkozik (max.';
 
 $lang['OLD_BROWSER'] = 'Ön egy elavult böngészőt használ. A honlap nem jelenik meg megfelelően.';
-$lang['GO_BACK'] = 'Menjen vissza.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Fájl feltöltés letiltva';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fájl feltöltési hiba.';
