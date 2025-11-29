@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'מצטער אבל אתה לא רשאי להצ
 $lang['DESCRIPTION'] = 'תיאור'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'הורד'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'גודל קובץ';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'הגודל המקסימלי של הקובץ';
+$lang['ALLOWED_EXTENSIONS'] = 'סיומות מורשות';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'זרם';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'העתק קישור לזרם ללוח הגזירי�
 $lang['M3U_NOT_SUPPORTED'] = 'קובץ זה לא ניתן לנגן בדפדפן...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'נראה כי ffprobe לא יוכל להחזיר נתונים על קודק זה...';
 $lang['M3U_NOTICE'] = 'יש דפדפנים שלא תומכים בניגון של פורמטים מסוימים של וידאו. במקרה זה, אתה יכול להוריד את קובץ .m3u ולנגן אותו באמצעות נגן צד שלישי';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer אינו זמין';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'פרמטרים של בקשה שגויים';
 
 $lang['ATTACHMENT'] = 'קבצים מצורפים';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'הוספת קובץ מצורף';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'אם אינך מעוניין להוסיף קובץ מצורף להודעתך, אנא השאר את השדות ריקים.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'עדכן קובץ מצורף';
 $lang['FILENAME'] = 'שם הקובץ';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'למחוק קובץ מצורף';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'לא בחרת קובץ מצורף להורדה או לתצוגה.';
 $lang['ERROR_NO_ATTACHMENT'] = 'את הקובץ המצורף שנבחר לא קיים יותר';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'חריגה מהמגבלה היומית להורדות. נא נסה שוב מחר.';
 
 //bt
 $lang['BT_REG_YES'] = 'רשום';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'קריסת התיקייה';
 $lang['EXPAND'] = 'הרחבה';
 $lang['SWITCH'] = 'ממתג';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'הגדל/הקטן את החלון';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'חסר מזהה נושא';
+$lang['TOR_NOT_FOUND'] = 'הקובץ חסר מהשרת';
 $lang['ERROR_BUILD'] = 'התוכן של קובץ הטורנט לא ניתן לצפות באתר (לא ניתן היה לבנות רשימה של קבצים)';
 $lang['TORFILE_INVALID'] = 'קובץ הטורנט פגום';
 
