@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Kechirasiz, lekin siz bu ilovani ko\'rish yok
 $lang['DESCRIPTION'] = 'Tavsif'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Yuklash'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fayl hajmi';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Faylning maksimal hajmi';
+$lang['ALLOWED_EXTENSIONS'] = 'Ruxsat etilgan kengaytmalar';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Oqim';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Oqim havolasini clipboard\'ga nusxalash';
 $lang['M3U_NOT_SUPPORTED'] = 'Ushbu fayl brauzerda ijro etilmaydi...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'ffprobe ushbu kodek haqida ma\'lumot qaytara olmaydi ko\'rinadi...';
 $lang['M3U_NOTICE'] = 'Ba\'zi brauzerlar ba\'zi video formatlar ijro etishni qo\'llab-quvvatlamaydi. Bunday holatda, siz .m3u faylini yuklab olishingiz va uni uchinchi tomon pleerida ijro etishingiz mumkin';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer mavjud emas';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'So‘rov parametrlari noto‘g‘ri';
 
 $lang['ATTACHMENT'] = 'Qo\'shimcha maqola.';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Qo\'shimcha qo\'shish.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Agar siz mavzuga ilova qo\'shishni xohlamasangiz, iltimos, maydonlarni bo\'sh qoldiring.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Ilovani yangilash';
 $lang['FILENAME'] = 'Fayl nomi.';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Ilovani o\'chirish.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Siz yuklab olish yoki ko\'rish uchun qo\'shimcha tanlamadingiz.';
 $lang['ERROR_NO_ATTACHMENT'] = 'Tanlangan ilova endi mavjud emas.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Kunlik yuklab olish limiti oshib ketdi. Iltimos, ertaga qayta urinib ko‘ring.';
 
 //bt
 $lang['BT_REG_YES'] = 'Ro\'yxatdan o\'tilgan.';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'buzish katalog.';
 $lang['EXPAND'] = 'kengaytirish.';
 $lang['SWITCH'] = 'Switch.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Oynani oshirish/o\'lchamini o\'zgartirish';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Mavzu identifikatori yo‘q';
+$lang['TOR_NOT_FOUND'] = 'Fayl serverda mavjud emas';
 $lang['ERROR_BUILD'] = 'Ushbu torrent fayl tarkibi saytida kuzatilishi mumkin emas (bu fayllar ro\'yxatini qurish mumkin emas edi)';
 $lang['TORFILE_INVALID'] = 'Torrent fayli buzuq';
 
