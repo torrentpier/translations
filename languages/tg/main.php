@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'Sorry but you are not authorized to view or d
 $lang['DESCRIPTION'] = 'Description.'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Загрузить'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Ҳадди файли';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'Ҳадди максималии андозаи файл';
+$lang['ALLOWED_EXTENSIONS'] = 'Изофаҳои иҷозатдодашуда';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Стрим';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'Ссилкуи ҷараёнро ба клипбор
 $lang['M3U_NOT_SUPPORTED'] = 'Ин файл дар браузер навозиш намешавад...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Ба назар мерасад, ffprobe наметавонад маълумот оид ба ин кодекро баргардонад...';
 $lang['M3U_NOTICE'] = 'Нек хати фарз аст, ки чанд браузер намехоҳад навозишро пайдо кунад. Дар чунин ҳолат, шумо метавонед файли .m3u-ро зеркашӣ кунед ва бо истифодаи плеерҳои сеюм навозиш кунед.';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer дастрас нест';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Параметрҳои дархост нодурустанд';
 
 $lang['ATTACHMENT'] = 'замимаҳо';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Add Attachment.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'If you do not want to add an Attachment to your Post, please leave the Fields blank.';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'Навсозии замима';
 $lang['FILENAME'] = 'Filename.';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'Delete Attachment.';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'You haven\'t selected an attachment to download or view.';
 $lang['ERROR_NO_ATTACHMENT'] = 'The selected Attachment does not exist anymore.';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Маҳдудияти зеркашии рӯзона зиёд шудааст. Лутфан фардо боз кӯшиш кунед.';
 
 //bt
 $lang['BT_REG_YES'] = 'Сабтшуда';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'феҳристи фурӯпоши.';
 $lang['EXPAND'] = 'васеъ';
 $lang['SWITCH'] = 'калид';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Дарвозаандозоиву кафолат диҳед';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'Муайянкунандаи мавзӯъ вуҷуд надорад';
+$lang['TOR_NOT_FOUND'] = 'Файл аз сервер гум шудааст';
 $lang['ERROR_BUILD'] = 'Мазмуни ин парванда ҷӯйе наметавон дар сомона дид (хона наметавонад рӯйхати файлҳоро созад).';
 $lang['TORFILE_INVALID'] = 'парвандаи ҷӯйе коррупсия дорад.';
 
