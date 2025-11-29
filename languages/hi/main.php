@@ -782,8 +782,8 @@ $lang['SORRY_AUTH_VIEW_ATTACH'] = 'क्षमा करें, लेकिन
 $lang['DESCRIPTION'] = 'विवरण'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'डाउनलोड'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'फ़ाइल का आकार';
-$lang['MAX_FILE_SIZE'] = 'Max file size';
-$lang['ALLOWED_EXTENSIONS'] = 'Allowed extensions';
+$lang['MAX_FILE_SIZE'] = 'अधिकतम फ़ाइल आकार';
+$lang['ALLOWED_EXTENSIONS'] = 'अनुमत एक्सटेंशन';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'स्ट्रीम';
@@ -802,15 +802,15 @@ $lang['COPY_STREAM_LINK'] = 'स्ट्रीम लिंक को क्ल
 $lang['M3U_NOT_SUPPORTED'] = 'यह फ़ाइल ब्राउज़र में नहीं चल सकती...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'ऐसा लगता है कि ffprobe इस कोडेक के बारे में डेटा वापस नहीं कर पाएगा...';
 $lang['M3U_NOTICE'] = 'कुछ ब्राउज़र कुछ वीडियो प्रारूपों के प्लेबैक का समर्थन नहीं करते हैं। इस मामले में, आप .m3u फ़ाइल डाउनलोड कर सकते हैं और इसे तृतीय पक्ष प्लेयर का उपयोग करके चला सकते हैं';
-$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer is unavailable';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Invalid request parameters';
+$lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer अनुपलब्ध है';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'अमान्य अनुरोध पैरामीटर';
 
 $lang['ATTACHMENT'] = 'संलग्नक';
 
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'अटैचमेंट जोड़ें';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'यदि आप अपने पोस्ट में एक अटैचमेंट जोड़ना नहीं चाहते हैं, तो कृपया फ़ील्ड खाली छोड़ें';
-$lang['UPDATE_ATTACHMENT'] = 'Update Attachment';
+$lang['UPDATE_ATTACHMENT'] = 'अटैचमेंट अपडेट करें';
 $lang['FILENAME'] = 'फ़ाइल का नाम';
 
 // Posting -> Posted Attachments
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'अटैचमेंट हटाएं';
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'आपने डाउनलोड या देखने के लिए कोई अटैचमेंट नहीं चुना है';
 $lang['ERROR_NO_ATTACHMENT'] = 'चयनित अटैचमेंट अब मौजूद नहीं है';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Daily download limit exceeded. Please try again tomorrow.';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'दैनिक डाउनलोड सीमा पार हो गई है। कृपया कल पुनः प्रयास करें।';
 
 //bt
 $lang['BT_REG_YES'] = 'दर्ज कराई';
@@ -1152,8 +1152,8 @@ $lang['COLLAPSE'] = 'निर्देशिका को संकुचित
 $lang['EXPAND'] = 'विस्तार';
 $lang['SWITCH'] = 'स्विच';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'खिड़की को बढ़ाना/घटाना';
-$lang['EMPTY_TOPIC_ID'] = 'Missing topic identifier';
-$lang['TOR_NOT_FOUND'] = 'File is missing from the server';
+$lang['EMPTY_TOPIC_ID'] = 'टॉपिक पहचानकर्ता गायब है';
+$lang['TOR_NOT_FOUND'] = 'सर्वर से फ़ाइल गायब है';
 $lang['ERROR_BUILD'] = 'इस धार फ़ाइल की सामग्री को साइट पर नहीं देखा जा सकता (यह फ़ाइलों की सूची बनाना संभव नहीं था)';
 $lang['TORFILE_INVALID'] = 'टोरेंट फ़ाइल दूषित है';
 
