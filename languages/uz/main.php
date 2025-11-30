@@ -810,7 +810,7 @@ $lang['ATTACHMENT'] = 'Qo\'shimcha maqola.';
 // Posting -> Posting Attachments
 $lang['ADD_ATTACHMENT'] = 'Qo\'shimcha qo\'shish.';
 $lang['ADD_ATTACHMENT_EXPLAIN'] = 'Agar siz mavzuga ilova qo\'shishni xohlamasangiz, iltimos, maydonlarni bo\'sh qoldiring.';
-$lang['UPDATE_ATTACHMENT'] = 'Ilovani yangilash';
+$lang['UPDATE_ATTACHMENT'] = 'Ilovaga ilova qo\'shishni yangilash';
 $lang['FILENAME'] = 'Fayl nomi.';
 
 // Posting -> Posted Attachments

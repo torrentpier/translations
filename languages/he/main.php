@@ -2225,7 +2225,7 @@ $lang['TR_STATS'] = [
     7 => 'כמה טוענים במהלך 30 הימים האחרונים',
 ];
 
-$lang['TORRENT_STATS_TITLE'] = 'סטטיסטיקת סיקורים';
+$lang['TORRENT_STATS_TITLE'] = 'סטטיסטיקת טורנטים';
 $lang['TRACKER_STATS_TITLE'] = 'סטטיסטיקת מעקב';
 $lang['TORRENTS'] = 'סיקורים';
 $lang['PEERS'] = 'עמיתים';

@@ -783,7 +783,7 @@ $lang['DESCRIPTION'] = 'Նկարագրություն'; // used in Administration
 $lang['DOWNLOAD'] = 'Ներբեռնել'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Ֆայլի չափը';
 $lang['MAX_FILE_SIZE'] = 'Ֆայլի առավելագույն չափը';
-$lang['ALLOWED_EXTENSIONS'] = 'Թույլատրուած ընդարձակումներ';
+$lang['ALLOWED_EXTENSIONS'] = 'Թույլատրելի լրահատկություններ';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Աղմուկ';
@@ -820,7 +820,7 @@ $lang['DELETE_ATTACHMENT'] = 'You have used an incorrect structure for your tran
 // Errors -> Download
 $lang['NO_ATTACHMENT_SELECTED'] = 'Դուք չեք ընտրել հավելված բեռնելու կամ դիտելու համար։';
 $lang['ERROR_NO_ATTACHMENT'] = 'Ընտրված ներդրումն այլևս գոյություն չունի։';
-$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Ամսական ներբեռնումների սահմանը հաղթահարված է։ Խնդրում ենք փորձել վաղը։';
+$lang['DOWNLOAD_LIMIT_EXCEEDED'] = 'Օրվա ներբեռնման սահմանը գերազանցվել է։ Խնդրում ենք փորձել վաղը։';
 
 //bt
 $lang['BT_REG_YES'] = 'Գրանցված է';
@@ -1152,7 +1152,7 @@ $lang['COLLAPSE'] = 'Կատալոգը փլուզել';
 $lang['EXPAND'] = 'Ծավալել';
 $lang['SWITCH'] = 'Switch-ը';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Ավելացնել/պակասեցնել պատուհանը';
-$lang['EMPTY_TOPIC_ID'] = 'Առանց թեմայի նույնականի';
+$lang['EMPTY_TOPIC_ID'] = 'Թեմայի նույնականը բացակայում է';
 $lang['TOR_NOT_FOUND'] = 'Ֆայլը բացակայում է սերվերից';
 $lang['ERROR_BUILD'] = 'Այս torrent-ֆայլի բովանդակությունը չի կարող դիտվել կայքում (ֆայլերի ցանկը կազմելու հնարավորություն չկա)';
 $lang['TORFILE_INVALID'] = 'Torrent ֆայլը վնասված է';

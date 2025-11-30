@@ -783,7 +783,7 @@ $lang['DESCRIPTION'] = 'Təsvir'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Yüklə'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fayl ölçüsü';
 $lang['MAX_FILE_SIZE'] = 'Maksimal fayl ölçüsü';
-$lang['ALLOWED_EXTENSIONS'] = 'İcazə verilən genişlənmələr';
+$lang['ALLOWED_EXTENSIONS'] = 'İcazə verilən fayl növləri';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Axın';
@@ -803,7 +803,7 @@ $lang['M3U_NOT_SUPPORTED'] = 'Bu fayl brauzerdə oynadıla bilmir...';
 $lang['M3U_FFPROBE_NO_DATA'] = 'Görünür ki, ffprobe bu kodek haqqında məlumat qaytara bilməyəcək...';
 $lang['M3U_NOTICE'] = 'Bəzi brauzerlər müəyyən video formatlarını oynatmağı dəstəkləmir. Bu halda, .m3u faylını yükləyə və üçüncü tərəf oynatıcısı ilə oynaya bilərsiniz';
 $lang['TORRSERVER_UNAVAILABLE'] = 'TorrServer mövcud deyil';
-$lang['TORRSERVER_INVALID_REQUEST'] = 'Səhv sorğu parametrləri';
+$lang['TORRSERVER_INVALID_REQUEST'] = 'Yanlış sorğu parametrləri';
 
 $lang['ATTACHMENT'] = 'Əlavələr';
 

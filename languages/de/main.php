@@ -783,7 +783,7 @@ $lang['DESCRIPTION'] = 'Beschreibung'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Dateigröße';
 $lang['MAX_FILE_SIZE'] = 'Maximale Dateigröße';
-$lang['ALLOWED_EXTENSIONS'] = 'Erlaubte Erweiterungen';
+$lang['ALLOWED_EXTENSIONS'] = 'Erlaubte Dateiendungen';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
@@ -1152,7 +1152,7 @@ $lang['COLLAPSE'] = 'Verzeichnis zusammenklappen';
 $lang['EXPAND'] = 'Erweitern';
 $lang['SWITCH'] = 'Wechsler';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Fenster vergrößern/verkleinern';
-$lang['EMPTY_TOPIC_ID'] = 'Themenkennung fehlt';
+$lang['EMPTY_TOPIC_ID'] = 'Themen-ID fehlt';
 $lang['TOR_NOT_FOUND'] = 'Datei fehlt auf dem Server';
 $lang['ERROR_BUILD'] = 'Der Inhalt dieser Torrent-Datei kann auf der Website nicht angezeigt werden (es war nicht möglich, eine Liste von Dateien zu erstellen)';
 $lang['TORFILE_INVALID'] = 'Torrent-Datei ist beschädigt';

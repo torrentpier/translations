@@ -783,7 +783,7 @@ $lang['DESCRIPTION'] = 'Beskrivelse'; // used in Administration Panel too...
 $lang['DOWNLOAD'] = 'Download'; // this Language Variable is defined in admin.php too, but we are unable to access it from the main Language File
 $lang['FILESIZE'] = 'Fil størrelse';
 $lang['MAX_FILE_SIZE'] = 'Maksimal filstørrelse';
-$lang['ALLOWED_EXTENSIONS'] = 'Tilladte filtypenavne';
+$lang['ALLOWED_EXTENSIONS'] = 'Tilladte filtyper';
 
 // Viewtopic -> Display of Attachments -> TorrServer integration
 $lang['STREAM'] = 'Stream';
