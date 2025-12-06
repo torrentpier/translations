@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Diễn đàn đang bảo trì.';
 $lang['ADMIN_UNLOCK'] = 'Cho phép diễn đàn';
 $lang['ADMIN_UNLOCKED'] = 'Mở khóa';
 $lang['ADMIN_UNLOCK_CRON'] = 'Bỏ khóa';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Trang không tìm thấy';
 
 $lang['LOADING'] = 'Nạp...';
 $lang['JUMPBOX_TITLE'] = 'Chọn diễn đàn';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Không có gì đã được thay đổi';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Chúng tôi đã đăng tổng số <b>%s</b> chủ đề.'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Người dùng của chúng tôi đã đăng tổng cộng <b>%s</b> bài viết'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Chúng tôi có <b>%s</b> người đã đăng ký'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Boys: <b>%d</b>, Girls: <b>%d</b>, Others: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Người dùng mới nhất đã đăng ký là <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s có thể gửi các t�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s có thể tải các tệp đính kèm.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Chế độ diễn đàn: %s — không thể thay đổi';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Quyền được kích hoạt qua "Người điều hành"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Quyền được cấp bởi nhóm';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Hiển thị trên trang chính.';
