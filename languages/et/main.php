@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foorum on hoolduses.';
 $lang['ADMIN_UNLOCK'] = 'Lubage foorum.';
 $lang['ADMIN_UNLOCKED'] = 'Lukustamata';
 $lang['ADMIN_UNLOCK_CRON'] = 'Eemaldage lukk.';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Lehekülge ei leitud';
 
 $lang['LOADING'] = 'Laadimine...';
 $lang['JUMPBOX_TITLE'] = 'Valige foorumil';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Midagi ei ole muutunud.';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Meie kasutajad on postitanud kokku <b>%s</b> teemasid'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Meie kasutajad on postitanud kokku <b>%s</b> postitust'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Meil on <b>%s</b> registreeritud kasutajad'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Poisid: <b>%d</b>, Tüdrukud: <b>%d</b>, Teised: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Uusim registreeritud kasutaja on <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s võib postitada manuseid
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s saab alla laadida manuseid.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Foorumi režiim: %s — ei saa muuta';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Õigus määratud "Moderaatori" kaudu';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Õigus antud grupi poolt';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Näita peal.';
