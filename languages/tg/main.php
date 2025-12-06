@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форум барои нигоҳдории 
 $lang['ADMIN_UNLOCK'] = 'Форумро фаъол кунед';
 $lang['ADMIN_UNLOCKED'] = 'кушода';
 $lang['ADMIN_UNLOCK_CRON'] = 'Қулфро ҳазф кунед';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Загрузка ...';
 $lang['JUMPBOX_TITLE'] = 'Интихоб кунед форум';
