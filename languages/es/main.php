@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foro desactivado por tareas de mantenimient
 $lang['ADMIN_UNLOCK'] = 'Habilitar el foro';
 $lang['ADMIN_UNLOCKED'] = 'Desbloqueado';
 $lang['ADMIN_UNLOCK_CRON'] = 'Quitar bloqueo';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Cargando...';
 $lang['JUMPBOX_TITLE'] = 'Seleccione foro';
