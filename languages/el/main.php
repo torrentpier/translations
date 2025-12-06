@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Το φόρουμ είναι εκτός λ�
 $lang['ADMIN_UNLOCK'] = 'Ενεργοποίηση φόρουμ.';
 $lang['ADMIN_UNLOCKED'] = 'Ξεκλείδωτο';
 $lang['ADMIN_UNLOCK_CRON'] = 'Αφαιρέστε το κλείδωμα.';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Κατάργηση κλειδώματος';
 $lang['JUMPBOX_TITLE'] = 'Επιλέξτε φόρουμ';
