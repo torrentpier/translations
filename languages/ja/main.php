@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'フォーラムはメンテナンスのた�
 $lang['ADMIN_UNLOCK'] = 'フォーラムを有効にする';
 $lang['ADMIN_UNLOCKED'] = '解除';
 $lang['ADMIN_UNLOCK_CRON'] = 'ロック解除';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = '読み込み中...';
 $lang['JUMPBOX_TITLE'] = '選択フォーラム';
