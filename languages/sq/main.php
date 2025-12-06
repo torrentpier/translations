@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumi është poshtë për mirëmbajtjen';
 $lang['ADMIN_UNLOCK'] = 'Të aktivizuara forumi';
 $lang['ADMIN_UNLOCKED'] = 'E hapur';
 $lang['ADMIN_UNLOCK_CRON'] = 'Të hequr bllokimin';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Ngarkimi...';
 $lang['JUMPBOX_TITLE'] = 'Zgjidhni forumi';
