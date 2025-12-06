@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nekas nav mainījies';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Mūsu lietotāji ir ievietojuši kopā <b>%s</b> tēmas.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Mūsu lietotāji ir ievietojuši kopā <b>%s</b> rakstus.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Mums ir <b>%s</b> reģistrēti lietotāji'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Zēni: <b>%d</b>, Meitenes: <b>%d</b>, Citi: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Jaunākais reģistrētais lietotājs ir <b>%s</b>'; // a href, username, /a
