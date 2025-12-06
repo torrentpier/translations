@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Semmi sem változott';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'A felhasználók összesen <b>%s</b> témát tettek közzé.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'A felhasználók összesen <b>%s</b> cikket tettek közzé.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Van <b>%s</b> regisztrált felhasználó.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Fiúk: <b>%d</b>, Lányok: <b>%d</b>, Mások: <b>%d</b>';
 $lang['NEWEST_USER'] = 'A legújabb regisztrált felhasználó <b>%s</b>'; // a href, username, /a
