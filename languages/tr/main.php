@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum bakımda.';
 $lang['ADMIN_UNLOCK'] = 'Forum etkinleştir';
 $lang['ADMIN_UNLOCKED'] = 'Kilidi';
 $lang['ADMIN_UNLOCK_CRON'] = 'Kilidi Kaldır';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Sayfa bulunamadı';
 
 $lang['LOADING'] = 'Yükleniyor...';
 $lang['JUMPBOX_TITLE'] = 'Forum seçin';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Hiçbir şey değişmedi.';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Kullanıcılarımız toplamda <b>%s</b> konular oluşturdu.'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Kullanıcılarımız toplam <b>%s</b> mesaj gönderdi'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = '<b>%s</b> kayıtlı kullanıcı var'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Çocuklar: <b>%d</b> Kızlar: <b>%d</b>, Diğerleri: <b>%d</b>';
 $lang['NEWEST_USER'] = 'En yeni kayıtlı kullanıcı <b>%s</b> var'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s ekleri gönderebilir.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s ekleri indirebilir.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum modu: %s — değiştirilemez';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = '"Moderatör" tarafından izin verildi';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'İzin grup tarafından verildi';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Ana sayfada göstermek';
