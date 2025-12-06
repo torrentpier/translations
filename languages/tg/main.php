@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Ҳеҷ чиз иваз нашуд';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Истифодабарандагони мо дар маҷмӯъ <b>%s</b> мавзӯъҳо Фишка кардаанд'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Истифодабарандагони мо дар маҷмӯъ <b>%s</b> мақолаҳо Фишка кардаанд'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Мо <b>%s</b> истифодабарандагони сабтшуда дорем'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Писарон: <b>%d</b>, Духтарон: <b>%d</b>, Дигар: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Дар навтарин истифодабарандаи қайд <b>%s</b> аст,'; // a href, username, /a
