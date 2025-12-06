@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Diễn đàn đang bảo trì.';
 $lang['ADMIN_UNLOCK'] = 'Cho phép diễn đàn';
 $lang['ADMIN_UNLOCKED'] = 'Mở khóa';
 $lang['ADMIN_UNLOCK_CRON'] = 'Bỏ khóa';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Nạp...';
 $lang['JUMPBOX_TITLE'] = 'Chọn diễn đàn';
