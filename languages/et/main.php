@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foorum on hoolduses.';
 $lang['ADMIN_UNLOCK'] = 'Lubage foorum.';
 $lang['ADMIN_UNLOCKED'] = 'Lukustamata';
 $lang['ADMIN_UNLOCK_CRON'] = 'Eemaldage lukk.';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Laadimine...';
 $lang['JUMPBOX_TITLE'] = 'Valige foorumil';
