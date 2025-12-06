@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Het forum is uitgeschakeld voor onderhoud.'
 $lang['ADMIN_UNLOCK'] = 'Schakel forum in.';
 $lang['ADMIN_UNLOCKED'] = 'Ontgrendeld';
 $lang['ADMIN_UNLOCK_CRON'] = 'Verwijder blokkering';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Bezig met laden...';
 $lang['JUMPBOX_TITLE'] = 'Selecteer forum';
