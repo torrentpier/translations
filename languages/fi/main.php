@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Mitään ei ole muuttunut';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Käyttäjämme ovat kirjoittaneet yhteensä <b>%s</b> aiheita'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Käyttäjämme ovat kirjoittaneet yhteensä <b>%s</b> artikkeleita'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Meillä on <b>%s</b> rekisteröityneet käyttäjät'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Pojat: <b>%d</b>, Tytöt: <b>%d</b>, Muut: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Uusin rekisteröitynyt käyttäjä on <b>%s</b>'; // a href, username, /a
