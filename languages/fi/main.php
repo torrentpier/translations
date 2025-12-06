@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foorumi on suljettu huollon';
 $lang['ADMIN_UNLOCK'] = 'Ota foorumi käyttöön';
 $lang['ADMIN_UNLOCKED'] = 'Auki';
 $lang['ADMIN_UNLOCK_CRON'] = 'Poista lukitus';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Ladataan...';
 $lang['JUMPBOX_TITLE'] = 'Valitse foorumi';
