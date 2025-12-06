@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'הפורום מושבת לצורך תחזו
 $lang['ADMIN_UNLOCK'] = 'להפעיל את הפורום';
 $lang['ADMIN_UNLOCKED'] = 'נראה אין מונח כזה מובן';
 $lang['ADMIN_UNLOCK_CRON'] = 'הסר נעילת';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'טעינה...';
 $lang['JUMPBOX_TITLE'] = 'בחר פורום';
