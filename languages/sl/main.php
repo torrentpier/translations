@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum je onemogočen med vzdrževanjem.';
 $lang['ADMIN_UNLOCK'] = 'Omogočite forum.';
 $lang['ADMIN_UNLOCKED'] = 'Odklenjena';
 $lang['ADMIN_UNLOCK_CRON'] = 'Odstrani zaklep';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Stran ni najdena';
 
 $lang['LOADING'] = 'Nalaganje...';
 $lang['JUMPBOX_TITLE'] = 'Izberite forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nič se ni spremenilo.';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Naši uporabniki so objavili skupaj <b>%s</b> teme'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Naši uporabniki so objavili skupaj <b>%s</b> prispevkov'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Imamo <b>%s</b> registrirane uporabnike'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Fantje: <b>%d</b>, Dekleta: <b>%d</b>, Drugi: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Najnovejši registriran uporabnik, je <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s lahko objavlja priloge.'
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s lahko prenaša priloge.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Način foruma: %s — ni mogoče spremeniti';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Dovoljenje omogočeno prek "Moderatorja"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Dovoljenje podeljeno s strani skupine';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Prikaži na glavni strani.';
