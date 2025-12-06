@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'O fórum está em manutenção.';
 $lang['ADMIN_UNLOCK'] = 'Ativar fórum.';
 $lang['ADMIN_UNLOCKED'] = 'Desbloqueado';
 $lang['ADMIN_UNLOCK_CRON'] = 'Remover bloqueio';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'A carregar...';
 $lang['JUMPBOX_TITLE'] = 'Forum';
