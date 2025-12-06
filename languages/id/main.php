@@ -1756,6 +1756,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s dapat membuat polling di 
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s dapat mengirim lampiran';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s dapat men-download lampiran';
 
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Tampilkan pada halaman utama';
 $lang['SF_PARENT_FORUM'] = 'Forum induk.';
