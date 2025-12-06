@@ -1756,6 +1756,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s इस मंच मे�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s अनुलग्नक पोस्ट कर सकते हैं';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s अटैचमेंट डाउनलोड कर सकते हैं';
 
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'मुख्य पृष्ठ पर दिखाएं';
 $lang['SF_PARENT_FORUM'] = 'जनक मंच';
