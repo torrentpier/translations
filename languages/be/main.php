@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форум недаступны для тэ
 $lang['ADMIN_UNLOCK'] = 'Ўключыць форум';
 $lang['ADMIN_UNLOCKED'] = 'Адмыкнутая';
 $lang['ADMIN_UNLOCK_CRON'] = 'Зняць блакаванне';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Загрузка...';
 $lang['JUMPBOX_TITLE'] = 'Абярыце форум';
