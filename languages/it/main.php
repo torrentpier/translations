@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'The translation does not properly convey th
 $lang['ADMIN_UNLOCK'] = 'The translation needs a clearer expression to match the original phrase.';
 $lang['ADMIN_UNLOCKED'] = 'This translation is unclear and needs revision.';
 $lang['ADMIN_UNLOCK_CRON'] = 'The translation doesn\'t effectively convey the original concept.';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Pagina non trovata';
 
 $lang['LOADING'] = 'Il caricamento...';
 $lang['JUMPBOX_TITLE'] = 'Seleziona forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Translation requires a complete rework for clear
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'I nostri utenti hanno inviato un totale di <b>%s</b> argomenti'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'I nostri utenti hanno pubblicato in totale <b>%s</b> messaggi'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Abbiamo <b>%s</b> utenti registrati'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Ragazzi: <b>%d</b>, Ragazze: <b>%d</b>, Altri: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Il nuovo utente registrato è <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s può pubblicare allegati
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s può scaricare allegati';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Modalità forum: %s — non può essere modificata';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permesso abilitato tramite "Moderatore"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permesso concesso dal gruppo';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Mostra sulla pagina principale';
