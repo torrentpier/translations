@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fórum je neaktívne z dôvodu údržby.';
 $lang['ADMIN_UNLOCK'] = 'Umožniť fórum';
 $lang['ADMIN_UNLOCKED'] = 'Odomknutá';
 $lang['ADMIN_UNLOCK_CRON'] = 'Odstrániť zámok';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Stránka nenájdená';
 
 $lang['LOADING'] = 'Načítava sa...';
 $lang['JUMPBOX_TITLE'] = 'Vyberte fórum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nič sa nezmenilo';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Naši užívatelia zaslali celkom <b>%s</b> tém'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Naši užívatelia zaslali celkom <b>%s</b> príspevkov'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Máme <b>%s</b> registrovaných užívateľov'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Chlapci: <b>%d</b>, Dievčatá: <b>%d</b>, Ostatné: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Najnovším registrovaným užívateľom je <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s môže poslať prílohy.
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s môže sťahovať prílohy.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Režim fóra: %s — nedá sa zmeniť';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Povolenie aktivované cez "Moderátor"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Povolenie udelené skupinou';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Zobrazenie na hlavnej stránke.';
