@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Համաժողովը փակվել է տեխ
 $lang['ADMIN_UNLOCK'] = 'Միացնել համաժողովը';
 $lang['ADMIN_UNLOCKED'] = 'Վերաբացված';
 $lang['ADMIN_UNLOCK_CRON'] = 'Հանել արգելափակումը';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Լիցքավորում:';
 $lang['JUMPBOX_TITLE'] = 'Ընտրեք համաժողովը';

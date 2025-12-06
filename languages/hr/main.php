@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum je zatvoren za održavanje';
 $lang['ADMIN_UNLOCK'] = 'Uključiti forum';
 $lang['ADMIN_UNLOCKED'] = 'Otključan';
 $lang['ADMIN_UNLOCK_CRON'] = 'Ukloniti zaključavanje';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Učitavanje...';
 $lang['JUMPBOX_TITLE'] = 'Odaberite forum';

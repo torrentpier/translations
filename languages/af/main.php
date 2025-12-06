@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum is af vir onderhoud';
 $lang['ADMIN_UNLOCK'] = 'Aktiveer forum';
 $lang['ADMIN_UNLOCKED'] = 'ontgrendel';
 $lang['ADMIN_UNLOCK_CRON'] = 'Verwyder slot';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Besig om te laai... ';
 $lang['JUMPBOX_TITLE'] = 'Kies forum';

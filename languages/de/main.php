@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Das Forum ist für Wartungsarbeiten herunte
 $lang['ADMIN_UNLOCK'] = 'Forum aktivieren';
 $lang['ADMIN_UNLOCKED'] = 'Freigeschaltet';
 $lang['ADMIN_UNLOCK_CRON'] = 'Schloss entfernen';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Wird geladen...';
 $lang['JUMPBOX_TITLE'] = 'Wählen Sie das Forum';

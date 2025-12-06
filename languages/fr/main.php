@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Le Forum est en maintenance';
 $lang['ADMIN_UNLOCK'] = 'Activer le forum';
 $lang['ADMIN_UNLOCKED'] = 'Débloqué';
 $lang['ADMIN_UNLOCK_CRON'] = 'Supprimer le verrou.';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Chargement...';
 $lang['JUMPBOX_TITLE'] = 'Sélectionnez forum';

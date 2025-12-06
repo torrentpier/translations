@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumul este oprit pentru întreținere';
 $lang['ADMIN_UNLOCK'] = 'Permite forumul';
 $lang['ADMIN_UNLOCKED'] = 'Deblocat';
 $lang['ADMIN_UNLOCK_CRON'] = 'Elimina blocarea';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Loading...';
 $lang['JUMPBOX_TITLE'] = 'Selectați forum';

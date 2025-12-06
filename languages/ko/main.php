@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = '포럼이 유지보수 중입니다.';
 $lang['ADMIN_UNLOCK'] = '포럼 사용 허용';
 $lang['ADMIN_UNLOCKED'] = '잠금 해제';
 $lang['ADMIN_UNLOCK_CRON'] = '잠금 해제 제거';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Loading...';
 $lang['JUMPBOX_TITLE'] = '포럼 선택';

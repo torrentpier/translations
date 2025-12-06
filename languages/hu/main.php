@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fórum karbantartás';
 $lang['ADMIN_UNLOCK'] = 'Engedélyezze a fórumot.';
 $lang['ADMIN_UNLOCKED'] = 'Feloldva';
 $lang['ADMIN_UNLOCK_CRON'] = 'Zár eltávolítása';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Betöltés...';
 $lang['JUMPBOX_TITLE'] = 'Fórum kiválasztása';

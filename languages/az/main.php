@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum texniki xidmətdədir.';
 $lang['ADMIN_UNLOCK'] = 'Forum aktiv et';
 $lang['ADMIN_UNLOCKED'] = 'Açılmışdır';
 $lang['ADMIN_UNLOCK_CRON'] = 'Kilidi çıxar';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Yükləmə...';
 $lang['JUMPBOX_TITLE'] = 'Seçin forum';

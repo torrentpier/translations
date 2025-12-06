@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = '论坛正在维护';
 $lang['ADMIN_UNLOCK'] = '启用论坛';
 $lang['ADMIN_UNLOCKED'] = '已解锁';
 $lang['ADMIN_UNLOCK_CRON'] = '解锁';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = '载入中...';
 $lang['JUMPBOX_TITLE'] = '论坛选择';

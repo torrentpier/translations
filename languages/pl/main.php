@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum jest w trakcie konserwacji.';
 $lang['ADMIN_UNLOCK'] = 'Włącz forum';
 $lang['ADMIN_UNLOCKED'] = 'Odblokowany';
 $lang['ADMIN_UNLOCK_CRON'] = 'Zdjąć blokadę';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Ładowanie...';
 $lang['JUMPBOX_TITLE'] = 'Wybierz forum';
