@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = '포럼이 유지보수 중입니다.';
 $lang['ADMIN_UNLOCK'] = '포럼 사용 허용';
 $lang['ADMIN_UNLOCKED'] = '잠금 해제';
 $lang['ADMIN_UNLOCK_CRON'] = '잠금 해제 제거';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = '페이지를 찾을 수 없습니다';
 
 $lang['LOADING'] = 'Loading...';
 $lang['JUMPBOX_TITLE'] = '포럼 선택';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = '아무것도 변경되지 않았습니다.';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = '우리 사용자가 총 <b>%s</b> 주제를 게시했습니다.'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = '우리 사용자가 총 <b>%s</b>개의 게시물을 작성했습니다'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = '우리는 <b>%s</b> 등록된 사용자입니다.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = '남자: <b>%d</b>, 여자: <b>%d</b>, 기타: <b>%d</b>.';
 $lang['NEWEST_USER'] = '최신 등록된 사용자 <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s 이 게시물에 첨부�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s 이 첨부 파일을 다운로드할 수 있습니다.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = '포럼 모드: %s — 변경할 수 없습니다';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = '"중재자"에 의해 권한이 활성화되었습니다';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = '그룹에서 권한을 부여했습니다';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = '메인 페이지에 표시합니다.';
