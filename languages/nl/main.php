@@ -1756,6 +1756,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s kan polls maken in dit fo
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s kan bijlagen plaatsen.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan bijlagen downloaden.';
 
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Toon op de hoofdpagina.';
 $lang['SF_PARENT_FORUM'] = 'Ouder forum';
