@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'फ़ोरम रखरखाव के �
 $lang['ADMIN_UNLOCK'] = 'मंच सक्षम करें';
 $lang['ADMIN_UNLOCKED'] = 'खुला';
 $lang['ADMIN_UNLOCK_CRON'] = 'लॉक निकालें';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'लोड हो रहा है...';
 $lang['JUMPBOX_TITLE'] = 'फ़ोरम चुनें';
