@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foorumi on suljettu huollon';
 $lang['ADMIN_UNLOCK'] = 'Ota foorumi käyttöön';
 $lang['ADMIN_UNLOCKED'] = 'Auki';
 $lang['ADMIN_UNLOCK_CRON'] = 'Poista lukitus';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Sivua ei löytynyt';
 
 $lang['LOADING'] = 'Ladataan...';
 $lang['JUMPBOX_TITLE'] = 'Valitse foorumi';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Mitään ei ole muuttunut';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Käyttäjämme ovat kirjoittaneet yhteensä <b>%s</b> aiheita'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Käyttäjämme ovat julkaisseet yhteensä <b>%s</b> viestiä'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Meillä on <b>%s</b> rekisteröityneet käyttäjät'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Pojat: <b>%d</b>, Tytöt: <b>%d</b>, Muut: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Uusin rekisteröitynyt käyttäjä on <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s voi lähettää liitetie
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s voi ladata liitetiedostoja';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Foorumin tila: %s — ei voi muuttaa';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Oikeus myönnetty käyttäjän "Välittäjä" kautta';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Oikeus myönnetty ryhmän kautta';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Näyttää pääsivulla';
