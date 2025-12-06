@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Heç nə dəyişməyib';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Bizim istifadəçilər <b>%s</b> mövzular göndərdilər.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Bizim istifadəçilər göndərdik bütün <b>%s</b> məqalələr'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Biz <b>%s</b> qeydiyyatdan keçmiş istifadəçilər'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Oğlan: <b>%d</b>, Qızlar: <b>%d</b>, Digər: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Son qeydiyyatlı istifadəçi <b>%s</b>'; // a href, username, /a
