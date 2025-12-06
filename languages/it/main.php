@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'The translation does not properly convey th
 $lang['ADMIN_UNLOCK'] = 'The translation needs a clearer expression to match the original phrase.';
 $lang['ADMIN_UNLOCKED'] = 'This translation is unclear and needs revision.';
 $lang['ADMIN_UNLOCK_CRON'] = 'The translation doesn\'t effectively convey the original concept.';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Il caricamento...';
 $lang['JUMPBOX_TITLE'] = 'Seleziona forum';
