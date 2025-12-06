@@ -1756,6 +1756,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s могут создава
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s могут прикреплять вложения';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s могут скачивать вложения';
 
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Показывать на главной';
 $lang['SF_PARENT_FORUM'] = 'Родительский форум';
