@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'ฟอรัมอยู่ในระห�
 $lang['ADMIN_UNLOCK'] = 'เปิดฟอรัม';
 $lang['ADMIN_UNLOCKED'] = 'ไม่ได้ล็อค';
 $lang['ADMIN_UNLOCK_CRON'] = 'ปลดล็อค';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'กำลังโหลด...';
 $lang['JUMPBOX_TITLE'] = 'เลือกฟอรัม';
