@@ -1756,6 +1756,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s může vytvářet ankety 
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s může zaúčtovat přílohy.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s může stáhnout přílohy.';
 
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Zobrazit na hlavní stránce.';
 $lang['SF_PARENT_FORUM'] = 'Mateřské fórum.';
