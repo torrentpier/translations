@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'ფორუმი შენარჩუნ
 $lang['ADMIN_UNLOCK'] = 'ფორუმის გაწვდვა.';
 $lang['ADMIN_UNLOCKED'] = 'გახსნილია';
 $lang['ADMIN_UNLOCK_CRON'] = 'ამოიღეთ lock.';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'იტვირთება...';
 $lang['JUMPBOX_TITLE'] = 'აირჩიეთ ფორუმი';
