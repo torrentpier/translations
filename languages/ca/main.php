@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fòrum tancat per manteniment';
 $lang['ADMIN_UNLOCK'] = 'Activar fòrum';
 $lang['ADMIN_UNLOCKED'] = 'Obert';
 $lang['ADMIN_UNLOCK_CRON'] = 'Eliminar bloqueig';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Pàgina no trobada';
 
 $lang['LOADING'] = 'Carregant...';
 $lang['JUMPBOX_TITLE'] = 'Seleccioneu fòrum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Res ha canviat';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Els nostres usuaris han publicat un total de temes <b>%s</b>'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Els nostres usuaris han publicat un total de <b>%s</b> missatges'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Hem <b>%s</b> usuaris registrats'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Nois: <b>%d</b>, noies: <b>%d</b>, altres: <b>%d</b>.';
 $lang['NEWEST_USER'] = 'El més nou usuari registrat és <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s pot publicar fitxers adj
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s pot descarregar arxius adjunts';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Mode del fòrum: %s — no es pot canviar';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permís habilitat via "Moderador"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permís concedit pel grup';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Mostrar en pàgina principal';
