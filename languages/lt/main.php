@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumas yra techninės priežiūros';
 $lang['ADMIN_UNLOCK'] = 'Įjungti forumą';
 $lang['ADMIN_UNLOCKED'] = 'Atrakinta';
 $lang['ADMIN_UNLOCK_CRON'] = 'Šalinti užraktą';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Kraunasi...';
 $lang['JUMPBOX_TITLE'] = 'Pasirinkite forumą';
