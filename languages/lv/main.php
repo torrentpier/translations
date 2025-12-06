@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forums ir slēgts apkopei.';
 $lang['ADMIN_UNLOCK'] = 'Iespējot forumu.';
 $lang['ADMIN_UNLOCKED'] = 'Atslēgt';
 $lang['ADMIN_UNLOCK_CRON'] = 'Noņemt bloķēšanu.';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Lapa nav atrasta';
 
 $lang['LOADING'] = 'Notiek ielāde...';
 $lang['JUMPBOX_TITLE'] = 'Izvēlieties forumā';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nekas nav mainījies';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Mūsu lietotāji ir ievietojuši kopā <b>%s</b> tēmas.'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Mūsu lietotāji ir ievietojuši kopā <b>%s</b> ziņas'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Mums ir <b>%s</b> reģistrēti lietotāji'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Zēni: <b>%d</b>, Meitenes: <b>%d</b>, Citi: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Jaunākais reģistrētais lietotājs ir <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s var ievietot pielikumus.
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s var lejupielādēt pielikumus.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Foruma režīms: %s — nav iespējams mainīt';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Atļauja iespējota, jo esat "Moderators"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Atļauja piešķirta grupas līmenī';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Parādīt uz galveno lapu';
