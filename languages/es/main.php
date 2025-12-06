@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nada ha cambiado';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Nuestros usuarios han publicado un total de <b>%s</b> temas'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Nuestros usuarios han publicado un total de <b>%s</b> artículos'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Hemos registrado un total de <b>%s</b> de usuarios.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Chicos: <b>%d</b>, Niñas: <b>%d</b>, Otros: <b>%d</b>';
 $lang['NEWEST_USER'] = 'El más nuevo usuario registrado es <b>%s</b>'; // a href, username, /a
