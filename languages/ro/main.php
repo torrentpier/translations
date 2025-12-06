@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumul este oprit pentru întreținere';
 $lang['ADMIN_UNLOCK'] = 'Permite forumul';
 $lang['ADMIN_UNLOCKED'] = 'Deblocat';
 $lang['ADMIN_UNLOCK_CRON'] = 'Elimina blocarea';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Pagină negăsită';
 
 $lang['LOADING'] = 'Loading...';
 $lang['JUMPBOX_TITLE'] = 'Selectați forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nimic nu a fost schimbat';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Utilizatorii noștri au postat un total de <b>%s</b> subiecte'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Utilizatorii noștri au postat un total de <b>%s</b> mesaje'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Avem <b>%s</b> utilizatori înregistrați'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Băieți: <b>%d</b>, Fete: <b>%d</b>, Altele: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Cel mai nou utilizator inregistrat este <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s pot posta atasamente';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s puteți descărca atașamente';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Mod forum: %s — nu poate fi schimbat';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permisiune activată prin "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permisiune acordată de grup';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Arătați pe pagina principală.';
