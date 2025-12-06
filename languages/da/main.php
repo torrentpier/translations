@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum er nede for vedligeholdelse';
 $lang['ADMIN_UNLOCK'] = 'Aktiver forum';
 $lang['ADMIN_UNLOCKED'] = 'Ulåst';
 $lang['ADMIN_UNLOCK_CRON'] = 'Fjern lås';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Side ikke fundet';
 
 $lang['LOADING'] = 'Indlæser...';
 $lang['JUMPBOX_TITLE'] = 'Vælg forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Intet er blevet ændret';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Vores brugere har indsendt i alt <b>%s</b> emner'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Vores brugere har indsendt i alt <b>%s</b> indlæg'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Vi har <b>%s</b> registrerede brugere'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Drenge: <b>%d</b>, Piger: <b>%d</b>, Andre: <b>%d</b>';
 $lang['NEWEST_USER'] = 'De nyeste registrerede bruger er <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s kan poste vedhæftede fi
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan downloade vedhæftede filer';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forumtilstand: %s — kan ikke ændres';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Tilladelse aktiveret via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Tilladelse givet af gruppen';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Vis på hovedsiden';
