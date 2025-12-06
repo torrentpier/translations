@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forums ir slēgts apkopei.';
 $lang['ADMIN_UNLOCK'] = 'Iespējot forumu.';
 $lang['ADMIN_UNLOCKED'] = 'Atslēgt';
 $lang['ADMIN_UNLOCK_CRON'] = 'Noņemt bloķēšanu.';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Notiek ielāde...';
 $lang['JUMPBOX_TITLE'] = 'Izvēlieties forumā';
