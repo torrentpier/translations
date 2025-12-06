@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum er nede for vedligeholdelse';
 $lang['ADMIN_UNLOCK'] = 'Aktiver forum';
 $lang['ADMIN_UNLOCKED'] = 'Ulåst';
 $lang['ADMIN_UNLOCK_CRON'] = 'Fjern lås';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Indlæser...';
 $lang['JUMPBOX_TITLE'] = 'Vælg forum';
