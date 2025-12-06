@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'المنتدى للصيانة';
 $lang['ADMIN_UNLOCK'] = 'تمكين المنتدى';
 $lang['ADMIN_UNLOCKED'] = 'تم إلغاء قفل';
 $lang['ADMIN_UNLOCK_CRON'] = 'إزالة قفل';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'تحميل...';
 $lang['JUMPBOX_TITLE'] = 'حدد المنتدى';
