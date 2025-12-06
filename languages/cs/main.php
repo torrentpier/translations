@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fórum je v údržbě';
 $lang['ADMIN_UNLOCK'] = 'Povolit fórum';
 $lang['ADMIN_UNLOCKED'] = 'Odemčený';
 $lang['ADMIN_UNLOCK_CRON'] = 'Odstranit zámek';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Načítání...';
 $lang['JUMPBOX_TITLE'] = 'Vyberte fórum';
