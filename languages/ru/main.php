@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форум отключен на техни
 $lang['ADMIN_UNLOCK'] = 'Включить форум';
 $lang['ADMIN_UNLOCKED'] = 'Разблокировано';
 $lang['ADMIN_UNLOCK_CRON'] = 'Снять блокировку';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Страница не найдена';
 
 $lang['LOADING'] = 'Загружается…';
 $lang['JUMPBOX_TITLE'] = 'Выберите форум для перехода';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Ничего не было изменено';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Наши пользователи создали тем: <b>%s</b>'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Наши пользователи опубликовали всего <b>%s</b> сообщений'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Всего зарегистрированных пользователей: <b>%s</b>'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Парней: <b>%d</b>, Девушек: <b>%d</b>, Не указали: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Последний зарегистрированный пользователь: <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s могут прикре�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s могут скачивать вложения';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Форум в режиме: %s — изменить нельзя';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Разрешение предоставлено через "Модератор"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Разрешение предоставлено группой';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Показывать на главной';
