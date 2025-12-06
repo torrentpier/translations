@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'הפורום מושבת לצורך תחזו
 $lang['ADMIN_UNLOCK'] = 'להפעיל את הפורום';
 $lang['ADMIN_UNLOCKED'] = 'נראה אין מונח כזה מובן';
 $lang['ADMIN_UNLOCK_CRON'] = 'הסר נעילת';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'הדף לא נמצא';
 
 $lang['LOADING'] = 'טעינה...';
 $lang['JUMPBOX_TITLE'] = 'בחר פורום';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'שום דבר לא השתנה';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'המשתמשים שלנו פרסמו סך של <b>%s</b> נושאים'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'המשתמשים שלנו פרסמו סך של <b>%s</b> הודעות'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'יש לנו <b>%s</b> משתמשים רשומים'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'בנים: <b>%d</b>, בנות: <b>%d</b>, אחרים: <b>%d</b>';
 $lang['NEWEST_USER'] = 'המשתמש שנרשם הכי חדש הוא <b>%s</b>.'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s יכול לפרסם קב
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s יכול להוריד קבצים מצורפים.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'מצב פורום: %s — לא ניתן לשנות';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'הרשאה מופעלת באמצעות "מנהל פורום"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'הרשאה ניתנה על ידי הקבוצה';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'להציג בדף הראשי.';
