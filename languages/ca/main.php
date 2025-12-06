@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fòrum tancat per manteniment';
 $lang['ADMIN_UNLOCK'] = 'Activar fòrum';
 $lang['ADMIN_UNLOCKED'] = 'Obert';
 $lang['ADMIN_UNLOCK_CRON'] = 'Eliminar bloqueig';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Carregant...';
 $lang['JUMPBOX_TITLE'] = 'Seleccioneu fòrum';
