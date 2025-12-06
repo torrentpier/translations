@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форум қызмет көрсету үш
 $lang['ADMIN_UNLOCK'] = 'Форумды қосу';
 $lang['ADMIN_UNLOCKED'] = 'Ашылды.';
 $lang['ADMIN_UNLOCK_CRON'] = 'Құлыпты босату.';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Жүктелуде...';
 $lang['JUMPBOX_TITLE'] = 'форум таңдаңыз';
