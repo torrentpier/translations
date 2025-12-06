@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum parvarishlash ostidadir';
 $lang['ADMIN_UNLOCK'] = 'forum yoqish';
 $lang['ADMIN_UNLOCKED'] = 'Qulfni olib tashlash.';
 $lang['ADMIN_UNLOCK_CRON'] = 'Qulfni olib tashlash';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Yuklanmoqda...';
 $lang['JUMPBOX_TITLE'] = 'tanlang forum';
