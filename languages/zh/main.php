@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = '论坛正在维护';
 $lang['ADMIN_UNLOCK'] = '启用论坛';
 $lang['ADMIN_UNLOCKED'] = '已解锁';
 $lang['ADMIN_UNLOCK_CRON'] = '解锁';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = '找不到頁面';
 
 $lang['LOADING'] = '载入中...';
 $lang['JUMPBOX_TITLE'] = '论坛选择';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = '没有任何改动';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = '我们的用户已经一共发布了 <b>%s</b> 个主题'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = '我們的用戶共發表了 <b>%s</b> 篇文章'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = '我们有 <b>%s</b> 个注册用户'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = '男性：<b>%d</b>，女性：<b>%d</b>，其他：<b>%d</b>';
 $lang['NEWEST_USER'] = '最新的注册用户是<b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s可以張貼附件';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s可以下載附件';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = '論壇模式：%s — 無法更改';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = '權限由「版主」授予';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = '權限由群組授予';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = '显示在主页';
