@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum bakımda.';
 $lang['ADMIN_UNLOCK'] = 'Forum etkinleştir';
 $lang['ADMIN_UNLOCKED'] = 'Kilidi';
 $lang['ADMIN_UNLOCK_CRON'] = 'Kilidi Kaldır';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Yükleniyor...';
 $lang['JUMPBOX_TITLE'] = 'Forum seçin';
