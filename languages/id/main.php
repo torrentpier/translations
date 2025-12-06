@@ -102,6 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum sedang dalam pemeliharaan';
 $lang['ADMIN_UNLOCK'] = 'Mengaktifkan forum';
 $lang['ADMIN_UNLOCKED'] = 'Dibuka';
 $lang['ADMIN_UNLOCK_CRON'] = 'Menghapus kunci';
+$lang['PAGE_NOT_FOUND'] = 'Page not found';
 
 $lang['LOADING'] = 'Memuat...';
 $lang['JUMPBOX_TITLE'] = 'Pilih forum';
