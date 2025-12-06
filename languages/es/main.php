@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Foro desactivado por tareas de mantenimient
 $lang['ADMIN_UNLOCK'] = 'Habilitar el foro';
 $lang['ADMIN_UNLOCKED'] = 'Desbloqueado';
 $lang['ADMIN_UNLOCK_CRON'] = 'Quitar bloqueo';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Página no encontrada';
 
 $lang['LOADING'] = 'Cargando...';
 $lang['JUMPBOX_TITLE'] = 'Seleccione foro';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nada ha cambiado';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Nuestros usuarios han publicado un total de <b>%s</b> temas'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Nuestros usuarios han publicado un total de <b>%s</b> mensajes'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Hemos registrado un total de <b>%s</b> de usuarios.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Chicos: <b>%d</b>, Niñas: <b>%d</b>, Otros: <b>%d</b>';
 $lang['NEWEST_USER'] = 'El más nuevo usuario registrado es <b>%s</b>'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s puede enviar archivos ad
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s puede descargar archivos adjuntos.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Modo foro: %s — no se puede cambiar';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permiso habilitado vía "Moderador"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permiso otorgado por el grupo';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Mostrar en la página principal';
