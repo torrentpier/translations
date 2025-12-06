@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'फ़ोरम रखरखाव के �
 $lang['ADMIN_UNLOCK'] = 'मंच सक्षम करें';
 $lang['ADMIN_UNLOCKED'] = 'खुला';
 $lang['ADMIN_UNLOCK_CRON'] = 'लॉक निकालें';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'पृष्ठ नहीं मिला';
 
 $lang['LOADING'] = 'लोड हो रहा है...';
 $lang['JUMPBOX_TITLE'] = 'फ़ोरम चुनें';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'कुछ भी नहीं बदला ग�
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'हमारे उपयोगकर्ताओं ने कुल <b>%s</b> विषयों को पोस्ट किया है'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Our users have posted a total of <b>%s</b> posts'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'हमारे उपयोगकर्ताओं ने कुल <b>%s</b> पोस्ट किए हैं'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'हमारे पास <b>%s</b> पंजीकृत उपयोगकर्ता हैं'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'लड़कों: <b>%d</b>, लड़कियां: <b>%d</b>, अन्य: <b>%d</b>';
 $lang['NEWEST_USER'] = 'नवीनतम पंजीकृत उपयोगकर्ता <b>%s</b> है'; // a href, username, /a
@@ -1757,9 +1757,9 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s अनुलग्नक
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s अटैचमेंट डाउनलोड कर सकते हैं';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum mode: %s — cannot be changed';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permission enabled via "Moderator"';
-$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permission granted by the group';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'फ़ोरम मोड: %s — बदला नहीं जा सकता';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = '"मॉडरेटर" के द्वारा अनुमति सक्षम की गई';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'समूह द्वारा अनुमति प्रदान की गई';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'मुख्य पृष्ठ पर दिखाएं';
