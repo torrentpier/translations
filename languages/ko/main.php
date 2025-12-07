@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = '이 작업이 실행될 때 보드를 비활성�
 $lang['RUN_COUNTER'] = '실행 카운터';
 
 $lang['JOB_REMOVED'] = '작업이 성공적으로 제거되었습니다';
-$lang['SCRIPT_DUPLICATE'] = '스크립트 <b>' . @$_POST['cron_script'] . '</b> 이미 존재합니다!';
-$lang['TITLE_DUPLICATE'] = '작업 이름 <b>' . @$_POST['cron_title'] . '</b> 이미 존재합니다!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s작업 추가로 돌아가기%s';
 $lang['CLICK_RETURN_JOBS'] = '%s작업 스케줄러로 돌아가기%s';
 
