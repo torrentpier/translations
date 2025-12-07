@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktivieren Sie das Board, wenn dieser Job ausge
 $lang['RUN_COUNTER'] = 'Zählen.';
 
 $lang['JOB_REMOVED'] = 'Der Job wurde erfolgreich entfernt';
-$lang['SCRIPT_DUPLICATE'] = 'Skript <b>.' . @$_POST['cron_script'] . '</b> existiert bereits!';
-$lang['TITLE_DUPLICATE'] = 'Task-Name <b>.' . @$_POST['cron_title'] . '</b> existiert bereits!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sZurück zum Hinzufügen von Jobs%s';
 $lang['CLICK_RETURN_JOBS'] = '%sZurück zum Aufgabenscheduler%s.';
 
