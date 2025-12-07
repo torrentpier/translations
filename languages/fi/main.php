@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'poistaa foorumilta, kun tämä työ suoritetaan';
 $lang['RUN_COUNTER'] = 'Laskuri';
 
 $lang['JOB_REMOVED'] = 'Tehtävä on poistettu onnistuneesti';
-$lang['SCRIPT_DUPLICATE'] = 'Käsikirjoitus <b>.' . @$_POST['cron_script'] . '</b> on jo olemassa!';
-$lang['TITLE_DUPLICATE'] = 'Tehtävän nimi <b>.' . @$_POST['cron_title'] . '</b> on jo olemassa!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sPalaa lisää työpaikkaa%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTakaisin Tehtävään Aikatauluttaja%s';
 
