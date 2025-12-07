@@ -1757,7 +1757,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s kan bijlagen plaatsen.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan bijlagen downloaden.';
 
 // Tooltips for disabled permissions
-$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum modus: %s  92kan niet worden aangepast';
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forummodus: %s kan niet worden gewijzigd';
 $lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Toestemming ingeschakeld via "Moderator"';
 $lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Toestemming toegekend door de groep';
 
