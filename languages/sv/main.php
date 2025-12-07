@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Inaktivera styrelsen när detta jobb körs';
 $lang['RUN_COUNTER'] = 'Kör räknaren';
 
 $lang['JOB_REMOVED'] = 'Jobbet har tagits bort framgångsrikt';
-$lang['SCRIPT_DUPLICATE'] = 'Manus <b>' . @$_POST['cron_script'] . '</b> redan!';
-$lang['TITLE_DUPLICATE'] = 'Uppgift Namn <b>' . @$_POST['cron_title'] . '</b> redan!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sÅtergå till lägg till jobb%s';
 $lang['CLICK_RETURN_JOBS'] = '%sÅtergå till Uppgiftsschemaläggaren%s';
 
