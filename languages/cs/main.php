@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'zakázat fórum při spuštění této úlohy';
 $lang['RUN_COUNTER'] = 'Časovač';
 
 $lang['JOB_REMOVED'] = 'Úloha byla úspěšně odstraněna';
-$lang['SCRIPT_DUPLICATE'] = 'Scénář <b>' . @$_POST['cron_script'] . '</b> již existuje!';
-$lang['TITLE_DUPLICATE'] = 'Název úkolu <b>.' . @$_POST['cron_title'] . '</b> již existuje!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sNávrat k přidání úlohy%s';
 $lang['CLICK_RETURN_JOBS'] = '%s zpět do plánovače úkolů %s';
 
