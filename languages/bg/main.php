@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'изключване на Съвета, кога�
 $lang['RUN_COUNTER'] = 'Съществуват ли.';
 
 $lang['JOB_REMOVED'] = 'Задачата е премахната успешно';
-$lang['SCRIPT_DUPLICATE'] = 'Сценарий <b> ' . @$_POST['cron_script'] . '</b> вече съществува!';
-$lang['TITLE_DUPLICATE'] = 'Името на задачите <b> ' . @$_POST['cron_title'] . '</b> вече съществува!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sВърнете се, за да добавите задача%s';
 $lang['CLICK_RETURN_JOBS'] = '%sОбратно към планиращия задачи%s';
 
