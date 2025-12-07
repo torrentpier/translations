@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Dezactivați tabloul când acest loc de muncă es
 $lang['RUN_COUNTER'] = 'În contradicție.';
 
 $lang['JOB_REMOVED'] = 'Sarcina a fost eliminată cu succes';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>.' . @$_POST['cron_script'] . '</b> există deja!';
-$lang['TITLE_DUPLICATE'] = 'Numele sarcinii <b>' . @$_POST['cron_title'] . '</b> există deja!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sÎntoarceți-vă pentru a adăuga sarcina%s';
 $lang['CLICK_RETURN_JOBS'] = '%s Înapoi la programatorul de sarcini %s';
 
