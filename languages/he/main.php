@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'להשבית את הלוח כאשר העבודה 
 $lang['RUN_COUNTER'] = 'להפעיל מונה';
 
 $lang['JOB_REMOVED'] = 'המשימה הוסרה בהצלחה';
-$lang['SCRIPT_DUPLICATE'] = 'התסריט <b>' . @$_POST['cron_script'] . '</b> כבר קיים!';
-$lang['TITLE_DUPLICATE'] = 'שם המשימה <b>' . @$_POST['cron_title'] . '</b> כבר קיים!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sחזור להוסיף משימה%s';
 $lang['CLICK_RETURN_JOBS'] = '%sחזור למנהל המשימות%s';
 
