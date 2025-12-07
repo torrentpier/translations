@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Onemogočite ploščo, ko se to delo izvaja';
 $lang['RUN_COUNTER'] = 'Zaženi števec';
 
 $lang['JOB_REMOVED'] = 'Naloga je bila uspešno odstranjena';
-$lang['SCRIPT_DUPLICATE'] = 'Skript <b>' . @$_POST['cron_script'] . '</b> že obstaja!';
-$lang['TITLE_DUPLICATE'] = 'Ime naloge <b>' . @$_POST['cron_title'] . '</b> že obstaja!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVrni se k dodajanju naloge%s';
 $lang['CLICK_RETURN_JOBS'] = '%sNazaj k načrtovalcu nalog%s';
 
