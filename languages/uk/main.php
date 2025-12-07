@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'вимкнути форум, коли завда�
 $lang['RUN_COUNTER'] = 'Кількість запусків';
 
 $lang['JOB_REMOVED'] = 'Завдання було успішно видалено';
-$lang['SCRIPT_DUPLICATE'] = 'Скрипт <b>' . @$_POST['cron_script'] . '</b> вже існує!';
-$lang['TITLE_DUPLICATE'] = 'Назва завдання <b>' . @$_POST['cron_title'] . '</b> вже існує!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sПовернутися для додавання завдання%s';
 $lang['CLICK_RETURN_JOBS'] = '%sПовернутися до розкладу%s';
 
