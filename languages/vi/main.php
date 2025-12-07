@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'vô hiệu hóa hội đồng khi công việc n�
 $lang['RUN_COUNTER'] = 'Chạy bộ đếm';
 
 $lang['JOB_REMOVED'] = 'Công việc đã được xóa thành công';
-$lang['SCRIPT_DUPLICATE'] = 'Kịch bản <b>' . @$_POST['cron_script'] . '</b> đã tồn tại!';
-$lang['TITLE_DUPLICATE'] = 'Tên nhiệm vụ <b>' . @$_POST['cron_title'] . '</b> đã tồn tại!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sQuay lại để thêm công việc%s';
 $lang['CLICK_RETURN_JOBS'] = '%sQuay lại lịch trình Công việc%s';
 
