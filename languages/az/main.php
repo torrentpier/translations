@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Bu iş icra edildiyi zaman, ardıcıllığın iti
 $lang['RUN_COUNTER'] = 'Sayğac';
 
 $lang['JOB_REMOVED'] = 'İş uğurla silindi';
-$lang['SCRIPT_DUPLICATE'] = 'Ssenari <b>' . @$_POST['cron_script'] . '</b> artıq var!';
-$lang['TITLE_DUPLICATE'] = 'Vəzifənin adı<b> ' . @$_POST['cron_title'] . '</b> artıq var!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sİş əlavə etməyə geri qayıdın%s';
 $lang['CLICK_RETURN_JOBS'] = '%sGeri vəzifə planlayıcısına%s';
 
