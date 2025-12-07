@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Desactivar el fòrum quan aquesta tasca s\'execut
 $lang['RUN_COUNTER'] = 'Compte d\'execució.';
 
 $lang['JOB_REMOVED'] = 'La feina s\'ha eliminat correctament';
-$lang['SCRIPT_DUPLICATE'] = 'Guió <b>' . @$_POST['cron_script'] . '</b> ja existeix!';
-$lang['TITLE_DUPLICATE'] = 'Nom de la tasca <b>.' . @$_POST['cron_title'] . '</b> ja existeix!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sTorna a afegir feina%s';
 $lang['CLICK_RETURN_JOBS'] = '%s torna al programador de tasques %s.';
 
