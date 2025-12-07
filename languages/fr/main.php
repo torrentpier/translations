@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Désactiver le conseil d\'administration lorsque 
 $lang['RUN_COUNTER'] = 'À l\'encontre.';
 
 $lang['JOB_REMOVED'] = 'La tâche a été supprimée avec succès';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>.' . @$_POST['cron_script'] . '</b> existe déjà !';
-$lang['TITLE_DUPLICATE'] = 'Nom De La Tâche <b>.' . @$_POST['cron_title'] . '</b> existe déjà !';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sRetourner à ajouter une tâche%s';
 $lang['CLICK_RETURN_JOBS'] = '%sRetour au Planificateur de Tâches%s';
 
