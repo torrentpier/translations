@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'onesposobite odbor kada se ovaj posao izvršava.'
 $lang['RUN_COUNTER'] = 'Pokreni brojnik.';
 
 $lang['JOB_REMOVED'] = 'Zadatak je uspešno uklonjen';
-$lang['SCRIPT_DUPLICATE'] = 'Skripta <b>' . @$_POST['cron_script'] . '</b> već postoji!';
-$lang['TITLE_DUPLICATE'] = 'Naziv zadatka <b>' . @$_POST['cron_title'] . '</b> već postoji!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVrati se da dodaš zadatak%s';
 $lang['CLICK_RETURN_JOBS'] = '%sNazad na planer zadataka%s';
 
