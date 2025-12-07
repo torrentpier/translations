@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'отключать форум, когда зад�
 $lang['RUN_COUNTER'] = 'Кол-во запусков';
 
 $lang['JOB_REMOVED'] = 'Задача была успешно удалена';
-$lang['SCRIPT_DUPLICATE'] = 'Скрипт <b>' . @$_POST['cron_script'] . '</b> уже существует!';
-$lang['TITLE_DUPLICATE'] = 'Название задачи <b>' . @$_POST['cron_title'] . '</b> уже существует!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sВернуться к списку форумов%s';
 $lang['CLICK_RETURN_JOBS'] = '%sВернуться к планировщику задач%s';
 
