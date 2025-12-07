@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'хомӯш Шуро дар вақте, ки ин 
 $lang['RUN_COUNTER'] = 'Рақами ҳисобро бо кодаи SQL';
 
 $lang['JOB_REMOVED'] = 'Кори бо муваффақият бардошта шуд';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> аллакай мавҷуд аст!';
-$lang['TITLE_DUPLICATE'] = 'Номи Вазифа <b>' . @$_POST['cron_title'] . '</b> аллакай мавҷуд аст!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sБаргаштан ба корҳои илова кардани%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack ба Вазифаи Scheduler%s';
 
