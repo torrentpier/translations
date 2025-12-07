@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Искључи форум када се овај 
 $lang['RUN_COUNTER'] = 'Број покретања';
 
 $lang['JOB_REMOVED'] = 'Задатак је успешно уклоњен';
-$lang['SCRIPT_DUPLICATE'] = 'Сценарио <b>' . @$_POST['cron_script'] . '</b> већ постоји!';
-$lang['TITLE_DUPLICATE'] = 'Име задатка <b>' . @$_POST['cron_title'] . '</b> већ постоји!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sВратите се на додатак задатка%s';
 $lang['CLICK_RETURN_JOBS'] = '%sВратите се на заказивач задатака%s';
 
