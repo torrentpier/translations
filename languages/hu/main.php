@@ -1914,8 +1914,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'letiltja a fedélzeten, amikor ez a feladat fut';
 $lang['RUN_COUNTER'] = 'Ellentétes';
 
 $lang['JOB_REMOVED'] = 'A feladat sikeresen eltávolítva';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> már létezik!';
-$lang['TITLE_DUPLICATE'] = 'Feladat Neve <b>' . @$_POST['cron_title'] . '</b> már létezik!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVissza az új feladat hozzáadásához%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack, hogy a Feladat Scheduler%s';
 
