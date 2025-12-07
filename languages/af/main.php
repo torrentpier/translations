@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktiveer raad wanneer hierdie werk uitgevoer wo
 $lang['RUN_COUNTER'] = 'Begin toonbank';
 
 $lang['JOB_REMOVED'] = 'Die taak is suksesvol verwyder';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> bestaan reeds!';
-$lang['TITLE_DUPLICATE'] = 'Taaknaam <b>' . @$_POST['cron_title'] . '</b> bestaan reeds!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sTerug na voeg taak%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTerug na die Taakskeduleerder%s';
 
