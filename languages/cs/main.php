@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nic bylo změněno';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Naši uživatelé zaslali celkem <b>%s</b> témata'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Naši uživatelé přesně zveřejnili celkem <b>%s</b> příspěvků'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Naši uživatelé zveřejnili celkem <b>%s</b> příspěvků'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Máme <b>%s</b> registrovaných uživatelů'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Chlapci: <b>%d</b>, Dívky: <b>%d</b>, Ostatní: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Nejnovější registrovaný uživatel je <b>%s</b>'; // a href, username, /a
