@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'このジョブが実行されているときは�
 $lang['RUN_COUNTER'] = 'カウンターを実行';
 
 $lang['JOB_REMOVED'] = 'ジョブは正常に削除されました';
-$lang['SCRIPT_DUPLICATE'] = 'スクリプト<b>' . @$_POST['cron_script'] . '</b>はすでに存在します！';
-$lang['TITLE_DUPLICATE'] = 'タスク名<b>' . @$_POST['cron_title'] . '</b>はすでに存在します！';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sジョブ追加に戻る%s';
 $lang['CLICK_RETURN_JOBS'] = '%sタスクスケジューラに戻る%s';
 
