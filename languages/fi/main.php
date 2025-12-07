@@ -1758,7 +1758,7 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s voi ladata liitetiedostoja'
 
 // Tooltips for disabled permissions
 $lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Foorumin tila: %s — ei voi muuttaa';
-$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Oikeus myönnetty käyttäjän "Välittäjä" kautta';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Oikeus myönnetty käyttäjän "Moderaattori" kautta';
 $lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Oikeus myönnetty ryhmän kautta';
 
 // Misc

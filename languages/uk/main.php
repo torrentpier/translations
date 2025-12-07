@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Нічого не було змінено';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Користувачі створили тем: <b>%s</b>'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'Наші користувачі опублікували загалом <b>%s</b> {{PLURAL:%s|повідомлення|повідомлення|повідомлень|повідомлень}}'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Наші користувачі опублікували загалом: <b>%s</b> повідомлень'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Усього зареєстрованих користувачів: <b>%s</b>'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Хлопців: <b>%d</b>, Дівчат: <b>%d</b>, Не вказали: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Останній зареєстрований користувач: <b>%s</b>'; // a href, username, /a

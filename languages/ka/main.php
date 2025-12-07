@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'არაფერი შეცვლილა.'
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'ჩვენი წევრებს გაწვდილი სულ <b>%s</b> თემები.'; // Number of topics
-$lang['POSTED_POSTS_TOTAL'] = 'ჩვენი მომხმარებლები გამოქვეყნებული აქვს ჯამში <b>%s</b> პოსტი'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'ჩვენი მომხმარებლებმა გამოქვეყნებულია ჯამში <b>%s</b> პოსტი'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'ჩვენ გვაქვს <b>%s</b> დარეგისტრირებული მომხმარებლები.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'ბიჭები: <b>%d</b>, გოგონები: <b>%d</b>, სხვები: <b>%d</b>';
 $lang['NEWEST_USER'] = 'უახლესი დარეგისტრირებული მომხმარებელი არის <b>%s</b>'; // a href, username, /a

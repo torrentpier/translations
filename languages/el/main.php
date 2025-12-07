@@ -2233,8 +2233,8 @@ $lang['TR_STATS'] = [
 
 $lang['TORRENT_STATS_TITLE'] = 'Στατιστικά Torrent';
 $lang['TRACKER_STATS_TITLE'] = 'Στατιστικά Tracker';
-$lang['TORRENTS'] = 'Torrents';
-$lang['PEERS'] = 'Peers';
+$lang['TORRENTS'] = 'Τόρρεντ';
+$lang['PEERS'] = 'Πιρς';
 $lang['CLIENTS'] = 'Πελάτες';
 
 $lang['NEW_POLL_START'] = 'Δημοσκόπηση ενεργοποιημένη';
