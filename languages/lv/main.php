@@ -1918,8 +1918,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'atspējot valdi, kad šis darbs tiek palaists';
 $lang['RUN_COUNTER'] = 'Skriptu pretruna';
 
 $lang['JOB_REMOVED'] = 'Darbs ir veiksmīgi izņemts';
-$lang['SCRIPT_DUPLICATE'] = 'Skripts <b>' . @$_POST['cron_script'] . '</b> jau eksistē!';
-$lang['TITLE_DUPLICATE'] = 'Uzdevuma nosaukums <b>' . @$_POST['cron_title'] . '</b> jau eksistē!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sAtgriezties pie pievienotā darba%s';
 $lang['CLICK_RETURN_JOBS'] = '%sAtpakaļ uz uzdevumu plānotāju%s.';
 
