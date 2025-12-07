@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'keelata pardal, kui see töö on käivitatud';
 $lang['RUN_COUNTER'] = 'Loenduri vastuseks';
 
 $lang['JOB_REMOVED'] = 'Töö on edukalt eemaldatud';
-$lang['SCRIPT_DUPLICATE'] = 'Skripti <b>' . @$_POST['cron_script'] . '</b> on juba olemas!';
-$lang['TITLE_DUPLICATE'] = 'Ülesande nimi <b>' . @$_POST['cron_title'] . '</b> juba eksisteerib!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sNaaske töö lisamise juurde%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTagasi ülesande ajaskaalale%s';
 
