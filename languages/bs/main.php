@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum je nedostupan radi održavanja';
 $lang['ADMIN_UNLOCK'] = 'Omogućiti forum';
 $lang['ADMIN_UNLOCKED'] = 'Otključan';
 $lang['ADMIN_UNLOCK_CRON'] = 'Ukloni bravu';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Stranica nije pronađena';
 
 $lang['LOADING'] = 'Ukrcavanje...';
 $lang['JUMPBOX_TITLE'] = 'Odaberite forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Da ništa nije promijenjeno';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Naši korisnici su postavili ukupno <b>%s</b> teme'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Naši korisnici su postavili ukupno <b>%s</b> članke'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Na61i korisnici su postavili ukupno <b>%s</b> postova'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Imamo <b>%s</b> registrovanih korisnika'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Momci: <b>%d</b>, Devojke: <b>%d</b>, Drugi: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Najnoviji registrovani korisnik je <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s može glasati u anketama u ovom
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s može stvoriti ankete u ovom forumu';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s može postaviti priloge';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s može preuzeti priloge';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Režim foruma: %s — ne može se mijenjati';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Dozvola omogu07ena putem "Moderatora"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Dozvola dodijeljena od strane grupe';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Prikaži na glavnoj stranici';

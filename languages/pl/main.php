@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum jest w trakcie konserwacji.';
 $lang['ADMIN_UNLOCK'] = 'Włącz forum';
 $lang['ADMIN_UNLOCKED'] = 'Odblokowany';
 $lang['ADMIN_UNLOCK_CRON'] = 'Zdjąć blokadę';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Strona nie została znaleziona';
 
 $lang['LOADING'] = 'Ładowanie...';
 $lang['JUMPBOX_TITLE'] = 'Wybierz forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nic się nie zmieniło';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Nasi użytkownicy wysłali tylko <b>%s</b> tematów.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Nasi użytkownicy wysłali tylko <b>%s</b> artykułów.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Nasi użytkownicy wysłali łącznie <b>%s</b> postów'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Mamy <b>%s</b> zarejestrowanych użytkowników.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Chłopcy: <b>%d</b>, Dziewczyny: <b>%d</b>, Inne: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Ostatni zarejestrowany użytkownik <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s mogą głosować w ankietach na
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s mogą tworzyć ankiety na tym forum.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s mogą załączać pliki.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s mogą pobierać załączniki.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Tryb forum: %s — nie można zmienić';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Uprawnienie włączone przez "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Uprawnienie nadane przez grupę';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Pokaż na stronie głównej.';

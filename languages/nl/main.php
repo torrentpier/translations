@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Het forum is uitgeschakeld voor onderhoud.'
 $lang['ADMIN_UNLOCK'] = 'Schakel forum in.';
 $lang['ADMIN_UNLOCKED'] = 'Ontgrendeld';
 $lang['ADMIN_UNLOCK_CRON'] = 'Verwijder blokkering';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Pagina niet gevonden';
 
 $lang['LOADING'] = 'Bezig met laden...';
 $lang['JUMPBOX_TITLE'] = 'Selecteer forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Niets is gewijzigd';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Onze gebruikers hebben <b>%s</b> onderwerpen geplaatst.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Onze gebruikers hebben <b>%s</b> artikelen geplaatst.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Onze gebruikers hebben in totaal <b>%s</b> berichten geplaatst'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'We hebben <b>%s</b> geregistreerde gebruikers'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Jongens: <b>%d</b>, Meisjes: <b>%d</b>, Anderen: <b>%d</b>';
 $lang['NEWEST_USER'] = 'De nieuwste geregistreerde gebruiker is <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s kan stemmen in polls in dit for
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s kan polls maken in dit forum.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s kan bijlagen plaatsen.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan bijlagen downloaden.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum modus: %s  92kan niet worden aangepast';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Toestemming ingeschakeld via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Toestemming toegekend door de groep';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Toon op de hoofdpagina.';

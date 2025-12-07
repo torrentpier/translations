@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum parvarishlash ostidadir';
 $lang['ADMIN_UNLOCK'] = 'forum yoqish';
 $lang['ADMIN_UNLOCKED'] = 'Qulfni olib tashlash.';
 $lang['ADMIN_UNLOCK_CRON'] = 'Qulfni olib tashlash';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Sahifa topilmadi';
 
 $lang['LOADING'] = 'Yuklanmoqda...';
 $lang['JUMPBOX_TITLE'] = 'tanlang forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Hech narsa o\'zgardi';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Bizning foydalanuvchilar jami <b>%s</b> mavzu e\'lon qildilar.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Bizning foydalanuvchilar jami <b>%s</b> maqola e\'lon qildilar.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Foydalanuvchilarimiz jami <b>%s</b> ta post yozdilar'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Bizda <b>%s</b> ro\'yxatdan o\'tgan foydalanuvchi bor.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Boys: <b>%d</b>, Qizlar: <b>%d</b>, Boshqalar: <b>%d</b>';
 $lang['NEWEST_USER'] = 'eng yangi ro\'yxatga olingan foydalanuvchi <b>%s</b>.'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s ushbu forumda so\'rovlarda ovoz
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s ushbu forumda so\'roqlarni yaratishi mumkin.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s qo\'shimchalarni post qilish imkoniyatiga ega.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s qo\'shimcha fayllarni yuklab olish imkoniyatiga ega.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum rejimi: %s — o\'zgartirib bo\'lmaydi';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Ruxsat "Moderator" tomonidan berilgan';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Ruxsat guruh tomonidan berilgan';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Bosh sahifada ko\'rsatish.';

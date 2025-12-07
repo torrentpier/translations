@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'フォーラムはメンテナンスのた�
 $lang['ADMIN_UNLOCK'] = 'フォーラムを有効にする';
 $lang['ADMIN_UNLOCKED'] = '解除';
 $lang['ADMIN_UNLOCK_CRON'] = 'ロック解除';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'ページが見つかりません';
 
 $lang['LOADING'] = '読み込み中...';
 $lang['JUMPBOX_TITLE'] = '選択フォーラム';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = '何も変わっていない';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'ユーザーが合計<b>%s</b>トピックを貼り付けました'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'ユーザーが合計<b>%s</b>の記事を投稿しました'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'ユーザーが合計<b>%s</b>件の投稿を作成しました'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = '私たちは<b>%s</b>登録ユーザーを持っています'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = '男子:<b>%d</b>、女子：<b>%d</b>その他：<b>%d</b>';
 $lang['NEWEST_USER'] = '最新の登録ユーザーは<b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%sはこのフォーラムの投�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%sはこのフォーラムで世論調査を作成できます';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%sは添付ファイルを投稿できます';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%sは添付ファイルをダウンロードできます';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'フォーラムモード: %s — 変更不可';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = '「モデレーター」によって権限が有効化されています';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'グループによって権限が付与されています';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'メインページに表示する';

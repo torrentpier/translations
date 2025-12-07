@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumet är nere för underhåll';
 $lang['ADMIN_UNLOCK'] = 'Aktivera forum';
 $lang['ADMIN_UNLOCKED'] = 'Olåst';
 $lang['ADMIN_UNLOCK_CRON'] = 'Ta bort lock';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Sidan kunde inte hittas';
 
 $lang['LOADING'] = 'Laddar...';
 $lang['JUMPBOX_TITLE'] = 'Välj forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Ingenting har ändrats';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Våra användare har skrivit totalt <b>%s</b> ämnen'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Våra användare har skrivit totalt <b>%s</b> artiklar'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Våra användare har publicerat totalt <b>%s</b> inlägg'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Vi har <b>%s</b> registrerade användare'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Pojkar: <b>%d</b>, Flickor: <b>%d</b>, Övriga: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Den senast registrerade användaren är <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s kan rösta i omröstningar i de
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s kan skapa omröstningar i detta forum.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s kan posta bifogade filer.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan ladda ner bilagor.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forumläge: %s — kan inte ändras';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Behörighet aktiverad via "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Behörighet beviljad av gruppen';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Visa på huvudsidan.';

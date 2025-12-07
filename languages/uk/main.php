@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форум відключений на те
 $lang['ADMIN_UNLOCK'] = 'Увімкнути форум';
 $lang['ADMIN_UNLOCKED'] = 'Розблоковано';
 $lang['ADMIN_UNLOCK_CRON'] = 'Зняти блокування';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Сторінку не знайдено';
 
 $lang['LOADING'] = 'Завантаження...';
 $lang['JUMPBOX_TITLE'] = 'Обрати форум';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Нічого не було змінено';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Користувачі створили тем: <b>%s</b>'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Користувачі залишили повідомлень: <b>%s</b>'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Наші користувачі опублікували загалом <b>%s</b> {{PLURAL:%s|повідомлення|повідомлення|повідомлень|повідомлень}}'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Усього зареєстрованих користувачів: <b>%s</b>'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Хлопців: <b>%d</b>, Дівчат: <b>%d</b>, Не вказали: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Останній зареєстрований користувач: <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s можуть голосуват
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s можуть створювати опитування';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s можуть додавати вкладення';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s можуть завантажувати вкладення';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Режим форуму: %s — не може бути змінено';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Дозвіл надано через "Модератор"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Дозвіл надано групою';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Показати на головній сторінці';

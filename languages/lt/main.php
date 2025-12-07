@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumas yra techninės priežiūros';
 $lang['ADMIN_UNLOCK'] = 'Įjungti forumą';
 $lang['ADMIN_UNLOCKED'] = 'Atrakinta';
 $lang['ADMIN_UNLOCK_CRON'] = 'Šalinti užraktą';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Puslapis nerastas';
 
 $lang['LOADING'] = 'Kraunasi...';
 $lang['JUMPBOX_TITLE'] = 'Pasirinkite forumą';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Nieko nebuvo pakeista';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Mūsų vartotojai iš viso paskelbė <b>%s</b> temų'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Mūsų vartotojai iš viso paskelbė <b>%s</b> straipsnių'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Mūsų vartotojai iš viso paskelbė <b>%s</b> pranešimą'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Mes turime registruotų vartotojų <b>%s</b>'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Berniukai: <b>%d</b>, Merginos: <b>%d</b>, Kita: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Naujausias registruotas vartotojas yra <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s gali balsuoti apklausose šiame
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s gali kurti apklausas šiuose forumuose.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s gali pridedėti.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s gali parsisiųsti priedus.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forumo režimas: %s — negali būti pakeistas';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Leidimas suteiktas per „Moderatorius“';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Leidimas suteiktas grupės';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Rodyti pagrindiniame puslapyje';

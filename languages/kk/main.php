@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Форум қызмет көрсету үш
 $lang['ADMIN_UNLOCK'] = 'Форумды қосу';
 $lang['ADMIN_UNLOCKED'] = 'Ашылды.';
 $lang['ADMIN_UNLOCK_CRON'] = 'Құлыпты босату.';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Бет табылмады';
 
 $lang['LOADING'] = 'Жүктелуде...';
 $lang['JUMPBOX_TITLE'] = 'форум таңдаңыз';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Ешнәрсе өзгерген жоқ';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Біздің пайдаланушылар <b>%s</b> тақырып жариялады.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Біздің пайдаланушылар <b>%s</b> мақала жариялады.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Біздің пайдаланушылар барлығы <b>%s</b> жазба жариялады'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Бізде <b>%s</b> тіркелген пайдаланушы бар.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Ұлдар: <b>%d</b>, Қыздар: <b>%d</b>, Басқа: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Соңғы тіркелген пайдаланушы болып табылады <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s осы форумға сауа�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s осы форумға сауалнамалар жасай аласыз';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s тіркемелерін орналастыра аласыз';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s тіркемелерді жүктеп алуға болады';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Форум режимі: %s — өзгертілмейді';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Рұқсат «Модератор» арқылы берілді';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Рұқсат топ арқылы берілді';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'басты бетте көрсету.';

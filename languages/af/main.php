@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum is af vir onderhoud';
 $lang['ADMIN_UNLOCK'] = 'Aktiveer forum';
 $lang['ADMIN_UNLOCKED'] = 'ontgrendel';
 $lang['ADMIN_UNLOCK_CRON'] = 'Verwyder slot';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Bladsy nie gevind nie';
 
 $lang['LOADING'] = 'Besig om te laai... ';
 $lang['JUMPBOX_TITLE'] = 'Kies forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Niks is verander nie';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Ons gebruikers het altesaam <b>%s</b> onderwerpe geplaas'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Ons gebruikers het altesaam <b>%s</b> poste geplaas'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Ons gebruikers het \'n totaal van <b>%s</b> plasings gepubliseer'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Ons het <b>%s</b> geregistreerde gebruikers'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Seuns: <b>%d</b>, Meisies: <b>%d</b>, Ander: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Die nuutste geregistreerde gebruiker is <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s kan in stembusse in hierdie for
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s kan meningspeilings in hierdie forum maak';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s kan aanhangsels plaas';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s kan aanhangsels aflaai';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum modus: %s — kan nie verander word nie';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Permissie geaktiveer deur "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Permissie toegewys deur die groep';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Wys op hoofblad';

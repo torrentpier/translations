@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Fórum karbantartás';
 $lang['ADMIN_UNLOCK'] = 'Engedélyezze a fórumot.';
 $lang['ADMIN_UNLOCKED'] = 'Feloldva';
 $lang['ADMIN_UNLOCK_CRON'] = 'Zár eltávolítása';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Az oldal nem található';
 
 $lang['LOADING'] = 'Betöltés...';
 $lang['JUMPBOX_TITLE'] = 'Fórum kiválasztása';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Semmi sem változott';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'A felhasználók összesen <b>%s</b> témát tettek közzé.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'A felhasználók összesen <b>%s</b> cikket tettek közzé.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Felhasználóink összesen <b>%s</b> bejegyzést tettek közzé'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Van <b>%s</b> regisztrált felhasználó.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Fiúk: <b>%d</b>, Lányok: <b>%d</b>, Mások: <b>%d</b>';
 $lang['NEWEST_USER'] = 'A legújabb regisztrált felhasználó <b>%s</b>'; // a href, username, /a
@@ -1756,6 +1756,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s lehet szavazni a szavazás ebbe
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s hozható létre közvélemény-kutatások ebben a fórumban';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s küldhetnek csatolmányokat';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s letölthető mellékletek';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Fórummód: %s — nem módosítható';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Engedély megadva: "Moderátor" által';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Engedély a csoporttól';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Show-fő oldal';

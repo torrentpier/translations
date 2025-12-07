@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'المنتدى للصيانة';
 $lang['ADMIN_UNLOCK'] = 'تمكين المنتدى';
 $lang['ADMIN_UNLOCKED'] = 'تم إلغاء قفل';
 $lang['ADMIN_UNLOCK_CRON'] = 'إزالة قفل';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'الصفحة غير موجودة';
 
 $lang['LOADING'] = 'تحميل...';
 $lang['JUMPBOX_TITLE'] = 'حدد المنتدى';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'لا شيء قد تغير';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'نحن لدينا ما مجموعه <b>%s</b> مواضيع.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'نحن لازلنا لدينا ما مجموعه <b>%s</b> مواد.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'لقد نشر مستخدمونا <b>%s</b> مشاركة'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'نحن لدينا <b>%s</b> مستخدمين مسجلين.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'الأولاد: <b>%d</b>، البنات: <b>%d</b>، الآخرون: <b>%d</b>.';
 $lang['NEWEST_USER'] = 'أحدث مستخدم مسجل هو <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = 'يمكن لـ %s التصويت ف
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s يمكن إنشاء استطلاعات الرأي في هذا المنتدى';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s يمكن إضافة مرفقات';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s يمكن تحميل المرفقات';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'وضع المنتدى: %s — لا يمكن تغييره';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'الإذن مفعل عبر "المشرف"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'الإذن ممنوح بواسطة المجموعة';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'تظهر على الصفحة الرئيسية';

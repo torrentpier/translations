@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum texniki xidmətdədir.';
 $lang['ADMIN_UNLOCK'] = 'Forum aktiv et';
 $lang['ADMIN_UNLOCKED'] = 'Açılmışdır';
 $lang['ADMIN_UNLOCK_CRON'] = 'Kilidi çıxar';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Səhifə tapılmadı';
 
 $lang['LOADING'] = 'Yükləmə...';
 $lang['JUMPBOX_TITLE'] = 'Seçin forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Heç nə dəyişməyib';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Bizim istifadəçilər <b>%s</b> mövzular göndərdilər.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Bizim istifadəçilər göndərdik bütün <b>%s</b> məqalələr'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'İstifadəçilərimiz ümumilikdə <b>%s</b> göndəriş yerləşdirib'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Biz <b>%s</b> qeydiyyatdan keçmiş istifadəçilər'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Oğlan: <b>%d</b>, Qızlar: <b>%d</b>, Digər: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Son qeydiyyatlı istifadəçi <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s bu forumda sorğularda səs ver
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s bu forumda sorğular yarada bilər.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s faylları yerləşdirə bilər.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s faylları yükləyə bilər.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Forum rejimi: %s — dəyişdirilə bilməz';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'İcazə "Moderator" vasitəsilə verilib';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'İcazə qrup tərəfindən verilmişdir';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Ana səhifədə göstər.';

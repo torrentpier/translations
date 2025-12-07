@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forumi është poshtë për mirëmbajtjen';
 $lang['ADMIN_UNLOCK'] = 'Të aktivizuara forumi';
 $lang['ADMIN_UNLOCKED'] = 'E hapur';
 $lang['ADMIN_UNLOCK_CRON'] = 'Të hequr bllokimin';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Faqja nuk u gjet';
 
 $lang['LOADING'] = 'Ngarkimi...';
 $lang['JUMPBOX_TITLE'] = 'Zgjidhni forumi';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Asgjë nuk ka ndryshuar';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Përdoruesit tanë kanë postuar gjithsej <b>%s</b> tema'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Përdoruesit tanë kanë postuar gjithsej <b>%s</b> artikuj'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Përdoruesit tanë kanë postuar gjithsej <b>%s</b> postime'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Kemi <b>%s</b> përdorues të regjistruar'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Djemtë: <b>%d</b>, Vajzat: <b>%d</b>, Të Tjerët: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Përdoruesi më i ri i regjistruar është <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s mund të votojnë në sondazhe 
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s mund të krijojnë sondazhe në këtë forum';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s mund të postoni bashkëngjitje';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s mund të shkarkoni bashkëngjitje.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Režimi i forumit: %s — nuk mund të ndryshohet';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Leja është aktivizuar përmes "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Leja është dhënë nga grupi';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Të tregoni në faqen kryesore';

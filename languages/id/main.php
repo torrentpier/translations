@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Forum sedang dalam pemeliharaan';
 $lang['ADMIN_UNLOCK'] = 'Mengaktifkan forum';
 $lang['ADMIN_UNLOCKED'] = 'Dibuka';
 $lang['ADMIN_UNLOCK_CRON'] = 'Menghapus kunci';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Halaman tidak ditemukan';
 
 $lang['LOADING'] = 'Memuat...';
 $lang['JUMPBOX_TITLE'] = 'Pilih forum';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Tidak ada yang telah berubah';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Pengguna kami telah memposting total <b>%s</b> topik'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Pengguna kami telah memposting total artikel <b>%s</b> yang diterbitkan'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Pengguna kami telah memposting total <b>%s</b> posting'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Kami telah <b>%s</b> pengguna terdaftar'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Anak Laki-Laki: <b>%d</b>, Gadis-Gadis: <b>%d</b>, Lain-Lain: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Pengguna terdaftar terbaru adalah <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s dapat memberikan suara dalam ja
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s dapat membuat polling di forum ini';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s dapat mengirim lampiran';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s dapat men-download lampiran';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Mode forum: %s — tidak dapat diubah';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Izin diaktifkan melalui "Moderator"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Izin diberikan oleh grup';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Tampilkan pada halaman utama';

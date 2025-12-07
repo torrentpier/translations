@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Το φόρουμ είναι εκτός λ�
 $lang['ADMIN_UNLOCK'] = 'Ενεργοποίηση φόρουμ.';
 $lang['ADMIN_UNLOCKED'] = 'Ξεκλείδωτο';
 $lang['ADMIN_UNLOCK_CRON'] = 'Αφαιρέστε το κλείδωμα.';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Η σελίδα δεν βρέθηκε';
 
 $lang['LOADING'] = 'Κατάργηση κλειδώματος';
 $lang['JUMPBOX_TITLE'] = 'Επιλέξτε φόρουμ';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Τίποτα δεν έχει αλλάξει';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Οι χρήστες μας έχουν δημοσιεύσει συνολικά <b>%s</b> θέματα'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Οι χρήστες μας έχουν δημοσιεύσει συνολικά <b>%s</b> άρθρα'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Οι χρήστες μας έχουν δημοσιεύσει συνολικά <b>%s</b> μηνύματα'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Έχουμε <b>%s</b> εγγεγραμμένους χρήστες'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Αγόρια: <b>%d</b>, Κορίτσια: <b>%d</b>, Άλλα: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Ο νεότερος εγγεγραμμένος χρήστης είναι <b>%s</b>.'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s μπορεί να ψηφίσε�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s μπορεί να δημιουργήσει δημοσκοπήσεις σε αυτό το φόρουμ.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s μπορεί να δημοσιεύσει συνημμένα αρχεία.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s μπορεί να κατεβάσει τα συνημμένα.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Λειτουργία φόρουμ: %s — δεν μπορεί να αλλάξει';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Άδεια ενεργοποιημένη μέσω "Διαχειριστή"';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Άδεια που παρέχεται από την ομάδα';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Εμφάνιση στην κεντρική σελίδα.';

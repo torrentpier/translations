@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'Համաժողովը փակվել է տեխ
 $lang['ADMIN_UNLOCK'] = 'Միացնել համաժողովը';
 $lang['ADMIN_UNLOCKED'] = 'Վերաբացված';
 $lang['ADMIN_UNLOCK_CRON'] = 'Հանել արգելափակումը';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'Էջը չի գտնվել';
 
 $lang['LOADING'] = 'Լիցքավորում:';
 $lang['JUMPBOX_TITLE'] = 'Ընտրեք համաժողովը';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'Ոչինչ չի փոխվել';
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'Մեր օգտվողները ուղարկել ընդամենը <b>%s</b> թեմաներ'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'Մեր օգտվողները ուղարկել ընդամենը <b>%s</b> հոդվածներ'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'Մեր օգտվողները հավաքել են ընդհանուր <b>%s</b> գրառումներ'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'Մենք <b>%s</b> գրանցված օգտվողներ ենք'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'Տղա: <b>%d</b>, Աղջիկներ: <b>%d</b>, Այլ: <b>%d</b>';
 $lang['NEWEST_USER'] = 'Վերջին գրանցված <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s կարող եք քվեարկե�
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s կարող եք ստեղծել հարցումներ այս համաժողովին.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s կարող եք կապվել հավելվածները.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s կարող է ներբեռնել հավելվածները.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'Ֆորումի ռեժիմը՝ %s — փոփոխել հնարավոր չէ';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'Թույլտվությունը ստացվել է «Մոդերատոր»-ի կողմից';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'Թույլտվությունը տրվել է խմբի կողմից';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'Ցույց տալ գլխավոր էջում.';

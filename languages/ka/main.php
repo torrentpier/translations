@@ -102,7 +102,7 @@ $lang['ADMIN_DISABLE_CRON_TITLE'] = 'ფორუმი შენარჩუნ
 $lang['ADMIN_UNLOCK'] = 'ფორუმის გაწვდვა.';
 $lang['ADMIN_UNLOCKED'] = 'გახსნილია';
 $lang['ADMIN_UNLOCK_CRON'] = 'ამოიღეთ lock.';
-$lang['PAGE_NOT_FOUND'] = 'Page not found';
+$lang['PAGE_NOT_FOUND'] = 'გვერდი არ მოიძებნა';
 
 $lang['LOADING'] = 'იტვირთება...';
 $lang['JUMPBOX_TITLE'] = 'აირჩიეთ ფორუმი';
@@ -142,7 +142,7 @@ $lang['NOTHING_HAS_CHANGED'] = 'არაფერი შეცვლილა.'
 
 // Stats block text
 $lang['POSTED_TOPICS_TOTAL'] = 'ჩვენი წევრებს გაწვდილი სულ <b>%s</b> თემები.'; // Number of topics
-$lang['POSTED_ARTICLES_TOTAL'] = 'ჩვენი წევრებს გაწვდილი სულ <b>%s</b> სტატიები.'; // Number of posts
+$lang['POSTED_POSTS_TOTAL'] = 'ჩვენი მომხმარებლები გამოქვეყნებული აქვს ჯამში <b>%s</b> პოსტი'; // Number of posts
 $lang['REGISTERED_USERS_TOTAL'] = 'ჩვენ გვაქვს <b>%s</b> დარეგისტრირებული მომხმარებლები.'; // # registered users
 $lang['USERS_TOTAL_GENDER'] = 'ბიჭები: <b>%d</b>, გოგონები: <b>%d</b>, სხვები: <b>%d</b>';
 $lang['NEWEST_USER'] = 'უახლესი დარეგისტრირებული მომხმარებელი არის <b>%s</b>'; // a href, username, /a
@@ -1755,6 +1755,11 @@ $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_VOTE'] = '%s შეგიძლიათ ხ
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_POLLCREATE'] = '%s შეგიძლიათ გამოკითხვების შექმნა ამ ფორუმში';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_ATTACHMENTS'] = '%s შეუძლია მოამზადოს მიმაგრებები.';
 $lang['FORUM_AUTH_LIST_EXPLAIN_AUTH_DOWNLOAD'] = '%s შეიძლება ჩამოტვირთოთ attachments.';
+
+// Tooltips for disabled permissions
+$lang['AUTH_TOOLTIP_FORUM_MODE'] = 'ფორუმის რეჟიმი: %s — შეცვლა შეუძლებელია';
+$lang['AUTH_TOOLTIP_MOD_OVERRIDE'] = 'უფლება "მოდერატორის" მიერ არის ჩართული';
+$lang['AUTH_TOOLTIP_GROUP_HAS'] = 'უფლება ჯგუფის მიერ არის მინიჭებული';
 
 // Misc
 $lang['SF_SHOW_ON_INDEX'] = 'მთავარი გვერდზე შექვეყნება.';
