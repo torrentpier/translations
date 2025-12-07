@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'ปิดการใช้งานกระด�
 $lang['RUN_COUNTER'] = 'เรียกใช้เคาน์เตอร์';
 
 $lang['JOB_REMOVED'] = 'งานถูกลบออกเรียบร้อยแล้ว';
-$lang['SCRIPT_DUPLICATE'] = 'สคริปต์ <b>' . @$_POST['cron_script'] . '</b> อยู่ก่อนแล้ว!';
-$lang['TITLE_DUPLICATE'] = 'ชื่อทาสก์ <b>' . @$_POST['cron_title'] . '</b> อยู่ก่อนแล้ว!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sกลับไปยังการเพิ่มงาน%s';
 $lang['CLICK_RETURN_JOBS'] = '%sกลับไปที่ตัวจัดกำหนดเวลา%s';
 
