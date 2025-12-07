@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Nonaktifkan papan saat pekerjaan ini dijalankan';
 $lang['RUN_COUNTER'] = 'Menjalankan counter';
 
 $lang['JOB_REMOVED'] = 'Pekerjaan telah dihapus dengan sukses';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> sudah ada!';
-$lang['TITLE_DUPLICATE'] = 'Nama Tugas <b>' . @$_POST['cron_title'] . '</b> sudah ada!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sKembali untuk menambahkan pekerjaan%s';
 $lang['CLICK_RETURN_JOBS'] = '%sKembali ke Penjadwal Tugas%s';
 
