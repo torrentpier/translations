@@ -1914,8 +1914,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'bu iş çalışmaya başladığında forum devre 
 $lang['RUN_COUNTER'] = 'Sayacı çalıştırmak';
 
 $lang['JOB_REMOVED'] = 'İş başarıyla kaldırıldı';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> zaten var!';
-$lang['TITLE_DUPLICATE'] = 'Görev Adı <b>' . @$_POST['cron_title'] . '</b> zaten var!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sİş eklemeye geri dön%s';
 $lang['CLICK_RETURN_JOBS'] = '%sGörev Zamanlayıcıya geri dön%s';
 
