@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktiver styret når denne jobben kjøres';
 $lang['RUN_COUNTER'] = 'Kjøring';
 
 $lang['JOB_REMOVED'] = 'Jobben har blitt fjernet.';
-$lang['SCRIPT_DUPLICATE'] = 'Skriptet <b>' . @$_POST['cron_script'] . '</b> eksisterer allerede!';
-$lang['TITLE_DUPLICATE'] = 'Oppgavenavnet <b>' . @$_POST['cron_title'] . '</b> eksisterer allerede!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sGå tilbake for å legge til jobb%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTilbake til Oppgavestyreren%s';
 
