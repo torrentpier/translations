@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = '當這項工作運行時禁止論壇';
 $lang['RUN_COUNTER'] = '計數器';
 
 $lang['JOB_REMOVED'] = '該任務已成功移除';
-$lang['SCRIPT_DUPLICATE'] = '脚本<b>' . @$_POST['cron_script'] . '</b>已经存在了。';
-$lang['TITLE_DUPLICATE'] = '任务名称<b>' . @$_POST['cron_title'] . '</b>已经存在了。';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s返回添加任務%s';
 $lang['CLICK_RETURN_JOBS'] = '%s返回任務計畫%s';
 
