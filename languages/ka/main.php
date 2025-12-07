@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'დამუშავების დროს �
 $lang['RUN_COUNTER'] = 'გამორთოთ gezek-counter';
 
 $lang['JOB_REMOVED'] = 'სამუშაო წარმატებით ამოიღეს';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> უკვე არსებობს!';
-$lang['TITLE_DUPLICATE'] = 'ამოცანის დასახელება <b> ' . @$_POST['cron_title'] . '</b> უკვე არსებობს!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s დაბრუნება სავალდებულოა%s';
 $lang['CLICK_RETURN_JOBS'] = '%s საჩივარი სამუშაო განრიგზე%s';
 
