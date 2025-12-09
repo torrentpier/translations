@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = '調査のタイトル。';
 $lang['NEW_POLL_M_VOTES'] = 'オプション';
 $lang['NEW_POLL_M_EXPLAIN'] = '各行は1つの回答に対応しています（最長';
 
-$lang['OLD_BROWSER'] = '古いブラウザを使用しています。ウェブサイトは正しく表示されません。';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'ファイルアップロードが無効です';
 $lang['UPLOAD_ERROR_COMMON'] = 'ファイルのアップロードエラー';
 $lang['UPLOAD_ERROR_SIZE'] = 'アップロードされたファイルは最大サイズ %s を超えています。';
