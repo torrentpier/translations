@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Judul jajak pendapat';
 $lang['NEW_POLL_M_VOTES'] = 'Pilihan';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Setiap baris sesuai satu jawaban (max';
 
-$lang['OLD_BROWSER'] = 'Anda menggunakan browser usang. Website tidak akan ditampilkan dengan benar.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Upload file dinonaktifkan';
 $lang['UPLOAD_ERROR_COMMON'] = 'Kesalahan unggah file';
 $lang['UPLOAD_ERROR_SIZE'] = 'Upload file yang melebihi ukuran maksimum %s';
