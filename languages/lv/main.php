@@ -2261,8 +2261,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Aptaujas nosaukums';
 $lang['NEW_POLL_M_VOTES'] = 'Iespējas';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Katra rinda atbilst vienai atbildei (maks.)';
 
-$lang['OLD_BROWSER'] = 'Jūs izmantojat novecojušu pārlūku. Mājas lapā netiks rādīta pareizi.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Failu augšupielāde ir atspējota';
 $lang['UPLOAD_ERROR_COMMON'] = 'Failu augšupielādes kļūda';
 $lang['UPLOAD_ERROR_SIZE'] = 'Augšupielādēto failu pārsniedz maksimālo lielumu %s';
