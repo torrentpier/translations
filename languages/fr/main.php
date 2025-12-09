@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titre du sondage';
 $lang['NEW_POLL_M_VOTES'] = 'Options';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Chaque ligne correspond à une réponse (max.';
 
-$lang['OLD_BROWSER'] = 'Vous utilisez un navigateur obsolète. Le site ne s\'affichera pas correctement.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Téléchargement de fichier désactivé';
 $lang['UPLOAD_ERROR_COMMON'] = 'Erreur de téléchargement de fichier';
 $lang['UPLOAD_ERROR_SIZE'] = 'Le fichier téléchargé dépasse la taille maximale de %s';
