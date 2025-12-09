@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Tittel på meningsmålingen.';
 $lang['NEW_POLL_M_VOTES'] = 'Valg';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Hver rad tilsvarer ett svar (maks.';
 
-$lang['OLD_BROWSER'] = 'Du bruker en utdatert nettleser. Nettstedet vil ikke vises på riktig måte.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filopplasting deaktivert';
 $lang['UPLOAD_ERROR_COMMON'] = 'Feil ved opplasting av fil.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Den opplastede filen overskrider den maksimale størrelsen på %s';
