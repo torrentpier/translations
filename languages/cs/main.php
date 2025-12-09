@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Název ankety';
 $lang['NEW_POLL_M_VOTES'] = 'Možnosti';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Každý řádek odpovídá jedné odpovědi (max.';
 
-$lang['OLD_BROWSER'] = 'Používáte zastaralý prohlížeč. Na webové stránky se nebudou zobrazovat správně.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Nahrávání souborů zakázáno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Nahrání souboru se nezdařilo.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Nahraný soubor přesahuje maximální velikost %s';
