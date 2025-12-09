@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Nazwa ankiety';
 $lang['NEW_POLL_M_VOTES'] = 'Opcje';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Każdy wiersz odpowiada jednej odpowiedzi (Max.';
 
-$lang['OLD_BROWSER'] = 'Używasz przestarzałej przeglądarki. Strona nie będzie poprawnie wyświetlana.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Przesyłanie plików wyłączone';
 $lang['UPLOAD_ERROR_COMMON'] = 'Błąd przesyłania pliku.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Pobrany plik przekracza maksymalny rozmiar %s';
