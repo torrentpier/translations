@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'הכותרת של הסקר';
 $lang['NEW_POLL_M_VOTES'] = 'אפשרויות';
 $lang['NEW_POLL_M_EXPLAIN'] = 'כל שורה מתאימה לתשובה אחת (מקס.';
 
-$lang['OLD_BROWSER'] = 'אתה משתמש בדפדפן מיושן. האתר לא יוצג כהלכה.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'העלאת קובץ כבויה';
 $lang['UPLOAD_ERROR_COMMON'] = 'העלאת קובץ שגיאה';
 $lang['UPLOAD_ERROR_SIZE'] = 'הקובץ שהועלה עולה על הגודל המרבי של %s';
