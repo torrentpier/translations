@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Հարցման վերնագիրը.';
 $lang['NEW_POLL_M_VOTES'] = 'Ընտրանքներ.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Յուրաքանչյուր տող համապատասխան մեկ պատասխանին (max.';
 
-$lang['OLD_BROWSER'] = 'Դուք օգտագործում եք հին բրաուզեր. Կայքը չի ցուցադրվի ճիշտ.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Ֆայլի բեռնավարձը անջատված է';
 $lang['UPLOAD_ERROR_COMMON'] = 'Ֆայլի բեռնումը սխալ է.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Բեռնված ֆայլը գերազանցում է առավելագույն չափը %s.';
