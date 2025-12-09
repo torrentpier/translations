@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titel på omröstning.';
 $lang['NEW_POLL_M_VOTES'] = 'Alternativ';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Varje rad motsvarar ett svar (max';
 
-$lang['OLD_BROWSER'] = 'Du använder en för gammal webbläsare. Webbplatsen kommer inte att visas korrekt.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filuppladdning inaktiverad';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fel vid filuppladdning';
 $lang['UPLOAD_ERROR_SIZE'] = 'Den uppladdade filen överskrider den maximala storleken av %s';
