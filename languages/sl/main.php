@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Naslov ankete.';
 $lang['NEW_POLL_M_VOTES'] = 'Možnosti.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Vsaka vrstica ustreza en odgovor (maks.';
 
-$lang['OLD_BROWSER'] = 'Uporabljate zastareli brskalnik. Spletna stran ne bo pravilno prikazana.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Nalaganje datotek je onemogočeno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Napaka pri nalaganju datotek.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Naložena datoteka presega največjo velikost %s.';
