@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Kyselyn otsikko.';
 $lang['NEW_POLL_M_VOTES'] = 'Vaihtoehtoja';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Jokainen rivi vastaa yhtä vastausta (max. ';
 
-$lang['OLD_BROWSER'] = 'Käytät vanhentunutta selainta. Sivusto ei näy oikein.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Tiedostojen lataaminen on pois käytöstä';
 $lang['UPLOAD_ERROR_COMMON'] = 'Tiedoston siirto palvelimeen epäonnistui.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Lähetetyn tiedoston koko ylittää enimmäiskoon %s';
