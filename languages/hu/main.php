@@ -2257,8 +2257,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Szavazás címe.';
 $lang['NEW_POLL_M_VOTES'] = 'Lehetőségek';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Minden sor egy válaszra vonatkozik (max.';
 
-$lang['OLD_BROWSER'] = 'Ön egy elavult böngészőt használ. A honlap nem jelenik meg megfelelően.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Fájl feltöltés letiltva';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fájl feltöltési hiba.';
 $lang['UPLOAD_ERROR_SIZE'] = 'A feltöltött fájl mérete meghaladja a maximális méret %s.';
