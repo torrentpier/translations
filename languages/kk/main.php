@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Сауалнама атауы.';
 $lang['NEW_POLL_M_VOTES'] = 'Опциялар.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Әрбір жол бір жауап.';
 
-$lang['OLD_BROWSER'] = 'Сіз ескірген браузерді пайдаланасыз. Веб-сайт дұрыс көрсетілмейді.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Файл жүктеп алу өшірілді';
 $lang['UPLOAD_ERROR_COMMON'] = 'Файл қотару қатесі';
 $lang['UPLOAD_ERROR_SIZE'] = 'Жүктелген файл %s максималды өлшемнен асып кетті.';
