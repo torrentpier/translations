@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titel van die peiling';
 $lang['NEW_POLL_M_VOTES'] = 'Opsies';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Elke ry moet ooreenstem met een antwoord (maks.';
 
-$lang['OLD_BROWSER'] = 'U gebruik \'n verouderde blaaier. Die webwerf sal nie korrek vertoon word nie.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Lêeroplaai gedeaktiveer';
 $lang['UPLOAD_ERROR_COMMON'] = 'Lêeroplaaifout';
 $lang['UPLOAD_ERROR_SIZE'] = 'Die opgelaaide lêer oorskry die maksimum grootte van %s';
