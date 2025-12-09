@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Sorğunun adı.';
 $lang['NEW_POLL_M_VOTES'] = 'Seçimlər.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Hər sıra bir cavaba uyğun gəlir (max.';
 
-$lang['OLD_BROWSER'] = 'İstifadə etdiyiniz köhnəlmiş brauzer. Veb sayt düzgün görünmür.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Fayl yüklənməsi deaktivdir';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fayl yükləmə səhvi.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Yüklədiyiniz fayl maksimum ölçünü %s aşır.';
