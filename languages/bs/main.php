@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Naslov ankete.';
 $lang['NEW_POLL_M_VOTES'] = 'Opcije.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Svaki red odgovara jednom odgovoru (max.';
 
-$lang['OLD_BROWSER'] = 'Koristite zastarjelu preglednik. Web stranica se neće ispravno prikazati.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Učitavanje datoteka onemogućeno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Greška prilikom učitavanja datoteke.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Prenesena datoteka premašuje maksimalnu veličinu od %s.';
