@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = '投票標題';
 $lang['NEW_POLL_M_VOTES'] = '选项';
 $lang['NEW_POLL_M_EXPLAIN'] = '每行對應一個答案（最大像素';
 
-$lang['OLD_BROWSER'] = '您使用的是过时的浏览器。 该网站将不会显示正确的。';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = '文件上傳已禁用';
 $lang['UPLOAD_ERROR_COMMON'] = '文件上传错误';
 $lang['UPLOAD_ERROR_SIZE'] = '上傳的文件超過最大尺寸 %s';
