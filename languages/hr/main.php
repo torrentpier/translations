@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Naziv ankete.';
 $lang['NEW_POLL_M_VOTES'] = 'Mogućnosti.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Svaki redak odgovara jednom odgovoru (maks. ';
 
-$lang['OLD_BROWSER'] = 'Koristite zastarjeli preglednik. Web stranice se neće ispravno prikazivati.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Prenos datoteka onemogućen';
 $lang['UPLOAD_ERROR_COMMON'] = 'Pogreška pri prijenosu datoteke';
 $lang['UPLOAD_ERROR_SIZE'] = 'Prenesena datoteka premašuje maksimalnu veličinu %s';
