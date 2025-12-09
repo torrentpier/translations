@@ -2257,8 +2257,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Anket başlığı.';
 $lang['NEW_POLL_M_VOTES'] = 'Seçenekleri';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Her satır bir yanıta karşılık gelir (maksimum.';
 
-$lang['OLD_BROWSER'] = 'Eski bir tarayıcı kullanıyorsunuz. Web sitesi düzgün görüntülenmez.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Dosya yükleme devre dışı bırakıldı';
 $lang['UPLOAD_ERROR_COMMON'] = 'Yükleme hatası.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Yüklenen dosya %s en büyük boyutunu aşıyor.';
