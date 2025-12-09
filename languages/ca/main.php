@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Títol de l\'enquesta';
 $lang['NEW_POLL_M_VOTES'] = 'Opcions';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Cada fila correspon a una resposta (màx';
 
-$lang['OLD_BROWSER'] = 'Esteu utilitzant un navegador obsolet. La pàgina web no es mostrarà correctament.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'La pujada de fitxers està desactivada';
 $lang['UPLOAD_ERROR_COMMON'] = 'S\'ha produït un error en penjar el fitxer.';
 $lang['UPLOAD_ERROR_SIZE'] = 'El fitxer penjat supera la mida màxima de %s';
