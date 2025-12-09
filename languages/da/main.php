@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titel meningsmåling.';
 $lang['NEW_POLL_M_VOTES'] = 'Muligheder.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Hver række svarer til et svar (max.';
 
-$lang['OLD_BROWSER'] = 'Du bruger en forældet browser. Hjemmesiden vil ikke blive vist korrekt.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filupload er deaktiveret';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fil upload fejl.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Den uploadede fil overstiger den maksimale størrelse af %s';
