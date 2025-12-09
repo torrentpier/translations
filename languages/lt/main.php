@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Apklausos pavadinimas';
 $lang['NEW_POLL_M_VOTES'] = 'Pasirinkimai';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Kiekviena eilutė atitinka vieną atsakymą (maks.';
 
-$lang['OLD_BROWSER'] = 'Jūs naudojate pasenusią naršyklę. Svetainė gali būti rodoma neteisingai.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Failo įkėlimas išjungtas';
 $lang['UPLOAD_ERROR_COMMON'] = 'Failo įkėlimo klaida';
 $lang['UPLOAD_ERROR_SIZE'] = 'Įkelto failo dydis viršija maksimalų %s.';
