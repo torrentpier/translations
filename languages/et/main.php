@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Pealkiri küsitlus.';
 $lang['NEW_POLL_M_VOTES'] = 'Valikud';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Iga rida vastab ühele vastus (max.';
 
-$lang['OLD_BROWSER'] = 'Teie kasutate aegunud brauserit. Veebisait ei kuvata õigesti.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Failide üleslaadimine keelatud';
 $lang['UPLOAD_ERROR_COMMON'] = 'Faili üleslaadimise viga';
 $lang['UPLOAD_ERROR_SIZE'] = 'Üleslaaditud fail ületab maksimaalse suuruse %s';
