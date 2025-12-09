@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Título da enquete';
 $lang['NEW_POLL_M_VOTES'] = 'Opções';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Cada linha corresponde a uma resposta (máx.';
 
-$lang['OLD_BROWSER'] = 'Você está usando um navegador desatualizado. O site não será exibido corretamente.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Upload de arquivo desativado';
 $lang['UPLOAD_ERROR_COMMON'] = 'Erro no upload do arquivo.';
 $lang['UPLOAD_ERROR_SIZE'] = 'O upload do arquivo excede o tamanho máximo de %s';
