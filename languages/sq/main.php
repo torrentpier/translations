@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titulli i sondazhit';
 $lang['NEW_POLL_M_VOTES'] = 'Opsionet';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Çdo rresht korrespondon me një përgjigje (max';
 
-$lang['OLD_BROWSER'] = 'Po përdorni një shfletues të vjetër. Faqja e internetit nuk do të shfaqet siç duhet.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Ngarkimi i skedarëve është i çaktivizuar';
 $lang['UPLOAD_ERROR_COMMON'] = 'Gabim gjatë ngarkimit të skedarit';
 $lang['UPLOAD_ERROR_SIZE'] = 'Skedari i ngarkuar kalon madhësinë maksimale prej %s';
