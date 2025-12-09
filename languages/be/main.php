@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Назва апытання';
 $lang['NEW_POLL_M_VOTES'] = 'Варыянты';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Кожнай радку адпавядае адзін адказ (Макс.';
 
-$lang['OLD_BROWSER'] = 'Вы выкарыстоўваеце састарэлы браўзэр. Сайт не будзе карэктна адлюстроўвацца.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Загрузка файла выключана';
 $lang['UPLOAD_ERROR_COMMON'] = 'Памылка загрузкі файла';
 $lang['UPLOAD_ERROR_SIZE'] = 'Загружаны файл перавышае максімальны памер %s';
