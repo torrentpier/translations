@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'عنوان الاستطلاع';
 $lang['NEW_POLL_M_VOTES'] = 'خيارات';
 $lang['NEW_POLL_M_EXPLAIN'] = 'كل صف يمثل إجابة واحدة (أقصى حد';
 
-$lang['OLD_BROWSER'] = 'أنت تستخدم متصفحاً قديماً. لن يتم عرض الموقع بشكل صحيح.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'تعطيل تحميل الملفات';
 $lang['UPLOAD_ERROR_COMMON'] = 'خطأ في تحميل الملف';
 $lang['UPLOAD_ERROR_SIZE'] = 'الملف الذي تم تحميله يتجاوز الحد الأقصى لحجم %s';
