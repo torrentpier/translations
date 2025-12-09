@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Tiêu đề của cuộc thăm dò';
 $lang['NEW_POLL_M_VOTES'] = 'Lựa chọn';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Mỗi hàng tương ứng với một câu trả lời (tối đa';
 
-$lang['OLD_BROWSER'] = 'Bạn đang sử dụng một trình duyệt lỗi thời. Website sẽ không hiện thị chính xác';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Lỗi tải tệp bị vô hiệu hóa';
 $lang['UPLOAD_ERROR_COMMON'] = 'Lỗi tải tập tin';
 $lang['UPLOAD_ERROR_SIZE'] = 'Tệp đã tải lên vượt quá kích thước tối đa của %s';
