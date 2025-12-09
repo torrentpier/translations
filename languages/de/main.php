@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titel der Umfrage';
 $lang['NEW_POLL_M_VOTES'] = 'Optionen';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Jede Zeile entspricht einer Antwort (max.';
 
-$lang['OLD_BROWSER'] = 'Sie verwenden einen veralteten Browser. Die Website wird nicht richtig angezeigt.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Datei-Upload deaktiviert';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fehler beim Hochladen der Datei.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Die hochgeladene Datei überschreitet die maximale Größe von %s';
