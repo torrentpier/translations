@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titlul sondajului.';
 $lang['NEW_POLL_M_VOTES'] = 'Opțiuni';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Fiecare rând corespunde unui răspuns (max.';
 
-$lang['OLD_BROWSER'] = 'Utilizați un browser învechit. Site-ul nu va fi afișat corect.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Încărcarea fișierului este dezactivată';
 $lang['UPLOAD_ERROR_COMMON'] = 'Eroare de încărcare a fișierului.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Fișierul încărcat depășește dimensiunea maximă de %s.';
