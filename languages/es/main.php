@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Título de la encuesta.';
 $lang['NEW_POLL_M_VOTES'] = 'Opciones.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Cada fila corresponde a una respuesta (máx.';
 
-$lang['OLD_BROWSER'] = 'Estás usando un navegador obsoleto. El sitio web no se mostrará correctamente.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Carga de archivos deshabilitada';
 $lang['UPLOAD_ERROR_COMMON'] = 'Error de carga de archivos.';
 $lang['UPLOAD_ERROR_SIZE'] = 'El archivo subido excede el tamaño máximo de %s.';
