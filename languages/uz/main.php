@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'so\'rov nomi';
 $lang['NEW_POLL_M_VOTES'] = 'Tanlovlar';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Har bir satr bir javobga mos keladi (maksimal';
 
-$lang['OLD_BROWSER'] = 'Siz eski brauzerdan foydalanmoqdasiz. Veb-sayt to\'g\'ri ko\'rsatilmaydi.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Fayl yuklash o\'chirilgan';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fayl yuklash xatosi';
 $lang['UPLOAD_ERROR_SIZE'] = 'Yuklanayotgan fayl %s maksimal hajmidan oshib ketdi.';
