@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Сарлавҳа аз пурсиш.';
 $lang['NEW_POLL_M_VOTES'] = 'Имконот';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Ҳар як сатр мувофиқ ба як ҷавоб мебошад (макс.';
 
-$lang['OLD_BROWSER'] = 'Шумо бо истифода аз браузери кӯҳна. Дар сомона дуруст нишон намедиҳанд.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Ҳаитоб кардани файл хомӯш карда шуд';
 $lang['UPLOAD_ERROR_COMMON'] = 'Хатои боргирӣ файл.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Файли боркардашуда аз ҳад зиёд андозаи ниҳоии %s.';
