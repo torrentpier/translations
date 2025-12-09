@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Title of poll.';
 $lang['NEW_POLL_M_VOTES'] = 'Options.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Each row corresponds to one answer (max.';
 
-$lang['OLD_BROWSER'] = 'U gebruikt een verouderde browser. De website wordt niet goed weergegeven.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Bestand uploaden is uitgeschakeld';
 $lang['UPLOAD_ERROR_COMMON'] = 'File upload error.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Het geüploade bestand is groter dan de maximale grootte van %s';
