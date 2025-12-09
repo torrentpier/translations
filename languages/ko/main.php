@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = '투표 제목.';
 $lang['NEW_POLL_M_VOTES'] = '옵션';
 $lang['NEW_POLL_M_EXPLAIN'] = '각 행은 하나의 답변에 해당합니다.';
 
-$lang['OLD_BROWSER'] = '당신이 사용하는 오래된 브라우저입니다. 웹사이트는 제대로 표시되지 않습니다.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = '파일 업로드가 비활성화되었습니다';
 $lang['UPLOAD_ERROR_COMMON'] = '파일 업로드 오류.';
 $lang['UPLOAD_ERROR_SIZE'] = '업로드된 파일의 최대 크기를 초과했습니다: %s.';
