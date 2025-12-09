@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Názov ankety';
 $lang['NEW_POLL_M_VOTES'] = 'Možnosti';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Každý riadok zodpovedá jednej odpovedi (max.';
 
-$lang['OLD_BROWSER'] = 'Používate zastaralý prehliadač. Webové stránky sa nebudú zobrazovať správne.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Nahrávanie súborov je zakázané';
 $lang['UPLOAD_ERROR_COMMON'] = 'Chyba pri nahrávaní súboru';
 $lang['UPLOAD_ERROR_SIZE'] = 'Odovzdaný súbor prekračuje maximálnu veľkosť %s';
