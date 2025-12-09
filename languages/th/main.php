@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'ชื่อหัวข้อการลงคะ
 $lang['NEW_POLL_M_VOTES'] = 'ตัวเลือก';
 $lang['NEW_POLL_M_EXPLAIN'] = 'แต่ละแถวตรงกับคำตอบหนึ่ง (สูงสุด';
 
-$lang['OLD_BROWSER'] = 'คุณคือการใช้ outdated องเบราว์เซอร์ได้ เว็บไซต์จะไม่แสดงอย่างถูกต้อง';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'การอัปโหลดไฟล์ถูกปิดใช้งาน';
 $lang['UPLOAD_ERROR_COMMON'] = 'เกิดข้อผิดพลาดในการอัปโหลดไฟล์';
 $lang['UPLOAD_ERROR_SIZE'] = 'แฟ้มที่อัปโหลดเกินขนาดสูงสุด %s';
