@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_M_TITLE'] = 'Titolo del sondaggio.';
 $lang['NEW_POLL_M_VOTES'] = 'Opzioni.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Ogni riga corrisponde a una risposta (max.';
 
-$lang['OLD_BROWSER'] = 'Stai usando un browser obsoleto. Il sito non sarà visualizzato correttamente.';
-
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Caricamento file disabilitato';
 $lang['UPLOAD_ERROR_COMMON'] = 'Errore durante il caricamento del file.';
 $lang['UPLOAD_ERROR_SIZE'] = 'Il file caricato eccede la dimensione massima di %s';
