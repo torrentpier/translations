@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'disable board when this job is run';
 $lang['RUN_COUNTER'] = 'Run counter';
 
 $lang['JOB_REMOVED'] = 'The job has been removed successfully';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> already exists!';
-$lang['TITLE_DUPLICATE'] = 'Task Name <b>' . @$_POST['cron_title'] . '</b> already exists!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sReturn to add job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack to the Task Scheduler%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Finish poll';
 $lang['NEW_POLL_M_TITLE'] = 'Title of poll';
 $lang['NEW_POLL_M_VOTES'] = 'Options';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Each row corresponds to one answer (max';
-
-$lang['OLD_BROWSER'] = 'You are using an outdated browser. The website will not display correctly.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'File upload disabled';
 $lang['UPLOAD_ERROR_COMMON'] = 'File upload error';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktivieren Sie das Board, wenn dieser Job ausge
 $lang['RUN_COUNTER'] = 'Zählen.';
 
 $lang['JOB_REMOVED'] = 'Der Job wurde erfolgreich entfernt';
-$lang['SCRIPT_DUPLICATE'] = 'Skript <b>.' . @$_POST['cron_script'] . '</b> existiert bereits!';
-$lang['TITLE_DUPLICATE'] = 'Task-Name <b>.' . @$_POST['cron_title'] . '</b> existiert bereits!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sZurück zum Hinzufügen von Jobs%s';
 $lang['CLICK_RETURN_JOBS'] = '%sZurück zum Aufgabenscheduler%s.';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Finish Umfrage';
 $lang['NEW_POLL_M_TITLE'] = 'Titel der Umfrage';
 $lang['NEW_POLL_M_VOTES'] = 'Optionen';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Jede Zeile entspricht einer Antwort (max.';
-
-$lang['OLD_BROWSER'] = 'Sie verwenden einen veralteten Browser. Die Website wird nicht richtig angezeigt.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Datei-Upload deaktiviert';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fehler beim Hochladen der Datei.';

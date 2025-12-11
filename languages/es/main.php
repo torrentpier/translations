@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'deshabilitar el foro cuando este trabajo se ejecu
 $lang['RUN_COUNTER'] = 'Ejecutar contador';
 
 $lang['JOB_REMOVED'] = 'La tarea se ha eliminado con éxito';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> ya existe!';
-$lang['TITLE_DUPLICATE'] = 'Nombre De La Tarea <b>' . @$_POST['cron_title'] . '</b> ya existe!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVolver a añadir tarea%s';
 $lang['CLICK_RETURN_JOBS'] = '%sVolver al Programador de Tareas%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Finalizar encuesta.';
 $lang['NEW_POLL_M_TITLE'] = 'Título de la encuesta.';
 $lang['NEW_POLL_M_VOTES'] = 'Opciones.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Cada fila corresponde a una respuesta (máx.';
-
-$lang['OLD_BROWSER'] = 'Estás usando un navegador obsoleto. El sitio web no se mostrará correctamente.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Carga de archivos deshabilitada';
 $lang['UPLOAD_ERROR_COMMON'] = 'Error de carga de archivos.';

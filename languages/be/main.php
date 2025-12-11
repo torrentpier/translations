@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'You have several translations with vague phrasing
 $lang['RUN_COUNTER'] = 'This translation is incorrect.';
 
 $lang['JOB_REMOVED'] = 'Работа была паспяхова выдалена';
-$lang['SCRIPT_DUPLICATE'] = 'Сцэнар <b>' . @$_POST['cron_script'] . '</b> ўжо існуе!';
-$lang['TITLE_DUPLICATE'] = 'Імя Задачы <b>' . @$_POST['cron_title'] . 'This translation is incorrect.';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sВярнуцца да дабаўлення працы%s';
 $lang['CLICK_RETURN_JOBS'] = '%sНазад у планавальнік задач%s.';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Скончыць апытанне';
 $lang['NEW_POLL_M_TITLE'] = 'Назва апытання';
 $lang['NEW_POLL_M_VOTES'] = 'Варыянты';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Кожнай радку адпавядае адзін адказ (Макс.';
-
-$lang['OLD_BROWSER'] = 'Вы выкарыстоўваеце састарэлы браўзэр. Сайт не будзе карэктна адлюстроўвацца.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Загрузка файла выключана';
 $lang['UPLOAD_ERROR_COMMON'] = 'Памылка загрузкі файла';

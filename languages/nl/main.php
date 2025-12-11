@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Uitschakelen van de raad wanneer deze taak wordt 
 $lang['RUN_COUNTER'] = 'Tellen.';
 
 $lang['JOB_REMOVED'] = 'De taak is succesvol verwijderd';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> bestaat al!';
-$lang['TITLE_DUPLICATE'] = 'Taak Naam <b>' . @$_POST['cron_title'] . '</b> bestaat al!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sTerug naar taak toevoegen%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTerug naar de Taakplanner%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Finish poll.';
 $lang['NEW_POLL_M_TITLE'] = 'Title of poll.';
 $lang['NEW_POLL_M_VOTES'] = 'Options.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Each row corresponds to one answer (max.';
-
-$lang['OLD_BROWSER'] = 'U gebruikt een verouderde browser. De website wordt niet goed weergegeven.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Bestand uploaden is uitgeschakeld';
 $lang['UPLOAD_ERROR_COMMON'] = 'File upload error.';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktiver styret når denne jobben kjøres';
 $lang['RUN_COUNTER'] = 'Kjøring';
 
 $lang['JOB_REMOVED'] = 'Jobben har blitt fjernet.';
-$lang['SCRIPT_DUPLICATE'] = 'Skriptet <b>' . @$_POST['cron_script'] . '</b> eksisterer allerede!';
-$lang['TITLE_DUPLICATE'] = 'Oppgavenavnet <b>' . @$_POST['cron_title'] . '</b> eksisterer allerede!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sGå tilbake for å legge til jobb%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTilbake til Oppgavestyreren%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Fullfør meningsmåling';
 $lang['NEW_POLL_M_TITLE'] = 'Tittel på meningsmålingen.';
 $lang['NEW_POLL_M_VOTES'] = 'Valg';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Hver rad tilsvarer ett svar (maks.';
-
-$lang['OLD_BROWSER'] = 'Du bruker en utdatert nettleser. Nettstedet vil ikke vises på riktig måte.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filopplasting deaktivert';
 $lang['UPLOAD_ERROR_COMMON'] = 'Feil ved opplasting av fil.';

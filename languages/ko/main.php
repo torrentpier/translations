@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = '이 작업이 실행될 때 보드를 비활성�
 $lang['RUN_COUNTER'] = '실행 카운터';
 
 $lang['JOB_REMOVED'] = '작업이 성공적으로 제거되었습니다';
-$lang['SCRIPT_DUPLICATE'] = '스크립트 <b>' . @$_POST['cron_script'] . '</b> 이미 존재합니다!';
-$lang['TITLE_DUPLICATE'] = '작업 이름 <b>' . @$_POST['cron_title'] . '</b> 이미 존재합니다!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s작업 추가로 돌아가기%s';
 $lang['CLICK_RETURN_JOBS'] = '%s작업 스케줄러로 돌아가기%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = '투표 완료.';
 $lang['NEW_POLL_M_TITLE'] = '투표 제목.';
 $lang['NEW_POLL_M_VOTES'] = '옵션';
 $lang['NEW_POLL_M_EXPLAIN'] = '각 행은 하나의 답변에 해당합니다.';
-
-$lang['OLD_BROWSER'] = '당신이 사용하는 오래된 브라우저입니다. 웹사이트는 제대로 표시되지 않습니다.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = '파일 업로드가 비활성화되었습니다';
 $lang['UPLOAD_ERROR_COMMON'] = '파일 업로드 오류.';

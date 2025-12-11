@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Bu ish paytida taxtasidan o\'chirish.';
 $lang['RUN_COUNTER'] = 'Counter ishga tushirish';
 
 $lang['JOB_REMOVED'] = 'Ish muvaffaqiyatli olib tashlandi';
-$lang['SCRIPT_DUPLICATE'] = 'skript <b>' . @$_POST['cron_script'] . '</b> allaqachon mavjud!';
-$lang['TITLE_DUPLICATE'] = 'Vazifa nomi <b>' . @$_POST['cron_title'] . '</b> allaqachon mavjud!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s Ish qo\'shishga qaytish%s';
 $lang['CLICK_RETURN_JOBS'] = '%s Vazifa Scheduler %s ga qaytish';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'So\'rovni tugatish.';
 $lang['NEW_POLL_M_TITLE'] = 'so\'rov nomi';
 $lang['NEW_POLL_M_VOTES'] = 'Tanlovlar';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Har bir satr bir javobga mos keladi (maksimal';
-
-$lang['OLD_BROWSER'] = 'Siz eski brauzerdan foydalanmoqdasiz. Veb-sayt to\'g\'ri ko\'rsatilmaydi.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Fayl yuklash o\'chirilgan';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fayl yuklash xatosi';

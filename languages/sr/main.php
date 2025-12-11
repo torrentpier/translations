@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Искључи форум када се овај 
 $lang['RUN_COUNTER'] = 'Број покретања';
 
 $lang['JOB_REMOVED'] = 'Задатак је успешно уклоњен';
-$lang['SCRIPT_DUPLICATE'] = 'Сценарио <b>' . @$_POST['cron_script'] . '</b> већ постоји!';
-$lang['TITLE_DUPLICATE'] = 'Име задатка <b>' . @$_POST['cron_title'] . '</b> већ постоји!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sВратите се на додатак задатка%s';
 $lang['CLICK_RETURN_JOBS'] = '%sВратите се на заказивач задатака%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Заврши истраживање';
 $lang['NEW_POLL_M_TITLE'] = 'Име анкете';
 $lang['NEW_POLL_M_VOTES'] = 'Опције';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Сваки ред одговара једном одговору (максимум).';
-
-$lang['OLD_BROWSER'] = 'Користите застарели прегледач. Сајт неће бити правилно приказан.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Учитавање фајлова онемогућено';
 $lang['UPLOAD_ERROR_COMMON'] = 'Грешка при учитавању фајла.';

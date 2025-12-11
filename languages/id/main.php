@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Nonaktifkan papan saat pekerjaan ini dijalankan';
 $lang['RUN_COUNTER'] = 'Menjalankan counter';
 
 $lang['JOB_REMOVED'] = 'Pekerjaan telah dihapus dengan sukses';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> sudah ada!';
-$lang['TITLE_DUPLICATE'] = 'Nama Tugas <b>' . @$_POST['cron_title'] . '</b> sudah ada!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sKembali untuk menambahkan pekerjaan%s';
 $lang['CLICK_RETURN_JOBS'] = '%sKembali ke Penjadwal Tugas%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Selesai jajak pendapat';
 $lang['NEW_POLL_M_TITLE'] = 'Judul jajak pendapat';
 $lang['NEW_POLL_M_VOTES'] = 'Pilihan';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Setiap baris sesuai satu jawaban (max';
-
-$lang['OLD_BROWSER'] = 'Anda menggunakan browser usang. Website tidak akan ditampilkan dengan benar.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Upload file dinonaktifkan';
 $lang['UPLOAD_ERROR_COMMON'] = 'Kesalahan unggah file';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'vô hiệu hóa hội đồng khi công việc n�
 $lang['RUN_COUNTER'] = 'Chạy bộ đếm';
 
 $lang['JOB_REMOVED'] = 'Công việc đã được xóa thành công';
-$lang['SCRIPT_DUPLICATE'] = 'Kịch bản <b>' . @$_POST['cron_script'] . '</b> đã tồn tại!';
-$lang['TITLE_DUPLICATE'] = 'Tên nhiệm vụ <b>' . @$_POST['cron_title'] . '</b> đã tồn tại!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sQuay lại để thêm công việc%s';
 $lang['CLICK_RETURN_JOBS'] = '%sQuay lại lịch trình Công việc%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Kết thúc thăm dò';
 $lang['NEW_POLL_M_TITLE'] = 'Tiêu đề của cuộc thăm dò';
 $lang['NEW_POLL_M_VOTES'] = 'Lựa chọn';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Mỗi hàng tương ứng với một câu trả lời (tối đa';
-
-$lang['OLD_BROWSER'] = 'Bạn đang sử dụng một trình duyệt lỗi thời. Website sẽ không hiện thị chính xác';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Lỗi tải tệp bị vô hiệu hóa';
 $lang['UPLOAD_ERROR_COMMON'] = 'Lỗi tải tập tin';

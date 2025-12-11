@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Disabilitare la bacheca quando questo lavoro vien
 $lang['RUN_COUNTER'] = 'Eseguire contatore';
 
 $lang['JOB_REMOVED'] = 'Il lavoro è stato rimosso con successo';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> esiste già!';
-$lang['TITLE_DUPLICATE'] = 'Nome Attività <b>' . @$_POST['cron_title'] . '</b> esiste già!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sTorna ad aggiungere lavoro%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTorna all\'Attività Scheduler%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Fine sondaggio.';
 $lang['NEW_POLL_M_TITLE'] = 'Titolo del sondaggio.';
 $lang['NEW_POLL_M_VOTES'] = 'Opzioni.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Ogni riga corrisponde a una risposta (max.';
-
-$lang['OLD_BROWSER'] = 'Stai usando un browser obsoleto. Il sito non sarà visualizzato correttamente.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Caricamento file disabilitato';
 $lang['UPLOAD_ERROR_COMMON'] = 'Errore durante il caricamento del file.';

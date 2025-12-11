@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'deaktiver forum, når denne opgave kører';
 $lang['RUN_COUNTER'] = 'Kørsels tæller';
 
 $lang['JOB_REMOVED'] = 'Jobbet er blevet fjernet med succes';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> eksisterer allerede!';
-$lang['TITLE_DUPLICATE'] = 'Opgavens navn <b>' . @$_POST['cron_title'] . '</b> eksisterer allerede!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVend tilbage for at tilføje job%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTilbage til Opgave Scheduler%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Udfør afstemning.';
 $lang['NEW_POLL_M_TITLE'] = 'Titel meningsmåling.';
 $lang['NEW_POLL_M_VOTES'] = 'Muligheder.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Hver række svarer til et svar (max.';
-
-$lang['OLD_BROWSER'] = 'Du bruger en forældet browser. Hjemmesiden vil ikke blive vist korrekt.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Filupload er deaktiveret';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fil upload fejl.';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'تعطيل المنتدى عند تشغيل هذ�
 $lang['RUN_COUNTER'] = 'تشغيل العداد';
 
 $lang['JOB_REMOVED'] = 'تمت إزالة المهمة بنجاح';
-$lang['SCRIPT_DUPLICATE'] = 'السيناريو <b>' . @$_POST['cron_script'] . '</b> موجود بالفعل!';
-$lang['TITLE_DUPLICATE'] = 'اسم المهمة <b>' . @$_POST['cron_title'] . '</b> موجود بالفعل!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sعد إلى إضافة المهمة%s';
 $lang['CLICK_RETURN_JOBS'] = '%sعودة إلى جدولة المهام%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'الانتهاء من استطلاع';
 $lang['NEW_POLL_M_TITLE'] = 'عنوان الاستطلاع';
 $lang['NEW_POLL_M_VOTES'] = 'خيارات';
 $lang['NEW_POLL_M_EXPLAIN'] = 'كل صف يمثل إجابة واحدة (أقصى حد';
-
-$lang['OLD_BROWSER'] = 'أنت تستخدم متصفحاً قديماً. لن يتم عرض الموقع بشكل صحيح.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'تعطيل تحميل الملفات';
 $lang['UPLOAD_ERROR_COMMON'] = 'خطأ في تحميل الملف';

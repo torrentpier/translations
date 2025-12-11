@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Απενεργοποίηση του φόρουμ 
 $lang['RUN_COUNTER'] = 'Μετρητής εκτέλεσης.';
 
 $lang['JOB_REMOVED'] = 'Η εργασία έχει αφαιρεθεί με επιτυχία';
-$lang['SCRIPT_DUPLICATE'] = 'Σενάριο <b>' . @$_POST['cron_script'] . '</b> υπάρχει ήδη!';
-$lang['TITLE_DUPLICATE'] = 'Όνομα Εργασίας <b>' . @$_POST['cron_title'] . '</b> υπάρχει ήδη!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sΕπιστροφή για να προσθέσετε εργασία%s';
 $lang['CLICK_RETURN_JOBS'] = '%sΠίσω στον Προγραμματιστή Εργασιών%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Ολοκληρώστε τη δημοσκόπηση.';
 $lang['NEW_POLL_M_TITLE'] = 'Τίτλος δημοσκόπησης.';
 $lang['NEW_POLL_M_VOTES'] = 'Επιλογές';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Κάθε γραμμή αντιστοιχεί σε μία απάντηση (μέγιστο.';
-
-$lang['OLD_BROWSER'] = 'Χρησιμοποιείτε ένα παλιό πρόγραμμα περιήγησης. Η ιστοσελίδα δεν θα εμφανίζονται σωστά.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Η μεταφόρτωση αρχείου είναι απενεργοποιημένη';
 $lang['UPLOAD_ERROR_COMMON'] = 'Σφάλμα κατά την αποστολή αρχείου.';

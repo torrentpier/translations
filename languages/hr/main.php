@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'isključite forum kada se ovaj posao obavlja';
 $lang['RUN_COUNTER'] = 'Pokreni brojač';
 
 $lang['JOB_REMOVED'] = 'Zadatak je uspješno uklonjen';
-$lang['SCRIPT_DUPLICATE'] = 'Scenarij <b>' . @$_POST['cron_script'] . '</b> već postoji!';
-$lang['TITLE_DUPLICATE'] = 'Naziv Zadatka <b>' . @$_POST['cron_title'] . '</b> već postoji!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sPovratak na dodavanje posla%s';
 $lang['CLICK_RETURN_JOBS'] = '%sNazad na planer zadatka%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Završite anketu.';
 $lang['NEW_POLL_M_TITLE'] = 'Naziv ankete.';
 $lang['NEW_POLL_M_VOTES'] = 'Mogućnosti.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Svaki redak odgovara jednom odgovoru (maks. ';
-
-$lang['OLD_BROWSER'] = 'Koristite zastarjeli preglednik. Web stranice se neće ispravno prikazivati.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Prenos datoteka onemogućen';
 $lang['UPLOAD_ERROR_COMMON'] = 'Pogreška pri prijenosu datoteke';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = '當這項工作運行時禁止論壇';
 $lang['RUN_COUNTER'] = '計數器';
 
 $lang['JOB_REMOVED'] = '該任務已成功移除';
-$lang['SCRIPT_DUPLICATE'] = '脚本<b>' . @$_POST['cron_script'] . '</b>已经存在了。';
-$lang['TITLE_DUPLICATE'] = '任务名称<b>' . @$_POST['cron_title'] . '</b>已经存在了。';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s返回添加任務%s';
 $lang['CLICK_RETURN_JOBS'] = '%s返回任務計畫%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = '完成调查';
 $lang['NEW_POLL_M_TITLE'] = '投票標題';
 $lang['NEW_POLL_M_VOTES'] = '选项';
 $lang['NEW_POLL_M_EXPLAIN'] = '每行對應一個答案（最大像素';
-
-$lang['OLD_BROWSER'] = '您使用的是过时的浏览器。 该网站将不会显示正确的。';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = '文件上傳已禁用';
 $lang['UPLOAD_ERROR_COMMON'] = '文件上传错误';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'poistaa foorumilta, kun tämä työ suoritetaan';
 $lang['RUN_COUNTER'] = 'Laskuri';
 
 $lang['JOB_REMOVED'] = 'Tehtävä on poistettu onnistuneesti';
-$lang['SCRIPT_DUPLICATE'] = 'Käsikirjoitus <b>.' . @$_POST['cron_script'] . '</b> on jo olemassa!';
-$lang['TITLE_DUPLICATE'] = 'Tehtävän nimi <b>.' . @$_POST['cron_title'] . '</b> on jo olemassa!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sPalaa lisää työpaikkaa%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTakaisin Tehtävään Aikatauluttaja%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Tällä hetkellä kysely on päättynyt.';
 $lang['NEW_POLL_M_TITLE'] = 'Kyselyn otsikko.';
 $lang['NEW_POLL_M_VOTES'] = 'Vaihtoehtoja';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Jokainen rivi vastaa yhtä vastausta (max. ';
-
-$lang['OLD_BROWSER'] = 'Käytät vanhentunutta selainta. Sivusto ei näy oikein.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Tiedostojen lataaminen on pois käytöstä';
 $lang['UPLOAD_ERROR_COMMON'] = 'Tiedoston siirto palvelimeen epäonnistui.';

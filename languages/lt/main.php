@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'išjungti forumą, kai šis darbas vykdomas';
 $lang['RUN_COUNTER'] = 'Nustatyti skaičių';
 
 $lang['JOB_REMOVED'] = 'Darbas buvo sėkmingai pašalintas';
-$lang['SCRIPT_DUPLICATE'] = 'Scenarijaus <b>' . @$_POST['cron_script'] . '</b> jau egzistuoja!';
-$lang['TITLE_DUPLICATE'] = 'Užduoties pavadinimas <b>' . @$_POST['cron_title'] . '</b> jau egzistuoja!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sGrįžti prie pridėti darbo%s';
 $lang['CLICK_RETURN_JOBS'] = '%sAtgal į Užduočių Tvarkyklę%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Baigti apklausą';
 $lang['NEW_POLL_M_TITLE'] = 'Apklausos pavadinimas';
 $lang['NEW_POLL_M_VOTES'] = 'Pasirinkimai';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Kiekviena eilutė atitinka vieną atsakymą (maks.';
-
-$lang['OLD_BROWSER'] = 'Jūs naudojate pasenusią naršyklę. Svetainė gali būti rodoma neteisingai.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Failo įkėlimas išjungtas';
 $lang['UPLOAD_ERROR_COMMON'] = 'Failo įkėlimo klaida';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Onemogočite ploščo, ko se to delo izvaja';
 $lang['RUN_COUNTER'] = 'Zaženi števec';
 
 $lang['JOB_REMOVED'] = 'Naloga je bila uspešno odstranjena';
-$lang['SCRIPT_DUPLICATE'] = 'Skript <b>' . @$_POST['cron_script'] . '</b> že obstaja!';
-$lang['TITLE_DUPLICATE'] = 'Ime naloge <b>' . @$_POST['cron_title'] . '</b> že obstaja!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVrni se k dodajanju naloge%s';
 $lang['CLICK_RETURN_JOBS'] = '%sNazaj k načrtovalcu nalog%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Zaključek ankete.';
 $lang['NEW_POLL_M_TITLE'] = 'Naslov ankete.';
 $lang['NEW_POLL_M_VOTES'] = 'Možnosti.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Vsaka vrstica ustreza en odgovor (maks.';
-
-$lang['OLD_BROWSER'] = 'Uporabljate zastareli brskalnik. Spletna stran ne bo pravilno prikazana.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Nalaganje datotek je onemogočeno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Napaka pri nalaganju datotek.';

@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'keelata pardal, kui see töö on käivitatud';
 $lang['RUN_COUNTER'] = 'Loenduri vastuseks';
 
 $lang['JOB_REMOVED'] = 'Töö on edukalt eemaldatud';
-$lang['SCRIPT_DUPLICATE'] = 'Skripti <b>' . @$_POST['cron_script'] . '</b> on juba olemas!';
-$lang['TITLE_DUPLICATE'] = 'Ülesande nimi <b>' . @$_POST['cron_title'] . '</b> juba eksisteerib!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sNaaske töö lisamise juurde%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTagasi ülesande ajaskaalale%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Lõpetage küsitlus.';
 $lang['NEW_POLL_M_TITLE'] = 'Pealkiri küsitlus.';
 $lang['NEW_POLL_M_VOTES'] = 'Valikud';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Iga rida vastab ühele vastus (max.';
-
-$lang['OLD_BROWSER'] = 'Teie kasutate aegunud brauserit. Veebisait ei kuvata õigesti.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Failide üleslaadimine keelatud';
 $lang['UPLOAD_ERROR_COMMON'] = 'Faili üleslaadimise viga';

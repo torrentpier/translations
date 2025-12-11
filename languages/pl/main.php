@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'wyłączyć forum, gdy ta praca jest wykonywana';
 $lang['RUN_COUNTER'] = 'Uruchomić licznik';
 
 $lang['JOB_REMOVED'] = 'Zadanie zostało pomyślnie usunięte';
-$lang['SCRIPT_DUPLICATE'] = 'Scenariusz <b>' . @$_POST['cron_script'] . '</b> już istnieje!';
-$lang['TITLE_DUPLICATE'] = 'Nazwa Zadania <b>' . @$_POST['cron_title'] . '</b> już istnieje!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sWróć do dodawania zadania%s';
 $lang['CLICK_RETURN_JOBS'] = '%sPowrót do Harmonogramu zadań%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Zakończyć ankietę';
 $lang['NEW_POLL_M_TITLE'] = 'Nazwa ankiety';
 $lang['NEW_POLL_M_VOTES'] = 'Opcje';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Każdy wiersz odpowiada jednej odpowiedzi (Max.';
-
-$lang['OLD_BROWSER'] = 'Używasz przestarzałej przeglądarki. Strona nie będzie poprawnie wyświetlana.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Przesyłanie plików wyłączone';
 $lang['UPLOAD_ERROR_COMMON'] = 'Błąd przesyłania pliku.';

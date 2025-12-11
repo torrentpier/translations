@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'zakázat fórum při spuštění této úlohy';
 $lang['RUN_COUNTER'] = 'Časovač';
 
 $lang['JOB_REMOVED'] = 'Úloha byla úspěšně odstraněna';
-$lang['SCRIPT_DUPLICATE'] = 'Scénář <b>' . @$_POST['cron_script'] . '</b> již existuje!';
-$lang['TITLE_DUPLICATE'] = 'Název úkolu <b>.' . @$_POST['cron_title'] . '</b> již existuje!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sNávrat k přidání úlohy%s';
 $lang['CLICK_RETURN_JOBS'] = '%s zpět do plánovače úkolů %s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Dokončit průzkum';
 $lang['NEW_POLL_M_TITLE'] = 'Název ankety';
 $lang['NEW_POLL_M_VOTES'] = 'Možnosti';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Každý řádek odpovídá jedné odpovědi (max.';
-
-$lang['OLD_BROWSER'] = 'Používáte zastaralý prohlížeč. Na webové stránky se nebudou zobrazovat správně.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Nahrávání souborů zakázáno';
 $lang['UPLOAD_ERROR_COMMON'] = 'Nahrání souboru se nezdařilo.';

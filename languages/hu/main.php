@@ -1914,8 +1914,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'letiltja a fedélzeten, amikor ez a feladat fut';
 $lang['RUN_COUNTER'] = 'Ellentétes';
 
 $lang['JOB_REMOVED'] = 'A feladat sikeresen eltávolítva';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> már létezik!';
-$lang['TITLE_DUPLICATE'] = 'Feladat Neve <b>' . @$_POST['cron_title'] . '</b> már létezik!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVissza az új feladat hozzáadásához%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack, hogy a Feladat Scheduler%s';
 
@@ -2256,8 +2256,6 @@ $lang['NEW_POLL_U_END'] = 'Szavazás befejezése.';
 $lang['NEW_POLL_M_TITLE'] = 'Szavazás címe.';
 $lang['NEW_POLL_M_VOTES'] = 'Lehetőségek';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Minden sor egy válaszra vonatkozik (max.';
-
-$lang['OLD_BROWSER'] = 'Ön egy elavult böngészőt használ. A honlap nem jelenik meg megfelelően.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Fájl feltöltés letiltva';
 $lang['UPLOAD_ERROR_COMMON'] = 'Fájl feltöltési hiba.';

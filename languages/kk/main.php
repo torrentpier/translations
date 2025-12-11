@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Бұл жұмыс іске кезде тақта�
 $lang['RUN_COUNTER'] = 'қайтару';
 
 $lang['JOB_REMOVED'] = 'Жұмыс сәтті жойылды';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> бұрыннан бар!';
-$lang['TITLE_DUPLICATE'] = 'Тапсырма атауы <b>' . @$_POST['cron_title'] . '</b> бұрыннан бар!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sЖұмыс қосу үшін оралу%s';
 $lang['CLICK_RETURN_JOBS'] = '%s Тапсырмалар жоспарлаушыға %s қайта оралу.';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Сауалнама аяқтау.';
 $lang['NEW_POLL_M_TITLE'] = 'Сауалнама атауы.';
 $lang['NEW_POLL_M_VOTES'] = 'Опциялар.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Әрбір жол бір жауап.';
-
-$lang['OLD_BROWSER'] = 'Сіз ескірген браузерді пайдаланасыз. Веб-сайт дұрыс көрсетілмейді.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Файл жүктеп алу өшірілді';
 $lang['UPLOAD_ERROR_COMMON'] = 'Файл қотару қатесі';

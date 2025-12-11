@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'անջատել ֆորումը, երբ այդ աշ
 $lang['RUN_COUNTER'] = 'Հաշվետու счетчик';
 
 $lang['JOB_REMOVED'] = 'Աշխատանքը հաջողությամբ հեռացվել է';
-$lang['SCRIPT_DUPLICATE'] = 'Սցենարը <b>' . @$_POST['cron_script'] . '</b> արդեն կա!';
-$lang['TITLE_DUPLICATE'] = 'Անվանումը Խնդիր<b> ' . @$_POST['cron_title'] . '</b> արդեն կա!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sՎերադառնալ ավելացնել աշխատանքի%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack to the Task Scheduler%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Ավարտել հարցումը.';
 $lang['NEW_POLL_M_TITLE'] = 'Հարցման վերնագիրը.';
 $lang['NEW_POLL_M_VOTES'] = 'Ընտրանքներ.';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Յուրաքանչյուր տող համապատասխան մեկ պատասխանին (max.';
-
-$lang['OLD_BROWSER'] = 'Դուք օգտագործում եք հին բրաուզեր. Կայքը չի ցուցադրվի ճիշտ.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Ֆայլի բեռնավարձը անջատված է';
 $lang['UPLOAD_ERROR_COMMON'] = 'Ֆայլի բեռնումը սխալ է.';

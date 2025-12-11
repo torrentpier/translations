@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'çaktivizoni bordin kur kjo punë është drejtua
 $lang['RUN_COUNTER'] = 'Drejto numëruesin';
 
 $lang['JOB_REMOVED'] = 'Puna është bërë me sukses';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>' . @$_POST['cron_script'] . '</b> tashmë ekziston!';
-$lang['TITLE_DUPLICATE'] = 'Emri i detyrës <b>' . @$_POST['cron_title'] . '</b> tashmë ekziston!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sKthehu për të shtuar punë%s';
 $lang['CLICK_RETURN_JOBS'] = '%sKthehu në Planifikuesin e Detyrave%s';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Përfundo sondazhin';
 $lang['NEW_POLL_M_TITLE'] = 'Titulli i sondazhit';
 $lang['NEW_POLL_M_VOTES'] = 'Opsionet';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Çdo rresht korrespondon me një përgjigje (max';
-
-$lang['OLD_BROWSER'] = 'Po përdorni një shfletues të vjetër. Faqja e internetit nuk do të shfaqet siç duhet.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Ngarkimi i skedarëve është i çaktivizuar';
 $lang['UPLOAD_ERROR_COMMON'] = 'Gabim gjatë ngarkimit të skedarit';

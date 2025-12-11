@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'desativar o fórum quando este trabalho é execut
 $lang['RUN_COUNTER'] = 'Executar contagem.';
 
 $lang['JOB_REMOVED'] = 'A tarefa foi removida com sucesso';
-$lang['SCRIPT_DUPLICATE'] = 'Script <b>.' . @$_POST['cron_script'] . '</b> já existe!';
-$lang['TITLE_DUPLICATE'] = 'Nome da tarefa <b>.' . @$_POST['cron_title'] . '</b> já existe!';
+$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
+$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sRetornar para adicionar tarefa%s';
 $lang['CLICK_RETURN_JOBS'] = '%sVoltar para o Agendador de Tarefas%s.';
 
@@ -2255,8 +2255,6 @@ $lang['NEW_POLL_U_END'] = 'Enquete finalizada.';
 $lang['NEW_POLL_M_TITLE'] = 'Título da enquete';
 $lang['NEW_POLL_M_VOTES'] = 'Opções';
 $lang['NEW_POLL_M_EXPLAIN'] = 'Cada linha corresponde a uma resposta (máx.';
-
-$lang['OLD_BROWSER'] = 'Você está usando um navegador desatualizado. O site não será exibido corretamente.';
 
 $lang['UPLOAD_ERROR_COMMON_DISABLED'] = 'Upload de arquivo desativado';
 $lang['UPLOAD_ERROR_COMMON'] = 'Erro no upload do arquivo.';
