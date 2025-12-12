@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Leidžia forumo genėjimą';
 $lang['ALLOW_BBCODE'] = 'Leisti BBCode';
 $lang['ALLOW_SMILIES'] = 'Leisti šypsenėles';
 $lang['SMILIES_PATH'] = 'Šypsenėlių saugojimo kelias';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Kelias pagal jūsų TorrentPier root dir, pvz., stiliai/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Leisti parašus';
 $lang['MAX_SIG_LENGTH'] = 'Maksimalus parašo ilgis';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalus simbolių skaičius vartotojo parašuose';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Patikrinkite, kad jūs esate ne robotas';
 $lang['CAPTCHA_WRONG'] = 'Jūs negalėjote patvirtinti, kad jūs esate ne robotas.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nėra visiškai sukonfigūruotas</h2><p>Sukurkite raktus naudodami savo captcha tarnybos valdymo skydo puslapį, po to juos turite įdėti į failą library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA patikrinimas vyksta fone';
 
 // Sending email
