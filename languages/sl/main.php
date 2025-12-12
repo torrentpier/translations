@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Omogočanje Pruninga Foruma';
 $lang['ALLOW_BBCODE'] = 'Dovoli BBCode';
 $lang['ALLOW_SMILIES'] = 'Dovoli Smeške';
 $lang['SMILIES_PATH'] = 'Pot skladišča Smeškov';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Pot pod vašim korenskim imenikom TorrentPier, npr. slogi/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Dovoli Podpise';
 $lang['MAX_SIG_LENGTH'] = 'Največja dolžina podpisa';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Največje število znakov v podpisih uporabnika';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Preverite, da niste robot';
 $lang['CAPTCHA_WRONG'] = 'Niste mogli potrditi, da niste robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha ni popolnoma konfigurirana</h2><p>Generirajte ključe z uporabo nadzorne plošče vaše captcha storitve, nato jih morate vnesti v datoteko library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verifikacija CAPTCHA se izvaja v ozadju';
 
 // Sending email
