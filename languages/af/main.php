@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Aktiveer Forum Snoei';
 $lang['ALLOW_BBCODE'] = 'Laat BBCode toe';
 $lang['ALLOW_SMILIES'] = 'Laat Smilies toe';
 $lang['SMILIES_PATH'] = 'Smilies berging pad';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Pad onder jou TorrentPier root gids, bv. style / beelde / glimlag.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Laat handtekeninge toe';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum handtekening lengte';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimum aantal karakters in gebruikers handtekeninge';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Maak seker dat jy nie \'n robot is nie';
 $lang['CAPTCHA_WRONG'] = 'Jy kon nie bevestig dat jy nie \'n robot is nie';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is nie volledig gekonfigureer nie</h2><p>Genereer die sleutels met die dashboard van jou captcha diens, daarna moet jy dit in die lêer biblioteek/config.php plaas.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Die CAPTCHA-verifikasie vind in die agtergrond plaas';
 
 // Sending email
