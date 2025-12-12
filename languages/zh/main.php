@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = '啟用論壇修剪。';
 $lang['ALLOW_BBCODE'] = '允許BBCode。';
 $lang['ALLOW_SMILIES'] = '允許表情符號。';
 $lang['SMILIES_PATH'] = '表情符號存儲路徑。';
-$lang['SMILIES_PATH_EXPLAIN'] = '在您TorrentPier根目錄下的路徑，例如樣式/圖像/微笑。';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = '允許簽名。';
 $lang['MAX_SIG_LENGTH'] = '最大簽名長度。';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '用戶簽名的最大字符數。';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = '檢查您是否為機器人';
 $lang['CAPTCHA_WRONG'] = '您無法確認您不是機器人';
-$lang['CAPTCHA_SETTINGS'] = '<h2>驗證碼尚未完全配置</h2><p>使用您驗證碼服務的儀表板生成密鑰，然後需要將它們放在文件庫/config.php 中。</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA 驗證在背景中進行';
 
 // Sending email
