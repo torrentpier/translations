@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Forumni Azizillo qilishni yoqish.';
 $lang['ALLOW_BBCODE'] = 'BBCode\'ni ruxsat berish.';
 $lang['ALLOW_SMILIES'] = 'Jumlalarni ruxsat berish.';
 $lang['SMILIES_PATH'] = 'Jumlalarni saqlash yo\'li.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'TorrentPier ildiz katalogidan pastdagi yo\'l, masalan, uslublar/images/kulaklar';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Imzalarni ruxsat berish.';
 $lang['MAX_SIG_LENGTH'] = 'Maksimal imzo uzunligi';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Foydalanuvchi imzolarining maksimal belgilar soni.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Siz robot emasligingizni tekshiring.';
 $lang['CAPTCHA_WRONG'] = 'Siz robot emasligingizni tasdiqlay olmaysiz.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha to\'liq sozlanmagan</h2><p>Captcha xizmatining boshqaruv panelida kalitlarni hosil qiling, so\'ngra ularni fayl kutubxonasi/config.php ga joylashtirish kerak.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA tasdiqlash ortda amalga oshiriladi';
 
 // Sending email
