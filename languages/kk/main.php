@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Форумды кессек қосу';
 $lang['ALLOW_BBCODE'] = 'BBCode рұқсат ету';
 $lang['ALLOW_SMILIES'] = 'Смайликтер рұқсат ету';
 $lang['SMILIES_PATH'] = 'Смайликтер сақтау жолы';
-$lang['SMILIES_PATH_EXPLAIN'] = 'TorrentPier түбірлік директориясында жол, мысалы, стильдер/суреттер/күлкілер.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'қолтаңба рұқсат ету';
 $lang['MAX_SIG_LENGTH'] = 'Ең көп қолтаңба ұзындығы';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'пайдаланушылар қолтаңбаларының максималды саны';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Егер сіз робот емес екенін тексеріңіз';
 $lang['CAPTCHA_WRONG'] = 'Сіз робот емес екенін растау мүмкін болмай тұр.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Капча толық конфигурацияланбаған</h2><p>Капча қызметінің аспаптар панелінде кілттерді жасаңыз, содан кейін оларды файл библиотека/config.php-ға енгізіңіз.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA текфондық режимде тексеріледі';
 
 // Sending email
