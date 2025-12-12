@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = '포럼 잘라내기 활성화.';
 $lang['ALLOW_BBCODE'] = 'BBCode 허용.';
 $lang['ALLOW_SMILIES'] = '스마일리 허용.';
 $lang['SMILIES_PATH'] = '스마일리 저장 경로.';
-$lang['SMILIES_PATH_EXPLAIN'] = '당신의 TorrentPier 루트 디렉터리 아래의 경로, 예: styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = '서명 허용.';
 $lang['MAX_SIG_LENGTH'] = '최대 서명 길이.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '사용자 서명에 있는 최대 문자 수.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = '당신이 로봇이 아님을 확인해야 합니다.';
 $lang['CAPTCHA_WRONG'] = '당신이 로봇이 아님을 확인할 수 없습니다.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha가 완전히 구성되지 않았습니다</h2><p>귀하의 캡차 서비스 대시보드를 사용하여 키를 생성한 후, 파일 library/config.php에 값을 입력해야 합니다.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA 확인이 백그라운드에서 발생합니다';
 
 // Sending email
