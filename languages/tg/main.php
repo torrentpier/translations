@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Форуми Буридани фаъол.';
 $lang['ALLOW_BBCODE'] = 'Иҷозат BBCode.';
 $lang['ALLOW_SMILIES'] = 'Иҷозат Smilies.';
 $lang['SMILIES_PATH'] = 'Роҳи смайлия.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Роҳи зери директорияи решаи TorrentPier, масалан: styles/images/smiles.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Иҷозат номиз.';
 $lang['MAX_SIG_LENGTH'] = 'Меъёри максималии имзо.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Нишонци максималии нишонаҳо.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Санҷед, ки шумо як робот нест.';
 $lang['CAPTCHA_WRONG'] = 'Шумо наметавонед, ки шумо як робот нест.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha комилан конфигур нашудааст</h2><p>Масонҳои асрорро бо истифодаи панэллаи хизматрасонии captcha тавлид кунед, пас онҳо бояд дар файли library/config.php гузошта шаванд.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Санҷиши CAPTCHA дар пасзамина сурат мегирад';
 
 // Sending email
