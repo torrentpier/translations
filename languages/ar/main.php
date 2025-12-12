@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'تمكين التقليم في المنتدى';
 $lang['ALLOW_BBCODE'] = 'السماح بـ BBCode';
 $lang['ALLOW_SMILIES'] = 'تسمح الابتسامات';
 $lang['SMILIES_PATH'] = 'الابتسامات مسار التخزين';
-$lang['SMILIES_PATH_EXPLAIN'] = 'المسار تحت دليل TorrentPier الجذر الخاص بك، مثل styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'تسمح التوقيعات';
 $lang['MAX_SIG_LENGTH'] = 'أقصى طول التوقيع';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'الحد الأقصى لعدد الأحرف في مستخدم التوقيعات';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'تحقق من أنك لست روبوت';
 $lang['CAPTCHA_WRONG'] = 'أنت لا تستطيع أن تؤكد أنك لست روبوت';
-$lang['CAPTCHA_SETTINGS'] = '<h2>كابتشا لم يتم تكوينها بالكامل</h2><p>قم بإنشاء المفاتيح باستخدام لوحة التحكم الخاصة بخدمة الكابتشا، بعد ذلك تحتاج إلى وضعها في ملف library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'تتم عملية التحقق من كابتشا في الخلفية';
 
 // Sending email

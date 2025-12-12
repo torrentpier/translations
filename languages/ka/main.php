@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'ფორუმის გავრცელების
 $lang['ALLOW_BBCODE'] = 'BBCode-ს საშუალება.';
 $lang['ALLOW_SMILIES'] = 'სმაილების საშუალებას.';
 $lang['SMILIES_PATH'] = 'სმაილების შენახვის გზა.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'ქვედა პორტში.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'ხელმოწერების საშუალება.';
 $lang['MAX_SIG_LENGTH'] = 'მაქსიმალური ხელმოწერის სიგრძე';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'მომხმარებლის ხელმოწერებში სიმბოლოების მაქსიმალური რაოდენობა.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'შეამოწმეთ, რომ თქვენ არ ხართ რობოტი';
 $lang['CAPTCHA_WRONG'] = 'თქვენ ვერ დაადასტურეთ, თქვენ არ ხართ რობოტი.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha სრულად არ არის კონფიგურირებული</h2><p>შეინახეთ გასაღები თქვენი captcha სერვისის სასურველი პროგრამული მართვის პანელში, შემდეგ უნდა მოათავსოთ ისინი ფაილში library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-ის შოუ ხდება ფონად';
 
 // Sending email

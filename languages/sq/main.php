@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Aktivizoni Prunimin e Forumit';
 $lang['ALLOW_BBCODE'] = 'Të Lejojë BBCode';
 $lang['ALLOW_SMILIES'] = 'Të Lejojë Smilies';
 $lang['SMILIES_PATH'] = 'Rruga e Ruajtjes së Smilies';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Rruga nën dosjen tuaj TorrentPier, p.sh. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Të Lejojë Nënshkrimet';
 $lang['MAX_SIG_LENGTH'] = 'Gjatësia maksimale e nënshkrimit';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numri maksimal i karaktereve në nënshkrimet e përdoruesit';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Kontrolloni se ju nuk jeni një robot';
 $lang['CAPTCHA_WRONG'] = 'Nuk mund të konfirmoni se nuk jeni një robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nuk është konfiguruar plotësisht</h2><p>Generoni çelësat duke përdorur panelin e shërbimit tuaj captcha, pastaj duhet t\'i vendosni ato në skedarin library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verifikimi CAPTCHA ndodh në sfond';
 
 // Sending email

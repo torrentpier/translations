@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Уключыць ачыстку форуму';
 $lang['ALLOW_BBCODE'] = 'Дазволіць BBCode';
 $lang['ALLOW_SMILIES'] = 'Дазволіць смайлікі';
 $lang['SMILIES_PATH'] = 'Смайлы шлях захоўвання';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Шлях пад вашым карэнным каталогам TorrentPier, напрыклад, styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Дазволіць подпісы';
 $lang['MAX_SIG_LENGTH'] = 'Максімальная даўжыня подпісы';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Максімальная колькасць знакаў у подпісы карыстальнікаў';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Пераканайцеся, што Вы не робат';
 $lang['CAPTCHA_WRONG'] = 'Вы не маглі б пацвердзіць, што Вы не робат';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha не поўнасцю наладжаны</h2><p>Сгенеруйце ключы, выкарыстоўваючы панэль кіравання вашай captcha-сэрвісу, пасля гэтага вам трэба ўставіць іх у файл library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Праверка CAPTCHA адбываецца ў фонавым рэжыме';
 
 // Sending email

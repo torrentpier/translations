@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Укључите орезивање форума';
 $lang['ALLOW_BBCODE'] = 'Дозволите ББ код';
 $lang['ALLOW_SMILIES'] = 'Дозволите смајлије';
 $lang['SMILIES_PATH'] = 'Пут смајлија';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Пут под вашим TorrentPier главним директоријумом, нпр. стилови/slike/nasmejani';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Дозволите потписе';
 $lang['MAX_SIG_LENGTH'] = 'Максимална дужина потписа';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Максималан број карактера у потписима корисника';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Уверите се да нисте робот';
 $lang['CAPTCHA_WRONG'] = 'Нисте могли да потврдите да нисте робот';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha није потпуно конфигурисан</h2><p>Генеришите кључеве користећи контролну таблу ваше captcha услуге, након тога их ставите у фајл library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Потврда CAPTCHA се дешава у позадини';
 
 // Sending email

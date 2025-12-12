@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Võimalda foorumi pügamine.';
 $lang['ALLOW_BBCODE'] = 'Luba BBCode';
 $lang['ALLOW_SMILIES'] = 'Võimaldab emotikone.';
 $lang['SMILIES_PATH'] = 'Emotikonide salvestamise tee.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Tee all oma TorrentPier root kataloogi, nt styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Lubavad allkirjad.';
 $lang['MAX_SIG_LENGTH'] = 'Maksimaalne allkiri pikkus';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimaalne tähemärkide arv kasutaja allkirjadele.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Kontrollige, et te ei ole robot';
 $lang['CAPTCHA_WRONG'] = 'Sa ei suutnud kinnitada, et sa ei ole robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha ei ole täielikult konfigureeritud</h2><p>Genereerige võtmed oma captcha teenuse juhtpaneeli kaudu, pärast mida peate need lisama failile library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA kontroll toimub taustal';
 
 // Sending email

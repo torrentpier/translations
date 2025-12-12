@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Povoliť spúšťanie fóra';
 $lang['ALLOW_BBCODE'] = 'Povoliť BBCode';
 $lang['ALLOW_SMILIES'] = 'Povoliť Smajlíky';
 $lang['SMILIES_PATH'] = 'Cesta na ukladanie smajlíkov';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Cesta pod TorrentPier koreňového adresára, napr. štýly/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Povoliť podpisy';
 $lang['MAX_SIG_LENGTH'] = 'Maximálna dĺžka podpisu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximálny počet znakov v podpisoch používateľa';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Skontrolujte, že nie ste robot';
 $lang['CAPTCHA_WRONG'] = 'Nemohli ste potvrdiť, že nie ste robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nie je úplne nakonfigurovaná</h2><p>Vygenerujte kľúče pomocou panelu vášho captcha services, po tom ich umiestnite do súboru library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Overenie CAPTCHA prebieha na pozadí';
 
 // Sending email

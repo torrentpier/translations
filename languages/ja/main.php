@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'フォーラムのプルーニングを有効にする'
 $lang['ALLOW_BBCODE'] = 'BBCodeを許可する';
 $lang['ALLOW_SMILIES'] = 'スマイリーを許可する';
 $lang['SMILIES_PATH'] = 'スマイリーのストレージパス';
-$lang['SMILIES_PATH_EXPLAIN'] = 'あなたのTorrentPierルートディレクトリの下のパス、例：styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = '署名を許可する';
 $lang['MAX_SIG_LENGTH'] = '署名の最大長さ';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'ユーザーの署名における最大文字数';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'ロボットではないことを確認してください';
 $lang['CAPTCHA_WRONG'] = 'ロボットではないことを確認できませんでした';
-$lang['CAPTCHA_SETTINGS'] = '<h2>キャプチャが完全に構成されていません</h2><p>キャプチャサービスのダッシュボードを使用してキーを生成した後、それらをファイルライブラリ/config.php に配置してください。</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHAの検証はバックグラウンドで行われます';
 
 // Sending email

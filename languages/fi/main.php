@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Ota foorumin karsinta käyttöön.';
 $lang['ALLOW_BBCODE'] = 'Salli BBCode.';
 $lang['ALLOW_SMILIES'] = 'Salli hymiöt.';
 $lang['SMILIES_PATH'] = 'Hymiöiden tallennuspolku.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Polku alla TorrentPierin juurihakemistossa, esim. tyylit/images/smiles.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Salli allekirjoitukset.';
 $lang['MAX_SIG_LENGTH'] = 'Allekirjoituksen maksimipituus.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Merkkien enimmäismäärä käyttäjän allekirjoituksissa.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Tarkista, että et ole robotti';
 $lang['CAPTCHA_WRONG'] = 'Et voi vahvistaa, että et ole robotti.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha ei ole täysin määritetty</h2><p>Generoi avaimet käyttämällä captcha-palvelusi ohjauspaneelia, minkä jälkeen sinun on asetettava ne tiedostoon library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-tarkastus tapahtuu taustalla';
 
 // Sending email

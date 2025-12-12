@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Միացնել միջանկյալ խորհուրդը։'
 $lang['ALLOW_BBCODE'] = 'Թույլատրել BB կոդը։';
 $lang['ALLOW_SMILIES'] = 'Թույլատրել էմոտիկաներ։';
 $lang['SMILIES_PATH'] = 'Էմոտիկաների պահպանումման ճանապարհը։';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Ճանապարհը դուք պետք է անցկացնեք ձեր կայքը torrentpier արմատ գրացուցակը։';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Թույլատրել ստորագրությունները։';
 $lang['MAX_SIG_LENGTH'] = 'Առավելագույն երկարությունը ստորագրություններով։';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Առավելագույն նշանները օգտագործողների ստորագրությունների մեջ։';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Համոզվեք, որ դուք ռոբոտ չեք։';
 $lang['CAPTCHA_WRONG'] = 'Դուք չեք կարող հաստատել, որ դուք ռոբոտ չեք։';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha-ն լիովին չի կարգավորված</h2><p>Ստեղծեք բանալիները ձեր captcha ծառայության հսկողությունների միջոցով, հետո դուք միջոցներ պետք է դնեք ֆայլի library/config.php-ում:</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-ի ստուգումը կատարվում է հետևելիս';
 
 // Sending email

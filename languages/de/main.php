@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Forum-Beschneiden aktivieren.';
 $lang['ALLOW_BBCODE'] = 'BBCode erlauben.';
 $lang['ALLOW_SMILIES'] = 'Smilies erlauben.';
 $lang['SMILIES_PATH'] = 'Pfad zur Smilies-Speicherung.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Pfad unter Ihrem TorrentPier-Hauptverzeichnis, z.B. styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Signaturen erlauben.';
 $lang['MAX_SIG_LENGTH'] = 'Maximale Länge der Signatur.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximale Anzahl von Zeichen in Benutzer-Signaturen.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Überprüfen Sie, dass Sie kein Roboter sind.';
 $lang['CAPTCHA_WRONG'] = 'Sie konnten nicht bestätigen, dass Sie kein Roboter sind.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha ist nicht vollständig konfiguriert</h2><p>Generieren Sie die Schlüssel mit dem Dashboard Ihres Captcha-Dienstes, danach müssen Sie sie in der Datei library/config.php einfügen.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Die CAPTCHA-Überprüfung erfolgt im Hintergrund';
 
 // Sending email

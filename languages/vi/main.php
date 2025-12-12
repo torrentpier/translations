@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Cho phép tỉa diễn đàn';
 $lang['ALLOW_BBCODE'] = 'Cho phép BBCode';
 $lang['ALLOW_SMILIES'] = 'Cho phép biểu tượng cảm xúc';
 $lang['SMILIES_PATH'] = 'Đường dẫn lưu trữ biểu tượng cảm xúc';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Đường dẫn dưới thư mục gốc TorrentPier của bạn, ví dụ: styles/images/smiles.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Cho phép chữ ký';
 $lang['MAX_SIG_LENGTH'] = 'Chiều dài tối đa chữ ký';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Số ký tự tối đa trong chữ ký của người dùng';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Kiểm tra đó bạn không phải là một robot';
 $lang['CAPTCHA_WRONG'] = 'Bạn không thể xác nhận rằng bạn không phải là một robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha chưa được cấu hình đầy đủ</h2><p>Chạy các khóa bằng bảng điều khiển của dịch vụ captcha của bạn sau đó cần đặt chúng vào thư mục file/library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Việc xác minh CAPTCHA diễn ra ở chế độ nền';
 
 // Sending email

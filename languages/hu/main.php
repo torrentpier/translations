@@ -1537,7 +1537,7 @@ $lang['ENABLE_PRUNE'] = 'Engedélyezze A Fórum Metszés';
 $lang['ALLOW_BBCODE'] = 'Lehetővé BBCode';
 $lang['ALLOW_SMILIES'] = 'Lehetővé Teszi Az Emotikonok';
 $lang['SMILIES_PATH'] = 'Smiley-Tároló Út';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Az elérési út a TorrentPier gyökérkönyvtára alatt, pl. stílusok/képek/emoji';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Lehetővé Teszi, Aláírás';
 $lang['MAX_SIG_LENGTH'] = 'Maximális aláírás hossza';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximális karakterek száma, a felhasználói aláírás';
@@ -2277,7 +2277,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Ellenőrizze, hogy nem egy robot.';
 $lang['CAPTCHA_WRONG'] = 'Azt nem tudta megerősíteni, hogy nem egy robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>A CAPTCHA nincs teljesen konfigurálva</h2><p>A kulcsokat a CAPTCHA szolgáltató irányítópultján kell generálni, ezután be kell őket írni a library/config.php fájlba.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'A CAPTCHA ellenőrzés a háttérben történik';
 
 // Sending email

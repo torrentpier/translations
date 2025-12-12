@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'לאפשר פורום גיזום.';
 $lang['ALLOW_BBCODE'] = 'לאפשר BBCode.';
 $lang['ALLOW_SMILIES'] = 'לאפשר סמיילים.';
 $lang['SMILIES_PATH'] = 'סמיילים אחסון נתיב.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'נתיב מתחת TorrentPier שורש dir, למשל, סגנונות/תמונות/חיוכים';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'לאפשר חתימות.';
 $lang['MAX_SIG_LENGTH'] = 'מקסימום אורך חתימה.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'המספר המרבי של תווים המשתמש חתימות.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'בדוק שאתה לא רובוט';
 $lang['CAPTCHA_WRONG'] = 'לא הצלחת לאשר שאינך רובוט.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>ה-Captcha לא הוגדר במלואו</h2><p>פעמים את המפתחות באמצעות לוח הבקרה של שירות ה-captcha שלך, אחרי זה אתה צריך לשים אותם בספריית הקבצים/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'אימות ה-CAPTCHA מתבצע ברקע';
 
 // Sending email
