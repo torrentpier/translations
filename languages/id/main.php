@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Mengaktifkan Pemangkasan Forum.';
 $lang['ALLOW_BBCODE'] = 'Memungkinkan BBCode.';
 $lang['ALLOW_SMILIES'] = 'Memungkinkan Smilies.';
 $lang['SMILIES_PATH'] = 'Jalur Penyimpanan Smilies.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path di bawah direktori root TorrentPier Anda, misalnya: styles/images/smiles.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Memungkinkan Tanda Tangan.';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum panjang tanda tangan.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Jumlah maksimum karakter pada tanda tangan pengguna.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Periksa bahwa anda bukan robot';
 $lang['CAPTCHA_WRONG'] = 'Anda tidak bisa mengkonfirmasi bahwa anda bukan robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha tidak sepenuhnya dikonfigurasi</h2><p>Hasilkan kunci menggunakan dasbor layanan captcha Anda, setelah itu Anda perlu menempatkannya di file library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verifikasi CAPTCHA terjadi di latar belakang';
 
 // Sending email
