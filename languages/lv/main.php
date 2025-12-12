@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Iespēt forumu atzarošanas.';
 $lang['ALLOW_BBCODE'] = 'Atļaut BBCode';
 $lang['ALLOW_SMILIES'] = 'Atļaut smaidiņus';
 $lang['SMILIES_PATH'] = 'Smaidiņu uzglabāšanas ceļš';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Ceļš zem jūsu TorrentPier saknes direktorijas, piemēram, styles/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Atļaut parakstus';
 $lang['MAX_SIG_LENGTH'] = 'Maksimālais paraksta garums.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimālais rakstzīmju skaits lietotāja parakstos.';
@@ -2281,7 +2281,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Pārbaudiet, ka jums nav robots';
 $lang['CAPTCHA_WRONG'] = 'Jūs nevarējāt apstiprināt, ka neesat robots';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nav pilnībā konfigurēta</h2><p>Izveidojiet atslēgas, izmantojot sava captcha pakalpojuma vadības paneli, pēc tam tās jāpievieno failā library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA pārbaude notiek fona režīmā';
 
 // Sending email
