@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Включить чистку форумов';
 $lang['ALLOW_BBCODE'] = 'Разрешить BBCode';
 $lang['ALLOW_SMILIES'] = 'Разрешить смайлики';
 $lang['SMILIES_PATH'] = 'Путь к смайликам';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Каталог ниже корня TorrentPier, например styles/images/smilies';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Разрешить подписи';
 $lang['MAX_SIG_LENGTH'] = 'Макс. длина подписи';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Максимальное кол-во символов в подписи пользователя';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Проверка, что вы не робот';
 $lang['CAPTCHA_WRONG'] = 'Вы не смогли подтвердить, что вы не робот';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Капча не полностью настроена</h2><p>Сгенерируйте ключи, используя панель управления вашим сервисом капчи, а затем вставьте их в файл library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Проверка CAPTCHA происходит в фоновом режиме';
 
 // Sending email
