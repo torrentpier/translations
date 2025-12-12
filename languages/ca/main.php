@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Activar Fòrum Poda';
 $lang['ALLOW_BBCODE'] = 'Permet BBCode';
 $lang['ALLOW_SMILIES'] = 'Permetre Emoticones';
 $lang['SMILIES_PATH'] = 'Camí d\'Emmagatzematge Emoticones';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Camí sota el vostre directori arrel TorrentPier, per exemple, estils/images/somriures.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Permet Signatures';
 $lang['MAX_SIG_LENGTH'] = 'Màxima longitud de la signatura';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Nombre màxim de caràcters en les signatures d\'usuari';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Comprovar que no ets un robot';
 $lang['CAPTCHA_WRONG'] = 'No es podia confirmar que no ets un robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>El CAPTCHA no està completament configurat</h2><p>Genera les claus utilitzant el tauler de control del teu servei de captcha, després has de posar-les al fitxer library/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'La verificació de CAPTCHA es realitza en segon pla';
 
 // Sending email
