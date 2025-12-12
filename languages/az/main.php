@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Forumun Pruninqlərini aktivləşdirin.';
 $lang['ALLOW_BBCODE'] = 'BB Kodunu təmin edin.';
 $lang['ALLOW_SMILIES'] = 'Smiley-lərə icazə verilir.';
 $lang['SMILIES_PATH'] = 'Smileylərin Saxlama Yolu';
-$lang['SMILIES_PATH_EXPLAIN'] = 'TorrentPier kök kataloqu zərfində, məsələn üslublar/images/smilies.';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'İmzaya icazə verir.';
 $lang['MAX_SIG_LENGTH'] = 'İmzaların maksimum uzunluğu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'İstifadəçi imzalarında maksimum simvol sayı';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Əmin olun ki, Siz robot deyilsiniz.';
 $lang['CAPTCHA_WRONG'] = 'Ola bilər ki, təsdiq edə bilməmisiniz ki, Siz robot deyilsiniz.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha tam konfiqurasiya edilməyib</h2><p>Captcha xidmətinin idarəetmə panelindən açarları yaradın, daha sonra onları fayl library/config.php-da yerləşdirməlisiniz.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA təsdiqi arxa planda baş verir';
 
 // Sending email
