@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Activați tăierea forumi.';
 $lang['ALLOW_BBCODE'] = 'Permite BBCode';
 $lang['ALLOW_SMILIES'] = 'Permite zâmbete.';
 $lang['SMILIES_PATH'] = 'Calea de stocare a zâmbetelor.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Calea sub directorul rădăcină TorrentPier, de exemplu, stiluri/imagine/smile-uri';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Permite Semnături';
 $lang['MAX_SIG_LENGTH'] = 'Lungimea maximă a semnăturii.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numărul maxim de caractere din semnăturile utilizatorului.';
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Verificați că nu sunt un robot';
 $lang['CAPTCHA_WRONG'] = 'Nu ați putut confirma că nu sunteți un robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nu este complet configurat</h2><p>Generați cheile folosind tabloul de bord al serviciului dumneavoastră captcha, după care trebuie să le introduceți în biblioteca fișierelor/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verificarea CAPTCHA are loc în fundal';
 
 // Sending email
