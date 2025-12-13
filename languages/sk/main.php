@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Pohlavie';
 $lang['GENDER_SELECT'] = [
     0 => 'Neznáma',
     1 => 'Muž',
-    2 => 'Žena'
+    2 => 'Žena',
 ];
 $lang['MODULE_OFF'] = 'Modul je zakázaný!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Ďakujeme za registráciu. Váš účet bol vytvorený
 $lang['ACCOUNT_INACTIVE'] = 'Váš účet bol vytvorený. Avšak, toto fórum vyžaduje aktiváciu účtu. Aktivačný kľúč bol odoslaný na e-mailovú adresu, ktorú ste zadali. Prosím, skontrolujte svoj e-mail pre ďalšie informácie.';
 $lang['ACCOUNT_ACTIVE'] = 'Váš účet bol práve aktivovaný. Ďakujeme za registráciu.';
 $lang['ALREADY_ACTIVATED'] = 'Už ste aktivovali svoj účet.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Aktivačný kľúč, ktorý ste dodali, sa nezhoduje s žiadnym v databáze.';
 $lang['PASSWORD_UPDATED'] = 'Nové heslo bolo vytvorené; prosím, skontrolujte svoj e-mail pre podrobnosti o tom, ako ho aktivovať.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'Otvorte v rovnakom okne.';
 $lang['SHOW_TIME_TOPICS'] = 'Zobraziť čas vytvorenia tém.';
 $lang['SHOW_CURSOR'] = 'Označte riadok pod kurzorom.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "S pomerom <b>%s</b> nemôžete sťahovať torrenty";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'S pomerom <b>%s</b> nemôžete sťahovať torrenty';
 $lang['BT_RATIO_WARNING_MSG'] = 'Ak váš pomer klesne pod %s, nebudete môcť sťahovať torrenty! <a href="%s"><b>Viac o hodnotení.</b></a>.';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nevidel: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Heslá zodpovedajú';
 $lang['CHOOSE_PASS_REG_OK'] = 'Heslá zodpovedajú, môžete pokračovať v registrácii';
 $lang['CHOOSE_PASS_FAILED'] = 'Pre zmenu hesla je nutné správne zadať aktuálne heslo';
 $lang['EMAILER_DISABLED'] = 'Ospravedlňujeme sa, táto funkcia dočasne nefunguje';
-$lang['REGISTERED_IN_TIME'] = "Registrácia je aktuálne uzavretá<br /><br />Registrácia je k dispozícii od: %s<br />Aktuálny čas servera: %s<br /><br />Ospravedlňujeme sa za spôsobené nepríjemnosti";
+$lang['REGISTERED_IN_TIME'] = 'Registrácia je aktuálne uzavretá<br /><br />Registrácia je k dispozícii od: %s<br />Aktuálny čas servera: %s<br /><br />Ospravedlňujeme sa za spôsobené nepríjemnosti';
 $lang['AUTOCOMPLETE'] = 'Generovať heslo';
 $lang['YOUR_NEW_PASSWORD'] = 'Vaše nové heslo:';
 $lang['REGENERATE'] = 'Obnoviť';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Povoliť spúšťanie fóra';
 $lang['ALLOW_BBCODE'] = 'Povoliť BBCode';
 $lang['ALLOW_SMILIES'] = 'Povoliť Smajlíky';
 $lang['SMILIES_PATH'] = 'Cesta na ukladanie smajlíkov';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Cesta v rámci verejného adresára TorrentPier, napr. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Povoliť podpisy';
 $lang['MAX_SIG_LENGTH'] = 'Maximálna dĺžka podpisu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximálny počet znakov v podpisoch používateľa';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent prehliadač (tracker.php) dostupné l
 $lang['BT_SEARCH_BOOL_MODE'] = 'Povoliť booleovské fulltextové vyhľadávanie';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'použite *, +, - pri hľadaní';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Rôzne";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Rôzne';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Zobraziť štatistiky UL/DL používateľa v hornej časti hlavnej stránky fóra";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automaticky zaregistrovať torrent na tracker pre nové témy';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Zmeniť stav témy na "Stiahnuť" počas registrácie torrentu na tracker';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'denne',
     'weekly' => 'týždenne',
     'monthly' => 'mesačne',
-    'interval' => 'interval'
+    'interval' => 'interval',
 ];
 $lang['NOSELECT'] = 'Nie je vybrané';
 $lang['RUN_DAY'] = 'Deň spustenia';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'vypnúť fórum, keď táto úloha bude spustená
 $lang['RUN_COUNTER'] = 'Beží proti';
 
 $lang['JOB_REMOVED'] = 'Úloha bola úspešne odstránená';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Cron úloha s týmto skriptom už existuje';
+$lang['TITLE_DUPLICATE'] = 'Cron úloha s týmto názvom už existuje';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVrátiť sa k pridaniu úlohy%s';
 $lang['CLICK_RETURN_JOBS'] = '%sNávrat do Plánovača úloh%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'fóra v tejto kategórii';
 $lang['MC_TITLE'] = 'Komentár moderátora';
 $lang['MC_LEGEND'] = 'Napíšte komentár';
 $lang['MC_FAQ'] = 'Zadaný text sa zobrazí pod túto správu';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s v správe";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s v správe';
 $lang['MC_COMMENT_PM_MSG'] = "Ahoj, [b]%s[/b]\nModerátor nechal v tvojej správe [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Skontrolujte, že nie ste robot';
 $lang['CAPTCHA_WRONG'] = 'Nemohli ste potvrdiť, že nie ste robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nie je úplne nakonfigurovaná</h2><p>Vygenerujte kľúče pomocou ovládacieho panela vašej captcha služby, potom ich vložte do súboru config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Overenie CAPTCHA prebieha na pozadí';
 
 // Sending email
