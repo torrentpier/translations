@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Sukupuolten';
 $lang['GENDER_SELECT'] = [
     0 => 'Tuntematon',
     1 => 'Mies',
-    2 => 'Nainen'
+    2 => 'Nainen',
 ];
 $lang['MODULE_OFF'] = 'Moduuli on poistettu käytöstä!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Kiitos rekisteröitymisestä. Tilisi on luotu. Voit ny
 $lang['ACCOUNT_INACTIVE'] = 'Tilisi on luotu. Kuitenkin, tämä foorumi vaatii tilin aktivoinnin. Aktivointiavain on lähetetty antamaasi sähköpostiosoitteeseen. Tarkista sähköpostisi saadaksesi lisätietoja.';
 $lang['ACCOUNT_ACTIVE'] = 'Tilisi on aktivoitu. Kiitos rekisteröitymisestä';
 $lang['ALREADY_ACTIVATED'] = 'Olet jo aktivoinut tilin';
-
 
 $lang['WRONG_ACTIVATION'] = 'Antamasi aktivointiavain ei vastaa mitään tietokannan arvoa.';
 $lang['PASSWORD_UPDATED'] = 'Uusi salasana on luotu; tarkista sähköpostisi saadaksesi lisätietoja sen aktivoimiseksi.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'avaa saman ikkunan';
 $lang['SHOW_TIME_TOPICS'] = 'näyttää aiheen luontiaika';
 $lang['SHOW_CURSOR'] = 'korosta rivi kursorin';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Suhteella <b>%s</b> et voi ladata torrentteja.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Suhteella <b>%s</b> et voi ladata torrentteja.';
 $lang['BT_RATIO_WARNING_MSG'] = 'Jos suhteesi alittaa %s, et voi ladata torrentteja! <a href="%s"><b>Lisää ratingista.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder ei nähty: <b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Salasanat täsmäävät.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Salasanat täsmäävät, voit jatkaa rekisteröintiä.';
 $lang['CHOOSE_PASS_FAILED'] = 'Voit vaihtaa salasanan, sinun on oikein määritettävä nykyinen salasana.';
 $lang['EMAILER_DISABLED'] = 'Anteeksi, tämä ominaisuus ei toimi tilapäisesti.';
-$lang['REGISTERED_IN_TIME'] = "Rekisteröinti on tällä hetkellä suljettu<br /><br />Rekisteröinti on mahdollista aikana: %s<br />Nykyinen palvelinaika: %s<br /><br />Pahoittelemme vaivannäköä";
+$lang['REGISTERED_IN_TIME'] = 'Rekisteröinti on tällä hetkellä suljettu<br /><br />Rekisteröinti on mahdollista aikana: %s<br />Nykyinen palvelinaika: %s<br /><br />Pahoittelemme vaivannäköä';
 $lang['AUTOCOMPLETE'] = 'Generoi salasana';
 $lang['YOUR_NEW_PASSWORD'] = 'Uusi salasanasi:';
 $lang['REGENERATE'] = 'Uudista.';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Ota foorumin karsinta käyttöön.';
 $lang['ALLOW_BBCODE'] = 'Salli BBCode.';
 $lang['ALLOW_SMILIES'] = 'Salli hymiöt.';
 $lang['SMILIES_PATH'] = 'Hymiöiden tallennuspolku.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Polku TorrentPierin julkisen hakemiston alla, esim. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Salli allekirjoitukset.';
 $lang['MAX_SIG_LENGTH'] = 'Allekirjoituksen maksimipituus.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Merkkien enimmäismäärä käyttäjän allekirjoituksissa.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-selain (tracker.php) on käytettävis
 $lang['BT_SEARCH_BOOL_MODE'] = 'Salli boolean full-text-haut.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Käytä *, + ja - hauissa';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Sekalainen";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Sekalainen';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Näytä käyttäjän UL/DL tilastot foorumin pääsivun yläosassa";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automaattisesti rekisteröi torrent tracker uusia aiheita';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Muuttaa aihe-tilan "Lataa", kun rekisteröidään torrent trackerille';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'päivittäin',
     'weekly' => 'viikoittain',
     'monthly' => 'kuukausittain',
-    'interval' => 'väli'
+    'interval' => 'väli',
 ];
 $lang['NOSELECT'] = 'Ei valintaa';
 $lang['RUN_DAY'] = 'Aja päivä';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'poistaa foorumilta, kun tämä työ suoritetaan';
 $lang['RUN_COUNTER'] = 'Laskuri';
 
 $lang['JOB_REMOVED'] = 'Tehtävä on poistettu onnistuneesti';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Ajastettu tehtävä, jolla tämä skripti on, on jo olemassa';
+$lang['TITLE_DUPLICATE'] = 'Ajastettu tehtävä tällä nimellä on jo olemassa';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sPalaa lisää työpaikkaa%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTakaisin Tehtävään Aikatauluttaja%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'foorumeilla tähän luokkaan';
 $lang['MC_TITLE'] = 'Moderointi kommentti';
 $lang['MC_LEGEND'] = 'Kirjoita kommentti';
 $lang['MC_FAQ'] = 'Syötetty teksti näytetään tämän viestin alla.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s viestissäsi.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s viestissäsi.';
 $lang['MC_COMMENT_PM_MSG'] = "Hei, [b]%s[/b]\nModeraattori jätti viestisi [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Tarkista, että et ole robotti';
 $lang['CAPTCHA_WRONG'] = 'Et voi vahvistaa, että et ole robotti.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha ei ole täysin määritetty</h2><p>Generoi avaimet käyttämällä captcha-palvelusi ohjauspaneelia, minkä jälkeen sinun on asetettava ne tiedostoon config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-tarkastus tapahtuu taustalla';
 
 // Sending email
