@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Gen';
 $lang['GENDER_SELECT'] = [
     0 => 'Necunoscut',
     1 => 'Masculin.',
-    2 => 'Feminine.'
+    2 => 'Feminine.',
 ];
 $lang['MODULE_OFF'] = 'Modul este dezactivat!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Vă mulțumim pentru înregistrare. Contul dvs. a fost
 $lang['ACCOUNT_INACTIVE'] = 'Contul dvs. a fost creat; totuși, acest forum necesită activarea contului.';
 $lang['ACCOUNT_ACTIVE'] = 'Contul dvs. a fost activat. Vă mulțumim pentru înregistrarea';
 $lang['ALREADY_ACTIVATED'] = 'Ați activat deja contul dvs.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Cheia de activare furnizată nu se potrivesc nici cu baza de date.';
 $lang['PASSWORD_UPDATED'] = 'O nouă parolă a fost creată; vă rugăm să verificați adresa dvs. de e-mail pentru detalii.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'deschide în aceeași fereastră';
 $lang['SHOW_TIME_TOPICS'] = 'evidențiați timpul creației subiectelor.';
 $lang['SHOW_CURSOR'] = 'evidențiați rândul de sub cursor';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Cu raport <b>%s</b> nu puteți descărca de pe torente";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Cu raport <b>%s</b> nu puteți descărca de pe torente';
 $lang['BT_RATIO_WARNING_MSG'] = 'Dacă raportul tău scade sub %s, nu poți descărca Torrente! <a href="%s"><b>Mai multe despre rating.</b></a>.';
 
 $lang['SEEDER_LAST_SEEN'] = 'Semănătorul nu a fost văzut: <b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Parolele se potrivesc';
 $lang['CHOOSE_PASS_REG_OK'] = 'Parolele se potrivesc, puteți continua cu înregistrarea';
 $lang['CHOOSE_PASS_FAILED'] = 'Pentru a schimba parola, trebuie să specificați în mod corect parola curentă';
 $lang['EMAILER_DISABLED'] = 'Ne pare rău, această caracteristică nu funcționează temporar';
-$lang['REGISTERED_IN_TIME'] = "Înregistrarea este în prezent închisă<br /><br />Înregistrarea este disponibilă în timpul: %s<br />Ora curentă a serverului: %s<br /><br />Ne cerem scuze pentru inconvenient";
+$lang['REGISTERED_IN_TIME'] = 'Înregistrarea este în prezent închisă<br /><br />Înregistrarea este disponibilă în timpul: %s<br />Ora curentă a serverului: %s<br /><br />Ne cerem scuze pentru inconvenient';
 $lang['AUTOCOMPLETE'] = 'Generați parolă';
 $lang['YOUR_NEW_PASSWORD'] = 'Noua dvs. parolă:';
 $lang['REGENERATE'] = 'Regenera';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Activați tăierea forumi.';
 $lang['ALLOW_BBCODE'] = 'Permite BBCode';
 $lang['ALLOW_SMILIES'] = 'Permite zâmbete.';
 $lang['SMILIES_PATH'] = 'Calea de stocare a zâmbetelor.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Calea din directorul public TorrentPier, de ex. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Permite Semnături';
 $lang['MAX_SIG_LENGTH'] = 'Lungimea maximă a semnăturii.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numărul maxim de caractere din semnăturile utilizatorului.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Browser-ul de torrente (tracker.php) accesibi
 $lang['BT_SEARCH_BOOL_MODE'] = 'Permite boolean căutări full-text';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'folosiți *, +, - în căutări';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diverse";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Diverse';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Arată statistici UL/DL utilizatori în partea de sus a paginii principale a forumului";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Înregistra automat torrent pe tracker pentru subiecte noi';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Schimbați starea subiectului în "Descărcare" în timp ce înregistrați torrentul pe tracker.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'de zi cu zi.',
     'weekly' => 'săptămânal.',
     'monthly' => 'lunar.',
-    'interval' => 'interval.'
+    'interval' => 'interval.',
 ];
 $lang['NOSELECT'] = 'Nu selectați.';
 $lang['RUN_DAY'] = 'Rulați zi.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Dezactivați tabloul când acest loc de muncă es
 $lang['RUN_COUNTER'] = 'În contradicție.';
 
 $lang['JOB_REMOVED'] = 'Sarcina a fost eliminată cu succes';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Un job cron cu acest script există deja';
+$lang['TITLE_DUPLICATE'] = 'Un job cron cu acest titlu există deja';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sÎntoarceți-vă pentru a adăuga sarcina%s';
 $lang['CLICK_RETURN_JOBS'] = '%s Înapoi la programatorul de sarcini %s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'forumuri în această categorie';
 $lang['MC_TITLE'] = 'Comentariul moderării';
 $lang['MC_LEGEND'] = 'Tastați un comentariu';
 $lang['MC_FAQ'] = 'Textul introdus va fi afișat sub acest mesaj';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s în mesajul dvs.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s în mesajul dvs.';
 $lang['MC_COMMENT_PM_MSG'] = "Salut, [b]%s[/b]\nModerator lăsat în mesajul [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Verificați că nu sunt un robot';
 $lang['CAPTCHA_WRONG'] = 'Nu ați putut confirma că nu sunteți un robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nu este complet configurat</h2><p>Generați cheile folosind tabloul de bord al serviciului captcha, apoi trebuie să le puneți în fișierul config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verificarea CAPTCHA are loc în fundal';
 
 // Sending email
