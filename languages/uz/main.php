@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Jins';
 $lang['GENDER_SELECT'] = [
     0 => 'noma\'lum',
     1 => 'erkak',
-    2 => 'ayol'
+    2 => 'ayol',
 ];
 $lang['MODULE_OFF'] = 'Modul o\'chirildi!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Ro\'yxatdan o\'tganingiz uchun rahmat. Sizning hisobin
 $lang['ACCOUNT_INACTIVE'] = 'Sizning hisobingiz yaratildi. Biroq, bu forum hisob aktivlashtirishni talab qiladi. Faollashtirish kaliti siz taqdim etgan e-mail manziliga yuborildi. Qo\'shimcha ma\'lumot olish uchun e-pochta manzilini tekshiring.';
 $lang['ACCOUNT_ACTIVE'] = 'Sizning hisobingiz faollashtirildi. Ro\'yxatdan o\'tganingiz uchun rahmat.';
 $lang['ALREADY_ACTIVATED'] = 'Siz allaqachon hisobingizni faollashtirdingiz.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Taqdim etilgan faollashtirish kaliti ma\'lumotlar bazasida mos kelmaydi.';
 $lang['PASSWORD_UPDATED'] = 'Yangi parol yaratildi; uni faollashtirish usullari bo\'yicha batafsil ma\'lumot uchun e-pochtaingizni tekshiring.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'shu oynada ochish';
 $lang['SHOW_TIME_TOPICS'] = 'yaratuvchi mavzular vaqti ko\'rsatadi.';
 $lang['SHOW_CURSOR'] = 'Kursordan ostida qatorni ta\'kidlash.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "nisbati bilan <b>%s</b> siz torrentlarni yuklab ololmaysiz.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'nisbati bilan <b>%s</b> siz torrentlarni yuklab ololmaysiz.';
 $lang['BT_RATIO_WARNING_MSG'] = 'Sizning nisbatingiz %s ga tushib qolsangiz, sizga torrentlarni yuklab olish imkoningiz bo\'lmaydi! <a href="%s"><b>Raqamlar haqida ko\'proq.</b></a>.';
 
 $lang['SEEDER_LAST_SEEN'] = 'ko\'rmagan seeder: <b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Parollar mos keladi.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Parollar mos keladi, ro\'yxatdan o\'xshash.';
 $lang['CHOOSE_PASS_FAILED'] = 'Parolni o\'zgartirish uchun, joriy parol to\'g\'ri belgilanishi kerak.';
 $lang['EMAILER_DISABLED'] = 'Kechirasiz, bu xususiyat vaqtincha ishlamayapti.';
-$lang['REGISTERED_IN_TIME'] = "Ro'yxatdan o'tish hozirda yopiq<br /><br /> Ro'yxatdan o'tish mumkin bo'lgan vaqt: %s<br /> Hozirgi server vaqti: %s<br /><br /> Noqulayliklar uchun uzr";
+$lang['REGISTERED_IN_TIME'] = 'Ro\'yxatdan o\'tish hozirda yopiq<br /><br /> Ro\'yxatdan o\'tish mumkin bo\'lgan vaqt: %s<br /> Hozirgi server vaqti: %s<br /><br /> Noqulayliklar uchun uzr';
 $lang['AUTOCOMPLETE'] = 'Parolni yaratish';
 $lang['YOUR_NEW_PASSWORD'] = 'Sizning yangi parolingiz:';
 $lang['REGENERATE'] = 'Qayta yarating.';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Forumni Azizillo qilishni yoqish.';
 $lang['ALLOW_BBCODE'] = 'BBCode\'ni ruxsat berish.';
 $lang['ALLOW_SMILIES'] = 'Jumlalarni ruxsat berish.';
 $lang['SMILIES_PATH'] = 'Jumlalarni saqlash yo\'li.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'TorrentPier jamoat katalogingiz ostidagi yo‘l, masalan, assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Imzalarni ruxsat berish.';
 $lang['MAX_SIG_LENGTH'] = 'Maksimal imzo uzunligi';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Foydalanuvchi imzolarining maksimal belgilar soni.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent brauzer (tracker.php) faqat tizimga k
 $lang['BT_SEARCH_BOOL_MODE'] = 'boolean to\'liq matnli qidiruvlarni ruxsat berish.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Qidiruvlarda *, +, - dan foydalaning';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "har xil.";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'har xil.';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Forum asosiy sahifasining yuqori qismida foydalanuvchi UL/DL statistikalarini ko'rsatish";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Avtomatik ravishda yangi mavzular uchun reyting www.uz torrent ro\'yxatdan.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'reyting www.uz torrent ro\'yxatdan berayotganda mavzu holatini "ko\'chirib" ga o\'zgartirish.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'kundalik.',
     'weekly' => 'haftalik.',
     'monthly' => 'oylik.',
-    'interval' => 'interval.'
+    'interval' => 'interval.',
 ];
 $lang['NOSELECT'] = 'Hech tanlang.';
 $lang['RUN_DAY'] = 'ishga tushirish kun.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Bu ish paytida taxtasidan o\'chirish.';
 $lang['RUN_COUNTER'] = 'Counter ishga tushirish';
 
 $lang['JOB_REMOVED'] = 'Ish muvaffaqiyatli olib tashlandi';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Ushbu skript uchun cron vazifasi allaqachon mavjud';
+$lang['TITLE_DUPLICATE'] = 'Ushbu nom bilan cron vazifasi allaqachon mavjud';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s Ish qo\'shishga qaytish%s';
 $lang['CLICK_RETURN_JOBS'] = '%s Vazifa Scheduler %s ga qaytish';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'Ushbu turkumda forumlar.';
 $lang['MC_TITLE'] = 'Moderatsiya izohi';
 $lang['MC_LEGEND'] = 'Izoh kiriting.';
 $lang['MC_FAQ'] = 'Kiritilgan matn, ushbu xabar ostida ko\'rsatiladi.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "Sizning xabarda %s.";
+$lang['MC_COMMENT_PM_SUBJECT'] = 'Sizning xabarda %s.';
 $lang['MC_COMMENT_PM_MSG'] = "Salom, [b]%s[/b]\nModerator sizning xabaringizda [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote] qoldirdi.";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Siz robot emasligingizni tekshiring.';
 $lang['CAPTCHA_WRONG'] = 'Siz robot emasligingizni tasdiqlay olmaysiz.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha to‘liq sozlanmagan</h2><p>Captcha xizmati boshqaruv panelidan kalitlarni yarating, so‘ngra ularni config/config.php fayliga joylashtiring.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA tasdiqlash ortda amalga oshiriladi';
 
 // Sending email
