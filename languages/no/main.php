@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Kjønn';
 $lang['GENDER_SELECT'] = [
     0 => 'Ukjent',
     1 => 'Mann',
-    2 => 'Kvinne'
+    2 => 'Kvinne',
 ];
 $lang['MODULE_OFF'] = 'Modulen er deaktivert!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Takk for din registrering. Din konto har blitt opprett
 $lang['ACCOUNT_INACTIVE'] = 'Din konto har blitt opprettet. Imidlertid, dette forumet krever aktivering av konto. En aktiveringsnøkkel har blitt sendt til den e-postadressen du har oppgitt. Vennligst sjekk din e-post for mer informasjon';
 $lang['ACCOUNT_ACTIVE'] = 'Kontoen din har nettopp blitt aktivert. Takk for at du registrerte deg.';
 $lang['ALREADY_ACTIVATED'] = 'Du har allerede aktivert kontoen din.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Aktiveringsnøkkelen du har oppgitt, stemmer ikke overens med noen i databasen.';
 $lang['PASSWORD_UPDATED'] = 'Et nytt passord er opprettet; vennligst sjekk e-posten din for detaljer om hvordan du aktiverer det.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'åpne i samme vindu';
 $lang['SHOW_TIME_TOPICS'] = 'vis klokkeslett for oppretting av emner';
 $lang['SHOW_CURSOR'] = 'Marker raden under musepekeren';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Med forhold <b>%s</b> kan du ikke laste ned torrents";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Med forhold <b>%s</b> kan du ikke laste ned torrents';
 $lang['BT_RATIO_WARNING_MSG'] = 'Hvis forholdet ditt faller under %s, vil du ikke kunne laste ned Torrents! <a href="%s"><b>Mer om rangeringssystemet.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder ikke sett: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Passordene samsvarer.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Passord samsvarer, kan du fortsette med registrering';
 $lang['CHOOSE_PASS_FAILED'] = 'Hvis du vil endre passordet, må du angi det nåværende passordet riktig.';
 $lang['EMAILER_DISABLED'] = 'Beklager, denne funksjonen fungerer ikke midlertidig.';
-$lang['REGISTERED_IN_TIME'] = "Registrering er for øyeblikket stengt<br /><br />Registrering er tilgjengelig i løpet av: %s<br />Nåværende server tid: %s<br /><br />Vi beklager ulempene";
+$lang['REGISTERED_IN_TIME'] = 'Registrering er for øyeblikket stengt<br /><br />Registrering er tilgjengelig i løpet av: %s<br />Nåværende server tid: %s<br /><br />Vi beklager ulempene';
 $lang['AUTOCOMPLETE'] = 'Generer passord';
 $lang['YOUR_NEW_PASSWORD'] = 'Ditt nye passord:';
 $lang['REGENERATE'] = 'Regenerere';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Aktiver Forum Beskjæring';
 $lang['ALLOW_BBCODE'] = 'La BBCode';
 $lang['ALLOW_SMILIES'] = 'La Smilier';
 $lang['SMILIES_PATH'] = 'Smilier Lagring Banen';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Sti under din TorrentPier offentlige katalog, f.eks. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'La Signaturer';
 $lang['MAX_SIG_LENGTH'] = 'Maksimal signatur lengde';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalt antall tegn i bruker signaturer';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-nettleser (tracker.php) tilgjengelig 
 $lang['BT_SEARCH_BOOL_MODE'] = 'Tillat boolske fulltekst søk';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'bruk *, +, - i søk';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diverse";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Diverse';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Vis bruker UL/DL-statistikk øverst på forumets hovedside";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automatisk registrere torrent på tracker for nye emner';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Endre emnet status til "Last ned" ved registrering av torrent på tracker';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'daglig',
     'weekly' => 'ukentlig',
     'monthly' => 'månedlig',
-    'interval' => 'intervall'
+    'interval' => 'intervall',
 ];
 $lang['NOSELECT'] = 'Ingen valgt';
 $lang['RUN_DAY'] = 'Kjør dag';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktiver styret når denne jobben kjøres';
 $lang['RUN_COUNTER'] = 'Kjøring';
 
 $lang['JOB_REMOVED'] = 'Jobben har blitt fjernet.';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'En cron-jobb med dette skriptet finnes allerede';
+$lang['TITLE_DUPLICATE'] = 'En cron-jobb med denne tittelen finnes allerede';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sGå tilbake for å legge til jobb%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTilbake til Oppgavestyreren%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'fora i denne kategorien';
 $lang['MC_TITLE'] = 'Moderering kommentar';
 $lang['MC_LEGEND'] = 'Skriv en kommentar';
 $lang['MC_FAQ'] = 'Teksten vil bli vist under denne meldingen';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s i meldingen";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s i meldingen';
 $lang['MC_COMMENT_PM_MSG'] = "Hei, [b]%s[/b]\nModerator har etterlatt deg meldingen [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Sjekk at du ikke er en robot';
 $lang['CAPTCHA_WRONG'] = 'Du kunne ikke bekrefte at du ikke er en robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha er ikke fullstendig konfigurert</h2><p>Generer nøklene ved å bruke dashbordet til captcha-tjenesten din, og deretter må du legge dem inn i filen config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-verifiseringen skjer i bakgrunnen';
 
 // Sending email
