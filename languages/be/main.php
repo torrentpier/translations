@@ -1914,7 +1914,7 @@ $lang['RUN_COUNTER'] = 'This translation is incorrect.';
 
 $lang['JOB_REMOVED'] = 'Работа была паспяхова выдалена';
 $lang['SCRIPT_DUPLICATE'] = 'Гэтая праца cron з гэтым скрыптам ужо існуе';
-$lang['TITLE_DUPLICATE'] = 'Работа cron з гэтым назвай ужо існуе';
+$lang['TITLE_DUPLICATE'] = 'Работа cron з гэтай назвай ужо існуе';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sВярнуцца да дабаўлення працы%s';
 $lang['CLICK_RETURN_JOBS'] = '%sНазад у планавальнік задач%s.';
 

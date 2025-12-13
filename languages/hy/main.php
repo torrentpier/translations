@@ -1914,7 +1914,7 @@ $lang['RUN_COUNTER'] = 'Հաշվետու счетчик';
 
 $lang['JOB_REMOVED'] = 'Աշխատանքը հաջողությամբ հեռացվել է';
 $lang['SCRIPT_DUPLICATE'] = 'Այս սցենարով արդեն գոյություն ունի cron աշխատանք';
-$lang['TITLE_DUPLICATE'] = 'Այս  शीर्षքով արդեն գոյություն ունի cron աշխատանք';
+$lang['TITLE_DUPLICATE'] = 'Այս վերնագրով արդեն գոյություն ունի cron աշխատանք';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sՎերադառնալ ավելացնել աշխատանքի%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack to the Task Scheduler%s';
 
