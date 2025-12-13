@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Nemek.';
 $lang['GENDER_SELECT'] = [
     0 => 'Ismeretlen',
     1 => 'Férfi',
-    2 => 'Nő.'
+    2 => 'Nő.',
 ];
 $lang['MODULE_OFF'] = 'Modul tiltva!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Köszönjük a regisztrációt. A fiókját létrehozt
 $lang['ACCOUNT_INACTIVE'] = 'A fiókja létrejött. Azonban ennek a fórumnak aktíválásra van szüksége. Egy aktiválási kulcsot küldtünk az Ön által megadott e-mail címre. Kérjük, ellenőrizze az e-mailt a további információkért.';
 $lang['ACCOUNT_ACTIVE'] = 'A fiók most aktív. Köszönöm a regisztrációt.';
 $lang['ALREADY_ACTIVATED'] = 'Már aktiválta a fiókját.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Az aktiválási kulcs, amelyet megadott, nem felel meg a tartalomnak az adatbázisban.';
 $lang['PASSWORD_UPDATED'] = 'Az új jelszó elkészült; kérjük, ellenőrizze az e-mailt a részletekhez, hogy miként aktiválja.';
@@ -1043,7 +1043,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'Ugyanabban az ablakban nyitva.';
 $lang['SHOW_TIME_TOPICS'] = 'A téma létrehozásának ideje.';
 $lang['SHOW_CURSOR'] = 'Jelölje ki a sort a kurzor alatt.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "A <b>%s</b> arány nem lehet letölteni a torrentet.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'A <b>%s</b> arány nem lehet letölteni a torrentet.';
 $lang['BT_RATIO_WARNING_MSG'] = 'Ha az arány alá csökken, %s, akkor nem tudja letölteni a torrentet! <a href="%s"><b>Több az értékelésről.</b></a>.';
 
 $lang['SEEDER_LAST_SEEN'] = 'A vetőgép nem láttam: <b>%s</b>.';
@@ -1218,7 +1218,7 @@ $lang['CHOOSE_PASS_OK'] = 'Jelszavak egyeznek.';
 $lang['CHOOSE_PASS_REG_OK'] = 'A jelszavak egyeznek, folytathatja a regisztrációt.';
 $lang['CHOOSE_PASS_FAILED'] = 'A jelszó megváltoztatásához helyesen meg kell adnia a jelenlegi jelszavát.';
 $lang['EMAILER_DISABLED'] = 'Sajnálom, ez a funkció átmenetileg nem működik';
-$lang['REGISTERED_IN_TIME'] = "A regisztráció jelenleg zárva van<br /><br />A regisztráció a következő időszakban elérhető: %s<br />Jelenlegi szerveridő: %s<br /><br />Elnézést kérünk a kellemetlenségért";
+$lang['REGISTERED_IN_TIME'] = 'A regisztráció jelenleg zárva van<br /><br />A regisztráció a következő időszakban elérhető: %s<br />Jelenlegi szerveridő: %s<br /><br />Elnézést kérünk a kellemetlenségért';
 $lang['AUTOCOMPLETE'] = 'Jelszó generálása';
 $lang['YOUR_NEW_PASSWORD'] = 'Az új jelszó:';
 $lang['REGENERATE'] = 'Regenerál.';
@@ -1537,7 +1537,7 @@ $lang['ENABLE_PRUNE'] = 'Engedélyezze A Fórum Metszés';
 $lang['ALLOW_BBCODE'] = 'Lehetővé BBCode';
 $lang['ALLOW_SMILIES'] = 'Lehetővé Teszi Az Emotikonok';
 $lang['SMILIES_PATH'] = 'Smiley-Tároló Út';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Útvonal a TorrentPier nyilvános könyvtára alatt, pl. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Lehetővé Teszi, Aláírás';
 $lang['MAX_SIG_LENGTH'] = 'Maximális aláírás hossza';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximális karakterek száma, a felhasználói aláírás';
@@ -1845,7 +1845,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'A torrentböngésző (tracker.php) csak bejel
 $lang['BT_SEARCH_BOOL_MODE'] = 'Lehetővé teszi logikai teljes szöveges keresés';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Használja a *, +, - karaktereket a keresésekben.';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Egyéb";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Egyéb';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "A felhasználók UL/DL statisztikai adatai láthatók a fórum főoldalának tetején";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automatikusan regisztrálja torrent tracker új témákat';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Változás téma állapota, hogy "Download", miközben a regisztráció torrent tracker';
@@ -1893,7 +1893,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'napi',
     'weekly' => 'heti',
     'monthly' => 'havi',
-    'interval' => 'intervallum'
+    'interval' => 'intervallum',
 ];
 $lang['NOSELECT'] = 'Válassza ki nem';
 $lang['RUN_DAY'] = 'Futtassa a nap';
@@ -1914,8 +1914,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'letiltja a fedélzeten, amikor ez a feladat fut';
 $lang['RUN_COUNTER'] = 'Ellentétes';
 
 $lang['JOB_REMOVED'] = 'A feladat sikeresen eltávolítva';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Ezzel a szkripttel már létezik cron feladat';
+$lang['TITLE_DUPLICATE'] = 'Ezzel a címmel már létezik cron feladat';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVissza az új feladat hozzáadásához%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack, hogy a Feladat Scheduler%s';
 
@@ -2162,7 +2162,7 @@ $lang['FORUMS_IN_CAT'] = 'fórumok abban a kategóriában';
 $lang['MC_TITLE'] = 'Moderálási megjegyzés';
 $lang['MC_LEGEND'] = 'Írjon be egy megjegyzést';
 $lang['MC_FAQ'] = 'A beírt szöveg meg fog jelenni ezen az üzeneten.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s az üzenetedben.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s az üzenetedben.';
 $lang['MC_COMMENT_PM_MSG'] = "Helló, [b]%s[/b]\nA moderátor üzenetében maradt [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote].";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2277,7 +2277,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Ellenőrizze, hogy nem egy robot.';
 $lang['CAPTCHA_WRONG'] = 'Azt nem tudta megerősíteni, hogy nem egy robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>A CAPTCHA nincs teljesen konfigurálva</h2><p>A kulcsokat a CAPTCHA szolgáltató irányítópultján kell generálni, majd be kell őket írni a config/config.php fájlba.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'A CAPTCHA ellenőrzés a háttérben történik';
 
 // Sending email
