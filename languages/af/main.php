@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'geslag';
 $lang['GENDER_SELECT'] = [
     0 => 'onbekend',
     1 => 'Manlik',
-    2 => 'vroulike'
+    2 => 'vroulike',
 ];
 $lang['MODULE_OFF'] = 'Module is gedeaktiveer!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Dankie vir registrasie. Jou rekening is geskep. U kan 
 $lang['ACCOUNT_INACTIVE'] = 'Jou rekening is geskep. Hierdie forum vereis egter rekeningaktivering. \'N Aktiveringsleutel is gestuur na die e-pos adres wat u verskaf het. Gaan asseblief jou e-pos na vir meer inligting';
 $lang['ACCOUNT_ACTIVE'] = 'Jou rekening is pas geaktiveer. Dankie vir registrasie';
 $lang['ALREADY_ACTIVATED'] = 'Jy het jou rekening reeds geaktiveer';
-
 
 $lang['WRONG_ACTIVATION'] = 'Die aktiveringsleutel wat u verskaf het, stem nie ooreen met enige in die databasis nie.';
 $lang['PASSWORD_UPDATED'] = '\'N Nuwe wagwoord is geskep; Gaan asseblief jou e-pos na vir meer inligting oor hoe om dit te aktiveer.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'Oop in dieselfde venster';
 $lang['SHOW_TIME_TOPICS'] = 'Wys tyd van die skeppingsonderwerpe';
 $lang['SHOW_CURSOR'] = 'Merk die ry onder die wyser';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Met verhouding <b>%s</b> kan jy nie torrents aflaai nie.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Met verhouding <b>%s</b> kan jy nie torrents aflaai nie.';
 $lang['BT_RATIO_WARNING_MSG'] = 'As jou verhouding laer is as %s, sal jy nie Torrents kan aflaai nie! <a href="%s"><b>Meer oor die gradering.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Saaier nie gesien nie: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Wagwoorde pas';
 $lang['CHOOSE_PASS_REG_OK'] = 'Wagwoorde ooreenstem, jy kan voortgaan met die registrasie';
 $lang['CHOOSE_PASS_FAILED'] = 'Om die wagwoord te verander, moet u die huidige wagwoord korrek spesifiseer';
 $lang['EMAILER_DISABLED'] = 'Jammer, hierdie funksie werk tydelik nie';
-$lang['REGISTERED_IN_TIME'] = "Registrasie is tans gesluit<br /><br />Registrasie is beskikbaar gedurende: %s<br />Huidige bediener tyd: %s<br /><br />Ons vra om verskoning vir die ongerief";
+$lang['REGISTERED_IN_TIME'] = 'Registrasie is tans gesluit<br /><br />Registrasie is beskikbaar gedurende: %s<br />Huidige bediener tyd: %s<br /><br />Ons vra om verskoning vir die ongerief';
 $lang['AUTOCOMPLETE'] = 'Genereer wagwoord';
 $lang['YOUR_NEW_PASSWORD'] = 'U nuwe wagwoord:';
 $lang['REGENERATE'] = 'hergenerer';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Aktiveer Forum Snoei';
 $lang['ALLOW_BBCODE'] = 'Laat BBCode toe';
 $lang['ALLOW_SMILIES'] = 'Laat Smilies toe';
 $lang['SMILIES_PATH'] = 'Smilies berging pad';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Pad onder jou TorrentPier openbare gids, bv. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Laat handtekeninge toe';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum handtekening lengte';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimum aantal karakters in gebruikers handtekeninge';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-blaaier (tracker.php) is slegs toegan
 $lang['BT_SEARCH_BOOL_MODE'] = 'Laat Boolean-voltekssoektogte toe';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'Gebruik *, +, - in soektogte';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Divers";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Divers';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Wys gebruikers UL/DL statistieke in die boonste deel van die forum se hoofblad";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Outomaties registreer torrent op spoorsnyer vir nuwe onderwerpe';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Verander onderwerpstatus na "Download" terwyl jy torrent op spoorsnyer registreer';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'daaglikse',
     'weekly' => 'weeklikse',
     'monthly' => 'maandelikse',
-    'interval' => 'interval'
+    'interval' => 'interval',
 ];
 $lang['NOSELECT'] = 'Geen seleksie nie';
 $lang['RUN_DAY'] = 'Begin dag';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktiveer raad wanneer hierdie werk uitgevoer wo
 $lang['RUN_COUNTER'] = 'Begin toonbank';
 
 $lang['JOB_REMOVED'] = 'Die taak is suksesvol verwyder';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = '"n Cron-taak met hierdie skrip bestaan reeds';
+$lang['TITLE_DUPLICATE'] = '"n Cron-taak met hierdie titel bestaan reeds';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sTerug na voeg taak%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTerug na die Taakskeduleerder%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'Forums in daardie kategorie';
 $lang['MC_TITLE'] = 'Moderering kommentaar';
 $lang['MC_LEGEND'] = 'Tik \'n opmerking';
 $lang['MC_FAQ'] = 'Ingevoerde teks sal onder hierdie boodskap vertoon word';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s in jou boodskap";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s in jou boodskap';
 $lang['MC_COMMENT_PM_MSG'] = "Hallo, [b]%s[/b] \\ nModerator links in jou boodskap [url = %s] [b]%s[/b][/url][quote] \\ n%s \\ n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Maak seker dat jy nie \'n robot is nie';
 $lang['CAPTCHA_WRONG'] = 'Jy kon nie bevestig dat jy nie \'n robot is nie';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is nie volledig gekonfigureer nie</h2><p>Genereer die sleutels met die dashboard van jou captcha-diens, daarna moet jy dit in die lêer config/config.php plaas.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Die CAPTCHA-verifikasie vind in die agtergrond plaas';
 
 // Sending email
