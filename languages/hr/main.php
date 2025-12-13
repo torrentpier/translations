@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Spol';
 $lang['GENDER_SELECT'] = [
     0 => 'Nepoznat',
     1 => 'Muško',
-    2 => 'Žena'
+    2 => 'Žena',
 ];
 $lang['MODULE_OFF'] = 'Modul isključen!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Zahvaljujemo na registraciji. Vaš korisnički račun 
 $lang['ACCOUNT_INACTIVE'] = 'Vaš korisnički račun je stvoren.';
 $lang['ACCOUNT_ACTIVE'] = 'Vaš korisnički račun je aktiviran.';
 $lang['ALREADY_ACTIVATED'] = 'Vi ste već aktivirali svoj račun';
-
 
 $lang['WRONG_ACTIVATION'] = 'Aktivacijski ključ koji ste unijeli ne podudara se sa nijednim u bazi podataka.';
 $lang['PASSWORD_UPDATED'] = 'Nova lozinka je kreirana.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'Otvori u istom prozoru';
 $lang['SHOW_TIME_TOPICS'] = 'prikazati vrijeme stvaranja tema';
 $lang['SHOW_CURSOR'] = 'istaknite red ispod kursora';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "S koeficijentom <b>%s</b> ne možete preuzeti torrente";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'S koeficijentom <b>%s</b> ne možete preuzeti torrente';
 $lang['BT_RATIO_WARNING_MSG'] = 'Ako vaš koeficijent padne ispod %s, nećete moći preuzeti torrente! <a href="%s"><b>Više o koeficijentu.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nije viđen: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Lozinke se podudaraju.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Lozinke se podudaraju, možete nastaviti s registracijom.';
 $lang['CHOOSE_PASS_FAILED'] = 'Da biste promijenili lozinku, potrebno je pravilno odrediti trenutnu lozinku';
 $lang['EMAILER_DISABLED'] = 'Nažalost, ova funkcija privremeno ne radi';
-$lang['REGISTERED_IN_TIME'] = "Registracija je trenutno zatvorena<br /><br />Registracija je dostupna tijekom: %s<br />Trenutno vrijeme poslužitelja: %s<br /><br />Ispričavamo se na neugodnosti";
+$lang['REGISTERED_IN_TIME'] = 'Registracija je trenutno zatvorena<br /><br />Registracija je dostupna tijekom: %s<br />Trenutno vrijeme poslužitelja: %s<br /><br />Ispričavamo se na neugodnosti';
 $lang['AUTOCOMPLETE'] = 'Generiraj lozinku';
 $lang['YOUR_NEW_PASSWORD'] = 'Vaša nova lozinka:';
 $lang['REGENERATE'] = 'Regenerirati.';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Omogućite orezivanje foruma';
 $lang['ALLOW_BBCODE'] = 'Dopusti BB Kod';
 $lang['ALLOW_SMILIES'] = 'Dopusti emojije';
 $lang['SMILIES_PATH'] = 'Put do emotikona';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Put unutar vašeg TorrentPier javnog direktorija, npr. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Dopusti Potpis';
 $lang['MAX_SIG_LENGTH'] = 'Maksimalna duljina potpisa';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalan broj znakova u potpis korisnika';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent preglednik (tracker.php) dostupan je 
 $lang['BT_SEARCH_BOOL_MODE'] = 'Dopusti logično full-text pretraživanje';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'koristite *, +, - u pretragama';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Razno";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Razno';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Prikaži UL/DL statistike korisnika na vrhu glavne stranice foruma";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automatska Registracija torrenta na adresi nove teme';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Status teme promijenjen u "Preuzimanje" prilikom registracije torrenta.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'Svaki dan.',
     'weekly' => 'Svake sedmice.',
     'monthly' => 'Svaki mjesec.',
-    'interval' => 'interval'
+    'interval' => 'interval',
 ];
 $lang['NOSELECT'] = 'Nema izbora';
 $lang['RUN_DAY'] = 'Dan pokretanja.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'isključite forum kada se ovaj posao obavlja';
 $lang['RUN_COUNTER'] = 'Pokreni brojač';
 
 $lang['JOB_REMOVED'] = 'Zadatak je uspješno uklonjen';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Cron zadatak s ovim skriptom već postoji';
+$lang['TITLE_DUPLICATE'] = 'Cron zadatak s ovim naslovom već postoji';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sPovratak na dodavanje posla%s';
 $lang['CLICK_RETURN_JOBS'] = '%sNazad na planer zadatka%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'forumi u toj kategoriji';
 $lang['MC_TITLE'] = 'Moderatorski komentar';
 $lang['MC_LEGEND'] = 'Unesite komentar';
 $lang['MC_FAQ'] = 'Uneseni tekst će biti prikazan ispod ove poruke.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s u vašoj poruci.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s u vašoj poruci.';
 $lang['MC_COMMENT_PM_MSG'] = "Bok, [b]%s[/b]\nModerator je ostavio u vašoj poruci [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Provjerite da niste robot';
 $lang['CAPTCHA_WRONG'] = 'Niste mogli potvrditi da niste robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nije potpuno konfigurirana</h2><p>Generirajte ključeve koristeći nadzornu ploču vaše captcha usluge, nakon što ih stavite u datoteku config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verifikacija CAPTCHA-e odvija se u pozadini';
 
 // Sending email
