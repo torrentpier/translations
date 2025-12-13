@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Το φύλο';
 $lang['GENDER_SELECT'] = [
     0 => 'Άγνωστο',
     1 => 'Αρσενικό',
-    2 => 'Θηλυκό'
+    2 => 'Θηλυκό',
 ];
 $lang['MODULE_OFF'] = 'Μονάδα είναι απενεργοποιημένη!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Σας ευχαριστούμε για την εγγρ
 $lang['ACCOUNT_INACTIVE'] = 'Ο λογαριασμός σας έχει δημιουργηθεί. Ωστόσο, αυτό το φόρουμ απαιτεί την ενεργοποίηση του λογαριασμού. Ένα κλειδί ενεργοποίησης έχει σταλεί στο e-mail που δώσατε. Παρακαλώ ελέγξτε το e-mail σας για περαιτέρω πληροφορίες';
 $lang['ACCOUNT_ACTIVE'] = 'Ο λογαριασμός σας έχει ενεργοποιηθεί. Σας ευχαριστούμε για την εγγραφή';
 $lang['ALREADY_ACTIVATED'] = 'Έχετε ήδη ενεργοποιήσει το λογαριασμό σας';
-
 
 $lang['WRONG_ACTIVATION'] = 'Το κλειδί ενεργοποίησης που πληκτρολογήσατε δεν ταιριάζει με καμία από την βάση δεδομένων.';
 $lang['PASSWORD_UPDATED'] = 'Ένας νέος κωδικός πρόσβασης έχει δημιουργηθεί. Παρακαλώ ελέγξτε το e-mail σας για λεπτομέρειες σχετικά με το πώς να τον ενεργοποιήσετε.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'άνοιγμα στο ίδιο παράθυρο'
 $lang['SHOW_TIME_TOPICS'] = 'Εμφανίστε την ώρα δημιουργίας θεμάτων.';
 $lang['SHOW_CURSOR'] = 'Επισημάνετε τη γραμμή κάτω από τον δρομέα.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Με αναλογία <b>%s</b> μπορείτε να κατεβάσετε torrents";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Με αναλογία <b>%s</b> μπορείτε να κατεβάσετε torrents';
 $lang['BT_RATIO_WARNING_MSG'] = 'Εάν η αναλογία σας πέσει κάτω από %s, δεν θα μπορείτε να κατεβάσετε torrents! <a href="%s"><b>Περισσότερα σχετικά με την αξιολόγηση.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder δεν έχει δει: <b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Κωδικοί πρόσβασης ταιριάζου�
 $lang['CHOOSE_PASS_REG_OK'] = 'Κωδικοί πρόσβασης ταιριάζουν, μπορείτε να προχωρήσετε με την εγγραφή';
 $lang['CHOOSE_PASS_FAILED'] = 'Για να αλλάξετε τον κωδικό πρόσβασης, θα πρέπει να καθορίσετε σωστά τον τρέχοντα κωδικό πρόσβασης';
 $lang['EMAILER_DISABLED'] = 'Λυπάμαι, αυτή η λειτουργία δεν λειτουργεί προσωρινά.';
-$lang['REGISTERED_IN_TIME'] = "Η εγγραφή είναι προσωρινά κλειστή<br /><br />Η εγγραφή είναι διαθέσιμη κατά: %s<br />Τρέχουσα ώρα διακομιστή: %s<br /><br />Λυπάμαι για την ταλαιπωρία";
+$lang['REGISTERED_IN_TIME'] = 'Η εγγραφή είναι προσωρινά κλειστή<br /><br />Η εγγραφή είναι διαθέσιμη κατά: %s<br />Τρέχουσα ώρα διακομιστή: %s<br /><br />Λυπάμαι για την ταλαιπωρία';
 $lang['AUTOCOMPLETE'] = 'Δημιουργία κωδικού πρόσβασης';
 $lang['YOUR_NEW_PASSWORD'] = 'Ο νέος σας κωδικός πρόσβασης:';
 $lang['REGENERATE'] = 'Αναγεννάτε.';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Ενεργοποίηση φόρουμ κλαδεμάτ�
 $lang['ALLOW_BBCODE'] = 'Επιτρέπουν BBCode.';
 $lang['ALLOW_SMILIES'] = 'Επιτρέπουν Smilies.';
 $lang['SMILIES_PATH'] = 'Διαδρομή αποθήκευσης Smilies.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Διαδρομή κάτω από τον δημόσιο φάκελο του TorrentPier σας, π.χ. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Επιτρέπουν υπογραφές.';
 $lang['MAX_SIG_LENGTH'] = 'Μέγιστο μήκος υπογραφής.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Μέγιστος αριθμός χαρακτήρων στις υπογραφές χρηστών.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Πρόγραμμα περιήγησης torre
 $lang['BT_SEARCH_BOOL_MODE'] = 'Επιτρέπουν boolean full-text αναζητήσεις.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'χρησιμοποιήστε *, +, - στις αναζητήσεις';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Διάφορα.";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Διάφορα.';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Εμφάνιση στατιστικών UL/DL χρηστών στην κορυφή της κύριας σελίδας του φόρουμ";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Αυτόματα εγγραφή torrent στον tracker για νέα θέματα.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Αλλαγή καθεστώτος θέματος σε "Κατέβασμα" κατά την εγγραφή torrent στον tracker.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'Καθημερινά.',
     'weekly' => 'Εβδομαδιαία.',
     'monthly' => 'Μηνιαία.',
-    'interval' => 'Διάστημα.'
+    'interval' => 'Διάστημα.',
 ];
 $lang['NOSELECT'] = 'Όχι, επιλέξτε.';
 $lang['RUN_DAY'] = 'Εκτελέστε την ημέρα.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Απενεργοποίηση του φόρουμ 
 $lang['RUN_COUNTER'] = 'Μετρητής εκτέλεσης.';
 
 $lang['JOB_REMOVED'] = 'Η εργασία έχει αφαιρεθεί με επιτυχία';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Μια εργασία cron με αυτό το σενάριο υπάρχει ήδη';
+$lang['TITLE_DUPLICATE'] = 'Μια εργασία cron με αυτόν τον τίτλο υπάρχει ήδη';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sΕπιστροφή για να προσθέσετε εργασία%s';
 $lang['CLICK_RETURN_JOBS'] = '%sΠίσω στον Προγραμματιστή Εργασιών%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'φόρουμ σε αυτή την κατηγορία';
 $lang['MC_TITLE'] = 'Σχόλιο συντονιστή';
 $lang['MC_LEGEND'] = 'Πληκτρολογήστε ένα σχόλιο';
 $lang['MC_FAQ'] = 'Το κείμενο θα εμφανιστεί κάτω από αυτό το μήνυμα.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s στο μήνυμά σας.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s στο μήνυμά σας.';
 $lang['MC_COMMENT_PM_MSG'] = "Γεια σας, [b]%s[/b]\nΟ συντονιστής άφησε το μήνυμά σας [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Ελέγξτε ότι δεν είστε ρομπότ';
 $lang['CAPTCHA_WRONG'] = 'Δεν μπορείτε να επιβεβαιώσετε ότι δεν είστε ρομπότ.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Το Captcha δεν έχει ρυθμιστεί πλήρως</h2><p>Δημιουργήστε τα κλειδιά χρησιμοποιώντας τον πίνακα ελέγχου της υπηρεσίας Captcha σας, μετά πρέπει να τα τοποθετήσετε στο αρχείο config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Η επαλήθευση CAPTCHA πραγματοποιείται στο παρασκήνιο';
 
 // Sending email

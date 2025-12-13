@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Lytis';
 $lang['GENDER_SELECT'] = [
     0 => 'Nežinomas',
     1 => 'Vyras',
-    2 => 'Moteris'
+    2 => 'Moteris',
 ];
 $lang['MODULE_OFF'] = 'Modulis yra išjungtas!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Dėkojame, kad užsiregistravote. Jūsų paskyra buvo 
 $lang['ACCOUNT_INACTIVE'] = 'Jūsų paskyra buvo sukurta. Tačiau šis forumas reikalauja aktyvinti paskyrą. Aktyvinimo raktas buvo išsiųstas į nurodytą el. pašto adresą. Prašome patikrinti savo el. paštą dėl tolesnės informacijos.';
 $lang['ACCOUNT_ACTIVE'] = 'Jūsų paskyra buvo aktyvuota. Dėkojame, kad užsiregistravote.';
 $lang['ALREADY_ACTIVATED'] = 'Jūsų paskyra jau buvo aktyvuota.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Jūsų pateiktas aktyvinimo raktas nesutampa su jokiu įrašu duomenų bazėje.';
 $lang['PASSWORD_UPDATED'] = 'Naujas slaptažodis buvo sukurtas; prašome patikrinti savo el. paštą dėl detalių, kaip jį aktyvinti.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'atidaryti tame pačiame lange';
 $lang['SHOW_TIME_TOPICS'] = 'Rodyti kūrimo laiką temose.';
 $lang['SHOW_CURSOR'] = 'Pažymėkite eilutę pagal žymeklį.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Santykis <b>%s</b> leidžia atsisiųsti torrent.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Santykis <b>%s</b> leidžia atsisiųsti torrent.';
 $lang['BT_RATIO_WARNING_MSG'] = 'Jei jūsų santykis nukrenta žemiau %s, jums nebus leidžiama atsisiųsti Torrent! <a href="%s"><b>Daugiau apie reitingą.</b></a>.';
 
 $lang['SEEDER_LAST_SEEN'] = 'Sėjamoji nebuvo matyta: <b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Slaptažodžiai atitinka!';
 $lang['CHOOSE_PASS_REG_OK'] = 'Slaptažodžiai atitinka, galite tęsti registraciją!';
 $lang['CHOOSE_PASS_FAILED'] = 'Norėdami pakeisti slaptažodį, turite teisingai nurodyti dabartinį slaptažodį';
 $lang['EMAILER_DISABLED'] = 'Atsiprašome, ši funkcija laikinai neveikia!';
-$lang['REGISTERED_IN_TIME'] = "Registracija šiuo metu uždaryta<br /><br />Registracija yra prieinama per: %s<br />Dabartinė serverio laikas: %s<br /><br />Atsiprašome už nepatogumus";
+$lang['REGISTERED_IN_TIME'] = 'Registracija šiuo metu uždaryta<br /><br />Registracija yra prieinama per: %s<br />Dabartinė serverio laikas: %s<br /><br />Atsiprašome už nepatogumus';
 $lang['AUTOCOMPLETE'] = 'Sugeneruoti slaptažodį';
 $lang['YOUR_NEW_PASSWORD'] = 'Jūsų naujas slaptažodis:';
 $lang['REGENERATE'] = 'Atkurti!';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Leidžia forumo genėjimą';
 $lang['ALLOW_BBCODE'] = 'Leisti BBCode';
 $lang['ALLOW_SMILIES'] = 'Leisti šypsenėles';
 $lang['SMILIES_PATH'] = 'Šypsenėlių saugojimo kelias';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Kelias po jūsų TorrentPier viešuoju katalogu, pvz., assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Leisti parašus';
 $lang['MAX_SIG_LENGTH'] = 'Maksimalus parašo ilgis';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimalus simbolių skaičius vartotojo parašuose';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = '„Torrent“ failų naršyklė (tracker.php)
 $lang['BT_SEARCH_BOOL_MODE'] = 'Leisti loginę (Boolean) pilno teksto paiešką';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'naudokite *, +, - paieškose';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Įvairūs";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Įvairūs';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Rodyti vartotojų UL/DL statistiką forumo pagrindiniame puslapyje";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automatiškai registruoti torrentą tracker\'yje kuriant naujas temas.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Nustatyti temos statusą į „Atsisiųsti“ registruojant torrentą tracker\'yje.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'kasdien',
     'weekly' => 'kas savaitę',
     'monthly' => 'kas mėnesį',
-    'interval' => 'intervalas'
+    'interval' => 'intervalas',
 ];
 $lang['NOSELECT'] = 'Nėra pasirinkta';
 $lang['RUN_DAY'] = 'Vykdymo diena';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'išjungti forumą, kai šis darbas vykdomas';
 $lang['RUN_COUNTER'] = 'Nustatyti skaičių';
 
 $lang['JOB_REMOVED'] = 'Darbas buvo sėkmingai pašalintas';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Cron užduotis su šiuo scenarijumi jau egzistuoja';
+$lang['TITLE_DUPLICATE'] = 'Cron užduotis su tokiu pavadinimu jau egzistuoja';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sGrįžti prie pridėti darbo%s';
 $lang['CLICK_RETURN_JOBS'] = '%sAtgal į Užduočių Tvarkyklę%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'forumuose šioje kategorijoje.';
 $lang['MC_TITLE'] = 'Moderavimo komentaras';
 $lang['MC_LEGEND'] = 'Įrašykite komentarą.';
 $lang['MC_FAQ'] = 'Įrašytas tekstas bus rodomas po šiuo pranešimu.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s jūsų pranešime.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s jūsų pranešime.';
 $lang['MC_COMMENT_PM_MSG'] = "Sveiki, [b]%s[/b]\nModeratorius paliko jūsų pranešime [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Patikrinkite, kad jūs esate ne robotas';
 $lang['CAPTCHA_WRONG'] = 'Jūs negalėjote patvirtinti, kad jūs esate ne robotas.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nėra visiškai sukonfigūruota</h2><p>Generuokite raktus naudodami jūsų captcha paslaugos valdymo skydelį, tada juos reikia įdėti į failą config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA patikrinimas vyksta fone';
 
 // Sending email

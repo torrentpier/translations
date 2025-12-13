@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Dzimums';
 $lang['GENDER_SELECT'] = [
     0 => 'Nav zināms',
     1 => 'Vīrietis',
-    2 => 'Sieviete'
+    2 => 'Sieviete',
 ];
 $lang['MODULE_OFF'] = 'Modulis ir atslēgts!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Paldies par reģistrāciju. Jūsu konts ir izveidots. 
 $lang['ACCOUNT_INACTIVE'] = 'Jūsu konts ir izveidots. Tomēr šim forumam ir nepieciešama konta aktivizācija. Aktivizācijas atslēga ir nosūtīta uz e-pasta adresi, kuru norādījāt. Lūdzu, pārbaudiet savu e-pastu papildu informācijai.';
 $lang['ACCOUNT_ACTIVE'] = 'Jūsu konts ir tikko aktivizēts. Paldies par reģistrēšanos';
 $lang['ALREADY_ACTIVATED'] = 'Jūs jau esat aktivizējis savu kontu.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Aktivizācijas atslēga, ko esat sniedzis, neatbilst nevienai datu bāzē.';
 $lang['PASSWORD_UPDATED'] = 'Jauna parole ir izveidota; lūdzu, pārbaudiet savu e-pastu, lai iegūtu informāciju par to, kā to aktivizēt.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'atvērt tajā pašā logā';
 $lang['SHOW_TIME_TOPICS'] = 'rādīt laiku tēmām';
 $lang['SHOW_CURSOR'] = 'izcelt rindā zem kursora';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Ar attiecībām <b>%s</b> jūs nevarat lejupielādēt torrentus";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Ar attiecībām <b>%s</b> jūs nevarat lejupielādēt torrentus';
 $lang['BT_RATIO_WARNING_MSG'] = 'Ja jūsu attiecība ir zemāka par %s, jūs nevarēsit lejupielādēt torrentus! <a href="%s"><b>Vairāk par reitingu.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nav redzējis: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Paroles spēlēm';
 $lang['CHOOSE_PASS_REG_OK'] = 'Paroles spēlē, jūs varat turpināt reģistrāciju';
 $lang['CHOOSE_PASS_FAILED'] = 'Lai mainītu paroli, jums ir pareizi norādīt pašreizējo paroli';
 $lang['EMAILER_DISABLED'] = 'Atvainojiet, šis līdzeklis uz laiku nedarbojas.';
-$lang['REGISTERED_IN_TIME'] = "Reģistrācija pašlaik ir slēgta<br /><br />Reģistrācija ir pieejama laikā: %s<br />Pašreizējais servera laiks: %s<br /><br />Atvainojamies par sagādātajām neērtībām";
+$lang['REGISTERED_IN_TIME'] = 'Reģistrācija pašlaik ir slēgta<br /><br />Reģistrācija ir pieejama laikā: %s<br />Pašreizējais servera laiks: %s<br /><br />Atvainojamies par sagādātajām neērtībām';
 $lang['AUTOCOMPLETE'] = 'Ģenerēt paroli';
 $lang['YOUR_NEW_PASSWORD'] = 'Jūsu jaunā parole:';
 $lang['REGENERATE'] = 'Atjaunot';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Iespēt forumu atzarošanas.';
 $lang['ALLOW_BBCODE'] = 'Atļaut BBCode';
 $lang['ALLOW_SMILIES'] = 'Atļaut smaidiņus';
 $lang['SMILIES_PATH'] = 'Smaidiņu uzglabāšanas ceļš';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Ceļš zem jūsu TorrentPier publiskās mapes, piemēram, assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Atļaut parakstus';
 $lang['MAX_SIG_LENGTH'] = 'Maksimālais paraksta garums.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimālais rakstzīmju skaits lietotāja parakstos.';
@@ -1849,7 +1849,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent pārlūks (tracker.php) pieejams tika
 $lang['BT_SEARCH_BOOL_MODE'] = 'Ļauj boolean pilna teksta meklēšanu';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'izmantojiet *, +, - meklēšanā';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Dažādi";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Dažādi';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Rādīt lietotāju UL/DL statistiku foruma galvenās lapas augšdaļā";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automātiski reģistrēt torrent uz tracker jaunu tēmu';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Mainīt tēmu statusu uz "Lejupielādēt", bet reģistrējoties par torrent tracker';
@@ -1897,7 +1897,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'Dienā.',
     'weekly' => 'Reizi nedēļā.',
     'monthly' => 'Reizi mēnesī.',
-    'interval' => 'Intervāls.'
+    'interval' => 'Intervāls.',
 ];
 $lang['NOSELECT'] = 'Nav izvēlēts.';
 $lang['RUN_DAY'] = 'Darbības diena.';
@@ -1918,8 +1918,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'atspējot valdi, kad šis darbs tiek palaists';
 $lang['RUN_COUNTER'] = 'Skriptu pretruna';
 
 $lang['JOB_REMOVED'] = 'Darbs ir veiksmīgi izņemts';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Ar šo skriptu jau pastāv cron darbs';
+$lang['TITLE_DUPLICATE'] = 'Ar šo nosaukumu jau pastāv cron darbs';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sAtgriezties pie pievienotā darba%s';
 $lang['CLICK_RETURN_JOBS'] = '%sAtpakaļ uz uzdevumu plānotāju%s.';
 
@@ -2166,7 +2166,7 @@ $lang['FORUMS_IN_CAT'] = 'forumos šajā kategorijā';
 $lang['MC_TITLE'] = 'Moderācijas komentārs';
 $lang['MC_LEGEND'] = 'Lūdzu, ierakstiet savu komentāru';
 $lang['MC_FAQ'] = 'Ievadītais teksts tiks parādīts zem šīs ziņas';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s jūsu ziņā";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s jūsu ziņā';
 $lang['MC_COMMENT_PM_MSG'] = "Sveiki, [b]%s[/b]\nModerators atstāja jūsu ziņojumu [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2281,7 +2281,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Pārbaudiet, ka jums nav robots';
 $lang['CAPTCHA_WRONG'] = 'Jūs nevarējāt apstiprināt, ka neesat robots';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nav pilnībā konfigurēta</h2><p>Izveidojiet atslēgas, izmantojot sava captcha pakalpojuma vadības paneli, pēc tam tās jāievieto failā config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA pārbaude notiek fona režīmā';
 
 // Sending email

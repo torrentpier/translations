@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Cinsiyet';
 $lang['GENDER_SELECT'] = [
     0 => 'Bilinmeyen',
     1 => 'Erkek',
-    2 => 'Kadın'
+    2 => 'Kadın',
 ];
 $lang['MODULE_OFF'] = 'Modül devre dışı!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Kayıt olduğunuz için teşekkür ederiz. Hesabınız
 $lang['ACCOUNT_INACTIVE'] = 'Hesabınız oluşturuldu. Ancak, bu forum hesap etkinleştirmesi gerektirir. Bir etkinleştirme anahtarı verdiğiniz e-posta adresine gönderildi. Daha fazla bilgi için lütfen e-postanızı kontrol edin.';
 $lang['ACCOUNT_ACTIVE'] = 'Hesabınız aktive edildi. Kayıt olduğunuz için teşekkür ederiz';
 $lang['ALREADY_ACTIVATED'] = 'Zaten hesabınızı etkinleştirdiniz.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Sağladığınız etkinleştirme anahtarı veritabanında bir eşleşme bulamamaktadır.';
 $lang['PASSWORD_UPDATED'] = 'Yeni bir şifre oluşturuldu; lütfen bunu etkinleştirmek için detaylar hakkında e-postanızı kontrol edin.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'aynı pencerede aç';
 $lang['SHOW_TIME_TOPICS'] = 'Yaratılan konuların zamanını gösterecek.';
 $lang['SHOW_CURSOR'] = 'imlecin altındaki satırı vurgulayın';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Oran <b>%s</b> ile torrentleri indiremezsiniz.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Oran <b>%s</b> ile torrentleri indiremezsiniz.';
 $lang['BT_RATIO_WARNING_MSG'] = 'Eğer oranınız %s\'nın altına düşerse, Torrentleri indiremeyeceksiniz! Daha fazla bilgi için <a href="%s"><b>Daha fazla.</b></a>.';
 
 $lang['SEEDER_LAST_SEEN'] = 'Tohum görülmüyor: <b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Parolalar eşleşiyor.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Parolalar eşleşiyor, kayıta devam edebilirsiniz.';
 $lang['CHOOSE_PASS_FAILED'] = 'Şifreyi değiştirmek için mevcut şifreyi doğru belirtmelisiniz.';
 $lang['EMAILER_DISABLED'] = 'Üzgünüm, bu özellik geçici olarak çalışmıyor.';
-$lang['REGISTERED_IN_TIME'] = "Kayıt şu anda kapalı<br /><br />Kayıt şu saat aralığında mevcuttur: %s<br />Mevcut sunucu saati: %s<br /><br />Verdiğimiz rahatsızlıktan dolayı özür dileriz";
+$lang['REGISTERED_IN_TIME'] = 'Kayıt şu anda kapalı<br /><br />Kayıt şu saat aralığında mevcuttur: %s<br />Mevcut sunucu saati: %s<br /><br />Verdiğimiz rahatsızlıktan dolayı özür dileriz';
 $lang['AUTOCOMPLETE'] = 'Şifre oluştur';
 $lang['YOUR_NEW_PASSWORD'] = 'Yeni şifreniz:';
 $lang['REGENERATE'] = 'Yeniden oluştur.';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Forum Budama Etkinleştir';
 $lang['ALLOW_BBCODE'] = 'BBCode\'a İzin Ver';
 $lang['ALLOW_SMILIES'] = 'Gülücük İzin';
 $lang['SMILIES_PATH'] = 'Smiley Depolama Yolu';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'TorrentPier genel dizininiz altında bir yol, örn. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'İmzaları İzin Ver';
 $lang['MAX_SIG_LENGTH'] = 'En fazla imza uzunluğu';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Kullanıcı imzalarındaki maksimum karakter sayısı.';
@@ -1845,7 +1845,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent tarayıcı (tracker.php) yalnızca gi
 $lang['BT_SEARCH_BOOL_MODE'] = 'Boolean tam metin arama izin ver.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'aramalarda *, +, - kullanın';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Muhtelif.";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Muhtelif.';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Forumun ana sayfasının en üstünde kullanıcı UL/DL istatistiklerini göster";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Otomatik olarak yeni konular için torrent tracker üzerinde kayıt';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Torrent kayıt sırasında konunun durumunu "İndirme" olarak değiştir.';
@@ -1893,7 +1893,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'günlük.',
     'weekly' => 'haftalık.',
     'monthly' => 'aylık.',
-    'interval' => 'aralığı.'
+    'interval' => 'aralığı.',
 ];
 $lang['NOSELECT'] = 'Hayır seçin';
 $lang['RUN_DAY'] = 'Gün.';
@@ -1914,8 +1914,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'bu iş çalışmaya başladığında forum devre 
 $lang['RUN_COUNTER'] = 'Sayacı çalıştırmak';
 
 $lang['JOB_REMOVED'] = 'İş başarıyla kaldırıldı';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Bu betikle bir cron görevi zaten mevcut';
+$lang['TITLE_DUPLICATE'] = 'Bu başlıkla bir cron görevi zaten mevcut';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sİş eklemeye geri dön%s';
 $lang['CLICK_RETURN_JOBS'] = '%sGörev Zamanlayıcıya geri dön%s';
 
@@ -2162,7 +2162,7 @@ $lang['FORUMS_IN_CAT'] = 'bu kategorideki forumlar';
 $lang['MC_TITLE'] = 'Moderasyon yorumları';
 $lang['MC_LEGEND'] = 'Bir açıklama yazın';
 $lang['MC_FAQ'] = 'Girilen metin, bu mesajın altında görüntülenecektir.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "Mesajında %s.";
+$lang['MC_COMMENT_PM_SUBJECT'] = 'Mesajında %s.';
 $lang['MC_COMMENT_PM_MSG'] = "Merhaba, [b]%s[/b]\nYorumunuzda [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote] bırakıldı.";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2277,7 +2277,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Bir robot olmadığını kontrol edin';
 $lang['CAPTCHA_WRONG'] = 'Bir robot olmadığınızı onaylayamadınız';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha tam olarak yapılandırılmamış</h2><p>Captcha hizmetinizin kontrol panelinden anahtarları oluşturun, ardından bunları config/config.php dosyasına koymanız gerekir.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA doğrulaması arka planda gerçekleşmektedir';
 
 // Sending email

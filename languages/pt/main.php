@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Sexo';
 $lang['GENDER_SELECT'] = [
     0 => 'Desconhecido',
     1 => 'Masculino',
-    2 => 'Feminino'
+    2 => 'Feminino',
 ];
 $lang['MODULE_OFF'] = 'Módulo está desabilitado!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Obrigado por se registar. Sua conta foi criada. Agora 
 $lang['ACCOUNT_INACTIVE'] = 'Sua conta foi criada. No entanto, este fórum requer a ativação da conta. Uma chave de ativação foi enviada para o e-mail que você forneceu. Por favor, verifique seu e-mail para mais informações.';
 $lang['ACCOUNT_ACTIVE'] = 'Sua conta foi ativada. Obrigado por se registar';
 $lang['ALREADY_ACTIVATED'] = 'Você já ativou sua conta';
-
 
 $lang['WRONG_ACTIVATION'] = 'A chave de ativação que você forneceu não corresponde a nenhuma no banco de dados.';
 $lang['PASSWORD_UPDATED'] = 'Uma nova senha foi criada; por favor, verifique seu e-mail para obter detalhes sobre como ativá-la.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'abrir na mesma janela';
 $lang['SHOW_TIME_TOPICS'] = 'Mostre a hora da criação dos tópicos';
 $lang['SHOW_CURSOR'] = 'Realce a linha sob o cursor';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Com uma taxa <b>%s</b>, você não pode baixar torrents";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Com uma taxa <b>%s</b>, você não pode baixar torrents';
 $lang['BT_RATIO_WARNING_MSG'] = 'Se a sua taxa cair abaixo de %s, você não conseguirá baixar torrents! <a href="%s"><b>Mais sobre a classificação.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seedor não visto: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'As senhas coincidem.';
 $lang['CHOOSE_PASS_REG_OK'] = 'As senhas coincidem, você pode prosseguir com o registro.';
 $lang['CHOOSE_PASS_FAILED'] = 'Para alterar a senha, você deve especificar corretamente a senha atual.';
 $lang['EMAILER_DISABLED'] = 'Desculpe, este recurso não está funcionando temporariamente';
-$lang['REGISTERED_IN_TIME'] = "O registro está atualmente fechado<br /><br />O registro está disponível durante: %s<br />Hora do servidor atual: %s<br /><br />Pedimos desculpas pela inconveniência";
+$lang['REGISTERED_IN_TIME'] = 'O registro está atualmente fechado<br /><br />O registro está disponível durante: %s<br />Hora do servidor atual: %s<br /><br />Pedimos desculpas pela inconveniência';
 $lang['AUTOCOMPLETE'] = 'Gerar senha';
 $lang['YOUR_NEW_PASSWORD'] = 'Sua nova senha:';
 $lang['REGENERATE'] = 'Regenerar';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Habilitar poda de fóruns.';
 $lang['ALLOW_BBCODE'] = 'Permitir BBCode.';
 $lang['ALLOW_SMILIES'] = 'Permitir smiles.';
 $lang['SMILIES_PATH'] = 'Caminho de armazenamento de sorrisos.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Caminho dentro do seu diretório público do TorrentPier, por exemplo, assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Permitir assinaturas.';
 $lang['MAX_SIG_LENGTH'] = 'Comprimento máximo da assinatura.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Número máximo de caracteres nas assinaturas dos usuários.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Navegador de torrents (tracker.php) acessíve
 $lang['BT_SEARCH_BOOL_MODE'] = 'Permitir buscar booleanas.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'use *, +, - em pesquisas';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Diversos.";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Diversos.';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Mostrar estatísticas de UL/DL de usuários na parte superior da página principal do fórum";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Registrar automaticamente torrent no tracker para novos tópicos.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Mudar o status do tópico para "Download" ao registrar o torrent no tracker.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'diariamente.',
     'weekly' => 'semanalmente.',
     'monthly' => 'mensalmente.',
-    'interval' => 'intervalo.'
+    'interval' => 'intervalo.',
 ];
 $lang['NOSELECT'] = 'Não selecionar.';
 $lang['RUN_DAY'] = 'Dia de execução.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'desativar o fórum quando este trabalho é execut
 $lang['RUN_COUNTER'] = 'Executar contagem.';
 
 $lang['JOB_REMOVED'] = 'A tarefa foi removida com sucesso';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Um trabalho cron com este script já existe';
+$lang['TITLE_DUPLICATE'] = 'Um trabalho cron com este título já existe';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sRetornar para adicionar tarefa%s';
 $lang['CLICK_RETURN_JOBS'] = '%sVoltar para o Agendador de Tarefas%s.';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'Revise a construção da frase para maior clareza.';
 $lang['MC_TITLE'] = 'Comentário de moderação';
 $lang['MC_LEGEND'] = 'Revise a estrutura da frase para maior clareza.';
 $lang['MC_FAQ'] = 'A clareza da frase precisa de revisão.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s em sua mensagem";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s em sua mensagem';
 $lang['MC_COMMENT_PM_MSG'] = "Olá, [b]%s[/b]\nO moderador deixou em sua mensagem [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Verifique se você não é um robô.';
 $lang['CAPTCHA_WRONG'] = 'Você não conseguiu confirmar que não é um robô.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha não está totalmente configurado</h2><p>Gere as chaves usando o painel do seu serviço de captcha, depois você precisa colocá-las no arquivo config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'A verificação CAPTCHA ocorre em segundo plano';
 
 // Sending email

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Jenis kelamin';
 $lang['GENDER_SELECT'] = [
     0 => 'Tidak diketahui',
     1 => 'Laki-laki',
-    2 => 'Perempuan'
+    2 => 'Perempuan',
 ];
 $lang['MODULE_OFF'] = 'Modul dinonaktifkan!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Terima kasih telah mendaftar. Akun anda telah dibuat. 
 $lang['ACCOUNT_INACTIVE'] = 'Akun anda telah dibuat. Namun, forum ini memerlukan aktivasi akun. Kunci aktivasi telah dikirim ke alamat e-mail yang anda berikan. Silahkan cek e-mail untuk informasi lebih lanjut';
 $lang['ACCOUNT_ACTIVE'] = 'Akun anda telah diaktifkan. Terima kasih telah mendaftar';
 $lang['ALREADY_ACTIVATED'] = 'Anda sudah mengaktifkan akun anda';
-
 
 $lang['WRONG_ACTIVATION'] = 'Aktivasi kunci yang anda masukkan tidak dapat ditemukan di database.';
 $lang['PASSWORD_UPDATED'] = 'Kata sandi baru telah dibuat; harap periksa email Anda untuk detail lebih lanjut tentang cara mengaktifkannya.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'membuka di jendela yang sama';
 $lang['SHOW_TIME_TOPICS'] = 'menampilkan waktu penciptaan topik';
 $lang['SHOW_CURSOR'] = 'sorot baris pada kursor';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Dengan rasio <b>%s</b> anda tidak dapat men-download torrents";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Dengan rasio <b>%s</b> anda tidak dapat men-download torrents';
 $lang['BT_RATIO_WARNING_MSG'] = 'Jika rasio Anda jatuh di bawah %s, Anda tidak akan dapat mengunduh torrent! <a href="%s"><b>Info lebih lanjut tentang rating.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder tidak dilihat: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Kata sandi yang cocok.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Kata sandi yang cocok, Anda dapat melanjutkan pendaftaran.';
 $lang['CHOOSE_PASS_FAILED'] = 'Untuk mengubah kata sandi, Anda harus menentukan kata sandi saat ini dengan benar.';
 $lang['EMAILER_DISABLED'] = 'Maaf, fitur ini sementara tidak bekerja';
-$lang['REGISTERED_IN_TIME'] = "Registrasi saat ini ditutup<br /><br />Registrasi tersedia selama: %s<br />Waktu server saat ini: %s<br /><br />Kami mohon maaf atas ketidaknyamanan ini";
+$lang['REGISTERED_IN_TIME'] = 'Registrasi saat ini ditutup<br /><br />Registrasi tersedia selama: %s<br />Waktu server saat ini: %s<br /><br />Kami mohon maaf atas ketidaknyamanan ini';
 $lang['AUTOCOMPLETE'] = 'Hasilkan kata sandi';
 $lang['YOUR_NEW_PASSWORD'] = 'Kata sandi baru Anda:';
 $lang['REGENERATE'] = 'Regenerasi';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Mengaktifkan Pemangkasan Forum.';
 $lang['ALLOW_BBCODE'] = 'Memungkinkan BBCode.';
 $lang['ALLOW_SMILIES'] = 'Memungkinkan Smilies.';
 $lang['SMILIES_PATH'] = 'Jalur Penyimpanan Smilies.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Path di bawah direktori publik TorrentPier Anda, misalnya assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Memungkinkan Tanda Tangan.';
 $lang['MAX_SIG_LENGTH'] = 'Maksimum panjang tanda tangan.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Jumlah maksimum karakter pada tanda tangan pengguna.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Penjelajah torrent (tracker.php) hanya dapat 
 $lang['BT_SEARCH_BOOL_MODE'] = 'Izinkan pencarian teks penuh boolean';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'gunakan *, +, - dalam pencarian';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Lain-lain";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Lain-lain';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Tampilkan statistik UL/DL pengguna di bagian atas halaman utama forum";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Daftar torrent secara otomatis di tracker untuk topik baru';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Ubah status topik menjadi "Unduh" saat mendaftar torrent di tracker';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'harian',
     'weekly' => 'mingguan',
     'monthly' => 'bulanan',
-    'interval' => 'interval'
+    'interval' => 'interval',
 ];
 $lang['NOSELECT'] = 'Tidak ada yang dipilih';
 $lang['RUN_DAY'] = 'Berjalan hari';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Nonaktifkan papan saat pekerjaan ini dijalankan';
 $lang['RUN_COUNTER'] = 'Menjalankan counter';
 
 $lang['JOB_REMOVED'] = 'Pekerjaan telah dihapus dengan sukses';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Sebuah pekerjaan cron dengan skrip ini sudah ada';
+$lang['TITLE_DUPLICATE'] = 'Sebuah pekerjaan cron dengan judul ini sudah ada';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sKembali untuk menambahkan pekerjaan%s';
 $lang['CLICK_RETURN_JOBS'] = '%sKembali ke Penjadwal Tugas%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'forum dalam kategori ini';
 $lang['MC_TITLE'] = 'Komentar moderasi';
 $lang['MC_LEGEND'] = 'Jenis komentar';
 $lang['MC_FAQ'] = 'Teks yang dimasukkan akan ditampilkan di bawah pesan ini';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s dalam pesan anda";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s dalam pesan anda';
 $lang['MC_COMMENT_PM_MSG'] = "Halo, [b]%s[/b]\nModerator kiri dalam pesan anda [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Periksa bahwa anda bukan robot';
 $lang['CAPTCHA_WRONG'] = 'Anda tidak bisa mengkonfirmasi bahwa anda bukan robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha tidak sepenuhnya dikonfigurasi</h2><p>Hasilkan kunci menggunakan dasbor layanan captcha Anda, setelah itu Anda perlu menempatkannya di file config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verifikasi CAPTCHA terjadi di latar belakang';
 
 // Sending email

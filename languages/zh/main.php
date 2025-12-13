@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = '性別問題';
 $lang['GENDER_SELECT'] = [
     0 => '未知',
     1 => '男性',
-    2 => '女性'
+    2 => '女性',
 ];
 $lang['MODULE_OFF'] = '模組被禁用!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = '谢谢你的注册。 你的账户已经建立。 现�
 $lang['ACCOUNT_INACTIVE'] = '您的帳戶已建立。然而，該論壇需要帳戶激活。激活密鑰已發送到您提供的電子郵件地址。請檢查您的電子郵件以獲取更多信息。';
 $lang['ACCOUNT_ACTIVE'] = '您的帳戶已被激活。謝謝您註冊。';
 $lang['ALREADY_ACTIVATED'] = '您已經激活了您的帳戶。';
-
 
 $lang['WRONG_ACTIVATION'] = '您提供的激活金鑰與數據庫中的任何內容均不匹配。';
 $lang['PASSWORD_UPDATED'] = '一個新的密碼已創建；請檢查您的電子郵件以獲取激活的詳細信息。';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = '在同一窗口打开';
 $lang['SHOW_TIME_TOPICS'] = '顯示創建主題的時間。';
 $lang['SHOW_CURSOR'] = '在光標下強調行。';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "與比率<b>%s</b>你無法下載種子。";
+$lang['BT_LOW_RATIO_FOR_DL'] = '與比率<b>%s</b>你無法下載種子。';
 $lang['BT_RATIO_WARNING_MSG'] = '如果你的比率低於 %s，將無法下載種子！<a href="%s"><b>更多關於評級。</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = '播种机没有看到：<b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = '密碼匹配';
 $lang['CHOOSE_PASS_REG_OK'] = '密碼匹配，您可以繼續註冊';
 $lang['CHOOSE_PASS_FAILED'] = '要更改密碼，您必須正確指定當前密碼';
 $lang['EMAILER_DISABLED'] = '抱歉，該功能暫時無法使用';
-$lang['REGISTERED_IN_TIME'] = "註冊目前已關閉<br /><br />註冊在以下時間可用： %s<br />當前服務器時間： %s<br /><br />對此造成的不便感到抱歉";
+$lang['REGISTERED_IN_TIME'] = '註冊目前已關閉<br /><br />註冊在以下時間可用： %s<br />當前服務器時間： %s<br /><br />對此造成的不便感到抱歉';
 $lang['AUTOCOMPLETE'] = '生成密碼';
 $lang['YOUR_NEW_PASSWORD'] = '您的新密碼是：';
 $lang['REGENERATE'] = '再生';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = '啟用論壇修剪。';
 $lang['ALLOW_BBCODE'] = '允許BBCode。';
 $lang['ALLOW_SMILIES'] = '允許表情符號。';
 $lang['SMILIES_PATH'] = '表情符號存儲路徑。';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = '在您的 TorrentPier 公共目錄下的路徑，例如 assets/images/smiles';
 $lang['ALLOW_SIG'] = '允許簽名。';
 $lang['MAX_SIG_LENGTH'] = '最大簽名長度。';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '用戶簽名的最大字符數。';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = '種子瀏覽器(tracker.php)只限登錄用�
 $lang['BT_SEARCH_BOOL_MODE'] = '允许布尔全文搜索';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '在搜索中使用*, +, -等符號。';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "杂项";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = '杂项';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "在論壇主頁顯示用戶 UL/DL 統計數據";
 $lang['BT_NEWTOPIC_AUTO_REG'] = '自動為新主題在跟蹤器上注冊種子.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = '在跟踪器上注冊種子時，將話題狀態更改為“下載”.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => '每日',
     'weekly' => '每周',
     'monthly' => '每月',
-    'interval' => '时间间隔'
+    'interval' => '时间间隔',
 ];
 $lang['NOSELECT'] = '没有选择';
 $lang['RUN_DAY'] = '运行一天';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = '當這項工作運行時禁止論壇';
 $lang['RUN_COUNTER'] = '計數器';
 
 $lang['JOB_REMOVED'] = '該任務已成功移除';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = '這個腳本的計劃任務已存在';
+$lang['TITLE_DUPLICATE'] = '這個標題的計劃任務已存在';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s返回添加任務%s';
 $lang['CLICK_RETURN_JOBS'] = '%s返回任務計畫%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = '該類別中的論壇。';
 $lang['MC_TITLE'] = '審核意見';
 $lang['MC_LEGEND'] = '輸入評論。';
 $lang['MC_FAQ'] = '輸入的文字將顯示在此消息下。';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s在您的消息中";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s在您的消息中';
 $lang['MC_COMMENT_PM_MSG'] = "你好，[b]%s[/b]\n版主在你的留言中留下了 [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = '檢查您是否為機器人';
 $lang['CAPTCHA_WRONG'] = '您無法確認您不是機器人';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>驗證碼尚未完全配置</h2><p>使用您的驗證碼服務儀表板生成密鑰，然後需要將它們放入 config/config.php 文件中。</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA 驗證在背景中進行';
 
 // Sending email
