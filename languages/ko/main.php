@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = '성별';
 $lang['GENDER_SELECT'] = [
     0 => '알 수 없음',
     1 => '남성',
-    2 => '여성'
+    2 => '여성',
 ];
 $lang['MODULE_OFF'] = '모듈을 사용할 수 없습니다!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = '등록해 주셔서 감사합니다. 귀하의 계정�
 $lang['ACCOUNT_INACTIVE'] = '귀하의 계정이 생성되었습니다. 그러나 이 포럼에서는 계정 활성화가 필요합니다. 활성화 키가 제공한 이메일 주소로 전송되었습니다. 추가 정보는 이메일을 확인하세요.';
 $lang['ACCOUNT_ACTIVE'] = '귀하의 계정이 방금 활성화되었습니다. 등록해 주셔서 감사합니다.';
 $lang['ALREADY_ACTIVATED'] = '계정을 이미 활성화하였습니다.';
-
 
 $lang['WRONG_ACTIVATION'] = '제공한 활성화 키가 데이터베이스의 어떤 것과도 일치하지 않습니다.';
 $lang['PASSWORD_UPDATED'] = '새로운 비밀번호가 생성되었습니다. 활성화 방법에 대한 세부정보는 이메일을 확인하십시오.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = '동일한 창으로 열다.';
 $lang['SHOW_TIME_TOPICS'] = '시간 표시 창조의 항목.';
 $lang['SHOW_CURSOR'] = '커서 아래의 행 하이라이트.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "비율 <b>%s</b>로 인해 다운로드 할 수 없습니다.";
+$lang['BT_LOW_RATIO_FOR_DL'] = '비율 <b>%s</b>로 인해 다운로드 할 수 없습니다.';
 $lang['BT_RATIO_WARNING_MSG'] = '당신의 비율이 %s 이하로 떨어지면, 당신은 급류를 다운로드할 수 없습니다! <a href="%s"><b>더 많은 평가.</b></a>.';
 
 $lang['SEEDER_LAST_SEEN'] = '씨 뿌리는 사람을 보지 못:<b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = '비밀번호가 일치합니다.';
 $lang['CHOOSE_PASS_REG_OK'] = '비밀번호가 일치하므로 등록을 진행할 수 있습니다.';
 $lang['CHOOSE_PASS_FAILED'] = '비밀번호를 변경하려면 현재 비밀번호를 올바르게 입력해야 합니다.';
 $lang['EMAILER_DISABLED'] = '죄송합니다. 이 기능은 일시적으로 작동하지 않습니다.';
-$lang['REGISTERED_IN_TIME'] = "현재 등록이 닫혀 있습니다<br /><br />등록 가능 시간: %s<br />현재 서버 시간: %s<br /><br />불편을 드려 죄송합니다";
+$lang['REGISTERED_IN_TIME'] = '현재 등록이 닫혀 있습니다<br /><br />등록 가능 시간: %s<br />현재 서버 시간: %s<br /><br />불편을 드려 죄송합니다';
 $lang['AUTOCOMPLETE'] = '비밀번호 생성';
 $lang['YOUR_NEW_PASSWORD'] = '새로운 비밀번호입니다:';
 $lang['REGENERATE'] = '재생성';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = '포럼 잘라내기 활성화.';
 $lang['ALLOW_BBCODE'] = 'BBCode 허용.';
 $lang['ALLOW_SMILIES'] = '스마일리 허용.';
 $lang['SMILIES_PATH'] = '스마일리 저장 경로.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'TorrentPier 공개 디렉터리 아래 경로 예: assets/images/smiles';
 $lang['ALLOW_SIG'] = '서명 허용.';
 $lang['MAX_SIG_LENGTH'] = '최대 서명 길이.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = '사용자 서명에 있는 최대 문자 수.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = '로그인 한 사용자만을 위해 토렌�
 $lang['BT_SEARCH_BOOL_MODE'] = '불리언 전체 텍스트 검색을 허용하십시오.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '검색에서 *, +, - 사용';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "기타";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = '기타';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "포럼의 주요 페이지 상단에 사용자 UL/DL 통계를 표시합니다";
 $lang['BT_NEWTOPIC_AUTO_REG'] = '새로운 주제에 대해 토렌트를 자동으로 등록하십시오.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = '토렌트를 트래커에 등록하는 동안 주제 상태를 "다운로드"로 변경합니다.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => '일일',
     'weekly' => '주',
     'monthly' => '월',
-    'interval' => '간격'
+    'interval' => '간격',
 ];
 $lang['NOSELECT'] = '아무것도 선택하지 않음.';
 $lang['RUN_DAY'] = '실행 일.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = '이 작업이 실행될 때 보드를 비활성�
 $lang['RUN_COUNTER'] = '실행 카운터';
 
 $lang['JOB_REMOVED'] = '작업이 성공적으로 제거되었습니다';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = '이 스크립트와 같은 크론 작업이 이미 존재합니다';
+$lang['TITLE_DUPLICATE'] = '이 제목을 가진 크론 작업이 이미 존재합니다';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%s작업 추가로 돌아가기%s';
 $lang['CLICK_RETURN_JOBS'] = '%s작업 스케줄러로 돌아가기%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = '의 카테고리에서 포럼.';
 $lang['MC_TITLE'] = '중재 의견';
 $lang['MC_LEGEND'] = '의견을 남기는.';
 $lang['MC_FAQ'] = '입력한 텍스트가 이 메시지 아래에 표시됩니다.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "당신의 메시지에서 %s";
+$lang['MC_COMMENT_PM_SUBJECT'] = '당신의 메시지에서 %s';
 $lang['MC_COMMENT_PM_MSG'] = "안녕하세요, [b]%s[/b]\n모더레이터가 당신의 메시지에서 [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]를 남겼습니다.";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = '당신이 로봇이 아님을 확인해야 합니다.';
 $lang['CAPTCHA_WRONG'] = '당신이 로봇이 아님을 확인할 수 없습니다.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha가 완전히 구성되지 않았습니다</h2><p>귀하의 캡차 서비스 대시보드를 사용하여 키를 생성한 후, 파일 config/config.php에 값을 입력해야 합니다.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA 확인이 백그라운드에서 발생합니다';
 
 // Sending email
