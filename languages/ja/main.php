@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = '男女別';
 $lang['GENDER_SELECT'] = [
     0 => '不明',
     1 => '男性',
-    2 => '女性'
+    2 => '女性',
 ];
 $lang['MODULE_OFF'] = 'モジュールが無効です！';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'ご登録ありがとうございます。アカウン
 $lang['ACCOUNT_INACTIVE'] = 'アカウントが作成されました。ただし、このフォーラムではアカウントの有効化が必要です。アクティベーションキーが提供された電子メールアドレスに送信されました。さらなる情報は電子メールを確認してください。';
 $lang['ACCOUNT_ACTIVE'] = 'アカウントがアクティブになりました。ご登録ありがとうございます。';
 $lang['ALREADY_ACTIVATED'] = 'アカウントはすでに有効化されています。';
-
 
 $lang['WRONG_ACTIVATION'] = '提供されたアクティベーションキーは、データベース内のいずれとも一致しません。';
 $lang['PASSWORD_UPDATED'] = '新しいパスワードが作成されました。詳細を確認するには、受信した電子メールを確認してください。';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = '同じウィンドウで開く';
 $lang['SHOW_TIME_TOPICS'] = '作成されたトピックの時間を表示';
 $lang['SHOW_CURSOR'] = 'カーソルの下の行をハイライトする';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "比率 <b>%s</b> でトレントをダウンロードすることはできません";
+$lang['BT_LOW_RATIO_FOR_DL'] = '比率 <b>%s</b> でトレントをダウンロードすることはできません';
 $lang['BT_RATIO_WARNING_MSG'] = 'あなたの比率が %s を下回ると、トレントをダウンロードできなくなります。 <a href="%s"><b>評価についての詳細。</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seederが見えません:<b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'パスワードが一致';
 $lang['CHOOSE_PASS_REG_OK'] = 'パスワードが一致し、登録を続行できます';
 $lang['CHOOSE_PASS_FAILED'] = 'パスワードを変更するには、現在のパスワードを正しく指定する必要があります';
 $lang['EMAILER_DISABLED'] = '申し訳ありませんが、この機能は一時的に動作していません';
-$lang['REGISTERED_IN_TIME'] = "現在、登録は閉じています<br /><br />登録は次の間に利用可能です: %s<br />現在のサーバー時間: %s<br /><br />ご不便をおかけして申し訳ありません";
+$lang['REGISTERED_IN_TIME'] = '現在、登録は閉じています<br /><br />登録は次の間に利用可能です: %s<br />現在のサーバー時間: %s<br /><br />ご不便をおかけして申し訳ありません';
 $lang['AUTOCOMPLETE'] = 'パスワードを生成する';
 $lang['YOUR_NEW_PASSWORD'] = '新しいパスワード：';
 $lang['REGENERATE'] = '再生成';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'フォーラムのプルーニングを有効にする'
 $lang['ALLOW_BBCODE'] = 'BBCodeを許可する';
 $lang['ALLOW_SMILIES'] = 'スマイリーを許可する';
 $lang['SMILIES_PATH'] = 'スマイリーのストレージパス';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'あなたのTorrentPier公開ディレクトリ内のパス、例：assets/images/smiles';
 $lang['ALLOW_SIG'] = '署名を許可する';
 $lang['MAX_SIG_LENGTH'] = '署名の最大長さ';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'ユーザーの署名における最大文字数';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'トレントブラウザ（tracker.php）は�
 $lang['BT_SEARCH_BOOL_MODE'] = 'boolean全文検索を許可します';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '検索で*, +, -を使用する';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "その他の情報";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'その他の情報';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "フォーラムのメインページの上部にユーザーのUL/DL統計を表示する";
 $lang['BT_NEWTOPIC_AUTO_REG'] = '新しいトピックのためにトラッカーに自動的に激流を登録します';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'トラッカーでトレントを登録中に、トピックの状態を"ダウンロード"に変更します。';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => '毎日',
     'weekly' => '毎週',
     'monthly' => '毎月',
-    'interval' => '間隔'
+    'interval' => '間隔',
 ];
 $lang['NOSELECT'] = '選択なし';
 $lang['RUN_DAY'] = '実行日';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'このジョブが実行されているときは�
 $lang['RUN_COUNTER'] = 'カウンターを実行';
 
 $lang['JOB_REMOVED'] = 'ジョブは正常に削除されました';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'このスクリプトを持つcronジョブは既に存在します';
+$lang['TITLE_DUPLICATE'] = 'このタイトルを持つcronジョブは既に存在します';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sジョブ追加に戻る%s';
 $lang['CLICK_RETURN_JOBS'] = '%sタスクスケジューラに戻る%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'そのカテゴリのフォーラム。';
 $lang['MC_TITLE'] = 'モデレーションコメント';
 $lang['MC_LEGEND'] = 'コメントを入力してください。';
 $lang['MC_FAQ'] = '入力されたテキストは、このメッセージの下に表示されます。';
-$lang['MC_COMMENT_PM_SUBJECT'] = "メッセージの%s。";
+$lang['MC_COMMENT_PM_SUBJECT'] = 'メッセージの%s。';
 $lang['MC_COMMENT_PM_MSG'] = "こんにちは、[b]%s[/b]\nModeratorはあなたのメッセージに左を残しました[url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'ロボットではないことを確認してください';
 $lang['CAPTCHA_WRONG'] = 'ロボットではないことを確認できませんでした';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>キャプチャが完全に構成されていません</h2><p>キャプチャサービスのダッシュボードを使用してキーを生成し、その後config/config.phpファイルにそれらを配置してください。</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHAの検証はバックグラウンドで行われます';
 
 // Sending email
