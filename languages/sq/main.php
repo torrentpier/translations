@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Gjinia.';
 $lang['GENDER_SELECT'] = [
     0 => 'I panjohur',
     1 => 'Mashkull',
-    2 => 'Femra'
+    2 => 'Femra',
 ];
 $lang['MODULE_OFF'] = 'Moduli është me aftësi të kufizuara!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Faleminderit për regjistrimin. Llogaria juaj është 
 $lang['ACCOUNT_INACTIVE'] = 'Llogaria juaj është krijuar. Megjithatë, ky forum kërkon aktivizim llogarie. Një çelës aktivizimi i është dërguar në adresën e-e-mail që keni dhënë. Ju lutem kontrolloni e-mailin tuaj për informacion të mëtejshëm.';
 $lang['ACCOUNT_ACTIVE'] = 'Llogaria juaj ka qenë vetëm aktivizuar. Ju faleminderit për regjistrimin e';
 $lang['ALREADY_ACTIVATED'] = 'Ju keni aktivizuar tashmë llogarinë tuaj';
-
 
 $lang['WRONG_ACTIVATION'] = 'Çelësi i aktivizimit që keni ofruar nuk përputhet me asnjë në bazën e të dhënave.';
 $lang['PASSWORD_UPDATED'] = 'Një fjalëkalim i ri është krijuar; ju lutem kontrolloni e-mailin tuaj për detaje mbi mënyrën se si ta aktivizoni.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'të hapur në të njëjtën dritare';
 $lang['SHOW_TIME_TOPICS'] = 'tregoni kohën e krijimit të temave';
 $lang['SHOW_CURSOR'] = 'të nxirni në pah rreshtin nën kursorin';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Me raport <b>%s</b> ju nuk mund të shkarkoni torrents";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Me raport <b>%s</b> ju nuk mund të shkarkoni torrents';
 $lang['BT_RATIO_WARNING_MSG'] = 'Nëse raporti juaj bie poshtë %s, nuk do të jeni në gjendje të shkarkoni Torrents! <a href="%s"><b>Më shumë rreth vlerësimit.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nuk shihet: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Fjalëkalimet përputhen';
 $lang['CHOOSE_PASS_REG_OK'] = 'Fjalëkalimet ndeshje, ju mund të vazhdoni me regjistrimin';
 $lang['CHOOSE_PASS_FAILED'] = 'Për të ndryshuar fjalëkalimin, duhet të specifikoni fjalëkalimin aktual saktë';
 $lang['EMAILER_DISABLED'] = 'Na vjen keq, ky funksion përkohësisht nuk punon';
-$lang['REGISTERED_IN_TIME'] = "Regjistrimi është aktualisht i mbyllur<br /><br />Regjistrimi është i disponueshëm gjatë: %s<br />Koha aktuale e serverit: %s<br /><br />Kërkojmë ndjesë për inconveniencen";
+$lang['REGISTERED_IN_TIME'] = 'Regjistrimi është aktualisht i mbyllur<br /><br />Regjistrimi është i disponueshëm gjatë: %s<br />Koha aktuale e serverit: %s<br /><br />Kërkojmë ndjesë për inconveniencen';
 $lang['AUTOCOMPLETE'] = 'Gjeneroni fjalëkalimin';
 $lang['YOUR_NEW_PASSWORD'] = 'Fjalëkalimi juaj i ri:';
 $lang['REGENERATE'] = 'Rilind';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Aktivizoni Prunimin e Forumit';
 $lang['ALLOW_BBCODE'] = 'Të Lejojë BBCode';
 $lang['ALLOW_SMILIES'] = 'Të Lejojë Smilies';
 $lang['SMILIES_PATH'] = 'Rruga e Ruajtjes së Smilies';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Rruga nën dosjen tuaj publike TorrentPier, p.sh. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Të Lejojë Nënshkrimet';
 $lang['MAX_SIG_LENGTH'] = 'Gjatësia maksimale e nënshkrimit';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Numri maksimal i karaktereve në nënshkrimet e përdoruesit';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Shfletuesi i torrenteve (tracker.php) i arrit
 $lang['BT_SEARCH_BOOL_MODE'] = 'Lejo kërkimet në tekst të plotë boolean';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'përdorni *, +, - në kërkime';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Të ndryshme";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Të ndryshme';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Trego statistikat UL/DL të përdoruesit në krye të faqes kryesore të forumit";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Regjistrohu automatikisht torrent në përrua për tema të reja';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Ndryshoni statusin e temës në "Shkarkimin" gjatë regjistrimit të torrentit në ndjekës';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'dita e përditshme',
     'weekly' => 'javore',
     'monthly' => 'mujor',
-    'interval' => 'intervali'
+    'interval' => 'intervali',
 ];
 $lang['NOSELECT'] = 'Nuk ka zgjedhje';
 $lang['RUN_DAY'] = 'Dita e drejtuar';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'çaktivizoni bordin kur kjo punë është drejtua
 $lang['RUN_COUNTER'] = 'Drejto numëruesin';
 
 $lang['JOB_REMOVED'] = 'Puna është bërë me sukses';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Një detyrë cron me këtë skript tashmë ekziston';
+$lang['TITLE_DUPLICATE'] = 'Një detyrë cron me këtë titull tashmë ekziston';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sKthehu për të shtuar punë%s';
 $lang['CLICK_RETURN_JOBS'] = '%sKthehu në Planifikuesin e Detyrave%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'forumet në këtë kategori';
 $lang['MC_TITLE'] = 'Koment moderimi';
 $lang['MC_LEGEND'] = 'Shkruani një koment.';
 $lang['MC_FAQ'] = 'Teksti i futur do të shfaqet nën këtë mesazh.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s në mesazhin tuaj.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s në mesazhin tuaj.';
 $lang['MC_COMMENT_PM_MSG'] = "Përshëndetje, [b]%s[/b]\nModeratori la në mesazhin tuaj [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Kontrolloni se ju nuk jeni një robot';
 $lang['CAPTCHA_WRONG'] = 'Nuk mund të konfirmoni se nuk jeni një robot.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha nuk është konfiguruar plotësisht</h2><p>Generoni çelësat duke përdorur panelin e shërbimit tuaj captcha, pastaj duhet t\'i vendosni ato në skedarin config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Verifikimi CAPTCHA ndodh në sfond';
 
 // Sending email
