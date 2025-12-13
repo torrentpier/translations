@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Sugu';
 $lang['GENDER_SELECT'] = [
     0 => 'Teadmata',
     1 => 'Mees',
-    2 => 'Naine'
+    2 => 'Naine',
 ];
 $lang['MODULE_OFF'] = 'Moodul on keelatud!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Täname registreerimise eest. Sinu konto on loodud. V�
 $lang['ACCOUNT_INACTIVE'] = 'Teie konto on loodud. Siiski nõuab see foorum konto aktiveerimist. Aktivatsiooni võti on saadetud teie esitatud e-posti aadressile. Palun kontrollige oma e-posti rohkemate üksikasjade saamiseks.';
 $lang['ACCOUNT_ACTIVE'] = 'Teie konto on just aktiveeritud. Täname registreerimise eest.';
 $lang['ALREADY_ACTIVATED'] = 'Olete juba aktiveeritud konto.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Teie antud aktiveerimise võti ei kattu andmebaasis ühegi olemasoleva võtmega.';
 $lang['PASSWORD_UPDATED'] = 'Uus parool on loodud, palun kontrollige oma e-posti andmed selle kohta, kuidas aktiveerida.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'Ava samas aknas.';
 $lang['SHOW_TIME_TOPICS'] = 'Näita teema loomise aega.';
 $lang['SHOW_CURSOR'] = 'Tooge esile rea allkursori.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Suhe <b>%s</b> ei võimalda allalaadimist.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Suhe <b>%s</b> ei võimalda allalaadimist.';
 $lang['BT_RATIO_WARNING_MSG'] = 'Kui teie suhe langeb alla %s, ei saa te torrente alla laadida! <a href="%s"><b>Lisateave reitingu kohta.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder ei näinud: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Paroolid langevad kokku.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Paroolid langevad kokku, saate jätkata registreerimisega.';
 $lang['CHOOSE_PASS_FAILED'] = 'Parooli muutmiseks peate õigesti määrama praeguse parooli.';
 $lang['EMAILER_DISABLED'] = 'Vabandust, see funktsioon ajutiselt ei tööta';
-$lang['REGISTERED_IN_TIME'] = "Registreerimine on hetkel suletud<br /><br />Registreerimine on saadaval: %s<br />Praegune serveri aeg: %s<br /><br />Kohutame ebamugavuste pärast";
+$lang['REGISTERED_IN_TIME'] = 'Registreerimine on hetkel suletud<br /><br />Registreerimine on saadaval: %s<br />Praegune serveri aeg: %s<br /><br />Kohutame ebamugavuste pärast';
 $lang['AUTOCOMPLETE'] = 'Genereerige parool';
 $lang['YOUR_NEW_PASSWORD'] = 'Sinu uus parool:';
 $lang['REGENERATE'] = 'Uuenda.';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Võimalda foorumi pügamine.';
 $lang['ALLOW_BBCODE'] = 'Luba BBCode';
 $lang['ALLOW_SMILIES'] = 'Võimaldab emotikone.';
 $lang['SMILIES_PATH'] = 'Emotikonide salvestamise tee.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Tee oma TorrentPier avaliku kataloogi all, nt assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Lubavad allkirjad.';
 $lang['MAX_SIG_LENGTH'] = 'Maksimaalne allkiri pikkus';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maksimaalne tähemärkide arv kasutaja allkirjadele.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent brauser (tracker.php) on kättesaadav
 $lang['BT_SEARCH_BOOL_MODE'] = 'Luba boolesed täistekstiotsingud';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'kasutage *, +, - otsingutes.';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Mitmesugused";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Mitmesugused';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Kuvage kasutajate UL/DL statistika foorumi avalehe ülaosas";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Registreer torrent trackerile uutesse teemadesse';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Muuda teema staatust "Allalaadimine" torrent registreerimise ajal trackeril';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'päeviti',
     'weekly' => 'kord nädalas',
     'monthly' => 'kuus',
-    'interval' => 'intervall'
+    'interval' => 'intervall',
 ];
 $lang['NOSELECT'] = 'Pole valitud';
 $lang['RUN_DAY'] = 'Kestab päev';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'keelata pardal, kui see töö on käivitatud';
 $lang['RUN_COUNTER'] = 'Loenduri vastuseks';
 
 $lang['JOB_REMOVED'] = 'Töö on edukalt eemaldatud';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Selle skriptiga cron-töö on juba olemas';
+$lang['TITLE_DUPLICATE'] = 'Selle pealkirjaga cron-töö on juba olemas';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sNaaske töö lisamise juurde%s';
 $lang['CLICK_RETURN_JOBS'] = '%sTagasi ülesande ajaskaalale%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'foorumid selle kategooria.';
 $lang['MC_TITLE'] = 'Modereerimise kommentaar';
 $lang['MC_LEGEND'] = 'Sisestage kommentaar.';
 $lang['MC_FAQ'] = 'Sisestatud tekst kuvatakse selle sõnumi all.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s teie sõnumis.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s teie sõnumis.';
 $lang['MC_COMMENT_PM_MSG'] = "Tere, [b]%s[/b]\nModeraator jättis teie sõnumisse [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Kontrollige, et te ei ole robot';
 $lang['CAPTCHA_WRONG'] = 'Sa ei suutnud kinnitada, et sa ei ole robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha ei ole täielikult konfigureeritud</h2><p>Genereerige võtmed oma captcha teenuse juhtpaneeli kaudu, seejärel lisage need faili config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA kontroll toimub taustal';
 
 // Sending email
