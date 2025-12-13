@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'מין';
 $lang['GENDER_SELECT'] = [
     0 => 'לא ידוע',
     1 => 'זכר',
-    2 => 'נקבה'
+    2 => 'נקבה',
 ];
 $lang['MODULE_OFF'] = 'מודול אינו זמין!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'תודה לך על ההרשמה. החשבון שלך �
 $lang['ACCOUNT_INACTIVE'] = 'החשבון שלך נוצר. עם זאת, פורום זה דורש הפעלת החשבון. מפתח הפעלה נשלחה לכתובת הדואר האלקטרוני שסיפקת. בבקשה לבדוק את הדואר האלקטרוני שלך לקבלת מידע נוסף';
 $lang['ACCOUNT_ACTIVE'] = 'החשבון שלך הופעל. תודה על ההרשמה';
 $lang['ALREADY_ACTIVATED'] = 'כבר הפעלת את החשבון שלך';
-
 
 $lang['WRONG_ACTIVATION'] = 'מפתח ההפעלה שסיפקת אינו תואם לאף אחד במסד הנתונים.';
 $lang['PASSWORD_UPDATED'] = 'סיסמה חדשה נוצרה; אנא בדוק את כתובת הדואר האלקטרוני שלך לפרטים על איך להפעיל אותה.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'פתיחה באותו חלון';
 $lang['SHOW_TIME_TOPICS'] = 'הצגת זמן יצירת הנושאים';
 $lang['SHOW_CURSOR'] = 'הדגשת השורה מתחת לסמן';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "עם יחס <b>%s</b> אתה לא יכול להוריד טורנטים";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'עם יחס <b>%s</b> אתה לא יכול להוריד טורנטים';
 $lang['BT_RATIO_WARNING_MSG'] = 'אם היחס שלך יורד מתחת ל-%s, לא תוכל להוריד טורנטים! <a href="%s"><b>עוד על הדירוג.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'seed לא ראיתי: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'הסיסמאות תואמות';
 $lang['CHOOSE_PASS_REG_OK'] = 'הסיסמאות תואמות, אתה יכול להמשיך עם הרישום';
 $lang['CHOOSE_PASS_FAILED'] = 'כדי לשנות את הסיסמה, אתה חייב לציין את הסיסמה הנוכחית בצורה נכונה';
 $lang['EMAILER_DISABLED'] = 'מצטער, תכונה זו לא פועלת באופן זמני';
-$lang['REGISTERED_IN_TIME'] = "הרישום סגור כעת<br /><br />הרישום זמין במהלך: %s<br />שעת השרת הנוכחית: %s<br /><br />אנו מתנצלים על אי הנוחות";
+$lang['REGISTERED_IN_TIME'] = 'הרישום סגור כעת<br /><br />הרישום זמין במהלך: %s<br />שעת השרת הנוכחית: %s<br /><br />אנו מתנצלים על אי הנוחות';
 $lang['AUTOCOMPLETE'] = 'צור סיסמא';
 $lang['YOUR_NEW_PASSWORD'] = 'את הסיסמה החדשה:';
 $lang['REGENERATE'] = 'התחדש';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'לאפשר פורום גיזום.';
 $lang['ALLOW_BBCODE'] = 'לאפשר BBCode.';
 $lang['ALLOW_SMILIES'] = 'לאפשר סמיילים.';
 $lang['SMILIES_PATH'] = 'סמיילים אחסון נתיב.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'נתיב תחת ספריית ה-public של TorrentPier שלך, לדוגמה assets/images/smiles';
 $lang['ALLOW_SIG'] = 'לאפשר חתימות.';
 $lang['MAX_SIG_LENGTH'] = 'מקסימום אורך חתימה.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'המספר המרבי של תווים המשתמש חתימות.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'דפדפן טורנטים (tracker.php) נג�
 $lang['BT_SEARCH_BOOL_MODE'] = 'אפשר חיפוש בוליאני בטקסט מלא.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'השתמש ב-*, +, - בחיפושים';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "שונות";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'שונות';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "הצג סטטיסטיקות משתמשי UL/DL בחלק העליון של העמוד הראשי של הפורום";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'אוטומטית לרשום סיקור על tracker עבור נושאים חדשים.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'שינוי הסטטוס של הנושא ל"הורדה" בזמן הרשמת הסיקור ב-tracker.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'יומי',
     'weekly' => 'שבועי',
     'monthly' => 'חודשי',
-    'interval' => 'מרווח'
+    'interval' => 'מרווח',
 ];
 $lang['NOSELECT'] = 'לא בחר';
 $lang['RUN_DAY'] = 'לרוץ היום';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'להשבית את הלוח כאשר העבודה 
 $lang['RUN_COUNTER'] = 'להפעיל מונה';
 
 $lang['JOB_REMOVED'] = 'המשימה הוסרה בהצלחה';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'משימת קרון עם סקריפט זה כבר קיימת';
+$lang['TITLE_DUPLICATE'] = 'משימת קרון עם כותרת זו כבר קיימת';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sחזור להוסיף משימה%s';
 $lang['CLICK_RETURN_JOBS'] = '%sחזור למנהל המשימות%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'פורומים בקטגוריה זו';
 $lang['MC_TITLE'] = 'הערת מנחה';
 $lang['MC_LEGEND'] = 'הקלד תגובה.';
 $lang['MC_FAQ'] = 'הזנת טקסט יוצג תחת הודעה זו';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s בהודעה שלך.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s בהודעה שלך.';
 $lang['MC_COMMENT_PM_MSG'] = "שלום, [b]%s[/b]\nהמנחה השאיר לך הודעה [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'בדוק שאתה לא רובוט';
 $lang['CAPTCHA_WRONG'] = 'לא הצלחת לאשר שאינך רובוט.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>ה-Captcha לא הוגדר במלואו</h2><p>צור את המפתחות באמצעות לוח הבקרה של שירות ה-Captcha שלך, לאחר מכן עליך להכניס אותם לקובץ config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'אימות ה-CAPTCHA מתבצע ברקע';
 
 // Sending email
