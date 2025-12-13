@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Género';
 $lang['GENDER_SELECT'] = [
     0 => 'Desconocido',
     1 => 'Hombre.',
-    2 => 'Mujer.'
+    2 => 'Mujer.',
 ];
 $lang['MODULE_OFF'] = '¡El módulo está deshabilitado!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Gracias por registrarse. Su cuenta ha sido creada. Aho
 $lang['ACCOUNT_INACTIVE'] = 'Su cuenta ha sido creada. Sin embargo, en este foro se requiere la activación de la cuenta. Una clave de activación ha sido enviado a la dirección de correo electrónico que usted proporcionó. Por favor, compruebe su dirección de e-mail para más información';
 $lang['ACCOUNT_ACTIVE'] = 'Su cuenta ha sido activada. Gracias por registrarte';
 $lang['ALREADY_ACTIVATED'] = 'Ya has activado tu cuenta';
-
 
 $lang['WRONG_ACTIVATION'] = 'La clave de activación que suministró no coincide con ninguna de las que hay en la base de datos.';
 $lang['PASSWORD_UPDATED'] = 'Se ha creado una nueva contraseña; por favor, revisa tu correo electrónico para obtener más detalles sobre cómo activarla.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'se abre en la misma ventana.';
 $lang['SHOW_TIME_TOPICS'] = 'mostrar la hora de la creación de los temas.';
 $lang['SHOW_CURSOR'] = 'resaltar la fila bajo el cursor.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Con relación <b>%s</b> no puede descargar torrents.";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Con relación <b>%s</b> no puede descargar torrents.';
 $lang['BT_RATIO_WARNING_MSG'] = 'Si su relación cae por debajo de %s, no podrá descargar torrents! <a href="%s"><b>Más sobre la calificación.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Sembrador no visto: <b>%s</b>.';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Las contraseñas coinciden.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Las contraseñas coinciden, puede proceder con el registro.';
 $lang['CHOOSE_PASS_FAILED'] = 'Para cambiar la contraseña, debe especificar correctamente la contraseña actual';
 $lang['EMAILER_DISABLED'] = 'Lo sentimos, esta función no está funcionando temporalmente.';
-$lang['REGISTERED_IN_TIME'] = "El registro está actualmente cerrado<br /><br />El registro está disponible durante: %s<br />Hora del servidor actual: %s<br /><br />Lamentamos los inconvenientes";
+$lang['REGISTERED_IN_TIME'] = 'El registro está actualmente cerrado<br /><br />El registro está disponible durante: %s<br />Hora del servidor actual: %s<br /><br />Lamentamos los inconvenientes';
 $lang['AUTOCOMPLETE'] = 'Generar contraseña';
 $lang['YOUR_NEW_PASSWORD'] = 'Tu nueva contraseña:';
 $lang['REGENERATE'] = 'Regenerar';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Habilitar poda del foro.';
 $lang['ALLOW_BBCODE'] = 'Permitir BBCode';
 $lang['ALLOW_SMILIES'] = 'Permitir emoticonos.';
 $lang['SMILIES_PATH'] = 'Ruta de almacenamiento de emoticonos.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Ruta dentro de su directorio público de TorrentPier, por ejemplo assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Permitir A Las Firmas';
 $lang['MAX_SIG_LENGTH'] = 'Longitud máxima de firma.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Número máximo de caracteres en firmas de usuario';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent navegador (tracker.php) sólo accesib
 $lang['BT_SEARCH_BOOL_MODE'] = 'Permitir búsquedas booleanas de texto completo.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'usar *, +, - en las búsquedas';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Miscelánea";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Miscelánea';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Mostrar estadísticas de UL/DL de usuarios en la parte superior de la página principal del foro";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Registrar automáticamente torrent en tracker de nuevos temas';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Cambiar el estado del tema a "Descargar" mientras se registra el torrent en el tracker.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'diario',
     'weekly' => 'semanal',
     'monthly' => 'mensual',
-    'interval' => 'Intervalo.'
+    'interval' => 'Intervalo.',
 ];
 $lang['NOSELECT'] = 'No seleccione';
 $lang['RUN_DAY'] = 'Día de ejecución.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'deshabilitar el foro cuando este trabajo se ejecu
 $lang['RUN_COUNTER'] = 'Ejecutar contador';
 
 $lang['JOB_REMOVED'] = 'La tarea se ha eliminado con éxito';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Ya existe un trabajo cron con este script';
+$lang['TITLE_DUPLICATE'] = 'Ya existe un trabajo cron con este título';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sVolver a añadir tarea%s';
 $lang['CLICK_RETURN_JOBS'] = '%sVolver al Programador de Tareas%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'foros en esa categoría.';
 $lang['MC_TITLE'] = 'Comentario de moderación';
 $lang['MC_LEGEND'] = 'Escribir un comentario';
 $lang['MC_FAQ'] = 'El texto introducido se mostrará debajo de este mensaje';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s en su mensaje";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s en su mensaje';
 $lang['MC_COMMENT_PM_MSG'] = "Hola, [b]%s[/b]\nEl moderador dejó un mensaje en su mensaje [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Comprobar que no eres un robot';
 $lang['CAPTCHA_WRONG'] = 'No se podía confirmar que no eres un robot';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha no está completamente configurado</h2><p>Genere las claves usando el panel de control de su servicio de captcha, luego debe colocarlas en el archivo config/config.php.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'La verificación de CAPTCHA ocurre en segundo plano';
 
 // Sending email
