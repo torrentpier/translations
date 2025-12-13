@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Գենդեր:';
 $lang['GENDER_SELECT'] = [
     0 => 'Հայտնի չէ',
     1 => 'Տղամարդը',
-    2 => 'Կին'
+    2 => 'Կին',
 ];
 $lang['MODULE_OFF'] = 'Մոդուլ անջատված!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Շնորհակալություն գրանցման հա
 $lang['ACCOUNT_INACTIVE'] = 'Ձեր հաշիվը ստեղծված է, սակայն այս ֆորունը պահանջում է ակտիվացում: Ակտիվացման կոդը ուղարկվել է Ձեր կողմից forneված էլեկտրոնային հասցեին: Խնդրում ենք проверить ваш электронный адрес для получения дополнительной информации.';
 $lang['ACCOUNT_ACTIVE'] = 'Ձեր հաշիվը արդեն ակտիվացված է: Շնորհակալություն գրանցման համար';
 $lang['ALREADY_ACTIVATED'] = 'Դուք արդեն ակտիվացրել եք Ձեր հաշիվը։';
-
 
 $lang['WRONG_ACTIVATION'] = 'Ակտիվացման կոդը, որը ներկայացրել եք, չի համընկնում տվյալների բազայում առկա որևէ կոդի հետ.';
 $lang['PASSWORD_UPDATED'] = 'Նոր գաղտնաբառը ստեղծվել է, խնդրում ենք ստուգել Ձեր էլեկտրոնային փոստը այն մասին, թե ինչպես ակտիվացնել այն.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'բացել նույն պատուհանում';
 $lang['SHOW_TIME_TOPICS'] = 'ցույց է տալիս ստեղծված թեմաների ժամանակը';
 $lang['SHOW_CURSOR'] = 'հHighlight անելիքը կուրսորի տակ';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Գործակցությամբ <b>%s</b> դուք չեք կարող ներբեռնել torrents";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Գործակցությամբ <b>%s</b> դուք չեք կարող ներբեռնել torrents';
 $lang['BT_RATIO_WARNING_MSG'] = 'Եթե ձեր հարաբերակցությունը ընկնում է %s-ից ցածր, դուք չեք կարող ներբեռնել Torrents! <a href="%s"><b>Այս մասին ավելի մանրամասն.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Սիդերը չի երևում: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Գաղտնաբառերը համընկնում են';
 $lang['CHOOSE_PASS_REG_OK'] = 'Գաղտնաբառերը համընկնում են, դուք կարող եք անցնել գրանցման';
 $lang['CHOOSE_PASS_FAILED'] = 'Փոխել գաղտնաբառը, անհրաժեշտ է ճիշտ նշել գաղտնաբառը';
 $lang['EMAILER_DISABLED'] = 'Ցավոք, այս գործառույթը ժամանակավորապես չի աշխատում';
-$lang['REGISTERED_IN_TIME'] = "Գրանցումը այս պահին փակ է<br /><br />Գրանցումը հասանելի է հետևյալ ժամանակահատվածում՝ %s<br />Բոլոր այցելություններին ցույց տալ ժամանակը: %s<br /><br />Ներողություն ենք հայտնում անհարմարությունների համար";
+$lang['REGISTERED_IN_TIME'] = 'Գրանցումը այս պահին փակ է<br /><br />Գրանցումը հասանելի է հետևյալ ժամանակահատվածում՝ %s<br />Բոլոր այցելություններին ցույց տալ ժամանակը: %s<br /><br />Ներողություն ենք հայտնում անհարմարությունների համար';
 $lang['AUTOCOMPLETE'] = 'Ստեղծել գաղտնաբառ';
 $lang['YOUR_NEW_PASSWORD'] = 'Ձեր նոր գաղտնաբառը:';
 $lang['REGENERATE'] = 'Վերականգնել';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Միացնել միջանկյալ խորհուրդը։'
 $lang['ALLOW_BBCODE'] = 'Թույլատրել BB կոդը։';
 $lang['ALLOW_SMILIES'] = 'Թույլատրել էմոտիկաներ։';
 $lang['SMILIES_PATH'] = 'Էմոտիկաների պահպանումման ճանապարհը։';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Ձեր TorrentPier հանրային գրացուցակի ներքո գտնվող ճանապարհը, օրինակ՝ assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Թույլատրել ստորագրությունները։';
 $lang['MAX_SIG_LENGTH'] = 'Առավելագույն երկարությունը ստորագրություններով։';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Առավելագույն նշանները օգտագործողների ստորագրությունների մեջ։';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Տորրենտի զննարկիչը (tracker.
 $lang['BT_SEARCH_BOOL_MODE'] = 'Թույլատրել տրամաբանական որոնումները.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = 'օգտագործել *, +, -, ... որոնումների մեջ.';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Ժողովածու";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Ժողովածու';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Ցույց տալ UL/DL վիճակագրությունը ֆորումի գլխավոր էջի վերևում";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Ավտոմատ գրանցել տորրենտը նոր թեմաների համար.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Կարգավորումները փոխվելու են "Բեռնում" թեմայի գրառումներում.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'ամեն օր',
     'weekly' => 'շաբաթական',
     'monthly' => 'ամսական',
-    'interval' => 'ընդմիջում'
+    'interval' => 'ընդմիջում',
 ];
 $lang['NOSELECT'] = 'Ոչ մի ընտրություն';
 $lang['RUN_DAY'] = 'Սկսել օրը.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'անջատել ֆորումը, երբ այդ աշ
 $lang['RUN_COUNTER'] = 'Հաշվետու счетчик';
 
 $lang['JOB_REMOVED'] = 'Աշխատանքը հաջողությամբ հեռացվել է';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Այս սցենարով արդեն գոյություն ունի cron աշխատանք';
+$lang['TITLE_DUPLICATE'] = 'Այս  शीर्षքով արդեն գոյություն ունի cron աշխատանք';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sՎերադառնալ ավելացնել աշխատանքի%s';
 $lang['CLICK_RETURN_JOBS'] = '%sBack to the Task Scheduler%s';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'ֆորումներ այդ կատեգորիայի.';
 $lang['MC_TITLE'] = 'Մոդերացիայի մեկնաբանություն';
 $lang['MC_LEGEND'] = 'Մուտքագրեք մեկնաբանություն.';
 $lang['MC_FAQ'] = 'Մուտքագրված տեքստն կցուցադրվի այս հաղորդագրության տակ.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s ձեր հաղորդագրության մեջ.";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s ձեր հաղորդագրության մեջ.';
 $lang['MC_COMMENT_PM_MSG'] = "Բարի օր, [b]%s[/b]\nՄիջնորդը թողել է ձեր հաղորդման մեջ [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote].";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Համոզվեք, որ դուք ռոբոտ չեք։';
 $lang['CAPTCHA_WRONG'] = 'Դուք չեք կարող հաստատել, որ դուք ռոբոտ չեք։';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha-ն լիովին չի կարգավորված</h2><p>Ստեղծեք բանալիները ձեր captcha ծառայության կառավարման վահանակի միջոցով, ապա դրանք պետք է տեղադրեք config/config.php ֆայլում:</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'CAPTCHA-ի ստուգումը կատարվում է հետևելիս';
 
 // Sending email
