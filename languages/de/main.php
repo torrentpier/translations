@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
@@ -466,7 +467,7 @@ $lang['GENDER'] = 'Geschlecht';
 $lang['GENDER_SELECT'] = [
     0 => 'Unbekannt',
     1 => 'Männlich',
-    2 => 'Weiblich'
+    2 => 'Weiblich',
 ];
 $lang['MODULE_OFF'] = 'Modul ist deaktiviert!';
 
@@ -541,7 +542,6 @@ $lang['ACCOUNT_ADDED'] = 'Danke für die Registrierung. Ihr Konto wurde erstellt
 $lang['ACCOUNT_INACTIVE'] = 'Ihr Konto wurde erstellt. Dieses Forum erfordert jedoch die Aktivierung des Kontos. Ein Aktivierungslink wurde an die E-Mail-Adresse gesendet, die Sie angegeben haben. Bitte überprüfen Sie Ihre E-Mail auf weitere Informationen.';
 $lang['ACCOUNT_ACTIVE'] = 'Ihr Konto wurde gerade aktiviert. Danke für die Registrierung.';
 $lang['ALREADY_ACTIVATED'] = 'Sie haben Ihr Konto bereits aktiviert.';
-
 
 $lang['WRONG_ACTIVATION'] = 'Der Aktivierungsschlüssel, den Sie angegeben haben, stimmt mit keinem in der Datenbank überein.';
 $lang['PASSWORD_UPDATED'] = 'Ein neues Passwort wurde erstellt; bitte überprüfen Sie Ihre E-Mail für Details, um es zu aktivieren.';
@@ -1042,7 +1042,7 @@ $lang['OPEN_IN_SAME_WINDOW'] = 'öffnen im selben Fenster';
 $lang['SHOW_TIME_TOPICS'] = 'Zeit der Erstellung der Themen anzeigen';
 $lang['SHOW_CURSOR'] = 'Heben Sie die Zeile unter dem Cursor hervor';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = "Mit einem Verhältnis von <b>%s</b> können Sie keine Torrents herunterladen";
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Mit einem Verhältnis von <b>%s</b> können Sie keine Torrents herunterladen';
 $lang['BT_RATIO_WARNING_MSG'] = 'Wenn Ihr Verhältnis unter %s fällt, können Sie keine Torrents herunterladen! <a href="%s"><b>Mehr über das Rating.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nicht gesehen: <b>%s</b>';
@@ -1217,7 +1217,7 @@ $lang['CHOOSE_PASS_OK'] = 'Die Kennwörter übereinstimmen';
 $lang['CHOOSE_PASS_REG_OK'] = 'Die Kennwörter stimmen überein, Sie können mit der Registrierung fortfahren';
 $lang['CHOOSE_PASS_FAILED'] = 'Um das Passwort zu ändern, müssen Sie das aktuelle Passwort korrekt angeben';
 $lang['EMAILER_DISABLED'] = 'Entschuldigung, diese Funktion funktioniert vorübergehend nicht';
-$lang['REGISTERED_IN_TIME'] = "Die Registrierung ist derzeit geschlossen<br /><br />Die Registrierung ist verfügbar während: %s<br />Aktuelle Serverzeit: %s<br /><br />Wir entschuldigen uns für die Unannehmlichkeiten";
+$lang['REGISTERED_IN_TIME'] = 'Die Registrierung ist derzeit geschlossen<br /><br />Die Registrierung ist verfügbar während: %s<br />Aktuelle Serverzeit: %s<br /><br />Wir entschuldigen uns für die Unannehmlichkeiten';
 $lang['AUTOCOMPLETE'] = 'Passwort generieren';
 $lang['YOUR_NEW_PASSWORD'] = 'Ihr neues Passwort:';
 $lang['REGENERATE'] = 'Regenerieren';
@@ -1536,7 +1536,7 @@ $lang['ENABLE_PRUNE'] = 'Forum-Beschneiden aktivieren.';
 $lang['ALLOW_BBCODE'] = 'BBCode erlauben.';
 $lang['ALLOW_SMILIES'] = 'Smilies erlauben.';
 $lang['SMILIES_PATH'] = 'Pfad zur Smilies-Speicherung.';
-$lang['SMILIES_PATH_EXPLAIN'] = 'Path under your TorrentPier public directory, e.g. assets/images/smiles';
+$lang['SMILIES_PATH_EXPLAIN'] = 'Pfad unter Ihrem öffentlichen TorrentPier-Verzeichnis, z.B. assets/images/smiles';
 $lang['ALLOW_SIG'] = 'Signaturen erlauben.';
 $lang['MAX_SIG_LENGTH'] = 'Maximale Länge der Signatur.';
 $lang['MAX_SIG_LENGTH_EXPLAIN'] = 'Maximale Anzahl von Zeichen in Benutzer-Signaturen.';
@@ -1844,7 +1844,7 @@ $lang['BT_TOR_BROWSE_ONLY_REG'] = 'Torrent-Browser (tracker.php) nur für angeme
 $lang['BT_SEARCH_BOOL_MODE'] = 'Boolean-Volltextsuche erlauben.';
 $lang['BT_SEARCH_BOOL_MODE_EXPL'] = '* , + , - in der Suche nutzen';
 
-$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = "Sonstiges.";
+$lang['BT_SHOW_DL_STAT_ON_INDEX_HEAD'] = 'Sonstiges.';
 $lang['BT_SHOW_DL_STAT_ON_INDEX'] = "Benutzer UL/DL-Statistiken oben auf der Hauptseite des Forums anzeigen";
 $lang['BT_NEWTOPIC_AUTO_REG'] = 'Automatisch Torrent auf dem Tracker für neue Themen registrieren.';
 $lang['BT_SET_DLTYPE_ON_TOR_REG'] = 'Ändern Sie den Themenstatus in "Download" während der Registrierung von Torrent auf dem Tracker.';
@@ -1892,7 +1892,7 @@ $lang['SCHEDULE'] = [
     'daily' => 'Täglich.',
     'weekly' => 'Wöchentlich.',
     'monthly' => 'Monatlich.',
-    'interval' => 'Intervall.'
+    'interval' => 'Intervall.',
 ];
 $lang['NOSELECT'] = 'Nicht wählen.';
 $lang['RUN_DAY'] = 'Ausführen Tag.';
@@ -1913,8 +1913,8 @@ $lang['BOARD_DISABLE_EXPL'] = 'Deaktivieren Sie das Board, wenn dieser Job ausge
 $lang['RUN_COUNTER'] = 'Zählen.';
 
 $lang['JOB_REMOVED'] = 'Der Job wurde erfolgreich entfernt';
-$lang['SCRIPT_DUPLICATE'] = 'A cron job with this script already exists';
-$lang['TITLE_DUPLICATE'] = 'A cron job with this title already exists';
+$lang['SCRIPT_DUPLICATE'] = 'Ein Cron-Job mit diesem Skript existiert bereits';
+$lang['TITLE_DUPLICATE'] = 'Ein Cron-Job mit diesem Titel existiert bereits';
 $lang['CLICK_RETURN_JOBS_ADDED'] = '%sZurück zum Hinzufügen von Jobs%s';
 $lang['CLICK_RETURN_JOBS'] = '%sZurück zum Aufgabenscheduler%s.';
 
@@ -2161,7 +2161,7 @@ $lang['FORUMS_IN_CAT'] = 'Foren in dieser Kategorie';
 $lang['MC_TITLE'] = 'Moderationskommentar';
 $lang['MC_LEGEND'] = 'Geben Sie einen Kommentar ein';
 $lang['MC_FAQ'] = 'Der eingegebene Text wird unter dieser Nachricht angezeigt.';
-$lang['MC_COMMENT_PM_SUBJECT'] = "%s in Ihrer Nachricht";
+$lang['MC_COMMENT_PM_SUBJECT'] = '%s in Ihrer Nachricht';
 $lang['MC_COMMENT_PM_MSG'] = "Hallo, [b]%s[/b]\nDer Moderator hat in Ihrer Nachricht [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote] hinterlassen.";
 $lang['MC_COMMENT'] = [
     0 => [
@@ -2276,7 +2276,7 @@ $lang['UPLOAD_ERRORS'] = [
 // Captcha
 $lang['CAPTCHA'] = 'Überprüfen Sie, dass Sie kein Roboter sind.';
 $lang['CAPTCHA_WRONG'] = 'Sie konnten nicht bestätigen, dass Sie kein Roboter sind.';
-$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha is not fully configured</h2><p>Generate the keys using the dashboard of your captcha service, after you need to put them at the file config/config.php.</p>';
+$lang['CAPTCHA_SETTINGS'] = '<h2>Captcha ist nicht vollständig konfiguriert</h2><p>Generieren Sie die Schlüssel mit dem Dashboard Ihres Captcha-Dienstes, danach müssen Sie sie in der Datei config/config.php einfügen.</p>';
 $lang['CAPTCHA_OCCURS_BACKGROUND'] = 'Die CAPTCHA-Überprüfung erfolgt im Hintergrund';
 
 // Sending email
