@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Ադմինիստրատոր';
 $lang['ONLINE_MOD'] = 'Մոդերատոր';
 $lang['ONLINE_GROUP_MEMBER'] = 'Խմբի անդամ';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Այս գործողությունը չի կարող կատարվել ցուցադրական ռեժիմում!';
-
 $lang['CURRENT_TIME'] = 'Ընթացիկ ժամանակը: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Դիտել նոր գրառումներ';
