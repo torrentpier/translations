@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Адміністратор';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'Учасник груп';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Цю дію не можна виконати в демо-режимі!';
-
 $lang['CURRENT_TIME'] = 'Поточний час: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Показати останні повідомлення';
