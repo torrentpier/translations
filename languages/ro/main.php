@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Membru al grupului';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Această acțiune nu poate fi efectuată în modul demo!';
-
 $lang['CURRENT_TIME'] = 'Ora curentă este: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Vezi posturile cele mai recente';
