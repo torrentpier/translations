@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Anggota kelompok';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Aksi ini tidak dapat dilakukan dalam mode demo!';
-
 $lang['CURRENT_TIME'] = 'Waktu saat ini adalah: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Lihat posting terbaru';
