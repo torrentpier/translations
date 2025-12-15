@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Администратор';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'Участник групп';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Это действие не может быть выполнено в демонстрационном режиме!';
-
 $lang['CURRENT_TIME'] = 'Текущее время: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Новые сообщения';
