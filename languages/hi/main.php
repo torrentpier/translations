@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'प्रशासक';
 $lang['ONLINE_MOD'] = 'मध्यस्थ';
 $lang['ONLINE_GROUP_MEMBER'] = 'समूह का सदस्य';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'यह क्रिया डेमो मोड में नहीं की जा सकती!';
-
 $lang['CURRENT_TIME'] = 'वर्तमान समय है: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'नवीनतम पोस्ट देखें';
