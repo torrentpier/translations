@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = '관리자';
 $lang['ONLINE_MOD'] = '중재자';
 $lang['ONLINE_GROUP_MEMBER'] = '그룹 구성원';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = '이 작업은 데모 모드에서 수행할 수 없습니다!';
-
 $lang['CURRENT_TIME'] = '현재 시간은: <span class="tz_time">%s</span>입니다.';
 
 $lang['SEARCH_NEW'] = '최신 게시물 보기';
