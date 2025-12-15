@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrador';
 $lang['ONLINE_MOD'] = 'Moderador';
 $lang['ONLINE_GROUP_MEMBER'] = 'Membro do grupo.';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Esta ação não pode ser realizada no modo de demonstração!';
-
 $lang['CURRENT_TIME'] = 'Hora atual é: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Visualizar as postagens mais recentes.';
