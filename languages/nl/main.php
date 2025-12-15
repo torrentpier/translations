@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Beheerder';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Lid van de groep';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Deze actie kan niet worden uitgevoerd in demomodus!';
-
 $lang['CURRENT_TIME'] = 'De huidige tijd is: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Bekijk de nieuwste berichten';
