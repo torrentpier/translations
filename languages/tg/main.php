@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Маъмур';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'узви гурӯҳи';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Ин амал дар режими намоиш иҷро карда намешавад!';
-
 $lang['CURRENT_TIME'] = 'замони ҷорӣ аст: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Дидани постҳои навтарин';
