@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Adminisztrátor';
 $lang['ONLINE_MOD'] = 'Moderátor';
 $lang['ONLINE_GROUP_MEMBER'] = 'Csoport tagja';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Ez a művelet nem hajtható végre demó módban!';
-
 $lang['CURRENT_TIME'] = 'Jelenlegi idő: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Legújabb hozzászólások megtekintése';
