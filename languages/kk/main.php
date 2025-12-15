@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Әкімші';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'топ мүшесі';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Бұл әрекет демо режимінде орындалмайды!';
-
 $lang['CURRENT_TIME'] = 'Ағымдағы уақыт: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'жаңа хабарларды қарау';
