@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Správce';
 $lang['ONLINE_MOD'] = 'Moderátor';
 $lang['ONLINE_GROUP_MEMBER'] = 'Člen skupiny';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Tuto akci nelze provést v demoverzi!';
-
 $lang['CURRENT_TIME'] = 'Aktuální čas je: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Zobrazit nejnovější příspěvky';
