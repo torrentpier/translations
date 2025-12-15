@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administratorius';
 $lang['ONLINE_MOD'] = 'Moderatorius';
 $lang['ONLINE_GROUP_MEMBER'] = 'Grupės narys';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Šios akcijos negalima atlikti demonstraciniu režimu!';
-
 $lang['CURRENT_TIME'] = 'Dabartinis laikas yra: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Peržiūrėti naujausius pranešimus';
