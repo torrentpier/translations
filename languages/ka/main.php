@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'ადმინისტრატორი';
 $lang['ONLINE_MOD'] = 'მოდერატორი';
 $lang['ONLINE_GROUP_MEMBER'] = 'ჯგუფის წევრი';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'ეს მოქმედება არ შეიძლება შესრულდეს დემოტარებაში!';
-
 $lang['CURRENT_TIME'] = 'მიმდინარე დრო: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'იხილეთ უახლესი პოსტები';
