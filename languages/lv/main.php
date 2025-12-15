@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrators';
 $lang['ONLINE_MOD'] = 'Moderators';
 $lang['ONLINE_GROUP_MEMBER'] = 'Grupas dalībnieks';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Šo darbību nevar veikt demonstrācijas režīmā!';
-
 $lang['CURRENT_TIME'] = 'Pašreizējais laiks ir: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Apskatīt jaunākos amatus';
