@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Διαχειριστής';
 $lang['ONLINE_MOD'] = 'Συντονιστής';
 $lang['ONLINE_GROUP_MEMBER'] = 'Μέλος της ομάδας';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Αυτή η ενέργεια δεν μπορεί να εκτελεστεί σε δοκιμαστική λειτουργία!';
-
 $lang['CURRENT_TIME'] = 'Τρέχουσα ώρα είναι: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Δείτε νεότερες δημοσιεύσεις';
