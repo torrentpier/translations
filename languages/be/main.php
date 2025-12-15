@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Адміністратар';
 $lang['ONLINE_MOD'] = 'Мадэратар';
 $lang['ONLINE_GROUP_MEMBER'] = 'Член групы';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Гэту дзею нельга выканаць у дэма-рэжыме!';
-
 $lang['CURRENT_TIME'] = 'Бягучы час: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Глядзець апошнія пасты';
