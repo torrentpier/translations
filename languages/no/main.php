@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Gruppe-medlem';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Denne handlingen kan ikke utføres i demomodus!';
-
 $lang['CURRENT_TIME'] = 'Gjeldende klokkeslett er: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Vis nyeste innlegg';
