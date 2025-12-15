@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Amministratore';
 $lang['ONLINE_MOD'] = 'Moderatore';
 $lang['ONLINE_GROUP_MEMBER'] = 'A better phrasing is required for the translation to be acceptable.';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Questa azione non può essere effettuata in modalità demo!';
-
 $lang['CURRENT_TIME'] = 'L\'ora corrente è: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Translation does not appropriately match the source text.';
