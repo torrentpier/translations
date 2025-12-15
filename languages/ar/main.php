@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'مسؤول';
 $lang['ONLINE_MOD'] = 'مشرف';
 $lang['ONLINE_GROUP_MEMBER'] = 'عضو في المجموعة';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'لا يمكن تنفيذ هذا الإجراء في وضع العرض التوضيحي!';
-
 $lang['CURRENT_TIME'] = 'الوقت الحالي هو: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'عرض أحدث المشاركات';
