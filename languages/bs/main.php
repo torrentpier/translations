@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Broj korisnika';
 $lang['USERS_PER_DAY'] = 'Korisnici po danu';
 $lang['BOARD_STARTED'] = 'Odbor je počeo';
 $lang['AVATAR_DIR_SIZE'] = 'Veličina direktorija avatara';
-$lang['GZIP_COMPRESSION'] = 'Gzip kompresije';
 $lang['NOT_AVAILABLE'] = 'Nije dostupno';
 
 // System information
