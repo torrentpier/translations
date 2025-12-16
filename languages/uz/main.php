@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Foydalanuvchilar soni';
 $lang['USERS_PER_DAY'] = 'Kunlik foydalanuvchilar';
 $lang['BOARD_STARTED'] = 'Kengashi boshlandi';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar katalog hajmi';
-$lang['GZIP_COMPRESSION'] = 'gzip siqish';
 $lang['NOT_AVAILABLE'] = 'Mavjud emas';
 
 // System information
