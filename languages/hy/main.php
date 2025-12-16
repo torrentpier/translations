@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Օգտվողների թիվը';
 $lang['USERS_PER_DAY'] = 'Օգտագործողների օրական քանակը';
 $lang['BOARD_STARTED'] = 'Խորհուրդը սկսվել է';
 $lang['AVATAR_DIR_SIZE'] = 'Անձնանշանների Նմուշ';
-$lang['GZIP_COMPRESSION'] = 'GZIP սեղմում';
 $lang['NOT_AVAILABLE'] = 'Հասանելի չէ';
 
 // System information
