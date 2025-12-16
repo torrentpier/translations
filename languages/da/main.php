@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Antal brugere.';
 $lang['USERS_PER_DAY'] = 'Brugere per dag.';
 $lang['BOARD_STARTED'] = 'Bestyrelsen startet.';
 $lang['AVATAR_DIR_SIZE'] = 'Avatarkartestørrelse.';
-$lang['GZIP_COMPRESSION'] = 'Gzip-komprimering';
 $lang['NOT_AVAILABLE'] = 'Ikke tilgængelig';
 
 // System information
