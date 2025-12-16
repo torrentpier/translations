@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Počet používateľov';
 $lang['USERS_PER_DAY'] = 'Užívateľov za deň';
 $lang['BOARD_STARTED'] = 'Fórum založené';
 $lang['AVATAR_DIR_SIZE'] = 'Veľkosť adresára avatarov';
-$lang['GZIP_COMPRESSION'] = 'Gzip kompresia';
 $lang['NOT_AVAILABLE'] = 'Nie je k dispozícii';
 
 // System information
