@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Vartotojų skaičius';
 $lang['USERS_PER_DAY'] = 'Vartotojai per dieną';
 $lang['BOARD_STARTED'] = 'Forumas pradėtas';
 $lang['AVATAR_DIR_SIZE'] = 'Avataro katalogo dydis';
-$lang['GZIP_COMPRESSION'] = 'Gzip suspaudimo';
 $lang['NOT_AVAILABLE'] = 'Nėra';
 
 // System information
