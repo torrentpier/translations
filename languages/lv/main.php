@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Lietotāju skaits';
 $lang['USERS_PER_DAY'] = 'Lietotājs dienā';
 $lang['BOARD_STARTED'] = 'Valdes uzsākšana';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar kataloga izmērs';
-$lang['GZIP_COMPRESSION'] = 'GZIP saspiešana';
 $lang['NOT_AVAILABLE'] = 'Nav pieejams';
 
 // System information
