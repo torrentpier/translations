@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'ユーザー数';
 $lang['USERS_PER_DAY'] = '1日のユーザー数';
 $lang['BOARD_STARTED'] = 'ボードが開始されました';
 $lang['AVATAR_DIR_SIZE'] = 'アバターのディレクトリサイズ';
-$lang['GZIP_COMPRESSION'] = 'GZIP圧縮';
 $lang['NOT_AVAILABLE'] = '利用できません';
 
 // System information
