@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Aantal gebruikers';
 $lang['USERS_PER_DAY'] = 'Gebruikers per dag';
 $lang['BOARD_STARTED'] = 'Raad van bestuur is gestart.';
 $lang['AVATAR_DIR_SIZE'] = 'Grootte van de avatardirectory.';
-$lang['GZIP_COMPRESSION'] = 'Gzip compressie';
 $lang['NOT_AVAILABLE'] = 'Niet beschikbaar';
 
 // System information
