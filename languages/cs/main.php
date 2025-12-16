@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Počet uživatelů';
 $lang['USERS_PER_DAY'] = 'Uživatelů za den';
 $lang['BOARD_STARTED'] = 'Rada byla spuštěna';
 $lang['AVATAR_DIR_SIZE'] = 'Velikost adresáře avataru';
-$lang['GZIP_COMPRESSION'] = 'Gzip komprese';
 $lang['NOT_AVAILABLE'] = 'Není k dispozici';
 
 // System information
