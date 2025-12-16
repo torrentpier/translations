@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'מספר של משתמשים';
 $lang['USERS_PER_DAY'] = 'משתמשים ביום';
 $lang['BOARD_STARTED'] = 'הלוח התחיל.';
 $lang['AVATAR_DIR_SIZE'] = 'גודל ספריית אווטאר.';
-$lang['GZIP_COMPRESSION'] = 'דחיסת Gzip';
 $lang['NOT_AVAILABLE'] = 'לא זמין';
 
 // System information
