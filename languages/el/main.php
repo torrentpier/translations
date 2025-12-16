@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Αριθμός χρηστών.';
 $lang['USERS_PER_DAY'] = 'Χρήστες ανά ημέρα.';
 $lang['BOARD_STARTED'] = 'Ο πίνακας ξεκίνησε.';
 $lang['AVATAR_DIR_SIZE'] = 'Μέγεθος καταλόγου Avatar.';
-$lang['GZIP_COMPRESSION'] = 'Συμπίεση Gzip';
 $lang['NOT_AVAILABLE'] = 'Δεν είναι διαθέσιμη.';
 
 // System information
