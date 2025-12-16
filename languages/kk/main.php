@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Пайдаланушылар саны';
 $lang['USERS_PER_DAY'] = 'Күнделікті пайдаланушылар';
 $lang['BOARD_STARTED'] = 'Форум іске қосылды';
 $lang['AVATAR_DIR_SIZE'] = 'Аватар каталогының көлемі';
-$lang['GZIP_COMPRESSION'] = 'Gzip қысу';
 $lang['NOT_AVAILABLE'] = 'Қолжетімді емес';
 
 // System information
