@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Кол-во пользователей';
 $lang['USERS_PER_DAY'] = 'Пользователей в день';
 $lang['BOARD_STARTED'] = 'Дата запуска';
 $lang['AVATAR_DIR_SIZE'] = 'Размер директории с аватарами';
-$lang['GZIP_COMPRESSION'] = 'сжатие Gzip';
 $lang['NOT_AVAILABLE'] = 'Недоступно';
 
 // System information
