@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'จำนวนผู้ใช้';
 $lang['USERS_PER_DAY'] = 'ผู้ใช้ต่อวัน';
 $lang['BOARD_STARTED'] = 'บอร์ดเริ่มใช้งาน';
 $lang['AVATAR_DIR_SIZE'] = 'ขนาดแมพอวตารของไดเรกทอรี';
-$lang['GZIP_COMPRESSION'] = 'การบีบอัด GZIP';
 $lang['NOT_AVAILABLE'] = 'ไม่มีให้บริการ';
 
 // System information
