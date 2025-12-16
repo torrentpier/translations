@@ -1402,7 +1402,6 @@ $lang['NUMBER_USERS'] = 'Felhasználók száma.';
 $lang['USERS_PER_DAY'] = 'Felhasználók naponta.';
 $lang['BOARD_STARTED'] = 'Lefedettek Board.';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar könyvtár mérete';
-$lang['GZIP_COMPRESSION'] = 'Gzip tömörítés';
 $lang['NOT_AVAILABLE'] = 'Nem elérhető';
 
 // System information
