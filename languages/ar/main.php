@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'عدد المستخدمين';
 $lang['USERS_PER_DAY'] = 'عدد المستخدمين يومياً';
 $lang['BOARD_STARTED'] = 'مجلس الإدارة';
 $lang['AVATAR_DIR_SIZE'] = 'حجم الدليل للصور الرمزية';
-$lang['GZIP_COMPRESSION'] = 'ضغط GZIP';
 $lang['NOT_AVAILABLE'] = 'لا تتوفر';
 
 // System information
