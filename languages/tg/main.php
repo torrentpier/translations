@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Шумораи истифодабарандагони.'
 $lang['USERS_PER_DAY'] = 'Истифодабарандагон дар як рӯз.';
 $lang['BOARD_STARTED'] = 'Раёсат оғоз.';
 $lang['AVATAR_DIR_SIZE'] = 'Аватар андозаи феҳристи.';
-$lang['GZIP_COMPRESSION'] = 'фишурдасозии Gzip';
 $lang['NOT_AVAILABLE'] = 'Дастрас нест';
 
 // System information
