@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Numri i Përdoruesve';
 $lang['USERS_PER_DAY'] = 'Përdoruesit në Ditë';
 $lang['BOARD_STARTED'] = 'Bordi Filloi';
 $lang['AVATAR_DIR_SIZE'] = 'Madhësia e Direktories së Avatarëve';
-$lang['GZIP_COMPRESSION'] = 'Shtypja GZIP';
 $lang['NOT_AVAILABLE'] = 'Jo në Disponim';
 
 // System information
