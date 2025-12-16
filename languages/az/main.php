@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'İstifadəçilərin sayı';
 $lang['USERS_PER_DAY'] = 'Gündə istifadəçilər';
 $lang['BOARD_STARTED'] = 'Board başladı';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar qovluğunun böyüklüyü';
-$lang['GZIP_COMPRESSION'] = 'GZIP sıxılması';
 $lang['NOT_AVAILABLE'] = 'Mövcud deyil';
 
 // System information
