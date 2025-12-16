@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = '用戶數量';
 $lang['USERS_PER_DAY'] = '每日用戶數';
 $lang['BOARD_STARTED'] = '論壇開始';
 $lang['AVATAR_DIR_SIZE'] = '頭像目錄大小';
-$lang['GZIP_COMPRESSION'] = 'Gzip 壓縮';
 $lang['NOT_AVAILABLE'] = '不提供';
 
 // System information
