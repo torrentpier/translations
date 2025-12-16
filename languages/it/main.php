@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Numero di utenti';
 $lang['USERS_PER_DAY'] = 'Utenti al giorno';
 $lang['BOARD_STARTED'] = 'Il Consiglio è iniziato';
 $lang['AVATAR_DIR_SIZE'] = 'Dimensione della directory degli avatar';
-$lang['GZIP_COMPRESSION'] = 'Compressione GZIP';
 $lang['NOT_AVAILABLE'] = 'Non disponibile';
 
 // System information
