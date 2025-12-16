@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = '사용자 수.';
 $lang['USERS_PER_DAY'] = '사용자 수.';
 $lang['BOARD_STARTED'] = '게시판 시작.';
 $lang['AVATAR_DIR_SIZE'] = '아바타 디렉토리 크기.';
-$lang['GZIP_COMPRESSION'] = 'Gzip 으로 압축';
 $lang['NOT_AVAILABLE'] = '사용할 수 없습니다.';
 
 // System information
