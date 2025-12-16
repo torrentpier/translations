@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Kasutajate arv';
 $lang['USERS_PER_DAY'] = 'Kasutajad päevas';
 $lang['BOARD_STARTED'] = 'Juhatuse algus';
 $lang['AVATAR_DIR_SIZE'] = 'Avatari kausta suurus';
-$lang['GZIP_COMPRESSION'] = 'GZIP-i tihendamine';
 $lang['NOT_AVAILABLE'] = 'Ei ole kättesaadav';
 
 // System information
