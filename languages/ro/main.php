@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Numărul utilizatorilor';
 $lang['USERS_PER_DAY'] = 'Utilizatori pe zi';
 $lang['BOARD_STARTED'] = 'Forumul a fost creat';
 $lang['AVATAR_DIR_SIZE'] = 'Dimensiunea directorului de avatar';
-$lang['GZIP_COMPRESSION'] = 'Compresie GZIP';
 $lang['NOT_AVAILABLE'] = 'Nu este disponibil';
 
 // System information
