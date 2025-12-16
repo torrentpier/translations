@@ -1401,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Jumlah pengguna';
 $lang['USERS_PER_DAY'] = 'Pengguna per hari';
 $lang['BOARD_STARTED'] = 'Papan mulai';
 $lang['AVATAR_DIR_SIZE'] = 'Ukuran direktori avatar';
-$lang['GZIP_COMPRESSION'] = 'Gzip compression';
 $lang['NOT_AVAILABLE'] = 'Tidak tersedia';
 
 // System information
