@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Membru al grupului';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Această acțiune nu poate fi efectuată în modul demo!';
-
 $lang['CURRENT_TIME'] = 'Ora curentă este: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Vezi posturile cele mai recente';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Numărul utilizatorilor';
 $lang['USERS_PER_DAY'] = 'Utilizatori pe zi';
 $lang['BOARD_STARTED'] = 'Forumul a fost creat';
 $lang['AVATAR_DIR_SIZE'] = 'Dimensiunea directorului de avatar';
-$lang['GZIP_COMPRESSION'] = 'Compresie GZIP';
 $lang['NOT_AVAILABLE'] = 'Nu este disponibil';
 
 // System information

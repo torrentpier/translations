@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Quản trị';
 $lang['ONLINE_MOD'] = 'Điều hành';
 $lang['ONLINE_GROUP_MEMBER'] = 'Thành viên của nhóm';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Hành động này không thể thực hiện trong chế độ demo!';
-
 $lang['CURRENT_TIME'] = 'Thời gian hiện tại là: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Xem bài viết mới nhất';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Số người dùng';
 $lang['USERS_PER_DAY'] = 'Số người sử dụng mỗi ngày';
 $lang['BOARD_STARTED'] = 'Diễn đàn bắt đầu';
 $lang['AVATAR_DIR_SIZE'] = 'Kích thước thư mục Avatar';
-$lang['GZIP_COMPRESSION'] = 'Nén GZIP';
 $lang['NOT_AVAILABLE'] = 'Không khả dụng';
 
 // System information

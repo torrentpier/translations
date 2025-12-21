@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Ադմինիստրատոր';
 $lang['ONLINE_MOD'] = 'Մոդերատոր';
 $lang['ONLINE_GROUP_MEMBER'] = 'Խմբի անդամ';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Այս գործողությունը չի կարող կատարվել ցուցադրական ռեժիմում!';
-
 $lang['CURRENT_TIME'] = 'Ընթացիկ ժամանակը: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Դիտել նոր գրառումներ';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Օգտվողների թիվը';
 $lang['USERS_PER_DAY'] = 'Օգտագործողների օրական քանակը';
 $lang['BOARD_STARTED'] = 'Խորհուրդը սկսվել է';
 $lang['AVATAR_DIR_SIZE'] = 'Անձնանշանների Նմուշ';
-$lang['GZIP_COMPRESSION'] = 'GZIP սեղմում';
 $lang['NOT_AVAILABLE'] = 'Հասանելի չէ';
 
 // System information

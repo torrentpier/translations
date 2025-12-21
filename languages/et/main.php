@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administraator';
 $lang['ONLINE_MOD'] = 'Moderaator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Grupi liige';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Seda tegevust ei saa teha demo režiimis!';
-
 $lang['CURRENT_TIME'] = 'Praegune aeg on: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Vaata uusimaid postitusi.';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Kasutajate arv';
 $lang['USERS_PER_DAY'] = 'Kasutajad päevas';
 $lang['BOARD_STARTED'] = 'Juhatuse algus';
 $lang['AVATAR_DIR_SIZE'] = 'Avatari kausta suurus';
-$lang['GZIP_COMPRESSION'] = 'GZIP-i tihendamine';
 $lang['NOT_AVAILABLE'] = 'Ei ole kättesaadav';
 
 // System information

@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'מנהל';
 $lang['ONLINE_MOD'] = 'מנחה';
 $lang['ONLINE_GROUP_MEMBER'] = 'בקבוצה';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'לא ניתן לבצע פעולה זו במצב הדגמה!';
-
 $lang['CURRENT_TIME'] = 'הזמן הנוכחי הוא: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'הודעה חדשות.';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'מספר של משתמשים';
 $lang['USERS_PER_DAY'] = 'משתמשים ביום';
 $lang['BOARD_STARTED'] = 'הלוח התחיל.';
 $lang['AVATAR_DIR_SIZE'] = 'גודל ספריית אווטאר.';
-$lang['GZIP_COMPRESSION'] = 'דחיסת Gzip';
 $lang['NOT_AVAILABLE'] = 'לא זמין';
 
 // System information

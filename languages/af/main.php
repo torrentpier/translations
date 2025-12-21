@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'administrateur';
 $lang['ONLINE_MOD'] = 'moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Groeplid';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Hierdie aksie kan nie in demo-modus uitgevoer word nie!';
-
 $lang['CURRENT_TIME'] = 'Huidige tyd is: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Bekyk nuutste plasings';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Aantal gebruikers';
 $lang['USERS_PER_DAY'] = 'Gebruikers per dag';
 $lang['BOARD_STARTED'] = 'Raad begin';
 $lang['AVATAR_DIR_SIZE'] = 'Grootte van avatar-gids';
-$lang['GZIP_COMPRESSION'] = 'Gzip kompressie';
 $lang['NOT_AVAILABLE'] = 'Nie beskikbaar nie';
 
 // System information

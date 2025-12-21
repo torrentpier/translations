@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Członek grupy';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Tego działania nie można wykonać w trybie demo!';
-
 $lang['CURRENT_TIME'] = 'Aktualny czas: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Zobacz nowe posty';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Liczba użytkowników';
 $lang['USERS_PER_DAY'] = 'Użytkowników na dzień';
 $lang['BOARD_STARTED'] = 'Tablica rozpoczęta';
 $lang['AVATAR_DIR_SIZE'] = 'Rozmiar katalogu awatarów';
-$lang['GZIP_COMPRESSION'] = 'Kompresja GZIP';
 $lang['NOT_AVAILABLE'] = 'Nie jest dostępny';
 
 // System information

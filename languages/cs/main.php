@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Správce';
 $lang['ONLINE_MOD'] = 'Moderátor';
 $lang['ONLINE_GROUP_MEMBER'] = 'Člen skupiny';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Tuto akci nelze provést v demoverzi!';
-
 $lang['CURRENT_TIME'] = 'Aktuální čas je: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Zobrazit nejnovější příspěvky';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Počet uživatelů';
 $lang['USERS_PER_DAY'] = 'Uživatelů za den';
 $lang['BOARD_STARTED'] = 'Rada byla spuštěna';
 $lang['AVATAR_DIR_SIZE'] = 'Velikost adresáře avataru';
-$lang['GZIP_COMPRESSION'] = 'Gzip komprese';
 $lang['NOT_AVAILABLE'] = 'Není k dispozici';
 
 // System information

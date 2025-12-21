@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrateur';
 $lang['ONLINE_MOD'] = 'Modérateur';
 $lang['ONLINE_GROUP_MEMBER'] = 'Membre du groupe';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Cette action ne peut pas être effectuée en mode démo !';
-
 $lang['CURRENT_TIME'] = 'Le temps actuel est: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Afficher les plus récents messages';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Nombre d\'utilisateurs.';
 $lang['USERS_PER_DAY'] = 'Utilisateurs par jour.';
 $lang['BOARD_STARTED'] = 'Le conseil d\'administration a commencé.';
 $lang['AVATAR_DIR_SIZE'] = 'Taille du répertoire d\'avatar.';
-$lang['GZIP_COMPRESSION'] = 'Compression GZIP';
 $lang['NOT_AVAILABLE'] = 'Pas disponible.';
 
 // System information

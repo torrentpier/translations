@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'ผู้ดูแลระบบ';
 $lang['ONLINE_MOD'] = 'moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'กลุ่มสมาชิก';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'ไม่สามารถดำเนินการนี้ในโหมดสาธิตได้!';
-
 $lang['CURRENT_TIME'] = 'เวลาปัจจุบันคือ:<span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'ดูโพสต์ใหม่ล่าสุด';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'จำนวนผู้ใช้';
 $lang['USERS_PER_DAY'] = 'ผู้ใช้ต่อวัน';
 $lang['BOARD_STARTED'] = 'บอร์ดเริ่มใช้งาน';
 $lang['AVATAR_DIR_SIZE'] = 'ขนาดแมพอวตารของไดเรกทอรี';
-$lang['GZIP_COMPRESSION'] = 'การบีบอัด GZIP';
 $lang['NOT_AVAILABLE'] = 'ไม่มีให้บริการ';
 
 // System information

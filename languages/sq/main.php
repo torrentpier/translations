@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administratori';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Anëtari i grupit';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Ky veprim nuk mund të kryhet në modalitetin demo!';
-
 $lang['CURRENT_TIME'] = 'Kohën e tanishme është: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Shiko postimet më të reja';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Numri i Përdoruesve';
 $lang['USERS_PER_DAY'] = 'Përdoruesit në Ditë';
 $lang['BOARD_STARTED'] = 'Bordi Filloi';
 $lang['AVATAR_DIR_SIZE'] = 'Madhësia e Direktories së Avatarëve';
-$lang['GZIP_COMPRESSION'] = 'Shtypja GZIP';
 $lang['NOT_AVAILABLE'] = 'Jo në Disponim';
 
 // System information

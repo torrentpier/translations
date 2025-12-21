@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrador';
 $lang['ONLINE_MOD'] = 'Moderador';
 $lang['ONLINE_GROUP_MEMBER'] = 'Membre del grup';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Aquesta acció no es pot realitzar en mode demostració!';
-
 $lang['CURRENT_TIME'] = 'L\'hora actual és: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'There are consistency issues with the terms used.';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Nombre d\'usuaris';
 $lang['USERS_PER_DAY'] = 'Usuaris per dia';
 $lang['BOARD_STARTED'] = 'Consell de començar.';
 $lang['AVATAR_DIR_SIZE'] = 'Mida del directori d\'avatars.';
-$lang['GZIP_COMPRESSION'] = 'La compressió Gzip';
 $lang['NOT_AVAILABLE'] = 'No disponible';
 
 // System information

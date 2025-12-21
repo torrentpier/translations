@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Ylläpitäjä';
 $lang['ONLINE_MOD'] = 'Moderaattori';
 $lang['ONLINE_GROUP_MEMBER'] = 'Ryhmän jäsen';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Tätä toimintoa ei voi suorittaa demo-tilassa!';
-
 $lang['CURRENT_TIME'] = 'Nykyinen aika on: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Näytä uusimmat viestit';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Käyttäjien määrä';
 $lang['USERS_PER_DAY'] = 'Käyttäjiä per päivä';
 $lang['BOARD_STARTED'] = 'Foorumi on avattu';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar-hakemiston koko';
-$lang['GZIP_COMPRESSION'] = 'Gzip compression';
 $lang['NOT_AVAILABLE'] = 'Ei saatavilla';
 
 // System information

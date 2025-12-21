@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Администратор';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'Члан групе.';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Ова акција не може бити извршена у демо режиму!';
-
 $lang['CURRENT_TIME'] = 'Тренутно време је: <span class="tz_time">%s</span>.';
 
 $lang['SEARCH_NEW'] = 'Гледај најновије поруке.';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Број корисника';
 $lang['USERS_PER_DAY'] = 'Корисника у дан';
 $lang['BOARD_STARTED'] = 'Савет је почео';
 $lang['AVATAR_DIR_SIZE'] = 'Аватар Величина каталога';
-$lang['GZIP_COMPRESSION'] = 'ГЗИП компресија';
 $lang['NOT_AVAILABLE'] = 'Није доступан';
 
 // System information

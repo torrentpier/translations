@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'ადმინისტრატორი';
 $lang['ONLINE_MOD'] = 'მოდერატორი';
 $lang['ONLINE_GROUP_MEMBER'] = 'ჯგუფის წევრი';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'ეს მოქმედება არ შეიძლება შესრულდეს დემოტარებაში!';
-
 $lang['CURRENT_TIME'] = 'მიმდინარე დრო: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'იხილეთ უახლესი პოსტები';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'მომხმარებლების რაოდ
 $lang['USERS_PER_DAY'] = 'მომხმარებლების დეპეციკაციის მასალა დღეში.';
 $lang['BOARD_STARTED'] = 'ფორუმის დაწყება.';
 $lang['AVATAR_DIR_SIZE'] = 'ავატარის დირექტორია ზომა.';
-$lang['GZIP_COMPRESSION'] = 'Gzip კომპრესია';
 $lang['NOT_AVAILABLE'] = 'არ არის ხელმისაწვდომი.';
 
 // System information

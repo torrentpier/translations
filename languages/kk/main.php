@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Әкімші';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'топ мүшесі';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Бұл әрекет демо режимінде орындалмайды!';
-
 $lang['CURRENT_TIME'] = 'Ағымдағы уақыт: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'жаңа хабарларды қарау';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Пайдаланушылар саны';
 $lang['USERS_PER_DAY'] = 'Күнделікті пайдаланушылар';
 $lang['BOARD_STARTED'] = 'Форум іске қосылды';
 $lang['AVATAR_DIR_SIZE'] = 'Аватар каталогының көлемі';
-$lang['GZIP_COMPRESSION'] = 'Gzip қысу';
 $lang['NOT_AVAILABLE'] = 'Қолжетімді емес';
 
 // System information

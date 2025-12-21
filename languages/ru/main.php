@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Администратор';
 $lang['ONLINE_MOD'] = 'Модератор';
 $lang['ONLINE_GROUP_MEMBER'] = 'Участник групп';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Это действие не может быть выполнено в демонстрационном режиме!';
-
 $lang['CURRENT_TIME'] = 'Текущее время: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Новые сообщения';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Кол-во пользователей';
 $lang['USERS_PER_DAY'] = 'Пользователей в день';
 $lang['BOARD_STARTED'] = 'Дата запуска';
 $lang['AVATAR_DIR_SIZE'] = 'Размер директории с аватарами';
-$lang['GZIP_COMPRESSION'] = 'сжатие Gzip';
 $lang['NOT_AVAILABLE'] = 'Недоступно';
 
 // System information

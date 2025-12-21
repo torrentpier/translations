@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrador';
 $lang['ONLINE_MOD'] = 'Moderador';
 $lang['ONLINE_GROUP_MEMBER'] = 'Miembro del grupo';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = '¡Esta acción no se puede realizar en modo de demostración!';
-
 $lang['CURRENT_TIME'] = 'Hora actual es: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Ver las publicaciones más nuevas';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Número de usuarios.';
 $lang['USERS_PER_DAY'] = 'Usuarios por día.';
 $lang['BOARD_STARTED'] = 'La junta comenzó.';
 $lang['AVATAR_DIR_SIZE'] = 'Tamaño del directorio de avatares.';
-$lang['GZIP_COMPRESSION'] = 'La compresión Gzip';
 $lang['NOT_AVAILABLE'] = 'No disponible';
 
 // System information

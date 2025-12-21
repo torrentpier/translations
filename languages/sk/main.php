@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrátor';
 $lang['ONLINE_MOD'] = 'Moderátor';
 $lang['ONLINE_GROUP_MEMBER'] = 'Člen skupiny';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Túto akciu nemožno vykonať v ukážkovom režime!';
-
 $lang['CURRENT_TIME'] = 'Aktuálny čas je: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Zobraziť najnovšie príspevky';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Počet používateľov';
 $lang['USERS_PER_DAY'] = 'Užívateľov za deň';
 $lang['BOARD_STARTED'] = 'Fórum založené';
 $lang['AVATAR_DIR_SIZE'] = 'Veľkosť adresára avatarov';
-$lang['GZIP_COMPRESSION'] = 'Gzip kompresia';
 $lang['NOT_AVAILABLE'] = 'Nie je k dispozícii';
 
 // System information

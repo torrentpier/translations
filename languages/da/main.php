@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administrator';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Gruppemedlem';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Denne handling kan ikke udføres i demotilstand!';
-
 $lang['CURRENT_TIME'] = 'Nuværende tidspunkt er: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Se nyeste indlæg';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Antal brugere.';
 $lang['USERS_PER_DAY'] = 'Brugere per dag.';
 $lang['BOARD_STARTED'] = 'Bestyrelsen startet.';
 $lang['AVATAR_DIR_SIZE'] = 'Avatarkartestørrelse.';
-$lang['GZIP_COMPRESSION'] = 'Gzip-komprimering';
 $lang['NOT_AVAILABLE'] = 'Ikke tilgængelig';
 
 // System information

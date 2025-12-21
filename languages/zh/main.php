@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = '管理员';
 $lang['ONLINE_MOD'] = '版主';
 $lang['ONLINE_GROUP_MEMBER'] = '组成员';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = '此操作不能在演示模式下執行！';
-
 $lang['CURRENT_TIME'] = '当前时间是︰ <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = '查看最新帖子';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = '用戶數量';
 $lang['USERS_PER_DAY'] = '每日用戶數';
 $lang['BOARD_STARTED'] = '論壇開始';
 $lang['AVATAR_DIR_SIZE'] = '頭像目錄大小';
-$lang['GZIP_COMPRESSION'] = 'Gzip 壓縮';
 $lang['NOT_AVAILABLE'] = '不提供';
 
 // System information

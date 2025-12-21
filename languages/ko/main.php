@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = '관리자';
 $lang['ONLINE_MOD'] = '중재자';
 $lang['ONLINE_GROUP_MEMBER'] = '그룹 구성원';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = '이 작업은 데모 모드에서 수행할 수 없습니다!';
-
 $lang['CURRENT_TIME'] = '현재 시간은: <span class="tz_time">%s</span>입니다.';
 
 $lang['SEARCH_NEW'] = '최신 게시물 보기';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = '사용자 수.';
 $lang['USERS_PER_DAY'] = '사용자 수.';
 $lang['BOARD_STARTED'] = '게시판 시작.';
 $lang['AVATAR_DIR_SIZE'] = '아바타 디렉토리 크기.';
-$lang['GZIP_COMPRESSION'] = 'Gzip 으로 압축';
 $lang['NOT_AVAILABLE'] = '사용할 수 없습니다.';
 
 // System information

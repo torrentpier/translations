@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Administratör';
 $lang['ONLINE_MOD'] = 'Moderator';
 $lang['ONLINE_GROUP_MEMBER'] = 'Grupp-medlem';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Denna åtgärd kan inte utföras i demoläge!';
-
 $lang['CURRENT_TIME'] = 'Aktuell tid är: <span class="tz_time">%s</span>';
 
 $lang['SEARCH_NEW'] = 'Visa senaste inlägg';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Antal användare';
 $lang['USERS_PER_DAY'] = 'Användare per dag';
 $lang['BOARD_STARTED'] = 'Styrelsen startad';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar-katalogstorlek';
-$lang['GZIP_COMPRESSION'] = 'Gzip-komprimering';
 $lang['NOT_AVAILABLE'] = 'Inte tillgänglig';
 
 // System information

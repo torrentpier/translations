@@ -118,8 +118,6 @@ $lang['ONLINE_ADMIN'] = 'Yönetici';
 $lang['ONLINE_MOD'] = 'Moderatör';
 $lang['ONLINE_GROUP_MEMBER'] = 'Grup üyesi';
 
-$lang['CANT_EDIT_IN_DEMO_MODE'] = 'Bu işlem demo modunda gerçekleştirilemez!';
-
 $lang['CURRENT_TIME'] = 'Geçerli zaman: <span class="tz_time">%s</span>.';
 
 $lang['SEARCH_NEW'] = 'En son mesajları görüntüle.';
@@ -1403,7 +1401,6 @@ $lang['NUMBER_USERS'] = 'Kullanıcı sayısı';
 $lang['USERS_PER_DAY'] = 'Günlük kullanıcı sayısı';
 $lang['BOARD_STARTED'] = 'Kurul başladı';
 $lang['AVATAR_DIR_SIZE'] = 'Avatar dizin boyutu';
-$lang['GZIP_COMPRESSION'] = 'GZIP sıkıştırma';
 $lang['NOT_AVAILABLE'] = 'Mevcut değil';
 
 // System information
