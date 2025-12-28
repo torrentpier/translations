@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Sivu <b>%d</b> / <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Olet antanut virheellisen Twitter-kirjautumisen.';
 
-$lang['FORUM_INDEX'] = '%s foorumin indeksi'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Lähetä uusi aihe';
 $lang['POST_NEW_RELEASE'] = 'Lähetä uusi julkaisu';
 $lang['REPLY_TO_TOPIC'] = 'Vastaus aiheesta';
