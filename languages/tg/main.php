@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Саҳифа <b>%d</b> аз<b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Шумо ворид кардани гузашти Twitter бекор кардаед.';
 
-$lang['FORUM_INDEX'] = '%s Индекси Форум'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Нашр кардани мавзӯи нав';
 $lang['POST_NEW_RELEASE'] = 'Садо озод наверо';
 $lang['REPLY_TO_TOPIC'] = 'Ҷавоб ба мавзӯи';
