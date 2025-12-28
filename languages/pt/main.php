@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Página <b>%d</b> de <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Você inseriu um erro de login do Twitter.';
 
-$lang['FORUM_INDEX'] = '%s Índice do Fórum.'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Post novo tópico';
 $lang['POST_NEW_RELEASE'] = 'Post novo lançamento';
 $lang['REPLY_TO_TOPIC'] = 'Responder ao tópico';
