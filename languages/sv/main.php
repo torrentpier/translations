@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Sidan <b>%d</b> av <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Du angav ett ogiltigt inloggningsnamn';
 
-$lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Skapa nytt ämne';
 $lang['POST_NEW_RELEASE'] = 'Posta ny utgåva';
 $lang['REPLY_TO_TOPIC'] = 'Svara på ämnet';
