@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'გვერდი <b>%d</b> - დან <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'თქვენი X (Twitter) შესვლა არასწორია.';
 
-$lang['FORUM_INDEX'] = '%s ფორუმი'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'ახალი თემის პოსტი';
 $lang['POST_NEW_RELEASE'] = 'ახალი რელიზის პოსტი';
 $lang['REPLY_TO_TOPIC'] = 'თემაზე პასუხი';
