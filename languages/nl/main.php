@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Pagina <b>%d</b> van <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Je hebt een ongeldig Twitter login';
 
-$lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Nieuw onderwerp plaatsen';
 $lang['POST_NEW_RELEASE'] = 'Post nieuwe release';
 $lang['REPLY_TO_TOPIC'] = 'Reageer op dit onderwerp';
