@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Seite <b>%d</b> von <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Sie haben ein ungültigen Twitter-Login eingegeben.';
 
-$lang['FORUM_INDEX'] = '%s Forum-Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Neues Thema posten';
 $lang['POST_NEW_RELEASE'] = 'Neue Version posten';
 $lang['REPLY_TO_TOPIC'] = 'Auf Thema antworten';
