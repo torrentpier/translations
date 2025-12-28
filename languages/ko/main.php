@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = '페이지 <b>%d</b> 의 <b>%s</b>';
 $lang['TWITTER'] = 'X (트위터)';
 $lang['TWITTER_ERROR'] = '당신이 입력한 잘못된 X (트위터) 로그인';
 
-$lang['FORUM_INDEX'] = '%s 포럼 인덱스'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = '새 주제 게시';
 $lang['POST_NEW_RELEASE'] = '새 릴리스 게시';
 $lang['REPLY_TO_TOPIC'] = '주제에 답글 달기';
