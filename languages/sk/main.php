@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Stránka <b>%d</b> z <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Zadali ste neplatný Twitter prihlásiť sa';
 
-$lang['FORUM_INDEX'] = '%s Fórum index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Zakladať nové témy';
 $lang['POST_NEW_RELEASE'] = 'Pridať nové vydanie';
 $lang['REPLY_TO_TOPIC'] = 'Odpovedať na tému';
