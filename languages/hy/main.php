@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = '<b>%d</b> էջում <b>%s</b>';
 $lang['TWITTER'] = 'Twitter-ը)';
 $lang['TWITTER_ERROR'] = 'Դուք մտել եք սխալ Twitter-ի լոգինը';
 
-$lang['FORUM_INDEX'] = 'Ինդեքսը Համաժողովի %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Նոր թեմա ընդունել';
 $lang['POST_NEW_RELEASE'] = 'Հետո նոր թողարկումը';
 $lang['REPLY_TO_TOPIC'] = 'Պատասխանեց թեմայով';
