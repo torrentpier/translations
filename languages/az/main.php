@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = '<b>%d</b> səhifə <b>%s</b>';
 $lang['TWITTER'] = 'X (Tvitter)';
 $lang['TWITTER_ERROR'] = 'Yazdığınız etibarsız istifadəçi adı və Tvitter';
 
-$lang['FORUM_INDEX'] = '%s Forum İndeksi'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Yeni mövzuları post';
 $lang['POST_NEW_RELEASE'] = 'Yeni buraxılışı post';
 $lang['REPLY_TO_TOPIC'] = 'Mövzuda cavab';
