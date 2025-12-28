@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Lapa <b>%d</b> no <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Jūs ievadījāt nepareizu X (Twitter) pieteikumu';
 
-$lang['FORUM_INDEX'] = '%s foruma indekss'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Publicēt jaunu tēmu';
 $lang['POST_NEW_RELEASE'] = 'Publicēt jaunu izlaidumu';
 $lang['REPLY_TO_TOPIC'] = 'Atbildēt uz tēmu';
