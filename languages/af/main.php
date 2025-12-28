@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Bladsy <b>%d</b> van <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Jy het \'n ongeldige X (Twitter) inskrywing ingevoer';
 
-$lang['FORUM_INDEX'] = '%s Forum-indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Plaas nuwe onderwerp';
 $lang['POST_NEW_RELEASE'] = 'Plaas nuwe uitgawe';
 $lang['REPLY_TO_TOPIC'] = 'Antwoord op die onderwerp';
