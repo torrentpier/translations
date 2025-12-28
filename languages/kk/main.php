@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = '<b>%s</b> бет <b>%d</b> аспектісі';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Сіз жарамсыз Twitter логин кірді';
 
-$lang['FORUM_INDEX'] = '%s Форумдар тізімі'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Жаңа тақырып';
 $lang['POST_NEW_RELEASE'] = 'Жаңа шығарылым жариялау';
 $lang['REPLY_TO_TOPIC'] = 'Тақырыпқа жауап беру';
