@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Página <b>%d</b> de <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Usted ha ingresado un inicio de sesión de Twitter no válido.';
 
-$lang['FORUM_INDEX'] = '%s índice del foro'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Publicar nuevo tema';
 $lang['POST_NEW_RELEASE'] = 'Publicar nuevo lanzamiento';
 $lang['REPLY_TO_TOPIC'] = 'Respuesta al tema';
