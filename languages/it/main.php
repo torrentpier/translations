@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Pagina <b>%d</b> di <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Hai inserito un accesso non valido a Twitter';
 
-$lang['FORUM_INDEX'] = '%s Indice Del Forum'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'The translation should use the correct terminology as per the source text.';
 $lang['POST_NEW_RELEASE'] = 'Post nuova release';
 $lang['REPLY_TO_TOPIC'] = 'Risposta al topic';
