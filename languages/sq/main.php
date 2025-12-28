@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Faqe <b>%d</b> e <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'E keni futur një të pavlefshme X (Twitter) identifikohu';
 
-$lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Posto temë të re';
 $lang['POST_NEW_RELEASE'] = 'Posto lëshimin e ri';
 $lang['REPLY_TO_TOPIC'] = 'Përgjigju temës';
