@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Pàgina <b>%d</b> de <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Has introduït una sessió Twitter no vàlida.';
 
-$lang['FORUM_INDEX'] = '%s Índex del fòrum'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Post nou tema';
 $lang['POST_NEW_RELEASE'] = 'Post nova versió';
 $lang['REPLY_TO_TOPIC'] = 'Respondre al tema';
