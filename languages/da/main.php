@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Side <b>%d</b> af <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Du har indtastet en ugyldig Twitter-login';
 
-$lang['FORUM_INDEX'] = '%s Forum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Skriv nyt emne';
 $lang['POST_NEW_RELEASE'] = 'Opret ny udgivelse';
 $lang['REPLY_TO_TOPIC'] = 'Svar til emnet';
