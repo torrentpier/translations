@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Lehekülg <b>%d</b> / <b>%s</b>.';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Sisestatud kehtetu X (Twitter) login';
 
-$lang['FORUM_INDEX'] = '%s Foorum Indeks'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Postita uus teema';
 $lang['POST_NEW_RELEASE'] = 'Postita uus väljaanne';
 $lang['REPLY_TO_TOPIC'] = 'Vasta teemale';

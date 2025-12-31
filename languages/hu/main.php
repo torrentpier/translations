@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Oldal <b>%d</b> / <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Érvénytelen X (Twitter) bejelentkezés.';
 
-$lang['FORUM_INDEX'] = '%s Index Fórum'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Új téma létrehozása';
 $lang['POST_NEW_RELEASE'] = 'Új kiadás közzététele';
 $lang['REPLY_TO_TOPIC'] = 'Válasz a téma';

@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Trang <b>%d</b> của <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Bạn đã nhập một đăng nhập X (Twitter) không hợp lệ';
 
-$lang['FORUM_INDEX'] = 'Chỉ số diễn đàn %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Đăng bài chủ đề mới';
 $lang['POST_NEW_RELEASE'] = 'Đăng bài phát hành mới';
 $lang['REPLY_TO_TOPIC'] = 'Trả lời chủ đề';

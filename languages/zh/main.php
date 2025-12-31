@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = '第<b>%d</b>页，共<b>%s</b>页';
 $lang['TWITTER'] = '推特)';
 $lang['TWITTER_ERROR'] = '您输入了一个无效的 推特 账号';
 
-$lang['FORUM_INDEX'] = '%s 论坛索引'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = '发布新的主题';
 $lang['POST_NEW_RELEASE'] = '发布新的种子';
 $lang['REPLY_TO_TOPIC'] = '回复主题';

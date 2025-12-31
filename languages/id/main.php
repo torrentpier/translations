@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Halaman <b>%d</b> dari <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Anda memasukkan Twitter login yang tidak valid.';
 
-$lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Posting topik baru';
 $lang['POST_NEW_RELEASE'] = 'Posting rilis baru';
 $lang['REPLY_TO_TOPIC'] = 'Balas pada topik';

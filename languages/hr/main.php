@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Stranica <b>%d</b> od <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Unijeli ste netočan prijavu na X (Twitter)';
 
-$lang['FORUM_INDEX'] = 'Indeks Foruma %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Post nove teme';
 $lang['POST_NEW_RELEASE'] = 'Post novo izdanje';
 $lang['REPLY_TO_TOPIC'] = 'Odgovor na temu';

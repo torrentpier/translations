@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Puslapis <b>%d</b> iš <b>%s</b>';
 $lang['TWITTER'] = '"Twitter"';
 $lang['TWITTER_ERROR'] = 'Įvedėte neteisingą "Twitter" login';
 
-$lang['FORUM_INDEX'] = '%s Forumų Indeksas'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Rašyti naują temą';
 $lang['POST_NEW_RELEASE'] = 'Rašyti naują leidinį';
 $lang['REPLY_TO_TOPIC'] = 'Atsakyti į temą';

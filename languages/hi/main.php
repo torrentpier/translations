@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'पृष्ठ <b>%d</b> का <b>%s</b>';
 $lang['TWITTER'] = 'X (ट्विटर)';
 $lang['TWITTER_ERROR'] = 'आपने एक अमान्य X (ट्विटर) लॉगिन दर्ज किया है';
 
-$lang['FORUM_INDEX'] = '%s फोरम अनुक्रमणिका'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'नया विषय पोस्ट करें';
 $lang['POST_NEW_RELEASE'] = 'नई रिलीज पोस्ट करें';
 $lang['REPLY_TO_TOPIC'] = 'विषय को उत्तर दें';

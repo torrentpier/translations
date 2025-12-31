@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'ページ<b>%d</b>の<b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = '無効なX (Twitter) ログインが入力されました';
 
-$lang['FORUM_INDEX'] = '%sフォーラムインデックス'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = '新しいトピックを投稿する';
 $lang['POST_NEW_RELEASE'] = '新着を投稿';
 $lang['REPLY_TO_TOPIC'] = 'トピックに返信';

@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Σελίδα <b>%d</b> της <b>%s</b>';
 $lang['TWITTER'] = 'Το X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Έχετε εισάγει μια μη έγκυρη σύνδεση Twitter.';
 
-$lang['FORUM_INDEX'] = '%s Ευρετήριο φόρουμ'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Δημιουργία νέου θέματος';
 $lang['POST_NEW_RELEASE'] = 'Δημιουργία νέας κυκλοφορίας';
 $lang['REPLY_TO_TOPIC'] = 'Απάντηση στο θέμα';

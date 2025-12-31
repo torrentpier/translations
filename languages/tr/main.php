@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = '<b>%s</b> sayfa <b>%d</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Geçersiz bir X (Twitter) girişi yaptınız.';
 
-$lang['FORUM_INDEX'] = '%s Forum Dizini'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Yeni Başlık';
 $lang['POST_NEW_RELEASE'] = 'Yeni sürüm gönder';
 $lang['REPLY_TO_TOPIC'] = 'Konuya cevap';

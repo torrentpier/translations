@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'หน้า <b>%d</b> ของ <b>%s</b>';
 $lang['TWITTER'] = 'ทวิตเตอร์';
 $lang['TWITTER_ERROR'] = 'คุณป้อนล็อกอินทวิตเตอร์ไม่ถูกต้อง';
 
-$lang['FORUM_INDEX'] = '%s ดัชนีฟอรัม'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'โพสหัวข้อใหม่';
 $lang['POST_NEW_RELEASE'] = 'โพสต์การปล่อยใหม่';
 $lang['REPLY_TO_TOPIC'] = 'ตอบกลับไปยังหัวข้อ';

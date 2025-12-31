@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Pagina <b>%d</b> de <b>%s</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Ai introdus un nume de utilizator Twitter invalid';
 
-$lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Postează subiect nou';
 $lang['POST_NEW_RELEASE'] = 'Creează o nouă versiune';
 $lang['REPLY_TO_TOPIC'] = 'Răspunde la subiect';

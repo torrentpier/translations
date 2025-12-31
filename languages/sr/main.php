@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'Страница <b>%d</b> од <b>%s</b>';
 $lang['TWITTER'] = 'Твитер';
 $lang['TWITTER_ERROR'] = 'Унели сте неисправно корисничко име Твитера';
 
-$lang['FORUM_INDEX'] = '%s Индекс Форума'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Објави нову тему';
 $lang['POST_NEW_RELEASE'] = 'Објави ново издање';
 $lang['REPLY_TO_TOPIC'] = 'Одговори на тему';

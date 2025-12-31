@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = '<b>%s</b> sahifa <b>%d</b>';
 $lang['TWITTER'] = 'X (Twitter)';
 $lang['TWITTER_ERROR'] = 'Siz noto\'g\'ri login kiritdingiz Twitter';
 
-$lang['FORUM_INDEX'] = '%s Forum Index'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'Yangi mavzu';
 $lang['POST_NEW_RELEASE'] = 'Yangi relizlarni joylashtirish';
 $lang['REPLY_TO_TOPIC'] = 'Mavzuga javob berish';

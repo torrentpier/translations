@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'דף <b>%d</b> של <b>%s</b>';
 $lang['TWITTER'] = 'טוויטר';
 $lang['TWITTER_ERROR'] = 'הכנסת פרטי כניסה לא תקינים לטוויטר.';
 
-$lang['FORUM_INDEX'] = 'מדד פורום %s'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'פוסט חדש בנושא';
 $lang['POST_NEW_RELEASE'] = 'פוסט חדש שחרור';
 $lang['REPLY_TO_TOPIC'] = 'תגובה לנושא';

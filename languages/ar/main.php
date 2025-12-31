@@ -80,8 +80,6 @@ $lang['PAGE_OF'] = 'الصفحة <b>%d</b> من <b>%s</b>';
 $lang['TWITTER'] = 'تويتر)';
 $lang['TWITTER_ERROR'] = 'قمت بإدخال تسجيل دخول غير صالح تويتر';
 
-$lang['FORUM_INDEX'] = '%s مؤشر المنتدى'; // e.g. sitename Forum Index, %s can be removed if you prefer
-
 $lang['POST_NEW_TOPIC'] = 'إضافة موضوع جديد';
 $lang['POST_NEW_RELEASE'] = 'إصدار جديد';
 $lang['REPLY_TO_TOPIC'] = 'الرد على الموضوع';
