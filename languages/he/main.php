@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'נורמלי';
 $lang['POST_DOWNLOAD'] = 'הורד';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'אנונימי';
+$lang['ANONYMOUS_TOPIC'] = 'פרסם נושא באנונימיות';
+$lang['ANONYMOUS_REPLY'] = 'פרסם תגובה באנונימיות';
+$lang['HIDE_AUTHORSHIP'] = 'פרסם באנונימיות כברירת מחדל';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'כאשר מופעל, הפוסטים החדשים יפורסמו כברירת מחדל באנונימיות. ניתן לשנות זאת עבור כל פוסט בנפרד.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'אפשר פרסום אנונימי';
+$lang['ANONYMOUS_POST_LABEL'] = 'פורסם באנונימיות';
+$lang['POSTED_ANONYMOUSLY'] = 'פורסם באנונימיות';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'מנהלים ומפקחים יכולים לראות את המחבר האמיתי';
+$lang['YOU'] = 'אתה';
 
 $lang['PRINT_PAGE'] = 'הדפס דף';
 
