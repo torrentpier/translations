@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = '일반';
 $lang['POST_DOWNLOAD'] = '다운로드';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = '익명';
+$lang['ANONYMOUS_TOPIC'] = '주제를 익명으로 게시하기';
+$lang['ANONYMOUS_REPLY'] = '답글을 익명으로 게시하기';
+$lang['HIDE_AUTHORSHIP'] = '기본적으로 익명으로 게시하기';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = '활성화하면 새 게시물이 기본적으로 익명 모드로 설정됩니다. 게시물마다 이 설정을 전환할 수 있습니다.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = '익명 게시 허용';
+$lang['ANONYMOUS_POST_LABEL'] = '익명으로 게시됨';
+$lang['POSTED_ANONYMOUSLY'] = '익명으로 게시됨';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = '관리자와 중재자는 실제 작성자를 볼 수 있습니다';
+$lang['YOU'] = '당신';
 
 $lang['PRINT_PAGE'] = '페이지 인쇄';
 
