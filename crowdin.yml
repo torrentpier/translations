@@ -8,6 +8,7 @@ files:
     translation: /languages/%two_letters_code%/email_templates/%original_file_name%
     type: 'html'
 
-  # HTML templates
+  # HTML templates (Twig)
   - source: /languages/source/html/*.*
     translation: /languages/%two_letters_code%/html/%original_file_name%
+    type: 'html'
