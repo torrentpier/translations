@@ -284,6 +284,18 @@ $lang['POST_STICKY'] = 'Лепљив';
 $lang['POST_NORMAL'] = 'Нормално';
 $lang['POST_DOWNLOAD'] = 'Преузмите';
 
+// Anonymous posting
+$lang['ANONYMOUS'] = 'Anonymous';
+$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
+$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
+$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
+$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
+$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
+$lang['YOU'] = 'You';
+
 $lang['PRINT_PAGE'] = 'Одштампај страницу';
 
 $lang['CONFIRM_DELETE'] = 'Да ли сте сигурни да желите да избришете овај пост?';
