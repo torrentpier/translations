@@ -284,6 +284,18 @@ $lang['POST_STICKY'] = '粘性';
 $lang['POST_NORMAL'] = '正常';
 $lang['POST_DOWNLOAD'] = '下载';
 
+// Anonymous posting
+$lang['ANONYMOUS'] = 'Anonymous';
+$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
+$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
+$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
+$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
+$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
+$lang['YOU'] = 'You';
+
 $lang['PRINT_PAGE'] = '打印頁面';
 
 $lang['CONFIRM_DELETE'] = '您确定要删除此贴吗？';

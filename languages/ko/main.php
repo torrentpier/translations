@@ -284,6 +284,18 @@ $lang['POST_STICKY'] = '고정된';
 $lang['POST_NORMAL'] = '일반';
 $lang['POST_DOWNLOAD'] = '다운로드';
 
+// Anonymous posting
+$lang['ANONYMOUS'] = 'Anonymous';
+$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
+$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
+$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
+$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
+$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
+$lang['YOU'] = 'You';
+
 $lang['PRINT_PAGE'] = '페이지 인쇄';
 
 $lang['CONFIRM_DELETE'] = '이 게시물을 삭제하시겠습니까?';
