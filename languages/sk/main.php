@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normálna';
 $lang['POST_DOWNLOAD'] = 'Stiahnuť';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anonymný';
+$lang['ANONYMOUS_TOPIC'] = 'Zverejniť tému anonymne';
+$lang['ANONYMOUS_REPLY'] = 'Zverejniť odpoveď anonymne';
+$lang['HIDE_AUTHORSHIP'] = 'Predvolene zverejňovať anonymne';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Ak je táto možnosť zapnutá, nové príspevky budú predvolene v anonymnom režime. Túto voľbu môžete pre každý príspevok meniť.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Povoliť anonymné zverejňovanie';
+$lang['ANONYMOUS_POST_LABEL'] = 'Zverejnené anonymne';
+$lang['POSTED_ANONYMOUSLY'] = 'zverejnené anonymne';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administrátori a moderátori vidia skutočného autora';
+$lang['YOU'] = 'Vy';
 
 $lang['PRINT_PAGE'] = 'Tlač stránky';
 
