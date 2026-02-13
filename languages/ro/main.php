@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normal';
 $lang['POST_DOWNLOAD'] = 'Descarcă';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anonim';
+$lang['ANONYMOUS_TOPIC'] = 'Publică subiectul anonim';
+$lang['ANONYMOUS_REPLY'] = 'Publică răspunsul anonim';
+$lang['HIDE_AUTHORSHIP'] = 'Publică anonim în mod implicit';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Când este activat, noile postări vor fi anonime în mod implicit. Poți comuta această opțiune pentru fiecare postare.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Permite postarea anonimă';
+$lang['ANONYMOUS_POST_LABEL'] = 'Postat anonim';
+$lang['POSTED_ANONYMOUSLY'] = 'postat anonim';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administratorii și moderatorii pot vedea autorul real';
+$lang['YOU'] = 'Tu';
 
 $lang['PRINT_PAGE'] = 'Print page';
 
