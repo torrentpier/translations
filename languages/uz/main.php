@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'oddiy';
 $lang['POST_DOWNLOAD'] = 'Yuklash';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Noma\'lum';
+$lang['ANONYMOUS_TOPIC'] = 'Mavzuni noma\'lum tarzda yuboring';
+$lang['ANONYMOUS_REPLY'] = 'Javobni noma\'lum tarzda yuboring';
+$lang['HIDE_AUTHORSHIP'] = 'Standart bo\'lib noma\'lum tarzda yuborish';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Faollashtirilganda, yangi postlar standart bo\'lib noma\'lum rejimda yuboriladi. Siz har bir post uchun bu parametrni o\'zgartirishingiz mumkin.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Noma\'lum postlarni yuborishga ruxsat berish';
+$lang['ANONYMOUS_POST_LABEL'] = 'Noma\'lum tarzda yuborilgan';
+$lang['POSTED_ANONYMOUSLY'] = 'noma\'lum tarzda yuborildi';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administratorlar va moderatorlar haqiqiy muallifni ko\'ra oladi';
+$lang['YOU'] = 'Siz';
 
 $lang['PRINT_PAGE'] = 'Sahifani chop etish';
 
