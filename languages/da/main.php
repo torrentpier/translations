@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normal';
 $lang['POST_DOWNLOAD'] = 'Download';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anonym';
+$lang['ANONYMOUS_TOPIC'] = 'Opret emne anonymt';
+$lang['ANONYMOUS_REPLY'] = 'Svar anonymt';
+$lang['HIDE_AUTHORSHIP'] = 'Opret anonymt som standard';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Når aktiveret, vil nye indlæg som standard være i anonym tilstand. Du kan skifte dette for hvert indlæg.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Tillad anonym indlæg';
+$lang['ANONYMOUS_POST_LABEL'] = 'Indsendt anonymt';
+$lang['POSTED_ANONYMOUSLY'] = 'indsendt anonymt';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administratorer og moderatorer kan se den virkelige forfatter';
+$lang['YOU'] = 'Du';
 
 $lang['PRINT_PAGE'] = 'Print page';
 
