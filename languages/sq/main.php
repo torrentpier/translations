@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normale';
 $lang['POST_DOWNLOAD'] = 'Shkarkuar';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anonim';
+$lang['ANONYMOUS_TOPIC'] = 'Posto temën në mënyrë anonime';
+$lang['ANONYMOUS_REPLY'] = 'Posto përgjigjen në mënyrë anonime';
+$lang['HIDE_AUTHORSHIP'] = 'Posto anonim me default';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Kur është aktivizuar, postimet e reja do të jenë në modalitet anonim si parazgjedhje. Mund ta ndryshoni këtë për çdo postim.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Lejo postimin anonim';
+$lang['ANONYMOUS_POST_LABEL'] = 'Postuar në mënyrë anonime';
+$lang['POSTED_ANONYMOUSLY'] = 'postuar në mënyrë anonime';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administratorët dhe moderatorët mund të shohin autorin e vërtetë';
+$lang['YOU'] = 'Ju';
 
 $lang['PRINT_PAGE'] = 'Printo Faqen';
 
