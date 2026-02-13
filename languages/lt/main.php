@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normalus';
 $lang['POST_DOWNLOAD'] = 'Atsisiųsti';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anonimas';
+$lang['ANONYMOUS_TOPIC'] = 'Temos paskelbimas anonimiškai';
+$lang['ANONYMOUS_REPLY'] = 'Atsakymo paskelbimas anonimiškai';
+$lang['HIDE_AUTHORSHIP'] = 'Pagal nutylėjimą skelbti anonimiškai';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Įjungus nauji pranešimai pagal nutylėjimą bus anonimiški. Tai galite keisti kiekvienam pranešimui atskirai.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Leisti anonimišką skelbimą';
+$lang['ANONYMOUS_POST_LABEL'] = 'Paskelbta anonimiškai';
+$lang['POSTED_ANONYMOUSLY'] = 'paskelbta anonimiškai';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administratoriai ir moderatoriai mato tikrąjį autorių';
+$lang['YOU'] = 'Jūs';
 
 $lang['PRINT_PAGE'] = 'Spausdinti puslapį';
 
