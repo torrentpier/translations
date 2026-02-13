@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Bình thường';
 $lang['POST_DOWNLOAD'] = 'Tải về';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Ẩn danh';
+$lang['ANONYMOUS_TOPIC'] = 'Đăng chủ đề ẩn danh';
+$lang['ANONYMOUS_REPLY'] = 'Đăng trả lời ẩn danh';
+$lang['HIDE_AUTHORSHIP'] = 'Mặc định đăng ẩn danh';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Khi bật, các bài đăng mới sẽ mặc định ở chế độ ẩn danh. Bạn có thể bật hoặc tắt cho từng bài đăng.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Cho phép đăng ẩn danh';
+$lang['ANONYMOUS_POST_LABEL'] = 'Đã đăng ẩn danh';
+$lang['POSTED_ANONYMOUSLY'] = 'đã đăng ẩn danh';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Quản trị viên và điều hành viên có thể xem tác giả thật';
+$lang['YOU'] = 'Bạn';
 
 $lang['PRINT_PAGE'] = 'Trang in';
 
