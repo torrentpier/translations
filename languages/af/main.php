@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normaal';
 $lang['POST_DOWNLOAD'] = 'Aflaai';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anoniem';
+$lang['ANONYMOUS_TOPIC'] = 'Plak onderwerp anoniem';
+$lang['ANONYMOUS_REPLY'] = 'Plak antwoord anoniem';
+$lang['HIDE_AUTHORSHIP'] = 'Plak anoniem as verstek';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Wanneer aangeskakel, sal nuwe plakkate verstek anoniem wees. Jy kan dit per plakkaat omskakel.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Laat anonieme plakkate toe';
+$lang['ANONYMOUS_POST_LABEL'] = 'Plak anoniem geplaas';
+$lang['POSTED_ANONYMOUSLY'] = 'anoniem geplaas';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Adminne en moderatore kan die ware skrywer sien';
+$lang['YOU'] = 'Jy';
 
 $lang['PRINT_PAGE'] = 'Druk bladsy';
 
