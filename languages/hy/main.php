@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Նորմալ է';
 $lang['POST_DOWNLOAD'] = 'Ներբեռնել';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'անանունա';
+$lang['ANONYMOUS_TOPIC'] = 'Տեղադրել թեման անանուն';
+$lang['ANONYMOUS_REPLY'] = 'Տեղադրել պատասխան անանուն';
+$lang['HIDE_AUTHORSHIP'] = 'Փոխադրել անանունը ինքնաբերաբար';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Երբ ակտիվացված է, նոր գրառումները ավտոմատիկ կկատարվեն անանուն ռեժիմով։ Կարող եք փոփոխել այդ կարգավորումը յուրաքանչյուր գրառման համար։';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Թույլատրել անանուն գրառումներ';
+$lang['ANONYMOUS_POST_LABEL'] = 'Տեղադրվել է անանուն կերպով';
+$lang['POSTED_ANONYMOUSLY'] = 'տեղադրվել է անանուն կերպով';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Վերահսկողները և ադմինները կարող են տեսնել իրական հեղինակին';
+$lang['YOU'] = 'Դուք';
 
 $lang['PRINT_PAGE'] = 'Տպել էջը';
 
