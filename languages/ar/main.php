@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'عادي';
 $lang['POST_DOWNLOAD'] = 'تحميل';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'مجهول';
+$lang['ANONYMOUS_TOPIC'] = 'انشر الموضوع مجهولاً';
+$lang['ANONYMOUS_REPLY'] = 'انشر الرد مجهولاً';
+$lang['HIDE_AUTHORSHIP'] = 'انشر مجهولاً كإعداد افتراضي';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'عند التفعيل، ستكون المشاركات الجديدة في وضع المجهول بشكل افتراضي. يمكنك تبديل هذا الإعداد لكل مشاركة.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'السماح بالنشر المجهول';
+$lang['ANONYMOUS_POST_LABEL'] = 'نُشر بشكل مجهول';
+$lang['POSTED_ANONYMOUSLY'] = 'نُشر بشكل مجهول';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'يمكن للمشرفين وال moderators رؤية المؤلف الحقيقي';
+$lang['YOU'] = 'أنت';
 
 $lang['PRINT_PAGE'] = 'طباعة الصفحة';
 
