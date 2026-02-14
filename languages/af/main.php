@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Releaser stats:';
 $lang['RELEASER_STAT_SHOW'] = 'Wys statistieke';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Registrasie geweier. Kontak asseblief die administrateur indien u meen dit is \'n fout.';
+$lang['POST_SPAM_DENIED'] = 'U boodskap is geïdentifiseer as strooipos en kan nie geplaas word nie.';
+$lang['PM_SPAM_DENIED'] = 'U boodskap is geïdentifiseer as strooipos en kan nie gestuur word nie.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Strooipos-logboek';
+$lang['SPAM_LOG_DESC'] = 'Hierdie logboek neem alle registrasiepogings en inhoudsinskrywings wat deur die strooiposbeskermingsisteem gemerk is, op. <b>Geweier</b> &mdash; die aksie is heeltemal geblokkeer (registrasie verwerp, plasing/privaat boodskap nie gestuur nie). <b>Gemodereer</b> &mdash; vir registrasies is die rekening geskep, maar vereis e-posaktivering; vir inhoud is die plasing/privaat boodskap toegelaat, maar as verdag gemerk.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Kontroletipe';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registrasie &mdash; nuwe rekeningregistrasie';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'inhoud &mdash; plasing of privaat boodskap';
+$lang['SPAM_LOG_DECISION'] = 'Besluit';
+$lang['SPAM_LOG_PROVIDER'] = 'Verskaffer';
 $lang['SPAM_LOG_REASON'] = 'rede';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Tyd (ms)';
 $lang['SPAM_LOG_ALL'] = 'Almal';
 $lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Geen strooipos-loginskrywings gevind nie';
+$lang['SPAM_LOG_TOTAL'] = 'Totale inskrywings';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Geweier';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Gemodereer';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Wissel na donker mode';
