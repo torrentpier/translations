@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Statistiques des releasers :';
 $lang['RELEASER_STAT_SHOW'] = 'Afficher les stats';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Inscription refusée. Veuillez contacter l\'administrateur si vous pensez qu\'il s\'agit d\'une erreur.';
+$lang['POST_SPAM_DENIED'] = 'Votre message a été identifié comme du spam et ne peut pas être publié.';
+$lang['PM_SPAM_DENIED'] = 'Votre message a été identifié comme du spam et ne peut pas être envoyé.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Journal du spam';
+$lang['SPAM_LOG_DESC'] = 'Ce journal enregistre toutes les tentatives d\'inscription et les soumissions de contenu signalées par le système de protection anti-spam. <b>Refusé</b> &mdash; l\'action a été complètement bloquée (inscription rejetée, message/MP non envoyé). <b>Modéré</b> &mdash; pour les inscriptions, le compte a été créé mais nécessite une activation par e-mail ; pour le contenu, le message/MP a été autorisé mais marqué comme suspect.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Type de vérification';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'inscription &mdash; création de nouveau compte';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'contenu &mdash; message ou message privé';
+$lang['SPAM_LOG_DECISION'] = 'Décision';
+$lang['SPAM_LOG_PROVIDER'] = 'Fournisseur';
 $lang['SPAM_LOG_REASON'] = 'Raison';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Temps (ms)';
 $lang['SPAM_LOG_ALL'] = 'Tous';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Détails';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Aucune entrée dans le journal du spam trouvée';
+$lang['SPAM_LOG_TOTAL'] = 'Entrées totales';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Refusé';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Modéré';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Activer le mode sombre';
