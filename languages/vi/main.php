@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Thông số phát hành:';
 $lang['RELEASER_STAT_SHOW'] = 'Hiển thị thống kê';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Đăng ký bị từ chối. Vui lòng liên hệ với quản trị viên nếu bạn tin đây là một lỗi.';
+$lang['POST_SPAM_DENIED'] = 'Tin nhắn của bạn đã được xác định là thư rác và không thể đăng tải.';
+$lang['PM_SPAM_DENIED'] = 'Tin nhắn của bạn đã được xác định là thư rác và không thể gửi đi.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Nhật ký thư rác';
+$lang['SPAM_LOG_DESC'] = 'Nhật ký này ghi lại tất cả các lần cố gắng đăng ký và gửi nội dung bị hệ thống chống thư rác đánh dấu. <b>Bị từ chối</b> &mdash; hành động bị chặn hoàn toàn (đăng ký bị từ chối, bài đăng/tin nhắn riêng không được gửi). <b>Được kiểm duyệt</b> &mdash; đối với đăng ký, tài khoản được tạo nhưng yêu cầu kích hoạt qua email; đối với nội dung, bài đăng/tin nhắn riêng được phép gửi nhưng bị đánh dấu là nghi ngờ.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Loại kiểm tra';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'đăng ký &mdash; đăng ký tài khoản mới';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'nội dung &mdash; bài đăng hoặc tin nhắn riêng';
+$lang['SPAM_LOG_DECISION'] = 'Quyết định';
+$lang['SPAM_LOG_PROVIDER'] = 'Nhà cung cấp';
 $lang['SPAM_LOG_REASON'] = 'Lý do';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Thời gian (ms)';
 $lang['SPAM_LOG_ALL'] = 'Tất cả';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Chi tiết';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Không tìm thấy bản ghi nhật ký thư rác nào';
+$lang['SPAM_LOG_TOTAL'] = 'Tổng số bản ghi';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Bị từ chối';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Được kiểm duyệt';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Chuyển đổi chế độ tối';
