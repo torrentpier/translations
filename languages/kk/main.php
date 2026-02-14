@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Қатысу статистикасы:';
 $lang['RELEASER_STAT_SHOW'] = 'Статистиканы көрсету';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Тіркелу қабылданбады. Егер бұл қате деп ойласаңыз, әкімшіге хабарласыңыз.';
+$lang['POST_SPAM_DENIED'] = 'Хабыңыз спам ретінде анықталды және жарияланбайды.';
+$lang['PM_SPAM_DENIED'] = 'Хабыңыз спам ретінде анықталды және жіберілмейді.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Спам журналы';
+$lang['SPAM_LOG_DESC'] = 'Бұл журналда спам қорғаныс жүйесі белгілеген барлық тіркелу әрекеттері мен мазмұн жіберулері жазылады. <b>Тиеу тасталды</b> &mdash; әрекет толығымен бұғатталды (тіркелу қабылданбады, хабар/жеке хабар жіберілмеді). <b>Модерацияланды</b> &mdash; тіркелулер үшін есептік жазба құрылды, бірақ электрондық поштаны растауды талап етеді; мазмұн үшін хабар/жеке хабар жіберілді, бірақ күмәнді деп белгіленді.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Тексеру түрі';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'тіркелу &mdash; жаңа есептік жазбаға тіркелу';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'мазмұн &mdash; хабар немесе жеке хабарлама';
+$lang['SPAM_LOG_DECISION'] = 'Шешім';
+$lang['SPAM_LOG_PROVIDER'] = 'Провайдер';
 $lang['SPAM_LOG_REASON'] = 'себеп';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Уақыт (мс)';
 $lang['SPAM_LOG_ALL'] = 'Барлық';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Толығырақ';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Спам журналы жазбалары табылған жоқ';
+$lang['SPAM_LOG_TOTAL'] = 'Барлық жазбалар';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Тиеу тасталды';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Модерацияланды';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Қараңғы режимді ауыстыру';
