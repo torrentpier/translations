@@ -286,9 +286,9 @@ $lang['POST_DOWNLOAD'] = 'הורד';
 
 // Anonymous posting
 $lang['ANONYMOUS'] = 'אנונימי';
-$lang['ANONYMOUS_TOPIC'] = 'פרסם נושא באנונימיות';
-$lang['ANONYMOUS_REPLY'] = 'פרסם תגובה באנונימיות';
-$lang['HIDE_AUTHORSHIP'] = 'פרסם באנונימיות כברירת מחדל';
+$lang['ANONYMOUS_TOPIC'] = 'פרסם נושא באופן אנונימי';
+$lang['ANONYMOUS_REPLY'] = 'פרסם תגובה באופן אנונימי';
+$lang['HIDE_AUTHORSHIP'] = 'פרסם באופן אנונימי כברירת מחדל';
 $lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'כאשר מופעל, הפוסטים החדשים יפורסמו כברירת מחדל באנונימיות. ניתן לשנות זאת עבור כל פוסט בנפרד.';
 $lang['ALLOW_ANONYMOUS_POSTING'] = 'אפשר פרסום אנונימי';
 $lang['ANONYMOUS_POST_LABEL'] = 'פורסם באנונימיות';
