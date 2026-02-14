@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = '릴리스 통계:';
 $lang['RELEASER_STAT_SHOW'] = '통계 보기';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = '등록 거부됨. 오류라고 생각되면 관리자에게 문의하십시오.';
+$lang['POST_SPAM_DENIED'] = '귀하의 메시지는 스팸으로 확인되어 게시할 수 없습니다.';
+$lang['PM_SPAM_DENIED'] = '귀하의 메시지는 스팸으로 확인되어 보낼 수 없습니다.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = '스팸 기록';
+$lang['SPAM_LOG_DESC'] = '이 기록은 스팸 보호 시스템에서 플래그된 모든 등록 시도 및 콘텐츠 제출을 기록합니다. <b>거부됨</b> &mdash; 작업이 완전히 차단됨(등록 거부, 게시물/쪽지 전송 안 됨). <b>검토중</b> &mdash; 등록의 경우, 계정이 생성되었으나 이메일 활성화가 필요함; 콘텐츠의 경우, 게시물/쪽지가 통과했으나 의심스러운 것으로 표시됨.';
+$lang['SPAM_LOG_CHECK_TYPE'] = '검사 유형';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = '등록 &mdash; 새 계정 가입';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = '콘텐츠 &mdash; 게시물 또는 쪽지';
+$lang['SPAM_LOG_DECISION'] = '결정';
+$lang['SPAM_LOG_PROVIDER'] = '제공자';
 $lang['SPAM_LOG_REASON'] = '댓글.';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = '시간 (밀리초)';
 $lang['SPAM_LOG_ALL'] = '모든';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = '세부 정보';
+$lang['SPAM_LOG_NO_RECORDS'] = '스팸 기록 항목이 없습니다';
+$lang['SPAM_LOG_TOTAL'] = '총 항목 수';
+$lang['SPAM_LOG_DENIED_COUNT'] = '거부됨';
+$lang['SPAM_LOG_MODERATED_COUNT'] = '검토중';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = '다크 모드 전환';
