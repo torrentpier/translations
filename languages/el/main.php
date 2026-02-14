@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Στατιστικά στοιχεία απελευθε
 $lang['RELEASER_STAT_SHOW'] = 'Εμφάνιση στατιστικών';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Η εγγραφή απορρίφθηκε. Παρακαλώ επικοινωνήστε με τον διαχειριστή αν πιστεύετε ότι πρόκειται για λάθος.';
+$lang['POST_SPAM_DENIED'] = 'Το μήνυμά σας έχει εντοπιστεί ως ανεπιθύμητο και δεν μπορεί να δημοσιευτεί.';
+$lang['PM_SPAM_DENIED'] = 'Το μήνυμά σας έχει εντοπιστεί ως ανεπιθύμητο και δεν μπορεί να αποσταλεί.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Αρχείο ανεπιθύμητης αλληλογραφίας';
+$lang['SPAM_LOG_DESC'] = 'Αυτό το αρχείο καταγράφει όλες τις προσπάθειες εγγραφής και τις υποβολές περιεχομένου που επισημάνθηκαν από το σύστημα προστασίας ανεπιθύμητης αλληλογραφίας. <b>Απορρίφθηκε</b> &mdash; η ενέργεια αποκλείστηκε πλήρως (η εγγραφή απορρίφθηκε, η ανάρτηση/το προσωπικό μήνυμα δεν εστάλη). <b>Σε έλεγχο</b> &mdash; για εγγραφές, ο λογαριασμός δημιουργήθηκε αλλά απαιτείται ενεργοποίηση μέσω email· για περιεχόμενο, η ανάρτηση/το προσωπικό μήνυμα επιτράπηκε αλλά επισημάνθηκε ως ύποπτο.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Τύπος ελέγχου';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'εγγραφή &mdash; νέα εγγραφή λογαριασμού';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'περιεχόμενο &mdash; ανάρτηση ή προσωπικό μήνυμα';
+$lang['SPAM_LOG_DECISION'] = 'Απόφαση';
+$lang['SPAM_LOG_PROVIDER'] = 'Πάροχος';
 $lang['SPAM_LOG_REASON'] = 'Λόγος';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Χρόνος (ms)';
 $lang['SPAM_LOG_ALL'] = 'Όλα';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Λεπτομέρειες';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Δεν βρέθηκαν εγγραφές αρχείου ανεπιθύμητης αλληλογραφίας';
+$lang['SPAM_LOG_TOTAL'] = 'Συνολικές εγγραφές';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Απορρίφθηκε';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Σε έλεγχο';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Εναλλαγή σε σκοτεινή λειτουργία';
