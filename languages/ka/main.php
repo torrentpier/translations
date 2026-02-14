@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'გამოცემა სტატისტიკ�
 $lang['RELEASER_STAT_SHOW'] = 'აჩვენეთ სტატისტიკა';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'რეგისტრაცია უარყოფილია. თუ თვლით, რომ ეს შეცდომაა, გთხოვთ, მიმართოთ ადმინისტრატორს.';
+$lang['POST_SPAM_DENIED'] = 'თქვენი შეტყობინება დასმულია სპამად და不能 დაიდოს.';
+$lang['PM_SPAM_DENIED'] = 'თქვენი შეტყობინება დასმულია სპამად და不能 გაიგზავნა.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'სპამის ლოგი';
+$lang['SPAM_LOG_DESC'] = 'ეს ლოგი ინიშნავს ყველა რეგისტრაციის და შინაარსის წარდგენის მცდელობას, რომელიც სპამის დაცვის სისტემის მიერ იყო მონიშნული. <b>უარყოფილია</b> &mdash; მოქმედება სრულიად დაბლოკილია (რეგისტრაცია უარყოფილია, შეტყობინება/პირადი შეტყობინება არ გაიგზავნა). <b>მენეჯმენტირებული</b> &mdash; რეგისტრაციებისთვის, ანგარიში შექმნილია, მაგრამ საჭიროებს იმეილის აქტივაციას; შინაარსისთვის, შეტყობინება/პირადი შეტყობინება დაშვებულია, მაგრამ მონიშნულია როგორც საეჭვო.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'შესავლის ტიპი';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'რეგისტრაცია &mdash; ახალი ანგარიშის რეგისტრაცია';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'შინაარსი &mdash; სტატია ან პირადი შეტყობინება';
+$lang['SPAM_LOG_DECISION'] = 'მოწყვეტა';
+$lang['SPAM_LOG_PROVIDER'] = 'პროვაიდერი';
 $lang['SPAM_LOG_REASON'] = 'მიზეზი';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'დრო (მილიწამიანი)';
 $lang['SPAM_LOG_ALL'] = 'ყველა';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'დეტალები';
+$lang['SPAM_LOG_NO_RECORDS'] = 'სპამის ლოგი არ მოიძებნა';
+$lang['SPAM_LOG_TOTAL'] = 'სულ ჩანაწერების რაოდენობა';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'უარი';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'მენეჯმენტი';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'მენიუს ღია გამოკვლევა переключение';
