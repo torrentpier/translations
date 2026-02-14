@@ -293,7 +293,7 @@ $lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'عند التفعيل، ستكون المش�
 $lang['ALLOW_ANONYMOUS_POSTING'] = 'السماح بالنشر المجهول';
 $lang['ANONYMOUS_POST_LABEL'] = 'نُشر بشكل مجهول';
 $lang['POSTED_ANONYMOUSLY'] = 'نُشر بشكل مجهول';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'يمكن للمشرفين وال moderators رؤية المؤلف الحقيقي';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'يمكن للمشرفين والمراقبين رؤية المؤلف الحقيقي';
 $lang['YOU'] = 'أنت';
 
 $lang['PRINT_PAGE'] = 'طباعة الصفحة';
