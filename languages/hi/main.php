@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'रीलीज़र आँकड़े:';
 $lang['RELEASER_STAT_SHOW'] = 'आँकड़े दिखाएँ';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'पंजीकरण अस्वीकार कर दिया गया। यदि आपको लगता है कि यह त्रुटि है तो कृपया व्यवस्थापक से संपर्क करें।';
+$lang['POST_SPAM_DENIED'] = 'आपका संदेश स्पैम के रूप में पहचाना गया है और इसे पोस्ट नहीं किया जा सकता।';
+$lang['PM_SPAM_DENIED'] = 'आपका संदेश स्पैम के रूप में पहचाना गया है और इसे भेजा नहीं जा सकता।';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'स्पैम लॉग';
+$lang['SPAM_LOG_DESC'] = 'यह लॉग सभी पंजीकरण प्रयासों और सामग्री प्रस्तुतियों को रिकॉर्ड करता है जिन्हें स्पैम सुरक्षा प्रणाली द्वारा चिह्नित किया गया था। <b>अस्वीकृत</b> &mdash; क्रिया पूरी तरह से अवरुद्ध कर दी गई थी (पंजीकरण अस्वीकार, पोस्ट/पीएम नहीं भेजा गया)। <b>मॉडरेटेड</b> &mdash; पंजीकरणों के लिए, खाता बनाया गया लेकिन ईमेल सक्रियण आवश्यक है; सामग्री के लिए, पोस्ट/पीएम को अनुमति दी गई लेकिन संदिग्ध के रूप में चिह्नित किया गया।';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'जाँच प्रकार';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'पंजीकरण &mdash; नया खाता साइनअप';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'सामग्री &mdash; पोस्ट या निजी संदेश';
+$lang['SPAM_LOG_DECISION'] = 'निर्णय';
+$lang['SPAM_LOG_PROVIDER'] = 'प्रदाता';
 $lang['SPAM_LOG_REASON'] = 'कारण';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'समय (एमएस)';
 $lang['SPAM_LOG_ALL'] = 'सभी';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'विवरण';
+$lang['SPAM_LOG_NO_RECORDS'] = 'कोई स्पैम लॉग प्रविष्टि नहीं मिली';
+$lang['SPAM_LOG_TOTAL'] = 'कुल प्रविष्टियाँ';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'अस्वीकृत';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'मॉडरेटेड';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'अंधेरे मोड का टॉगल करें';
