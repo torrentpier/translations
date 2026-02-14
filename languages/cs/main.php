@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Statistiky uvolňovatele:';
 $lang['RELEASER_STAT_SHOW'] = 'Zobrazit statistiky';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Registrace zamítnuta. Pokud si myslíte, že se jedná o chybu, kontaktujte prosím administrátora.';
+$lang['POST_SPAM_DENIED'] = 'Vaše zpráva byla identifikována jako spam a nemůže být zveřejněna.';
+$lang['PM_SPAM_DENIED'] = 'Vaše zpráva byla identifikována jako spam a nemůže být odeslána.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Protokol spamu';
+$lang['SPAM_LOG_DESC'] = 'Tento protokol zaznamenává všechny pokusy o registraci a odeslání obsahu, které byly systémem ochrany proti spamu označeny. <b>Zamítnuto</b> &mdash; akce byla zcela zablokována (registrace odmítnuta, příspěvek/soukromá zpráva nebyly odeslány). <b>Moderováno</b> &mdash; u registrací byl účet vytvořen, ale vyžaduje aktivaci e-mailem; u obsahu byl příspěvek/soukromá zpráva povolena, ale označena jako podezřelá.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Typ kontroly';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registrace &mdash; nová registrace účtu';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'obsah &mdash; příspěvek nebo soukromá zpráva';
+$lang['SPAM_LOG_DECISION'] = 'Rozhodnutí';
+$lang['SPAM_LOG_PROVIDER'] = 'Poskytovatel';
 $lang['SPAM_LOG_REASON'] = 'Důvod';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Čas (ms)';
 $lang['SPAM_LOG_ALL'] = 'Všechny';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detaily';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Nebyly nalezeny žádné záznamy v protokolu spamu';
+$lang['SPAM_LOG_TOTAL'] = 'Celkem záznamů';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Zamítnuto';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderováno';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Přepnout temný režim';
