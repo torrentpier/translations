@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Julkaisutilastot:';
 $lang['RELEASER_STAT_SHOW'] = 'Näytä tilastot';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Rekisteröinti evätty. Ota yhteyttä ylläpitäjään, jos uskot tämän olevan virhe.';
+$lang['POST_SPAM_DENIED'] = 'Viestisi on tunnistettu roskapostiksi eikä sitä voi julkaista.';
+$lang['PM_SPAM_DENIED'] = 'Viestisi on tunnistettu roskapostiksi eikä sitä voi lähettää.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Roskapostiloki';
+$lang['SPAM_LOG_DESC'] = 'Tämä loki tallentaa kaikki rekisteröitymisyritykset ja sisällön lähetykset, jotka roskapostisuojajärjestelmä on merkinnyt. <b>Evätty</b> &mdash; toiminto estettiin kokonaan (rekisteröinti hylätty, viesti/henkilökohtainen viesti ei lähetetty). <b>Valvottu</b> &mdash; rekisteröinneissä tili luotiin, mutta se vaatii sähköpostivahvistuksen; sisällössä viesti/henkilökohtainen viesti sallittiin, mutta merkitty epäilyttäväksi.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Tarkistustyyppi';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'rekisteröinti &mdash; uuden tilin luonti';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'sisältö &mdash; viesti tai henkilökohtainen viesti';
+$lang['SPAM_LOG_DECISION'] = 'Päätös';
+$lang['SPAM_LOG_PROVIDER'] = 'Tarjoaja';
 $lang['SPAM_LOG_REASON'] = 'Syy';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Aika (ms)';
 $lang['SPAM_LOG_ALL'] = 'Kaikki';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Tiedot';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Roskapostilokiin ei löytynyt merkintöjä';
+$lang['SPAM_LOG_TOTAL'] = 'Yhteensä merkintöjä';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Evätty';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Valvottu';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Vaihda tumma tila';
