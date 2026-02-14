@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normalan';
 $lang['POST_DOWNLOAD'] = 'Preuzimanje';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anonimno';
+$lang['ANONYMOUS_TOPIC'] = 'Objavi temu anonimno';
+$lang['ANONYMOUS_REPLY'] = 'Odgovori anonimno';
+$lang['HIDE_AUTHORSHIP'] = 'Po zadanim postavkama objavi anonimno';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Kad je omogućeno, novi će postovi biti po zadanim postavkama anonimni. To možete mijenjati za svaki post zasebno.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Dozvoli anonimno objavljivanje';
+$lang['ANONYMOUS_POST_LABEL'] = 'Objavljeno anonimno';
+$lang['POSTED_ANONYMOUSLY'] = 'objavljeno anonimno';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administratori i moderatori mogu vidjeti pravog autora';
+$lang['YOU'] = 'Vi';
 
 $lang['PRINT_PAGE'] = 'Ispis stranice';
 

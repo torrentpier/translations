@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Звичайна';
 $lang['POST_DOWNLOAD'] = 'Стягнути';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Анонімний';
+$lang['ANONYMOUS_TOPIC'] = 'Опублікувати тему анонімно';
+$lang['ANONYMOUS_REPLY'] = 'Опублікувати відповідь анонімно';
+$lang['HIDE_AUTHORSHIP'] = 'Опублікувати анонімно за замовчуванням';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Якщо ввімкнено, нові пости за замовчуванням будуть у анонімному режимі. Ви можете змінити це для кожного посту окремо.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Дозволити анонімні публікації';
+$lang['ANONYMOUS_POST_LABEL'] = 'Опубліковано анонімно';
+$lang['POSTED_ANONYMOUSLY'] = 'опубліковано анонімно';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Адміністратори та модератори можуть бачити справжнього автора';
+$lang['YOU'] = 'Ви';
 
 $lang['PRINT_PAGE'] = 'Друкувати сторінку';
 

@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normaal';
 $lang['POST_DOWNLOAD'] = 'Downloaden';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anoniem';
+$lang['ANONYMOUS_TOPIC'] = 'Plaats onderwerp anoniem';
+$lang['ANONYMOUS_REPLY'] = 'Plaats antwoord anoniem';
+$lang['HIDE_AUTHORSHIP'] = 'Plaats standaard anoniem';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Indien ingeschakeld, worden nieuwe berichten standaard in de anonieme modus geplaatst. Je kunt dit per bericht wijzigen.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Sta anoniem plaatsen toe';
+$lang['ANONYMOUS_POST_LABEL'] = 'Anoniem geplaatst';
+$lang['POSTED_ANONYMOUSLY'] = 'anoniem geplaatst';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins en moderators kunnen de echte auteur zien';
+$lang['YOU'] = 'Jij';
 
 $lang['PRINT_PAGE'] = 'Afdrukken pagina';
 

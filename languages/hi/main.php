@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'साधारण';
 $lang['POST_DOWNLOAD'] = 'डाउनलोड';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'गुमनाम';
+$lang['ANONYMOUS_TOPIC'] = 'विषय गुमनाम रूप से पोस्ट करें';
+$lang['ANONYMOUS_REPLY'] = 'उत्तर गुमनाम रूप से पोस्ट करें';
+$lang['HIDE_AUTHORSHIP'] = 'डिफ़ॉल्ट रूप से गुमनाम रूप से पोस्ट करें';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'जब सक्षम हो, तो नई पोस्टें डिफ़ॉल्ट रूप से गुमनाम मोड में होंगी। आप इसे प्रति पोस्ट टॉगल कर सकते हैं।';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'गुमनाम पोस्टिंग की अनुमति दें';
+$lang['ANONYMOUS_POST_LABEL'] = 'गुमनाम रूप से पोस्ट किया गया';
+$lang['POSTED_ANONYMOUSLY'] = 'गुमनाम रूप से पोस्ट किया गया';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'प्रशासक और मॉडरेटर्स वास्तविक लेखक को देख सकते हैं';
+$lang['YOU'] = 'आप';
 
 $lang['PRINT_PAGE'] = 'परचे को छापें';
 

@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'ธรรมดา';
 $lang['POST_DOWNLOAD'] = 'ดาวน์โหลด';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'ไม่ระบุชื่อ';
+$lang['ANONYMOUS_TOPIC'] = 'ตั้งหัวข้อโดยไม่ระบุชื่อ';
+$lang['ANONYMOUS_REPLY'] = 'ตอบกลับโดยไม่ระบุชื่อ';
+$lang['HIDE_AUTHORSHIP'] = 'ตั้งค่าเริ่มต้นให้โพสต์แบบไม่ระบุชื่อ';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'เมื่อเปิดใช้งาน โพสต์ใหม่จะตั้งค่าเป็นโหมดไม่ระบุชื่อโดยอัตโนมัติ คุณสามารถเปลี่ยนแปลงได้ในแต่ละโพสต์';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'อนุญาตให้โพสต์แบบไม่ระบุชื่อได้';
+$lang['ANONYMOUS_POST_LABEL'] = 'โพสต์แบบไม่ระบุชื่อ';
+$lang['POSTED_ANONYMOUSLY'] = 'โพสต์แบบไม่ระบุชื่อ';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'ผู้ดูแลระบบและผู้ควบคุมสามารถเห็นผู้แต่งที่แท้จริงได้';
+$lang['YOU'] = 'คุณ';
 
 $lang['PRINT_PAGE'] = 'พิมพ์หน้า';
 

@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normaali';
 $lang['POST_DOWNLOAD'] = 'Lataa';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Nimettömänä';
+$lang['ANONYMOUS_TOPIC'] = 'Lähetä aihe nimettömänä';
+$lang['ANONYMOUS_REPLY'] = 'Vastaa nimettömänä';
+$lang['HIDE_AUTHORSHIP'] = 'Lähetä nimettömänä oletuksena';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Kun tämä on käytössä, uudet viestit lähetetään oletuksena nimettöminä. Voit vaihtaa tätä viestikohtaisesti.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Salli nimettömät viestit';
+$lang['ANONYMOUS_POST_LABEL'] = 'Lähetetty nimettömänä';
+$lang['POSTED_ANONYMOUSLY'] = 'lähetetty nimettömänä';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Ylläpitäjät ja moderaattorit näkevät oikean kirjoittajan';
+$lang['YOU'] = 'Sinä';
 
 $lang['PRINT_PAGE'] = 'Tulosta sivu';
 

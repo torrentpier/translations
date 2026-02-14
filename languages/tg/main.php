@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'оддӣ';
 $lang['POST_DOWNLOAD'] = 'Загрузить';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Номаълум';
+$lang['ANONYMOUS_TOPIC'] = 'Мавзӯъро номаълум нашр кунед';
+$lang['ANONYMOUS_REPLY'] = 'Посухро номаълум нашр кунед';
+$lang['HIDE_AUTHORSHIP'] = 'Пешфарз номаълум нашр кунед';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Вақте фаъол карда шавад, паёмҳои нав бо режими номаълумии пешфарз нашр мешаванд. Шумо метавонед инро барои ҳар як паём иваз кунед.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Имкон додан ба нашри номаълум';
+$lang['ANONYMOUS_POST_LABEL'] = 'Номаълум нашр шуд';
+$lang['POSTED_ANONYMOUSLY'] = 'номаълум нашр шуд';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Мудирон ва модераторҳо муаллифи воқеиро мебинанд';
+$lang['YOU'] = 'Шумо';
 
 $lang['PRINT_PAGE'] = 'Саҳифаи чоп';
 

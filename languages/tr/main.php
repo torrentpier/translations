@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normal';
 $lang['POST_DOWNLOAD'] = 'İndir';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Anonim';
+$lang['ANONYMOUS_TOPIC'] = 'Konuya anonim olarak gönder';
+$lang['ANONYMOUS_REPLY'] = 'Yanıtı anonim olarak gönder';
+$lang['HIDE_AUTHORSHIP'] = 'Varsayılan olarak anonim gönder';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Etkinleştirildiğinde, yeni gönderiler varsayılan olarak anonim modda olur. Bunu gönderi bazında değiştirebilirsiniz.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Anonim gönderime izin ver';
+$lang['ANONYMOUS_POST_LABEL'] = 'Anonim olarak gönderildi';
+$lang['POSTED_ANONYMOUSLY'] = 'anonim olarak gönderildi';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Yöneticiler ve moderatörler gerçek yazarı görebilir';
+$lang['YOU'] = 'Sen';
 
 $lang['PRINT_PAGE'] = 'Sayfayı yazdır';
 

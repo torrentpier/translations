@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'Normál';
 $lang['POST_DOWNLOAD'] = 'Letöltés';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Névtelen';
+$lang['ANONYMOUS_TOPIC'] = 'Téma névtelenül történő közzététele';
+$lang['ANONYMOUS_REPLY'] = 'Válasz névtelenül';
+$lang['HIDE_AUTHORSHIP'] = 'Alapértelmezettként névtelen közzététel';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Ha engedélyezve van, az új bejegyzések alapértelmezés szerint névtelen módban lesznek. Ezt bejegyzésenként megváltoztathatod.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Engedélyezi a névtelen közzétételeket';
+$lang['ANONYMOUS_POST_LABEL'] = 'Névtelenül közzétéve';
+$lang['POSTED_ANONYMOUSLY'] = 'névtelenül közzétéve';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Az adminok és moderátorok láthatják a valódi szerzőt';
+$lang['YOU'] = 'Te';
 
 $lang['PRINT_PAGE'] = 'Oldal nyomtatása';
 

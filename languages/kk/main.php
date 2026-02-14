@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = 'қалыпты';
 $lang['POST_DOWNLOAD'] = 'жүктеу';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = 'Анонимді';
+$lang['ANONYMOUS_TOPIC'] = 'Тақырыпты анонимді түрде жазу';
+$lang['ANONYMOUS_REPLY'] = 'Жауапты анонимді түрде жазу';
+$lang['HIDE_AUTHORSHIP'] = 'Әдепкі бойынша анонимді түрде жазу';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Қосылғанда, жаңа хабарламалар әдепкі бойынша анонимді режимде болады. Сіз әр хабарлама үшін бұл параметрді өзгерте аласыз.';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Анонимді жазуға рұқсат беру';
+$lang['ANONYMOUS_POST_LABEL'] = 'Анонимді түрде жазылды';
+$lang['POSTED_ANONYMOUSLY'] = 'анонимді түрде жазылды';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Әкімшілер мен модераторлар нақты авторды көре алады';
+$lang['YOU'] = 'Сіз';
 
 $lang['PRINT_PAGE'] = 'Бетті басып шығару';
 

@@ -285,16 +285,16 @@ $lang['POST_NORMAL'] = '正常';
 $lang['POST_DOWNLOAD'] = '下载';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'Anonymous';
-$lang['ANONYMOUS_TOPIC'] = 'Post topic anonymously';
-$lang['ANONYMOUS_REPLY'] = 'Post reply anonymously';
-$lang['HIDE_AUTHORSHIP'] = 'Post anonymously by default';
-$lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'When enabled, new posts will default to anonymous mode. You can toggle this per post.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Allow anonymous posting';
-$lang['ANONYMOUS_POST_LABEL'] = 'Posted anonymously';
-$lang['POSTED_ANONYMOUSLY'] = 'posted anonymously';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'Admins and moderators can see the real author';
-$lang['YOU'] = 'You';
+$lang['ANONYMOUS'] = '匿名';
+$lang['ANONYMOUS_TOPIC'] = '匿名發表主題';
+$lang['ANONYMOUS_REPLY'] = '匿名回覆文章';
+$lang['HIDE_AUTHORSHIP'] = '預設匿名發文';
+$lang['HIDE_AUTHORSHIP_EXPLAIN'] = '啟用後，新發表的文章將預設為匿名模式。您可以針對每篇文章切換此設定。';
+$lang['ALLOW_ANONYMOUS_POSTING'] = '允許匿名發文';
+$lang['ANONYMOUS_POST_LABEL'] = '匿名發表';
+$lang['POSTED_ANONYMOUSLY'] = '匿名發表';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = '管理員和版主可查看真實作者身份';
+$lang['YOU'] = '您';
 
 $lang['PRINT_PAGE'] = '打印頁面';
 
