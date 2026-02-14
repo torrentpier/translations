@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Förhållandestatistik:';
 $lang['RELEASER_STAT_SHOW'] = 'Visa statistik';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Registrering nekad. Kontakta administratören om du tror att detta är ett misstag.';
+$lang['POST_SPAM_DENIED'] = 'Ditt meddelande har identifierats som skräppost och kan inte publiceras.';
+$lang['PM_SPAM_DENIED'] = 'Ditt meddelande har identifierats som skräppost och kan inte skickas.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Skräppostlogg';
+$lang['SPAM_LOG_DESC'] = 'Denna logg registrerar alla registreringsförsök och innehållsinskick som flaggats av skräppostskyddet. <b>Nekad</b> &mdash; åtgärden blockerades helt (registrering avvisad, inlägg/PM ej skickat). <b>Modererad</b> &mdash; för registreringar skapades kontot men kräver e-postaktivering; för innehåll godkändes inlägget/PM men flaggades som misstänkt.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Kontrolltyp';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registrering &mdash; ny kontoregistrering';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'innehåll &mdash; inlägg eller privat meddelande';
+$lang['SPAM_LOG_DECISION'] = 'Beslut';
+$lang['SPAM_LOG_PROVIDER'] = 'Leverantör';
 $lang['SPAM_LOG_REASON'] = 'Skäl';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Tid (ms)';
 $lang['SPAM_LOG_ALL'] = 'Alla';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detaljer';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Inga poster i skräppostloggen hittades';
+$lang['SPAM_LOG_TOTAL'] = 'Totalt antal poster';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Nekade';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Modererade';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Växla till mörkt läge';
