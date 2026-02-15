@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'مرفوضة';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'معتدلة';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'السوق';
 $lang['MODIFICATIONS_LIST'] = 'التعديلات';
 $lang['MODS_VERSION'] = 'الإصدار';
 $lang['MODS_DOWNLOADS'] = 'تنزيلات.';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'التقييم';
+$lang['MODS_ACTIONS'] = 'إجراءات';
 $lang['MODS_AUTHOR'] = 'الكاتب';
 $lang['MODS_CATEGORY'] = 'الفئة';
 $lang['MODS_LAST_UPDATED'] = 'آخر تحديث';
 $lang['MODS_TOTAL'] = 'مجموع';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'لم يتم العثور على تعديلات.';
+$lang['MODS_INSTALL'] = 'تثبيت';
+$lang['MODS_INSTALL_SOON'] = 'ميزة التثبيت قادمة قريباً';
+$lang['MODS_ALL_CATEGORIES'] = 'كل الفئات';
+$lang['MODS_FREE'] = 'مجاني';
+$lang['MODS_PAID'] = 'مدفوع';
+$lang['MODS_THEMES'] = 'القوالب';
+$lang['MODS_LANGPACKS'] = 'حزم اللغات';
+$lang['MODS_API_ERROR'] = 'تعذّر تحميل التعديلات: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'خادم التعديلات غير متاح مؤقتاً.';
+$lang['MODS_DESCRIPTION'] = 'تعرض هذه الصفحة جميع الموارد المنشورة في منتدى TorrentPier الرسمي. سيكون التثبيت بنقرة واحدة متاحًا في تحديث مستقبلي — حالياً، استخدم هذه الصفحة كعرض للموارد.';
+$lang['MODS_REVIEW'] = 'تقييم';
+$lang['MODS_REVIEWS'] = 'تقييمات';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'تبديل الوضع الداكن';
