@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Geweier';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Gemodereer';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Marktplaats';
 $lang['MODIFICATIONS_LIST'] = 'modifikasies';
 $lang['MODS_VERSION'] = 'Weergawe';
 $lang['MODS_DOWNLOADS'] = 'aflaaie.';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Waardering';
+$lang['MODS_ACTIONS'] = 'Aksies';
 $lang['MODS_AUTHOR'] = 'skrywer';
 $lang['MODS_CATEGORY'] = 'Kategorie';
 $lang['MODS_LAST_UPDATED'] = 'Laas opgedateer';
 $lang['MODS_TOTAL'] = 'totale';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Geen wysigings gevind nie.';
+$lang['MODS_INSTALL'] = 'Installeer';
+$lang['MODS_INSTALL_SOON'] = 'Installasie-funksie kom binnekort';
+$lang['MODS_ALL_CATEGORIES'] = 'Alle kategorieë';
+$lang['MODS_FREE'] = 'Gratis';
+$lang['MODS_PAID'] = 'Betaal';
+$lang['MODS_THEMES'] = 'Tema\'s';
+$lang['MODS_LANGPACKS'] = 'Taalpakkette';
+$lang['MODS_API_ERROR'] = 'Kon nie wysigings laai nie: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Die wysigingsbediener is tydelik onbeskikbaar.';
+$lang['MODS_DESCRIPTION'] = 'Hierdie bladsy lys alle hulpbronne wat op die amptelike TorrentPier-forum gepubliseer is. Een-klik installasie sal in \'n toekomstige opdatering beskikbaar wees — vir nou, gebruik hierdie bladsy as \'n hulpbronposent.';
+$lang['MODS_REVIEW'] = 'resensie';
+$lang['MODS_REVIEWS'] = 'resensies';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Wissel na donker mode';
