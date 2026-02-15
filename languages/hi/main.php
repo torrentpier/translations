@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'अस्वीकृत';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'मॉडरेटेड';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'मार्केटप्लेस';
 $lang['MODIFICATIONS_LIST'] = 'संशोधन';
 $lang['MODS_VERSION'] = 'संस्करण';
 $lang['MODS_DOWNLOADS'] = 'डाउनलोड';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'रेटिंग';
+$lang['MODS_ACTIONS'] = 'कार्रवाइयाँ';
 $lang['MODS_AUTHOR'] = 'लेखक';
 $lang['MODS_CATEGORY'] = 'वर्ग';
 $lang['MODS_LAST_UPDATED'] = 'आखरी अपडेट';
 $lang['MODS_TOTAL'] = 'कुल';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'कोई संशोधन नहीं मिला।';
+$lang['MODS_INSTALL'] = 'इंस्टॉल करें';
+$lang['MODS_INSTALL_SOON'] = 'इंस्टॉलेशन फीचर जल्द आ रहा है';
+$lang['MODS_ALL_CATEGORIES'] = 'सभी श्रेणियाँ';
+$lang['MODS_FREE'] = 'मुफ़्त';
+$lang['MODS_PAID'] = 'भुगतान किया हुआ';
+$lang['MODS_THEMES'] = 'थीम्स';
+$lang['MODS_LANGPACKS'] = 'भाषा पैक';
+$lang['MODS_API_ERROR'] = 'संशोधन लोड नहीं हो सके: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'संशोधन सर्वर अस्थायी रूप से अनुपलब्ध है।';
+$lang['MODS_DESCRIPTION'] = 'यह पृष्ठ आधिकारिक TorrentPier फोरम पर प्रकाशित सभी संसाधनों की सूची प्रदान करता है। एक-क्लिक इंस्टॉलेशन भविष्य के अपडेट में उपलब्ध होगा — फिलहाल, इस पृष्ठ का उपयोग संसाधन प्रदर्शन के रूप में करें।';
+$lang['MODS_REVIEW'] = 'समीक्षा';
+$lang['MODS_REVIEWS'] = 'समीक्षाएँ';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'अंधेरे मोड का टॉगल करें';
