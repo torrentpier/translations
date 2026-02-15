@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = '拒絕';
 $lang['SPAM_LOG_MODERATED_COUNT'] = '審核中';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = '市場';
 $lang['MODIFICATIONS_LIST'] = '修改項目';
 $lang['MODS_VERSION'] = '版本';
 $lang['MODS_DOWNLOADS'] = '下載';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = '評分';
+$lang['MODS_ACTIONS'] = '動作';
 $lang['MODS_AUTHOR'] = '作者';
 $lang['MODS_CATEGORY'] = '分类';
 $lang['MODS_LAST_UPDATED'] = '最后更新';
 $lang['MODS_TOTAL'] = '总';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = '未找到任何修改。';
+$lang['MODS_INSTALL'] = '安裝';
+$lang['MODS_INSTALL_SOON'] = '即將推出安裝功能';
+$lang['MODS_ALL_CATEGORIES'] = '所有分類';
+$lang['MODS_FREE'] = '免費';
+$lang['MODS_PAID'] = '付費';
+$lang['MODS_THEMES'] = '主題';
+$lang['MODS_LANGPACKS'] = '語言包';
+$lang['MODS_API_ERROR'] = '無法載入修改：%s';
+$lang['MODS_API_UNAVAILABLE'] = '修改伺服器暫時無法使用。';
+$lang['MODS_DESCRIPTION'] = '此頁面列出了官方 TorrentPier 論壇上發布的所有資源。一鍵安裝功能將在未來更新中提供 — 目前請將此頁面作為資源展示。';
+$lang['MODS_REVIEW'] = '評論';
+$lang['MODS_REVIEWS'] = '評論們';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = '切換暗模式';
