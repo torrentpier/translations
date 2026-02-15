@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Адхілена';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Прадаглядаецца';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Рынак';
 $lang['MODIFICATIONS_LIST'] = 'Мадыфікацыі';
 $lang['MODS_VERSION'] = 'Версія';
 $lang['MODS_DOWNLOADS'] = 'Загрузак';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Рэйтынг';
+$lang['MODS_ACTIONS'] = 'Дзеянні';
 $lang['MODS_AUTHOR'] = 'Аўтар';
 $lang['MODS_CATEGORY'] = 'Катэгорыя';
 $lang['MODS_LAST_UPDATED'] = 'Апошняе абнаўленне.';
 $lang['MODS_TOTAL'] = 'Агульная';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Мадыфікацыі не знойдзены.';
+$lang['MODS_INSTALL'] = 'Усталяваць';
+$lang['MODS_INSTALL_SOON'] = 'Функцыя ўсталёўкі хутка з\'явіцца';
+$lang['MODS_ALL_CATEGORIES'] = 'Усе катэгорыі';
+$lang['MODS_FREE'] = 'Бясплатна';
+$lang['MODS_PAID'] = 'Платна';
+$lang['MODS_THEMES'] = 'Тэмы';
+$lang['MODS_LANGPACKS'] = 'Моўныя пакеты';
+$lang['MODS_API_ERROR'] = 'Немагчыма загрузіць мадыфікацыі: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Сервер мадыфікацый часова недаступны.';
+$lang['MODS_DESCRIPTION'] = 'Гэтая старонка ўтрымлівае ўсе рэсурсы, апублікаваныя на афіцыйным форуме TorrentPier. Усталёўка ў адзін клік будзе даступная ў будучым абнаўленні — пакуль выкарыстоўвайце гэтую старонку як выставу рэсурсаў.';
+$lang['MODS_REVIEW'] = 'водгук';
+$lang['MODS_REVIEWS'] = 'водгукі';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Пераключыць цёмны рэжым';
