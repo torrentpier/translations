@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Απορρίφθηκε';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Σε έλεγχο';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Αγορά';
 $lang['MODIFICATIONS_LIST'] = 'Τροποποιήσεις';
 $lang['MODS_VERSION'] = 'Έκδοση';
 $lang['MODS_DOWNLOADS'] = 'Λήψεις';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Βαθμολογία';
+$lang['MODS_ACTIONS'] = 'Ενέργειες';
 $lang['MODS_AUTHOR'] = 'Συγγραφέας';
 $lang['MODS_CATEGORY'] = 'Κατηγορία';
 $lang['MODS_LAST_UPDATED'] = 'Τελευταία Φορά';
 $lang['MODS_TOTAL'] = 'Συνολικά';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Δεν βρέθηκαν τροποποιήσεις.';
+$lang['MODS_INSTALL'] = 'Εγκατάσταση';
+$lang['MODS_INSTALL_SOON'] = 'Η δυνατότητα εγκατάστασης θα είναι σύντομα διαθέσιμη';
+$lang['MODS_ALL_CATEGORIES'] = 'Όλες οι κατηγορίες';
+$lang['MODS_FREE'] = 'Δωρεάν';
+$lang['MODS_PAID'] = 'Επί πληρωμή';
+$lang['MODS_THEMES'] = 'Θέματα';
+$lang['MODS_LANGPACKS'] = 'Πακέτα γλωσσών';
+$lang['MODS_API_ERROR'] = 'Δεν ήταν δυνατή η φόρτωση των τροποποιήσεων: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Ο διακομιστής τροποποιήσεων είναι προσωρινά μη διαθέσιμος.';
+$lang['MODS_DESCRIPTION'] = 'Αυτή η σελίδα καταγράφει όλους τους πόρους που δημοσιεύονται στο επίσημο φόρουμ TorrentPier. Η εγκατάσταση με ένα κλικ θα είναι διαθέσιμη σε μελλοντική ενημέρωση — προς το παρόν, χρησιμοποιήστε αυτή τη σελίδα ως έκθεση πόρων.';
+$lang['MODS_REVIEW'] = 'κριτική';
+$lang['MODS_REVIEWS'] = 'κριτικές';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Εναλλαγή σε σκοτεινή λειτουργία';
