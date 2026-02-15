@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Bị từ chối';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Được kiểm duyệt';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Chợ ứng dụng';
 $lang['MODIFICATIONS_LIST'] = 'Thay đổi.';
 $lang['MODS_VERSION'] = 'Phiên bản';
 $lang['MODS_DOWNLOADS'] = 'Tải xuống.';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Xếp hạng';
+$lang['MODS_ACTIONS'] = 'Hành động';
 $lang['MODS_AUTHOR'] = 'Tác giả';
 $lang['MODS_CATEGORY'] = 'Mục';
 $lang['MODS_LAST_UPDATED'] = 'Cập nhật cuối cùng.';
 $lang['MODS_TOTAL'] = 'Tổng';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Không tìm thấy chỉnh sửa nào.';
+$lang['MODS_INSTALL'] = 'Cài đặt';
+$lang['MODS_INSTALL_SOON'] = 'Tính năng cài đặt sắp ra mắt';
+$lang['MODS_ALL_CATEGORIES'] = 'Tất cả danh mục';
+$lang['MODS_FREE'] = 'Miễn phí';
+$lang['MODS_PAID'] = 'Có phí';
+$lang['MODS_THEMES'] = 'Giao diện';
+$lang['MODS_LANGPACKS'] = 'Gói ngôn ngữ';
+$lang['MODS_API_ERROR'] = 'Không thể tải các chỉnh sửa: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Máy chủ chỉnh sửa tạm thời không khả dụng.';
+$lang['MODS_DESCRIPTION'] = 'Trang này liệt kê tất cả tài nguyên được xuất bản trên diễn đàn chính thức của TorrentPier. Tính năng cài đặt chỉ với một lần nhấp sẽ có trong bản cập nhật tương lai — hiện tại, hãy dùng trang này như một nơi trưng bày tài nguyên.';
+$lang['MODS_REVIEW'] = 'đánh giá';
+$lang['MODS_REVIEWS'] = 'đánh giá';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Chuyển đổi chế độ tối';
