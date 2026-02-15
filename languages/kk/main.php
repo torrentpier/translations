@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Тиеу тасталды';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Модерацияланды';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Сауда алаңы';
 $lang['MODIFICATIONS_LIST'] = 'Модификациялар.';
 $lang['MODS_VERSION'] = 'Версия';
 $lang['MODS_DOWNLOADS'] = 'Жүктеулер';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Баға беру';
+$lang['MODS_ACTIONS'] = 'Іс-шаралар';
 $lang['MODS_AUTHOR'] = 'автор';
 $lang['MODS_CATEGORY'] = 'санат';
 $lang['MODS_LAST_UPDATED'] = 'Соңғы жаңартулар.';
 $lang['MODS_TOTAL'] = 'жалпы';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Өзгерістер табылмады.';
+$lang['MODS_INSTALL'] = 'Орнату';
+$lang['MODS_INSTALL_SOON'] = 'Орнату мүмкіндігі жақында пайда болады';
+$lang['MODS_ALL_CATEGORIES'] = 'Барлық санаттар';
+$lang['MODS_FREE'] = 'Тегін';
+$lang['MODS_PAID'] = 'Ақылы';
+$lang['MODS_THEMES'] = 'Тақырыптар';
+$lang['MODS_LANGPACKS'] = 'Тіл пакеттері';
+$lang['MODS_API_ERROR'] = 'Өзгерістер жүктелмеді: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Өзгерістер сервері уақытша қолжетімсіз.';
+$lang['MODS_DESCRIPTION'] = 'Бұл бетте ресми TorrentPier форумында жарияланған барлық ресурстар тізімделеді. Бір басу арқылы орнату болашақ жаңартуда қолжетімді болады — әзірге осы бетті ресурстар көрмесі ретінде пайдаланыңыз.';
+$lang['MODS_REVIEW'] = 'пікір';
+$lang['MODS_REVIEWS'] = 'пікірлер';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Қараңғы режимді ауыстыру';
