@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'ถูกปฏิเสธ';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'ผ่านการตรวจสอบ';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'ตลาดแอปพลิเคชัน (Marketplace)';
 $lang['MODIFICATIONS_LIST'] = 'การปรับปรุง';
 $lang['MODS_VERSION'] = 'เวอร์ชัน';
 $lang['MODS_DOWNLOADS'] = 'การดาวน์โหลด';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'คะแนนรีวิว';
+$lang['MODS_ACTIONS'] = 'การดำเนินการ';
 $lang['MODS_AUTHOR'] = 'ผู้เขียน';
 $lang['MODS_CATEGORY'] = 'หมวดหมู่';
 $lang['MODS_LAST_UPDATED'] = 'เมื่อได้รับการปรับปรุงล่าสุด';
 $lang['MODS_TOTAL'] = 'ทั้งหมด';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'ไม่พบการแก้ไขใด ๆ';
+$lang['MODS_INSTALL'] = 'ติดตั้ง';
+$lang['MODS_INSTALL_SOON'] = 'ฟีเจอร์ติดตั้งจะมาในเร็ว ๆ นี้';
+$lang['MODS_ALL_CATEGORIES'] = 'ทุกหมวดหมู่';
+$lang['MODS_FREE'] = 'ฟรี';
+$lang['MODS_PAID'] = 'เสียค่าใช้จ่าย';
+$lang['MODS_THEMES'] = 'ธีม';
+$lang['MODS_LANGPACKS'] = 'ชุดภาษา';
+$lang['MODS_API_ERROR'] = 'ไม่สามารถโหลดการแก้ไขได้: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'เซิร์ฟเวอร์การแก้ไขไม่พร้อมใช้งานชั่วคราว';
+$lang['MODS_DESCRIPTION'] = 'หน้านี้แสดงรายการทรัพยากรทั้งหมดที่เผยแพร่บนฟอรัม TorrentPier อย่างเป็นทางการ การติดตั้งด้วยคลิกเดียวจะมีให้ในอัปเดตในอนาคต — สำหรับตอนนี้ใช้หน้านี้เป็นโชว์เคสของทรัพยากร';
+$lang['MODS_REVIEW'] = 'รีวิว';
+$lang['MODS_REVIEWS'] = 'รีวิว';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'สลับโหมดมืด';
