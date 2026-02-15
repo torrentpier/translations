@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Մերժված';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Մոդերացված';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Շուկա (Marketplace)';
 $lang['MODIFICATIONS_LIST'] = 'Փոփոխություններ: This should express \'Փոփոխություններ\' more clearly and specific, perhaps \'Փոփոխություններ կատարել\':';
 $lang['MODS_VERSION'] = 'հոդված';
 $lang['MODS_DOWNLOADS'] = 'Բեռնումներ:';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Գնորոշում';
+$lang['MODS_ACTIONS'] = 'Գործողություններ';
 $lang['MODS_AUTHOR'] = 'Հեղինակ';
 $lang['MODS_CATEGORY'] = 'Կատեգորիա';
 $lang['MODS_LAST_UPDATED'] = 'Վերջին Թարմացում';
 $lang['MODS_TOTAL'] = 'Ընդհանուր';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Տվյալ փոփոխություններ չեն գտնվել։';
+$lang['MODS_INSTALL'] = 'Տեղադրել';
+$lang['MODS_INSTALL_SOON'] = 'Տեղադրման հնարավորություն շուտով';
+$lang['MODS_ALL_CATEGORIES'] = 'Բոլոր կատեգորիաները';
+$lang['MODS_FREE'] = 'Անվճար';
+$lang['MODS_PAID'] = 'Վճարովի';
+$lang['MODS_THEMES'] = 'Թեմաներ';
+$lang['MODS_LANGPACKS'] = 'Լեզվական փաթեթներ';
+$lang['MODS_API_ERROR'] = 'Չհաջողվեց բեռնել փոփոխությունները։ %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Փոփոխությունների սերվերը ժամանակավորապես անհասանելի է։';
+$lang['MODS_DESCRIPTION'] = 'Այս էջը ցուցադրում է պաշտոնական TorrentPier ֆորումում հրապարակված բոլոր ռեսուրսները։ Մի-բացման տեղադրում հասանելի կլինի ապագա թարմացումներում։ Ներկայումս օգտագործեք այս էջը որպես ռեսուրսների ցուցադրություն։';
+$lang['MODS_REVIEW'] = 'քննադատություն';
+$lang['MODS_REVIEWS'] = 'քննադատություններ';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Ընտրել մութ ռեժիմը';
