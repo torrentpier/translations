@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Rədd edildi';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderasiya edildi';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Bazar yeri';
 $lang['MODIFICATIONS_LIST'] = 'Dəyişikliklər';
 $lang['MODS_VERSION'] = 'Versiya';
 $lang['MODS_DOWNLOADS'] = 'Yükləmələr.';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Qiymətləndirmə';
+$lang['MODS_ACTIONS'] = 'Əməliyyatlar';
 $lang['MODS_AUTHOR'] = 'Müəllif';
 $lang['MODS_CATEGORY'] = 'Kateqoriya';
 $lang['MODS_LAST_UPDATED'] = 'Son Yeniləmə';
 $lang['MODS_TOTAL'] = 'Cəmi';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Heç bir əlavələr tapılmadı.';
+$lang['MODS_INSTALL'] = 'Quraşdır';
+$lang['MODS_INSTALL_SOON'] = 'Quraşdırma funksiyası tezliklə gələcək';
+$lang['MODS_ALL_CATEGORIES'] = 'Bütün kateqoriyalar';
+$lang['MODS_FREE'] = 'Pulsuz';
+$lang['MODS_PAID'] = 'Ödənişli';
+$lang['MODS_THEMES'] = 'Temalar';
+$lang['MODS_LANGPACKS'] = 'Dil paketləri';
+$lang['MODS_API_ERROR'] = 'Əlavələri yükləmək mümkün olmadı: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Əlavələr serveri müvəqqəti olaraq əlçatmazdır.';
+$lang['MODS_DESCRIPTION'] = 'Bu səhifədə rəsmi TorrentPier forumunda dərc olunan bütün resurslar siyahıya alınır. Bir kliklə quraşdırma gələcək yeniləmədə mövcud olacaq — indilikdə bu səhifədən resurs nümayişi kimi istifadə edin.';
+$lang['MODS_REVIEW'] = 'rəy';
+$lang['MODS_REVIEWS'] = 'rəyler';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Qaranlıq rejimi dəyişdir';
