@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Atmesta';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderuota';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Turgavietė';
 $lang['MODIFICATIONS_LIST'] = 'Pakeitimai.';
 $lang['MODS_VERSION'] = 'Versija';
 $lang['MODS_DOWNLOADS'] = 'Atsisiuntimai';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Įvertinimas';
+$lang['MODS_ACTIONS'] = 'Veiksmai';
 $lang['MODS_AUTHOR'] = 'Autorius';
 $lang['MODS_CATEGORY'] = 'Kategorijos';
 $lang['MODS_LAST_UPDATED'] = 'Paskutinį kartą atnaujinta.';
 $lang['MODS_TOTAL'] = 'Iš viso';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Nerasta modifikacijų.';
+$lang['MODS_INSTALL'] = 'Įdiegti';
+$lang['MODS_INSTALL_SOON'] = 'Įdiegimo funkcija netrukus bus pristatyta';
+$lang['MODS_ALL_CATEGORIES'] = 'Visos kategorijos';
+$lang['MODS_FREE'] = 'Nemokama';
+$lang['MODS_PAID'] = 'Mokama';
+$lang['MODS_THEMES'] = 'Temos';
+$lang['MODS_LANGPACKS'] = 'Kalbų paketai';
+$lang['MODS_API_ERROR'] = 'Nepavyko įkelti modifikacijų: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Modifikacijų serveris laikinai neprieinamas.';
+$lang['MODS_DESCRIPTION'] = 'Šiame puslapyje pateikiami visi oficialiame TorrentPier forume paskelbti ištekliai. Vienu spustelėjimu pateikiamas diegimas bus prieinamas ateityje — kol kas naudokite šį puslapį kaip išteklių demonstravimo vietą.';
+$lang['MODS_REVIEW'] = 'apžvalga';
+$lang['MODS_REVIEWS'] = 'apžvalgos';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Perjungti tamsų režimą';
