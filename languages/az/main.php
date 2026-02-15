@@ -2336,5 +2336,30 @@ $lang['SPAM_LOG_TOTAL'] = 'Ümumi qeydlər';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Rədd edildi';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderasiya edildi';
 
+// Marketplace / Modifications
+$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MODIFICATIONS_LIST'] = 'Dəyişikliklər';
+$lang['MODS_VERSION'] = 'Versiya';
+$lang['MODS_DOWNLOADS'] = 'Yükləmələr.';
+$lang['MODS_RATING'] = 'Rating';
+$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_AUTHOR'] = 'Müəllif';
+$lang['MODS_CATEGORY'] = 'Kateqoriya';
+$lang['MODS_LAST_UPDATED'] = 'Son Yeniləmə';
+$lang['MODS_TOTAL'] = 'Cəmi';
+$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
+$lang['MODS_INSTALL'] = 'Install';
+$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
+$lang['MODS_ALL_CATEGORIES'] = 'All categories';
+$lang['MODS_FREE'] = 'Free';
+$lang['MODS_PAID'] = 'Paid';
+$lang['MODS_THEMES'] = 'Themes';
+$lang['MODS_LANGPACKS'] = 'Language Packs';
+$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
+$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
+$lang['MODS_REVIEW'] = 'review';
+$lang['MODS_REVIEWS'] = 'reviews';
+
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Qaranlıq rejimi dəyişdir';
