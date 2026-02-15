@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Манъшуда';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Модератсияшуда';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Бозори моддӣ';
 $lang['MODIFICATIONS_LIST'] = 'тағйирот';
 $lang['MODS_VERSION'] = 'Нашрбрандаи назнаш';
 $lang['MODS_DOWNLOADS'] = 'Боргириҳо';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Рейтинги';
+$lang['MODS_ACTIONS'] = 'Амалиётҳо';
 $lang['MODS_AUTHOR'] = 'муаллиф';
 $lang['MODS_CATEGORY'] = 'категория';
 $lang['MODS_LAST_UPDATED'] = 'охирин навсози.';
 $lang['MODS_TOTAL'] = 'Тамоми.';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Модҳо ёфта нашуданд.';
+$lang['MODS_INSTALL'] = 'Насб кардан';
+$lang['MODS_INSTALL_SOON'] = 'Функсияи насб дар оянда дастрас мешавад';
+$lang['MODS_ALL_CATEGORIES'] = 'Ҳама категорияҳо';
+$lang['MODS_FREE'] = 'Ройгон';
+$lang['MODS_PAID'] = 'Пулӣ';
+$lang['MODS_THEMES'] = 'Мавзуъҳо';
+$lang['MODS_LANGPACKS'] = 'Бастаи забонҳо';
+$lang['MODS_API_ERROR'] = 'Намешавад модификасияҳоро боргузорӣ кард: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Сервери модификасияҳо муваққатан дастрас нест.';
+$lang['MODS_DESCRIPTION'] = 'Ин саҳифа ҳамаи захираҳои нашршуда дар форуми расмии TorrentPier-ро рӯйбарӯ мекунад. Насби бо як клик дар навсозии оянда дастрас хоҳад шуд — ҳоло ин саҳифаро ҳамчун намоишгоҳи захираҳо истифода баред.';
+$lang['MODS_REVIEW'] = 'баррасӣ';
+$lang['MODS_REVIEWS'] = 'баррасӣҳо';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Режими торикро хомӯш кунед';
