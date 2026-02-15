@@ -285,7 +285,7 @@ $lang['POST_NORMAL'] = 'Նորմալ է';
 $lang['POST_DOWNLOAD'] = 'Ներբեռնել';
 
 // Anonymous posting
-$lang['ANONYMOUS'] = 'անանունա';
+$lang['ANONYMOUS'] = 'անանուն';
 $lang['ANONYMOUS_TOPIC'] = 'Տեղադրել թեման անանուն';
 $lang['ANONYMOUS_REPLY'] = 'Տեղադրել պատասխան անանուն';
 $lang['HIDE_AUTHORSHIP'] = 'Տեղադրել անանուն կերպով ըստ լռության կարգի';
