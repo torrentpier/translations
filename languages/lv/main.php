@@ -2342,29 +2342,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Noraidīts';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderēts';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Tirgus laukums';
 $lang['MODIFICATIONS_LIST'] = 'Izmaiņas';
 $lang['MODS_VERSION'] = 'Versija';
 $lang['MODS_DOWNLOADS'] = 'Lejupielādes';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Vērtējums';
+$lang['MODS_ACTIONS'] = 'Darbības';
 $lang['MODS_AUTHOR'] = 'Autors';
 $lang['MODS_CATEGORY'] = 'Kategorijas';
 $lang['MODS_LAST_UPDATED'] = 'Pēdējo Reizi Atjaunināts';
 $lang['MODS_TOTAL'] = 'Kopā';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Nav atrastas modifikācijas.';
+$lang['MODS_INSTALL'] = 'Instalēt';
+$lang['MODS_INSTALL_SOON'] = 'Drīzumā pieejama instalēšanas funkcija';
+$lang['MODS_ALL_CATEGORIES'] = 'Visas kategorijas';
+$lang['MODS_FREE'] = 'Bezmaksas';
+$lang['MODS_PAID'] = 'Maksas';
+$lang['MODS_THEMES'] = 'Tēmas';
+$lang['MODS_LANGPACKS'] = 'Valodas pakotnes';
+$lang['MODS_API_ERROR'] = 'Neizdevās ielādēt modifikācijas: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Modifikāciju serveris pagaidu nepieejams.';
+$lang['MODS_DESCRIPTION'] = 'Šī lapa uzskaita visus resursus, kas publicēti oficiālajā TorrentPier forumā. Nākotnē būs viena klikšķa instalēšanas iespēja — pagaidām izmantojiet šo lapu kā resursu izstādi.';
+$lang['MODS_REVIEW'] = 'atskats';
+$lang['MODS_REVIEWS'] = 'atskati';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Pārslēgt tumšo režīmu';
