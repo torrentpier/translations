@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Nekade';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Modererade';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Marknadsplats';
 $lang['MODIFICATIONS_LIST'] = 'Ändringar';
 $lang['MODS_VERSION'] = 'Version';
 $lang['MODS_DOWNLOADS'] = 'Nedladdningar';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Betyg';
+$lang['MODS_ACTIONS'] = 'Åtgärder';
 $lang['MODS_AUTHOR'] = 'Författare';
 $lang['MODS_CATEGORY'] = 'Kategori';
 $lang['MODS_LAST_UPDATED'] = 'Senast Uppdaterad';
 $lang['MODS_TOTAL'] = 'Totalt';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Inga modifikationer hittades.';
+$lang['MODS_INSTALL'] = 'Installera';
+$lang['MODS_INSTALL_SOON'] = 'Installationsfunktion kommer snart';
+$lang['MODS_ALL_CATEGORIES'] = 'Alla kategorier';
+$lang['MODS_FREE'] = 'Gratis';
+$lang['MODS_PAID'] = 'Betald';
+$lang['MODS_THEMES'] = 'Teman';
+$lang['MODS_LANGPACKS'] = 'Språkpaket';
+$lang['MODS_API_ERROR'] = 'Kunde inte ladda modifikationer: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Modifikationsservern är tillfälligt otillgänglig.';
+$lang['MODS_DESCRIPTION'] = 'Denna sida listar alla resurser publicerade på det officiella TorrentPier-forumet. Enkel installation med ett klick kommer att finnas i en framtida uppdatering – för nu, använd denna sida som ett resursshowcase.';
+$lang['MODS_REVIEW'] = 'recension';
+$lang['MODS_REVIEWS'] = 'recensioner';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Växla till mörkt läge';
