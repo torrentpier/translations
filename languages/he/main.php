@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'נדחה';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'בתהליך אישור';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'שוק מקוון';
 $lang['MODIFICATIONS_LIST'] = 'שינויים';
 $lang['MODS_VERSION'] = 'גרסה';
 $lang['MODS_DOWNLOADS'] = 'הורדות';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'דירוג';
+$lang['MODS_ACTIONS'] = 'פעולות';
 $lang['MODS_AUTHOR'] = 'מחבר';
 $lang['MODS_CATEGORY'] = 'קטגוריה';
 $lang['MODS_LAST_UPDATED'] = 'עדכון אחרון';
 $lang['MODS_TOTAL'] = 'סה"כ';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'לא נמצאו שינויים.';
+$lang['MODS_INSTALL'] = 'התקן';
+$lang['MODS_INSTALL_SOON'] = 'תכונת ההתקנה תגיע בקרוב';
+$lang['MODS_ALL_CATEGORIES'] = 'כל הקטגוריות';
+$lang['MODS_FREE'] = 'חינמי';
+$lang['MODS_PAID'] = 'בתשלום';
+$lang['MODS_THEMES'] = 'ערכות נושא';
+$lang['MODS_LANGPACKS'] = 'חבילות שפה';
+$lang['MODS_API_ERROR'] = 'לא ניתן לטעון שינויים: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'שרת השינויים אינו זמין כרגע.';
+$lang['MODS_DESCRIPTION'] = 'דף זה מפרט את כל המשאבים שפורסמו בפורום הרשמי של TorrentPier. התקנה בלחיצה אחת תהיה זמינה בעדכון עתידי — לעת עתה, השתמש בדף זה כמיצג משאבים.';
+$lang['MODS_REVIEW'] = 'ביקורת';
+$lang['MODS_REVIEWS'] = 'ביקורות';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'החלף למצב כהה';
