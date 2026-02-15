@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Refusé';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Modéré';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Place de marché';
 $lang['MODIFICATIONS_LIST'] = 'Les modifications.';
 $lang['MODS_VERSION'] = 'Version';
 $lang['MODS_DOWNLOADS'] = 'Téléchargements';
-$lang['MODS_RATING'] = 'Rating';
+$lang['MODS_RATING'] = 'Note';
 $lang['MODS_ACTIONS'] = 'Actions';
 $lang['MODS_AUTHOR'] = 'Auteur';
 $lang['MODS_CATEGORY'] = 'Catégorie';
 $lang['MODS_LAST_UPDATED'] = 'Dernière Mise À Jour';
 $lang['MODS_TOTAL'] = 'Total';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Aucune modification trouvée.';
+$lang['MODS_INSTALL'] = 'Installer';
+$lang['MODS_INSTALL_SOON'] = 'Fonction d\'installation bientôt disponible';
+$lang['MODS_ALL_CATEGORIES'] = 'Toutes les catégories';
+$lang['MODS_FREE'] = 'Gratuit';
+$lang['MODS_PAID'] = 'Payant';
+$lang['MODS_THEMES'] = 'Thèmes';
+$lang['MODS_LANGPACKS'] = 'Packs de langues';
+$lang['MODS_API_ERROR'] = 'Impossible de charger les modifications : %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Le serveur des modifications est temporairement indisponible.';
+$lang['MODS_DESCRIPTION'] = 'Cette page liste toutes les ressources publiées sur le forum officiel TorrentPier. L’installation en un clic sera disponible dans une future mise à jour — pour l’instant, utilisez cette page comme une vitrine des ressources.';
+$lang['MODS_REVIEW'] = 'avis';
+$lang['MODS_REVIEWS'] = 'avis';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Activer le mode sombre';
