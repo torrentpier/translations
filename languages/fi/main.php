@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Evätty';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Valvottu';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Markkinapaikka';
 $lang['MODIFICATIONS_LIST'] = 'Muutokset';
 $lang['MODS_VERSION'] = 'Versio';
 $lang['MODS_DOWNLOADS'] = 'Lataukset';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Arvostelu';
+$lang['MODS_ACTIONS'] = 'Toiminnot';
 $lang['MODS_AUTHOR'] = 'Kirjoittaja';
 $lang['MODS_CATEGORY'] = 'Luokka';
 $lang['MODS_LAST_UPDATED'] = 'Viimeksi päivitetty.';
 $lang['MODS_TOTAL'] = 'Yhteensä';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Muokkauksia ei löytynyt.';
+$lang['MODS_INSTALL'] = 'Asenna';
+$lang['MODS_INSTALL_SOON'] = 'Asennusominaisuus tulossa pian';
+$lang['MODS_ALL_CATEGORIES'] = 'Kaikki kategoriat';
+$lang['MODS_FREE'] = 'Ilmainen';
+$lang['MODS_PAID'] = 'Maksullinen';
+$lang['MODS_THEMES'] = 'Teemat';
+$lang['MODS_LANGPACKS'] = 'Kielipaketit';
+$lang['MODS_API_ERROR'] = 'Muokkauksia ei voitu ladata: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Muokkauspalvelin on väliaikaisesti poissa käytöstä.';
+$lang['MODS_DESCRIPTION'] = 'Tämä sivu listaa kaikki virallisella TorrentPier-foorumilla julkaistut resurssit. Yhden napsautuksen asennus on tulossa tulevassa päivityksessä — toistaiseksi käytä tätä sivua resurssinäyttelynä.';
+$lang['MODS_REVIEW'] = 'arvostelu';
+$lang['MODS_REVIEWS'] = 'arvostelut';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Vaihda tumma tila';
