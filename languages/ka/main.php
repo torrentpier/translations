@@ -2322,7 +2322,7 @@ $lang['PM_SPAM_DENIED'] = 'თქვენი შეტყობინება 
 // Spam log (admin)
 $lang['SPAM_LOG'] = 'სპამის ლოგი';
 $lang['SPAM_LOG_DESC'] = 'ეს ლოგი ინახავს ყველა რეგისტრაციასა და შინაარსის წარდგენას, რომელიც სპამის დაცვის სისტემამ მონიშნა. <b>უარყოფილია</b> &mdash; მოქმედება სრულად დაბლოკილია (რეგისტრაცია უარყოფილია, პოსტი/პირადი შეტყობინება არ გაიგზავნა). <b>მოდერირებულია</b> &mdash; რეგისტრაციისთვის ანგარიში შექმნის, მაგრამ საჭიროებს ელფოსტის აქტივაციას; შინაარსისთვის პოსტი/პირადი შეტყობინება დაშვებულია, მაგრამ მონიშნულია როგორც საეჭვო.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'შესავლის ტიპი';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'აუწმყობის ტიპი';
 $lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'რეგისტრაცია &mdash; ახალი ანგარიშის რეგისტრაცია';
 $lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'შინაარსი &mdash; პოსტი ან პირადი შეტყობინება';
 $lang['SPAM_LOG_DECISION'] = 'მომწყვეტი';
@@ -2334,7 +2334,7 @@ $lang['SPAM_LOG_DETAILS'] = 'დეტალები';
 $lang['SPAM_LOG_NO_RECORDS'] = 'სპამის ლოგი არ მოიძებნა';
 $lang['SPAM_LOG_TOTAL'] = 'სულ ჩანაწერების რაოდენობა';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'უარი';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'მენეჯმენტი';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'მოდერირებული';
 
 // Marketplace / Modifications
 $lang['MARKETPLACE'] = 'Marketplace';
