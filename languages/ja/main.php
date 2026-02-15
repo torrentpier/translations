@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = '拒否済み';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'モデレート済み';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'マーケットプレイス';
 $lang['MODIFICATIONS_LIST'] = '修正';
 $lang['MODS_VERSION'] = 'バージョン';
 $lang['MODS_DOWNLOADS'] = 'ダウンロード';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = '評価';
+$lang['MODS_ACTIONS'] = '操作';
 $lang['MODS_AUTHOR'] = '著者';
 $lang['MODS_CATEGORY'] = 'カテゴリ';
 $lang['MODS_LAST_UPDATED'] = '最終更新';
 $lang['MODS_TOTAL'] = '合計';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = '変更が見つかりません。';
+$lang['MODS_INSTALL'] = 'インストール';
+$lang['MODS_INSTALL_SOON'] = 'インストール機能はまもなく利用可能になります';
+$lang['MODS_ALL_CATEGORIES'] = 'すべてのカテゴリ';
+$lang['MODS_FREE'] = '無料';
+$lang['MODS_PAID'] = '有料';
+$lang['MODS_THEMES'] = 'テーマ';
+$lang['MODS_LANGPACKS'] = '言語パック';
+$lang['MODS_API_ERROR'] = '変更を読み込めませんでした: %s';
+$lang['MODS_API_UNAVAILABLE'] = '変更サーバーは一時的に利用できません。';
+$lang['MODS_DESCRIPTION'] = 'このページには公式TorrentPierフォーラムで公開されているすべてのリソースが掲載されています。ワンクリックインストールは将来の更新で利用可能になる予定です — 今のところ、このページをリソースショーケースとしてご利用ください。';
+$lang['MODS_REVIEW'] = 'レビュー';
+$lang['MODS_REVIEWS'] = 'レビューズ';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'ダークモードを切り替える';
