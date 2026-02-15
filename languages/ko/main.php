@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = '거부됨';
 $lang['SPAM_LOG_MODERATED_COUNT'] = '검토중';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = '마켓플레이스';
 $lang['MODIFICATIONS_LIST'] = '변경 사항.';
 $lang['MODS_VERSION'] = '버전';
 $lang['MODS_DOWNLOADS'] = '다운로드';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = '평점';
+$lang['MODS_ACTIONS'] = '작업';
 $lang['MODS_AUTHOR'] = '저자';
 $lang['MODS_CATEGORY'] = '카테고리';
 $lang['MODS_LAST_UPDATED'] = '최근 업데이트';
 $lang['MODS_TOTAL'] = '총.';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = '수정 사항을 찾을 수 없습니다.';
+$lang['MODS_INSTALL'] = '설치';
+$lang['MODS_INSTALL_SOON'] = '설치 기능 곧 제공 예정';
+$lang['MODS_ALL_CATEGORIES'] = '모든 카테고리';
+$lang['MODS_FREE'] = '무료';
+$lang['MODS_PAID'] = '유료';
+$lang['MODS_THEMES'] = '테마';
+$lang['MODS_LANGPACKS'] = '언어 팩';
+$lang['MODS_API_ERROR'] = '수정 사항을 불러올 수 없습니다: %s';
+$lang['MODS_API_UNAVAILABLE'] = '수정 서버가 일시적으로 사용할 수 없습니다.';
+$lang['MODS_DESCRIPTION'] = '이 페이지는 공식 TorrentPier 포럼에 게시된 모든 리소스를 나열합니다. 원클릭 설치는 향후 업데이트에서 제공될 예정이며, 현재는 이 페이지를 리소스 전시용으로 사용하십시오.';
+$lang['MODS_REVIEW'] = '리뷰';
+$lang['MODS_REVIEWS'] = '리뷰들';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = '다크 모드 전환';
