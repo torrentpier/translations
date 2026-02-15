@@ -2338,29 +2338,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Megtagadva';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Mérsékelt';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Piachelyzet';
 $lang['MODIFICATIONS_LIST'] = 'Módosítások';
 $lang['MODS_VERSION'] = 'Verzió';
 $lang['MODS_DOWNLOADS'] = 'Letöltések';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Értékelés';
+$lang['MODS_ACTIONS'] = 'Műveletek';
 $lang['MODS_AUTHOR'] = 'Szerző';
 $lang['MODS_CATEGORY'] = 'Kategória';
 $lang['MODS_LAST_UPDATED'] = 'Utolsó Frissítés';
 $lang['MODS_TOTAL'] = 'Összesen';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Nem találhatóak módosítások.';
+$lang['MODS_INSTALL'] = 'Telepítés';
+$lang['MODS_INSTALL_SOON'] = 'Telepítési funkció hamarosan elérhető';
+$lang['MODS_ALL_CATEGORIES'] = 'Összes kategória';
+$lang['MODS_FREE'] = 'Ingyenes';
+$lang['MODS_PAID'] = 'Fizetős';
+$lang['MODS_THEMES'] = 'Témák';
+$lang['MODS_LANGPACKS'] = 'Nyelvi csomagok';
+$lang['MODS_API_ERROR'] = 'Nem sikerült betölteni a módosításokat: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'A módosításokat kiszolgáló szerver jelenleg nem elérhető.';
+$lang['MODS_DESCRIPTION'] = 'Ez az oldal az összes hivatalos TorrentPier fórumon közzétett erőforrást felsorolja. Az egyszereplős telepítés egy későbbi frissítésben lesz elérhető — jelenleg használja ezt az oldalt erőforrás bemutatóként.';
+$lang['MODS_REVIEW'] = 'értékelés';
+$lang['MODS_REVIEWS'] = 'értékelések';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Sötét mód váltása';
