@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'สถิติการเผยแพร่:';
 $lang['RELEASER_STAT_SHOW'] = 'แสดงสถิติ';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'การลงทะเบียนถูกปฏิเสธ โปรดติดต่อผู้ดูแลระบบหากคุณเชื่อว่านี่เป็นความผิดพลาด';
+$lang['POST_SPAM_DENIED'] = 'ข้อความของคุณถูกระบุว่าเป็นสแปมและไม่สามารถโพสต์ได้';
+$lang['PM_SPAM_DENIED'] = 'ข้อความของคุณถูกระบุว่าเป็นสแปมและไม่สามารถส่งได้';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'บันทึกสแปม';
+$lang['SPAM_LOG_DESC'] = 'บันทึกนี้บันทึกการพยายามลงทะเบียนและการส่งเนื้อหาทั้งหมดที่ถูกระบบป้องกันสแปมจับสัญญาณไว้ <b>ถูกปฏิเสธ</b> &mdash; การกระทำถูกบล็อกอย่างสมบูรณ์ (การลงทะเบียนถูกปฏิเสธ, การโพสต์/ข้อความส่วนตัวไม่ถูกส่ง) <b>ผ่านการตรวจสอบ</b> &mdash; สำหรับการลงทะเบียน บัญชีถูกสร้างแต่ต้องเปิดใช้งานผ่านอีเมล; สำหรับเนื้อหา การโพสต์/ข้อความส่วนตัวถูกอนุญาตให้ผ่านแต่ถูกติดธงว่าผิดปกติ';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'ประเภทการตรวจสอบ';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'การลงทะเบียน &mdash; การสมัครบัญชีใหม่';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'เนื้อหา &mdash; โพสต์หรือข้อความส่วนตัว';
+$lang['SPAM_LOG_DECISION'] = 'การตัดสินใจ';
+$lang['SPAM_LOG_PROVIDER'] = 'ผู้ให้บริการ';
 $lang['SPAM_LOG_REASON'] = 'เหตุผล';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'เวลา (มิลลิวินาที)';
 $lang['SPAM_LOG_ALL'] = 'ทั้งหมด';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'รายละเอียด';
+$lang['SPAM_LOG_NO_RECORDS'] = 'ไม่พบรายการบันทึกสแปม';
+$lang['SPAM_LOG_TOTAL'] = 'จำนวนรายการทั้งหมด';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'ถูกปฏิเสธ';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'ผ่านการตรวจสอบ';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'สลับโหมดมืด';

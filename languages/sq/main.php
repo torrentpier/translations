@@ -288,7 +288,7 @@ $lang['POST_DOWNLOAD'] = 'Shkarkuar';
 $lang['ANONYMOUS'] = 'Anonim';
 $lang['ANONYMOUS_TOPIC'] = 'Posto temën në mënyrë anonime';
 $lang['ANONYMOUS_REPLY'] = 'Posto përgjigjen në mënyrë anonime';
-$lang['HIDE_AUTHORSHIP'] = 'Posto anonim me default';
+$lang['HIDE_AUTHORSHIP'] = 'Posto anonimisht si parazgjedhje';
 $lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Kur është aktivizuar, postimet e reja do të jenë në modalitet anonim si parazgjedhje. Mund ta ndryshoni këtë për çdo postim.';
 $lang['ALLOW_ANONYMOUS_POSTING'] = 'Lejo postimin anonim';
 $lang['ANONYMOUS_POST_LABEL'] = 'Postuar në mënyrë anonime';
@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Statistikat e lëshuesit:';
 $lang['RELEASER_STAT_SHOW'] = 'Trego statistika';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Regjistrimi u refuzua. Ju lutemi kontaktoni administratorin nëse besoni se kjo është një gabim.';
+$lang['POST_SPAM_DENIED'] = 'Mesazhi juaj është identifikuar si spam dhe nuk mund të publikohet.';
+$lang['PM_SPAM_DENIED'] = 'Mesazhi juaj është identifikuar si spam dhe nuk mund të dërgohet.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Regjistri i Spam-it';
+$lang['SPAM_LOG_DESC'] = 'Ky regjistër regjistron të gjitha përpjekjet për regjistrim dhe dorëzimet e përmbajtjes që janë sinjalizuar nga sistemi i mbrojtjes nga spam-i. <b>Refuzuar</b> &mdash; veprimi ishte plotësisht i bllokuar (regjistrimi u refuzua, postimi/mesazhi i përgjithshëm nuk u dërgua). <b>Moderuar</b> &mdash; për regjistrimet, llogaria u krijua por kërkon aktivizim me email; për përmbajtjen, postimi/mesazhi i përgjithshëm u lejua por u sinjalizua si i dyshimtë.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Lloji i kontrolleve';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'regjistrim &mdash; hapje kontoje e re';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'përmbajtje &mdash; postim ose mesazh privat';
+$lang['SPAM_LOG_DECISION'] = 'Vendimi';
+$lang['SPAM_LOG_PROVIDER'] = 'Ofruesi';
 $lang['SPAM_LOG_REASON'] = 'Arsyeja';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Koha (ms)';
 $lang['SPAM_LOG_ALL'] = 'Të gjitha';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detajet';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Nuk u gjetën regjistra spam';
+$lang['SPAM_LOG_TOTAL'] = 'Totali i regjistrimeve';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Refuzuar';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderuar';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Aktivizo modalitetin e errët';

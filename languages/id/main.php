@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Statistik releaser:';
 $lang['RELEASER_STAT_SHOW'] = 'Tampilkan statistik';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Pendaftaran ditolak. Silakan hubungi administrator jika Anda yakin ini adalah kesalahan.';
+$lang['POST_SPAM_DENIED'] = 'Pesan Anda telah diidentifikasi sebagai spam dan tidak dapat diposting.';
+$lang['PM_SPAM_DENIED'] = 'Pesan Anda telah diidentifikasi sebagai spam dan tidak dapat dikirim.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Log Spam';
+$lang['SPAM_LOG_DESC'] = 'Log ini mencatat semua upaya pendaftaran dan pengiriman konten yang ditandai oleh sistem perlindungan spam. <b>Ditolak</b> &mdash; tindakan sepenuhnya diblokir (pendaftaran ditolak, posting/PM tidak terkirim). <b>Dimoderasi</b> &mdash; untuk pendaftaran, akun dibuat tetapi memerlukan aktivasi email; untuk konten, posting/PM diizinkan tetapi ditandai sebagai mencurigakan.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Jenis pemeriksaan';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'pendaftaran &mdash; pendaftaran akun baru';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'konten &mdash; posting atau pesan pribadi';
+$lang['SPAM_LOG_DECISION'] = 'Keputusan';
+$lang['SPAM_LOG_PROVIDER'] = 'Penyedia';
 $lang['SPAM_LOG_REASON'] = 'Alasan';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Waktu (ms)';
 $lang['SPAM_LOG_ALL'] = 'Semua';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detail';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Tidak ada entri log spam yang ditemukan';
+$lang['SPAM_LOG_TOTAL'] = 'Total entri';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Ditolak';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Dimoderasi';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Alihkan mode gelap';

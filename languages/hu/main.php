@@ -2316,26 +2316,26 @@ $lang['RELEASER_STAT'] = 'Kiadó statisztika:';
 $lang['RELEASER_STAT_SHOW'] = 'Statisztika megjelenítése';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Regisztráció megtagadva. Kérjük, lépjen kapcsolatba a rendszergazdával, ha úgy gondolja, hogy ez hibás.';
+$lang['POST_SPAM_DENIED'] = 'Az Ön üzenete spamként lett azonosítva, ezért nem küldhető el.';
+$lang['PM_SPAM_DENIED'] = 'Az Ön üzenete spamként lett azonosítva, ezért nem küldhető el.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Spam napló';
+$lang['SPAM_LOG_DESC'] = 'Ez a napló rögzíti az összes regisztrációs kísérletet és tartalom beküldést, amelyet a spamvédelmi rendszer jelzett. <b>Megtagadva</b> &mdash; a művelet teljesen blokkolva lett (regisztráció elutasítva, hozzászólás/privát üzenet nem küldhető). <b>Mérsékelt</b> &mdash; regisztráció esetén a fiók létrejött, de szükséges az e-mailes aktiválás; tartalom esetén a hozzászólás/privát üzenet engedélyezett, de gyanúsként lett jelölve.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Ellenőrzés típusa';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'regisztráció &mdash; új fiók létrehozása';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'tartalom &mdash; hozzászólás vagy privát üzenet';
+$lang['SPAM_LOG_DECISION'] = 'Döntés';
+$lang['SPAM_LOG_PROVIDER'] = 'Szolgáltató';
 $lang['SPAM_LOG_REASON'] = 'Ok';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Idő (ms)';
 $lang['SPAM_LOG_ALL'] = 'Összes';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Részletek';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Nincs spam naplóbejegyzés';
+$lang['SPAM_LOG_TOTAL'] = 'Összes bejegyzés';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Megtagadva';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Mérsékelt';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Sötét mód váltása';

@@ -286,9 +286,9 @@ $lang['POST_DOWNLOAD'] = 'הורד';
 
 // Anonymous posting
 $lang['ANONYMOUS'] = 'אנונימי';
-$lang['ANONYMOUS_TOPIC'] = 'פרסם נושא באנונימיות';
-$lang['ANONYMOUS_REPLY'] = 'פרסם תגובה באנונימיות';
-$lang['HIDE_AUTHORSHIP'] = 'פרסם באנונימיות כברירת מחדל';
+$lang['ANONYMOUS_TOPIC'] = 'פרסם נושא באופן אנונימי';
+$lang['ANONYMOUS_REPLY'] = 'פרסם תגובה באופן אנונימי';
+$lang['HIDE_AUTHORSHIP'] = 'פרסם באופן אנונימי כברירת מחדל';
 $lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'כאשר מופעל, הפוסטים החדשים יפורסמו כברירת מחדל באנונימיות. ניתן לשנות זאת עבור כל פוסט בנפרד.';
 $lang['ALLOW_ANONYMOUS_POSTING'] = 'אפשר פרסום אנונימי';
 $lang['ANONYMOUS_POST_LABEL'] = 'פורסם באנונימיות';
@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'סטטיסטיקות של מפיץ:';
 $lang['RELEASER_STAT_SHOW'] = 'הצג סטטיסטיקות';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'ההרשמה נדחתה. פנה למנהל המערכת אם אתה סבור שמדובר בטעות.';
+$lang['POST_SPAM_DENIED'] = 'ההודעה שלך זוהתה כספאם ולא ניתן לפרסם אותה.';
+$lang['PM_SPAM_DENIED'] = 'ההודעה שלך זוהתה כספאם ולא ניתן לשלוח אותה.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'יומן הספאם';
+$lang['SPAM_LOG_DESC'] = 'יומן זה מתעד את כל ניסיונות ההרשמה ושליחת התוכן שסומנו על ידי מערכת ההגנה מפני ספאם. <b>נדחה</b> &mdash; הפעולה נחסמה לחלוטין (הרשמה נדחתה, פרסום/הודעה פרטית לא נשלחה). <b>בתהליך אישור</b> &mdash; עבור הרשמות, החשבון נוצר אך דורש הפעלת אימייל; עבור תוכן, הפרסום/ההודעה הפרטית הורשו לעבור אך סומנו כספקניים.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'סוג הבדיקה';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'הרשמה &mdash; יצירת חשבון חדש';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'תוכן &mdash; פוסט או הודעה פרטית';
+$lang['SPAM_LOG_DECISION'] = 'החלטה';
+$lang['SPAM_LOG_PROVIDER'] = 'ספק';
 $lang['SPAM_LOG_REASON'] = 'סיבה';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'זמן (אלפית שנייה)';
 $lang['SPAM_LOG_ALL'] = 'כל';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'פרטים';
+$lang['SPAM_LOG_NO_RECORDS'] = 'לא נמצאו רשומות ביומן הספאם';
+$lang['SPAM_LOG_TOTAL'] = 'סה"כ רשומות';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'נדחה';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'בתהליך אישור';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'החלף למצב כהה';

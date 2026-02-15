@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Releaser statistikalari:';
 $lang['RELEASER_STAT_SHOW'] = 'Statistika ko\'rsatish';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Ro‘yxatdan o‘tish rad etildi. Agar buni xato deb hisoblasangiz, ma’mur bilan bog‘laning.';
+$lang['POST_SPAM_DENIED'] = 'Xabaringiz spam deb topildi va joylashtirilishi mumkin emas.';
+$lang['PM_SPAM_DENIED'] = 'Xabaringiz spam deb topildi va yuborilishi mumkin emas.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Spam jurnali';
+$lang['SPAM_LOG_DESC'] = 'Ushbu jurnal spamni himoya tizimi tomonidan belgilangan barcha ro‘yxatdan o‘tish urinishlari va tarkib yuborilishlarini qayd qiladi. <b>Rad etilgan</b> &mdash; amal to‘liq bloklangan (ro‘yxatdan o‘tish rad etilgan, xabar/pm yuborilmagan). <b>Moderatsiya qilingan</b> &mdash; ro‘yxatdan o‘tishlar uchun, akkaunt yaratilgan, ammo elektron pochta orqali faollashtirish talab qilinadi; tarkib uchun esa, xabar/pm ruxsat etilgan, ammo shubhali sifatida belgilangan.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Tekshiruv turi';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'ro‘yxatdan o‘tish &mdash; yangi akkaunt yaratish';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'tarkib &mdash; xabar yoki shaxsiy xabar';
+$lang['SPAM_LOG_DECISION'] = 'Qaror';
+$lang['SPAM_LOG_PROVIDER'] = 'Provayder';
 $lang['SPAM_LOG_REASON'] = 'Sabab';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Vaqt (ms)';
 $lang['SPAM_LOG_ALL'] = 'Hamma';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Tafsilotlar';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Spam jurnali yozuvlari topilmadi';
+$lang['SPAM_LOG_TOTAL'] = 'Jami yozuvlar';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Rad etilgan';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderatsiya qilingan';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Qorong\'u rejimga o\'tish';

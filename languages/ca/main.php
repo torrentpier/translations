@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Estadístiques de l’alliberador:';
 $lang['RELEASER_STAT_SHOW'] = 'Mostra estadístiques';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Registre denegat. Si creieu que és un error, poseu-vos en contacte amb l\'administrador.';
+$lang['POST_SPAM_DENIED'] = 'El vostre missatge ha estat identificat com a correu brossa i no es pot publicar.';
+$lang['PM_SPAM_DENIED'] = 'El vostre missatge ha estat identificat com a correu brossa i no es pot enviar.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Registre de correu brossa';
+$lang['SPAM_LOG_DESC'] = 'Aquest registre guarda totes les intents de registre i les submissions de contingut que han estat marcades pel sistema de protecció contra correu brossa. <b>Denegat</b> &mdash; l\'acció va ser completament bloquejada (registre rebutjat, publicació/Missatge Privat no enviat). <b>Moderada</b> &mdash; per als registres, el compte es va crear però requereix activació per correu electrònic; per al contingut, la publicació/Missatge Privat va ser permès però marcat com a sospitós.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Tipus de comprovació';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registre &mdash; nova inscripció de compte';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'contingut &mdash; publicació o missatge privat';
+$lang['SPAM_LOG_DECISION'] = 'Decisió';
+$lang['SPAM_LOG_PROVIDER'] = 'Proveïdor';
 $lang['SPAM_LOG_REASON'] = 'Raó';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Temps (ms)';
 $lang['SPAM_LOG_ALL'] = 'Tot';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detalls';
+$lang['SPAM_LOG_NO_RECORDS'] = 'No s\'han trobat entrades al registre de correu brossa';
+$lang['SPAM_LOG_TOTAL'] = 'Entrades totals';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Denegat';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderada';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Activa el mode fosc';

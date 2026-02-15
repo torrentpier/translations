@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Статыстыка рэлізера:';
 $lang['RELEASER_STAT_SHOW'] = 'Паказаць статыстыку';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Рэгістрацыя адхілена. Калі вы лічыце, што гэта памылка, калі ласка, звяжыцеся з адміністратарам.';
+$lang['POST_SPAM_DENIED'] = 'Вашае паведамленне выявілася як спам і не можа быць апублікавана.';
+$lang['PM_SPAM_DENIED'] = 'Вашае паведамленне выявілася як спам і не можа быць адпраўлена.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Журнал спаму';
+$lang['SPAM_LOG_DESC'] = 'Гэты журнал рэгіструе ўсе спробы рэгістрацыі і адпраўкі зместу, якія былі адзначаны сістэмай абароны ад спаму. <b>Адхілена</b> &mdash; дзеянне было цалкам заблакавана (рэгістрацыя адкінута, паведамленне/ПП не адпраўлена). <b>Прадаглядаецца</b> &mdash; для рэгістрацый уліковы запіс створаны, але патрабуецца актывацыя па электроннай пошце; для зместу, паведамленне/ПП было дапушчана, але адзначана як падазронае.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Тып праверкі';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'рэгістрацыя &mdash; стварэнне новага акаўнта';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'змест &mdash; паведамленне альбо асабістае паведамленне';
+$lang['SPAM_LOG_DECISION'] = 'Рашэнне';
+$lang['SPAM_LOG_PROVIDER'] = 'Пастаўшчык';
 $lang['SPAM_LOG_REASON'] = 'Прычына';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Час (мс)';
 $lang['SPAM_LOG_ALL'] = 'Усе';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Дэталі';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Запісы журнала спаму не знойдзены';
+$lang['SPAM_LOG_TOTAL'] = 'Усяго запісаў';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Адхілена';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Прадаглядаецца';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Пераключыць цёмны рэжым';

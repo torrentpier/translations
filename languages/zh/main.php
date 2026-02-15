@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = '發佈者統計：';
 $lang['RELEASER_STAT_SHOW'] = '顯示統計數據';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = '註冊被拒。如果您認為這是錯誤，請聯絡管理員。';
+$lang['POST_SPAM_DENIED'] = '您的訊息已被識別為垃圾郵件，無法發佈。';
+$lang['PM_SPAM_DENIED'] = '您的訊息已被識別為垃圾郵件，無法發送。';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = '垃圾郵件紀錄';
+$lang['SPAM_LOG_DESC'] = '此紀錄記錄所有被反垃圾郵件系統標記的註冊嘗試及內容提交。<b>拒絕</b> &mdash; 行為被完全阻擋（註冊被拒、文章/私訊未發送）。<b>審核中</b> &mdash; 對於註冊，帳號已建立但需電子郵件啟動；對內容，文章/私訊被允許但標記為可疑。';
+$lang['SPAM_LOG_CHECK_TYPE'] = '檢查類型';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = '註冊 &mdash; 新帳號申請';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = '內容 &mdash; 文章或私人訊息';
+$lang['SPAM_LOG_DECISION'] = '決定';
+$lang['SPAM_LOG_PROVIDER'] = '提供者';
 $lang['SPAM_LOG_REASON'] = '原因';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = '時間 (毫秒)';
 $lang['SPAM_LOG_ALL'] = '全部';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = '詳細資料';
+$lang['SPAM_LOG_NO_RECORDS'] = '未找到垃圾郵件紀錄條目';
+$lang['SPAM_LOG_TOTAL'] = '條目總數';
+$lang['SPAM_LOG_DENIED_COUNT'] = '拒絕';
+$lang['SPAM_LOG_MODERATED_COUNT'] = '審核中';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = '切換暗模式';

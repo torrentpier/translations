@@ -293,7 +293,7 @@ $lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'عند التفعيل، ستكون المش�
 $lang['ALLOW_ANONYMOUS_POSTING'] = 'السماح بالنشر المجهول';
 $lang['ANONYMOUS_POST_LABEL'] = 'نُشر بشكل مجهول';
 $lang['POSTED_ANONYMOUSLY'] = 'نُشر بشكل مجهول';
-$lang['ANONYMOUS_ADMIN_NOTICE'] = 'يمكن للمشرفين وال moderators رؤية المؤلف الحقيقي';
+$lang['ANONYMOUS_ADMIN_NOTICE'] = 'يمكن للمشرفين والمراقبين رؤية المؤلف الحقيقي';
 $lang['YOU'] = 'أنت';
 
 $lang['PRINT_PAGE'] = 'طباعة الصفحة';
@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'إحصائيات الموزع:';
 $lang['RELEASER_STAT_SHOW'] = 'عرض الإحصائيات';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'تم رفض التسجيل. يرجى الاتصال بالمشرف إذا كنت تعتقد أن هذا خطأ.';
+$lang['POST_SPAM_DENIED'] = 'تم التعرف على رسالتك كبريد مزعج ولا يمكن نشرها.';
+$lang['PM_SPAM_DENIED'] = 'تم التعرف على رسالتك كبريد مزعج ولا يمكن إرسالها.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'سجل الرسائل المزعجة';
+$lang['SPAM_LOG_DESC'] = 'يسجل هذا السجل جميع محاولات التسجيل وإرسال المحتوى التي تم تمييزها من قبل نظام حماية الرسائل المزعجة. <b>مرفوضة</b> &mdash; تم حظر الإجراء بالكامل (تم رفض التسجيل، لم يتم إرسال المشاركة/الرسالة الخاصة). <b>معتدلة</b> &mdash; بالنسبة للتسجيلات، تم إنشاء الحساب ولكنه يتطلب تفعيل البريد الإلكتروني؛ بالنسبة للمحتوى، تم السماح بالمنشور/الرسالة الخاصة ولكن تم تمييزه كمشتبه به.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'نوع الفحص';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'التسجيل &mdash; اشتراك حساب جديد';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'المحتوى &mdash; مشاركة أو رسالة خاصة';
+$lang['SPAM_LOG_DECISION'] = 'القرار';
+$lang['SPAM_LOG_PROVIDER'] = 'المزود';
 $lang['SPAM_LOG_REASON'] = 'السبب';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'الوقت (مللي ثانية)';
 $lang['SPAM_LOG_ALL'] = 'كل';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'التفاصيل';
+$lang['SPAM_LOG_NO_RECORDS'] = 'لم يتم العثور على أي سجلات بريد مزعج';
+$lang['SPAM_LOG_TOTAL'] = 'إجمالي الإدخالات';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'مرفوضة';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'معتدلة';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'تبديل الوضع الداكن';

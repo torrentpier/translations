@@ -2320,26 +2320,26 @@ $lang['RELEASER_STAT'] = 'Izplatītāja statistika:';
 $lang['RELEASER_STAT_SHOW'] = 'Rādīt statistiku';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Reģistrācija liegta. Lūdzu, sazinieties ar administratoru, ja uzskatāt, ka radusies kļūda.';
+$lang['POST_SPAM_DENIED'] = 'Jūsu ziņojums tika atzīts par surogātpastu un nevarēja tikt publicēts.';
+$lang['PM_SPAM_DENIED'] = 'Jūsu ziņojums tika atzīts par surogātpastu un nevarēja tikt nosūtīts.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Surogātpasta žurnāls';
+$lang['SPAM_LOG_DESC'] = 'Šajā žurnālā tiek reģistrēti visi reģistrācijas mēģinājumi un satura iesniegumi, kurus atzīmējusi surogātpasta aizsardzības sistēma. <b>Atteikts</b> — darbība bija pilnībā bloķēta (reģistrācija noraidīta, ieraksts/PM netika nosūtīts). <b>Moderēts</b> — reģistrācijām konts tika izveidots, taču nepieciešama e-pasta aktivizācija; saturam ieraksts/PM tika atļauts, bet atzīmēts kā aizdomīgs.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Pārbaudes veids';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'reģistrācija &mdash; jaunas konta izveide';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'saturs &mdash; ziņa vai privātā ziņa';
+$lang['SPAM_LOG_DECISION'] = 'Lēmums';
+$lang['SPAM_LOG_PROVIDER'] = 'Pakalpojuma sniedzējs';
 $lang['SPAM_LOG_REASON'] = 'Iemesls';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Laiks (ms)';
 $lang['SPAM_LOG_ALL'] = 'Visas';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detalizēta informācija';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Nav atrasti ieraksti surogātpasta žurnālā';
+$lang['SPAM_LOG_TOTAL'] = 'Kopējie ieraksti';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Noraidīts';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderēts';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Pārslēgt tumšo režīmu';

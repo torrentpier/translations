@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Levitaja statistika:';
 $lang['RELEASER_STAT_SHOW'] = 'Näita statistikat';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Registreerimine keelatud. Kui usute, et tegemist on veaga, palun võtke ühendust administraatoriga.';
+$lang['POST_SPAM_DENIED'] = 'Teie sõnum on identifitseeritud rämpspostina ja seda ei saa postitada.';
+$lang['PM_SPAM_DENIED'] = 'Teie sõnum on identifitseeritud rämpspostina ja seda ei saa saata.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Rämpsposti logi';
+$lang['SPAM_LOG_DESC'] = 'See logi salvestab kõik registreerimisproovid ja sisutõupüügi süsteemi poolt märgistatud sisusalvestused. <b>Keelatud</b> &mdash; tegevus blokeeriti täielikult (registreerimine lükati tagasi, postitus/PM ei saadetud). <b>Modereeritud</b> &mdash; registreerimiste puhul loodi konto, kuid nõuab e-posti aktiveerimist; sisu korral lubati postitus/PM läbida, kuid märgiti kahtlasena.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Kontrollimise tüüp';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registreerimine &mdash; uue konto loomine';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'sisu &mdash; postitus või privaatne sõnum';
+$lang['SPAM_LOG_DECISION'] = 'Otsus';
+$lang['SPAM_LOG_PROVIDER'] = 'Teenusepakkuja';
 $lang['SPAM_LOG_REASON'] = 'Põhjus';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Aeg (ms)';
 $lang['SPAM_LOG_ALL'] = 'Kõik';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Üksikasjad';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Rämpsposti logipostitusi ei leitud';
+$lang['SPAM_LOG_TOTAL'] = 'Postituste koguarv';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Keelatud';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Modereeritud';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Lülita pime režiim';

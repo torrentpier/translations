@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Статистикаи тароша:';
 $lang['RELEASER_STAT_SHOW'] = 'Статистикаро нишон диҳед';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Регистрация манъ шуд. Лутфан ба администратор муроҷиат кунед, агар шумо фикр мекунед, ки ин хатогӣ аст.';
+$lang['POST_SPAM_DENIED'] = 'Паёми шумо ҳамчун спам муайян шудааст ва намешавад нашр карда шавад.';
+$lang['PM_SPAM_DENIED'] = 'Паёми шумо ҳамчун спам муайян шудааст ва намешавад ирсол карда шавад.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Рӯйхати спам';
+$lang['SPAM_LOG_DESC'] = 'Ин руйхат ҳама кӯшишҳои сабти ном ва ирсоли мундариҷаро, ки системаи муҳофизати спам муайян кардааст, сабт мекунад. <b>Манъшуда</b> — амалиёт пурра қатъ шудааст (сабти ном рад карда шуд, паём/паёми шахсӣ фиристода нашуд). <b>Модератсияшуда</b> — дар сабти ном, ҳисоби корбарӣ сохта шуд, вале барои фаъолсозии он тавассути почтаи электронӣ лозим аст; барои мундариҷа, паём/паёми шахсӣ иҷозат дода шуд, вале ҳамчун шубҳанок қайд шудааст.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Навъи тафтиш';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'сабти ном — сабти ҳисоби нав';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'мундариҷа — паём ё паёми шахсӣ';
+$lang['SPAM_LOG_DECISION'] = 'Қарор';
+$lang['SPAM_LOG_PROVIDER'] = 'Провайдер';
 $lang['SPAM_LOG_REASON'] = 'сабаб';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Вақт (мс)';
 $lang['SPAM_LOG_ALL'] = 'Ҳама.';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Тафсилот';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Ягон сабти рӯйхати спам ёфта нашудааст';
+$lang['SPAM_LOG_TOTAL'] = 'Ҳамагӣ сабтҳо';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Манъшуда';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Модератсияшуда';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Режими торикро хомӯш кунед';

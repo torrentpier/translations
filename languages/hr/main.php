@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Statistika distribucije:';
 $lang['RELEASER_STAT_SHOW'] = 'Prikaži statistiku';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Registracija odbijena. Molimo kontaktirajte administratora ako smatrate da je ovo pogreška.';
+$lang['POST_SPAM_DENIED'] = 'Vaša poruka je identificirana kao neželjena pošta i nije je moguće objaviti.';
+$lang['PM_SPAM_DENIED'] = 'Vaša poruka je identificirana kao neželjena pošta i nije je moguće poslati.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Dnevnik neželjene pošte';
+$lang['SPAM_LOG_DESC'] = 'Ovaj zapisnik bilježi sve pokušaje registracije i slanja sadržaja koji su označeni od strane sustava za zaštitu od neželjene pošte. <b>Odbijeno</b> &mdash; radnja je potpuno blokirana (registracija odbijena, objava/PM nije poslana). <b>Moderirano</b> &mdash; za registracije, račun je kreiran, ali zahtijeva aktivaciju putem e-pošte; za sadržaj, objava/PM je dopuštena ali je označena kao sumnjiva.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Vrsta provjere';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registracija &mdash; nova prijava računa';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'sadržaj &mdash; objava ili privatna poruka';
+$lang['SPAM_LOG_DECISION'] = 'Odluka';
+$lang['SPAM_LOG_PROVIDER'] = 'Pružatelj usluge';
 $lang['SPAM_LOG_REASON'] = 'Razlog';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Vrijeme (ms)';
 $lang['SPAM_LOG_ALL'] = 'Sve';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detalji';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Nema zapisa u dnevniku neželjene pošte';
+$lang['SPAM_LOG_TOTAL'] = 'Ukupan broj zapisa';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Odbijeno';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderirano';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Prebaci tamni način';

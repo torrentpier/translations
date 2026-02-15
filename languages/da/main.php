@@ -290,7 +290,7 @@ $lang['ANONYMOUS_TOPIC'] = 'Opret emne anonymt';
 $lang['ANONYMOUS_REPLY'] = 'Svar anonymt';
 $lang['HIDE_AUTHORSHIP'] = 'Opret anonymt som standard';
 $lang['HIDE_AUTHORSHIP_EXPLAIN'] = 'Når aktiveret, vil nye indlæg som standard være i anonym tilstand. Du kan skifte dette for hvert indlæg.';
-$lang['ALLOW_ANONYMOUS_POSTING'] = 'Tillad anonym indlæg';
+$lang['ALLOW_ANONYMOUS_POSTING'] = 'Tillad anonyme indlæg';
 $lang['ANONYMOUS_POST_LABEL'] = 'Indsendt anonymt';
 $lang['POSTED_ANONYMOUSLY'] = 'indsendt anonymt';
 $lang['ANONYMOUS_ADMIN_NOTICE'] = 'Administratorer og moderatorer kan se den virkelige forfatter';
@@ -2315,26 +2315,26 @@ $lang['RELEASER_STAT'] = 'Releaser stats:';
 $lang['RELEASER_STAT_SHOW'] = 'Vis stats';
 
 // Spam protection
-$lang['REGISTRATION_DENIED'] = 'Registration denied. Please contact the administrator if you believe this is an error.';
-$lang['POST_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be posted.';
-$lang['PM_SPAM_DENIED'] = 'Your message has been identified as spam and cannot be sent.';
+$lang['REGISTRATION_DENIED'] = 'Registrering afvist. Kontakt venligst administrator, hvis du mener, dette er en fejl.';
+$lang['POST_SPAM_DENIED'] = 'Din besked er blevet identificeret som spam og kan ikke blive sendt.';
+$lang['PM_SPAM_DENIED'] = 'Din besked er blevet identificeret som spam og kan ikke blive afsendt.';
 
 // Spam log (admin)
-$lang['SPAM_LOG'] = 'Spam Log';
-$lang['SPAM_LOG_DESC'] = 'This log records all registration attempts and content submissions that were flagged by the spam protection system. <b>Denied</b> &mdash; the action was completely blocked (registration rejected, post/PM not sent). <b>Moderated</b> &mdash; for registrations, the account was created but requires email activation; for content, the post/PM was allowed through but flagged as suspicious.';
-$lang['SPAM_LOG_CHECK_TYPE'] = 'Check type';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registration &mdash; new account signup';
-$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'content &mdash; post or private message';
-$lang['SPAM_LOG_DECISION'] = 'Decision';
-$lang['SPAM_LOG_PROVIDER'] = 'Provider';
+$lang['SPAM_LOG'] = 'Spam-log';
+$lang['SPAM_LOG_DESC'] = 'Denne log registrerer alle registreringsforsøg og indholdsindsendelser, som blev markeret af spam-beskyttelsessystemet. <b>Nægtet</b> &mdash; handlingen blev fuldstændigt blokeret (registrering afvist, opslag/privat besked ikke sendt). <b>Modereret</b> &mdash; for registreringer blev kontoen oprettet, men kræver e-mail aktivering; for indhold blev opslaget/den private besked tilladt, men markeret som mistænkelig.';
+$lang['SPAM_LOG_CHECK_TYPE'] = 'Kontrollér type';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_REG'] = 'registrering &mdash; ny kontotilmelding';
+$lang['SPAM_LOG_CHECK_TYPE_DESC_CONTENT'] = 'indhold &mdash; opslag eller privat besked';
+$lang['SPAM_LOG_DECISION'] = 'Beslutning';
+$lang['SPAM_LOG_PROVIDER'] = 'Udbyder';
 $lang['SPAM_LOG_REASON'] = 'Årsag';
-$lang['SPAM_LOG_RESPONSE_TIME'] = 'Time (ms)';
+$lang['SPAM_LOG_RESPONSE_TIME'] = 'Tid (ms)';
 $lang['SPAM_LOG_ALL'] = 'Alle';
-$lang['SPAM_LOG_DETAILS'] = 'Details';
-$lang['SPAM_LOG_NO_RECORDS'] = 'No spam log entries found';
-$lang['SPAM_LOG_TOTAL'] = 'Total entries';
-$lang['SPAM_LOG_DENIED_COUNT'] = 'Denied';
-$lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderated';
+$lang['SPAM_LOG_DETAILS'] = 'Detaljer';
+$lang['SPAM_LOG_NO_RECORDS'] = 'Ingen poster i spam-log fundet';
+$lang['SPAM_LOG_TOTAL'] = 'Samlede poster';
+$lang['SPAM_LOG_DENIED_COUNT'] = 'Nægtet';
+$lang['SPAM_LOG_MODERATED_COUNT'] = 'Modereret';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Skift til mørk tilstand';
