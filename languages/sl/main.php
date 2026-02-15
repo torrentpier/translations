@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Zavrnjeno';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderirano';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Tržnica';
 $lang['MODIFICATIONS_LIST'] = 'Spremembe';
 $lang['MODS_VERSION'] = 'Različica';
 $lang['MODS_DOWNLOADS'] = 'Prenosi.';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Ocena';
+$lang['MODS_ACTIONS'] = 'Dejanja';
 $lang['MODS_AUTHOR'] = 'Avtor';
 $lang['MODS_CATEGORY'] = 'Kategorija';
 $lang['MODS_LAST_UPDATED'] = 'Zadnja Posodobitev';
 $lang['MODS_TOTAL'] = 'Skupaj';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Ni najdenih modifikacij.';
+$lang['MODS_INSTALL'] = 'Namesti';
+$lang['MODS_INSTALL_SOON'] = 'Funkcija namestitve bo kmalu na voljo';
+$lang['MODS_ALL_CATEGORIES'] = 'Vse kategorije';
+$lang['MODS_FREE'] = 'Brezplačno';
+$lang['MODS_PAID'] = 'Plačano';
+$lang['MODS_THEMES'] = 'Teme';
+$lang['MODS_LANGPACKS'] = 'Jezikovni paketi';
+$lang['MODS_API_ERROR'] = 'Ni bilo mogoče naložiti modifikacij: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Strežnik za modifikacije je začasno nedosegljiv.';
+$lang['MODS_DESCRIPTION'] = 'Ta stran prikazuje vse vire, objavljene na uradnem forumu TorrentPier. Namestitev z enim klikom bo na voljo v prihodnji posodobitvi — za zdaj uporabite to stran kot razstavo virov.';
+$lang['MODS_REVIEW'] = 'ocena';
+$lang['MODS_REVIEWS'] = 'ocene';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Preklopi temni način';
