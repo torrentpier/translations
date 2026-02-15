@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Отклонено';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Модерировано';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Маркетплейс';
 $lang['MODIFICATIONS_LIST'] = 'Модификации';
 $lang['MODS_VERSION'] = 'Версия';
 $lang['MODS_DOWNLOADS'] = 'Закачки';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Рейтинг';
+$lang['MODS_ACTIONS'] = 'Действия';
 $lang['MODS_AUTHOR'] = 'Автор';
 $lang['MODS_CATEGORY'] = 'Категория';
 $lang['MODS_LAST_UPDATED'] = 'Последнее изменение';
 $lang['MODS_TOTAL'] = 'Всего';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Модификации не найдены.';
+$lang['MODS_INSTALL'] = 'Установить';
+$lang['MODS_INSTALL_SOON'] = 'Функция установки скоро появится';
+$lang['MODS_ALL_CATEGORIES'] = 'Все категории';
+$lang['MODS_FREE'] = 'Бесплатно';
+$lang['MODS_PAID'] = 'Платно';
+$lang['MODS_THEMES'] = 'Темы';
+$lang['MODS_LANGPACKS'] = 'Языковые пакеты';
+$lang['MODS_API_ERROR'] = 'Не удалось загрузить модификации: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Сервер модификаций временно недоступен.';
+$lang['MODS_DESCRIPTION'] = 'На этой странице перечислены все ресурсы, опубликованные на официальном форуме TorrentPier. Установка одним кликом будет доступна в будущем обновлении — пока используйте эту страницу как витрину ресурсов.';
+$lang['MODS_REVIEW'] = 'отзыв';
+$lang['MODS_REVIEWS'] = 'отзыва, отзывов, отзывов, отзывов';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Переключить темный режим';
