@@ -2336,5 +2336,30 @@ $lang['SPAM_LOG_TOTAL'] = 'Postituste koguarv';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Keelatud';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Modereeritud';
 
+// Marketplace / Modifications
+$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MODIFICATIONS_LIST'] = 'Muudatused';
+$lang['MODS_VERSION'] = 'Versioon';
+$lang['MODS_DOWNLOADS'] = 'Allalaid';
+$lang['MODS_RATING'] = 'Rating';
+$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_AUTHOR'] = 'Autor';
+$lang['MODS_CATEGORY'] = 'Kategooria';
+$lang['MODS_LAST_UPDATED'] = 'Viimati uuendatud.';
+$lang['MODS_TOTAL'] = 'Kokku';
+$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
+$lang['MODS_INSTALL'] = 'Install';
+$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
+$lang['MODS_ALL_CATEGORIES'] = 'All categories';
+$lang['MODS_FREE'] = 'Free';
+$lang['MODS_PAID'] = 'Paid';
+$lang['MODS_THEMES'] = 'Themes';
+$lang['MODS_LANGPACKS'] = 'Language Packs';
+$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
+$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
+$lang['MODS_REVIEW'] = 'review';
+$lang['MODS_REVIEWS'] = 'reviews';
+
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Lülita pime režiim';

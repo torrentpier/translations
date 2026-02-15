@@ -2336,5 +2336,30 @@ $lang['SPAM_LOG_TOTAL'] = 'จำนวนรายการทั้งหม�
 $lang['SPAM_LOG_DENIED_COUNT'] = 'ถูกปฏิเสธ';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'ผ่านการตรวจสอบ';
 
+// Marketplace / Modifications
+$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MODIFICATIONS_LIST'] = 'การปรับปรุง';
+$lang['MODS_VERSION'] = 'เวอร์ชัน';
+$lang['MODS_DOWNLOADS'] = 'การดาวน์โหลด';
+$lang['MODS_RATING'] = 'Rating';
+$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_AUTHOR'] = 'ผู้เขียน';
+$lang['MODS_CATEGORY'] = 'หมวดหมู่';
+$lang['MODS_LAST_UPDATED'] = 'เมื่อได้รับการปรับปรุงล่าสุด';
+$lang['MODS_TOTAL'] = 'ทั้งหมด';
+$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
+$lang['MODS_INSTALL'] = 'Install';
+$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
+$lang['MODS_ALL_CATEGORIES'] = 'All categories';
+$lang['MODS_FREE'] = 'Free';
+$lang['MODS_PAID'] = 'Paid';
+$lang['MODS_THEMES'] = 'Themes';
+$lang['MODS_LANGPACKS'] = 'Language Packs';
+$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
+$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
+$lang['MODS_REVIEW'] = 'review';
+$lang['MODS_REVIEWS'] = 'reviews';
+
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'สลับโหมดมืด';
