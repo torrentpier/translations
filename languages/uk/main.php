@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Відхилено';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Модеровано';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Маркетплейс';
 $lang['MODIFICATIONS_LIST'] = 'Модифікації';
 $lang['MODS_VERSION'] = 'Версія';
 $lang['MODS_DOWNLOADS'] = 'Завантаження';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Рейтинг';
+$lang['MODS_ACTIONS'] = 'Дії';
 $lang['MODS_AUTHOR'] = 'Автор';
 $lang['MODS_CATEGORY'] = 'Категорія';
 $lang['MODS_LAST_UPDATED'] = 'Остання зміна';
 $lang['MODS_TOTAL'] = 'Загалом';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Зміни не знайдені.';
+$lang['MODS_INSTALL'] = 'Встановити';
+$lang['MODS_INSTALL_SOON'] = 'Функція встановлення скоро з\'явиться';
+$lang['MODS_ALL_CATEGORIES'] = 'Усі категорії';
+$lang['MODS_FREE'] = 'Безкоштовно';
+$lang['MODS_PAID'] = 'Платно';
+$lang['MODS_THEMES'] = 'Теми';
+$lang['MODS_LANGPACKS'] = 'Пакети мов';
+$lang['MODS_API_ERROR'] = 'Не вдалося завантажити зміни: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Сервер змін тимчасово недоступний.';
+$lang['MODS_DESCRIPTION'] = 'На цій сторінці перелічені всі ресурси, опубліковані на офіційному форумі TorrentPier. Встановлення в один клік з\'явиться в майбутньому оновленні — наразі використовуйте цю сторінку як демонстрацію ресурсів.';
+$lang['MODS_REVIEW'] = 'відгук';
+$lang['MODS_REVIEWS'] = 'відгуки';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Переключити режим темряви';
