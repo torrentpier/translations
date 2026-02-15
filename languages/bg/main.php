@@ -2337,29 +2337,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Отказани';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Модерирани';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Пазар';
 $lang['MODIFICATIONS_LIST'] = 'Промени.';
 $lang['MODS_VERSION'] = 'Версия';
 $lang['MODS_DOWNLOADS'] = 'Сваляне';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Рейтинг';
+$lang['MODS_ACTIONS'] = 'Действия';
 $lang['MODS_AUTHOR'] = 'Авторът';
 $lang['MODS_CATEGORY'] = 'Категория';
 $lang['MODS_LAST_UPDATED'] = 'Последна актуализация.';
 $lang['MODS_TOTAL'] = 'Общи';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Не са намерени модификации.';
+$lang['MODS_INSTALL'] = 'Инсталирай';
+$lang['MODS_INSTALL_SOON'] = 'Функцията за инсталиране ще бъде налична скоро';
+$lang['MODS_ALL_CATEGORIES'] = 'Всички категории';
+$lang['MODS_FREE'] = 'Безплатно';
+$lang['MODS_PAID'] = 'Платено';
+$lang['MODS_THEMES'] = 'Теми';
+$lang['MODS_LANGPACKS'] = 'Езикови пакети';
+$lang['MODS_API_ERROR'] = 'Не може да се заредят модификациите: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Сървърът за модификации временно е недостъпен.';
+$lang['MODS_DESCRIPTION'] = 'Тази страница показва всички ресурси, публикувани във форумa на официалния TorrentPier. Инсталация с един клик ще бъде налична в бъдеща актуализация — за момента използвайте тази страница като изложба на ресурси.';
+$lang['MODS_REVIEW'] = 'отзив';
+$lang['MODS_REVIEWS'] = 'отзива';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Превключване на тъмен режим';
