@@ -2338,29 +2338,29 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Reddedildi';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Modere Edildi';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
+$lang['MARKETPLACE'] = 'Pazar Yeri';
 $lang['MODIFICATIONS_LIST'] = 'Değişiklikler';
 $lang['MODS_VERSION'] = 'Sürüm';
 $lang['MODS_DOWNLOADS'] = 'İndirilenler';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Actions';
+$lang['MODS_RATING'] = 'Değerlendirme';
+$lang['MODS_ACTIONS'] = 'İşlemler';
 $lang['MODS_AUTHOR'] = 'Yazar';
 $lang['MODS_CATEGORY'] = 'Kategori';
 $lang['MODS_LAST_UPDATED'] = 'Son Güncelleme';
 $lang['MODS_TOTAL'] = 'Toplam';
-$lang['MODS_NO_RESOURCES'] = 'No modifications found.';
-$lang['MODS_INSTALL'] = 'Install';
-$lang['MODS_INSTALL_SOON'] = 'Installation feature coming soon';
-$lang['MODS_ALL_CATEGORIES'] = 'All categories';
-$lang['MODS_FREE'] = 'Free';
-$lang['MODS_PAID'] = 'Paid';
-$lang['MODS_THEMES'] = 'Themes';
-$lang['MODS_LANGPACKS'] = 'Language Packs';
-$lang['MODS_API_ERROR'] = 'Could not load modifications: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'The modifications server is temporarily unavailable.';
-$lang['MODS_DESCRIPTION'] = 'This page lists all resources published on the official TorrentPier forum. One-click installation will be available in a future update — for now, use this page as a resource showcase.';
-$lang['MODS_REVIEW'] = 'review';
-$lang['MODS_REVIEWS'] = 'reviews';
+$lang['MODS_NO_RESOURCES'] = 'Hiç değiştirme bulunamadı.';
+$lang['MODS_INSTALL'] = 'Yükle';
+$lang['MODS_INSTALL_SOON'] = 'Yükleme özelliği yakında gelecek';
+$lang['MODS_ALL_CATEGORIES'] = 'Tüm kategoriler';
+$lang['MODS_FREE'] = 'Ücretsiz';
+$lang['MODS_PAID'] = 'Ücretli';
+$lang['MODS_THEMES'] = 'Temalar';
+$lang['MODS_LANGPACKS'] = 'Dil Paketleri';
+$lang['MODS_API_ERROR'] = 'Değişiklikler yüklenemedi: %s';
+$lang['MODS_API_UNAVAILABLE'] = 'Değişiklikler sunucusu geçici olarak kullanılamıyor.';
+$lang['MODS_DESCRIPTION'] = 'Bu sayfa resmi TorrentPier forumunda yayınlanan tüm kaynakları listeler. Tek tıklamayla yükleme gelecekteki bir güncellemede sunulacaktır — şimdilik bu sayfayı bir kaynak vitrin olarak kullanabilirsiniz.';
+$lang['MODS_REVIEW'] = 'inceleme';
+$lang['MODS_REVIEWS'] = 'incelemeler';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Karanlık modu aç/kapat';
