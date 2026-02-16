@@ -2359,7 +2359,7 @@ $lang['MODS_API_ERROR'] = 'Không thể tải các chỉnh sửa: %s';
 $lang['MODS_API_UNAVAILABLE'] = 'Máy chủ chỉnh sửa tạm thời không khả dụng.';
 $lang['MODS_DESCRIPTION'] = 'Trang này liệt kê tất cả tài nguyên được xuất bản trên diễn đàn chính thức của TorrentPier. Tính năng cài đặt chỉ với một lần nhấp sẽ có trong bản cập nhật tương lai — hiện tại, hãy dùng trang này như một nơi trưng bày tài nguyên.';
 $lang['MODS_REVIEW'] = 'đánh giá';
-$lang['MODS_REVIEWS'] = 'đánh giá';
+$lang['MODS_REVIEWS'] = 'các đánh giá';
 
 // Dark mode
 $lang['DARK_MODE_TOGGLE'] = 'Chuyển đổi chế độ tối';
