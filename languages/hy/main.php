@@ -2362,12 +2362,12 @@ $lang['MODS_REVIEW'] = 'քննադատություն';
 $lang['MODS_REVIEWS'] = 'քննադատություններ';
 
 // Two-factor authentication
-$lang['TWO_FACTOR_AUTH'] = ' Երկու մակարդակով վավերացում ';
-$lang['TWO_FACTOR_VERIFICATION'] = ' Երկու մակարդակով վավերացում ';
+$lang['TWO_FACTOR_AUTH'] = 'Երկու մակարդակով վավերացում';
+$lang['TWO_FACTOR_VERIFICATION'] = 'Երկու մակարդակով վավերացում';
 $lang['TWO_FACTOR_SECURITY'] = ' Անվտանգություն ';
-$lang['TWO_FACTOR_AUTH_EXPLAIN'] = ' Կիրառեք լրացուցիչ անվտանգության վարչակարգ՝ օգտագործելով TOTP վավերացնող հավելվածը ';
+$lang['TWO_FACTOR_AUTH_EXPLAIN'] = 'Կիրառեք լրացուցիչ անվտանգության վարչակարգ՝ օգտագործելով TOTP վավերացնող հավելվածը';
 $lang['TWO_FACTOR_ENABLE'] = ' Միացնել 2FA ';
-$lang['TWO_FACTOR_DISABLE'] = ' Լքել 2FA ';
+$lang['TWO_FACTOR_DISABLE'] = 'Անջատել 2FA';
 $lang['TWO_FACTOR_ENABLED'] = 'Ներառված է';
 $lang['TWO_FACTOR_DISABLED'] = 'Անջատված';
 $lang['TWO_FACTOR_SETUP'] = ' Կարգավորել երկու մակարդակով վավերացումը ';
@@ -2407,7 +2407,7 @@ $lang['TWO_FACTOR_ADMIN_DISABLE'] = ' Անջատել օգտագործողի 2FA 
 $lang['TWO_FACTOR_ADMIN_DISABLE_CONFIRM'] = 'Դուք վստահ կամո՞ւց եք, որ ցանկանում եք անջատել երկու փուլով հաստատումը այս օգտագործողի համար։';
 $lang['TWO_FACTOR_TOO_MANY_ATTEMPTS'] = ' Շատ անհաջող փորձեր: Խնդրում ենք փորձել կրկին %d րոպեից։';
 $lang['TWO_FACTOR_INVALID_TOKEN'] = 'Չսահմանված կամ ժամկետանց տոկեն։';
-$lang['TWO_FACTOR_DONE'] = ' Քարտուղար ';
+$lang['TWO_FACTOR_DONE'] = 'Քարտուղար';
 $lang['TWO_FACTOR_RECOVERY_ONETIME'] = 'Այս էջը կարելի է դիտել միայն մեկ անգամ։ Եթե դուրս գաք, այլևս չեք տեսնելու այս կոդերը։';
 $lang['TWO_FACTOR_ADMIN_DISABLE_SELF'] = 'Դուք չեք կարող անջատել ձեր իսկ երկու փուլով հաստատումը ադմին պանելից։ Օգտագործեք ձեր պրոֆիլում կարգավորումները։';
 
