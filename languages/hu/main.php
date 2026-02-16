@@ -2338,7 +2338,7 @@ $lang['SPAM_LOG_DENIED_COUNT'] = 'Megtagadva';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Mérsékelt';
 
 // Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Piachelyzet';
+$lang['MARKETPLACE'] = 'Piac';
 $lang['MODIFICATIONS_LIST'] = 'Módosítások';
 $lang['MODS_VERSION'] = 'Verzió';
 $lang['MODS_DOWNLOADS'] = 'Letöltések';
