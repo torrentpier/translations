@@ -160,8 +160,8 @@ $lang['LOGOUT'] = 'Chiqish';
 $lang['CONFIRM_LOGOUT'] = 'Chiqishni xohlayotganingizga ishonchingiz komilmi?';
 
 $lang['FORGOTTEN_PASSWORD'] = 'Parolni unutdingizmi?';
-$lang['AUTO_LOGIN'] = 'Meni eslab qol.';
-$lang['ERROR_LOGIN'] = 'Taqdim etilgan foydalanuvchi nomi noto\'g\'ri yoki yaroqsiz, yoki parol yaroqsiz.';
+$lang['AUTO_LOGIN'] = 'Log me in automatically';
+$lang['ERROR_LOGIN'] = 'The username or password you entered is incorrect.';
 $lang['REMEMBER'] = 'eslab';
 $lang['USER_WELCOME'] = 'Xush kelibsiz,';
 
@@ -228,7 +228,7 @@ $lang['WROTE'] = 'Yoza.'; // proceeds the username and is followed by the quoted
 $lang['QUOTE'] = 'Iqtibos.'; // comes before bbcode quote output
 $lang['CODE'] = 'Kod.'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'Maxfiy matn.';
-$lang['SPOILER_CLOSE'] = 'Burin.';
+$lang['SPOILER_CLOSE'] = 'close';
 $lang['PLAY_ON_CURPAGE'] = 'Joriy sahifada o\'ynashga boshlash.';
 
 $lang['EDITED_TIME_TOTAL'] = 'Oxirgi tahrir qilgan <b>%s</b> %s da; jami %d marta tahrir qilindi'; // Last edited by me on 12 Oct 2001; edited 1 time in total
@@ -271,11 +271,11 @@ $lang['POST_TOPIC_AS'] = 'Mavzuni deb post qiling.';
 $lang['EDIT_POST'] = 'Postni tahrir qilish.';
 $lang['EDIT_TOPIC_TITLE'] = 'Mavzu nomini tahrir qiling.';
 
-$lang['DONT_MESSAGE_TITLE'] = 'Xabar sarlavhasini belgilashingiz kerak.';
-$lang['INVALID_TOPIC_ID'] = 'Mavzu mavjud emas!';
+$lang['DONT_MESSAGE_TITLE'] = 'You must specify a message title';
+$lang['INVALID_TOPIC_ID'] = 'Topic not found!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Mavzu ma\'lumotlar bazasida mavjud emas!';
 
-$lang['NOT_EDIT_TOR_STATUS'] = 'Siz holati bilan ozod qilishni o\'zgartira olmaysiz.';
+$lang['NOT_EDIT_TOR_STATUS'] = 'You cannot edit release with this status';
 
 $lang['OPTIONS'] = 'Tanlovlar';
 
@@ -326,7 +326,7 @@ $lang['UPDATE'] = 'yangilash';
 $lang['DAYS'] = 'kun';
 $lang['DELETE_POLL'] = 'so\'rovnomani o\'chirish';
 
-$lang['MAX_SMILIES_PER_POST'] = 'Emotikonlar limitidan %s emotikonlar oshib ketdi.';
+$lang['MAX_SMILIES_PER_POST'] = 'Emoticon limit of %s exceeded.';
 
 $lang['NOTIFY'] = 'Javoblar bo\'lsa, meni xabardor qil';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Robotlarga bu mavzuni indeksatsiya qilishga ruxsat berish';
@@ -418,7 +418,7 @@ $lang['SELECT_USERNAME'] = 'Foydalanuvchi nomini tanlang.';
 $lang['NO_MATCH'] = 'Hech narsa topilmadi.';
 
 $lang['NO_PM_ID'] = 'Post ID ko\'rsating.';
-$lang['NO_SUCH_FOLDER'] = 'Jild topilmadi.';
+$lang['NO_SUCH_FOLDER'] = 'Folder not found';
 
 $lang['MARK_ALL'] = 'Barchani belgilash.';
 $lang['UNMARK_ALL'] = 'Barchasini belgilashni bekor qiling';
@@ -466,7 +466,7 @@ $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Hisobingiz hozirda faol emas, shuning uchun
 $lang['NO_SEND_ACCOUNT'] = 'Kechirasiz, lekin parolni qaytarib olish imkoni yo\'q. Qo\'shimcha ma\'lumot uchun forum administratoriga murojaat qiling';
 
 $lang['HIDE_PORN_FORUMS'] = '18+ mazmunini yashirish';
-$lang['ADD_RETRACKER'] = 'Torrent fayllariga retracker qo\'shish';
+$lang['ADD_RETRACKER'] = 'Add retracker to torrent files';
 $lang['ALWAYS_NOTIFY'] = 'Har doim, menga javob yuborish';
 $lang['ALWAYS_NOTIFY_EXPLAIN'] = 'siz post qilgan mavzuda kimdir javob bersa, elektron pochta jo\'natadi. Bu har qanday joyda post qilganingizda o\'zgartirilishi mumkin.';
 
@@ -484,7 +484,7 @@ $lang['HAPPY_BIRTHDAY'] = 'Tug\'ilgan kuning bilan!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Tug\'ilgan kun format noto\'g\'ri kiritilgan.';
 $lang['AGE'] = 'yosh';
 $lang['BIRTHDAY_TO_HIGH'] = 'Kechirasiz, bu sayt %d yoshdan katta foydalanuvchilarni qabul qilmaydi';
-$lang['BIRTHDAY_TO_LOW'] = 'Kechirasiz, bu sayt %d yoshdan kichik foydalanuvchilarni qabul qilmaydi';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept users younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Bugun tug\'ilgan foydalanuvchilar: ';
 $lang['BIRTHDAY_WEEK'] = 'Keyingi %d kun ichida tug\'ilgan foydalanuvchilar: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Ya’ni, yaqin kelajakda tug\'ilgan foydalanuvchilar yo\'q %d kunlar.'; // %d is substituted with the number of days
@@ -499,10 +499,10 @@ $lang['TIMEZONE'] = 'Vaqt zonasi';
 $lang['DATE_FORMAT_EXPLAIN'] = 'ishlatiladigan sintaktik PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date () </a> funktsiyasi bilan bir xil bo\'ladi.';
 $lang['SIGNATURE'] = 'Imzolar';
 $lang['SIGNATURE_EXPLAIN'] = 'Bu siz kiritgan xabarlarga qo\'shiladigan matnlarni qo\'shishingiz mumkin. %d belgiga cheklov bor.';
-$lang['SIGNATURE_DISABLE'] = 'Forum qoidalari buzilganligi sababli imzo o\'chirilgan.';
+$lang['SIGNATURE_DISABLE'] = 'Signature disabled due to forum rule violation';
 $lang['PUBLIC_VIEW_EMAIL'] = 'Mening profilimda e-mail manzilini ko\'rsatish.';
 
-$lang['EMAIL_EXPLAIN'] = 'Bu manzilda siz ro\'yxatdan o\'tish uchun to\'ldirishingiz kerak.';
+$lang['EMAIL_EXPLAIN'] = 'A verification email will be sent to this address to complete your registration';
 
 $lang['CURRENT_PASSWORD'] = 'Hozirgi maxfiy so\'zi';
 $lang['NEW_PASSWORD'] = 'Yangi parol';
@@ -513,12 +513,12 @@ $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Agar siz uni o\'zgartirishdan keyin paro
 
 $lang['AUTOLOGIN'] = 'Avtomatik';
 $lang['RESET_AUTOLOGIN'] = 'Avtomatik asosiyni qayta tiklash.';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'Avtomatik kirish o\'chirilishi mumkin bo\'lgan joylar, siz forumni yoqganingizdan boshlab.';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'this will log you out of all devices where auto-login is enabled';
 
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Xabarlaringizda tafsilotlaringiz ostida kichik grafik tasvirni ko\'rsatadi. Faqat bitta tasvir bir vaqtning o\'zida ko\'rsatilishi mumkin, kengligi %d pikseldan oshmasligi, balandligi %d pikseldan oshmasligi va fayl hajmi %s dan oshmasligi kerak.';
 $lang['AVATAR_DELETE'] = 'Foydalanuvchining avatarini o\'chirish';
-$lang['AVATAR_DISABLE'] = 'Avatarni o\'chirish, buzilgan <a href="%s"><b>forum qoidalari</b></a> uchun nazorat variant.';
+$lang['AVATAR_DISABLE'] = 'Avatar upload disabled due to a violation of <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Avatarni yuklash';
 $lang['RETURN_PROFILE'] = 'Profilga qaytish';
 $lang['DELETE_IMAGE'] = 'Tasvirni o\'chirish';
@@ -535,8 +535,8 @@ $lang['PASSWORD_LONG'] = 'Sizning parolingiz %d belgidan ko\'proq va %d belgidan
 $lang['USERNAME_TAKEN'] = 'Kechirasiz, lekin bu foydalanuvchi nomi allaqachon qabul qilingan.';
 $lang['USERNAME_INVALID'] = 'Kechirasiz, lekin bu foydalanuvchi nomi yaroqsiz belgi o\'z ichiga olishi mumkin.';
 $lang['USERNAME_DISALLOWED'] = 'Kechirasiz, lekin bu foydalanuvchi nomi taqiqlangan.';
-$lang['USERNAME_TOO_LONG'] = 'Sizning ismingiz juda uzun.';
-$lang['USERNAME_TOO_SMALL'] = 'Ismingiz juda qisqa.';
+$lang['USERNAME_TOO_LONG'] = 'Your username is too long.';
+$lang['USERNAME_TOO_SMALL'] = 'Your username is too short.';
 $lang['EMAIL_TAKEN'] = 'Kechirasiz, lekin bu e-mail manzili allaqachon bir foydalanuvchi ro\'yxatdan o\'tgan.';
 $lang['EMAIL_INVALID'] = 'Kechirasiz, lekin bu e-mail manzil noto\'g\'ri.';
 $lang['EMAIL_TOO_LONG'] = 'Sizning e-mail manzilingiz juda uzun.';
@@ -591,8 +591,8 @@ $lang['THANK_TOPIC'] = 'Bu mavzuga ovoz bering';
 $lang['THANKS_GRATITUDE'] = 'Biz sizning minnatdorchiligingizni qadrlaymiz';
 $lang['LAST_LIKES'] = 'Oxirgi ovozlar';
 $lang['LIKE_OWN_POST'] = 'Siz o\'zingizning mavzuingizga ovoz bera olmaysiz';
-$lang['NO_LIKES'] = 'Hali hech kim ovoz bermadi';
-$lang['LIKE_ALREADY'] = 'Siz allaqachon bu mavzuga ovoz berdingiz';
+$lang['NO_LIKES'] = 'Nobody has voted yet';
+$lang['LIKE_ALREADY'] = 'You have already voted for this topic';
 
 // Invites
 $lang['INVITE_CODE'] = 'Taklif kodi';
@@ -638,7 +638,7 @@ $lang['NO_GROUP_ID_SPECIFIED'] = 'Guruh ID ko\'rsatilmagan.';
 $lang['NO_GROUP_MEMBERS'] = 'Bu guruhning a\'zolari yo\'q';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Bu guruh yashirin; uning a\'zoligini ko\'rish mumkin emas.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Bu guruhda hech qanday navbatdagi a\'zolar yo\'q.';
-$lang['GROUP_JOINED'] = 'Siz muvaffaqiyatli ushbu guruhga obuna bo\'ldingiz.<br />Ushbu obuna guruhi moderatori tomonidan tasdiqlanganda sizga xabar beriladi.';
+$lang['GROUP_JOINED'] = 'You have successfully applied to join this group.<br />You will be notified when your membership is approved by the group moderator.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Siz allaqachon bu guruh a\'zosi';
 $lang['USER_IS_MEMBER_GROUP'] = '%s bu guruhning a\'zosi';
 $lang['USER_IS_MOD_GROUP'] = '%s bu guruhda moderator';
@@ -804,7 +804,7 @@ $lang['SAMPLE_RATE'] = 'Namuna tezligi: <b>%s</b>';
 $lang['AUDIO_TRACK'] = 'Muzlatish trek haqida ma\'lumot (%d):';
 $lang['AUDIO_CODEC'] = 'Muzlatish kodek: <b title="%s">%s</b>';
 $lang['VIDEO_CODEC'] = 'Video kodek: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Fayl haqida ko\'proq ma\'lumot ko\'rsatish';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about this file';
 $lang['DOWNLOAD_M3U_FILE'] = '.m3u faylini yuklab oling';
 $lang['PLAYBACK_M3U'] = '.m3u faylini ijro eting';
 $lang['COPY_STREAM_LINK'] = 'Oqim havolasini clipboard\'ga nusxalash';
@@ -836,7 +836,7 @@ $lang['BT_REG_YES'] = 'Ro\'yxatdan o\'tilgan.';
 $lang['BT_REG_NO'] = 'Ro\'yxatdan o\'tmagan.';
 $lang['BT_REG_ON_TRACKER'] = 'Izohda ro\'yxatdan o\'ting.';
 $lang['BT_REG_FAIL'] = 'Boshqa ro\'yxatga qo\'shilgan torrent.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Ushbu info_hash allaqachon <a href="%s"><b>ro\'yxatga olingan</b></a> boshqa torrent.';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Another torrent with the same info_hash is already <a href="%s"><b>registered</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-faqat torrents hozirda administrator tomonidan o\'chirildi, ruxsat etilgan: v2 va gibridlar';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-faqat torrents hozirda administrator tomonidan o\'chirildi, ruxsat etilgan: v1 va gibridlar';
 $lang['BT_FLIST'] = 'Fayllar ro\'yxati';
@@ -877,15 +877,15 @@ $lang['MAGNET_v2'] = 'Magnit-ulanish (BitTorrent v2 qo\'llab-quvvatlanadi)';
 //torrent status mod
 $lang['TOR_STATUS'] = 'holat';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'holatini tanlang';
-$lang['TOR_STATUS_NOT_SELECT'] = 'Siz holatni tanlamadingiz.';
+$lang['TOR_STATUS_NOT_SELECT'] = 'You have not selected a status.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'barcha statuslar';
 $lang['TOR_STATUS_FORBIDDEN'] = 'Ushbu mavzuning holati: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'tekshirilmaydi',
     TOR_CLOSED => 'yopiq',
     TOR_APPROVED => 'tekshiriladi',
-    TOR_NEED_EDIT => 'qadar rasmiy emas',
-    TOR_NO_DESC => 'rasmiy emas',
+    TOR_NEED_EDIT => 'needs editing',
+    TOR_NO_DESC => 'incomplete',
     TOR_DUP => 'takroriy',
     TOR_CLOSED_CPHOLD => 'yopiq (mualliflik)',
     TOR_CONSUMED => 'soriladi',
@@ -895,28 +895,28 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_PREMOD => 'pre-moderatsiya',
     TOR_REPLENISH => 'to\'ldirilmoqda',
 ];
-$lang['TOR_STATUS_FAILED'] = 'Bunday holat mavjud emas!';
+$lang['TOR_STATUS_FAILED'] = 'This status does not exist!';
 $lang['TORRENT_FAILED'] = 'Tarqatish topilmadi!';
 $lang['TOR_STATUS_DUB'] = 'Tarqatish shu holatga ega.';
-$lang['TOR_DONT_CHANGE'] = 'Holatni o\'zgartirish mumkin emas!';
+$lang['TOR_DONT_CHANGE'] = 'Change of status cannot be performed!';
 $lang['TOR_STATUS_OF'] = 'Tarqatish maqomi:';
 $lang['TOR_STATUS_CHANGED'] = 'Holat o\'zgardi:';
 $lang['TOR_BACK'] = 'Orqaga';
 $lang['PROCEED'] = 'davom eting';
-$lang['CHANGE_TOR_TYPE'] = 'Muvaffaqiyatli torrentning turini o\'zgartirdingiz.';
+$lang['CHANGE_TOR_TYPE'] = 'Torrent type successfully changed';
 $lang['DEL_TORRENT'] = 'Siz torrentni o\'chirishni istaysizmi?';
 $lang['DEL_MOVE_TORRENT'] = 'Siz o\'chirish va mavzuni ko\'chirishni istaysizmi?';
 $lang['UNEXECUTED_RELEASE'] = 'Sizda tugallanmagan tarqatish bor. Yangi tarqatishni yaratishdan oldin uni tugatishingiz kerak!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'Yangi holat: %s.<br/>Oldingi holat: %s.';
 
 // tor_comment
-$lang['TOR_MOD_TITLE'] = 'Tarqatish maqomini o\'zgartirish - %s';
-$lang['TOR_MOD_MSG'] = "Salom, %s.\n\n[size=14px] [url=%s]Sizning[/url] tarqatishingiz [b]%s[/b] ga o'zgartirildi";
+$lang['TOR_MOD_TITLE'] = 'Distribution status changed – %s';
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nThe status of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
-$lang['TOR_AUTH_TITLE'] = 'Dizayn o\'zgarishlar - %s';
+$lang['TOR_AUTH_TITLE'] = 'Formatting changes requested – %s';
 $lang['TOR_AUTH_MSG'] = "Salom, %s.\n\nSizning tarqatishingiz o'zgartirildi - [url=%s]%s[/url]\n\nIlmoqilab qayta tekshiring.";
 $lang['TOR_AUTH_FIXED'] = 'Belgilangan.';
-$lang['TOR_AUTH_SENT_COMMENT'] = 'Moderatsiyaga yuborilgan .<span class="seed bold">Ma\'lumot. Kutilmoqda.</span>';
+$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The information has been sent to the moderator. Please wait for a response.</span>';
 
 $lang['BT_TOPIC_TITLE'] = 'Mavzu nomi';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Urug \'so\'nggi ko\'rish.';
@@ -935,11 +935,11 @@ $lang['BT_VIEWS'] = 'Ko\'rinishlar';
 $lang['GOLD'] = 'oltin';
 $lang['SILVER'] = 'kumush';
 $lang['SET_GOLD_TORRENT'] = 'oltin qilish';
-$lang['UNSET_GOLD_TORRENT'] = 'Oltinni bekor qiling';
+$lang['UNSET_GOLD_TORRENT'] = 'Remove gold status';
 $lang['SET_SILVER_TORRENT'] = 'kumush qiling';
-$lang['UNSET_SILVER_TORRENT'] = 'Kumushni bekor qiling';
-$lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC hisobga olinmaydi!';
-$lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC qisman hisobga olinadi!';
+$lang['UNSET_SILVER_TORRENT'] = 'Remove silver status';
+$lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC IS NOT COUNTED!';
+$lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC IS PARTIALLY COUNTED!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent turi shunday o\'zgartirildi: %s';
 
 $lang['TORRENT_STATUS'] = 'Boshqarish turi bo\'yicha qidirish';
@@ -949,15 +949,15 @@ $lang['GO_TO_SECTION'] = 'Bo\'limga o\'ting';
 $lang['TORRENTS_FROM'] = 'Xabarlardan.';
 $lang['SHOW_ONLY'] = 'faqat.';
 $lang['SHOW_COLUMN'] = 'Ustunni ko\'rsatish.';
-$lang['SEL_CHAPTERS'] = 'Tanlangan boblar uchun havolalar.';
-$lang['NOT_SEL_CHAPTERS'] = 'Mavzularni tanlamadingiz.';
-$lang['SEL_CHAPTERS_HELP'] = 'Siz maksimal %s qismini tanlashingiz mumkin.';
+$lang['SEL_CHAPTERS'] = 'Link to selected sections';
+$lang['NOT_SEL_CHAPTERS'] = 'You have not selected any topics';
+$lang['SEL_CHAPTERS_HELP'] = 'You can select a maximum of %s sections';
 $lang['HIDE_CONTENTS'] = '{...} mazmunini yashirish';
 $lang['FILTER_BY_NAME'] = 'Nomidan filtr.';
 
 $lang['BT_ONLY_ACTIVE'] = 'faol';
 $lang['BT_ONLY_MY'] = 'Mening chiqarishim.';
-$lang['BT_SEED_EXIST'] = 'Non mashinasi mavjud.';
+$lang['BT_SEED_EXIST'] = 'Seeder exists';
 $lang['BT_ONLY_NEW'] = 'Oxirgi tashrifda yangi.';
 $lang['BT_SHOW_CAT'] = 'kategoriya';
 $lang['BT_SHOW_FORUM'] = 'Forum';
@@ -992,7 +992,7 @@ $lang['DL_LIST_DEL'] = 'Aniq DL-ro\'yxati.';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Bu mavzu uchun DL-ro\'yxatini o\'chirish.';
 $lang['SHOW_DL_LIST'] = 'DL-List';
 $lang['SET_DL_STATUS'] = 'Yuklash';
-$lang['UNSET_DL_STATUS'] = 'Download emas.';
+$lang['UNSET_DL_STATUS'] = 'Not downloading';
 $lang['TOPICS_DOWN_SETS'] = 'Mavzu holati <b>Download</b> bo\'ldi.';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Download</b> holati olib tashlandi.';
 
@@ -1012,7 +1012,7 @@ $lang['OPEN_TOPIC'] = 'ochiq mavzu';
 
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'bu forumda torrent ro\'yxatdan bo\'lmadi';
 $lang['ALREADY_REG'] = 'torrent allaqachon ro\'yxatdan o\'tgan';
-$lang['NOT_TORRENT'] = 'Bu fayl torrent emas';
+$lang['NOT_TORRENT'] = 'This file is not a torrent';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profili';
 $lang['CUR_ACTIVE_DLS'] = 'foydalanuvchining barcha yuklamalari';
 
@@ -1025,21 +1025,21 @@ $lang['MAX_SPEED'] = 'tezlik';
 $lang['DOWNLOADED'] = 'Yuklandi';
 $lang['UPLOADED'] = 'Yukladi';
 $lang['RELEASED'] = 'ozod';
-$lang['BONUS'] = 'nodir to\'g\'risida';
-$lang['IT_WILL_BE_DOWN'] = 'bu yuklab olinishi keyin ko\'rib chiqiladi';
+$lang['BONUS'] = 'Bonus';
+$lang['IT_WILL_BE_DOWN'] = 'will be counted once downloaded';
 $lang['SPMODE_FULL'] = 'to\'liq batafsil tengdoshlarni ko\'rsatish';
 
 // Seed Bonus
-$lang['MY_BONUS'] = 'mending bonus (%s bonuslar omborida)';
+$lang['MY_BONUS'] = 'My bonus (%s points available)';
 $lang['BONUS_SELECT'] = 'tanlang';
 $lang['SEED_BONUS'] = 'Urug \'bonus.';
 $lang['EXCHANGE'] = 'ayirboshlash';
-$lang['EXCHANGE_BONUS'] = 'urug \'bonuslar birjasi';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s tarqatishga</b> <br /> Bonus ballarini %1$s trafik uchun almashish, bu sizning tarqatish umumiyiga qo\'shiladi.';
+$lang['EXCHANGE_BONUS'] = 'Seed bonus exchange';
+$lang['BONUS_UPLOAD_DESC'] = '<b>+%s upload credit</b> <br /> Exchange bonus points for %1$s of upload traffic added to your account total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'narx';
-$lang['EXCHANGE_NOT'] = 'almashish mavjud emas.';
-$lang['BONUS_SUCCES'] = 'siz uchun muvaffaqiyatli %s sanab bo\'ladi.';
+$lang['EXCHANGE_NOT'] = 'Exchange is not available';
+$lang['BONUS_SUCCES'] = '%s has been successfully credited to your account';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">Sizda mavjud bonuslar yo\'q. Ko\'proq ekish!</span>.';
 $lang['BONUS_RETURN'] = 'urug \'bonus almashishiga qaytish.';
 
@@ -1047,21 +1047,21 @@ $lang['TRACKER'] = 'Kuzatishdan';
 $lang['RANDOM_RELEASE'] = 'Tasodifiy reliz';
 $lang['OPEN_TOPICS'] = 'ochiq mavzu';
 $lang['OPEN_IN_SAME_WINDOW'] = 'shu oynada ochish';
-$lang['SHOW_TIME_TOPICS'] = 'yaratuvchi mavzular vaqti ko\'rsatadi.';
+$lang['SHOW_TIME_TOPICS'] = 'show topic creation time';
 $lang['SHOW_CURSOR'] = 'Kursordan ostida qatorni ta\'kidlash.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = 'nisbati bilan <b>%s</b> siz torrentlarni yuklab ololmaysiz.';
-$lang['BT_RATIO_WARNING_MSG'] = 'Sizning nisbatingiz %s ga tushib qolsangiz, sizga torrentlarni yuklab olish imkoningiz bo\'lmaydi! <a href="%s"><b>Raqamlar haqida ko\'proq.</b></a>.';
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Your ratio of <b>%s</b> is too low to download torrents';
+$lang['BT_RATIO_WARNING_MSG'] = 'If your ratio falls below %s, you will not be able to download torrents! <a href="%s"><b>More about ratio.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'ko\'rmagan seeder: <b>%s</b>.';
 
 $lang['NEED_TO_LOGIN_FIRST'] = 'Avval tizimga kirishingiz kerak';
-$lang['ONLY_FOR_MOD'] = 'faqat moderatorlar uchun bu variant.';
-$lang['ONLY_FOR_ADMIN'] = 'faqat adminlar uchun bu variant.';
-$lang['ONLY_FOR_SUPER_ADMIN'] = 'faqat super adminlar uchun bu variant.';
+$lang['ONLY_FOR_MOD'] = 'This option is only for moderators';
+$lang['ONLY_FOR_ADMIN'] = 'This option is only for admins';
+$lang['ONLY_FOR_SUPER_ADMIN'] = 'This option is only for super admins';
 
 $lang['LOGS'] = 'Mavzu tarixi';
-$lang['FORUM_LOGS'] = 'Tarix Forum';
+$lang['FORUM_LOGS'] = 'Forum History';
 $lang['AUTOCLEAN'] = 'Amerika moli Opsiyonel';
 $lang['DESIGNER'] = 'dizayner';
 
@@ -1163,16 +1163,16 @@ $lang['SWITCH'] = 'Switch.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Oynani oshirish/o\'lchamini o\'zgartirish';
 $lang['EMPTY_TOPIC_ID'] = 'Mavzu identifikatori yo‘q';
 $lang['TOR_NOT_FOUND'] = 'Fayl serverda mavjud emas';
-$lang['ERROR_BUILD'] = 'Ushbu torrent fayl tarkibi saytida kuzatilishi mumkin emas (bu fayllar ro\'yxatini qurish mumkin emas edi)';
+$lang['ERROR_BUILD'] = 'The content of this torrent cannot be displayed (failed to build file list)';
 $lang['TORFILE_INVALID'] = 'Torrent fayli buzuq';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Sayt" faqat http://sitename dan iborat bo\'lishi mumkin.';
 $lang['PROFILE_USER'] = 'Foydalanuvchi profili';
-$lang['GOOD_UPDATE'] = 'muvaffaqiyatli o\'zgartirildi';
+$lang['GOOD_UPDATE'] = 'successfully updated';
 $lang['UCP_DOWNLOADS'] = 'Yuklamalar';
 $lang['HIDE_DOWNLOADS'] = 'Sizning profilingizdagi yuklamalar ro\'yxatini yashirish.';
-$lang['BAN_USER'] = 'Foydalanuvchining oldini olish.';
+$lang['BAN_USER'] = 'User restrictions';
 $lang['USER_NOT_ALLOWED'] = 'Foydalanuvchilar taqiqlangan.';
 $lang['HIDE_AVATARS'] = 'Avatarlarni ko\'rsatish.';
 $lang['SHOW_CAPTION'] = 'Imzoningizni ko\'rsatish.';
@@ -1183,15 +1183,15 @@ $lang['NEW_THREADS'] = 'Yangi Mavzular';
 $lang['PROFILE_NOT_FOUND'] = 'Foydalanuvchi topilmadi';
 
 $lang['USER_DELETE_EXPLAIN'] = 'Ushbu foydalanuvchini o\'chirish.';
-$lang['USER_DELETE_ME'] = 'Kechirasiz, sizning hisobingizni olib tashlash man etilgan!';
-$lang['USER_DELETE_CSV'] = 'Kechirasiz, ushbu hisobni o\'chirishga ruxsat berilmagan!';
+$lang['USER_DELETE_ME'] = 'Sorry, your account cannot be deleted!';
+$lang['USER_DELETE_CSV'] = 'Sorry, this account cannot be deleted!';
 $lang['USER_DELETE_CONFIRM'] = 'Ushbu foydalanuvchini o\'chirishni xohlaysizmi?';
 $lang['USER_DELETED'] = 'Foydalanuvchi muvaffaqiyatli o\'chirildi.';
 $lang['DELETE_USER_ALL_POSTS'] = 'Barcha foydalanuvchilar xabarlarini o\'chirish.';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Bu foydalanuvchidan kelgan barcha xabarlar va mavzularni o\'chirishni xohlaysizmi?';
-$lang['DELETE_USER_POSTS'] = 'Birinchi postlardan tashqari, barcha xabarlarni o\'chirish';
+$lang['DELETE_USER_POSTS'] = 'Delete all posts except the first post in each topic';
 $lang['DELETE_USER_POSTS_ME'] = 'Mening barcha postlarimni o\'chirishni xohlaysizmi?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Birinchi postlardan tashqari, barcha xabarlarni o\'chirmoqchimisiz?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all posts except the first post in each topic?';
 $lang['USER_DELETED_POSTS'] = 'Xabarlar muvaffaqiyatli olib tashlandi';
 
 $lang['USER'] = 'foydalanuvchi';
@@ -1199,21 +1199,21 @@ $lang['ROLE'] = 'Rol:';
 $lang['MEMBERSHIP_IN'] = 'A\'zo.';
 $lang['PARTY'] = 'Partiyaga.';
 $lang['CANDIDATE'] = 'Nomzod:';
-$lang['INDIVIDUAL'] = 'shaxsiy huquqlarga ega';
+$lang['INDIVIDUAL'] = 'Has individual rights';
 $lang['GROUP_LIST_HIDDEN'] = 'Maxfiy guruhlar ko\'rish uchun huquqingiz yo\'q';
 
 $lang['USER_ACTIVATE'] = 'faollashtirish';
 $lang['USER_DEACTIVATE'] = 'o\'chirish';
 $lang['DEACTIVATE_CONFIRM'] = 'Ushbu foydalanuvchini o\'chirishni xohlaysizmi?';
 $lang['USER_ACTIVATE_ON'] = 'Foydalanuvchi muvaffaqiyatli faollashtirildi.';
-$lang['USER_DEACTIVATE_ME'] = 'Sizning hisobingizni o\'chirishga ruxsat berilmaydi!';
-$lang['ACTIVATE_CONFIRM'] = 'Ushbu foydalanuvchini o\'chirishni xohlaysizmi?';
+$lang['USER_DEACTIVATE_ME'] = 'You cannot deactivate your own account!';
+$lang['ACTIVATE_CONFIRM'] = 'Are you sure you want to activate this user?';
 $lang['USER_ACTIVATE_OFF'] = 'Foydalanuvchi muvaffaqiyatli o\'chirilgan.';
 
 // Register
-$lang['CHOOSE_A_NAME'] = 'Siz nomini tanlash kerak';
-$lang['CHOOSE_E_MAIL'] = 'E-pochta belgilanishi kerak.';
-$lang['CHOOSE_PASS'] = 'parol uchun maydon bo\'sh bo\'lmasligi kerak!';
+$lang['CHOOSE_A_NAME'] = 'Please choose a username';
+$lang['CHOOSE_E_MAIL'] = 'You must provide an email address';
+$lang['CHOOSE_PASS'] = 'The password field must not be empty!';
 $lang['CHOOSE_PASS_ERR'] = 'Kiritilgan parollar mos emas.';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Parol kamida %d belgilar bo\'lishi kerak';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'Sizning parolingiz %d belgidan oshmasligi kerak';
@@ -1224,7 +1224,7 @@ $lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Parol kamida bitta maxsus belgi o\'z ich
 $lang['CHOOSE_PASS_OK'] = 'Parollar mos keladi.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Parollar mos keladi, ro\'yxatdan o\'xshash.';
 $lang['CHOOSE_PASS_FAILED'] = 'Parolni o\'zgartirish uchun, joriy parol to\'g\'ri belgilanishi kerak.';
-$lang['EMAILER_DISABLED'] = 'Kechirasiz, bu xususiyat vaqtincha ishlamayapti.';
+$lang['EMAILER_DISABLED'] = 'Sorry, this feature is temporarily unavailable';
 $lang['REGISTERED_IN_TIME'] = 'Ro\'yxatdan o\'tish hozirda yopiq<br /><br /> Ro\'yxatdan o\'tish mumkin bo\'lgan vaqt: %s<br /> Hozirgi server vaqti: %s<br /><br /> Noqulayliklar uchun uzr';
 $lang['AUTOCOMPLETE'] = 'Parolni yaratish';
 $lang['YOUR_NEW_PASSWORD'] = 'Sizning yangi parolingiz:';
@@ -1247,8 +1247,8 @@ $lang['HOW_TO_DOWNLOAD'] = 'Qanday yuklab olish?';
 $lang['WHAT_IS_A_TORRENT'] = 'Torent nima?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Reytinglar va cheklovlar.';
 
-$lang['SCREENSHOTS_RULES'] = 'Ekran qoidalarini o\'qing!';
-$lang['AJAX_EDIT_OPEN'] = 'Yo\'q, men bir tez reja ochganman!';
+$lang['SCREENSHOTS_RULES'] = 'Read the screenshot posting rules!';
+$lang['AJAX_EDIT_OPEN'] = 'You already have a quick edit session open!';
 $lang['GO_TO_PAGE'] = 'Sahifasiga o\'tish ...';
 $lang['EDIT'] = 'Tahrirlash.';
 $lang['SAVE'] = 'Saqlash.';
@@ -1256,8 +1256,8 @@ $lang['NEW_WINDOW'] = 'yangi oynada';
 
 // BB Code
 $lang['ALIGN'] = 'Align: ';
-$lang['LEFT'] = 'Chapga';
-$lang['RIGHT'] = 'O\'ngga';
+$lang['LEFT'] = 'Left';
+$lang['RIGHT'] = 'Right';
 $lang['CENTER'] = 'markazli';
 $lang['JUSTIFY'] = 'Kenglikka Moslashtirish';
 $lang['HOR_LINE'] = 'Gorizontal chiziq (Ctrl + 8)';
@@ -1293,7 +1293,7 @@ $lang['OLD'] = 'qari';
 
 // DL-List
 $lang['DL_USER'] = 'Foydalanuvchi nomi';
-$lang['DL_PERCENT'] = 'to\'liq foiz';
+$lang['DL_PERCENT'] = 'Completion %';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL.';
 $lang['DL_UL_SPEED'] = 'UL tezligi';
@@ -1323,12 +1323,12 @@ $lang['EDIT_MY_MESSAGE_LIST'] = 'ro\'yxatni tahrirlash';
 $lang['SELECT_INVERT'] = 'tanlang / teskari';
 $lang['RESTORE_ALL_POSTS'] = 'Barcha postlarni tiklang';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Ro\'yxatdan tanlangan mavzuni o\'chirish';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'O\'chirilgandan keyin <b>butun ro\'yxatni</b> yangilash uchun ko\'rsatilgan allaqachon o\'chirilgan mavzular';
-$lang['DEL_LIST_INFO'] = 'Ro\'yxatdan buyurtmani o\'chirish uchun, har qanday qismining nomlari chap belgini bosing';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'After removal, the <b>full list</b> may still show previously deleted threads until it is refreshed';
+$lang['DEL_LIST_INFO'] = 'To remove an entry from the list, click the icon to the left of any section name';
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Tomosha qilinayotgan mavzular';
-$lang['NO_WATCHED_TOPICS'] = 'Hech qanday mavzuni tomosha qilish yo\'q';
+$lang['NO_WATCHED_TOPICS'] = 'Not watching any topics';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Orqaga Bosh sahifaga';
@@ -1363,7 +1363,7 @@ $lang['WORD_CENSOR'] = 'So\'zlarni senzura qilish';
 $lang['CRON'] = 'Topshiriq Tartib (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Qidiruv indeksini qayta tiklash';
 $lang['FORUM_CONFIG'] = 'Forum parametrlari';
-$lang['ACTIONS_LOG'] = 'Harakatlar bo\'yicha hisobot';
+$lang['ACTIONS_LOG'] = 'Actions log';
 
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'Ma\'lumotlar bazasi migratsiyasi holati';
@@ -1399,7 +1399,7 @@ $lang['CREATE_PROFILE'] = 'Profil yaratish';
 
 $lang['TP_VERSION'] = 'TorrentPier versiyasi';
 $lang['TP_RELEASE_DATE'] = 'Chiqarilgan sana';
-$lang['PHP_INFO'] = 'PHP haqida ma\'lumot';
+$lang['PHP_INFO'] = 'PHP information';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'Admin indeksi qaytish uchun %sBu yerga%s bosing';
 
@@ -1484,7 +1484,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'O\'chirish';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Yopishqoq';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'E\'lon';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Ovoz berish';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'So\'rov yaratish';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Create poll';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Post fayllar';
 $lang['AUTH_DOWNLOAD'] = 'Fayllar yuklash';
 
@@ -1496,7 +1496,7 @@ $lang['APPLY_TO_SUBFORUMS'] = 'Subforumlarga qo\'llash';
 
 $lang['AUTH_UPDATED'] = 'O\'zgartirishlar yangilandi';
 $lang['AUTH_GENERAL_ERROR'] = 'Boshqaruv maqomini yangilash mumkin emas';
-$lang['AUTH_SELF_ERROR'] = 'O\'zingizni administratorlikdan foydalanuvchiga o\'zgartira olmadingiz';
+$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to a user';
 $lang['NO_FORUMS_AVAILABLE'] = 'Forumlar mavjud emas. Iltimos, ruxsatlarni boshqarish uchun avval forumlar yarating.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Foydalanuvchi ruxsatiga qaytish uchun %sBu yerga%s bosing';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Guruh ruxsatiga qaytish uchun %sBu yerga%s bosing';
@@ -1738,7 +1738,7 @@ $lang['CHANGELOG'] = 'O\'zgarishlar ro\'yxati.';
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Ruxsat etilgan kirish urinishlari.';
 $lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'Ruxsat etilgan forumga kirish urinishlari soni.';
 $lang['LOGIN_RESET_TIME'] = 'Kirishni tiklash vaqti.';
-$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Foydalanuvchi ruxsat etilgan kirish urinishlari sonini oshirgandan keyin yana kirish ruxsatini kutishi kerak bo\'lgan vaqt, daqiqalarda.';
+$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Time in minutes the user has to wait before they can log in again after exceeding the allowed number of login attempts.';
 
 // Permissions List
 $lang['PERMISSIONS_LIST'] = 'Ruxsatlar ro\'yxati.';
@@ -1775,23 +1775,23 @@ $lang['SF_NO_PARENT'] = 'Ota-forumi yo\'q.';
 $lang['SYNC'] = 'Sinx.';
 
 // Mods
-$lang['MAX_NEWS_TITLE'] = 'Maks. yangiliklar uzunligi';
+$lang['MAX_NEWS_TITLE'] = 'Max. news title length';
 $lang['NEWS_COUNT'] = 'Qancha yangiliklarni ko\'rsatish';
 $lang['NEWS_FORUM_ID'] = 'Qaysi forumlardan ko\'rsatish<br /> <h6>Bir necha forumlar uchun IDlar vergul bilan ajratilgan holda ko\'rsatilishi kerak. Misol: 1,2,3</h6>';
-$lang['TRACKER_STATS'] = 'Trekker bo\'yicha statistikalar';
-$lang['WHOIS_INFO'] = 'IP manzil haqida ma\'lumot';
-$lang['SHOW_MOD_HOME_PAGE'] = 'Moderatorlar uchun index.php da ko\'rsatish';
+$lang['TRACKER_STATS'] = 'Tracker statistics';
+$lang['WHOIS_INFO'] = 'IP address information';
+$lang['SHOW_MOD_HOME_PAGE'] = 'Show moderators on the homepage (index.php)';
 $lang['SHOW_BOARD_STARTED_INDEX'] = 'index.php da taxtaning boshlanish sanasini ko\'rsatish';
-$lang['PREMOD_HELP'] = 'Bajarilib o\'tgan joyni kamchiliklar bilan birga, avvalgi kelishlar yordamida mazkur joyga muvofiq ravishda joy berilmaydi.';
-$lang['TOR_COMMENT'] = 'Tarqatish holati to\'g\'risida sharh';
-$lang['SEED_BONUS_ADD'] = 'Urug\' bonusini qo\'shish. Foydalanuvchilar tomonidan topshirilgan tarqatishlarni soni va ularga beriladigan bonuslar hajmi (soatda zaryad qilish paytida)';
-$lang['SEED_BONUS_RELEASE'] = 'N-chi tarqatishlarga';
-$lang['SEED_BONUS_POINTS'] = 'Bir soat ichida bonuslar';
-$lang['SEED_BONUS_TOR_SIZE'] = 'Bonus beriladigan eng kichik tarqatish. Agar barcha tarqatishlar uchun bonuslar hisoblanganda, bo\'sh qoldiring.';
-$lang['SEED_BONUS_USER_REGDATA'] = 'Foydalanuvchilar uchun bonuslar kelgan bo\'lsangiz, bonuslar beriladi agar foydalanuvchi Tracker\'ning minimal uzunligi.';
+$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If there are no torrents with status v, #, or T in this section and its subsections, new distributions will automatically receive this status</h6>';
+$lang['TOR_COMMENT'] = '<h4>Comment on the status of a distribution</h4> <h6>The comment allows you to point out errors in the release. If corrections are needed, a response form becomes available to the uploader to fix the release</h6>';
+$lang['SEED_BONUS_ADD'] = '<h4>Seed bonus rules</h4> <h6>Number of torrents being seeded by the user and the corresponding bonus points awarded per hour</h6>';
+$lang['SEED_BONUS_RELEASE'] = 'up to N releases';
+$lang['SEED_BONUS_POINTS'] = 'bonus points per hour';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum torrent size to qualify for bonus points</h4> <h6>Leave blank to award bonuses for all torrents regardless of size.</h6>';
+$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum user account age to qualify for bonus points</h4> <h6>Leave blank to award bonuses to all users regardless of account age.</h6>';
 $lang['SEED_BONUS_WARNING'] = 'DIQQAT! Urug \'Bonuslar o\'sish bo\'yicha tartibda bo\'lishi kerak';
-$lang['SEED_BONUS_EXCHANGE'] = 'Birja Sid Mukofotlarini sozlash.';
-$lang['SEED_BONUS_ROPORTION'] = 'GB ustida bonuslar almashish uchun mosliklarni qo\'shish.';
+$lang['SEED_BONUS_EXCHANGE'] = 'Configuring exchange seed bonuses';
+$lang['SEED_BONUS_ROPORTION'] = 'Exchange rate: bonus points to GB of upload credit';
 
 $lang['ALLOWED'] = 'ruxsat';
 $lang['RETURN_CONFIG'] = '%sKonfiguratsiyaga qaytish%s';
@@ -1815,7 +1815,7 @@ $lang['BT_DISABLE_DHT_EXPL'] = 'Peer Exchange va DHTni o\'chirish (xususiy tarmo
 $lang['BT_PRIVATE_TRACKER'] = 'Ushbu treker xususiy: fayl ro\'yxati (mehmonlar uchun), DHT | PEX o\'chirilgan';
 $lang['BT_PRIVATE_TORRENT'] = 'Ushbu torrentni yaratgan shaxs uni xususiy qildi';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'e\'lon url\'ini tasdiqlang';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'Trakerda faqat ruxsat etilgan URLlarni ro\'yxatdan o\'tkazish.';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'only register allowed URLs on the tracker';
 $lang['BT_REPLACE_ANN_URL'] = 'e\'lon url\'larini almashtiring.';
 $lang['BT_REPLACE_ANN_URL_EXPL'] = 'o\'z .torrent fayllaridagi standart e\'lon url\'ni asl e\'lon url\'ga almashtirish.';
 $lang['BT_DEL_ADDIT_ANN_URLS'] = 'Barcha qo\'shimcha e\'lon URLlarini olib tashlang.';
@@ -1861,7 +1861,7 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'izlovchidan torrentni o\'chirish vaqtid
 // Release
 $lang['TEMPLATE_DISABLE'] = 'o\'chirilgan andoza.';
 $lang['FOR_NEW_TEMPLATE'] = 'yangi naqshlar uchun!';
-$lang['QUESTION'] = 'Harakatni bajarish uchun ishonchingiz komilmi?';
+$lang['QUESTION'] = 'Are you sure you want to perform this action?';
 
 $lang['CRON_LIST'] = 'cron ro\'yxati.';
 $lang['CRON_ID'] = 'ID.';
@@ -1886,7 +1886,7 @@ $lang['CRON_RUN'] = 'yugurish.';
 $lang['CRON_DEL'] = 'o\'chirish.';
 $lang['CRON_DISABLE'] = 'o\'chirib qo\'yish.';
 $lang['CRON_ENABLE'] = 'yoqish.';
-$lang['DELETE_JOB'] = 'Cron ishini o\'chirishga ishonchingiz komilmi?';
+$lang['DELETE_JOB'] = 'Are you sure you want to delete this cron job?';
 $lang['CRON_WORKS'] = 'Cron hozirda ishlamoqda yoki buzilgan -> ';
 $lang['REPAIR_CRON'] = 'Cron ta\'mirlash.';
 
@@ -1901,11 +1901,11 @@ $lang['SCHEDULE'] = [
     'monthly' => 'oylik.',
     'interval' => 'interval.',
 ];
-$lang['NOSELECT'] = 'Hech tanlang.';
+$lang['NOSELECT'] = 'Not selected';
 $lang['RUN_DAY'] = 'ishga tushirish kun.';
-$lang['RUN_DAY_EXPL'] = 'kun, bu ish ishga tushirish.';
+$lang['RUN_DAY_EXPL'] = 'the day this job runs';
 $lang['RUN_TIME'] = 'ishga tushirish vaqti.';
-$lang['RUN_TIME_EXPL'] = 'vaqt, bu ish ishga tushirish (masalan, 05:00:00).';
+$lang['RUN_TIME_EXPL'] = 'the time this job runs (e.g. 05:00:00)';
 $lang['RUN_ORDER'] = 'ishga tushirish tartibi.';
 $lang['LAST_RUN'] = 'Oxirgi ishga tushirish.';
 $lang['NEXT_RUN'] = 'Keyingi ish.';
@@ -1913,7 +1913,7 @@ $lang['RUN_INTERVAL'] = 'ishga tushirish intervali.';
 $lang['RUN_INTERVAL_EXPL'] = 'masalan, 00:10:00.';
 $lang['LOG_ENABLED'] = 'Kirish yoqilgan.';
 $lang['LOG_FILE'] = 'faylni Kirish.';
-$lang['LOG_FILE_EXPL'] = 'jurnalini saqlab uchun fayl.';
+$lang['LOG_FILE_EXPL'] = 'the file to save the log to';
 $lang['LOG_SQL_QUERIES'] = 'SQL so\'rovlarni Kirish.';
 $lang['FORUM_DISABLE'] = 'Kengashni o\'chirish.';
 $lang['BOARD_DISABLE_EXPL'] = 'Bu ish paytida taxtasidan o\'chirish.';
@@ -1933,7 +1933,7 @@ $lang['STARTING_POST_ID'] = 'boshlab post_id';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'Birinchi postda ishlash boshlanadi<br />Siz boshlanishini boshlash yoki oxirgi to\'xtagan quyidagi postdan boshlash uchun tanlov qilishingiz mumkin.';
 
 $lang['START_OPTION_BEGINNING'] = 'boshidan boshlash';
-$lang['START_OPTION_CONTINUE'] = 'O\'tgan to\'xtagan joydan davom etish';
+$lang['START_OPTION_CONTINUE'] = 'continue from where you last stopped';
 
 $lang['CLEAR_SEARCH_TABLES'] = 'Aniq qidiruv jadvallar';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
@@ -1957,7 +1957,7 @@ $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Sizning webserveringizda %s soniya v
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Siz so\'nggi %s kuni post_id da %s (%s qayta xabarlar) ishlash to\'xtadi.';
 $lang['INFO_PROCESSING_ABORTED'] = 'Siz so\'nggi %s da post_id %s (%s qayta xabarlar) da qayta ishlashni tugatgan ekansiz.';
-$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Davom etishdan oldin, bir necha daqiqa kutib turing ...';
+$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Please wait a few minutes before you continue...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Siz muvaffaqiyatli %s ustida ishlash (%s qayta xabarlar) yakunladi';
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Siz muvaffaqiyatli %s ustida ishlash (%s qayta xabarlar) yakunladi post_id da %s,<br />lekin ushbu sanadan keyin %s yangi post(lar) bor edi.';
 
@@ -2005,12 +2005,12 @@ $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Mavzu [b]%s[/b] forumdan [b]%s[/b] foruma ko
 $lang['BOT_MESS_SPLITS'] = 'Mavzu bo\'lingan. Yangi mavzu - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Mavzu [b]%s[/b][br][br]%s dan YARILDI';
 
-$lang['CALLSEED'] = 'Maqsadni so\'rang.';
-$lang['CALLSEED_EXPLAIN'] = 'Tarqatishni qaytaring.';
-$lang['CALLSEED_SUBJECT'] = 'Yuklab yordam %s.';
-$lang['CALLSEED_TEXT'] = 'Assalomu alaykum![br]Yordam zarur: [url=%s]%s[/url][br]Agar yordam berishni xohlasangiz, lekin allaqachon torrent faylga o\'chirib, [url=%s]uni yuklab olishingiz mumkin.[br]Yordamga umid qilaman!';
-$lang['CALLSEED_MSG_OK'] = 'Xabar ushbu ozod yuklab olishganlar.';
-$lang['CALLSEED_MSG_SPAM'] = 'So\'rov allaqachon bir marta muvaffaqiyatli yuborildi. (Ehtimol siz emas)<br /><br />Keyingi imkoniyat - <b>%s</b> da so\'rov yubormoq.';
+$lang['CALLSEED'] = 'Call seeders';
+$lang['CALLSEED_EXPLAIN'] = 'Notify seeders with a request to resume seeding this release';
+$lang['CALLSEED_SUBJECT'] = 'Seeding help needed: %s';
+$lang['CALLSEED_TEXT'] = 'Hello![br]Your help is needed for the release [url=%s]%s[/url][br]If you want to help but have already deleted the torrent file, you can download it [url=%s]here[/url][br][br]Your help would be greatly appreciated!';
+$lang['CALLSEED_MSG_OK'] = 'Request has been sent to everyone who has downloaded this release';
+$lang['CALLSEED_MSG_SPAM'] = 'A request has already been sent recently (possibly not by you).<br /><br />The next request can be sent on <b>%s</b>.';
 $lang['CALLSEED_HAVE_SEED'] = 'Mavzu yordam talab qilmaydi (<b>Seeders:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
@@ -2036,8 +2036,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_post_pin' => 'Post:<br /> <b>o\'rnatilgan</b>',
     'mod_post_unpin' => 'Post:<br /> <b>o\'rnatilmagan</b>',
     'adm_user_delete' => 'Foydalanuvchi: <br /> <b>o\'chirilgan</b>.',
-    'adm_user_ban' => 'Foydalanuvchi: <br /> <b>man</b>.',
-    'adm_user_unban' => 'Foydalanuvchi: <br /> <b>man</b>.',
+    'adm_user_ban' => 'User:<br /> <b>banned</b>',
+    'adm_user_unban' => 'User:<br /> <b>unbanned</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'barcha harakatlar';
@@ -2065,7 +2065,7 @@ $lang['NEW_RELEASE'] = 'Yangi relizlar.';
 $lang['NEXT'] = 'Davom.';
 $lang['ALL'] = 'Hamma';
 
-$lang['TPL_EMPTY_FIELD'] = 'Siz maydonini to\'ldirish kerak <b>%s</b>.';
+$lang['TPL_EMPTY_FIELD'] = 'You must fill in the field <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Siz <b>%s</b> tanlashingiz kerak.';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - raqam emas';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - https:// URL boʻlishi kerak';
@@ -2104,7 +2104,7 @@ $lang['SEARCH_FOR_EMAIL'] = '%s bilan e-mail manzilini izla.';
 $lang['SEARCH_FOR_IP'] = '%s bilan ip manzillarini izlaydi.';
 $lang['SEARCH_FOR_DATE'] = '%s %d/%d/%d dagi foydalanuvchilar qidirilmoqda.';
 $lang['SEARCH_FOR_GROUP'] = '%s guruh a\'zolari qidirilmoqda.';
-$lang['SEARCH_FOR_RANK'] = '%s unvoni qidirilmoqda.';
+$lang['SEARCH_FOR_RANK'] = 'Searching users with rank %s';
 $lang['SEARCH_FOR_BANNED'] = 'man foydalanuvchilarni izlaydi.';
 $lang['SEARCH_FOR_ADMINS'] = 'boshqaruvchilar qidirilmoqda.';
 $lang['SEARCH_FOR_MODS'] = 'Moderatorlar qidirilmoqda.';
@@ -2129,14 +2129,14 @@ $lang['SEARCH_USERNAME_EXPLAIN'] = 'Bu yerda siz foydalanish nomlar uchun belgi 
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'Foydalanuvchi elektron pochta manzilini mos keladigan ifoda kiriting. Bu bo\'yicha katta harf kirmaydi. Agar siz qisman mos keltirmoqchi bo\'lsangiz, * (yulduz) belgini joker sifatida ishlatishingiz kerak.';
 $lang['SEARCH_IP_EXPLAIN'] = 'Belgilangan IP manzil (xxx.xxx.xxx.xxx) foydalanuvchilarni qidirish.';
 $lang['SEARCH_USERS_JOINED'] = 'Qo\'shilgan foydalanuvchilar';
-$lang['SEARCH_USERS_LASTVISITED'] = 'Tashrif buyurgan foydalanuvchilar';
+$lang['SEARCH_USERS_LASTVISITED'] = 'Users who have visited';
 $lang['IN_THE_LAST'] = 'Oxirgi';
 $lang['AFTER_THE_LAST'] = 'O\'tgan keyin';
 $lang['BEFORE'] = 'Oldin';
 $lang['AFTER'] = 'So\'ng';
-$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Aniq sana oldin yoki keyin (va) ishtirok etgan foydalanuvchilarni izlash. Sana formati YYYY/MM/DD.';
+$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Search for users who joined before or after a specific date. The date format is YYYY/MM/DD.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Tanlangan guruhning barcha a\'zolarini ko\'rish.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Tanlangan unvonga ega bo\'lgan barcha tashuvchilarni ko\'rish.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'View all users with the selected rank.';
 $lang['BANNED_USERS'] = 'Ta\'qiqlangan foydalanuvchilar';
 $lang['DISABLED_USERS'] = 'Nogiron foydalanuvchilar';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Administratorlar - Administrator vakolatiga ega barcha foydalanuvchilar; Moderatorlar - barcha forum moderatorlari; Taqiqlangan foydalanuvchilar - ushbu forumlarda taqiqlangan barcha hisoblar; Nogiron foydalanuvchilar - o\'chirilgan hisoblari bo\'lgan barcha foydalanuvchilar (qo\'lda o\'chirilgan yoki elektron pochta manzilini hech qachon tasdiqlamagan); Nogiron PMli foydalanuvchilar - Shaxsiy xabarlar imtiyozlari olib tashlangan foydalanuvchilarni tanlaydi (Foydalanuvchilarni boshqarish orqali amalga oshiriladi)';
@@ -2169,7 +2169,7 @@ $lang['MC_TITLE'] = 'Moderatsiya izohi';
 $lang['MC_LEGEND'] = 'Izoh kiriting.';
 $lang['MC_FAQ'] = 'Kiritilgan matn, ushbu xabar ostida ko\'rsatiladi.';
 $lang['MC_COMMENT_PM_SUBJECT'] = 'Sizning xabarda %s.';
-$lang['MC_COMMENT_PM_MSG'] = "Salom, [b]%s[/b]\nModerator sizning xabaringizda [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote] qoldirdi.";
+$lang['MC_COMMENT_PM_MSG'] = "Hello, [b]%s[/b]\nA moderator has left a comment on your post [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',
