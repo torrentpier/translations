@@ -160,8 +160,8 @@ $lang['LOGOUT'] = 'Log uit';
 $lang['CONFIRM_LOGOUT'] = 'Weet u zeker dat u wilt uitloggen?';
 
 $lang['FORGOTTEN_PASSWORD'] = 'Wachtwoord vergeten?';
-$lang['AUTO_LOGIN'] = 'Log mij automatisch in';
-$lang['ERROR_LOGIN'] = 'De gebruikersnaam of het wachtwoord dat u heeft ingevoerd is onjuist of ongeldig.';
+$lang['AUTO_LOGIN'] = 'Log me in automatically';
+$lang['ERROR_LOGIN'] = 'The username or password you entered is incorrect.';
 $lang['REMEMBER'] = 'Onthouden';
 $lang['USER_WELCOME'] = 'Welkom,';
 
@@ -228,7 +228,7 @@ $lang['WROTE'] = 'schreef'; // proceeds the username and is followed by the quot
 $lang['QUOTE'] = 'Quote'; // comes before bbcode quote output
 $lang['CODE'] = 'Code'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'verborgen tekst';
-$lang['SPOILER_CLOSE'] = 'Draai.';
+$lang['SPOILER_CLOSE'] = 'close';
 $lang['PLAY_ON_CURPAGE'] = 'Begin met spelen op de huidige pagina';
 
 $lang['EDITED_TIME_TOTAL'] = 'Laatst bewerkt door <b>%s</b> op %s; bewerkt %d keer in totaal.'; // Last edited by me on 12 Oct 2001; edited 1 time in total
@@ -271,11 +271,11 @@ $lang['POST_TOPIC_AS'] = 'Bericht onderwerp.';
 $lang['EDIT_POST'] = 'Edit post.';
 $lang['EDIT_TOPIC_TITLE'] = 'Bewerken onderwerp titel.';
 
-$lang['DONT_MESSAGE_TITLE'] = 'U moet opgeven berichttitel.';
-$lang['INVALID_TOPIC_ID'] = 'Onderwerp Afwezig!';
+$lang['DONT_MESSAGE_TITLE'] = 'You must specify a message title';
+$lang['INVALID_TOPIC_ID'] = 'Topic not found!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Onderwerp bestaat niet in de database!';
 
-$lang['NOT_EDIT_TOR_STATUS'] = 'U kunt niet bewerk release met de status.';
+$lang['NOT_EDIT_TOR_STATUS'] = 'You cannot edit release with this status';
 
 $lang['OPTIONS'] = 'Opties';
 
@@ -326,7 +326,7 @@ $lang['UPDATE'] = 'Update';
 $lang['DAYS'] = 'Dagen';
 $lang['DELETE_POLL'] = 'Poll verwijderen';
 
-$lang['MAX_SMILIES_PER_POST'] = 'Limiet van %s emoticons per post overschreden.';
+$lang['MAX_SMILIES_PER_POST'] = 'Emoticon limit of %s exceeded.';
 
 $lang['NOTIFY'] = 'Houd mij op de hoogte over antwoorden';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Sta robots toe deze discussie te indexeren';
@@ -418,7 +418,7 @@ $lang['SELECT_USERNAME'] = 'Selecteer een gebruikersnaam.';
 $lang['NO_MATCH'] = 'Geen overeenkomsten gevonden.';
 
 $lang['NO_PM_ID'] = 'Geef een bericht-ID op.';
-$lang['NO_SUCH_FOLDER'] = 'De map is niet gevonden.';
+$lang['NO_SUCH_FOLDER'] = 'Folder not found';
 
 $lang['MARK_ALL'] = 'Mark allen';
 $lang['UNMARK_ALL'] = 'Uit alle.';
@@ -466,7 +466,7 @@ $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Sorry, maar je wachtwoord kan niet worden o
 $lang['NO_SEND_ACCOUNT'] = 'Sorry, maar uw wachtwoord kan niet worden teruggehaald. Neem contact op met de forumbeheerder voor meer informatie.';
 
 $lang['HIDE_PORN_FORUMS'] = 'Verberg de inhoud 18+';
-$lang['ADD_RETRACKER'] = 'Toevoegen retracker in torrent-bestanden';
+$lang['ADD_RETRACKER'] = 'Add retracker to torrent files';
 $lang['ALWAYS_NOTIFY'] = 'Waarschuw me als er reacties zijn.';
 $lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Stuurt een e-mail wanneer iemand reageert op een onderwerp waar je in gepost hebt. Dit kan worden gewijzigd wanneer u een bericht plaatst.';
 
@@ -484,7 +484,7 @@ $lang['HAPPY_BIRTHDAY'] = 'Gelukkige Verjaardag!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Het format van de verjaardag is verkeerd ingevoerd.';
 $lang['AGE'] = 'Leeftijd';
 $lang['BIRTHDAY_TO_HIGH'] = 'Sorry, deze site accepteert geen gebruikers ouder dan %d jaar';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, deze site accepteert geen gebruikers jonger dan %d jaar';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept users younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'Gebruikers met een verjaardag vandaag: ';
 $lang['BIRTHDAY_WEEK'] = 'Gebruikers met een verjaardag in de volgende %d dagen: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Geen gebruikers hebben een verjaardag in de komende %d dagen.'; // %d is substituted with the number of days
@@ -499,10 +499,10 @@ $lang['TIMEZONE'] = 'Tijdzone';
 $lang['DATE_FORMAT_EXPLAIN'] = 'De syntax die gebruikt wordt is gelijk aan de PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> functie.';
 $lang['SIGNATURE'] = 'Handtekening';
 $lang['SIGNATURE_EXPLAIN'] = 'Dit is een blok tekst dat kan worden toegevoegd aan berichten die je maakt. Er is een limiet van %d tekens.';
-$lang['SIGNATURE_DISABLE'] = 'Afmelden voor schending van de forumregels.';
+$lang['SIGNATURE_DISABLE'] = 'Signature disabled due to forum rule violation';
 $lang['PUBLIC_VIEW_EMAIL'] = 'Toon e-mail adres in mijn profiel';
 
-$lang['EMAIL_EXPLAIN'] = 'Op dit adres ontvangt u een e-mail om de registratie te voltooien.';
+$lang['EMAIL_EXPLAIN'] = 'A verification email will be sent to this address to complete your registration';
 
 $lang['CURRENT_PASSWORD'] = 'Huidige wachtwoord.';
 $lang['NEW_PASSWORD'] = 'Nieuw wachtwoord';
@@ -513,12 +513,12 @@ $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'U hoeft alleen maar uw wachtwoord te bev
 
 $lang['AUTOLOGIN'] = 'Autologin';
 $lang['RESET_AUTOLOGIN'] = 'Reset de autologin-sleutel.';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'Inclusief alle plaatsen die u heeft bezocht waar het forum autologin heeft ingeschakeld.';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'this will log you out of all devices where auto-login is enabled';
 
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Toont een kleine afbeelding onder uw gegevens in berichten. Slechts één afbeelding kan tegelijkertijd worden weergegeven, en de breedte mag niet groter zijn dan %d pixels, de hoogte niet groter dan %d pixels, en de bestandsgrootte niet meer dan %s.';
 $lang['AVATAR_DELETE'] = 'Verwijderen avatar';
-$lang['AVATAR_DISABLE'] = 'Optie voor avatarcontrole uitgeschakeld wegens overtreding van de <a href="%s"><b>forumregels</b></a>';
+$lang['AVATAR_DISABLE'] = 'Avatar upload disabled due to a violation of <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Upload avatar';
 $lang['RETURN_PROFILE'] = 'Terug naar profiel.';
 $lang['DELETE_IMAGE'] = 'Verwijder afbeelding';
@@ -535,8 +535,8 @@ $lang['PASSWORD_LONG'] = 'Je wachtwoord mag niet langer zijn dan %d tekens en ni
 $lang['USERNAME_TAKEN'] = 'Sorry, maar deze gebruikersnaam is al in gebruik.';
 $lang['USERNAME_INVALID'] = 'Sorry, maar deze gebruikersnaam bevat een ongeldig teken';
 $lang['USERNAME_DISALLOWED'] = 'Sorry, maar deze gebruikersnaam is niet toegestaan.';
-$lang['USERNAME_TOO_LONG'] = 'Uw naam is te lang.';
-$lang['USERNAME_TOO_SMALL'] = 'Uw naam is te klein.';
+$lang['USERNAME_TOO_LONG'] = 'Your username is too long.';
+$lang['USERNAME_TOO_SMALL'] = 'Your username is too short.';
 $lang['EMAIL_TAKEN'] = 'Sorry, maar dat e-mail adres is al geregistreerd voor een gebruiker.';
 $lang['EMAIL_INVALID'] = 'Sorry, maar dit e-mail adres is ongeldig.';
 $lang['EMAIL_TOO_LONG'] = 'Uw e-mail is te lang.';
@@ -591,8 +591,8 @@ $lang['THANK_TOPIC'] = 'Stem voor dit onderwerp';
 $lang['THANKS_GRATITUDE'] = 'We waarderen je dankbaarheid';
 $lang['LAST_LIKES'] = 'Laatste stemmen';
 $lang['LIKE_OWN_POST'] = 'Je kunt niet stemmen voor je eigen onderwerp';
-$lang['NO_LIKES'] = 'Niemand heeft nog een stem gegeven';
-$lang['LIKE_ALREADY'] = 'Je hebt al op dit onderwerp gestemd';
+$lang['NO_LIKES'] = 'Nobody has voted yet';
+$lang['LIKE_ALREADY'] = 'You have already voted for this topic';
 
 // Invites
 $lang['INVITE_CODE'] = 'Uitnodigingscode';
@@ -638,7 +638,7 @@ $lang['NO_GROUP_ID_SPECIFIED'] = 'Groep-ID is niet opgegeven.';
 $lang['NO_GROUP_MEMBERS'] = 'Deze groep heeft geen leden';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Deze groep is verborgen; je kunt niet de leden bekijken.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Deze groep heeft geen openstaande leden.';
-$lang['GROUP_JOINED'] = 'U bent succesvol aangemeld voor deze groep.<br />U wordt op de hoogte gesteld wanneer uw aanmelding is goedgekeurd door de groepsmoderator.';
+$lang['GROUP_JOINED'] = 'You have successfully applied to join this group.<br />You will be notified when your membership is approved by the group moderator.';
 $lang['ALREADY_MEMBER_GROUP'] = 'U bent al lid van deze groep.';
 $lang['USER_IS_MEMBER_GROUP'] = '%s is al lid van deze groep';
 $lang['USER_IS_MOD_GROUP'] = '%s is een moderator van deze groep';
@@ -804,7 +804,7 @@ $lang['SAMPLE_RATE'] = 'Monstersnelheid: <b>%s</b>';
 $lang['AUDIO_TRACK'] = 'Informatie over audiotrack (%d):';
 $lang['AUDIO_CODEC'] = 'Audio-codec: <b title="%s">%s</b>';
 $lang['VIDEO_CODEC'] = 'Video-codec: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Meer informatie over bestand weergeven';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about this file';
 $lang['DOWNLOAD_M3U_FILE'] = 'Download .m3u-bestand';
 $lang['PLAYBACK_M3U'] = 'Afspelen .m3u-bestand';
 $lang['COPY_STREAM_LINK'] = 'Kopieer streamlink naar klembord';
@@ -836,7 +836,7 @@ $lang['BT_REG_YES'] = 'Geregistreerd.';
 $lang['BT_REG_NO'] = 'Niet geregistreerd.';
 $lang['BT_REG_ON_TRACKER'] = 'Registreren op de tracker.';
 $lang['BT_REG_FAIL'] = 'Kan torrent niet registreren op de tracker.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Een andere torrent met dezelfde info_hash is al <a href="%s"><b>geregistreerd</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Another torrent with the same info_hash is already <a href="%s"><b>registered</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1-only torrents zijn op dit moment door de administrator uitgeschakeld, toegestaan: v2 en hybriden';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2-only torrents zijn op dit moment door de administrator uitgeschakeld, toegestaan: v1 en hybriden';
 $lang['BT_FLIST'] = 'Bestandenlijst';
@@ -877,15 +877,15 @@ $lang['MAGNET_v2'] = 'Magnet-link (BitTorrent v2 ondersteund)';
 //torrent status mod
 $lang['TOR_STATUS'] = 'Status.';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Selecteer status.';
-$lang['TOR_STATUS_NOT_SELECT'] = 'Je hebt geen status geselecteerd.';
+$lang['TOR_STATUS_NOT_SELECT'] = 'You have not selected a status.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Alle statussen';
 $lang['TOR_STATUS_FORBIDDEN'] = 'De status van dit onderwerp is: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'niet gecontroleerd',
     TOR_CLOSED => 'gesloten',
     TOR_APPROVED => 'gecontroleerd',
-    TOR_NEED_EDIT => 'niet geformaliseerd tot',
-    TOR_NO_DESC => 'niet geformaliseerd',
+    TOR_NEED_EDIT => 'needs editing',
+    TOR_NO_DESC => 'incomplete',
     TOR_DUP => 'duplicaat',
     TOR_CLOSED_CPHOLD => 'gesloten (copyright)',
     TOR_CONSUMED => 'opgenomen',
@@ -895,28 +895,28 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_PREMOD => 'vooraf modereren',
     TOR_REPLENISH => 'aanvullen',
 ];
-$lang['TOR_STATUS_FAILED'] = 'Een dergelijke status bestaat niet!';
+$lang['TOR_STATUS_FAILED'] = 'This status does not exist!';
 $lang['TORRENT_FAILED'] = 'Distributie niet gevonden!';
 $lang['TOR_STATUS_DUB'] = 'De distributie heeft dezelfde status';
-$lang['TOR_DONT_CHANGE'] = 'Verandering van de status kan niet worden uitgevoerd!';
+$lang['TOR_DONT_CHANGE'] = 'Change of status cannot be performed!';
 $lang['TOR_STATUS_OF'] = 'De distributie heeft de status van:';
 $lang['TOR_STATUS_CHANGED'] = 'De status is veranderd: ';
 $lang['TOR_BACK'] = ' terug';
 $lang['PROCEED'] = 'Ga verder';
-$lang['CHANGE_TOR_TYPE'] = 'Typ de torrent succesvol gewijzigd.';
+$lang['CHANGE_TOR_TYPE'] = 'Torrent type successfully changed';
 $lang['DEL_TORRENT'] = 'Weet u zeker dat u de torrent wilt verwijderen?';
 $lang['DEL_MOVE_TORRENT'] = 'Weet u zeker dat u wilt verwijderen en het onderwerp verplaatsen?';
 $lang['UNEXECUTED_RELEASE'] = 'U heeft een onvoltooide release. Voordat u een nieuwe aanmaakt, voltooit u deze alstublieft!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'Nieuwe status: %s.<br/>Vorige status: %s.';
 
 // tor_comment
-$lang['TOR_MOD_TITLE'] = 'Het wijzigen van de status van de distributie - %s';
-$lang['TOR_MOD_MSG'] = "Hallo, %s.\n\nDe status van [url=%s]uw[/url] distributie is gewijzigd naar [b]%s[/b]";
+$lang['TOR_MOD_TITLE'] = 'Distribution status changed – %s';
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nThe status of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
-$lang['TOR_AUTH_TITLE'] = 'Wijzigingen in het ontwerp - %s';
+$lang['TOR_AUTH_TITLE'] = 'Formatting changes requested – %s';
 $lang['TOR_AUTH_MSG'] = "Hallo, %s.\n\nUw distributie is veranderd - [url=%s]%s[/url]\n\nControleer het opnieuw.";
 $lang['TOR_AUTH_FIXED'] = 'Vast.';
-$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">De informatie is naar de moderator gestuurd. Verwachten.</span>';
+$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The information has been sent to the moderator. Please wait for a response.</span>';
 
 $lang['BT_TOPIC_TITLE'] = 'Onderwerpstitel.';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Zaad voor het laatst gezien.';
@@ -935,11 +935,11 @@ $lang['BT_VIEWS'] = 'Uitzicht';
 $lang['GOLD'] = 'Goud';
 $lang['SILVER'] = 'Zilver';
 $lang['SET_GOLD_TORRENT'] = 'Goud maken';
-$lang['UNSET_GOLD_TORRENT'] = 'Maak goud ongedaan.';
+$lang['UNSET_GOLD_TORRENT'] = 'Remove gold status';
 $lang['SET_SILVER_TORRENT'] = 'Zilver maken.';
-$lang['UNSET_SILVER_TORRENT'] = 'Maak zilver ongedaan.';
-$lang['GOLD_STATUS'] = 'GOUD TORRENT! DOWNLOADVERKEER WORDT NIET MEEGEREKEND!';
-$lang['SILVER_STATUS'] = 'ZILVER TORRENT! DOWNLOADVERKEER WORDT GEDEELTELIJK MEEGEREKEND!';
+$lang['UNSET_SILVER_TORRENT'] = 'Remove silver status';
+$lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC IS NOT COUNTED!';
+$lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC IS PARTIALLY COUNTED!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrenttype gewijzigd naar: %s';
 
 $lang['TORRENT_STATUS'] = 'Zoek op status van uitgave';
@@ -949,15 +949,15 @@ $lang['GO_TO_SECTION'] = 'Ga naar de sectie';
 $lang['TORRENTS_FROM'] = 'Berichten van.';
 $lang['SHOW_ONLY'] = 'Toon alleen.';
 $lang['SHOW_COLUMN'] = 'Toon kolom.';
-$lang['SEL_CHAPTERS'] = 'Link naar de geselecteerde partities.';
-$lang['NOT_SEL_CHAPTERS'] = 'Je hebt niet gekozen onderwerpen';
-$lang['SEL_CHAPTERS_HELP'] = 'U kunt maximaal %s partitie.';
+$lang['SEL_CHAPTERS'] = 'Link to selected sections';
+$lang['NOT_SEL_CHAPTERS'] = 'You have not selected any topics';
+$lang['SEL_CHAPTERS_HELP'] = 'You can select a maximum of %s sections';
 $lang['HIDE_CONTENTS'] = 'Verberg de inhoud van {...}.';
 $lang['FILTER_BY_NAME'] = '<i>Filter naam</i>.';
 
 $lang['BT_ONLY_ACTIVE'] = 'Actief';
 $lang['BT_ONLY_MY'] = 'Mijn releases';
-$lang['BT_SEED_EXIST'] = 'Zaaimachine bestaan.';
+$lang['BT_SEED_EXIST'] = 'Seeder exists';
 $lang['BT_ONLY_NEW'] = 'Nieuw van laatste bezoek.';
 $lang['BT_SHOW_CAT'] = 'Categorie';
 $lang['BT_SHOW_FORUM'] = 'Forum';
@@ -992,7 +992,7 @@ $lang['DL_LIST_DEL'] = 'Duidelijk DL-Lijst.';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Verwijderen DL-Lijst voor dit onderwerp?';
 $lang['SHOW_DL_LIST'] = 'Toon DL-Lijst';
 $lang['SET_DL_STATUS'] = 'Downloaden';
-$lang['UNSET_DL_STATUS'] = 'Niet Downloaden';
+$lang['UNSET_DL_STATUS'] = 'Not downloading';
 $lang['TOPICS_DOWN_SETS'] = 'Onderwerp status veranderd naar <b>Download</b>';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Download</b> status verwijderd';
 
@@ -1012,7 +1012,7 @@ $lang['OPEN_TOPIC'] = 'Open onderwerp.';
 
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Kan deze torrent niet registreren in dit forum.';
 $lang['ALREADY_REG'] = 'Torrent al geregistreerd';
-$lang['NOT_TORRENT'] = 'Dit bestand is niet torrent';
+$lang['NOT_TORRENT'] = 'This file is not a torrent';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profiel';
 $lang['CUR_ACTIVE_DLS'] = 'Actieve torrents';
 
@@ -1025,21 +1025,21 @@ $lang['MAX_SPEED'] = 'Snelheid';
 $lang['DOWNLOADED'] = 'Gedownload';
 $lang['UPLOADED'] = 'Geüpload';
 $lang['RELEASED'] = 'Uitgebracht';
-$lang['BONUS'] = 'Het is zeldzaam.';
-$lang['IT_WILL_BE_DOWN'] = 'het zal in overweging worden genomen nadat het is gedownload.';
+$lang['BONUS'] = 'Bonus';
+$lang['IT_WILL_BE_DOWN'] = 'will be counted once downloaded';
 $lang['SPMODE_FULL'] = 'Toon peers in volledige details.';
 
 // Seed Bonus
-$lang['MY_BONUS'] = 'Mijn bonus (%s bonussen in voorraad)';
+$lang['MY_BONUS'] = 'My bonus (%s points available)';
 $lang['BONUS_SELECT'] = 'Selecteer';
 $lang['SEED_BONUS'] = 'Zaadbonus.';
 $lang['EXCHANGE'] = 'Exchange';
-$lang['EXCHANGE_BONUS'] = 'Uitwisseling van zaad bonussen';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s aan distributie</b> <br /> Om bonuspunten in te wisselen voor %1$s verkeer dat aan uw distributietotaal zal worden toegevoegd.';
+$lang['EXCHANGE_BONUS'] = 'Seed bonus exchange';
+$lang['BONUS_UPLOAD_DESC'] = '<b>+%s upload credit</b> <br /> Exchange bonus points for %1$s of upload traffic added to your account total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Prijs';
-$lang['EXCHANGE_NOT'] = 'De uitwisseling is niet beschikbaar.';
-$lang['BONUS_SUCCES'] = 'Het is met succes geregistreerd %s.';
+$lang['EXCHANGE_NOT'] = 'Exchange is not available';
+$lang['BONUS_SUCCES'] = '%s has been successfully credited to your account';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">U hebt geen bonussen beschikbaar. Meer zaaien!</span>.';
 $lang['BONUS_RETURN'] = 'Retourneren naar de zaadbonusuitwisseling.';
 
@@ -1047,21 +1047,21 @@ $lang['TRACKER'] = 'Tracker';
 $lang['RANDOM_RELEASE'] = 'Willekeurige uitgave';
 $lang['OPEN_TOPICS'] = 'Onderwerpen geopend';
 $lang['OPEN_IN_SAME_WINDOW'] = 'openen in hetzelfde venster';
-$lang['SHOW_TIME_TOPICS'] = 'toont de tijd van de gemaakte onderwerpen.';
+$lang['SHOW_TIME_TOPICS'] = 'show topic creation time';
 $lang['SHOW_CURSOR'] = 'markeer de rij onder de cursor';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = 'Met een ratio van <b>%s</b> kunt u geen torrents downloaden.';
-$lang['BT_RATIO_WARNING_MSG'] = 'Als uw ratio onder %s zakt, kunt u geen torrents downloaden! <a href="%s"><b>Meer over de beoordeling.</b></a>.';
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Your ratio of <b>%s</b> is too low to download torrents';
+$lang['BT_RATIO_WARNING_MSG'] = 'If your ratio falls below %s, you will not be able to download torrents! <a href="%s"><b>More about ratio.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Zaaimachine niet gezien: <b>%s</b>';
 
 $lang['NEED_TO_LOGIN_FIRST'] = 'Moet je eerst inloggen';
-$lang['ONLY_FOR_MOD'] = 'Deze optie is alleen voor moderators';
-$lang['ONLY_FOR_ADMIN'] = 'Deze optie is alleen voor admins';
-$lang['ONLY_FOR_SUPER_ADMIN'] = 'Deze optie is alleen voor super admins';
+$lang['ONLY_FOR_MOD'] = 'This option is only for moderators';
+$lang['ONLY_FOR_ADMIN'] = 'This option is only for admins';
+$lang['ONLY_FOR_SUPER_ADMIN'] = 'This option is only for super admins';
 
 $lang['LOGS'] = 'Onderwerpsgeschiedenis.';
-$lang['FORUM_LOGS'] = 'Geschiedenis forum.';
+$lang['FORUM_LOGS'] = 'Forum History';
 $lang['AUTOCLEAN'] = 'Autoclean';
 $lang['DESIGNER'] = 'Ontwerper';
 
@@ -1163,16 +1163,16 @@ $lang['SWITCH'] = 'Schakel over.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Vergroot/verklein het venster';
 $lang['EMPTY_TOPIC_ID'] = 'Ontbrekend topic-ID';
 $lang['TOR_NOT_FOUND'] = 'Bestand ontbreekt op de server';
-$lang['ERROR_BUILD'] = 'De inhoud van dit torrent bestand kan niet worden weergegeven op de site (het was niet mogelijk om een lijst te maken van bestanden)';
+$lang['ERROR_BUILD'] = 'The content of this torrent cannot be displayed (failed to build file list)';
 $lang['TORFILE_INVALID'] = 'Torrent bestand is beschadigd';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'De "website" kan alleen http://sitename bevatten.';
 $lang['PROFILE_USER'] = 'Profiel bekijken';
-$lang['GOOD_UPDATE'] = 'is met succes gewijzigd.';
+$lang['GOOD_UPDATE'] = 'successfully updated';
 $lang['UCP_DOWNLOADS'] = 'Downloads';
 $lang['HIDE_DOWNLOADS'] = 'Verberg de huidige lijst van downloads op uw profiel.';
-$lang['BAN_USER'] = 'Om te voorkomen dat een gebruiker';
+$lang['BAN_USER'] = 'User restrictions';
 $lang['USER_NOT_ALLOWED'] = 'Het is gebruikers niet toegestaan';
 $lang['HIDE_AVATARS'] = 'Het tonen van avatars';
 $lang['SHOW_CAPTION'] = 'Toon uw handtekening';
@@ -1183,15 +1183,15 @@ $lang['NEW_THREADS'] = 'Nieuwe Threads';
 $lang['PROFILE_NOT_FOUND'] = 'Profiel niet gevonden';
 
 $lang['USER_DELETE_EXPLAIN'] = 'Verwijder deze gebruiker';
-$lang['USER_DELETE_ME'] = 'Sorry, uw account mag niet worden verwijderd!';
-$lang['USER_DELETE_CSV'] = 'Sorry, dit account mag niet worden verwijderd!';
+$lang['USER_DELETE_ME'] = 'Sorry, your account cannot be deleted!';
+$lang['USER_DELETE_CSV'] = 'Sorry, this account cannot be deleted!';
 $lang['USER_DELETE_CONFIRM'] = 'Weet u zeker dat u deze gebruiker wilt verwijderen?';
 $lang['USER_DELETED'] = 'De gebruiker is succesvol verwijderd';
 $lang['DELETE_USER_ALL_POSTS'] = 'Verwijder alle berichten van deze gebruiker.';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Weet u zeker dat u alle berichten en alle onderwerpen die door deze gebruiker zijn gestart wilt verwijderen?';
-$lang['DELETE_USER_POSTS'] = 'Verwijder alle berichten, behalve voor de eerste berichten';
+$lang['DELETE_USER_POSTS'] = 'Delete all posts except the first post in each topic';
 $lang['DELETE_USER_POSTS_ME'] = 'Weet u zeker dat u al mijn berichten wilt verwijderen?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Weet u zeker dat u alle berichten wilt verwijderen, behalve voor de eerste berichten?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all posts except the first post in each topic?';
 $lang['USER_DELETED_POSTS'] = 'Berichten werden met succes verwijderd';
 
 $lang['USER'] = 'Gebruiker';
@@ -1199,21 +1199,21 @@ $lang['ROLE'] = 'Rol:';
 $lang['MEMBERSHIP_IN'] = 'Lidmaatschap';
 $lang['PARTY'] = 'Partij:';
 $lang['CANDIDATE'] = 'Kandidaat:';
-$lang['INDIVIDUAL'] = 'Heeft de individuele rechten';
+$lang['INDIVIDUAL'] = 'Has individual rights';
 $lang['GROUP_LIST_HIDDEN'] = 'U bent niet gemachtigd om verborgen groepen';
 
 $lang['USER_ACTIVATE'] = 'Activeren';
 $lang['USER_DEACTIVATE'] = 'Deactiveren';
 $lang['DEACTIVATE_CONFIRM'] = 'Weet u zeker dat u deze gebruiker wilt deactiveren?';
 $lang['USER_ACTIVATE_ON'] = 'Gebruiker is succesvol geactiveerd';
-$lang['USER_DEACTIVATE_ME'] = 'U kunt mijn account niet deactiveren!';
-$lang['ACTIVATE_CONFIRM'] = 'Weet u zeker dat u deze gebruiker wilt deactiveren?';
+$lang['USER_DEACTIVATE_ME'] = 'You cannot deactivate your own account!';
+$lang['ACTIVATE_CONFIRM'] = 'Are you sure you want to activate this user?';
 $lang['USER_ACTIVATE_OFF'] = 'Gebruiker is met succes gedeactiveerd';
 
 // Register
-$lang['CHOOSE_A_NAME'] = 'U moet een naam kiezen';
-$lang['CHOOSE_E_MAIL'] = 'U moet de e-mail opgeven.';
-$lang['CHOOSE_PASS'] = 'Veld voor het wachtwoord mag niet leeg zijn!';
+$lang['CHOOSE_A_NAME'] = 'Please choose a username';
+$lang['CHOOSE_E_MAIL'] = 'You must provide an email address';
+$lang['CHOOSE_PASS'] = 'The password field must not be empty!';
 $lang['CHOOSE_PASS_ERR'] = 'De ingevoerde wachtwoorden komen niet overeen';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Uw wachtwoord moet minimaal %d tekens';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'Uw wachtwoord moet niet langer zijn dan %d tekens';
@@ -1224,7 +1224,7 @@ $lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Wachtwoord moet ten minste één speciaa
 $lang['CHOOSE_PASS_OK'] = 'Wachtwoorden komen overeen.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Wachtwoorden komen overeen, u kunt verder gaan met de registratie.';
 $lang['CHOOSE_PASS_FAILED'] = 'Om het wachtwoord te wijzigen, moet u het huidige wachtwoord correct opgeven.';
-$lang['EMAILER_DISABLED'] = 'Sorry, deze functie werkt tijdelijk niet.';
+$lang['EMAILER_DISABLED'] = 'Sorry, this feature is temporarily unavailable';
 $lang['REGISTERED_IN_TIME'] = 'Registratie is momenteel gesloten<br /><br />Registratie is beschikbaar tijdens: %s<br />Huidige tijd op de server: %s<br /><br />Onze excuses voor het ongemak';
 $lang['AUTOCOMPLETE'] = 'Genereer wachtwoord';
 $lang['YOUR_NEW_PASSWORD'] = 'Uw nieuwe wachtwoord:';
@@ -1247,8 +1247,8 @@ $lang['HOW_TO_DOWNLOAD'] = 'Hoe te downloaden?';
 $lang['WHAT_IS_A_TORRENT'] = 'Wat is een torrent?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Beoordelingen en beperkingen.';
 
-$lang['SCREENSHOTS_RULES'] = 'Lees de regels voor screenshots!';
-$lang['AJAX_EDIT_OPEN'] = 'Heb je al één snelle montage geopend?';
+$lang['SCREENSHOTS_RULES'] = 'Read the screenshot posting rules!';
+$lang['AJAX_EDIT_OPEN'] = 'You already have a quick edit session open!';
 $lang['GO_TO_PAGE'] = 'Ga naar pagina ...';
 $lang['EDIT'] = 'Bewerken';
 $lang['SAVE'] = 'Opslaan';
@@ -1256,8 +1256,8 @@ $lang['NEW_WINDOW'] = 'in een nieuw venster';
 
 // BB Code
 $lang['ALIGN'] = 'Lijn: ';
-$lang['LEFT'] = 'Links';
-$lang['RIGHT'] = 'Rechts';
+$lang['LEFT'] = 'Left';
+$lang['RIGHT'] = 'Right';
 $lang['CENTER'] = 'Gecentreerd';
 $lang['JUSTIFY'] = 'Aanpassen aan breedte';
 $lang['HOR_LINE'] = 'Horizontale lijn (Ctrl+8)';
@@ -1293,7 +1293,7 @@ $lang['OLD'] = 'Oud';
 
 // DL-List
 $lang['DL_USER'] = 'Gebruikersnaam';
-$lang['DL_PERCENT'] = 'Voltooid percentage';
+$lang['DL_PERCENT'] = 'Completion %';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL-snelheid';
@@ -1323,12 +1323,12 @@ $lang['EDIT_MY_MESSAGE_LIST'] = 'Bewerk de lijst.';
 $lang['SELECT_INVERT'] = 'Selecteer / keer om.';
 $lang['RESTORE_ALL_POSTS'] = 'Herstel alle berichten';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Verwijder het geselecteerde onderwerp uit de lijst.';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Na verwijdering van de update van de <b>hele lijst</b> kunnen reeds verwijderde threads worden weergegeven.';
-$lang['DEL_LIST_INFO'] = 'Om een volgorde uit de lijst te verwijderen, klikt u op het pictogram aan de linkerkant van de namen van een sectie.';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'After removal, the <b>full list</b> may still show previously deleted threads until it is refreshed';
+$lang['DEL_LIST_INFO'] = 'To remove an entry from the list, click the icon to the left of any section name';
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Bekeken onderwerpen';
-$lang['NO_WATCHED_TOPICS'] = 'Er zijn geen onderwerpen in de gaten gehouden.';
+$lang['NO_WATCHED_TOPICS'] = 'Not watching any topics';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Terug naar de homepage.';
@@ -1363,7 +1363,7 @@ $lang['WORD_CENSOR'] = 'Woorden censuur.';
 $lang['CRON'] = 'Taakplanner (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Herbouw de zoekindex.';
 $lang['FORUM_CONFIG'] = 'Forum instellingen';
-$lang['ACTIONS_LOG'] = 'Rapport over de actie.';
+$lang['ACTIONS_LOG'] = 'Actions log';
 
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'Database Migratie Status';
@@ -1399,7 +1399,7 @@ $lang['CREATE_PROFILE'] = 'Profiel aanmaken';
 
 $lang['TP_VERSION'] = 'TorrentPier versie';
 $lang['TP_RELEASE_DATE'] = 'Release datum';
-$lang['PHP_INFO'] = 'Informatie over PHP';
+$lang['PHP_INFO'] = 'PHP information';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'Klik op %sHere%s om terug te keren naar de Admin Index';
 
@@ -1484,7 +1484,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Verwijderen';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Vast';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Aankondigen';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Stemmen';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Poll maken';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Create poll';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Bestanden Posten';
 $lang['AUTH_DOWNLOAD'] = 'Download Bestanden';
 
@@ -1496,7 +1496,7 @@ $lang['APPLY_TO_SUBFORUMS'] = 'Toepassen op subforums';
 
 $lang['AUTH_UPDATED'] = 'Machtigingen zijn bijgewerkt';
 $lang['AUTH_GENERAL_ERROR'] = 'Kon admin-status niet bijwerken';
-$lang['AUTH_SELF_ERROR'] = 'Kon jezelf niet veranderen van een admin naar gebruiker';
+$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to a user';
 $lang['NO_FORUMS_AVAILABLE'] = 'Geen forums beschikbaar. Maak eerst forums aan om de rechten te beheren.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Klik op %sHier%s om terug te keren naar gebruikersmachtigingen.';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Klik op %sHier%s om terug te keren naar groepsrechten.';
@@ -1738,7 +1738,7 @@ $lang['CHANGELOG'] = 'Wijzigingslog';
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Inlogpogingen';
 $lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'Het aantal toegestane inlogpogingen.';
 $lang['LOGIN_RESET_TIME'] = 'Inlogtijdbewaking.';
-$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Tijd in minuten dat de gebruiker moet wachten totdat hij weer mag inloggen na het overschrijden van het aantal toegestane inlogpogingen.';
+$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Time in minutes the user has to wait before they can log in again after exceeding the allowed number of login attempts.';
 
 // Permissions List
 $lang['PERMISSIONS_LIST'] = 'Lijst Met Machtigingen';
@@ -1775,23 +1775,23 @@ $lang['SF_NO_PARENT'] = 'Geen ouder forum.';
 $lang['SYNC'] = 'Sync';
 
 // Mods
-$lang['MAX_NEWS_TITLE'] = 'Maximale lengte van het nieuws.';
+$lang['MAX_NEWS_TITLE'] = 'Max. news title length';
 $lang['NEWS_COUNT'] = 'Hoeveel nieuwsitems weergeven';
 $lang['NEWS_FORUM_ID'] = 'Van welke forums om weer te geven <br /> <h6>Voor meerdere forums, geef ID\'s op gescheiden door komma\'s. Voorbeeld: 1,2,3</h6>';
-$lang['TRACKER_STATS'] = 'Statistieken op de tracker.';
-$lang['WHOIS_INFO'] = 'Informatie over het IP-adres';
-$lang['SHOW_MOD_HOME_PAGE'] = 'Toon moderators op de index.php.';
+$lang['TRACKER_STATS'] = 'Tracker statistics';
+$lang['WHOIS_INFO'] = 'IP address information';
+$lang['SHOW_MOD_HOME_PAGE'] = 'Show moderators on the homepage (index.php)';
 $lang['SHOW_BOARD_STARTED_INDEX'] = 'Toon startdatum van het board op index.php';
-$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderatie</h4> <h6>Als u geen uitkeringen met de status van v, #, of T in deze sectie, inclusief subsectoren, heeft, krijgt de uitkering automatisch deze status.</h6>';
-$lang['TOR_COMMENT'] = '<h4>Commentaar op de status van een distributie</h4> <h6>Het commentaar stelt u in staat om de releaser te wijzen op gemaakte fouten. Als de statussen onvolledig zijn, is er een vrijgave-antwoordformulier beschikbaar voor de vrijgavebeheerder om de vrijgave te corrigeren.</h6>';
-$lang['SEED_BONUS_ADD'] = '<h4>Zaadbonus toevoegen </h4> <h6> Aantal uitkeringen worden door de gebruiker uitgedeeld en de omvang van de bonussen voor hen (laden per uur). </h6>';
-$lang['SEED_BONUS_RELEASE'] = 'de N-aantal uitkeringen.';
-$lang['SEED_BONUS_POINTS'] = 'bonussen in een uur.';
-$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimaler distributie voor die bonussen zullen worden toegekend </h4> <h6>Als u bonussen voor alle distributie wilt berekenen, laat u lege. </h6>';
-$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimale lengte van de gebruiker tracker, waarna bonussen zullen worden toegekend </h4> <h6>Als u bonussen voor alle gebruikers wilt accumuleren, laat u leeg. </h6>';
+$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If there are no torrents with status v, #, or T in this section and its subsections, new distributions will automatically receive this status</h6>';
+$lang['TOR_COMMENT'] = '<h4>Comment on the status of a distribution</h4> <h6>The comment allows you to point out errors in the release. If corrections are needed, a response form becomes available to the uploader to fix the release</h6>';
+$lang['SEED_BONUS_ADD'] = '<h4>Seed bonus rules</h4> <h6>Number of torrents being seeded by the user and the corresponding bonus points awarded per hour</h6>';
+$lang['SEED_BONUS_RELEASE'] = 'up to N releases';
+$lang['SEED_BONUS_POINTS'] = 'bonus points per hour';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum torrent size to qualify for bonus points</h4> <h6>Leave blank to award bonuses for all torrents regardless of size.</h6>';
+$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum user account age to qualify for bonus points</h4> <h6>Leave blank to award bonuses to all users regardless of account age.</h6>';
 $lang['SEED_BONUS_WARNING'] = 'Let op! Zaad Bonussen moeten worden in oplopende volgorde';
-$lang['SEED_BONUS_EXCHANGE'] = 'Configureren Van Exchange Sid Bonussen';
-$lang['SEED_BONUS_ROPORTION'] = 'Percentage toevoeging voor een uitwisseling van bonussen op GB';
+$lang['SEED_BONUS_EXCHANGE'] = 'Configuring exchange seed bonuses';
+$lang['SEED_BONUS_ROPORTION'] = 'Exchange rate: bonus points to GB of upload credit';
 
 $lang['ALLOWED'] = 'Toegestaan';
 $lang['RETURN_CONFIG'] = '%sKeer terug naar Configuratie%s.';
@@ -1815,7 +1815,7 @@ $lang['BT_DISABLE_DHT_EXPL'] = 'Uitschakelen van Peeruitwisseling en DHT (aanbev
 $lang['BT_PRIVATE_TRACKER'] = 'Deze tracker is privé: bestandslijst (voor gasten), DHT | PEX zijn uitgeschakeld';
 $lang['BT_PRIVATE_TORRENT'] = 'De maker van deze torrent heeft het privé gemaakt';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Controleer announce url';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'Registreren op de tracker alleen voor toegestane URL\'s.';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'only register allowed URLs on the tracker';
 $lang['BT_REPLACE_ANN_URL'] = 'Vervang de announce url';
 $lang['BT_REPLACE_ANN_URL_EXPL'] = 'Vervang de originele aankondigings-URL met uw standaard in .torrent-bestanden.';
 $lang['BT_DEL_ADDIT_ANN_URLS'] = 'Verwijder alle extra announce url \' s';
@@ -1861,7 +1861,7 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Wijzig onderwerpstatus in "Normaal" ter
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Sjabloon uitgeschakeld';
 $lang['FOR_NEW_TEMPLATE'] = 'voor nieuwe patronen!';
-$lang['QUESTION'] = 'Bevestigen: weet u zeker dat u deze actie wilt uitvoeren?';
+$lang['QUESTION'] = 'Are you sure you want to perform this action?';
 
 $lang['CRON_LIST'] = 'Cron lijst';
 $lang['CRON_ID'] = 'ID';
@@ -1886,7 +1886,7 @@ $lang['CRON_RUN'] = 'Uitvoeren';
 $lang['CRON_DEL'] = 'Verwijderen';
 $lang['CRON_DISABLE'] = 'Uitschakelen';
 $lang['CRON_ENABLE'] = 'Inschakelen';
-$lang['DELETE_JOB'] = 'Weet u zeker dat u de cron job wilt verwijderen?';
+$lang['DELETE_JOB'] = 'Are you sure you want to delete this cron job?';
 $lang['CRON_WORKS'] = 'Cron werkt momenteel of is kapot -> ';
 $lang['REPAIR_CRON'] = 'Reparatie Cron.';
 
@@ -1901,11 +1901,11 @@ $lang['SCHEDULE'] = [
     'monthly' => 'maandelijks',
     'interval' => 'interval',
 ];
-$lang['NOSELECT'] = 'Geen selecteren';
+$lang['NOSELECT'] = 'Not selected';
 $lang['RUN_DAY'] = 'Uitvoeren dag';
-$lang['RUN_DAY_EXPL'] = 'De dag waarop deze taak wordt uitgevoerd.';
+$lang['RUN_DAY_EXPL'] = 'the day this job runs';
 $lang['RUN_TIME'] = 'Uitvoertijd.';
-$lang['RUN_TIME_EXPL'] = 'Het moment waarop deze taak wordt uitgevoerd (bijv. 05:00:00).';
+$lang['RUN_TIME_EXPL'] = 'the time this job runs (e.g. 05:00:00)';
 $lang['RUN_ORDER'] = 'Uitvoer volgorde.';
 $lang['LAST_RUN'] = 'Laatste Run';
 $lang['NEXT_RUN'] = 'Volgende';
@@ -1913,7 +1913,7 @@ $lang['RUN_INTERVAL'] = 'Uitvoeren interval.';
 $lang['RUN_INTERVAL_EXPL'] = 'bijv. 00:10:00';
 $lang['LOG_ENABLED'] = 'Log ingeschakeld';
 $lang['LOG_FILE'] = 'Log-bestand';
-$lang['LOG_FILE_EXPL'] = 'Het bestand voor het opslaan van log.';
+$lang['LOG_FILE_EXPL'] = 'the file to save the log to';
 $lang['LOG_SQL_QUERIES'] = 'Log SQL-query \' s';
 $lang['FORUM_DISABLE'] = 'Uitschakelen van bestuur.';
 $lang['BOARD_DISABLE_EXPL'] = 'Uitschakelen van de raad wanneer deze taak wordt uitgevoerd.';
@@ -1933,7 +1933,7 @@ $lang['STARTING_POST_ID'] = 'Vanaf post_id';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'Eerste post waar de verwerking zal beginnen<br />Je kunt kiezen om vanaf het begin te starten of vanaf de post waar je het laatst bent gestopt';
 
 $lang['START_OPTION_BEGINNING'] = 'begin vanaf het begin';
-$lang['START_OPTION_CONTINUE'] = 'voortzetten vanaf de laatste stop';
+$lang['START_OPTION_CONTINUE'] = 'continue from where you last stopped';
 
 $lang['CLEAR_SEARCH_TABLES'] = 'Maak zoektabellen leeg';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
@@ -1957,7 +1957,7 @@ $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Je webserver heeft een timeout van %
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Je laatste stopte de verwerking op post_id %s (%s verwerkt berichten) op %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Je hebt de verwerking laatst afgebroken op post_id %s (%s verwerkte berichten) op %s.';
-$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Wacht enkele minuten voordat u verder gaat...';
+$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Please wait a few minutes before you continue...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Je hebt de verwerking met succes voltooid (%s verwerkte berichten) op %s.';
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Je hebt de verwerking met succes voltooid op post_id %s (%s verwerkte berichten) op %s,<br />maar er zijn %s nieuwe post(s) na die datum.';
 
@@ -2005,12 +2005,12 @@ $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Onderwerp is verplaatst van forum [b]%s[/b] 
 $lang['BOT_MESS_SPLITS'] = 'Onderwerp is gesplitst uit [b]%s[/b][br][br]%s.';
 $lang['BOT_TOPIC_SPLITS'] = 'Topic gesplitst uit [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Roep zaden.';
-$lang['CALLSEED_EXPLAIN'] = 'Kennisgeving met een verzoek om terug te keren naar de distributie.';
-$lang['CALLSEED_SUBJECT'] = 'Download hulp %s.';
-$lang['CALLSEED_TEXT'] = 'Hallo![br]Je hulp is nodig in de release [url=%s]%s[/url][br]Als je besluit te helpen, maar het torrentbestand al hebt verwijderd, kun je het [url=%s]hier[/url] downloaden.[br][br]Ik hoop op je hulp!';
-$lang['CALLSEED_MSG_OK'] = 'Bericht verzonden naar iedereen die deze release heeft gedownload.';
-$lang['CALLSEED_MSG_SPAM'] = 'Het verzoek is al een keer met succes verzonden (waarschijnlijk niet jij).<br /><br />De volgende mogelijkheid om een verzoek te verzenden is <b>%s</b>.';
+$lang['CALLSEED'] = 'Call seeders';
+$lang['CALLSEED_EXPLAIN'] = 'Notify seeders with a request to resume seeding this release';
+$lang['CALLSEED_SUBJECT'] = 'Seeding help needed: %s';
+$lang['CALLSEED_TEXT'] = 'Hello![br]Your help is needed for the release [url=%s]%s[/url][br]If you want to help but have already deleted the torrent file, you can download it [url=%s]here[/url][br][br]Your help would be greatly appreciated!';
+$lang['CALLSEED_MSG_OK'] = 'Request has been sent to everyone who has downloaded this release';
+$lang['CALLSEED_MSG_SPAM'] = 'A request has already been sent recently (possibly not by you).<br /><br />The next request can be sent on <b>%s</b>.';
 $lang['CALLSEED_HAVE_SEED'] = 'Onderwerp heeft geen hulp nodig (<b>Seeders:</b> %d).';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
@@ -2036,8 +2036,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_post_pin' => 'Bericht:<br /> <b>vastgezet</b>',
     'mod_post_unpin' => 'Bericht:<br /> <b>niet vastgezet</b>',
     'adm_user_delete' => 'Gebruiker:<br /> <b>verwijderd</b>.',
-    'adm_user_ban' => 'Gebruiker:<br /> <b>ban</b>',
-    'adm_user_unban' => 'Gebruiker:<br /> <b>unban</b>',
+    'adm_user_ban' => 'User:<br /> <b>banned</b>',
+    'adm_user_unban' => 'User:<br /> <b>unbanned</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Alle acties';
@@ -2065,7 +2065,7 @@ $lang['NEW_RELEASE'] = 'Nieuwe release';
 $lang['NEXT'] = 'Doorgaan';
 $lang['ALL'] = 'Alle';
 
-$lang['TPL_EMPTY_FIELD'] = 'U moet het veld <b>%s</b> invullen';
+$lang['TPL_EMPTY_FIELD'] = 'You must fill in the field <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'U moet <b>%s</b> selecteren';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - Niet een getal';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Moet https:// URL zijn';
@@ -2104,7 +2104,7 @@ $lang['SEARCH_FOR_EMAIL'] = 'Zoeken naar e-mailadressen die overeenkomen met %s.
 $lang['SEARCH_FOR_IP'] = 'Zoek naar IP-adressen die overeenkomen met %s.';
 $lang['SEARCH_FOR_DATE'] = 'Zoeken naar gebruikers die zich hebben aangesloten bij %s %d/%d/%d.';
 $lang['SEARCH_FOR_GROUP'] = 'Zoeken naar groepsleden van %s.';
-$lang['SEARCH_FOR_RANK'] = 'Zoeken naar luchtvaartmaatschappijen rang van %s.';
+$lang['SEARCH_FOR_RANK'] = 'Searching users with rank %s';
 $lang['SEARCH_FOR_BANNED'] = 'Zoeken naar verbannen gebruikers.';
 $lang['SEARCH_FOR_ADMINS'] = 'Zoeken naar beheerders.';
 $lang['SEARCH_FOR_MODS'] = 'Zoeken naar moderators.';
@@ -2129,14 +2129,14 @@ $lang['SEARCH_USERNAME_EXPLAIN'] = 'Hier kunt u een hoofdlettergevoelig onderzoe
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'Voer een uitdrukking in om het e-mailadres van een gebruiker te matchen. Dit is niet hoofdlettergevoelig. Als u een gedeeltelijke match wilt maken, gebruik dan * (een asterisk) als wildcard.';
 $lang['SEARCH_IP_EXPLAIN'] = 'Gebruikers zoeken door een specifiek IP-adres (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'Gebruikers die zich hebben aangemeld.';
-$lang['SEARCH_USERS_LASTVISITED'] = 'Gebruikers die hebben bezocht.';
+$lang['SEARCH_USERS_LASTVISITED'] = 'Users who have visited';
 $lang['IN_THE_LAST'] = 'in de laatste.';
 $lang['AFTER_THE_LAST'] = 'na de laatste.';
 $lang['BEFORE'] = 'Voor.';
 $lang['AFTER'] = 'Na.';
-$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Zoeken naar gebruikers die voor of na (en op) een specifieke datum zijn lid geworden. Het datumnotatieformaat is JJJJ/MM/DD.';
+$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Search for users who joined before or after a specific date. The date format is YYYY/MM/DD.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Bekijk alle leden van de geselecteerde groep.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Bekijk alle carriers van de geselecteerde rang.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'View all users with the selected rank.';
 $lang['BANNED_USERS'] = 'Verboden Gebruikers';
 $lang['DISABLED_USERS'] = 'Gebruikers met een handicap.';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Beheerders - Alle gebruikers met beheerdersbevoegdheden; Moderators - Alle forummoderators; Verbannen gebruikers - Alle accounts die zijn verbannen op deze forums; Uitgeschakelde gebruikers - Alle gebruikers met uitgeschakelde accounts (handmatig uitgeschakeld of hun e-mailadres nooit geverifieerd); Gebruikers met uitgeschakelde PM\'s - Selecteert gebruikers waarvan de privileges voor privéberichten zijn verwijderd (Gedaan via Gebruikersbeheer)';
@@ -2169,7 +2169,7 @@ $lang['MC_TITLE'] = 'Moderatiecommentaar';
 $lang['MC_LEGEND'] = 'Typ een opmerking.';
 $lang['MC_FAQ'] = 'Ingevoerde tekst zal worden weergegeven onder dit bericht';
 $lang['MC_COMMENT_PM_SUBJECT'] = '%s in uw bericht';
-$lang['MC_COMMENT_PM_MSG'] = "Hallo, [b]%s[/b]\nModerator links in je bericht [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "Hello, [b]%s[/b]\nA moderator has left a comment on your post [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',
