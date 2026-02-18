@@ -160,8 +160,8 @@ $lang['LOGOUT'] = 'צא מהמערכת.';
 $lang['CONFIRM_LOGOUT'] = 'האם אתה בטוח שאתה רוצה לצאת?';
 
 $lang['FORGOTTEN_PASSWORD'] = 'סיסמה שנשכחה?';
-$lang['AUTO_LOGIN'] = 'להיכנס לי באופן אוטומטי';
-$lang['ERROR_LOGIN'] = 'שם המשתמש שהזנת אינו נכון או לא חוקי, או שהסיסמה אינה חוקית.';
+$lang['AUTO_LOGIN'] = 'Log me in automatically';
+$lang['ERROR_LOGIN'] = 'The username or password you entered is incorrect.';
 $lang['REMEMBER'] = 'זוכר';
 $lang['USER_WELCOME'] = 'ברוכים הבאים,';
 
@@ -228,7 +228,7 @@ $lang['WROTE'] = 'כתב'; // proceeds the username and is followed by the quote
 $lang['QUOTE'] = 'ציטוט'; // comes before bbcode quote output
 $lang['CODE'] = 'קוד'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'טקסט מוסתר';
-$lang['SPOILER_CLOSE'] = 'להפוך';
+$lang['SPOILER_CLOSE'] = 'close';
 $lang['PLAY_ON_CURPAGE'] = 'החל לשחק בדף הנוכחי.';
 
 $lang['EDITED_TIME_TOTAL'] = 'נערך לאחרונה על ידי <b>%s</b> ב-%s; נערך %d פעם בסך הכל'; // Last edited by me on 12 Oct 2001; edited 1 time in total
@@ -271,11 +271,11 @@ $lang['POST_TOPIC_AS'] = 'לפרסם נושא כמו.';
 $lang['EDIT_POST'] = 'עריכת פוסט';
 $lang['EDIT_TOPIC_TITLE'] = 'עריכת כותרת הנושא';
 
-$lang['DONT_MESSAGE_TITLE'] = 'כדאי לציין כותרת הודעה';
-$lang['INVALID_TOPIC_ID'] = 'הנושא חסר!';
+$lang['DONT_MESSAGE_TITLE'] = 'You must specify a message title';
+$lang['INVALID_TOPIC_ID'] = 'Topic not found!';
 $lang['INVALID_TOPIC_ID_DB'] = 'הנושא אינו קיים במאגר הנתונים!';
 
-$lang['NOT_EDIT_TOR_STATUS'] = 'אתה לא יכול לערוך את שחרור עם מצב';
+$lang['NOT_EDIT_TOR_STATUS'] = 'You cannot edit release with this status';
 
 $lang['OPTIONS'] = 'אפשרויות';
 
@@ -326,7 +326,7 @@ $lang['UPDATE'] = 'עדכון';
 $lang['DAYS'] = 'ימים';
 $lang['DELETE_POLL'] = 'למחוק את הסקר';
 
-$lang['MAX_SMILIES_PER_POST'] = 'הגבלת סמלים של %s הועלתה.';
+$lang['MAX_SMILIES_PER_POST'] = 'Emoticon limit of %s exceeded.';
 
 $lang['NOTIFY'] = 'הודע לי בתגובות';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'מותר ל-robots לאנדקס את הנושא הזה';
@@ -418,7 +418,7 @@ $lang['SELECT_USERNAME'] = 'בחר שם משתמש';
 $lang['NO_MATCH'] = 'לא נמצאו התאמות.';
 
 $lang['NO_PM_ID'] = 'אנא ציין פוסט ID';
-$lang['NO_SUCH_FOLDER'] = 'התיקיה לא נמצאה';
+$lang['NO_SUCH_FOLDER'] = 'Folder not found';
 
 $lang['MARK_ALL'] = 'סמן את כל';
 $lang['UNMARK_ALL'] = 'בטל את הכל';
@@ -466,7 +466,7 @@ $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'מצטער, אבל את הסיסמה שלך
 $lang['NO_SEND_ACCOUNT'] = 'מצטער, אבל לא ניתן לאחזר את הסיסמה שלך. אנא צור קשר עם מנהל הפורום למידע נוסף.';
 
 $lang['HIDE_PORN_FORUMS'] = 'להסתיר את התוכן 18+';
-$lang['ADD_RETRACKER'] = 'להוסיף Retracker לקבצי טורנט';
+$lang['ADD_RETRACKER'] = 'Add retracker to torrent files';
 $lang['ALWAYS_NOTIFY'] = 'תמיד הודע לי על תגובות';
 $lang['ALWAYS_NOTIFY_EXPLAIN'] = 'שולח דואר אלקטרוני כאשר מישהו מגיב לנושא שפרסמת. ניתן לשנות זאת בכל פעם שתפרסם.';
 
@@ -484,7 +484,7 @@ $lang['HAPPY_BIRTHDAY'] = 'יום הולדת שמח!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'יום הולדת בפורמט שהוזן באופן שגוי.';
 $lang['AGE'] = 'גיל';
 $lang['BIRTHDAY_TO_HIGH'] = 'מצטער, האתר הזה לא מקבל משתמשים בגיל מעל %d שנים';
-$lang['BIRTHDAY_TO_LOW'] = 'מצטער, האתר הזה לא מקבל משתמשים בגיל מתחת ל-%d שנים';
+$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept users younger than %d years old';
 $lang['BIRTHDAY_TODAY'] = 'משתמשים עם יום הולדת היום: ';
 $lang['BIRTHDAY_WEEK'] = 'משתמשים עם יום הולדת בתוך %d ימים: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'אין משתמשים שיש להם יום הולדת ב-%d ימים הקרובים'; // %d is substituted with the number of days
@@ -499,10 +499,10 @@ $lang['TIMEZONE'] = 'אזור הזמן';
 $lang['DATE_FORMAT_EXPLAIN'] = 'התחביר המשמש זהה לפונקציה <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> של PHP.';
 $lang['SIGNATURE'] = 'חתימה';
 $lang['SIGNATURE_EXPLAIN'] = 'זהו בלוק של טקסט שיכול להתווסף להודעות שאתה עושה. יש %d מגבלת תווים';
-$lang['SIGNATURE_DISABLE'] = 'חתמת בגין הפרת כללי הפורום.';
+$lang['SIGNATURE_DISABLE'] = 'Signature disabled due to forum rule violation';
 $lang['PUBLIC_VIEW_EMAIL'] = 'הצג כתובת דואר אלקטרוני בפרופיל שלי';
 
-$lang['EMAIL_EXPLAIN'] = 'בכתובת זו תישלח כדי להשלים את ההרשמה';
+$lang['EMAIL_EXPLAIN'] = 'A verification email will be sent to this address to complete your registration';
 
 $lang['CURRENT_PASSWORD'] = 'הסיסמה הנוכחית';
 $lang['NEW_PASSWORD'] = 'הסיסמה החדשה';
@@ -513,12 +513,12 @@ $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'אתה רק צריך לאשר את הס�
 
 $lang['AUTOLOGIN'] = 'כניסה אוטומטית';
 $lang['RESET_AUTOLOGIN'] = 'איפוס מפתח כניסה אוטומטית';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'כולל את כל המקומות שבהם ביקרת הפורום איפשר כניסה אוטומטית';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'this will log you out of all devices where auto-login is enabled';
 
 $lang['AVATAR'] = 'אווטאר';
 $lang['AVATAR_EXPLAIN'] = 'מציג תמונה גרפית קטנה מתחת לפרטים שלך בפוסטים. ניתן להציג רק תמונה אחת בכל פעם, רוחבה לא יכול להיות גדול מ-%d פיקסלים, גובהה לא יכול להיות גדול מ-%d פיקסלים, וגודל הקובץ לא יכול להיות גדול מ-%s.';
 $lang['AVATAR_DELETE'] = 'מחק את האווטאר.';
-$lang['AVATAR_DISABLE'] = 'אפשרות שליטה על אווטאר, הושבתה, בגין הפרת <a href="%s"><b>כללי הפורום</b></a>.';
+$lang['AVATAR_DISABLE'] = 'Avatar upload disabled due to a violation of <a href="%s"><b>forum rules</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'העלאת אווטאר.';
 $lang['RETURN_PROFILE'] = 'לחזור לפרופיל.';
 $lang['DELETE_IMAGE'] = 'מחיקת תמונה.';
@@ -535,8 +535,8 @@ $lang['PASSWORD_LONG'] = 'הסיסמה שלך חייבת להיות לא יות�
 $lang['USERNAME_TAKEN'] = 'מצטער, אבל שם המשתמש הזה כבר תפוס.';
 $lang['USERNAME_INVALID'] = 'מצטער, אבל זה שם המשתמש מכיל תו לא חוקי';
 $lang['USERNAME_DISALLOWED'] = 'מצטער, אבל שם המשתמש הזה נפסל.';
-$lang['USERNAME_TOO_LONG'] = 'השם שלך ארוך מדי.';
-$lang['USERNAME_TOO_SMALL'] = 'השם שלך קטן מדי.';
+$lang['USERNAME_TOO_LONG'] = 'Your username is too long.';
+$lang['USERNAME_TOO_SMALL'] = 'Your username is too short.';
 $lang['EMAIL_TAKEN'] = 'מצטער, אבל כתובת הדואר האלקטרוני הזו כבר רשומה למשתמש.';
 $lang['EMAIL_INVALID'] = 'מצטער, אבל כתובת הדואר האלקטרוני הזו אינה חוקית.';
 $lang['EMAIL_TOO_LONG'] = 'הדוא"ל שלך ארוך מדי.';
@@ -591,8 +591,8 @@ $lang['THANK_TOPIC'] = 'הצב עבור הנושא הזה';
 $lang['THANKS_GRATITUDE'] = 'אנו מעריכים את תודתך';
 $lang['LAST_LIKES'] = 'ההצבעות האחרונות';
 $lang['LIKE_OWN_POST'] = 'אסור להצביע עבור הנושא שלך';
-$lang['NO_LIKES'] = 'אף אחד לא הצביע עדיין';
-$lang['LIKE_ALREADY'] = 'כבר הצבעת עבור הנושא הזה';
+$lang['NO_LIKES'] = 'Nobody has voted yet';
+$lang['LIKE_ALREADY'] = 'You have already voted for this topic';
 
 // Invites
 $lang['INVITE_CODE'] = 'קוד הזמנה';
@@ -638,7 +638,7 @@ $lang['NO_GROUP_ID_SPECIFIED'] = 'מזהה קבוצה לא צוין';
 $lang['NO_GROUP_MEMBERS'] = 'הקבוצה הזו אין חברים.';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'הקבוצה הזו מוסתרת; אינך יכול לראות את החברות.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'לקבוצה זו אין חברים בתהליך ממתינים.';
-$lang['GROUP_JOINED'] = 'נרשמת בהצלחה לקבוצה זו.<br />תודיע לך כאשר המנוי שלך מאושר על ידי המנחה של הקבוצה.';
+$lang['GROUP_JOINED'] = 'You have successfully applied to join this group.<br />You will be notified when your membership is approved by the group moderator.';
 $lang['ALREADY_MEMBER_GROUP'] = 'אתה כבר חבר של הקבוצה הזאת.';
 $lang['USER_IS_MEMBER_GROUP'] = '%s כבר חבר בקבוצה הזו';
 $lang['USER_IS_MOD_GROUP'] = '%s הוא מנהל בקבוצה הזו';
@@ -804,7 +804,7 @@ $lang['SAMPLE_RATE'] = 'קצב דגימה: <b>%s</b>';
 $lang['AUDIO_TRACK'] = 'מידע על מסלול האודיו (%d):';
 $lang['AUDIO_CODEC'] = 'קודקוד אודיו: <b title="%s">%s</b>';
 $lang['VIDEO_CODEC'] = 'קודקוד וידאו: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'הצג מידע נוסף על הקובץ';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about this file';
 $lang['DOWNLOAD_M3U_FILE'] = 'הורד קובץ .m3u';
 $lang['PLAYBACK_M3U'] = 'נגן קובץ .m3u';
 $lang['COPY_STREAM_LINK'] = 'העתק קישור לזרם ללוח הגזירים';
@@ -836,7 +836,7 @@ $lang['BT_REG_YES'] = 'רשום';
 $lang['BT_REG_NO'] = 'לא רשום';
 $lang['BT_REG_ON_TRACKER'] = 'לא ניתן לרשום את הטורנט על הטרקר.';
 $lang['BT_REG_FAIL'] = 'לא ניתן לרשום את הטורנט על הטרקר.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'עוד סיקור עם אותו info_hash כבר <a href="%s"><b>נרשם</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Another torrent with the same info_hash is already <a href="%s"><b>registered</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'טורנטים רק עבור v1 הושבתו על ידי המנהל במדויק, המותר: v2 והיברידים';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'טורנטים רק עבור v2 הושבתו על ידי המנהל במדויק, המותר: v1 והיברידים';
 $lang['BT_FLIST'] = 'רשימת קבצים';
@@ -877,15 +877,15 @@ $lang['MAGNET_v2'] = 'קישור מגנט (תמיכה ב-BitTorrent v2)';
 //torrent status mod
 $lang['TOR_STATUS'] = 'סטטוס';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'בחר מצב';
-$lang['TOR_STATUS_NOT_SELECT'] = 'לא בחרת מצב.';
+$lang['TOR_STATUS_NOT_SELECT'] = 'You have not selected a status.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'כל הסטטוסים';
 $lang['TOR_STATUS_FORBIDDEN'] = 'הסטטוס של נושא זה הוא: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'לא בדקתי',
     TOR_CLOSED => 'סגור',
     TOR_APPROVED => 'בדקתי',
-    TOR_NEED_EDIT => 'לא מוסדר עד',
-    TOR_NO_DESC => 'לא מוסדר',
+    TOR_NEED_EDIT => 'needs editing',
+    TOR_NO_DESC => 'incomplete',
     TOR_DUP => 'שכפול',
     TOR_CLOSED_CPHOLD => 'סגור (זכויות יוצרים)',
     TOR_CONSUMED => 'נספג',
@@ -895,28 +895,28 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_PREMOD => 'המתנה לפני מתינות.',
     TOR_REPLENISH => 'להתחדש',
 ];
-$lang['TOR_STATUS_FAILED'] = 'מעמד כזה לא קיים!';
+$lang['TOR_STATUS_FAILED'] = 'This status does not exist!';
 $lang['TORRENT_FAILED'] = 'לא נמצא הפצה!';
 $lang['TOR_STATUS_DUB'] = 'ההפצה יש את אותו מעמד.';
-$lang['TOR_DONT_CHANGE'] = 'שינוי הסטטוס לא יכול להתבצע!';
+$lang['TOR_DONT_CHANGE'] = 'Change of status cannot be performed!';
 $lang['TOR_STATUS_OF'] = 'ההפצה יש מצב של: ';
 $lang['TOR_STATUS_CHANGED'] = 'שינה מצב ל: ';
 $lang['TOR_BACK'] = ' חזרה';
 $lang['PROCEED'] = 'המשך';
-$lang['CHANGE_TOR_TYPE'] = 'הקלד את סיקור בהצלחה שינה.';
+$lang['CHANGE_TOR_TYPE'] = 'Torrent type successfully changed';
 $lang['DEL_TORRENT'] = 'אתה בטוח שאתה רוצה למחוק את הטורנט?';
 $lang['DEL_MOVE_TORRENT'] = 'אתה בטוח שאתה רוצה למחוק ולהעביר את הנושא?';
 $lang['UNEXECUTED_RELEASE'] = 'יש לך הפצה לא גמורה. לפני יצירת חדשה, נא לסיים אותה!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'סטטוס חדש: %s.<br/>הסטטוס הקודם: %s.';
 
 // tor_comment
-$lang['TOR_MOD_TITLE'] = 'משנים את הסטטוס של הפצה - %s';
-$lang['TOR_MOD_MSG'] = "שלום, %s.\n\nמעמד של [url=%s]ההפצה שלך[/url] שונה ל-[b]%s[/b]";
+$lang['TOR_MOD_TITLE'] = 'Distribution status changed – %s';
+$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nThe status of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
 
-$lang['TOR_AUTH_TITLE'] = 'שינויי העיצוב - %s';
+$lang['TOR_AUTH_TITLE'] = 'Formatting changes requested – %s';
 $lang['TOR_AUTH_MSG'] = "שלום, %s.\n\nההפצה שלך שונתה - [url=%s]%s[/url]\n\nנא לבדוק שוב.";
 $lang['TOR_AUTH_FIXED'] = 'קבוע';
-$lang['TOR_AUTH_SENT_COMMENT'] = '&middot; <span class="seed bold">המידע נשלח למנחה. מצפים.</span>';
+$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The information has been sent to the moderator. Please wait for a response.</span>';
 
 $lang['BT_TOPIC_TITLE'] = 'כותרת הנושא';
 $lang['BT_SEEDER_LAST_SEEN'] = 'הזרע האחרון נצפה.';
@@ -935,11 +935,11 @@ $lang['BT_VIEWS'] = 'צפיות';
 $lang['GOLD'] = 'זהב';
 $lang['SILVER'] = 'כסף';
 $lang['SET_GOLD_TORRENT'] = 'עושים זהב';
-$lang['UNSET_GOLD_TORRENT'] = 'לשלול זהב';
+$lang['UNSET_GOLD_TORRENT'] = 'Remove gold status';
 $lang['SET_SILVER_TORRENT'] = 'לעשות כסף';
-$lang['UNSET_SILVER_TORRENT'] = 'לשלול כסף';
-$lang['GOLD_STATUS'] = 'זהב טורנט! הורדות לא נחשבים!';
-$lang['SILVER_STATUS'] = 'כסף טורנט! הורדות חלקית נחשבות!';
+$lang['UNSET_SILVER_TORRENT'] = 'Remove silver status';
+$lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC IS NOT COUNTED!';
+$lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC IS PARTIALLY COUNTED!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'סוג הטורנט שונה ל: %s';
 
 $lang['TORRENT_STATUS'] = 'חפש לפי סטטוס השחרור';
@@ -949,15 +949,15 @@ $lang['GO_TO_SECTION'] = 'Goto סעיף';
 $lang['TORRENTS_FROM'] = 'הודעות מ';
 $lang['SHOW_ONLY'] = 'הצג רק';
 $lang['SHOW_COLUMN'] = 'הצג עמודה';
-$lang['SEL_CHAPTERS'] = 'הקישור שנבחר מחיצות.';
-$lang['NOT_SEL_CHAPTERS'] = 'אתה לא נושאים נבחרים.';
-$lang['SEL_CHAPTERS_HELP'] = 'אתה יכול לבחור מקסימום %s מחיצה.';
+$lang['SEL_CHAPTERS'] = 'Link to selected sections';
+$lang['NOT_SEL_CHAPTERS'] = 'You have not selected any topics';
+$lang['SEL_CHAPTERS_HELP'] = 'You can select a maximum of %s sections';
 $lang['HIDE_CONTENTS'] = 'להסתיר את התוכן של {...}.';
 $lang['FILTER_BY_NAME'] = '<i> סינון לפי השם </i>.';
 
 $lang['BT_ONLY_ACTIVE'] = 'פעיל';
 $lang['BT_ONLY_MY'] = 'שלי משחרר.';
-$lang['BT_SEED_EXIST'] = 'Seeder קיים.';
+$lang['BT_SEED_EXIST'] = 'Seeder exists';
 $lang['BT_ONLY_NEW'] = 'חדשות מאז ביקורך האחרון.';
 $lang['BT_SHOW_CAT'] = 'קטגוריה';
 $lang['BT_SHOW_FORUM'] = 'פורום';
@@ -992,7 +992,7 @@ $lang['DL_LIST_DEL'] = 'ברור DL-רשימה.';
 $lang['DL_LIST_DEL_CONFIRM'] = 'האם למחוק את רשימת ההורדה עבור נושא זה?';
 $lang['SHOW_DL_LIST'] = 'להראות DL-רשימת.';
 $lang['SET_DL_STATUS'] = 'הורד.';
-$lang['UNSET_DL_STATUS'] = 'לא להורדה.';
+$lang['UNSET_DL_STATUS'] = 'Not downloading';
 $lang['TOPICS_DOWN_SETS'] = 'נושא הסטטוס השתנה ל <b>הורדה</b>.';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>הורדה</b> הסטטוס הוסר.';
 
@@ -1012,7 +1012,7 @@ $lang['OPEN_TOPIC'] = 'פתיחת נושא';
 
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'לא יכול לרשום סיקור בפורום הזה';
 $lang['ALREADY_REG'] = 'סיקור כבר רשום';
-$lang['NOT_TORRENT'] = 'קובץ זה לא סיקור';
+$lang['NOT_TORRENT'] = 'This file is not a torrent';
 $lang['VIEWING_USER_BT_PROFILE'] = 'פרופיל טורנט';
 $lang['CUR_ACTIVE_DLS'] = 'טורנטים פעילים';
 
@@ -1025,21 +1025,21 @@ $lang['MAX_SPEED'] = 'מהירות';
 $lang['DOWNLOADED'] = 'הורדתי';
 $lang['UPLOADED'] = 'נטען';
 $lang['RELEASED'] = 'שוחרר';
-$lang['BONUS'] = 'באופן נדיר.';
-$lang['IT_WILL_BE_DOWN'] = 'זה יתחיל להיחשב לאחר שיפורסם';
+$lang['BONUS'] = 'Bonus';
+$lang['IT_WILL_BE_DOWN'] = 'will be counted once downloaded';
 $lang['SPMODE_FULL'] = 'הצגת חברים בפרטים מלאים';
 
 // Seed Bonus
-$lang['MY_BONUS'] = 'הבונוס שלי (%s בונוסים במלאי)';
+$lang['MY_BONUS'] = 'My bonus (%s points available)';
 $lang['BONUS_SELECT'] = 'בחר';
 $lang['SEED_BONUS'] = 'בונוס זרע';
 $lang['EXCHANGE'] = 'בונוס זרע';
-$lang['EXCHANGE_BONUS'] = 'חילופי בונוסי זרע';
-$lang['BONUS_UPLOAD_DESC'] = '<b>%s להפקת הפצה</b> <br /> להמיר נקודות בונוס לסוג %1$s שיעשה להוספתה לכלל ההפצה.';
+$lang['EXCHANGE_BONUS'] = 'Seed bonus exchange';
+$lang['BONUS_UPLOAD_DESC'] = '<b>+%s upload credit</b> <br /> Exchange bonus points for %1$s of upload traffic added to your account total.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'מחיר';
-$lang['EXCHANGE_NOT'] = 'החילוף אינו זמין';
-$lang['BONUS_SUCCES'] = 'נרשם %s בהצלחה';
+$lang['EXCHANGE_NOT'] = 'Exchange is not available';
+$lang['BONUS_SUCCES'] = '%s has been successfully credited to your account';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">אין לך בונוסים זמינים. More seeding!</span>';
 $lang['BONUS_RETURN'] = 'לחזור להחלפת בונוס זרע';
 
@@ -1047,21 +1047,21 @@ $lang['TRACKER'] = 'טרקר';
 $lang['RANDOM_RELEASE'] = 'שחרור אקראי';
 $lang['OPEN_TOPICS'] = 'פתיחת נושאים';
 $lang['OPEN_IN_SAME_WINDOW'] = 'פתיחה באותו חלון';
-$lang['SHOW_TIME_TOPICS'] = 'הצגת זמן יצירת הנושאים';
+$lang['SHOW_TIME_TOPICS'] = 'show topic creation time';
 $lang['SHOW_CURSOR'] = 'הדגשת השורה מתחת לסמן';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = 'עם יחס <b>%s</b> אתה לא יכול להוריד טורנטים';
-$lang['BT_RATIO_WARNING_MSG'] = 'אם היחס שלך יורד מתחת ל-%s, לא תוכל להוריד טורנטים! <a href="%s"><b>עוד על הדירוג.</b></a>';
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Your ratio of <b>%s</b> is too low to download torrents';
+$lang['BT_RATIO_WARNING_MSG'] = 'If your ratio falls below %s, you will not be able to download torrents! <a href="%s"><b>More about ratio.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'seed לא ראיתי: <b>%s</b>';
 
 $lang['NEED_TO_LOGIN_FIRST'] = 'אתה צריך להתחבר קודם';
-$lang['ONLY_FOR_MOD'] = 'אפשרות זו רק עבור מנהלים';
-$lang['ONLY_FOR_ADMIN'] = 'אפשרות זו רק עבור מנהלים';
-$lang['ONLY_FOR_SUPER_ADMIN'] = 'אפשרות זו רק עבור סופר מנהלים';
+$lang['ONLY_FOR_MOD'] = 'This option is only for moderators';
+$lang['ONLY_FOR_ADMIN'] = 'This option is only for admins';
+$lang['ONLY_FOR_SUPER_ADMIN'] = 'This option is only for super admins';
 
 $lang['LOGS'] = 'היסטוריית הנושא.';
-$lang['FORUM_LOGS'] = 'פורום היסטוריה';
+$lang['FORUM_LOGS'] = 'Forum History';
 $lang['AUTOCLEAN'] = 'Autoclean';
 $lang['DESIGNER'] = 'מעצב';
 
@@ -1163,16 +1163,16 @@ $lang['SWITCH'] = 'ממתג';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'הגדל/הקטן את החלון';
 $lang['EMPTY_TOPIC_ID'] = 'חסר מזהה נושא';
 $lang['TOR_NOT_FOUND'] = 'הקובץ חסר מהשרת';
-$lang['ERROR_BUILD'] = 'התוכן של קובץ הטורנט לא ניתן לצפות באתר (לא ניתן היה לבנות רשימה של קבצים)';
+$lang['ERROR_BUILD'] = 'The content of this torrent cannot be displayed (failed to build file list)';
 $lang['TORFILE_INVALID'] = 'קובץ הטורנט פגום';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"האתר" עשוי להכיל רק http://sitename';
 $lang['PROFILE_USER'] = 'הצגת פרופיל';
-$lang['GOOD_UPDATE'] = 'שונה בהצלחה';
+$lang['GOOD_UPDATE'] = 'successfully updated';
 $lang['UCP_DOWNLOADS'] = 'הורדות';
 $lang['HIDE_DOWNLOADS'] = 'להסתיר את הרשימה הנוכחית של ההורדות בפרופיל שלך';
-$lang['BAN_USER'] = 'כדי למנוע מהמשתמש';
+$lang['BAN_USER'] = 'User restrictions';
 $lang['USER_NOT_ALLOWED'] = 'משתמשים אינם רשאים';
 $lang['HIDE_AVATARS'] = 'הראה תמונות פרופיל';
 $lang['SHOW_CAPTION'] = 'להראות את החתימה שלך';
@@ -1183,15 +1183,15 @@ $lang['NEW_THREADS'] = 'נושאים חדשים';
 $lang['PROFILE_NOT_FOUND'] = 'לא נמצא פרופיל';
 
 $lang['USER_DELETE_EXPLAIN'] = 'למחוק את המשתמש הזה';
-$lang['USER_DELETE_ME'] = 'מצטער, החשבון שלך אסור למחוק!';
-$lang['USER_DELETE_CSV'] = 'מצטער, חשבון זה אינו מורשה למחוק!';
+$lang['USER_DELETE_ME'] = 'Sorry, your account cannot be deleted!';
+$lang['USER_DELETE_CSV'] = 'Sorry, this account cannot be deleted!';
 $lang['USER_DELETE_CONFIRM'] = 'אתה בטוח שאתה רוצה למחוק את המשתמש הזה?';
 $lang['USER_DELETED'] = 'המשתמש נמחק בהצלחה';
 $lang['DELETE_USER_ALL_POSTS'] = 'למחוק את כל הודעות המשתמש';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'אתה בטוח שאתה רוצה למחוק את כל ההודעות ואת כל הנושאים שנפתחו על ידי משתמש זה?';
-$lang['DELETE_USER_POSTS'] = 'מחק את כל ההודעות, מלבד הודעות הראשונות';
+$lang['DELETE_USER_POSTS'] = 'Delete all posts except the first post in each topic';
 $lang['DELETE_USER_POSTS_ME'] = 'אתה בטוח שאתה רוצה למחוק את כל ההודעות שלי?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'האם אתה בטוח שאתה רוצה למחוק את כל ההודעות, מלבד הודעות הראשונות?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all posts except the first post in each topic?';
 $lang['USER_DELETED_POSTS'] = 'ההודעות נמחקו בהצלחה';
 
 $lang['USER'] = 'המשתמש';
@@ -1199,21 +1199,21 @@ $lang['ROLE'] = 'תפקיד:';
 $lang['MEMBERSHIP_IN'] = 'חברות';
 $lang['PARTY'] = 'המסיבה:';
 $lang['CANDIDATE'] = 'המועמד:';
-$lang['INDIVIDUAL'] = 'יש זכויות פרט';
+$lang['INDIVIDUAL'] = 'Has individual rights';
 $lang['GROUP_LIST_HIDDEN'] = 'אתה לא מורשה להציג קבוצות מוסתרות';
 
 $lang['USER_ACTIVATE'] = 'הפעל';
 $lang['USER_DEACTIVATE'] = 'ביטול';
 $lang['DEACTIVATE_CONFIRM'] = 'האם אתה בטוח שאתה רוצה להשבית את המשתמש הזה?';
 $lang['USER_ACTIVATE_ON'] = 'משתמש כבר הופעל בהצלחה';
-$lang['USER_DEACTIVATE_ME'] = 'אתה לא יכול לבטל את החשבון שלי!';
-$lang['ACTIVATE_CONFIRM'] = 'אתה בטוח שאתה רוצה לבטל את המשתמש הזה?';
+$lang['USER_DEACTIVATE_ME'] = 'You cannot deactivate your own account!';
+$lang['ACTIVATE_CONFIRM'] = 'Are you sure you want to activate this user?';
 $lang['USER_ACTIVATE_OFF'] = 'המשתמש בוטל בהצלחה';
 
 // Register
-$lang['CHOOSE_A_NAME'] = 'אתה צריך לבחור שם';
-$lang['CHOOSE_E_MAIL'] = 'עליך לציין את האימייל';
-$lang['CHOOSE_PASS'] = 'שדה הסיסמה לא חייב להיות ריק!';
+$lang['CHOOSE_A_NAME'] = 'Please choose a username';
+$lang['CHOOSE_E_MAIL'] = 'You must provide an email address';
+$lang['CHOOSE_PASS'] = 'The password field must not be empty!';
 $lang['CHOOSE_PASS_ERR'] = 'הסיסמאות לא תואמות';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'הסיסמה חייבת להיות לפחות %d תווים';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'הסיסמה שלך לא יכולה להיות ארוכה מ-%d תווים';
@@ -1224,7 +1224,7 @@ $lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'הסיסמה חייבת לכלול לפ�
 $lang['CHOOSE_PASS_OK'] = 'הסיסמאות תואמות';
 $lang['CHOOSE_PASS_REG_OK'] = 'הסיסמאות תואמות, אתה יכול להמשיך עם הרישום';
 $lang['CHOOSE_PASS_FAILED'] = 'כדי לשנות את הסיסמה, אתה חייב לציין את הסיסמה הנוכחית בצורה נכונה';
-$lang['EMAILER_DISABLED'] = 'מצטער, תכונה זו לא פועלת באופן זמני';
+$lang['EMAILER_DISABLED'] = 'Sorry, this feature is temporarily unavailable';
 $lang['REGISTERED_IN_TIME'] = 'הרישום סגור כעת<br /><br />הרישום זמין במהלך: %s<br />שעת השרת הנוכחית: %s<br /><br />אנו מתנצלים על אי הנוחות';
 $lang['AUTOCOMPLETE'] = 'צור סיסמא';
 $lang['YOUR_NEW_PASSWORD'] = 'את הסיסמה החדשה:';
@@ -1247,8 +1247,8 @@ $lang['HOW_TO_DOWNLOAD'] = 'איך להוריד?';
 $lang['WHAT_IS_A_TORRENT'] = 'מה זה טורנט?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'דירוג ומגבלות';
 
-$lang['SCREENSHOTS_RULES'] = 'לקרוא את הכללים המפורטים בצילומי מסך!';
-$lang['AJAX_EDIT_OPEN'] = 'האם כבר פתחת עריכה מהירה אחת?';
+$lang['SCREENSHOTS_RULES'] = 'Read the screenshot posting rules!';
+$lang['AJAX_EDIT_OPEN'] = 'You already have a quick edit session open!';
 $lang['GO_TO_PAGE'] = 'עבור לעמוד ...';
 $lang['EDIT'] = 'עריכה';
 $lang['SAVE'] = 'שמור';
@@ -1256,8 +1256,8 @@ $lang['NEW_WINDOW'] = 'בחלון חדש';
 
 // BB Code
 $lang['ALIGN'] = 'יישור:';
-$lang['LEFT'] = 'משמאל';
-$lang['RIGHT'] = 'מימין';
+$lang['LEFT'] = 'Left';
+$lang['RIGHT'] = 'Right';
 $lang['CENTER'] = 'במרכז';
 $lang['JUSTIFY'] = 'מתאים לרוחב';
 $lang['HOR_LINE'] = 'קו אופקי (Ctrl+8)';
@@ -1293,7 +1293,7 @@ $lang['OLD'] = 'ישן';
 
 // DL-List
 $lang['DL_USER'] = 'שם משתמש';
-$lang['DL_PERCENT'] = 'אחוז הושלם';
+$lang['DL_PERCENT'] = 'Completion %';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL.';
 $lang['DL_UL_SPEED'] = 'UL מהירות';
@@ -1323,12 +1323,12 @@ $lang['EDIT_MY_MESSAGE_LIST'] = 'ערוך רשימה של ההודעות שלי.
 $lang['SELECT_INVERT'] = 'בחר / הפוך';
 $lang['RESTORE_ALL_POSTS'] = 'שחזר את כל ההודעות.';
 $lang['DEL_LIST_MY_MESSAGE'] = 'מחק את הנושא הנבחר מהרשימה.';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'לאחר ההסרה ועדכון ה<b>רשימה כולה</b>, ייתכן שיוצגו אשכולות שכבר נמחקו';
-$lang['DEL_LIST_INFO'] = 'כדי למחוק פריט מהרשימה, לחץ על הסמל משמאל לשם של כל סעיף';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'After removal, the <b>full list</b> may still show previously deleted threads until it is refreshed';
+$lang['DEL_LIST_INFO'] = 'To remove an entry from the list, click the icon to the left of any section name';
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'נושאים במעקב';
-$lang['NO_WATCHED_TOPICS'] = 'אין נושאים במעקב';
+$lang['NO_WATCHED_TOPICS'] = 'Not watching any topics';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'חזרה לעמוד הבית';
@@ -1363,7 +1363,7 @@ $lang['WORD_CENSOR'] = 'המילה מצנזרים';
 $lang['CRON'] = 'מתזמן המשימות (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'לבנות מחדש אינדקס החיפוש';
 $lang['FORUM_CONFIG'] = 'פורום הגדרות';
-$lang['ACTIONS_LOG'] = 'דו " ח על פעולה';
+$lang['ACTIONS_LOG'] = 'Actions log';
 
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'מצב העברת מסד הנתונים';
@@ -1399,7 +1399,7 @@ $lang['CREATE_PROFILE'] = 'צור פרופיל';
 
 $lang['TP_VERSION'] = 'גרסה של TorrentPier.';
 $lang['TP_RELEASE_DATE'] = 'תאריך שחרור';
-$lang['PHP_INFO'] = 'מידע על PHP';
+$lang['PHP_INFO'] = 'PHP information';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'לחץ על %sכאן%s לחזור למנהל אינדקס';
 
@@ -1484,7 +1484,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'למחוק';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'דביק';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'להכריז';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'הצבעה';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'סקר ליצור';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Create poll';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'הצבת קבצים';
 $lang['AUTH_DOWNLOAD'] = 'הורד קבצים';
 
@@ -1496,7 +1496,7 @@ $lang['APPLY_TO_SUBFORUMS'] = 'החל על פורומים משניים';
 
 $lang['AUTH_UPDATED'] = 'הרשאות עודכנו';
 $lang['AUTH_GENERAL_ERROR'] = 'לא ניתן לעדכן את הסטטוס של המנהל';
-$lang['AUTH_SELF_ERROR'] = 'לא ניתן לשנות את עצמך ממנהל למשתמש';
+$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to a user';
 $lang['NO_FORUMS_AVAILABLE'] = 'אין פורומים זמינים. צור פורומים קודם כדי לנהל הרשאות.';
 $lang['CLICK_RETURN_USERAUTH'] = 'לחץ על %sכאן%s לחזור להרשאות משתמש';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'לחץ על %sכאן%s לחזור להרשאות הקבוצה';
@@ -1738,7 +1738,7 @@ $lang['CHANGELOG'] = 'יומן שינויים';
 $lang['MAX_LOGIN_ATTEMPTS'] = 'מספר הנסיונות המותרים להיכנס.';
 $lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'מספר הנסיונות המותרים להתחברות ללוח.';
 $lang['LOGIN_RESET_TIME'] = 'זמן נעילת התחברות.';
-$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'הזמן בדקות שהמשתמש צריך לחכות עד שיגיע לו להיכנס שוב לאחר שהחמיר את מספר ניסיונות ההתחברות המותרים.';
+$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Time in minutes the user has to wait before they can log in again after exceeding the allowed number of login attempts.';
 
 // Permissions List
 $lang['PERMISSIONS_LIST'] = 'רשימת הרשאות';
@@ -1775,23 +1775,23 @@ $lang['SF_NO_PARENT'] = 'אין פורום אב.';
 $lang['SYNC'] = 'סנכרון.';
 
 // Mods
-$lang['MAX_NEWS_TITLE'] = 'אורך מקסימלי של חדשות.';
+$lang['MAX_NEWS_TITLE'] = 'Max. news title length';
 $lang['NEWS_COUNT'] = 'כמה פריטי חדשות להציג';
 $lang['NEWS_FORUM_ID'] = 'מאילו פורומים להציג <br /> <h6>עבור כמה פורומים, ציין מזהים מופרדים בפסיקים. דוגמה: 1,2,3</h6>';
-$lang['TRACKER_STATS'] = 'נתונים סטטיסטיים על הגשש.';
-$lang['WHOIS_INFO'] = 'מידע על כתובת ה-IP';
-$lang['SHOW_MOD_HOME_PAGE'] = 'להציג למנהלים ב-index.php.';
+$lang['TRACKER_STATS'] = 'Tracker statistics';
+$lang['WHOIS_INFO'] = 'IP address information';
+$lang['SHOW_MOD_HOME_PAGE'] = 'Show moderators on the homepage (index.php)';
 $lang['SHOW_BOARD_STARTED_INDEX'] = 'הצג תאריך התחלה של לוח בע index.php';
-$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> לפני moderציה</h4> <h6>אם אין לך הפצות למעמד v, #, או T בסעיף זה, כולל סעיפים קטנים, ההפצה תקבל אוטומטית את המעמד הזה.</h6>';
-$lang['TOR_COMMENT'] = '<h4>הערה על מצב ההפצה</h4> <h6>ההערה מאפשרת לך להצביע על הטעויות שנעשו לשחרר. אם הסטטוסים חסרים, טופס תגובה לשחרור זמין למנהל השחרור כדי לתקן את השחרור.</h6>';
-$lang['SEED_BONUS_ADD'] = '<h4>הוספת בונוס זרע</h4> <h6> מספר ההפצות שחולקו על ידי המשתמש וגובה הבונוסים עבורן (טעינה לשעה).</h6>';
-$lang['SEED_BONUS_RELEASE'] = 'כדי N-מספר מהדורות.';
-$lang['SEED_BONUS_POINTS'] = 'בונוסים לשעה.';
-$lang['SEED_BONUS_TOR_SIZE'] = '<h4>הפצה מינימלית אשר יוענקו בונוסים</h4> <h6> אם אתה רוצה לחשב בונוסים לכל ההפצות, השאר ריק.</h6>';
-$lang['SEED_BONUS_USER_REGDATA'] = '<h4>אורך מינימלי של משתמש גשש, לאחריו יוענקו בונוסים.</h4> <h6> אם אתה רוצה לצבור בונוסים לכל המשתמשים, השאר ריק.</h6>';
+$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If there are no torrents with status v, #, or T in this section and its subsections, new distributions will automatically receive this status</h6>';
+$lang['TOR_COMMENT'] = '<h4>Comment on the status of a distribution</h4> <h6>The comment allows you to point out errors in the release. If corrections are needed, a response form becomes available to the uploader to fix the release</h6>';
+$lang['SEED_BONUS_ADD'] = '<h4>Seed bonus rules</h4> <h6>Number of torrents being seeded by the user and the corresponding bonus points awarded per hour</h6>';
+$lang['SEED_BONUS_RELEASE'] = 'up to N releases';
+$lang['SEED_BONUS_POINTS'] = 'bonus points per hour';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum torrent size to qualify for bonus points</h4> <h6>Leave blank to award bonuses for all torrents regardless of size.</h6>';
+$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum user account age to qualify for bonus points</h4> <h6>Leave blank to award bonuses to all users regardless of account age.</h6>';
 $lang['SEED_BONUS_WARNING'] = 'שימו לב! בונוסים זרע צריכים להיות בסדר עולה.';
-$lang['SEED_BONUS_EXCHANGE'] = 'קביעת התצורה של בונוסים להחלפת סיד.';
-$lang['SEED_BONUS_ROPORTION'] = 'שיעור התוספת להחלפת בונוסים על ג\'יגה בייט.';
+$lang['SEED_BONUS_EXCHANGE'] = 'Configuring exchange seed bonuses';
+$lang['SEED_BONUS_ROPORTION'] = 'Exchange rate: bonus points to GB of upload credit';
 
 $lang['ALLOWED'] = 'מותר';
 $lang['RETURN_CONFIG'] = '%sחזור לתצורה%s.';
@@ -1815,7 +1815,7 @@ $lang['BT_DISABLE_DHT_EXPL'] = 'השבת את Peer Exchange ו‑DHT (מומלץ
 $lang['BT_PRIVATE_TRACKER'] = 'הטרקר הזה פרטי: הצגת קבצים (לאורחים), DHT ו‑PEX מושבתים';
 $lang['BT_PRIVATE_TORRENT'] = 'היוצר של טורנט זה הפך אותו לפרטי';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'אמת כתובת ה‑announce';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'רשום בטרקר רק כתובות URL המורשות';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'only register allowed URLs on the tracker';
 $lang['BT_REPLACE_ANN_URL'] = 'החלף כתובת ה‑announce';
 $lang['BT_REPLACE_ANN_URL_EXPL'] = 'החלף את כתובת ה‑announce המקורית בכתובת ברירת המחדל שלך בקבצי .torrent';
 $lang['BT_DEL_ADDIT_ANN_URLS'] = 'הסר את כל כתובות ה‑announce הנוספות';
@@ -1861,7 +1861,7 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'שנו את מצב הנושא ל"נור
 // Release
 $lang['TEMPLATE_DISABLE'] = 'התבנית מושבתת.';
 $lang['FOR_NEW_TEMPLATE'] = 'עבור תבניות חדשות!';
-$lang['QUESTION'] = 'אשר, האם אתה בטוח שאתה רוצה לבצע פעולה זו?';
+$lang['QUESTION'] = 'Are you sure you want to perform this action?';
 
 $lang['CRON_LIST'] = 'רשימת cron.';
 $lang['CRON_ID'] = 'ID';
@@ -1886,7 +1886,7 @@ $lang['CRON_RUN'] = 'הרץ.';
 $lang['CRON_DEL'] = 'למחוק';
 $lang['CRON_DISABLE'] = 'השבת';
 $lang['CRON_ENABLE'] = 'לאפשר';
-$lang['DELETE_JOB'] = 'האם אתה בטוח שאתה רוצה למחוק את העבודה ב-cron?';
+$lang['DELETE_JOB'] = 'Are you sure you want to delete this cron job?';
 $lang['CRON_WORKS'] = 'Cron פועל כעת או שבור -> ';
 $lang['REPAIR_CRON'] = 'תקן את ה-Cron.';
 
@@ -1901,11 +1901,11 @@ $lang['SCHEDULE'] = [
     'monthly' => 'חודשי',
     'interval' => 'מרווח',
 ];
-$lang['NOSELECT'] = 'לא בחר';
+$lang['NOSELECT'] = 'Not selected';
 $lang['RUN_DAY'] = 'לרוץ היום';
-$lang['RUN_DAY_EXPL'] = 'היום, כאשר העבודה הזו רצה.';
+$lang['RUN_DAY_EXPL'] = 'the day this job runs';
 $lang['RUN_TIME'] = 'זמן ריצה';
-$lang['RUN_TIME_EXPL'] = 'הזמן שבו העבודה הזו תרוץ (למשל, 05:00:00)';
+$lang['RUN_TIME_EXPL'] = 'the time this job runs (e.g. 05:00:00)';
 $lang['RUN_ORDER'] = 'סדר ריצה';
 $lang['LAST_RUN'] = 'הריצה האחרונה';
 $lang['NEXT_RUN'] = 'הריצה הבאה';
@@ -1913,7 +1913,7 @@ $lang['RUN_INTERVAL'] = 'מרווח ריצה';
 $lang['RUN_INTERVAL_EXPL'] = 'למשל 00:10:00';
 $lang['LOG_ENABLED'] = 'יומן זמין';
 $lang['LOG_FILE'] = 'קובץ יומן רישום';
-$lang['LOG_FILE_EXPL'] = 'הקובץ לשמור את הלוג';
+$lang['LOG_FILE_EXPL'] = 'the file to save the log to';
 $lang['LOG_SQL_QUERIES'] = 'יומן שאילתות SQL';
 $lang['FORUM_DISABLE'] = 'להשבית את הלוח';
 $lang['BOARD_DISABLE_EXPL'] = 'להשבית את הלוח כאשר העבודה הזו רצה.';
@@ -1933,7 +1933,7 @@ $lang['STARTING_POST_ID'] = 'החל post_id';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'הפוסט הראשון שבו העיבוד יתחיל<br />אתה יכול לבחור להתחיל מההתחלה או מההודעה שבה הפסקת לאחרונה.';
 
 $lang['START_OPTION_BEGINNING'] = 'להתחיל מההתחלה';
-$lang['START_OPTION_CONTINUE'] = 'להמשיך מההפסקה האחרונה';
+$lang['START_OPTION_CONTINUE'] = 'continue from where you last stopped';
 
 $lang['CLEAR_SEARCH_TABLES'] = 'נקי את שולחנות החיפוש';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
@@ -1957,7 +1957,7 @@ $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>לשרת האינטרנט שלך י�
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'אתה האחרון הפסיק את הטיפול ב-post_id %s (%s מעובד פוסטים) על %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'אתה האחרון שהפסיק את העיבוד ב-post_id %s (%s פוסטים מעובדים) על %s';
-$lang['INFO_PROCESSING_ABORTED_SOON'] = 'אנא המתן כמה דקות לפני שתמשיך';
+$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Please wait a few minutes before you continue...';
 $lang['INFO_PROCESSING_FINISHED'] = 'בהצלחה, סיימתי את עיבוד (%s מעובד פוסטים) על %s';
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'סיימתי בהצלחה את העיבוד ב-post_id %s (%s פוסטים מעובדים) על %s,<br />אבל היו %s פוסטים חדשים אחרי תאריך זה.';
 
@@ -2005,12 +2005,12 @@ $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'הנושא הועבר מפורום [b]%s[/b]
 $lang['BOT_MESS_SPLITS'] = 'הנושא מפוצל. נושא חדש - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'הנושא פוצל מ[b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'קרא את הזרעים';
-$lang['CALLSEED_EXPLAIN'] = 'שימו לב עם בקשה לחזור להפצה.';
-$lang['CALLSEED_SUBJECT'] = 'הורד עזרה %s';
-$lang['CALLSEED_TEXT'] = 'שלום![br]דרושה עזרה לשחרור [url=%s]%s[/url][br]אם אתה מחליט לעזור, אך כבר מחקת את קובץ הטורנט, תוכל להוריד אותו [url=%s]כאן[/url][br][br]אני מקווה לעזרתך!';
-$lang['CALLSEED_MSG_OK'] = 'ההודעה נשלחה לכל מי שהוריד את שחרור זה';
-$lang['CALLSEED_MSG_SPAM'] = 'הבקשה כבר נשלחה פעם אחת בהצלחה (כנראה לא אתה)<br /><br />ההזדמנות הבאה לשלוח בקשה להיות <b>%s</b>.';
+$lang['CALLSEED'] = 'Call seeders';
+$lang['CALLSEED_EXPLAIN'] = 'Notify seeders with a request to resume seeding this release';
+$lang['CALLSEED_SUBJECT'] = 'Seeding help needed: %s';
+$lang['CALLSEED_TEXT'] = 'Hello![br]Your help is needed for the release [url=%s]%s[/url][br]If you want to help but have already deleted the torrent file, you can download it [url=%s]here[/url][br][br]Your help would be greatly appreciated!';
+$lang['CALLSEED_MSG_OK'] = 'Request has been sent to everyone who has downloaded this release';
+$lang['CALLSEED_MSG_SPAM'] = 'A request has already been sent recently (possibly not by you).<br /><br />The next request can be sent on <b>%s</b>.';
 $lang['CALLSEED_HAVE_SEED'] = 'הנושא אינו דורש עזרה (<b>Seeders:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
@@ -2036,8 +2036,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_post_pin' => 'פוסט:<br /> <b>ודבק</b>',
     'mod_post_unpin' => 'פוסט:<br /> <b>לא הודבק</b>',
     'adm_user_delete' => 'משתמש:<br /> <b>נמחק</b>',
-    'adm_user_ban' => 'משתמש:<br /> <b>הוגן</b>',
-    'adm_user_unban' => 'משתמש:<br /> <b>שוחרר</b>',
+    'adm_user_ban' => 'User:<br /> <b>banned</b>',
+    'adm_user_unban' => 'User:<br /> <b>unbanned</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'כל הפעולות';
@@ -2065,7 +2065,7 @@ $lang['NEW_RELEASE'] = 'פרסום חדש';
 $lang['NEXT'] = 'המשך';
 $lang['ALL'] = 'כל';
 
-$lang['TPL_EMPTY_FIELD'] = 'אתה חייב למלא את שדה <b>%s</b>.';
+$lang['TPL_EMPTY_FIELD'] = 'You must fill in the field <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'עליך לבחור <b>%s</b>.';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - לא מספר';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - חייב להיות https:// URL';
@@ -2104,7 +2104,7 @@ $lang['SEARCH_FOR_EMAIL'] = 'מחפשים קלודרות דוא"ל לא חוקי
 $lang['SEARCH_FOR_IP'] = 'מחפשים כתובות IP תואמות %s.';
 $lang['SEARCH_FOR_DATE'] = 'מחפשים מי שהצטרף %s %d/%d/%d.';
 $lang['SEARCH_FOR_GROUP'] = 'מחפש קבוצה של חברים %s.';
-$lang['SEARCH_FOR_RANK'] = 'מחפש ספקים בדרגה של %s.';
+$lang['SEARCH_FOR_RANK'] = 'Searching users with rank %s';
 $lang['SEARCH_FOR_BANNED'] = 'מחפש להשתמש במשתמשים המוגבלים.';
 $lang['SEARCH_FOR_ADMINS'] = 'מחפש מנהלים.';
 $lang['SEARCH_FOR_MODS'] = 'מחפש מנהלים.';
@@ -2129,14 +2129,14 @@ $lang['SEARCH_USERNAME_EXPLAIN'] = 'כאן אתה יכול לבצע חיפוש �
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'הזן ביטוי כדי להתאים את כתובת המייל של המשתמש.';
 $lang['SEARCH_IP_EXPLAIN'] = 'חיפוש משתמשים לפי כתובת IP ספציפית (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'משתמשים שהצטרפו';
-$lang['SEARCH_USERS_LASTVISITED'] = 'משתמשים שביקרו.';
+$lang['SEARCH_USERS_LASTVISITED'] = 'Users who have visited';
 $lang['IN_THE_LAST'] = 'בזמן האחרון';
 $lang['AFTER_THE_LAST'] = 'לאחר האחרון.';
 $lang['BEFORE'] = 'לפני';
 $lang['AFTER'] = 'אחרי';
-$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'חיפוש משתמשים שהצטרפו לפני או אחרי (כולל) תאריך מסוים.';
+$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Search for users who joined before or after a specific date. The date format is YYYY/MM/DD.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'הצג את כל חברי הקבוצה שנבחרו.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'הצג את כל נושאי הדרגה שנבחרה.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'View all users with the selected rank.';
 $lang['BANNED_USERS'] = 'משתמשים שהוטלו עליהם מגבלות.';
 $lang['DISABLED_USERS'] = 'משתמשים נכים.';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'מנהלי מערכת - כל המשתמשים בעלי סמכויות מנהל; מנחים - כל מנהלי הפורום; משתמשים אסורים - כל החשבונות שנאסרו בפורומים אלו; משתמשים מושבתים - כל המשתמשים עם חשבונות מושבתים (או שהשבתו ידנית או שמעולם לא אימתו את כתובת האימייל שלהם); משתמשים עם PM מושבתים - בוחר משתמשים שהוסרו להם הרשאות ההודעות הפרטיות (בוצע באמצעות ניהול משתמשים)';
@@ -2169,7 +2169,7 @@ $lang['MC_TITLE'] = 'הערת מנחה';
 $lang['MC_LEGEND'] = 'הקלד תגובה.';
 $lang['MC_FAQ'] = 'הזנת טקסט יוצג תחת הודעה זו';
 $lang['MC_COMMENT_PM_SUBJECT'] = '%s בהודעה שלך.';
-$lang['MC_COMMENT_PM_MSG'] = "שלום, [b]%s[/b]\nהמנחה השאיר לך הודעה [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "Hello, [b]%s[/b]\nA moderator has left a comment on your post [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',
