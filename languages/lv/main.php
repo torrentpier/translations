@@ -160,8 +160,8 @@ $lang['LOGOUT'] = 'Iziet ārā';
 $lang['CONFIRM_LOGOUT'] = 'Vai tiešām vēlaties iziet?';
 
 $lang['FORGOTTEN_PASSWORD'] = 'Parole aizmirsta?';
-$lang['AUTO_LOGIN'] = 'Log me in automatically';
-$lang['ERROR_LOGIN'] = 'The username or password you entered is incorrect.';
+$lang['AUTO_LOGIN'] = 'Automaģiska pieteikšanās';
+$lang['ERROR_LOGIN'] = 'Ievadītais lietotājvārds vai parole ir nepareizi.';
 $lang['REMEMBER'] = 'Atcerēties';
 $lang['USER_WELCOME'] = 'Sveiciens,';
 
@@ -228,7 +228,7 @@ $lang['WROTE'] = 'rakstīja'; // proceeds the username and is followed by the qu
 $lang['QUOTE'] = 'Citāts'; // comes before bbcode quote output
 $lang['CODE'] = 'Kods'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'slēpto tekstu';
-$lang['SPOILER_CLOSE'] = 'close';
+$lang['SPOILER_CLOSE'] = 'aizvērt';
 $lang['PLAY_ON_CURPAGE'] = 'Sākt spēlēt uz pašreizējo lapu';
 
 $lang['EDITED_TIME_TOTAL'] = 'Pēdējais labojis <b>%s</b> par %s; rediģēts %d reizi kopā'; // Last edited by me on 12 Oct 2001; edited 1 time in total
@@ -271,11 +271,11 @@ $lang['POST_TOPIC_AS'] = 'Publicēt tēmu kā';
 $lang['EDIT_POST'] = 'Rediģēt ierakstu';
 $lang['EDIT_TOPIC_TITLE'] = 'Edit tēmas nosaukums';
 
-$lang['DONT_MESSAGE_TITLE'] = 'You must specify a message title';
-$lang['INVALID_TOPIC_ID'] = 'Topic not found!';
+$lang['DONT_MESSAGE_TITLE'] = 'Jānorāda ziņojuma tēmas virsraksts';
+$lang['INVALID_TOPIC_ID'] = 'Tēma nav atrasta!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Tēma neeksistē datu bāzē!';
 
-$lang['NOT_EDIT_TOR_STATUS'] = 'You cannot edit release with this status';
+$lang['NOT_EDIT_TOR_STATUS'] = 'Jūs nevarat rediģēt laidienu ar šo statusu';
 
 $lang['OPTIONS'] = 'Iespējas';
 
@@ -326,7 +326,7 @@ $lang['UPDATE'] = 'Update';
 $lang['DAYS'] = 'Dienas';
 $lang['DELETE_POLL'] = 'Dzēst aptauju.';
 
-$lang['MAX_SMILIES_PER_POST'] = 'Emoticon limit of %s exceeded.';
+$lang['MAX_SMILIES_PER_POST'] = 'Emotikonu limits %s ir pārsniegts.';
 
 $lang['NOTIFY'] = 'Paziņot man par atbildēm';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Atļaut robotiem indeksēt šo tēmu';
@@ -418,7 +418,7 @@ $lang['SELECT_USERNAME'] = 'Izvēlieties Lietotājvārdu';
 $lang['NO_MATCH'] = 'Nav atrasta neviena atbilstība.';
 
 $lang['NO_PM_ID'] = 'Lūdzu, norādiet pastu ID';
-$lang['NO_SUCH_FOLDER'] = 'Folder not found';
+$lang['NO_SUCH_FOLDER'] = 'Mape nav atrasta';
 
 $lang['MARK_ALL'] = 'Atzīmēt visu';
 $lang['UNMARK_ALL'] = 'Atzīmēt visus';
@@ -466,7 +466,7 @@ $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Atvainojiet, bet jūsu parole nevar tikt at
 $lang['NO_SEND_ACCOUNT'] = 'Atvainojiet, bet jūsu paroli nevar izgūt. Lūdzu, sazinieties ar foruma administratoru, lai saņemtu plašāku informāciju';
 
 $lang['HIDE_PORN_FORUMS'] = 'Paslēpt saturu 18+';
-$lang['ADD_RETRACKER'] = 'Add retracker to torrent files';
+$lang['ADD_RETRACKER'] = 'Pievienot retracker torrenta failiem';
 $lang['ALWAYS_NOTIFY'] = 'Vienmēr informēt mani par atbildēm';
 $lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Nosūta e-pastu, kad kāds atbild uz tēmu, kurā esat postējis. Tas var mainīties, kad jūs publicējat.';
 
@@ -484,7 +484,7 @@ $lang['HAPPY_BIRTHDAY'] = 'Daudz Laimes Dzimšanas Dienā!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Dzimšanas dienas forma tika ievadīta nepareizi.';
 $lang['AGE'] = 'Vecums';
 $lang['BIRTHDAY_TO_HIGH'] = 'Atvainojiet, šī vietne nepieņem lietotājus, kas vecāki par %d gadiem';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept users younger than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Atvainojiet, šī vietne nepieņem lietotājus, kas jaunāki par %d gadiem';
 $lang['BIRTHDAY_TODAY'] = 'Lietotājiem ar dzimšanas dienas šodien: ';
 $lang['BIRTHDAY_WEEK'] = 'Lietotājiem ar dzimšanas diena nākamo %d dienas: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Neviens no lietotājiem, kuriem tuvākajos %d dienās ir dzimšanas diena'; // %d is substituted with the number of days
@@ -499,10 +499,10 @@ $lang['TIMEZONE'] = 'Laika josla';
 $lang['DATE_FORMAT_EXPLAIN'] = 'To izmanto sintakse ir identiska PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> funkciju.';
 $lang['SIGNATURE'] = 'Paraksts';
 $lang['SIGNATURE_EXPLAIN'] = 'Tas ir teksta bloks, kas var tikt pievienots amatiem, ko veicat. Ir %d rakstzīmju limits.';
-$lang['SIGNATURE_DISABLE'] = 'Signature disabled due to forum rule violation';
+$lang['SIGNATURE_DISABLE'] = 'Paraksts atspējots foruma noteikumu pārkāpuma dēļ';
 $lang['PUBLIC_VIEW_EMAIL'] = 'Rādīt e-pasta adresi manā profilā';
 
-$lang['EMAIL_EXPLAIN'] = 'A verification email will be sent to this address to complete your registration';
+$lang['EMAIL_EXPLAIN'] = 'Lai pabeigtu reģistrāciju, uz šo adresi tiks nosūtīts apstiprinājuma e-pasts';
 
 $lang['CURRENT_PASSWORD'] = 'Pašreizējo paroli';
 $lang['NEW_PASSWORD'] = 'Jaunu paroli';
@@ -513,12 +513,12 @@ $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Jums tikai jāpārbauda parole, ja esat 
 
 $lang['AUTOLOGIN'] = 'Autologin';
 $lang['RESET_AUTOLOGIN'] = 'Atjaunināt autologin taustiņu';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'this will log you out of all devices where auto-login is enabled';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'tas jūs izrakstīs no visām ierīcēm, kur ir ieslēgta automātiskā pieteikšanās';
 
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Postos zem jūsu informācijas tiks parādīta maza grafiska bilde. Tikai viens attēls var tikt rādīts vienlaikus, tā platums nedrīkst pārsniegt %d pikseļus, augstums nedrīkst pārsniegt %d pikseļus un faila izmērs nedrīkst būt lielāks par %s.';
 $lang['AVATAR_DELETE'] = 'Dzēst avatar';
-$lang['AVATAR_DISABLE'] = 'Avatar upload disabled due to a violation of <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Avataru augšupielāde atspējota <a href="%s"><b>foruma noteikumu</b></a> pārkāpuma dēļ';
 $lang['UPLOAD_AVATAR_FILE'] = 'Augšupielādēt avataru';
 $lang['RETURN_PROFILE'] = 'Atgriezties profilu';
 $lang['DELETE_IMAGE'] = 'Dzēst attēlu';
@@ -535,8 +535,8 @@ $lang['PASSWORD_LONG'] = 'Jūsu parolei jābūt ne garākai par %d rakstzīmēm 
 $lang['USERNAME_TAKEN'] = 'Atvainojiet, bet šis lietotājvārds jau ir aizņemts.';
 $lang['USERNAME_INVALID'] = 'Atvainojiet, bet šis lietotājvārds satur nederīgu rakstzīmi';
 $lang['USERNAME_DISALLOWED'] = 'Atvainojiet, bet šis lietotājvārds ir aizliegts.';
-$lang['USERNAME_TOO_LONG'] = 'Your username is too long.';
-$lang['USERNAME_TOO_SMALL'] = 'Your username is too short.';
+$lang['USERNAME_TOO_LONG'] = 'Jūsu lietotājvārds ir pārāk garš.';
+$lang['USERNAME_TOO_SMALL'] = 'Jūsu lietotājvārds ir pārāk īss.';
 $lang['EMAIL_TAKEN'] = 'Atvainojiet, bet šī e-pasta adrese jau ir reģistrēta kā lietotājs.';
 $lang['EMAIL_INVALID'] = 'Atvainojiet, bet šī e-pasta adrese ir nederīga.';
 $lang['EMAIL_TOO_LONG'] = 'Jūsu e-pasta adrese ir pārāk gara.';
@@ -591,8 +591,8 @@ $lang['THANK_TOPIC'] = 'Balsot par šo tēmu';
 $lang['THANKS_GRATITUDE'] = 'Mēs novērtējam jūsu pateicību';
 $lang['LAST_LIKES'] = 'Pēdējās balsis';
 $lang['LIKE_OWN_POST'] = 'Jūs nevarat balsot par savu tēmu';
-$lang['NO_LIKES'] = 'Nobody has voted yet';
-$lang['LIKE_ALREADY'] = 'You have already voted for this topic';
+$lang['NO_LIKES'] = 'Neviens vēl nav balsojis';
+$lang['LIKE_ALREADY'] = 'Jūs jau esat balsojis par šo tēmu';
 
 // Invites
 $lang['INVITE_CODE'] = 'Ielūguma kods';
@@ -638,7 +638,7 @@ $lang['NO_GROUP_ID_SPECIFIED'] = 'Grupas ID nav norādīts';
 $lang['NO_GROUP_MEMBERS'] = 'Šai grupai nav biedru';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Šī grupa ir slēpta; nevarat aplūkot tās dalību.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Šai grupai nav gaidošo biedru.';
-$lang['GROUP_JOINED'] = 'You have successfully applied to join this group.<br />You will be notified when your membership is approved by the group moderator.';
+$lang['GROUP_JOINED'] = 'Jūs veiksmīgi pieteicāties dalībai šajā grupā.<br />Jūs tiksiet informēts, kad jūsu dalība tiks apstiprināta grupas moderatora.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Jūs esat jau šīs grupas dalībnieks,';
 $lang['USER_IS_MEMBER_GROUP'] = '%s jau ir šīs grupas dalībnieks';
 $lang['USER_IS_MOD_GROUP'] = '%s ir šīs grupas moderators';
@@ -804,7 +804,7 @@ $lang['SAMPLE_RATE'] = 'Paraugu ātrums: <b>%s</b>';
 $lang['AUDIO_TRACK'] = 'Audio joslas informācija (%d):';
 $lang['AUDIO_CODEC'] = 'Audio kodeks: <b title="%s">%s</b>';
 $lang['VIDEO_CODEC'] = 'Video kodeks: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about this file';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Parādīt vairāk informācijas par šo failu';
 $lang['DOWNLOAD_M3U_FILE'] = 'Lejupielādēt .m3u failu';
 $lang['PLAYBACK_M3U'] = 'Atskaņot .m3u failu';
 $lang['COPY_STREAM_LINK'] = 'Kopēt straumes saiti starpliktuvē';
@@ -836,7 +836,7 @@ $lang['BT_REG_YES'] = 'Reģistrēts';
 $lang['BT_REG_NO'] = 'Nav reģistrēts';
 $lang['BT_REG_ON_TRACKER'] = 'Reģistrēties tracker.';
 $lang['BT_REG_FAIL'] = 'Neizdevās reģistrēt torrent tracker.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Another torrent with the same info_hash is already <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Cits torrents ar to pašu info_hash jau ir <a href="%s"><b>reģistrēts</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'v1 tikai torenti pašlaik ir atslēgti, atļauts: v2 un hibrīdi';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'v2 tikai torenti pašlaik ir atslēgti, atļauts: v1 un hibrīdi';
 $lang['BT_FLIST'] = 'Failu saraksts';
@@ -877,15 +877,15 @@ $lang['MAGNET_v2'] = 'Magnēta saite (BitTorrent v2 atbalstīts)';
 //torrent status mod
 $lang['TOR_STATUS'] = 'Statuss';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Izvēlieties statuss';
-$lang['TOR_STATUS_NOT_SELECT'] = 'You have not selected a status.';
+$lang['TOR_STATUS_NOT_SELECT'] = 'Jūs neesat izvēlējies statusu.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Visi statusi';
 $lang['TOR_STATUS_FORBIDDEN'] = 'Šī temata statuss ir: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'nav pārbaudīts',
     TOR_CLOSED => 'slēgts',
     TOR_APPROVED => 'pārbaudīts',
-    TOR_NEED_EDIT => 'needs editing',
-    TOR_NO_DESC => 'incomplete',
+    TOR_NEED_EDIT => 'prasa rediģēšanu',
+    TOR_NO_DESC => 'nepilnīgs',
     TOR_DUP => 'dublikāts',
     TOR_CLOSED_CPHOLD => 'slēgts (autortiesības)',
     TOR_CONSUMED => 'absorbēts',
@@ -895,28 +895,28 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_PREMOD => 'priekšmērenība',
     TOR_REPLENISH => 'papildinājums',
 ];
-$lang['TOR_STATUS_FAILED'] = 'This status does not exist!';
+$lang['TOR_STATUS_FAILED'] = 'Šāds statuss neeksistē!';
 $lang['TORRENT_FAILED'] = 'Sadale netika atrasta!';
 $lang['TOR_STATUS_DUB'] = 'Sadales statuss ir tāds pats.';
-$lang['TOR_DONT_CHANGE'] = 'Change of status cannot be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Statusa maiņa nav iespējama!';
 $lang['TOR_STATUS_OF'] = 'Izplatīšanas statuss:';
 $lang['TOR_STATUS_CHANGED'] = 'Statuss mainīts:';
 $lang['TOR_BACK'] = ' atpakaļ';
 $lang['PROCEED'] = 'Turpināt';
-$lang['CHANGE_TOR_TYPE'] = 'Torrent type successfully changed';
+$lang['CHANGE_TOR_TYPE'] = 'Torrent tips veiksmīgi mainīts';
 $lang['DEL_TORRENT'] = 'Vai jūs esat pārliecināts, ka vēlaties dzēst torrent?';
 $lang['DEL_MOVE_TORRENT'] = 'Vai jūs esat pārliecināts, ka vēlaties dzēst un pārvietot tēmu?';
 $lang['UNEXECUTED_RELEASE'] = 'Jums ir nepabeigts izlaidums. Pirms izveidojat jaunu, lūdzu, pabeidziet to!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'Jaunais statuss: %s.<br/>Iepriekšējais statuss: %s.';
 
 // tor_comment
-$lang['TOR_MOD_TITLE'] = 'Distribution status changed – %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nThe status of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_TITLE'] = 'Izplatīšanas statuss mainīts – %s';
+$lang['TOR_MOD_MSG'] = "Sveiki, %s.\n\nJūsu [url=%s]izplatīšanas[/url] statuss ir mainīts uz [b]%s[/b]";
 
-$lang['TOR_AUTH_TITLE'] = 'Formatting changes requested – %s';
+$lang['TOR_AUTH_TITLE'] = 'Formatēšanas izmaiņas pieprasītas – %s';
 $lang['TOR_AUTH_MSG'] = "Sveiki, %s.\n\nJūsu izplatīšana ir mainījusies - [url=%s]%s[/url]\n\nLūdzu, pārbaudiet to vēlreiz.";
 $lang['TOR_AUTH_FIXED'] = 'Fiksēts.';
-$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The information has been sent to the moderator. Please wait for a response.</span>';
+$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">Informācija ir nosūtīta moderatoram. Lūdzu, gaidiet atbildi.</span>';
 
 $lang['BT_TOPIC_TITLE'] = 'Tēmas nosaukums';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Sēklas pēdējo reizi redzēts.';
@@ -935,11 +935,11 @@ $lang['BT_VIEWS'] = 'Skati.';
 $lang['GOLD'] = 'Zelta.';
 $lang['SILVER'] = 'Sudrabs.';
 $lang['SET_GOLD_TORRENT'] = 'Padarīt zeltu.';
-$lang['UNSET_GOLD_TORRENT'] = 'Remove gold status';
+$lang['UNSET_GOLD_TORRENT'] = 'Noņemt zelta statusu';
 $lang['SET_SILVER_TORRENT'] = 'Padarīt sudraba.';
-$lang['UNSET_SILVER_TORRENT'] = 'Remove silver status';
-$lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC IS NOT COUNTED!';
-$lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC IS PARTIALLY COUNTED!';
+$lang['UNSET_SILVER_TORRENT'] = 'Noņemt sudraba statusu';
+$lang['GOLD_STATUS'] = 'ZELTA TORRENTS! LEJUPIELĀDES SATIKSME NETIEK SKAITĪTA!';
+$lang['SILVER_STATUS'] = 'SUDRABA TORRENTS! LEJUPIELĀDES SATIKSME DAĻĒJI TIEK SKAITĪTA!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrenta veids mainīts uz: %s';
 
 $lang['TORRENT_STATUS'] = 'Meklēt pēc izvades statusa';
@@ -949,15 +949,15 @@ $lang['GO_TO_SECTION'] = 'Dodieties uz sadaļu';
 $lang['TORRENTS_FROM'] = 'Ziņas.';
 $lang['SHOW_ONLY'] = 'Rādīt tikai.';
 $lang['SHOW_COLUMN'] = 'Rādīt kolonnu.';
-$lang['SEL_CHAPTERS'] = 'Link to selected sections';
-$lang['NOT_SEL_CHAPTERS'] = 'You have not selected any topics';
-$lang['SEL_CHAPTERS_HELP'] = 'You can select a maximum of %s sections';
+$lang['SEL_CHAPTERS'] = 'Saite uz izvēlētajiem sadaļām';
+$lang['NOT_SEL_CHAPTERS'] = 'Jūs neesat izvēlējies nevienu tēmu';
+$lang['SEL_CHAPTERS_HELP'] = 'Jūs varat izvēlēties ne vairāk kā %s sadaļas';
 $lang['HIDE_CONTENTS'] = 'Paslēpt saturu {...}.';
 $lang['FILTER_BY_NAME'] = '<i>Filtrēt pēc nosaukuma </i>.';
 
 $lang['BT_ONLY_ACTIVE'] = 'Aktīvs.';
 $lang['BT_ONLY_MY'] = 'Manas relīzes.';
-$lang['BT_SEED_EXIST'] = 'Seeder exists';
+$lang['BT_SEED_EXIST'] = 'Seederis sistēmā';
 $lang['BT_ONLY_NEW'] = 'Jauns no pēdējā apmeklējuma.';
 $lang['BT_SHOW_CAT'] = 'Kategorijas.';
 $lang['BT_SHOW_FORUM'] = 'Forums.';
@@ -992,7 +992,7 @@ $lang['DL_LIST_DEL'] = 'Notīrīt DL sarakstu.';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Dzēst DL sarakstu par šo tēmu?';
 $lang['SHOW_DL_LIST'] = 'Rādīt DL sarakstu.';
 $lang['SET_DL_STATUS'] = 'Lejupielādēt.';
-$lang['UNSET_DL_STATUS'] = 'Not downloading';
+$lang['UNSET_DL_STATUS'] = 'Nelejupielādē';
 $lang['TOPICS_DOWN_SETS'] = 'Tēmu statuss mainīts uz <b>Lejupielāde</b>';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Lejupielāde</b> statuss noņemts';
 
@@ -1012,7 +1012,7 @@ $lang['OPEN_TOPIC'] = 'Atvērt tēmu';
 
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Nevarēja reģistrēties torrent šajā forumā';
 $lang['ALREADY_REG'] = 'Torrent, kas jau reģistrēts';
-$lang['NOT_TORRENT'] = 'This file is not a torrent';
+$lang['NOT_TORRENT'] = 'Šis fails nav torrents';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrenta profils';
 $lang['CUR_ACTIVE_DLS'] = 'Aktīvās straumes';
 
@@ -1025,21 +1025,21 @@ $lang['MAX_SPEED'] = 'Ātrums';
 $lang['DOWNLOADED'] = 'Lejupielādēt';
 $lang['UPLOADED'] = 'Augšupielādēti';
 $lang['RELEASED'] = 'Atbrīvots';
-$lang['BONUS'] = 'Bonus';
-$lang['IT_WILL_BE_DOWN'] = 'will be counted once downloaded';
+$lang['BONUS'] = 'Bonuss';
+$lang['IT_WILL_BE_DOWN'] = 'tiks skaitīts tikai pēc lejupielādes';
 $lang['SPMODE_FULL'] = 'Parādīt vienaudžiem pilnīgu informāciju';
 
 // Seed Bonus
-$lang['MY_BONUS'] = 'My bonus (%s points available)';
+$lang['MY_BONUS'] = 'Mans bonuss (%s punkti pieejami)';
 $lang['BONUS_SELECT'] = 'Izvēlieties';
 $lang['SEED_BONUS'] = 'Sēklu bonuss';
 $lang['EXCHANGE'] = 'Apmaiņa';
-$lang['EXCHANGE_BONUS'] = 'Seed bonus exchange';
-$lang['BONUS_UPLOAD_DESC'] = '<b>+%s upload credit</b> <br /> Exchange bonus points for %1$s of upload traffic added to your account total.';
+$lang['EXCHANGE_BONUS'] = 'Seederu bonusa apmaiņa';
+$lang['BONUS_UPLOAD_DESC'] = '<b>+%s augšupielādes kredīts</b> <br /> Apmainiet bonusa punktus pret %1$s augšupielādes trafiku, kas tiks pieskaitīts jūsu konta kopējam apjomam.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Cena';
-$lang['EXCHANGE_NOT'] = 'Exchange is not available';
-$lang['BONUS_SUCCES'] = '%s has been successfully credited to your account';
+$lang['EXCHANGE_NOT'] = 'Apmaiņa nav pieejama';
+$lang['BONUS_SUCCES'] = 'Jūsu kontam veiksmīgi pieskaitīti %s';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">You nav pieejamie bonusi. Vairāk sētu!</span>';
 $lang['BONUS_RETURN'] = 'Atgriezieties pie sēklas bonusa apmaiņas';
 
@@ -1047,21 +1047,21 @@ $lang['TRACKER'] = 'Tracker';
 $lang['RANDOM_RELEASE'] = 'Izlase';
 $lang['OPEN_TOPICS'] = 'Atvērt tēmas';
 $lang['OPEN_IN_SAME_WINDOW'] = 'atvērt tajā pašā logā';
-$lang['SHOW_TIME_TOPICS'] = 'show topic creation time';
+$lang['SHOW_TIME_TOPICS'] = 'rādīt tēmas izveides laiku';
 $lang['SHOW_CURSOR'] = 'izcelt rindā zem kursora';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = 'Your ratio of <b>%s</b> is too low to download torrents';
-$lang['BT_RATIO_WARNING_MSG'] = 'If your ratio falls below %s, you will not be able to download torrents! <a href="%s"><b>More about ratio.</b></a>';
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Jūsu rādītājs <b>%s</b> ir pārāk zems, lai lejupielādētu torrentus';
+$lang['BT_RATIO_WARNING_MSG'] = 'Ja jūsu rādītājs nokritīs zem %s, jūs nespēsiet lejupielādēt torrentus! <a href="%s"><b>Uzzināt vairāk par rādītāju.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder nav redzējis: <b>%s</b>';
 
 $lang['NEED_TO_LOGIN_FIRST'] = 'Vispirms jums ir jāpiesakās';
-$lang['ONLY_FOR_MOD'] = 'This option is only for moderators';
-$lang['ONLY_FOR_ADMIN'] = 'This option is only for admins';
-$lang['ONLY_FOR_SUPER_ADMIN'] = 'This option is only for super admins';
+$lang['ONLY_FOR_MOD'] = 'Šī opcija ir paredzēta tikai moderatoriem';
+$lang['ONLY_FOR_ADMIN'] = 'Šī opcija ir paredzēta tikai administratoriem';
+$lang['ONLY_FOR_SUPER_ADMIN'] = 'Šī opcija ir paredzēta tikai superadministratoriem';
 
 $lang['LOGS'] = 'Tēmu vēsture';
-$lang['FORUM_LOGS'] = 'Forum History';
+$lang['FORUM_LOGS'] = 'Foruma vēsture';
 $lang['AUTOCLEAN'] = 'Autoclean';
 $lang['DESIGNER'] = 'Dizainere';
 
@@ -1163,16 +1163,16 @@ $lang['SWITCH'] = 'Pārslēgt';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Palielināt/mazināt logu';
 $lang['EMPTY_TOPIC_ID'] = 'Trūkst tēmas identifikators';
 $lang['TOR_NOT_FOUND'] = 'Fails trūkst serverī';
-$lang['ERROR_BUILD'] = 'The content of this torrent cannot be displayed (failed to build file list)';
+$lang['ERROR_BUILD'] = 'Šī torenta saturs nav pieejams (neizdevās izveidot failu sarakstu)';
 $lang['TORFILE_INVALID'] = 'Torrent fails ir bojāts';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Vietā" var saturēt tikai http://sitename';
 $lang['PROFILE_USER'] = 'Apskati profilu';
-$lang['GOOD_UPDATE'] = 'successfully updated';
+$lang['GOOD_UPDATE'] = 'veiksmīgi atjaunināts';
 $lang['UCP_DOWNLOADS'] = 'Lejupielādes';
 $lang['HIDE_DOWNLOADS'] = 'Paslēpt pašreizējo lejupielāžu sarakstu jūsu profilā';
-$lang['BAN_USER'] = 'User restrictions';
+$lang['BAN_USER'] = 'Lietotāja ierobežojumi';
 $lang['USER_NOT_ALLOWED'] = 'Lietotājiem nav atļauts';
 $lang['HIDE_AVATARS'] = 'Rādīt avatarus';
 $lang['SHOW_CAPTION'] = 'Parādīt savu parakstu';
@@ -1183,15 +1183,15 @@ $lang['NEW_THREADS'] = 'Jauni pavedieni';
 $lang['PROFILE_NOT_FOUND'] = 'Profils nav atrasts';
 
 $lang['USER_DELETE_EXPLAIN'] = 'Dzēst šo lietotāju';
-$lang['USER_DELETE_ME'] = 'Sorry, your account cannot be deleted!';
-$lang['USER_DELETE_CSV'] = 'Sorry, this account cannot be deleted!';
+$lang['USER_DELETE_ME'] = 'Atvainojiet, jūsu kontu nevar dzēst!';
+$lang['USER_DELETE_CSV'] = 'Atvainojiet, šo kontu nevar dzēst!';
 $lang['USER_DELETE_CONFIRM'] = 'Vai jūs esat pārliecināts, ka vēlaties dzēst šo lietotāju?';
 $lang['USER_DELETED'] = 'Lietotājam tika veiksmīgi izdzēsts';
 $lang['DELETE_USER_ALL_POSTS'] = 'Dzēst visus lietotāja ierakstus';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Vai jūs esat pārliecināts, ka vēlaties dzēst visas ziņas un visas tēmas, ko sācis šis lietotājs?';
-$lang['DELETE_USER_POSTS'] = 'Delete all posts except the first post in each topic';
+$lang['DELETE_USER_POSTS'] = 'Dzēst visus ierakstus, izņemot pirmo ierakstu katrā tēmā';
 $lang['DELETE_USER_POSTS_ME'] = 'Vai esat pārliecināts, ka vēlaties dzēst visus manus ierakstus?';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all posts except the first post in each topic?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Vai tiešām vēlaties dzēst visus ierakstus, izņemot pirmo ierakstu katrā tēmā?';
 $lang['USER_DELETED_POSTS'] = 'Ieraksti tika veiksmīgi izņemti';
 
 $lang['USER'] = 'Lietotājs';
@@ -1199,21 +1199,21 @@ $lang['ROLE'] = 'Loma: ';
 $lang['MEMBERSHIP_IN'] = 'Dalība';
 $lang['PARTY'] = 'Grupa:';
 $lang['CANDIDATE'] = 'Kandidāts:';
-$lang['INDIVIDUAL'] = 'Has individual rights';
+$lang['INDIVIDUAL'] = 'Ir individuālas tiesības';
 $lang['GROUP_LIST_HIDDEN'] = 'Jums nav atļauts parādīt slēptās grupas';
 
 $lang['USER_ACTIVATE'] = 'Aktivizēt';
 $lang['USER_DEACTIVATE'] = 'Deaktivizēt';
 $lang['DEACTIVATE_CONFIRM'] = 'Vai esat pārliecināts, ka vēlaties deaktivizēt šo lietotāju?';
 $lang['USER_ACTIVATE_ON'] = 'Lietotājs ir veiksmīgi aktivizēts';
-$lang['USER_DEACTIVATE_ME'] = 'You cannot deactivate your own account!';
-$lang['ACTIVATE_CONFIRM'] = 'Are you sure you want to activate this user?';
+$lang['USER_DEACTIVATE_ME'] = 'Jūs nevarat deaktivizēt savu kontu!';
+$lang['ACTIVATE_CONFIRM'] = 'Vai tiešām vēlaties aktivizēt šo lietotāju?';
 $lang['USER_ACTIVATE_OFF'] = 'Lietotājs ir veiksmīgi deaktivizēta';
 
 // Register
-$lang['CHOOSE_A_NAME'] = 'Please choose a username';
-$lang['CHOOSE_E_MAIL'] = 'You must provide an email address';
-$lang['CHOOSE_PASS'] = 'The password field must not be empty!';
+$lang['CHOOSE_A_NAME'] = 'Lūdzu, izvēlieties lietotājvārdu';
+$lang['CHOOSE_E_MAIL'] = 'Jums jānorāda e-pasta adrese';
+$lang['CHOOSE_PASS'] = 'Paroles lauks nedrīkst būt tukšs!';
 $lang['CHOOSE_PASS_ERR'] = 'Ievadītās paroles nesakrīt';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Parolei jābūt vismaz %d rakstzīmes';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'Jūsu parolei jābūt ne garākai par %d rakstzīmēm';
@@ -1224,7 +1224,7 @@ $lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Parolei jābūt vismaz vienai speciālaj
 $lang['CHOOSE_PASS_OK'] = 'Paroles spēlēm';
 $lang['CHOOSE_PASS_REG_OK'] = 'Paroles spēlē, jūs varat turpināt reģistrāciju';
 $lang['CHOOSE_PASS_FAILED'] = 'Lai mainītu paroli, jums ir pareizi norādīt pašreizējo paroli';
-$lang['EMAILER_DISABLED'] = 'Sorry, this feature is temporarily unavailable';
+$lang['EMAILER_DISABLED'] = 'Atvainojiet, šī funkcija ir pagaidām nepieejama';
 $lang['REGISTERED_IN_TIME'] = 'Reģistrācija pašlaik ir slēgta<br /><br />Reģistrācija ir pieejama laikā: %s<br />Pašreizējais servera laiks: %s<br /><br />Atvainojamies par sagādātajām neērtībām';
 $lang['AUTOCOMPLETE'] = 'Ģenerēt paroli';
 $lang['YOUR_NEW_PASSWORD'] = 'Jūsu jaunā parole:';
@@ -1247,8 +1247,8 @@ $lang['HOW_TO_DOWNLOAD'] = 'Kā lejupielādēt?';
 $lang['WHAT_IS_A_TORRENT'] = 'Kas ir torrents?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Vērtējumi un Ierobežojumi';
 
-$lang['SCREENSHOTS_RULES'] = 'Read the screenshot posting rules!';
-$lang['AJAX_EDIT_OPEN'] = 'You already have a quick edit session open!';
+$lang['SCREENSHOTS_RULES'] = 'Izlasiet ekrānuzņēmumu izvietošanas noteikumus!';
+$lang['AJAX_EDIT_OPEN'] = 'Jums jau ir atvērta ātrās rediģēšanas sesija!';
 $lang['GO_TO_PAGE'] = 'Iet uz lapu ...';
 $lang['EDIT'] = 'Rediģēt';
 $lang['SAVE'] = 'Saglabāt.';
@@ -1256,8 +1256,8 @@ $lang['NEW_WINDOW'] = 'jaunā logā';
 
 // BB Code
 $lang['ALIGN'] = 'Novietojiet:';
-$lang['LEFT'] = 'Left';
-$lang['RIGHT'] = 'Right';
+$lang['LEFT'] = 'Pa kreisi';
+$lang['RIGHT'] = 'Pa labi';
 $lang['CENTER'] = 'Centrēta';
 $lang['JUSTIFY'] = 'Piemērot platumam';
 $lang['HOR_LINE'] = 'Horizontālā līnija (Ctrl+8)';
@@ -1293,7 +1293,7 @@ $lang['OLD'] = 'Vecā';
 
 // DL-List
 $lang['DL_USER'] = 'Lietotājvārds';
-$lang['DL_PERCENT'] = 'Completion %';
+$lang['DL_PERCENT'] = 'Pabeigšanas %';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL ātrums';
@@ -1323,12 +1323,12 @@ $lang['EDIT_MY_MESSAGE_LIST'] = 'rediģēt sarakstu';
 $lang['SELECT_INVERT'] = 'izvēlieties / invertēt';
 $lang['RESTORE_ALL_POSTS'] = 'Atjaunot visas ziņas';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Izdzēst izvēlēto tēmu no saraksta';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'After removal, the <b>full list</b> may still show previously deleted threads until it is refreshed';
-$lang['DEL_LIST_INFO'] = 'To remove an entry from the list, click the icon to the left of any section name';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Pēc dzēšanas <b>pilns saraksts</b> var joprojām rādīt iepriekš izdzēstās tēmas līdz tā tiek atjaunināta';
+$lang['DEL_LIST_INFO'] = 'Lai no saraksta noņemtu ierakstu, uzklikšķiniet uz ikonas kreisajā pusē blakus jebkuram sadaļas nosaukumam';
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Novērotās tēmas';
-$lang['NO_WATCHED_TOPICS'] = 'Not watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Nav novērotu tēmu';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Atpakaļ uz sākuma lapu';
@@ -1363,7 +1363,7 @@ $lang['WORD_CENSOR'] = 'Vārda cenzors.';
 $lang['CRON'] = 'Uzdevumu Plānotājs (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Atjaunot meklēšanas indekss';
 $lang['FORUM_CONFIG'] = 'Foruma uzstādījumi';
-$lang['ACTIONS_LOG'] = 'Actions log';
+$lang['ACTIONS_LOG'] = 'Darbību žurnāls';
 
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'Datu bāzes migrācijas statuss';
@@ -1399,7 +1399,7 @@ $lang['CREATE_PROFILE'] = 'Izveidot profilu';
 
 $lang['TP_VERSION'] = 'TorrentPier versija';
 $lang['TP_RELEASE_DATE'] = 'Izlaides datums';
-$lang['PHP_INFO'] = 'PHP information';
+$lang['PHP_INFO'] = 'PHP informācija';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'Noklikšķiniet uz %sŠeit%s, lai atgrieztos Admina indeksā';
 
@@ -1484,7 +1484,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Dzēst.';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Lipīga.';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Paziņot.';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Balsot.';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Create poll';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Izveidot aptauju';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Failu publicēšana.';
 $lang['AUTH_DOWNLOAD'] = 'Lejupielādēt failu.';
 
@@ -1496,7 +1496,7 @@ $lang['APPLY_TO_SUBFORUMS'] = 'Lietot apakšforumiem';
 
 $lang['AUTH_UPDATED'] = 'Atļaujas ir atjaunināti.';
 $lang['AUTH_GENERAL_ERROR'] = 'Nevarēja atjaunot administratora statusu';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to a user';
+$lang['AUTH_SELF_ERROR'] = 'Nevarat mainīt sevi no administratora uz lietotāju';
 $lang['NO_FORUMS_AVAILABLE'] = 'Nav pieejamu forumu. Vispirms izveidojiet forumus, lai pārvaldītu atļaujas.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Noklikšķiniet uz %sHere%s atgriezties lietotāja atļaujās.';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Noklikšķiniet uz %sHere%s, lai atgrieztos grupas atļaujas.';
@@ -1738,7 +1738,7 @@ $lang['CHANGELOG'] = 'Izmaiņu žurnāls';
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Atļaut pieteikšanās mēģinājumus.';
 $lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'Atļauto pieteikšanās mēģinājumu skaits.';
 $lang['LOGIN_RESET_TIME'] = 'Pieteikšanās bloķēšanas laiks.';
-$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Time in minutes the user has to wait before they can log in again after exceeding the allowed number of login attempts.';
+$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Minūšu skaits, ko lietotājam jāgaida pirms atkārtotas pieteikšanās, pārsniedzot atļauto pieteikšanās mēģinājumu skaitu.';
 
 // Permissions List
 $lang['PERMISSIONS_LIST'] = 'Atļauju saraksts.';
@@ -1775,23 +1775,23 @@ $lang['SF_NO_PARENT'] = 'Nav vecāku foruma';
 $lang['SYNC'] = 'Sinhronizācija';
 
 // Mods
-$lang['MAX_NEWS_TITLE'] = 'Max. news title length';
+$lang['MAX_NEWS_TITLE'] = 'Maksimālais ziņu virsraksta garums';
 $lang['NEWS_COUNT'] = 'Cik daudz jaunumu rādīt';
 $lang['NEWS_FORUM_ID'] = 'No kuriem forumu rādīt <br /> <h6>Pāris forumiem, norādiet ID, atdalot ar komatiem. Piemērs: 1,2,3</h6>';
-$lang['TRACKER_STATS'] = 'Tracker statistics';
-$lang['WHOIS_INFO'] = 'IP address information';
-$lang['SHOW_MOD_HOME_PAGE'] = 'Show moderators on the homepage (index.php)';
+$lang['TRACKER_STATS'] = 'Sekotāja statistika';
+$lang['WHOIS_INFO'] = 'IP adreses informācija';
+$lang['SHOW_MOD_HOME_PAGE'] = 'Rādīt moderatorus sākumlapā (index.php)';
 $lang['SHOW_BOARD_STARTED_INDEX'] = 'Parādīt dēļa sākuma datumu index.php';
-$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If there are no torrents with status v, #, or T in this section and its subsections, new distributions will automatically receive this status</h6>';
-$lang['TOR_COMMENT'] = '<h4>Comment on the status of a distribution</h4> <h6>The comment allows you to point out errors in the release. If corrections are needed, a response form becomes available to the uploader to fix the release</h6>';
-$lang['SEED_BONUS_ADD'] = '<h4>Seed bonus rules</h4> <h6>Number of torrents being seeded by the user and the corresponding bonus points awarded per hour</h6>';
-$lang['SEED_BONUS_RELEASE'] = 'up to N releases';
-$lang['SEED_BONUS_POINTS'] = 'bonus points per hour';
-$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum torrent size to qualify for bonus points</h4> <h6>Leave blank to award bonuses for all torrents regardless of size.</h6>';
-$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum user account age to qualify for bonus points</h4> <h6>Leave blank to award bonuses to all users regardless of account age.</h6>';
+$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Iepriekšēja moderācija</h4> <h6>Ja šajā sadaļā un tās apakšnodaļās nav torrentu ar statusu v, # vai T, jaunie laidieni automātiski iegūs šo statusu</h6>';
+$lang['TOR_COMMENT'] = '<h4>Komentārs par izplatīšanas statusu</h4> <h6>Komentārs ļauj norādīt kļūdas laidienā. Ja nepieciešamas labojumus, augšupielādētājam kļūst pieejama atbildes forma lai labotu laidienu</h6>';
+$lang['SEED_BONUS_ADD'] = '<h4>Seederu bonusa noteikumi</h4> <h6>Lietotāja apziesto torrentu skaits un attiecīgie piešķirtie bonusa punkti stundā</h6>';
+$lang['SEED_BONUS_RELEASE'] = 'līdz N laidieniem';
+$lang['SEED_BONUS_POINTS'] = 'bonusa punkti stundā';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimālais torenta izmērs, lai kvalificētos bonusa punktiem</h4> <h6>Atstājiet tukšu, lai piešķirtu bonusa punktus visiem torrentiem neatkarīgi no izmēra.</h6>';
+$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Lietotāja konta minimālais vecums, lai kvalificētos bonusa punktiem</h4> <h6>Atstājiet tukšu, lai piešķirtu bonusa punktus visiem lietotājiem neatkarīgi no konta vecuma.</h6>';
 $lang['SEED_BONUS_WARNING'] = 'UZMANĪBU! Sēklas Prēmijas būtu augošā secībā';
-$lang['SEED_BONUS_EXCHANGE'] = 'Configuring exchange seed bonuses';
-$lang['SEED_BONUS_ROPORTION'] = 'Exchange rate: bonus points to GB of upload credit';
+$lang['SEED_BONUS_EXCHANGE'] = 'Seed bonus apmaiņas konfigurācija';
+$lang['SEED_BONUS_ROPORTION'] = 'Apmaiņas kurss: bonusa punkti uz GB augšupielādes kredīta';
 
 $lang['ALLOWED'] = 'Atļauts.';
 $lang['RETURN_CONFIG'] = '%sAtgriezties uz konfigurāciju%s';
@@ -1815,7 +1815,7 @@ $lang['BT_DISABLE_DHT_EXPL'] = 'Atspējot Peer Exchange un DHT (ieteicams privā
 $lang['BT_PRIVATE_TRACKER'] = 'Šis uzraugs ir privāts: failu saraksts (viesiem), DHT | PEX ir atspējots';
 $lang['BT_PRIVATE_TORRENT'] = 'Šī torrent radītājs to padarīja par privātu';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Pārbaudīt paziņošanas URL';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'only register allowed URLs on the tracker';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'Atļaut reģistrēt tikai atļautās URL uz sekošanas serveri';
 $lang['BT_REPLACE_ANN_URL'] = 'Aizstāt paziņošanas URL';
 $lang['BT_REPLACE_ANN_URL_EXPL'] = 'aizstāt oriģinālo paziņošanas URL ar jūsu noklusēto .torrent failos';
 $lang['BT_DEL_ADDIT_ANN_URLS'] = 'Noņemt visus papildu paziņošanas URL';
@@ -1861,7 +1861,7 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Mainīt tēmas statusu uz "Normāls", k
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Veidne atspējota.';
 $lang['FOR_NEW_TEMPLATE'] = 'par jauniem modeļiem!';
-$lang['QUESTION'] = 'Are you sure you want to perform this action?';
+$lang['QUESTION'] = 'Vai tiešām vēlaties veikt šo darbību?';
 
 $lang['CRON_LIST'] = 'Cron saraksts';
 $lang['CRON_ID'] = 'ID';
@@ -1886,7 +1886,7 @@ $lang['CRON_RUN'] = 'Palaist';
 $lang['CRON_DEL'] = 'Dzēst';
 $lang['CRON_DISABLE'] = 'Atspējojiet.';
 $lang['CRON_ENABLE'] = 'Ļauj';
-$lang['DELETE_JOB'] = 'Are you sure you want to delete this cron job?';
+$lang['DELETE_JOB'] = 'Vai tiešām vēlaties izdzēst šo cron uzdevumu?';
 $lang['CRON_WORKS'] = 'Cron pašlaik darbojas vai ir sabojājies -> ';
 $lang['REPAIR_CRON'] = 'Remontēt cron.';
 
@@ -1901,11 +1901,11 @@ $lang['SCHEDULE'] = [
     'monthly' => 'Reizi mēnesī.',
     'interval' => 'Intervāls.',
 ];
-$lang['NOSELECT'] = 'Not selected';
+$lang['NOSELECT'] = 'Nav izvēlēts';
 $lang['RUN_DAY'] = 'Darbības diena.';
-$lang['RUN_DAY_EXPL'] = 'the day this job runs';
+$lang['RUN_DAY_EXPL'] = 'diena, kad šis uzdevums tiek izpildīts';
 $lang['RUN_TIME'] = 'Izpildes laiks.';
-$lang['RUN_TIME_EXPL'] = 'the time this job runs (e.g. 05:00:00)';
+$lang['RUN_TIME_EXPL'] = 'laiks, kad šis uzdevums tiek izpildīts (piemēram, 05:00:00)';
 $lang['RUN_ORDER'] = 'Izpildes secība.';
 $lang['LAST_RUN'] = 'Pēdējā izpildē.';
 $lang['NEXT_RUN'] = 'Nākamajā izsistē.';
@@ -1913,7 +1913,7 @@ $lang['RUN_INTERVAL'] = 'Izpildes intervāls.';
 $lang['RUN_INTERVAL_EXPL'] = 'piemēram, 00:10:00.';
 $lang['LOG_ENABLED'] = 'Žurnāls ir iespējots.';
 $lang['LOG_FILE'] = 'Log failu';
-$lang['LOG_FILE_EXPL'] = 'the file to save the log to';
+$lang['LOG_FILE_EXPL'] = 'fails, kurā saglabāt žurnālu';
 $lang['LOG_SQL_QUERIES'] = 'Žurnāls SQL vaicājumi';
 $lang['FORUM_DISABLE'] = 'Izslēgt forumu';
 $lang['BOARD_DISABLE_EXPL'] = 'atspējot valdi, kad šis darbs tiek palaists';
@@ -1933,7 +1933,7 @@ $lang['STARTING_POST_ID'] = 'Sākot post_id.';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'Pirmais ieraksts, no kura sāksies apstrāde<br />Jūs varat izvēlēties, vai sākt no sākuma, vai no ieraksta, kuru pēdējo reizi apturējāt.';
 
 $lang['START_OPTION_BEGINNING'] = 'sākt no sākuma.';
-$lang['START_OPTION_CONTINUE'] = 'continue from where you last stopped';
+$lang['START_OPTION_CONTINUE'] = 'turpināt no pēdējās apturēšanas vietas';
 
 $lang['CLEAR_SEARCH_TABLES'] = 'Izdzēst meklēšanas tabulas.';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
@@ -1957,7 +1957,7 @@ $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Jūsu tīmekļa serveris ir iestatī
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Jūs pēdējo reizi pārtraucāt apstrādi post_id %s (%s apstrādāti ieraksti) %s.';
 $lang['INFO_PROCESSING_ABORTED'] = 'Jūs pēdējo reizi pārtraucāt apstrādi post_id %s (%s apstrādāti ieraksti) %s.';
-$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Please wait a few minutes before you continue...';
+$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Lūdzu, pagaidiet dažas minūtes, pirms turpināt...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Jūs veiksmīgi pabeidzāt apstrādi (%s apstrādāti ieraksti) %s.';
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Jūs veiksmīgi pabeidzāt apstrādi post_id %s (%s apstrādāti ieraksti) %s,<br />bet ir bijuši %s jauni ieraksti šajā datumā.';
 
@@ -2005,12 +2005,12 @@ $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Tēma ir pārvietota no foruma [b]%s[/b] uz 
 $lang['BOT_MESS_SPLITS'] = 'Tēma ir sadalīts. Jauna tēma - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Tēma ir sadalīts no [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeders';
-$lang['CALLSEED_EXPLAIN'] = 'Notify seeders with a request to resume seeding this release';
-$lang['CALLSEED_SUBJECT'] = 'Seeding help needed: %s';
-$lang['CALLSEED_TEXT'] = 'Hello![br]Your help is needed for the release [url=%s]%s[/url][br]If you want to help but have already deleted the torrent file, you can download it [url=%s]here[/url][br][br]Your help would be greatly appreciated!';
-$lang['CALLSEED_MSG_OK'] = 'Request has been sent to everyone who has downloaded this release';
-$lang['CALLSEED_MSG_SPAM'] = 'A request has already been sent recently (possibly not by you).<br /><br />The next request can be sent on <b>%s</b>.';
+$lang['CALLSEED'] = 'Izsaukt seeders';
+$lang['CALLSEED_EXPLAIN'] = 'Paziņot seeders ar lūgumu atsākt sēšanu šim laidienam';
+$lang['CALLSEED_SUBJECT'] = 'Nepieciešama palīdzība sēšanā: %s';
+$lang['CALLSEED_TEXT'] = 'Sveiki![br]Jūsu palīdzība ir nepieciešama laidienam [url=%s]%s[/url][br]Ja vēlaties palīdzēt, bet esat jau izdzēsis torrent failu, to var lejupielādēt [url=%s]šeit[/url][br][br]Jūsu palīdzība tiks ļoti novērtēta!';
+$lang['CALLSEED_MSG_OK'] = 'Lūgums ir nosūtīts visiem, kas lejupielādēja šo laidienu';
+$lang['CALLSEED_MSG_SPAM'] = 'Lūgums nesen jau ir nosūtīts (iespējams, nevis no jums).<br /><br />Nākamais lūgums varēs tikt nosūtīts <b>%s</b>.';
 $lang['CALLSEED_HAVE_SEED'] = 'Tēma neprasa palīdzību (<b>Seedi:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
@@ -2036,8 +2036,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_post_pin' => 'Amats:<br /> <b>piesprausts</b>',
     'mod_post_unpin' => 'Amats:<br /> <b>nepiesprausts</b>',
     'adm_user_delete' => 'Lietotājs:<br /> <b>dzēsts</b>',
-    'adm_user_ban' => 'User:<br /> <b>banned</b>',
-    'adm_user_unban' => 'User:<br /> <b>unbanned</b>',
+    'adm_user_ban' => 'Lietotājs:<br /> <b>aizliegts</b>',
+    'adm_user_unban' => 'Lietotājs:<br /> <b>atļauts</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Visas darbības';
@@ -2065,7 +2065,7 @@ $lang['NEW_RELEASE'] = 'Jauna relīze';
 $lang['NEXT'] = 'Turpināt';
 $lang['ALL'] = 'Visas';
 
-$lang['TPL_EMPTY_FIELD'] = 'You must fill in the field <b>%s</b>';
+$lang['TPL_EMPTY_FIELD'] = 'Jums jāaizpilda lauks <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Jums ir jāizvēlas <b>%s</b>';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - Nav skaitlis';
 $lang['TPL_NOT_URL'] = '<b>%s</b>  — jābūt https:// URL';
@@ -2104,7 +2104,7 @@ $lang['SEARCH_FOR_EMAIL'] = 'Meklē e-pasta adreses, kas atbilst %s';
 $lang['SEARCH_FOR_IP'] = 'Meklējot IP adreses, kas atbilst %s';
 $lang['SEARCH_FOR_DATE'] = 'Meklēšana lietotājiem, kuri pievienojās %s %d/%d/%d';
 $lang['SEARCH_FOR_GROUP'] = 'Meklēšana grupas locekļu %s';
-$lang['SEARCH_FOR_RANK'] = 'Searching users with rank %s';
+$lang['SEARCH_FOR_RANK'] = 'Meklē lietotājus ar rangu %s';
 $lang['SEARCH_FOR_BANNED'] = 'Meklēšana aizliegtiem lietotājiem';
 $lang['SEARCH_FOR_ADMINS'] = 'Meklēšana administratoriem';
 $lang['SEARCH_FOR_MODS'] = 'Meklēšana moderatori';
@@ -2129,14 +2129,14 @@ $lang['SEARCH_USERNAME_EXPLAIN'] = 'Šeit jūs varat veikt nejūtīgu meklēšan
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'Ievadiet izteiksmi, lai atbilstu lietotāja e-pasta adresi. Tas nav jutīgs pret lieliem burtiem. Ja vēlaties veikt daļēju atbilstību, izmantojiet * (zvaigznīti) kā aizstājējzīmi.';
 $lang['SEARCH_IP_EXPLAIN'] = 'Meklēt lietotājus ar konkrētu IP adresi (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'Lietotāji, kas pievienojās';
-$lang['SEARCH_USERS_LASTVISITED'] = 'Users who have visited';
+$lang['SEARCH_USERS_LASTVISITED'] = 'Lietotāji, kas ir apmeklējuši';
 $lang['IN_THE_LAST'] = 'pēdējās';
 $lang['AFTER_THE_LAST'] = 'pēc pēdējā';
 $lang['BEFORE'] = 'pirms';
 $lang['AFTER'] = 'Pēc tam, kad';
-$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Search for users who joined before or after a specific date. The date format is YYYY/MM/DD.';
+$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Meklē lietotājus, kuri pievienojušies pirms vai pēc noteikta datuma. Datuma formāts ir GGGG/MM/DD.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Apskatīt visus locekļus izvēlētajai grupai.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'View all users with the selected rank.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Skatīt visus lietotājus ar izvēlēto rangu.';
 $lang['BANNED_USERS'] = 'Aizliegta Lietotāji';
 $lang['DISABLED_USERS'] = 'Atspējoti lietotāji';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Administratori — visi lietotāji ar administratora tiesībām; Moderatori — visi foruma moderatori; Aizliegti lietotāji — visi konti, kas ir aizliegti šajos forumos; Lietotāji ar invaliditāti — visi lietotāji ar atspējotiem kontiem (manuāli atspējoti vai nekad nav verificējuši savu e-pasta adresi); Lietotāji ar atspējotiem PM — tiek atlasīti lietotāji, kuriem ir noņemtas privāto ziņojumu privilēģijas (izmantojot lietotāju pārvaldību)';
@@ -2169,7 +2169,7 @@ $lang['MC_TITLE'] = 'Moderācijas komentārs';
 $lang['MC_LEGEND'] = 'Lūdzu, ierakstiet savu komentāru';
 $lang['MC_FAQ'] = 'Ievadītais teksts tiks parādīts zem šīs ziņas';
 $lang['MC_COMMENT_PM_SUBJECT'] = '%s jūsu ziņā';
-$lang['MC_COMMENT_PM_MSG'] = "Hello, [b]%s[/b]\nA moderator has left a comment on your post [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "Sveiki, [b]%s[/b]\nModerators atstājis komentāru jūsu ierakstam [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',
