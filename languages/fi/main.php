@@ -160,8 +160,8 @@ $lang['LOGOUT'] = 'Kirjaudu ulos';
 $lang['CONFIRM_LOGOUT'] = 'Oletko varma, että haluat kirjautua ulos?';
 
 $lang['FORGOTTEN_PASSWORD'] = 'Salasana unohtunut?';
-$lang['AUTO_LOGIN'] = 'Log me in automatically';
-$lang['ERROR_LOGIN'] = 'The username or password you entered is incorrect.';
+$lang['AUTO_LOGIN'] = 'Kirjaa minut automaattisesti';
+$lang['ERROR_LOGIN'] = 'Käyttäjätunnus tai salasana on väärin.';
 $lang['REMEMBER'] = 'Muista';
 $lang['USER_WELCOME'] = 'Tervetuloa,';
 
@@ -228,7 +228,7 @@ $lang['WROTE'] = 'kirjoitti'; // proceeds the username and is followed by the qu
 $lang['QUOTE'] = 'Lainaus'; // comes before bbcode quote output
 $lang['CODE'] = 'Koodi'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'piilotettu teksti';
-$lang['SPOILER_CLOSE'] = 'close';
+$lang['SPOILER_CLOSE'] = 'sulje';
 $lang['PLAY_ON_CURPAGE'] = 'Aloita pelaaminen nykyisellä sivulla';
 
 $lang['EDITED_TIME_TOTAL'] = 'Viimeksi muokannut <b>%s</b> %s; muokattu %d kertaa yhteensä'; // Last edited by me on 12 Oct 2001; edited 1 time in total
@@ -271,11 +271,11 @@ $lang['POST_TOPIC_AS'] = 'Postaa aiheena';
 $lang['EDIT_POST'] = 'Muokkaa viestiä';
 $lang['EDIT_TOPIC_TITLE'] = 'Muokata ketjun otsikkoa';
 
-$lang['DONT_MESSAGE_TITLE'] = 'You must specify a message title';
-$lang['INVALID_TOPIC_ID'] = 'Topic not found!';
+$lang['DONT_MESSAGE_TITLE'] = 'Sinun täytyy määrittää viestin otsikko';
+$lang['INVALID_TOPIC_ID'] = 'Aihetta ei löydy!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Aiheesta ei ole olemassa tietokannassa!';
 
-$lang['NOT_EDIT_TOR_STATUS'] = 'You cannot edit release with this status';
+$lang['NOT_EDIT_TOR_STATUS'] = 'Et voi muokata julkaisua tässä tilassa';
 
 $lang['OPTIONS'] = 'Vaihtoehtoja';
 
@@ -326,7 +326,7 @@ $lang['UPDATE'] = 'Päivitys';
 $lang['DAYS'] = 'Päivät';
 $lang['DELETE_POLL'] = 'Poista kysely';
 
-$lang['MAX_SMILIES_PER_POST'] = 'Emoticon limit of %s exceeded.';
+$lang['MAX_SMILIES_PER_POST'] = 'Hymiöraja %s on ylitetty.';
 
 $lang['NOTIFY'] = 'Ilmoita minulle vastauksista';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Salli robottien indeksoida tämä aihe';
@@ -418,7 +418,7 @@ $lang['SELECT_USERNAME'] = 'Valitse Käyttäjätunnus';
 $lang['NO_MATCH'] = 'Ei osumia.';
 
 $lang['NO_PM_ID'] = 'Määritä post ID';
-$lang['NO_SUCH_FOLDER'] = 'Folder not found';
+$lang['NO_SUCH_FOLDER'] = 'Kansiota ei löydy';
 
 $lang['MARK_ALL'] = 'Merkitse kaikki';
 $lang['UNMARK_ALL'] = 'Poista kaikki';
@@ -466,7 +466,7 @@ $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Anteeksi, mutta salasanaa ei voida palautta
 $lang['NO_SEND_ACCOUNT'] = 'Anteeksi, mutta salasanan palauttamista ei voida tehdä.';
 
 $lang['HIDE_PORN_FORUMS'] = 'Piilottaa sisällön 18+';
-$lang['ADD_RETRACKER'] = 'Add retracker to torrent files';
+$lang['ADD_RETRACKER'] = 'Lisää retracker torrent-tiedostoihin';
 $lang['ALWAYS_NOTIFY'] = 'Aina ilmoita vastauksista';
 $lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Lähettää sähköpostia, kun joku vastaa aiheeseen, johon olet lähettänyt.';
 
@@ -484,7 +484,7 @@ $lang['HAPPY_BIRTHDAY'] = 'Hyvää Syntymäpäivää!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Syntymäpäivämuoto on annettu väärin.';
 $lang['AGE'] = 'Ikä';
 $lang['BIRTHDAY_TO_HIGH'] = 'Anteeksi, tämä sivusto ei hyväksy käyttäjiä, jotka ovat vanhempia kuin %d vuotta';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept users younger than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Valitettavasti tämä sivusto ei hyväksy alle %d-vuotiaita käyttäjiä';
 $lang['BIRTHDAY_TODAY'] = 'Käyttäjät, joilla on syntymäpäivä tänään: ';
 $lang['BIRTHDAY_WEEK'] = 'Käyttäjät, joilla on syntymäpäivä seuraavina %d päivänä: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Ei-käyttäjiä, joilla on syntymäpäivä seuraavina %d päivänä.'; // %d is substituted with the number of days
@@ -499,10 +499,10 @@ $lang['TIMEZONE'] = 'Aikavyöhyke';
 $lang['DATE_FORMAT_EXPLAIN'] = 'Syntaksi on sama kuin PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> funktion.';
 $lang['SIGNATURE'] = 'Allekirjoitus';
 $lang['SIGNATURE_EXPLAIN'] = 'Tämä on tekstilohko, joka voidaan lisätä lähettämiisi viesteihin. Merkkiraja on %d.';
-$lang['SIGNATURE_DISABLE'] = 'Signature disabled due to forum rule violation';
+$lang['SIGNATURE_DISABLE'] = 'Allekirjoitus poistettu käytöstä keskustelusäännön rikkomisen takia';
 $lang['PUBLIC_VIEW_EMAIL'] = 'Näytä sähköpostiosoite profiilissani.';
 
-$lang['EMAIL_EXPLAIN'] = 'A verification email will be sent to this address to complete your registration';
+$lang['EMAIL_EXPLAIN'] = 'Vahvistussähköposti lähetetään tähän osoitteeseen rekisteröinnin viimeistelemiseksi';
 
 $lang['CURRENT_PASSWORD'] = 'Nykyinen salasana';
 $lang['NEW_PASSWORD'] = 'Uusi salasana';
@@ -513,12 +513,12 @@ $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Sinun tarvitsee vain vahvista salasana, 
 
 $lang['AUTOLOGIN'] = 'Autologin';
 $lang['RESET_AUTOLOGIN'] = 'Palauta avain autologin';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'this will log you out of all devices where auto-login is enabled';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'Tämä kirjaa sinut ulos kaikista laitteista, joissa automaattinen kirjautuminen on käytössä';
 
 $lang['AVATAR'] = 'Avatar';
 $lang['AVATAR_EXPLAIN'] = 'Näyttää pienen graafisen kuvan tietojesi alapuolella viesteissä. Vain yhden kuvan voi näyttää kerrallaan, sen leveys ei voi olla suurempi kuin %d pikseliä, korkeus ei suurempi kuin %d pikseliä ja tiedoston koko enintään %s.';
 $lang['AVATAR_DELETE'] = 'Poista avatar';
-$lang['AVATAR_DISABLE'] = 'Avatar upload disabled due to a violation of <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Avatarin lähetys poistettu käytöstä <a href="%s"><b>keskustelusääntöjen</b></a> rikkomisen vuoksi';
 $lang['UPLOAD_AVATAR_FILE'] = 'Ladata avatar';
 $lang['RETURN_PROFILE'] = 'Palaa profiiliin.';
 $lang['DELETE_IMAGE'] = 'Poista kuva';
@@ -535,8 +535,8 @@ $lang['PASSWORD_LONG'] = 'Salasanasi ei saa olla pidempi kuin %d merkkiä ja ei 
 $lang['USERNAME_TAKEN'] = 'Anteeksi, mutta tämä käyttäjätunnus on jo käytössä.';
 $lang['USERNAME_INVALID'] = 'Anteeksi, mutta tämä käyttäjätunnus sisältää virheellisiä merkkejä.';
 $lang['USERNAME_DISALLOWED'] = 'Anteeksi, mutta tämä käyttäjätunnus on kielletty.';
-$lang['USERNAME_TOO_LONG'] = 'Your username is too long.';
-$lang['USERNAME_TOO_SMALL'] = 'Your username is too short.';
+$lang['USERNAME_TOO_LONG'] = 'Käyttäjätunnuksesi on liian pitkä.';
+$lang['USERNAME_TOO_SMALL'] = 'Käyttäjätunnuksesi on liian lyhyt.';
 $lang['EMAIL_TAKEN'] = 'Anteeksi, mutta tämä sähköpostiosoite on jo rekisteröity käyttäjälle.';
 $lang['EMAIL_INVALID'] = 'Anteeksi, mutta tämä e-mail-osoite on virheellinen.';
 $lang['EMAIL_TOO_LONG'] = 'Sähköpostiosoite on liian pitkä.';
@@ -591,8 +591,8 @@ $lang['THANK_TOPIC'] = 'Äänestä tätä aihetta';
 $lang['THANKS_GRATITUDE'] = 'Arvostamme kiitollisuuttasi';
 $lang['LAST_LIKES'] = 'Viimeisimmät äänet';
 $lang['LIKE_OWN_POST'] = 'Et voi äänestää omaa aihettasi';
-$lang['NO_LIKES'] = 'Nobody has voted yet';
-$lang['LIKE_ALREADY'] = 'You have already voted for this topic';
+$lang['NO_LIKES'] = 'Kukaan ei ole vielä äänestänyt';
+$lang['LIKE_ALREADY'] = 'Olet jo äänestänyt tässä aiheessa';
 
 // Invites
 $lang['INVITE_CODE'] = 'Kutsukoodi';
@@ -638,7 +638,7 @@ $lang['NO_GROUP_ID_SPECIFIED'] = 'Ryhmän TUNNUS ei ole määritelty';
 $lang['NO_GROUP_MEMBERS'] = 'Tässä ryhmässä ei ole jäseniä';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Tämä ryhmä on piilotettu; et voi tarkastella sen jäsenyyksiä.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Tässä ryhmässä ei ole odottavia jäseniä.';
-$lang['GROUP_JOINED'] = 'You have successfully applied to join this group.<br />You will be notified when your membership is approved by the group moderator.';
+$lang['GROUP_JOINED'] = 'Olet onnistuneesti hakenut liittyä tähän ryhmään.<br />Sinulle ilmoitetaan, kun ryhmän moderaattori hyväksyy jäsenyytesi.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Olet jo tämän ryhmän jäsen.';
 $lang['USER_IS_MEMBER_GROUP'] = '%s on jo tämän ryhmän jäsen';
 $lang['USER_IS_MOD_GROUP'] = '%s on tämän ryhmän moderaattori';
@@ -804,7 +804,7 @@ $lang['SAMPLE_RATE'] = 'Näytteenottotaajuus: <b>%s</b>';
 $lang['AUDIO_TRACK'] = 'Ääniraita tiedot (%d):';
 $lang['AUDIO_CODEC'] = 'Äänikoodi: <b title="%s">%s</b>';
 $lang['VIDEO_CODEC'] = 'Video-koodi: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about this file';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Näytä lisätietoja tästä tiedostosta';
 $lang['DOWNLOAD_M3U_FILE'] = 'Lataa .m3u-tiedosto';
 $lang['PLAYBACK_M3U'] = 'Soita .m3u-tiedosto';
 $lang['COPY_STREAM_LINK'] = 'Kopioi stream-linkki leikepöydälle';
@@ -836,7 +836,7 @@ $lang['BT_REG_YES'] = 'Rekisteröity';
 $lang['BT_REG_NO'] = 'Ei ole rekisteröity';
 $lang['BT_REG_ON_TRACKER'] = 'Rekisteröidy trackerille.';
 $lang['BT_REG_FAIL'] = 'Ei voitu rekisteröidä torrent tracker';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Another torrent with the same info_hash is already <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Toinen torrent samalla info_hashilla on jo <a href="%s"><b>rekisteröity</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'V1-yksittäiset torrentit on tällä hetkellä estetty hallinnoijalta, sallitut: v2 ja hybridit.';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'V2-yksittäiset torrentit on tällä hetkellä estetty hallinnoijalta, sallitut: v1 ja hybridit.';
 $lang['BT_FLIST'] = 'Tiedostoluettelo';
@@ -877,15 +877,15 @@ $lang['MAGNET_v2'] = 'Magnet-linkki (BitTorrent v2 tuettu)';
 //torrent status mod
 $lang['TOR_STATUS'] = 'Tila.';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Valitse tila.';
-$lang['TOR_STATUS_NOT_SELECT'] = 'You have not selected a status.';
+$lang['TOR_STATUS_NOT_SELECT'] = 'Et ole valinnut tilaa.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Kaikki statukset.';
 $lang['TOR_STATUS_FORBIDDEN'] = 'Tämän aiheen tila on: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'Ei tarkastettu.',
     TOR_CLOSED => 'Suljettu.',
     TOR_APPROVED => 'Tarkastettavana.',
-    TOR_NEED_EDIT => 'needs editing',
-    TOR_NO_DESC => 'incomplete',
+    TOR_NEED_EDIT => 'tarvitsee muokkausta',
+    TOR_NO_DESC => 'epätäydellinen',
     TOR_DUP => 'duplikaatti',
     TOR_CLOSED_CPHOLD => 'suljettu (tekijänoikeus)',
     TOR_CONSUMED => 'Imeytyy.',
@@ -895,28 +895,28 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_PREMOD => 'Esimerkiksi.',
     TOR_REPLENISH => 'täydennetään',
 ];
-$lang['TOR_STATUS_FAILED'] = 'This status does not exist!';
+$lang['TOR_STATUS_FAILED'] = 'Tällä tilalla ei ole olemassa!';
 $lang['TORRENT_FAILED'] = 'Jakelua ei löytynyt!';
 $lang['TOR_STATUS_DUB'] = 'Jakelu on sama asema.';
-$lang['TOR_DONT_CHANGE'] = 'Change of status cannot be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Tilaa ei voi vaihtaa!';
 $lang['TOR_STATUS_OF'] = 'Jakelu on tila.';
 $lang['TOR_STATUS_CHANGED'] = 'Tila muuttui.';
 $lang['TOR_BACK'] = 'Takaisin.';
 $lang['PROCEED'] = 'Jatka.';
-$lang['CHANGE_TOR_TYPE'] = 'Torrent type successfully changed';
+$lang['CHANGE_TOR_TYPE'] = 'Torrentin tyyppi vaihdettiin onnistuneesti';
 $lang['DEL_TORRENT'] = 'Oletko varma, että haluat poistaa torrentin?';
 $lang['DEL_MOVE_TORRENT'] = 'Oletko varma, että haluat poistaa ja siirtää aiheen?';
 $lang['UNEXECUTED_RELEASE'] = 'Sinulla on kesken oleva julkaisu. Ennen uuden luomista, viimeistele se!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'Uusi tila: %s.<br/>Edellinen tila: %s.';
 
 // tor_comment
-$lang['TOR_MOD_TITLE'] = 'Distribution status changed – %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nThe status of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_TITLE'] = 'Jakelun tila muuttui – %s';
+$lang['TOR_MOD_MSG'] = "Hei, %s.\n\n[url=%s]Jakelusi[/url] tila on muuttunut tilaan [b]%s[/b]";
 
-$lang['TOR_AUTH_TITLE'] = 'Formatting changes requested – %s';
+$lang['TOR_AUTH_TITLE'] = 'Muotoilumuutoksia pyydetty – %s';
 $lang['TOR_AUTH_MSG'] = "Hei, %s.\n\nJakelusi on muuttunut - [url=%s]%s[/url]\n\nTarkista se uudelleen.";
 $lang['TOR_AUTH_FIXED'] = 'Kiinnitetty.';
-$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The information has been sent to the moderator. Please wait for a response.</span>';
+$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">Tiedot on lähetetty moderaattorille. Odota vastausta.</span>';
 
 $lang['BT_TOPIC_TITLE'] = 'Aiheen otsikko.';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Siemen viimeksi nähty.';
@@ -935,11 +935,11 @@ $lang['BT_VIEWS'] = 'Näkymät';
 $lang['GOLD'] = 'Kulta.';
 $lang['SILVER'] = 'Hopea.';
 $lang['SET_GOLD_TORRENT'] = 'Tee kultaa.';
-$lang['UNSET_GOLD_TORRENT'] = 'Remove gold status';
+$lang['UNSET_GOLD_TORRENT'] = 'Poista kultatila';
 $lang['SET_SILVER_TORRENT'] = 'Tee hopea.';
-$lang['UNSET_SILVER_TORRENT'] = 'Remove silver status';
-$lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC IS NOT COUNTED!';
-$lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC IS PARTIALLY COUNTED!';
+$lang['UNSET_SILVER_TORRENT'] = 'Poista hopeatila';
+$lang['GOLD_STATUS'] = 'KULTAINEN TORRENT! LATAUKSET EIVÄT VÄLITY LIIKENNESEURANTAAN!';
+$lang['SILVER_STATUS'] = 'HOPEA TORRENT! LATAUKSET OTETAAN OSITTAIN HUOMIOON LIIKENNESEURANNASSA!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Torrent-tyyppi muuttui: %s';
 
 $lang['TORRENT_STATUS'] = 'Haku julkaisun tilan mukaan';
@@ -949,15 +949,15 @@ $lang['GO_TO_SECTION'] = 'Siirry osioon';
 $lang['TORRENTS_FROM'] = 'Viestit.';
 $lang['SHOW_ONLY'] = 'Näytä vain.';
 $lang['SHOW_COLUMN'] = 'Näytä sarake.';
-$lang['SEL_CHAPTERS'] = 'Link to selected sections';
-$lang['NOT_SEL_CHAPTERS'] = 'You have not selected any topics';
-$lang['SEL_CHAPTERS_HELP'] = 'You can select a maximum of %s sections';
+$lang['SEL_CHAPTERS'] = 'Linkki valittuihin osioihin';
+$lang['NOT_SEL_CHAPTERS'] = 'Et ole valinnut yhtään aihetta';
+$lang['SEL_CHAPTERS_HELP'] = 'Voit valita enintään %s osioita';
 $lang['HIDE_CONTENTS'] = 'Piilota sisällön {...}.';
 $lang['FILTER_BY_NAME'] = '<i>Suodata nimen</i>.';
 
 $lang['BT_ONLY_ACTIVE'] = 'Aktiivinen.';
 $lang['BT_ONLY_MY'] = 'Minun julkaisut.';
-$lang['BT_SEED_EXIST'] = 'Seeder exists';
+$lang['BT_SEED_EXIST'] = 'Siementä on olemassa';
 $lang['BT_ONLY_NEW'] = 'Uutta viime vierailulta.';
 $lang['BT_SHOW_CAT'] = 'Luokka';
 $lang['BT_SHOW_FORUM'] = 'Foorumi';
@@ -992,7 +992,7 @@ $lang['DL_LIST_DEL'] = 'Tyhjennä DL-lista';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Poista DL-Lista tästä aiheesta?';
 $lang['SHOW_DL_LIST'] = 'Näytä DL-Lista';
 $lang['SET_DL_STATUS'] = 'Lataa';
-$lang['UNSET_DL_STATUS'] = 'Not downloading';
+$lang['UNSET_DL_STATUS'] = 'Ei lataamista';
 $lang['TOPICS_DOWN_SETS'] = 'Aiheen tila muutettu <b>Lataa</b>ksi';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Lataus</b> tila poistettu';
 
@@ -1012,7 +1012,7 @@ $lang['OPEN_TOPIC'] = 'Avoin aihe';
 
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Ei voitu rekisteröidä torrent tällä foorumilla';
 $lang['ALREADY_REG'] = 'Torrent jo rekisteröity';
-$lang['NOT_TORRENT'] = 'This file is not a torrent';
+$lang['NOT_TORRENT'] = 'Tämä tiedosto ei ole torrent';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Torrent-profiili';
 $lang['CUR_ACTIVE_DLS'] = 'Aktiivinen torrents';
 
@@ -1026,20 +1026,20 @@ $lang['DOWNLOADED'] = 'Ladata';
 $lang['UPLOADED'] = 'Ladataan';
 $lang['RELEASED'] = 'Julkaistu';
 $lang['BONUS'] = 'Bonus';
-$lang['IT_WILL_BE_DOWN'] = 'will be counted once downloaded';
+$lang['IT_WILL_BE_DOWN'] = 'lasketaan ladattaessa kerran';
 $lang['SPMODE_FULL'] = 'Näytä vertaisryhmät täydellisissä suunnitelmissa';
 
 // Seed Bonus
-$lang['MY_BONUS'] = 'My bonus (%s points available)';
+$lang['MY_BONUS'] = 'Bonukseni (%s pistettä käytettävissä)';
 $lang['BONUS_SELECT'] = 'Valitse';
 $lang['SEED_BONUS'] = 'Siemenbonus';
 $lang['EXCHANGE'] = 'Vaihto';
-$lang['EXCHANGE_BONUS'] = 'Seed bonus exchange';
-$lang['BONUS_UPLOAD_DESC'] = '<b>+%s upload credit</b> <br /> Exchange bonus points for %1$s of upload traffic added to your account total.';
+$lang['EXCHANGE_BONUS'] = 'Siemenbonusvaihto';
+$lang['BONUS_UPLOAD_DESC'] = '<b>+%s latausluottoa</b> <br /> Vaihda bonuspisteitä %1$s upload-liikenteeseen, joka lisätään tilillesi.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Hinta';
-$lang['EXCHANGE_NOT'] = 'Exchange is not available';
-$lang['BONUS_SUCCES'] = '%s has been successfully credited to your account';
+$lang['EXCHANGE_NOT'] = 'Vaihto ei ole saatavilla';
+$lang['BONUS_SUCCES'] = '%s on onnistuneesti hyvitetty tilillesi';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">Sinulla ei ole bonuksia saatavilla. Lisää kylvöä!</span>';
 $lang['BONUS_RETURN'] = 'Palaa siemenbonusvaihtoon';
 
@@ -1047,21 +1047,21 @@ $lang['TRACKER'] = 'Tracker';
 $lang['RANDOM_RELEASE'] = 'Satunnainen julkaisu';
 $lang['OPEN_TOPICS'] = 'Avaamalla aiheet';
 $lang['OPEN_IN_SAME_WINDOW'] = 'avaa saman ikkunan';
-$lang['SHOW_TIME_TOPICS'] = 'show topic creation time';
+$lang['SHOW_TIME_TOPICS'] = 'näytä aiheen luontiaika';
 $lang['SHOW_CURSOR'] = 'korosta rivi kursorin';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = 'Your ratio of <b>%s</b> is too low to download torrents';
-$lang['BT_RATIO_WARNING_MSG'] = 'If your ratio falls below %s, you will not be able to download torrents! <a href="%s"><b>More about ratio.</b></a>';
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Suhteesi <b>%s</b> on liian alhainen torrenttien lataamiseen';
+$lang['BT_RATIO_WARNING_MSG'] = 'Jos suhteesi laskee alle %s, et voi enää ladata torrentteja! <a href="%s"><b>Lisätietoja suhteesta.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder ei nähty: <b>%s</b>.';
 
 $lang['NEED_TO_LOGIN_FIRST'] = 'Sinun täytyy kirjautua ensin';
-$lang['ONLY_FOR_MOD'] = 'This option is only for moderators';
-$lang['ONLY_FOR_ADMIN'] = 'This option is only for admins';
-$lang['ONLY_FOR_SUPER_ADMIN'] = 'This option is only for super admins';
+$lang['ONLY_FOR_MOD'] = 'Tämä vaihtoehto on tarkoitettu vain moderaattoreille';
+$lang['ONLY_FOR_ADMIN'] = 'Tämä vaihtoehto on tarkoitettu vain ylläpitäjille';
+$lang['ONLY_FOR_SUPER_ADMIN'] = 'Tämä vaihtoehto on tarkoitettu vain superylläpitäjille';
 
 $lang['LOGS'] = 'Aihehistoria';
-$lang['FORUM_LOGS'] = 'Forum History';
+$lang['FORUM_LOGS'] = 'Keskusteluhistoria';
 $lang['AUTOCLEAN'] = 'Autoclean';
 $lang['DESIGNER'] = 'Suunnittelija';
 
@@ -1163,16 +1163,16 @@ $lang['SWITCH'] = 'Kytkin.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Suurennus/ole pois ikkuna.';
 $lang['EMPTY_TOPIC_ID'] = 'Aiherivin tunnistetta puuttuu';
 $lang['TOR_NOT_FOUND'] = 'Tiedostoa ei löydy palvelimelta';
-$lang['ERROR_BUILD'] = 'The content of this torrent cannot be displayed (failed to build file list)';
+$lang['ERROR_BUILD'] = 'Tämän torrentin sisältöä ei voi näyttää (tiedostolistaa ei saatu muodostettua)';
 $lang['TORFILE_INVALID'] = 'Torrent-tiedosto on korruptoitunut';
 
 // Profile
 $lang['WEBSITE_ERROR'] = '"Sivusto" voi sisältää vain http://sivustonimi.';
 $lang['PROFILE_USER'] = 'Profiilin tarkasteleminen';
-$lang['GOOD_UPDATE'] = 'successfully updated';
+$lang['GOOD_UPDATE'] = 'päivitetty onnistuneesti';
 $lang['UCP_DOWNLOADS'] = 'Lataukset';
 $lang['HIDE_DOWNLOADS'] = 'Piilota nykyinen latausluettelo profiilissasi.';
-$lang['BAN_USER'] = 'User restrictions';
+$lang['BAN_USER'] = 'Käyttäjän rajoitukset';
 $lang['USER_NOT_ALLOWED'] = 'Käyttäjiä ei sallita.';
 $lang['HIDE_AVATARS'] = 'Näytä avatarit';
 $lang['SHOW_CAPTION'] = 'Näytä allekirjoitus.';
@@ -1183,15 +1183,15 @@ $lang['NEW_THREADS'] = 'Uusia Ketjuja';
 $lang['PROFILE_NOT_FOUND'] = 'Profiilia ei löytynyt';
 
 $lang['USER_DELETE_EXPLAIN'] = 'Poista tämä käyttäjä';
-$lang['USER_DELETE_ME'] = 'Sorry, your account cannot be deleted!';
-$lang['USER_DELETE_CSV'] = 'Sorry, this account cannot be deleted!';
+$lang['USER_DELETE_ME'] = 'Valitettavasti tiliäsi ei voi poistaa!';
+$lang['USER_DELETE_CSV'] = 'Valitettavasti tätä tiliä ei voi poistaa!';
 $lang['USER_DELETE_CONFIRM'] = 'Oletko varma, että haluat poistaa tämän käyttäjän?';
 $lang['USER_DELETED'] = 'Käyttäjä on poistettu onnistuneesti';
 $lang['DELETE_USER_ALL_POSTS'] = 'Poista kaikki käyttäjän viestit.';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Oletko varma, että haluat poistaa kaikki viestit ja kaikki aiheet, jotka tämä käyttäjä aloitti';
-$lang['DELETE_USER_POSTS'] = 'Delete all posts except the first post in each topic';
+$lang['DELETE_USER_POSTS'] = 'Poista kaikki viestit paitsi jokaisen aiheen ensimmäinen viesti';
 $lang['DELETE_USER_POSTS_ME'] = 'Oletko varma, että haluat poistaa kaikki viestini?.';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all posts except the first post in each topic?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Haluatko varmasti poistaa kaikki viestit paitsi jokaisen aiheen ensimmäisen viestin?';
 $lang['USER_DELETED_POSTS'] = 'Viestit on poistettu onnistuneesti.';
 
 $lang['USER'] = 'Käyttäjä';
@@ -1199,21 +1199,21 @@ $lang['ROLE'] = 'Rooli:';
 $lang['MEMBERSHIP_IN'] = 'Jäsenyys';
 $lang['PARTY'] = 'Puolue:,';
 $lang['CANDIDATE'] = 'Ehdokas:';
-$lang['INDIVIDUAL'] = 'Has individual rights';
+$lang['INDIVIDUAL'] = 'Omistaa yksilölliset oikeudet';
 $lang['GROUP_LIST_HIDDEN'] = 'Sinulla ei ole oikeutta tarkastella piilotettuja ryhmiä';
 
 $lang['USER_ACTIVATE'] = 'Aktivoi';
 $lang['USER_DEACTIVATE'] = 'Poista käytöstä';
 $lang['DEACTIVATE_CONFIRM'] = 'Oletko varma, että haluat poistaa tämän käyttäjän?';
 $lang['USER_ACTIVATE_ON'] = 'Käyttäjä on onnistuneesti aktivoitu.';
-$lang['USER_DEACTIVATE_ME'] = 'You cannot deactivate your own account!';
-$lang['ACTIVATE_CONFIRM'] = 'Are you sure you want to activate this user?';
+$lang['USER_DEACTIVATE_ME'] = 'Et voi poistaa omaa tiliäsi!';
+$lang['ACTIVATE_CONFIRM'] = 'Haluatko varmasti aktivoida tämän käyttäjän?';
 $lang['USER_ACTIVATE_OFF'] = 'Käyttäjä on onnistuneesti poistettu käytöstä.';
 
 // Register
-$lang['CHOOSE_A_NAME'] = 'Please choose a username';
-$lang['CHOOSE_E_MAIL'] = 'You must provide an email address';
-$lang['CHOOSE_PASS'] = 'The password field must not be empty!';
+$lang['CHOOSE_A_NAME'] = 'Valitse käyttäjätunnus';
+$lang['CHOOSE_E_MAIL'] = 'Sinun täytyy antaa sähköpostiosoite';
+$lang['CHOOSE_PASS'] = 'Salasanakenttä ei saa olla tyhjä!';
 $lang['CHOOSE_PASS_ERR'] = 'Syötetyt salasanat eivät täsmää.';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Salasanan on oltava vähintään %d merkkiä.';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'Salasanasi ei saa olla pidempi kuin %d merkkiä';
@@ -1224,7 +1224,7 @@ $lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Salasanassa on oltava vähintään yksi 
 $lang['CHOOSE_PASS_OK'] = 'Salasanat täsmäävät.';
 $lang['CHOOSE_PASS_REG_OK'] = 'Salasanat täsmäävät, voit jatkaa rekisteröintiä.';
 $lang['CHOOSE_PASS_FAILED'] = 'Voit vaihtaa salasanan, sinun on oikein määritettävä nykyinen salasana.';
-$lang['EMAILER_DISABLED'] = 'Sorry, this feature is temporarily unavailable';
+$lang['EMAILER_DISABLED'] = 'Valitettavasti tämä ominaisuus on tilapäisesti pois käytöstä';
 $lang['REGISTERED_IN_TIME'] = 'Rekisteröinti on tällä hetkellä suljettu<br /><br />Rekisteröinti on mahdollista aikana: %s<br />Nykyinen palvelinaika: %s<br /><br />Pahoittelemme vaivannäköä';
 $lang['AUTOCOMPLETE'] = 'Generoi salasana';
 $lang['YOUR_NEW_PASSWORD'] = 'Uusi salasanasi:';
@@ -1247,8 +1247,8 @@ $lang['HOW_TO_DOWNLOAD'] = 'Miten ladataan?';
 $lang['WHAT_IS_A_TORRENT'] = 'Mikä on torrentti?';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Arvioinnista ja rajoituksista.';
 
-$lang['SCREENSHOTS_RULES'] = 'Read the screenshot posting rules!';
-$lang['AJAX_EDIT_OPEN'] = 'You already have a quick edit session open!';
+$lang['SCREENSHOTS_RULES'] = 'Lue kuvakaappaussääntöjä!';
+$lang['AJAX_EDIT_OPEN'] = 'Sinulla on jo avoin pika muokkaussessio!';
 $lang['GO_TO_PAGE'] = 'Mene sivulle ...';
 $lang['EDIT'] = 'Muokkaa';
 $lang['SAVE'] = 'Tallenna';
@@ -1256,8 +1256,8 @@ $lang['NEW_WINDOW'] = 'uudessa ikkunassa';
 
 // BB Code
 $lang['ALIGN'] = 'Kohdista:';
-$lang['LEFT'] = 'Left';
-$lang['RIGHT'] = 'Right';
+$lang['LEFT'] = 'Vasen';
+$lang['RIGHT'] = 'Oikea';
 $lang['CENTER'] = 'Keskitetty';
 $lang['JUSTIFY'] = 'Sovita leveys';
 $lang['HOR_LINE'] = 'Vaakasuora viiva (Ctrl+8)';
@@ -1293,7 +1293,7 @@ $lang['OLD'] = 'Vanha';
 
 // DL-List
 $lang['DL_USER'] = 'Käyttäjätunnus';
-$lang['DL_PERCENT'] = 'Completion %';
+$lang['DL_PERCENT'] = 'Valmistumisprosentti';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'DL';
 $lang['DL_UL_SPEED'] = 'UL-nopeus';
@@ -1323,12 +1323,12 @@ $lang['EDIT_MY_MESSAGE_LIST'] = 'muokkaa luetteloa';
 $lang['SELECT_INVERT'] = 'valitse / käänteinen.';
 $lang['RESTORE_ALL_POSTS'] = 'Palauta kaikki viestit.';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Poista valittu aihe luettelosta';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'After removal, the <b>full list</b> may still show previously deleted threads until it is refreshed';
-$lang['DEL_LIST_INFO'] = 'To remove an entry from the list, click the icon to the left of any section name';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Poiston jälkeen <b>täysi lista</b> saattaa edelleen näyttää aiemmin poistetut ketjut kunnes se päivitetään';
+$lang['DEL_LIST_INFO'] = 'Poista merkintä listasta napsauttamalla kuvaketta minkä tahansa osion nimen vasemmalla puolella';
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Katsotut aiheet.';
-$lang['NO_WATCHED_TOPICS'] = 'Not watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Ei seurattavia aiheita';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Takaisin kotisivulle';
@@ -1363,7 +1363,7 @@ $lang['WORD_CENSOR'] = 'Sana Sensuroi';
 $lang['CRON'] = 'Task Scheduler (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Rakennetaan hakemisto.';
 $lang['FORUM_CONFIG'] = 'Foorumin asetuksia';
-$lang['ACTIONS_LOG'] = 'Actions log';
+$lang['ACTIONS_LOG'] = 'Toimintaloki';
 
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'Tietokannan siirretty tila';
@@ -1399,7 +1399,7 @@ $lang['CREATE_PROFILE'] = 'Luo profiili.';
 
 $lang['TP_VERSION'] = 'TorrentPier-versio.';
 $lang['TP_RELEASE_DATE'] = 'Julkaisupäivämäärä.';
-$lang['PHP_INFO'] = 'PHP information';
+$lang['PHP_INFO'] = 'PHP-tiedot';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'Klikkaa %sTäällä%s palataksesi Admin-indeksiin.';
 
@@ -1484,7 +1484,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Poista';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Liimattu';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Ilmoittaa';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Äänestä';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Create poll';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Luo äänestys';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Liitä tiedostot';
 $lang['AUTH_DOWNLOAD'] = 'Lataa Tiedostot';
 
@@ -1496,7 +1496,7 @@ $lang['APPLY_TO_SUBFORUMS'] = 'Käytä alakeskusteluissa';
 
 $lang['AUTH_UPDATED'] = 'Käyttöoikeudet on päivitetty';
 $lang['AUTH_GENERAL_ERROR'] = 'Hallinta-asentoa ei voitu päivittää';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to a user';
+$lang['AUTH_SELF_ERROR'] = 'Et voi muuttaa itseäsi ylläpitäjästä käyttäjäksi';
 $lang['NO_FORUMS_AVAILABLE'] = 'Ei foorumeita saatavilla. Luo ensin foorumeita hallitaksesi oikeuksia.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Klikkaa %sTäällä%s palataksesi käyttöoikeuksiin';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Klikkaa %sTäällä%s palataksesi ryhmän käyttöoikeuksiin';
@@ -1738,7 +1738,7 @@ $lang['CHANGELOG'] = 'Muutospäiväkirja';
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Sallitut kirjautumisyritykset.';
 $lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'Sallitun lukumäärän hallituksen kirjautumisyrityksistä.';
 $lang['LOGIN_RESET_TIME'] = 'Kirjaudu lukitseminen.';
-$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Time in minutes the user has to wait before they can log in again after exceeding the allowed number of login attempts.';
+$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Aika minuuteissa, jonka käyttäjän on odotettava ennen kuin voi yrittää kirjautua uudelleen ylitettyään sallitut kirjautumisyritykset.';
 
 // Permissions List
 $lang['PERMISSIONS_LIST'] = 'Käyttöoikeusluettelo';
@@ -1775,23 +1775,23 @@ $lang['SF_NO_PARENT'] = 'Ei vanhempaa foorumia.';
 $lang['SYNC'] = 'Sync';
 
 // Mods
-$lang['MAX_NEWS_TITLE'] = 'Max. news title length';
+$lang['MAX_NEWS_TITLE'] = 'Uutisen otsikon enimmäispituus';
 $lang['NEWS_COUNT'] = 'Kuinka monta uutisartikkelia näytetään';
 $lang['NEWS_FORUM_ID'] = 'Mistä foorumeista näytetään<br /> <h6>Useista foorumeista, käytä ID:itä, jotka on erotettu pilkuilla. Esimerkki: 1,2,3</h6>';
-$lang['TRACKER_STATS'] = 'Tracker statistics';
-$lang['WHOIS_INFO'] = 'IP address information';
-$lang['SHOW_MOD_HOME_PAGE'] = 'Show moderators on the homepage (index.php)';
+$lang['TRACKER_STATS'] = 'Tracker-tilastot';
+$lang['WHOIS_INFO'] = 'IP-osoitteen tiedot';
+$lang['SHOW_MOD_HOME_PAGE'] = 'Näytä moderaattorit etusivulla (index.php)';
 $lang['SHOW_BOARD_STARTED_INDEX'] = 'Näytä foorumin aloituspäivämäärä index.php:ssä';
-$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If there are no torrents with status v, #, or T in this section and its subsections, new distributions will automatically receive this status</h6>';
-$lang['TOR_COMMENT'] = '<h4>Comment on the status of a distribution</h4> <h6>The comment allows you to point out errors in the release. If corrections are needed, a response form becomes available to the uploader to fix the release</h6>';
-$lang['SEED_BONUS_ADD'] = '<h4>Seed bonus rules</h4> <h6>Number of torrents being seeded by the user and the corresponding bonus points awarded per hour</h6>';
-$lang['SEED_BONUS_RELEASE'] = 'up to N releases';
-$lang['SEED_BONUS_POINTS'] = 'bonus points per hour';
-$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum torrent size to qualify for bonus points</h4> <h6>Leave blank to award bonuses for all torrents regardless of size.</h6>';
-$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum user account age to qualify for bonus points</h4> <h6>Leave blank to award bonuses to all users regardless of account age.</h6>';
+$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Esimoderointi</h4> <h6>Jos tässä osassa ja sen aliosissa ei ole jakeluja tiloissa v, # tai T, uudet jaot saavat automaattisesti tämän tilan</h6>';
+$lang['TOR_COMMENT'] = '<h4>Kommentti jakelun tilasta</h4> <h6>Kommentilla voit osoittaa virheitä julkaisussa. Tarvittaessa lataajalle tulee vastauslomake korjausten tekemiseksi</h6>';
+$lang['SEED_BONUS_ADD'] = '<h4>Siemenbonus säännöt</h4> <h6>Käyttäjän siementen määrä ja sitä vastaavat bonuspisteet tunnissa</h6>';
+$lang['SEED_BONUS_RELEASE'] = 'enintään N julkaisua';
+$lang['SEED_BONUS_POINTS'] = 'bonuspistettä tunnissa';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimi torrentin koko bonuspisteiden saamiseen</h4> <h6>Jätä tyhjäksi palkitaksesi bonuksilla kaikista torrenteista koosta riippumatta.</h6>';
+$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimi käyttäjätilin ikä bonuspisteiden saamiseen</h4> <h6>Jätä tyhjäksi palkitaksesi bonuksilla kaikki käyttäjät tilin iästä riippumatta.</h6>';
 $lang['SEED_BONUS_WARNING'] = 'HUOMIO! Siemenbonusten tulee olla nousevassa järjestyksessä.';
-$lang['SEED_BONUS_EXCHANGE'] = 'Configuring exchange seed bonuses';
-$lang['SEED_BONUS_ROPORTION'] = 'Exchange rate: bonus points to GB of upload credit';
+$lang['SEED_BONUS_EXCHANGE'] = 'Siemenbonusten vaihdon kokoonpano';
+$lang['SEED_BONUS_ROPORTION'] = 'Vaihtokurssi: bonuspisteet ladattavaksi GB:ksi';
 
 $lang['ALLOWED'] = 'Sallitut.';
 $lang['RETURN_CONFIG'] = '%sPalauta kokoonpano%s';
@@ -1815,7 +1815,7 @@ $lang['BT_DISABLE_DHT_EXPL'] = 'Poista Peer-vaihto ja DHT (suositeltu yksityisil
 $lang['BT_PRIVATE_TRACKER'] = 'Tämä tracker on suljettu: tiedostoluettelo (vieraileville), DHT | PEX on pois käytöstä';
 $lang['BT_PRIVATE_TORRENT'] = 'Tämän torrentin luoja teki siitä yksityisen';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Vahvista ilmoitus-URL.';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'only register allowed URLs on the tracker';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'rekisteröi trackerille vain sallitut URL-osoitteet';
 $lang['BT_REPLACE_ANN_URL'] = 'Korvaa ilmoitus-URL.';
 $lang['BT_REPLACE_ANN_URL_EXPL'] = 'korvata alkuperäisen ilmoittaa url-osoite oletuksena .torrent-tiedostoja';
 $lang['BT_DEL_ADDIT_ANN_URLS'] = 'Poista kaikki ylimääräiset ilmoitus-URL-osoitteet.';
@@ -1861,7 +1861,7 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Muuttaa aihe-tilan "Normaali", kun reki
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Mallin käytöstä';
 $lang['FOR_NEW_TEMPLATE'] = 'uusia kuvioita!';
-$lang['QUESTION'] = 'Are you sure you want to perform this action?';
+$lang['QUESTION'] = 'Haluatko varmasti suorittaa tämän toimenpiteen?';
 
 $lang['CRON_LIST'] = 'Cron-luettelo';
 $lang['CRON_ID'] = 'ID';
@@ -1886,7 +1886,7 @@ $lang['CRON_RUN'] = 'Suorita';
 $lang['CRON_DEL'] = 'Poista';
 $lang['CRON_DISABLE'] = 'Poista';
 $lang['CRON_ENABLE'] = 'Ota käyttöön';
-$lang['DELETE_JOB'] = 'Are you sure you want to delete this cron job?';
+$lang['DELETE_JOB'] = 'Haluatko varmasti poistaa tämän cron-tehtävän?';
 $lang['CRON_WORKS'] = 'Cron toimii tällä hetkellä tai on rikki -> ';
 $lang['REPAIR_CRON'] = 'Korjaa Cron';
 
@@ -1901,11 +1901,11 @@ $lang['SCHEDULE'] = [
     'monthly' => 'kuukausittain',
     'interval' => 'väli',
 ];
-$lang['NOSELECT'] = 'Not selected';
+$lang['NOSELECT'] = 'Ei valittu';
 $lang['RUN_DAY'] = 'Aja päivä';
-$lang['RUN_DAY_EXPL'] = 'the day this job runs';
+$lang['RUN_DAY_EXPL'] = 'päivä, jolloin tämä tehtävä suoritetaan';
 $lang['RUN_TIME'] = 'Suorittamisen aika';
-$lang['RUN_TIME_EXPL'] = 'the time this job runs (e.g. 05:00:00)';
+$lang['RUN_TIME_EXPL'] = 'aika, jolloin tämä tehtävä suoritetaan (esim. 05:00:00)';
 $lang['RUN_ORDER'] = 'Suorita järjestys';
 $lang['LAST_RUN'] = 'Viimeinen suoritus';
 $lang['NEXT_RUN'] = 'Seuraava suoritus';
@@ -1913,7 +1913,7 @@ $lang['RUN_INTERVAL'] = 'Suorita väli.';
 $lang['RUN_INTERVAL_EXPL'] = 'esim. 00:10:00';
 $lang['LOG_ENABLED'] = 'Log käytössä';
 $lang['LOG_FILE'] = 'Lokitiedosto';
-$lang['LOG_FILE_EXPL'] = 'the file to save the log to';
+$lang['LOG_FILE_EXPL'] = 'tiedosto, johon lokitiedot tallennetaan';
 $lang['LOG_SQL_QUERIES'] = 'Lokitu SQL-kyselyjä';
 $lang['FORUM_DISABLE'] = 'Poista foorumi';
 $lang['BOARD_DISABLE_EXPL'] = 'poistaa foorumilta, kun tämä työ suoritetaan';
@@ -1933,7 +1933,7 @@ $lang['STARTING_POST_ID'] = 'Alkaa post_id';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'Ensimmäinen viesti, josta käsittely alkaa<br />Voit valita aloittaa alusta tai viestistä, jossa viimeksi pysähdyit';
 
 $lang['START_OPTION_BEGINNING'] = 'aloittaa alusta';
-$lang['START_OPTION_CONTINUE'] = 'continue from where you last stopped';
+$lang['START_OPTION_CONTINUE'] = 'jatka siitä, mihin viimeksi jäit';
 
 $lang['CLEAR_SEARCH_TABLES'] = 'Tyhjennä hakutaulukot';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
@@ -1957,7 +1957,7 @@ $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Verkkopalvelimellasi on aikakatkaisu
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Viimeksi pysähtyi käsittelyn post_id %s (%s käsitelty virkaa) %s';
 $lang['INFO_PROCESSING_ABORTED'] = 'Viimeksi keskeytetty käsittely post_id %s (%s käsitelty viestiä) %s';
-$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Please wait a few minutes before you continue...';
+$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Odota hetki ennen jatkamista...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Olet onnistuneesti päättynyt käsittely (%s käsitelty virkaa) %s';
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Olet onnistuneesti päättänyt käsittelyn post_id %s (%s käsiteltyä viestiä) %s,<br />mutta on ollut %s uutta viestiä(t) kyseisen päivämäärän jälkeen';
 
@@ -2005,12 +2005,12 @@ $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Aihe on siirretty foorumista [b]%s[/b] fooru
 $lang['BOT_MESS_SPLITS'] = 'Aihe on jaettu kahteen osaan. Uusi aihe - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Aihe on erotettu [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeders';
-$lang['CALLSEED_EXPLAIN'] = 'Notify seeders with a request to resume seeding this release';
-$lang['CALLSEED_SUBJECT'] = 'Seeding help needed: %s';
-$lang['CALLSEED_TEXT'] = 'Hello![br]Your help is needed for the release [url=%s]%s[/url][br]If you want to help but have already deleted the torrent file, you can download it [url=%s]here[/url][br][br]Your help would be greatly appreciated!';
-$lang['CALLSEED_MSG_OK'] = 'Request has been sent to everyone who has downloaded this release';
-$lang['CALLSEED_MSG_SPAM'] = 'A request has already been sent recently (possibly not by you).<br /><br />The next request can be sent on <b>%s</b>.';
+$lang['CALLSEED'] = 'Kutsu siementäjät';
+$lang['CALLSEED_EXPLAIN'] = 'Ilmoita siementäjille pyynnöstä jatkaa tämän julkaisun siementämistä';
+$lang['CALLSEED_SUBJECT'] = 'Siementäjän apua tarvitaan: %s';
+$lang['CALLSEED_TEXT'] = 'Hei![br]Apusi tarvitaan julkaisussa [url=%s]%s[/url][br]Jos haluat auttaa mutta olet jo poistanut torrent-tiedoston, voit ladata sen [url=%s]tästä[/url][br][br]Olisin erittäin kiitollinen avustasi!';
+$lang['CALLSEED_MSG_OK'] = 'Pyyntö on lähetetty kaikille, jotka ovat ladanneet tämän julkaisun';
+$lang['CALLSEED_MSG_SPAM'] = 'Pyyntö on jo lähetetty hiljattain (ehkä ei sinulta).<br /><br />Seuraava pyyntö voidaan lähettää <b>%s</b>.';
 $lang['CALLSEED_HAVE_SEED'] = 'Aihe ei vaadi apua (<b>Seeders:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
@@ -2036,8 +2036,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_post_pin' => 'Viesti:<br /> <b>kiinnitetty</b>',
     'mod_post_unpin' => 'Viesti:<br /> <b>poistettu kiinnitys</b>',
     'adm_user_delete' => 'Käyttäjä:<br /> <b>poistettu</b>',
-    'adm_user_ban' => 'User:<br /> <b>banned</b>',
-    'adm_user_unban' => 'User:<br /> <b>unbanned</b>',
+    'adm_user_ban' => 'Käyttäjä:<br /> <b>estetty</b>',
+    'adm_user_unban' => 'Käyttäjä:<br /> <b>eston poisto</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Kaikki toimet';
@@ -2065,7 +2065,7 @@ $lang['NEW_RELEASE'] = 'Uusi julkaisu';
 $lang['NEXT'] = 'Edelleen';
 $lang['ALL'] = 'Kaikki';
 
-$lang['TPL_EMPTY_FIELD'] = 'You must fill in the field <b>%s</b>';
+$lang['TPL_EMPTY_FIELD'] = 'Sinun täytyy täyttää kenttä <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Sinun täytyy valita <b>%s</b>';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - Ei numero';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Täytyy olla https:// URL-osoite';
@@ -2104,7 +2104,7 @@ $lang['SEARCH_FOR_EMAIL'] = 'Etsitään sähköpostiosoitteita, jotka vastaavat 
 $lang['SEARCH_FOR_IP'] = 'Etsitään IP-osoitteita, jotka vastaavat %s.';
 $lang['SEARCH_FOR_DATE'] = 'Etsitään käyttäjiä, jotka liittyivät %s %d/%d/%d.';
 $lang['SEARCH_FOR_GROUP'] = 'Etsitään ryhmän jäseniä %s.';
-$lang['SEARCH_FOR_RANK'] = 'Searching users with rank %s';
+$lang['SEARCH_FOR_RANK'] = 'Etsitään käyttäjiä, joilla on arvo %s';
 $lang['SEARCH_FOR_BANNED'] = 'Etsitään kiellettyjä käyttäjiä.';
 $lang['SEARCH_FOR_ADMINS'] = 'Etsitään ylläpitäjiä.';
 $lang['SEARCH_FOR_MODS'] = 'Etsitään moderaattoreita.';
@@ -2129,14 +2129,14 @@ $lang['SEARCH_USERNAME_EXPLAIN'] = 'Täällä voit suorittaa kirjainkoko haku k�
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'Kirjoita lauseke, joka vastaa käyttäjän sähköpostiosoitetta.';
 $lang['SEARCH_IP_EXPLAIN'] = 'Etsi käyttäjiä tietyn IP-osoitteen avulla (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'Käyttäjät, jotka liittyivät';
-$lang['SEARCH_USERS_LASTVISITED'] = 'Users who have visited';
+$lang['SEARCH_USERS_LASTVISITED'] = 'Käyttäjät, jotka ovat vierailleet';
 $lang['IN_THE_LAST'] = 'viime';
 $lang['AFTER_THE_LAST'] = 'sen jälkeen, kun viimeinen';
 $lang['BEFORE'] = 'Ennen';
 $lang['AFTER'] = 'Jälkeen';
-$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Search for users who joined before or after a specific date. The date format is YYYY/MM/DD.';
+$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Etsi käyttäjiä, jotka liittyivät ennen tai jälkeen tietyn päivämäärän. Päivämäärän muoto on VVVV/KK/PP.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Näytä kaikki valitun ryhmän jäsenet.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'View all users with the selected rank.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Näytä kaikki valitun arvon omaavat käyttäjät.';
 $lang['BANNED_USERS'] = 'Kiellettyjen Käyttäjien';
 $lang['DISABLED_USERS'] = 'Vammaisten Käyttäjien';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Järjestelmänvalvojat - Kaikki käyttäjät, joilla on järjestelmänvalvojan oikeudet; Moderaattorit - Kaikki foorumin moderaattorit; Kielletyt käyttäjät - kaikki tilit, jotka on estetty näillä foorumeilla; Vammaiset käyttäjät - Kaikki käyttäjät, joilla on pois käytöstä tilit (joko poistettu käytöstä manuaalisesti tai eivät koskaan vahvistaneet sähköpostiosoitettaan); Käyttäjät, joiden PM:t ovat pois käytöstä – Valitsee käyttäjät, joilta on poistettu yksityisviestien käyttöoikeudet (Tehty käyttäjähallinnan kautta)';
@@ -2169,7 +2169,7 @@ $lang['MC_TITLE'] = 'Moderointi kommentti';
 $lang['MC_LEGEND'] = 'Kirjoita kommentti';
 $lang['MC_FAQ'] = 'Syötetty teksti näytetään tämän viestin alla.';
 $lang['MC_COMMENT_PM_SUBJECT'] = '%s viestissäsi.';
-$lang['MC_COMMENT_PM_MSG'] = "Hello, [b]%s[/b]\nA moderator has left a comment on your post [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "Hei, [b]%s[/b]\nModeraattori on jättänyt kommentin viestiisi [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',

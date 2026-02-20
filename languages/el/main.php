@@ -160,8 +160,8 @@ $lang['LOGOUT'] = 'Αποσύνδεση';
 $lang['CONFIRM_LOGOUT'] = 'Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε;';
 
 $lang['FORGOTTEN_PASSWORD'] = 'Ξεχάσατε τον κωδικό σας;';
-$lang['AUTO_LOGIN'] = 'Log me in automatically';
-$lang['ERROR_LOGIN'] = 'The username or password you entered is incorrect.';
+$lang['AUTO_LOGIN'] = 'Σύνδεσή μου αυτόματα';
+$lang['ERROR_LOGIN'] = 'Το όνομα χρήστη ή ο κωδικός πρόσβασης που εισαγάγατε είναι λάθος.';
 $lang['REMEMBER'] = 'Θυμάμαι';
 $lang['USER_WELCOME'] = 'Καλώς ήρθες,';
 
@@ -228,7 +228,7 @@ $lang['WROTE'] = 'έγραψε'; // proceeds the username and is followed by the
 $lang['QUOTE'] = 'Απόσπασμα'; // comes before bbcode quote output
 $lang['CODE'] = 'Κώδικα'; // comes before bbcode code output
 $lang['SPOILER_HEAD'] = 'το κρυφό κείμενο';
-$lang['SPOILER_CLOSE'] = 'close';
+$lang['SPOILER_CLOSE'] = 'κλείσιμο';
 $lang['PLAY_ON_CURPAGE'] = 'Ξεκινήστε να παίζετε στην τρέχουσα σελίδα';
 
 $lang['EDITED_TIME_TOTAL'] = 'Τελευταία επεξεργασία από <b>%s</b> στις %s; edited %d time in total'; // Last edited by me on 12 Oct 2001; edited 1 time in total
@@ -271,11 +271,11 @@ $lang['POST_TOPIC_AS'] = 'Δημοσιεύστε θέμα ως.';
 $lang['EDIT_POST'] = 'Επεξεργαστείτε την ανάρτηση.';
 $lang['EDIT_TOPIC_TITLE'] = 'Επεξεργαστείτε τον τίτλο του θέματος.';
 
-$lang['DONT_MESSAGE_TITLE'] = 'You must specify a message title';
-$lang['INVALID_TOPIC_ID'] = 'Topic not found!';
+$lang['DONT_MESSAGE_TITLE'] = 'Πρέπει να καθορίσετε έναν τίτλο μηνύματος';
+$lang['INVALID_TOPIC_ID'] = 'Το θέμα δεν βρέθηκε!';
 $lang['INVALID_TOPIC_ID_DB'] = 'Το θέμα δεν υπάρχει στη βάση δεδομένων!';
 
-$lang['NOT_EDIT_TOR_STATUS'] = 'You cannot edit release with this status';
+$lang['NOT_EDIT_TOR_STATUS'] = 'Δεν μπορείτε να επεξεργαστείτε την κυκλοφορία με αυτή την κατάσταση';
 
 $lang['OPTIONS'] = 'Επιλογές';
 
@@ -326,7 +326,7 @@ $lang['UPDATE'] = 'Ενημέρωση';
 $lang['DAYS'] = 'Ημέρες';
 $lang['DELETE_POLL'] = 'Διαγραφή δημοσκόπησης.';
 
-$lang['MAX_SMILIES_PER_POST'] = 'Emoticon limit of %s exceeded.';
+$lang['MAX_SMILIES_PER_POST'] = 'Το όριο των emoticon %s έχει ξεπεραστεί.';
 
 $lang['NOTIFY'] = 'Ειδοποιήστε με για απαντήσεις';
 $lang['ALLOW_ROBOTS_INDEXING'] = 'Επιτρέψτε στους ρομπότ να ευρετηριάζουν αυτό το θέμα';
@@ -418,7 +418,7 @@ $lang['SELECT_USERNAME'] = 'Επιλέξτε ένα όνομα Χρήστη';
 $lang['NO_MATCH'] = 'Δεν βρέθηκαν αντιστοιχίες.';
 
 $lang['NO_PM_ID'] = 'Παρακαλείστε να προσδιορίσετε το post ID';
-$lang['NO_SUCH_FOLDER'] = 'Folder not found';
+$lang['NO_SUCH_FOLDER'] = 'Ο φάκελος δεν βρέθηκε';
 
 $lang['MARK_ALL'] = 'Επιλογή όλων';
 $lang['UNMARK_ALL'] = 'Αποεπιλογή όλων';
@@ -466,7 +466,7 @@ $lang['NO_SEND_ACCOUNT_INACTIVE'] = 'Συγνώμη, αλλά δεν μπορε�
 $lang['NO_SEND_ACCOUNT'] = 'Συγγνώμη, αλλά δεν μπορεί να ανακτηθεί ο κωδικός πρόσβασης σας. Παρακαλώ επικοινωνήστε με τον διαχειριστή του φόρουμ για περισσότερες πληροφορίες';
 
 $lang['HIDE_PORN_FORUMS'] = 'Απόκρυψη περιεχομένου 18+';
-$lang['ADD_RETRACKER'] = 'Add retracker to torrent files';
+$lang['ADD_RETRACKER'] = 'Προσθέστε retracker στα αρχεία torrent';
 $lang['ALWAYS_NOTIFY'] = 'Πάντα να με ενημερώνετε για απαντήσεις';
 $lang['ALWAYS_NOTIFY_EXPLAIN'] = 'Στέλνει ένα e-mail όταν κάποιος απαντά σε ένα θέμα που έχετε δημοσιεύσει. Αυτό μπορεί να αλλαχθεί οποτεδήποτε δημοσιεύσετε.';
 
@@ -484,7 +484,7 @@ $lang['HAPPY_BIRTHDAY'] = 'Χρόνια Πολλά!';
 $lang['WRONG_BIRTHDAY_FORMAT'] = 'Η μορφή των γενεθλίων εισήχθη εσφαλμένα.';
 $lang['AGE'] = 'Ηλικία';
 $lang['BIRTHDAY_TO_HIGH'] = 'Λυπάμαι, αυτό το site δεν δέχεται χρήστες άνω των %d ετών';
-$lang['BIRTHDAY_TO_LOW'] = 'Sorry, this site does not accept users younger than %d years old';
+$lang['BIRTHDAY_TO_LOW'] = 'Συγγνώμη, αυτός ο ιστότοπος δεν δέχεται χρήστες κάτω των %d ετών';
 $lang['BIRTHDAY_TODAY'] = 'Οι χρήστες με γενέθλια σήμερα: ';
 $lang['BIRTHDAY_WEEK'] = 'Οι χρήστες με γενέθλια μέσα στις επόμενες %d ημέρες: %s';
 $lang['NOBIRTHDAY_WEEK'] = 'Κανένας χρήστης δεν έχει γενέθλια στις επερχόμενες %d ημέρες'; // %d is substituted with the number of days
@@ -499,10 +499,10 @@ $lang['TIMEZONE'] = 'Ζώνη ώρας';
 $lang['DATE_FORMAT_EXPLAIN'] = 'Η σύνταξη που χρησιμοποιείται είναι ίδια με την PHP <a href=\'https://www.php.net/manual/en/function.date.php\' target=\'_other\'>date()</a> λειτουργία.';
 $lang['SIGNATURE'] = 'Υπογραφή';
 $lang['SIGNATURE_EXPLAIN'] = 'Αυτό είναι ένα μπλοκ κειμένου που μπορεί να προστεθεί στις αναρτήσεις που κάνετε. Υπάρχει περιορισμός %d χαρακτήρων.';
-$lang['SIGNATURE_DISABLE'] = 'Signature disabled due to forum rule violation';
+$lang['SIGNATURE_DISABLE'] = 'Η υπογραφή απενεργοποιήθηκε λόγω παραβίασης κανόνων φόρουμ';
 $lang['PUBLIC_VIEW_EMAIL'] = 'Εμφάνιση διεύθυνσης e-mail στο προφίλ μου';
 
-$lang['EMAIL_EXPLAIN'] = 'A verification email will be sent to this address to complete your registration';
+$lang['EMAIL_EXPLAIN'] = 'Ένα email επιβεβαίωσης θα σταλεί σε αυτή τη διεύθυνση για να ολοκληρωθεί η εγγραφή σας';
 
 $lang['CURRENT_PASSWORD'] = 'Τρέχων κωδικός πρόσβασης';
 $lang['NEW_PASSWORD'] = 'Νέος κωδικός πρόσβασης';
@@ -513,12 +513,12 @@ $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Πρέπει να επιβεβαιώσε
 
 $lang['AUTOLOGIN'] = 'Αυτόματη σύνδεση';
 $lang['RESET_AUTOLOGIN'] = 'Επαναφορά κλειδιού αυτόματης σύνδεσης';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'this will log you out of all devices where auto-login is enabled';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'αυτό θα σας αποσυνδέσει από όλες τις συσκευές όπου είναι ενεργοποιημένο το αυτόματο σύνδεμα';
 
 $lang['AVATAR'] = 'Αβατάρ';
 $lang['AVATAR_EXPLAIN'] = 'Εμφανίζει μια μικρή γραφική εικόνα κάτω από τα στοιχεία σας σε αναρτήσεις. Μόνο μία εικόνα μπορεί να εμφανίζεται κάθε φορά, το πλάτος της δεν μπορεί να είναι μεγαλύτερο από %d pixels, το ύψος όχι μεγαλύτερο από %d pixels και το μέγεθος αρχείου όχι περισσότερο από %s.';
 $lang['AVATAR_DELETE'] = 'Διαγραφή αβατάρ';
-$lang['AVATAR_DISABLE'] = 'Avatar upload disabled due to a violation of <a href="%s"><b>forum rules</b></a>';
+$lang['AVATAR_DISABLE'] = 'Η αποστολή avatar απενεργοποιήθηκε λόγω παραβίασης των <a href="%s"><b>κανόνων φόρουμ</b></a>';
 $lang['UPLOAD_AVATAR_FILE'] = 'Αναβάθμιση αβατάρ';
 $lang['RETURN_PROFILE'] = 'Επιστροφή στο προφίλ';
 $lang['DELETE_IMAGE'] = 'Διαγραφή εικόνας';
@@ -535,8 +535,8 @@ $lang['PASSWORD_LONG'] = 'Ο κωδικός σας δεν πρέπει να εί
 $lang['USERNAME_TAKEN'] = 'Λυπάμαι, αλλά αυτό το όνομα έχει ήδη ληφθεί.';
 $lang['USERNAME_INVALID'] = 'Συγγνώμη, αλλά αυτό το όνομα χρήστη περιέχει έναν μη έγκυρο χαρακτήρα';
 $lang['USERNAME_DISALLOWED'] = 'Συγγνώμη, αλλά αυτό το όνομα χρήστη έχει απαγορευτεί.';
-$lang['USERNAME_TOO_LONG'] = 'Your username is too long.';
-$lang['USERNAME_TOO_SMALL'] = 'Your username is too short.';
+$lang['USERNAME_TOO_LONG'] = 'Το όνομά χρήστη είναι πολύ μεγάλο.';
+$lang['USERNAME_TOO_SMALL'] = 'Το όνομά χρήστη είναι πολύ μικρό.';
 $lang['EMAIL_TAKEN'] = 'Συγγνώμη, αλλά αυτή η διεύθυνση e-mail είναι ήδη καταχωρημένη σε έναν χρήστη.';
 $lang['EMAIL_INVALID'] = 'Συγγνώμη, αλλά αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη.';
 $lang['EMAIL_TOO_LONG'] = 'Το email σας είναι πολύ μεγάλο.';
@@ -591,8 +591,8 @@ $lang['THANK_TOPIC'] = 'Ψηφίστε για αυτό το θέμα';
 $lang['THANKS_GRATITUDE'] = 'Εκτιμούμε την ευγνωμοσύνη σας';
 $lang['LAST_LIKES'] = 'Τελευταίες ψήφοι';
 $lang['LIKE_OWN_POST'] = 'Δεν μπορείτε να ψηφίσετε για το δικό σας θέμα';
-$lang['NO_LIKES'] = 'Nobody has voted yet';
-$lang['LIKE_ALREADY'] = 'You have already voted for this topic';
+$lang['NO_LIKES'] = 'Κανείς δεν έχει ψηφίσει ακόμα';
+$lang['LIKE_ALREADY'] = 'Έχετε ήδη ψηφίσει για αυτό το θέμα';
 
 // Invites
 $lang['INVITE_CODE'] = 'Κωδικός πρόσκλησης';
@@ -638,7 +638,7 @@ $lang['NO_GROUP_ID_SPECIFIED'] = 'Το αναγνωριστικό ομάδας �
 $lang['NO_GROUP_MEMBERS'] = 'Αυτή η ομάδα δεν έχει μέλη';
 $lang['HIDDEN_GROUP_MEMBERS'] = 'Αυτή η ομάδα είναι κρυφή, δεν μπορείτε να δείτε την ιδιότητα μέλους της.';
 $lang['NO_PENDING_GROUP_MEMBERS'] = 'Αυτή η ομάδα δεν έχει μέλη σε εκκρεμότητα.';
-$lang['GROUP_JOINED'] = 'You have successfully applied to join this group.<br />You will be notified when your membership is approved by the group moderator.';
+$lang['GROUP_JOINED'] = 'Έχετε υποβάλει με επιτυχία αίτηση για να συμμετάσχετε σε αυτήν την ομάδα.<br />Θα ειδοποιηθείτε όταν η συμμετοχή σας εγκριθεί από τον συντονιστή της ομάδας.';
 $lang['ALREADY_MEMBER_GROUP'] = 'Είστε ήδη μέλος αυτής της ομάδας';
 $lang['USER_IS_MEMBER_GROUP'] = '%s είναι ήδη μέλος αυτής της ομάδας';
 $lang['USER_IS_MOD_GROUP'] = '%s είναι συντονιστής αυτής της ομάδας';
@@ -804,7 +804,7 @@ $lang['SAMPLE_RATE'] = 'Ρυθμός δείγματος: <b>%s</b>';
 $lang['AUDIO_TRACK'] = 'Πληροφορίες ήχου (%d):';
 $lang['AUDIO_CODEC'] = 'Κωδικοποιητής ήχου: <b title="%s">%s</b>';
 $lang['VIDEO_CODEC'] = 'Κωδικοποιητής βίντεο: <b title="%s">%s</b>';
-$lang['SHOW_MORE_INFORMATION_FILE'] = 'Show more information about this file';
+$lang['SHOW_MORE_INFORMATION_FILE'] = 'Εμφάνισε περισσότερες πληροφορίες για αυτό το αρχείο';
 $lang['DOWNLOAD_M3U_FILE'] = 'Λήψη αρχείου .m3u';
 $lang['PLAYBACK_M3U'] = 'Αναπαραγωγή αρχείου .m3u';
 $lang['COPY_STREAM_LINK'] = 'Αντιγραφή συνδέσμου ροής στο πρόχειρο';
@@ -836,7 +836,7 @@ $lang['BT_REG_YES'] = 'Εγγεγραμμένοι';
 $lang['BT_REG_NO'] = 'Δεν έχει καταχωρηθεί';
 $lang['BT_REG_ON_TRACKER'] = 'Εγγραφείτε στον ιχνηλάτη.';
 $lang['BT_REG_FAIL'] = 'Δεν ήταν δυνατό να εγγραφείτε torrent στον ιχνηλάτη.';
-$lang['BT_REG_FAIL_SAME_HASH'] = 'Another torrent with the same info_hash is already <a href="%s"><b>registered</b></a>';
+$lang['BT_REG_FAIL_SAME_HASH'] = 'Άλλο torrent με το ίδιο info_hash είναι ήδη <a href="%s"><b>καταχωρημένο</b></a>';
 $lang['BT_V1_ONLY_DISALLOWED'] = 'Τα torrents μόνο v1 έχουν απενεργοποιηθεί από τον διαχειριστή αυτή τη στιγμή, επιτρέπεται: v2 και υβρίδια';
 $lang['BT_V2_ONLY_DISALLOWED'] = 'Τα torrents μόνο v2 έχουν απενεργοποιηθεί από τον διαχειριστή αυτή τη στιγμή, επιτρέπεται: v1 και υβρίδια';
 $lang['BT_FLIST'] = 'Λίστα αρχείων';
@@ -877,15 +877,15 @@ $lang['MAGNET_v2'] = 'Σύνδεσμος μαγνητικού (υποστηρί�
 //torrent status mod
 $lang['TOR_STATUS'] = 'Κατάσταση';
 $lang['TOR_STATUS_SELECT_ACTION'] = 'Επιλέξτε κατάσταση';
-$lang['TOR_STATUS_NOT_SELECT'] = 'You have not selected a status.';
+$lang['TOR_STATUS_NOT_SELECT'] = 'Δεν έχετε επιλέξει κατάσταση.';
 $lang['TOR_STATUS_SELECT_ALL'] = 'Όλες τις καταστάσεις';
 $lang['TOR_STATUS_FORBIDDEN'] = 'Η κατάσταση αυτού του θέματος είναι: ';
 $lang['TOR_STATUS_NAME'] = [
     TOR_NOT_APPROVED => 'δεν ελέγχεται.',
     TOR_CLOSED => 'κλειστά.',
     TOR_APPROVED => 'ελέγχονται.',
-    TOR_NEED_EDIT => 'needs editing',
-    TOR_NO_DESC => 'incomplete',
+    TOR_NEED_EDIT => 'χρειάζεται επεξεργασία',
+    TOR_NO_DESC => 'μη ολοκληρωμένο',
     TOR_DUP => 'διπλότυπο',
     TOR_CLOSED_CPHOLD => 'κλειστό (δικαιώματα πνευματικής ιδιοκτησίας)',
     TOR_CONSUMED => 'απορροφάται.',
@@ -895,28 +895,28 @@ $lang['TOR_STATUS_NAME'] = [
     TOR_PREMOD => 'προ-μέτρο.',
     TOR_REPLENISH => 'αναπλήρωση',
 ];
-$lang['TOR_STATUS_FAILED'] = 'This status does not exist!';
+$lang['TOR_STATUS_FAILED'] = 'Αυτή η κατάσταση δεν υπάρχει!';
 $lang['TORRENT_FAILED'] = 'Διανομή δεν βρέθηκε!';
 $lang['TOR_STATUS_DUB'] = 'Διανομή έχει το ίδιο καθεστώς';
-$lang['TOR_DONT_CHANGE'] = 'Change of status cannot be performed!';
+$lang['TOR_DONT_CHANGE'] = 'Δεν είναι δυνατή η αλλαγή κατάστασης!';
 $lang['TOR_STATUS_OF'] = 'Διανομή έχει η κατάσταση:';
 $lang['TOR_STATUS_CHANGED'] = 'Κατάσταση άλλαξε: ';
 $lang['TOR_BACK'] = ' πίσω';
 $lang['PROCEED'] = 'Προχωρήστε';
-$lang['CHANGE_TOR_TYPE'] = 'Torrent type successfully changed';
+$lang['CHANGE_TOR_TYPE'] = 'Ο τύπος torrent άλλαξε με επιτυχία';
 $lang['DEL_TORRENT'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε το torrent;';
 $lang['DEL_MOVE_TORRENT'] = 'Είστε σίγουρος ότι θέλετε να διαγράψετε και να μετακινήσετε το θέμα;';
 $lang['UNEXECUTED_RELEASE'] = 'Έχετε μια ατελή απελευθέρωση. Πριν δημιουργήσετε μια νέα, παρακαλούμε ολοκληρώστε αυτήν!';
 $lang['TOR_STATUS_LOG_ACTION'] = 'Νέα κατάσταση: %s.<br/>Προηγούμενη κατάσταση: %s.';
 
 // tor_comment
-$lang['TOR_MOD_TITLE'] = 'Distribution status changed – %s';
-$lang['TOR_MOD_MSG'] = "Hello, %s.\n\nThe status of [url=%s]your[/url] distribution has been changed to [b]%s[/b]";
+$lang['TOR_MOD_TITLE'] = 'Η κατάσταση διανομής άλλαξε – %s';
+$lang['TOR_MOD_MSG'] = "Γεια σου, %s.\n\nΗ κατάσταση της [url=%s]διανομής σου[/url] άλλαξε σε [b]%s[/b]";
 
-$lang['TOR_AUTH_TITLE'] = 'Formatting changes requested – %s';
+$lang['TOR_AUTH_TITLE'] = 'Αιτήθηκε αλλαγή μορφοποίησης – %s';
 $lang['TOR_AUTH_MSG'] = "Γεια σας, %s.\n\nΗ διανομή σας έχει αλλάξει - [url=%s]%s[/url]\n\nΠαρακαλώ ελέγξτε ξανά.";
 $lang['TOR_AUTH_FIXED'] = 'Σταθερό';
-$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">The information has been sent to the moderator. Please wait for a response.</span>';
+$lang['TOR_AUTH_SENT_COMMENT'] = ' &middot; <span class="seed bold">Οι πληροφορίες έχουν αποσταλεί στον διαχειριστή. Περιμένετε απάντηση.</span>';
 
 $lang['BT_TOPIC_TITLE'] = 'Τίτλος θέματος';
 $lang['BT_SEEDER_LAST_SEEN'] = 'Ο σπόρος παρατηρήθηκε τελευταία φορά';
@@ -935,11 +935,11 @@ $lang['BT_VIEWS'] = 'Θέα';
 $lang['GOLD'] = 'Χρυσό';
 $lang['SILVER'] = 'Ασημένιο';
 $lang['SET_GOLD_TORRENT'] = 'Κάντε χρυσό';
-$lang['UNSET_GOLD_TORRENT'] = 'Remove gold status';
+$lang['UNSET_GOLD_TORRENT'] = 'Αφαίρεση κατάστασης χρυσού';
 $lang['SET_SILVER_TORRENT'] = 'Κάντε το ασημένιο';
-$lang['UNSET_SILVER_TORRENT'] = 'Remove silver status';
-$lang['GOLD_STATUS'] = 'GOLD TORRENT! DOWNLOAD TRAFFIC IS NOT COUNTED!';
-$lang['SILVER_STATUS'] = 'SILVER TORRENT! DOWNLOAD TRAFFIC IS PARTIALLY COUNTED!';
+$lang['UNSET_SILVER_TORRENT'] = 'Αφαίρεση κατάστασης ασημιού';
+$lang['GOLD_STATUS'] = 'ΧΡΥΣΌ TORRENT! Η ΚΥΚΛΟΦΟΡΊΑ ΛΉΨΗΣ ΔΕΝ ΛΑΜΒΆΝΕΤΑΙ ΥΠΌΨΗ!';
+$lang['SILVER_STATUS'] = 'ΑΣΗΜΈΝΙΟ TORRENT! Η ΚΥΚΛΟΦΟΡΊΑ ΛΉΨΗΣ ΛΑΜΒΆΝΕΤΑΙ ΜΕΡΙΚΏΣ ΥΠΌΨΗ!';
 $lang['TOR_TYPE_LOG_ACTION'] = 'Ο τύπος torrent άλλαξε σε: %s';
 
 $lang['TORRENT_STATUS'] = 'Αναζήτηση κατά κατάσταση κυκλοφορίας';
@@ -949,15 +949,15 @@ $lang['GO_TO_SECTION'] = 'Πηγαίνετε στην ενότητα';
 $lang['TORRENTS_FROM'] = 'Δημοσιεύσεις από';
 $lang['SHOW_ONLY'] = 'Εμφάνιση μόνο';
 $lang['SHOW_COLUMN'] = 'Εμφάνιση στήλης';
-$lang['SEL_CHAPTERS'] = 'Link to selected sections';
-$lang['NOT_SEL_CHAPTERS'] = 'You have not selected any topics';
-$lang['SEL_CHAPTERS_HELP'] = 'You can select a maximum of %s sections';
+$lang['SEL_CHAPTERS'] = 'Σύνδεσμος στα επιλεγμένα τμήματα';
+$lang['NOT_SEL_CHAPTERS'] = 'Δεν έχετε επιλέξει κανένα θέμα';
+$lang['SEL_CHAPTERS_HELP'] = 'Μπορείτε να επιλέξετε το πολύ %s τμήματα';
 $lang['HIDE_CONTENTS'] = 'Να αποκρύψετε το περιεχόμενο του {...}';
 $lang['FILTER_BY_NAME'] = '<i>Φίλτρο με το όνομα </i>';
 
 $lang['BT_ONLY_ACTIVE'] = 'Ενεργό';
 $lang['BT_ONLY_MY'] = 'Οι κυκλοφορίες μου.';
-$lang['BT_SEED_EXIST'] = 'Seeder exists';
+$lang['BT_SEED_EXIST'] = 'Υπάρχει Seeder';
 $lang['BT_ONLY_NEW'] = 'Νέα από την τελευταία επίσκεψη';
 $lang['BT_SHOW_CAT'] = 'Κατηγορία';
 $lang['BT_SHOW_FORUM'] = 'Φόρουμ';
@@ -992,7 +992,7 @@ $lang['DL_LIST_DEL'] = 'Καθαρές DL-Λίστες.';
 $lang['DL_LIST_DEL_CONFIRM'] = 'Diγραφεί DL-Λίστα για αυτό το θέμα;';
 $lang['SHOW_DL_LIST'] = 'Εμφάνιση DL-Λίστας.';
 $lang['SET_DL_STATUS'] = 'Κατεβάστε το';
-$lang['UNSET_DL_STATUS'] = 'Not downloading';
+$lang['UNSET_DL_STATUS'] = 'Δεν γίνεται λήψη';
 $lang['TOPICS_DOWN_SETS'] = 'Θέμα καθεστώς άλλαξε σε <b>Download</b>.';
 $lang['TOPICS_DOWN_UNSETS'] = '<b>Download</b> κατάσταση αφαιρεθεί.';
 
@@ -1012,7 +1012,7 @@ $lang['OPEN_TOPIC'] = 'Θέμα Ανοιχτό.';
 
 $lang['REG_NOT_ALLOWED_IN_THIS_FORUM'] = 'Δεν ήταν δυνατό να εγγραφείτε torrent σε αυτό το φόρουμ.';
 $lang['ALREADY_REG'] = 'Το torrent έχει ήδη καταχωρηθεί.';
-$lang['NOT_TORRENT'] = 'This file is not a torrent';
+$lang['NOT_TORRENT'] = 'Αυτό το αρχείο δεν είναι torrent';
 $lang['VIEWING_USER_BT_PROFILE'] = 'Προφίλ torrent';
 $lang['CUR_ACTIVE_DLS'] = 'Active torrents';
 
@@ -1025,21 +1025,21 @@ $lang['MAX_SPEED'] = 'Ταχύτητα';
 $lang['DOWNLOADED'] = 'Λήψη';
 $lang['UPLOADED'] = 'Φορτώθηκε';
 $lang['RELEASED'] = 'Κυκλοφόρησε';
-$lang['BONUS'] = 'Bonus';
-$lang['IT_WILL_BE_DOWN'] = 'will be counted once downloaded';
+$lang['BONUS'] = 'Μπόνους';
+$lang['IT_WILL_BE_DOWN'] = 'θα υπολογιστεί όταν γίνει λήψη';
 $lang['SPMODE_FULL'] = 'Εμφάνιση συνομηλίκων σε πλήρη λεπτομέρεια.';
 
 // Seed Bonus
-$lang['MY_BONUS'] = 'My bonus (%s points available)';
+$lang['MY_BONUS'] = 'Το μπόνους μου (%s πόντοι διαθέσιμοι)';
 $lang['BONUS_SELECT'] = 'Επιλέξτε';
 $lang['SEED_BONUS'] = 'Μπόνους σπόρου.';
 $lang['EXCHANGE'] = 'Ανταλλαγή';
-$lang['EXCHANGE_BONUS'] = 'Seed bonus exchange';
-$lang['BONUS_UPLOAD_DESC'] = '<b>+%s upload credit</b> <br /> Exchange bonus points for %1$s of upload traffic added to your account total.';
+$lang['EXCHANGE_BONUS'] = 'Ανταλλαγή πόντων μπόνους';
+$lang['BONUS_UPLOAD_DESC'] = '<b>+%s πίστωση ανέβασματος</b> <br /> Ανταλλάξτε πόντους μπόνους για %1$s ανώτατη κυκλοφορία ανέβασματος που προστίθεται στο συνολικό λογαριασμό σας.';
 $lang['BONUS_UPLOAD_PRICE'] = '<b class="%s">%s</b>';
 $lang['PRICE'] = 'Τιμή';
-$lang['EXCHANGE_NOT'] = 'Exchange is not available';
-$lang['BONUS_SUCCES'] = '%s has been successfully credited to your account';
+$lang['EXCHANGE_NOT'] = 'Η ανταλλαγή δεν είναι διαθέσιμη';
+$lang['BONUS_SUCCES'] = 'Το ποσό %s έχει πιστωθεί με επιτυχία στο λογαριασμό σας';
 $lang['BONUS_NOT_SUCCES'] = '<span class="leech">Δεν έχετε διαθέσιμα μπόνους. Περισσότερα σπορά!</span>';
 $lang['BONUS_RETURN'] = 'Επιστροφή στην ανταλλαγή σπόρων μπόνους.';
 
@@ -1047,21 +1047,21 @@ $lang['TRACKER'] = 'Tracker';
 $lang['RANDOM_RELEASE'] = 'Τυχαία κυκλοφορία';
 $lang['OPEN_TOPICS'] = 'Ανοιχτά θέματα';
 $lang['OPEN_IN_SAME_WINDOW'] = 'άνοιγμα στο ίδιο παράθυρο';
-$lang['SHOW_TIME_TOPICS'] = 'show topic creation time';
+$lang['SHOW_TIME_TOPICS'] = 'εμφάνιση χρόνου δημιουργίας θέματος';
 $lang['SHOW_CURSOR'] = 'Επισημάνετε τη γραμμή κάτω από τον δρομέα.';
 
-$lang['BT_LOW_RATIO_FOR_DL'] = 'Your ratio of <b>%s</b> is too low to download torrents';
-$lang['BT_RATIO_WARNING_MSG'] = 'If your ratio falls below %s, you will not be able to download torrents! <a href="%s"><b>More about ratio.</b></a>';
+$lang['BT_LOW_RATIO_FOR_DL'] = 'Η αναλογία σας <b>%s</b> είναι πολύ χαμηλή για να κατεβάσετε torrents';
+$lang['BT_RATIO_WARNING_MSG'] = 'Εάν η αναλογία σας πέσει κάτω από %s, δεν θα μπορείτε να κατεβάσετε torrents! <a href="%s"><b>Περισσότερα σχετικά με την αναλογία.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Seeder δεν έχει δει: <b>%s</b>.';
 
 $lang['NEED_TO_LOGIN_FIRST'] = 'Πρέπει να συνδεθείτε πρώτα';
-$lang['ONLY_FOR_MOD'] = 'This option is only for moderators';
-$lang['ONLY_FOR_ADMIN'] = 'This option is only for admins';
-$lang['ONLY_FOR_SUPER_ADMIN'] = 'This option is only for super admins';
+$lang['ONLY_FOR_MOD'] = 'Αυτή η επιλογή είναι μόνο για συντονιστές';
+$lang['ONLY_FOR_ADMIN'] = 'Αυτή η επιλογή είναι μόνο για διαχειριστές';
+$lang['ONLY_FOR_SUPER_ADMIN'] = 'Αυτή η επιλογή είναι μόνο για υπερ-διαχειριστές';
 
 $lang['LOGS'] = 'Η ιστορία του θέματος.';
-$lang['FORUM_LOGS'] = 'Forum History';
+$lang['FORUM_LOGS'] = 'Ιστορικό φόρουμ';
 $lang['AUTOCLEAN'] = 'Autoclean';
 $lang['DESIGNER'] = 'Σχεδιαστής';
 
@@ -1163,16 +1163,16 @@ $lang['SWITCH'] = 'Εναλλαγή.';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Αύξηση/μείωση του παραθύρου';
 $lang['EMPTY_TOPIC_ID'] = 'Λείπει το αναγνωριστικό θέματος';
 $lang['TOR_NOT_FOUND'] = 'Το αρχείο λείπει από τον διακομιστή';
-$lang['ERROR_BUILD'] = 'The content of this torrent cannot be displayed (failed to build file list)';
+$lang['ERROR_BUILD'] = 'Το περιεχόμενο αυτού του torrent δεν μπορεί να εμφανιστεί (αποτυχία δημιουργίας λίστας αρχείων)';
 $lang['TORFILE_INVALID'] = 'Το torrent αρχείο είναι κατεστραμμένο.';
 
 // Profile
 $lang['WEBSITE_ERROR'] = 'Η "ιστοσελίδα" μπορεί να περιέχει μόνο http://sitename.';
 $lang['PROFILE_USER'] = 'Προβολή προφίλ';
-$lang['GOOD_UPDATE'] = 'successfully updated';
+$lang['GOOD_UPDATE'] = 'ενημερώθηκε με επιτυχία';
 $lang['UCP_DOWNLOADS'] = 'Λήψεις';
 $lang['HIDE_DOWNLOADS'] = 'Απόκρυψη της τρέχουσας λίστας λήψεων.';
-$lang['BAN_USER'] = 'User restrictions';
+$lang['BAN_USER'] = 'Περιορισμοί χρήστη';
 $lang['USER_NOT_ALLOWED'] = 'Οι χρήστες δεν επιτρέπεται.';
 $lang['HIDE_AVATARS'] = 'Δείξε avatar.';
 $lang['SHOW_CAPTION'] = 'Δείξτε την υπογραφή σας.';
@@ -1183,15 +1183,15 @@ $lang['NEW_THREADS'] = 'Νέα θέματα.';
 $lang['PROFILE_NOT_FOUND'] = 'Το προφίλ δεν βρέθηκε.';
 
 $lang['USER_DELETE_EXPLAIN'] = 'Διαγραφή αυτού του χρήστη.';
-$lang['USER_DELETE_ME'] = 'Sorry, your account cannot be deleted!';
-$lang['USER_DELETE_CSV'] = 'Sorry, this account cannot be deleted!';
+$lang['USER_DELETE_ME'] = 'Συγγνώμη, ο λογαριασμός σας δεν μπορεί να διαγραφεί!';
+$lang['USER_DELETE_CSV'] = 'Συγγνώμη, αυτός ο λογαριασμός δεν μπορεί να διαγραφεί!';
 $lang['USER_DELETE_CONFIRM'] = 'Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον χρήστη;';
 $lang['USER_DELETED'] = 'Ο χρήστης έχει διαγραφεί επιτυχώς.';
 $lang['DELETE_USER_ALL_POSTS'] = 'Διαγραφή όλων των θέσεων χρηστών.';
 $lang['DELETE_USER_ALL_POSTS_CONFIRM'] = 'Είστε σίγουροι ότι θέλετε να διαγράψετε όλα τα μηνύματα και όλα τα θέματα που ξεκίνησε από αυτόν τον χρήστη;';
-$lang['DELETE_USER_POSTS'] = 'Delete all posts except the first post in each topic';
+$lang['DELETE_USER_POSTS'] = 'Διαγραφή όλων των δημοσιεύσεων εκτός από την πρώτη σε κάθε θέμα';
 $lang['DELETE_USER_POSTS_ME'] = 'Είστε σίγουροι ότι θέλετε να διαγράψετε όλες τις αναρτήσεις μου;';
-$lang['DELETE_USER_POSTS_CONFIRM'] = 'Are you sure you want to delete all posts except the first post in each topic?';
+$lang['DELETE_USER_POSTS_CONFIRM'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε όλες τις δημοσιεύσεις εκτός από την πρώτη σε κάθε θέμα;';
 $lang['USER_DELETED_POSTS'] = 'Οι θέσεις έχουν αφαιρεθεί επιτυχώς.';
 
 $lang['USER'] = 'Χρήστης.';
@@ -1199,21 +1199,21 @@ $lang['ROLE'] = 'Ρόλος:';
 $lang['MEMBERSHIP_IN'] = 'Συμμετοχή σε';
 $lang['PARTY'] = 'Κόμμα:';
 $lang['CANDIDATE'] = 'Υποψήφιος:';
-$lang['INDIVIDUAL'] = 'Has individual rights';
+$lang['INDIVIDUAL'] = 'Έχει ατομικά δικαιώματα';
 $lang['GROUP_LIST_HIDDEN'] = 'Δεν έχετε την εξουσιοδότηση να προβάλετε τις κρυφές ομάδες.';
 
 $lang['USER_ACTIVATE'] = 'Ενεργοποίηση';
 $lang['USER_DEACTIVATE'] = 'Απενεργοποίηση';
 $lang['DEACTIVATE_CONFIRM'] = 'Είστε σίγουροι ότι θέλετε να απενεργοποιήσετε αυτόν τον χρήστη;';
 $lang['USER_ACTIVATE_ON'] = 'Χρήστης έχει ενεργοποιηθεί με επιτυχία';
-$lang['USER_DEACTIVATE_ME'] = 'You cannot deactivate your own account!';
-$lang['ACTIVATE_CONFIRM'] = 'Are you sure you want to activate this user?';
+$lang['USER_DEACTIVATE_ME'] = 'Δεν μπορείτε να απενεργοποιήσετε το δικό σας λογαριασμό!';
+$lang['ACTIVATE_CONFIRM'] = 'Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε αυτόν τον χρήστη;';
 $lang['USER_ACTIVATE_OFF'] = 'Χρήστη έχει απενεργοποιηθεί με επιτυχία';
 
 // Register
-$lang['CHOOSE_A_NAME'] = 'Please choose a username';
-$lang['CHOOSE_E_MAIL'] = 'You must provide an email address';
-$lang['CHOOSE_PASS'] = 'The password field must not be empty!';
+$lang['CHOOSE_A_NAME'] = 'Παρακαλώ επιλέξτε ένα όνομα χρήστη';
+$lang['CHOOSE_E_MAIL'] = 'Πρέπει να προσκομίσετε μία διεύθυνση email';
+$lang['CHOOSE_PASS'] = 'Το πεδίο κωδικού πρόσβασης δεν πρέπει να είναι κενό!';
 $lang['CHOOSE_PASS_ERR'] = 'Οι καταχωρημένοι κωδικοί πρόσβασης δεν ταιριάζουν.';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Ο κωδικός σας πρέπει να είναι τουλάχιστον %d χαρακτήρες';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'Ο κωδικός σας δεν πρέπει να είναι μεγαλύτερος από %d χαρακτήρες';
@@ -1224,7 +1224,7 @@ $lang['CHOOSE_PASS_ERR_SPEC_SYMBOL'] = 'Ο κωδικός πρόσβασης π�
 $lang['CHOOSE_PASS_OK'] = 'Κωδικοί πρόσβασης ταιριάζουν';
 $lang['CHOOSE_PASS_REG_OK'] = 'Κωδικοί πρόσβασης ταιριάζουν, μπορείτε να προχωρήσετε με την εγγραφή';
 $lang['CHOOSE_PASS_FAILED'] = 'Για να αλλάξετε τον κωδικό πρόσβασης, θα πρέπει να καθορίσετε σωστά τον τρέχοντα κωδικό πρόσβασης';
-$lang['EMAILER_DISABLED'] = 'Sorry, this feature is temporarily unavailable';
+$lang['EMAILER_DISABLED'] = 'Συγγνώμη, αυτή η λειτουργία είναι προσωρινά μη διαθέσιμη';
 $lang['REGISTERED_IN_TIME'] = 'Η εγγραφή είναι προσωρινά κλειστή<br /><br />Η εγγραφή είναι διαθέσιμη κατά: %s<br />Τρέχουσα ώρα διακομιστή: %s<br /><br />Λυπάμαι για την ταλαιπωρία';
 $lang['AUTOCOMPLETE'] = 'Δημιουργία κωδικού πρόσβασης';
 $lang['YOUR_NEW_PASSWORD'] = 'Ο νέος σας κωδικός πρόσβασης:';
@@ -1247,8 +1247,8 @@ $lang['HOW_TO_DOWNLOAD'] = 'Πώς να Κατεβάσετε;';
 $lang['WHAT_IS_A_TORRENT'] = 'Τι είναι ένα torrent;';
 $lang['RATINGS_AND_LIMITATIONS'] = 'Αξιολογήσεις και περιορισμοί.';
 
-$lang['SCREENSHOTS_RULES'] = 'Read the screenshot posting rules!';
-$lang['AJAX_EDIT_OPEN'] = 'You already have a quick edit session open!';
+$lang['SCREENSHOTS_RULES'] = 'Διαβάστε τους κανόνες δημοσίευσης στιγμιότυπων οθόνης!';
+$lang['AJAX_EDIT_OPEN'] = 'Έχετε ήδη ανοιχτή συνεδρία γρήγορης επεξεργασίας!';
 $lang['GO_TO_PAGE'] = 'Μεταβείτε στη σελίδα ...';
 $lang['EDIT'] = 'Επεξεργασία.';
 $lang['SAVE'] = 'Αποθήκευση';
@@ -1256,8 +1256,8 @@ $lang['NEW_WINDOW'] = 'σε ένα νέο παράθυρο';
 
 // BB Code
 $lang['ALIGN'] = 'Ευθυγραμμίστε:';
-$lang['LEFT'] = 'Left';
-$lang['RIGHT'] = 'Right';
+$lang['LEFT'] = 'Αριστερά';
+$lang['RIGHT'] = 'Δεξιά';
 $lang['CENTER'] = 'Με επίκεντρο';
 $lang['JUSTIFY'] = 'Ταιριάζει με το πλάτος';
 $lang['HOR_LINE'] = 'Οριζόντια γραμμή (Ctrl+8)';
@@ -1293,7 +1293,7 @@ $lang['OLD'] = 'Παλιά';
 
 // DL-List
 $lang['DL_USER'] = 'Όνομα χρήστη';
-$lang['DL_PERCENT'] = 'Completion %';
+$lang['DL_PERCENT'] = 'Ολοκλήρωση %';
 $lang['DL_UL'] = 'UL';
 $lang['DL_DL'] = 'Λήψη.';
 $lang['DL_UL_SPEED'] = 'Ταχύτητα UL';
@@ -1323,12 +1323,12 @@ $lang['EDIT_MY_MESSAGE_LIST'] = 'επεξεργασία της λίστας.';
 $lang['SELECT_INVERT'] = 'επιλέξτε/αντιστροφή.';
 $lang['RESTORE_ALL_POSTS'] = 'Ανάκτηση όλων των δημοσιεύσεων.';
 $lang['DEL_LIST_MY_MESSAGE'] = 'Για να διαγράψετε το επιλεγμένο θέμα από τη λίστα';
-$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'After removal, the <b>full list</b> may still show previously deleted threads until it is refreshed';
-$lang['DEL_LIST_INFO'] = 'To remove an entry from the list, click the icon to the left of any section name';
+$lang['DEL_LIST_MY_MESSAGE_INFO'] = 'Μετά την αφαίρεση, η <b>πλήρης λίστα</b> μπορεί να εμφανίζει ακόμα προηγούμενες διαγραμμένες συζητήσεις μέχρι να ανανεωθεί';
+$lang['DEL_LIST_INFO'] = 'Για να αφαιρέσετε μια εγγραφή από τη λίστα, κάντε κλικ στο εικονίδιο αριστερά από οποιοδήποτε όνομα τμήματος';
 
 // Watched topics
 $lang['WATCHED_TOPICS'] = 'Παρακολουθούμενα θέματα';
-$lang['NO_WATCHED_TOPICS'] = 'Not watching any topics';
+$lang['NO_WATCHED_TOPICS'] = 'Δεν παρακολουθείτε κανένα θέμα';
 
 // set_die_append_msg
 $lang['INDEX_RETURN'] = 'Πίσω στην αρχική σελίδα';
@@ -1363,7 +1363,7 @@ $lang['WORD_CENSOR'] = 'Λογοκρισία Λέξης';
 $lang['CRON'] = 'Το Χρονοδιάγραμμα εργασιών (cron)';
 $lang['REBUILD_SEARCH_INDEX'] = 'Αναδόμηση ευρετηρίου αναζήτησης';
 $lang['FORUM_CONFIG'] = 'Ρυθμίσεις Φόρουμ';
-$lang['ACTIONS_LOG'] = 'Actions log';
+$lang['ACTIONS_LOG'] = 'Αρχείο ενέργειών';
 
 // Migrations
 $lang['MIGRATIONS_STATUS'] = 'Κατάσταση μετανάστευσης βάσης δεδομένων';
@@ -1399,7 +1399,7 @@ $lang['CREATE_PROFILE'] = 'Δημιουργία προφίλ';
 
 $lang['TP_VERSION'] = 'Έκδοση TorrentPier';
 $lang['TP_RELEASE_DATE'] = 'Ημερομηνία κυκλοφορίας';
-$lang['PHP_INFO'] = 'PHP information';
+$lang['PHP_INFO'] = 'Πληροφορίες PHP';
 
 $lang['CLICK_RETURN_ADMIN_INDEX'] = 'Κάντε κλικ %sΓια να επιστρέψετε στο Δείκτη Διαχειριστή%s.';
 
@@ -1484,7 +1484,7 @@ $lang['AUTH_DELETE'] = $lang['DELETE'] = 'Διαγραφή';
 $lang['AUTH_STICKY'] = $lang['STICKY'] = 'Sticky';
 $lang['AUTH_ANNOUNCE'] = $lang['ANNOUNCE'] = 'Ανακοίνωση.';
 $lang['AUTH_VOTE'] = $lang['VOTE'] = 'Ψηφοφορία.';
-$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Create poll';
+$lang['AUTH_POLLCREATE'] = $lang['POLLCREATE'] = 'Δημιουργία ψηφοφορίας';
 $lang['AUTH_ATTACHMENTS'] = $lang['AUTH_ATTACH'] = 'Αρχεία Δημοσίευσης.';
 $lang['AUTH_DOWNLOAD'] = 'Λήψη Αρχείων.';
 
@@ -1496,7 +1496,7 @@ $lang['APPLY_TO_SUBFORUMS'] = 'Εφαρμογή στα υποφόρουμς';
 
 $lang['AUTH_UPDATED'] = 'Τα δικαιώματα έχουν ενημερωθεί.';
 $lang['AUTH_GENERAL_ERROR'] = 'Δεν ήταν δυνατή η ενημέρωση της κατάστασης διαχειριστή';
-$lang['AUTH_SELF_ERROR'] = 'Could not change yourself from an admin to a user';
+$lang['AUTH_SELF_ERROR'] = 'Δεν μπορέσατε να αλλάξετε τον εαυτό σας από διαχειριστής σε χρήστη';
 $lang['NO_FORUMS_AVAILABLE'] = 'Δεν υπάρχουν διαθέσιμα φόρουμ. Δημιουργήστε πρώτα φόρουμ για να διαχειριστείτε άδειες.';
 $lang['CLICK_RETURN_USERAUTH'] = 'Κάντε κλικ %sΕδώ%s για να επιστρέψετε στα Δικαιώματα των Χρηστών.';
 $lang['CLICK_RETURN_GROUPAUTH'] = 'Κάντε κλικ %sΕδώ%s για να επιστρέψετε στα Δικαιώματα της Ομάδας.';
@@ -1738,7 +1738,7 @@ $lang['CHANGELOG'] = 'Λίστα αλλαγών';
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Επιτρεπόμενες προσπάθειες σύνδεσης.';
 $lang['MAX_LOGIN_ATTEMPTS_EXPLAIN'] = 'Ο αριθμός των επιτρεπόμενων προσπαθειών σύνδεσης του πίνακα.';
 $lang['LOGIN_RESET_TIME'] = 'Χρόνος κλειδώματος σύνδεσης.';
-$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Time in minutes the user has to wait before they can log in again after exceeding the allowed number of login attempts.';
+$lang['LOGIN_RESET_TIME_EXPLAIN'] = 'Χρόνος σε λεπτά που πρέπει να περιμένει ο χρήστης πριν επιτραπεί η νέα σύνδεση μετά από υπέρβαση επιτρεπτού αριθμού προσπαθειών.';
 
 // Permissions List
 $lang['PERMISSIONS_LIST'] = 'Λίστα Δικαιωμάτων.';
@@ -1775,23 +1775,23 @@ $lang['SF_NO_PARENT'] = 'Δεν υπάρχει μητρικό φόρουμ.';
 $lang['SYNC'] = 'Συγχρονισμός.';
 
 // Mods
-$lang['MAX_NEWS_TITLE'] = 'Max. news title length';
+$lang['MAX_NEWS_TITLE'] = 'Μέγ. μήκος τίτλου ειδήσεων';
 $lang['NEWS_COUNT'] = 'Πόσα νέα στοιχεία να εμφανιστούν';
 $lang['NEWS_FORUM_ID'] = 'Από ποια φόρουμ να εμφανίσετε <br /> <h6>Για αρκετά φόρουμ, καθορίστε τα IDs χωρισμένα με κόμματα. Παράδειγμα: 1,2,3</h6>';
-$lang['TRACKER_STATS'] = 'Tracker statistics';
-$lang['WHOIS_INFO'] = 'IP address information';
-$lang['SHOW_MOD_HOME_PAGE'] = 'Show moderators on the homepage (index.php)';
+$lang['TRACKER_STATS'] = 'Στατιστικά tracker';
+$lang['WHOIS_INFO'] = 'Πληροφορίες διεύθυνσης IP';
+$lang['SHOW_MOD_HOME_PAGE'] = 'Εμφάνιση συντονιστών στην αρχική σελίδα (index.php)';
 $lang['SHOW_BOARD_STARTED_INDEX'] = 'Εμφάνιση ημερομηνίας έναρξης του φόρουμ στο index.php';
-$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Pre-moderation</h4> <h6>If there are no torrents with status v, #, or T in this section and its subsections, new distributions will automatically receive this status</h6>';
-$lang['TOR_COMMENT'] = '<h4>Comment on the status of a distribution</h4> <h6>The comment allows you to point out errors in the release. If corrections are needed, a response form becomes available to the uploader to fix the release</h6>';
-$lang['SEED_BONUS_ADD'] = '<h4>Seed bonus rules</h4> <h6>Number of torrents being seeded by the user and the corresponding bonus points awarded per hour</h6>';
-$lang['SEED_BONUS_RELEASE'] = 'up to N releases';
-$lang['SEED_BONUS_POINTS'] = 'bonus points per hour';
-$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Minimum torrent size to qualify for bonus points</h4> <h6>Leave blank to award bonuses for all torrents regardless of size.</h6>';
-$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Minimum user account age to qualify for bonus points</h4> <h6>Leave blank to award bonuses to all users regardless of account age.</h6>';
+$lang['PREMOD_HELP'] = '<h4><span class="tor-icon tor-dup">&#8719;</span> Προ-μέτρηση</h4> <h6>Εάν δεν υπάρχουν torrents με κατάσταση v, # ή T σε αυτήν την ενότητα και τις υποενότητές της, οι νέες διανομές θα λάβουν αυτόματα αυτή την κατάσταση</h6>';
+$lang['TOR_COMMENT'] = '<h4>Σχόλιο σχετικά με την κατάσταση μιας διανομής</h4> <h6>Το σχόλιο σας επιτρέπει να επισημάνετε λάθη στην κυκλοφορία. Εάν απαιτούνται διορθώσεις, γίνεται διαθέσιμη μια φόρμα απάντησης στον αποστολέα για να διορθώσει την κυκλοφορία</h6>';
+$lang['SEED_BONUS_ADD'] = '<h4>Κανόνες μπόνους σπόρου</h4> <h6>Αριθμός torrents που σπόρινει ο χρήστης και οι αντίστοιχοι πόντοι μπόνους που απονέμονται ανά ώρα</h6>';
+$lang['SEED_BONUS_RELEASE'] = 'έως Ν κυκλοφορίες';
+$lang['SEED_BONUS_POINTS'] = 'πόντοι μπόνους ανά ώρα';
+$lang['SEED_BONUS_TOR_SIZE'] = '<h4>Ελάχιστο μέγεθος torrent για να δικαιούται μπόνους πόντους</h4> <h6>Αφήστε κενό για να δίνεται μπόνους σε όλα τα torrents ανεξαρτήτως μεγέθους.</h6>';
+$lang['SEED_BONUS_USER_REGDATA'] = '<h4>Ελάχιστη ηλικία λογαριασμού χρήστη για να δικαιούται πόντους μπόνους</h4> <h6>Αφήστε κενό για να δίνεται μπόνους σε όλους τους χρήστες ανεξαρτήτως ηλικίας λογαριασμού.</h6>';
 $lang['SEED_BONUS_WARNING'] = 'ΠΡΟΣΟΧΉ! Μπόνους Σπόρων πρέπει να είναι σε αύξουσα σειρά.';
-$lang['SEED_BONUS_EXCHANGE'] = 'Configuring exchange seed bonuses';
-$lang['SEED_BONUS_ROPORTION'] = 'Exchange rate: bonus points to GB of upload credit';
+$lang['SEED_BONUS_EXCHANGE'] = 'Διαμόρφωση ανταλλαγής πόντων σπόρου';
+$lang['SEED_BONUS_ROPORTION'] = 'Ισοτιμία: πόντοι μπόνους προς GB πίστωση ανέβασματος';
 
 $lang['ALLOWED'] = 'Επιτρέπεται';
 $lang['RETURN_CONFIG'] = '%sΕπιστροφή στη διαμόρφωση%s';
@@ -1815,7 +1815,7 @@ $lang['BT_DISABLE_DHT_EXPL'] = 'Απενεργοποίηση Peer Exchange κα�
 $lang['BT_PRIVATE_TRACKER'] = 'Αυτός ο ανιχνευτής είναι ιδιωτικός: λίστα αρχείων (για επισκέπτες), DHT | PEX είναι απενεργοποιημένα';
 $lang['BT_PRIVATE_TORRENT'] = 'Ο δημιουργός αυτού του torrent το έκανε ιδιωτικό';
 $lang['BT_CHECK_ANNOUNCE_URL'] = 'Επιβεβαιώστε URL ανακοινώσεων.';
-$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'only register allowed URLs on the tracker';
+$lang['BT_CHECK_ANNOUNCE_URL_EXPL'] = 'εγγραφή μόνο επιτρεπόμενων URL στον tracker';
 $lang['BT_REPLACE_ANN_URL'] = 'Αντικαταστήστε το URL ανακοινώσεων.';
 $lang['BT_REPLACE_ANN_URL_EXPL'] = 'Αντικαταστήστε το αρχικό URL ανακοινώσεων με το προεπιλεγμένο στα αρχεία .torrent.';
 $lang['BT_DEL_ADDIT_ANN_URLS'] = 'Καταργήστε όλα τα πρόσθετα URLs ανακοινώσεων.';
@@ -1861,7 +1861,7 @@ $lang['BT_UNSET_DLTYPE_ON_TOR_UNREG'] = 'Αλλαγή καθεστώτος θέ�
 // Release
 $lang['TEMPLATE_DISABLE'] = 'Το πρότυπο απενεργοποιήθηκε.';
 $lang['FOR_NEW_TEMPLATE'] = 'για τα νέα σχέδια!';
-$lang['QUESTION'] = 'Are you sure you want to perform this action?';
+$lang['QUESTION'] = 'Είστε βέβαιοι ότι θέλετε να εκτελέσετε αυτήν την ενέργεια;';
 
 $lang['CRON_LIST'] = 'Λίστα cron.';
 $lang['CRON_ID'] = 'ID';
@@ -1886,7 +1886,7 @@ $lang['CRON_RUN'] = 'Εκτέλεση.';
 $lang['CRON_DEL'] = 'Διαγραφή';
 $lang['CRON_DISABLE'] = 'Απενεργοποίηση.';
 $lang['CRON_ENABLE'] = 'Ενεργοποίηση.';
-$lang['DELETE_JOB'] = 'Are you sure you want to delete this cron job?';
+$lang['DELETE_JOB'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την εργασία cron;';
 $lang['CRON_WORKS'] = 'Ο Cron λειτουργεί τώρα ή είναι σπασμένος -> ';
 $lang['REPAIR_CRON'] = 'Επισκευή cron.';
 
@@ -1901,11 +1901,11 @@ $lang['SCHEDULE'] = [
     'monthly' => 'Μηνιαία.',
     'interval' => 'Διάστημα.',
 ];
-$lang['NOSELECT'] = 'Not selected';
+$lang['NOSELECT'] = 'Δεν έχει επιλεχθεί';
 $lang['RUN_DAY'] = 'Εκτελέστε την ημέρα.';
-$lang['RUN_DAY_EXPL'] = 'the day this job runs';
+$lang['RUN_DAY_EXPL'] = 'η ημέρα που εκτελείται αυτή η εργασία';
 $lang['RUN_TIME'] = 'Το χρόνο εκτέλεσης.';
-$lang['RUN_TIME_EXPL'] = 'the time this job runs (e.g. 05:00:00)';
+$lang['RUN_TIME_EXPL'] = 'η ώρα που εκτελείται αυτή η εργασία (π.χ. 05:00:00)';
 $lang['RUN_ORDER'] = 'Σειρά εκτέλεσης';
 $lang['LAST_RUN'] = 'Η τελευταία εκτέλεση.';
 $lang['NEXT_RUN'] = 'Η επόμενη εκτέλεση.';
@@ -1913,7 +1913,7 @@ $lang['RUN_INTERVAL'] = 'Διάστημα εκτέλεσης.';
 $lang['RUN_INTERVAL_EXPL'] = 'π. χ. 00:10:00';
 $lang['LOG_ENABLED'] = 'Το αρχείο καταγραφής είναι ενεργοποιημένο.';
 $lang['LOG_FILE'] = 'Αρχείο καταγραφής';
-$lang['LOG_FILE_EXPL'] = 'the file to save the log to';
+$lang['LOG_FILE_EXPL'] = 'το αρχείο για αποθήκευση του αρχείου καταγραφής';
 $lang['LOG_SQL_QUERIES'] = 'Καταγραφή SQL ερωτημάτων.';
 $lang['FORUM_DISABLE'] = 'Απενεργοποίηση πίνακας';
 $lang['BOARD_DISABLE_EXPL'] = 'Απενεργοποίηση του φόρουμ όταν αυτή η εργασία εκτελείται.';
@@ -1933,7 +1933,7 @@ $lang['STARTING_POST_ID'] = 'Ξεκινώντας post_id';
 $lang['STARTING_POST_ID_EXPLAIN'] = 'Πρώτο post από το οποίο θα αρχίσει η επεξεργασία από<br />Μπορείτε να επιλέξετε να ξεκινήσετε από την αρχή ή από τη δημοσίευση που διακόψατε τελευταία.';
 
 $lang['START_OPTION_BEGINNING'] = 'ξεκινήστε από την αρχή';
-$lang['START_OPTION_CONTINUE'] = 'continue from where you last stopped';
+$lang['START_OPTION_CONTINUE'] = 'συνέχισε από εκεί που σταμάτησες την τελευταία φορά';
 
 $lang['CLEAR_SEARCH_TABLES'] = 'Καθαρίστε τους πίνακες αναζήτησης.';
 $lang['CLEAR_SEARCH_TABLES_EXPLAIN'] = '';
@@ -1957,7 +1957,7 @@ $lang['TIME_LIMIT_EXPLAIN_WEBSERVER'] = '<i>Ο server σας έχει ρυθμι
 // Information strings
 $lang['INFO_PROCESSING_STOPPED'] = 'Σταματήσατε τελευταία την επεξεργασία στο post_id %s (%s επεξεργασμένες θέσεις) την %s.';
 $lang['INFO_PROCESSING_ABORTED'] = 'Ακυρώθηκε η επεξεργασία στο post_id %s (%s επεξεργασμένες θέσεις) την %s.';
-$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Please wait a few minutes before you continue...';
+$lang['INFO_PROCESSING_ABORTED_SOON'] = 'Παρακαλώ περιμένετε μερικά λεπτά πριν συνεχίσετε...';
 $lang['INFO_PROCESSING_FINISHED'] = 'Με επιτυχία τελείωσε η επεξεργασία (%s επεξεργασμένες θέσεις) %s';
 $lang['INFO_PROCESSING_FINISHED_NEW'] = 'Ολοκληρώσατε με επιτυχία την επεξεργασία στο post_id %s (%s επεξεργασμένες θέσεις) την %s,<br />αλλά υπήρξαν %s νέα post(s) μετά από αυτή την ημερομηνία.';
 
@@ -2005,12 +2005,12 @@ $lang['BOT_TOPIC_MOVED_FROM_TO'] = 'Το θέμα έχει μεταφερθεί 
 $lang['BOT_MESS_SPLITS'] = 'Το θέμα έχει χωριστεί. Νέο θέμα - [b]%s[/b][br][br]%s';
 $lang['BOT_TOPIC_SPLITS'] = 'Το θέμα έχει χωριστεί από [b]%s[/b][br][br]%s';
 
-$lang['CALLSEED'] = 'Call seeders';
-$lang['CALLSEED_EXPLAIN'] = 'Notify seeders with a request to resume seeding this release';
-$lang['CALLSEED_SUBJECT'] = 'Seeding help needed: %s';
-$lang['CALLSEED_TEXT'] = 'Hello![br]Your help is needed for the release [url=%s]%s[/url][br]If you want to help but have already deleted the torrent file, you can download it [url=%s]here[/url][br][br]Your help would be greatly appreciated!';
-$lang['CALLSEED_MSG_OK'] = 'Request has been sent to everyone who has downloaded this release';
-$lang['CALLSEED_MSG_SPAM'] = 'A request has already been sent recently (possibly not by you).<br /><br />The next request can be sent on <b>%s</b>.';
+$lang['CALLSEED'] = 'Καλέστε τους σπόρους';
+$lang['CALLSEED_EXPLAIN'] = 'Ειδοποιήστε τους σπόρους με αίτημα να συνεχίσουν το σπόρισμα αυτής της κυκλοφορίας';
+$lang['CALLSEED_SUBJECT'] = 'Χρειάζεται βοήθεια σπορίσματος: %s';
+$lang['CALLSEED_TEXT'] = 'Γεια σας![br]Η βοήθειά σας χρειάζεται για την κυκλοφορία [url=%s]%s[/url][br]Εάν θέλετε να βοηθήσετε αλλά έχετε ήδη διαγράψει το αρχείο torrent, μπορείτε να το κατεβάσετε [url=%s]εδώ[/url][br][br]Η βοήθειά σας θα εκτιμηθεί πολύ!';
+$lang['CALLSEED_MSG_OK'] = 'Το αίτημα στάλθηκε σε όλους που κατέβασαν αυτήν την κυκλοφορία';
+$lang['CALLSEED_MSG_SPAM'] = 'Έχει ήδη σταλεί πρόσφατο αίτημα (πιθανότατα όχι από εσάς).<br /><br />Το επόμενο αίτημα μπορεί να σταλεί στις <b>%s</b>.';
 $lang['CALLSEED_HAVE_SEED'] = 'Το θέμα δεν απαιτεί βοήθεια (<b>Seeders:</b> %d)';
 
 $lang['LOG_ACTION']['LOG_TYPE'] = [
@@ -2036,8 +2036,8 @@ $lang['LOG_ACTION']['LOG_TYPE'] = [
     'mod_post_pin' => 'Post:<br /> <b>καρφιτσωμένο</b>',
     'mod_post_unpin' => 'Post:<br /> <b>ξεκαρφιτσώθηκε</b>',
     'adm_user_delete' => 'Χρήστης:<br /> <b>διαγράφηκε</b>.',
-    'adm_user_ban' => 'User:<br /> <b>banned</b>',
-    'adm_user_unban' => 'User:<br /> <b>unbanned</b>',
+    'adm_user_ban' => 'Χρήστης:<br /> <b>απαγορευμένος</b>',
+    'adm_user_unban' => 'Χρήστης:<br /> <b>απαγορεύτηκε</b>',
 ];
 
 $lang['ACTS_LOG_ALL_ACTIONS'] = 'Όλες οι δράσεις';
@@ -2065,7 +2065,7 @@ $lang['NEW_RELEASE'] = 'Νέα έκδοση';
 $lang['NEXT'] = 'Συνεχίστε';
 $lang['ALL'] = 'Όλα';
 
-$lang['TPL_EMPTY_FIELD'] = 'You must fill in the field <b>%s</b>';
+$lang['TPL_EMPTY_FIELD'] = 'Πρέπει να συμπληρώσετε το πεδίο <b>%s</b>';
 $lang['TPL_EMPTY_SEL'] = 'Θα πρέπει να επιλέξετε <b>%s</b>';
 $lang['TPL_NOT_NUM'] = '<b>%s</b> - Δεν είναι αριθμός';
 $lang['TPL_NOT_URL'] = '<b>%s</b> - Πρέπει να είναι https:// URL';
@@ -2104,7 +2104,7 @@ $lang['SEARCH_FOR_EMAIL'] = 'Αναζητώντας διευθύνσεις e-mai
 $lang['SEARCH_FOR_IP'] = 'Αναζητώντας διευθύνσεις IP που ταιριάζουν με %s.';
 $lang['SEARCH_FOR_DATE'] = 'Αναζητώντας χρήστες που εγγράφηκαν %s %d/%d/%d.';
 $lang['SEARCH_FOR_GROUP'] = 'Αναζητώντας μέλη της ομάδας %s.';
-$lang['SEARCH_FOR_RANK'] = 'Searching users with rank %s';
+$lang['SEARCH_FOR_RANK'] = 'Αναζητώντας χρήστες με βαθμό %s';
 $lang['SEARCH_FOR_BANNED'] = 'Αναζήτηση αποκλεισμένων χρηστών.';
 $lang['SEARCH_FOR_ADMINS'] = 'Αναζήτηση διαχειριστών.';
 $lang['SEARCH_FOR_MODS'] = 'Αναζήτηση συντονιστών.';
@@ -2129,14 +2129,14 @@ $lang['SEARCH_USERNAME_EXPLAIN'] = 'Εδώ μπορείτε να εκτελέσ�
 $lang['SEARCH_EMAIL_EXPLAIN'] = 'Εισάγετε μια έκφραση για να ταιριάζει με τη διεύθυνση ηλεκτρονικού ταχυδρομείου ενός χρήστη. Αυτό είναι ανεξάρτητο από τη διάκριση πεζών-κεφαλαίων. Αν θέλετε να κάνετε μια μερική αντιστοιχία, χρησιμοποιήστε * (αστερίσκο) ως χαρακτήρα μπαλαντέρ.';
 $lang['SEARCH_IP_EXPLAIN'] = 'Αναζήτηση για χρήστες με μια συγκεκριμένη διεύθυνση IP (xxx.xxx.xxx.xxx).';
 $lang['SEARCH_USERS_JOINED'] = 'Οι χρήστες που εντάχθηκαν';
-$lang['SEARCH_USERS_LASTVISITED'] = 'Users who have visited';
+$lang['SEARCH_USERS_LASTVISITED'] = 'Χρήστες που επισκέφθηκαν';
 $lang['IN_THE_LAST'] = 'Στα τελευταία.';
 $lang['AFTER_THE_LAST'] = 'Μετά την τελευταία.';
 $lang['BEFORE'] = 'Πριν.';
 $lang['AFTER'] = 'Μετά.';
-$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Search for users who joined before or after a specific date. The date format is YYYY/MM/DD.';
+$lang['SEARCH_USERS_JOINED_EXPLAIN'] = 'Αναζήτηση χρηστών που εγγράφηκαν πριν ή μετά από συγκεκριμένη ημερομηνία. Η μορφή ημερομηνίας είναι ΕΕΕΕ/ΜΜ/ΗΗ.';
 $lang['SEARCH_USERS_GROUPS_EXPLAIN'] = 'Δείτε όλα τα μέλη της επιλεγμένης ομάδας.';
-$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'View all users with the selected rank.';
+$lang['SEARCH_USERS_RANKS_EXPLAIN'] = 'Προβολή όλων των χρηστών με τον επιλεγμένο βαθμό.';
 $lang['BANNED_USERS'] = 'Αποκλεισμένοι Χρήστες';
 $lang['DISABLED_USERS'] = 'Οι χρήστες με αναπηρία.';
 $lang['SEARCH_USERS_MISC_EXPLAIN'] = 'Διαχειριστές - Όλοι οι χρήστες με εξουσίες διαχειριστή. Συντονιστές - Όλοι οι συντονιστές του φόρουμ. Απαγορευμένοι χρήστες - Όλοι οι λογαριασμοί που έχουν αποκλειστεί σε αυτά τα φόρουμ. Απενεργοποιημένοι χρήστες - Όλοι οι χρήστες με απενεργοποιημένους λογαριασμούς (είτε έχουν απενεργοποιηθεί με μη αυτόματο τρόπο είτε δεν επαληθεύτηκε ποτέ η διεύθυνση email τους). Χρήστες με απενεργοποιημένα PM - Επιλέγει χρήστες που έχουν αφαιρέσει τα προνόμια των Ιδιωτικών Μηνυμάτων (Έγινε μέσω της Διαχείρισης χρηστών)';
@@ -2169,7 +2169,7 @@ $lang['MC_TITLE'] = 'Σχόλιο συντονιστή';
 $lang['MC_LEGEND'] = 'Πληκτρολογήστε ένα σχόλιο';
 $lang['MC_FAQ'] = 'Το κείμενο θα εμφανιστεί κάτω από αυτό το μήνυμα.';
 $lang['MC_COMMENT_PM_SUBJECT'] = '%s στο μήνυμά σας.';
-$lang['MC_COMMENT_PM_MSG'] = "Hello, [b]%s[/b]\nA moderator has left a comment on your post [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
+$lang['MC_COMMENT_PM_MSG'] = "Γεια σου, [b]%s[/b]\nΈνας συντονιστής άφησε σχόλιο στην ανάρτησή σου [url=%s][b]%s[/b][/url][quote]\n%s\n[/quote]";
 $lang['MC_COMMENT'] = [
     0 => [
         'title' => '',
