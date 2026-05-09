@@ -3,7 +3,7 @@
 /**
  * TorrentPier – Bull-powered BitTorrent tracker engine
  *
- * @copyright Copyright (c) 2005-2025 TorrentPier (https://torrentpier.com)
+ * @copyright Copyright (c) 2005-2026 TorrentPier (https://torrentpier.com)
  * @link      https://github.com/torrentpier/torrentpier for the canonical source repository
  * @license   https://github.com/torrentpier/torrentpier/blob/master/LICENSE MIT License
  */
@@ -513,7 +513,7 @@ $lang['PASSWORD_CONFIRM_IF_CHANGED'] = 'Вам потрібно лише під�
 
 $lang['AUTOLOGIN'] = 'Автовхід';
 $lang['RESET_AUTOLOGIN'] = 'Видалити ключ автоматичного входу';
-$lang['RESET_AUTOLOGIN_EXPL'] = 'це від\'єднає вас з усіх пристроїв, де увімкнено автоматичний вхід';
+$lang['RESET_AUTOLOGIN_EXPL'] = 'Це виведе вас із усіх пристроїв, де увімкнено автоматичний вхід';
 
 $lang['AVATAR'] = 'Аватар';
 $lang['AVATAR_EXPLAIN'] = 'Показує невелике зображення під інформацією про вас в повідомленнях. Може бути показано тільки одне зображення, шириною не більше %d пікселів, висотою не більше %d пікселів і розміром не більше %s.';
@@ -1051,7 +1051,7 @@ $lang['SHOW_TIME_TOPICS'] = 'Показувати час створення те
 $lang['SHOW_CURSOR'] = 'виділяти рядок під курсором';
 
 $lang['BT_LOW_RATIO_FOR_DL'] = 'Ваш коефіцієнт <b>%s</b> надто низький для завантаження торрентів';
-$lang['BT_RATIO_WARNING_MSG'] = 'Якщо ваш коефіцієнт упаде нижче %s, ви не зможете завантажувати торенти! <a href="%s"><b>Докладніше про коефіцієнт.</b></a>';
+$lang['BT_RATIO_WARNING_MSG'] = 'Якщо ваш коефіцієнт упаде нижче %s, ви не зможете завантажувати торренти! <a href="%s"><b>Докладніше про коефіцієнт.</b></a>';
 
 $lang['SEEDER_LAST_SEEN'] = 'Сідера не було: <b>%s</b>';
 
@@ -1163,7 +1163,7 @@ $lang['SWITCH'] = 'Перейти';
 $lang['TOGGLE_WINDOW_FULL_SIZE'] = 'Збільшення/зменшення вікна';
 $lang['EMPTY_TOPIC_ID'] = 'Відсутній ідентифікатор теми';
 $lang['TOR_NOT_FOUND'] = 'Файл відсутній на сервері';
-$lang['ERROR_BUILD'] = 'Вміст цього торента не можливо відобразити (не вдалося створити список файлів)';
+$lang['ERROR_BUILD'] = 'Вміст цього торрента не можна відобразити (не вдалося створити список файлів)';
 $lang['TORFILE_INVALID'] = 'Торрент-файл пошкоджений';
 
 // Profile
@@ -1213,7 +1213,7 @@ $lang['USER_ACTIVATE_OFF'] = 'Користувач успішно деактив
 // Register
 $lang['CHOOSE_A_NAME'] = 'Будь ласка, виберіть ім\'я користувача';
 $lang['CHOOSE_E_MAIL'] = 'Ви повинні вказати адресу електронної пошти';
-$lang['CHOOSE_PASS'] = 'Поле паролю не може бути порожнім!';
+$lang['CHOOSE_PASS'] = 'Поле пароля не може бути порожнім!';
 $lang['CHOOSE_PASS_ERR'] = 'Введені паролі не співпадають';
 $lang['CHOOSE_PASS_ERR_MIN'] = 'Пароль повинен бути не коротше %d символів';
 $lang['CHOOSE_PASS_ERR_MAX'] = 'Ваш пароль повинен бути не довшим ніж %d символів';
