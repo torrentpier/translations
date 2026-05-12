@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Spustelėkite %sČia%s, kad grįžtumėte
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versijos Informacija';
 $lang['CHANGELOG'] = 'Katalogas';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projektas uždarytas';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forumo archyvas';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Leidžiami prisijungimai.';
