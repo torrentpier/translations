@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Foydalanuvchi nomini taqiqlash nazorati m
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versiya axboroti.';
-$lang['UPDATE_AVAILABLE'] = 'Yangilash mavjud.';
 $lang['CHANGELOG'] = 'O\'zgarishlar ro\'yxati.';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Ruxsat etilgan kirish urinishlari.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Spam jurnali yozuvlari topilmadi';
 $lang['SPAM_LOG_TOTAL'] = 'Jami yozuvlar';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Rad etilgan';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderatsiya qilingan';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Bozor maydoni';
-$lang['MODIFICATIONS_LIST'] = 'O\'zgartirishlar';
-$lang['MODS_VERSION'] = 'Versiya';
-$lang['MODS_DOWNLOADS'] = 'Yuklamalar';
-$lang['MODS_RATING'] = 'Baholash';
-$lang['MODS_ACTIONS'] = 'Harakatlar';
-$lang['MODS_AUTHOR'] = 'Muallif';
-$lang['MODS_CATEGORY'] = 'kategoriya';
-$lang['MODS_LAST_UPDATED'] = 'So\'nggi yangilangan.';
-$lang['MODS_TOTAL'] = 'jami';
-$lang['MODS_NO_RESOURCES'] = 'Hech qanday o‘zgartirish topilmadi.';
-$lang['MODS_INSTALL'] = 'O‘rnatish';
-$lang['MODS_INSTALL_SOON'] = 'O‘rnatish funksiyasi yaqin orada keladi';
-$lang['MODS_ALL_CATEGORIES'] = 'Barcha toifalar';
-$lang['MODS_FREE'] = 'Bepul';
-$lang['MODS_PAID'] = 'Pullik';
-$lang['MODS_THEMES'] = 'Mavzular';
-$lang['MODS_LANGPACKS'] = 'Til paketlari';
-$lang['MODS_API_ERROR'] = 'O‘zgartirishlarni yuklab bo‘lmadi: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'O‘zgartirishlar serveri vaqtincha mavjud emas.';
-$lang['MODS_DESCRIPTION'] = 'Ushbu sahifa rasmiy TorrentPier forumida e’lon qilingan barcha resurslarni ko‘rsatadi. Bir bosish bilan o‘rnatish kelajakdagi yangilanishda mavjud bo‘ladi — hozircha ushbu sahifadan resurslarni namoyish qilish uchun foydalaning.';
-$lang['MODS_REVIEW'] = 'sharh';
-$lang['MODS_REVIEWS'] = 'sharhlar';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Ikki bosqichli tasdiqlash';
