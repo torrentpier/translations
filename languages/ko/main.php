@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%s여기%s를 클릭하여 \'사용자 �
 // Version Check
 $lang['VERSION_INFORMATION'] = '버전 정보';
 $lang['CHANGELOG'] = '변경 로그';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = '프로젝트 종료';
+$lang['EOL_FORUM_ARCHIVE'] = '포럼 아카이브';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = '허용된 로그인 시도';
