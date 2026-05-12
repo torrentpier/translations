@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Cliquez %sIci%s pour retourner à l\'admi
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Les Informations De Version';
 $lang['CHANGELOG'] = 'Journal des modifications';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projet clos';
+$lang['EOL_FORUM_ARCHIVE'] = 'Archive du forum';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Tentatives de connexion autorisées.';
