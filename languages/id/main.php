@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klik %sDi sini%s untuk kembali ke Adminis
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informasi Versi';
-$lang['UPDATE_AVAILABLE'] = 'Pembaruan tersedia';
 $lang['CHANGELOG'] = 'Riwayat perubahan';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Percobaan login yang diizinkan.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Tidak ada entri log spam yang ditemukan';
 $lang['SPAM_LOG_TOTAL'] = 'Total entri';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Ditolak';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Dimoderasi';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
-$lang['MODIFICATIONS_LIST'] = 'Modifikasi';
-$lang['MODS_VERSION'] = 'Versi';
-$lang['MODS_DOWNLOADS'] = 'Download';
-$lang['MODS_RATING'] = 'Rating';
-$lang['MODS_ACTIONS'] = 'Aksi';
-$lang['MODS_AUTHOR'] = 'Penulis';
-$lang['MODS_CATEGORY'] = 'Kategori';
-$lang['MODS_LAST_UPDATED'] = 'Terakhir Diperbarui';
-$lang['MODS_TOTAL'] = 'Total';
-$lang['MODS_NO_RESOURCES'] = 'Tidak ada modifikasi ditemukan.';
-$lang['MODS_INSTALL'] = 'Pasang';
-$lang['MODS_INSTALL_SOON'] = 'Fitur pemasangan segera hadir';
-$lang['MODS_ALL_CATEGORIES'] = 'Semua kategori';
-$lang['MODS_FREE'] = 'Gratis';
-$lang['MODS_PAID'] = 'Berbayar';
-$lang['MODS_THEMES'] = 'Tema';
-$lang['MODS_LANGPACKS'] = 'Paket Bahasa';
-$lang['MODS_API_ERROR'] = 'Tidak dapat memuat modifikasi: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Server modifikasi sementara tidak tersedia.';
-$lang['MODS_DESCRIPTION'] = 'Halaman ini menampilkan semua sumber daya yang dipublikasikan di forum resmi TorrentPier. Instalasi satu-klik akan tersedia di pembaruan mendatang — untuk saat ini, gunakan halaman ini sebagai etalase sumber daya.';
-$lang['MODS_REVIEW'] = 'ulasan';
-$lang['MODS_REVIEWS'] = 'ulasan';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Verifikasi dua langkah';
