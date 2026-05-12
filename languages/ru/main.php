@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%sВернуться к управлен�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Информация о версии TorrentPier';
 $lang['CHANGELOG'] = 'Список изменений';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Проект закрыт';
+$lang['EOL_FORUM_ARCHIVE'] = 'Архив форума';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Разрешено попыток входа';
