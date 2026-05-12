@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'დააჭირეთ %sაქზე%s
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'ვერსია ინფორმაცია.';
-$lang['UPDATE_AVAILABLE'] = 'განახლება ხელმისაწვდომია';
 $lang['CHANGELOG'] = 'შეცვალეთ';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'დაშვებული შესვლა მცდელობა.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'სპამის ლოგი არ მოი
 $lang['SPAM_LOG_TOTAL'] = 'სულ ჩანაწერების რაოდენობა';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'უარი';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'მოდერირებული';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'მარკეტპლეისი';
-$lang['MODIFICATIONS_LIST'] = 'ცვლილებები';
-$lang['MODS_VERSION'] = 'მოდელი.';
-$lang['MODS_DOWNLOADS'] = 'გადმოწერა';
-$lang['MODS_RATING'] = 'შეფასება';
-$lang['MODS_ACTIONS'] = 'მოქმედებები';
-$lang['MODS_AUTHOR'] = 'ავტორი';
-$lang['MODS_CATEGORY'] = 'კატეგორია';
-$lang['MODS_LAST_UPDATED'] = 'ბოლო განახლება';
-$lang['MODS_TOTAL'] = 'საერთო';
-$lang['MODS_NO_RESOURCES'] = 'მოდიფიკაციები არ მოიძებნა.';
-$lang['MODS_INSTALL'] = 'აინსტალირება';
-$lang['MODS_INSTALL_SOON'] = 'ინსტალაციის ფუნქცია მალე დაემატება';
-$lang['MODS_ALL_CATEGORIES'] = 'ყველა კატეგორია';
-$lang['MODS_FREE'] = 'უფასო';
-$lang['MODS_PAID'] = 'გადახდილი';
-$lang['MODS_THEMES'] = 'თემები';
-$lang['MODS_LANGPACKS'] = 'ენის პაკეტები';
-$lang['MODS_API_ERROR'] = 'შეცდომა მოდიფიკაციების ჩატვირთვისას: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'მოდიფიკაციების სერვერი დროებით მიუწვდომელია.';
-$lang['MODS_DESCRIPTION'] = 'ეს გვერდი აჩვენებს ყველა რესურსს, რომელიც გამოქვეყნებულია ოფიციალურ TorrentPier ფორუმზე. ერთდროული ინსტალაცია შესაძლებელი გახდება მომავალი განახლებისთვის — ახლა კი გამოიყენეთ ეს გვერდი, როგორც რესურსების ჩვენება.';
-$lang['MODS_REVIEW'] = 'მიმოხილვა';
-$lang['MODS_REVIEWS'] = 'მიმოხილვები';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'ორ ეტაპიანი ვერიფიკაცია';
