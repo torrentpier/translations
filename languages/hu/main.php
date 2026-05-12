@@ -1732,8 +1732,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kattintson %sHere%s vissza, hogy ne enged
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Verzió Információ';
-$lang['UPDATE_AVAILABLE'] = 'Frissítés elérhető';
 $lang['CHANGELOG'] = 'Változási napló';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Bejelentkezési kísérletek megengedett';
@@ -2336,31 +2337,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nincs spam naplóbejegyzés';
 $lang['SPAM_LOG_TOTAL'] = 'Összes bejegyzés';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Megtagadva';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Mérsékelt';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Piac';
-$lang['MODIFICATIONS_LIST'] = 'Módosítások';
-$lang['MODS_VERSION'] = 'Verzió';
-$lang['MODS_DOWNLOADS'] = 'Letöltések';
-$lang['MODS_RATING'] = 'Értékelés';
-$lang['MODS_ACTIONS'] = 'Műveletek';
-$lang['MODS_AUTHOR'] = 'Szerző';
-$lang['MODS_CATEGORY'] = 'Kategória';
-$lang['MODS_LAST_UPDATED'] = 'Utolsó Frissítés';
-$lang['MODS_TOTAL'] = 'Összesen';
-$lang['MODS_NO_RESOURCES'] = 'Nem találhatóak módosítások.';
-$lang['MODS_INSTALL'] = 'Telepítés';
-$lang['MODS_INSTALL_SOON'] = 'Telepítési funkció hamarosan elérhető';
-$lang['MODS_ALL_CATEGORIES'] = 'Összes kategória';
-$lang['MODS_FREE'] = 'Ingyenes';
-$lang['MODS_PAID'] = 'Fizetős';
-$lang['MODS_THEMES'] = 'Témák';
-$lang['MODS_LANGPACKS'] = 'Nyelvi csomagok';
-$lang['MODS_API_ERROR'] = 'Nem sikerült betölteni a módosításokat: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'A módosításokat kiszolgáló szerver jelenleg nem elérhető.';
-$lang['MODS_DESCRIPTION'] = 'Ez az oldal az összes hivatalos TorrentPier fórumon közzétett erőforrást felsorolja. Az egyszereplős telepítés egy későbbi frissítésben lesz elérhető — jelenleg használja ezt az oldalt erőforrás bemutatóként.';
-$lang['MODS_REVIEW'] = 'értékelés';
-$lang['MODS_REVIEWS'] = 'értékelések';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Kétlépcsős azonosítás';
