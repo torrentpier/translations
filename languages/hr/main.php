@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kliknite %sOvdje%s za povratak u Administ
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informacije O Verziji';
 $lang['CHANGELOG'] = 'Zapis o promjenama';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekt zatvoren';
+$lang['EOL_FORUM_ARCHIVE'] = 'Arhiva foruma';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Dozvoljenih pokušaja prijave.';
