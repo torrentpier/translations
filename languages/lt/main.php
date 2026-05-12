@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Spustelėkite %sČia%s, kad grįžtumėte
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versijos Informacija';
-$lang['UPDATE_AVAILABLE'] = 'Atnaujinimas yra';
 $lang['CHANGELOG'] = 'Katalogas';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Leidžiami prisijungimai.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Šlamšto žurnalo įrašų nerasta';
 $lang['SPAM_LOG_TOTAL'] = 'Iš viso įrašų';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Atmesta';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderuota';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Turgavietė';
-$lang['MODIFICATIONS_LIST'] = 'Pakeitimai.';
-$lang['MODS_VERSION'] = 'Versija';
-$lang['MODS_DOWNLOADS'] = 'Atsisiuntimai';
-$lang['MODS_RATING'] = 'Įvertinimas';
-$lang['MODS_ACTIONS'] = 'Veiksmai';
-$lang['MODS_AUTHOR'] = 'Autorius';
-$lang['MODS_CATEGORY'] = 'Kategorijos';
-$lang['MODS_LAST_UPDATED'] = 'Paskutinį kartą atnaujinta.';
-$lang['MODS_TOTAL'] = 'Iš viso';
-$lang['MODS_NO_RESOURCES'] = 'Nerasta modifikacijų.';
-$lang['MODS_INSTALL'] = 'Įdiegti';
-$lang['MODS_INSTALL_SOON'] = 'Įdiegimo funkcija netrukus bus pristatyta';
-$lang['MODS_ALL_CATEGORIES'] = 'Visos kategorijos';
-$lang['MODS_FREE'] = 'Nemokama';
-$lang['MODS_PAID'] = 'Mokama';
-$lang['MODS_THEMES'] = 'Temos';
-$lang['MODS_LANGPACKS'] = 'Kalbų paketai';
-$lang['MODS_API_ERROR'] = 'Nepavyko įkelti modifikacijų: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Modifikacijų serveris laikinai neprieinamas.';
-$lang['MODS_DESCRIPTION'] = 'Šiame puslapyje pateikiami visi oficialiame TorrentPier forume paskelbti ištekliai. Vienu spustelėjimu pateikiamas diegimas bus prieinamas ateityje — kol kas naudokite šį puslapį kaip išteklių demonstravimo vietą.';
-$lang['MODS_REVIEW'] = 'apžvalga';
-$lang['MODS_REVIEWS'] = 'apžvalgos';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Dvienė patvirtinimo sistema';
