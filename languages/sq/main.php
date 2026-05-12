@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikoni %sKëtu%s për t\'u kthyer në Ad
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informacioni mbi Versionin.';
 $lang['CHANGELOG'] = 'Historia e ndryshimeve';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekti i mbyllur';
+$lang['EOL_FORUM_ARCHIVE'] = 'Arkiva e forumit';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Lejohen përpjekjet për identifikimin.';
