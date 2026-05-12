@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'לחץ על %sכאן%s לחזור לני�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'מידע על גרסה.';
-$lang['UPDATE_AVAILABLE'] = 'עדכון זמין';
 $lang['CHANGELOG'] = 'יומן שינויים';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'מספר הנסיונות המותרים להיכנס.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'לא נמצאו רשומות ביומן הספא
 $lang['SPAM_LOG_TOTAL'] = 'סה"כ רשומות';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'נדחה';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'בתהליך אישור';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'שוק מקוון';
-$lang['MODIFICATIONS_LIST'] = 'שינויים';
-$lang['MODS_VERSION'] = 'גרסה';
-$lang['MODS_DOWNLOADS'] = 'הורדות';
-$lang['MODS_RATING'] = 'דירוג';
-$lang['MODS_ACTIONS'] = 'פעולות';
-$lang['MODS_AUTHOR'] = 'מחבר';
-$lang['MODS_CATEGORY'] = 'קטגוריה';
-$lang['MODS_LAST_UPDATED'] = 'עדכון אחרון';
-$lang['MODS_TOTAL'] = 'סה"כ';
-$lang['MODS_NO_RESOURCES'] = 'לא נמצאו שינויים.';
-$lang['MODS_INSTALL'] = 'התקן';
-$lang['MODS_INSTALL_SOON'] = 'תכונת ההתקנה תגיע בקרוב';
-$lang['MODS_ALL_CATEGORIES'] = 'כל הקטגוריות';
-$lang['MODS_FREE'] = 'חינמי';
-$lang['MODS_PAID'] = 'בתשלום';
-$lang['MODS_THEMES'] = 'ערכות נושא';
-$lang['MODS_LANGPACKS'] = 'חבילות שפה';
-$lang['MODS_API_ERROR'] = 'לא ניתן לטעון שינויים: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'שרת השינויים אינו זמין כרגע.';
-$lang['MODS_DESCRIPTION'] = 'דף זה מפרט את כל המשאבים שפורסמו בפורום הרשמי של TorrentPier. התקנה בלחיצה אחת תהיה זמינה בעדכון עתידי — לעת עתה, השתמש בדף זה כמיצג משאבים.';
-$lang['MODS_REVIEW'] = 'ביקורת';
-$lang['MODS_REVIEWS'] = 'ביקורות';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'אימות דו-שלבי';
