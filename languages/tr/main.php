@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kullanıcı adı yönetimine geri dönmek
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Sürüm Bilgileri';
 $lang['CHANGELOG'] = 'Değişiklik günlüğü';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Proje kapalı';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum arşivi';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'İzin verilen oturum açma girişimleri';
