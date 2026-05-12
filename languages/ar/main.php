@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'انقر فوق %sهنا%s للعودة �
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'معلومات الإصدار';
-$lang['UPDATE_AVAILABLE'] = 'تحديث متاح';
 $lang['CHANGELOG'] = 'سجل التغيير';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'محاولات تسجيل الدخول المسموح بها';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'لم يتم العثور على أي سجلات 
 $lang['SPAM_LOG_TOTAL'] = 'إجمالي الإدخالات';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'مرفوضة';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'معتدلة';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'السوق';
-$lang['MODIFICATIONS_LIST'] = 'التعديلات';
-$lang['MODS_VERSION'] = 'الإصدار';
-$lang['MODS_DOWNLOADS'] = 'تنزيلات.';
-$lang['MODS_RATING'] = 'التقييم';
-$lang['MODS_ACTIONS'] = 'إجراءات';
-$lang['MODS_AUTHOR'] = 'الكاتب';
-$lang['MODS_CATEGORY'] = 'الفئة';
-$lang['MODS_LAST_UPDATED'] = 'آخر تحديث';
-$lang['MODS_TOTAL'] = 'مجموع';
-$lang['MODS_NO_RESOURCES'] = 'لم يتم العثور على تعديلات.';
-$lang['MODS_INSTALL'] = 'تثبيت';
-$lang['MODS_INSTALL_SOON'] = 'ميزة التثبيت قادمة قريباً';
-$lang['MODS_ALL_CATEGORIES'] = 'كل الفئات';
-$lang['MODS_FREE'] = 'مجاني';
-$lang['MODS_PAID'] = 'مدفوع';
-$lang['MODS_THEMES'] = 'القوالب';
-$lang['MODS_LANGPACKS'] = 'حزم اللغات';
-$lang['MODS_API_ERROR'] = 'تعذّر تحميل التعديلات: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'خادم التعديلات غير متاح مؤقتاً.';
-$lang['MODS_DESCRIPTION'] = 'تعرض هذه الصفحة جميع الموارد المنشورة في منتدى TorrentPier الرسمي. سيكون التثبيت بنقرة واحدة متاحًا في تحديث مستقبلي — حالياً، استخدم هذه الصفحة كعرض للموارد.';
-$lang['MODS_REVIEW'] = 'تقييم';
-$lang['MODS_REVIEWS'] = 'تقييمات';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'التحقق بخطوتين';
