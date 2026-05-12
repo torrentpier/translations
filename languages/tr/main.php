@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kullanıcı adı yönetimine geri dönmek
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Sürüm Bilgileri';
-$lang['UPDATE_AVAILABLE'] = 'Güncelleme mevcut';
 $lang['CHANGELOG'] = 'Değişiklik günlüğü';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'İzin verilen oturum açma girişimleri';
@@ -2336,31 +2337,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Spam günlük kaydı bulunamadı';
 $lang['SPAM_LOG_TOTAL'] = 'Toplam kayıtlar';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Reddedildi';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Modere Edildi';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Pazar Yeri';
-$lang['MODIFICATIONS_LIST'] = 'Değişiklikler';
-$lang['MODS_VERSION'] = 'Sürüm';
-$lang['MODS_DOWNLOADS'] = 'İndirilenler';
-$lang['MODS_RATING'] = 'Değerlendirme';
-$lang['MODS_ACTIONS'] = 'İşlemler';
-$lang['MODS_AUTHOR'] = 'Yazar';
-$lang['MODS_CATEGORY'] = 'Kategori';
-$lang['MODS_LAST_UPDATED'] = 'Son Güncelleme';
-$lang['MODS_TOTAL'] = 'Toplam';
-$lang['MODS_NO_RESOURCES'] = 'Hiç modifikasyon bulunamadı.';
-$lang['MODS_INSTALL'] = 'Yükle';
-$lang['MODS_INSTALL_SOON'] = 'Yükleme özelliği yakında gelecek';
-$lang['MODS_ALL_CATEGORIES'] = 'Tüm kategoriler';
-$lang['MODS_FREE'] = 'Ücretsiz';
-$lang['MODS_PAID'] = 'Ücretli';
-$lang['MODS_THEMES'] = 'Temalar';
-$lang['MODS_LANGPACKS'] = 'Dil Paketleri';
-$lang['MODS_API_ERROR'] = 'Değişiklikler yüklenemedi: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Değişiklikler sunucusu geçici olarak kullanılamıyor.';
-$lang['MODS_DESCRIPTION'] = 'Bu sayfa resmi TorrentPier forumunda yayınlanan tüm kaynakları listeler. Tek tıklamayla yükleme gelecekteki bir güncellemede sunulacaktır — şimdilik bu sayfayı bir kaynak vitrin olarak kullanabilirsiniz.';
-$lang['MODS_REVIEW'] = 'inceleme';
-$lang['MODS_REVIEWS'] = 'incelemeler';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'İki aşamalı doğrulama';
