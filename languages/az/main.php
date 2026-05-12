@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Qadağan edilmiş istifadəçi adı idar�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Məlumat Versiyası';
 $lang['CHANGELOG'] = 'Dəyişikliklər';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Layihə bağlandı';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum arxivi';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'İcazə verilmiş giriş cəhdləri.';
