@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'დააჭირეთ %sაქზე%s
 // Version Check
 $lang['VERSION_INFORMATION'] = 'ვერსია ინფორმაცია.';
 $lang['CHANGELOG'] = 'შეცვალეთ';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'პროექტი დახურულია';
+$lang['EOL_FORUM_ARCHIVE'] = 'ფორუმის არქივი';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'დაშვებული შესვლა მცდელობა.';
