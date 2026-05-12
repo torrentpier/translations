@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Feu clic %sAquí%s per tornar a l\'Admini
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informació De La Versió';
 $lang['CHANGELOG'] = 'Registre de canvis';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projecte tancat';
+$lang['EOL_FORUM_ARCHIVE'] = 'Arxiu del fòrum';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Admesos els intents d\'inici de sessió';
