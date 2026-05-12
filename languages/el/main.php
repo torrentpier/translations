@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Κάντε κλικ %sΕδώ%s για ν�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Πληροφορίες για την Έκδοση.';
 $lang['CHANGELOG'] = 'Λίστα αλλαγών';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Το έργο έκλεισε';
+$lang['EOL_FORUM_ARCHIVE'] = 'Αρχείο φόρουμ';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Επιτρεπόμενες προσπάθειες σύνδεσης.';
