@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klik %sHier%s om terug te keren naar de A
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versie-Informatie';
 $lang['CHANGELOG'] = 'Wijzigingslog';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Project gesloten';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forumarchief';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Inlogpogingen';
