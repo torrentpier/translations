@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klik %sHier%s om terug te keren naar de A
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versie-Informatie';
-$lang['UPDATE_AVAILABLE'] = 'Update beschikbaar';
 $lang['CHANGELOG'] = 'Wijzigingslog';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Inlogpogingen';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Geen spamlogboekvermeldingen gevonden';
 $lang['SPAM_LOG_TOTAL'] = 'Totaal aantal vermeldingen';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Geweigerd';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Gemodereerd';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marktplaats';
-$lang['MODIFICATIONS_LIST'] = 'Wijzigingen.';
-$lang['MODS_VERSION'] = 'Versie';
-$lang['MODS_DOWNLOADS'] = 'Downloads';
-$lang['MODS_RATING'] = 'Beoordeling';
-$lang['MODS_ACTIONS'] = 'Acties';
-$lang['MODS_AUTHOR'] = 'Auteur';
-$lang['MODS_CATEGORY'] = 'Categorie';
-$lang['MODS_LAST_UPDATED'] = 'Laatst bijgewerkt.';
-$lang['MODS_TOTAL'] = 'Totaal';
-$lang['MODS_NO_RESOURCES'] = 'Geen wijzigingen gevonden.';
-$lang['MODS_INSTALL'] = 'Installeren';
-$lang['MODS_INSTALL_SOON'] = 'Installatiefunctie binnenkort beschikbaar';
-$lang['MODS_ALL_CATEGORIES'] = 'Alle categorieën';
-$lang['MODS_FREE'] = 'Gratis';
-$lang['MODS_PAID'] = 'Betaald';
-$lang['MODS_THEMES'] = 'Thema’s';
-$lang['MODS_LANGPACKS'] = 'Taalpakketten';
-$lang['MODS_API_ERROR'] = 'Kan wijzigingen niet laden: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'De wijzigingenserver is tijdelijk niet beschikbaar.';
-$lang['MODS_DESCRIPTION'] = 'Deze pagina toont alle bronnen die zijn gepubliceerd op het officiële TorrentPier-forum. Eén-klik installatie zal beschikbaar zijn in een toekomstige update — gebruik deze pagina voorlopig als een overzicht van beschikbare bronnen.';
-$lang['MODS_REVIEW'] = 'beoordeling';
-$lang['MODS_REVIEWS'] = 'beoordelingen';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Tweestapsverificatie';
