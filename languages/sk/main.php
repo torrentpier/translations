@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kliknite na tlačidlo %sTu%s, aby ste sa 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informácie O Verzii';
 $lang['CHANGELOG'] = 'Zoznam zmien';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekt uzavretý';
+$lang['EOL_FORUM_ARCHIVE'] = 'Archív fóra';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Povolené pokusy o prihlásenie.';
