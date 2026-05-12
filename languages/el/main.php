@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Κάντε κλικ %sΕδώ%s για ν�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Πληροφορίες για την Έκδοση.';
-$lang['UPDATE_AVAILABLE'] = 'Διαθέσιμη ενημέρωση';
 $lang['CHANGELOG'] = 'Λίστα αλλαγών';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Επιτρεπόμενες προσπάθειες σύνδεσης.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Δεν βρέθηκαν εγγραφές αρχ�
 $lang['SPAM_LOG_TOTAL'] = 'Συνολικές εγγραφές';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Απορρίφθηκε';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Σε έλεγχο';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Αγορά';
-$lang['MODIFICATIONS_LIST'] = 'Τροποποιήσεις';
-$lang['MODS_VERSION'] = 'Έκδοση';
-$lang['MODS_DOWNLOADS'] = 'Λήψεις';
-$lang['MODS_RATING'] = 'Βαθμολογία';
-$lang['MODS_ACTIONS'] = 'Ενέργειες';
-$lang['MODS_AUTHOR'] = 'Συγγραφέας';
-$lang['MODS_CATEGORY'] = 'Κατηγορία';
-$lang['MODS_LAST_UPDATED'] = 'Τελευταία Φορά';
-$lang['MODS_TOTAL'] = 'Συνολικά';
-$lang['MODS_NO_RESOURCES'] = 'Δεν βρέθηκαν τροποποιήσεις.';
-$lang['MODS_INSTALL'] = 'Εγκατάσταση';
-$lang['MODS_INSTALL_SOON'] = 'Η δυνατότητα εγκατάστασης θα είναι σύντομα διαθέσιμη';
-$lang['MODS_ALL_CATEGORIES'] = 'Όλες οι κατηγορίες';
-$lang['MODS_FREE'] = 'Δωρεάν';
-$lang['MODS_PAID'] = 'Επί πληρωμή';
-$lang['MODS_THEMES'] = 'Θέματα';
-$lang['MODS_LANGPACKS'] = 'Πακέτα γλωσσών';
-$lang['MODS_API_ERROR'] = 'Δεν ήταν δυνατή η φόρτωση των τροποποιήσεων: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Ο διακομιστής τροποποιήσεων είναι προσωρινά μη διαθέσιμος.';
-$lang['MODS_DESCRIPTION'] = 'Αυτή η σελίδα καταγράφει όλους τους πόρους που δημοσιεύονται στο επίσημο φόρουμ TorrentPier. Η εγκατάσταση με ένα κλικ θα είναι διαθέσιμη σε μελλοντική ενημέρωση — προς το παρόν, χρησιμοποιήστε αυτή τη σελίδα ως έκθεση πόρων.';
-$lang['MODS_REVIEW'] = 'κριτική';
-$lang['MODS_REVIEWS'] = 'κριτικές';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Διπλός έλεγχος ταυτότητας';
