@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kliknij %sHere%s, aby powrócić do admin
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informacje O Wersji';
-$lang['UPDATE_AVAILABLE'] = 'Aktualizacja dostępna';
 $lang['CHANGELOG'] = 'Dziennik zmian';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Dozwolone próby logowania.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Brak wpisów w dzienniku spamu';
 $lang['SPAM_LOG_TOTAL'] = 'Łączna liczba wpisów';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Odrzucone';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderowane';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Rynek';
-$lang['MODIFICATIONS_LIST'] = 'Modyfikacje';
-$lang['MODS_VERSION'] = 'Wersja';
-$lang['MODS_DOWNLOADS'] = 'Pliki do pobrania';
-$lang['MODS_RATING'] = 'Ocena';
-$lang['MODS_ACTIONS'] = 'Akcje';
-$lang['MODS_AUTHOR'] = 'Autor';
-$lang['MODS_CATEGORY'] = 'Kategoria';
-$lang['MODS_LAST_UPDATED'] = 'Ostatnia Aktualizacja';
-$lang['MODS_TOTAL'] = 'Wspólna';
-$lang['MODS_NO_RESOURCES'] = 'Nie znaleziono modyfikacji.';
-$lang['MODS_INSTALL'] = 'Zainstaluj';
-$lang['MODS_INSTALL_SOON'] = 'Funkcja instalacji wkrótce dostępna';
-$lang['MODS_ALL_CATEGORIES'] = 'Wszystkie kategorie';
-$lang['MODS_FREE'] = 'Darmowe';
-$lang['MODS_PAID'] = 'Płatne';
-$lang['MODS_THEMES'] = 'Motywy';
-$lang['MODS_LANGPACKS'] = 'Pakiety językowe';
-$lang['MODS_API_ERROR'] = 'Nie można załadować modyfikacji: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Serwer modyfikacji jest tymczasowo niedostępny.';
-$lang['MODS_DESCRIPTION'] = 'Ta strona zawiera wszystkie zasoby opublikowane na oficjalnym forum TorrentPier. Instalacja jednym kliknięciem będzie dostępna w przyszłej aktualizacji — na razie używaj tej strony jako wystawy zasobów.';
-$lang['MODS_REVIEW'] = 'recenzja';
-$lang['MODS_REVIEWS'] = 'recenzje';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Weryfikacja dwuetapowa';
