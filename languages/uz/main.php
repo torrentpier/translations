@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Foydalanuvchi nomini taqiqlash nazorati m
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versiya axboroti.';
 $lang['CHANGELOG'] = 'O\'zgarishlar ro\'yxati.';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Loyiha yopildi';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum arxivi';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Ruxsat etilgan kirish urinishlari.';
