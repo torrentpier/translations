@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Nhấn vào %sHere%s để trở về Qu�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Phiên Bản Thông Tin';
-$lang['UPDATE_AVAILABLE'] = 'Cập nhật có sẵn';
 $lang['CHANGELOG'] = 'Nhật ký thay đổi';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Số lần đăng nhập được cho phép.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Không tìm thấy bản ghi nhật ký thư rá
 $lang['SPAM_LOG_TOTAL'] = 'Tổng số bản ghi';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Bị từ chối';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Được kiểm duyệt';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Chợ ứng dụng';
-$lang['MODIFICATIONS_LIST'] = 'Thay đổi.';
-$lang['MODS_VERSION'] = 'Phiên bản';
-$lang['MODS_DOWNLOADS'] = 'Tải xuống.';
-$lang['MODS_RATING'] = 'Xếp hạng';
-$lang['MODS_ACTIONS'] = 'Hành động';
-$lang['MODS_AUTHOR'] = 'Tác giả';
-$lang['MODS_CATEGORY'] = 'Mục';
-$lang['MODS_LAST_UPDATED'] = 'Cập nhật cuối cùng.';
-$lang['MODS_TOTAL'] = 'Tổng';
-$lang['MODS_NO_RESOURCES'] = 'Không tìm thấy chỉnh sửa nào.';
-$lang['MODS_INSTALL'] = 'Cài đặt';
-$lang['MODS_INSTALL_SOON'] = 'Tính năng cài đặt sắp ra mắt';
-$lang['MODS_ALL_CATEGORIES'] = 'Tất cả danh mục';
-$lang['MODS_FREE'] = 'Miễn phí';
-$lang['MODS_PAID'] = 'Có phí';
-$lang['MODS_THEMES'] = 'Giao diện';
-$lang['MODS_LANGPACKS'] = 'Gói ngôn ngữ';
-$lang['MODS_API_ERROR'] = 'Không thể tải các chỉnh sửa: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Máy chủ chỉnh sửa tạm thời không khả dụng.';
-$lang['MODS_DESCRIPTION'] = 'Trang này liệt kê tất cả tài nguyên được xuất bản trên diễn đàn chính thức của TorrentPier. Tính năng cài đặt chỉ với một lần nhấp sẽ có trong bản cập nhật tương lai — hiện tại, hãy dùng trang này như một nơi trưng bày tài nguyên.';
-$lang['MODS_REVIEW'] = 'đánh giá';
-$lang['MODS_REVIEWS'] = 'các đánh giá';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Xác minh hai bước';
