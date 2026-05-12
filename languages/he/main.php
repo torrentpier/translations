@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'לחץ על %sכאן%s לחזור לני�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'מידע על גרסה.';
 $lang['CHANGELOG'] = 'יומן שינויים';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'הפרויקט נסגר';
+$lang['EOL_FORUM_ARCHIVE'] = 'ארכיון הפורום';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'מספר הנסיונות המותרים להיכנס.';
