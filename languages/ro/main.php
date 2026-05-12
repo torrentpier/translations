@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Faceți clic pe %sAici%s pentru a reveni 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informațiile De Versiune';
 $lang['CHANGELOG'] = 'Jurnal de modificări';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Proiect închis';
+$lang['EOL_FORUM_ARCHIVE'] = 'Arhiva forumului';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Încercări de autentificare permise';
