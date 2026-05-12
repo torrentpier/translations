@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Націсніце %sHere%s, каб вя�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Інфармацыя аб версіі.';
 $lang['CHANGELOG'] = 'Журнал зменаў';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Праект закрыты';
+$lang['EOL_FORUM_ARCHIVE'] = 'Архіў форума';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Дазволеных спробаў ўваходу';
