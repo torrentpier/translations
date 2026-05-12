@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Qadağan edilmiş istifadəçi adı idar�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Məlumat Versiyası';
-$lang['UPDATE_AVAILABLE'] = 'Yeniləmə mövcuddur';
 $lang['CHANGELOG'] = 'Dəyişikliklər';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'İcazə verilmiş giriş cəhdləri.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Spam qeydləri tapılmadı';
 $lang['SPAM_LOG_TOTAL'] = 'Ümumi qeydlər';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Rədd edildi';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderasiya edildi';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Bazar yeri';
-$lang['MODIFICATIONS_LIST'] = 'Dəyişikliklər';
-$lang['MODS_VERSION'] = 'Versiya';
-$lang['MODS_DOWNLOADS'] = 'Yükləmələr.';
-$lang['MODS_RATING'] = 'Qiymətləndirmə';
-$lang['MODS_ACTIONS'] = 'Əməliyyatlar';
-$lang['MODS_AUTHOR'] = 'Müəllif';
-$lang['MODS_CATEGORY'] = 'Kateqoriya';
-$lang['MODS_LAST_UPDATED'] = 'Son Yeniləmə';
-$lang['MODS_TOTAL'] = 'Cəmi';
-$lang['MODS_NO_RESOURCES'] = 'Heç bir əlavələr tapılmadı.';
-$lang['MODS_INSTALL'] = 'Quraşdır';
-$lang['MODS_INSTALL_SOON'] = 'Quraşdırma funksiyası tezliklə gələcək';
-$lang['MODS_ALL_CATEGORIES'] = 'Bütün kateqoriyalar';
-$lang['MODS_FREE'] = 'Pulsuz';
-$lang['MODS_PAID'] = 'Ödənişli';
-$lang['MODS_THEMES'] = 'Temalar';
-$lang['MODS_LANGPACKS'] = 'Dil paketləri';
-$lang['MODS_API_ERROR'] = 'Əlavələri yükləmək mümkün olmadı: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Əlavələr serveri müvəqqəti olaraq əlçatmazdır.';
-$lang['MODS_DESCRIPTION'] = 'Bu səhifədə rəsmi TorrentPier forumunda dərc olunan bütün resurslar siyahıya alınır. Bir kliklə quraşdırma gələcək yeniləmədə mövcud olacaq — indilikdə bu səhifədən resurs nümayişi kimi istifadə edin.';
-$lang['MODS_REVIEW'] = 'rəy';
-$lang['MODS_REVIEWS'] = 'rəyler';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'İki mərhələli təsdiq';
