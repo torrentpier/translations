@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%s （%s ）をクリックして、無�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'バージョン情報';
 $lang['CHANGELOG'] = '変更履歴';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'プロジェクトがクローズされました';
+$lang['EOL_FORUM_ARCHIVE'] = 'フォーラム・アーカイブ';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = '許可されたログイン試行';
