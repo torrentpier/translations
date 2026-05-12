@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikkaa %sTäällä%s palataksesi Estä K
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Version Tiedot.';
 $lang['CHANGELOG'] = 'Muutospäiväkirja';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekti suljettu';
+$lang['EOL_FORUM_ARCHIVE'] = 'Foorumin arkisto';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Sallitut kirjautumisyritykset.';
