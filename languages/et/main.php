@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikkige %sHere%s tagasi keelamise kasuta
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versiooni teave.';
 $lang['CHANGELOG'] = 'Muudatused';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekt suletud';
+$lang['EOL_FORUM_ARCHIVE'] = 'Foorumi arhiiv';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Lubatud logimise katsed.';
