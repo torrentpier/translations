@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikněte %s zde %s pro návrat do správ
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informace o verzi.';
 $lang['CHANGELOG'] = 'Historie změn';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekt uzavřen';
+$lang['EOL_FORUM_ARCHIVE'] = 'Archiv fóra';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Povolené pokusy o přihlášení.';
