@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'अस्वीकृत उपयोग�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'संस्करण जानकारी';
 $lang['CHANGELOG'] = 'चेंज लोग';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'परियोजना बंद हुई';
+$lang['EOL_FORUM_ARCHIVE'] = 'फ़ोरम अभिलेखागार';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'स्वीकृत लॉगिन प्रयास';
