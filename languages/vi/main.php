@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Nhấn vào %sHere%s để trở về Qu�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Phiên Bản Thông Tin';
 $lang['CHANGELOG'] = 'Nhật ký thay đổi';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Dự án đã đóng';
+$lang['EOL_FORUM_ARCHIVE'] = 'Lưu trữ diễn đàn';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Số lần đăng nhập được cho phép.';
