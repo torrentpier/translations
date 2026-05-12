@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%sИн ҷо%s-ро ангушт зане�
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Маълумоти версия';
 $lang['CHANGELOG'] = 'Таърихномаи тағйирот';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Лоиҳа баста шуд';
+$lang['EOL_FORUM_ARCHIVE'] = 'Архиви форум';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'кӯшишҳои воридшавии иҷозатдода';
