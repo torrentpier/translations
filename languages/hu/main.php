@@ -1733,8 +1733,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kattintson %sHere%s vissza, hogy ne enged
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Verzió Információ';
 $lang['CHANGELOG'] = 'Változási napló';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekt lezárva';
+$lang['EOL_FORUM_ARCHIVE'] = 'Fórum archívum';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Bejelentkezési kísérletek megengedett';
