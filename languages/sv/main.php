@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klicka %sHär%s för att återgå till ad
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versionsinformation.';
-$lang['UPDATE_AVAILABLE'] = 'Uppdatering tillgänglig.';
 $lang['CHANGELOG'] = 'Ändringslogg.';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Tillåtna inloggningsförsök.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Inga poster i skräppostloggen hittades';
 $lang['SPAM_LOG_TOTAL'] = 'Totalt antal poster';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Nekade';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Modererade';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marknadsplats';
-$lang['MODIFICATIONS_LIST'] = 'Ändringar';
-$lang['MODS_VERSION'] = 'Version';
-$lang['MODS_DOWNLOADS'] = 'Nedladdningar';
-$lang['MODS_RATING'] = 'Betyg';
-$lang['MODS_ACTIONS'] = 'Åtgärder';
-$lang['MODS_AUTHOR'] = 'Författare';
-$lang['MODS_CATEGORY'] = 'Kategori';
-$lang['MODS_LAST_UPDATED'] = 'Senast Uppdaterad';
-$lang['MODS_TOTAL'] = 'Totalt';
-$lang['MODS_NO_RESOURCES'] = 'Inga modifikationer hittades.';
-$lang['MODS_INSTALL'] = 'Installera';
-$lang['MODS_INSTALL_SOON'] = 'Installationsfunktion kommer snart';
-$lang['MODS_ALL_CATEGORIES'] = 'Alla kategorier';
-$lang['MODS_FREE'] = 'Gratis';
-$lang['MODS_PAID'] = 'Betald';
-$lang['MODS_THEMES'] = 'Teman';
-$lang['MODS_LANGPACKS'] = 'Språkpaket';
-$lang['MODS_API_ERROR'] = 'Kunde inte ladda modifikationer: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Modifikationsservern är tillfälligt otillgänglig.';
-$lang['MODS_DESCRIPTION'] = 'Denna sida listar alla resurser publicerade på det officiella TorrentPier-forumet. Enkel installation med ett klick kommer att finnas i en framtida uppdatering – för nu, använd denna sida som ett resursshowcase.';
-$lang['MODS_REVIEW'] = 'recension';
-$lang['MODS_REVIEWS'] = 'recensioner';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Tvåstegsverifiering';
