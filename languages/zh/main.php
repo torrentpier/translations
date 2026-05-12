@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '點擊%s此處%s返回禁止用戶名管�
 // Version Check
 $lang['VERSION_INFORMATION'] = '版本信息。';
 $lang['CHANGELOG'] = '更新日誌';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = '專案已結束';
+$lang['EOL_FORUM_ARCHIVE'] = '論壇存檔';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = '允許的登錄嘗試。';
