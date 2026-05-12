@@ -1732,8 +1732,8 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Көрсетуді доға туралы 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'нұсқа ақпарат';
 $lang['CHANGELOG'] = 'Өзгерістер тізімі';
-$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
-$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
+$lang['EOL_PROJECT_CLOSED'] = 'Жоба жабылды';
+$lang['EOL_FORUM_ARCHIVE'] = 'Форум архиві';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Рұқсат етілген кіру әрекеттері.';
