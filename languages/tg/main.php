@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%sИн ҷо%s-ро ангушт зане�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Маълумоти версия';
-$lang['UPDATE_AVAILABLE'] = 'Таъсим кардан дастрас аст';
 $lang['CHANGELOG'] = 'Таърихномаи тағйирот';
+$lang['EOL_PROJECT_CLOSED'] = 'Лоиҳа баста шуд';
+$lang['EOL_FORUM_ARCHIVE'] = 'Архиви форум';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'кӯшишҳои воридшавии иҷозатдода';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Ягон сабти рӯйхати спам ёф
 $lang['SPAM_LOG_TOTAL'] = 'Ҳамагӣ сабтҳо';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Манъшуда';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Модератсияшуда';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Бозори моддӣ';
-$lang['MODIFICATIONS_LIST'] = 'тағйирот';
-$lang['MODS_VERSION'] = 'Нашрбрандаи назнаш';
-$lang['MODS_DOWNLOADS'] = 'Боргириҳо';
-$lang['MODS_RATING'] = 'Рейтинги';
-$lang['MODS_ACTIONS'] = 'Амалиётҳо';
-$lang['MODS_AUTHOR'] = 'муаллиф';
-$lang['MODS_CATEGORY'] = 'категория';
-$lang['MODS_LAST_UPDATED'] = 'охирин навсози.';
-$lang['MODS_TOTAL'] = 'Тамоми.';
-$lang['MODS_NO_RESOURCES'] = 'Модҳо ёфта нашуданд.';
-$lang['MODS_INSTALL'] = 'Насб кардан';
-$lang['MODS_INSTALL_SOON'] = 'Функсияи насб дар оянда дастрас мешавад';
-$lang['MODS_ALL_CATEGORIES'] = 'Ҳама категорияҳо';
-$lang['MODS_FREE'] = 'Ройгон';
-$lang['MODS_PAID'] = 'Пулӣ';
-$lang['MODS_THEMES'] = 'Мавзуъҳо';
-$lang['MODS_LANGPACKS'] = 'Бастаи забонҳо';
-$lang['MODS_API_ERROR'] = 'Намешавад модификасияҳоро боргузорӣ кард: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Сервери модификасияҳо муваққатан дастрас нест.';
-$lang['MODS_DESCRIPTION'] = 'Ин саҳифа ҳамаи захираҳои нашршуда дар форуми расмии TorrentPier-ро рӯйбарӯ мекунад. Насби бо як клик дар навсозии оянда дастрас хоҳад шуд — ҳоло ин саҳифаро ҳамчун намоишгоҳи захираҳо истифода баред.';
-$lang['MODS_REVIEW'] = 'баррасӣ';
-$lang['MODS_REVIEWS'] = 'баррасӣҳо';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Таъйиди дуқадамӣ';

@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klicken Sie %sHier%s, um zur Verwaltung n
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versionsinformationen';
-$lang['UPDATE_AVAILABLE'] = 'Update verfügbar';
 $lang['CHANGELOG'] = 'Änderungsprotokoll';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekt geschlossen';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum-Archiv';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Erlaubte Anmeldeversuche.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Keine Spam-Protokolleinträge gefunden';
 $lang['SPAM_LOG_TOTAL'] = 'Gesamteinträge';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Verweigert';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderiert';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marktplatz';
-$lang['MODIFICATIONS_LIST'] = 'Änderungen.';
-$lang['MODS_VERSION'] = 'Version';
-$lang['MODS_DOWNLOADS'] = 'Downloads';
-$lang['MODS_RATING'] = 'Bewertung';
-$lang['MODS_ACTIONS'] = 'Aktionen';
-$lang['MODS_AUTHOR'] = 'Autor';
-$lang['MODS_CATEGORY'] = 'Kategorie';
-$lang['MODS_LAST_UPDATED'] = 'Zuletzt Aktualisiert';
-$lang['MODS_TOTAL'] = 'Insgesamt';
-$lang['MODS_NO_RESOURCES'] = 'Keine Modifikationen gefunden.';
-$lang['MODS_INSTALL'] = 'Installieren';
-$lang['MODS_INSTALL_SOON'] = 'Installationsfunktion demnächst verfügbar';
-$lang['MODS_ALL_CATEGORIES'] = 'Alle Kategorien';
-$lang['MODS_FREE'] = 'Kostenlos';
-$lang['MODS_PAID'] = 'Kostenpflichtig';
-$lang['MODS_THEMES'] = 'Themen';
-$lang['MODS_LANGPACKS'] = 'Sprachpakete';
-$lang['MODS_API_ERROR'] = 'Konnte Modifikationen nicht laden: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Der Modifikationsserver ist vorübergehend nicht verfügbar.';
-$lang['MODS_DESCRIPTION'] = 'Diese Seite listet alle auf dem offiziellen TorrentPier-Forum veröffentlichten Ressourcen auf. Die Ein-Klick-Installation wird in einem zukünftigen Update verfügbar sein – derzeit dient diese Seite als Ressourcenschau.';
-$lang['MODS_REVIEW'] = 'Bewertung';
-$lang['MODS_REVIEWS'] = 'Bewertungen';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Zwei-Faktor-Authentifizierung';

@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikkige %sHere%s tagasi keelamise kasuta
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versiooni teave.';
-$lang['UPDATE_AVAILABLE'] = 'Uuendus on saadaval';
 $lang['CHANGELOG'] = 'Muudatused';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekt suletud';
+$lang['EOL_FORUM_ARCHIVE'] = 'Foorumi arhiiv';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Lubatud logimise katsed.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Rämpsposti logipostitusi ei leitud';
 $lang['SPAM_LOG_TOTAL'] = 'Postituste koguarv';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Keelatud';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Modereeritud';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
-$lang['MODIFICATIONS_LIST'] = 'Muudatused';
-$lang['MODS_VERSION'] = 'Versioon';
-$lang['MODS_DOWNLOADS'] = 'Allalaid';
-$lang['MODS_RATING'] = 'Hinnang';
-$lang['MODS_ACTIONS'] = 'Tegevused';
-$lang['MODS_AUTHOR'] = 'Autor';
-$lang['MODS_CATEGORY'] = 'Kategooria';
-$lang['MODS_LAST_UPDATED'] = 'Viimati uuendatud.';
-$lang['MODS_TOTAL'] = 'Kokku';
-$lang['MODS_NO_RESOURCES'] = 'Muudatusi ei leitud.';
-$lang['MODS_INSTALL'] = 'Paigalda';
-$lang['MODS_INSTALL_SOON'] = 'Paigaldamisfunktsioon tuleb varsti';
-$lang['MODS_ALL_CATEGORIES'] = 'Kõik kategooriad';
-$lang['MODS_FREE'] = 'Tasuta';
-$lang['MODS_PAID'] = 'Tasuline';
-$lang['MODS_THEMES'] = 'Teemad';
-$lang['MODS_LANGPACKS'] = 'Keelpakid';
-$lang['MODS_API_ERROR'] = 'Modifikatsioone ei saanud laadida: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Modifikatsioonide server on ajutiselt kättesaamatu.';
-$lang['MODS_DESCRIPTION'] = 'See leht loetleb kõik ametlikul TorrentPieri foorumil avaldatud ressursid. Ühe klõpsuga paigaldamine tuleb tulevases uuenduses – seni kasuta seda lehte kui ressursikogu näidet.';
-$lang['MODS_REVIEW'] = 'arvustus';
-$lang['MODS_REVIEWS'] = 'arvustust';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Kaheastmeline tuvastus';

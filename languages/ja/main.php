@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%s （%s ）をクリックして、無�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'バージョン情報';
-$lang['UPDATE_AVAILABLE'] = '更新が利用可能です';
 $lang['CHANGELOG'] = '変更履歴';
+$lang['EOL_PROJECT_CLOSED'] = 'プロジェクトがクローズされました';
+$lang['EOL_FORUM_ARCHIVE'] = 'フォーラム・アーカイブ';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = '許可されたログイン試行';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'スパムログのエントリが見つかりま
 $lang['SPAM_LOG_TOTAL'] = '合計エントリー数';
 $lang['SPAM_LOG_DENIED_COUNT'] = '拒否済み';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'モデレート済み';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'マーケットプレイス';
-$lang['MODIFICATIONS_LIST'] = '修正';
-$lang['MODS_VERSION'] = 'バージョン';
-$lang['MODS_DOWNLOADS'] = 'ダウンロード';
-$lang['MODS_RATING'] = '評価';
-$lang['MODS_ACTIONS'] = '操作';
-$lang['MODS_AUTHOR'] = '著者';
-$lang['MODS_CATEGORY'] = 'カテゴリ';
-$lang['MODS_LAST_UPDATED'] = '最終更新';
-$lang['MODS_TOTAL'] = '合計';
-$lang['MODS_NO_RESOURCES'] = '変更が見つかりません。';
-$lang['MODS_INSTALL'] = 'インストール';
-$lang['MODS_INSTALL_SOON'] = 'インストール機能はまもなく利用可能になります';
-$lang['MODS_ALL_CATEGORIES'] = 'すべてのカテゴリ';
-$lang['MODS_FREE'] = '無料';
-$lang['MODS_PAID'] = '有料';
-$lang['MODS_THEMES'] = 'テーマ';
-$lang['MODS_LANGPACKS'] = '言語パック';
-$lang['MODS_API_ERROR'] = '変更を読み込めませんでした: %s';
-$lang['MODS_API_UNAVAILABLE'] = '変更サーバーは一時的に利用できません。';
-$lang['MODS_DESCRIPTION'] = 'このページには公式TorrentPierフォーラムで公開されているすべてのリソースが掲載されています。ワンクリックインストールは将来の更新で利用可能になる予定です — 今のところ、このページをリソースショーケースとしてご利用ください。';
-$lang['MODS_REVIEW'] = 'レビュー';
-$lang['MODS_REVIEWS'] = 'レビューズ';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = '二段階認証';

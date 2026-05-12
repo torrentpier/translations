@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Fare clic su %sHere%s per tornare all\'Am
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informazioni Sulla Versione';
-$lang['UPDATE_AVAILABLE'] = 'Aggiornamento disponibile';
 $lang['CHANGELOG'] = 'Registro delle modifiche';
+$lang['EOL_PROJECT_CLOSED'] = 'Progetto chiuso';
+$lang['EOL_FORUM_ARCHIVE'] = 'Archivio del forum';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Tentativi di login consentiti';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nessuna voce nel registro spam trovata';
 $lang['SPAM_LOG_TOTAL'] = 'Voci totali';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Negato';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderato';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marketplace';
-$lang['MODIFICATIONS_LIST'] = 'Modifiche';
-$lang['MODS_VERSION'] = 'Versione';
-$lang['MODS_DOWNLOADS'] = 'Download';
-$lang['MODS_RATING'] = 'Valutazione';
-$lang['MODS_ACTIONS'] = 'Azioni';
-$lang['MODS_AUTHOR'] = 'Autore';
-$lang['MODS_CATEGORY'] = 'Categoria';
-$lang['MODS_LAST_UPDATED'] = 'Ultimo aggiornamento.';
-$lang['MODS_TOTAL'] = 'Totale';
-$lang['MODS_NO_RESOURCES'] = 'Nessuna modifica trovata.';
-$lang['MODS_INSTALL'] = 'Installa';
-$lang['MODS_INSTALL_SOON'] = 'Funzionalità di installazione in arrivo';
-$lang['MODS_ALL_CATEGORIES'] = 'Tutte le categorie';
-$lang['MODS_FREE'] = 'Gratis';
-$lang['MODS_PAID'] = 'A pagamento';
-$lang['MODS_THEMES'] = 'Temi';
-$lang['MODS_LANGPACKS'] = 'Pacchetti di lingua';
-$lang['MODS_API_ERROR'] = 'Impossibile caricare le modifiche: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Il server delle modifiche è temporaneamente non disponibile.';
-$lang['MODS_DESCRIPTION'] = 'Questa pagina elenca tutte le risorse pubblicate sul forum ufficiale di TorrentPier. L\'installazione con un clic sarà disponibile in un aggiornamento futuro — per ora, usa questa pagina come vetrina delle risorse.';
-$lang['MODS_REVIEW'] = 'recensione';
-$lang['MODS_REVIEWS'] = 'recensioni';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Verifica in due passaggi';

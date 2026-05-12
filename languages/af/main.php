@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klik %sHere%s om terug te keer na Adminis
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Weergawe-inligting';
-$lang['UPDATE_AVAILABLE'] = 'Opdatering beskikbaar';
 $lang['CHANGELOG'] = 'Veranderingslys';
+$lang['EOL_PROJECT_CLOSED'] = 'Projek gesluit';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum argief';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Toegelate login pogings';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Geen strooipos-loginskrywings gevind nie';
 $lang['SPAM_LOG_TOTAL'] = 'Totale inskrywings';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Geweier';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Gemodereer';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Marktplaats';
-$lang['MODIFICATIONS_LIST'] = 'modifikasies';
-$lang['MODS_VERSION'] = 'Weergawe';
-$lang['MODS_DOWNLOADS'] = 'aflaaie.';
-$lang['MODS_RATING'] = 'Waardering';
-$lang['MODS_ACTIONS'] = 'Aksies';
-$lang['MODS_AUTHOR'] = 'skrywer';
-$lang['MODS_CATEGORY'] = 'Kategorie';
-$lang['MODS_LAST_UPDATED'] = 'Laas opgedateer';
-$lang['MODS_TOTAL'] = 'totale';
-$lang['MODS_NO_RESOURCES'] = 'Geen wysigings gevind nie.';
-$lang['MODS_INSTALL'] = 'Installeer';
-$lang['MODS_INSTALL_SOON'] = 'Installasie-funksie kom binnekort';
-$lang['MODS_ALL_CATEGORIES'] = 'Alle kategorieë';
-$lang['MODS_FREE'] = 'Gratis';
-$lang['MODS_PAID'] = 'Betaal';
-$lang['MODS_THEMES'] = 'Tema\'s';
-$lang['MODS_LANGPACKS'] = 'Taalpakkette';
-$lang['MODS_API_ERROR'] = 'Kon nie wysigings laai nie: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Die wysigingsbediener is tydelik onbeskikbaar.';
-$lang['MODS_DESCRIPTION'] = 'Hierdie bladsy lys alle hulpbronne wat op die amptelike TorrentPier-forum gepubliseer is. Een-klik installasie sal in \'n toekomstige opdatering beskikbaar wees — vir nou, gebruik hierdie bladsy as \'n hulpbronposent.';
-$lang['MODS_REVIEW'] = 'resensie';
-$lang['MODS_REVIEWS'] = 'resensies';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Twee-stap verifikasie';

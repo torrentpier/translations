@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '點擊%s此處%s返回禁止用戶名管�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = '版本信息。';
-$lang['UPDATE_AVAILABLE'] = '可用更新';
 $lang['CHANGELOG'] = '更新日誌';
+$lang['EOL_PROJECT_CLOSED'] = '專案已結束';
+$lang['EOL_FORUM_ARCHIVE'] = '論壇存檔';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = '允許的登錄嘗試。';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = '未找到垃圾郵件紀錄條目';
 $lang['SPAM_LOG_TOTAL'] = '條目總數';
 $lang['SPAM_LOG_DENIED_COUNT'] = '拒絕';
 $lang['SPAM_LOG_MODERATED_COUNT'] = '審核中';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = '市場';
-$lang['MODIFICATIONS_LIST'] = '修改項目';
-$lang['MODS_VERSION'] = '版本';
-$lang['MODS_DOWNLOADS'] = '下載';
-$lang['MODS_RATING'] = '評分';
-$lang['MODS_ACTIONS'] = '動作';
-$lang['MODS_AUTHOR'] = '作者';
-$lang['MODS_CATEGORY'] = '分类';
-$lang['MODS_LAST_UPDATED'] = '最后更新';
-$lang['MODS_TOTAL'] = '总';
-$lang['MODS_NO_RESOURCES'] = '未找到任何修改。';
-$lang['MODS_INSTALL'] = '安裝';
-$lang['MODS_INSTALL_SOON'] = '即將推出安裝功能';
-$lang['MODS_ALL_CATEGORIES'] = '所有分類';
-$lang['MODS_FREE'] = '免費';
-$lang['MODS_PAID'] = '付費';
-$lang['MODS_THEMES'] = '主題';
-$lang['MODS_LANGPACKS'] = '語言包';
-$lang['MODS_API_ERROR'] = '無法載入修改：%s';
-$lang['MODS_API_UNAVAILABLE'] = '修改伺服器暫時無法使用。';
-$lang['MODS_DESCRIPTION'] = '此頁面列出了官方 TorrentPier 論壇上發布的所有資源。一鍵安裝功能將在未來更新中提供 — 目前請將此頁面作為資源展示。';
-$lang['MODS_REVIEW'] = '評論';
-$lang['MODS_REVIEWS'] = '評論們';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = '兩步驟驗證';

@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'अस्वीकृत उपयोग�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'संस्करण जानकारी';
-$lang['UPDATE_AVAILABLE'] = 'अपडेट उपलब्ध है';
 $lang['CHANGELOG'] = 'चेंज लोग';
+$lang['EOL_PROJECT_CLOSED'] = 'परियोजना बंद हुई';
+$lang['EOL_FORUM_ARCHIVE'] = 'फ़ोरम अभिलेखागार';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'स्वीकृत लॉगिन प्रयास';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'कोई स्पैम लॉग प्रव
 $lang['SPAM_LOG_TOTAL'] = 'कुल प्रविष्टियाँ';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'अस्वीकृत';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'मॉडरेटेड';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'मार्केटप्लेस';
-$lang['MODIFICATIONS_LIST'] = 'संशोधन';
-$lang['MODS_VERSION'] = 'संस्करण';
-$lang['MODS_DOWNLOADS'] = 'डाउनलोड';
-$lang['MODS_RATING'] = 'रेटिंग';
-$lang['MODS_ACTIONS'] = 'कार्रवाइयाँ';
-$lang['MODS_AUTHOR'] = 'लेखक';
-$lang['MODS_CATEGORY'] = 'वर्ग';
-$lang['MODS_LAST_UPDATED'] = 'आखरी अपडेट';
-$lang['MODS_TOTAL'] = 'कुल';
-$lang['MODS_NO_RESOURCES'] = 'कोई संशोधन नहीं मिला।';
-$lang['MODS_INSTALL'] = 'इंस्टॉल करें';
-$lang['MODS_INSTALL_SOON'] = 'इंस्टॉलेशन फीचर जल्द आ रहा है';
-$lang['MODS_ALL_CATEGORIES'] = 'सभी श्रेणियाँ';
-$lang['MODS_FREE'] = 'मुफ़्त';
-$lang['MODS_PAID'] = 'भुगतान किया हुआ';
-$lang['MODS_THEMES'] = 'थीम्स';
-$lang['MODS_LANGPACKS'] = 'भाषा पैक';
-$lang['MODS_API_ERROR'] = 'संशोधन लोड नहीं हो सके: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'संशोधन सर्वर अस्थायी रूप से अनुपलब्ध है।';
-$lang['MODS_DESCRIPTION'] = 'यह पृष्ठ आधिकारिक TorrentPier फोरम पर प्रकाशित सभी संसाधनों की सूची प्रदान करता है। एक-क्लिक इंस्टॉलेशन भविष्य के अपडेट में उपलब्ध होगा — फिलहाल, इस पृष्ठ का उपयोग संसाधन प्रदर्शन के रूप में करें।';
-$lang['MODS_REVIEW'] = 'समीक्षा';
-$lang['MODS_REVIEWS'] = 'समीक्षाएँ';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'दो-स्तरीय सत्यापन';

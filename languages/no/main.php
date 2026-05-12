@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikk %sHer%s for å gå tilbake til admi
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versjon Informasjon';
-$lang['UPDATE_AVAILABLE'] = 'Oppdatering tilgjengelig';
 $lang['CHANGELOG'] = 'Endringslogg';
+$lang['EOL_PROJECT_CLOSED'] = 'Prosjekt lukket';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forumarkiv';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Tillatt påloggingsforsøk';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Ingen poster i søppelpostloggen funnet';
 $lang['SPAM_LOG_TOTAL'] = 'Totalt antall poster';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Avvist';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderat';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Markedet';
-$lang['MODIFICATIONS_LIST'] = 'Endringer';
-$lang['MODS_VERSION'] = 'Versjon';
-$lang['MODS_DOWNLOADS'] = 'Nedlastinger';
-$lang['MODS_RATING'] = 'Vurdering';
-$lang['MODS_ACTIONS'] = 'Handlinger';
-$lang['MODS_AUTHOR'] = 'Forfatter';
-$lang['MODS_CATEGORY'] = 'Kategori';
-$lang['MODS_LAST_UPDATED'] = 'Sist Oppdatert';
-$lang['MODS_TOTAL'] = 'Total';
-$lang['MODS_NO_RESOURCES'] = 'Ingen modifikasjoner funnet.';
-$lang['MODS_INSTALL'] = 'Installer';
-$lang['MODS_INSTALL_SOON'] = 'Installeringsfunksjon kommer snart';
-$lang['MODS_ALL_CATEGORIES'] = 'Alle kategorier';
-$lang['MODS_FREE'] = 'Gratis';
-$lang['MODS_PAID'] = 'Betalt';
-$lang['MODS_THEMES'] = 'Temaer';
-$lang['MODS_LANGPACKS'] = 'Språkpakker';
-$lang['MODS_API_ERROR'] = 'Kunne ikke laste modifikasjoner: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Modifikasjonsserveren er midlertidig utilgjengelig.';
-$lang['MODS_DESCRIPTION'] = 'Denne siden viser alle ressurser publisert på det offisielle TorrentPier-forumet. Én-klikk-installasjon vil bli tilgjengelig i en fremtidig oppdatering — for nå, bruk denne siden som en ressursvisning.';
-$lang['MODS_REVIEW'] = 'anmeldelse';
-$lang['MODS_REVIEWS'] = 'anmeldelser';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'To-trinns verifisering';

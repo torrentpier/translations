@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = '%sВернуться к управлен�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Информация о версии TorrentPier';
-$lang['UPDATE_AVAILABLE'] = 'Доступно обновление';
 $lang['CHANGELOG'] = 'Список изменений';
+$lang['EOL_PROJECT_CLOSED'] = 'Проект закрыт';
+$lang['EOL_FORUM_ARCHIVE'] = 'Архив форума';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Разрешено попыток входа';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Записи в журнале спама не �
 $lang['SPAM_LOG_TOTAL'] = 'Всего записей';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Отклонено';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Модерировано';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Маркетплейс';
-$lang['MODIFICATIONS_LIST'] = 'Модификации';
-$lang['MODS_VERSION'] = 'Версия';
-$lang['MODS_DOWNLOADS'] = 'Закачки';
-$lang['MODS_RATING'] = 'Рейтинг';
-$lang['MODS_ACTIONS'] = 'Действия';
-$lang['MODS_AUTHOR'] = 'Автор';
-$lang['MODS_CATEGORY'] = 'Категория';
-$lang['MODS_LAST_UPDATED'] = 'Последнее изменение';
-$lang['MODS_TOTAL'] = 'Всего';
-$lang['MODS_NO_RESOURCES'] = 'Модификации не найдены.';
-$lang['MODS_INSTALL'] = 'Установить';
-$lang['MODS_INSTALL_SOON'] = 'Функция установки скоро появится';
-$lang['MODS_ALL_CATEGORIES'] = 'Все категории';
-$lang['MODS_FREE'] = 'Бесплатно';
-$lang['MODS_PAID'] = 'Платно';
-$lang['MODS_THEMES'] = 'Темы';
-$lang['MODS_LANGPACKS'] = 'Языковые пакеты';
-$lang['MODS_API_ERROR'] = 'Не удалось загрузить модификации: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Сервер модификаций временно недоступен.';
-$lang['MODS_DESCRIPTION'] = 'На этой странице перечислены все ресурсы, опубликованные на официальном форуме TorrentPier. Установка одним кликом будет доступна в будущем обновлении — пока используйте эту страницу как витрину ресурсов.';
-$lang['MODS_REVIEW'] = 'отзыв';
-$lang['MODS_REVIEWS'] = 'отзыва, отзывов, отзывов, отзывов';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Двухэтапная проверка';

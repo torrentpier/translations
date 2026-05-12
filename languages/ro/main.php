@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Faceți clic pe %sAici%s pentru a reveni 
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informațiile De Versiune';
-$lang['UPDATE_AVAILABLE'] = 'Actualizare disponibilă';
 $lang['CHANGELOG'] = 'Jurnal de modificări';
+$lang['EOL_PROJECT_CLOSED'] = 'Proiect închis';
+$lang['EOL_FORUM_ARCHIVE'] = 'Arhiva forumului';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Încercări de autentificare permise';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nu s-au găsit înregistrări în jurnalul de sp
 $lang['SPAM_LOG_TOTAL'] = 'Intrări totale';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Refuzate';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderate';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Piață';
-$lang['MODIFICATIONS_LIST'] = 'Modificări.';
-$lang['MODS_VERSION'] = 'Versiune';
-$lang['MODS_DOWNLOADS'] = 'Descărcări';
-$lang['MODS_RATING'] = 'Evaluare';
-$lang['MODS_ACTIONS'] = 'Acțiuni';
-$lang['MODS_AUTHOR'] = 'Autor';
-$lang['MODS_CATEGORY'] = 'Categorie';
-$lang['MODS_LAST_UPDATED'] = 'Actualizat.';
-$lang['MODS_TOTAL'] = 'Total';
-$lang['MODS_NO_RESOURCES'] = 'Nu au fost găsite modificări.';
-$lang['MODS_INSTALL'] = 'Instalare';
-$lang['MODS_INSTALL_SOON'] = 'Funcția de instalare va fi disponibilă în curând';
-$lang['MODS_ALL_CATEGORIES'] = 'Toate categoriile';
-$lang['MODS_FREE'] = 'Gratuit';
-$lang['MODS_PAID'] = 'Plătit';
-$lang['MODS_THEMES'] = 'Teme';
-$lang['MODS_LANGPACKS'] = 'Pachete de limbi';
-$lang['MODS_API_ERROR'] = 'Nu au putut fi încărcate modificările: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Serverul de modificări este temporar indisponibil.';
-$lang['MODS_DESCRIPTION'] = 'Această pagină listează toate resursele publicate pe forumul oficial TorrentPier. Instalarea cu un singur clic va fi disponibilă într-o actualizare viitoare — pentru moment, folosiți această pagină ca o vitrină de resurse.';
-$lang['MODS_REVIEW'] = 'recenzie';
-$lang['MODS_REVIEWS'] = 'recenzii';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Verificare în doi pași';

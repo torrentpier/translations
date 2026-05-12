@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Clique %sAqui%s para retornar à Administ
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informações De Versão';
-$lang['UPDATE_AVAILABLE'] = 'Atualização disponível';
 $lang['CHANGELOG'] = 'Registro de alterações';
+$lang['EOL_PROJECT_CLOSED'] = 'Projeto fechado';
+$lang['EOL_FORUM_ARCHIVE'] = 'Arquivo do fórum';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Tentativas de login permitidas.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nenhuma entrada no registro de spam encontrada';
 $lang['SPAM_LOG_TOTAL'] = 'Total de entradas';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Negado';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderado';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Mercado';
-$lang['MODIFICATIONS_LIST'] = 'Modificações';
-$lang['MODS_VERSION'] = 'Versão';
-$lang['MODS_DOWNLOADS'] = 'Downloads';
-$lang['MODS_RATING'] = 'Avaliação';
-$lang['MODS_ACTIONS'] = 'Ações';
-$lang['MODS_AUTHOR'] = 'Autor';
-$lang['MODS_CATEGORY'] = 'Categoria';
-$lang['MODS_LAST_UPDATED'] = 'Atualizado.';
-$lang['MODS_TOTAL'] = 'Total';
-$lang['MODS_NO_RESOURCES'] = 'Nenhuma modificação encontrada.';
-$lang['MODS_INSTALL'] = 'Instalar';
-$lang['MODS_INSTALL_SOON'] = 'Recurso de instalação em breve';
-$lang['MODS_ALL_CATEGORIES'] = 'Todas as categorias';
-$lang['MODS_FREE'] = 'Grátis';
-$lang['MODS_PAID'] = 'Pago';
-$lang['MODS_THEMES'] = 'Temas';
-$lang['MODS_LANGPACKS'] = 'Pacotes de Idioma';
-$lang['MODS_API_ERROR'] = 'Não foi possível carregar modificações: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'O servidor de modificações está temporariamente indisponível.';
-$lang['MODS_DESCRIPTION'] = 'Esta página lista todos os recursos publicados no fórum oficial do TorrentPier. A instalação com um clique estará disponível em uma atualização futura — por enquanto, use esta página como uma vitrine de recursos.';
-$lang['MODS_REVIEW'] = 'avaliação';
-$lang['MODS_REVIEWS'] = 'avaliações';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Verificação em duas etapas';

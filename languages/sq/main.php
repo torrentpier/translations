@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Klikoni %sKëtu%s për t\'u kthyer në Ad
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informacioni mbi Versionin.';
-$lang['UPDATE_AVAILABLE'] = 'Përditësimi në dispozicion';
 $lang['CHANGELOG'] = 'Historia e ndryshimeve';
+$lang['EOL_PROJECT_CLOSED'] = 'Projekti i mbyllur';
+$lang['EOL_FORUM_ARCHIVE'] = 'Arkiva e forumit';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Lejohen përpjekjet për identifikimin.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nuk u gjetën regjistra spam';
 $lang['SPAM_LOG_TOTAL'] = 'Totali i regjistrimeve';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Refuzuar';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderuar';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Tregu i Lirë';
-$lang['MODIFICATIONS_LIST'] = 'Modifikimet';
-$lang['MODS_VERSION'] = 'Versioni';
-$lang['MODS_DOWNLOADS'] = 'Shkarkime';
-$lang['MODS_RATING'] = 'Vlerësimi';
-$lang['MODS_ACTIONS'] = 'Veprime';
-$lang['MODS_AUTHOR'] = 'Autori';
-$lang['MODS_CATEGORY'] = 'Kategoria';
-$lang['MODS_LAST_UPDATED'] = 'Modifikimi i fundit';
-$lang['MODS_TOTAL'] = 'Gjithsej';
-$lang['MODS_NO_RESOURCES'] = 'Nuk u gjetën modifikime.';
-$lang['MODS_INSTALL'] = 'Instalo';
-$lang['MODS_INSTALL_SOON'] = 'Veçoria e instalimit do të vijë së shpejti';
-$lang['MODS_ALL_CATEGORIES'] = 'Të gjitha kategoritë';
-$lang['MODS_FREE'] = 'Falas';
-$lang['MODS_PAID'] = 'Me pagesë';
-$lang['MODS_THEMES'] = 'Tema';
-$lang['MODS_LANGPACKS'] = 'Paketat e gjuhës';
-$lang['MODS_API_ERROR'] = 'Nuk u mund të ngarkohen modifikimet: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Shërbimi i modifikimeve është i paarritshëm përkohësisht.';
-$lang['MODS_DESCRIPTION'] = 'Kjo faqe liston të gjitha burimet e publikuara në forumet zyrtare të TorrentPier. Instalimi me një klikim do të jetë i disponueshëm në një përditësim të ardhshëm — për tani, përdoreni këtë faqe si një ekspozitë burimesh.';
-$lang['MODS_REVIEW'] = 'rishikim';
-$lang['MODS_REVIEWS'] = 'rishikime';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Verifikim me dy hapa';

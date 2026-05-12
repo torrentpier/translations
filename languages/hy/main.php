@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Սեղմեք %s այստեղ %s վերա�
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Տեղեկություններ Տարբերակը';
-$lang['UPDATE_AVAILABLE'] = 'Թարմացումը հասանելի է';
 $lang['CHANGELOG'] = 'Փոփոխությունների ցանկ';
+$lang['EOL_PROJECT_CLOSED'] = 'Նախագիծ փակված է';
+$lang['EOL_FORUM_ARCHIVE'] = 'Ֆորումի արխիվ';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Թույլատրված մուտքերի փորձերը.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Սպամի արխիվում գրանցումնե
 $lang['SPAM_LOG_TOTAL'] = 'Ընդհանուր ցուցումներ';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Մերժված';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Մոդերացված';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Շուկա (Marketplace)';
-$lang['MODIFICATIONS_LIST'] = 'Փոփոխություններ: This should express \'Փոփոխություններ\' more clearly and specific, perhaps \'Փոփոխություններ կատարել\':';
-$lang['MODS_VERSION'] = 'հոդված';
-$lang['MODS_DOWNLOADS'] = 'Բեռնումներ:';
-$lang['MODS_RATING'] = 'Գնորոշում';
-$lang['MODS_ACTIONS'] = 'Գործողություններ';
-$lang['MODS_AUTHOR'] = 'Հեղինակ';
-$lang['MODS_CATEGORY'] = 'Կատեգորիա';
-$lang['MODS_LAST_UPDATED'] = 'Վերջին Թարմացում';
-$lang['MODS_TOTAL'] = 'Ընդհանուր';
-$lang['MODS_NO_RESOURCES'] = 'Տվյալ փոփոխություններ չեն գտնվել։';
-$lang['MODS_INSTALL'] = 'Տեղադրել';
-$lang['MODS_INSTALL_SOON'] = 'Տեղադրման հնարավորություն շուտով';
-$lang['MODS_ALL_CATEGORIES'] = 'Բոլոր կատեգորիաները';
-$lang['MODS_FREE'] = 'Անվճար';
-$lang['MODS_PAID'] = 'Վճարովի';
-$lang['MODS_THEMES'] = 'Թեմաներ';
-$lang['MODS_LANGPACKS'] = 'Լեզվական փաթեթներ';
-$lang['MODS_API_ERROR'] = 'Չհաջողվեց բեռնել փոփոխությունները։ %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Փոփոխությունների սերվերը ժամանակավորապես անհասանելի է։';
-$lang['MODS_DESCRIPTION'] = 'Այս էջը ցուցադրում է պաշտոնական TorrentPier ֆորումում հրապարակված բոլոր ռեսուրսները։ Մի-բացման տեղադրում հասանելի կլինի ապագա թարմացումներում։ Ներկայումս օգտագործեք այս էջը որպես ռեսուրսների ցուցադրություն։';
-$lang['MODS_REVIEW'] = 'քննադատություն';
-$lang['MODS_REVIEWS'] = 'քննադատություններ';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Երկու մակարդակով վավերացում';
