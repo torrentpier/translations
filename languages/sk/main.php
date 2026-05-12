@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kliknite na tlačidlo %sTu%s, aby ste sa 
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informácie O Verzii';
-$lang['UPDATE_AVAILABLE'] = 'Aktualizácia k dispozícii';
 $lang['CHANGELOG'] = 'Zoznam zmien';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Povolené pokusy o prihlásenie.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nenájdené žiadne záznamy spamu';
 $lang['SPAM_LOG_TOTAL'] = 'Celkový počet záznamov';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Odmietnuté';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderované';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Trhovisko';
-$lang['MODIFICATIONS_LIST'] = 'Úpravy.';
-$lang['MODS_VERSION'] = 'Verzia';
-$lang['MODS_DOWNLOADS'] = 'Súbory na stiahnutie';
-$lang['MODS_RATING'] = 'Hodnotenie';
-$lang['MODS_ACTIONS'] = 'Akcie';
-$lang['MODS_AUTHOR'] = 'Autor';
-$lang['MODS_CATEGORY'] = 'Kategória';
-$lang['MODS_LAST_UPDATED'] = 'Posledná Aktualizácia:';
-$lang['MODS_TOTAL'] = 'Celkom';
-$lang['MODS_NO_RESOURCES'] = 'Nenašli sa žiadne úpravy.';
-$lang['MODS_INSTALL'] = 'Inštalovať';
-$lang['MODS_INSTALL_SOON'] = 'Funkcia inštalácie čoskoro k dispozícii';
-$lang['MODS_ALL_CATEGORIES'] = 'Všetky kategórie';
-$lang['MODS_FREE'] = 'Zdarma';
-$lang['MODS_PAID'] = 'Platené';
-$lang['MODS_THEMES'] = 'Témy';
-$lang['MODS_LANGPACKS'] = 'Jazykové balíky';
-$lang['MODS_API_ERROR'] = 'Nepodarilo sa načítať úpravy: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Server úprav je dočasne nedostupný.';
-$lang['MODS_DESCRIPTION'] = 'Táto stránka zobrazuje všetky zdroje zverejnené na oficiálnom fóre TorrentPier. Inštalácia jedným kliknutím bude dostupná v budúcej aktualizácii – zatiaľ používajte túto stránku ako ukážku zdrojov.';
-$lang['MODS_REVIEW'] = 'recenzia';
-$lang['MODS_REVIEWS'] = 'recenzie';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Dvojfázové overenie';
