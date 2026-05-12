@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Kliknite %sOvdje%s za povratak u Administ
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Informacije O Verziji';
-$lang['UPDATE_AVAILABLE'] = 'Ažuriranje dostupno';
 $lang['CHANGELOG'] = 'Zapis o promjenama';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Dozvoljenih pokušaja prijave.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nema zapisa u dnevniku neželjene pošte';
 $lang['SPAM_LOG_TOTAL'] = 'Ukupan broj zapisa';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Odbijeno';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderirano';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Tržnica';
-$lang['MODIFICATIONS_LIST'] = 'Modifikacija';
-$lang['MODS_VERSION'] = 'Verzija';
-$lang['MODS_DOWNLOADS'] = 'Preuzimanja';
-$lang['MODS_RATING'] = 'Ocjena';
-$lang['MODS_ACTIONS'] = 'Radnje';
-$lang['MODS_AUTHOR'] = 'Autor';
-$lang['MODS_CATEGORY'] = 'Kategorija';
-$lang['MODS_LAST_UPDATED'] = 'Posljednja Promjena';
-$lang['MODS_TOTAL'] = 'Ukupno';
-$lang['MODS_NO_RESOURCES'] = 'Nema pronađenih modifikacija.';
-$lang['MODS_INSTALL'] = 'Instaliraj';
-$lang['MODS_INSTALL_SOON'] = 'Značajka instalacije uskoro dolazi';
-$lang['MODS_ALL_CATEGORIES'] = 'Sve kategorije';
-$lang['MODS_FREE'] = 'Besplatno';
-$lang['MODS_PAID'] = 'Plaćeno';
-$lang['MODS_THEMES'] = 'Teme';
-$lang['MODS_LANGPACKS'] = 'Jezični paketi';
-$lang['MODS_API_ERROR'] = 'Nije moguće učitati modifikacije: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Poslužitelj modifikacija trenutno nije dostupan.';
-$lang['MODS_DESCRIPTION'] = 'Ova stranica prikazuje sve resurse objavljene na službenom TorrentPier forumu. Instalacija jednim klikom bit će dostupna u budućoj nadogradnji — za sada koristite ovu stranicu kao izložbeni prostor resursa.';
-$lang['MODS_REVIEW'] = 'recenzija';
-$lang['MODS_REVIEWS'] = 'recenzije';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Dvofaktorska provjera autentičnosti';
