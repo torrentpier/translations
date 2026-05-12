@@ -1731,8 +1731,9 @@ $lang['CLICK_RETURN_DISALLOWADMIN'] = 'Noklikšķiniet uz %sHere%s, lai atgriezt
 
 // Version Check
 $lang['VERSION_INFORMATION'] = 'Versijas informācija.';
-$lang['UPDATE_AVAILABLE'] = 'Atjauninājums ir pieejams';
 $lang['CHANGELOG'] = 'Izmaiņu žurnāls';
+$lang['EOL_PROJECT_CLOSED'] = 'Project closed';
+$lang['EOL_FORUM_ARCHIVE'] = 'Forum archive';
 
 // Login attempts configuration
 $lang['MAX_LOGIN_ATTEMPTS'] = 'Atļaut pieteikšanās mēģinājumus.';
@@ -2335,31 +2336,6 @@ $lang['SPAM_LOG_NO_RECORDS'] = 'Nav atrasti ieraksti surogātpasta žurnālā';
 $lang['SPAM_LOG_TOTAL'] = 'Kopējie ieraksti';
 $lang['SPAM_LOG_DENIED_COUNT'] = 'Noraidīts';
 $lang['SPAM_LOG_MODERATED_COUNT'] = 'Moderēts';
-
-// Marketplace / Modifications
-$lang['MARKETPLACE'] = 'Tirgus laukums';
-$lang['MODIFICATIONS_LIST'] = 'Izmaiņas';
-$lang['MODS_VERSION'] = 'Versija';
-$lang['MODS_DOWNLOADS'] = 'Lejupielādes';
-$lang['MODS_RATING'] = 'Vērtējums';
-$lang['MODS_ACTIONS'] = 'Darbības';
-$lang['MODS_AUTHOR'] = 'Autors';
-$lang['MODS_CATEGORY'] = 'Kategorijas';
-$lang['MODS_LAST_UPDATED'] = 'Pēdējo Reizi Atjaunināts';
-$lang['MODS_TOTAL'] = 'Kopā';
-$lang['MODS_NO_RESOURCES'] = 'Nav atrastas modifikācijas.';
-$lang['MODS_INSTALL'] = 'Instalēt';
-$lang['MODS_INSTALL_SOON'] = 'Drīzumā pieejama instalēšanas funkcija';
-$lang['MODS_ALL_CATEGORIES'] = 'Visas kategorijas';
-$lang['MODS_FREE'] = 'Bezmaksas';
-$lang['MODS_PAID'] = 'Maksas';
-$lang['MODS_THEMES'] = 'Tēmas';
-$lang['MODS_LANGPACKS'] = 'Valodas pakotnes';
-$lang['MODS_API_ERROR'] = 'Neizdevās ielādēt modifikācijas: %s';
-$lang['MODS_API_UNAVAILABLE'] = 'Modifikāciju serveris pagaidu nepieejams.';
-$lang['MODS_DESCRIPTION'] = 'Šī lapa uzskaita visus resursus, kas publicēti oficiālajā TorrentPier forumā. Nākotnē būs viena klikšķa instalēšanas iespēja — pagaidām izmantojiet šo lapu kā resursu izstādi.';
-$lang['MODS_REVIEW'] = 'atskats';
-$lang['MODS_REVIEWS'] = 'atskati';
 
 // Two-factor authentication
 $lang['TWO_FACTOR_AUTH'] = 'Divfaktoru verifikācija';
